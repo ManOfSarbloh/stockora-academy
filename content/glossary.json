@@ -2891,7 +2891,8 @@
     "term": "Cost-average effect",
     "aliases": [
       "cost-average effect",
-      "cost averaging"
+      "cost averaging",
+      "dollar-cost averaging"
     ],
     "definition": "Investing the same amount regularly means buying more units when prices are low and fewer when they are high, which lowers the average cost per unit compared with the average price.",
     "related": [
@@ -6245,5 +6246,155 @@
       "M",
       "O"
     ]
+  },
+  {
+    "id": "asset-allocation",
+    "term": "Asset allocation",
+    "definition": "How a portfolio is divided among asset categories such as shares, bonds and cash. It depends mainly on your time horizon and risk tolerance.",
+    "related": [
+      "diversification",
+      "rebalancing"
+    ],
+    "categories": [
+      "M"
+    ],
+    "de": "Vermögensaufteilung / Asset Allocation"
+  },
+  {
+    "id": "rebalancing",
+    "term": "Rebalancing",
+    "definition": "Bringing a portfolio back to its original asset allocation after some investments have grown faster than others.",
+    "related": [
+      "asset-allocation"
+    ],
+    "categories": [
+      "M"
+    ],
+    "de": "Rebalancing / Umschichtung"
+  },
+  {
+    "id": "time-horizon",
+    "term": "Time horizon",
+    "aliases": [
+      "investment horizon"
+    ],
+    "definition": "The number of months, years or decades you plan to invest before you need the money for a goal.",
+    "related": [
+      "risk-tolerance",
+      "asset-allocation"
+    ],
+    "categories": [
+      "M"
+    ],
+    "de": "Anlagehorizont"
+  },
+  {
+    "id": "risk-tolerance",
+    "term": "Risk tolerance",
+    "aliases": [
+      "risk capacity"
+    ],
+    "definition": "Your ability and willingness to lose some or all of an investment in exchange for greater potential returns.",
+    "related": [
+      "time-horizon",
+      "suitability-assessment"
+    ],
+    "categories": [
+      "M",
+      "P"
+    ],
+    "de": "Risikobereitschaft / Risikotragfähigkeit"
+  },
+  {
+    "id": "emergency-fund",
+    "term": "Emergency fund",
+    "aliases": [
+      "emergency savings"
+    ],
+    "definition": "Easily accessible savings for unexpected expenses or loss of income, often three to six months of living expenses, so you do not have to sell investments at a bad time.",
+    "related": [
+      "time-horizon"
+    ],
+    "categories": [
+      "M"
+    ],
+    "de": "Notgroschen / Notreserve"
+  },
+  {
+    "id": "target-date-fund",
+    "term": "Target-date fund",
+    "aliases": [
+      "lifecycle fund",
+      "target date fund"
+    ],
+    "definition": "A diversified fund that automatically shifts towards a more conservative mix as it approaches a set year, its target date.",
+    "related": [
+      "glide-path",
+      "asset-allocation"
+    ],
+    "categories": [
+      "M",
+      "H"
+    ],
+    "de": "Zieldatumfonds / Lebenszyklusfonds"
+  },
+  {
+    "id": "glide-path",
+    "term": "Glide path",
+    "definition": "A planned change in asset allocation over time, usually reducing the share of stocks as a goal such as retirement approaches.",
+    "related": [
+      "target-date-fund"
+    ],
+    "categories": [
+      "M"
+    ]
+  },
+  {
+    "id": "passive-investing",
+    "term": "Passive investing",
+    "definition": "Investing in funds that track an index instead of trying to beat it, usually at low cost.",
+    "related": [
+      "index-fund",
+      "active-fund",
+      "etf"
+    ],
+    "categories": [
+      "M",
+      "H"
+    ],
+    "de": "Passives Investieren"
+  },
+  {
+    "id": "investment-plan",
+    "term": "Investment plan",
+    "aliases": [
+      "investment policy statement"
+    ],
+    "definition": "A short written plan setting out your goals, target mix, products, rebalancing rules and what you will do in a market crash.",
+    "related": [
+      "asset-allocation",
+      "rebalancing"
+    ],
+    "categories": [
+      "M",
+      "O"
+    ],
+    "de": "Anlageplan"
+  },
+  {
+    "id": "lump-sum",
+    "term": "Lump sum",
+    "aliases": [
+      "lump-sum investment"
+    ],
+    "definition": "A larger amount invested at once, as opposed to regular smaller amounts through a savings plan.",
+    "related": [
+      "savings-plan",
+      "cost-average-effect"
+    ],
+    "categories": [
+      "M"
+    ],
+    "de": "Einmalanlage"
   }
 ]

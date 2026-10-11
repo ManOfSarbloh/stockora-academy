@@ -1,0 +1,893 @@
+[
+  {
+    "id": "M-001",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "According to FINRA, what is the first step before opening an investment account?",
+    "options": [
+      "Defining your goals",
+      "Choosing the cheapest broker",
+      "Buying a popular share",
+      "Opening a credit card"
+    ],
+    "answerIndex": 0,
+    "explanation": "FINRA's tips for new investors say the first step is to define your goals.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.finra.org/investors/insights/tips-new-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-002",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How large an emergency fund do financial planners often recommend, according to FINRA?",
+    "options": [
+      "Three to six months of living expenses",
+      "One week of expenses",
+      "Ten years of income",
+      "Nothing, if you own shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "FINRA: planners often recommend three to six months of living expenses, more for variable incomes.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.finra.org/investors/personal-finance/start-emergency-fund"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-003",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: an emergency fund helps you avoid having to sell investments at a bad time when an unexpected expense arises.",
+    "answerBool": true,
+    "explanation": "True. FINRA explains it lets you handle surprises without taking on debt or liquidating investments.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.finra.org/investors/personal-finance/start-emergency-fund"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-004",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You owe €3,000 on an overdraft at 12% a year. How many euros of interest do you save in one year by paying it off?",
+    "answerNumber": 360,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "3,000 × 12% = €360 a year, a guaranteed 'return' that no share investment can promise.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.finra.org/investors/insights/tips-new-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-005",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a 'time horizon'?",
+    "options": [
+      "How long you plan to invest before you need the money for a goal",
+      "The opening hours of the stock exchange",
+      "The length of a bond's coupon period",
+      "The time it takes to settle a trade"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: the number of months, years or decades you need to invest to achieve your goal.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/time-horizon"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-006",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the SEC considers a portfolio heavily weighted in shares inappropriate for a short-term goal such as a family holiday.",
+    "answerBool": true,
+    "explanation": "True. The SEC's guide uses exactly this example.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-007",
+    "category": "M",
+    "topic": "before-you-invest",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: FINRA suggests paying off high-interest debt, such as credit card balances, before investing.",
+    "answerBool": true,
+    "explanation": "True. The interest on such debt is often higher than the potential return on an investment.",
+    "lessonLink": "/learn/investing-strategies/before-you-invest",
+    "sources": [
+      "https://www.finra.org/investors/insights/tips-new-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-008",
+    "category": "M",
+    "topic": "risk-tolerance",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Investor.gov defines risk tolerance as an investor's…",
+    "options": [
+      "Ability and willingness to lose some or all of an investment in exchange for greater potential returns",
+      "Legal right to sue a broker",
+      "Minimum required return",
+      "Tax rate on gains"
+    ],
+    "answerIndex": 0,
+    "explanation": "Risk tolerance combines ability (can you afford losses?) and willingness (can you stand them?).",
+    "lessonLink": "/learn/investing-strategies/risk-tolerance",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/risk-tolerance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-009",
+    "category": "M",
+    "topic": "risk-tolerance",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You have €50,000 fully in shares and a year like 2008 (−36.6%) happens. How much is left, in euros? (Round to the nearest hundred.)",
+    "answerNumber": 31700,
+    "tolerance": 100,
+    "unit": "€",
+    "explanation": "50,000 × (1 − 0.366) ≈ €31,700.",
+    "lessonLink": "/learn/investing-strategies/risk-tolerance",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-010",
+    "category": "M",
+    "topic": "risk-tolerance",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: when giving investment advice in the EU, a firm must assess whether its recommendations are suitable for the client.",
+    "answerBool": true,
+    "explanation": "True. MiFID II Article 25 requires a suitability assessment for investment advice and portfolio management.",
+    "lessonLink": "/learn/investing-strategies/risk-tolerance",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-011",
+    "category": "M",
+    "topic": "risk-tolerance",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the SEC warn about online risk questionnaires?",
+    "options": [
+      "Their results may be biased towards the products sold by the companies running them",
+      "They are always legally binding",
+      "They replace a prospectus",
+      "They are forbidden in the EU"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC's guide says such questionnaires can be a useful start, but results may be biased towards the sponsor's products.",
+    "lessonLink": "/learn/investing-strategies/risk-tolerance",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-012",
+    "category": "M",
+    "topic": "risk-tolerance",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: selling in panic after a big fall turns a temporary loss into a permanent one.",
+    "answerBool": true,
+    "explanation": "True. Once you sell, you no longer benefit if prices recover.",
+    "lessonLink": "/learn/investing-strategies/risk-tolerance",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-013",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is asset allocation?",
+    "options": [
+      "Dividing a portfolio among asset categories such as shares, bonds and cash",
+      "Picking the single best share",
+      "Choosing a broker",
+      "Paying taxes on investment income"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC defines asset allocation as dividing a portfolio among different asset categories.",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-014",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which asset category does the SEC describe as having historically the greatest risk and the highest returns?",
+    "options": [
+      "Shares (stocks)",
+      "Bonds",
+      "Cash equivalents",
+      "Savings accounts"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stocks have historically had the greatest risk and highest returns among the three major categories.",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-015",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, what is the main risk of cash and cash equivalents?",
+    "options": [
+      "Inflation eroding returns",
+      "Daily price crashes",
+      "Bankruptcy of the stock exchange",
+      "Currency controls"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cash is the safest category but inflation risk is the principal concern.",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-016",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In the lesson's calculation from Damodaran's data (1928–2025), what was the average yearly return of a 60/40 shares/bonds portfolio rebalanced annually, in percent? (One decimal.)",
+    "answerNumber": 8.3,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "About 8.3% a year, compared with about 10.0% for 100% shares, but with a much smaller worst fall (−40% versus −65% on year-end values).",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-017",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in 2022, a mix of US shares and 10-year Treasury bonds protected investors because the two moved in opposite directions.",
+    "answerBool": false,
+    "explanation": "False. Both fell about 18% in 2022, so every mix lost about that much.",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-018",
+    "category": "M",
+    "topic": "asset-allocation",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: according to the SEC, savvy investors typically increase their share of stocks when the stock market is hot.",
+    "answerBool": false,
+    "explanation": "False. The SEC says they do not change their allocation based on recent performance; they rebalance instead.",
+    "lessonLink": "/learn/investing-strategies/asset-allocation",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-019",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which example does the SEC use to explain diversification?",
+    "options": [
+      "A street vendor selling both umbrellas and sunglasses",
+      "A farmer planting one crop",
+      "A bank lending to one company",
+      "A gambler betting on one horse"
+    ],
+    "answerIndex": 0,
+    "explanation": "The vendor reduces the risk of a bad day by selling products that sell in different weather.",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-020",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "At which two levels does the SEC say a portfolio should be diversified? Select all that apply.",
+    "options": [
+      "Between asset categories",
+      "Within asset categories",
+      "Between brokers only",
+      "Between trading days"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Diversify between categories (shares, bonds, cash) and within them (companies, sectors, countries).",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-021",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to the SEC, owning four or five individual shares makes a share portfolio well diversified.",
+    "answerBool": false,
+    "explanation": "False. The SEC says you need at least a dozen carefully selected shares; funds can hold thousands.",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-022",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You hold 5 shares with €4,000 each. One company goes bankrupt. What percentage of your €20,000 do you lose?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€4,000 ÷ €20,000 = 20%. In a fund of 500 equal holdings, the same failure would cost 0.2%.",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-023",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: diversification across many shares protects you completely against a market-wide crash.",
+    "answerBool": false,
+    "explanation": "False. Diversification reduces company-specific risk, but a broad market fall still hits a diversified share portfolio.",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-024",
+    "category": "M",
+    "topic": "diversification",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is 'home bias'?",
+    "options": [
+      "Holding mostly investments from your own country",
+      "Preferring to invest from home rather than at a bank",
+      "Buying only property",
+      "A tax advantage for domestic shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Home bias reduces diversification and ties your savings to one economy.",
+    "lessonLink": "/learn/investing-strategies/diversification",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-025",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does rebalancing mean?",
+    "options": [
+      "Bringing a portfolio back to its original asset allocation",
+      "Selling everything once a year",
+      "Buying the best performer of last year",
+      "Moving to a different broker"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: rebalancing brings a portfolio back to its original allocation mix.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/rebalancing"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-026",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Your 60/40 portfolio of €100,000 becomes €75,000 shares and €40,000 bonds. How many euros of shares must you sell to return to 60/40?",
+    "answerNumber": 6000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Total €115,000; target shares 0.6 × 115,000 = €69,000. Sell 75,000 − 69,000 = €6,000 and buy bonds.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-027",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which methods of rebalancing does the SEC describe? Select all that apply.",
+    "options": [
+      "Sell over-weighted categories and buy under-weighted ones",
+      "Buy more of the under-weighted category with new money",
+      "Redirect regular contributions to the under-weighted category",
+      "Borrow money to buy more of the best performer"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The SEC describes selling, buying with new money, and redirecting contributions.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-028",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the SEC says rebalancing tends to work best when done relatively infrequently.",
+    "answerBool": true,
+    "explanation": "True. Common approaches are every six or twelve months, or when a category drifts by a set amount.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-029",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why does the SEC say rebalancing forces you to 'buy low and sell high'?",
+    "options": [
+      "You trim recent winners and add to recent losers",
+      "You only buy after prices rise",
+      "You always sell in a crash",
+      "You avoid all costs"
+    ],
+    "answerIndex": 0,
+    "explanation": "Rebalancing cuts back categories that have risen and adds to those that have fallen.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-030",
+    "category": "M",
+    "topic": "rebalancing",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in Austria, selling shares or funds held privately to rebalance can trigger capital gains tax.",
+    "answerBool": true,
+    "explanation": "True. Realised gains are generally subject to the special 27.5% rate under § 27a EStG; Category Q covers the details.",
+    "lessonLink": "/learn/investing-strategies/rebalancing",
+    "sources": [
+      "https://www.jusline.at/gesetz/estg/paragraf/27a"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-031",
+    "category": "M",
+    "topic": "active-vs-passive",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "According to ESMA's 2024 report, what were the average ongoing costs of active equity UCITS in 2023 (one-year horizon), in percent?",
+    "answerNumber": 1.3,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "Active equity funds cost about 1.30% a year, passive non-ETF funds 0.37% and ETFs 0.22%.",
+    "lessonLink": "/learn/investing-strategies/active-vs-passive",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-032",
+    "category": "M",
+    "topic": "active-vs-passive",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did ESMA find about the performance of active equity funds after fees?",
+    "options": [
+      "They continued to underperform passive equity funds and ETFs",
+      "They beat all passive funds every year",
+      "They had no costs",
+      "ESMA did not compare them"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA's 2024 report: despite falling costs, active equity funds continued to underperform passive funds and ETFs after fees.",
+    "lessonLink": "/learn/investing-strategies/active-vs-passive",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-033",
+    "category": "M",
+    "topic": "active-vs-passive",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "By how much cheaper than active funds are passive funds on average, according to ESMA?",
+    "options": [
+      "About 60–80%",
+      "About 5%",
+      "They cost the same",
+      "About 200%"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA summarises that passive funds are on average about 60–80% cheaper than active funds.",
+    "lessonLink": "/learn/investing-strategies/active-vs-passive",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-034",
+    "category": "M",
+    "topic": "active-vs-passive",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "€10,000 grows for 30 years at 5% instead of 6% a year because of 1 percentage point of extra costs. Roughly how many euros smaller is the final amount? (Nearest thousand.)",
+    "answerNumber": 14000,
+    "tolerance": 500,
+    "unit": "€",
+    "explanation": "10,000 × 1.06³⁰ ≈ €57,435 versus 10,000 × 1.05³⁰ ≈ €43,219: about €14,000 less.",
+    "lessonLink": "/learn/investing-strategies/active-vs-passive",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-035",
+    "category": "M",
+    "topic": "active-vs-passive",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a passive index fund cannot lose money because it tracks the market.",
+    "answerBool": false,
+    "explanation": "False. Passive funds remove manager risk, not market risk; they fall when the market falls.",
+    "lessonLink": "/learn/investing-strategies/active-vs-passive",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-036",
+    "category": "M",
+    "topic": "savings-plans-and-lump-sums",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is dollar-cost averaging (a savings plan)?",
+    "options": [
+      "Investing equal amounts at regular intervals regardless of market ups and downs",
+      "Buying only when prices are rising",
+      "Investing everything in one day",
+      "Converting euros into dollars"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: investing equal portions at regular intervals, buying more when prices are low.",
+    "lessonLink": "/learn/investing-strategies/savings-plans-and-lump-sums",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-037",
+    "category": "M",
+    "topic": "savings-plans-and-lump-sums",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You invest €100 a month at prices of €50, €40, €25 and €50. What is your average cost per unit in euros? (Two decimals.)",
+    "answerNumber": 38.1,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "You buy 2 + 2.5 + 4 + 2 = 10.5 units for €400: 400 ÷ 10.5 ≈ €38.10.",
+    "lessonLink": "/learn/investing-strategies/savings-plans-and-lump-sums",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-038",
+    "category": "M",
+    "topic": "savings-plans-and-lump-sums",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a savings plan guarantees a profit.",
+    "answerBool": false,
+    "explanation": "False. It lowers average cost when prices fluctuate, but if prices fall and stay low, the plan loses money.",
+    "lessonLink": "/learn/investing-strategies/savings-plans-and-lump-sums",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-039",
+    "category": "M",
+    "topic": "savings-plans-and-lump-sums",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the Wiener Börse lexicon say the cost-average effect does when prices fluctuate?",
+    "options": [
+      "It lowers the average cost per unit",
+      "It raises the average cost per unit",
+      "It removes all risk",
+      "It doubles the dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "Regular investing of a constant amount lowers the average cost per unit when prices fluctuate.",
+    "lessonLink": "/learn/investing-strategies/savings-plans-and-lump-sums",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-040",
+    "category": "M",
+    "topic": "savings-plans-and-lump-sums",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: stopping a savings plan during a crash and restarting after a recovery undermines the cost-average effect.",
+    "answerBool": true,
+    "explanation": "True. The effect relies on buying more units when prices are low.",
+    "lessonLink": "/learn/investing-strategies/savings-plans-and-lump-sums",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-041",
+    "category": "M",
+    "topic": "lifecycle-investing",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a target-date (lifecycle) fund do?",
+    "options": [
+      "Automatically shifts towards a more conservative mix as its target date approaches",
+      "Guarantees a fixed return at the target date",
+      "Invests only in shares forever",
+      "Pays out all money on a fixed date every year"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: it shifts automatically towards a more conservative mix as the target date nears.",
+    "lessonLink": "/learn/investing-strategies/lifecycle-investing",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/target-date-fund"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-042",
+    "category": "M",
+    "topic": "lifecycle-investing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, what is the most common reason for changing your asset allocation?",
+    "options": [
+      "A change in your time horizon",
+      "Last month's market performance",
+      "A news headline",
+      "A new broker app"
+    ],
+    "answerIndex": 0,
+    "explanation": "As you get closer to a goal, you will likely need to change your mix.",
+    "lessonLink": "/learn/investing-strategies/lifecycle-investing",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-043",
+    "category": "M",
+    "topic": "lifecycle-investing",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "€200,000 is invested 30% in shares and 70% in bonds. Shares fall 36.6% and bonds rise 20.1% (as in 2008). What is the portfolio worth, in euros? (Nearest hundred.)",
+    "answerNumber": 206200,
+    "tolerance": 100,
+    "unit": "€",
+    "explanation": "60,000 × 0.634 + 140,000 × 1.201 ≈ 38,040 + 168,140 ≈ €206,200.",
+    "lessonLink": "/learn/investing-strategies/lifecycle-investing",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-044",
+    "category": "M",
+    "topic": "lifecycle-investing",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: two target-date funds with the same target year always hold the same mix.",
+    "answerBool": false,
+    "explanation": "False. Glide paths differ widely, so check the current mix, the path and the costs.",
+    "lessonLink": "/learn/investing-strategies/lifecycle-investing",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/target-date-fund"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-045",
+    "category": "M",
+    "topic": "investment-plan",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these planning steps in a sensible order.",
+    "orderedItems": [
+      "Define goals and time horizons",
+      "Build an emergency fund and pay off expensive debt",
+      "Decide the target mix of assets",
+      "Choose products and set up a savings plan",
+      "Review the plan regularly"
+    ],
+    "explanation": "Goals come first, then safety, then the mix, then the products, and finally regular reviews.",
+    "lessonLink": "/learn/investing-strategies/investment-plan",
+    "sources": [
+      "https://www.finra.org/investors/insights/tips-new-investors",
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-046",
+    "category": "M",
+    "topic": "investment-plan",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which rule of thumb does Investor.gov cite in its Five Questions to Ask Before You Invest?",
+    "options": [
+      "Never invest in something you don't understand",
+      "Always follow the crowd",
+      "Buy whatever rose most last year",
+      "Invest borrowed money first"
+    ],
+    "answerIndex": 0,
+    "explanation": "Question 4 asks: do you understand the investment? Many successful investors never invest in something they don't understand.",
+    "lessonLink": "/learn/investing-strategies/investment-plan",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/getting-started/five-questions-ask-you-invest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-047",
+    "category": "M",
+    "topic": "investment-plan",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these belong in a written investment plan? Select all that apply.",
+    "options": [
+      "Goals and time horizons",
+      "Target asset mix and rebalancing rule",
+      "What you will do in a market crash",
+      "Tomorrow's share price forecast"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A plan sets out goals, mix, rules and crash behaviour. Nobody can forecast tomorrow's prices.",
+    "lessonLink": "/learn/investing-strategies/investment-plan",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-048",
+    "category": "M",
+    "topic": "investment-plan",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A 60/40 portfolio sees shares fall 30% while bonds stay flat. What share of the portfolio is now in shares, in percent? (Nearest whole number.)",
+    "answerNumber": 51,
+    "tolerance": 0.5,
+    "unit": "%",
+    "explanation": "Shares 60 → 42, bonds 40: 42 ÷ 82 ≈ 51%. A 5-point rebalancing rule would now say: buy shares.",
+    "lessonLink": "/learn/investing-strategies/investment-plan",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

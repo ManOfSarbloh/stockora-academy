@@ -846,5 +846,71 @@
     "lessons": [
       "macroeconomics/euro-crisis"
     ]
+  },
+  {
+    "id": "7mo167ohvJw",
+    "title": "What is risk and return?",
+    "channel": "Khan Academy",
+    "categories": [
+      "M"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.9,
+    "language": "en",
+    "whyGood": "A short, clear introduction to the trade-off between risk and return that underlies every asset allocation decision.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "investing-strategies/risk-tolerance",
+      "investing-strategies/asset-allocation"
+    ]
+  },
+  {
+    "id": "mv5zucjq60k",
+    "title": "Risk and reward introduction",
+    "channel": "Khan Academy",
+    "categories": [
+      "M"
+    ],
+    "level": "beginner",
+    "durationMinutes": 11.7,
+    "language": "en",
+    "whyGood": "Sal Khan explains why riskier investments must offer higher expected returns, using simple examples.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "investing-strategies/risk-tolerance"
+    ]
+  },
+  {
+    "id": "ro3v84swtZ4",
+    "title": "How do I invest?",
+    "channel": "Khan Academy",
+    "categories": [
+      "M"
+    ],
+    "level": "beginner",
+    "durationMinutes": 6.2,
+    "language": "en",
+    "whyGood": "Walks through choosing a mix of investments for a long-term retirement goal. The examples use US retirement accounts, but the principles apply anywhere.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "investing-strategies/asset-allocation",
+      "investing-strategies/lifecycle-investing"
+    ]
+  },
+  {
+    "id": "uwT6SaFEA44",
+    "title": "Costs and performance of retail investment products",
+    "channel": "European Securities and Markets Authority (ESMA)",
+    "categories": [
+      "M"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.0,
+    "language": "en",
+    "whyGood": "The EU securities regulator explains why the costs of retail investment products matter for investors.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "investing-strategies/active-vs-passive"
+    ]
   }
 ]
