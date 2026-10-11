@@ -3279,5 +3279,679 @@
       "G"
     ],
     "de": "Break-even-Kurs"
+  },
+  {
+    "id": "investment-fund",
+    "term": "Investment fund",
+    "aliases": [
+      "mutual fund"
+    ],
+    "definition": "A pool of money from many investors that is invested together in shares, bonds or other assets. Each investor owns units of the whole portfolio.",
+    "related": [
+      "nav",
+      "index-fund",
+      "etf"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Investmentfonds"
+  },
+  {
+    "id": "nav",
+    "term": "Net asset value (NAV)",
+    "aliases": [
+      "NAV",
+      "net asset value"
+    ],
+    "definition": "The value of a fund's assets minus its liabilities, usually expressed per unit. Traditional funds are bought and sold at a price based on it.",
+    "example": "Assets of €10m, liabilities of €50,000 and 1,000,000 units give a NAV of €9.95 per unit.",
+    "related": [
+      "investment-fund",
+      "etf-premium-discount"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Nettoinventarwert / Inventarwert"
+  },
+  {
+    "id": "index-fund",
+    "term": "Index fund",
+    "aliases": [
+      "passive fund",
+      "index funds"
+    ],
+    "definition": "A fund that aims to track an index as closely as possible instead of picking investments, usually at lower cost than an active fund.",
+    "related": [
+      "stock-index",
+      "etf",
+      "active-fund",
+      "tracking-difference"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Indexfonds"
+  },
+  {
+    "id": "active-fund",
+    "term": "Actively managed fund",
+    "aliases": [
+      "active fund",
+      "actively managed"
+    ],
+    "definition": "A fund whose manager selects investments with the aim of beating a benchmark index, usually charging higher fees than an index fund.",
+    "related": [
+      "index-fund",
+      "benchmark"
+    ],
+    "categories": [
+      "H",
+      "M"
+    ],
+    "de": "Aktiv gemanagter Fonds"
+  },
+  {
+    "id": "benchmark",
+    "term": "Benchmark",
+    "aliases": [
+      "benchmark index"
+    ],
+    "definition": "An index used as a yardstick to judge a fund's or portfolio's performance.",
+    "related": [
+      "stock-index",
+      "active-fund"
+    ],
+    "categories": [
+      "H",
+      "M"
+    ],
+    "de": "Vergleichsindex / Benchmark"
+  },
+  {
+    "id": "etf",
+    "term": "Exchange-traded fund (ETF)",
+    "aliases": [
+      "ETF",
+      "exchange-traded fund",
+      "exchange traded fund"
+    ],
+    "definition": "A fund whose units trade on a stock exchange throughout the day like shares. Most ETFs track an index.",
+    "related": [
+      "index-fund",
+      "authorised-participant",
+      "nav",
+      "ucits"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Börsengehandelter Fonds (ETF)"
+  },
+  {
+    "id": "ucits",
+    "term": "UCITS",
+    "aliases": [
+      "Undertakings for Collective Investment in Transferable Securities",
+      "OGAW"
+    ],
+    "definition": "The EU's main legal framework for funds that are easily accessible to retail investors. UCITS funds follow common EU rules; being a UCITS does not make a fund safe.",
+    "related": [
+      "investment-fund",
+      "etf"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "OGAW"
+  },
+  {
+    "id": "authorised-participant",
+    "term": "Authorised participant",
+    "aliases": [
+      "authorized participant"
+    ],
+    "definition": "A large financial institution allowed to create and redeem ETF units directly with the fund in large blocks. Its trading helps keep the ETF price close to its NAV.",
+    "related": [
+      "etf",
+      "creation-and-redemption"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Autorisierter Teilnehmer"
+  },
+  {
+    "id": "creation-and-redemption",
+    "term": "Creation and redemption",
+    "aliases": [
+      "creation unit"
+    ],
+    "definition": "The process by which authorised participants exchange baskets of securities (or cash) for new ETF units (creation), or return units to the fund (redemption).",
+    "related": [
+      "authorised-participant",
+      "etf"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Ausgabe und Rücknahme"
+  },
+  {
+    "id": "etf-premium-discount",
+    "term": "Premium and discount (ETF)",
+    "aliases": [
+      "trades at a premium",
+      "trades at a discount"
+    ],
+    "definition": "When an ETF's market price is above (premium) or below (discount) the value of its holdings. Usually small for liquid ETFs; can widen in stressed markets.",
+    "related": [
+      "nav",
+      "etf"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Auf- und Abschlag"
+  },
+  {
+    "id": "physical-replication",
+    "term": "Physical replication",
+    "aliases": [
+      "full replication",
+      "physical ETF",
+      "physically replicating"
+    ],
+    "definition": "Tracking an index by actually holding the shares in it, either all of them in index weight (full replication) or a representative selection (sampling).",
+    "related": [
+      "synthetic-replication",
+      "sampling-replication"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Physische Replikation"
+  },
+  {
+    "id": "sampling-replication",
+    "term": "Optimised sampling",
+    "aliases": [
+      "optimised replication",
+      "optimized sampling",
+      "sampling"
+    ],
+    "definition": "A form of physical replication in which a fund holds a representative selection of an index's members rather than all of them.",
+    "related": [
+      "physical-replication",
+      "tracking-difference"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Optimiertes Sampling"
+  },
+  {
+    "id": "synthetic-replication",
+    "term": "Synthetic replication",
+    "aliases": [
+      "synthetic ETF",
+      "swap-based ETF"
+    ],
+    "definition": "Tracking an index through a swap with a bank that promises to pay the index return, while the fund holds a different basket of securities. Adds counterparty risk.",
+    "related": [
+      "counterparty-risk",
+      "physical-replication"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Synthetische Replikation (Swap)"
+  },
+  {
+    "id": "counterparty-risk",
+    "term": "Counterparty risk",
+    "aliases": [
+      "counterparty"
+    ],
+    "definition": "The risk that the other party to a contract, such as a swap, cannot meet its obligations.",
+    "related": [
+      "synthetic-replication",
+      "securities-lending"
+    ],
+    "categories": [
+      "H",
+      "N"
+    ],
+    "de": "Kontrahentenrisiko"
+  },
+  {
+    "id": "accumulating-fund",
+    "term": "Accumulating fund",
+    "aliases": [
+      "accumulating ETF",
+      "Thesaurierer",
+      "accumulating share class"
+    ],
+    "definition": "A fund that reinvests the income it receives instead of paying it out, so the value of each unit grows. In Austria the reinvested income is still taxed yearly.",
+    "related": [
+      "distributing-fund",
+      "deemed-distributed-income",
+      "compound-interest"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Thesaurierender Fonds"
+  },
+  {
+    "id": "distributing-fund",
+    "term": "Distributing fund",
+    "aliases": [
+      "distributing ETF",
+      "Ausschütter",
+      "distributing share class"
+    ],
+    "definition": "A fund that pays out the income it receives (such as dividends) to its investors, typically several times a year.",
+    "related": [
+      "accumulating-fund",
+      "dividend"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Ausschüttender Fonds"
+  },
+  {
+    "id": "tracking-difference",
+    "term": "Tracking difference",
+    "aliases": [],
+    "definition": "The difference between a fund's return and the return of the index it tracks over a period. Mainly driven by costs.",
+    "example": "Index +8.0%, fund +7.8%: tracking difference −0.2 percentage points.",
+    "related": [
+      "tracking-error",
+      "ter",
+      "index-fund"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Tracking Difference"
+  },
+  {
+    "id": "tracking-error",
+    "term": "Tracking error",
+    "aliases": [],
+    "definition": "Strictly, how much a fund's deviation from its index fluctuates over time. Also used loosely for any deviation from the index.",
+    "related": [
+      "tracking-difference",
+      "index-fund"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Tracking Error"
+  },
+  {
+    "id": "smart-beta",
+    "term": "Smart beta",
+    "aliases": [
+      "factor ETF",
+      "factor investing",
+      "factor ETFs"
+    ],
+    "definition": "Index strategies that select or weight shares by characteristics such as value, momentum, low volatility or dividends instead of market value alone.",
+    "related": [
+      "stock-index",
+      "thematic-etf"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Smart Beta / Faktorinvesting"
+  },
+  {
+    "id": "thematic-etf",
+    "term": "Thematic ETF",
+    "aliases": [
+      "thematic fund",
+      "thematic funds"
+    ],
+    "definition": "An ETF that invests in companies linked to a theme, such as robotics or clean energy. Often concentrated and more expensive than broad index funds.",
+    "related": [
+      "smart-beta",
+      "sector",
+      "diversification"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Themen-ETF"
+  },
+  {
+    "id": "leveraged-etf",
+    "term": "Leveraged ETF",
+    "aliases": [
+      "leveraged ETFs",
+      "leveraged exchange-traded fund"
+    ],
+    "definition": "A product that aims for a multiple (for example 2× or 3×) of an index's daily return. Because it resets daily, results over longer periods can differ greatly from that multiple.",
+    "example": "Index +10% then −10% (−1% overall): a 2× product goes +20% then −20%, −4% overall.",
+    "related": [
+      "inverse-etf",
+      "volatility"
+    ],
+    "categories": [
+      "H",
+      "N"
+    ],
+    "de": "Gehebelter ETF"
+  },
+  {
+    "id": "inverse-etf",
+    "term": "Inverse ETF",
+    "aliases": [
+      "short ETF"
+    ],
+    "definition": "A product that aims for the opposite of an index's daily return. Over longer periods its results can differ greatly from the inverse of the index's return.",
+    "related": [
+      "leveraged-etf",
+      "short-selling"
+    ],
+    "categories": [
+      "H",
+      "N"
+    ],
+    "de": "Inverser ETF / Short-ETF"
+  },
+  {
+    "id": "market-cap-weighted",
+    "term": "Market-cap weighted index",
+    "aliases": [
+      "market-cap weighted",
+      "capitalisation-weighted",
+      "capitalization-weighted",
+      "cap-weighted"
+    ],
+    "definition": "An index in which each member's weight is its market value divided by the total market value of all members. Most major indexes work this way.",
+    "related": [
+      "stock-index",
+      "market-capitalisation",
+      "free-float"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Marktkapitalisierungsgewichteter Index"
+  },
+  {
+    "id": "price-weighted-index",
+    "term": "Price-weighted index",
+    "aliases": [
+      "price-weighted",
+      "price weighted"
+    ],
+    "definition": "An index in which members count according to their share price, regardless of company size, such as the Dow Jones Industrial Average and the Nikkei 225.",
+    "related": [
+      "stock-index",
+      "dow-jones"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Preisgewichteter Index"
+  },
+  {
+    "id": "equal-weighted-index",
+    "term": "Equal-weighted index",
+    "aliases": [
+      "equal-weighted",
+      "equal weighted",
+      "equal weighting"
+    ],
+    "definition": "An index in which every member counts the same, regardless of size.",
+    "related": [
+      "stock-index",
+      "market-cap-weighted"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Gleichgewichteter Index"
+  },
+  {
+    "id": "atx",
+    "term": "ATX",
+    "aliases": [
+      "Austrian Traded Index"
+    ],
+    "definition": "The Vienna Stock Exchange's leading index of about 20 of the most liquid Austrian shares, weighted by market value.",
+    "related": [
+      "stock-index",
+      "market-cap-weighted"
+    ],
+    "categories": [
+      "A",
+      "H"
+    ],
+    "de": "ATX"
+  },
+  {
+    "id": "dax",
+    "term": "DAX",
+    "aliases": [],
+    "definition": "Germany's leading share index of the 40 largest and highest-turnover German shares on the Frankfurt Stock Exchange's regulated market.",
+    "related": [
+      "stock-index"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "DAX"
+  },
+  {
+    "id": "sp-500",
+    "term": "S&P 500",
+    "aliases": [
+      "S&P 500 index"
+    ],
+    "definition": "A US index of 500 leading companies covering about 80% of the available US market capitalisation, weighted by free-float market value.",
+    "related": [
+      "stock-index",
+      "market-cap-weighted"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "S&P 500"
+  },
+  {
+    "id": "dow-jones",
+    "term": "Dow Jones Industrial Average",
+    "aliases": [
+      "Dow Jones",
+      "DJIA"
+    ],
+    "definition": "A price-weighted index of 30 US blue-chip companies.",
+    "related": [
+      "price-weighted-index",
+      "blue-chip"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Dow Jones"
+  },
+  {
+    "id": "nikkei-225",
+    "term": "Nikkei 225",
+    "aliases": [],
+    "definition": "A price-weighted index of 225 stocks in the Prime Market of the Tokyo Stock Exchange.",
+    "related": [
+      "price-weighted-index"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "Nikkei 225"
+  },
+  {
+    "id": "msci-world",
+    "term": "MSCI World",
+    "aliases": [
+      "MSCI World Index"
+    ],
+    "definition": "A global index of large and mid-sized companies in developed markets only; it does not include emerging markets.",
+    "related": [
+      "ftse-all-world",
+      "emerging-markets"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "MSCI World"
+  },
+  {
+    "id": "ftse-all-world",
+    "term": "FTSE All-World",
+    "aliases": [
+      "FTSE All-World Index"
+    ],
+    "definition": "A global index of large and mid-sized companies in both developed and emerging markets.",
+    "related": [
+      "msci-world",
+      "emerging-markets"
+    ],
+    "categories": [
+      "H"
+    ],
+    "de": "FTSE All-World"
+  },
+  {
+    "id": "emerging-markets",
+    "term": "Emerging markets",
+    "aliases": [
+      "emerging market"
+    ],
+    "definition": "Countries whose economies and financial markets are still developing, such as China or India; index providers classify which countries count.",
+    "related": [
+      "msci-world",
+      "ftse-all-world"
+    ],
+    "categories": [
+      "H",
+      "M"
+    ],
+    "de": "Schwellenländer"
+  },
+  {
+    "id": "kid",
+    "term": "Key information document (KID)",
+    "aliases": [
+      "KID",
+      "key information document",
+      "PRIIPs KID"
+    ],
+    "definition": "A short, standardised document for EU retail investors that describes a product's objectives, risks and costs.",
+    "related": [
+      "prospectus"
+    ],
+    "categories": [
+      "C",
+      "H"
+    ],
+    "de": "Basisinformationsblatt (BIB)"
+  },
+  {
+    "id": "kest",
+    "term": "KESt (capital gains tax)",
+    "aliases": [
+      "KESt",
+      "Kapitalertragsteuer"
+    ],
+    "definition": "Austria's tax on capital income such as dividends, price gains and fund income, generally 27.5% for shares and funds. Usually withheld by an Austrian custodian.",
+    "related": [
+      "reporting-fund",
+      "deemed-distributed-income"
+    ],
+    "categories": [
+      "H",
+      "Q"
+    ],
+    "de": "Kapitalertragsteuer (KESt)"
+  },
+  {
+    "id": "reporting-fund",
+    "term": "Reporting fund",
+    "aliases": [
+      "Meldefonds",
+      "KESt-Meldefonds"
+    ],
+    "definition": "A fund that reports its tax data to the OeKB, Austria's official reporting office, so that banks can calculate KESt on its income correctly.",
+    "related": [
+      "kest",
+      "deemed-distributed-income",
+      "oekb"
+    ],
+    "categories": [
+      "H",
+      "Q"
+    ],
+    "de": "Meldefonds"
+  },
+  {
+    "id": "deemed-distributed-income",
+    "term": "Deemed distributed income",
+    "aliases": [
+      "ausschüttungsgleiche Erträge"
+    ],
+    "definition": "Under Austrian law, fund income that is not paid out but is treated as if it had been distributed, so it is taxed every year. It increases the tax acquisition cost of the units.",
+    "related": [
+      "accumulating-fund",
+      "reporting-fund",
+      "kest"
+    ],
+    "categories": [
+      "H",
+      "Q"
+    ],
+    "de": "Ausschüttungsgleiche Erträge"
+  },
+  {
+    "id": "oekb",
+    "term": "OeKB",
+    "aliases": [
+      "Oesterreichische Kontrollbank"
+    ],
+    "definition": "Oesterreichische Kontrollbank, which among other roles is Austria's official reporting office for fund tax data and the national ISIN agency.",
+    "related": [
+      "reporting-fund",
+      "isin"
+    ],
+    "categories": [
+      "B",
+      "H",
+      "Q"
+    ],
+    "de": "OeKB"
+  },
+  {
+    "id": "acquisition-cost",
+    "term": "Acquisition cost",
+    "aliases": [
+      "acquisition costs",
+      "Anschaffungskosten"
+    ],
+    "definition": "The amount paid for an investment, used to work out the gain or loss when it is sold. Tax rules define exactly what counts; in Austria, taxed deemed distributed income from a fund increases it.",
+    "related": [
+      "capital-gain",
+      "deemed-distributed-income",
+      "kest"
+    ],
+    "categories": [
+      "H",
+      "Q"
+    ],
+    "de": "Anschaffungskosten"
   }
 ]

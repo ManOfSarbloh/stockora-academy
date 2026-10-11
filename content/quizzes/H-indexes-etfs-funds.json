@@ -1,0 +1,983 @@
+[
+  {
+    "id": "H-001",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a stock index?",
+    "options": [
+      "A number that tracks the prices of a selected group of shares",
+      "The share price of the largest company on an exchange",
+      "A list of approved brokers",
+      "The interest rate set by the central bank"
+    ],
+    "answerIndex": 0,
+    "explanation": "A stock index tracks the prices of a selected group of shares, such as Austria's ATX, in one figure.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-002",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a market-capitalisation weighted index, which members count the most?",
+    "options": [
+      "The companies with the largest market value",
+      "The shares with the highest price per share",
+      "All members count the same",
+      "The companies that joined most recently"
+    ],
+    "answerIndex": 0,
+    "explanation": "In a market-cap weighted index, each member's weight is its market value divided by the total of all members, so bigger companies count more.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-003",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "An index has two members: Big AG with a market value of €180m and Small AG with €20m. In a market-cap weighted index, what is Small AG's weight in percent?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€20m ÷ (€180m + €20m) = 10%.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-004",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which of these indexes is price weighted?",
+    "options": [
+      "Dow Jones Industrial Average",
+      "S&P 500",
+      "DAX",
+      "ATX"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Dow Jones Industrial Average (and Japan's Nikkei 225) weight members by share price, not by company size.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-005",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "An equal-weighted index has two members. One rises 10%, the other is unchanged. By how many percent does the index rise?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Each member counts 50%: 50% × 10% + 50% × 0% = 5%.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-006",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a free-float adjusted index counts all of a company's shares, including large blocks held by founders or governments.",
+    "answerBool": false,
+    "explanation": "False. Free-float adjustment means only the shares actually available for trading count; strategic blocks are left out.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-007",
+    "category": "H",
+    "topic": "what-is-an-index",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A price-weighted index has two members: Big AG at €20 and Small AG at €200. Small AG rises 10% and Big AG is unchanged. By about how many percent does the index rise? (One decimal place.)",
+    "answerNumber": 9.1,
+    "tolerance": 0.15,
+    "unit": "%",
+    "explanation": "Sum of prices before: €20 + €200 = €220. After: €20 + €220 = €240. €240 ÷ €220 − 1 ≈ 9.1%. The expensive share dominates, even though it is the smaller company.",
+    "lessonLink": "/learn/indexes-etfs-funds/what-is-an-index",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-008",
+    "category": "H",
+    "topic": "major-indexes",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which is the leading share index of the Vienna Stock Exchange?",
+    "options": [
+      "ATX",
+      "DAX",
+      "Nikkei 225",
+      "S&P 500"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ATX is the Vienna Stock Exchange's leading index of about 20 of the most liquid Austrian shares.",
+    "lessonLink": "/learn/indexes-etfs-funds/major-indexes",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-009",
+    "category": "H",
+    "topic": "major-indexes",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does Germany's DAX contain?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "explanation": "The DAX contains the 40 largest and highest-turnover German shares on the Frankfurt Stock Exchange's regulated market.",
+    "lessonLink": "/learn/indexes-etfs-funds/major-indexes",
+    "sources": [
+      "https://www.deutsche-boerse.com/dbg-en/about-us/contact/glossary/glossary-article/DAX-242866"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-010",
+    "category": "H",
+    "topic": "major-indexes",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the MSCI World includes emerging markets such as China and India.",
+    "answerBool": false,
+    "explanation": "False. The MSCI World covers developed markets only. Indexes such as the FTSE All-World also include emerging markets.",
+    "lessonLink": "/learn/indexes-etfs-funds/major-indexes",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-011",
+    "category": "H",
+    "topic": "major-indexes",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which of these indexes covers both developed and emerging markets?",
+    "options": [
+      "FTSE All-World",
+      "MSCI World",
+      "S&P 500",
+      "Dow Jones Industrial Average"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FTSE All-World includes large and mid-sized companies in developed and emerging markets. The MSCI World is developed markets only; the S&P 500 and the Dow are US only.",
+    "lessonLink": "/learn/indexes-etfs-funds/major-indexes",
+    "sources": [
+      "https://www.lseg.com/en/ftse-russell/indices/ftseall-world"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-012",
+    "category": "H",
+    "topic": "major-indexes",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the Dow Jones Industrial Average contain?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "explanation": "The Dow Jones Industrial Average is a price-weighted index of 30 US blue-chip companies.",
+    "lessonLink": "/learn/indexes-etfs-funds/major-indexes",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-013",
+    "category": "H",
+    "topic": "funds-basics",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A fund holds assets worth €10,000,000, has €50,000 of liabilities and 1,000,000 units outstanding. What is the NAV per unit in euros?",
+    "answerNumber": 9.95,
+    "tolerance": 0.001,
+    "unit": "€",
+    "explanation": "(€10,000,000 − €50,000) ÷ 1,000,000 = €9.95.",
+    "lessonLink": "/learn/indexes-etfs-funds/funds-basics",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-014",
+    "category": "H",
+    "topic": "funds-basics",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a passive (index) fund aim to do?",
+    "options": [
+      "Track an index as closely as possible",
+      "Beat the index by picking the best shares",
+      "Avoid all losses",
+      "Time the market by moving in and out of shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "A passive fund follows the rules of an index instead of trying to beat it.",
+    "lessonLink": "/learn/indexes-etfs-funds/funds-basics",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-015",
+    "category": "H",
+    "topic": "funds-basics",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: because a fund is a UCITS fund, it cannot lose a lot of money.",
+    "answerBool": false,
+    "explanation": "False. UCITS means the fund follows a common set of EU fund rules. Its value can still fall sharply if its investments fall.",
+    "lessonLink": "/learn/indexes-etfs-funds/funds-basics",
+    "sources": [
+      "https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/financial-markets/investment-funds_en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-016",
+    "category": "H",
+    "topic": "funds-basics",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why are index funds usually cheaper than actively managed funds?",
+    "options": [
+      "They follow index rules instead of paying managers and analysts to select investments",
+      "They are guaranteed by the government",
+      "They pay no taxes",
+      "They never buy or sell anything"
+    ],
+    "answerIndex": 0,
+    "explanation": "Active funds charge for the work of managers and analysts, which shows up in a higher TER. Index funds only follow the rules.",
+    "lessonLink": "/learn/indexes-etfs-funds/funds-basics",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-017",
+    "category": "H",
+    "topic": "funds-basics",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A fund has assets of €52,000,000, liabilities of €2,000,000 and 2,000,000 units. What is the NAV per unit in euros?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "(€52,000,000 − €2,000,000) ÷ 2,000,000 = €25.",
+    "lessonLink": "/learn/indexes-etfs-funds/funds-basics",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-018",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How do private investors usually buy ETF units?",
+    "options": [
+      "On a stock exchange, through a broker",
+      "Directly from authorised participants",
+      "Only from the fund company once a day",
+      "Only at a post office"
+    ],
+    "answerIndex": 0,
+    "explanation": "Private investors trade ETF units on the exchange (the secondary market) through their broker, like shares.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-019",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who can create and redeem ETF units directly with the fund?",
+    "options": [
+      "Authorised participants",
+      "Any retail investor",
+      "The stock exchange",
+      "The financial regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only authorised participants, typically large broker-dealers, create and redeem units with the fund, in large blocks.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-020",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "An ETF's holdings are worth €50.00 per unit, but it trades at €49.80 on the exchange. What is this called?",
+    "options": [
+      "A discount",
+      "A premium",
+      "A tracking difference",
+      "A dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "When the market price is below the value of the holdings, the ETF trades at a discount.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-021",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "An ETF trades at a discount to the value of its holdings. What can an authorised participant do that tends to push the price back up?",
+    "options": [
+      "Buy ETF units on the exchange and redeem them with the fund for the underlying securities",
+      "Create new ETF units and sell them on the exchange",
+      "Ask the exchange to change the price",
+      "Nothing; discounts cannot be corrected"
+    ],
+    "answerIndex": 0,
+    "explanation": "Buying cheap units and redeeming them for securities worth more is profitable, and the buying pushes the ETF price back towards the value of its holdings.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-022",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when you buy an ETF unit, you become a shareholder of the company that runs the ETF.",
+    "answerBool": false,
+    "explanation": "False. An ETF is a fund; one unit gives you a slice of the fund's whole basket, not shares in the ETF provider.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-023",
+    "category": "H",
+    "topic": "how-etfs-work",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which situations can make trading an ETF more expensive or let its price drift further from the value of its holdings? Select all that apply.",
+    "options": [
+      "The ETF tracks a niche, less liquid market",
+      "The underlying market is closed while you trade",
+      "Markets are stressed",
+      "The ETF tracks a very liquid large index during the underlying market's hours"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Niche ETFs and trading while the underlying market is closed can mean wider spreads, and in stressed markets premiums and discounts can widen. Liquid ETFs during the underlying market's hours usually trade tightly.",
+    "lessonLink": "/learn/indexes-etfs-funds/how-etfs-work",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24",
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-024",
+    "category": "H",
+    "topic": "etf-structures",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is an ETF called that reinvests the dividends it receives instead of paying them out?",
+    "options": [
+      "Accumulating",
+      "Distributing",
+      "Synthetic",
+      "Leveraged"
+    ],
+    "answerIndex": 0,
+    "explanation": "Accumulating ETFs (\"Thesaurierer\") reinvest income inside the fund; distributing ETFs pay it out.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-structures",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-025",
+    "category": "H",
+    "topic": "etf-structures",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which risk is specific to a synthetic (swap-based) ETF?",
+    "options": [
+      "Counterparty risk: the swap bank may fail to pay",
+      "The risk that the index stops being calculated",
+      "The risk of paying stamp duty",
+      "There is no extra risk"
+    ],
+    "answerIndex": 0,
+    "explanation": "A synthetic ETF relies on a swap with a bank. If the bank cannot pay, the ETF depends on the basket and collateral it holds.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-structures",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-026",
+    "category": "H",
+    "topic": "etf-structures",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does \"sampling\" (optimised replication) mean?",
+    "options": [
+      "Holding a representative selection of the index members",
+      "Holding every index member in index weight",
+      "Using a swap to get the index return",
+      "Holding only cash"
+    ],
+    "answerIndex": 0,
+    "explanation": "For very large indexes, a physical ETF may hold a representative selection, which can cause slightly bigger deviations from the index.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-structures",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-027",
+    "category": "H",
+    "topic": "etf-structures",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a distributing ETF pays the dividends it receives to its investors.",
+    "answerBool": true,
+    "explanation": "True. Distributing ETFs pay out income, typically several times a year.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-structures",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-028",
+    "category": "H",
+    "topic": "etf-structures",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in Austria, choosing an accumulating fund means you pay no tax on its income until you sell.",
+    "answerBool": false,
+    "explanation": "False. For reporting funds, the reinvested (deemed distributed) income is taxed every year, even though you receive no cash.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-structures",
+    "sources": [
+      "https://www.oekb.at/kapitalmarkt-services/meldungen-und-hinterlegungen-von-dokumenten/meldungen-zu-investmentfonds/meldungen-von-steuerdaten.html",
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-029",
+    "category": "H",
+    "topic": "tracking-and-costs",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An index returns +8.0% in a year and the ETF tracking it returns +7.8%. By how many percentage points did the ETF lag the index?",
+    "answerNumber": 0.2,
+    "tolerance": 0.001,
+    "explanation": "7.8% − 8.0% = −0.2 percentage points: a tracking difference of −0.2.",
+    "lessonLink": "/learn/indexes-etfs-funds/tracking-and-costs",
+    "sources": [
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-030",
+    "category": "H",
+    "topic": "tracking-and-costs",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In the strict sense, what does tracking error measure?",
+    "options": [
+      "How much a fund's deviation from its index fluctuates over time",
+      "The fund's yearly costs",
+      "The bid-ask spread on the exchange",
+      "The fund's total return"
+    ],
+    "answerIndex": 0,
+    "explanation": "Strictly, tracking error measures how consistent the deviation is. Tracking difference measures the gap itself. Some materials use \"tracking error\" loosely for any deviation.",
+    "lessonLink": "/learn/indexes-etfs-funds/tracking-and-costs",
+    "sources": [
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-031",
+    "category": "H",
+    "topic": "tracking-and-costs",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these can make an index fund's return differ from its index? Select all that apply.",
+    "options": [
+      "The fund's running costs (TER)",
+      "Trading costs when index members change",
+      "Dividends held briefly in cash",
+      "Fees charged by the index itself to its own calculation"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Costs, trading and cash all cause deviations. An index is just a calculation; it pays no fees.",
+    "lessonLink": "/learn/indexes-etfs-funds/tracking-and-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/",
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-032",
+    "category": "H",
+    "topic": "tracking-and-costs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Two ETFs track the same index and have the same TER. What usually tells you more about their real costs?",
+    "options": [
+      "Their tracking difference over several years",
+      "Last month's return",
+      "Which one has the longer name",
+      "How many exchanges list them"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tracking difference over several years captures costs beyond the TER, such as trading costs, lending income and tax handling.",
+    "lessonLink": "/learn/indexes-etfs-funds/tracking-and-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/",
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-033",
+    "category": "H",
+    "topic": "tracking-and-costs",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: income from securities lending can partly offset a fund's costs.",
+    "answerBool": true,
+    "explanation": "True. Lending securities against a fee earns extra income, which can partly offset costs, though it adds some risk.",
+    "lessonLink": "/learn/indexes-etfs-funds/tracking-and-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-w/wertpapierleihe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-034",
+    "category": "H",
+    "topic": "factor-sector-thematic-etfs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which of these is an example of a \"factor\" used by smart beta indexes?",
+    "options": [
+      "Value",
+      "ISIN",
+      "Ticker symbol",
+      "Fund domicile"
+    ],
+    "answerIndex": 0,
+    "explanation": "Factors include value, momentum, low volatility, quality and dividends.",
+    "lessonLink": "/learn/indexes-etfs-funds/factor-sector-thematic-etfs",
+    "sources": [
+      "https://www.finra.org/investors/insights/smart-beta-what-you-need-know"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-035",
+    "category": "H",
+    "topic": "factor-sector-thematic-etfs",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which risks does FINRA highlight for smart beta products? Select all that apply.",
+    "options": [
+      "Returns can be very different from market-cap weighted indexes",
+      "Concentration risk",
+      "Thin trading and wide bid-ask spreads",
+      "Guaranteed outperformance"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "FINRA warns about different returns, concentration risk and possible thin trading with wide spreads. Outperformance is not guaranteed.",
+    "lessonLink": "/learn/indexes-etfs-funds/factor-sector-thematic-etfs",
+    "sources": [
+      "https://www.finra.org/investors/insights/smart-beta-what-you-need-know"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-036",
+    "category": "H",
+    "topic": "factor-sector-thematic-etfs",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: back-tested performance reliably predicts a strategy's future returns.",
+    "answerBool": false,
+    "explanation": "False. FINRA notes that back-testing neither predicts future performance nor perfectly replicates past performance.",
+    "lessonLink": "/learn/indexes-etfs-funds/factor-sector-thematic-etfs",
+    "sources": [
+      "https://www.finra.org/investors/insights/smart-beta-what-you-need-know"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-037",
+    "category": "H",
+    "topic": "factor-sector-thematic-etfs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the main drawback of a sector ETF compared with a broad index ETF?",
+    "options": [
+      "It is much less diversified",
+      "It cannot be sold on an exchange",
+      "It is not allowed in the EU",
+      "It never pays dividends"
+    ],
+    "answerIndex": 0,
+    "explanation": "A sector ETF holds companies from one sector, so one bad event for that sector hits the whole fund.",
+    "lessonLink": "/learn/indexes-etfs-funds/factor-sector-thematic-etfs",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-038",
+    "category": "H",
+    "topic": "factor-sector-thematic-etfs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "You own a world-index ETF and add a technology thematic ETF. What is a likely effect?",
+    "options": [
+      "Your portfolio becomes more concentrated in the same large companies",
+      "Your diversification automatically doubles",
+      "Your overall risk must fall",
+      "Your tracking difference disappears"
+    ],
+    "answerIndex": 0,
+    "explanation": "Many of the largest companies in a tech thematic ETF are also among the largest in a world index, so the overlap increases concentration.",
+    "lessonLink": "/learn/indexes-etfs-funds/factor-sector-thematic-etfs",
+    "sources": [
+      "https://www.finra.org/investors/insights/smart-beta-what-you-need-know"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-039",
+    "category": "H",
+    "topic": "leveraged-inverse-etfs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a 2× leveraged ETF aim to deliver?",
+    "options": [
+      "Twice the index's return for each single day",
+      "Twice the index's return over a year, guaranteed",
+      "Half the index's return",
+      "Twice the index's dividends"
+    ],
+    "answerIndex": 0,
+    "explanation": "Leveraged ETFs aim for a multiple of the index's daily return. The SEC warns that results over longer periods can differ significantly.",
+    "lessonLink": "/learn/indexes-etfs-funds/leveraged-inverse-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-040",
+    "category": "H",
+    "topic": "leveraged-inverse-etfs",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "An index rises 10% on day 1 and falls 10% on day 2. A 2× leveraged ETF starts at 100. How many percent has it lost after day 2?",
+    "answerNumber": 4,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Day 1: +20% → 120. Day 2: −20% → 96. That is a 4% loss, while the index lost only 1%.",
+    "lessonLink": "/learn/indexes-etfs-funds/leveraged-inverse-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-041",
+    "category": "H",
+    "topic": "leveraged-inverse-etfs",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Same path: the index rises 10%, then falls 10%. An inverse (−1×) ETF starts at 100. How many percent has it lost after day 2?",
+    "answerNumber": 1,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Day 1: −10% → 90. Day 2: +10% → 99. The inverse product lost 1%, even though the index also fell.",
+    "lessonLink": "/learn/indexes-etfs-funds/leveraged-inverse-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-042",
+    "category": "H",
+    "topic": "leveraged-inverse-etfs",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: over a year, a 2× leveraged ETF always returns exactly twice the index's yearly return.",
+    "answerBool": false,
+    "explanation": "False. Because it resets daily, its result over longer periods can differ significantly from twice the index's return, especially in volatile markets.",
+    "lessonLink": "/learn/indexes-etfs-funds/leveraged-inverse-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-043",
+    "category": "H",
+    "topic": "leveraged-inverse-etfs",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A 3× leveraged product tracks an index that falls 33% in one day. By about how many percent does the product fall that day?",
+    "answerNumber": 99,
+    "tolerance": 0.5,
+    "unit": "%",
+    "explanation": "3 × 33% = 99%. Almost the whole investment is lost in one day.",
+    "lessonLink": "/learn/indexes-etfs-funds/leveraged-inverse-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/sec"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-044",
+    "category": "H",
+    "topic": "comparing-etfs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which short, standardised EU document describes a fund's objectives, risks and costs?",
+    "options": [
+      "The key information document (KID)",
+      "The annual report",
+      "The factsheet",
+      "Your tax return"
+    ],
+    "answerIndex": 0,
+    "explanation": "The KID is the short standardised document for EU retail investors. The prospectus is the full legal description.",
+    "lessonLink": "/learn/indexes-etfs-funds/comparing-etfs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-24"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-045",
+    "category": "H",
+    "topic": "comparing-etfs",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: two ETFs with \"World\" in their names necessarily hold the same companies.",
+    "answerBool": false,
+    "explanation": "False. One may track a developed-markets-only index such as the MSCI World, another one including emerging markets such as the FTSE All-World. Check the factsheet.",
+    "lessonLink": "/learn/indexes-etfs-funds/comparing-etfs",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100",
+      "https://www.lseg.com/en/ftse-russell/indices/ftseall-world"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-046",
+    "category": "H",
+    "topic": "comparing-etfs",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "An ETF holding US shares trades in euros on a European exchange. What is true about its currency risk?",
+    "options": [
+      "You are still exposed to the US dollar",
+      "There is no currency risk because it trades in euros",
+      "You are only exposed to euro risk",
+      "Currency risk applies only to distributing ETFs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The trading currency is not the same as the currency risk: the underlying shares are valued in dollars.",
+    "lessonLink": "/learn/indexes-etfs-funds/comparing-etfs",
+    "sources": [
+      "https://www.finra.org/investors/investing/investment-products/exchange-traded-funds-and-products"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-047",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the special tax rate in Austria on fund distributions and deemed distributed income, in percent?",
+    "answerNumber": 27.5,
+    "tolerance": 0.001,
+    "unit": "%",
+    "explanation": "Under § 27a EStG, the special rate of 27.5% applies, including to actual and deemed distributions from funds.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.jusline.at/gesetz/estg/paragraf/27a"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-048",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Your accumulating reporting fund has €200 of deemed distributed income for the year. How much tax is due at 27.5%, in euros?",
+    "answerNumber": 55,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€200 × 27.5% = €55, payable even though no cash was paid out.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.jusline.at/gesetz/estg/paragraf/27a",
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-049",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You bought fund units for €10,000. Deemed distributed income of €200 has already been taxed. You sell for €12,000. What is the taxable gain on sale, in euros?",
+    "answerNumber": 1800,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Taxed deemed income increases the acquisition cost to €10,200. €12,000 − €10,200 = €1,800.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-050",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A non-reporting fund's redemption price is €100 at the start of the year and €101 at the end. Under the flat-rate rule, what deemed income per unit is assumed, in euros?",
+    "answerNumber": 10.1,
+    "tolerance": 0.001,
+    "unit": "€",
+    "explanation": "90% of the €1 difference is €0.90, but the minimum is 10% of the year-end price: 10% × €101 = €10.10. The higher figure applies.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-051",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a reporting fund (\"Meldefonds\") in Austria?",
+    "options": [
+      "A fund that reports its tax data to the OeKB",
+      "A fund listed on the Vienna Stock Exchange",
+      "A fund that must pay out all its income",
+      "A fund that is free of tax"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reporting funds send their tax data to the OeKB, the official reporting office, which publishes the data banks use to calculate KESt.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.oekb.at/kapitalmarkt-services/meldungen-und-hinterlegungen-von-dokumenten/meldungen-zu-investmentfonds/meldungen-von-steuerdaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-052",
+    "category": "H",
+    "topic": "etf-taxes-austria",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: for privately held fund units, Austrian deemed distributed income includes 60% of the positive balance of the fund's realised gains.",
+    "answerBool": true,
+    "explanation": "True. § 186 Abs. 2 InvFG counts retained interest and dividends plus 60% of the positive balance of realised gains as deemed distributed.",
+    "lessonLink": "/learn/indexes-etfs-funds/etf-taxes-austria",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

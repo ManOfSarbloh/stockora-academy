@@ -297,5 +297,118 @@
     "lessons": [
       "returns-and-costs/compound-growth"
     ]
+  },
+  {
+    "id": "5A4lp_oZ5zg",
+    "title": "Stock Indices & Index Fund Investing",
+    "channel": "The Plain Bagel",
+    "categories": [
+      "H"
+    ],
+    "level": "beginner",
+    "durationMinutes": 8.5,
+    "language": "en",
+    "whyGood": "Explains what makes up a stock index, how indexes are weighted and how index funds use them.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/what-is-an-index",
+      "indexes-etfs-funds/funds-basics"
+    ]
+  },
+  {
+    "id": "DzYwB3uSU-c",
+    "title": "Open-ended mutual fund (part 1)  | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "H"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4,
+    "language": "en",
+    "whyGood": "A short whiteboard explanation of how an open-ended fund pools investors' money.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/funds-basics"
+    ]
+  },
+  {
+    "id": "wTzciLaCksA",
+    "title": "The Active Vs Passive Investing Debate",
+    "channel": "The Plain Bagel",
+    "categories": [
+      "H"
+    ],
+    "level": "beginner",
+    "durationMinutes": 11,
+    "language": "en",
+    "whyGood": "Walks through the arguments on both sides of the active versus passive debate.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/funds-basics"
+    ]
+  },
+  {
+    "id": "SFdsY9Rdh6w",
+    "title": "Exchange traded funds (ETFs) | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "H"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 5,
+    "language": "en",
+    "whyGood": "Khan Academy's whiteboard explanation of what ETFs are and how they compare with traditional funds.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/how-etfs-work"
+    ]
+  },
+  {
+    "id": "FcXn7eR3RAo",
+    "title": "Investopedia Video: An Intro To Exchange-Traded Funds (ETFs)",
+    "channel": "Investopedia",
+    "categories": [
+      "H"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2,
+    "language": "en",
+    "whyGood": "A two-minute overview of what an ETF is and how it trades on an exchange.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/how-etfs-work"
+    ]
+  },
+  {
+    "id": "jWAa5GV0_IE",
+    "title": "The Difference Between Physical and Synthetically Backed ETFs",
+    "channel": "Morningstar Europe",
+    "categories": [
+      "H"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 1.5,
+    "language": "en",
+    "whyGood": "A short explanation from Morningstar Europe of physical versus synthetic (swap-based) ETFs, and where to find which one a fund uses.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/etf-structures"
+    ]
+  },
+  {
+    "id": "WoYVmlOxwbA",
+    "title": "Leveraged ETFs - Not The Return Cheat Code You'd Expect",
+    "channel": "The Plain Bagel",
+    "categories": [
+      "H"
+    ],
+    "level": "advanced",
+    "durationMinutes": 11,
+    "language": "en",
+    "whyGood": "Shows with examples why daily-reset leveraged ETFs can return much less than the expected multiple over time.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "indexes-etfs-funds/leveraged-inverse-etfs"
+    ]
   }
 ]
