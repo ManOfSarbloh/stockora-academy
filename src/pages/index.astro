@@ -1,11 +1,15 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import CategoryCard from '@/components/CategoryCard.astro';
+import HomeProgress from '@/components/HomeProgress.astro';
+import ProgressScript from '@/components/ProgressScript.astro';
+import { getLessonKeysByCategory } from '@/lib/lessons';
 import { getCategories, STAGES } from '@/lib/categories';
 import { t } from '@/i18n';
 import { url } from '@/lib/url';
 
 const categories = await getCategories();
+const keys = await getLessonKeysByCategory();
 const first = categories[0];
 
 // Ownership example for the hero: 100 of 1,000 shares = 10 %.
@@ -19,7 +23,6 @@ const y = cy - r * Math.cos(angle);
 const lift = { dx: 6 * Math.sin(angle / 2), dy: -6 * Math.cos(angle / 2) };
 
 const widgets = [
-  { title: t('home.widgets.progress'), body: t('home.widgets.progressBody') },
   { title: t('home.widgets.quiz'), body: t('home.widgets.quizBody') },
   { title: t('home.widgets.market'), body: t('home.widgets.marketBody') },
 ];
@@ -76,7 +79,7 @@ const widgets = [
               .filter((c) => c.pathStage === stage)
               .map((c) => (
                 <li>
-                  <CategoryCard category={c} step={c.pathOrder} />
+                  <CategoryCard category={c} step={c.pathOrder} lessonKeys={keys[c.id]} />
                 </li>
               ))}
           </ul>
@@ -88,6 +91,7 @@ const widgets = [
   <section class="container-page" aria-labelledby="widgets-title">
     <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
     <ul class="mt-5 grid gap-4 sm:grid-cols-3">
+      <li><HomeProgress /></li>
       {
         widgets.map((w) => (
           <li class="card border-dashed p-5">
@@ -115,4 +119,5 @@ const widgets = [
       </p>
     </div>
   </section>
+  <ProgressScript />
 </BaseLayout>

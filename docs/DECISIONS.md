@@ -27,7 +27,19 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Topic URLs | `/learn/<slug>/` (e.g. `/learn/market-structure/`) rather than `/learn/D/`; quiz `lessonLink`s will use slugs |
 | Category count | The brief says "22 categories" but lists A–W = 23. All 23 are included |
 
+## Phase 3 (2026-10-11)
+
+| Topic | Decision |
+|---|---|
+| Markdown processor | `unified` (remark/rehype) instead of Astro 7's new default Sätteri: its plugin API is very new; unified is officially supported and well understood |
+| Callouts | GitHub-style alerts (`> [!EXAMPLE]`): plain Markdown, readable on GitHub too, no MDX needed |
+| Glossary links | Build-time rehype plugin, first mention per page, definition stored on the link for the tooltip (no extra request) |
+| Progress & bookmarks | `localStorage` keys `stockora-progress` (versioned) and `stockora-bookmarks`; pure functions in `src/lib/progress.ts` are unit-tested |
+| "My learning" page | `/me/`: overall progress, bookmarks, progress by topic, reset button |
+| Report a mistake | Prefilled GitHub issue once `reportConfig.githubRepo` is set (src/config/site.ts); until then links to Corrections |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
+- Set `reportConfig.githubRepo` once the GitHub repository exists.

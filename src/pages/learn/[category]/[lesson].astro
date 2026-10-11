@@ -1,0 +1,179 @@
+---
+import { getCollection, render } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import LessonActions from '@/components/LessonActions.astro';
+import { getLessonSequence, lessonSlug, type LessonRef } from '@/lib/lessons';
+import { reportMistakeHref } from '@/lib/report';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+export async function getStaticPaths() {
+  const seq = await getLessonSequence();
+  return seq.map((lesson, i) => ({
+    params: { category: lesson.category.slug, lesson: lessonSlug(lesson.entry) },
+    props: { lesson, prev: seq[i - 1], next: seq[i + 1] },
+  }));
+}
+
+interface Props {
+  lesson: LessonRef;
+  prev?: LessonRef;
+  next?: LessonRef;
+}
+
+const { lesson, prev, next } = Astro.props;
+const { entry, category } = lesson;
+const d = entry.data;
+const { Content, headings } = await render(entry);
+const toc = headings.filter((h) => h.depth === 2);
+const hasQuiz = (await getCollection('quizzes', (q) => q.data.category === category.id)).length > 0;
+const levelLabel = t(`level.${d.level}`);
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<BaseLayout title={d.title} description={d.summary}>
+  <div class="border-b border-border bg-surface">
+    <div class="container-page py-8 sm:py-10">
+      <nav aria-label="Breadcrumb" class="text-sm text-muted">
+        <ol class="flex flex-wrap items-center gap-1.5">
+          <li><a href={url('/learn')}>{t('learn.title')}</a></li>
+          <li aria-hidden="true">›</li>
+          <li><a href={url(`/learn/${category.slug}`)}>{category.id}. {category.title}</a></li>
+        </ol>
+      </nav>
+      <h1 class="mt-3 text-3xl font-bold tracking-tight text-balance sm:text-4xl">{d.title}</h1>
+      <p class="mt-3 max-w-2xl text-lg text-muted">{d.summary}</p>
+      <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted">
+        <span class="rounded-full bg-surface-2 px-2.5 py-0.5 font-medium">{levelLabel}</span>
+        <span>{t('learn.readingTime', { n: d.readingTime })}</span>
+        <span>{t('learn.lastReviewed')}: <time datetime={d.lastReviewed}>{d.lastReviewed}</time></span>
+        {d.draft && <span class="font-semibold text-[#c2410c] dark:text-[#fb923c]">{t('lesson.draft')}</span>}
+      </div>
+      <div class="mt-5" data-pagefind-ignore>
+        <LessonActions lessonKey={lesson.key} title={d.title} href={url(lesson.href)} />
+      </div>
+    </div>
+  </div>
+
+  <div class="container-page grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_15rem]">
+    <div class="min-w-0">
+      {
+        toc.length > 1 && (
+          <details class="card mb-8 p-4 lg:hidden" data-pagefind-ignore>
+            <summary class="cursor-pointer font-semibold">{t('lesson.onThisPage')}</summary>
+            <ul class="mt-3 space-y-1.5 text-sm">
+              {toc.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`}>{h.text}</a>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )
+      }
+
+      <article class="prose prose-stockora max-w-3xl prose-headings:scroll-mt-24 prose-headings:tracking-tight prose-a:font-medium">
+        <Content />
+      </article>
+
+      <section class="mt-12 max-w-3xl border-t border-border pt-6 text-sm" aria-labelledby="sources-title" data-pagefind-ignore>
+        <h2 id="sources-title" class="font-bold">{t('learn.sources')}</h2>
+        <p class="mt-1 text-muted">{t('lesson.sourcesLead')}</p>
+        <ul class="mt-2 list-disc space-y-1 pl-5">
+          {
+            d.sources.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener">
+                  {s.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-4">
+          <a href={reportMistakeHref(d.title, pageUrl)} class="text-muted">{t('lesson.reportMistake')}</a>
+        </p>
+      </section>
+
+      <div class="card mt-10 flex max-w-3xl flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between" data-pagefind-ignore>
+        <LessonActions lessonKey={lesson.key} title={d.title} href={url(lesson.href)} size="lg" />
+        <div class="flex flex-wrap gap-2">
+          {hasQuiz && <a href={url('/quizzes')} class="btn btn-ghost">{t('lesson.takeQuiz')}</a>}
+          {
+            next ? (
+              <a href={url(next.href)} class="btn btn-primary">
+                {t('lesson.next')} →
+              </a>
+            ) : (
+              <p class="text-sm text-muted">{t('lesson.finishedAll')}</p>
+            )
+          }
+        </div>
+      </div>
+
+      <nav class="mt-8 grid max-w-3xl gap-3 text-sm sm:grid-cols-2" aria-label="Lessons" data-pagefind-ignore>
+        {
+          prev ? (
+            <a href={url(prev.href)} class="card block p-4 no-underline hover:border-link">
+              <span class="block text-xs text-muted">← {t('lesson.previous')}</span>
+              <span class="mt-0.5 block font-semibold text-text">{prev.title}</span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+        {
+          next && (
+            <a href={url(next.href)} class="card block p-4 text-right no-underline hover:border-link">
+              <span class="block text-xs text-muted">{t('lesson.next')} →</span>
+              <span class="mt-0.5 block font-semibold text-text">{next.title}</span>
+            </a>
+          )
+        }
+      </nav>
+    </div>
+
+    {
+      toc.length > 1 && (
+        <aside class="hidden lg:block" data-pagefind-ignore>
+          <nav class="sticky top-24" aria-label={t('lesson.onThisPage')}>
+            <p class="text-sm font-semibold">{t('lesson.onThisPage')}</p>
+            <ul class="mt-3 space-y-2 border-l border-border text-sm">
+              {toc.map((h) => (
+                <li>
+                  <a href={`#${h.slug}`} class="-ml-px block border-l-2 border-transparent pl-3 text-muted no-underline hover:border-link hover:text-link" data-toc-link>
+                    {h.text}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </nav>
+        </aside>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<script>
+  // Highlight the table-of-contents entry for the section being read.
+  const links = [...document.querySelectorAll<HTMLAnchorElement>('[data-toc-link]')];
+  const targets = links.map((a) => document.getElementById(decodeURIComponent(a.hash.slice(1)))).filter(Boolean) as HTMLElement[];
+  if (targets.length && 'IntersectionObserver' in window) {
+    const setActive = (id: string) =>
+      links.forEach((a) => {
+        const on = a.hash === `#${id}`;
+        a.classList.toggle('!border-link', on);
+        a.classList.toggle('!text-link', on);
+        if (on) a.setAttribute('aria-current', 'location');
+        else a.removeAttribute('aria-current');
+      });
+    const io = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.filter((e) => e.isIntersecting).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible[0]) setActive(visible[0].target.id);
+      },
+      { rootMargin: '-80px 0px -65% 0px' },
+    );
+    targets.forEach((t) => io.observe(t));
+  }
+</script>

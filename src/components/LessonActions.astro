@@ -1,0 +1,95 @@
+---
+/**
+ * "Mark as done" and "Bookmark" toggle buttons for a lesson. Can appear more than once on a page;
+ * all copies stay in sync. State lives in localStorage (see src/lib/progress.ts).
+ */
+import { t } from '@/i18n';
+
+interface Props {
+  lessonKey: string;
+  title: string;
+  href: string;
+  size?: 'sm' | 'lg';
+}
+
+const { lessonKey, title, href, size = 'sm' } = Astro.props;
+const btn =
+  size === 'lg'
+    ? 'btn btn-ghost aria-pressed:border-link aria-pressed:text-link'
+    : 'inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-medium hover:border-link aria-pressed:border-link aria-pressed:text-link';
+---
+
+<div class="flex flex-wrap gap-2" data-lesson-actions data-key={lessonKey} data-title={title} data-href={href}>
+  <button
+    type="button"
+    class={btn}
+    data-action="done"
+    aria-pressed="false"
+    data-label-off={t('lesson.markDone')}
+    data-label-on={t('lesson.done')}
+  >
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path class="tick hidden" d="m8 12 3 3 5-6"></path></svg>
+    <span>{t('lesson.markDone')}</span>
+  </button>
+  <button
+    type="button"
+    class={btn}
+    data-action="bookmark"
+    aria-pressed="false"
+    data-label-off={t('lesson.bookmark')}
+    data-label-on={t('lesson.bookmarked')}
+  >
+    <svg width="16" height="16" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path class="fillable" fill="none" d="M6 3h12v18l-6-4-6 4z"></path></svg>
+    <span>{t('lesson.bookmark')}</span>
+  </button>
+</div>
+
+<script>
+  import {
+    CHANGE_EVENT,
+    loadBookmarks,
+    loadProgress,
+    notifyChange,
+    saveBookmarks,
+    saveProgress,
+    setDone,
+    toggleBookmark,
+  } from '@/lib/progress';
+
+  function paint() {
+    const progress = loadProgress();
+    const bookmarks = loadBookmarks();
+    for (const box of document.querySelectorAll<HTMLElement>('[data-lesson-actions]')) {
+      const key = box.dataset.key!;
+      const state = {
+        done: key in progress.done,
+        bookmark: bookmarks.some((b) => b.key === key),
+      };
+      for (const b of box.querySelectorAll<HTMLButtonElement>('button[data-action]')) {
+        const on = state[b.dataset.action as 'done' | 'bookmark'];
+        b.setAttribute('aria-pressed', String(on));
+        b.querySelector('span')!.textContent = (on ? b.dataset.labelOn : b.dataset.labelOff) ?? '';
+        b.querySelector('.tick')?.classList.toggle('hidden', !on);
+        b.querySelector('.fillable')?.setAttribute('fill', on ? 'currentColor' : 'none');
+      }
+    }
+  }
+
+  document.addEventListener('click', (e) => {
+    const b = (e.target as Element).closest<HTMLButtonElement>('[data-lesson-actions] button[data-action]');
+    if (!b) return;
+    const box = b.closest<HTMLElement>('[data-lesson-actions]')!;
+    const key = box.dataset.key!;
+    if (b.dataset.action === 'done') {
+      const p = loadProgress();
+      saveProgress(setDone(p, key, !(key in p.done)));
+    } else {
+      saveBookmarks(toggleBookmark(loadBookmarks(), { key, title: box.dataset.title!, href: box.dataset.href! }));
+    }
+    notifyChange();
+  });
+
+  paint();
+  window.addEventListener(CHANGE_EVENT, paint);
+  window.addEventListener('storage', paint);
+</script>

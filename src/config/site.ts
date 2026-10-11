@@ -22,6 +22,7 @@ export const secondaryNav: NavItem[] = [
   { href: '/tools', label: 'nav.tools' },
   { href: '/history', label: 'nav.history' },
   { href: '/scams', label: 'nav.scams' },
+  { href: '/me', label: 'nav.me' },
 ];
 
 export const legalNav: NavItem[] = [
@@ -32,6 +33,14 @@ export const legalNav: NavItem[] = [
   { href: '/corrections', label: 'footer.corrections' },
   { href: '/impressum', label: 'footer.impressum' },
 ];
+
+/**
+ * Where "Report a mistake" links go. Set `githubRepo` (e.g. "owner/stockora-academy") once the
+ * repository exists; until then the links point to the Corrections page.
+ */
+export const reportConfig = {
+  githubRepo: null as string | null,
+};
 
 /** Planned sections that are not built yet: shown on their placeholder pages. */
 export interface PlannedSection {
@@ -100,11 +109,6 @@ export const plannedSections: Record<string, PlannedSection> = {
       'Privacy-friendly: videos load only after you click',
       'Every link checked automatically',
     ],
-  },
-  glossary: {
-    title: 'Glossary',
-    lead: 'Every term explained in plain English, from A to Z.',
-    planned: ['400+ terms with examples', 'Instant search and A–Z bar', 'German translations for key terms', 'Term of the day'],
   },
   tools: {
     title: 'Tools',

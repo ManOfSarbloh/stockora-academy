@@ -1,35 +1,61 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import type { Category } from '@/lib/categories';
 import { t } from '@/i18n';
 import { url } from '@/lib/url';
 
 interface Props {
-  category: CollectionEntry<'categories'>['data'];
+  category: Category;
   step?: number;
+  /** Lesson keys of this category; the progress ring is filled in by ProgressScript. */
+  lessonKeys?: string[];
 }
 
-const { category: c, step } = Astro.props;
+const { category: c, step, lessonKeys = [] } = Astro.props;
 const levelKey = { beginner: 'level.beginner', intermediate: 'level.intermediate', advanced: 'level.advanced' } as const;
+const n = lessonKeys.length;
+const R = 19;
+const C = +(2 * Math.PI * R).toFixed(2);
 ---
 
 <a
   href={url(`/learn/${c.slug}`)}
   class="card group flex h-full gap-4 p-4 text-text no-underline transition-colors hover:border-link sm:p-5"
+  data-progress-keys={lessonKeys.join(' ')}
 >
-  <!-- The ring becomes a progress ring in Phase 3. -->
-  <span
-    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-[3px] border-teal text-lg font-bold text-text"
-    aria-hidden="true">{c.id}</span
-  >
+  <span class="relative h-11 w-11 shrink-0" aria-hidden="true">
+    <svg viewBox="0 0 44 44" class="h-11 w-11 -rotate-90">
+      <circle cx="22" cy="22" r={R} fill="none" stroke="var(--border)" stroke-width="3.5"></circle>
+      <circle
+        class="progress-arc transition-[stroke-dashoffset] duration-500"
+        cx="22"
+        cy="22"
+        r={R}
+        fill="none"
+        stroke="var(--teal)"
+        stroke-width="3.5"
+        stroke-linecap="round"
+        stroke-dasharray={C}
+        stroke-dashoffset={C}
+        data-circumference={C}></circle>
+    </svg>
+    <span class="absolute inset-0 flex items-center justify-center text-lg font-bold">{c.id}</span>
+  </span>
   <span class="min-w-0">
     {step && <span class="block text-xs font-semibold text-muted">{t('learn.pathStep')} {step}</span>}
     <span class="block font-semibold group-hover:text-link">{c.title}</span>
     <span class="mt-1 block text-sm text-muted">{c.summary}</span>
-    <span class="mt-2 flex flex-wrap gap-1.5">
+    <span class="mt-2 flex flex-wrap items-center gap-1.5">
       {
         c.levels.map((l) => (
           <span class="rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium text-muted">{t(levelKey[l])}</span>
         ))
+      }
+      {
+        n > 0 && (
+          <span class="progress-text ml-1 text-xs text-muted" data-label={t('learn.progressLabel')}>
+            {n === 1 ? t('learn.lessonCountOne') : t('learn.lessonCount', { n })}
+          </span>
+        )
       }
     </span>
   </span>

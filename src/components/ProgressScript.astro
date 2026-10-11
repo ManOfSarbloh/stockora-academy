@@ -1,0 +1,37 @@
+---
+/**
+ * Fills in progress rings and "x of y done" labels on any element with data-progress-keys.
+ * Include once on pages that show topic cards.
+ */
+---
+
+<script>
+  import { CHANGE_EVENT, countDone, loadProgress } from '@/lib/progress';
+
+  function render() {
+    const state = loadProgress();
+    for (const el of document.querySelectorAll<HTMLElement>('[data-progress-keys]')) {
+      const keys = (el.dataset.progressKeys ?? '').split(' ').filter(Boolean);
+      if (!keys.length) continue;
+      const done = countDone(state, keys);
+      const arc = el.querySelector<SVGCircleElement>('.progress-arc');
+      if (arc) {
+        const c = Number(arc.dataset.circumference);
+        arc.style.strokeDashoffset = String(c * (1 - done / keys.length));
+      }
+      const text = el.querySelector<HTMLElement>('.progress-text');
+      if (text?.dataset.label) {
+        text.dataset.default ??= text.textContent ?? '';
+        text.textContent =
+          done > 0
+            ? text.dataset.label.replace('{done}', String(done)).replace('{total}', String(keys.length))
+            : text.dataset.default;
+      }
+    }
+  }
+
+  render();
+  window.addEventListener(CHANGE_EVENT, render);
+  // Keep in sync when progress changes in another tab.
+  window.addEventListener('storage', render);
+</script>

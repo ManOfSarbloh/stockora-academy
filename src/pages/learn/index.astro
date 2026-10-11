@@ -2,10 +2,13 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import CategoryCard from '@/components/CategoryCard.astro';
+import ProgressScript from '@/components/ProgressScript.astro';
 import { getCategories, STAGES } from '@/lib/categories';
+import { getLessonKeysByCategory } from '@/lib/lessons';
 import { t } from '@/i18n';
 
 const categories = await getCategories();
+const keys = await getLessonKeysByCategory();
 ---
 
 <BaseLayout title={t('learn.title')} description={t('learn.lead')}>
@@ -24,7 +27,7 @@ const categories = await getCategories();
               .filter((c) => c.pathStage === stage)
               .map((c) => (
                 <li>
-                  <CategoryCard category={c} step={c.pathOrder} />
+                  <CategoryCard category={c} step={c.pathOrder} lessonKeys={keys[c.id]} />
                 </li>
               ))}
           </ul>
@@ -32,4 +35,5 @@ const categories = await getCategories();
       ))
     }
   </div>
+  <ProgressScript />
 </BaseLayout>

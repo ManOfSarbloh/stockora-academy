@@ -1,0 +1,55 @@
+---
+/** Home-page card: overall progress and a link to the next unfinished lesson. */
+import { getLessonSequence } from '@/lib/lessons';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+const seq = await getLessonSequence();
+const lessons = seq.map((l) => ({ key: l.key, title: l.title, href: url(l.href) }));
+---
+
+<div class="card p-5" data-home-progress data-lessons={JSON.stringify(lessons)}>
+  <p class="font-semibold">{t('home.widgets.progress')}</p>
+  {
+    lessons.length === 0 ? (
+      <p class="mt-1 text-sm text-muted">{t('learn.noLessons')}</p>
+    ) : (
+      <>
+        <div class="mt-3 h-2.5 overflow-hidden rounded-full bg-surface-2" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-label={t('me.overall')}>
+          <div class="progress-bar h-full w-0 rounded-full bg-teal transition-[width] duration-500"></div>
+        </div>
+        <p class="progress-summary mt-2 text-sm text-muted" data-label={t('learn.progressLabel')}>{t('learn.progressLabel', { done: 0, total: lessons.length })}</p>
+        <a href={url(lessons[0].href)} class="continue-link mt-3 inline-block text-sm font-semibold" data-label-continue={t('me.continue')}>
+          {t('me.startFirst')} →
+        </a>
+      </>
+    )
+  }
+</div>
+
+<script>
+  import { countDone, loadProgress, nextUnfinished } from '@/lib/progress';
+
+  for (const box of document.querySelectorAll<HTMLElement>('[data-home-progress]')) {
+    const lessons: { key: string; title: string; href: string }[] = JSON.parse(box.dataset.lessons ?? '[]');
+    if (!lessons.length) continue;
+    const state = loadProgress();
+    const keys = lessons.map((l) => l.key);
+    const done = countDone(state, keys);
+    if (done === 0) continue;
+    const pct = Math.round((done / keys.length) * 100);
+    box.querySelector<HTMLElement>('.progress-bar')!.style.width = `${pct}%`;
+    box.querySelector('[role=progressbar]')!.setAttribute('aria-valuenow', String(pct));
+    const summary = box.querySelector<HTMLElement>('.progress-summary')!;
+    summary.textContent = `${summary.dataset.label!.replace('{done}', String(done)).replace('{total}', String(keys.length))} (${pct}%)`;
+    const nextKey = nextUnfinished(state, keys);
+    const link = box.querySelector<HTMLAnchorElement>('.continue-link')!;
+    const next = lessons.find((l) => l.key === nextKey);
+    if (next) {
+      link.href = next.href;
+      link.textContent = `${link.dataset.labelContinue}: ${next.title} →`;
+    } else {
+      link.remove();
+    }
+  }
+</script>

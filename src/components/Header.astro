@@ -19,13 +19,13 @@ const moreActive = secondaryNav.some((i) => isActive(i.href));
       </span>
     </a>
 
-    <nav aria-label={t('a11y.mainNav')} class="ml-4 hidden flex-1 items-center gap-1 lg:flex">
+    <nav aria-label={t('a11y.mainNav')} class="ml-2 hidden flex-1 items-center gap-0.5 lg:flex xl:ml-4 xl:gap-1">
       {
         primaryNav.map((item) => (
           <a
             href={url(item.href)}
             aria-current={isActive(item.href) ? 'page' : undefined}
-            class="rounded-md px-2.5 py-2 text-sm font-medium whitespace-nowrap text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]"
+            class="rounded-md px-2 py-2 text-sm font-medium whitespace-nowrap xl:px-2.5 text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]"
           >
             {t(item.label)}
           </a>
@@ -34,7 +34,7 @@ const moreActive = secondaryNav.some((i) => isActive(i.href));
       <details class="nav-more relative">
         <summary
           class:list={[
-            'flex cursor-pointer list-none items-center gap-1 rounded-md px-2.5 py-2 text-sm font-medium hover:bg-surface-2',
+            'flex cursor-pointer list-none items-center gap-1 rounded-md px-2 py-2 text-sm font-medium hover:bg-surface-2 xl:px-2.5',
             moreActive && 'text-link',
           ]}
         >
@@ -57,7 +57,16 @@ const moreActive = secondaryNav.some((i) => isActive(i.href));
       </details>
     </nav>
 
-    <div class="ml-auto flex items-center gap-1">
+    <div class="ml-auto flex items-center gap-0.5 xl:gap-1">
+      <a
+        href={url('/me')}
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2 aria-[current=page]:text-link"
+        aria-label={t('nav.me')}
+        title={t('nav.me')}
+        aria-current={isActive('/me') ? 'page' : undefined}
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"></path></svg>
+      </a>
       <a
         href={url('/search')}
         class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2"

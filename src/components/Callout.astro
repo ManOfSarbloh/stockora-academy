@@ -1,39 +1,19 @@
 ---
 /**
- * Callout boxes used across lessons and pages.
- * Kinds match the brief: example, takeaway, mistake, warning, austria, verify.
+ * Callout box for Astro pages. Lessons use the Markdown form instead (`> [!EXAMPLE]`);
+ * both share the same styles in global.css.
  */
-export type CalloutKind = 'example' | 'takeaway' | 'mistake' | 'warning' | 'austria' | 'verify' | 'info';
+import { CALLOUT_KINDS, type CalloutKind } from '@/lib/markdown/callouts';
 
 interface Props {
   kind?: CalloutKind;
   title?: string;
 }
 
-const labels: Record<CalloutKind, string> = {
-  example: 'Example',
-  takeaway: 'Key takeaways',
-  mistake: 'Common beginner mistake',
-  warning: 'Warning',
-  austria: 'Austria note',
-  verify: 'Verify this',
-  info: 'Note',
-};
-
-const styles: Record<CalloutKind, string> = {
-  example: 'border-l-teal',
-  takeaway: 'border-l-teal',
-  mistake: 'border-l-warn-border',
-  warning: 'border-l-[#c2410c] dark:border-l-[#fb923c]',
-  austria: 'border-l-[#c8102e] dark:border-l-[#f87171]',
-  verify: 'border-l-warn-border',
-  info: 'border-l-muted',
-};
-
-const { kind = 'info', title = labels[kind] } = Astro.props;
+const { kind = 'note', title = CALLOUT_KINDS[kind] } = Astro.props;
 ---
 
-<aside class:list={['card my-6 border-l-4 p-4 sm:p-5', styles[kind]]} aria-label={title}>
-  <p class="text-sm font-bold">{title}</p>
-  <div class="mt-1.5 text-[0.95rem] [&_a]:font-medium [&>*+*]:mt-2"><slot /></div>
+<aside class:list={['callout', `callout-${kind}`, 'not-prose']} aria-label={title}>
+  <p class="callout-title">{title}</p>
+  <div class="text-[0.95rem] [&_a]:font-medium [&>*+*]:mt-2"><slot /></div>
 </aside>

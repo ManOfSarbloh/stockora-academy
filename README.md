@@ -48,6 +48,22 @@ Rules for content (see the brief, section 17):
 - Files whose name starts with `_` are ignored (use them for templates and notes).
 - Run `npm run validate` to see content counts and cross-file errors (duplicate IDs, broken references).
 
+### Writing lessons
+
+Callout boxes use GitHub-style alert syntax. Available kinds: `EXAMPLE`, `TAKEAWAYS`, `MISTAKE`, `WARNING`,
+`AUSTRIA`, `VERIFY`, `NOTE`, `TIP`. An optional title can follow the marker.
+
+```markdown
+> [!MISTAKE] "A €5 share is cheaper than a €500 share"
+> The price of one share tells you almost nothing on its own...
+```
+
+Glossary terms (and their `aliases`) are linked automatically on their first mention in each lesson, with a
+hover/tap definition. Restart `npm run dev` after editing `content/glossary.json`.
+
+Lesson URLs are `/learn/<topic-slug>/<file-name>/`, e.g. `content/lessons/A/what-is-a-stock.md` becomes
+`/learn/foundations/what-is-a-stock/`. Set `draft: true` to hide a lesson from the published site (drafts still show in `npm run dev`).
+
 UI text (buttons, menus, labels) lives in [`src/i18n/en.ts`](src/i18n/en.ts). A German dictionary can be added later with the same keys.
 
 ## Project structure

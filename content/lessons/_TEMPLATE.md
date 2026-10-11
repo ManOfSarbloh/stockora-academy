@@ -14,16 +14,29 @@ sources:               # at least one; official sources first
 draft: true            # drafts are not published
 ---
 
-Plain-English explanation. Define every term on first use.
+Plain-English explanation. Define every term on first use. Terms in content/glossary.json are linked
+automatically (first mention on the page), so you do not need to add glossary links by hand.
 
-## Example
+## A section heading
 
-A worked example with real numbers.
+Use `##` for sections: they appear in the "On this page" list.
 
-## Common beginner mistake
+> [!EXAMPLE]
+> A worked example with real numbers.
 
-What people often get wrong.
+> [!MISTAKE] Optional custom title
+> What people often get wrong.
+
+> [!AUSTRIA]
+> How this works in Austria (with an official source in the front-matter).
+
+> [!WARNING]
+> A risk the reader must not miss.
+
+> [!VERIFY]
+> Something that changes often: tell the reader where to check the current rules.
 
 ## Key takeaways
 
-- Three to five short bullet points.
+> [!TAKEAWAYS]
+> - Three to five short bullet points.

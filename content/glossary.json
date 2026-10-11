@@ -1,1 +1,75 @@
-[]
+[
+  {
+    "id": "stock",
+    "term": "Stock",
+    "aliases": ["share"],
+    "definition": "A unit of ownership in a company. Owning shares makes you a part-owner (shareholder) of that company.",
+    "example": "If a company has 1,000 shares and you own 25, you own 2.5% of it.",
+    "related": ["shareholder", "equity", "market-capitalisation"],
+    "categories": ["A"],
+    "de": "Aktie"
+  },
+  {
+    "id": "shareholder",
+    "term": "Shareholder",
+    "aliases": ["stockholder"],
+    "definition": "A person or organisation that owns shares in a company. Ordinary shareholders can usually vote at the general meeting and may receive dividends.",
+    "related": ["stock", "dividend", "general-meeting"],
+    "categories": ["A", "R"],
+    "de": "Aktionär / Aktionärin"
+  },
+  {
+    "id": "equity",
+    "term": "Equity",
+    "aliases": ["equities"],
+    "definition": "Ownership in a company. In investing, \"equities\" is the formal word for stocks. On a balance sheet, equity is what belongs to the owners: assets minus liabilities.",
+    "related": ["stock"],
+    "categories": ["A", "I"],
+    "de": "Eigenkapital"
+  },
+  {
+    "id": "dividend",
+    "term": "Dividend",
+    "definition": "A payment a company makes to its shareholders, usually out of its profits. Dividends are not guaranteed: the company decides whether to pay one and how much.",
+    "example": "A company pays a dividend of €2 per share. If you own 50 shares, you receive €100 (before taxes).",
+    "related": ["shareholder", "capital-gain"],
+    "categories": ["A", "G", "V"],
+    "de": "Dividende"
+  },
+  {
+    "id": "capital-gain",
+    "term": "Capital gain",
+    "definition": "The profit you make when you sell an investment for more than you paid for it. Selling for less than you paid is a capital loss.",
+    "example": "You buy a share for €80 and sell it for €100: a capital gain of €20 (before fees and taxes).",
+    "related": ["dividend"],
+    "categories": ["G", "Q"],
+    "de": "Kursgewinn"
+  },
+  {
+    "id": "market-capitalisation",
+    "term": "Market capitalisation",
+    "aliases": ["market capitalization", "market cap"],
+    "definition": "The total market value of a company's shares: the share price multiplied by the number of shares.",
+    "example": "1,000,000 shares at €50 each = a market capitalisation of €50 million.",
+    "related": ["stock"],
+    "categories": ["A", "C"],
+    "de": "Marktkapitalisierung / Börsenwert"
+  },
+  {
+    "id": "general-meeting",
+    "term": "General meeting",
+    "aliases": ["annual general meeting", "AGM", "shareholders' meeting"],
+    "definition": "The meeting of a company's shareholders, usually held once a year, where shareholders can vote on important matters such as electing board members or approving a dividend.",
+    "related": ["shareholder"],
+    "categories": ["A", "R"],
+    "de": "Hauptversammlung"
+  },
+  {
+    "id": "diversification",
+    "term": "Diversification",
+    "definition": "Spreading your money across many different investments (for example many companies, sectors and countries) so that a problem with one of them does less damage to the whole.",
+    "related": ["stock"],
+    "categories": ["M", "P"],
+    "de": "Diversifikation / Streuung"
+  }
+]

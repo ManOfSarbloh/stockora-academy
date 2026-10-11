@@ -137,6 +137,101 @@
   .btn-ghost:hover {
     border-color: var(--link);
   }
+  /* ---- Callout boxes (Markdown `> [!KIND]` and <Callout>) ---- */
+  .callout {
+    --callout-accent: var(--muted);
+    margin-block: 1.5rem;
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--callout-accent);
+    border-radius: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--text);
+  }
+  .callout > * + * {
+    margin-top: 0.5rem;
+  }
+  .callout > :first-child,
+  .callout p {
+    margin-block: 0;
+  }
+  .callout ul,
+  .callout ol {
+    margin-block: 0.25rem 0;
+  }
+  .callout p::before,
+  .callout p::after {
+    content: none; /* typography plugin adds quotes to blockquote paragraphs */
+  }
+  .callout-title {
+    font-weight: 700;
+    font-size: 0.875rem;
+    letter-spacing: 0.01em;
+  }
+  .callout-example,
+  .callout-takeaways,
+  .callout-tip {
+    --callout-accent: var(--teal);
+  }
+  .callout-mistake,
+  .callout-verify {
+    --callout-accent: var(--warn-border);
+  }
+  .callout-warning {
+    --callout-accent: #c2410c;
+  }
+  .callout-austria {
+    --callout-accent: #c8102e;
+  }
+  .dark .callout-warning {
+    --callout-accent: #fb923c;
+  }
+  .dark .callout-austria {
+    --callout-accent: #f87171;
+  }
+  .callout-verify {
+    background: var(--warn-bg);
+  }
+
+  /* ---- Auto-linked glossary terms ---- */
+  a.gloss {
+    color: inherit;
+    font-weight: inherit;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: var(--link);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.22em;
+  }
+  a.gloss:hover {
+    color: var(--link);
+  }
+  .gloss-tip {
+    position: absolute;
+    z-index: 60;
+    max-width: min(22rem, calc(100vw - 2rem));
+    padding: 0.75rem 0.9rem;
+    background: var(--surface);
+    color: var(--text);
+    border: 1px solid var(--border);
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 30px rgb(0 0 0 / 0.15);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+  .gloss-tip strong {
+    display: block;
+    margin-bottom: 0.2rem;
+  }
+  .gloss-tip a {
+    display: inline-block;
+    margin-top: 0.4rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+  }
+
   .prose-stockora {
     --tw-prose-body: var(--text);
     --tw-prose-headings: var(--text);

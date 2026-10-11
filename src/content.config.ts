@@ -15,8 +15,11 @@ export const CATEGORY_IDS = [
 
 const categoryId = z.enum(CATEGORY_IDS);
 const level = z.enum(['beginner', 'intermediate', 'advanced']);
-/** "2026-10" or "2026-10-11" */
-const reviewDate = z.string().regex(/^\d{4}-\d{2}(-\d{2})?$/, { error: 'Use YYYY-MM or YYYY-MM-DD' });
+/** "2026-10" or "2026-10-11". YAML turns an unquoted full date into a Date object, so accept that too. */
+const reviewDate = z.union([
+  z.string().regex(/^\d{4}-\d{2}(-\d{2})?$/, { error: 'Use YYYY-MM or YYYY-MM-DD' }),
+  z.date().transform((d) => d.toISOString().slice(0, 10)),
+]);
 const source = z.object({ title: z.string(), url: z.url() });
 
 const categories = defineCollection({

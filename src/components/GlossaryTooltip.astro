@@ -1,0 +1,82 @@
+---
+/**
+ * Shows a short definition when an auto-linked glossary term (a.gloss) is hovered or focused.
+ * Touch: the first tap shows the definition, a second tap on the same term opens the glossary.
+ */
+---
+
+<script>
+  const tip = document.createElement('div');
+  tip.className = 'gloss-tip';
+  tip.id = 'gloss-tip';
+  tip.setAttribute('role', 'tooltip');
+  tip.hidden = true;
+  document.body.append(tip);
+
+  let current: HTMLAnchorElement | null = null;
+  let hideTimer: number | undefined;
+
+  function show(link: HTMLAnchorElement) {
+    window.clearTimeout(hideTimer);
+    current = link;
+    tip.replaceChildren();
+    const title = document.createElement('strong');
+    title.textContent = link.dataset.term ?? link.textContent ?? '';
+    const body = document.createElement('span');
+    body.textContent = link.dataset.def ?? '';
+    const more = document.createElement('a');
+    more.href = link.href;
+    more.textContent = 'Open in glossary →';
+    tip.append(title, body, document.createElement('br'), more);
+    tip.hidden = false;
+
+    const r = link.getBoundingClientRect();
+    const w = tip.offsetWidth;
+    const left = Math.min(Math.max(8, r.left + window.scrollX), window.scrollX + document.documentElement.clientWidth - w - 8);
+    const below = r.bottom + tip.offsetHeight + 12 < window.innerHeight;
+    tip.style.left = `${left}px`;
+    tip.style.top = below ? `${r.bottom + window.scrollY + 8}px` : `${r.top + window.scrollY - tip.offsetHeight - 8}px`;
+    link.setAttribute('aria-describedby', 'gloss-tip');
+  }
+
+  function hide(delay = 120) {
+    window.clearTimeout(hideTimer);
+    hideTimer = window.setTimeout(() => {
+      tip.hidden = true;
+      current?.removeAttribute('aria-describedby');
+      current = null;
+    }, delay);
+  }
+
+  const glossFrom = (t: EventTarget | null) => (t instanceof Element ? t.closest<HTMLAnchorElement>('a.gloss') : null);
+
+  document.addEventListener('mouseover', (e) => {
+    const link = glossFrom(e.target);
+    if (link) show(link);
+    else if (!tip.contains(e.target as Node)) hide();
+  });
+  tip.addEventListener('mouseenter', () => window.clearTimeout(hideTimer));
+  document.addEventListener('focusin', (e) => {
+    const link = glossFrom(e.target);
+    if (link) show(link);
+    else if (!tip.contains(e.target as Node)) hide(0);
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !tip.hidden) hide(0);
+  });
+  document.addEventListener(
+    'touchend',
+    (e) => {
+      const link = glossFrom(e.target);
+      if (!link) {
+        if (!tip.contains(e.target as Node)) hide(0);
+        return;
+      }
+      if (current !== link || tip.hidden) {
+        e.preventDefault();
+        show(link);
+      }
+    },
+    { passive: false },
+  );
+</script>
