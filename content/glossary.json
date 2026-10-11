@@ -2,29 +2,55 @@
   {
     "id": "stock",
     "term": "Stock",
-    "aliases": ["share"],
+    "aliases": [
+      "share"
+    ],
     "definition": "A unit of ownership in a company. Owning shares makes you a part-owner (shareholder) of that company.",
     "example": "If a company has 1,000 shares and you own 25, you own 2.5% of it.",
-    "related": ["shareholder", "equity", "market-capitalisation"],
-    "categories": ["A"],
+    "related": [
+      "shareholder",
+      "equity",
+      "market-capitalisation",
+      "security"
+    ],
+    "categories": [
+      "A"
+    ],
     "de": "Aktie"
   },
   {
     "id": "shareholder",
     "term": "Shareholder",
-    "aliases": ["stockholder"],
+    "aliases": [
+      "stockholder"
+    ],
     "definition": "A person or organisation that owns shares in a company. Ordinary shareholders can usually vote at the general meeting and may receive dividends.",
-    "related": ["stock", "dividend", "general-meeting"],
-    "categories": ["A", "R"],
+    "related": [
+      "stock",
+      "dividend",
+      "general-meeting"
+    ],
+    "categories": [
+      "A",
+      "R"
+    ],
     "de": "Aktionär / Aktionärin"
   },
   {
     "id": "equity",
     "term": "Equity",
-    "aliases": ["equities"],
+    "aliases": [
+      "equities"
+    ],
     "definition": "Ownership in a company. In investing, \"equities\" is the formal word for stocks. On a balance sheet, equity is what belongs to the owners: assets minus liabilities.",
-    "related": ["stock"],
-    "categories": ["A", "I"],
+    "related": [
+      "stock",
+      "debt"
+    ],
+    "categories": [
+      "A",
+      "I"
+    ],
     "de": "Eigenkapital"
   },
   {
@@ -32,8 +58,15 @@
     "term": "Dividend",
     "definition": "A payment a company makes to its shareholders, usually out of its profits. Dividends are not guaranteed: the company decides whether to pay one and how much.",
     "example": "A company pays a dividend of €2 per share. If you own 50 shares, you receive €100 (before taxes).",
-    "related": ["shareholder", "capital-gain"],
-    "categories": ["A", "G", "V"],
+    "related": [
+      "shareholder",
+      "capital-gain"
+    ],
+    "categories": [
+      "A",
+      "G",
+      "V"
+    ],
     "de": "Dividende"
   },
   {
@@ -41,35 +74,478 @@
     "term": "Capital gain",
     "definition": "The profit you make when you sell an investment for more than you paid for it. Selling for less than you paid is a capital loss.",
     "example": "You buy a share for €80 and sell it for €100: a capital gain of €20 (before fees and taxes).",
-    "related": ["dividend"],
-    "categories": ["G", "Q"],
+    "related": [
+      "dividend"
+    ],
+    "categories": [
+      "G",
+      "Q"
+    ],
     "de": "Kursgewinn"
   },
   {
     "id": "market-capitalisation",
     "term": "Market capitalisation",
-    "aliases": ["market capitalization", "market cap"],
+    "aliases": [
+      "market capitalization",
+      "market cap"
+    ],
     "definition": "The total market value of a company's shares: the share price multiplied by the number of shares.",
     "example": "1,000,000 shares at €50 each = a market capitalisation of €50 million.",
-    "related": ["stock"],
-    "categories": ["A", "C"],
+    "related": [
+      "stock"
+    ],
+    "categories": [
+      "A",
+      "C"
+    ],
     "de": "Marktkapitalisierung / Börsenwert"
   },
   {
     "id": "general-meeting",
     "term": "General meeting",
-    "aliases": ["annual general meeting", "AGM", "shareholders' meeting"],
+    "aliases": [
+      "annual general meeting",
+      "AGM",
+      "shareholders' meeting"
+    ],
     "definition": "The meeting of a company's shareholders, usually held once a year, where shareholders can vote on important matters such as electing board members or approving a dividend.",
-    "related": ["shareholder"],
-    "categories": ["A", "R"],
+    "related": [
+      "shareholder"
+    ],
+    "categories": [
+      "A",
+      "R"
+    ],
     "de": "Hauptversammlung"
   },
   {
     "id": "diversification",
     "term": "Diversification",
     "definition": "Spreading your money across many different investments (for example many companies, sectors and countries) so that a problem with one of them does less damage to the whole.",
-    "related": ["stock"],
-    "categories": ["M", "P"],
+    "related": [
+      "stock"
+    ],
+    "categories": [
+      "M",
+      "P"
+    ],
     "de": "Diversifikation / Streuung"
+  },
+  {
+    "id": "bond",
+    "term": "Bond",
+    "aliases": [],
+    "definition": "A debt security: a loan from an investor to a company or government. The issuer pays interest during the bond's life and repays the face value when it matures.",
+    "example": "You buy a 5-year bond for €1,000 paying 4% a year: you receive €40 interest each year and €1,000 back after 5 years, if the issuer can pay.",
+    "related": [
+      "debt",
+      "interest-rate",
+      "equity"
+    ],
+    "categories": [
+      "A",
+      "U"
+    ],
+    "de": "Anleihe"
+  },
+  {
+    "id": "debt",
+    "term": "Debt",
+    "aliases": [],
+    "definition": "Money that is borrowed and must be paid back, usually with interest. For a company, loans and bonds are debt; for an investor, buying a bond means lending money (holding debt).",
+    "related": [
+      "bond",
+      "equity",
+      "creditor"
+    ],
+    "categories": [
+      "A",
+      "I"
+    ],
+    "de": "Fremdkapital / Schulden"
+  },
+  {
+    "id": "creditor",
+    "term": "Creditor",
+    "aliases": [
+      "lender"
+    ],
+    "definition": "A person or organisation that is owed money, for example a bank that gave a loan or an investor who holds a bond. Creditors are paid before shareholders if a company is liquidated.",
+    "related": [
+      "debt",
+      "bond"
+    ],
+    "categories": [
+      "A",
+      "R"
+    ],
+    "de": "Gläubiger"
+  },
+  {
+    "id": "interest-rate",
+    "term": "Interest rate",
+    "aliases": [
+      "interest rates"
+    ],
+    "definition": "The price of borrowing money, shown as a percentage per year. Borrowers pay it; lenders and savers receive it.",
+    "example": "€1,000 at an interest rate of 3% earns €30 in one year.",
+    "related": [
+      "bond",
+      "inflation"
+    ],
+    "categories": [
+      "A",
+      "L"
+    ],
+    "de": "Zinssatz"
+  },
+  {
+    "id": "primary-market",
+    "term": "Primary market",
+    "aliases": [],
+    "definition": "Where new securities are issued for the first time and the issuer (a company or government) receives the money, for example in an IPO.",
+    "related": [
+      "secondary-market",
+      "ipo"
+    ],
+    "categories": [
+      "A",
+      "B",
+      "D"
+    ],
+    "de": "Primärmarkt"
+  },
+  {
+    "id": "secondary-market",
+    "term": "Secondary market",
+    "aliases": [],
+    "definition": "Where investors trade existing securities with each other, for example on a stock exchange. The company that issued the shares does not receive money from these trades.",
+    "related": [
+      "primary-market",
+      "stock-exchange"
+    ],
+    "categories": [
+      "A",
+      "D"
+    ],
+    "de": "Sekundärmarkt"
+  },
+  {
+    "id": "ipo",
+    "term": "IPO",
+    "aliases": [
+      "initial public offering"
+    ],
+    "definition": "Initial public offering: the first time a company sells its shares to the public and has them listed on a stock exchange.",
+    "related": [
+      "primary-market",
+      "stock-exchange"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Börsengang"
+  },
+  {
+    "id": "limited-liability",
+    "term": "Limited liability",
+    "aliases": [],
+    "definition": "The rule that shareholders of companies such as an AG are not personally liable for the company's debts. The most a shareholder can lose is what they paid for their shares.",
+    "related": [
+      "shareholder"
+    ],
+    "categories": [
+      "A",
+      "R"
+    ],
+    "de": "beschränkte Haftung"
+  },
+  {
+    "id": "preferred-stock",
+    "term": "Preferred stock",
+    "aliases": [
+      "preferred shares",
+      "preference shares"
+    ],
+    "definition": "A type of share that usually has no voting rights but receives dividends before ordinary shares and ranks ahead of them if the company is liquidated.",
+    "related": [
+      "stock",
+      "dividend"
+    ],
+    "categories": [
+      "A",
+      "C"
+    ],
+    "de": "Vorzugsaktie"
+  },
+  {
+    "id": "security",
+    "term": "Security",
+    "aliases": [
+      "securities"
+    ],
+    "definition": "A tradable investment instrument, such as a stock or a bond.",
+    "related": [
+      "stock",
+      "bond",
+      "isin"
+    ],
+    "categories": [
+      "A"
+    ],
+    "de": "Wertpapier"
+  },
+  {
+    "id": "ticker",
+    "term": "Ticker symbol",
+    "aliases": [
+      "ticker"
+    ],
+    "definition": "A short code, usually a few letters, that a stock exchange uses for a listed security. Tickers are not unique across exchanges.",
+    "related": [
+      "isin",
+      "stock-exchange"
+    ],
+    "categories": [
+      "A",
+      "W"
+    ],
+    "de": "Tickersymbol / Kürzel"
+  },
+  {
+    "id": "isin",
+    "term": "ISIN",
+    "aliases": [
+      "International Securities Identification Number"
+    ],
+    "definition": "A 12-character code that identifies one security worldwide: a 2-letter country code, a 9-character basic number and a check digit. In Austria, ISINs are assigned by the OeKB.",
+    "related": [
+      "wkn",
+      "ticker",
+      "security"
+    ],
+    "categories": [
+      "A"
+    ],
+    "de": "ISIN"
+  },
+  {
+    "id": "wkn",
+    "term": "WKN",
+    "aliases": [
+      "Wertpapierkennnummer"
+    ],
+    "definition": "A six-character German securities identification code. It has largely been replaced by the ISIN but is still widely used in German-speaking countries.",
+    "related": [
+      "isin"
+    ],
+    "categories": [
+      "A"
+    ],
+    "de": "Wertpapierkennnummer"
+  },
+  {
+    "id": "stock-exchange",
+    "term": "Stock exchange",
+    "aliases": [
+      "stock exchanges"
+    ],
+    "definition": "An organised, regulated marketplace where securities of listed companies are traded under fixed rules. Today trading is almost entirely electronic.",
+    "related": [
+      "trading-venue",
+      "secondary-market"
+    ],
+    "categories": [
+      "A",
+      "D"
+    ],
+    "de": "Börse"
+  },
+  {
+    "id": "trading-venue",
+    "term": "Trading venue",
+    "aliases": [
+      "trading venues"
+    ],
+    "definition": "Under the EU's MiFID II rules: a regulated market, a multilateral trading facility (MTF) or an organised trading facility (OTF).",
+    "related": [
+      "stock-exchange",
+      "mtf",
+      "otc"
+    ],
+    "categories": [
+      "A",
+      "D"
+    ],
+    "de": "Handelsplatz"
+  },
+  {
+    "id": "mtf",
+    "term": "MTF",
+    "aliases": [
+      "multilateral trading facility",
+      "multilateral trading facilities"
+    ],
+    "definition": "Multilateral trading facility: an EU trading venue, run by an investment firm or market operator, that brings many buyers and sellers together under fixed rules, similar to an exchange.",
+    "related": [
+      "trading-venue",
+      "stock-exchange"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Multilaterales Handelssystem (MTF)"
+  },
+  {
+    "id": "otc",
+    "term": "OTC",
+    "aliases": [
+      "over-the-counter",
+      "over the counter"
+    ],
+    "definition": "Over-the-counter: trading directly between two parties instead of on a trading venue. In the US, 'OTC securities' are securities not listed on a national securities exchange.",
+    "related": [
+      "trading-venue"
+    ],
+    "categories": [
+      "A",
+      "D"
+    ],
+    "de": "außerbörslicher Handel (OTC)"
+  },
+  {
+    "id": "stock-index",
+    "term": "Stock index",
+    "aliases": [
+      "index",
+      "indexes",
+      "indices"
+    ],
+    "definition": "A number that tracks the prices of a selected group of shares, such as Austria's ATX. News reports often call it 'the market'.",
+    "related": [
+      "stock-exchange"
+    ],
+    "categories": [
+      "A",
+      "H"
+    ],
+    "de": "Aktienindex"
+  },
+  {
+    "id": "retail-investor",
+    "term": "Retail investor",
+    "aliases": [
+      "retail investors",
+      "private investor",
+      "individual investor"
+    ],
+    "definition": "A private person who buys and sells investments with their own money, for themselves.",
+    "related": [
+      "institutional-investor",
+      "broker"
+    ],
+    "categories": [
+      "A"
+    ],
+    "de": "Privatanleger / Kleinanleger"
+  },
+  {
+    "id": "institutional-investor",
+    "term": "Institutional investor",
+    "aliases": [
+      "institutional investors",
+      "institutions"
+    ],
+    "definition": "A professional organisation that pools money and invests it on behalf of others, such as pension funds, investment funds, insurance companies and banks.",
+    "related": [
+      "retail-investor"
+    ],
+    "categories": [
+      "A"
+    ],
+    "de": "institutioneller Investor"
+  },
+  {
+    "id": "market-maker",
+    "term": "Market maker",
+    "aliases": [
+      "market makers"
+    ],
+    "definition": "A firm that stands ready to buy or sell a security at publicly quoted prices, making it easier for others to trade at any time.",
+    "related": [
+      "stock-exchange"
+    ],
+    "categories": [
+      "A",
+      "D"
+    ],
+    "de": "Market Maker"
+  },
+  {
+    "id": "broker",
+    "term": "Broker",
+    "aliases": [
+      "brokers"
+    ],
+    "definition": "A firm that buys and sells securities on behalf of its clients and usually holds them in the client's account. Retail investors reach the market through a broker.",
+    "related": [
+      "retail-investor"
+    ],
+    "categories": [
+      "A",
+      "F"
+    ],
+    "de": "Broker / Wertpapierdienstleister"
+  },
+  {
+    "id": "inflation",
+    "term": "Inflation",
+    "aliases": [],
+    "definition": "A general rise in prices over time, which means the same amount of money buys less.",
+    "example": "If prices rise 3% in a year, something that cost €100 now costs €103.",
+    "related": [
+      "interest-rate"
+    ],
+    "categories": [
+      "A",
+      "G",
+      "L"
+    ],
+    "de": "Inflation"
+  },
+  {
+    "id": "volatility",
+    "term": "Volatility",
+    "aliases": [
+      "volatile"
+    ],
+    "definition": "How strongly and how often an investment's price moves up and down. More volatile means bigger swings in both directions.",
+    "related": [
+      "diversification"
+    ],
+    "categories": [
+      "A",
+      "P"
+    ],
+    "de": "Volatilität / Schwankungsbreite"
+  },
+  {
+    "id": "asset-class",
+    "term": "Asset class",
+    "aliases": [
+      "asset classes"
+    ],
+    "definition": "A group of investments that behave in similar ways, such as stocks, bonds, cash or property.",
+    "related": [
+      "diversification",
+      "volatility"
+    ],
+    "categories": [
+      "A",
+      "M",
+      "U"
+    ],
+    "de": "Anlageklasse"
   }
 ]

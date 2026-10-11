@@ -2,6 +2,8 @@
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import LessonActions from '@/components/LessonActions.astro';
+import VideoList from '@/components/VideoList.astro';
+import QuizSection from '@/components/quiz/QuizSection.astro';
 import { getLessonSequence, lessonSlug, type LessonRef } from '@/lib/lessons';
 import { reportMistakeHref } from '@/lib/report';
 import { t } from '@/i18n';
@@ -76,6 +78,11 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
         <Content />
       </article>
 
+      <div class="mt-12 max-w-3xl space-y-12">
+        <VideoList lessonKey={lesson.key} />
+        <QuizSection categoryId={category.id} lessonTopic={lessonSlug(entry)} limit={5} id="check-yourself" />
+      </div>
+
       <section class="mt-12 max-w-3xl border-t border-border pt-6 text-sm" aria-labelledby="sources-title" data-pagefind-ignore>
         <h2 id="sources-title" class="font-bold">{t('learn.sources')}</h2>
         <p class="mt-1 text-muted">{t('lesson.sourcesLead')}</p>
@@ -98,7 +105,7 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
       <div class="card mt-10 flex max-w-3xl flex-col gap-4 p-5 sm:flex-row sm:items-center sm:justify-between" data-pagefind-ignore>
         <LessonActions lessonKey={lesson.key} title={d.title} href={url(lesson.href)} size="lg" />
         <div class="flex flex-wrap gap-2">
-          {hasQuiz && <a href={url('/quizzes')} class="btn btn-ghost">{t('lesson.takeQuiz')}</a>}
+          {hasQuiz && <a href={url(`/learn/${category.slug}#quiz`)} class="btn btn-ghost">{t('lesson.takeQuiz')}</a>}
           {
             next ? (
               <a href={url(next.href)} class="btn btn-primary">

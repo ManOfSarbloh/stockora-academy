@@ -1,0 +1,62 @@
+---
+/**
+ * Privacy-friendly YouTube embed. Nothing is loaded from YouTube (not even a thumbnail)
+ * until the visitor clicks; then the player loads from youtube-nocookie.com.
+ */
+import type { CollectionEntry } from 'astro:content';
+import { t } from '@/i18n';
+
+interface Props {
+  video: CollectionEntry<'videos'>['data'];
+}
+
+const { video: v } = Astro.props;
+const watchUrl = `https://www.youtube.com/watch?v=${v.id}`;
+const minutes = Math.round(v.durationMinutes);
+const levelLabel = t(`level.${v.level}`);
+---
+
+<figure class="card overflow-hidden" data-video={v.id} data-title={v.title}>
+  <div class="video-frame relative aspect-video bg-navy">
+    <button
+      type="button"
+      class="video-load group absolute inset-0 flex w-full flex-col items-center justify-center gap-3 p-4 text-center text-white"
+      aria-label={`${t('video.load')}: ${v.title}`}
+    >
+      <span class="flex h-14 w-14 shrink-0 items-center justify-center rounded-full bg-white/15 transition group-hover:scale-105 group-hover:bg-white/25" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"></path></svg>
+      </span>
+      <span class="line-clamp-2 max-w-md text-sm font-semibold">{v.title}</span>
+      <span class="max-w-sm text-xs text-white/75">{t('video.consent')}</span>
+    </button>
+  </div>
+  <figcaption class="space-y-1.5 p-4 text-sm">
+    <p class="flex flex-wrap gap-x-3 gap-y-1 text-muted">
+      <span class="font-medium text-text">{v.channel}</span>
+      <span>{t('video.minutes', { n: minutes })}</span>
+      <span>{levelLabel}</span>
+      {v.language !== 'en' && <span>{v.language.toUpperCase()}</span>}
+    </p>
+    <p>{v.whyGood}</p>
+    <p>
+      <a href={watchUrl} rel="noopener" target="_blank">{t('video.watchOnYouTube')} ↗</a>
+    </p>
+  </figcaption>
+</figure>
+
+<script>
+  document.addEventListener('click', (e) => {
+    const btn = (e.target as Element).closest<HTMLButtonElement>('.video-load');
+    if (!btn) return;
+    const card = btn.closest<HTMLElement>('[data-video]')!;
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube-nocookie.com/embed/${card.dataset.video}?autoplay=1&rel=0`;
+    iframe.title = card.dataset.title ?? 'YouTube video';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
+    iframe.allowFullscreen = true;
+    iframe.referrerPolicy = 'strict-origin-when-cross-origin';
+    iframe.className = 'absolute inset-0 h-full w-full';
+    btn.replaceWith(iframe);
+    iframe.focus();
+  });
+</script>

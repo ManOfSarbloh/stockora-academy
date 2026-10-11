@@ -25,6 +25,22 @@ for (const c of categories) {
   orders.add(c.pathOrder);
 }
 
+// Lessons: collect valid lesson keys ("<topic-slug>/<lesson-slug>") and page paths
+const slugByLetter = Object.fromEntries(categories.map((c) => [c.id, c.slug]));
+const lessonKeys = new Set();
+const validPaths = new Set(categories.map((c) => `/learn/${c.slug}`));
+const lessonsDir = join(CONTENT, 'lessons');
+for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
+  const dir = join(lessonsDir, letter);
+  if (!slugByLetter[letter]) continue;
+  for (const f of readdirSync(dir).filter((f) => f.endsWith('.md') && !f.startsWith('_'))) {
+    const key = `${slugByLetter[letter]}/${f.replace(/\.md$/, '')}`;
+    lessonKeys.add(key);
+    validPaths.add(`/learn/${key}`);
+  }
+}
+const pathOk = (p) => validPaths.has(p.split('#')[0].replace(/\/$/, ''));
+
 // Glossary
 const glossary = readJSON(join(CONTENT, 'glossary.json'));
 const termIds = new Set();
@@ -43,6 +59,7 @@ const videoIds = new Set();
 for (const v of videos) {
   if (videoIds.has(v.id)) errors.push(`videos: duplicate id "${v.id}"`);
   videoIds.add(v.id);
+  for (const k of v.lessons ?? []) if (!lessonKeys.has(k)) errors.push(`videos ${v.id}: lesson "${k}" does not exist`);
 }
 
 // Quizzes
@@ -56,6 +73,7 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
     if (qIds.has(q.id)) errors.push(`quizzes: id "${q.id}" in ${f} already used in ${qIds.get(q.id)}`);
     qIds.set(q.id, f);
     if (q.difficulty in byDifficulty) byDifficulty[q.difficulty]++;
+    if (q.lessonLink && !pathOk(q.lessonLink)) errors.push(`quizzes ${q.id}: lessonLink "${q.lessonLink}" does not match any lesson or topic page`);
     if (q.type === 'multiple_choice' && !(q.answerIndex < q.options?.length))
       errors.push(`quizzes ${q.id}: answerIndex out of range`);
     if (q.type === 'multiple_select' && q.answers?.some((a) => a >= q.options?.length))
@@ -68,13 +86,14 @@ const total = qIds.size;
 const pct = (n) => (total ? `${Math.round((n / total) * 100)}%` : '-');
 console.log('Content summary');
 console.log(`  categories      ${categories.length}`);
+console.log(`  lessons         ${lessonKeys.size}`);
 console.log(`  glossary terms  ${glossary.length} / 400 target`);
 console.log(`  videos          ${videos.length}`);
 console.log(`  quiz questions  ${total} / 900 target`);
 console.log(
   `    difficulty    beginner ${pct(byDifficulty.beginner)}, intermediate ${pct(byDifficulty.intermediate)}, advanced ${pct(byDifficulty.advanced)} (target 40/40/20)`,
 );
-for (const [f, n] of Object.entries(perFile)) console.log(`    ${f.padEnd(16)}${n}`);
+for (const [f, n] of Object.entries(perFile)) console.log(`    ${f.padEnd(24)}${n}`);
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s):`);

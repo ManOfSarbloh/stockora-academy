@@ -1,0 +1,34 @@
+---
+import { getCollection } from 'astro:content';
+import VideoCard from '@/components/VideoCard.astro';
+import { t } from '@/i18n';
+
+interface Props {
+  /** Show videos linked to this lesson key... */
+  lessonKey?: string;
+  /** ...or all videos of this category. */
+  categoryId?: string;
+  headingLevel?: 'h2' | 'h3';
+}
+
+const { lessonKey, categoryId, headingLevel: H = 'h2' } = Astro.props;
+const videos = (await getCollection('videos'))
+  .map((v) => v.data)
+  .filter((v) => (lessonKey ? v.lessons.includes(lessonKey) : categoryId ? v.categories.includes(categoryId) : false));
+---
+
+{
+  videos.length > 0 && (
+    <section class="not-prose" aria-labelledby={`videos-${lessonKey ?? categoryId}`} data-pagefind-ignore>
+      <H id={`videos-${lessonKey ?? categoryId}`} class="text-xl font-bold">
+        {t('video.heading')}
+      </H>
+      <p class="mt-1 text-sm text-muted">{t('video.disclaimer')}</p>
+      <div class="mt-4 grid gap-4 md:grid-cols-2">
+        {videos.map((v) => (
+          <VideoCard video={v} />
+        ))}
+      </div>
+    </section>
+  )
+}

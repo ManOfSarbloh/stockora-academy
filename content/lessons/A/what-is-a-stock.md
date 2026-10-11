@@ -10,6 +10,8 @@ lastReviewed: 2026-10-11
 sources:
   - title: "Stocks (Investor.gov, U.S. Securities and Exchange Commission)"
     url: https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks
+  - title: "Security (Investor.gov glossary, U.S. Securities and Exchange Commission)"
+    url: https://www.investor.gov/introduction-investing/investing-basics/glossary/security
   - title: "Aktiengesellschaft (Unternehmensserviceportal USP, Austrian Federal Ministries of Justice and Finance; updated 1 January 2026)"
     url: https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft
 ---
@@ -21,6 +23,10 @@ That is the whole idea behind a stock: **a stock is a share of ownership in a co
 ## Owning a slice of a company
 
 When a company issues shares, its ownership is divided into equal units. If you own some of those units, you own the same fraction of the company.
+
+![Pie chart of a company with 1,000 shares: a founder owns 400 (40%), a pension fund 300 (30%), many small investors 275 (27.5%) and you 25 (2.5%)](./ownership-pie.svg)
+
+A company usually has many owners at the same time. Each owns exactly the fraction that their shares make up of all shares.
 
 > [!EXAMPLE]
 > A company is divided into **1,000 shares**. You buy **25** of them.
@@ -53,13 +59,14 @@ If a company goes bankrupt and its assets are sold, ordinary shareholders are **
 > [!WARNING]
 > You can lose all the money you put into a stock. That is why spreading money across many companies (diversification) matters, a topic covered later in the learning path.
 
-## Stock, share, equity: same thing?
+## Stock, share, equity, security: same thing?
 
 You will see several words used for nearly the same idea:
 
 - **Share** usually means one unit of ownership: "I own 25 shares."
 - **Stock** is often used more generally: "I invest in stocks", "I bought some stock in a car maker". In everyday English, stock and share are mostly interchangeable.
 - **Equity** (or "equities") is the more formal word for ownership in companies. Investment professionals say "equities" where others say "stocks".
+- **Security** is the umbrella term for tradable investments such as stocks and bonds. Every stock is a security, but not every security is a stock.
 
 > [!AUSTRIA]
 > In German, a share is an **Aktie** and a shareholder an **Aktionär** or **Aktionärin**. In Austria, a company whose share capital (Grundkapital) is divided into shares is an **Aktiengesellschaft (AG)**. Its shareholders together form the general meeting (Hauptversammlung), and they are not personally liable for the company's debts. Their risk is limited to the money they put in.

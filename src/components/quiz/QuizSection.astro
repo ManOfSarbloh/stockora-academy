@@ -1,0 +1,47 @@
+---
+/**
+ * Renders a practice quiz from the content collection:
+ *  - `categoryId`: the full topic quiz
+ *  - `lessonTopic` (+ categoryId): up to `limit` questions whose `topic` matches the lesson slug
+ */
+import { getCollection } from 'astro:content';
+import PracticeQuiz from './PracticeQuiz';
+import { t } from '@/i18n';
+import { reportMistakeHref } from '@/lib/report';
+import type { Question } from '@/lib/quiz';
+
+interface Props {
+  categoryId: string;
+  lessonTopic?: string;
+  limit?: number;
+  title?: string;
+  id?: string;
+}
+
+const { categoryId, lessonTopic, limit, title, id = 'quiz' } = Astro.props;
+const all = (await getCollection('quizzes', (q) => q.data.category === categoryId && (!lessonTopic || q.data.topic === lessonTopic))).map(
+  (q) => q.data as unknown as Question,
+);
+const questions = limit ? all.slice(0, limit) : all;
+const heading = title ?? (lessonTopic ? t('quiz.checkYourself') : t('quiz.practice'));
+const lead = lessonTopic ? t('quiz.miniLead', { n: questions.length }) : t('quiz.topicQuizLead', { n: questions.length });
+const quizId = lessonTopic ? `${categoryId}:${lessonTopic}` : categoryId;
+const reportHref = reportMistakeHref(`Quiz ${quizId}`, new URL(Astro.url.pathname, Astro.site).toString());
+---
+
+{
+  questions.length > 0 && (
+    <section id={id} class="not-prose scroll-mt-24" aria-labelledby={`${id}-title`} data-pagefind-ignore>
+      <h2 id={`${id}-title`} class="text-xl font-bold">
+        {heading}
+      </h2>
+      <p class="mt-1 text-sm text-muted">{lead}</p>
+      <div class="mt-4">
+        <PracticeQuiz client:only="react" quizId={quizId} questions={questions} reportHref={reportHref} />
+        <noscript>
+          <p class="card p-4 text-muted">The quiz needs JavaScript.</p>
+        </noscript>
+      </div>
+    </section>
+  )
+}

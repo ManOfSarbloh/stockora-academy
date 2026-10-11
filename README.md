@@ -64,6 +64,20 @@ hover/tap definition. Restart `npm run dev` after editing `content/glossary.json
 Lesson URLs are `/learn/<topic-slug>/<file-name>/`, e.g. `content/lessons/A/what-is-a-stock.md` becomes
 `/learn/foundations/what-is-a-stock/`. Set `draft: true` to hide a lesson from the published site (drafts still show in `npm run dev`).
 
+### Quiz questions
+
+Each question's `topic` should be the lesson file name (e.g. `what-is-a-stock`): up to 5 matching questions appear as
+"Check yourself" under that lesson, and all questions of a category form the topic quiz. `lessonLink` must point to a
+real page such as `/learn/foundations/what-is-a-stock`; `npm run validate` checks this. Avoid options like "all of the
+above", because answer options are shuffled.
+
+### Videos
+
+Add entries to `content/videos.json` with the 11-character YouTube ID. `lessons` lists the lesson keys
+(`<topic-slug>/<lesson-file>`) where the video appears; topic pages show all videos of their category. Prefer uploads
+from the original channel, never re-uploads. Run `npm run check:videos` to confirm every video still exists and has
+not changed (this also runs in the deploy workflow).
+
 UI text (buttons, menus, labels) lives in [`src/i18n/en.ts`](src/i18n/en.ts). A German dictionary can be added later with the same keys.
 
 ## Project structure
@@ -72,7 +86,7 @@ UI text (buttons, menus, labels) lives in [`src/i18n/en.ts`](src/i18n/en.ts). A 
 content/            all site content (see above)
 docs/               brief and decisions log
 public/             static files (favicon, robots.txt)
-scripts/            content validation (later: link and video checkers)
+scripts/            content validation and the YouTube video checker
 src/
   components/       Astro components (header, footer, cards, callouts)
   config/           navigation, planned sections, brand settings

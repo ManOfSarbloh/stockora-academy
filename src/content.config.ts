@@ -78,6 +78,8 @@ const videos = defineCollection({
     language: z.string().min(2),
     whyGood: z.string(),
     lastChecked: reviewDate,
+    /** Lesson keys ("<topic-slug>/<lesson-slug>") where the video is shown. */
+    lessons: z.array(z.string()).default([]),
   }),
 });
 

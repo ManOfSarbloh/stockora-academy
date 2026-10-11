@@ -1,0 +1,913 @@
+[
+  {
+    "id": "A-001",
+    "category": "A",
+    "topic": "what-is-a-stock",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A company has 1,000 shares and you own 25 of them. What percentage of the company do you own?",
+    "answerNumber": 2.5,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "Your share of the company is your shares divided by all shares: 25 ÷ 1,000 = 0.025 = 2.5%.",
+    "lessonLink": "/learn/foundations/what-is-a-stock",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-002",
+    "category": "A",
+    "topic": "what-is-a-stock",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does owning a share of a company mean?",
+    "options": [
+      "You own a small part of the company",
+      "You have lent money to the company",
+      "You may use the company's buildings and equipment",
+      "You are guaranteed part of the profit every year"
+    ],
+    "answerIndex": 0,
+    "explanation": "A share is a unit of ownership. It does not make you a lender, give you the use of the company's property, or guarantee any profit.",
+    "lessonLink": "/learn/foundations/what-is-a-stock",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-003",
+    "category": "A",
+    "topic": "what-is-a-stock",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a €5 share is always a cheaper investment than a €500 share.",
+    "answerBool": false,
+    "explanation": "False. The price of one share says little on its own. What matters is the total value of the company (share price × number of shares) and what it earns.",
+    "lessonLink": "/learn/foundations/what-is-a-stock",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-004",
+    "category": "A",
+    "topic": "what-is-a-stock",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company has 2,000,000 shares and each share trades at €15. What is its market capitalisation, in millions of euros?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "million €",
+    "explanation": "Market capitalisation = share price × number of shares = €15 × 2,000,000 = €30,000,000, which is €30 million.",
+    "lessonLink": "/learn/foundations/what-is-a-stock",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-005",
+    "category": "A",
+    "topic": "what-is-a-stock",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which word is the umbrella term for tradable investments such as stocks and bonds?",
+    "options": [
+      "Security",
+      "Equity",
+      "Dividend",
+      "Ticker"
+    ],
+    "answerIndex": 0,
+    "explanation": "A security is an investment instrument such as a stock or a bond. Every stock is a security, but not every security is a stock.",
+    "lessonLink": "/learn/foundations/what-is-a-stock",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/security"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-006",
+    "category": "A",
+    "topic": "why-companies-need-money",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "You buy an existing share on a stock exchange. Who receives your money?",
+    "options": [
+      "The investor who sold you the share",
+      "The company that issued the share",
+      "The stock exchange",
+      "The government"
+    ],
+    "answerIndex": 0,
+    "explanation": "On an exchange you trade with other investors (the secondary market). Your money goes to the investor who sold the share, not to the company.",
+    "lessonLink": "/learn/foundations/why-companies-need-money",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-007",
+    "category": "A",
+    "topic": "why-companies-need-money",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are ways a company can raise money? Select all that apply.",
+    "options": [
+      "Selling new shares",
+      "Taking a bank loan",
+      "Issuing bonds",
+      "Its existing shares being traded between investors"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Companies raise money by issuing new shares (equity) or by borrowing, for example through bank loans or bonds (debt). When existing shares change hands between investors, the company receives nothing.",
+    "lessonLink": "/learn/foundations/why-companies-need-money",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-008",
+    "category": "A",
+    "topic": "why-companies-need-money",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the 'primary market'?",
+    "options": [
+      "Where new securities are issued and the issuer receives the money",
+      "The biggest stock exchange in a country",
+      "Trading between investors after shares have been issued",
+      "The market for the largest companies only"
+    ],
+    "answerIndex": 0,
+    "explanation": "In the primary market, a company (or government) issues new securities and receives the money. Later trading between investors happens in the secondary market.",
+    "lessonLink": "/learn/foundations/why-companies-need-money",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-009",
+    "category": "A",
+    "topic": "why-companies-need-money",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company borrows €300,000 at 6% interest per year. How much interest does it pay per year, in euros?",
+    "answerNumber": 18000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Interest = €300,000 × 6% = €18,000 per year. A loan's interest must be paid whether business is good or bad.",
+    "lessonLink": "/learn/foundations/why-companies-need-money",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-010",
+    "category": "A",
+    "topic": "equity-vs-debt",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A company goes bankrupt and its assets are sold. Who is paid first?",
+    "options": [
+      "Lenders, such as bondholders",
+      "Ordinary shareholders",
+      "Preferred shareholders",
+      "Everyone receives the same share at the same time"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lenders such as bondholders are paid before shareholders. Ordinary shareholders come last and often receive nothing.",
+    "lessonLink": "/learn/foundations/equity-vs-debt",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-011",
+    "category": "A",
+    "topic": "equity-vs-debt",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When you buy a bond, you are…",
+    "options": [
+      "lending money to the issuer",
+      "buying part of the company",
+      "paying a fee to the stock exchange",
+      "receiving a share of all future profits"
+    ],
+    "answerIndex": 0,
+    "explanation": "A bond is a debt security, like an IOU: you lend money to the issuer, which promises interest and to repay the face value at maturity.",
+    "lessonLink": "/learn/foundations/equity-vs-debt",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-012",
+    "category": "A",
+    "topic": "equity-vs-debt",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: bonds cannot lose money.",
+    "answerBool": false,
+    "explanation": "False. A borrower can fail to pay interest or repay (default), and a bond's market price can fall before it matures. High-yield ('junk') bonds carry higher risk.",
+    "lessonLink": "/learn/foundations/equity-vs-debt",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-013",
+    "category": "A",
+    "topic": "equity-vs-debt",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which statement about bondholders and shareholders is correct?",
+    "options": [
+      "Bondholders receive agreed interest; shareholders have no promised return but unlimited upside",
+      "Shareholders receive agreed interest; bondholders share in all future profits",
+      "Both receive a fixed interest rate",
+      "Neither can lose money if the company survives"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bondholders get agreed interest and their money back, but no extra if the company does very well. Shareholders get no promises, but there is no upper limit to what their shares can be worth.",
+    "lessonLink": "/learn/foundations/equity-vs-debt",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds",
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-014",
+    "category": "A",
+    "topic": "equity-vs-debt",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When a bankrupt company's assets are liquidated, what is the usual order of payment?",
+    "options": [
+      "Bondholders, then preferred shareholders, then ordinary shareholders",
+      "Ordinary shareholders, then preferred shareholders, then bondholders",
+      "Preferred shareholders, then bondholders, then ordinary shareholders",
+      "All investors at the same time, in proportion to what they invested"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bondholders are paid first, then holders of preferred stock, and common (ordinary) shareholders get whatever is left, which may be nothing.",
+    "lessonLink": "/learn/foundations/equity-vs-debt",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-015",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Where do shareholders vote on important company decisions?",
+    "options": [
+      "At the general meeting",
+      "At the stock exchange",
+      "At their broker",
+      "At the financial regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shareholders vote at the company's general meeting (in Austria: Hauptversammlung), usually held once a year.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-016",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a company must pay a dividend every year.",
+    "answerBool": false,
+    "explanation": "False. Dividends are never guaranteed. Many companies, especially young growing ones, pay no dividend and reinvest their profits.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-017",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A company pays a dividend of €1.50 per share. You own 200 shares. How much do you receive before taxes, in euros?",
+    "answerNumber": 300,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Dividends are paid per share: 200 × €1.50 = €300 before taxes.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-018",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'limited liability' mean for a shareholder of an AG?",
+    "options": [
+      "You cannot lose more than the money you invested in the shares",
+      "Your losses are limited to 50%",
+      "The company must buy your shares back if the price falls",
+      "You only have to pay the company's debts up to a limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shareholders are not personally liable for the company's debts. The most they can lose is the money they paid for their shares.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-019",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In an Austrian AG, who decides how the distributable profit (Bilanzgewinn) is used, including how much dividend is paid?",
+    "options": [
+      "The ordinary general meeting (Hauptversammlung)",
+      "The Financial Market Authority (FMA)",
+      "The stock exchange",
+      "Each shareholder individually"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under § 104 of the Austrian Aktiengesetz, the ordinary general meeting decides on the use of the distributable profit.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002070&Artikel=&Paragraf=104&Anlage=&Uebergangsrecht="
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-020",
+    "category": "A",
+    "topic": "shareholder-rights",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under § 118 of the Austrian Aktiengesetz, what can shareholders request at the general meeting?",
+    "options": [
+      "Information on company matters needed to judge an agenda item",
+      "A guaranteed minimum dividend",
+      "That the company buys back their shares",
+      "Access to the personal data of other shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shareholders can request information on company matters to the extent it is needed to properly judge an item on the agenda. The company may refuse only in limited cases.",
+    "lessonLink": "/learn/foundations/shareholder-rights",
+    "sources": [
+      "https://www.ris.bka.gv.at/NormDokument.wxe?Abfrage=Bundesnormen&Gesetzesnummer=10002070&Artikel=&Paragraf=118&Anlage=&Uebergangsrecht="
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-021",
+    "category": "A",
+    "topic": "why-prices-move",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who sets the price of a share on a stock exchange?",
+    "options": [
+      "Nobody: it results from buyers and sellers agreeing on trades",
+      "The company that issued the share",
+      "The stock exchange, once a day",
+      "The financial regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Nobody sets it. The price results from supply and demand: it is the price at which buyers and sellers agree to trade.",
+    "lessonLink": "/learn/foundations/why-prices-move",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/kursschwankungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-022",
+    "category": "A",
+    "topic": "why-prices-move",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "The cheapest seller asks €41 and the highest buyer bids €40. A new buyer arrives and accepts €41. At what price does the trade happen?",
+    "options": [
+      "€41",
+      "€40",
+      "€40.50",
+      "€42"
+    ],
+    "answerIndex": 0,
+    "explanation": "A trade happens when a buyer accepts a seller's price (or the other way round). Here the new buyer accepts the seller's €41, so €41 becomes the latest price.",
+    "lessonLink": "/learn/foundations/why-prices-move",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/kursschwankungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-023",
+    "category": "A",
+    "topic": "why-prices-move",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: if a share price falls, the company must be doing badly.",
+    "answerBool": false,
+    "explanation": "False. Prices can fall because the whole market falls, because interest rates rise, or because a large investor sold. Always check what actually happened.",
+    "lessonLink": "/learn/foundations/why-prices-move",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/kursschwankungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-024",
+    "category": "A",
+    "topic": "why-prices-move",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "A company announces much higher profits than expected and its share price jumps within minutes. What best explains this?",
+    "options": [
+      "Expectations changed, shifting the balance of buyers and sellers",
+      "The company raised its share price",
+      "The exchange adjusted the price to match the new profit",
+      "New shares were created automatically"
+    ],
+    "answerIndex": 0,
+    "explanation": "Nothing physical changed in minutes. Expectations about future profits changed, so more investors wanted to buy and fewer wanted to sell, which pushed the price up.",
+    "lessonLink": "/learn/foundations/why-prices-move",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/kursschwankungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-025",
+    "category": "A",
+    "topic": "risk-and-return",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy a share for €80. One year later it is worth €86, and you received a €2 dividend. What is your total return for the year, in percent (before fees and taxes)?",
+    "answerNumber": 10,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "Total gain = price change + income = (€86 − €80) + €2 = €8. Return = €8 ÷ €80 = 10%.",
+    "lessonLink": "/learn/foundations/risk-and-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-026",
+    "category": "A",
+    "topic": "risk-and-return",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In investing, what does 'risk' mainly mean?",
+    "options": [
+      "Uncertainty about results, including the chance of losses",
+      "Only the chance that a company goes bankrupt",
+      "The fees you pay to a broker",
+      "The chance of a guaranteed gain"
+    ],
+    "answerIndex": 0,
+    "explanation": "Risk mainly means uncertainty: how much results can differ from what you expect, in both directions, including the possibility of losses.",
+    "lessonLink": "/learn/foundations/risk-and-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-027",
+    "category": "A",
+    "topic": "risk-and-return",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: taking more risk guarantees a higher return.",
+    "answerBool": false,
+    "explanation": "False. Higher risk means a higher possible return together with a higher possible loss. Some risks, such as owning only one company, add danger without adding expected return.",
+    "lessonLink": "/learn/foundations/risk-and-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-028",
+    "category": "A",
+    "topic": "risk-and-return",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Investments A and B both average +5% per year over four years. A gains exactly 5% every year; B swings between big gains and losses. Which ends up with more money?",
+    "options": [
+      "A, the steady one",
+      "B, the volatile one",
+      "Both end with exactly the same amount",
+      "It is impossible to say"
+    ],
+    "answerIndex": 0,
+    "explanation": "With the same average, the steadier investment grows more: losses hurt compounded growth more than equal gains help. In the lesson's example, A grows by about 21.6% in total and B by about 14.8%.",
+    "lessonLink": "/learn/foundations/risk-and-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-029",
+    "category": "A",
+    "topic": "stocks-bonds-cash-property",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the main risk of keeping savings in cash for many years?",
+    "options": [
+      "Inflation reducing what the money can buy",
+      "Large daily price swings",
+      "The bank turning your cash into shares",
+      "Having to pay interest to the bank"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cash rarely loses value in euros, but inflation can make your money buy less over time if the interest you earn is lower than inflation.",
+    "lessonLink": "/learn/foundations/stocks-bonds-cash-property",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-030",
+    "category": "A",
+    "topic": "stocks-bonds-cash-property",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You have €10,000 in a savings account paying 1% interest. In the same year, prices rise by 3%. Roughly how much purchasing power did you lose, in percent?",
+    "answerNumber": 2,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "You have €10,100, but what cost €10,000 now costs €10,300. €10,100 ÷ €10,300 ≈ 0.981, so you lost about 2% of your purchasing power (more precisely about 1.9%).",
+    "lessonLink": "/learn/foundations/stocks-bonds-cash-property",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-031",
+    "category": "A",
+    "topic": "stocks-bonds-cash-property",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC's beginners' guide, which of the three main asset categories has historically had the greatest risk and the highest returns?",
+    "options": [
+      "Stocks",
+      "Bonds",
+      "Cash",
+      "They have all been the same"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC's guide says stocks have historically had the greatest risk and highest returns; bonds have generally been less volatile with more modest returns; cash has been the safest with the lowest returns.",
+    "lessonLink": "/learn/foundations/stocks-bonds-cash-property",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-032",
+    "category": "A",
+    "topic": "stocks-bonds-cash-property",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which is a typical drawback of investing directly in a property?",
+    "options": [
+      "It is slow and expensive to buy and sell",
+      "Its price is shown every second",
+      "It can never fall in value",
+      "It pays no income of any kind"
+    ],
+    "answerIndex": 0,
+    "explanation": "Buying and selling a building takes time and costs a lot (agents, notaries, taxes), usually needs a large amount of money, and concentrates your money in one location.",
+    "lessonLink": "/learn/foundations/stocks-bonds-cash-property",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-033",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many characters does an ISIN have?",
+    "answerNumber": 12,
+    "tolerance": 0,
+    "explanation": "An ISIN always has 12 characters: a 2-letter country code, a 9-character basic number and 1 check digit.",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html",
+      "https://www.bancaditalia.it/statistiche/servizi/isin-anagrafe-titoli/faq/index.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-034",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which organisation assigns ISINs in Austria?",
+    "options": [
+      "OeKB (Oesterreichische Kontrollbank)",
+      "FMA (Financial Market Authority)",
+      "Wiener Börse",
+      "OeNB (Austrian National Bank)"
+    ],
+    "answerIndex": 0,
+    "explanation": "In Austria, ISINs are allocated by the Oesterreichische Kontrollbank (OeKB), Austria's national numbering agency.",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-035",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a ticker symbol identifies the same share on every exchange in the world.",
+    "answerBool": false,
+    "explanation": "False. Each exchange assigns its own tickers. The same company can have different tickers on different exchanges, and the same letters can mean different companies elsewhere. The ISIN is the unique identifier.",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-036",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the last (12th) character of an ISIN?",
+    "options": [
+      "A check digit calculated from the other characters",
+      "The year the share was issued",
+      "The number of the exchange where it trades",
+      "A code for the currency"
+    ],
+    "answerIndex": 0,
+    "explanation": "The 12th character is a numeric check digit calculated from the other 11 characters, which helps detect typing mistakes.",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.bancaditalia.it/statistiche/servizi/isin-anagrafe-titoli/faq/index.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-037",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Before buying, which code should you check to be sure you have exactly the right security?",
+    "options": [
+      "The ISIN",
+      "The company's name",
+      "The ticker only",
+      "The first word of the product description"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ISIN is unique to one security worldwide. Company names and tickers can be ambiguous, so confirm the ISIN (plus exchange and currency).",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-038",
+    "category": "A",
+    "topic": "ticker-isin-wkn",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a WKN?",
+    "options": [
+      "A six-character German securities identification code",
+      "Austria's stock index",
+      "A type of share without voting rights",
+      "The licence number of a broker"
+    ],
+    "answerIndex": 0,
+    "explanation": "The WKN (Wertpapierkennnummer) is a six-character German securities identification code. It has largely been replaced by the ISIN but is still widely used.",
+    "lessonLink": "/learn/foundations/ticker-isin-wkn",
+    "sources": [
+      "https://www.deutsche-boerse.com/dbg-en/about-us/contact/glossary/glossary-article/WKN-246456"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-039",
+    "category": "A",
+    "topic": "what-is-the-stock-market",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: 'the stock market' is one physical place.",
+    "answerBool": false,
+    "explanation": "False. 'The stock market' is a collective name for many exchanges, other trading venues and the people and firms that trade on them. Trading is almost entirely electronic.",
+    "lessonLink": "/learn/foundations/what-is-the-stock-market",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-040",
+    "category": "A",
+    "topic": "what-is-the-stock-market",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Under the EU's MiFID II rules, which of these are types of trading venue? Select all that apply.",
+    "options": [
+      "Regulated market",
+      "Multilateral trading facility (MTF)",
+      "Organised trading facility (OTF)",
+      "A broker's mobile app"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "MiFID II defines a trading venue as a regulated market, a multilateral trading facility (MTF) or an organised trading facility (OTF). A broker's app is not itself a trading venue.",
+    "lessonLink": "/learn/foundations/what-is-the-stock-market",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-041",
+    "category": "A",
+    "topic": "what-is-the-stock-market",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When the news says 'the market rose 1% today', what do they usually mean?",
+    "options": [
+      "A stock index, such as the ATX, rose 1%",
+      "Every share rose by 1%",
+      "The stock exchange raised its fees by 1%",
+      "Trading volume rose by 1%"
+    ],
+    "answerIndex": 0,
+    "explanation": "They usually mean that a stock index, which tracks a selected group of shares, rose 1%. Individual shares can still have fallen that day.",
+    "lessonLink": "/learn/foundations/what-is-the-stock-market",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-042",
+    "category": "A",
+    "topic": "what-is-the-stock-market",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What does 'over-the-counter' (OTC) trading mean?",
+    "options": [
+      "Trading directly between two parties instead of on a trading venue",
+      "Buying shares at a bank branch counter in cash",
+      "Trading only during the opening auction",
+      "Trading shares of the largest companies only"
+    ],
+    "answerIndex": 0,
+    "explanation": "OTC trades happen directly between two parties rather than on a trading venue. In the US, 'OTC securities' are securities not listed on a national securities exchange.",
+    "lessonLink": "/learn/foundations/what-is-the-stock-market",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/over-counter-otc-securities"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-043",
+    "category": "A",
+    "topic": "who-takes-part",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a retail investor?",
+    "options": [
+      "A private person investing their own money",
+      "A shop that sells shares",
+      "A bank investing customer deposits",
+      "A fund that invests for many people"
+    ],
+    "answerIndex": 0,
+    "explanation": "Retail (individual) investors use their own money to buy and sell investments for themselves, usually in smaller amounts than institutions.",
+    "lessonLink": "/learn/foundations/who-takes-part",
+    "sources": [
+      "https://www.finra.org/investors/insights/institutional-investors-and-smart-money"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-044",
+    "category": "A",
+    "topic": "who-takes-part",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are institutional investors? Select all that apply.",
+    "options": [
+      "A pension fund",
+      "An insurance company",
+      "An investment fund",
+      "A student buying 10 shares with their savings"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Institutional investors are professionals who pool money and invest it on behalf of others, such as pension funds, insurance companies and investment funds. A student investing their own savings is a retail investor.",
+    "lessonLink": "/learn/foundations/who-takes-part",
+    "sources": [
+      "https://www.finra.org/investors/insights/institutional-investors-and-smart-money"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-045",
+    "category": "A",
+    "topic": "who-takes-part",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does a market maker do?",
+    "options": [
+      "Stands ready to buy and sell a share at publicly quoted prices",
+      "Decides which companies may list on an exchange",
+      "Sets the official price of every share each morning",
+      "Supervises brokers on behalf of the government"
+    ],
+    "answerIndex": 0,
+    "explanation": "A market maker is a firm that stands ready to buy or sell a share at publicly quoted prices, which makes it easier for others to trade at any time.",
+    "lessonLink": "/learn/foundations/who-takes-part",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-makers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-046",
+    "category": "A",
+    "topic": "who-takes-part",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises the financial markets in Austria?",
+    "options": [
+      "FMA (Financial Market Authority)",
+      "OeKB (Oesterreichische Kontrollbank)",
+      "ÖBAG",
+      "Wiener Börse"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA (Finanzmarktaufsicht, Financial Market Authority) supervises Austria's financial markets. The OeKB assigns ISINs, ÖBAG manages state shareholdings, and the Wiener Börse runs the exchange.",
+    "lessonLink": "/learn/foundations/who-takes-part",
+    "sources": [
+      "https://www.fma.gv.at/en/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

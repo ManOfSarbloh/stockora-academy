@@ -30,15 +30,16 @@ import { url } from '@/lib/url';
     <li><code>stockora-theme</code>: whether you chose light or dark mode.</li>
     <li><code>stockora-progress</code>: which lessons you marked as done, and when.</li>
     <li><code>stockora-bookmarks</code>: lessons you bookmarked.</li>
+    <li><code>stockora-quiz-scores</code>: your best and latest score for each quiz.</li>
   </ul>
   <p>
-    Later versions will also store your quiz scores in the same way. This list will be
-    kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings.
+    This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings.
   </p>
 
   <h2>Videos (YouTube)</h2>
   <p>
-    Lesson pages will include educational YouTube videos. A video does <strong>not</strong> load until you click on it.
+    Lesson and topic pages include educational YouTube videos. A video does <strong>not</strong> load until you click on
+    it, and before that no data (not even a preview image) is requested from YouTube.
     Only then does your browser connect to YouTube (using the privacy-enhanced <code>youtube-nocookie.com</code> domain),
     and YouTube's own privacy policy applies. Every video also has a plain "Watch on YouTube" link instead.
   </p>

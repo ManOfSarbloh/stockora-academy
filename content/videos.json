@@ -1,1 +1,72 @@
-[]
+[
+  {
+    "id": "p7HKvqRI_Bo",
+    "title": "How does the stock market work? - Oliver Elfenbaum",
+    "channel": "TED-Ed",
+    "categories": [
+      "A",
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.5,
+    "language": "en",
+    "whyGood": "A short animated introduction to how the stock market works, from TED's education channel.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "foundations/what-is-a-stock",
+      "foundations/what-is-the-stock-market"
+    ]
+  },
+  {
+    "id": "98qfFzqDKR8",
+    "title": "What it means to buy a company's stock | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "A"
+    ],
+    "level": "beginner",
+    "durationMinutes": 13.8,
+    "language": "en",
+    "whyGood": "A longer, step-by-step explanation of what owning a share means, from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "foundations/what-is-a-stock",
+      "foundations/shareholder-rights"
+    ]
+  },
+  {
+    "id": "yQtUyBrRBx4",
+    "title": "Equity vs. debt | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "A"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 13.9,
+    "language": "en",
+    "whyGood": "Compares owning part of a company (equity) with lending to it (debt), from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "foundations/equity-vs-debt",
+      "foundations/why-companies-need-money"
+    ]
+  },
+  {
+    "id": "rs1md3e4aYU",
+    "title": "Bonds vs. stocks | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "A",
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 9.4,
+    "language": "en",
+    "whyGood": "Compares bonds and stocks side by side, from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "foundations/equity-vs-debt",
+      "foundations/stocks-bonds-cash-property"
+    ]
+  }
+]

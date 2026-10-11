@@ -38,6 +38,20 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | "My learning" page | `/me/`: overall progress, bookmarks, progress by topic, reset button |
 | Report a mistake | Prefilled GitHub issue once `reportConfig.githubRepo` is set (src/config/site.ts); until then links to Corrections |
 
+## Phase 3b (2026-10-11): Category A vertical slice
+
+| Topic | Decision |
+|---|---|
+| Category A scope | 10 lessons covering every Foundations topic in the brief; all facts checked against official sources (SEC/Investor.gov, FINRA, ESMA, OeKB, Austrian USP and RIS, FMA, Wiener Börse, Deutsche Börse, Banca d'Italia) |
+| Diagrams | Original SVGs stored next to the lesson and referenced with relative Markdown image paths; own white background so they work in dark mode |
+| Video embeds | No YouTube thumbnail before the click (a thumbnail would already contact Google); styled placeholder with title, then `youtube-nocookie.com` |
+| Video choice | Only uploads from the original channel (Khan Academy, TED-Ed), never re-uploads; `whyGood` texts only claim what title and channel show |
+| `check-videos.js` | Runs in CI before the build (oEmbed: exists, title ≥60% word match, same channel) |
+| Practice quiz | React island, `client:only`; practice mode with instant feedback, results, retry wrong answers. Supports multiple choice, multiple select, true/false and number (accepts "2.5" and "2,5"). Match/order types and exam/weak-spot modes come in Phase 9 |
+| Quiz placement | Full topic quiz on each topic page (`#quiz`); up to 5 "Check yourself" questions per lesson (question `topic` = lesson file name) |
+| Quiz scores | `localStorage` key `stockora-quiz-scores` (best and last per quiz) |
+| Validator | Now also checks that every quiz `lessonLink` and video `lessons` key points to a real page |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
