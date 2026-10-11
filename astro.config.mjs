@@ -7,6 +7,7 @@ import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { remarkCallouts } from './src/lib/markdown/callouts.ts';
 import { rehypeGlossaryLinks } from './src/lib/markdown/glossary-links.ts';
+import { rehypeBaseLinks } from './src/lib/markdown/base-links.ts';
 
 // GitHub Pages serves a project site from https://<user>.github.io/<repo>/.
 // The deploy workflow sets SITE_URL and BASE_PATH; locally both fall back to the root.
@@ -27,7 +28,7 @@ export default defineConfig({
     // The unified pipeline (remark/rehype) is used for our two small content plugins.
     processor: unified({
       remarkPlugins: [remarkCallouts],
-      rehypePlugins: [[rehypeGlossaryLinks, { terms: glossaryTerms, base }]],
+      rehypePlugins: [[rehypeGlossaryLinks, { terms: glossaryTerms, base }], [rehypeBaseLinks, { base }]],
     }),
   },
   i18n: {

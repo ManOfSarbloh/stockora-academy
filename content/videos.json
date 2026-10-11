@@ -410,5 +410,134 @@
     "lessons": [
       "indexes-etfs-funds/leveraged-inverse-etfs"
     ]
+  },
+  {
+    "id": "DUMPAEL9re8",
+    "title": "Chart Types: Candlestick, Line and Bar",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5.5,
+    "language": "en",
+    "whyGood": "The derivatives exchange CME Group explains line, bar and candlestick charts.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/what-a-chart-shows",
+      "technical-analysis/candlestick-anatomy"
+    ]
+  },
+  {
+    "id": "7XlqsrvXPLQ",
+    "title": "Support and Resistance",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5,
+    "language": "en",
+    "whyGood": "CME Group's short explainer of what support and resistance levels are and how traders identify them.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/trend-support-resistance"
+    ]
+  },
+  {
+    "id": "0FbDT2NkYso",
+    "title": "Technical Patterns: Reversal",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3,
+    "language": "en",
+    "whyGood": "Tops, bottoms and head and shoulders explained by CME Group.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/chart-patterns"
+    ]
+  },
+  {
+    "id": "4s4XYddp0tg",
+    "title": "Technical Patterns Continuation​",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3,
+    "language": "en",
+    "whyGood": "Triangles and rectangles as continuation patterns, from CME Group's education series.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/chart-patterns"
+    ]
+  },
+  {
+    "id": "57-LfRkVTwo",
+    "title": "Moving Averages",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.5,
+    "language": "en",
+    "whyGood": "How simple and exponential moving averages are calculated and used, from CME Group.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/indicators"
+    ]
+  },
+  {
+    "id": "W0u4RBHF_XQ",
+    "title": "Oscillators: MACD, RSI, Stochastic's",
+    "channel": "CME Group",
+    "categories": [
+      "J"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.5,
+    "language": "en",
+    "whyGood": "CME Group introduces MACD, RSI and Stochastics.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/indicators"
+    ]
+  },
+  {
+    "id": "eY5ux0sGaE0",
+    "title": "TradingView Supercharts Overview",
+    "channel": "TradingView",
+    "categories": [
+      "J"
+    ],
+    "level": "beginner",
+    "durationMinutes": 10.5,
+    "language": "en",
+    "whyGood": "The platform's own overview of its charting interface. Shown as an example of how charting platforms work, not as a recommendation.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/charting-platforms"
+    ]
+  },
+  {
+    "id": "ioJJwMRAzp0",
+    "title": "Using Drawing Tools on Supercharts: Tutorial",
+    "channel": "TradingView",
+    "categories": [
+      "J"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 25.5,
+    "language": "en",
+    "whyGood": "The platform's own tutorial on drawing tools such as trendlines and position tools. Shown as an example, not as a recommendation.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "technical-analysis/charting-platforms"
+    ]
   }
 ]

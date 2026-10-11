@@ -1,0 +1,683 @@
+[
+  {
+    "id": "doji",
+    "name": "Doji",
+    "kind": "single",
+    "traditionalBias": "neutral",
+    "context": "any",
+    "candles": [
+      [
+        50,
+        56,
+        44,
+        50.3
+      ]
+    ],
+    "formation": "Open and close are (almost) the same, so the body is a thin line. The wicks can be long or short.",
+    "reading": "Neither buyers nor sellers won the period: a sign of indecision. After a long, strong move, some traders read it as a warning that the move is losing energy.",
+    "confirmation": "Most traders wait for the next candle: a strong move away from the doji in one direction tells more than the doji itself.",
+    "failure": "Dojis are very common. In a quiet market or on short timeframes they often mean nothing at all."
+  },
+  {
+    "id": "long-legged-doji",
+    "name": "Long-legged doji",
+    "kind": "single",
+    "traditionalBias": "neutral",
+    "context": "any",
+    "candles": [
+      [
+        50,
+        63,
+        37,
+        50
+      ]
+    ],
+    "formation": "A doji with long wicks on both sides: price moved far up and far down but closed where it opened.",
+    "reading": "Strong tug-of-war with no winner. Read as heightened indecision.",
+    "confirmation": "A clear break above the high or below the low of the doji.",
+    "failure": "Price often just keeps moving in the original direction once the indecision is resolved.",
+    "tested": {
+      "page": "https://thepatternsite.com/LongLegDoji.html",
+      "theory": "Indecision",
+      "result": "Bullish continuation 51% of the time"
+    }
+  },
+  {
+    "id": "dragonfly-doji",
+    "name": "Dragonfly doji",
+    "kind": "single",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        46,
+        46.4,
+        32,
+        46
+      ]
+    ],
+    "formation": "Open, close and high are at (almost) the same level at the top; there is a long lower wick and little or no upper wick.",
+    "reading": "Sellers pushed price down, but buyers brought it all the way back by the close. After a decline it is traditionally read as a possible bullish reversal.",
+    "confirmation": "A higher close on the next candle.",
+    "failure": "If the next candle falls below the dragonfly's low, the rejection of lower prices has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/Dragonfly.html",
+      "theory": "Bullish reversal during a decline, otherwise indecision",
+      "result": "Reversal 50% of the time"
+    }
+  },
+  {
+    "id": "gravestone-doji",
+    "name": "Gravestone doji",
+    "kind": "single",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        66,
+        80,
+        65.6,
+        66
+      ]
+    ],
+    "formation": "Open, close and low are at (almost) the same level at the bottom; there is a long upper wick and little or no lower wick.",
+    "reading": "Buyers pushed price up, but sellers brought it all the way back down. After a rise it is traditionally read as a possible bearish reversal.",
+    "confirmation": "A lower close on the next candle.",
+    "failure": "If the next candle closes above the gravestone's high, the rejection failed and the uptrend continues.",
+    "tested": {
+      "page": "https://thepatternsite.com/Gravestone.html",
+      "theory": "Indecision to bearish reversal (during uptrends)",
+      "result": "Bearish reversal 51% of the time"
+    }
+  },
+  {
+    "id": "spinning-top",
+    "name": "Spinning top",
+    "kind": "single",
+    "traditionalBias": "neutral",
+    "context": "any",
+    "candles": [
+      [
+        48.5,
+        58,
+        41,
+        51.5
+      ]
+    ],
+    "formation": "A small body in the middle of the candle, with upper and lower wicks that are longer than the body.",
+    "reading": "Both sides were active but neither took control: indecision, similar to a doji but with a slightly larger body.",
+    "confirmation": "The direction of the next decisive candle.",
+    "failure": "Spinning tops are among the most frequent candles; on their own they carry little information.",
+    "tested": {
+      "page": "https://thepatternsite.com/SpinTopWhite.html",
+      "theory": "Indecision",
+      "result": "Reversal 50% of the time"
+    }
+  },
+  {
+    "id": "marubozu",
+    "name": "Marubozu",
+    "kind": "single",
+    "traditionalBias": "continuation",
+    "context": "any",
+    "candles": [
+      [
+        38,
+        60,
+        38,
+        60
+      ]
+    ],
+    "formation": "A long body with no (or almost no) wicks: a bullish marubozu opens at the low and closes at the high; a bearish one opens at the high and closes at the low.",
+    "reading": "One side was in control from the first trade to the last. Traditionally read as strong momentum in the direction of the body.",
+    "confirmation": "Follow-through in the same direction on the next candle.",
+    "failure": "A strong candle can mark the end of a move (a final burst of buying or selling), after which price reverses.",
+    "aka": [
+      "white marubozu",
+      "black marubozu"
+    ],
+    "tested": {
+      "page": "https://thepatternsite.com/WhiteMarubozu.html",
+      "theory": "Continuation",
+      "result": "Continuation 56% of the time"
+    }
+  },
+  {
+    "id": "hammer",
+    "name": "Hammer",
+    "kind": "single",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        42.5,
+        45.2,
+        31,
+        45
+      ]
+    ],
+    "formation": "A small body at the top of the candle, a long lower wick (traditionally at least twice the body) and little or no upper wick, appearing after a decline.",
+    "reading": "Sellers pushed price well down during the period, but buyers bought it back up to near the open. Traditionally read as a possible bullish reversal.",
+    "confirmation": "A higher close on the next candle; some traders also want higher volume.",
+    "failure": "If price falls below the hammer's low, the buyers' defence has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/Hammer.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 60% of the time"
+    }
+  },
+  {
+    "id": "hanging-man",
+    "name": "Hanging man",
+    "kind": "single",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        68.5,
+        71.2,
+        57,
+        71
+      ]
+    ],
+    "formation": "The same shape as a hammer (small body at the top, long lower wick) but appearing after a rise.",
+    "reading": "Sellers managed to push price far down during the period: a sign that buying pressure may be weakening. Traditionally read as a possible bearish reversal.",
+    "confirmation": "A lower close on the next candle.",
+    "failure": "This pattern often fails: the uptrend frequently just continues.",
+    "tested": {
+      "page": "https://thepatternsite.com/HangingMan.html",
+      "theory": "Bearish reversal",
+      "result": "Bullish continuation 59% of the time"
+    }
+  },
+  {
+    "id": "inverted-hammer",
+    "name": "Inverted hammer",
+    "kind": "single",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        33,
+        46,
+        32.6,
+        34.5
+      ]
+    ],
+    "formation": "A small body at the bottom of the candle with a long upper wick and little or no lower wick, appearing after a decline.",
+    "reading": "Buyers tried to push price up but could not hold the gains. After a decline, traditionally read as a first sign that buyers are testing higher prices.",
+    "confirmation": "A higher close on the next candle is usually required before anyone reads anything into it.",
+    "failure": "Without confirmation the decline often continues.",
+    "tested": {
+      "page": "https://thepatternsite.com/HammerInv.html",
+      "theory": "Bullish reversal",
+      "result": "Bearish continuation 65% of the time"
+    }
+  },
+  {
+    "id": "shooting-star",
+    "name": "Shooting star",
+    "kind": "single",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        70,
+        82,
+        67.6,
+        68
+      ]
+    ],
+    "formation": "A small body at the bottom of the candle with a long upper wick and little or no lower wick, appearing after a rise.",
+    "reading": "Buyers pushed price higher, but sellers took over and drove it back near the open. Traditionally read as a possible bearish reversal.",
+    "confirmation": "A lower close on the next candle.",
+    "failure": "If price closes above the shooting star's high, the rejection has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/ShootingStar.html",
+      "theory": "Bearish reversal",
+      "result": "Bearish reversal 59% of the time"
+    }
+  },
+  {
+    "id": "bullish-engulfing",
+    "name": "Bullish engulfing",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        44,
+        45,
+        40,
+        41
+      ],
+      [
+        39.5,
+        47.5,
+        39,
+        46.5
+      ]
+    ],
+    "formation": "Two candles after a decline: a bearish candle followed by a bullish candle whose body completely covers (engulfs) the first body.",
+    "reading": "Sellers were in control, then buyers took over decisively. Traditionally read as a possible bullish reversal.",
+    "confirmation": "Further gains on the following candle(s).",
+    "failure": "If price drops back below the low of the pattern, the reversal has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/BullEngulfing.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 63% of the time"
+    }
+  },
+  {
+    "id": "bearish-engulfing",
+    "name": "Bearish engulfing",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        60,
+        64,
+        59,
+        63
+      ],
+      [
+        64.5,
+        65.2,
+        55.5,
+        56.5
+      ]
+    ],
+    "formation": "Two candles after a rise: a bullish candle followed by a bearish candle whose body completely covers the first body.",
+    "reading": "Buyers were in control, then sellers took over decisively. Traditionally read as a possible bearish reversal.",
+    "confirmation": "Further losses on the following candle(s).",
+    "failure": "If price climbs back above the high of the pattern, the reversal has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/BearEngulfing.html",
+      "theory": "Bearish reversal",
+      "result": "Bearish reversal 79% of the time"
+    }
+  },
+  {
+    "id": "bullish-harami",
+    "name": "Bullish harami",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        48,
+        49,
+        36,
+        37
+      ],
+      [
+        40,
+        43,
+        39,
+        42
+      ]
+    ],
+    "formation": "Two candles after a decline: a long bearish candle followed by a small bullish candle whose body sits inside the first body. ('Harami' is Japanese for pregnant.)",
+    "reading": "The strong selling has paused. Traditionally read as a possible bullish reversal, though weaker than an engulfing pattern.",
+    "confirmation": "A close above the first candle's body.",
+    "failure": "Often the pause is only a breather before the decline continues.",
+    "tested": {
+      "page": "https://thepatternsite.com/HaramiBull.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 53% of the time"
+    }
+  },
+  {
+    "id": "bearish-harami",
+    "name": "Bearish harami",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        52,
+        65,
+        51,
+        64
+      ],
+      [
+        61,
+        62,
+        57,
+        58
+      ]
+    ],
+    "formation": "Two candles after a rise: a long bullish candle followed by a small bearish candle whose body sits inside the first body.",
+    "reading": "The strong buying has paused. Traditionally read as a possible bearish reversal.",
+    "confirmation": "A close below the first candle's body.",
+    "failure": "Often the uptrend simply continues after the pause.",
+    "tested": {
+      "page": "https://thepatternsite.com/HaramiBear.html",
+      "theory": "Bearish reversal",
+      "result": "Bullish continuation 53% of the time"
+    }
+  },
+  {
+    "id": "harami-cross",
+    "name": "Harami cross",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        48,
+        49,
+        36,
+        37
+      ],
+      [
+        41,
+        43.5,
+        39,
+        41.1
+      ]
+    ],
+    "formation": "A harami whose second candle is a doji, sitting inside the body of a long first candle. Shown here after a decline (bullish version); the bearish version appears after a rise.",
+    "reading": "A long move is followed by complete indecision. Traditionally read as a stronger hint of a turn than a normal harami.",
+    "confirmation": "A decisive move in the opposite direction of the first candle.",
+    "failure": "The indecision is frequently resolved in the original direction.",
+    "tested": {
+      "page": "https://thepatternsite.com/HaramiCrossBull.html",
+      "theory": "Bullish reversal",
+      "result": "Bearish continuation 55% of the time"
+    }
+  },
+  {
+    "id": "piercing-line",
+    "name": "Piercing line",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        48,
+        49,
+        39.5,
+        40
+      ],
+      [
+        37.5,
+        46.5,
+        37,
+        45.5
+      ]
+    ],
+    "formation": "Two candles after a decline: a long bearish candle, then a bullish candle that opens below the first candle's low and closes above the middle of the first body.",
+    "reading": "A weak open was met by strong buying that recovered more than half of the previous loss. Traditionally read as a possible bullish reversal.",
+    "confirmation": "Further gains, ideally a close above the first candle's open.",
+    "failure": "If the next candles fall back below the second candle's low, the pattern has failed.",
+    "aka": [
+      "piercing pattern"
+    ],
+    "tested": {
+      "page": "https://thepatternsite.com/Piercing.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 64% of the time"
+    }
+  },
+  {
+    "id": "dark-cloud-cover",
+    "name": "Dark cloud cover",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        52,
+        60.5,
+        51.5,
+        60
+      ],
+      [
+        62.5,
+        63,
+        54.5,
+        55
+      ]
+    ],
+    "formation": "Two candles after a rise: a long bullish candle, then a bearish candle that opens above the first candle's high and closes below the middle of the first body.",
+    "reading": "A strong open was met by heavy selling that erased more than half of the previous gain. Traditionally read as a possible bearish reversal.",
+    "confirmation": "Further losses, ideally a close below the first candle's open.",
+    "failure": "If price recovers above the second candle's high, the pattern has failed.",
+    "tested": {
+      "page": "https://thepatternsite.com/DarkCloudCover.html",
+      "theory": "Bearish reversal",
+      "result": "Bearish reversal 60% of the time"
+    }
+  },
+  {
+    "id": "morning-star",
+    "name": "Morning star",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        50,
+        51,
+        40.5,
+        41
+      ],
+      [
+        38.5,
+        40,
+        36,
+        37.5
+      ],
+      [
+        40.5,
+        49,
+        40,
+        48.5
+      ]
+    ],
+    "formation": "Three candles after a decline: a long bearish candle, a small candle (the 'star') that trades lower, then a long bullish candle that closes well into the first candle's body.",
+    "reading": "Selling, then hesitation, then strong buying. Traditionally read as a possible bullish reversal.",
+    "confirmation": "The third candle itself is the confirmation; some traders also want higher volume on it.",
+    "failure": "A fall below the star's low cancels the reading.",
+    "tested": {
+      "page": "https://thepatternsite.com/MorningStar.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 78% of the time"
+    }
+  },
+  {
+    "id": "evening-star",
+    "name": "Evening star",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        50,
+        60,
+        49.5,
+        59
+      ],
+      [
+        61.5,
+        63.5,
+        60.5,
+        62.2
+      ],
+      [
+        60,
+        60.5,
+        50.5,
+        51.5
+      ]
+    ],
+    "formation": "Three candles after a rise: a long bullish candle, a small candle (the 'star') that trades higher, then a long bearish candle that closes well into the first candle's body.",
+    "reading": "Buying, then hesitation, then strong selling. Traditionally read as a possible bearish reversal.",
+    "confirmation": "The third candle itself is the confirmation.",
+    "failure": "A rise above the star's high cancels the reading.",
+    "tested": {
+      "page": "https://thepatternsite.com/EveningStar.html",
+      "theory": "Bearish reversal",
+      "result": "Bearish reversal 72% of the time"
+    }
+  },
+  {
+    "id": "three-white-soldiers",
+    "name": "Three white soldiers",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        38,
+        44,
+        37.5,
+        43.5
+      ],
+      [
+        42.5,
+        49.5,
+        42,
+        49
+      ],
+      [
+        48,
+        55,
+        47.5,
+        54.5
+      ]
+    ],
+    "formation": "Three long bullish candles in a row, each opening within the previous body and closing near its high, after a decline or a quiet period.",
+    "reading": "Steady, persistent buying over three periods. Traditionally read as a strong bullish signal.",
+    "confirmation": "Continued strength; a close below the third candle's body weakens the signal.",
+    "failure": "After three strong candles the market is often stretched and may pull back.",
+    "tested": {
+      "page": "https://thepatternsite.com/ThreeWhiteSoldiers.html",
+      "theory": "Bullish reversal",
+      "result": "Bullish reversal 82% of the time"
+    }
+  },
+  {
+    "id": "three-black-crows",
+    "name": "Three black crows",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        62,
+        62.5,
+        56.5,
+        57
+      ],
+      [
+        57.5,
+        58,
+        51.5,
+        52
+      ],
+      [
+        52.5,
+        53,
+        46.5,
+        47
+      ]
+    ],
+    "formation": "Three long bearish candles in a row, each opening within the previous body and closing near its low, after a rise.",
+    "reading": "Steady, persistent selling over three periods. Traditionally read as a strong bearish signal.",
+    "confirmation": "Continued weakness; a close above the third candle's body weakens the signal.",
+    "failure": "After three strong down candles the market may be oversold and bounce.",
+    "tested": {
+      "page": "https://thepatternsite.com/ThreeBlackCrows.html",
+      "theory": "Bearish reversal",
+      "result": "Bearish reversal 78% of the time"
+    }
+  },
+  {
+    "id": "tweezer-bottom",
+    "name": "Tweezer bottom",
+    "kind": "multi",
+    "traditionalBias": "bullish",
+    "context": "after-downtrend",
+    "candles": [
+      [
+        44,
+        45,
+        36,
+        37
+      ],
+      [
+        37.5,
+        43,
+        36,
+        42.5
+      ]
+    ],
+    "formation": "Two (or more) candles after a decline with (almost) the same low.",
+    "reading": "Sellers failed twice at the same price: traders read it as a support level being defended.",
+    "confirmation": "A higher close afterwards.",
+    "failure": "A break below the shared low turns the 'support' into a failed level.",
+    "tested": {
+      "page": "https://thepatternsite.com/TweezersBottom.html",
+      "theory": "Bullish reversal",
+      "result": "Bearish continuation 52% of the time"
+    }
+  },
+  {
+    "id": "tweezer-top",
+    "name": "Tweezer top",
+    "kind": "multi",
+    "traditionalBias": "bearish",
+    "context": "after-uptrend",
+    "candles": [
+      [
+        56,
+        64,
+        55.5,
+        63
+      ],
+      [
+        63,
+        64,
+        57,
+        57.5
+      ]
+    ],
+    "formation": "Two (or more) candles after a rise with (almost) the same high.",
+    "reading": "Buyers failed twice at the same price: traders read it as a resistance level holding.",
+    "confirmation": "A lower close afterwards.",
+    "failure": "A break above the shared high means the resistance did not hold.",
+    "tested": {
+      "page": "https://thepatternsite.com/TweezersTop.html",
+      "theory": "Bearish reversal",
+      "result": "Bullish continuation 56% of the time"
+    }
+  },
+  {
+    "id": "inside-bar",
+    "name": "Inside bar",
+    "kind": "multi",
+    "traditionalBias": "neutral",
+    "context": "any",
+    "candles": [
+      [
+        42,
+        60,
+        40,
+        57
+      ],
+      [
+        50.5,
+        55,
+        46,
+        53
+      ]
+    ],
+    "formation": "A candle whose high and low are both inside the range of the previous candle.",
+    "reading": "The market is pausing and the range is contracting. Traders watch which side of the larger candle's range breaks first.",
+    "confirmation": "A close beyond the high or low of the first (larger) candle.",
+    "failure": "Breakouts from tight ranges are often false: price breaks one side, then reverses."
+  }
+]

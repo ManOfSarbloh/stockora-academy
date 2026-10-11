@@ -1,5 +1,50 @@
 ---
-import ComingSoon from '@/components/ComingSoon.astro';
+/** Chart School hub: the Category J lessons, the Candlestick Encyclopedia and the Chart Lab. */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { getLessonSequence } from '@/lib/lessons';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+const lessons = (await getLessonSequence()).filter((l) => l.category.id === 'J');
 ---
 
-<ComingSoon section="charts" />
+<BaseLayout title={t('cs.title')} description={t('cs.lead')}>
+  <PageHeader title={t('cs.title')} lead={t('cs.lead')} />
+  <div class="container-page py-10">
+    <div class="grid gap-5 md:grid-cols-2">
+      <a href={url('/charts/candles')} class="card block p-6 text-text no-underline transition-colors hover:border-link">
+        <p class="text-xl font-bold">{t('cs.encyclopedia')}</p>
+        <p class="mt-1 text-muted">{t('cs.encyclopediaBody')}</p>
+        <p class="mt-3 font-medium text-link">{t('cs.open')} →</p>
+      </a>
+      <a href={url('/charts/lab')} class="card block p-6 text-text no-underline transition-colors hover:border-link">
+        <p class="text-xl font-bold">{t('cs.lab')}</p>
+        <p class="mt-1 text-muted">{t('cs.labBody')}</p>
+        <p class="mt-3 font-medium text-link">{t('cs.open')} →</p>
+      </a>
+    </div>
+
+    <section class="mt-12" aria-labelledby="cs-lessons">
+      <h2 id="cs-lessons" class="text-2xl font-bold tracking-tight">{t('cs.lessons')}</h2>
+      <p class="mt-1 text-muted">{t('cs.lessonsLead')}</p>
+      <ol class="mt-4 grid gap-3 md:grid-cols-2">
+        {
+          lessons.map((l, i) => (
+            <li>
+              <a href={url(l.href)} class="card flex h-full gap-3 p-4 text-text no-underline transition-colors hover:border-link" data-lesson={l.key}>
+                <span class="flex size-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-sm font-bold text-link">{i + 1}</span>
+                <span>
+                  <span class="block font-semibold">{l.title}</span>
+                  <span class="mt-0.5 block text-sm text-muted">{l.entry.data.summary}</span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <p class="mt-10 max-w-3xl text-sm text-muted">{t('cs.disclaimer')}</p>
+  </div>
+</BaseLayout>

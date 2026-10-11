@@ -1,0 +1,1049 @@
+[
+  {
+    "id": "J-001",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which chart type connects only the closing prices?",
+    "options": [
+      "Line chart",
+      "Bar chart",
+      "Candlestick chart",
+      "Heikin Ashi chart"
+    ],
+    "answerIndex": 0,
+    "explanation": "A line chart connects the closing prices; bar and candlestick charts show open, high, low and close.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-002",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the open and close of a Heikin Ashi candle are prices that actually traded.",
+    "answerBool": false,
+    "explanation": "False. Heikin Ashi candles are built from averages, so their open and close are not real traded prices.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-003",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "On a logarithmic price scale, which move takes up the same vertical space as a rise from 10 to 20?",
+    "options": [
+      "From 100 to 200",
+      "From 100 to 110",
+      "From 20 to 30",
+      "From 50 to 60"
+    ],
+    "answerIndex": 0,
+    "explanation": "On a log scale equal distances mean equal percentage changes: 10→20 and 100→200 are both +100%.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-004",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "After a 2-for-1 stock split, an unadjusted chart shows the price falling from €100 to €50. What happened to a shareholder's position?",
+    "options": [
+      "Nothing changed in value: they own twice as many shares at half the price",
+      "They lost half their money",
+      "They gained 100%",
+      "The company issued new shares to new investors"
+    ],
+    "answerIndex": 0,
+    "explanation": "A split doubles the number of shares and halves the price; the value of the holding is unchanged. Charts usually adjust older prices so no fake crash appears.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-split"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-005",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A market trades 390 minutes per session. How many candles does one session produce on a 1-hour chart (counting a shorter final bar)?",
+    "answerNumber": 7,
+    "tolerance": 0,
+    "explanation": "390 minutes = 6 full hours (360 minutes) plus a final 30-minute bar: 7 candles.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-006",
+    "category": "J",
+    "topic": "what-a-chart-shows",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: free chart data can be delayed because many exchanges charge for real-time data.",
+    "answerBool": true,
+    "explanation": "True. Most stock and futures exchanges charge fees for real-time data, so free charts are often delayed.",
+    "lessonLink": "/learn/technical-analysis/what-a-chart-shows",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000471705-how-to-purchase-additional-market-data/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-007",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A candle has open 100, high 106, low 98 and close 104. How large is its body?",
+    "answerNumber": 4,
+    "tolerance": 0,
+    "explanation": "The body runs from the open (100) to the close (104): 4.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-008",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Same candle: open 100, high 106, low 98, close 104. How large is its total range (high minus low)?",
+    "answerNumber": 8,
+    "tolerance": 0,
+    "explanation": "106 − 98 = 8.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-009",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the top of the upper wick show?",
+    "options": [
+      "The highest price of the period",
+      "The closing price",
+      "The opening price",
+      "The average price"
+    ],
+    "answerIndex": 0,
+    "explanation": "The wicks reach the period's high and low.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-010",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "A candle has a long upper wick and a small body near its low. What does that traditionally suggest?",
+    "options": [
+      "Higher prices were reached but pushed back down during the period",
+      "Buyers were in control until the close",
+      "The market was closed",
+      "Volume was low"
+    ],
+    "answerIndex": 0,
+    "explanation": "A long upper wick means the price rose during the period but sellers pushed it back down: rejection of higher prices.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-011",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in the Chinese stock market, red is commonly used for rising prices.",
+    "answerBool": true,
+    "explanation": "True. In the Chinese stock market red stands for a rise and green for a fall, the opposite of most Western platforms.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://pmc.ncbi.nlm.nih.gov/articles/PMC3933460/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-012",
+    "category": "J",
+    "topic": "candlestick-anatomy",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a green candle always means the price closed higher than the previous period's close.",
+    "answerBool": false,
+    "explanation": "False. A green candle means the close was above that period's open. After a gap down, a green candle can still close below yesterday's close.",
+    "lessonLink": "/learn/technical-analysis/candlestick-anatomy",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-013",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a doji?",
+    "options": [
+      "A candle whose open and close are almost equal",
+      "A candle with no wicks",
+      "Three rising candles in a row",
+      "A gap between two candles"
+    ],
+    "answerIndex": 0,
+    "explanation": "A doji has (almost) the same open and close, so its body is a thin line: indecision.",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-014",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A candle with a small body near the top and a long lower wick appears after a decline. What is it traditionally called?",
+    "options": [
+      "Hammer",
+      "Hanging man",
+      "Shooting star",
+      "Marubozu"
+    ],
+    "answerIndex": 0,
+    "explanation": "After a decline this shape is a hammer; after a rise the same shape is a hanging man.",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-015",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "The hammer and the hanging man have the same shape. What distinguishes them?",
+    "options": [
+      "The trend before the candle",
+      "The colour of the body",
+      "The trading volume",
+      "The timeframe"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only the context differs: a hammer follows a decline, a hanging man follows a rise.",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-016",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a marubozu?",
+    "options": [
+      "A candle with a long body and no or tiny wicks",
+      "A candle with a tiny body and long wicks on both sides",
+      "A candle that opens above the previous high",
+      "A two-candle reversal pattern"
+    ],
+    "answerIndex": 0,
+    "explanation": "A marubozu opens at one extreme and closes at the other: one side was in control throughout.",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-017",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in Thomas Bulkowski's tests on US stocks, the hanging man was more often followed by a continued rise than by a fall.",
+    "answerBool": true,
+    "explanation": "True. Traditionally bearish, it was followed by a bullish continuation 59% of the time in his tests (direction only, not profit).",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/HangingMan.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-018",
+    "category": "J",
+    "topic": "single-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What do traders typically wait for after spotting a hammer?",
+    "options": [
+      "Confirmation, such as the next candle closing higher",
+      "Nothing: a hammer guarantees a rise",
+      "A new low below the hammer",
+      "A dividend announcement"
+    ],
+    "answerIndex": 0,
+    "explanation": "A single candle shows rejection during one period. Traders usually wait for confirmation and decide in advance where the idea is wrong.",
+    "lessonLink": "/learn/technical-analysis/single-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-019",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a bullish engulfing pattern, what does the second candle do?",
+    "options": [
+      "Its rising body completely covers the first, falling body",
+      "It opens and closes inside the first body",
+      "It has the same high as the first candle",
+      "It is a doji"
+    ],
+    "answerIndex": 0,
+    "explanation": "The second (rising) body engulfs the first (falling) body: buyers took over decisively.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-020",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'harami' mean in Japanese?",
+    "options": [
+      "Pregnant",
+      "Hammer",
+      "Star",
+      "Window"
+    ],
+    "answerIndex": 0,
+    "explanation": "Harami means pregnant: a small body sits inside the previous large body.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-021",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put the three candles of a morning star in order.",
+    "orderedItems": [
+      "A long falling candle",
+      "A small 'star' candle lower down",
+      "A long rising candle closing well into the first body"
+    ],
+    "explanation": "A morning star forms after a decline: selling, then hesitation, then strong buying.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-022",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "A piercing line's second candle must close where?",
+    "options": [
+      "Above the middle of the first candle's body",
+      "Below the first candle's low",
+      "Exactly at the first candle's open",
+      "Inside the first candle's lower wick"
+    ],
+    "answerIndex": 0,
+    "explanation": "The second candle opens below the first candle's low and closes above the middle of its body.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-023",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which of these are traditionally read as bearish? Select all that apply.",
+    "options": [
+      "Evening star",
+      "Three black crows",
+      "Dark cloud cover",
+      "Morning star"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Evening star, three black crows and dark cloud cover are bearish patterns; the morning star is bullish.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-024",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is an inside bar?",
+    "options": [
+      "A candle whose high and low are both within the previous candle's range",
+      "A candle that opens inside a gap",
+      "A candle that closes inside the trading hours",
+      "A candle inside a trend channel"
+    ],
+    "answerIndex": 0,
+    "explanation": "An inside bar shows a contracting range; traders watch which side breaks first.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/CandleEntry.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-025",
+    "category": "J",
+    "topic": "multi-candle-patterns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which kind of gap is often filled soon afterwards, according to Bulkowski's statistics?",
+    "options": [
+      "Area gap",
+      "Breakaway gap",
+      "Continuation gap",
+      "All gaps are always filled"
+    ],
+    "answerIndex": 0,
+    "explanation": "In his bull-market statistics, most area gaps closed within a week, while breakaway gaps rarely did.",
+    "lessonLink": "/learn/technical-analysis/multi-candle-patterns",
+    "sources": [
+      "https://thepatternsite.com/gaps.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-026",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Park and Irwin (2007) reviewed 95 modern studies of technical trading strategies. How many found positive results?",
+    "answerNumber": 56,
+    "tolerance": 0,
+    "explanation": "56 positive, 20 negative and 19 mixed, but most studies had problems such as data snooping and hard-to-estimate costs.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://ideas.repec.org/a/bla/jecsur/v21y2007i4p786-826.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-027",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which problem did Park and Irwin name as common in studies of technical analysis?",
+    "options": [
+      "Data snooping and choosing rules after seeing the results",
+      "Using too little computing power",
+      "Testing only bond markets",
+      "Ignoring candle colours"
+    ],
+    "answerIndex": 0,
+    "explanation": "They named data snooping, ex post selection of rules and difficulties estimating risk and transaction costs.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://ideas.repec.org/a/bla/jecsur/v21y2007i4p786-826.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-028",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Marshall's study of candlestick strategies on Dow Jones stocks (1992–2002) found strong evidence that they beat the market.",
+    "answerBool": false,
+    "explanation": "False. It found no evidence that a trader following candlestick technical analysis would outperform the market.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://mro.massey.ac.nz/items/edc6c1cf-63d9-4c94-a13d-92ffe1a53481/full"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-029",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do patterns look more reliable on old charts than in real time?",
+    "options": [
+      "Hindsight: you already know what happened next",
+      "Old charts use better data",
+      "Patterns stopped working recently",
+      "Charts change colour over time"
+    ],
+    "answerIndex": 0,
+    "explanation": "On a finished chart the successful patterns stand out; at the right edge you do not know which ones will work.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://www.nber.org/papers/w7613"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-030",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the Nobel committee's 2013 summary, what do researchers agree on about short-term prediction?",
+    "options": [
+      "Past prices are of very little use for predicting returns over the immediate future",
+      "Short-term returns are easy to predict from charts",
+      "Prices never reflect information",
+      "Long-term prices are completely random"
+    ],
+    "answerIndex": 0,
+    "explanation": "Short-term returns are hard to predict from past prices, while the broad course over three to five years can be predicted to some extent.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2013/popular-information/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-031",
+    "category": "J",
+    "topic": "limits-of-patterns",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: Lo, Mamaysky and Wang (2000) concluded that several technical indicators provide incremental information on US stocks.",
+    "answerBool": true,
+    "explanation": "True. They found incremental information and possibly some practical value, which is not the same as a reliable profitable strategy.",
+    "lessonLink": "/learn/technical-analysis/limits-of-patterns",
+    "sources": [
+      "https://www.nber.org/papers/w7613"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-032",
+    "category": "J",
+    "topic": "trend-support-resistance",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What defines an uptrend?",
+    "options": [
+      "Higher highs and higher lows",
+      "Lower highs and lower lows",
+      "Equal highs and lows",
+      "A single big rising candle"
+    ],
+    "answerIndex": 0,
+    "explanation": "An uptrend is a sequence of higher highs and higher lows.",
+    "lessonLink": "/learn/technical-analysis/trend-support-resistance",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/trend-and-continuation-patterns"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-033",
+    "category": "J",
+    "topic": "trend-support-resistance",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is resistance?",
+    "options": [
+      "A price area where a rising price has tended to stop or turn down",
+      "The lowest price of the year",
+      "A rule that limits trading",
+      "The closing price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Resistance is an area above the price where rallies have stalled before.",
+    "lessonLink": "/learn/technical-analysis/trend-support-resistance",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-034",
+    "category": "J",
+    "topic": "trend-support-resistance",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: support and resistance are best treated as exact lines that the price cannot cross.",
+    "answerBool": false,
+    "explanation": "False. They are zones, and prices often poke through them; any news can break them.",
+    "lessonLink": "/learn/technical-analysis/trend-support-resistance",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-035",
+    "category": "J",
+    "topic": "trend-support-resistance",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Resistance at €50 is clearly broken. Later the price dips back to €50 and bounces. What is this called?",
+    "options": [
+      "A retest, with old resistance acting as support",
+      "A double top",
+      "A death cross",
+      "A gap"
+    ],
+    "answerIndex": 0,
+    "explanation": "Broken resistance often acts as support on a later dip: role reversal and a retest.",
+    "lessonLink": "/learn/technical-analysis/trend-support-resistance",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-036",
+    "category": "J",
+    "topic": "trend-support-resistance",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a false breakout?",
+    "options": [
+      "A move beyond a level that quickly falls back inside",
+      "A breakout on high volume",
+      "A breakout that continues for weeks",
+      "A trading halt"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fakeouts are common, especially on short timeframes and low volume.",
+    "lessonLink": "/learn/technical-analysis/trend-support-resistance",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/support-and-resistance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-037",
+    "category": "J",
+    "topic": "chart-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In a head and shoulders pattern, what traditionally signals the reversal?",
+    "options": [
+      "A break below the neckline",
+      "The formation of the left shoulder",
+      "Any new high",
+      "A doji at the head"
+    ],
+    "answerIndex": 0,
+    "explanation": "The neckline connects the lows between the shoulders and the head; a break below it is the traditional signal.",
+    "lessonLink": "/learn/technical-analysis/chart-patterns",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/technical-patterns-reversals"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-038",
+    "category": "J",
+    "topic": "chart-patterns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How is an ascending triangle traditionally read?",
+    "options": [
+      "Bullish",
+      "Bearish",
+      "Neutral, no reading",
+      "As a sign of a stock split"
+    ],
+    "answerIndex": 0,
+    "explanation": "Flat highs and rising lows: traditionally read as bullish. Descending triangles are read as bearish; symmetrical ones can break either way.",
+    "lessonLink": "/learn/technical-analysis/chart-patterns",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/trend-and-continuation-patterns"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-039",
+    "category": "J",
+    "topic": "chart-patterns",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a double top is confirmed as soon as the price makes a second high at the same level.",
+    "answerBool": false,
+    "explanation": "False. Traders usually wait for a break of the low between the two tops; until then it may just be a pause.",
+    "lessonLink": "/learn/technical-analysis/chart-patterns",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/technical-patterns-reversals"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-040",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Closing prices were 45.50, 45.25 and 46.10. What is the 3-period simple moving average? (Two decimals.)",
+    "answerNumber": 45.62,
+    "tolerance": 0.01,
+    "explanation": "(45.50 + 45.25 + 46.10) ÷ 3 = 136.85 ÷ 3 = 45.62.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/understanding-moving-averages"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-041",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "What is the EMA multiplier for a 14-period exponential moving average? (Three decimals.)",
+    "answerNumber": 0.133,
+    "tolerance": 0.001,
+    "explanation": "Multiplier = 2 ÷ (14 + 1) = 0.133.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/understanding-moving-averages"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-042",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which RSI reading is conventionally called 'overbought'?",
+    "options": [
+      "Above 70",
+      "Below 30",
+      "Exactly 50",
+      "Below 0"
+    ],
+    "answerIndex": 0,
+    "explanation": "RSI runs from 0 to 100; above 70 is conventionally overbought, below 30 oversold.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/oscillators-macd-rsi-stochastics"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-043",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: when RSI is above 70, the price must fall soon.",
+    "answerBool": false,
+    "explanation": "False. In strong trends RSI can stay above 70 for a long time while the price keeps rising.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/oscillators-macd-rsi-stochastics"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-044",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "How is the MACD line calculated (standard settings)?",
+    "options": [
+      "12-period EMA minus 26-period EMA",
+      "26-period SMA minus 12-period SMA",
+      "RSI minus 50",
+      "Price minus VWAP"
+    ],
+    "answerIndex": 0,
+    "explanation": "MACD line = 12 EMA − 26 EMA; the signal line is a 9-period EMA of it.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/oscillators-macd-rsi-stochastics"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-045",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What are John Bollinger's default settings for Bollinger Bands?",
+    "options": [
+      "20 periods, 2 standard deviations",
+      "14 periods, 70/30 levels",
+      "50 and 200 periods",
+      "12, 26 and 9 periods"
+    ],
+    "answerIndex": 0,
+    "explanation": "A 20-period moving average with bands two standard deviations above and below.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.bollingerbands.com/bollinger-bands"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-046",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A share rose from €80 to €100. Where is the 61.8% Fibonacci retracement level of that move, in euros? (Two decimals.)",
+    "answerNumber": 87.64,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "The move is €20; 61.8% of it is €12.36; €100 − €12.36 = €87.64.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/fibonacci-retracements-and-extensions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-047",
+    "category": "J",
+    "topic": "indicators",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What does ATR (Average True Range) measure?",
+    "options": [
+      "Volatility, not direction",
+      "The direction of the trend",
+      "Overbought and oversold levels",
+      "Trading volume"
+    ],
+    "answerIndex": 0,
+    "explanation": "ATR averages the size of each period's range, including gaps; it says nothing about direction.",
+    "lessonLink": "/learn/technical-analysis/indicators",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-048",
+    "category": "J",
+    "topic": "reading-routine",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "In top-down analysis, in which order do you look at timeframes?",
+    "orderedItems": [
+      "Weekly",
+      "Daily",
+      "Hourly"
+    ],
+    "explanation": "Start with the longest timeframe for context, then move to shorter ones for detail.",
+    "lessonLink": "/learn/technical-analysis/reading-routine",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-049",
+    "category": "J",
+    "topic": "reading-routine",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is overfitting in backtesting?",
+    "options": [
+      "Adjusting rules until they fit past data so well that they fail on new data",
+      "Testing on too many years of data",
+      "Including trading costs",
+      "Using a log scale"
+    ],
+    "answerIndex": 0,
+    "explanation": "Overfitted rules capture past noise and usually fail on new data.",
+    "lessonLink": "/learn/technical-analysis/reading-routine",
+    "sources": [
+      "https://ideas.repec.org/a/bla/jecsur/v21y2007i4p786-826.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-050",
+    "category": "J",
+    "topic": "reading-routine",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "A backtest uses only companies that still exist today. Which bias does this create?",
+    "options": [
+      "Survivorship bias",
+      "Hindsight bias",
+      "Anchoring",
+      "Home bias"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ignoring companies that went bankrupt or were delisted makes results look better than they were.",
+    "lessonLink": "/learn/technical-analysis/reading-routine",
+    "sources": [
+      "https://ideas.repec.org/a/bla/jecsur/v21y2007i4p786-826.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-051",
+    "category": "J",
+    "topic": "reading-routine",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: 'no trade' is a valid result of reading a chart.",
+    "answerBool": true,
+    "explanation": "True. Most of the time a chart does not offer a clear picture, and waiting is a legitimate decision.",
+    "lessonLink": "/learn/technical-analysis/reading-routine",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/chart-types-candlestick-line-bar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-052",
+    "category": "J",
+    "topic": "charting-platforms",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is Pine Script?",
+    "options": [
+      "TradingView's programming language for custom indicators and strategies",
+      "A type of candlestick pattern",
+      "A stock exchange",
+      "A broker's order type"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pine Script is the platform's own language for writing indicators and strategies.",
+    "lessonLink": "/learn/technical-analysis/charting-platforms",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000561836-what-is-pine-script/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-053",
+    "category": "J",
+    "topic": "charting-platforms",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does bar replay do?",
+    "options": [
+      "Plays past candles one by one from a chosen starting point",
+      "Places real orders automatically",
+      "Shows only real-time data",
+      "Deletes old candles"
+    ],
+    "answerIndex": 0,
+    "explanation": "Replay lets you practise reading charts without knowing what comes next.",
+    "lessonLink": "/learn/technical-analysis/charting-platforms",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000754966-demo-features-on-tradingview/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-054",
+    "category": "J",
+    "topic": "charting-platforms",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the prefix in a symbol such as NASDAQ:AAPL tell you?",
+    "options": [
+      "The exchange of that listing",
+      "The company's currency",
+      "The analyst's rating",
+      "The chart type"
+    ],
+    "answerIndex": 0,
+    "explanation": "The prefix specifies the exchange; the same company may trade on several exchanges.",
+    "lessonLink": "/learn/technical-analysis/charting-platforms",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000736064-performance/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-055",
+    "category": "J",
+    "topic": "charting-platforms",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a popular community 'idea' on a charting platform has been checked for accuracy.",
+    "answerBool": false,
+    "explanation": "False. Ideas are user opinions; popularity is not accuracy, and social feeds are also used for hype and scams.",
+    "lessonLink": "/learn/technical-analysis/charting-platforms",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000591338-publishing-and-updating-ideas/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

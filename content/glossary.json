@@ -1992,8 +1992,7 @@
     "id": "closing-auction",
     "term": "Closing auction",
     "aliases": [
-      "closing auctions",
-      "closing price"
+      "closing auctions"
     ],
     "definition": "The auction at the end of the trading day that determines the official closing price.",
     "related": [
@@ -3973,5 +3972,775 @@
       "B"
     ],
     "de": "Angebotspreis / Emissionspreis"
+  },
+  {
+    "id": "closing-price",
+    "term": "Closing price",
+    "aliases": [
+      "closing prices"
+    ],
+    "definition": "The last price of a trading period, usually set in the closing auction. Line charts connect closing prices, and most indicators are calculated from them.",
+    "related": [
+      "closing-auction",
+      "candlestick"
+    ],
+    "categories": [
+      "D",
+      "J"
+    ],
+    "de": "Schlusskurs"
+  },
+  {
+    "id": "technical-analysis",
+    "term": "Technical analysis",
+    "aliases": [
+      "chart analysis",
+      "chart reading"
+    ],
+    "definition": "Analysing price charts, volume and indicators to describe what the market has been doing, often with the aim of anticipating future moves. Its usefulness is debated.",
+    "related": [
+      "candlestick",
+      "efficient-market-hypothesis"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Technische Analyse / Chartanalyse"
+  },
+  {
+    "id": "candlestick",
+    "term": "Candlestick",
+    "aliases": [
+      "candlesticks",
+      "candlestick chart",
+      "candlestick charts",
+      "candle chart"
+    ],
+    "definition": "A chart symbol showing a period's open, high, low and close: a thick body between open and close and thin wicks up to the high and down to the low.",
+    "example": "Open 100, high 106, low 98, close 104: a rising candle with a body from 100 to 104.",
+    "related": [
+      "ohlc",
+      "wick",
+      "doji"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Kerze / Candlestick"
+  },
+  {
+    "id": "ohlc",
+    "term": "OHLC",
+    "aliases": [
+      "open, high, low, close",
+      "OHLC chart",
+      "bar chart"
+    ],
+    "definition": "Open, high, low and close: the four prices of a trading period shown by candlesticks and bar charts.",
+    "related": [
+      "candlestick",
+      "closing-price"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "OHLC (Eröffnung, Hoch, Tief, Schluss)"
+  },
+  {
+    "id": "wick",
+    "term": "Wick",
+    "aliases": [
+      "wicks",
+      "upper wick",
+      "lower wick",
+      "candle shadow"
+    ],
+    "definition": "The thin line above or below a candle's body, reaching the period's high or low. Also called a shadow. A long wick shows that prices were pushed back.",
+    "related": [
+      "candlestick",
+      "ohlc"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Docht / Schatten"
+  },
+  {
+    "id": "heikin-ashi",
+    "term": "Heikin Ashi",
+    "aliases": [
+      "Heikin-Ashi"
+    ],
+    "definition": "Smoothed candles built from averages of the current and previous period. They make trends easier to see but do not show prices that actually traded.",
+    "related": [
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Heikin Ashi"
+  },
+  {
+    "id": "log-scale",
+    "term": "Logarithmic scale",
+    "aliases": [
+      "log scale",
+      "logarithmic chart"
+    ],
+    "definition": "A price axis on which equal distances mean equal percentage changes (10 to 20 looks as big as 100 to 200). Useful for long periods.",
+    "related": [
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Logarithmische Skala"
+  },
+  {
+    "id": "timeframe",
+    "term": "Timeframe",
+    "aliases": [
+      "timeframes",
+      "chart timeframe"
+    ],
+    "definition": "The period each candle or bar represents, such as 5 minutes, 1 hour, 1 day or 1 week. The same market can look very different on different timeframes.",
+    "related": [
+      "candlestick",
+      "multi-timeframe-analysis"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Zeiteinheit / Zeitrahmen"
+  },
+  {
+    "id": "doji",
+    "term": "Doji",
+    "aliases": [
+      "dojis",
+      "long-legged doji",
+      "dragonfly doji",
+      "gravestone doji"
+    ],
+    "definition": "A candle whose open and close are (almost) equal, so the body is a thin line: a sign of indecision.",
+    "related": [
+      "spinning-top",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Doji"
+  },
+  {
+    "id": "spinning-top",
+    "term": "Spinning top",
+    "aliases": [
+      "spinning tops"
+    ],
+    "definition": "A candle with a small body in the middle and wicks on both sides longer than the body: indecision.",
+    "related": [
+      "doji",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Spinning Top (Kreisel)"
+  },
+  {
+    "id": "marubozu",
+    "term": "Marubozu",
+    "aliases": [
+      "marubozus"
+    ],
+    "definition": "A candle with a long body and no (or tiny) wicks: one side was in control from open to close.",
+    "related": [
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Marubozu"
+  },
+  {
+    "id": "hammer",
+    "term": "Hammer (candlestick)",
+    "aliases": [
+      "hammer candle",
+      "hammer candles",
+      "inverted hammer"
+    ],
+    "definition": "After a decline, a candle with a small body near the top and a long lower wick (or, for the inverted hammer, a long upper wick). Traditionally read as a possible bullish reversal.",
+    "related": [
+      "hanging-man",
+      "shooting-star",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Hammer"
+  },
+  {
+    "id": "hanging-man",
+    "term": "Hanging man",
+    "aliases": [
+      "hanging-man candle"
+    ],
+    "definition": "The same shape as a hammer (small body on top, long lower wick) but after a rise. Traditionally read as a bearish warning, though it often fails.",
+    "related": [
+      "hammer",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Hanging Man"
+  },
+  {
+    "id": "shooting-star",
+    "term": "Shooting star",
+    "aliases": [
+      "shooting stars"
+    ],
+    "definition": "After a rise, a candle with a small body near the bottom and a long upper wick. Traditionally read as a possible bearish reversal.",
+    "related": [
+      "hammer",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Shooting Star (Sternschnuppe)"
+  },
+  {
+    "id": "engulfing-pattern",
+    "term": "Engulfing pattern",
+    "aliases": [
+      "bullish engulfing",
+      "bearish engulfing",
+      "engulfing patterns"
+    ],
+    "definition": "Two candles where the second body completely covers the first body of the opposite colour. Traditionally read as a possible reversal.",
+    "related": [
+      "harami",
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Engulfing-Muster"
+  },
+  {
+    "id": "harami",
+    "term": "Harami",
+    "aliases": [
+      "bullish harami",
+      "bearish harami",
+      "harami cross"
+    ],
+    "definition": "Two candles where a small body sits inside the previous long body of the opposite colour: the move has paused. Japanese for 'pregnant'.",
+    "related": [
+      "engulfing-pattern",
+      "inside-bar"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Harami"
+  },
+  {
+    "id": "piercing-line",
+    "term": "Piercing line",
+    "aliases": [
+      "piercing pattern",
+      "dark cloud cover"
+    ],
+    "definition": "A two-candle pattern after a decline: a falling candle, then a rising one that opens below its low and closes above the middle of its body. The bearish mirror image is called dark cloud cover.",
+    "related": [
+      "engulfing-pattern"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Piercing Line / Dark Cloud Cover"
+  },
+  {
+    "id": "morning-star",
+    "term": "Morning star",
+    "aliases": [
+      "evening star",
+      "morning stars",
+      "evening stars"
+    ],
+    "definition": "A three-candle pattern after a decline: a long falling candle, a small 'star', then a long rising candle. The evening star is its bearish mirror image after a rise.",
+    "related": [
+      "engulfing-pattern",
+      "doji"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Morning Star / Evening Star"
+  },
+  {
+    "id": "three-white-soldiers",
+    "term": "Three white soldiers",
+    "aliases": [
+      "three black crows"
+    ],
+    "definition": "Three long rising candles in a row, each closing near its high. The bearish mirror image (three long falling candles) is called three black crows.",
+    "related": [
+      "marubozu"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Three White Soldiers / Three Black Crows"
+  },
+  {
+    "id": "tweezer",
+    "term": "Tweezer top and bottom",
+    "aliases": [
+      "tweezer top",
+      "tweezer bottom",
+      "tweezers"
+    ],
+    "definition": "Two candles with (almost) the same high (tweezer top) or the same low (tweezer bottom): the price failed twice at the same level.",
+    "related": [
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Tweezer"
+  },
+  {
+    "id": "inside-bar",
+    "term": "Inside bar",
+    "aliases": [
+      "inside bars",
+      "inside day"
+    ],
+    "definition": "A candle whose high and low are both within the previous candle's range: the market is pausing and the range is contracting.",
+    "related": [
+      "harami",
+      "breakout"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Inside Bar"
+  },
+  {
+    "id": "price-gap",
+    "term": "Price gap",
+    "aliases": [
+      "price gaps",
+      "breakaway gap",
+      "continuation gap",
+      "runaway gap",
+      "exhaustion gap",
+      "area gap"
+    ],
+    "definition": "An empty space on a chart when a period opens far above or below the previous period's range, often after news. Types: area, breakaway, continuation and exhaustion gaps.",
+    "related": [
+      "candlestick"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Kurslücke (Gap)"
+  },
+  {
+    "id": "uptrend",
+    "term": "Uptrend",
+    "aliases": [
+      "uptrends",
+      "downtrend",
+      "downtrends",
+      "higher highs",
+      "lower lows"
+    ],
+    "definition": "A series of higher highs and higher lows (uptrend) or lower highs and lower lows (downtrend).",
+    "related": [
+      "trendline",
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Aufwärtstrend / Abwärtstrend"
+  },
+  {
+    "id": "trendline",
+    "term": "Trendline",
+    "aliases": [
+      "trendlines",
+      "trend line",
+      "trend lines",
+      "price channel"
+    ],
+    "definition": "A line drawn through two or more lows (in an uptrend) or highs (in a downtrend) to show the slope of a trend. A parallel second line forms a channel.",
+    "related": [
+      "uptrend",
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Trendlinie"
+  },
+  {
+    "id": "support-resistance",
+    "term": "Support and resistance",
+    "aliases": [
+      "support level",
+      "resistance level",
+      "support zone",
+      "resistance zone",
+      "support levels",
+      "resistance levels"
+    ],
+    "definition": "Support: a price area where a falling price has tended to stop. Resistance: an area where a rising price has tended to stop. Best treated as zones, not exact lines.",
+    "related": [
+      "breakout",
+      "trendline"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Unterstützung und Widerstand"
+  },
+  {
+    "id": "breakout",
+    "term": "Breakout",
+    "aliases": [
+      "breakouts",
+      "false breakout",
+      "fakeout",
+      "fakeouts"
+    ],
+    "definition": "A decisive move beyond a support or resistance zone or a chart pattern. A false breakout (fakeout) quickly falls back inside.",
+    "related": [
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Ausbruch (Breakout)"
+  },
+  {
+    "id": "head-and-shoulders",
+    "term": "Head and shoulders",
+    "aliases": [
+      "inverse head and shoulders",
+      "neckline"
+    ],
+    "definition": "A reversal chart pattern: a high, a higher high and a lower high, with a neckline through the lows between them. A break of the neckline is the traditional signal.",
+    "related": [
+      "double-top",
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Schulter-Kopf-Schulter-Formation"
+  },
+  {
+    "id": "double-top",
+    "term": "Double top",
+    "aliases": [
+      "double tops",
+      "double bottom",
+      "double bottoms",
+      "triple top",
+      "triple bottom"
+    ],
+    "definition": "Two highs (or lows, for a double bottom) at about the same level. Traders usually wait for a break of the price between them.",
+    "related": [
+      "head-and-shoulders"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Doppeltop / Doppelboden"
+  },
+  {
+    "id": "chart-triangle",
+    "term": "Triangle (chart pattern)",
+    "aliases": [
+      "ascending triangle",
+      "descending triangle",
+      "symmetrical triangle",
+      "bull flag",
+      "pennant"
+    ],
+    "definition": "Continuation patterns in which the price range narrows (triangles, pennants) or pauses against a sharp move (flags) before a possible breakout.",
+    "related": [
+      "breakout",
+      "double-top"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Dreieck / Flagge / Wimpel"
+  },
+  {
+    "id": "moving-average",
+    "term": "Moving average",
+    "aliases": [
+      "moving averages",
+      "SMA",
+      "EMA",
+      "simple moving average",
+      "exponential moving average"
+    ],
+    "definition": "The average price of the last n periods, recalculated each period (simple), or with more weight on recent prices (exponential). It smooths the price but lags.",
+    "example": "Closes of 45.50, 45.25 and 46.10 give a 3-period SMA of 45.62.",
+    "related": [
+      "golden-cross",
+      "technical-analysis"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Gleitender Durchschnitt"
+  },
+  {
+    "id": "golden-cross",
+    "term": "Golden cross",
+    "aliases": [
+      "death cross",
+      "golden crosses"
+    ],
+    "definition": "When the 50-day moving average crosses above the 200-day average (golden cross) or below it (death cross). Both lag the actual turn in price.",
+    "related": [
+      "moving-average"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Golden Cross / Death Cross"
+  },
+  {
+    "id": "rsi",
+    "term": "RSI",
+    "aliases": [
+      "Relative Strength Index",
+      "overbought",
+      "oversold"
+    ],
+    "definition": "Relative Strength Index: compares average gains with average losses over a period (often 14) on a scale of 0 to 100. Readings above 70 are conventionally called overbought, below 30 oversold.",
+    "related": [
+      "oscillator",
+      "macd"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Relative-Stärke-Index (RSI)"
+  },
+  {
+    "id": "macd",
+    "term": "MACD",
+    "aliases": [
+      "Moving Average Convergence Divergence",
+      "MACD line",
+      "signal line"
+    ],
+    "definition": "Moving Average Convergence Divergence: the 12-period EMA minus the 26-period EMA, with a 9-period signal line and a histogram of the difference.",
+    "related": [
+      "moving-average",
+      "oscillator"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "MACD"
+  },
+  {
+    "id": "oscillator",
+    "term": "Oscillator",
+    "aliases": [
+      "oscillators"
+    ],
+    "definition": "An indicator drawn in its own pane that moves within a range or around zero, such as RSI or MACD.",
+    "related": [
+      "rsi",
+      "macd"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Oszillator"
+  },
+  {
+    "id": "bollinger-bands",
+    "term": "Bollinger Bands",
+    "aliases": [
+      "Bollinger Band"
+    ],
+    "definition": "A moving average (by default 20 periods) with bands two standard deviations above and below it. The bands widen when volatility rises and narrow when it falls.",
+    "related": [
+      "moving-average",
+      "volatility"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Bollinger-Bänder"
+  },
+  {
+    "id": "vwap",
+    "term": "VWAP",
+    "aliases": [
+      "volume-weighted average price",
+      "volume weighted average price",
+      "anchored VWAP"
+    ],
+    "definition": "Volume-weighted average price: the average price of a session weighted by how much traded at each price. It restarts every session.",
+    "related": [
+      "moving-average"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "VWAP (volumengewichteter Durchschnittspreis)"
+  },
+  {
+    "id": "atr",
+    "term": "ATR",
+    "aliases": [
+      "Average True Range"
+    ],
+    "definition": "Average True Range: the average size of each period's range, including gaps from the previous close. A measure of volatility, not direction.",
+    "related": [
+      "volatility",
+      "bollinger-bands"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "ATR (Average True Range)"
+  },
+  {
+    "id": "fibonacci-retracement",
+    "term": "Fibonacci retracement",
+    "aliases": [
+      "Fibonacci retracements",
+      "Fibonacci levels",
+      "Fibonacci"
+    ],
+    "definition": "Lines at 38.2%, 50% and 61.8% of a previous move, where some traders expect a pullback to pause. Popular but subjective.",
+    "related": [
+      "support-resistance"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Fibonacci-Retracement"
+  },
+  {
+    "id": "multi-timeframe-analysis",
+    "term": "Multi-timeframe analysis",
+    "aliases": [
+      "top-down analysis"
+    ],
+    "definition": "Reading the same market on several timeframes, from long (weekly) to short (hourly), to see the context before the detail.",
+    "related": [
+      "timeframe"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Multi-Timeframe-Analyse"
+  },
+  {
+    "id": "backtesting",
+    "term": "Backtesting",
+    "aliases": [
+      "backtest",
+      "backtests",
+      "backtested"
+    ],
+    "definition": "Testing how a set of trading rules would have performed on past data. Prone to overfitting, data snooping, survivorship bias and ignoring costs.",
+    "related": [
+      "overfitting",
+      "survivorship-bias",
+      "paper-trading"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Backtesting"
+  },
+  {
+    "id": "overfitting",
+    "term": "Overfitting",
+    "aliases": [
+      "curve fitting",
+      "data snooping"
+    ],
+    "definition": "Adjusting or selecting trading rules until they fit past data very well, so they capture noise and usually fail on new data.",
+    "related": [
+      "backtesting"
+    ],
+    "categories": [
+      "J"
+    ],
+    "de": "Überanpassung (Overfitting)"
+  },
+  {
+    "id": "survivorship-bias",
+    "term": "Survivorship bias",
+    "aliases": [],
+    "definition": "A distortion that arises when only the survivors (companies or funds that still exist) are studied, ignoring those that failed, which makes results look better.",
+    "related": [
+      "backtesting"
+    ],
+    "categories": [
+      "J",
+      "K",
+      "M"
+    ],
+    "de": "Survivorship Bias"
+  },
+  {
+    "id": "paper-trading",
+    "term": "Paper trading",
+    "aliases": [
+      "paper account",
+      "demo account",
+      "demo trading"
+    ],
+    "definition": "Practising trades in a simulated account with virtual money. Useful for learning, but without real emotions or real execution.",
+    "related": [
+      "backtesting"
+    ],
+    "categories": [
+      "J",
+      "N"
+    ],
+    "de": "Papierhandel / Demokonto"
+  },
+  {
+    "id": "efficient-market-hypothesis",
+    "term": "Efficient market hypothesis",
+    "aliases": [
+      "EMH",
+      "efficient markets",
+      "market efficiency"
+    ],
+    "definition": "The idea that prices quickly reflect available information, so past prices are of little use for predicting short-term returns.",
+    "related": [
+      "technical-analysis"
+    ],
+    "categories": [
+      "J",
+      "M"
+    ],
+    "de": "Effizienzmarkthypothese"
   }
 ]

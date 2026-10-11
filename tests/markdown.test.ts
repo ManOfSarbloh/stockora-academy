@@ -5,6 +5,7 @@ import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
 import { parseMarker, remarkCallouts } from '../src/lib/markdown/callouts';
 import { buildMatcher, rehypeGlossaryLinks, type GlossaryTerm } from '../src/lib/markdown/glossary-links';
+import { prefixBase } from '../src/lib/markdown/base-links';
 
 const terms: GlossaryTerm[] = [
   { id: 'stock', term: 'Stock', aliases: ['share'], definition: 'A unit of ownership.' },
@@ -101,5 +102,16 @@ describe('rehypeGlossaryLinks', () => {
   it('still links inside emphasis and lists', async () => {
     const html = await md('- Each **share** counts');
     expect(html).toContain('<strong><a href="/glossary/#stock"');
+  });
+});
+
+describe('base path for internal links', () => {
+  it('prefixes only site-internal absolute links', () => {
+    expect(prefixBase('/charts/lab', '/stockora-academy/')).toBe('/stockora-academy/charts/lab');
+    expect(prefixBase('/charts/lab', '/')).toBe('/charts/lab');
+    expect(prefixBase('https://example.org/x', '/stockora-academy/')).toBe('https://example.org/x');
+    expect(prefixBase('//cdn.example.org/x', '/stockora-academy/')).toBe('//cdn.example.org/x');
+    expect(prefixBase('#top', '/stockora-academy/')).toBe('#top');
+    expect(prefixBase('/stockora-academy/charts', '/stockora-academy/')).toBe('/stockora-academy/charts');
   });
 });

@@ -61,16 +61,7 @@ export const plannedSections: Record<string, PlannedSection> = {
     ],
   },
 
-  charts: {
-    title: 'Chart School',
-    lead: 'How to read price charts and candlesticks, and how charting platforms work.',
-    planned: [
-      'Nine chart-reading lessons',
-      'Candlestick Encyclopedia',
-      'Chart Lab: an interactive chart sandbox with simulated data',
-      '"Reveal the next candle" game and Chart Reading Quiz',
-    ],
-  },
+
   quizzes: {
     title: 'Quizzes',
     lead: 'Test what you have learned, topic by topic or across everything.',
