@@ -1,0 +1,39 @@
+{
+  "name": "stockora-academy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Stockora Academy: a free, educational website about stocks, trading and stock markets worldwide.",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build && pagefind --site dist",
+    "preview": "astro preview",
+    "check": "astro check",
+    "validate": "node scripts/validate-content.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "verify": "npm run validate && npm run check && npm run test && npm run build"
+  },
+  "dependencies": {
+    "@astrojs/react": "7.0.1",
+    "@astrojs/sitemap": "3.7.4",
+    "@fontsource-variable/inter": "5.3.0",
+    "@tailwindcss/typography": "0.5.20",
+    "@tailwindcss/vite": "4.3.3",
+    "astro": "7.3.8",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "tailwindcss": "4.3.3"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "pagefind": "1.5.2",
+    "typescript": "6.0.3",
+    "vitest": "5.0.3"
+  }
+}

@@ -1,0 +1,35 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import CategoryCard from '@/components/CategoryCard.astro';
+import { getCategories, STAGES } from '@/lib/categories';
+import { t } from '@/i18n';
+
+const categories = await getCategories();
+---
+
+<BaseLayout title={t('learn.title')} description={t('learn.lead')}>
+  <PageHeader title={t('learn.title')} lead={t('learn.lead')} />
+  <div class="container-page py-4">
+    {
+      STAGES.map((stage, i) => (
+        <section class="mt-10" aria-labelledby={`stage-${stage}`}>
+          <h2 id={`stage-${stage}`} class="flex items-baseline gap-3 text-xl font-bold">
+            <span class="text-sm font-semibold text-link">{i + 1}</span>
+            {t(`stage.${stage}`)}
+          </h2>
+          <p class="mt-1 text-sm text-muted">{t(`stage.${stage}.lead`)}</p>
+          <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {categories
+              .filter((c) => c.pathStage === stage)
+              .map((c) => (
+                <li>
+                  <CategoryCard category={c} step={c.pathOrder} />
+                </li>
+              ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>

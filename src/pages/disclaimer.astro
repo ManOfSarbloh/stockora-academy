@@ -1,0 +1,37 @@
+---
+import ProseLayout from '@/layouts/ProseLayout.astro';
+import { url } from '@/lib/url';
+---
+
+<ProseLayout title="Disclaimer" lead="Please read this before using Stockora Academy." lastUpdated="2026-10-11">
+  <p>
+    <strong>
+      Stockora Academy is for education only. It is not an accredited school or a regulated financial service. It does
+      not provide investment, tax, or legal advice, and nothing here is a recommendation to buy or sell any security.
+      Investing involves risk, including the loss of all invested money. Past performance does not guarantee future
+      results. Tax rules, exchange hours, and regulations change; always check official sources and consider a licensed
+      advisor. External videos and links are provided for convenience; we do not control their content.
+    </strong>
+  </p>
+
+  <h2>What this means in practice</h2>
+  <ul>
+    <li>We explain how things work. We never tell you what to buy, sell or hold.</li>
+    <li>We do not recommend specific stocks, funds, brokers, apps or crypto assets, and we have no affiliate links.</li>
+    <li>
+      Examples on this site use made-up or simplified numbers. Charts in the Chart Lab use simulated data unless clearly
+      stated otherwise.
+    </li>
+    <li>
+      Quizzes, games and the final-exam certificate are for fun and self-assessment only. They are not an official
+      qualification.
+    </li>
+    <li>
+      Facts that change over time (tax rates, trading hours, holidays, rules) show a "last reviewed" date and a link to the
+      official source. Always check that source before you rely on them.
+    </li>
+  </ul>
+
+  <h2>Found a mistake?</h2>
+  <p>Please tell us. See <a href={url('/corrections')}>Corrections</a>.</p>
+</ProseLayout>

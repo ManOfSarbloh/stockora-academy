@@ -1,0 +1,61 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+const base = import.meta.env.BASE_URL;
+---
+
+<BaseLayout title={t('search.title')} description={t('search.lead')} searchable={false}>
+  <PageHeader title={t('search.title')} lead={t('search.lead')} />
+  <div class="container-page py-10">
+    <div id="search" data-base={base} data-bundle={url('/pagefind/')}></div>
+    <p id="search-dev-note" class="card hidden p-5 text-muted">{t('search.devNote')}</p>
+  </div>
+</BaseLayout>
+
+<script>
+  // Pagefind's index is generated after `astro build`, so it only exists in production builds.
+  const root = document.getElementById('search')!;
+  const bundle = root.dataset.bundle!;
+
+  function showDevNote() {
+    document.getElementById('search-dev-note')?.classList.remove('hidden');
+  }
+
+  const css = document.createElement('link');
+  css.rel = 'stylesheet';
+  css.href = `${bundle}pagefind-ui.css`;
+  document.head.append(css);
+
+  const script = document.createElement('script');
+  script.src = `${bundle}pagefind-ui.js`;
+  script.onerror = showDevNote;
+  script.onload = () => {
+    // @ts-expect-error PagefindUI is a global from the script above
+    const ui = new window.PagefindUI({
+      element: '#search',
+      baseUrl: root.dataset.base,
+      showSubResults: true,
+      showImages: false,
+      autofocus: true,
+    });
+    const q = new URLSearchParams(location.search).get('q');
+    if (q) ui.triggerSearch(q);
+  };
+  document.head.append(script);
+</script>
+
+<style is:global>
+  #search {
+    --pagefind-ui-scale: 0.9;
+    --pagefind-ui-primary: var(--link);
+    --pagefind-ui-text: var(--text);
+    --pagefind-ui-background: var(--surface);
+    --pagefind-ui-border: var(--border);
+    --pagefind-ui-tag: var(--surface-2);
+    --pagefind-ui-border-radius: 10px;
+    --pagefind-ui-font: inherit;
+  }
+</style>

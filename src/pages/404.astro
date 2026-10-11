@@ -1,0 +1,17 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+---
+
+<BaseLayout title={t('notFound.title')} searchable={false} noindex>
+  <div class="container-page py-20 text-center">
+    <p class="text-6xl font-bold text-teal">404</p>
+    <h1 class="mt-4 text-3xl font-bold">{t('notFound.title')}</h1>
+    <p class="mt-2 text-muted">{t('notFound.body')}</p>
+    <div class="mt-6 flex justify-center gap-3">
+      <a href={url('/')} class="btn btn-primary">{t('notFound.home')}</a>
+      <a href={url('/search')} class="btn btn-ghost">{t('nav.search')}</a>
+    </div>
+  </div>
+</BaseLayout>

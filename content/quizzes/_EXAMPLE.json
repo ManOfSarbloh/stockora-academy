@@ -1,0 +1,21 @@
+[
+  {
+    "id": "D-017",
+    "category": "D",
+    "topic": "settlement",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'T+1 settlement' mean?",
+    "options": [
+      "The trade is final one business day after the trade date",
+      "The trade is final one hour after the trade date",
+      "Only one trade per day is allowed",
+      "The trade costs one percent more"
+    ],
+    "answerIndex": 0,
+    "explanation": "Settlement is the actual exchange of money and shares. T is the trade date; T+1 means one business day later.",
+    "lessonLink": "/learn/market-structure/settlement",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  }
+]

@@ -1,0 +1,63 @@
+---
+import '@fontsource-variable/inter';
+import '@/styles/global.css';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+interface Props {
+  title?: string;
+  description?: string;
+  /** Exclude a page from the Pagefind search index. */
+  searchable?: boolean;
+  noindex?: boolean;
+}
+
+const { title, description = t('site.description'), searchable = true, noindex = false } = Astro.props;
+const siteName = t('site.name');
+const fullTitle = title ? `${title} | ${siteName}` : `${siteName}: ${t('site.tagline')}`;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{fullTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {noindex && <meta name="robots" content="noindex" />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={siteName} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta name="theme-color" content="#0f2a44" />
+    <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="sitemap" href={url('/sitemap-index.xml')} />
+    <script is:inline>
+      // Apply the saved or system colour theme before the page paints (avoids a flash).
+      (function () {
+        var pref = null;
+        try { pref = localStorage.getItem('stockora-theme'); } catch (e) {}
+        var dark = pref ? pref === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
+      })();
+    </script>
+  </head>
+  <body class="flex min-h-screen flex-col">
+    <a
+      href="#main"
+      class="sr-only z-50 rounded-md bg-surface px-4 py-2 font-semibold focus:not-sr-only focus:fixed focus:top-3 focus:left-3"
+    >
+      {t('a11y.skipToContent')}
+    </a>
+    <Header />
+    <main id="main" class="flex-1" data-pagefind-body={searchable ? '' : undefined} tabindex="-1">
+      <slot />
+    </main>
+    <Footer />
+  </body>
+</html>

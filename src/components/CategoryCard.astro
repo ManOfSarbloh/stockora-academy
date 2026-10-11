@@ -1,0 +1,36 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+interface Props {
+  category: CollectionEntry<'categories'>['data'];
+  step?: number;
+}
+
+const { category: c, step } = Astro.props;
+const levelKey = { beginner: 'level.beginner', intermediate: 'level.intermediate', advanced: 'level.advanced' } as const;
+---
+
+<a
+  href={url(`/learn/${c.slug}`)}
+  class="card group flex h-full gap-4 p-4 text-text no-underline transition-colors hover:border-link sm:p-5"
+>
+  <!-- The ring becomes a progress ring in Phase 3. -->
+  <span
+    class="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border-[3px] border-teal text-lg font-bold text-text"
+    aria-hidden="true">{c.id}</span
+  >
+  <span class="min-w-0">
+    {step && <span class="block text-xs font-semibold text-muted">{t('learn.pathStep')} {step}</span>}
+    <span class="block font-semibold group-hover:text-link">{c.title}</span>
+    <span class="mt-1 block text-sm text-muted">{c.summary}</span>
+    <span class="mt-2 flex flex-wrap gap-1.5">
+      {
+        c.levels.map((l) => (
+          <span class="rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium text-muted">{t(levelKey[l])}</span>
+        ))
+      }
+    </span>
+  </span>
+</a>

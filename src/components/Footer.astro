@@ -1,0 +1,57 @@
+---
+import LogoMark from '@/components/LogoMark.astro';
+import { legalNav, primaryNav, secondaryNav } from '@/config/site';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+const year = new Date().getFullYear();
+---
+
+<footer class="mt-16 border-t border-border bg-surface" data-pagefind-ignore>
+  <div class="container-page py-10">
+    <section aria-labelledby="footer-disclaimer" class="rounded-xl border border-warn-border bg-warn-bg p-4 sm:p-5">
+      <h2 id="footer-disclaimer" class="text-sm font-bold tracking-wide uppercase">{t('footer.disclaimerTitle')}</h2>
+      <p class="mt-1.5 text-sm">
+        {t('footer.disclaimerShort')}{' '}
+        <a href={url('/disclaimer')} class="font-semibold">{t('footer.readFull')}</a>
+      </p>
+    </section>
+
+    <div class="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="lg:col-span-2">
+        <a href={url('/')} class="inline-flex items-center gap-2.5 text-text no-underline" aria-label={t('a11y.home')}>
+          <LogoMark size={28} />
+          <span class="font-bold">{t('site.name')}</span>
+        </a>
+        <p class="mt-3 max-w-sm text-sm text-muted">{t('site.tagline')}</p>
+        <p class="mt-2 text-sm text-muted">{t('footer.noTracking')}</p>
+      </div>
+      <nav aria-label={t('a11y.footerNav')}>
+        <ul class="space-y-1.5 text-sm">
+          {
+            [...primaryNav, ...secondaryNav].map((item) => (
+              <li>
+                <a href={url(item.href)} class="text-text no-underline hover:text-link hover:underline">
+                  {t(item.label)}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </nav>
+      <ul class="space-y-1.5 text-sm">
+        {
+          legalNav.map((item) => (
+            <li>
+              <a href={url(item.href)} class="text-text no-underline hover:text-link hover:underline">
+                {t(item.label)}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+
+    <p class="mt-10 text-xs text-muted">© {year} {t('site.name')}</p>
+  </div>
+</footer>

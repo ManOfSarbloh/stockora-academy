@@ -1,0 +1,145 @@
+---
+import LogoMark from '@/components/LogoMark.astro';
+import { primaryNav, secondaryNav } from '@/config/site';
+import { t } from '@/i18n';
+import { stripBase, url } from '@/lib/url';
+
+const current = stripBase(import.meta.env.BASE_URL, Astro.url.pathname);
+const isActive = (href: string) => current === href || current.startsWith(`${href}/`);
+const moreActive = secondaryNav.some((i) => isActive(i.href));
+---
+
+<header class="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">
+  <div class="container-page flex h-16 items-center gap-4">
+    <a href={url('/')} class="flex shrink-0 items-center gap-2.5 no-underline" aria-label={t('a11y.home')}>
+      <LogoMark size={30} />
+      <span class="leading-none text-text">
+        <span class="block text-[1.05rem] font-bold tracking-tight">Stockora</span>
+        <span class="block text-[0.7rem] font-semibold tracking-[0.18em] text-link uppercase">Academy</span>
+      </span>
+    </a>
+
+    <nav aria-label={t('a11y.mainNav')} class="ml-4 hidden flex-1 items-center gap-1 lg:flex">
+      {
+        primaryNav.map((item) => (
+          <a
+            href={url(item.href)}
+            aria-current={isActive(item.href) ? 'page' : undefined}
+            class="rounded-md px-2.5 py-2 text-sm font-medium whitespace-nowrap text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]"
+          >
+            {t(item.label)}
+          </a>
+        ))
+      }
+      <details class="nav-more relative">
+        <summary
+          class:list={[
+            'flex cursor-pointer list-none items-center gap-1 rounded-md px-2.5 py-2 text-sm font-medium hover:bg-surface-2',
+            moreActive && 'text-link',
+          ]}
+        >
+          {t('nav.more')}
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+        </summary>
+        <div class="card absolute top-full right-0 mt-2 w-52 p-1.5 shadow-lg">
+          {
+            secondaryNav.map((item) => (
+              <a
+                href={url(item.href)}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+                class="block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link"
+              >
+                {t(item.label)}
+              </a>
+            ))
+          }
+        </div>
+      </details>
+    </nav>
+
+    <div class="ml-auto flex items-center gap-1">
+      <a
+        href={url('/search')}
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2"
+        aria-label={t('nav.search')}
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      </a>
+      <button
+        type="button"
+        id="theme-toggle"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2"
+        aria-label={t('theme.toggle')}
+        title={t('theme.toggle')}
+      >
+        <svg class="hidden dark:block" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"></path></svg>
+        <svg class="block dark:hidden" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"></path></svg>
+      </button>
+      <button
+        type="button"
+        id="menu-toggle"
+        class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2 lg:hidden"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label={t('a11y.openMenu')}
+        data-label-open={t('a11y.openMenu')}
+        data-label-close={t('a11y.closeMenu')}
+      >
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"></path></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="mobile-menu" aria-label={t('a11y.mainNav')} class="hidden border-t border-border bg-bg lg:hidden">
+    <ul class="container-page grid gap-0.5 py-3 sm:grid-cols-2">
+      {
+        [...primaryNav, ...secondaryNav].map((item) => (
+          <li>
+            <a
+              href={url(item.href)}
+              aria-current={isActive(item.href) ? 'page' : undefined}
+              class="block rounded-md px-3 py-2.5 font-medium text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link"
+            >
+              {t(item.label)}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<script>
+  import { STORAGE_PREFIX } from '@/lib/storage';
+
+  document.getElementById('theme-toggle')?.addEventListener('click', () => {
+    const dark = document.documentElement.classList.toggle('dark');
+    // The pre-paint script in BaseLayout reads this raw string (not JSON).
+    try {
+      localStorage.setItem(`${STORAGE_PREFIX}theme`, dark ? 'dark' : 'light');
+    } catch {
+      /* storage blocked: the theme still applies for this page view */
+    }
+  });
+
+  const menuBtn = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  menuBtn?.addEventListener('click', () => {
+    const open = menuBtn.getAttribute('aria-expanded') !== 'true';
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.setAttribute('aria-label', (open ? menuBtn.dataset.labelClose : menuBtn.dataset.labelOpen) ?? '');
+    menu?.classList.toggle('hidden', !open);
+  });
+
+  // Close the "More" dropdown when clicking elsewhere or pressing Escape.
+  const more = document.querySelector<HTMLDetailsElement>('details.nav-more');
+  document.addEventListener('click', (e) => {
+    if (more?.open && !more.contains(e.target as Node)) more.open = false;
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && more?.open) {
+      more.open = false;
+      more.querySelector('summary')?.focus();
+    }
+  });
+</script>

@@ -1,0 +1,71 @@
+---
+/**
+ * The three logo-mark concepts from Phase 2. Colours come from CSS variables,
+ * so each mark adapts to light and dark mode. The chosen one is set in src/config/brand.ts.
+ */
+import { logoVariant, type LogoVariant } from '@/config/brand';
+
+interface Props {
+  variant?: LogoVariant;
+  size?: number;
+  class?: string;
+  title?: string;
+}
+
+const { variant = logoVariant, size = 32, class: className, title } = Astro.props;
+---
+
+<svg
+  viewBox="0 0 48 48"
+  width={size}
+  height={size}
+  class:list={['logo-mark', className]}
+  role={title ? 'img' : undefined}
+  aria-hidden={title ? undefined : 'true'}
+  focusable="false"
+>
+  {title && <title>{title}</title>}
+  {
+    variant === 'slice' && (
+      <>
+        <path d="M24 24 L39.59 15 A18 18 0 1 1 24 6 Z" fill="var(--mark-body)" />
+        <path d="M25.5 21.4 L25.5 3.4 A18 18 0 0 1 41.09 12.4 Z" fill="var(--mark-accent)" />
+      </>
+    )
+  }
+  {
+    variant === 'path' && (
+      <>
+        <path
+          d="M34 10 H22 A7 7 0 0 0 22 24 H26 A7 7 0 0 1 26 38 H14"
+          fill="none"
+          stroke="var(--mark-body)"
+          stroke-width="5"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        />
+        <circle cx="35" cy="10" r="5" fill="var(--mark-accent)" />
+      </>
+    )
+  }
+  {
+    variant === 'stack' && (
+      <>
+        <rect x="9" y="31" width="25" height="8" rx="2.5" fill="var(--mark-body)" />
+        <rect x="15" y="20" width="25" height="8" rx="2.5" fill="var(--mark-body)" opacity="0.72" />
+        <rect x="11" y="9" width="25" height="8" rx="2.5" fill="var(--mark-accent)" />
+      </>
+    )
+  }
+</svg>
+
+<style is:global>
+  :root {
+    --mark-body: #0f2a44;
+    --mark-accent: #0e9f9a;
+  }
+  .dark {
+    --mark-body: #e6edf5;
+    --mark-accent: #2cc4be;
+  }
+</style>

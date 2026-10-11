@@ -1,0 +1,154 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+/* Dark mode follows a `dark` class on <html> (set before paint in BaseLayout). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Brand palette (decided in Phase 1): deep navy + teal.
+ * Contrast notes (WCAG AA needs 4.5:1 for body text):
+ *   brand teal #0E9F9A on bg = 3.1:1  -> decoration, icons, large text only
+ *   ink teal   #0A7672 on bg = 5.5:1  -> links and teal text
+ */
+:root {
+  --bg: #f7fafc;
+  --surface: #ffffff;
+  --surface-2: #eef3f7;
+  --text: #1a2433;
+  --muted: #516075;
+  --border: #d8e1ea;
+  --navy: #0f2a44;
+  --teal: #0e9f9a;
+  --link: #0a7672;
+  --on-navy: #ffffff;
+  --warn-bg: #fff7e6;
+  --warn-border: #f0b44c;
+  --focus: #0a7672;
+  color-scheme: light;
+}
+
+.dark {
+  --bg: #0b1622;
+  --surface: #13233a;
+  --surface-2: #182c46;
+  --text: #e6edf5;
+  --muted: #9aa9bc;
+  --border: #25395a;
+  --navy: #0f2a44;
+  --teal: #2cc4be;
+  --link: #2cc4be;
+  --on-navy: #ffffff;
+  --warn-bg: #2b2210;
+  --warn-border: #b7862e;
+  --focus: #2cc4be;
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-navy: var(--navy);
+  --color-teal: var(--teal);
+  --color-link: var(--link);
+  --color-on-navy: var(--on-navy);
+  --color-warn-bg: var(--warn-bg);
+  --color-warn-border: var(--warn-border);
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+  }
+  a {
+    color: var(--link);
+    text-underline-offset: 0.2em;
+  }
+  :focus-visible {
+    outline: 3px solid var(--focus);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .container-page {
+    width: 100%;
+    max-width: 72rem;
+    margin-inline: auto;
+    padding-inline: 1rem;
+  }
+  @media (min-width: 640px) {
+    .container-page {
+      padding-inline: 1.5rem;
+    }
+  }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 0.875rem;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.625rem;
+    padding: 0.625rem 1.125rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background-color 0.15s, border-color 0.15s;
+  }
+  .btn-primary {
+    background: var(--link);
+    color: #ffffff;
+  }
+  .dark .btn-primary {
+    color: #0b1622;
+  }
+  .btn-primary:hover {
+    filter: brightness(1.08);
+  }
+  .btn-ghost {
+    border: 1px solid var(--border);
+    color: var(--text);
+    background: var(--surface);
+  }
+  .btn-ghost:hover {
+    border-color: var(--link);
+  }
+  .prose-stockora {
+    --tw-prose-body: var(--text);
+    --tw-prose-headings: var(--text);
+    --tw-prose-links: var(--link);
+    --tw-prose-bold: var(--text);
+    --tw-prose-bullets: var(--muted);
+    --tw-prose-counters: var(--muted);
+    --tw-prose-quotes: var(--text);
+    --tw-prose-quote-borders: var(--teal);
+    --tw-prose-hr: var(--border);
+    --tw-prose-code: var(--text);
+    --tw-prose-th-borders: var(--border);
+    --tw-prose-td-borders: var(--border);
+  }
+}
