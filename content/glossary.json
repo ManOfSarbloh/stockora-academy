@@ -5630,5 +5630,254 @@
     "categories": [
       "I"
     ]
+  },
+  {
+    "id": "bull-market",
+    "term": "Bull market",
+    "definition": "A period of rising prices and optimism. Investor.gov's general definition: a broad market index rises by 20% or more over at least two months.",
+    "related": [
+      "bear-market"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Bullenmarkt / Hausse"
+  },
+  {
+    "id": "bear-market",
+    "term": "Bear market",
+    "definition": "A period of falling prices and pessimism. Investor.gov's general definition: a broad market index falls by 20% or more over at least two months.",
+    "related": [
+      "bull-market",
+      "drawdown",
+      "market-correction"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Bärenmarkt / Baisse"
+  },
+  {
+    "id": "market-correction",
+    "term": "Market correction",
+    "aliases": [
+      "stock market correction"
+    ],
+    "definition": "Market slang for a smaller fall in prices, often around 10%. There is no official definition.",
+    "related": [
+      "bear-market"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Korrektur"
+  },
+  {
+    "id": "drawdown",
+    "term": "Drawdown",
+    "aliases": [
+      "maximum drawdown"
+    ],
+    "definition": "The fall from a peak to a later low, in percent. After a drawdown, a larger percentage gain is needed to recover: −50% needs +100%.",
+    "related": [
+      "bear-market",
+      "volatility"
+    ],
+    "categories": [
+      "K",
+      "P"
+    ],
+    "de": "Drawdown / Kursrückgang vom Höchststand"
+  },
+  {
+    "id": "bubble",
+    "term": "Bubble",
+    "aliases": [
+      "asset bubble",
+      "speculative bubble"
+    ],
+    "definition": "A period when prices rise far above what the underlying income can justify, driven by expectations of further price rises. It ends when the enthusiasm fades, often in a crash.",
+    "related": [
+      "valuation",
+      "leverage"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Spekulationsblase"
+  },
+  {
+    "id": "leverage",
+    "term": "Leverage",
+    "aliases": [
+      "financial leverage"
+    ],
+    "definition": "Using borrowed money to increase the size of an investment or a business. It magnifies gains and losses.",
+    "related": [
+      "margin-account",
+      "margin-call",
+      "debt-to-equity"
+    ],
+    "categories": [
+      "K",
+      "N",
+      "P"
+    ],
+    "de": "Hebel / Fremdfinanzierung"
+  },
+  {
+    "id": "recession",
+    "term": "Recession",
+    "definition": "A significant decline in economic activity that is spread across the economy and lasts more than a few months (NBER definition). Media often use two quarters of falling GDP as a rule of thumb.",
+    "related": [
+      "business-cycle"
+    ],
+    "categories": [
+      "K",
+      "L"
+    ],
+    "de": "Rezession"
+  },
+  {
+    "id": "business-cycle",
+    "term": "Business cycle",
+    "aliases": [
+      "economic cycle"
+    ],
+    "definition": "The recurring pattern of economic expansion, peak, recession and trough.",
+    "related": [
+      "recession",
+      "cyclical-stock",
+      "defensive-stock"
+    ],
+    "categories": [
+      "K",
+      "L"
+    ],
+    "de": "Konjunkturzyklus"
+  },
+  {
+    "id": "black-monday",
+    "term": "Black Monday",
+    "definition": "19 October 1987, when the Dow Jones Industrial Average fell 22.6% in one day. The name is also used for 28 October 1929.",
+    "related": [
+      "circuit-breaker"
+    ],
+    "categories": [
+      "K"
+    ]
+  },
+  {
+    "id": "great-depression",
+    "term": "Great Depression",
+    "definition": "The deep, decade-long economic downturn that began in 1929, with a stock market crash and waves of bank failures, and lasted until the Second World War.",
+    "related": [
+      "recession"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Weltwirtschaftskrise"
+  },
+  {
+    "id": "subprime-mortgage",
+    "term": "Subprime mortgage",
+    "aliases": [
+      "subprime"
+    ],
+    "definition": "A home loan to a borrower with a weak credit history, a small down payment or high payments relative to income. Losses on such loans triggered the 2007–2009 crisis.",
+    "related": [
+      "mortgage-backed-security"
+    ],
+    "categories": [
+      "K"
+    ]
+  },
+  {
+    "id": "mortgage-backed-security",
+    "term": "Mortgage-backed security",
+    "aliases": [
+      "MBS",
+      "mortgage-backed securities"
+    ],
+    "definition": "A security backed by a pool of home loans; investors receive the payments borrowers make. Such securities spread US mortgage losses through the financial system in 2007–2009.",
+    "related": [
+      "subprime-mortgage"
+    ],
+    "categories": [
+      "K",
+      "U"
+    ]
+  },
+  {
+    "id": "quantitative-easing",
+    "term": "Quantitative easing",
+    "aliases": [
+      "QE"
+    ],
+    "definition": "Large-scale purchases of bonds by a central bank to push down longer-term interest rates when short-term rates are already near zero.",
+    "related": [
+      "forward-guidance",
+      "interest-rate"
+    ],
+    "categories": [
+      "K",
+      "L"
+    ],
+    "de": "Quantitative Lockerung"
+  },
+  {
+    "id": "forward-guidance",
+    "term": "Forward guidance",
+    "definition": "A central bank's public statements about the likely future path of interest rates, used to influence longer-term rates today.",
+    "related": [
+      "quantitative-easing",
+      "interest-rate"
+    ],
+    "categories": [
+      "K",
+      "L"
+    ]
+  },
+  {
+    "id": "portfolio-insurance",
+    "term": "Portfolio insurance",
+    "definition": "A 1980s strategy that used futures and options to sell automatically as prices fell. It is seen as one cause of the speed of the 1987 crash.",
+    "related": [
+      "black-monday"
+    ],
+    "categories": [
+      "K"
+    ]
+  },
+  {
+    "id": "dot-com-bubble",
+    "term": "Dot-com bubble",
+    "aliases": [
+      "internet bubble",
+      "tech bubble"
+    ],
+    "definition": "The late-1990s boom in internet and technology shares that peaked in March 2000 and was followed by a long decline.",
+    "related": [
+      "bubble"
+    ],
+    "categories": [
+      "K"
+    ]
+  },
+  {
+    "id": "gruenderzeit",
+    "term": "Gründerzeit",
+    "aliases": [
+      "Gruenderzeit"
+    ],
+    "definition": "The 'founders' period' of rapid industrialisation and company formation in Austria-Hungary from 1867 to 1873, which ended with the Vienna stock market crash of 9 May 1873.",
+    "related": [
+      "bubble"
+    ],
+    "categories": [
+      "K"
+    ],
+    "de": "Gründerzeit"
   }
 ]

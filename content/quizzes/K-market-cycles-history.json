@@ -1,0 +1,1070 @@
+[
+  {
+    "id": "K-001",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "According to Investor.gov's general definition, what is a bear market?",
+    "options": [
+      "A fall of 20% or more in a broad market index over at least two months",
+      "Any day on which the market falls",
+      "A fall of 5% in a single stock",
+      "A period when interest rates rise"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: generally, a bear market occurs when a broad market index falls by 20% or more over at least a two-month period, with pessimistic sentiment.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bear-market"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-002",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a bull market is generally a rise of 20% or more in a broad market index over at least two months.",
+    "answerBool": true,
+    "explanation": "True. That is Investor.gov's general definition of a bull market.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bull-market"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-003",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An investment loses 50%. What percentage gain is needed to get back to the starting value?",
+    "answerNumber": 100,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "After a 50% loss, €100 becomes €50. Doubling (+100%) is needed to return to €100.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-004",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "An investment loses 20%. What percentage gain is needed to break even?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€100 becomes €80; 80 × 1.25 = 100, so +25% is needed. Formula: 1 ÷ (1 − 0.20) − 1 = 25%.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-005",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "An index peaks at 4,000 points and later falls to 2,600. What is the drawdown in percent? (Enter a negative number.)",
+    "answerNumber": -35,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "(2,600 − 4,000) ÷ 4,000 = −35%.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bear-market"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-006",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In Damodaran's S&P 500 data for 1928–2025 (including dividends), roughly how often did the index end the year with a loss?",
+    "options": [
+      "About one year in four",
+      "About one year in twenty",
+      "About every second year",
+      "Never since 1945"
+    ],
+    "answerIndex": 0,
+    "explanation": "The index ended lower in 26 of 98 years: roughly one year in four.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-007",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which calendar year had the worst S&P 500 total return in Damodaran's 1928–2025 data?",
+    "options": [
+      "1931",
+      "2008",
+      "1987",
+      "2020"
+    ],
+    "answerIndex": 0,
+    "explanation": "1931 (−43.8%) was the worst, ahead of 2008 (−36.6%) and 1937 (−35.3%). 1987 and 2020 both ended with gains despite their crashes.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-008",
+    "category": "K",
+    "topic": "bull-and-bear-markets",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: there is an official, legally defined percentage for a market 'correction'.",
+    "answerBool": false,
+    "explanation": "False. 'Correction' is market slang, often used for a fall of around 10%.",
+    "lessonLink": "/learn/market-cycles-history/bull-and-bear-markets",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bear-market"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-009",
+    "category": "K",
+    "topic": "business-cycle-and-markets",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How does the NBER define a recession?",
+    "options": [
+      "A significant decline in economic activity, spread across the economy, lasting more than a few months",
+      "Any quarter in which the stock market falls",
+      "A rise in interest rates by the central bank",
+      "A 20% fall in a broad stock index"
+    ],
+    "answerIndex": 0,
+    "explanation": "The NBER's definition emphasises a significant decline in economic activity that is spread across the economy and lasts more than a few months (depth, diffusion and duration).",
+    "lessonLink": "/learn/market-cycles-history/business-cycle-and-markets",
+    "sources": [
+      "https://www.nber.org/research/business-cycle-dating"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-010",
+    "category": "K",
+    "topic": "business-cycle-and-markets",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the NBER announces the start and end of a recession on the day it happens.",
+    "answerBool": false,
+    "explanation": "False. Peaks and troughs are dated afterwards, once enough data is available, often many months later.",
+    "lessonLink": "/learn/market-cycles-history/business-cycle-and-markets",
+    "sources": [
+      "https://www.nber.org/research/business-cycle-dating"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-011",
+    "category": "K",
+    "topic": "business-cycle-and-markets",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in 2020, US stocks reached their low before the recession's trough.",
+    "answerBool": true,
+    "explanation": "True. Stocks bottomed on 23 March 2020 (New York Fed); the NBER dated the recession trough to April 2020.",
+    "lessonLink": "/learn/market-cycles-history/business-cycle-and-markets",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2020/04/the-covid-19-pandemic-and-the-feds-response/",
+      "https://www.nber.org/research/business-cycle-dating"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-012",
+    "category": "K",
+    "topic": "business-cycle-and-markets",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put the phases of the business cycle in order, starting with an expansion.",
+    "orderedItems": [
+      "Expansion",
+      "Peak",
+      "Recession",
+      "Trough"
+    ],
+    "explanation": "Growth (expansion) reaches a high point (peak), activity declines (recession) and reaches a low point (trough), after which recovery begins.",
+    "lessonLink": "/learn/market-cycles-history/business-cycle-and-markets",
+    "sources": [
+      "https://www.nber.org/research/business-cycle-dating"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-013",
+    "category": "K",
+    "topic": "business-cycle-and-markets",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to Federal Reserve History, when did the S&P 500 peak before the Great Recession, which began in December 2007?",
+    "options": [
+      "October 2007",
+      "June 2009",
+      "March 2009",
+      "December 2008"
+    ],
+    "answerIndex": 0,
+    "explanation": "The S&P 500 peaked in October 2007, before the recession began in December 2007, and bottomed in March 2009, before the recession ended in June 2009.",
+    "lessonLink": "/learn/market-cycles-history/business-cycle-and-markets",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-014",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In the late 1920s, according to Federal Reserve History, buyers on margin typically paid what percentage of the share price themselves?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Purchasers typically put down about 10% of the price and borrowed the rest, with the shares as collateral.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-015",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are common ingredients of bubbles? Select all that apply.",
+    "options": [
+      "A compelling new story",
+      "Easy borrowing and leverage",
+      "Many new, inexperienced investors",
+      "Valuations close to their long-term averages"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Bubbles usually combine an exciting story, easy money, new investors and extreme valuations; normal valuations are the opposite of a bubble.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929",
+      "https://fraser.stlouisfed.org/files/docs/historical/frbclev/econcomm/econcomm_20010115.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-016",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to the Cleveland Fed, what was the market-weighted P/E of the largest US technology stocks on 7 March 2000?",
+    "options": [
+      "About 126",
+      "About 15",
+      "About 40",
+      "About 500"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Cleveland Fed cites a market-weighted P/E of 125.9 for the 18 large technology companies among the biggest US firms, far above historical norms.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://fraser.stlouisfed.org/files/docs/historical/frbclev/econcomm/econcomm_20010115.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-017",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which famous claim was made after US stock prices peaked in 1929?",
+    "options": [
+      "That stock prices had reached 'what looks like a permanently high plateau'",
+      "That shares were 'irrationally exuberant'",
+      "That 'the trend is your friend'",
+      "That 'cash is king'"
+    ],
+    "answerIndex": 0,
+    "explanation": "Federal Reserve History quotes economist Irving Fisher's claim about a 'permanently high plateau', made shortly before the crash.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-018",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: if you correctly identify a bubble, you can safely bet on it bursting soon, because prices cannot keep rising for long.",
+    "answerBool": false,
+    "explanation": "False. Prices can rise for years before a bubble bursts. Being right about the direction but wrong about the timing has ruined many investors, especially with borrowed money.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://fraser.stlouisfed.org/files/docs/historical/frbclev/econcomm/econcomm_20010115.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-019",
+    "category": "K",
+    "topic": "bubbles-and-manias",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: borrowing to invest makes a rising market rise faster and a falling market fall harder.",
+    "answerBool": true,
+    "explanation": "True. Leverage magnifies gains and losses, and falling prices force borrowers to sell, as in 1929.",
+    "lessonLink": "/learn/market-cycles-history/bubbles-and-manias",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-020",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "On which date did the Vienna stock market crash of 1873 take place?",
+    "options": [
+      "9 May 1873",
+      "24 October 1873",
+      "1 April 1875",
+      "9 May 1867"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse history dates the crash to 9 May 1873. The Stock Exchange Act followed on 1 April 1875.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-021",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "According to the Vienna Stock Exchange's history, what happened to the listed stock corporations after the 1873 crash?",
+    "options": [
+      "About half disappeared from trading",
+      "All of them recovered within a year",
+      "None were affected",
+      "They all moved to London"
+    ],
+    "answerIndex": 0,
+    "explanation": "About half of the listed stock corporations disappeared from trading, and it took years for the exchange to recover.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-022",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the crash of 1873 led to Austria's Stock Exchange Act of 1875, one of the first modern stock market laws in Europe.",
+    "answerBool": true,
+    "explanation": "True. The Wiener Börse history says the crash revealed the need for a new legal framework, created with the Stock Exchange Act of 1 April 1875.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-023",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What was the period of rapid company formation in Austria-Hungary from 1867 to 1873 called?",
+    "options": [
+      "Gründerzeit",
+      "Biedermeier",
+      "Wirtschaftswunder",
+      "Belle Époque"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse history calls it the 'Gründerzeit', after the many companies founded and floated in that period.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-024",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "The Nikkei 225 ended 1989 at a record high of about how many yen? (Round to the nearest thousand.)",
+    "answerNumber": 39000,
+    "tolerance": 500,
+    "unit": "yen",
+    "explanation": "The Nikkei Indexes history says it ended 1989 at a record 38,915 yen, which rounds to 39,000.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-025",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When did the Nikkei 225 first close above its 1989 record high?",
+    "options": [
+      "22 February 2024",
+      "December 1999",
+      "October 2009",
+      "March 1992"
+    ],
+    "answerIndex": 0,
+    "explanation": "Nikkei Asia reported that the index closed above its December 1989 high on 22 February 2024, more than 34 years later.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-026",
+    "category": "K",
+    "topic": "vienna-1873-and-japan-1989",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: because the Nikkei 225 is a price index, an investor who reinvested dividends did somewhat better than the index level suggests.",
+    "answerBool": true,
+    "explanation": "True. Price indexes leave out dividends; total return is higher, although Japanese investors still waited a very long time.",
+    "lessonLink": "/learn/market-cycles-history/vienna-1873-and-japan-1989",
+    "sources": [
+      "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-027",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "By roughly how much did the Dow Jones fall from its September 1929 peak to its July 1932 low?",
+    "options": [
+      "89%",
+      "25%",
+      "50%",
+      "100%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Dow fell from 381.17 to 41.22, 89% below its peak (Federal Reserve History).",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-028",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In price terms, when did the Dow Jones first regain its 1929 peak?",
+    "options": [
+      "November 1954",
+      "1936",
+      "1945",
+      "1932"
+    ],
+    "answerIndex": 0,
+    "explanation": "Federal Reserve History: the index did not reach the 1929 high again until 23 November 1954.",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-029",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You buy shares for $1,000, paying $100 and borrowing $900. The shares fall 10%. How many dollars of your own money are left (ignoring interest)?",
+    "answerNumber": 0,
+    "tolerance": 0,
+    "unit": "$",
+    "explanation": "The shares are worth $900, exactly the loan. Your $100 is gone: a 10% fall wiped out 100% of your own money.",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-030",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these were part of the series of crises in the Great Depression, according to Federal Reserve History? Select all that apply.",
+    "options": [
+      "The 1929 stock market crash",
+      "Regional banking panics in 1930 and 1931",
+      "National and international financial crises from 1931 to 1933",
+      "The 1987 Black Monday crash"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The Depression included the 1929 crash, banking panics in 1930–31 and financial crises from 1931 to 1933. 1987 came much later.",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-depression"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-031",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Ben Bernanke publicly acknowledged in 2002 that the Federal Reserve's mistakes contributed to the Great Depression.",
+    "answerBool": true,
+    "explanation": "True. Federal Reserve History quotes him: 'Regarding the Great Depression ... we did it. We're very sorry. ... We won't do it again.'",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-depression"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-032",
+    "category": "K",
+    "topic": "crash-of-1929",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: with dividends reinvested, Damodaran's S&P 500 data shows the end-1928 value regained by the end of 1936, earlier than the Dow's price index.",
+    "answerBool": true,
+    "explanation": "True. Including dividends, the value at the end of 1928 was regained at the end of 1936, although a 35% fall followed in 1937.",
+    "lessonLink": "/learn/market-cycles-history/crash-of-1929",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-033",
+    "category": "K",
+    "topic": "black-monday-1987",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "By how many percent did the Dow Jones fall on Black Monday, 19 October 1987? (One decimal place.)",
+    "answerNumber": 22.6,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "The Dow fell 508 points, or 22.6%, the largest one-day decline in its history.",
+    "lessonLink": "/learn/market-cycles-history/black-monday-1987",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-034",
+    "category": "K",
+    "topic": "black-monday-1987",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which strategy is seen as having accelerated the 1987 crash by selling automatically as prices fell?",
+    "options": [
+      "Portfolio insurance",
+      "Dividend investing",
+      "Dollar-cost averaging",
+      "Buy and hold"
+    ],
+    "answerIndex": 0,
+    "explanation": "Portfolio insurance used options and futures; initial losses triggered further rounds of selling.",
+    "lessonLink": "/learn/market-cycles-history/black-monday-1987",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-035",
+    "category": "K",
+    "topic": "black-monday-1987",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the 1987 crash was followed by a deep recession and a banking crisis.",
+    "answerBool": false,
+    "explanation": "False. Federal Reserve History notes it was not followed by a recession or banking crisis, and US markets passed their pre-crash highs in less than two years.",
+    "lessonLink": "/learn/market-cycles-history/black-monday-1987",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-036",
+    "category": "K",
+    "topic": "black-monday-1987",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which reform was introduced after Black Monday?",
+    "options": [
+      "Circuit breakers that pause trading after very large declines",
+      "A ban on trading foreign shares",
+      "Fixed share prices",
+      "The abolition of options markets"
+    ],
+    "answerIndex": 0,
+    "explanation": "Exchanges introduced circuit breakers. Federal Reserve History cites the NYSE's current halts at S&P 500 declines of 7%, 13% and 20%.",
+    "lessonLink": "/learn/market-cycles-history/black-monday-1987",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-037",
+    "category": "K",
+    "topic": "black-monday-1987",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which thresholds for S&P 500 declines trigger NYSE market-wide trading halts under the rules cited by Federal Reserve History? Select all that apply.",
+    "options": [
+      "7%",
+      "13%",
+      "20%",
+      "50%"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The NYSE halts trading temporarily when the S&P 500 declines 7%, 13% and 20%.",
+    "lessonLink": "/learn/market-cycles-history/black-monday-1987",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-038",
+    "category": "K",
+    "topic": "dot-com-bubble",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "By how many percent did the Nasdaq Composite fall from its March 2000 peak to the end of 2000, according to the Joint Economic Committee? (One decimal place.)",
+    "answerNumber": 44.7,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "The JEC report says the Nasdaq Composite plummeted by 44.7 percent from its March 2000 peak to the end of the year.",
+    "lessonLink": "/learn/market-cycles-history/dot-com-bubble",
+    "sources": [
+      "https://fraser.stlouisfed.org/files/docs/historical/jec/2003-jec-report.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-039",
+    "category": "K",
+    "topic": "dot-com-bubble",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which US recession followed the end of the technology boom?",
+    "options": [
+      "March to November 2001",
+      "December 2007 to June 2009",
+      "February to April 2020",
+      "1990 to 1999"
+    ],
+    "answerIndex": 0,
+    "explanation": "The 2001 recession ran from March to November, one of the shortest on record (JEC).",
+    "lessonLink": "/learn/market-cycles-history/dot-com-bubble",
+    "sources": [
+      "https://fraser.stlouisfed.org/files/docs/historical/jec/2003-jec-report.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-040",
+    "category": "K",
+    "topic": "dot-com-bubble",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the S&P 500 (with dividends) had negative returns in each of 2000, 2001 and 2002.",
+    "answerBool": true,
+    "explanation": "True. Damodaran's data shows −9.0%, −11.9% and −22.0%.",
+    "lessonLink": "/learn/market-cycles-history/dot-com-bubble",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-041",
+    "category": "K",
+    "topic": "dot-com-bubble",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to the San Francisco Fed, what fell much more than usual in the 2001 recession?",
+    "options": [
+      "Business investment",
+      "Household spending",
+      "Government spending",
+      "Exports of food"
+    ],
+    "answerIndex": 0,
+    "explanation": "The investment boom of the late 1990s overshot, so business investment fell far more than in an average recession, while consumers kept spending.",
+    "lessonLink": "/learn/market-cycles-history/dot-com-bubble",
+    "sources": [
+      "https://www.frbsf.org/research-and-insights/publications/economic-letter/2003/06/growth-in-the-post-bubble-economy/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-042",
+    "category": "K",
+    "topic": "dot-com-bubble",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: because the internet really did change the world, buying internet shares at any price in 2000 was a good investment.",
+    "answerBool": false,
+    "explanation": "False. A great technology does not justify any price. Valuations in 2000 assumed far more success than most companies could deliver.",
+    "lessonLink": "/learn/market-cycles-history/dot-com-bubble",
+    "sources": [
+      "https://fraser.stlouisfed.org/files/docs/historical/frbclev/econcomm/econcomm_20010115.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-043",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "By how many percent did the S&P 500 fall from its October 2007 peak to its March 2009 trough, according to Federal Reserve History?",
+    "answerNumber": 57,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Federal Reserve History: the S&P 500 fell 57% from its October 2007 peak to its trough in March 2009.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-044",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events of the subprime crisis in order.",
+    "orderedItems": [
+      "Mortgages are extended to more high-risk borrowers as house prices rise",
+      "House prices peak and losses on mortgages begin to rise",
+      "New Century Financial files for bankruptcy (April 2007)",
+      "Fannie Mae and Freddie Mac are seized by the government (summer 2008)"
+    ],
+    "explanation": "Credit expanded while prices rose; when prices peaked, losses rose; New Century failed in April 2007; Fannie Mae and Freddie Mac were seized in summer 2008.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-045",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a mortgage-backed security?",
+    "options": [
+      "A security backed by a pool of home loans",
+      "A share in a bank",
+      "A government guarantee for home owners",
+      "A savings account for a deposit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lenders pooled mortgages and sold them to investors as securities; investors receive the borrowers' payments and bear the losses.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-046",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How long did the Great Recession last, according to Federal Reserve History?",
+    "options": [
+      "December 2007 to June 2009",
+      "January 2008 to December 2008",
+      "2007 to 2012",
+      "October 2007 to March 2009"
+    ],
+    "answerIndex": 0,
+    "explanation": "It lasted from December 2007 to June 2009, the longest US recession since the Second World War. October 2007 to March 2009 are the stock market's peak and trough.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-047",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in Damodaran's data, 10-year US Treasury bonds gained in 2008 while US shares lost more than a third.",
+    "answerBool": true,
+    "explanation": "True. US Treasury bonds returned +20.1% in 2008 while the S&P 500 lost 36.6%.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-048",
+    "category": "K",
+    "topic": "financial-crisis-2008",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is 'quantitative easing'?",
+    "options": [
+      "Large-scale bond purchases by a central bank to lower longer-term interest rates",
+      "A tax cut for investors",
+      "A rule that limits share price falls",
+      "A loan from the IMF"
+    ],
+    "answerIndex": 0,
+    "explanation": "With its policy rate near zero, the Fed bought large amounts of longer-term securities (about $1.75 trillion under QE1) to push down longer-term rates.",
+    "lessonLink": "/learn/market-cycles-history/financial-crisis-2008",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-049",
+    "category": "K",
+    "topic": "covid-crash-2020",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "By 23 March 2020, by how many percent had US stocks fallen from their February 2020 high, according to the New York Fed?",
+    "answerNumber": 34,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The New York Fed: by March 23, the stock market had fallen 34 percent from its February 2020 high.",
+    "lessonLink": "/learn/market-cycles-history/covid-crash-2020",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2020/04/the-covid-19-pandemic-and-the-feds-response/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-050",
+    "category": "K",
+    "topic": "covid-crash-2020",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "How many times did market-wide circuit breakers halt US trading in March 2020?",
+    "answerNumber": 3,
+    "tolerance": 0,
+    "explanation": "The New York Fed notes that the steep decline triggered market-wide circuit breakers three times in March.",
+    "lessonLink": "/learn/market-cycles-history/covid-crash-2020",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2020/04/the-covid-19-pandemic-and-the-feds-response/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-051",
+    "category": "K",
+    "topic": "covid-crash-2020",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How did the NBER date the 2020 US recession?",
+    "options": [
+      "Peak in February 2020, trough in April 2020",
+      "Peak in March 2020, trough in December 2021",
+      "It did not count it as a recession",
+      "Peak in 2019, trough in 2022"
+    ],
+    "answerIndex": 0,
+    "explanation": "The NBER dated the peak to February 2020 and the trough to April 2020, counting it as a recession because the drop was so deep and widespread.",
+    "lessonLink": "/learn/market-cycles-history/covid-crash-2020",
+    "sources": [
+      "https://www.nber.org/research/business-cycle-dating"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-052",
+    "category": "K",
+    "topic": "covid-crash-2020",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: despite the crash, the S&P 500 including dividends ended 2020 with a gain.",
+    "answerBool": true,
+    "explanation": "True. Damodaran's data shows +18.0% for 2020.",
+    "lessonLink": "/learn/market-cycles-history/covid-crash-2020",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-053",
+    "category": "K",
+    "topic": "covid-crash-2020",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in 2022 both the S&P 500 and 10-year US Treasury bonds lost money, according to Damodaran's data.",
+    "answerBool": true,
+    "explanation": "True. Shares returned −18.0% and Treasury bonds −17.8%: a reminder that diversification between them does not always protect.",
+    "lessonLink": "/learn/market-cycles-history/covid-crash-2020",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-054",
+    "category": "K",
+    "topic": "lessons-from-history",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In Damodaran's S&P 500 data (1928–2025, with dividends), how many of the 79 possible 20-year periods had a gain?",
+    "options": [
+      "All 79",
+      "About half",
+      "About three quarters",
+      "None"
+    ],
+    "answerIndex": 0,
+    "explanation": "All 79 20-year periods were positive, although the worst averaged only about 2.4% a year before inflation.",
+    "lessonLink": "/learn/market-cycles-history/lessons-from-history",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-055",
+    "category": "K",
+    "topic": "lessons-from-history",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in the same data, every 10-year period was positive.",
+    "answerBool": false,
+    "explanation": "False. 84 of 89 10-year periods were positive; the worst averaged about −1.7% a year.",
+    "lessonLink": "/learn/market-cycles-history/lessons-from-history",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-056",
+    "category": "K",
+    "topic": "lessons-from-history",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the main risk of drawing conclusions only from US stock market history?",
+    "options": [
+      "Survivorship bias: the US is a market that prospered, while others (such as Japan after 1989) did not",
+      "US data is secret",
+      "US markets never fall",
+      "US data does not include any crashes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Studying the winners hides the markets and companies that failed, such as half of Vienna's listed companies in 1873.",
+    "lessonLink": "/learn/market-cycles-history/lessons-from-history",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/",
+      "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-057",
+    "category": "K",
+    "topic": "lessons-from-history",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which habits does market history suggest for ordinary investors? Select all that apply.",
+    "options": [
+      "Expect falls and keep money you need soon out of shares",
+      "Avoid borrowing to invest",
+      "Diversify across companies and countries",
+      "Sell everything whenever the news is bad"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Planning for falls, avoiding leverage and diversifying all limit damage. Selling in panic often locks in losses before recoveries.",
+    "lessonLink": "/learn/market-cycles-history/lessons-from-history",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html",
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

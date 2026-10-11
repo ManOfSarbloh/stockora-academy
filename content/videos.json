@@ -636,5 +636,101 @@
     "lessons": [
       "fundamental-analysis/intrinsic-value-and-dcf"
     ]
+  },
+  {
+    "id": "FOwHFf4pg7U",
+    "title": "The Federal Reserve and the Great Depression",
+    "channel": "Atlanta Fed",
+    "categories": [
+      "K"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 5.6,
+    "language": "en",
+    "whyGood": "A Federal Reserve Bank of Atlanta economist explains the Fed's role in the Great Depression, part of the bank's own history of central banking series.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/crash-of-1929"
+    ]
+  },
+  {
+    "id": "GCQfMWAikyU",
+    "title": "The Great Depression: Crash Course US History #33",
+    "channel": "CrashCourse",
+    "categories": [
+      "K"
+    ],
+    "level": "beginner",
+    "durationMinutes": 14.4,
+    "language": "en",
+    "whyGood": "An engaging overview of the Depression, including why the 1929 crash was not its only cause. CrashCourse is a free educational series.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/crash-of-1929"
+    ]
+  },
+  {
+    "id": "Yuu83rP_QDA",
+    "title": "Inside the Fed Response to the 1987 Market Crash",
+    "channel": "Bloomberg Television",
+    "categories": [
+      "K"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 10.3,
+    "language": "en",
+    "whyGood": "Former Fed Vice Chair Donald Kohn describes how the Federal Reserve responded to Black Monday.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/black-monday-1987"
+    ]
+  },
+  {
+    "id": "GPOv72Awo68",
+    "title": "How it Happened - The 2008 Financial Crisis: Crash Course Economics #12",
+    "channel": "CrashCourse",
+    "categories": [
+      "K"
+    ],
+    "level": "beginner",
+    "durationMinutes": 11.4,
+    "language": "en",
+    "whyGood": "Explains how mortgages became investment products, how the housing bubble burst and how the US government responded.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/financial-crisis-2008"
+    ]
+  },
+  {
+    "id": "oosYQHq2hwE",
+    "title": "Mortgage-backed securities I",
+    "channel": "Khan Academy",
+    "categories": [
+      "K"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 8.0,
+    "language": "en",
+    "whyGood": "Sal Khan explains step by step how home loans are pooled into mortgage-backed securities.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/financial-crisis-2008"
+    ]
+  },
+  {
+    "id": "FVtZEbxGpW8",
+    "title": "Financial Crisis Origins Part 1 of 3: The Failure of Financial Engineering",
+    "channel": "Federal Reserve Bank of St. Louis",
+    "categories": [
+      "K"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 2.4,
+    "language": "en",
+    "whyGood": "A short clip recorded in June 2009, in which St. Louis Fed President James Bullard explains how almost all the big players in financial markets were hit when the housing market turned down.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-cycles-history/financial-crisis-2008"
+    ]
   }
 ]
