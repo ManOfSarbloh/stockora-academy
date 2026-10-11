@@ -18,5 +18,5 @@ export const logoVariants: { id: LogoVariant; name: string; idea: string }[] = [
   },
 ];
 
-/** Provisional until the owner picks one (Phase 2 review). */
-export const logoVariant: LogoVariant = 'slice';
+/** Chosen 2026-10-11 (owner liked A and B; B picked for distinctiveness and the built-in "S"). */
+export const logoVariant: LogoVariant = 'path';

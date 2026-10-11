@@ -13,7 +13,7 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Tests | Vitest (logic), Playwright + axe (smoke / accessibility) |
 | Colours | Deep navy + teal: primary `#0F2A44`, accent `#0E9F9A`, bg `#F7FAFC`, text `#1A2433`, dark bg `#0B1622` |
 | Hosting | GitHub Pages via GitHub Actions |
-| Logo | Pending: 3 SVG options to be shown in Phase 2 |
+| Logo | **B · Path** (chosen 2026-10-11): geometric "S" as one road ending in a teal dot. Files: `public/brand/`, `public/favicon.svg`; component `src/components/LogoMark.astro` |
 | Extra step | Phase 3b: Category A built end-to-end as a vertical slice before writing B–W at scale |
 
 ## Phase 2 (2026-10-11)
@@ -28,7 +28,6 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Category count | The brief says "22 categories" but lists A–W = 23. All 23 are included |
 
 ## Open items
-- Logo choice: compare the options at `/brand/` (provisional: A · Slice).
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
