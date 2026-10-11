@@ -4000,7 +4000,8 @@
     "definition": "Analysing price charts, volume and indicators to describe what the market has been doing, often with the aim of anticipating future moves. Its usefulness is debated.",
     "related": [
       "candlestick",
-      "efficient-market-hypothesis"
+      "efficient-market-hypothesis",
+      "fundamental-analysis"
     ],
     "categories": [
       "J"
@@ -4742,5 +4743,892 @@
       "M"
     ],
     "de": "Effizienzmarkthypothese"
+  },
+  {
+    "id": "fundamental-analysis",
+    "term": "Fundamental analysis",
+    "definition": "Judging a company and its shares from the business itself: financial statements, profits, cash, debt, competition and management, rather than from price charts.",
+    "related": [
+      "technical-analysis",
+      "valuation",
+      "intrinsic-value"
+    ],
+    "categories": [
+      "I",
+      "J"
+    ],
+    "de": "Fundamentalanalyse"
+  },
+  {
+    "id": "annual-report",
+    "term": "Annual report",
+    "aliases": [
+      "annual financial report",
+      "Jahresfinanzbericht",
+      "10-K"
+    ],
+    "definition": "A listed company's yearly report with the audited financial statements, the management report and other information. In Austria, listed companies must publish an annual financial report within four months of the year end.",
+    "related": [
+      "management-report",
+      "audit-opinion",
+      "esef"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Jahresfinanzbericht / Geschäftsbericht"
+  },
+  {
+    "id": "balance-sheet",
+    "term": "Balance sheet",
+    "aliases": [
+      "statement of financial position"
+    ],
+    "definition": "A snapshot of what a company owns (assets), owes (liabilities) and what is left for the owners (shareholders' equity) on one date. Assets always equal liabilities plus equity.",
+    "related": [
+      "shareholders-equity",
+      "working-capital",
+      "income-statement"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Bilanz"
+  },
+  {
+    "id": "income-statement",
+    "term": "Income statement",
+    "aliases": [
+      "profit and loss statement",
+      "statement of profit or loss"
+    ],
+    "definition": "The financial statement that shows a company's revenue, costs and profit or loss over a period, from sales at the top to net income at the bottom.",
+    "related": [
+      "net-income",
+      "ebit",
+      "eps"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Gewinn- und Verlustrechnung (GuV)"
+  },
+  {
+    "id": "cash-flow-statement",
+    "term": "Cash flow statement",
+    "aliases": [
+      "statement of cash flows"
+    ],
+    "definition": "The financial statement that shows cash coming in and going out over a period, split into operating, investing and financing activities.",
+    "related": [
+      "operating-cash-flow",
+      "free-cash-flow",
+      "capex"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Kapitalflussrechnung"
+  },
+  {
+    "id": "management-report",
+    "term": "Management report",
+    "aliases": [
+      "MD&A",
+      "management's discussion and analysis",
+      "Lagebericht",
+      "management’s discussion and analysis"
+    ],
+    "definition": "The part of an annual report in which management explains the business, results, outlook and main risks. The US equivalent in a 10-K is the MD&A (management's discussion and analysis).",
+    "related": [
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Lagebericht"
+  },
+  {
+    "id": "shareholders-equity",
+    "term": "Shareholders' equity",
+    "aliases": [
+      "stockholders' equity",
+      "book value of equity",
+      "Shareholders’ equity",
+      "stockholders’ equity"
+    ],
+    "definition": "What would be left for the owners if a company sold all its assets at their balance sheet values and paid all its liabilities. Also called book value.",
+    "related": [
+      "balance-sheet",
+      "book-value",
+      "roe"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Eigenkapital"
+  },
+  {
+    "id": "working-capital",
+    "term": "Working capital",
+    "definition": "Current assets minus current liabilities: roughly the short-term money a company has to run its day-to-day business.",
+    "related": [
+      "current-ratio",
+      "balance-sheet"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Working Capital / Nettoumlaufvermögen"
+  },
+  {
+    "id": "current-ratio",
+    "term": "Current ratio",
+    "definition": "Current assets divided by current liabilities. It shows how well short-term obligations are covered by assets that should turn into cash within a year.",
+    "related": [
+      "quick-ratio",
+      "working-capital"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Liquidität 3. Grades"
+  },
+  {
+    "id": "quick-ratio",
+    "term": "Quick ratio",
+    "aliases": [
+      "acid-test ratio"
+    ],
+    "definition": "Current assets minus inventory, divided by current liabilities. A stricter version of the current ratio that leaves out inventory, which may be hard to sell quickly.",
+    "related": [
+      "current-ratio"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Liquidität 2. Grades"
+  },
+  {
+    "id": "book-value",
+    "term": "Book value",
+    "aliases": [
+      "book value per share"
+    ],
+    "definition": "The value of shareholders' equity as shown on the balance sheet. Divided by the number of shares it gives book value per share.",
+    "related": [
+      "price-to-book",
+      "shareholders-equity"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Buchwert"
+  },
+  {
+    "id": "goodwill",
+    "term": "Goodwill",
+    "definition": "An intangible asset that arises when a company buys another company for more than the fair value of its identifiable net assets. It is tested for impairment under IFRS.",
+    "related": [
+      "impairment",
+      "balance-sheet"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Firmenwert (Goodwill)"
+  },
+  {
+    "id": "impairment",
+    "term": "Impairment",
+    "aliases": [
+      "impairment loss"
+    ],
+    "definition": "A write-down when an asset, such as goodwill or a factory, is worth less than the value it is carried at on the balance sheet. It reduces profit and equity.",
+    "related": [
+      "goodwill"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Wertminderung"
+  },
+  {
+    "id": "net-debt",
+    "term": "Net debt",
+    "definition": "Interest-bearing debt minus cash. It shows how much debt would remain if a company used all its cash to repay it. Definitions vary, for example on leases.",
+    "related": [
+      "debt-to-equity",
+      "ebitda",
+      "enterprise-value"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Nettoverschuldung"
+  },
+  {
+    "id": "gross-margin",
+    "term": "Gross margin",
+    "aliases": [
+      "gross profit margin"
+    ],
+    "definition": "Gross profit (revenue minus cost of sales) as a percentage of revenue.",
+    "related": [
+      "operating-margin"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Bruttomarge"
+  },
+  {
+    "id": "operating-margin",
+    "term": "Operating margin",
+    "aliases": [
+      "EBIT margin"
+    ],
+    "definition": "Operating profit as a percentage of revenue: how much of each euro of sales is left after operating costs.",
+    "related": [
+      "gross-margin",
+      "ebit"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Operative Marge / EBIT-Marge"
+  },
+  {
+    "id": "ebit",
+    "term": "EBIT",
+    "aliases": [
+      "earnings before interest and taxes",
+      "operating profit"
+    ],
+    "definition": "Earnings before interest and taxes: roughly a company's operating profit, before the effects of financing and tax.",
+    "related": [
+      "ebitda",
+      "operating-margin",
+      "interest-coverage"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "ebitda",
+    "term": "EBITDA",
+    "aliases": [
+      "earnings before interest, taxes, depreciation and amortisation",
+      "earnings before interest, taxes, depreciation and amortization"
+    ],
+    "definition": "Earnings before interest, taxes, depreciation and amortisation. EBIT with depreciation and amortisation added back. Not defined by IFRS, so companies calculate it differently.",
+    "related": [
+      "ebit",
+      "ev-ebitda",
+      "alternative-performance-measure"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "net-income",
+    "term": "Net income",
+    "aliases": [
+      "net profit",
+      "net earnings"
+    ],
+    "definition": "The profit or loss at the bottom of the income statement, after all costs, interest and taxes. Also called net profit or net earnings.",
+    "related": [
+      "eps",
+      "income-statement"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Jahresüberschuss / Nettogewinn"
+  },
+  {
+    "id": "eps",
+    "term": "Earnings per share",
+    "aliases": [
+      "EPS",
+      "diluted EPS",
+      "basic EPS"
+    ],
+    "definition": "Net income divided by the number of shares. Under IFRS, companies show basic EPS and diluted EPS, which assumes options and convertibles become shares.",
+    "related": [
+      "pe-ratio",
+      "net-income",
+      "dilution"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Gewinn je Aktie"
+  },
+  {
+    "id": "depreciation-amortisation",
+    "term": "Depreciation and amortisation",
+    "aliases": [
+      "depreciation and amortization",
+      "D&A"
+    ],
+    "definition": "Spreading the cost of long-lived assets over the years they are used: depreciation for physical assets such as machines, amortisation for intangible assets. A cost in the income statement that does not use cash in that year.",
+    "related": [
+      "ebitda",
+      "capex"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Abschreibungen"
+  },
+  {
+    "id": "capex",
+    "term": "Capital expenditure",
+    "aliases": [
+      "capex",
+      "capital expenditures"
+    ],
+    "definition": "Cash spent on long-term assets such as buildings, machines and software. Shown under investing activities in the cash flow statement.",
+    "related": [
+      "free-cash-flow",
+      "depreciation-amortisation"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Investitionsausgaben (Capex)"
+  },
+  {
+    "id": "operating-cash-flow",
+    "term": "Operating cash flow",
+    "aliases": [
+      "cash flow from operating activities",
+      "cash flow from operations"
+    ],
+    "definition": "Cash generated by a company's day-to-day business in a period: net income adjusted for non-cash items and changes in working capital.",
+    "related": [
+      "free-cash-flow",
+      "cash-flow-statement"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Operativer Cashflow"
+  },
+  {
+    "id": "free-cash-flow",
+    "term": "Free cash flow",
+    "aliases": [
+      "FCF",
+      "free cash flow yield"
+    ],
+    "definition": "Cash left after a company pays for the investment it needs, often calculated as operating cash flow minus capital expenditure. Not defined by IFRS, so definitions vary.",
+    "related": [
+      "operating-cash-flow",
+      "capex",
+      "dcf"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Freier Cashflow"
+  },
+  {
+    "id": "roe",
+    "term": "Return on equity",
+    "aliases": [
+      "ROE"
+    ],
+    "definition": "Net income divided by shareholders' equity: the profit earned on the owners' book capital. Debt can make it look higher.",
+    "related": [
+      "roa",
+      "roic",
+      "dupont-analysis"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Eigenkapitalrendite"
+  },
+  {
+    "id": "roa",
+    "term": "Return on assets",
+    "aliases": [
+      "ROA"
+    ],
+    "definition": "Net income divided by total assets: profit earned on everything the company owns.",
+    "related": [
+      "roe",
+      "roic"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Gesamtkapitalrendite"
+  },
+  {
+    "id": "roic",
+    "term": "Return on invested capital",
+    "aliases": [
+      "ROIC",
+      "return on capital"
+    ],
+    "definition": "After-tax operating profit divided by the capital provided by shareholders and lenders (debt plus equity minus cash). A business creates value when it is above its cost of capital.",
+    "related": [
+      "roe",
+      "economic-moat"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Rendite auf das investierte Kapital"
+  },
+  {
+    "id": "dupont-analysis",
+    "term": "DuPont analysis",
+    "aliases": [
+      "DuPont breakdown"
+    ],
+    "definition": "Splitting return on equity into net margin × asset turnover × financial leverage, to see whether a high ROE comes from profitability, efficiency or debt.",
+    "related": [
+      "roe"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "debt-to-equity",
+    "term": "Debt-to-equity ratio",
+    "aliases": [
+      "debt-to-equity",
+      "gearing"
+    ],
+    "definition": "Debt compared with shareholders' equity. Some sources use total liabilities, others only interest-bearing debt.",
+    "related": [
+      "net-debt",
+      "equity-ratio"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Verschuldungsgrad"
+  },
+  {
+    "id": "equity-ratio",
+    "term": "Equity ratio",
+    "aliases": [
+      "Eigenkapitalquote"
+    ],
+    "definition": "Shareholders' equity as a percentage of total assets. A common measure of financial strength in German-speaking countries.",
+    "related": [
+      "debt-to-equity"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Eigenkapitalquote"
+  },
+  {
+    "id": "interest-coverage",
+    "term": "Interest coverage ratio",
+    "aliases": [
+      "interest coverage"
+    ],
+    "definition": "Operating profit (EBIT) divided by interest expense: how many times profit covers the interest bill.",
+    "related": [
+      "ebit",
+      "net-debt"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Zinsdeckungsgrad"
+  },
+  {
+    "id": "inventory-turnover",
+    "term": "Inventory turnover",
+    "definition": "Cost of sales divided by average inventory: how many times a year a company sells through its stock.",
+    "related": [
+      "working-capital"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Lagerumschlag"
+  },
+  {
+    "id": "pe-ratio",
+    "term": "Price-earnings ratio",
+    "aliases": [
+      "P/E ratio",
+      "P/E",
+      "price/earnings ratio",
+      "price-to-earnings ratio",
+      "KGV"
+    ],
+    "definition": "Share price divided by earnings per share: how many euros investors pay for one euro of annual profit. Meaningless when earnings are negative.",
+    "related": [
+      "eps",
+      "forward-pe",
+      "earnings-yield",
+      "peg-ratio"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Kurs-Gewinn-Verhältnis (KGV)"
+  },
+  {
+    "id": "forward-pe",
+    "term": "Forward P/E",
+    "aliases": [
+      "forward price-earnings ratio"
+    ],
+    "definition": "The price-earnings ratio calculated with forecast earnings for the next year instead of reported earnings.",
+    "related": [
+      "pe-ratio"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "peg-ratio",
+    "term": "PEG ratio",
+    "definition": "The P/E ratio divided by the expected yearly earnings growth rate in percent. It depends heavily on a growth forecast.",
+    "related": [
+      "pe-ratio"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "price-to-book",
+    "term": "Price-to-book ratio",
+    "aliases": [
+      "P/B ratio",
+      "P/B",
+      "price-to-book",
+      "KBV"
+    ],
+    "definition": "Share price divided by book value per share. Most useful for companies whose assets are close to market value, such as banks.",
+    "related": [
+      "book-value",
+      "pe-ratio"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Kurs-Buchwert-Verhältnis (KBV)"
+  },
+  {
+    "id": "price-to-sales",
+    "term": "Price-to-sales ratio",
+    "aliases": [
+      "P/S ratio",
+      "P/S",
+      "price-to-sales"
+    ],
+    "definition": "Market capitalisation divided by revenue. Used for companies without profits, but sales are not profits.",
+    "related": [
+      "pe-ratio"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Kurs-Umsatz-Verhältnis (KUV)"
+  },
+  {
+    "id": "enterprise-value",
+    "term": "Enterprise value",
+    "definition": "The value of the whole business to shareholders and lenders: market value of equity plus debt minus cash.",
+    "related": [
+      "ev-ebitda",
+      "net-debt",
+      "market-capitalisation"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Unternehmenswert"
+  },
+  {
+    "id": "ev-ebitda",
+    "term": "EV/EBITDA",
+    "aliases": [
+      "EV/EBIT",
+      "EV/Sales"
+    ],
+    "definition": "Enterprise value divided by EBITDA. A valuation ratio that compares companies with different debt levels more fairly than the P/E.",
+    "related": [
+      "enterprise-value",
+      "ebitda"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "earnings-yield",
+    "term": "Earnings yield",
+    "definition": "Earnings per share divided by the share price: the P/E ratio turned upside down, expressed as a percentage.",
+    "related": [
+      "pe-ratio"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "value-trap",
+    "term": "Value trap",
+    "definition": "A share that looks cheap on ratios such as a low P/E but stays cheap or falls further, because the business is in lasting decline.",
+    "related": [
+      "pe-ratio",
+      "value-stock"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "intrinsic-value",
+    "term": "Intrinsic value",
+    "definition": "An estimate of what a business is worth based on the cash it can produce over its remaining life, discounted to today. Always an estimate, not a precise figure.",
+    "related": [
+      "dcf",
+      "margin-of-safety"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Innerer Wert"
+  },
+  {
+    "id": "dcf",
+    "term": "Discounted cash flow",
+    "aliases": [
+      "DCF",
+      "DCF model",
+      "discounted cash flow model"
+    ],
+    "definition": "A valuation method that forecasts a company's future cash flows and discounts them to today's value. Small changes in assumptions can change the result a lot.",
+    "related": [
+      "intrinsic-value",
+      "discount-rate",
+      "terminal-value",
+      "present-value"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Discounted-Cashflow-Methode (DCF)"
+  },
+  {
+    "id": "present-value",
+    "term": "Present value",
+    "definition": "What a future payment is worth today: the future amount divided by (1 + discount rate) for each year of waiting.",
+    "related": [
+      "dcf",
+      "discount-rate",
+      "compound-interest"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Barwert"
+  },
+  {
+    "id": "discount-rate",
+    "term": "Discount rate",
+    "definition": "In valuation, the yearly return used to convert future cash flows into today's value; higher risk means a higher discount rate. Some central banks also use the term for one of their lending rates.",
+    "related": [
+      "present-value",
+      "dcf"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Diskontierungszinssatz"
+  },
+  {
+    "id": "terminal-value",
+    "term": "Terminal value",
+    "definition": "In a DCF, the value of all cash flows after the detailed forecast years, usually estimated with a constant growth rate. It often makes up most of the result.",
+    "related": [
+      "dcf"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "margin-of-safety",
+    "term": "Margin of safety",
+    "definition": "Buying only when the price is well below the estimated value, as a buffer against errors in the estimate. A principle associated with Benjamin Graham.",
+    "related": [
+      "intrinsic-value",
+      "dcf"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "economic-moat",
+    "term": "Economic moat",
+    "aliases": [
+      "moat"
+    ],
+    "definition": "A durable competitive advantage, such as a strong brand or low costs, that protects a company's high returns from competitors.",
+    "related": [
+      "roic",
+      "five-forces"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "five-forces",
+    "term": "Five forces",
+    "aliases": [
+      "Porter's five forces",
+      "Porter’s five forces"
+    ],
+    "definition": "Michael Porter's framework for industry profitability: rivalry, customers, suppliers, potential new entrants and substitute products.",
+    "related": [
+      "economic-moat"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "alternative-performance-measure",
+    "term": "Alternative performance measure",
+    "aliases": [
+      "APM",
+      "non-GAAP measure",
+      "adjusted EBITDA"
+    ],
+    "definition": "A financial figure that is not defined by the accounting standards, such as EBITDA, adjusted profit or net debt. ESMA expects companies to define and reconcile them.",
+    "related": [
+      "ebitda",
+      "net-debt"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Alternative Leistungskennzahl"
+  },
+  {
+    "id": "ifrs",
+    "term": "IFRS",
+    "aliases": [
+      "International Financial Reporting Standards"
+    ],
+    "definition": "International Financial Reporting Standards, issued by the IASB. EU-listed groups must use them, as adopted by the EU, for their consolidated accounts.",
+    "related": [
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "esef",
+    "term": "ESEF",
+    "aliases": [
+      "European Single Electronic Format"
+    ],
+    "definition": "European Single Electronic Format: the machine-readable format (Inline XBRL) in which EU-listed companies must publish their annual financial reports.",
+    "related": [
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "audit-opinion",
+    "term": "Auditor's report",
+    "aliases": [
+      "audit opinion",
+      "auditor's opinion",
+      "Auditor’s report",
+      "auditor’s opinion"
+    ],
+    "definition": "The independent auditor's opinion on whether the financial statements give a true and fair view. An opinion that is not 'clean' is a serious warning sign.",
+    "related": [
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Bestätigungsvermerk"
+  },
+  {
+    "id": "profit-warning",
+    "term": "Profit warning",
+    "aliases": [
+      "Gewinnwarnung"
+    ],
+    "definition": "An announcement by a company that profit will be lower, or the loss larger, than previously forecast.",
+    "related": [
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ],
+    "de": "Gewinnwarnung"
+  },
+  {
+    "id": "corporate-governance",
+    "term": "Corporate governance",
+    "aliases": [
+      "corporate governance code",
+      "corporate governance report"
+    ],
+    "definition": "The system of rules and checks on how a company is run: the board, auditors, shareholder rights and transparency. Austria has a voluntary Corporate Governance Code.",
+    "related": [
+      "general-meeting"
+    ],
+    "categories": [
+      "I",
+      "R"
+    ]
+  },
+  {
+    "id": "related-party-transaction",
+    "term": "Related-party transaction",
+    "aliases": [
+      "related party transaction"
+    ],
+    "definition": "A deal between a company and people or firms close to it, such as managers, major shareholders or their companies. A reason for extra scrutiny.",
+    "related": [
+      "corporate-governance"
+    ],
+    "categories": [
+      "I"
+    ]
+  },
+  {
+    "id": "edgar",
+    "term": "EDGAR",
+    "definition": "The US SEC's free online database of company filings, such as the annual 10-K report.",
+    "related": [
+      "sec",
+      "annual-report"
+    ],
+    "categories": [
+      "I"
+    ]
   }
 ]

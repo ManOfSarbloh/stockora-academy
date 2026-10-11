@@ -1,0 +1,1285 @@
+[
+  {
+    "id": "I-001",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which financial statement shows what a company owns and what it owes at one fixed point in time?",
+    "options": [
+      "The balance sheet",
+      "The income statement",
+      "The cash flow statement",
+      "The statement of shareholders' equity"
+    ],
+    "answerIndex": 0,
+    "explanation": "The balance sheet is a snapshot of assets, liabilities and shareholders' equity on one date. The income and cash flow statements cover a period.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-002",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "By when must a company listed on a regulated market in Austria publish its annual financial report?",
+    "options": [
+      "At the latest four months after the end of the financial year",
+      "Within one month after the end of the financial year",
+      "Within twelve months after the end of the financial year",
+      "Only when a shareholder asks for it"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 124 BörseG 2018 requires publication at the latest four months after the end of each financial year, and the report must remain publicly available for at least ten years.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40275949/NOR40275949.html",
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/regelpublizitaet/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-003",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "For how many years, at least, must an Austrian issuer keep its annual financial report publicly available?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "years",
+    "explanation": "§ 124 BörseG 2018: the annual financial report must remain publicly accessible for at least ten years.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40275949/NOR40275949.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-004",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Austrian law currently requires every listed company to publish a full financial report every quarter.",
+    "answerBool": false,
+    "explanation": "False. The FMA explains that the obligation to publish quarterly reports was dropped on 26 November 2015. Annual and half-yearly financial reports remain mandatory.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/regelpublizitaet/",
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40195647/NOR40195647.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-005",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which accounting standards must an EU company with shares on a regulated market use for its consolidated (group) accounts?",
+    "options": [
+      "IFRS as adopted by the EU",
+      "US GAAP",
+      "Only the national commercial code",
+      "Any standard it chooses"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under Regulation (EC) No 1606/2002, such companies must prepare their consolidated accounts using the international accounting standards (IFRS) adopted in the EU, for financial years starting on or after 1 January 2005.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32002R1606"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-006",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a US Form 10-K, which section describes the significant risks a company faces, generally in order of importance?",
+    "options": [
+      "Risk Factors",
+      "Business",
+      "Selected Financial Data",
+      "Exhibits"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov explains that the Risk Factors section includes information about significant risks, generally listed in order of importance.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/getting-started/researching-investments/how-read-10-k"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-007",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are part of an annual financial report under § 124 BörseG 2018? Select all that apply.",
+    "options": [
+      "The audited financial statements",
+      "The management report (Lagebericht)",
+      "Responsibility statements by the company's legal representatives",
+      "Price targets from analysts"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The annual financial report contains the audited financial statements, the management report and the responsibility statements. Analysts' price targets are not part of it.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40275949/NOR40275949.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-008",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "IFRS 18, effective under the IASB's standard for annual periods beginning on or after 1 January 2027, replaces which standard?",
+    "options": [
+      "IAS 1 Presentation of Financial Statements",
+      "IAS 7 Statement of Cash Flows",
+      "IAS 36 Impairment of Assets",
+      "IFRS 16 Leases"
+    ],
+    "answerIndex": 0,
+    "explanation": "IFRS 18 replaces IAS 1. It adds defined subtotals such as operating profit to the statement of profit or loss and requires disclosures about management-defined performance measures.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-18-presentation-and-disclosure-in-financial-statements/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-009",
+    "category": "I",
+    "topic": "annual-reports",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the notes to the financial statements are mostly boilerplate and can safely be skipped.",
+    "answerBool": false,
+    "explanation": "False. The SEC's guide stresses reading the footnotes: they explain the accounting policies that require management's most difficult judgements and contain important details.",
+    "lessonLink": "/learn/fundamental-analysis/annual-reports",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-010",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which equation does every balance sheet follow?",
+    "options": [
+      "Assets = Liabilities + Shareholders' equity",
+      "Assets = Revenue − Expenses",
+      "Equity = Assets + Liabilities",
+      "Liabilities = Assets + Equity"
+    ],
+    "answerIndex": 0,
+    "explanation": "A company's assets must equal, or balance, the sum of its liabilities and shareholders' equity.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-011",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A company has total assets of €800 million and total liabilities of €500 million. What is its shareholders' equity in € million?",
+    "answerNumber": 300,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "Equity = assets − liabilities = 800 − 500 = €300 million.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-012",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Current assets are €150 million and current liabilities are €100 million. What is the working capital in € million?",
+    "answerNumber": 50,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "Working capital = current assets − current liabilities = 150 − 100 = €50 million.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-013",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Current assets are €150 million and current liabilities are €100 million. What is the current ratio?",
+    "answerNumber": 1.5,
+    "tolerance": 0.01,
+    "explanation": "Current ratio = current assets ÷ current liabilities = 150 ÷ 100 = 1.5.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-014",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Shareholders' equity is €200 million and there are 20 million shares. What is the book value per share in euros?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Book value per share = €200 m ÷ 20 m shares = €10.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-015",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: under IFRS, a famous brand that a company built itself over decades appears on its balance sheet as an intangible asset.",
+    "answerBool": false,
+    "explanation": "False. IAS 38 says internally generated brands, mastheads, customer lists and similar items are not recognised as intangible assets. Bought brands can be.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-38-intangible-assets/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-016",
+    "category": "I",
+    "topic": "balance-sheet",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When does goodwill arise on a balance sheet?",
+    "options": [
+      "When a company buys another company for more than the fair value of its identifiable net assets",
+      "When the company's own brand becomes well known",
+      "When the share price is above book value",
+      "When customers are very satisfied"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under IFRS 3, the acquirer allocates the purchase price to the identifiable assets and liabilities at fair value; the rest is goodwill. It is then tested for impairment under IAS 36.",
+    "lessonLink": "/learn/fundamental-analysis/balance-sheet",
+    "sources": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-3-business-combinations/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-017",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these income statement lines in order from top to bottom.",
+    "orderedItems": [
+      "Revenue",
+      "Gross profit",
+      "Operating profit",
+      "Profit before tax",
+      "Net income"
+    ],
+    "explanation": "You start with revenue, subtract cost of sales (gross profit), then operating expenses (operating profit), then interest (profit before tax), and finally tax (net income).",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-018",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Revenue is €400 million and cost of sales is €240 million. What is the gross margin in percent?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Gross profit = 400 − 240 = €160 m. Gross margin = 160 ÷ 400 = 40%.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-019",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Operating profit is €30 million on revenue of €250 million. What is the operating margin in percent?",
+    "answerNumber": 12,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The SEC guide defines operating margin as income from operations ÷ net revenues: 30 ÷ 250 = 12%.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-020",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company reports EBIT of €50 million and depreciation and amortisation of €30 million. What is its EBITDA in € million?",
+    "answerNumber": 80,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "EBITDA adds depreciation and amortisation back to EBIT: 50 + 30 = €80 million.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-021",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Net income is €12 million and there are 8 million shares. What are the earnings per share in euros?",
+    "answerNumber": 1.5,
+    "tolerance": 0.001,
+    "unit": "€",
+    "explanation": "EPS = net income ÷ number of shares = 12 ÷ 8 = €1.50.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/earnings-share",
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-022",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why can diluted EPS be lower than basic EPS?",
+    "options": [
+      "It assumes that options and convertible instruments are turned into shares",
+      "It leaves out one-off gains",
+      "It uses next year's forecast profit",
+      "It is calculated after dividends are paid"
+    ],
+    "answerIndex": 0,
+    "explanation": "IAS 33 defines dilution as the potential reduction in EPS from assuming that convertibles are converted, options or warrants exercised, or shares issued under certain conditions.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-33-earnings-per-share/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-023",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: EBITDA is defined by IFRS, so every company calculates it the same way.",
+    "answerBool": false,
+    "explanation": "False. ESMA lists EBITDA as an example of an alternative performance measure: a figure not defined by the accounting framework. Definitions vary between companies.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-024",
+    "category": "I",
+    "topic": "income-statement",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Company A has EPS of €5 and Company B has EPS of €1, so A must be the more profitable company.",
+    "answerBool": false,
+    "explanation": "False. EPS depends on how many shares a company has issued, which is arbitrary. Compare EPS over time for one company, or use ratios such as margins and returns between companies.",
+    "lessonLink": "/learn/fundamental-analysis/income-statement",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/earnings-share"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-025",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A company buys a new machine for cash. In which section of the cash flow statement does this appear?",
+    "options": [
+      "Investing activities",
+      "Operating activities",
+      "Financing activities",
+      "It does not appear in the cash flow statement"
+    ],
+    "answerIndex": 0,
+    "explanation": "Purchases of long-term assets such as machinery are cash outflows from investing activities.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-026",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A company repays a bank loan. In which section of the cash flow statement does this appear?",
+    "options": [
+      "Financing activities",
+      "Investing activities",
+      "Operating activities",
+      "Only in the income statement"
+    ],
+    "answerIndex": 0,
+    "explanation": "Borrowing from and repaying banks are financing activities.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-027",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Operating cash flow is €50 million and capital expenditure is €35 million. Using the simple definition, what is free cash flow in € million?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "Free cash flow = operating cash flow − capex = 50 − 35 = €15 million. Definitions vary, so check how a company calculates it.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm",
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-028",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Net income is €20 m, depreciation €10 m, inventory increased by €8 m and payables increased by €3 m. What is operating cash flow in € million (indirect method)?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "20 + 10 (non-cash depreciation) − 8 (cash tied up in inventory) + 3 (paying suppliers later) = €25 million.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-029",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a company can report a profit and still have negative cash flow from operating activities.",
+    "answerBool": true,
+    "explanation": "True. Profit includes sales that customers have not yet paid for and is reduced by non-cash costs. If receivables or inventory grow strongly, operating cash flow can be negative despite a profit.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-030",
+    "category": "I",
+    "topic": "cash-flow-statement",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which of these push operating cash flow BELOW net income? Select all that apply.",
+    "options": [
+      "Receivables grow strongly",
+      "Inventory piles up",
+      "A large depreciation charge",
+      "The company pays its suppliers later than before"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Growing receivables and inventory tie up cash. Depreciation is added back (it raises operating cash flow relative to net income), and paying suppliers later also raises it.",
+    "lessonLink": "/learn/fundamental-analysis/cash-flow-statement",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ias-7-statement-of-cash-flows/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-031",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Net income is €18 million and shareholders' equity is €120 million. What is the return on equity in percent?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "ROE = net income ÷ equity = 18 ÷ 120 = 15%.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-032",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Net income is €18 million and total assets are €300 million. What is the return on assets in percent?",
+    "answerNumber": 6,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "ROA = net income ÷ total assets = 18 ÷ 300 = 6%.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-033",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "EBIT is €40 m, the tax rate is 25%, debt is €100 m, equity €150 m and cash €50 m. What is ROIC in percent, using EBIT × (1 − tax) ÷ (debt + equity − cash)?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "After-tax operating profit = 40 × 0.75 = €30 m. Invested capital = 100 + 150 − 50 = €200 m. ROIC = 30 ÷ 200 = 15%.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-034",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Using the DuPont breakdown: net margin 5%, asset turnover 1.2 and financial leverage (assets ÷ equity) 3. What is the ROE?",
+    "options": [
+      "18%",
+      "9.2%",
+      "6%",
+      "15%"
+    ],
+    "answerIndex": 0,
+    "explanation": "ROE = net margin × asset turnover × leverage = 5% × 1.2 × 3 = 18%.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-035",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a company can raise its return on equity by replacing equity with debt, even if the business itself does not improve.",
+    "answerBool": true,
+    "explanation": "True. Less equity means a higher leverage factor in the DuPont breakdown, so ROE rises while the company becomes riskier.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-036",
+    "category": "I",
+    "topic": "profitability-and-returns",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A company pays out 30% of its profit as dividends and earns a 20% ROE. Using growth ≈ retention ratio × ROE, what growth rate in percent does that suggest?",
+    "answerNumber": 14,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Retention ratio = 1 − 0.30 = 0.70. Growth ≈ 0.70 × 20% = 14%, if the company can keep earning 20% on the reinvested money.",
+    "lessonLink": "/learn/fundamental-analysis/profitability-and-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-037",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Total liabilities are €300 million and shareholders' equity is €150 million. Using the SEC guide's definition, what is the debt-to-equity ratio?",
+    "answerNumber": 2,
+    "tolerance": 0,
+    "explanation": "The SEC guide defines debt-to-equity as total liabilities ÷ shareholders' equity: 300 ÷ 150 = 2.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-038",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Net debt is €240 million and EBITDA is €80 million. What is net debt to EBITDA?",
+    "answerNumber": 3,
+    "tolerance": 0,
+    "explanation": "240 ÷ 80 = 3: it would take about three years of EBITDA to repay the net debt.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf",
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-039",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "EBIT is €60 million and interest expense is €12 million. What is the interest coverage ratio (EBIT ÷ interest)?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "explanation": "60 ÷ 12 = 5: operating profit covers the interest bill five times.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-040",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which item does the quick ratio leave out of current assets?",
+    "options": [
+      "Inventory",
+      "Cash",
+      "Receivables",
+      "Short-term debt"
+    ],
+    "answerIndex": 0,
+    "explanation": "The quick ratio = (current assets − inventory) ÷ current liabilities, because inventory may be hard to sell quickly. Short-term debt is a liability, not a current asset.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-041",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Under IFRS 16, how does a company generally show a lease of more than 12 months (not of a low-value asset)?",
+    "options": [
+      "As a right-of-use asset and a lease liability on the balance sheet",
+      "Only in the notes",
+      "Only as a rent expense in the income statement",
+      "As part of shareholders' equity"
+    ],
+    "answerIndex": 0,
+    "explanation": "IFRS 16 requires lessees to recognise assets and liabilities for all leases with a term of more than 12 months, unless the underlying asset is of low value.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-042",
+    "category": "I",
+    "topic": "debt-and-financial-health",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these increase the risk that debt causes trouble? Select all that apply.",
+    "options": [
+      "A large bond falls due next year",
+      "Most debt has floating interest rates and rates are rising",
+      "The company is close to breaching a loan covenant",
+      "All debt has long, fixed-rate maturities"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Refinancing needs, rising floating rates and covenant breaches can all turn debt into a crisis. Long fixed-rate maturities reduce these risks.",
+    "lessonLink": "/learn/fundamental-analysis/debt-and-financial-health",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-c/covenants/",
+      "https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-043",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A share costs €20 and earnings per share are €2. What is the P/E ratio?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "explanation": "P/E = price ÷ EPS = 20 ÷ 2 = 10. The SEC guide uses the same example.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-044",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A company has 50 million shares at €30 each. What is its market capitalisation in € million?",
+    "answerNumber": 1500,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "Market cap = share price × shares outstanding = 30 × 50 m = €1,500 million.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-capitalization"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-045",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Market cap is €480 million, debt €160 million and cash €40 million. What is the enterprise value in € million?",
+    "answerNumber": 600,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "EV = market value of equity + debt − cash = 480 + 160 − 40 = €600 million.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-046",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A share has a P/E of 18 and expected earnings growth of 9% a year. What is the PEG ratio?",
+    "answerNumber": 2,
+    "tolerance": 0,
+    "explanation": "PEG = P/E ÷ growth rate in percent = 18 ÷ 9 = 2.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/pedata.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-047",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A share costs €25 and EPS is €2. What is the earnings yield in percent?",
+    "answerNumber": 8,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Earnings yield = EPS ÷ price = 2 ÷ 25 = 8%, the P/E (12.5) turned upside down.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-048",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Enterprise value belongs to both shareholders and lenders. Which figure is the consistent one to divide it by?",
+    "options": [
+      "EBITDA",
+      "Earnings per share",
+      "Dividend per share",
+      "Book value per share"
+    ],
+    "answerIndex": 0,
+    "explanation": "EBITDA (like EBIT) is earned before interest, so it belongs to shareholders and lenders together, matching EV. Per-share equity figures belong with the share price.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-049",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a low P/E ratio always means a share is good value.",
+    "answerBool": false,
+    "explanation": "False. A low P/E can reflect a shrinking business or falling profits (a value trap). Even the Wiener Börse lexicon puts 'cheaper' in quotation marks when explaining a low KGV.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kurs-gewinn-verhaeltnis/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-050",
+    "category": "I",
+    "topic": "valuation-ratios",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "For which kind of company is the price-to-book ratio usually most informative?",
+    "options": [
+      "Banks and insurers, whose assets are mostly financial",
+      "Software companies with few physical assets",
+      "Young companies with negative equity",
+      "Brand companies whose brands are not on the balance sheet"
+    ],
+    "answerIndex": 0,
+    "explanation": "P/B works best when book values are close to market values, as with financial assets. The Wiener Börse lexicon notes that the KBV varies strongly by industry and business model.",
+    "lessonLink": "/learn/fundamental-analysis/valuation-ratios",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kurs-buchwert-verhaeltnis/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-051",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is €110 received in one year worth today at a discount rate of 10%?",
+    "answerNumber": 100,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Present value = 110 ÷ 1.10 = €100.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://www.berkshirehathaway.com/ownman.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-052",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Next year's cash flow per share is €3, expected to grow 4% a year forever. With a 10% discount rate, what is the value per share using the growing-perpetuity formula?",
+    "answerNumber": 50,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Value = cash flow ÷ (discount rate − growth) = 3 ÷ (0.10 − 0.04) = €50.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-053",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A share costs €40. Next year's cash flow per share is €2 and investors require 8%. Using a simple growing perpetuity, what growth rate in percent does the price imply?",
+    "answerNumber": 3,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Growth = discount rate − cash flow ÷ price = 8% − 2 ÷ 40 = 8% − 5% = 3% a year, forever.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-054",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How does Berkshire Hathaway's Owner's Manual define intrinsic value?",
+    "options": [
+      "The discounted value of the cash that can be taken out of a business during its remaining life",
+      "The book value of equity on the balance sheet",
+      "The current market capitalisation",
+      "The total dividends the company has paid so far"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Owner's Manual defines intrinsic value as the discounted value of the cash that can be taken out of a business during its remaining life, and stresses that it is an estimate.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://www.berkshirehathaway.com/ownman.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-055",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a DCF valuation, what happens to the estimated value if you raise the discount rate and change nothing else?",
+    "options": [
+      "It falls",
+      "It rises",
+      "It stays the same",
+      "It doubles"
+    ],
+    "answerIndex": 0,
+    "explanation": "Future cash flows are divided by a larger number, so their present value falls. Higher risk or higher interest rates mean a lower value today.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://www.berkshirehathaway.com/ownman.pdf",
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/variable.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-056",
+    "category": "I",
+    "topic": "intrinsic-value-and-dcf",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You estimate a share's intrinsic value at €40 and want a 25% margin of safety. What is the highest price that meets that margin, in euros?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "40 × (1 − 0.25) = €30. Buffett's 1992 letter describes the margin-of-safety principle, emphasised by Benjamin Graham.",
+    "lessonLink": "/learn/fundamental-analysis/intrinsic-value-and-dcf",
+    "sources": [
+      "https://www.berkshirehathaway.com/letters/1992.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-057",
+    "category": "I",
+    "topic": "qualitative-analysis",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In his 2007 shareholder letter, which barriers did Warren Buffett give as examples of a durable 'moat'?",
+    "options": [
+      "Being the low-cost producer or owning a powerful worldwide brand",
+      "Having more debt than competitors",
+      "Making frequent acquisitions",
+      "Relying on one brilliant CEO"
+    ],
+    "answerIndex": 0,
+    "explanation": "Buffett named being the low-cost producer or possessing a powerful worldwide brand. He said his 'enduring' criterion rules out businesses whose success depends on having a great manager.",
+    "lessonLink": "/learn/fundamental-analysis/qualitative-analysis",
+    "sources": [
+      "https://www.berkshirehathaway.com/letters/2007ltr.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-058",
+    "category": "I",
+    "topic": "qualitative-analysis",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are among Michael Porter's five competitive forces? Select all that apply.",
+    "options": [
+      "Rivalry among existing competitors",
+      "The bargaining power of suppliers",
+      "The threat of substitute products",
+      "The company's current share price"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The five forces are rivalry, customers, suppliers, potential new entrants and substitute products. The share price is not one of them.",
+    "lessonLink": "/learn/fundamental-analysis/qualitative-analysis",
+    "sources": [
+      "https://hbr.org/2008/01/the-five-competitive-forces-that-shape-strategy"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-059",
+    "category": "I",
+    "topic": "qualitative-analysis",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: an Austrian stock corporation whose shares are admitted to a regulated market must prepare a corporate governance report that names the code it follows.",
+    "answerBool": true,
+    "explanation": "True. § 243c UGB requires such companies to prepare a corporate governance report that names a generally recognised corporate governance code.",
+    "lessonLink": "/learn/fundamental-analysis/qualitative-analysis",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40276907/NOR40276907.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-060",
+    "category": "I",
+    "topic": "qualitative-analysis",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which is the best evidence that a company really has a durable competitive advantage?",
+    "options": [
+      "High and stable margins and returns on capital over many years",
+      "The CEO says so in the annual report",
+      "The share price rose strongly last month",
+      "The company spends a lot on advertising"
+    ],
+    "answerIndex": 0,
+    "explanation": "A real moat should show up in the numbers: returns that stay high for many years despite competition.",
+    "lessonLink": "/learn/fundamental-analysis/qualitative-analysis",
+    "sources": [
+      "https://www.berkshirehathaway.com/letters/2007ltr.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-061",
+    "category": "I",
+    "topic": "qualitative-analysis",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: for companies in the Vienna Stock Exchange's prime market, complying with a code of corporate governance is a listing obligation.",
+    "answerBool": true,
+    "explanation": "True. Wiener Börse's prime market rules state that the issuer is under the obligation to comply with a code of corporate governance.",
+    "lessonLink": "/learn/fundamental-analysis/qualitative-analysis",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-062",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which of these is an alternative performance measure (APM) in ESMA's sense?",
+    "options": [
+      "EBITDA",
+      "Revenue",
+      "Profit or loss",
+      "Earnings per share"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA's guidelines name EBITDA as an example of an APM. Revenue, profit or loss and EPS are defined by the accounting framework, so they are not APMs.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-063",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "What does ESMA expect from companies that publish APMs? Select all that apply.",
+    "options": [
+      "Define them and explain how they are calculated",
+      "Reconcile them to the closest figure in the financial statements",
+      "Not display them more prominently than figures from the financial statements",
+      "Publish them only in years with good results"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "ESMA expects definitions, reconciliations, no more prominence than the statement figures, comparatives and consistency over time, which rules out showing them only in good years.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-064",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: restructuring costs that a company reports in most years can properly be labelled 'non-recurring'.",
+    "answerBool": false,
+    "explanation": "False. ESMA says items that affected past periods and will affect future periods, such as restructuring costs or impairment losses, will rarely be non-recurring.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/2015/10/2015-esma-1415en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-065",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did Wirecard announce on 22 June 2020?",
+    "options": [
+      "That €1.9 billion it claimed to hold in escrow accounts did not exist",
+      "A merger with a larger bank",
+      "Record profits and a special dividend",
+      "Its move into the DAX 30 index"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA's peer review records that Wirecard announced the €1.9 billion did not actually exist; it filed for insolvency the following week.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/esma42-111-5349_fast_track_peer_review_report_-_wirecard.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-066",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are accounting red flags worth investigating? Select all that apply.",
+    "options": [
+      "Profits rise every year but operating cash flow does not",
+      "Receivables grow much faster than revenue",
+      "The annual report is published late",
+      "The dividend is comfortably covered by free cash flow"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Profits without cash, fast-growing receivables and late reports are classic warning signs. A dividend covered by free cash flow is a sign of health, not a red flag.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements",
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40275949/NOR40275949.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-067",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a profit warning (Gewinnwarnung)?",
+    "options": [
+      "An announcement that profit will be lower, or a loss larger, than previously forecast",
+      "A warning from the tax office",
+      "A note in the auditor's report about high profits",
+      "An investor's complaint at the general meeting"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse lexicon describes a profit warning as an ad hoc announcement by the company that profit will be lower, or the loss larger, than previously forecast.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-g/gewinnwarnung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "I-068",
+    "category": "I",
+    "topic": "red-flags-and-adjusted-figures",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who reviews the financial reports of companies listed on a regulated market with Austria as home member state?",
+    "options": [
+      "The Austrian Financial Reporting Enforcement Panel (OePR), with the FMA as the authority",
+      "Only the Vienna Stock Exchange",
+      "The local tax office",
+      "No one after the auditor has signed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under the Accounting Control Act (RL-KG), in force since 1 July 2013, the OePR carries out reviews and the FMA acts as the authority.",
+    "lessonLink": "/learn/fundamental-analysis/red-flags-and-adjusted-figures",
+    "sources": [
+      "https://www.oepr-afrep.at/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

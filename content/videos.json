@@ -539,5 +539,102 @@
     "lessons": [
       "technical-analysis/charting-platforms"
     ]
+  },
+  {
+    "id": "hZvjH3Az87A",
+    "title": "Balance sheet and income statement relationship",
+    "channel": "Khan Academy",
+    "categories": [
+      "I"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.7,
+    "language": "en",
+    "whyGood": "A short, clear explanation by Sal Khan of how profit on the income statement changes the balance sheet. Khan Academy is a non-profit with free courses.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/balance-sheet"
+    ]
+  },
+  {
+    "id": "Z7C4cz2HkeY",
+    "title": "Introduction to the income statement",
+    "channel": "Khan Academy",
+    "categories": [
+      "I"
+    ],
+    "level": "beginner",
+    "durationMinutes": 15.4,
+    "language": "en",
+    "whyGood": "Walks through revenue, gross profit, operating profit and net income, and introduces ROA and ROE, with a simple worked example.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/income-statement",
+      "fundamental-analysis/profitability-and-returns"
+    ]
+  },
+  {
+    "id": "Mioqyv_IW3E",
+    "title": "Basic cash flow statement",
+    "channel": "Khan Academy",
+    "categories": [
+      "I"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.7,
+    "language": "en",
+    "whyGood": "Shows how a cash flow statement reconciles net income with the change in cash, the key idea behind lesson 4.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/cash-flow-statement"
+    ]
+  },
+  {
+    "id": "cppxO67e6eo",
+    "title": "Introduction to the price-to-earnings ratio",
+    "channel": "Khan Academy",
+    "categories": [
+      "I"
+    ],
+    "level": "beginner",
+    "durationMinutes": 14.8,
+    "language": "en",
+    "whyGood": "Explains what the P/E ratio measures and why companies with the same P/E can be very different investments.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/valuation-ratios"
+    ]
+  },
+  {
+    "id": "znmQ7oMiQrM",
+    "title": "Session 1: Introduction to Valuation",
+    "channel": "Aswath Damodaran",
+    "categories": [
+      "I"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 16.2,
+    "language": "en",
+    "whyGood": "A short session from NYU Stern professor Aswath Damodaran's free online class on why valuation is done and the bias, complexity and uncertainty involved.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/intrinsic-value-and-dcf"
+    ]
+  },
+  {
+    "id": "8vYQpWXQ5hE",
+    "title": "Session 2: Intrinsic Value - Foundation",
+    "channel": "Aswath Damodaran",
+    "categories": [
+      "I"
+    ],
+    "level": "advanced",
+    "durationMinutes": 11.5,
+    "language": "en",
+    "whyGood": "Sets up the foundations of intrinsic valuation and the difference between valuing a business and valuing its equity.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "fundamental-analysis/intrinsic-value-and-dcf"
+    ]
   }
 ]
