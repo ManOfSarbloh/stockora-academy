@@ -732,5 +732,119 @@
     "lessons": [
       "market-cycles-history/financial-crisis-2008"
     ]
+  },
+  {
+    "id": "QkIjJd4bsug",
+    "title": "The ECB Explained in 3 Minutes",
+    "channel": "European Central Bank",
+    "categories": [
+      "L"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.2,
+    "language": "en",
+    "whyGood": "The ECB's own short introduction to its role, inflation and why price stability matters.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/central-banks"
+    ]
+  },
+  {
+    "id": "vHurDbCAfkA",
+    "title": "Monetary Policy, part 1 of 4: The Fed and the Dual Mandate",
+    "channel": "Federal Reserve Bank of St. Louis",
+    "categories": [
+      "L"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.9,
+    "language": "en",
+    "whyGood": "A Federal Reserve bank explains how changing its policy rate sets off a chain of events towards its dual mandate goals.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/central-banks",
+      "macroeconomics/monetary-policy-transmission"
+    ]
+  },
+  {
+    "id": "I7FDx4DPapw",
+    "title": "Relationship between bond prices and interest rates",
+    "channel": "Khan Academy",
+    "categories": [
+      "L"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 13.2,
+    "language": "en",
+    "whyGood": "Shows step by step why bond prices fall when interest rates rise.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/bond-yields-and-the-yield-curve",
+      "macroeconomics/interest-rates-and-stock-prices"
+    ]
+  },
+  {
+    "id": "b_cAxh44aNQ",
+    "title": "Introduction to the yield curve",
+    "channel": "Khan Academy",
+    "categories": [
+      "L"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 9.9,
+    "language": "en",
+    "whyGood": "Explains what the Treasury yield curve shows and why its shape matters.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/bond-yields-and-the-yield-curve"
+    ]
+  },
+  {
+    "id": "itoNb1lb5hY",
+    "title": "Currency Exchange Introduction",
+    "channel": "Khan Academy",
+    "categories": [
+      "L"
+    ],
+    "level": "beginner",
+    "durationMinutes": 12.1,
+    "language": "en",
+    "whyGood": "An introduction to how exchange rates are set and why they move.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/currencies-and-your-investments"
+    ]
+  },
+  {
+    "id": "hMBI50FXDps",
+    "title": "Global Investment Conference - Mario Draghi, President of the European Central Bank",
+    "channel": "UK Trade & Investment (UKTI)",
+    "categories": [
+      "L"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 11.3,
+    "language": "en",
+    "whyGood": "The original recording of the 26 July 2012 speech in which Mario Draghi said the ECB would do \"whatever it takes\" to preserve the euro.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/euro-crisis"
+    ]
+  },
+  {
+    "id": "fVphVXFElYs",
+    "title": "European Central Bank",
+    "channel": "Marginal Revolution University",
+    "categories": [
+      "L"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 4.8,
+    "language": "en",
+    "whyGood": "Explains the ECB's role in the euro area crisis, from a free online economics course.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "macroeconomics/euro-crisis"
+    ]
   }
 ]

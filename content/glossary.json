@@ -5879,5 +5879,371 @@
       "K"
     ],
     "de": "Gründerzeit"
+  },
+  {
+    "id": "central-bank",
+    "term": "Central bank",
+    "definition": "The institution that issues a currency and steers its interest rates, such as the ECB for the euro or the Federal Reserve for the US dollar.",
+    "related": [
+      "ecb",
+      "federal-reserve",
+      "interest-rate"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Zentralbank / Notenbank"
+  },
+  {
+    "id": "ecb",
+    "term": "ECB",
+    "aliases": [
+      "European Central Bank"
+    ],
+    "definition": "The European Central Bank. Its Governing Council sets interest rates for the euro area, aiming for 2% inflation over the medium term.",
+    "related": [
+      "eurosystem",
+      "oenb",
+      "deposit-facility-rate"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Europäische Zentralbank (EZB)"
+  },
+  {
+    "id": "eurosystem",
+    "term": "Eurosystem",
+    "definition": "The ECB together with the national central banks of the euro area countries, including the Oesterreichische Nationalbank.",
+    "related": [
+      "ecb",
+      "oenb"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "oenb",
+    "term": "OeNB",
+    "aliases": [
+      "Oesterreichische Nationalbank",
+      "Austrian National Bank"
+    ],
+    "definition": "Austria's central bank and part of the Eurosystem. Its governor represents Austria on the ECB Governing Council.",
+    "related": [
+      "ecb",
+      "eurosystem"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Oesterreichische Nationalbank"
+  },
+  {
+    "id": "federal-reserve",
+    "term": "Federal Reserve",
+    "aliases": [
+      "US Federal Reserve",
+      "Federal Reserve System"
+    ],
+    "definition": "The central bank of the United States, often called the Fed. Its dual mandate is maximum employment and stable prices.",
+    "related": [
+      "central-bank",
+      "dual-mandate"
+    ],
+    "categories": [
+      "L",
+      "K"
+    ]
+  },
+  {
+    "id": "dual-mandate",
+    "term": "Dual mandate",
+    "definition": "The two goals set for the US Federal Reserve by Congress: maximum employment and stable prices.",
+    "related": [
+      "federal-reserve"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "deposit-facility-rate",
+    "term": "Deposit facility rate",
+    "definition": "The interest rate banks receive for overnight deposits with the Eurosystem. Since March 2024 it is the rate through which the ECB steers its monetary policy.",
+    "related": [
+      "ecb",
+      "interest-rate"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Einlagesatz"
+  },
+  {
+    "id": "inflation-target",
+    "term": "Inflation target",
+    "definition": "The inflation rate a central bank aims for. The ECB aims for 2% (HICP) over the medium term, symmetrically.",
+    "related": [
+      "ecb",
+      "hicp"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Inflationsziel"
+  },
+  {
+    "id": "vpi",
+    "term": "VPI",
+    "aliases": [
+      "Verbraucherpreisindex"
+    ],
+    "definition": "Austria's national consumer price index, published by Statistik Austria alongside the EU-harmonised HICP.",
+    "related": [
+      "hicp",
+      "inflation"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Verbraucherpreisindex"
+  },
+  {
+    "id": "transmission-mechanism",
+    "term": "Transmission mechanism",
+    "definition": "The process through which central bank decisions affect interest rates, asset prices, exchange rates, spending and finally inflation, with long and variable delays.",
+    "related": [
+      "ecb",
+      "interest-rate"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "gdp",
+    "term": "GDP",
+    "aliases": [
+      "gross domestic product"
+    ],
+    "definition": "Gross domestic product: the value of all goods and services produced in an economy in a period. Its growth rate is the main measure of economic growth.",
+    "related": [
+      "recession",
+      "business-cycle"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Bruttoinlandsprodukt (BIP)"
+  },
+  {
+    "id": "flash-estimate",
+    "term": "Flash estimate",
+    "aliases": [
+      "Schnellschätzung"
+    ],
+    "definition": "An early estimate of an economic figure, such as inflation, published before all data is available and later revised.",
+    "related": [
+      "inflation",
+      "gdp"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Schnellschätzung"
+  },
+  {
+    "id": "exchange-rate",
+    "term": "Exchange rate",
+    "aliases": [
+      "foreign exchange rate"
+    ],
+    "definition": "The price of one currency in another. The ECB quotes reference rates as units of foreign currency per 1 euro.",
+    "related": [
+      "currency-risk"
+    ],
+    "categories": [
+      "L",
+      "U"
+    ],
+    "de": "Wechselkurs"
+  },
+  {
+    "id": "currency-risk",
+    "term": "Currency risk",
+    "aliases": [
+      "exchange rate risk",
+      "foreign exchange risk"
+    ],
+    "definition": "The risk that changes in exchange rates reduce the value of a foreign investment in your home currency.",
+    "related": [
+      "exchange-rate",
+      "currency-hedging"
+    ],
+    "categories": [
+      "L",
+      "P"
+    ],
+    "de": "Währungsrisiko"
+  },
+  {
+    "id": "currency-hedging",
+    "term": "Currency hedging",
+    "aliases": [
+      "currency-hedged"
+    ],
+    "definition": "Using derivatives to offset most of the effect of exchange rate changes on a foreign investment. It reduces swings but costs money and removes currency gains.",
+    "related": [
+      "currency-risk"
+    ],
+    "categories": [
+      "L",
+      "H"
+    ],
+    "de": "Währungsabsicherung"
+  },
+  {
+    "id": "bond-yield",
+    "term": "Bond yield",
+    "aliases": [
+      "yield to maturity"
+    ],
+    "definition": "The return an investor earns on a bond at its current price. When yields rise, the prices of existing bonds fall.",
+    "related": [
+      "bond",
+      "yield-curve"
+    ],
+    "categories": [
+      "L",
+      "U"
+    ],
+    "de": "Anleiherendite"
+  },
+  {
+    "id": "yield-curve",
+    "term": "Yield curve",
+    "aliases": [
+      "inverted yield curve"
+    ],
+    "definition": "A line showing the yields of bonds from the same issuer across different maturities. It is usually upward sloping; an inverted curve has been a US recession warning sign.",
+    "related": [
+      "bond-yield",
+      "term-spread"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Zinsstrukturkurve"
+  },
+  {
+    "id": "term-spread",
+    "term": "Term spread",
+    "definition": "The difference between a long-term and a short-term interest rate, for example the 10-year minus the 1-year government bond yield.",
+    "related": [
+      "yield-curve"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "deflation",
+    "term": "Deflation",
+    "definition": "A general fall in prices. It makes debts heavier in real terms and can lead people to postpone spending.",
+    "related": [
+      "inflation"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Deflation"
+  },
+  {
+    "id": "pricing-power",
+    "term": "Pricing power",
+    "definition": "A company's ability to raise prices without losing many customers. It helps profits keep up with inflation.",
+    "related": [
+      "economic-moat",
+      "inflation"
+    ],
+    "categories": [
+      "L",
+      "I"
+    ]
+  },
+  {
+    "id": "wealth-effect",
+    "term": "Wealth effect",
+    "definition": "The tendency of households to spend more when the value of their assets, such as shares, rises, and less when it falls.",
+    "related": [
+      "transmission-mechanism"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "esm",
+    "term": "European Stability Mechanism",
+    "aliases": [
+      "ESM",
+      "EFSF",
+      "European Financial Stability Facility"
+    ],
+    "definition": "The euro area's permanent rescue fund, set up on 8 October 2012 as successor to the temporary EFSF (June 2010), to lend to countries that lose market access.",
+    "related": [
+      "sovereign-debt-crisis"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Europäischer Stabilitätsmechanismus"
+  },
+  {
+    "id": "sovereign-debt-crisis",
+    "term": "Sovereign debt crisis",
+    "aliases": [
+      "euro crisis",
+      "euro area debt crisis"
+    ],
+    "definition": "A crisis in which investors doubt that governments can repay their debts. In the euro area it began in 2010.",
+    "related": [
+      "esm",
+      "omt"
+    ],
+    "categories": [
+      "L"
+    ],
+    "de": "Staatsschuldenkrise"
+  },
+  {
+    "id": "omt",
+    "term": "Outright Monetary Transactions",
+    "aliases": [
+      "OMT"
+    ],
+    "definition": "An ECB programme announced in September 2012 to buy government bonds in the secondary market, on condition that the country has an EFSF/ESM programme.",
+    "related": [
+      "ecb",
+      "sovereign-debt-crisis"
+    ],
+    "categories": [
+      "L"
+    ]
+  },
+  {
+    "id": "home-bias",
+    "term": "Home bias",
+    "definition": "The tendency of investors to hold mostly shares and bonds of their own country, which reduces diversification.",
+    "related": [
+      "diversification"
+    ],
+    "categories": [
+      "L",
+      "M",
+      "O"
+    ]
   }
 ]

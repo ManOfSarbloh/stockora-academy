@@ -1,0 +1,905 @@
+[
+  {
+    "id": "L-001",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Through which of these does the ECB say a change in its official interest rates can affect the economy?",
+    "options": [
+      "Asset prices such as stock market prices, and the exchange rate",
+      "Only the price of gold",
+      "Only government spending",
+      "Nothing until a year has passed"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB's description of the transmission mechanism includes effects on asset prices such as stock market prices and on the exchange rate.",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-002",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "What is €100 received in 20 years worth today at a 6% discount rate? (Round to whole euros.)",
+    "answerNumber": 31,
+    "tolerance": 0.5,
+    "unit": "€",
+    "explanation": "100 ÷ 1.06²⁰ ≈ €31.18. At 4% it would be about €45.64, so a 2-point rise in rates cuts its value by about a third.",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://www.berkshirehathaway.com/ownman.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-003",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a rise in interest rates usually reduces the present value of distant cash flows more than that of near-term cash flows.",
+    "answerBool": true,
+    "explanation": "True. Discounting compounds over the years, so cash expected far in the future is hit hardest. That is why growth stocks are often more rate-sensitive.",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://www.berkshirehathaway.com/ownman.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-004",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A share has a P/E of 20. What is its earnings yield in percent?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Earnings yield = 1 ÷ P/E = 1 ÷ 20 = 5%. Investors often compare it, roughly, with bond yields.",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-005",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in Damodaran's US data, both the S&P 500 and 10-year Treasury bonds lost money in 2022.",
+    "answerBool": true,
+    "explanation": "True: −18.0% for shares and −17.8% for 10-year Treasury bonds, in a year of sharply rising interest rates.",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-006",
+    "category": "L",
+    "topic": "interest-rates-and-stock-prices",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Between September 2007 and December 2008, the Fed cut its policy rate from 5.25% to 0–0.25%. What happened to US share prices?",
+    "options": [
+      "They kept falling until March 2009",
+      "They rose steadily throughout",
+      "They were unaffected",
+      "Trading was suspended for a year"
+    ],
+    "answerIndex": 0,
+    "explanation": "The S&P 500 fell 57% from October 2007 to March 2009 despite the rate cuts, because profits and the economy were collapsing (Federal Reserve History).",
+    "lessonLink": "/learn/macroeconomics/interest-rates-and-stock-prices",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-recession-of-200709"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-007",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who sets the key interest rates for Austria?",
+    "options": [
+      "The ECB Governing Council, for the whole euro area",
+      "The Austrian Ministry of Finance",
+      "The Vienna Stock Exchange",
+      "Each Austrian bank individually"
+    ],
+    "answerIndex": 0,
+    "explanation": "Austria uses the euro, so its key rates are set by the ECB Governing Council. The OeNB governor is Austria's representative on it.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.oenb.at/en/themen/geldpolitik-und-inflation/geldpolitik.html",
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-008",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What inflation rate does the ECB aim for over the medium term, in percent?",
+    "answerNumber": 2,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The ECB's strategy: price stability is best maintained by aiming for 2% inflation over the medium term, measured by the HICP.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-009",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the ECB's 2% target is symmetric, so inflation below the target is considered as undesirable as inflation above it.",
+    "answerBool": true,
+    "explanation": "True. The Governing Council considers negative and positive deviations from the target equally undesirable.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-010",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which interest rate has the ECB used to steer its monetary policy stance since March 2024?",
+    "options": [
+      "The deposit facility rate",
+      "The marginal lending facility rate",
+      "The 10-year government bond yield",
+      "The rate on savings accounts"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB's key interest rates page says the Governing Council decided in March 2024 to continue to steer the monetary policy stance through the deposit facility rate.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-011",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "advanced",
+    "type": "order",
+    "question": "Order the three key ECB interest rates from lowest to highest.",
+    "orderedItems": [
+      "Deposit facility rate",
+      "Main refinancing operations rate",
+      "Marginal lending facility rate"
+    ],
+    "explanation": "The main refinancing rate is set above the deposit facility rate, and the marginal lending rate above the main refinancing rate.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-012",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What are the two goals of the US Federal Reserve's 'dual mandate'?",
+    "options": [
+      "Maximum employment and stable prices",
+      "Stable exchange rates and high share prices",
+      "Low taxes and balanced budgets",
+      "Bank profits and housing growth"
+    ],
+    "answerIndex": 0,
+    "explanation": "Congress assigned the Fed the goals of maximum employment and stable prices; the FOMC sees 2% PCE inflation as consistent with price stability.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.federalreserve.gov/faqs/what-economic-goals-does-federal-reserve-seek-to-achieve-through-monetary-policy.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-013",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In which month did the ECB's deposit facility rate first become negative?",
+    "options": [
+      "June 2014",
+      "July 2012",
+      "September 2019",
+      "March 2024"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB's table shows −0.10% effective 11 June 2014. It reached −0.50% in September 2019.",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-014",
+    "category": "L",
+    "topic": "central-banks",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "From July 2022 to September 2023, the ECB raised its deposit facility rate from −0.50% to what level in percent?",
+    "answerNumber": 4,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Ten increases took it to 4.00% (effective 20 September 2023).",
+    "lessonLink": "/learn/macroeconomics/central-banks",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-015",
+    "category": "L",
+    "topic": "monetary-policy-transmission",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these steps of monetary policy transmission in order, as described by the ECB.",
+    "orderedItems": [
+      "The central bank changes its official interest rates",
+      "Money-market rates and banks' lending and deposit rates change",
+      "Saving, spending and investment decisions change",
+      "Demand and, eventually, prices change"
+    ],
+    "explanation": "Official rates move money-market and bank rates; these change spending and investment decisions, which in turn affect demand and prices.",
+    "lessonLink": "/learn/macroeconomics/monetary-policy-transmission",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-016",
+    "category": "L",
+    "topic": "monetary-policy-transmission",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to the ECB, monetary policy affects the economy with long, variable and uncertain time lags.",
+    "answerBool": true,
+    "explanation": "True. That is why the ECB targets inflation over the medium term.",
+    "lessonLink": "/learn/macroeconomics/monetary-policy-transmission",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-017",
+    "category": "L",
+    "topic": "monetary-policy-transmission",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a 'wealth effect' in the ECB's description of transmission?",
+    "options": [
+      "Households that own shares spend more when share prices rise, and less when they fall",
+      "Banks become richer when rates rise",
+      "Governments tax wealthy people more",
+      "Exchange rates follow house prices"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB explains that as equity prices rise, share-owning households become wealthier and may increase their consumption, and vice versa.",
+    "lessonLink": "/learn/macroeconomics/monetary-policy-transmission",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-018",
+    "category": "L",
+    "topic": "monetary-policy-transmission",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When did the ECB's asset purchase programme (APP) start, according to the ECB?",
+    "options": [
+      "As part of a package initiated in mid-2014",
+      "In 1999 with the euro",
+      "In March 2020",
+      "In 2008 before Lehman Brothers"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB says the APP started as part of a package of non-standard measures initiated in mid-2014.",
+    "lessonLink": "/learn/macroeconomics/monetary-policy-transmission",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/implement/app/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-019",
+    "category": "L",
+    "topic": "monetary-policy-transmission",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: markets can move on a central bank meeting even when interest rates are left unchanged.",
+    "answerBool": true,
+    "explanation": "True. Expectations of future rates affect longer-term rates and asset prices, so a change in guidance can move markets without a rate change.",
+    "lessonLink": "/learn/macroeconomics/monetary-policy-transmission",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-020",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which index does the ECB's 2% inflation target refer to?",
+    "options": [
+      "The Harmonised Index of Consumer Prices (HICP) for the euro area",
+      "Austria's VPI",
+      "The ATX",
+      "The US consumer price index"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB measures inflation with the HICP for the euro area as a whole.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-021",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "According to Statistik Austria, what was Austria's (VPI) inflation rate in 2025, in percent?",
+    "answerNumber": 3.6,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "Statistik Austria: 3.6% in 2025, after 2.9% in 2024 and 7.8% in 2023.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.statistik.at/fileadmin/announcement/2026/01/20260119VPIJahr2025.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-022",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "According to Statistik Austria, what was Austria's (VPI) inflation rate in 2023, in percent?",
+    "answerNumber": 7.8,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "Statistik Austria reported 7.8% for 2023; it describes 2022 to 2024 as a phase of high inflation.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.statistik.at/fileadmin/announcement/2026/01/20260119VPIJahr2025.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-023",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A company has revenue of €100 m and costs of €90 m. Costs rise by 10%, but it can raise prices only by 3%. What is its new profit in € million?",
+    "answerNumber": 4,
+    "tolerance": 0,
+    "unit": "€ m",
+    "explanation": "Revenue 103 − costs 99 = €4 m, down from €10 m: a 60% fall. Pricing power matters.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-024",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: deflation (falling prices) is good for the economy because everything gets cheaper.",
+    "answerBool": false,
+    "explanation": "False. Federal Reserve History describes how deflation in the Great Depression increased debt burdens, reduced consumption and caused bankruptcies. The ECB's target is symmetric for this reason.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/great-depression",
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-025",
+    "category": "L",
+    "topic": "inflation-and-stocks",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Why does unexpectedly high inflation often hurt share prices in the short run? Select all that apply.",
+    "options": [
+      "Central banks raise interest rates",
+      "Companies' costs rise",
+      "Uncertainty about future profits increases",
+      "Company debts disappear"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Rate rises, cost pressure and uncertainty all weigh on share prices. Debts do not disappear.",
+    "lessonLink": "/learn/macroeconomics/inflation-and-stocks",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html",
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-026",
+    "category": "L",
+    "topic": "economic-data-and-news",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do share prices often move when an economic figure is published?",
+    "options": [
+      "Because the figure differs from what was expected",
+      "Because every release is bad news",
+      "Because exchanges close during releases",
+      "Because all figures are secret until then and never forecast"
+    ],
+    "answerIndex": 0,
+    "explanation": "Markets price in expectations beforehand and move on the surprise: the difference between actual and expected figures.",
+    "lessonLink": "/learn/macroeconomics/economic-data-and-news",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-027",
+    "category": "L",
+    "topic": "economic-data-and-news",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Statistik Austria's flash estimate for July 2026 inflation was 2.7%. What was the final figure, in percent?",
+    "answerNumber": 2.8,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "The final figure published on 19 August 2026 was 2.8%, 0.1 percentage points higher than the flash estimate.",
+    "lessonLink": "/learn/macroeconomics/economic-data-and-news",
+    "sources": [
+      "https://www.statistik.at/fileadmin/announcement/2026/07/20260731VPIFlashEstimateJuli2026.pdf",
+      "https://www.statistik.at/fileadmin/announcement/2026/08/20260819VPIJuli2026.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-028",
+    "category": "L",
+    "topic": "economic-data-and-news",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: higher-than-expected inflation can make share prices fall even if nothing has changed in the companies themselves.",
+    "answerBool": true,
+    "explanation": "True. Investors may expect higher interest rates for longer, which raises discount rates and bond yields.",
+    "lessonLink": "/learn/macroeconomics/economic-data-and-news",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-029",
+    "category": "L",
+    "topic": "economic-data-and-news",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does GDP measure?",
+    "options": [
+      "The value of all goods and services produced in an economy in a period",
+      "The level of the stock market",
+      "The government's debt",
+      "The number of people employed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gross domestic product measures economic output; its growth rate is the main measure of economic growth.",
+    "lessonLink": "/learn/macroeconomics/economic-data-and-news",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-030",
+    "category": "L",
+    "topic": "economic-data-and-news",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: official economic statistics are usually published on pre-announced dates.",
+    "answerBool": true,
+    "explanation": "True. Eurostat and national statistical offices publish release calendars.",
+    "lessonLink": "/learn/macroeconomics/economic-data-and-news",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-031",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "The ECB publishes a reference rate of USD 1.10. What does it mean?",
+    "options": [
+      "1 euro = 1.10 US dollars",
+      "1 US dollar = 1.10 euros",
+      "The dollar rose 1.10% today",
+      "The euro is worth 110 cents in Austria"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB quotes all currencies against the euro as base currency: units of foreign currency per 1 euro.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-032",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You invest €10,000 in a US share at EUR/USD 1.10 ($11,000). A year later the share is worth $12,100 and EUR/USD is 1.21. What is your return in euros, in percent?",
+    "answerNumber": 0,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "$12,100 ÷ 1.21 = €10,000. The share gained 10% in dollars, but the stronger euro wiped it out.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-033",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You hold US shares worth $11,000; their price does not change. EUR/USD falls from 1.10 to 1.00. What is your return in euros, in percent?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Before: 11,000 ÷ 1.10 = €10,000. After: 11,000 ÷ 1.00 = €11,000, a +10% return from the currency alone.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-034",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if EUR/USD rises from 1.10 to 1.20, US dollar investments are worth more in euros.",
+    "answerBool": false,
+    "explanation": "False. A rising EUR/USD means the euro has strengthened; dollar investments are worth fewer euros.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-035",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: an ETF on US shares that is quoted in euros on a European exchange has no exposure to the US dollar.",
+    "answerBool": false,
+    "explanation": "False. The trading currency is not the exposure: the fund holds dollar assets, so its euro price moves with the dollar unless it is currency-hedged.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-036",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does a currency-hedged share class of a fund do?",
+    "options": [
+      "Uses derivatives to offset most of the effect of exchange rate changes",
+      "Guarantees a profit in euros",
+      "Invests only in euro-area shares",
+      "Converts all holdings into gold"
+    ],
+    "answerIndex": 0,
+    "explanation": "Hedging reduces currency swings, but it costs money and also removes currency gains.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-037",
+    "category": "L",
+    "topic": "currencies-and-your-investments",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "The ECB says its euro reference rates are published for information purposes only. What does it say about using them for transactions?",
+    "options": [
+      "It strongly discourages it",
+      "It requires banks to use them",
+      "They are guaranteed trading rates",
+      "They apply only to cash"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB states that using the reference rates for transaction purposes is strongly discouraged; banks use their own rates.",
+    "lessonLink": "/learn/macroeconomics/currencies-and-your-investments",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-038",
+    "category": "L",
+    "topic": "bond-yields-and-the-yield-curve",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A bond pays €103 in one year. What is its price if investors require 5%? (Two decimals.)",
+    "answerNumber": 98.1,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "103 ÷ 1.05 ≈ €98.10. At 3% it would cost €100: higher yields mean lower prices.",
+    "lessonLink": "/learn/macroeconomics/bond-yields-and-the-yield-curve",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-039",
+    "category": "L",
+    "topic": "bond-yields-and-the-yield-curve",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does an 'inverted' yield curve mean?",
+    "options": [
+      "Short-term yields are higher than long-term yields",
+      "Long-term yields are much higher than short-term yields",
+      "All yields are zero",
+      "Bond prices are rising"
+    ],
+    "answerIndex": 0,
+    "explanation": "Normally long-term yields are higher. An inverted curve has short-term yields above long-term ones.",
+    "lessonLink": "/learn/macroeconomics/bond-yields-and-the-yield-curve",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2025/05/how-uncertain-is-the-estimated-probability-of-a-future-recession/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-040",
+    "category": "L",
+    "topic": "bond-yields-and-the-yield-curve",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: according to the New York Fed's Liberty Street Economics (2025), the US 10-year minus 1-year spread fell below zero before every US recession since the 1950s.",
+    "answerBool": true,
+    "explanation": "True. The post notes that this term spread declines below zero before every recession and only rarely does so without a subsequent recession.",
+    "lessonLink": "/learn/macroeconomics/bond-yields-and-the-yield-curve",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2025/05/how-uncertain-is-the-estimated-probability-of-a-future-recession/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-041",
+    "category": "L",
+    "topic": "bond-yields-and-the-yield-curve",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: an inverted yield curve tells you precisely when share prices will fall.",
+    "answerBool": false,
+    "explanation": "False. It is a warning about the economy with vague timing, and model estimates are uncertain. A 2018 Fed note also argued for a different spread measure.",
+    "lessonLink": "/learn/macroeconomics/bond-yields-and-the-yield-curve",
+    "sources": [
+      "https://libertystreeteconomics.newyorkfed.org/2025/05/how-uncertain-is-the-estimated-probability-of-a-future-recession/",
+      "https://www.federalreserve.gov/econres/notes/feds-notes/dont-fear-the-yield-curve-20180628.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-042",
+    "category": "L",
+    "topic": "bond-yields-and-the-yield-curve",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the ECB, what do longer-term interest rates partly depend on?",
+    "options": [
+      "Market expectations about the future course of short-term rates",
+      "The level of the stock market only",
+      "The weather",
+      "The number of bonds outstanding only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB explains that longer-term rates depend in part on expectations about future short-term rates, which is why an inverted curve often signals expected rate cuts.",
+    "lessonLink": "/learn/macroeconomics/bond-yields-and-the-yield-curve",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/intro/transmission/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-043",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In which year did the euro area debt crisis begin, according to the ESM?",
+    "options": [
+      "2010",
+      "2008",
+      "2001",
+      "2015"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ESM says a new home-grown crisis erupted in Europe in 2010, after the US subprime crisis.",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.esm.europa.eu/about-us/history"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-044",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which country was the first to ask for help in the euro area debt crisis?",
+    "options": [
+      "Greece",
+      "Austria",
+      "Germany",
+      "Finland"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ESM history says Greece was first to ask and received bilateral loans from other euro area countries.",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.esm.europa.eu/about-us/history"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-045",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these euro crisis events in order.",
+    "orderedItems": [
+      "The EFSF is set up (June 2010)",
+      "Draghi's 'whatever it takes' remarks (26 July 2012)",
+      "The ECB announces the technical features of OMT (6 September 2012)",
+      "The ESM is established (8 October 2012)"
+    ],
+    "explanation": "EFSF in June 2010; Draghi's London remarks on 26 July 2012; OMT details on 6 September 2012; ESM on 8 October 2012.",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.esm.europa.eu/about-us/history",
+      "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html",
+      "https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-046",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did Mario Draghi say on 26 July 2012?",
+    "options": [
+      "That within its mandate the ECB was ready to do whatever it takes to preserve the euro",
+      "That the euro would be abolished",
+      "That interest rates would rise to 10%",
+      "That Greece must leave the euro"
+    ],
+    "answerIndex": 0,
+    "explanation": "His words: 'Within our mandate, the ECB is ready to do whatever it takes to preserve the euro. And believe me, it will be enough.'",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.ecb.europa.eu/press/key/date/2012/html/sp120726.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-047",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is a necessary condition for the ECB's Outright Monetary Transactions?",
+    "options": [
+      "Strict and effective conditionality attached to an appropriate EFSF/ESM programme",
+      "A minimum credit rating of AAA",
+      "A vote by all EU citizens",
+      "The country leaving the euro"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB's 6 September 2012 press release makes an EFSF/ESM programme with strict conditionality a necessary condition.",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.ecb.europa.eu/press/pr/date/2012/html/pr120906_1.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "L-048",
+    "category": "L",
+    "topic": "euro-crisis",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "According to the ESM, why did markets begin to mistrust some euro area countries in 2010? Select all that apply.",
+    "options": [
+      "Their governments had let deficits balloon",
+      "They had lost competitiveness",
+      "They had allowed lax oversight of banks",
+      "They had too little debt"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The ESM names ballooning deficits, lost competitiveness and lax bank oversight.",
+    "lessonLink": "/learn/macroeconomics/euro-crisis",
+    "sources": [
+      "https://www.esm.europa.eu/about-us/history"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
