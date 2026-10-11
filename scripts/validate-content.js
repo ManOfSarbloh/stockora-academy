@@ -93,7 +93,7 @@ console.log(`  quiz questions  ${total} / 900 target`);
 console.log(
   `    difficulty    beginner ${pct(byDifficulty.beginner)}, intermediate ${pct(byDifficulty.intermediate)}, advanced ${pct(byDifficulty.advanced)} (target 40/40/20)`,
 );
-for (const [f, n] of Object.entries(perFile)) console.log(`    ${f.padEnd(24)}${n}`);
+for (const [f, n] of Object.entries(perFile)) console.log(`    ${f.padEnd(30)}${n}`);
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s):`);

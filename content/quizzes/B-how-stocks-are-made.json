@@ -1,0 +1,1040 @@
+[
+  {
+    "id": "B-001",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which kind of business can issue shares?",
+    "options": [
+      "A stock corporation such as an AG",
+      "A sole trader",
+      "A household budget",
+      "A savings account"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only corporations whose capital is divided into shares, such as an Austrian AG, a UK plc or a US corporation, can issue shares. A sole trader has no shares.",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-002",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the minimum share capital (Grundkapital) of an Austrian AG, in euros?",
+    "answerNumber": 70000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "An Austrian AG must have a share capital of at least €70,000, divided into shares.",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-003",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the minimum share capital (Stammkapital) of an Austrian GmbH, in euros?",
+    "answerNumber": 10000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Since the 2024 reform, an Austrian GmbH needs at least €10,000 of share capital, half of which in principle must be paid in cash at founding.",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://www.usp.gv.at/services/suchen-und-finden/lexikon/gesellschaft-mit-beschraenkter-haftung-gmbh.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-004",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does an Austrian GmbH or AG legally come into existence?",
+    "options": [
+      "When it is entered in the Firmenbuch",
+      "When the founders sign a business plan",
+      "When it opens a bank account",
+      "When it makes its first sale"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both come into existence only when they are entered in the Firmenbuch, Austria's commercial register.",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://www.usp.gv.at/services/suchen-und-finden/lexikon/gesellschaft-mit-beschraenkter-haftung-gmbh.html",
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-005",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a sole trader is personally liable for the debts of the business.",
+    "answerBool": true,
+    "explanation": "True. A sole trader and the business are not separated, so the owner is personally liable. In a corporation, the company itself is generally liable.",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://www.usp.gv.at/services/suchen-und-finden/lexikon/gesellschaft-mit-beschraenkter-haftung-gmbh.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-006",
+    "category": "B",
+    "topic": "from-idea-to-company",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the minimum nominal value of allotted share capital for a UK public limited company (plc)?",
+    "options": [
+      "£50,000",
+      "£1",
+      "£10,000",
+      "£500,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "UK law sets the 'authorised minimum' for a plc at £50,000 (or a prescribed euro equivalent of €57,100).",
+    "lessonLink": "/learn/how-stocks-are-made/from-idea-to-company",
+    "sources": [
+      "https://www.legislation.gov.uk/uksi/2009/2425/note/made"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-007",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is share capital?",
+    "options": [
+      "Money owners contribute to a company in exchange for shares",
+      "The company's yearly profit",
+      "Money the company borrows from a bank",
+      "The value of the company's buildings"
+    ],
+    "answerIndex": 0,
+    "explanation": "Share capital is what the owners contribute to a corporation in exchange for shares. In an AG it is divided into shares.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-008",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a share's par value tells you its market price.",
+    "answerBool": false,
+    "explanation": "False. Par value is an accounting amount. A share with a €1 par value can trade at any price the market agrees.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-009",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In an Austrian AG, par value shares (Nennbetragsaktien) must have a nominal amount of at least…",
+    "options": [
+      "€1 or a multiple of it",
+      "€0.01",
+      "€100",
+      "€70,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Par value shares in an Austrian AG must be at least €1 or a multiple of it. An AG cannot have par value and no-par shares at the same time.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-010",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a no-par share (Stückaktie)?",
+    "options": [
+      "A share without a nominal amount, representing an equal fraction of the share capital",
+      "A share that is not worth anything",
+      "A share without voting rights",
+      "A share that cannot be sold"
+    ],
+    "answerIndex": 0,
+    "explanation": "A no-par share has no nominal amount; each share represents an equal fraction of the share capital.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-011",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Since 1 August 2011, what kind of shares must Austrian AGs that are not listed on an exchange issue?",
+    "options": [
+      "Registered shares (Namensaktien)",
+      "Bearer shares (Inhaberaktien)",
+      "Preferred shares only",
+      "Paper certificates only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Unlisted Austrian AGs must issue registered shares (Namensaktien) and keep a share register (Aktienbuch). Listed AGs may choose between registered and bearer shares.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-012",
+    "category": "B",
+    "topic": "share-capital-and-first-shares",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What are 'authorised shares'?",
+    "options": [
+      "The maximum number of shares a company is allowed to issue",
+      "Shares approved by the stock exchange for trading",
+      "Shares owned by the company's directors",
+      "Shares that have voting rights"
+    ],
+    "answerIndex": 0,
+    "explanation": "Authorised shares are the maximum number of shares a company is permitted to issue under its founding documents. Issued shares are those actually handed out.",
+    "lessonLink": "/learn/how-stocks-are-made/share-capital-and-first-shares",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-013",
+    "category": "B",
+    "topic": "cap-table-and-dilution",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a cap table show?",
+    "options": [
+      "Who holds the company's shares and related securities, and on which terms",
+      "The company's monthly sales",
+      "The maximum share price allowed",
+      "The company's tax payments"
+    ],
+    "answerIndex": 0,
+    "explanation": "A capitalisation (cap) table lists the holders of a company's shares and related securities, with the number held and the terms, such as purchase price.",
+    "lessonLink": "/learn/how-stocks-are-made/cap-table-and-dilution",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-014",
+    "category": "B",
+    "topic": "cap-table-and-dilution",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company has 1,000,000 shares. A founder holds 600,000. The company issues 250,000 new shares to an investor. What percentage does the founder own afterwards?",
+    "answerNumber": 48,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "The founder still has 600,000 shares, but there are now 1,250,000 in total: 600,000 ÷ 1,250,000 = 48%.",
+    "lessonLink": "/learn/how-stocks-are-made/cap-table-and-dilution",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-015",
+    "category": "B",
+    "topic": "cap-table-and-dilution",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: dilution always means existing shareholders lose money.",
+    "answerBool": false,
+    "explanation": "False. Dilution reduces your percentage. Whether you lose value depends on the price of the new shares and what the company does with the money.",
+    "lessonLink": "/learn/how-stocks-are-made/cap-table-and-dilution",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-016",
+    "category": "B",
+    "topic": "cap-table-and-dilution",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When does issuing new shares take value away from existing shareholders?",
+    "options": [
+      "When the new shares are sold below what the shares are really worth",
+      "Whenever any new shares are issued",
+      "Only when the new investor is a bank",
+      "Only when the company is listed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Value moves from old to new owners when new shares are sold below what the existing shares are really worth. At a fair price, the cash received compensates for the smaller percentage.",
+    "lessonLink": "/learn/how-stocks-are-made/cap-table-and-dilution",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-017",
+    "category": "B",
+    "topic": "cap-table-and-dilution",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these increase the number of shares and dilute existing shareholders? Select all that apply.",
+    "options": [
+      "The company sells new shares to an investor",
+      "Employees exercise stock options",
+      "A convertible note converts into shares",
+      "An existing shareholder sells shares to another investor"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "New shares are created when a company sells shares to an investor, when employees exercise options, and when convertible notes convert. When one shareholder sells to another, the share count does not change.",
+    "lessonLink": "/learn/how-stocks-are-made/cap-table-and-dilution",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-018",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An investor pays €1 million into a company with a pre-money valuation of €4 million. What percentage of the company does the investor get?",
+    "answerNumber": 20,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "Post-money = €4m + €1m = €5m. Investor's share = €1m ÷ €5m = 20%.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-019",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Same deal: €1 million invested at a €4 million pre-money valuation. What is the post-money valuation, in millions of euros?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "million €",
+    "explanation": "Post-money valuation = pre-money valuation + new money = €4m + €1m = €5 million.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-020",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is an angel investor?",
+    "options": [
+      "A wealthy individual who invests their own money in young companies",
+      "A government grant for start-ups",
+      "A bank that lends to start-ups",
+      "A fund that only buys listed shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Angel investors are generally wealthy individuals who invest their own money directly in young businesses, typically in early funding rounds.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-021",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a seed round, typically?",
+    "options": [
+      "A company's first formal funding round",
+      "The last round before an IPO",
+      "A loan from a farming bank",
+      "The first day of trading on an exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "The seed round is typically a company's first funding round, often from friends and family, angels or early-stage funds, frequently using convertible notes or SAFEs.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-022",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "An investor put in €1 million with a 1x liquidation preference. The company is later sold for €3 million. How much is the investor paid before the other shareholders?",
+    "options": [
+      "€1 million",
+      "€3 million",
+      "€0, everyone is paid at the same time",
+      "€2 million"
+    ],
+    "answerIndex": 0,
+    "explanation": "A 1x liquidation preference means the investor first gets back one times the investment (€1 million) before others are paid. What happens to the rest depends on the exact terms.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-023",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to the FMA, deposit guarantee protection applies to crowdfunding investments.",
+    "answerBool": false,
+    "explanation": "False. The FMA warns that deposit guarantee and investor compensation schemes do not apply to crowdfunding, and investments are often not secured.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.fma.gv.at/wer-schaut-auf-die-crowd/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-024",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'vesting' mean for employee stock options?",
+    "options": [
+      "Earning the right to the options gradually over time",
+      "Receiving all options on the first day",
+      "Selling options on the stock exchange",
+      "Paying tax on the options"
+    ],
+    "answerIndex": 0,
+    "explanation": "Vesting means the employee earns the right to the options step by step, for example by staying with the company for a period or reaching milestones.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-025",
+    "category": "B",
+    "topic": "funding-rounds",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "An investor pays €2 million and owns 25% of the company right after the investment. What was the pre-money valuation?",
+    "options": [
+      "€6 million",
+      "€8 million",
+      "€2 million",
+      "€10 million"
+    ],
+    "answerIndex": 0,
+    "explanation": "Post-money = investment ÷ share = €2m ÷ 25% = €8 million. Pre-money = post-money − investment = €8m − €2m = €6 million.",
+    "lessonLink": "/learn/how-stocks-are-made/funding-rounds",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-026",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these are reasons companies go public? Select all that apply.",
+    "options": [
+      "To raise money",
+      "To let early investors sell shares",
+      "To pay for acquisitions with shares",
+      "To avoid publishing financial reports"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Companies go public to raise money, give early investors a way to sell, and use shares as a currency for acquisitions. Listed companies must publish more information, not less.",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-027",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a SPAC?",
+    "options": [
+      "A shell company that lists first and later merges with a private company",
+      "A government agency that approves IPOs",
+      "A type of bond",
+      "A share class without voting rights"
+    ],
+    "answerIndex": 0,
+    "explanation": "A SPAC is a shell company with no operating business that goes public, raises money, and then merges with a private operating company (the de-SPAC).",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-you"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-028",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In a traditional direct listing…",
+    "options": [
+      "existing shares start trading without an underwritten offering",
+      "banks buy all shares before trading starts",
+      "the government sets the first price",
+      "only employees may buy shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "In a traditional direct listing, existing shares are admitted to trading without an underwritten offering, and the market sets the opening price. NYSE now also allows a version with new shares.",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.nyse.com/direct-listing"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-029",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if a company goes public, that shows it is a good investment.",
+    "answerBool": false,
+    "explanation": "False. An IPO shows that the company wants public money and expects investors to pay its price. Founders and early investors often sell in the IPO.",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-030",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What happens in a reverse merger?",
+    "options": [
+      "A private company merges into an existing listed shell company",
+      "A listed company becomes private again",
+      "Two exchanges merge",
+      "A company buys back all its shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "In a reverse merger, a private operating company merges into an existing public shell company and its owners and management take over, without a traditional IPO.",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/reverse"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-031",
+    "category": "B",
+    "topic": "why-go-public",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which Wiener Börse segments run on the Vienna MTF and are aimed at smaller and younger companies?",
+    "options": [
+      "direct market plus and direct market",
+      "prime market and standard market",
+      "global market only",
+      "There are no such segments"
+    ],
+    "answerIndex": 0,
+    "explanation": "The direct market plus and direct market run on the Vienna MTF. The prime market and standard market are for shares admitted to the Official Market.",
+    "lessonLink": "/learn/how-stocks-are-made/why-go-public",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-032",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a prospectus?",
+    "options": [
+      "The official document describing the company and the offer",
+      "The company's advertising brochure",
+      "A list of the company's customers",
+      "A bank statement"
+    ],
+    "answerIndex": 0,
+    "explanation": "The prospectus is the offering document describing the company, the offer terms, its business, finances, risks and management.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-033",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When the FMA approves a securities prospectus, what does it check?",
+    "options": [
+      "Completeness, coherence and comprehensibility, but not correctness",
+      "That every figure in it is correct",
+      "That the investment will be profitable",
+      "Only the company's logo and name"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA checks completeness, coherence and comprehensibility. It does not check whether the information is correct; the issuer is responsible for that.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/aufsicht-ueber-kapitalmarktprospekte/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-034",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who are the underwriters in an IPO?",
+    "options": [
+      "The investment banks that manage and sell the offer",
+      "The company's customers",
+      "The stock exchange's computers",
+      "The financial regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Underwriters are the investment banks that manage and sell the IPO for the company.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-035",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is bookbuilding?",
+    "options": [
+      "Collecting investors' orders to help set the offer price",
+      "Printing the prospectus",
+      "Counting the company's assets",
+      "Opening a securities account"
+    ],
+    "answerIndex": 0,
+    "explanation": "During bookbuilding, investors place orders (how many shares, up to what price) during the subscription period; the order book is then used to set the final price.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.wienerborse.at/en/listing/going-public-ipo/process/the-initial-public-offering-and-share-placement/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-036",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under EU rules, what is the maximum size of a greenshoe option, as a percentage of the original offer?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Commission Delegated Regulation (EU) 2016/1052 states that the greenshoe option shall not amount to more than 15% of the original offer.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg_del/2016/1052/oj/eng"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-037",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under EU rules, stabilisation after a share IPO must end no later than how many calendar days after trading starts?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "days",
+    "explanation": "For an initial offer of shares, the stabilisation period starts when trading begins and ends no later than 30 calendar days afterwards.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg_del/2016/1052/oj/eng"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-038",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a lock-up agreement?",
+    "options": [
+      "An agreement that insiders will not sell their shares for a period after the IPO",
+      "A rule that the share price cannot change on day one",
+      "A safe where share certificates are kept",
+      "A ban on buying IPO shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "A lock-up stops company insiders and large shareholders from selling their shares for a period after the IPO. Most US lock-ups last 180 days, though terms vary.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/initial-public-offerings-lockup-agreements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-039",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In an IPO, who receives the money from primary shares?",
+    "options": [
+      "The company",
+      "The existing shareholders who sell",
+      "The stock exchange",
+      "The regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Primary shares are newly issued, so the money goes to the company.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-040",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In an IPO, who receives the money from secondary shares?",
+    "options": [
+      "The existing shareholders who sell them",
+      "The company",
+      "The underwriters only",
+      "The buyers"
+    ],
+    "answerIndex": 0,
+    "explanation": "Secondary shares are existing shares sold by current owners, so the money goes to those selling shareholders, not to the company.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-041",
+    "category": "B",
+    "topic": "ipo-process",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, who ultimately determines the price of a US IPO?",
+    "options": [
+      "The company (issuer), based on the underwriters' recommendation",
+      "The SEC",
+      "The first buyer on the exchange",
+      "A random draw"
+    ],
+    "answerIndex": 0,
+    "explanation": "The underwriters use the investors' indications of interest to recommend a price, but the issuer ultimately determines the IPO price.",
+    "lessonLink": "/learn/how-stocks-are-made/ipo-process",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-042",
+    "category": "B",
+    "topic": "listing-day",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company has 50 million shares and its IPO price is €20. What is its market capitalisation at the IPO price, in millions of euros?",
+    "answerNumber": 1000,
+    "tolerance": 0,
+    "unit": "million €",
+    "explanation": "Market capitalisation counts all shares: 50 million × €20 = €1,000 million (€1 billion), even if only some were sold in the IPO.",
+    "lessonLink": "/learn/how-stocks-are-made/listing-day",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-043",
+    "category": "B",
+    "topic": "listing-day",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is free float?",
+    "options": [
+      "The shares available for trading by the public",
+      "Shares given away for free",
+      "The company's cash in the bank",
+      "Shares that have no price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Free float is the part of a company's shares available for trading by the public, excluding long-term holdings of founders, families, governments or strategic owners.",
+    "lessonLink": "/learn/how-stocks-are-made/listing-day",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-044",
+    "category": "B",
+    "topic": "listing-day",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "For admission to the Vienna Stock Exchange's prime market, at least what percentage of the shares must normally be in free float?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "At least 25% of the shares must be in free float and the free float must be worth at least €20 million (with an exception if the free float is worth more than €40 million).",
+    "lessonLink": "/learn/how-stocks-are-made/listing-day",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-045",
+    "category": "B",
+    "topic": "listing-day",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is 'underpricing' in an IPO?",
+    "options": [
+      "The offer price is below the first trading price",
+      "The company sells too few shares",
+      "The share price falls on day one",
+      "The bank charges too little"
+    ],
+    "answerIndex": 0,
+    "explanation": "Underpricing means the offer price was set below the price at which the shares start trading, giving IPO buyers an immediate gain and costing the company and sellers money.",
+    "lessonLink": "/learn/how-stocks-are-made/listing-day",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-046",
+    "category": "B",
+    "topic": "listing-day",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does 'flipping' IPO shares mean?",
+    "options": [
+      "Selling IPO shares immediately after trading starts",
+      "Buying more shares every day",
+      "Swapping shares for bonds",
+      "Turning registered shares into bearer shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Flipping means immediately reselling shares received in an IPO once trading starts. Underwriters may discourage it.",
+    "lessonLink": "/learn/how-stocks-are-made/listing-day",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-047",
+    "category": "B",
+    "topic": "how-a-share-exists",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which institution is Austria's central securities depository?",
+    "options": [
+      "OeKB CSD",
+      "The Wiener Börse",
+      "The FMA",
+      "The Austrian National Bank (OeNB)"
+    ],
+    "answerIndex": 0,
+    "explanation": "OeKB CSD, a subsidiary of the Oesterreichische Kontrollbank, records securities in its book-entry system and holds them in safekeeping.",
+    "lessonLink": "/learn/how-stocks-are-made/how-a-share-exists",
+    "sources": [
+      "https://www.oekb-csd.at/en/about-oekb-csd/the-five-functions-of-oekb-csd.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-048",
+    "category": "B",
+    "topic": "how-a-share-exists",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: shares you buy are kept at the stock exchange.",
+    "answerBool": false,
+    "explanation": "False. The exchange is where shares are traded. Your shares are recorded with your broker or bank and, further up the chain, at a central securities depository.",
+    "lessonLink": "/learn/how-stocks-are-made/how-a-share-exists",
+    "sources": [
+      "https://www.oekb-csd.at/en/about-oekb-csd/the-five-functions-of-oekb-csd.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-049",
+    "category": "B",
+    "topic": "how-a-share-exists",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which chain best describes how a retail investor's shares are usually held?",
+    "options": [
+      "You → broker → custodian → CSD → company",
+      "You → stock exchange → company",
+      "You → regulator → CSD",
+      "You → company directly, on paper"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ownership typically runs from you to your broker (Depot), the broker's custodian bank, the central securities depository, and the issuing company.",
+    "lessonLink": "/learn/how-stocks-are-made/how-a-share-exists",
+    "sources": [
+      "https://www.oekb-csd.at/en/about-oekb-csd/the-five-functions-of-oekb-csd.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-050",
+    "category": "B",
+    "topic": "life-after-ipo",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Under Austria's Gesellschafter-Ausschlussgesetz, a shareholder must hold at least what percentage of the capital to squeeze out the minority?",
+    "answerNumber": 90,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The main shareholder must hold at least nine tenths (90%) of the capital.",
+    "lessonLink": "/learn/how-stocks-are-made/life-after-ipo",
+    "sources": [
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004778"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-051",
+    "category": "B",
+    "topic": "life-after-ipo",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What happens to minority shareholders in an Austrian squeeze-out?",
+    "options": [
+      "They must transfer their shares against an appropriate cash compensation",
+      "They keep their shares but lose their votes",
+      "They receive shares of a new company for free",
+      "Nothing changes for them"
+    ],
+    "answerIndex": 0,
+    "explanation": "They must transfer their shares to the main shareholder, who must pay an appropriate cash compensation, checked by a court-appointed expert.",
+    "lessonLink": "/learn/how-stocks-are-made/life-after-ipo",
+    "sources": [
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004778"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-052",
+    "category": "B",
+    "topic": "life-after-ipo",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when a company delists from the exchange, your shares disappear.",
+    "answerBool": false,
+    "explanation": "False. The shares still exist and you still own part of the company, but selling becomes much harder without an exchange.",
+    "lessonLink": "/learn/how-stocks-are-made/life-after-ipo",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-053",
+    "category": "B",
+    "topic": "life-after-ipo",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "If a company goes bankrupt and its assets are sold, what usually happens to ordinary shareholders?",
+    "options": [
+      "They are paid last and often receive nothing",
+      "They are paid first",
+      "They receive their money back from the government",
+      "They automatically become bondholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Creditors are paid first; ordinary shareholders come last and often receive nothing.",
+    "lessonLink": "/learn/how-stocks-are-made/life-after-ipo",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

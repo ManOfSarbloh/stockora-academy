@@ -547,5 +547,824 @@
       "U"
     ],
     "de": "Anlageklasse"
+  },
+  {
+    "id": "share-capital",
+    "term": "Share capital",
+    "aliases": [],
+    "definition": "The money (or other assets) that owners contribute to a corporation in exchange for shares. In an Austrian AG it is called Grundkapital and is divided into shares.",
+    "related": [
+      "stock",
+      "aktiengesellschaft"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Grundkapital / Stammkapital"
+  },
+  {
+    "id": "aktiengesellschaft",
+    "term": "Aktiengesellschaft (AG)",
+    "aliases": [
+      "AG",
+      "Aktiengesellschaften"
+    ],
+    "definition": "The German and Austrian name for a stock corporation: a company with its own legal personality whose share capital is divided into shares. In Austria the minimum share capital is €70,000.",
+    "related": [
+      "share-capital",
+      "gmbh",
+      "limited-liability"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Aktiengesellschaft"
+  },
+  {
+    "id": "gmbh",
+    "term": "GmbH",
+    "aliases": [],
+    "definition": "Gesellschaft mit beschränkter Haftung: a limited liability company common in Austria, Germany and Switzerland. In Austria it needs at least €10,000 of share capital; its ownership stakes are not traded on stock exchanges.",
+    "related": [
+      "aktiengesellschaft",
+      "limited-liability"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Gesellschaft mit beschränkter Haftung"
+  },
+  {
+    "id": "firmenbuch",
+    "term": "Firmenbuch",
+    "aliases": [
+      "commercial register"
+    ],
+    "definition": "Austria's commercial register. A GmbH or AG only comes into existence when it is entered in the Firmenbuch.",
+    "related": [
+      "aktiengesellschaft",
+      "gmbh"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Firmenbuch"
+  },
+  {
+    "id": "par-value",
+    "term": "Par value",
+    "aliases": [
+      "nominal value"
+    ],
+    "definition": "The nominal amount printed on a share (in Austria at least €1 for par value shares). It is an accounting figure and says nothing about the market price.",
+    "related": [
+      "no-par-share",
+      "share-capital"
+    ],
+    "categories": [
+      "B",
+      "C"
+    ],
+    "de": "Nennbetrag / Nennwert"
+  },
+  {
+    "id": "no-par-share",
+    "term": "No-par share",
+    "aliases": [
+      "no-par shares",
+      "no-par value shares"
+    ],
+    "definition": "A share without a nominal amount; each share represents an equal fraction of the share capital.",
+    "related": [
+      "par-value"
+    ],
+    "categories": [
+      "B",
+      "C"
+    ],
+    "de": "Stückaktie"
+  },
+  {
+    "id": "registered-share",
+    "term": "Registered share",
+    "aliases": [
+      "registered shares"
+    ],
+    "definition": "A share whose owner is recorded by name in the company's share register. In Austria, unlisted AGs must issue registered shares.",
+    "related": [
+      "bearer-share",
+      "share-register"
+    ],
+    "categories": [
+      "B",
+      "C"
+    ],
+    "de": "Namensaktie"
+  },
+  {
+    "id": "bearer-share",
+    "term": "Bearer share",
+    "aliases": [
+      "bearer shares"
+    ],
+    "definition": "A share whose owner is not recorded by name in a company register.",
+    "related": [
+      "registered-share"
+    ],
+    "categories": [
+      "B",
+      "C"
+    ],
+    "de": "Inhaberaktie"
+  },
+  {
+    "id": "share-register",
+    "term": "Share register",
+    "aliases": [
+      "share registers"
+    ],
+    "definition": "The company's list of the names of holders of registered shares. In Austria (Aktienbuch), only the person entered counts as a shareholder towards the company.",
+    "related": [
+      "registered-share"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Aktienbuch"
+  },
+  {
+    "id": "authorised-shares",
+    "term": "Authorised shares",
+    "aliases": [
+      "authorized shares"
+    ],
+    "definition": "The maximum number of shares a company is allowed to issue under its founding documents. Issued shares are those actually handed out.",
+    "related": [
+      "share-capital"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "genehmigte Aktien"
+  },
+  {
+    "id": "cap-table",
+    "term": "Cap table",
+    "aliases": [
+      "capitalisation table",
+      "capitalization table",
+      "cap tables"
+    ],
+    "definition": "Capitalisation table: a list of everyone who holds a company's shares and related securities (such as options and convertible notes), with how many and on which terms.",
+    "related": [
+      "dilution",
+      "stock-option"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Cap Table / Beteiligungsübersicht"
+  },
+  {
+    "id": "dilution",
+    "term": "Dilution",
+    "aliases": [],
+    "definition": "The reduction in existing owners' percentage when a company issues new shares. Owners keep the same number of shares, but each is a smaller slice.",
+    "example": "You own 100 of 1,000 shares (10%). The company issues 250 new shares: you now own 100 of 1,250 (8%).",
+    "related": [
+      "cap-table",
+      "capital-increase"
+    ],
+    "categories": [
+      "B",
+      "V"
+    ],
+    "de": "Verwässerung"
+  },
+  {
+    "id": "valuation",
+    "term": "Valuation",
+    "aliases": [
+      "valuations"
+    ],
+    "definition": "What a company is considered to be worth, as estimated by analysts or agreed between a company and its investors.",
+    "related": [
+      "pre-money-valuation",
+      "post-money-valuation"
+    ],
+    "categories": [
+      "B",
+      "I"
+    ],
+    "de": "Unternehmensbewertung"
+  },
+  {
+    "id": "pre-money-valuation",
+    "term": "Pre-money valuation",
+    "aliases": [
+      "pre-money"
+    ],
+    "definition": "A company's value before new money from a funding round is added.",
+    "related": [
+      "post-money-valuation",
+      "valuation"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Pre-Money-Bewertung"
+  },
+  {
+    "id": "post-money-valuation",
+    "term": "Post-money valuation",
+    "aliases": [
+      "post-money"
+    ],
+    "definition": "A company's value right after a funding round: pre-money valuation plus the new money. The investor's share equals the investment divided by the post-money valuation.",
+    "example": "€4 million pre-money + €1 million investment = €5 million post-money; the investor owns €1m ÷ €5m = 20%.",
+    "related": [
+      "pre-money-valuation",
+      "valuation"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Post-Money-Bewertung"
+  },
+  {
+    "id": "angel-investor",
+    "term": "Angel investor",
+    "aliases": [
+      "angel investors",
+      "business angel"
+    ],
+    "definition": "A wealthy individual who invests their own money directly in young companies, typically in early funding rounds.",
+    "related": [
+      "seed-round",
+      "venture-capital"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Business Angel"
+  },
+  {
+    "id": "venture-capital",
+    "term": "Venture capital",
+    "aliases": [
+      "VC",
+      "venture capital fund",
+      "venture capital funds"
+    ],
+    "definition": "Money from venture capital (VC) funds: private funds that invest in fast-growing young companies in exchange for equity, usually preferred shares.",
+    "related": [
+      "angel-investor",
+      "series-round"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Wagniskapital / Risikokapital"
+  },
+  {
+    "id": "seed-round",
+    "term": "Seed round",
+    "aliases": [
+      "seed rounds"
+    ],
+    "definition": "Typically a company's first formal funding round, often from friends and family, angel investors or early-stage funds, frequently using convertible notes or SAFEs.",
+    "related": [
+      "series-round",
+      "angel-investor",
+      "convertible-note"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Seed-Finanzierungsrunde"
+  },
+  {
+    "id": "series-round",
+    "term": "Series round",
+    "aliases": [
+      "Series A",
+      "Series B",
+      "Series C"
+    ],
+    "definition": "A later funding round, named in order (Series A, Series B, Series C...), often led by venture capital funds.",
+    "related": [
+      "seed-round",
+      "venture-capital"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Finanzierungsrunde (Serie A, B, C)"
+  },
+  {
+    "id": "convertible-note",
+    "term": "Convertible note",
+    "aliases": [
+      "convertible notes"
+    ],
+    "definition": "A loan to a young company that converts into shares (usually preferred shares) at a later funding round or other agreed event. Common in seed rounds.",
+    "related": [
+      "seed-round",
+      "safe"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Wandeldarlehen"
+  },
+  {
+    "id": "safe",
+    "term": "Simple agreement for future equity",
+    "aliases": [],
+    "definition": "Often shortened to SAFE: an agreement in which a company promises an investor shares in the future if certain events happen, such as a later funding round.",
+    "related": [
+      "convertible-note",
+      "seed-round"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "SAFE"
+  },
+  {
+    "id": "liquidation-preference",
+    "term": "Liquidation preference",
+    "aliases": [
+      "liquidation preferences"
+    ],
+    "definition": "An investor's right to be paid before other shareholders when the company is sold or wound up, often expressed as a multiple of the investment (1x, 2x).",
+    "related": [
+      "preferred-stock",
+      "venture-capital"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Liquidationspräferenz"
+  },
+  {
+    "id": "stock-option",
+    "term": "Stock option (employee)",
+    "aliases": [
+      "stock options",
+      "option pool"
+    ],
+    "definition": "The right, but not the obligation, to buy a certain number of the company's shares at a fixed price (the strike price), usually after a vesting period.",
+    "related": [
+      "vesting",
+      "cap-table"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Mitarbeiteroption / Aktienoption"
+  },
+  {
+    "id": "vesting",
+    "term": "Vesting",
+    "aliases": [],
+    "definition": "The process by which an employee gradually earns the right to stock options or shares, for example by staying with the company for a set time.",
+    "related": [
+      "stock-option"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Vesting / Unverfallbarkeit"
+  },
+  {
+    "id": "crowdfunding",
+    "term": "Crowdfunding",
+    "aliases": [
+      "crowdinvesting"
+    ],
+    "definition": "Raising money from many private individuals, each investing small amounts, usually through an online platform. Investments are often unsecured and carry a high risk of loss.",
+    "related": [
+      "angel-investor"
+    ],
+    "categories": [
+      "B",
+      "T"
+    ],
+    "de": "Schwarmfinanzierung"
+  },
+  {
+    "id": "prospectus",
+    "term": "Prospectus",
+    "aliases": [
+      "prospectuses"
+    ],
+    "definition": "The official offering document for a public offer of securities, describing the company, its business, finances, risks and the terms of the offer. In Austria it must be approved by the FMA.",
+    "related": [
+      "ipo",
+      "underwriter"
+    ],
+    "categories": [
+      "B",
+      "R"
+    ],
+    "de": "Prospekt / Wertpapierprospekt"
+  },
+  {
+    "id": "underwriter",
+    "term": "Underwriter",
+    "aliases": [
+      "underwriters",
+      "bookrunner"
+    ],
+    "definition": "An investment bank that manages and sells a securities offering such as an IPO for the issuing company. The lead bank is often called the bookrunner.",
+    "related": [
+      "ipo",
+      "bookbuilding",
+      "prospectus"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Konsortialbank / Emissionsbank"
+  },
+  {
+    "id": "bookbuilding",
+    "term": "Bookbuilding",
+    "aliases": [
+      "book building"
+    ],
+    "definition": "Collecting investors' orders (how many shares, up to what price) during an offer's subscription period, to help set the final offer price.",
+    "related": [
+      "underwriter",
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Bookbuilding-Verfahren"
+  },
+  {
+    "id": "roadshow",
+    "term": "Roadshow",
+    "aliases": [],
+    "definition": "A series of presentations in which a company's management presents an offer to potential investors.",
+    "related": [
+      "bookbuilding"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Roadshow"
+  },
+  {
+    "id": "greenshoe",
+    "term": "Greenshoe option",
+    "aliases": [
+      "greenshoe",
+      "over-allotment"
+    ],
+    "definition": "An option allowing the underwriting banks to buy additional shares at the offer price to cover over-allotted shares. Under EU rules it may not exceed 15% of the original offer.",
+    "related": [
+      "stabilisation",
+      "underwriter"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Greenshoe / Mehrzuteilungsoption"
+  },
+  {
+    "id": "stabilisation",
+    "term": "Price stabilisation",
+    "aliases": [
+      "stabilization"
+    ],
+    "definition": "Purchases by the underwriting banks after an offer to support the share price. In the EU, for a share IPO it must end within 30 calendar days and never above the offer price.",
+    "related": [
+      "greenshoe"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Kursstabilisierung"
+  },
+  {
+    "id": "lock-up",
+    "term": "Lock-up",
+    "aliases": [
+      "lockup",
+      "lock-up period",
+      "lock-ups"
+    ],
+    "definition": "An agreement that stops company insiders and large shareholders from selling their shares for a period after an IPO. Most US lock-ups last 180 days, though terms vary.",
+    "related": [
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Lock-up-Frist / Haltefrist"
+  },
+  {
+    "id": "quiet-period",
+    "term": "Quiet period",
+    "aliases": [],
+    "definition": "In the US, the period around the registration of an offering when the company must make sure its public communications about the offer comply with securities laws.",
+    "related": [
+      "ipo",
+      "prospectus"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Quiet Period"
+  },
+  {
+    "id": "oversubscribed",
+    "term": "Oversubscribed",
+    "aliases": [
+      "oversubscription"
+    ],
+    "definition": "When investors order more shares in an offer than are available, so orders have to be scaled down.",
+    "related": [
+      "bookbuilding"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "überzeichnet"
+  },
+  {
+    "id": "primary-shares",
+    "term": "Primary shares",
+    "aliases": [],
+    "definition": "Newly issued shares sold in an offering; the money goes to the company.",
+    "related": [
+      "secondary-shares",
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "neue Aktien (Kapitalerhöhung)"
+  },
+  {
+    "id": "secondary-shares",
+    "term": "Secondary shares",
+    "aliases": [],
+    "definition": "Existing shares sold in an offering by current owners; the money goes to those sellers, not to the company.",
+    "related": [
+      "primary-shares",
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Umplatzierung / Altaktien"
+  },
+  {
+    "id": "direct-listing",
+    "term": "Direct listing",
+    "aliases": [
+      "direct listings"
+    ],
+    "definition": "Admitting a company's existing shares to trading on an exchange without a traditional underwritten IPO; the opening price is found by the market.",
+    "related": [
+      "ipo",
+      "spac"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Direktnotierung"
+  },
+  {
+    "id": "spac",
+    "term": "SPAC",
+    "aliases": [
+      "SPACs",
+      "special purpose acquisition company"
+    ],
+    "definition": "Special purpose acquisition company: a shell company with no business of its own that goes public, raises money and then merges with a private company (the de-SPAC transaction).",
+    "related": [
+      "direct-listing",
+      "reverse-merger"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "SPAC / Mantelgesellschaft"
+  },
+  {
+    "id": "reverse-merger",
+    "term": "Reverse merger",
+    "aliases": [
+      "reverse mergers"
+    ],
+    "definition": "A way of going public in which a private company merges into an existing listed shell company and takes it over, without a traditional IPO.",
+    "related": [
+      "spac"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Reverse Merger / umgekehrte Übernahme"
+  },
+  {
+    "id": "spin-off",
+    "term": "Spin-off",
+    "aliases": [
+      "spin-offs",
+      "spinoff"
+    ],
+    "definition": "When a company separates a division into a new, independent company and gives the new company's shares to its own shareholders.",
+    "related": [
+      "ipo"
+    ],
+    "categories": [
+      "B",
+      "V"
+    ],
+    "de": "Abspaltung / Spin-off"
+  },
+  {
+    "id": "free-float",
+    "term": "Free float",
+    "aliases": [],
+    "definition": "The part of a company's shares that is available for trading by the public, excluding long-term holdings of founders, families, governments or strategic owners.",
+    "related": [
+      "market-capitalisation"
+    ],
+    "categories": [
+      "B",
+      "C",
+      "H"
+    ],
+    "de": "Streubesitz"
+  },
+  {
+    "id": "underpricing",
+    "term": "Underpricing",
+    "aliases": [],
+    "definition": "When an IPO's offer price is set below the price at which the shares start trading, giving IPO buyers an immediate gain.",
+    "related": [
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Underpricing"
+  },
+  {
+    "id": "flipping",
+    "term": "Flipping",
+    "aliases": [],
+    "definition": "Selling shares received in an IPO immediately after trading starts.",
+    "related": [
+      "ipo"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Flipping"
+  },
+  {
+    "id": "csd",
+    "term": "Central securities depository",
+    "aliases": [
+      "CSD",
+      "central securities depositories",
+      "CSDs"
+    ],
+    "definition": "An institution that records securities in an electronic book-entry system and keeps them safe. In Austria: OeKB CSD.",
+    "related": [
+      "book-entry"
+    ],
+    "categories": [
+      "B",
+      "D"
+    ],
+    "de": "Zentralverwahrer"
+  },
+  {
+    "id": "book-entry",
+    "term": "Book-entry",
+    "aliases": [
+      "book-entry system"
+    ],
+    "definition": "Holding securities as electronic account entries instead of paper certificates. Ownership changes by changing the entries.",
+    "related": [
+      "csd"
+    ],
+    "categories": [
+      "B",
+      "D"
+    ],
+    "de": "Buchungssystem / stückelose Verwahrung"
+  },
+  {
+    "id": "custodian",
+    "term": "Custodian",
+    "aliases": [
+      "custodian bank",
+      "custodians"
+    ],
+    "definition": "A bank or firm that holds securities in safekeeping for its clients.",
+    "related": [
+      "csd",
+      "broker"
+    ],
+    "categories": [
+      "B",
+      "F"
+    ],
+    "de": "Verwahrstelle / Depotbank"
+  },
+  {
+    "id": "capital-increase",
+    "term": "Capital increase",
+    "aliases": [
+      "capital increases"
+    ],
+    "definition": "When a company issues new shares to raise money. Existing shareholders are diluted unless they buy their share of the new shares.",
+    "related": [
+      "dilution",
+      "rights-issue"
+    ],
+    "categories": [
+      "B",
+      "V"
+    ],
+    "de": "Kapitalerhöhung"
+  },
+  {
+    "id": "rights-issue",
+    "term": "Rights issue",
+    "aliases": [
+      "rights issues",
+      "subscription rights"
+    ],
+    "definition": "A capital increase in which existing shareholders get the first right to buy the new shares, in proportion to what they already own.",
+    "related": [
+      "capital-increase",
+      "dilution"
+    ],
+    "categories": [
+      "B",
+      "V"
+    ],
+    "de": "Bezugsrechtsemission"
+  },
+  {
+    "id": "squeeze-out",
+    "term": "Squeeze-out",
+    "aliases": [
+      "squeeze-outs"
+    ],
+    "definition": "A procedure that lets a majority shareholder force the remaining minority shareholders out against a cash payment. In Austria the threshold is 90%.",
+    "related": [
+      "delisting",
+      "takeover"
+    ],
+    "categories": [
+      "B",
+      "R",
+      "V"
+    ],
+    "de": "Squeeze-out / Gesellschafterausschluss"
+  },
+  {
+    "id": "delisting",
+    "term": "Delisting",
+    "aliases": [],
+    "definition": "When a company's shares are removed from a stock exchange. The shares still exist, but become much harder to trade.",
+    "related": [
+      "squeeze-out"
+    ],
+    "categories": [
+      "B",
+      "R",
+      "V"
+    ],
+    "de": "Delisting / Börsenrückzug"
+  },
+  {
+    "id": "takeover",
+    "term": "Takeover",
+    "aliases": [
+      "takeovers",
+      "acquisition"
+    ],
+    "definition": "When one company or investor acquires control of another company, usually by buying most or all of its shares.",
+    "related": [
+      "squeeze-out"
+    ],
+    "categories": [
+      "B",
+      "R",
+      "V"
+    ],
+    "de": "Übernahme"
   }
 ]

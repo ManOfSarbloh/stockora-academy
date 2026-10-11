@@ -68,5 +68,72 @@
       "foundations/equity-vs-debt",
       "foundations/stocks-bonds-cash-property"
     ]
+  },
+  {
+    "id": "8OCjwBkMJ_E",
+    "title": "Raising money for a startup | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "B"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 12.0,
+    "language": "en",
+    "whyGood": "Follows a start-up through its funding rounds and shows how ownership changes, from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "how-stocks-are-made/funding-rounds",
+      "how-stocks-are-made/cap-table-and-dilution"
+    ]
+  },
+  {
+    "id": "l4HMCr5roAM",
+    "title": "What is an IPO? | CNBC Explains",
+    "channel": "CNBC International",
+    "categories": [
+      "B"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.2,
+    "language": "en",
+    "whyGood": "A short news-channel explainer of what an initial public offering is.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "how-stocks-are-made/why-go-public",
+      "how-stocks-are-made/ipo-process"
+    ]
+  },
+  {
+    "id": "YagSUvKqkR4",
+    "title": "Initial Public Offering (IPO) Explained",
+    "channel": "Investopedia",
+    "categories": [
+      "B"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.8,
+    "language": "en",
+    "whyGood": "A brief overview of the IPO process from a well-known financial education site.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "how-stocks-are-made/ipo-process",
+      "how-stocks-are-made/listing-day"
+    ]
+  },
+  {
+    "id": "jfNFI5JhrvA",
+    "title": "What is a SPAC? | CNBC Explains",
+    "channel": "CNBC International",
+    "categories": [
+      "B"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 9.3,
+    "language": "en",
+    "whyGood": "Explains special purpose acquisition companies, an alternative route to the stock market covered in this topic.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "how-stocks-are-made/why-go-public"
+    ]
   }
 ]
