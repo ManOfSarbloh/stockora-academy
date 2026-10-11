@@ -1,0 +1,796 @@
+[
+  {
+    "id": "E-001",
+    "category": "E",
+    "topic": "regular-trading-hours",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does continuous trading start for ATX shares on the Vienna Stock Exchange on a normal day?",
+    "options": [
+      "09:00",
+      "08:00",
+      "10:00",
+      "07:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "After the opening auction from 08:55, continuous trading for ATX shares starts at 09:00.",
+    "lessonLink": "/learn/trading-times/regular-trading-hours",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-002",
+    "category": "E",
+    "topic": "regular-trading-hours",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What are the NYSE's core trading hours (New York time)?",
+    "options": [
+      "9:30 a.m. – 4:00 p.m.",
+      "8:00 a.m. – 5:00 p.m.",
+      "9:00 a.m. – 5:30 p.m.",
+      "10:00 a.m. – 6:00 p.m."
+    ],
+    "answerIndex": 0,
+    "explanation": "The NYSE core trading session runs from 9:30 a.m. to 4:00 p.m. Eastern Time.",
+    "lessonLink": "/learn/trading-times/regular-trading-hours",
+    "sources": [
+      "https://www.nyse.com/trade/hours-calendars"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-003",
+    "category": "E",
+    "topic": "regular-trading-hours",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a normal week, what are the NYSE core hours in Vienna time?",
+    "options": [
+      "15:30 – 22:00",
+      "09:30 – 16:00",
+      "14:30 – 21:00",
+      "16:30 – 23:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "New York is normally 6 hours behind Vienna, so 9:30–16:00 in New York is 15:30–22:00 in Vienna.",
+    "lessonLink": "/learn/trading-times/regular-trading-hours",
+    "sources": [
+      "https://www.nyse.com/trade/hours-calendars"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-004",
+    "category": "E",
+    "topic": "regular-trading-hours",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if your broker's app accepts orders at night, the exchange is open at night.",
+    "answerBool": false,
+    "explanation": "False. Apps often accept orders around the clock, but they wait until the market opens (unless your broker offers another venue).",
+    "lessonLink": "/learn/trading-times/regular-trading-hours",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-005",
+    "category": "E",
+    "topic": "regular-trading-hours",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When is the closing auction for ATX shares in Vienna?",
+    "options": [
+      "17:30 – 17:35",
+      "16:00 – 16:05",
+      "12:00 – 12:03",
+      "08:55 – 09:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "The closing auction runs from 17:30 to 17:35, followed by trade at close until 17:45.",
+    "lessonLink": "/learn/trading-times/regular-trading-hours",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-006",
+    "category": "E",
+    "topic": "pre-market-and-after-hours",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "According to the SEC, which are risks of extended-hours trading? Select all that apply.",
+    "options": [
+      "Lower liquidity",
+      "Wider bid-ask spreads",
+      "Larger price swings",
+      "Guaranteed execution at the best price"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The SEC lists lower liquidity, wider spreads, larger price swings and prices that may not hold at the next open. Guaranteed execution is not a feature.",
+    "lessonLink": "/learn/trading-times/pre-market-and-after-hours",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-007",
+    "category": "E",
+    "topic": "pre-market-and-after-hours",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do many big price moves happen outside regular US trading hours?",
+    "options": [
+      "Companies often publish news outside regular hours",
+      "Exchanges move prices at night",
+      "Taxes are calculated after the close",
+      "Brokers set new prices overnight"
+    ],
+    "answerIndex": 0,
+    "explanation": "Companies often release important news, such as quarterly results, before the open or after the close.",
+    "lessonLink": "/learn/trading-times/pre-market-and-after-hours",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-008",
+    "category": "E",
+    "topic": "pre-market-and-after-hours",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which order type do many brokers require in extended-hours trading?",
+    "options": [
+      "Limit orders",
+      "Market orders only",
+      "Stop orders only",
+      "No orders at all"
+    ],
+    "answerIndex": 0,
+    "explanation": "Many brokers accept only limit orders, which execute only at the limit price or better.",
+    "lessonLink": "/learn/trading-times/pre-market-and-after-hours",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-009",
+    "category": "E",
+    "topic": "pre-market-and-after-hours",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: an after-hours price always becomes the next day's opening price.",
+    "answerBool": false,
+    "explanation": "False. The SEC warns that extended-hours prices may not reflect prices at the next regular open.",
+    "lessonLink": "/learn/trading-times/pre-market-and-after-hours",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-010",
+    "category": "E",
+    "topic": "pre-market-and-after-hours",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "After-hours, you buy at $56. The next morning the share opens at $53. What is your loss, in percent (rounded to one decimal)?",
+    "answerNumber": 5.4,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "($53 − $56) ÷ $56 ≈ −5.4%.",
+    "lessonLink": "/learn/trading-times/pre-market-and-after-hours",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-011",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which major exchange has a midday break from 11:30 to 12:30?",
+    "options": [
+      "Tokyo Stock Exchange",
+      "New York Stock Exchange",
+      "Vienna Stock Exchange",
+      "London Stock Exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Tokyo Stock Exchange trades 9:00–11:30 and 12:30–15:30.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/01.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-012",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Since 5 November 2024, when does the Tokyo Stock Exchange's afternoon session end?",
+    "options": [
+      "15:30",
+      "15:00",
+      "16:00",
+      "14:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "TSE extended trading by 30 minutes and introduced a closing auction; the afternoon session now runs 12:30–15:30.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+      "https://www.jpx.co.jp/english/corporate/news/news-releases/1030/20241105-01.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-013",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What are HKEX's continuous trading sessions on a full day?",
+    "options": [
+      "9:30–12:00 and 13:00–16:00",
+      "9:00–17:30 without a break",
+      "10:00–14:00 only",
+      "8:00–11:00 and 14:00–18:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Morning 9:30–12:00 and afternoon 13:00–16:00, plus a pre-opening auction and a closing auction.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-014",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "On the Shanghai Stock Exchange's main board, when is the closing call auction?",
+    "options": [
+      "14:57 – 15:00",
+      "15:00 – 15:30",
+      "11:25 – 11:30",
+      "16:00 – 16:10"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous trading runs until 14:57, followed by a closing call auction from 14:57 to 15:00.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://english.sse.com.cn/start/trading/schedule/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-015",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In winter, Tokyo is 8 hours ahead of Vienna. At what Vienna hour does Tokyo's 09:00 open fall? (Answer as an hour, e.g. 1 for 01:00.)",
+    "answerNumber": 1,
+    "tolerance": 0,
+    "explanation": "09:00 in Tokyo minus 8 hours = 01:00 in Vienna.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/01.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-016",
+    "category": "E",
+    "topic": "holidays-and-half-days",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "On which days of the week do stock exchanges normally trade?",
+    "options": [
+      "Monday to Friday",
+      "Every day",
+      "Monday to Saturday",
+      "Tuesday to Saturday"
+    ],
+    "answerIndex": 0,
+    "explanation": "Exchanges trade Monday to Friday, except on their exchange holidays.",
+    "lessonLink": "/learn/trading-times/holidays-and-half-days",
+    "sources": [
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-017",
+    "category": "E",
+    "topic": "holidays-and-half-days",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Vienna Stock Exchange is closed on every Austrian public holiday.",
+    "answerBool": false,
+    "explanation": "False. In 2026, for example, it trades on 6 January, Ascension Day, Whit Monday, Corpus Christi and 8 December.",
+    "lessonLink": "/learn/trading-times/holidays-and-half-days",
+    "sources": [
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-018",
+    "category": "E",
+    "topic": "holidays-and-half-days",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "On which of these 2026 dates is the Vienna Stock Exchange closed? Select all that apply.",
+    "options": [
+      "3 April (Good Friday)",
+      "1 May",
+      "26 October (National Day)",
+      "8 December"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In 2026 Vienna is closed on Good Friday (3 April), 1 May and the National Day (26 October), but open on 8 December.",
+    "lessonLink": "/learn/trading-times/holidays-and-half-days",
+    "sources": [
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-019",
+    "category": "E",
+    "topic": "holidays-and-half-days",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what time does the NYSE close on early-close days such as the day after Thanksgiving?",
+    "options": [
+      "1:00 p.m.",
+      "12:00 noon",
+      "3:00 p.m.",
+      "It does not open"
+    ],
+    "answerIndex": 0,
+    "explanation": "On early-close days the NYSE closes at 1:00 p.m. Eastern Time.",
+    "lessonLink": "/learn/trading-times/holidays-and-half-days",
+    "sources": [
+      "https://www.nyse.com/trade/hours-calendars"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-020",
+    "category": "E",
+    "topic": "holidays-and-half-days",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Easter Monday, 6 April 2026: which statement is correct?",
+    "options": [
+      "Vienna is closed, New York is open",
+      "Both are closed",
+      "Both are open",
+      "Vienna is open, New York is closed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Vienna is closed on Easter Monday 2026, but Easter Monday is not a NYSE holiday, so New York trades.",
+    "lessonLink": "/learn/trading-times/holidays-and-half-days",
+    "sources": [
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf",
+      "https://www.nyse.com/trade/hours-calendars"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-021",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does EU summer time end?",
+    "options": [
+      "Last Sunday in October",
+      "First Sunday in November",
+      "Second Sunday in March",
+      "31 October every year"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under Directive 2000/84/EC, summer time ends at 01:00 UTC on the last Sunday in October.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32000L0084"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-022",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does US daylight saving time start?",
+    "options": [
+      "Second Sunday in March",
+      "Last Sunday in March",
+      "First Sunday in April",
+      "1 March"
+    ],
+    "answerIndex": 0,
+    "explanation": "Since 2007, US DST starts at 2 a.m. local time on the second Sunday in March.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-023",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In 2026, between 8 and 28 March, at what Vienna time does the NYSE open?",
+    "options": [
+      "14:30",
+      "15:30",
+      "16:30",
+      "13:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "The US switched to DST on 8 March 2026 but the EU only on 29 March, so the gap is 5 hours and the NYSE opens at 14:30 Vienna time.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32000L0084"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-024",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: New York is always exactly 6 hours behind Vienna.",
+    "answerBool": false,
+    "explanation": "False. For a few weeks in March and in October/November the gap is 5 hours, because the US and EU change clocks on different dates.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32000L0084"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-025",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Normally, how many hours behind Vienna is New York?",
+    "answerNumber": 6,
+    "tolerance": 0,
+    "unit": "hours",
+    "explanation": "Vienna is on Central European Time; New York on Eastern Time; the normal difference is 6 hours.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-026",
+    "category": "E",
+    "topic": "time-zones-and-dst",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Japan does not use daylight saving time. What happens to the Tokyo–Vienna time difference when Europe switches to summer time?",
+    "options": [
+      "It shrinks from 8 to 7 hours",
+      "It grows from 8 to 9 hours",
+      "It stays the same",
+      "It becomes 12 hours"
+    ],
+    "answerIndex": 0,
+    "explanation": "It shrinks from 8 to 7 hours, because only Europe moves its clocks.",
+    "lessonLink": "/learn/trading-times/time-zones-and-dst",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32000L0084"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-027",
+    "category": "E",
+    "topic": "open-close-and-overlaps",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do exchanges like Vienna start the day with an opening auction?",
+    "options": [
+      "To price in overnight news in an orderly way",
+      "To let brokers take a break",
+      "Because computers need a warm-up",
+      "To set the year's price"
+    ],
+    "answerIndex": 0,
+    "explanation": "News piles up overnight; collecting orders and finding one price avoids a chaotic start.",
+    "lessonLink": "/learn/trading-times/open-close-and-overlaps",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-028",
+    "category": "E",
+    "topic": "open-close-and-overlaps",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Normally, during which Vienna hours are both the Vienna Stock Exchange (continuous trading) and the NYSE core session open?",
+    "options": [
+      "15:30 – 17:30",
+      "09:00 – 12:00",
+      "17:30 – 22:00",
+      "12:00 – 15:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "NYSE core hours are 15:30–22:00 Vienna time and Vienna's continuous trading ends at 17:30, so the overlap is 15:30–17:30.",
+    "lessonLink": "/learn/trading-times/open-close-and-overlaps",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/",
+      "https://www.nyse.com/trade/hours-calendars"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-029",
+    "category": "E",
+    "topic": "open-close-and-overlaps",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why is there often heavy volume at the close?",
+    "options": [
+      "Many valuations and index trades use the closing price",
+      "Fees are lower at the close",
+      "The exchange gives discounts",
+      "Prices are fixed at the close"
+    ],
+    "answerIndex": 0,
+    "explanation": "Many investors and funds want to trade at the closing price, which is used for valuations and indexes, so their orders concentrate in the closing auction.",
+    "lessonLink": "/learn/trading-times/open-close-and-overlaps",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-030",
+    "category": "E",
+    "topic": "open-close-and-overlaps",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the biggest price moves of the day always happen at the open.",
+    "answerBool": false,
+    "explanation": "False. The open is often turbulent, but big moves can happen at any time, for example when unexpected news breaks.",
+    "lessonLink": "/learn/trading-times/open-close-and-overlaps",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-031",
+    "category": "E",
+    "topic": "triple-witching-and-rebalancing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When is 'triple witching' in the US?",
+    "options": [
+      "Third Friday of March, June, September and December",
+      "Every Friday",
+      "First Monday of each month",
+      "Last day of each year"
+    ],
+    "answerIndex": 0,
+    "explanation": "On the third Friday of March, June, September and December, when stock options, stock index futures and options on those futures expire.",
+    "lessonLink": "/learn/trading-times/triple-witching-and-rebalancing",
+    "sources": [
+      "https://www.nasdaq.com/glossary/t/triple-witching-hour"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-032",
+    "category": "E",
+    "topic": "triple-witching-and-rebalancing",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "On which day is the final settlement of EURO STOXX 50 index futures at Eurex?",
+    "options": [
+      "The third Friday of the contract month",
+      "The last day of the month",
+      "The first Monday of the month",
+      "Any day the buyer chooses"
+    ],
+    "answerIndex": 0,
+    "explanation": "The third Friday of the contract month, or the preceding exchange day if that Friday is not an exchange day.",
+    "lessonLink": "/learn/trading-times/triple-witching-and-rebalancing",
+    "sources": [
+      "https://www.eurex.com/ex-en/markets/idx/stx/euro-stoxx-50-derivatives/products/EURO-STOXX-50-Index-Futures-160088"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-033",
+    "category": "E",
+    "topic": "triple-witching-and-rebalancing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How often does the Vienna Stock Exchange's committee decide on changes to the ATX composition?",
+    "options": [
+      "Twice a year, in March and September",
+      "Every day",
+      "Once every five years",
+      "Only when a company goes bankrupt"
+    ],
+    "answerIndex": 0,
+    "explanation": "Twice a year, in March and September; calculation values are reviewed quarterly.",
+    "lessonLink": "/learn/trading-times/triple-witching-and-rebalancing",
+    "sources": [
+      "https://www.wienerborse.at/en/indices/index-changes/index-review/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-034",
+    "category": "E",
+    "topic": "triple-witching-and-rebalancing",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a share's price jump on index-inclusion day proves that the company's business is improving.",
+    "answerBool": false,
+    "explanation": "False. Index inclusion forces mechanical buying by index funds; it says little about business prospects.",
+    "lessonLink": "/learn/trading-times/triple-witching-and-rebalancing",
+    "sources": [
+      "https://www.wienerborse.at/en/indices/index-changes/index-review/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-035",
+    "category": "E",
+    "topic": "triple-witching-and-rebalancing",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Why do index funds often buy new index members in the closing auction?",
+    "options": [
+      "Changes usually take effect at the close, so funds match the closing price",
+      "Closing auctions have no fees",
+      "They must buy before the open",
+      "The law requires auctions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Index changes usually take effect at the close of the effective date, so funds trade at the closing price to match the index.",
+    "lessonLink": "/learn/trading-times/triple-witching-and-rebalancing",
+    "sources": [
+      "https://www.wienerborse.at/en/indices/index-changes/index-review/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-036",
+    "category": "E",
+    "topic": "overnight-trading",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What trading schedule are US exchanges preparing?",
+    "options": [
+      "23 hours a day, five days a week",
+      "24 hours a day, seven days a week",
+      "Only weekends",
+      "Shorter hours"
+    ],
+    "answerIndex": 0,
+    "explanation": "They are preparing near-continuous trading 23 hours a day, five days a week (23/5).",
+    "lessonLink": "/learn/trading-times/overnight-trading",
+    "sources": [
+      "https://www.nasdaq.com/products/north-american-markets/market-structure-policy/24-hour-trading-hub"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-037",
+    "category": "E",
+    "topic": "overnight-trading",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to Nasdaq, when is its new night session (9 p.m.–4 a.m. ET) scheduled to start?",
+    "options": [
+      "6 December 2026",
+      "1 January 2025",
+      "28 May 2024",
+      "11 October 2027"
+    ],
+    "answerIndex": 0,
+    "explanation": "Nasdaq states that the night session is scheduled to begin on 6 December 2026, pending readiness.",
+    "lessonLink": "/learn/trading-times/overnight-trading",
+    "sources": [
+      "https://www.nasdaq.com/products/north-american-markets/market-structure-policy/24-hour-trading-hub"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-038",
+    "category": "E",
+    "topic": "overnight-trading",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: being able to trade at night means night trading is as liquid as daytime trading.",
+    "answerBool": false,
+    "explanation": "False. Night sessions are expected to be thin, with less liquidity, wider spreads and bigger swings.",
+    "lessonLink": "/learn/trading-times/overnight-trading",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-039",
+    "category": "E",
+    "topic": "overnight-trading",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A $5,000 position has a 1% spread at night and a 0.05% spread during the day. How much more does a buy-and-sell round trip cost at night, in dollars?",
+    "answerNumber": 47.5,
+    "tolerance": 0.1,
+    "unit": "$",
+    "explanation": "Night: 1% of $5,000 = $50. Day: 0.05% of $5,000 = $2.50. Difference: $47.50.",
+    "lessonLink": "/learn/trading-times/overnight-trading",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-42"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-040",
+    "category": "E",
+    "topic": "lunch-breaks-asia",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Seen from Vienna, when do most Asian markets trade?",
+    "options": [
+      "During the European night and early morning",
+      "During the European afternoon",
+      "Only at weekends",
+      "At the same time as New York"
+    ],
+    "answerIndex": 0,
+    "explanation": "Because of the time difference, most Asian trading happens during the European night and early morning.",
+    "lessonLink": "/learn/trading-times/lunch-breaks-asia",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/01.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

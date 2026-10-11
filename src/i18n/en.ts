@@ -114,6 +114,8 @@ export const en = {
   'video.consent': 'Click to load the video. This connects to YouTube (Google).',
   'video.watchOnYouTube': 'Watch on YouTube',
   'video.minutes': '{n} min',
+  'video.noneYet': 'We have not yet found a video on this topic that meets our quality rules (accurate, neutral, no selling).',
+  'video.searchYouTube': 'Search YouTube for this topic',
 
   'quiz.practice': 'Practice quiz',
   'quiz.checkYourself': 'Check yourself',

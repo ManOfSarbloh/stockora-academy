@@ -2290,5 +2290,201 @@
       "D"
     ],
     "de": "Co-Location"
+  },
+  {
+    "id": "trading-hours",
+    "term": "Trading hours",
+    "aliases": [],
+    "definition": "The fixed times, in local time, during which an exchange is open for trading, usually split into auctions and continuous trading.",
+    "related": [
+      "pre-market",
+      "after-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Handelszeiten"
+  },
+  {
+    "id": "pre-market",
+    "term": "Pre-market trading",
+    "aliases": [
+      "pre-market",
+      "premarket"
+    ],
+    "definition": "Trading before the official opening of the regular session, mainly offered in the US. Liquidity is lower and spreads are wider.",
+    "related": [
+      "after-hours",
+      "trading-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "vorbörslicher Handel"
+  },
+  {
+    "id": "after-hours",
+    "term": "After-hours trading",
+    "aliases": [
+      "after-hours",
+      "extended-hours trading",
+      "extended hours"
+    ],
+    "definition": "Trading after the regular session closes, also called extended-hours trading. Prices can swing strongly on few trades.",
+    "related": [
+      "pre-market",
+      "trading-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "nachbörslicher Handel"
+  },
+  {
+    "id": "trade-at-close",
+    "term": "Trade at close",
+    "aliases": [],
+    "definition": "On the Vienna Stock Exchange, a short phase after the closing auction in which orders can be executed at the official closing price.",
+    "related": [
+      "closing-auction"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Trade at Close"
+  },
+  {
+    "id": "exchange-holiday",
+    "term": "Exchange holiday",
+    "aliases": [
+      "exchange holidays",
+      "trading holiday"
+    ],
+    "definition": "A weekday on which an exchange is closed. Exchange holidays do not always match public holidays.",
+    "related": [
+      "early-close"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Börsenfeiertag"
+  },
+  {
+    "id": "early-close",
+    "term": "Early close",
+    "aliases": [
+      "half-day",
+      "half day",
+      "early closes"
+    ],
+    "definition": "A shortened trading day, for example the NYSE closing at 1:00 p.m. on the day after Thanksgiving and on Christmas Eve.",
+    "related": [
+      "exchange-holiday"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "verkürzter Handelstag"
+  },
+  {
+    "id": "dst",
+    "term": "Daylight saving time",
+    "aliases": [
+      "DST",
+      "summer time",
+      "daylight saving"
+    ],
+    "definition": "Moving clocks forward one hour in summer. The EU switches on the last Sundays of March and October; the US on the second Sunday of March and the first Sunday of November.",
+    "related": [
+      "trading-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Sommerzeit"
+  },
+  {
+    "id": "market-overlap",
+    "term": "Market overlap",
+    "aliases": [
+      "overlap"
+    ],
+    "definition": "The hours when two major markets are open at the same time, such as Europe and the US (normally 15:30–17:30 Vienna time).",
+    "related": [
+      "trading-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Überschneidung der Handelszeiten"
+  },
+  {
+    "id": "triple-witching",
+    "term": "Triple witching",
+    "aliases": [
+      "quadruple witching"
+    ],
+    "definition": "The third Friday of March, June, September and December, when stock options, stock index futures and options on those futures expire together in the US.",
+    "related": [
+      "expiry-day",
+      "index-rebalancing"
+    ],
+    "categories": [
+      "E",
+      "N"
+    ],
+    "de": "Hexensabbat / großer Verfallstag"
+  },
+  {
+    "id": "expiry-day",
+    "term": "Expiry day",
+    "aliases": [
+      "expiration day",
+      "expiry",
+      "final settlement day"
+    ],
+    "definition": "The day on which a futures or options contract ends and is settled. For many European index derivatives it is the third Friday of the contract month.",
+    "related": [
+      "triple-witching"
+    ],
+    "categories": [
+      "E",
+      "N"
+    ],
+    "de": "Verfallstag"
+  },
+  {
+    "id": "index-rebalancing",
+    "term": "Index rebalancing",
+    "aliases": [
+      "rebalancing day",
+      "index review"
+    ],
+    "definition": "The regular review of an index, in which members are added or removed and weights adjusted; index funds then have to buy and sell accordingly.",
+    "related": [
+      "stock-index",
+      "triple-witching"
+    ],
+    "categories": [
+      "E",
+      "H"
+    ],
+    "de": "Indexanpassung"
+  },
+  {
+    "id": "overnight-trading",
+    "term": "Overnight trading",
+    "aliases": [
+      "23/5",
+      "24-hour trading"
+    ],
+    "definition": "Trading during the night, outside regular and early/late sessions. US exchanges are preparing near-continuous '23/5' trading.",
+    "related": [
+      "after-hours"
+    ],
+    "categories": [
+      "E"
+    ],
+    "de": "Nachthandel"
   }
 ]
