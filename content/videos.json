@@ -217,5 +217,37 @@
     "lessons": [
       "market-structure/high-frequency-trading"
     ]
+  },
+  {
+    "id": "xNi6K6QSg0k",
+    "title": "Market Order vs. Limit Order: What’s the Difference? | Investopedia",
+    "channel": "Investopedia",
+    "categories": [
+      "F"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.4,
+    "language": "en",
+    "whyGood": "A 90-second comparison of the two basic order types from a well-known financial education site.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "brokers-accounts-orders/market-and-limit-orders"
+    ]
+  },
+  {
+    "id": "TeHmx3H54jo",
+    "title": "Investopedia Video: Stop Order vs Limit Order",
+    "channel": "Investopedia",
+    "categories": [
+      "F"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 1.8,
+    "language": "en",
+    "whyGood": "A short explanation of how stop orders differ from limit orders, from a well-known financial education site.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "brokers-accounts-orders/stop-orders"
+    ]
   }
 ]

@@ -2486,5 +2486,515 @@
       "E"
     ],
     "de": "Nachthandel"
+  },
+  {
+    "id": "depot",
+    "term": "Securities account (Depot)",
+    "aliases": [
+      "securities account",
+      "Depot",
+      "Wertpapierdepot"
+    ],
+    "definition": "The account in which a bank or broker holds your securities. In Austria and Germany it is called a Depot. The securities in it belong to you.",
+    "related": [
+      "broker",
+      "custodian"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Depot / Wertpapierdepot"
+  },
+  {
+    "id": "neobroker",
+    "term": "Neobroker",
+    "aliases": [
+      "neobrokers"
+    ],
+    "definition": "An app-first online broker with a simple interface and often very low or no commission per trade. Total costs and order routing vary.",
+    "related": [
+      "broker",
+      "pfof"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Neobroker"
+  },
+  {
+    "id": "kyc",
+    "term": "Know your customer (KYC)",
+    "aliases": [
+      "KYC",
+      "know your customer",
+      "know-your-customer"
+    ],
+    "definition": "The duty of financial firms to verify a customer's identity and know essential facts about them, for example to prevent money laundering and fraud.",
+    "related": [
+      "appropriateness-assessment"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Kundenidentifizierung (KYC)"
+  },
+  {
+    "id": "suitability-assessment",
+    "term": "Suitability assessment",
+    "aliases": [
+      "suitability test"
+    ],
+    "definition": "Under MiFID II, the check a firm must make before giving advice or managing a portfolio: your knowledge and experience, financial situation and ability to bear losses, objectives and risk tolerance.",
+    "related": [
+      "appropriateness-assessment"
+    ],
+    "categories": [
+      "F",
+      "R"
+    ],
+    "de": "Geeignetheitsprüfung"
+  },
+  {
+    "id": "appropriateness-assessment",
+    "term": "Appropriateness assessment",
+    "aliases": [
+      "appropriateness test"
+    ],
+    "definition": "Under MiFID II, the check whether a client has the knowledge and experience to understand the risks of a product when it is bought without advice; if not, the firm must warn the client.",
+    "related": [
+      "suitability-assessment",
+      "kyc"
+    ],
+    "categories": [
+      "F",
+      "R"
+    ],
+    "de": "Angemessenheitsprüfung"
+  },
+  {
+    "id": "cash-account",
+    "term": "Cash account",
+    "aliases": [],
+    "definition": "A securities account in which you can only buy with your own money, so you cannot lose more than you put in.",
+    "related": [
+      "margin-account"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Bardepot / Cash-Konto"
+  },
+  {
+    "id": "margin-account",
+    "term": "Margin account",
+    "aliases": [
+      "margin accounts",
+      "buying on margin",
+      "margin loan"
+    ],
+    "definition": "A securities account in which the broker lends you money to buy securities, using your account as collateral. It magnifies gains and losses.",
+    "related": [
+      "margin-call",
+      "cash-account"
+    ],
+    "categories": [
+      "F",
+      "N"
+    ],
+    "de": "Margin-Konto / Wertpapierkreditkonto"
+  },
+  {
+    "id": "margin-call",
+    "term": "Margin call",
+    "aliases": [
+      "margin calls"
+    ],
+    "definition": "A demand from a broker to add money or securities to a margin account after prices have fallen. The broker can also sell your securities, possibly without notice.",
+    "related": [
+      "margin-account"
+    ],
+    "categories": [
+      "F",
+      "N"
+    ],
+    "de": "Nachschussforderung (Margin Call)"
+  },
+  {
+    "id": "isa",
+    "term": "ISA",
+    "aliases": [
+      "Individual Savings Account",
+      "stocks and shares ISA"
+    ],
+    "definition": "Individual Savings Account: a UK account in which savings and investments grow free of UK tax, up to an annual allowance (£20,000 in the 2026/27 tax year).",
+    "related": [
+      "ira",
+      "tfsa",
+      "nisa"
+    ],
+    "categories": [
+      "F",
+      "Q"
+    ],
+    "de": "ISA (UK)"
+  },
+  {
+    "id": "ira",
+    "term": "IRA and 401(k)",
+    "aliases": [
+      "IRA",
+      "401(k)",
+      "individual retirement arrangement"
+    ],
+    "definition": "US retirement accounts with tax advantages. For 2026, contribution limits are $7,500 for an IRA and $24,500 for a 401(k).",
+    "related": [
+      "isa"
+    ],
+    "categories": [
+      "F",
+      "Q"
+    ],
+    "de": "US-Altersvorsorgekonten"
+  },
+  {
+    "id": "nisa",
+    "term": "NISA",
+    "aliases": [],
+    "definition": "Nippon Individual Savings Account: Japan's tax-exempt investment account.",
+    "related": [
+      "isa"
+    ],
+    "categories": [
+      "F",
+      "Q",
+      "S"
+    ],
+    "de": "NISA (Japan)"
+  },
+  {
+    "id": "tfsa",
+    "term": "TFSA",
+    "aliases": [
+      "Tax-Free Savings Account"
+    ],
+    "definition": "Tax-Free Savings Account: a Canadian account in which interest, dividends and capital gains are generally tax-free, even on withdrawal; contributions are not tax-deductible.",
+    "related": [
+      "isa"
+    ],
+    "categories": [
+      "F",
+      "Q"
+    ],
+    "de": "TFSA (Kanada)"
+  },
+  {
+    "id": "market-order",
+    "term": "Market order",
+    "aliases": [
+      "market orders"
+    ],
+    "definition": "An order to buy or sell immediately at the best available price. It guarantees execution, but not the price.",
+    "related": [
+      "limit-order",
+      "slippage"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Bestens-/Billigst-Auftrag (Market Order)"
+  },
+  {
+    "id": "limit-order",
+    "term": "Limit order",
+    "aliases": [
+      "limit orders",
+      "buy limit",
+      "sell limit"
+    ],
+    "definition": "An order to buy at or below, or sell at or above, a set price. It guarantees the price (or better), but not execution.",
+    "related": [
+      "market-order",
+      "stop-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Limit-Order"
+  },
+  {
+    "id": "slippage",
+    "term": "Slippage",
+    "aliases": [],
+    "definition": "The difference between the price you expected when placing an order and the price at which it was actually executed.",
+    "related": [
+      "market-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Slippage / Ausführungsabweichung"
+  },
+  {
+    "id": "partial-fill",
+    "term": "Partial fill",
+    "aliases": [
+      "partial fills",
+      "partially filled"
+    ],
+    "definition": "When only part of an order is executed because not enough shares are available at the acceptable price.",
+    "related": [
+      "limit-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Teilausführung"
+  },
+  {
+    "id": "stop-order",
+    "term": "Stop order",
+    "aliases": [
+      "stop-loss order",
+      "stop-loss orders",
+      "stop-loss",
+      "stop orders",
+      "sell stop",
+      "buy stop"
+    ],
+    "definition": "An order that becomes a market order when a set stop price is reached. A sell stop below the current price is used to limit losses (stop-loss).",
+    "related": [
+      "stop-limit-order",
+      "trailing-stop"
+    ],
+    "categories": [
+      "F",
+      "P"
+    ],
+    "de": "Stop-Order / Stop-Loss"
+  },
+  {
+    "id": "stop-limit-order",
+    "term": "Stop-limit order",
+    "aliases": [
+      "stop-limit"
+    ],
+    "definition": "An order that becomes a limit order when a stop price is reached. It protects the price but may not execute at all.",
+    "related": [
+      "stop-order",
+      "limit-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Stop-Limit-Order"
+  },
+  {
+    "id": "trailing-stop",
+    "term": "Trailing stop",
+    "aliases": [
+      "trailing stop order",
+      "trailing stops"
+    ],
+    "definition": "A stop order whose stop price follows the market price at a set distance as the price moves favourably, but does not move back.",
+    "related": [
+      "stop-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Trailing Stop / nachgezogener Stop"
+  },
+  {
+    "id": "day-order",
+    "term": "Day order",
+    "aliases": [
+      "day orders"
+    ],
+    "definition": "An order valid only for the trading day it is entered; if not executed, it is generally cancelled at the end of regular trading hours.",
+    "related": [
+      "gtc"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Tagesorder"
+  },
+  {
+    "id": "gtc",
+    "term": "Good-till-cancelled",
+    "aliases": [
+      "GTC",
+      "good-til-canceled",
+      "good-till-canceled"
+    ],
+    "definition": "An order that stays open until it is executed or cancelled (brokers usually set a maximum period).",
+    "related": [
+      "day-order"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "gültig bis auf Widerruf"
+  },
+  {
+    "id": "ioc",
+    "term": "Immediate-or-cancel",
+    "aliases": [
+      "IOC"
+    ],
+    "definition": "An order that must be executed immediately; any part that cannot be filled at once is cancelled.",
+    "related": [
+      "fok"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Immediate-or-Cancel (IOC)"
+  },
+  {
+    "id": "fok",
+    "term": "Fill-or-kill",
+    "aliases": [
+      "FOK"
+    ],
+    "definition": "An order that must be executed immediately and in full, otherwise it is cancelled completely.",
+    "related": [
+      "ioc"
+    ],
+    "categories": [
+      "F"
+    ],
+    "de": "Fill-or-Kill (FOK)"
+  },
+  {
+    "id": "savings-plan",
+    "term": "Savings plan",
+    "aliases": [
+      "savings plans",
+      "Sparplan"
+    ],
+    "definition": "Investing a fixed amount automatically at regular intervals, for example monthly, often in an ETF or fund.",
+    "related": [
+      "cost-average-effect"
+    ],
+    "categories": [
+      "F",
+      "M"
+    ],
+    "de": "Sparplan"
+  },
+  {
+    "id": "cost-average-effect",
+    "term": "Cost-average effect",
+    "aliases": [
+      "cost-average effect",
+      "cost averaging"
+    ],
+    "definition": "Investing the same amount regularly means buying more units when prices are low and fewer when they are high, which lowers the average cost per unit compared with the average price.",
+    "related": [
+      "savings-plan"
+    ],
+    "categories": [
+      "F",
+      "M"
+    ],
+    "de": "Durchschnittskosteneffekt (Cost-Average-Effekt)"
+  },
+  {
+    "id": "securities-lending",
+    "term": "Securities lending",
+    "aliases": [],
+    "definition": "Lending securities to another party for a period against collateral and a fee; the borrower returns securities of the same kind and number. Often used for short selling.",
+    "related": [
+      "short-selling"
+    ],
+    "categories": [
+      "F",
+      "N"
+    ],
+    "de": "Wertpapierleihe"
+  },
+  {
+    "id": "pfof",
+    "term": "Payment for order flow",
+    "aliases": [
+      "PFOF"
+    ],
+    "definition": "Payments a broker receives from a trading firm for sending client orders to it. It creates a conflict of interest and is banned in the EU (fully since 30 June 2026).",
+    "related": [
+      "best-execution",
+      "neobroker"
+    ],
+    "categories": [
+      "F",
+      "R"
+    ],
+    "de": "Payment for Order Flow (PFOF)"
+  },
+  {
+    "id": "best-execution",
+    "term": "Best execution",
+    "aliases": [],
+    "definition": "The EU duty of investment firms to take sufficient steps to obtain the best possible result for clients when executing orders; for retail clients, measured by total cost.",
+    "related": [
+      "pfof"
+    ],
+    "categories": [
+      "F",
+      "R"
+    ],
+    "de": "bestmögliche Ausführung"
+  },
+  {
+    "id": "deposit-guarantee",
+    "term": "Deposit guarantee",
+    "aliases": [
+      "deposit guarantee scheme",
+      "deposit protection"
+    ],
+    "definition": "Protection of bank deposits if a bank fails: in the EU, up to €100,000 per person per bank. In Austria it also covers securities clearing accounts, but not the securities themselves.",
+    "related": [
+      "investor-compensation"
+    ],
+    "categories": [
+      "F",
+      "P"
+    ],
+    "de": "Einlagensicherung"
+  },
+  {
+    "id": "investor-compensation",
+    "term": "Investor compensation",
+    "aliases": [
+      "investor compensation scheme"
+    ],
+    "definition": "Compensation if a bank or investment firm cannot return clients' securities or money owed from securities business; in Austria up to €20,000 per investor. It does not cover market losses.",
+    "related": [
+      "deposit-guarantee"
+    ],
+    "categories": [
+      "F",
+      "P"
+    ],
+    "de": "Anlegerentschädigung"
+  },
+  {
+    "id": "short-selling",
+    "term": "Short selling",
+    "aliases": [
+      "short sale",
+      "short selling",
+      "short seller",
+      "short sellers",
+      "shorting"
+    ],
+    "definition": "Selling borrowed shares in the hope of buying them back later at a lower price. Losses are theoretically unlimited if the price rises.",
+    "related": [
+      "securities-lending"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Leerverkauf"
   }
 ]

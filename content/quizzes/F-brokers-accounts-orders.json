@@ -1,0 +1,872 @@
+[
+  {
+    "id": "F-001",
+    "category": "F",
+    "topic": "what-a-broker-does",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do private investors need a broker to buy shares on an exchange?",
+    "options": [
+      "Exchanges only deal with their members",
+      "Brokers set share prices",
+      "The law forbids owning shares directly",
+      "Brokers guarantee profits"
+    ],
+    "answerIndex": 0,
+    "explanation": "Exchanges deal only with their members (mainly banks and investment firms). A broker passes your orders to the market and holds your securities.",
+    "lessonLink": "/learn/brokers-accounts-orders/what-a-broker-does",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-002",
+    "category": "F",
+    "topic": "what-a-broker-does",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a 'Depot' in Austria and Germany?",
+    "options": [
+      "A securities account",
+      "A cash savings book",
+      "A type of share",
+      "A tax form"
+    ],
+    "answerIndex": 0,
+    "explanation": "A Depot is the securities account in which your bank or broker holds your securities.",
+    "lessonLink": "/learn/brokers-accounts-orders/what-a-broker-does",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-003",
+    "category": "F",
+    "topic": "what-a-broker-does",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a broker that charges zero commission per trade has no other costs.",
+    "answerBool": false,
+    "explanation": "False. Brokers earn money elsewhere: spreads, currency fees, account fees, interest on cash and more. Compare total costs.",
+    "lessonLink": "/learn/brokers-accounts-orders/what-a-broker-does",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-004",
+    "category": "F",
+    "topic": "what-a-broker-does",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the securities in your Depot legally belong to the broker.",
+    "answerBool": false,
+    "explanation": "False. They belong to you. If the firm cannot return them in an insolvency, investor compensation may step in up to a limit.",
+    "lessonLink": "/learn/brokers-accounts-orders/what-a-broker-does",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-005",
+    "category": "F",
+    "topic": "choosing-a-broker",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What should you check first when choosing a broker?",
+    "options": [
+      "Whether it is authorised and supervised",
+      "How nice its app looks",
+      "How many followers it has online",
+      "Whether it offers a welcome bonus"
+    ],
+    "answerIndex": 0,
+    "explanation": "First check that the firm is authorised and supervised, e.g. in the FMA's company database, and that it is not a cloned or fake firm.",
+    "lessonLink": "/learn/brokers-accounts-orders/choosing-a-broker",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-006",
+    "category": "F",
+    "topic": "choosing-a-broker",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Fraudsters 'clone' real firms. What is a good protection?",
+    "options": [
+      "Compare the contact details with the official register",
+      "Trust the registration number shown on their website",
+      "Call the number in the email you received",
+      "Ask the salesperson if they are licensed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Compare the contact details (website, phone, email) with those in the official register and contact the firm only through those.",
+    "lessonLink": "/learn/brokers-accounts-orders/choosing-a-broker",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-007",
+    "category": "F",
+    "topic": "choosing-a-broker",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which costs should you compare between brokers? Select all that apply.",
+    "options": [
+      "Commission per trade",
+      "Custody or account fees",
+      "Currency conversion fees",
+      "The colour of the app"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Look at total costs: commissions, custody/account fees and currency conversion fees all matter. A welcome gift is not a cost criterion.",
+    "lessonLink": "/learn/brokers-accounts-orders/choosing-a-broker",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-008",
+    "category": "F",
+    "topic": "choosing-a-broker",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to the FMA, what do some fraudsters do to look regulated?",
+    "options": [
+      "Invent a fake regulator with a fake register",
+      "Publish real audited accounts",
+      "Join the investor compensation scheme",
+      "Get listed on the stock exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA warns that some fraudsters even invent a supervisory authority with a fake database of convincing-looking but forged registry documents.",
+    "lessonLink": "/learn/brokers-accounts-orders/choosing-a-broker",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-009",
+    "category": "F",
+    "topic": "opening-an-account",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does 'KYC' stand for?",
+    "options": [
+      "Know your customer",
+      "Keep your cash",
+      "Key yield calculation",
+      "Know your company"
+    ],
+    "answerIndex": 0,
+    "explanation": "Know your customer: firms must verify your identity and know essential facts about you.",
+    "lessonLink": "/learn/brokers-accounts-orders/opening-an-account",
+    "sources": [
+      "https://www.finra.org/rules-guidance/rulebooks/finra-rules/2090"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-010",
+    "category": "F",
+    "topic": "opening-an-account",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Under MiFID II, what must a firm assess before giving investment advice?",
+    "options": [
+      "Suitability: knowledge, finances, objectives and risk tolerance",
+      "Only your age",
+      "Only your income",
+      "Nothing, advice is free"
+    ],
+    "answerIndex": 0,
+    "explanation": "Suitability: your knowledge and experience, financial situation including ability to bear losses, and objectives including risk tolerance.",
+    "lessonLink": "/learn/brokers-accounts-orders/opening-an-account",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-011",
+    "category": "F",
+    "topic": "opening-an-account",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "You trade a complex product without advice and the firm judges it not appropriate for you. What must the firm do?",
+    "options": [
+      "Warn you",
+      "Close your account",
+      "Report you to the police",
+      "Nothing"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under MiFID II Article 25(3), the firm must warn you that the product is not appropriate (it may still carry out your order).",
+    "lessonLink": "/learn/brokers-accounts-orders/opening-an-account",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-012",
+    "category": "F",
+    "topic": "opening-an-account",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: it is a good idea to exaggerate your experience in the broker's questionnaire to unlock more products.",
+    "answerBool": false,
+    "explanation": "False. The questions protect you; inaccurate answers remove warnings that exist for your benefit.",
+    "lessonLink": "/learn/brokers-accounts-orders/opening-an-account",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-013",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a cash account, what is the most you can lose?",
+    "options": [
+      "What you put in",
+      "Twice what you put in",
+      "Unlimited amounts",
+      "Nothing at all"
+    ],
+    "answerIndex": 0,
+    "explanation": "You only invest your own money, so you cannot lose more than you put in.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-014",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You invest €5,000 of your own money plus €5,000 borrowed on margin in shares worth €10,000. The shares fall 20%. How much of your own money is left, in euros (ignoring interest)?",
+    "answerNumber": 3000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Shares are worth €8,000; you still owe €5,000; €8,000 − €5,000 = €3,000 left, a 40% loss on your €5,000.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-015",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, what can a broker do if the value of a margin account falls too far?",
+    "options": [
+      "Sell your securities, possibly without notice",
+      "Nothing until you agree",
+      "Cancel your debt",
+      "Pay you compensation"
+    ],
+    "answerIndex": 0,
+    "explanation": "The broker can issue a margin call and can also sell your securities, possibly without notice and at a substantial loss.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-016",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the UK's overall ISA allowance for the 2026/27 tax year, in pounds?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "£",
+    "explanation": "Every tax year you can save up to £20,000 across your ISAs.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.gov.uk/individual-savings-accounts/how-isas-work"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-017",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which US limit applies in 2026 according to the IRS?",
+    "options": [
+      "401(k): $24,500; IRA: $7,500",
+      "401(k): $7,500; IRA: $24,500",
+      "Both: $20,000",
+      "There are no limits"
+    ],
+    "answerIndex": 0,
+    "explanation": "For 2026, the 401(k) contribution limit is $24,500 and the IRA limit is $7,500.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-018",
+    "category": "F",
+    "topic": "account-types",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is true of a Canadian TFSA?",
+    "options": [
+      "Income and gains are generally tax-free; contributions are not deductible",
+      "Contributions are deductible, withdrawals are taxed",
+      "It is only for companies",
+      "It is a type of bond"
+    ],
+    "answerIndex": 0,
+    "explanation": "Income and gains in a TFSA are generally tax-free even when withdrawn, but contributions are not tax-deductible.",
+    "lessonLink": "/learn/brokers-accounts-orders/account-types",
+    "sources": [
+      "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/what.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-019",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a market order guarantee?",
+    "options": [
+      "Execution, but not the price",
+      "The price, but not execution",
+      "Both price and execution",
+      "Neither"
+    ],
+    "answerIndex": 0,
+    "explanation": "A market order generally guarantees execution, but not the execution price.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-020",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A buy limit order at €50 can be executed at which prices?",
+    "options": [
+      "€50 or lower",
+      "€50 or higher",
+      "Exactly €50 only",
+      "Any price"
+    ],
+    "answerIndex": 0,
+    "explanation": "A buy limit executes only at the limit price or lower: €50 or below.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-021",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy 500 shares with a market order: 200 at €20.02 and 300 at €20.10. What do you pay in total, in euros?",
+    "answerNumber": 10034,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "200 × €20.02 = €4,004 plus 300 × €20.10 = €6,030, total €10,034.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-022",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is slippage?",
+    "options": [
+      "The difference between the expected and actual execution price",
+      "A broker fee",
+      "A type of order",
+      "A tax on trades"
+    ],
+    "answerIndex": 0,
+    "explanation": "The difference between the expected price and the price at which an order is actually executed.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-023",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When is a limit order especially useful?",
+    "options": [
+      "In illiquid or fast-moving markets",
+      "Only when buying government bonds",
+      "Never, it is outdated",
+      "Only on Fridays"
+    ],
+    "answerIndex": 0,
+    "explanation": "In less liquid or fast-moving markets and outside regular hours, a limit order protects you from very bad prices.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-024",
+    "category": "F",
+    "topic": "market-and-limit-orders",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a limit order always gets executed.",
+    "answerBool": false,
+    "explanation": "False. If the market never reaches your limit price, the order is not executed.",
+    "lessonLink": "/learn/brokers-accounts-orders/market-and-limit-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-025",
+    "category": "F",
+    "topic": "stop-orders",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What happens when a sell stop order's stop price is reached?",
+    "options": [
+      "It becomes a market order to sell",
+      "It is cancelled",
+      "It becomes a buy order",
+      "It waits until the next day"
+    ],
+    "answerIndex": 0,
+    "explanation": "It becomes a market order to sell.",
+    "lessonLink": "/learn/brokers-accounts-orders/stop-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-026",
+    "category": "F",
+    "topic": "stop-orders",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Your sell stop is at €36. Overnight bad news makes the share open at €30. What happens?",
+    "options": [
+      "You sell at around €30",
+      "You sell at exactly €36",
+      "Nothing happens",
+      "The exchange reverses the price"
+    ],
+    "answerIndex": 0,
+    "explanation": "The stop is triggered and a market order sells at around €30; the stop price is not a guaranteed execution price.",
+    "lessonLink": "/learn/brokers-accounts-orders/stop-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-027",
+    "category": "F",
+    "topic": "stop-orders",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the main risk of a stop-limit order?",
+    "options": [
+      "It may not execute at all",
+      "It always sells at a loss",
+      "It has no stop price",
+      "It can only be used for buying"
+    ],
+    "answerIndex": 0,
+    "explanation": "When triggered it becomes a limit order, so it may not execute at all if the price moves past the limit.",
+    "lessonLink": "/learn/brokers-accounts-orders/stop-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-028",
+    "category": "F",
+    "topic": "stop-orders",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy at $20 with a $1 trailing stop. The price rises to $24, then falls. At what price does the stop trigger, in dollars?",
+    "answerNumber": 23,
+    "tolerance": 0,
+    "unit": "$",
+    "explanation": "The trailing stop follows the highest price at a $1 distance: $24 − $1 = $23.",
+    "lessonLink": "/learn/brokers-accounts-orders/stop-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-029",
+    "category": "F",
+    "topic": "stop-orders",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a stop-loss order guarantees that your loss cannot exceed the distance to the stop price.",
+    "answerBool": false,
+    "explanation": "False. Gaps and fast markets can lead to execution far below the stop price.",
+    "lessonLink": "/learn/brokers-accounts-orders/stop-orders",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-030",
+    "category": "F",
+    "topic": "order-validity",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What happens to an unexecuted day order at the end of the trading day?",
+    "options": [
+      "It is cancelled",
+      "It stays open forever",
+      "It is executed at any price",
+      "It turns into a stop order"
+    ],
+    "answerIndex": 0,
+    "explanation": "It generally cancels at the end of regular trading hours.",
+    "lessonLink": "/learn/brokers-accounts-orders/order-validity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-031",
+    "category": "F",
+    "topic": "order-validity",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a good-till-cancelled (GTC) order?",
+    "options": [
+      "An order that stays open until executed or cancelled",
+      "An order valid for one minute",
+      "An order that must fill immediately",
+      "A cancelled order"
+    ],
+    "answerIndex": 0,
+    "explanation": "An order that stays open until executed or cancelled (brokers usually set a maximum time).",
+    "lessonLink": "/learn/brokers-accounts-orders/order-validity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-032",
+    "category": "F",
+    "topic": "order-validity",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the difference between immediate-or-cancel (IOC) and fill-or-kill (FOK)?",
+    "options": [
+      "IOC allows partial fills; FOK does not",
+      "FOK allows partial fills; IOC does not",
+      "They are the same",
+      "Both stay open all day"
+    ],
+    "answerIndex": 0,
+    "explanation": "IOC fills what it can immediately and cancels the rest; FOK must fill completely at once or is cancelled entirely.",
+    "lessonLink": "/learn/brokers-accounts-orders/order-validity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-033",
+    "category": "F",
+    "topic": "order-validity",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a GTC order not filled today may still execute weeks later.",
+    "answerBool": true,
+    "explanation": "True. It remains in the market until executed or cancelled (within the broker's maximum period).",
+    "lessonLink": "/learn/brokers-accounts-orders/order-validity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-034",
+    "category": "F",
+    "topic": "savings-plans-and-lending",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a savings plan (Sparplan)?",
+    "options": [
+      "Investing a fixed amount at regular intervals",
+      "A bank savings book",
+      "A plan to sell all shares",
+      "A type of tax refund"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investing a fixed amount automatically at regular intervals, for example monthly.",
+    "lessonLink": "/learn/brokers-accounts-orders/savings-plans-and-lending",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-035",
+    "category": "F",
+    "topic": "savings-plans-and-lending",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You invest €100 each month at prices €50, €40 and €50. What is your average cost per unit, in euros (two decimals)?",
+    "answerNumber": 46.15,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Units: 2 + 2.5 + 2 = 6.5. €300 ÷ 6.5 ≈ €46.15.",
+    "lessonLink": "/learn/brokers-accounts-orders/savings-plans-and-lending",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-036",
+    "category": "F",
+    "topic": "savings-plans-and-lending",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A savings plan purchase costs a €1.50 fee on a €25 investment. What percentage of the payment is the fee?",
+    "answerNumber": 6,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "€1.50 ÷ €25 = 0.06 = 6%.",
+    "lessonLink": "/learn/brokers-accounts-orders/savings-plans-and-lending",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-037",
+    "category": "F",
+    "topic": "savings-plans-and-lending",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is securities lending?",
+    "options": [
+      "Lending securities against collateral and a fee",
+      "Buying shares with borrowed money",
+      "Gifting shares to family",
+      "Pledging a house"
+    ],
+    "answerIndex": 0,
+    "explanation": "Lending securities to another party for a period, usually against collateral and a fee; the same kind and number must be returned.",
+    "lessonLink": "/learn/brokers-accounts-orders/savings-plans-and-lending",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-w/wertpapierleihe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-038",
+    "category": "F",
+    "topic": "savings-plans-and-lending",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a savings plan cannot lose money.",
+    "answerBool": false,
+    "explanation": "False. It is only a way of buying regularly; if the investment falls, so does the savings plan.",
+    "lessonLink": "/learn/brokers-accounts-orders/savings-plans-and-lending",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/durchschnittskosteneffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-039",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is payment for order flow?",
+    "options": [
+      "Payments to a broker for routing client orders to a trading firm",
+      "A fee investors pay the exchange",
+      "Dividends on shares",
+      "A tax on trading"
+    ],
+    "answerIndex": 0,
+    "explanation": "Payments a broker receives from a trading firm for sending client orders to it.",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifir/article-39a-prohibition-receiving-payment"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-040",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Until when could EU Member States exempt existing firms from the PFOF ban?",
+    "options": [
+      "30 June 2026",
+      "1 January 2018",
+      "11 October 2027",
+      "There was no exemption"
+    ],
+    "answerIndex": 0,
+    "explanation": "Article 39a MiFIR allowed a temporary national exemption until 30 June 2026.",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifir/article-39a-prohibition-receiving-payment"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-041",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Under MiFID II, how is 'best execution' measured for retail clients?",
+    "options": [
+      "Total cost: price plus execution-related costs",
+      "Speed only",
+      "The broker's profit",
+      "The number of venues used"
+    ],
+    "answerIndex": 0,
+    "explanation": "By total consideration: the price plus all costs related to execution.",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-27-obligation-execute-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-042",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In Austria, deposits are protected up to how many euros per person per bank?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The deposit guarantee covers up to €100,000 per person per bank (in special cases more).",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-043",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In Austria, investor compensation covers up to how many euros per investor?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Investor compensation covers up to €20,000 per investor (90% for legal entities, max. €20,000).",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-invest.php",
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-044",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: investor compensation reimburses you if your shares fall in price.",
+    "answerBool": false,
+    "explanation": "False. It only applies if a firm cannot return your securities or money; it does not cover market losses.",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-045",
+    "category": "F",
+    "topic": "pfof-and-investor-protection",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to the FMA, how long do you have to claim investor compensation after an investment firm goes bankrupt?",
+    "options": [
+      "One year",
+      "One week",
+      "Ten years",
+      "No deadline"
+    ],
+    "answerIndex": 0,
+    "explanation": "You have one year from the bankruptcy to file the claim with the compensation scheme; filing in the insolvency proceedings alone is not enough.",
+    "lessonLink": "/learn/brokers-accounts-orders/pfof-and-investor-protection",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
