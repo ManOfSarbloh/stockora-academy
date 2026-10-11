@@ -1,1 +1,1845 @@
-[]
+[
+  {
+    "id": "wiener-boerse",
+    "name": "Wiener Börse (Vienna Stock Exchange)",
+    "shortName": "Vienna",
+    "city": "Vienna",
+    "country": "AT",
+    "region": "europe",
+    "timeZone": "Europe/Vienna",
+    "website": "https://www.wienerborse.at/en/",
+    "hoursSource": "https://www.wienerborse.at/en/trading/trading-information/trading-hours/",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "08:55",
+        "end": "09:00"
+      },
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "17:30"
+      },
+      {
+        "type": "auction-close",
+        "start": "17:30",
+        "end": "17:35"
+      },
+      {
+        "type": "post",
+        "start": "17:35",
+        "end": "17:45",
+        "label": "Trade at close"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-10-26",
+        "name": "National Holiday"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-10-26",
+        "name": "National Holiday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve"
+      }
+    ],
+    "holidaysSource": "https://www.wienerborse.at/en/trading/trading-information/trading-calendar/",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Times for ATX shares (prime market, continuous trading). A short intraday auction runs 12:00–12:03. Less liquid shares may trade in auctions only. Vienna trades on several Austrian public holidays, e.g. Epiphany, Ascension Day, Whit Monday and Corpus Christi.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "xetra",
+    "name": "Xetra (Deutsche Börse, Frankfurt)",
+    "shortName": "Frankfurt (Xetra)",
+    "city": "Frankfurt",
+    "country": "DE",
+    "region": "europe",
+    "timeZone": "Europe/Berlin",
+    "website": "https://www.xetra.com/",
+    "hoursSource": "https://cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "17:30"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve"
+      }
+    ],
+    "holidaysSource": "https://cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Xetra continuous trading 09:00–17:30, with opening and closing auctions (see the auction schedule). The Frankfurt floor (Börse Frankfurt) generally trades 08:00–22:00. Deutsche Börse says trading hours may deviate on 30 December 2026.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "six",
+    "name": "SIX Swiss Exchange",
+    "shortName": "Zurich (SIX)",
+    "city": "Zurich",
+    "country": "CH",
+    "region": "europe",
+    "timeZone": "Europe/Zurich",
+    "website": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange.html",
+    "hoursSource": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/trading-provisions/trading-hours.html",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "17:20"
+      },
+      {
+        "type": "auction-close",
+        "start": "17:20",
+        "end": "17:30"
+      },
+      {
+        "type": "post",
+        "start": "17:30",
+        "end": "17:40",
+        "label": "Trading-At-Last"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-01-02",
+        "name": "Berchtold's Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-05-14",
+        "name": "Ascension Day"
+      },
+      {
+        "date": "2026-05-25",
+        "name": "Whit Monday"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-05-06",
+        "name": "Ascension Day"
+      },
+      {
+        "date": "2027-05-17",
+        "name": "Whit Monday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve"
+      }
+    ],
+    "holidaysSource": "https://www.six-group.com/en/market-data/news-tools/trading-currency-holiday-calendar.html",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Times for shares: opening auction at 09:00, continuous trading until 17:20, closing auction 17:20–17:30, then Trading-At-Last at the closing price until 17:40 for blue-chip and mid/small-cap shares.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "lse",
+    "name": "London Stock Exchange",
+    "shortName": "London (LSE)",
+    "city": "London",
+    "country": "GB",
+    "region": "europe",
+    "timeZone": "Europe/London",
+    "website": "https://www.londonstockexchange.com/",
+    "hoursSource": "https://docs.londonstockexchange.com/sites/default/files/documents/20260727-mit-and-te-parameters-version-10-0.xlsx",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "07:50",
+        "end": "08:00"
+      },
+      {
+        "type": "regular",
+        "start": "08:00",
+        "end": "16:30"
+      },
+      {
+        "type": "auction-close",
+        "start": "16:30",
+        "end": "16:35"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-05-04",
+        "name": "Early May bank holiday"
+      },
+      {
+        "date": "2026-05-25",
+        "name": "Spring bank holiday"
+      },
+      {
+        "date": "2026-08-31",
+        "name": "Summer bank holiday"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "12:30"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-28",
+        "name": "Boxing Day (substitute)"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve",
+        "earlyClose": "12:30"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-05-03",
+        "name": "Early May bank holiday"
+      },
+      {
+        "date": "2027-05-31",
+        "name": "Spring bank holiday"
+      },
+      {
+        "date": "2027-08-30",
+        "name": "Summer bank holiday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "12:30"
+      },
+      {
+        "date": "2027-12-27",
+        "name": "Christmas Day (substitute)"
+      },
+      {
+        "date": "2027-12-28",
+        "name": "Boxing Day (substitute)"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve",
+        "earlyClose": "12:30"
+      }
+    ],
+    "holidaysSource": "https://www.londonstockexchange.com/equities-trading/business-days",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "extraSources": [
+      {
+        "title": "UK bank holidays, England and Wales (GOV.UK)",
+        "url": "https://www.gov.uk/bank-holidays"
+      }
+    ],
+    "notes": "Times for SETS, the order book for the most liquid shares: opening auction 07:50–08:00, continuous trading 08:00–16:30, closing auction 16:30–16:35. On half days continuous trading ends at 12:30. The London Stock Exchange follows the public and bank holidays of England and Wales; holidays before September 2026 are taken from GOV.UK.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "euronext-paris",
+    "name": "Euronext Paris",
+    "shortName": "Paris (Euronext)",
+    "city": "Paris",
+    "country": "FR",
+    "region": "europe",
+    "timeZone": "Europe/Paris",
+    "website": "https://www.euronext.com/en",
+    "hoursSource": "https://live.euronext.com/resources/trading-hours-holidays",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "17:30"
+      },
+      {
+        "type": "auction-close",
+        "start": "17:30",
+        "end": "17:35"
+      },
+      {
+        "type": "post",
+        "start": "17:35",
+        "end": "17:40",
+        "label": "Trading at last"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "halfDay": true
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve",
+        "halfDay": true
+      }
+    ],
+    "holidaysSource": "https://live.euronext.com/resources/trading-hours-holidays",
+    "holidayYears": [
+      2026
+    ],
+    "notes": "Times for CAC 40 shares: continuous trading 09:00–17:30 after the opening auction, closing auction until 17:35, then trading at the closing price until 17:40. Amsterdam, Brussels and Lisbon have the same 2026 closing and half days. Euronext had not yet published its 2027 calendar or the exact half-day hours for 24 and 31 December 2026.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "nyse",
+    "name": "New York Stock Exchange (NYSE)",
+    "shortName": "New York (NYSE)",
+    "city": "New York",
+    "country": "US",
+    "region": "americas",
+    "timeZone": "America/New_York",
+    "website": "https://www.nyse.com/",
+    "hoursSource": "https://www.nyse.com/trade/hours-calendars",
+    "sessions": [
+      {
+        "type": "pre",
+        "start": "04:00",
+        "end": "09:30",
+        "label": "Early trading (NYSE Arca)"
+      },
+      {
+        "type": "regular",
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "type": "post",
+        "start": "16:00",
+        "end": "20:00",
+        "label": "Late trading (NYSE Arca)"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-01-19",
+        "name": "Martin Luther King, Jr. Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Washington's Birthday"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-05-25",
+        "name": "Memorial Day"
+      },
+      {
+        "date": "2026-06-19",
+        "name": "Juneteenth"
+      },
+      {
+        "date": "2026-07-03",
+        "name": "Independence Day (observed)"
+      },
+      {
+        "date": "2026-09-07",
+        "name": "Labor Day"
+      },
+      {
+        "date": "2026-11-26",
+        "name": "Thanksgiving Day"
+      },
+      {
+        "date": "2026-11-27",
+        "name": "Day after Thanksgiving",
+        "earlyClose": "13:00",
+        "earlyPostClose": "17:00"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "13:00",
+        "earlyPostClose": "17:00"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-01-18",
+        "name": "Martin Luther King, Jr. Day"
+      },
+      {
+        "date": "2027-02-15",
+        "name": "Washington's Birthday"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-05-31",
+        "name": "Memorial Day"
+      },
+      {
+        "date": "2027-06-18",
+        "name": "Juneteenth (observed)"
+      },
+      {
+        "date": "2027-07-05",
+        "name": "Independence Day (observed)"
+      },
+      {
+        "date": "2027-09-06",
+        "name": "Labor Day"
+      },
+      {
+        "date": "2027-11-25",
+        "name": "Thanksgiving Day"
+      },
+      {
+        "date": "2027-11-26",
+        "name": "Day after Thanksgiving",
+        "earlyClose": "13:00",
+        "earlyPostClose": "17:00"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Day (observed)"
+      }
+    ],
+    "holidaysSource": "https://www.nyse.com/trade/hours-calendars",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Core session 9:30 a.m.–4:00 p.m. ET with opening and closing auctions. Extended hours shown are NYSE Arca's early (4:00–9:30) and late (16:00–20:00) sessions; other venues and brokers use different extended hours. Nasdaq publishes the same 2026 holidays and early closes.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "tsx",
+    "name": "Toronto Stock Exchange (TSX)",
+    "shortName": "Toronto (TSX)",
+    "city": "Toronto",
+    "country": "CA",
+    "region": "americas",
+    "timeZone": "America/Toronto",
+    "website": "https://www.tsx.com/",
+    "hoursSource": "https://www.tsx.com/en/trading/calendars-and-trading-hours/trading-hours",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "type": "post",
+        "start": "16:15",
+        "end": "17:00",
+        "label": "Extended session (last sale price only)"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Family Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-05-18",
+        "name": "Victoria Day"
+      },
+      {
+        "date": "2026-07-01",
+        "name": "Canada Day"
+      },
+      {
+        "date": "2026-08-03",
+        "name": "Civic Holiday"
+      },
+      {
+        "date": "2026-09-07",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-10-12",
+        "name": "Thanksgiving Day"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "13:00"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-28",
+        "name": "Boxing Day (in lieu)"
+      }
+    ],
+    "holidaysSource": "https://www.tsx.com/en/trading/calendars-and-trading-hours/calendar",
+    "holidayYears": [
+      2026
+    ],
+    "notes": "Opening (Market on Open) at 9:30 a.m. ET, continuous trading until 4:00 p.m. with the Market on Close facility from 3:50 p.m., and an extended session 4:15–5:00 p.m. at the last sale price only. TSX had not yet published its 2027 holidays.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "b3",
+    "name": "B3 (Brasil Bolsa Balcão)",
+    "shortName": "São Paulo (B3)",
+    "city": "São Paulo",
+    "country": "BR",
+    "region": "americas",
+    "timeZone": "America/Sao_Paulo",
+    "website": "https://www.b3.com.br/en_us/",
+    "hoursSource": "https://www.b3.com.br/pt_br/solucoes/plataformas/puma-trading-system/para-participantes-e-traders/horario-de-negociacao/acoes/",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:45",
+        "end": "10:00",
+        "label": "Pre-opening"
+      },
+      {
+        "type": "regular",
+        "start": "10:00",
+        "end": "16:55"
+      },
+      {
+        "type": "auction-close",
+        "start": "16:55",
+        "end": "17:00"
+      },
+      {
+        "type": "post",
+        "start": "17:30",
+        "end": "18:00",
+        "label": "After-market"
+      }
+    ],
+    "sessionsValidUntil": "2026-10-31",
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Carnival"
+      },
+      {
+        "date": "2026-02-17",
+        "name": "Carnival"
+      },
+      {
+        "date": "2026-02-18",
+        "name": "Ash Wednesday",
+        "lateOpen": "13:00"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-21",
+        "name": "Tiradentes"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-06-04",
+        "name": "Corpus Christi"
+      },
+      {
+        "date": "2026-09-07",
+        "name": "Independence Day"
+      },
+      {
+        "date": "2026-10-12",
+        "name": "Our Lady of Aparecida"
+      },
+      {
+        "date": "2026-11-02",
+        "name": "All Souls' Day"
+      },
+      {
+        "date": "2026-11-20",
+        "name": "Black Consciousness Day"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve"
+      }
+    ],
+    "holidaysSource": "https://www.b3.com.br/pt_br/noticias/calendario-de-negociacao-da-b3-confira-o-funcionamento-da-bolsa-em-2026.htm",
+    "holidayYears": [
+      2026
+    ],
+    "notes": "Cash equities: pre-opening 9:45–10:00, trading 10:00–16:55, closing call 16:55–17:00 and an after-market session 17:30–18:00 (São Paulo time). These are the hours B3 has applied since 9 March 2026, when it adjusted its schedule for US daylight saving time; B3 changes its hours again when US daylight saving time ends, so check B3's current schedule after 31 October 2026. On Ash Wednesday trading starts at 13:00. Brazil does not use daylight saving time.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "jpx",
+    "name": "Tokyo Stock Exchange (Japan Exchange Group)",
+    "shortName": "Tokyo",
+    "city": "Tokyo",
+    "country": "JP",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Tokyo",
+    "website": "https://www.jpx.co.jp/english/",
+    "hoursSource": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "11:30"
+      },
+      {
+        "type": "lunch",
+        "start": "11:30",
+        "end": "12:30"
+      },
+      {
+        "type": "regular",
+        "start": "12:30",
+        "end": "15:30"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-01-02",
+        "name": "Market holiday"
+      },
+      {
+        "date": "2026-01-12",
+        "name": "Coming of Age Day"
+      },
+      {
+        "date": "2026-02-11",
+        "name": "National Foundation Day"
+      },
+      {
+        "date": "2026-02-23",
+        "name": "Emperor's Birthday"
+      },
+      {
+        "date": "2026-03-20",
+        "name": "Vernal Equinox"
+      },
+      {
+        "date": "2026-04-29",
+        "name": "Showa Day"
+      },
+      {
+        "date": "2026-05-04",
+        "name": "Greenery Day"
+      },
+      {
+        "date": "2026-05-05",
+        "name": "Children's Day"
+      },
+      {
+        "date": "2026-05-06",
+        "name": "Constitution Memorial Day (observed)"
+      },
+      {
+        "date": "2026-07-20",
+        "name": "Marine Day"
+      },
+      {
+        "date": "2026-08-11",
+        "name": "Mountain Day"
+      },
+      {
+        "date": "2026-09-21",
+        "name": "Respect for the Aged Day"
+      },
+      {
+        "date": "2026-09-22",
+        "name": "Holiday"
+      },
+      {
+        "date": "2026-09-23",
+        "name": "Autumnal Equinox"
+      },
+      {
+        "date": "2026-10-12",
+        "name": "Sports Day"
+      },
+      {
+        "date": "2026-11-03",
+        "name": "Culture Day"
+      },
+      {
+        "date": "2026-11-23",
+        "name": "Labor Thanksgiving Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "Market holiday"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-01-11",
+        "name": "Coming of Age Day"
+      },
+      {
+        "date": "2027-02-11",
+        "name": "National Foundation Day"
+      },
+      {
+        "date": "2027-02-23",
+        "name": "Emperor's Birthday"
+      },
+      {
+        "date": "2027-03-22",
+        "name": "Vernal Equinox (observed)"
+      },
+      {
+        "date": "2027-04-29",
+        "name": "Showa Day"
+      },
+      {
+        "date": "2027-05-03",
+        "name": "Constitution Memorial Day"
+      },
+      {
+        "date": "2027-05-04",
+        "name": "Greenery Day"
+      },
+      {
+        "date": "2027-05-05",
+        "name": "Children's Day"
+      },
+      {
+        "date": "2027-07-19",
+        "name": "Marine Day"
+      },
+      {
+        "date": "2027-08-11",
+        "name": "Mountain Day"
+      },
+      {
+        "date": "2027-09-20",
+        "name": "Respect for the Aged Day"
+      },
+      {
+        "date": "2027-09-23",
+        "name": "Autumnal Equinox"
+      },
+      {
+        "date": "2027-10-11",
+        "name": "Sports Day"
+      },
+      {
+        "date": "2027-11-03",
+        "name": "Culture Day"
+      },
+      {
+        "date": "2027-11-23",
+        "name": "Labor Thanksgiving Day"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "Market holiday"
+      }
+    ],
+    "holidaysSource": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Morning session 9:00–11:30, afternoon session 12:30–15:30 (the close moved from 15:00 to 15:30 in November 2024). Japan does not use daylight saving time.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "china",
+    "name": "Shanghai and Shenzhen stock exchanges",
+    "shortName": "Shanghai / Shenzhen",
+    "city": "Shanghai",
+    "country": "CN",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Shanghai",
+    "website": "https://english.sse.com.cn/",
+    "hoursSource": "https://english.sse.com.cn/start/trading/schedule/",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:15",
+        "end": "09:25"
+      },
+      {
+        "type": "regular",
+        "start": "09:30",
+        "end": "11:30"
+      },
+      {
+        "type": "lunch",
+        "start": "11:30",
+        "end": "13:00"
+      },
+      {
+        "type": "regular",
+        "start": "13:00",
+        "end": "14:57"
+      },
+      {
+        "type": "auction-close",
+        "start": "14:57",
+        "end": "15:00"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year"
+      },
+      {
+        "date": "2026-01-02",
+        "name": "New Year"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-02-17",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-02-18",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-02-19",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-02-20",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-02-23",
+        "name": "Spring Festival"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Qingming Festival"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-05-04",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-05-05",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-06-19",
+        "name": "Dragon Boat Festival"
+      },
+      {
+        "date": "2026-09-25",
+        "name": "Mid-Autumn Festival"
+      },
+      {
+        "date": "2026-10-01",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-10-02",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-10-05",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-10-06",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-10-07",
+        "name": "National Day"
+      }
+    ],
+    "holidaysSource": "https://www.szse.cn/English/services/trading/calendar/index.html",
+    "holidayYears": [
+      2026
+    ],
+    "extraSources": [
+      {
+        "title": "Trading overview and hours (Shenzhen Stock Exchange)",
+        "url": "https://www.szse.cn/English/services/trading/tradOverview/index.html"
+      }
+    ],
+    "notes": "Main-board shares: opening call auction 9:15–9:25, continuous trading 9:30–11:30 and 13:00–14:57, closing call auction 14:57–15:00 (the same on both exchanges). Holiday dates are the Shenzhen Stock Exchange's published 2026 schedule; the Shanghai exchange's English page had not yet listed 2026. China does not use daylight saving time.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "hkex",
+    "name": "Hong Kong Exchanges and Clearing (HKEX)",
+    "shortName": "Hong Kong",
+    "city": "Hong Kong",
+    "country": "HK",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Hong_Kong",
+    "website": "https://www.hkex.com.hk/?sc_lang=en",
+    "hoursSource": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:00",
+        "end": "09:30"
+      },
+      {
+        "type": "regular",
+        "start": "09:30",
+        "end": "12:00"
+      },
+      {
+        "type": "lunch",
+        "start": "12:00",
+        "end": "13:00"
+      },
+      {
+        "type": "regular",
+        "start": "13:00",
+        "end": "16:00"
+      },
+      {
+        "type": "auction-close",
+        "start": "16:00",
+        "end": "16:10"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Lunar New Year's Eve",
+        "earlyClose": "12:00"
+      },
+      {
+        "date": "2026-02-17",
+        "name": "Lunar New Year's Day"
+      },
+      {
+        "date": "2026-02-18",
+        "name": "Second day of Lunar New Year"
+      },
+      {
+        "date": "2026-02-19",
+        "name": "Third day of Lunar New Year"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Day following Ching Ming Festival"
+      },
+      {
+        "date": "2026-04-07",
+        "name": "Day following Easter Monday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-05-25",
+        "name": "Day following the Birthday of the Buddha"
+      },
+      {
+        "date": "2026-06-19",
+        "name": "Tuen Ng Festival"
+      },
+      {
+        "date": "2026-07-01",
+        "name": "HKSAR Establishment Day"
+      },
+      {
+        "date": "2026-10-01",
+        "name": "National Day"
+      },
+      {
+        "date": "2026-10-19",
+        "name": "Day following Chung Yeung Festival"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "12:00"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve",
+        "earlyClose": "12:00"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-02-05",
+        "name": "Lunar New Year's Eve",
+        "earlyClose": "12:00"
+      },
+      {
+        "date": "2027-02-08",
+        "name": "Third day of Lunar New Year"
+      },
+      {
+        "date": "2027-02-09",
+        "name": "Fourth day of Lunar New Year"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-04-05",
+        "name": "Ching Ming Festival"
+      },
+      {
+        "date": "2027-05-13",
+        "name": "Birthday of the Buddha"
+      },
+      {
+        "date": "2027-06-09",
+        "name": "Tuen Ng Festival"
+      },
+      {
+        "date": "2027-07-01",
+        "name": "HKSAR Establishment Day"
+      },
+      {
+        "date": "2027-09-16",
+        "name": "Day following Mid-Autumn Festival"
+      },
+      {
+        "date": "2027-10-01",
+        "name": "National Day"
+      },
+      {
+        "date": "2027-10-08",
+        "name": "Chung Yeung Festival"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "12:00"
+      },
+      {
+        "date": "2027-12-27",
+        "name": "First weekday after Christmas Day"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve",
+        "earlyClose": "12:00"
+      }
+    ],
+    "holidaysSource": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "extraSources": [
+      {
+        "title": "General holidays 2027 (GovHK)",
+        "url": "https://www.gov.hk/en/about/abouthk/holiday/2027.htm"
+      }
+    ],
+    "notes": "Pre-opening auction 9:00–9:30, morning session 9:30–12:00, lunch break 12:00–13:00, afternoon session 13:00–16:00, then a closing auction ending at a random time between 16:08 and 16:10. HKEX trades Monday to Friday except Hong Kong public holidays (dates from GovHK). On the eves of Christmas, New Year and Lunar New Year only the morning session is held, followed by a closing auction from 12:00.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "krx",
+    "name": "Korea Exchange (KRX)",
+    "shortName": "Seoul (KRX)",
+    "city": "Seoul",
+    "country": "KR",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Seoul",
+    "website": "https://global.krx.co.kr/",
+    "hoursSource": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+    "sessions": [
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "15:20"
+      },
+      {
+        "type": "auction-close",
+        "start": "15:20",
+        "end": "15:30"
+      }
+    ],
+    "holidays": [],
+    "holidaysSource": "https://global.krx.co.kr/",
+    "holidayYears": [],
+    "notes": "Regular session 09:00–15:30: continuous trading until 15:20, then a closing call auction until 15:30. KRX also runs pre-hours and after-hours sessions; check KRX for their current times. According to KRX, the market is closed on holidays including Labor Day (1 May) and the last trading day of the year. We could not retrieve an official holiday list, so holidays are not shown for Seoul. Korea does not use daylight saving time.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "sgx",
+    "name": "Singapore Exchange (SGX)",
+    "shortName": "Singapore (SGX)",
+    "city": "Singapore",
+    "country": "SG",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Singapore",
+    "website": "https://www.sgx.com/",
+    "hoursSource": "https://rulebook.sgx.com/rulebook/regulatory-notice-821-trading-hours-market-phases-application-market-phases-and-principles",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "08:30",
+        "end": "09:00",
+        "label": "Opening routine"
+      },
+      {
+        "type": "regular",
+        "start": "09:00",
+        "end": "12:00"
+      },
+      {
+        "type": "lunch",
+        "start": "12:00",
+        "end": "13:00",
+        "label": "Mid-day break (with pre-open)"
+      },
+      {
+        "type": "regular",
+        "start": "13:00",
+        "end": "17:00"
+      },
+      {
+        "type": "auction-close",
+        "start": "17:00",
+        "end": "17:06"
+      },
+      {
+        "type": "post",
+        "start": "17:06",
+        "end": "17:16",
+        "label": "Trade at close"
+      }
+    ],
+    "holidays": [],
+    "holidaysSource": "https://www.sgx.com/",
+    "holidayYears": [],
+    "notes": "SGX rulebook: opening routine 08:30–09:00, trading 09:00–12:00, mid-day break 12:00–13:00 (with its own pre-open), trading 13:00–17:00, closing routine to 17:06 and trade at close until 17:16. On half days trading ends at 12:00 with a closing routine until 12:16. We could not retrieve SGX's official holiday calendar, so holidays are not shown for Singapore: check sgx.com.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "nse",
+    "name": "National Stock Exchange of India (NSE)",
+    "shortName": "Mumbai (NSE)",
+    "city": "Mumbai",
+    "country": "IN",
+    "region": "asia-pacific",
+    "timeZone": "Asia/Kolkata",
+    "website": "https://www.nseindia.com/",
+    "hoursSource": "https://www.nseindia.com/resources/exchange-communication-holidays",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:00",
+        "end": "09:15",
+        "label": "Pre-open session"
+      },
+      {
+        "type": "regular",
+        "start": "09:15",
+        "end": "15:30"
+      },
+      {
+        "type": "auction-close",
+        "start": "15:30",
+        "end": "15:35"
+      },
+      {
+        "type": "post",
+        "start": "15:50",
+        "end": "16:00",
+        "label": "Closing session"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-15",
+        "name": "Municipal Corporation Election (Maharashtra)"
+      },
+      {
+        "date": "2026-01-26",
+        "name": "Republic Day"
+      },
+      {
+        "date": "2026-03-03",
+        "name": "Holi"
+      },
+      {
+        "date": "2026-03-26",
+        "name": "Shri Ram Navami"
+      },
+      {
+        "date": "2026-03-31",
+        "name": "Shri Mahavir Jayanti"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-14",
+        "name": "Dr. Baba Saheb Ambedkar Jayanti"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Maharashtra Day"
+      },
+      {
+        "date": "2026-05-28",
+        "name": "Bakri Id"
+      },
+      {
+        "date": "2026-06-26",
+        "name": "Muharram"
+      },
+      {
+        "date": "2026-09-14",
+        "name": "Ganesh Chaturthi"
+      },
+      {
+        "date": "2026-10-02",
+        "name": "Mahatma Gandhi Jayanti"
+      },
+      {
+        "date": "2026-10-20",
+        "name": "Dussehra"
+      },
+      {
+        "date": "2026-11-10",
+        "name": "Diwali Balipratipada"
+      },
+      {
+        "date": "2026-11-24",
+        "name": "Prakash Gurpurb Sri Guru Nanak Dev"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas"
+      }
+    ],
+    "holidaysSource": "https://www.nseindia.com/resources/exchange-communication-holidays",
+    "holidayYears": [
+      2026
+    ],
+    "notes": "Equities: pre-open session 9:00–9:15 (order entry, then matching), continuous trading 9:15–15:30, closing auction matching 15:30–15:35 (orders from 15:20), and a closing session 15:50–16:00. A special 'Muhurat' trading session is held for Diwali (Sunday 8 November 2026); NSE announces its timing by circular. India does not use daylight saving time. NSE had not yet published its 2027 holidays.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "asx",
+    "name": "Australian Securities Exchange (ASX)",
+    "shortName": "Sydney (ASX)",
+    "city": "Sydney",
+    "country": "AU",
+    "region": "asia-pacific",
+    "timeZone": "Australia/Sydney",
+    "website": "https://www.asx.com.au/",
+    "hoursSource": "https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:59",
+        "end": "10:00"
+      },
+      {
+        "type": "regular",
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "type": "auction-close",
+        "start": "16:00",
+        "end": "16:11",
+        "label": "Pre-close and closing auction"
+      }
+    ],
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-01-26",
+        "name": "Australia Day"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2026-06-08",
+        "name": "King's Birthday"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Last business day before Christmas",
+        "earlyClose": "14:10"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-28",
+        "name": "Boxing Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "Last business day of the year",
+        "earlyClose": "14:10"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-01-26",
+        "name": "Australia Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-06-14",
+        "name": "King's Birthday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Last business day before Christmas",
+        "earlyClose": "14:10"
+      },
+      {
+        "date": "2027-12-27",
+        "name": "Christmas Day (substitute)"
+      },
+      {
+        "date": "2027-12-28",
+        "name": "Boxing Day (substitute)"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "Last business day of the year",
+        "earlyClose": "14:10"
+      }
+    ],
+    "holidaysSource": "https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours/trading-calendar",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Opening auction at about 9:59 (randomised), normal trading until 16:00, a pre-close phase 16:00–16:10 and the closing auction at about 16:10. On early-close days normal trading ends at 14:10. ANZAC Day falls on a Saturday in 2026; on its substitute day in 2027 (Monday 26 April) ASX is open. Sydney uses daylight saving time from October to April, the opposite season to Europe and the US.",
+    "asOf": "2026-10-11"
+  },
+  {
+    "id": "tase",
+    "name": "Tel Aviv Stock Exchange (TASE)",
+    "shortName": "Tel Aviv (TASE)",
+    "city": "Tel Aviv",
+    "country": "IL",
+    "region": "middle-east-africa",
+    "timeZone": "Asia/Jerusalem",
+    "website": "https://www.tase.co.il/en",
+    "hoursSource": "https://www.tase.co.il/en/content/knowledge_center/trading_vacation_schedule/",
+    "sessions": [
+      {
+        "type": "auction-open",
+        "start": "09:59",
+        "end": "10:00"
+      },
+      {
+        "type": "regular",
+        "start": "10:00",
+        "end": "17:14"
+      },
+      {
+        "type": "auction-close",
+        "start": "17:14",
+        "end": "17:25",
+        "label": "Pre-close and closing auction"
+      },
+      {
+        "type": "post",
+        "start": "17:25",
+        "end": "17:30",
+        "label": "Trade at last"
+      }
+    ],
+    "weekdaySessions": {
+      "5": [
+        {
+          "type": "auction-open",
+          "start": "09:59",
+          "end": "10:00"
+        },
+        {
+          "type": "regular",
+          "start": "10:00",
+          "end": "13:34"
+        },
+        {
+          "type": "auction-close",
+          "start": "13:34",
+          "end": "13:45",
+          "label": "Pre-close and closing auction"
+        },
+        {
+          "type": "post",
+          "start": "13:45",
+          "end": "13:50",
+          "label": "Trade at last"
+        }
+      ]
+    },
+    "holidays": [
+      {
+        "date": "2026-03-03",
+        "name": "Purim"
+      },
+      {
+        "date": "2026-04-01",
+        "name": "Passover Eve"
+      },
+      {
+        "date": "2026-04-02",
+        "name": "Passover"
+      },
+      {
+        "date": "2026-04-06",
+        "name": "Passover interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2026-04-07",
+        "name": "Passover II Eve"
+      },
+      {
+        "date": "2026-04-08",
+        "name": "Passover II"
+      },
+      {
+        "date": "2026-04-21",
+        "name": "Memorial Day"
+      },
+      {
+        "date": "2026-04-22",
+        "name": "Independence Day"
+      },
+      {
+        "date": "2026-05-21",
+        "name": "Shavuot Eve"
+      },
+      {
+        "date": "2026-05-22",
+        "name": "Shavuot"
+      },
+      {
+        "date": "2026-07-23",
+        "name": "Fast Day (Tisha B'Av)"
+      },
+      {
+        "date": "2026-09-11",
+        "name": "Jewish New Year Eve"
+      },
+      {
+        "date": "2026-09-18",
+        "name": "Non-trading day"
+      },
+      {
+        "date": "2026-09-21",
+        "name": "Yom Kippur"
+      },
+      {
+        "date": "2026-09-25",
+        "name": "Sukkoth Eve"
+      },
+      {
+        "date": "2026-09-28",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2026-09-29",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2026-09-30",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2026-10-01",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2026-10-02",
+        "name": "Simchat Torah Eve"
+      },
+      {
+        "date": "2026-10-27",
+        "name": "Knesset Election Day"
+      },
+      {
+        "date": "2027-03-23",
+        "name": "Purim"
+      },
+      {
+        "date": "2027-04-21",
+        "name": "Passover Eve"
+      },
+      {
+        "date": "2027-04-22",
+        "name": "Passover"
+      },
+      {
+        "date": "2027-04-26",
+        "name": "Passover interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2027-04-27",
+        "name": "Passover II Eve"
+      },
+      {
+        "date": "2027-04-28",
+        "name": "Passover II"
+      },
+      {
+        "date": "2027-05-11",
+        "name": "Memorial Day"
+      },
+      {
+        "date": "2027-05-12",
+        "name": "Independence Day"
+      },
+      {
+        "date": "2027-06-10",
+        "name": "Shavuot Eve"
+      },
+      {
+        "date": "2027-06-11",
+        "name": "Shavuot"
+      },
+      {
+        "date": "2027-08-12",
+        "name": "Fast Day (Tisha B'Av)"
+      },
+      {
+        "date": "2027-10-01",
+        "name": "Jewish New Year Eve"
+      },
+      {
+        "date": "2027-10-08",
+        "name": "Non-trading day"
+      },
+      {
+        "date": "2027-10-11",
+        "name": "Yom Kippur"
+      },
+      {
+        "date": "2027-10-15",
+        "name": "Sukkoth Eve"
+      },
+      {
+        "date": "2027-10-18",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2027-10-19",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2027-10-20",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2027-10-21",
+        "name": "Sukkoth interim day (shortened hours)",
+        "halfDay": true
+      },
+      {
+        "date": "2027-10-22",
+        "name": "Simchat Torah Eve"
+      }
+    ],
+    "holidaysSource": "https://www.tase.co.il/en/content/knowledge_center/trading_vacation_schedule/",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "extraSources": [
+      {
+        "title": "Transition to Monday–Friday trading (TASE)",
+        "url": "https://www.tase.co.il/en/content/about/tradingdays_change"
+      }
+    ],
+    "notes": "Since 5 January 2026 TASE trades Monday to Friday (before: Sunday to Thursday). Group A shares, Monday–Thursday: pre-opening from 9:25, opening auction 9:59–10:00, continuous trading until the pre-close at 17:14–17:15, closing auction 17:24–17:25, trade at last until 17:30. Fridays end earlier: closing auction 13:44–13:45, trade at last until 13:50. Hours are shortened on the interim days of Passover and Sukkot (exact times in TASE board resolutions).",
+    "asOf": "2026-10-11"
+  }
+]

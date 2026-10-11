@@ -60,16 +60,7 @@ export const plannedSections: Record<string, PlannedSection> = {
       '"Compare two countries" tool',
     ],
   },
-  times: {
-    title: 'Trading Times',
-    lead: 'Which stock markets are open right now, shown in your own time zone.',
-    planned: [
-      'Live open / closed / lunch break status with countdowns',
-      '24-hour timeline showing market overlaps',
-      'Time zone converter and holiday calendars',
-      'Daylight saving time explainer, with this year’s dates calculated automatically',
-    ],
-  },
+
   charts: {
     title: 'Chart School',
     lead: 'How to read price charts and candlesticks, and how charting platforms work.',

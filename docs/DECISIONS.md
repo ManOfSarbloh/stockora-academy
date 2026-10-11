@@ -79,8 +79,24 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Founder badge | Finishing the game stores `stockora-founder-game` in localStorage for the "Founder" badge (Phase 9) |
 | Glossary | Each Markdown entry links the first mention of a term, so a small script on the journey page keeps only the first link per term on the whole page. "Offer price" got its own entry; it had been linked to Ask price |
 
+## Phase 6 (2026-10-11): Trading Times tool
+
+| Topic | Decision |
+|---|---|
+| Time zones | Browser `Intl` time-zone database only (no Luxon): `src/lib/market-hours.ts` converts local exchange times with computed offsets, so DST switch dates are never hard-coded. Skipped wall-clock times resolve to the moment after the jump, repeated ones to the first occurrence |
+| Coverage | 16 exchanges: Vienna, Xetra, SIX, LSE, Euronext Paris, NYSE, TSX, B3, Tokyo, Shanghai/Shenzhen, Hong Kong, Korea, Singapore, NSE India, ASX, TASE. JSE, Saudi Exchange and Borsa Istanbul are listed as "coming later" because their official hours pages could not be read reliably |
+| Data | `content/exchanges.json`: local sessions (with auctions, lunch breaks, pre/after-hours), optional per-weekday sessions (TASE Fridays), trading days, holidays with early closes / late opens / half days, the years covered, sources and an "as of" date. Validated by the schema and by `validate-content.js` (order of sessions, holidays on trading days, stale-data warning) |
+| Holidays | Only years with an official list are included (2026 and, where published, 2027). Where a year is missing (e.g. Euronext 2027) or no official list could be retrieved (KRX, SGX), the tool shows a visible warning instead of guessing |
+| Source choices | Hong Kong holidays from GovHK (HKEX trades on weekdays except public holidays); LSE holidays before September 2026 from GOV.UK; China from the Shenzhen exchange's 2026 schedule; US extended hours shown as NYSE Arca's sessions, labelled as venue-specific |
+| Time-limited hours | B3 publishes hours tied to US daylight saving time, so its sessions carry `sessionsValidUntil` (31 Oct 2026); after that date the tool says "hours not confirmed" |
+| Half days without times | Euronext and TASE half days whose exact hours are not published here are flagged as such; the normal day is shown with a warning |
+| UI | One React island with live status (15 s refresh), 24-hour timeline in the viewer's zone (Europe–US overlap band, now line, table view), "When can I trade?", converters, holiday lists and a computed DST explainer. Viewer zone defaults to Europe/Vienna and is remembered in `stockora-times-zone`. The home page widget now shows live status for five exchanges |
+| Tests | 28 tests for DST transitions (Europe, US, Australia, zones without DST), the Vienna–New York gap, weekends, holidays, lunch breaks, early closes, late opens, per-weekday sessions, missing holiday data and the timeline |
+| Category E correction check | The HKEX "Extended Morning Session" (12:00–13:00) applies only to special securities per HKEX's 2011 notice; for shares it remains a lunch break, so the Category E lesson stays correct |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
 - Set `reportConfig.githubRepo` once the GitHub repository exists.
+- Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.

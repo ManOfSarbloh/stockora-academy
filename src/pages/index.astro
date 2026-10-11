@@ -7,6 +7,9 @@ import { getLessonKeysByCategory } from '@/lib/lessons';
 import { getCategories, STAGES } from '@/lib/categories';
 import { t } from '@/i18n';
 import { url } from '@/lib/url';
+import { getCollection } from 'astro:content';
+import MarketWidget from '@/components/times/MarketWidget';
+import type { Exchange } from '@/lib/market-hours';
 
 const categories = await getCategories();
 const keys = await getLessonKeysByCategory();
@@ -22,10 +25,12 @@ const x = cx + r * Math.sin(angle);
 const y = cy - r * Math.cos(angle);
 const lift = { dx: 6 * Math.sin(angle / 2), dy: -6 * Math.cos(angle / 2) };
 
-const widgets = [
-  { title: t('home.widgets.quiz'), body: t('home.widgets.quizBody') },
-  { title: t('home.widgets.market'), body: t('home.widgets.marketBody') },
-];
+const widgets = [{ title: t('home.widgets.quiz'), body: t('home.widgets.quizBody') }];
+const widgetIds = ['wiener-boerse', 'xetra', 'lse', 'nyse', 'jpx'];
+const widgetExchanges = (await getCollection('exchanges'))
+  .map((e) => e.data as unknown as Exchange)
+  .filter((e) => widgetIds.includes(e.id))
+  .sort((a, b) => widgetIds.indexOf(a.id) - widgetIds.indexOf(b.id));
 ---
 
 <BaseLayout>
@@ -92,6 +97,7 @@ const widgets = [
     <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
     <ul class="mt-5 grid gap-4 sm:grid-cols-3">
       <li><HomeProgress /></li>
+      <li><MarketWidget client:only="react" exchanges={widgetExchanges} href={url('/times')} /></li>
       {
         widgets.map((w) => (
           <li class="card border-dashed p-5">

@@ -83,27 +83,57 @@ const videos = defineCollection({
   }),
 });
 
+const hhmm = z.string().regex(/^\d{2}:\d{2}$/, { error: 'Use HH:MM (24-hour, exchange local time)' });
 const session = z.object({
   type: z.enum(['pre', 'auction-open', 'regular', 'lunch', 'auction-close', 'post']),
-  start: z.string().regex(/^\d{2}:\d{2}$/),
-  end: z.string().regex(/^\d{2}:\d{2}$/),
+  start: hhmm,
+  end: hhmm,
+  label: z.string().optional(),
 });
 
+/**
+ * Exchange hours and holidays for the Trading Times tool. All times are local exchange time;
+ * the tool converts them with the browser's time-zone database, so DST is never hard-coded.
+ */
 const exchanges = defineCollection({
   loader: file('content/exchanges.json'),
   schema: z.object({
-    id: z.string(),
+    id: z.string().regex(/^[a-z0-9-]+$/),
     name: z.string(),
+    shortName: z.string(),
     city: z.string(),
     country: z.string().length(2),
+    region: z.enum(['europe', 'americas', 'asia-pacific', 'middle-east-africa']),
     timeZone: z.string(),
     website: z.url(),
     hoursSource: z.url(),
     sessions: z.array(session).min(1),
+    /** Different sessions on particular weekdays (0 = Sunday … 6 = Saturday), e.g. shorter Fridays. */
+    weekdaySessions: z.record(z.string().regex(/^[0-6]$/), z.array(session).min(1)).optional(),
+    /** Trading weekdays (0 = Sunday … 6 = Saturday). */
+    tradingDays: z.array(z.number().int().min(0).max(6)).default([1, 2, 3, 4, 5]),
+    /** Last date (YYYY-MM-DD) for which the published sessions are confirmed. */
+    sessionsValidUntil: z.iso.date().optional(),
     holidays: z
-      .array(z.object({ date: z.iso.date(), name: z.string(), earlyClose: z.string().optional() }))
+      .array(
+        z.object({
+          date: z.iso.date(),
+          name: z.string(),
+          /** Regular trading ends early at this time (the closing auction follows). */
+          earlyClose: hhmm.optional(),
+          /** Extended session end on early-close days (otherwise dropped). */
+          earlyPostClose: hhmm.optional(),
+          /** Regular trading starts late at this time. */
+          lateOpen: hhmm.optional(),
+          /** Shortened day whose exact hours the exchange has not published here. */
+          halfDay: z.boolean().optional(),
+        }),
+      )
       .default([]),
-    holidaysSource: z.url().optional(),
+    holidaysSource: z.url(),
+    /** Years for which the full official holiday list is included. */
+    holidayYears: z.array(z.number().int()).default([]),
+    extraSources: z.array(source).default([]),
     asOf: reviewDate,
     notes: z.string().optional(),
   }),

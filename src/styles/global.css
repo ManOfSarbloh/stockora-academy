@@ -173,6 +173,36 @@
   .btn-ghost:hover {
     border-color: var(--link);
   }
+  /* ---- Trading Times: status badges (symbol + text, never colour alone) and timeline segments ---- */
+  .tt-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    flex-shrink: 0;
+    border-radius: 9999px;
+    padding: 0.15rem 0.6rem;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .tt-open { background: #e3f4e8; color: #0b6b2b; }
+  .tt-auction { background: #e3eefb; color: #1c5cab; }
+  .tt-ext { background: #fff1d1; color: #7a4f00; }
+  .tt-pause { background: #eeeafa; color: #4a3aa7; }
+  .tt-closed { background: var(--surface-2); color: var(--muted); }
+  .dark .tt-open { background: rgb(12 163 12 / 0.18); color: #7fe08a; }
+  .dark .tt-auction { background: rgb(57 135 229 / 0.2); color: #9ec5f4; }
+  .dark .tt-ext { background: rgb(240 180 76 / 0.16); color: #f5c76e; }
+  .dark .tt-pause { background: rgb(144 133 233 / 0.2); color: #c3bcf5; }
+  .tt-seg-regular { background: var(--series-1); }
+  .tt-seg-auction { background: #184f95; }
+  .tt-seg-ext { background: #b7d3f6; box-shadow: inset 0 0 0 1px #6da7ec; }
+  .dark .tt-seg-auction { background: #9ec5f4; }
+  .dark .tt-seg-ext { background: #1c5cab; box-shadow: inset 0 0 0 1px #3987e5; }
+  .tt-overlap { background: rgb(14 159 154 / 0.16); }
+  .dark .tt-overlap { background: rgb(44 196 190 / 0.18); }
+  .tt-now { background: #d03b3b; }
+
   /* ---- Callout boxes (Markdown `> [!KIND]` and <Callout>) ---- */
   .callout {
     --callout-accent: var(--muted);

@@ -100,6 +100,40 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
   }
 }
 
+// Exchanges (Trading Times): sessions in order, holidays on trading days within the covered years,
+// and a reminder when the data is getting old (hours and holidays must be re-checked regularly).
+const exchangesFile = join(CONTENT, 'exchanges.json');
+const exchangeList = existsSync(exchangesFile) ? readJSON(exchangesFile) : [];
+const toMin = (t) => Number(t.slice(0, 2)) * 60 + Number(t.slice(3, 5));
+const staleWarnings = [];
+const exIds = new Set();
+for (const e of exchangeList) {
+  if (exIds.has(e.id)) errors.push(`exchanges: duplicate id "${e.id}"`);
+  exIds.add(e.id);
+  const days = e.tradingDays ?? [1, 2, 3, 4, 5];
+  const lists = [e.sessions, ...Object.values(e.weekdaySessions ?? {})];
+  for (const list of lists) {
+    let prevEnd = -1;
+    for (const s of list) {
+      if (toMin(s.end) <= toMin(s.start)) errors.push(`exchanges ${e.id}: session ${s.type} ${s.start}-${s.end} ends before it starts`);
+      if (toMin(s.start) < prevEnd) errors.push(`exchanges ${e.id}: session ${s.type} ${s.start} overlaps the previous one`);
+      prevEnd = toMin(s.end);
+    }
+  }
+  const seen = new Set();
+  for (const h of e.holidays ?? []) {
+    if (seen.has(h.date)) errors.push(`exchanges ${e.id}: holiday ${h.date} listed twice`);
+    seen.add(h.date);
+    const wd = new Date(h.date + 'T12:00:00Z').getUTCDay();
+    if (!days.includes(wd)) errors.push(`exchanges ${e.id}: holiday ${h.date} is not a trading day`);
+    if (!(e.holidayYears ?? []).includes(Number(h.date.slice(0, 4)))) errors.push(`exchanges ${e.id}: holiday ${h.date} is outside holidayYears`);
+  }
+  const ageDays = (Date.now() - new Date(e.asOf).getTime()) / 86400000;
+  if (ageDays > 120) staleWarnings.push(`${e.id} (as of ${e.asOf})`);
+  const thisYear = new Date().getUTCFullYear();
+  if (!(e.holidayYears ?? []).includes(thisYear + 1) && new Date().getUTCMonth() >= 10) staleWarnings.push(`${e.id}: no ${thisYear + 1} holidays yet`);
+}
+
 // Report
 const total = qIds.size;
 const pct = (n) => (total ? `${Math.round((n / total) * 100)}%` : '-');
@@ -107,6 +141,7 @@ console.log('Content summary');
 console.log(`  categories      ${categories.length}`);
 console.log(`  lessons         ${lessonKeys.size}`);
 console.log(`  journey steps   ${stepFiles.length}`);
+console.log(`  exchanges       ${exchangeList.length}`);
 console.log(`  glossary terms  ${glossary.length} / 400 target`);
 console.log(`  videos          ${videos.length}`);
 console.log(`  quiz questions  ${total} / 900 target`);
@@ -120,4 +155,5 @@ if (errors.length) {
   for (const e of errors) console.error(`  ✗ ${e}`);
   process.exit(1);
 }
+if (staleWarnings.length) console.log(`\n⚠ Re-check exchange data on the official sites: ${staleWarnings.join(', ')}`);
 console.log('\n✓ No content errors.');

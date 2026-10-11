@@ -1,5 +1,68 @@
 ---
-import ComingSoon from '@/components/ComingSoon.astro';
+/**
+ * Trading Times: live status, 24-hour timeline, helper, converter, holidays and DST explainer.
+ * Exchange data lives in content/exchanges.json (hours, holidays, sources, "as of" date).
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import TradingTimes from '@/components/times/TradingTimes';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+import type { Exchange } from '@/lib/market-hours';
+import exchangeOrder from '../../content/exchanges.json';
+
+// Keep the editorial order of content/exchanges.json (roughly west to east within each region).
+const order = (exchangeOrder as { id: string }[]).map((e) => e.id);
+const exchanges = (await getCollection('exchanges'))
+  .map((e) => e.data as unknown as Exchange)
+  .sort((a, b) => order.indexOf(a.id) - order.indexOf(b.id));
+const asOf = exchanges.map((e) => e.asOf).sort()[0];
+
+const planned = [
+  { name: 'Johannesburg Stock Exchange (JSE)', url: 'https://www.jse.co.za/' },
+  { name: 'Saudi Exchange (Tadawul)', url: 'https://www.saudiexchange.sa/' },
+  { name: 'Borsa Istanbul', url: 'https://www.borsaistanbul.com/en' },
+];
 ---
 
-<ComingSoon section="times" />
+<BaseLayout title={t('tt.title')} description={t('tt.lead')}>
+  <PageHeader title={t('tt.title')} lead={t('tt.lead')} eyebrow={t('tt.eyebrow')}>
+    <p class="mt-4 text-sm">
+      <a href={url('/learn/trading-times')}>{t('tt.learn')} →</a>
+    </p>
+  </PageHeader>
+
+  <div class="container-page py-8" data-pagefind-ignore>
+    <TradingTimes client:only="react" exchanges={exchanges} asOf={asOf} />
+    <noscript>
+      <p class="card p-4 text-muted">The Trading Times tool needs JavaScript. The exchanges' official pages are listed below.</p>
+    </noscript>
+
+    <section class="mt-12 max-w-3xl" aria-labelledby="tt-sources-title">
+      <h2 id="tt-sources-title" class="text-xl font-bold">{t('learn.sources')}</h2>
+      <ul class="mt-2 grid gap-x-6 gap-y-1 text-sm sm:grid-cols-2">
+        {
+          exchanges.map((e) => (
+            <li>
+              {e.shortName}: <a href={e.hoursSource} rel="noopener">hours</a> · <a href={e.holidaysSource} rel="noopener">holidays</a>
+            </li>
+          ))
+        }
+      </ul>
+      <h2 class="mt-8 text-lg font-bold">{t('tt.planned.title')}</h2>
+      <p class="mt-1 text-sm text-muted">{t('tt.planned.body')}</p>
+      <ul class="mt-2 list-disc pl-5 text-sm">
+        {
+          planned.map((p) => (
+            <li>
+              <a href={p.url} rel="noopener">
+                {p.name}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
