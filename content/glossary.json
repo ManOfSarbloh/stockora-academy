@@ -271,7 +271,8 @@
     "definition": "A type of share that usually has no voting rights but receives dividends before ordinary shares and ranks ahead of them if the company is liquidated.",
     "related": [
       "stock",
-      "dividend"
+      "dividend",
+      "common-stock"
     ],
     "categories": [
       "A",
@@ -1302,13 +1303,13 @@
     "id": "rights-issue",
     "term": "Rights issue",
     "aliases": [
-      "rights issues",
-      "subscription rights"
+      "rights issues"
     ],
     "definition": "A capital increase in which existing shareholders get the first right to buy the new shares, in proportion to what they already own.",
     "related": [
       "capital-increase",
-      "dilution"
+      "dilution",
+      "subscription-right"
     ],
     "categories": [
       "B",
@@ -1366,5 +1367,471 @@
       "V"
     ],
     "de": "Übernahme"
+  },
+  {
+    "id": "common-stock",
+    "term": "Common stock",
+    "aliases": [
+      "common shares",
+      "ordinary shares",
+      "ordinary share",
+      "common share"
+    ],
+    "definition": "The standard type of share: it usually carries a vote at the general meeting and a share in dividends, and ranks last in a liquidation.",
+    "related": [
+      "preferred-stock",
+      "share-class"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Stammaktie"
+  },
+  {
+    "id": "share-class",
+    "term": "Share class",
+    "aliases": [
+      "share classes",
+      "Class A",
+      "Class B"
+    ],
+    "definition": "A category of a company's shares with its own rights, for example different votes or dividends (Class A, Class B). The letters have no standard meaning.",
+    "related": [
+      "dual-class",
+      "common-stock"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Aktiengattung"
+  },
+  {
+    "id": "dual-class",
+    "term": "Dual-class structure",
+    "aliases": [
+      "dual-class shares",
+      "dual-class structures"
+    ],
+    "definition": "A setup in which founders or insiders hold shares with more votes per share than the shares sold to the public, so they can control the company with a minority of the shares.",
+    "related": [
+      "share-class"
+    ],
+    "categories": [
+      "C",
+      "R"
+    ],
+    "de": "Mehrstimmrechtsstruktur"
+  },
+  {
+    "id": "growth-stock",
+    "term": "Growth stock",
+    "aliases": [
+      "growth stocks"
+    ],
+    "definition": "A share of a company whose earnings are growing faster than the market average. Growth companies rarely pay dividends and reinvest their profits.",
+    "related": [
+      "value-stock"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Wachstumsaktie"
+  },
+  {
+    "id": "value-stock",
+    "term": "Value stock",
+    "aliases": [
+      "value stocks"
+    ],
+    "definition": "A share that looks cheap compared with the company's earnings (for example a low P/E ratio), often because it is out of favour with investors.",
+    "related": [
+      "growth-stock"
+    ],
+    "categories": [
+      "C",
+      "I"
+    ],
+    "de": "Substanzwert / Value-Aktie"
+  },
+  {
+    "id": "income-stock",
+    "term": "Income stock",
+    "aliases": [
+      "income stocks",
+      "dividend stock",
+      "dividend stocks"
+    ],
+    "definition": "A share of a company that pays dividends consistently; investors buy it mainly for regular income.",
+    "related": [
+      "dividend",
+      "blue-chip"
+    ],
+    "categories": [
+      "C",
+      "G"
+    ],
+    "de": "Dividendenaktie"
+  },
+  {
+    "id": "blue-chip",
+    "term": "Blue chip",
+    "aliases": [
+      "blue chips",
+      "blue-chip stocks"
+    ],
+    "definition": "A share of a large, well-known company with a long and solid history, which generally pays dividends.",
+    "related": [
+      "income-stock",
+      "large-cap"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Blue Chip / Standardwert"
+  },
+  {
+    "id": "cyclical-stock",
+    "term": "Cyclical stock",
+    "aliases": [
+      "cyclical stocks"
+    ],
+    "definition": "A share of a company whose sales and profits rise and fall strongly with the economy, such as car makers or airlines.",
+    "related": [
+      "defensive-stock"
+    ],
+    "categories": [
+      "C",
+      "K"
+    ],
+    "de": "zyklische Aktie"
+  },
+  {
+    "id": "defensive-stock",
+    "term": "Defensive stock",
+    "aliases": [
+      "defensive stocks"
+    ],
+    "definition": "A share of a company whose products people keep buying even in a recession, such as food, household goods or utilities, so its profits tend to be steadier.",
+    "related": [
+      "cyclical-stock"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "defensive Aktie"
+  },
+  {
+    "id": "large-cap",
+    "term": "Large cap",
+    "aliases": [
+      "large caps",
+      "large-cap"
+    ],
+    "definition": "A company with a very large market capitalisation. There is no single official threshold.",
+    "related": [
+      "small-cap",
+      "microcap",
+      "market-capitalisation"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Large Cap / Standardwert"
+  },
+  {
+    "id": "small-cap",
+    "term": "Small cap",
+    "aliases": [
+      "small caps",
+      "small-cap"
+    ],
+    "definition": "A smaller listed company by market capitalisation. Small caps can grow faster but tend to be more volatile and less followed.",
+    "related": [
+      "large-cap",
+      "microcap"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Nebenwert / Small Cap"
+  },
+  {
+    "id": "microcap",
+    "term": "Microcap",
+    "aliases": [
+      "microcaps",
+      "micro-cap",
+      "microcap stocks",
+      "nanocap"
+    ],
+    "definition": "A very small listed company. In the US the term is often used for companies worth less than about $250–300 million. Microcaps can be illiquid and are frequent targets of fraud.",
+    "related": [
+      "small-cap",
+      "penny-stock"
+    ],
+    "categories": [
+      "C",
+      "T"
+    ],
+    "de": "Microcap"
+  },
+  {
+    "id": "penny-stock",
+    "term": "Penny stock",
+    "aliases": [
+      "penny stocks"
+    ],
+    "definition": "A share with a very low price. Such companies may have little or no earnings, rarely pay dividends and are highly speculative.",
+    "related": [
+      "microcap"
+    ],
+    "categories": [
+      "C",
+      "T"
+    ],
+    "de": "Pennystock"
+  },
+  {
+    "id": "meme-stock",
+    "term": "Meme stock",
+    "aliases": [
+      "meme stocks"
+    ],
+    "definition": "A share whose price is driven mainly by social-media excitement among individual investors rather than by the business, such as GameStop in January 2021.",
+    "related": [
+      "penny-stock"
+    ],
+    "categories": [
+      "C",
+      "N",
+      "O"
+    ],
+    "de": "Meme-Aktie"
+  },
+  {
+    "id": "sector",
+    "term": "Sector",
+    "aliases": [
+      "sectors"
+    ],
+    "definition": "A broad area of the economy, such as energy, health care or financials, used to group similar companies.",
+    "related": [
+      "gics"
+    ],
+    "categories": [
+      "C",
+      "H"
+    ],
+    "de": "Sektor / Branche"
+  },
+  {
+    "id": "gics",
+    "term": "GICS",
+    "aliases": [
+      "Global Industry Classification Standard"
+    ],
+    "definition": "Global Industry Classification Standard: a system created in 1999 by S&P Dow Jones Indices and MSCI that classifies companies into 11 sectors, 25 industry groups, 74 industries and 163 sub-industries.",
+    "related": [
+      "sector"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "GICS"
+  },
+  {
+    "id": "adr",
+    "term": "ADR",
+    "aliases": [
+      "ADRs",
+      "American depositary receipt",
+      "American depositary receipts"
+    ],
+    "definition": "American depositary receipt: a certificate traded in the US in dollars that represents shares of a non-US company held by a US depositary bank.",
+    "related": [
+      "gdr"
+    ],
+    "categories": [
+      "C",
+      "S"
+    ],
+    "de": "ADR (American Depositary Receipt)"
+  },
+  {
+    "id": "gdr",
+    "term": "GDR",
+    "aliases": [
+      "GDRs",
+      "global depositary receipt",
+      "global depositary receipts"
+    ],
+    "definition": "Global depositary receipt: like an ADR, a receipt representing shares of a company, generally offered to investors in more than one country.",
+    "related": [
+      "adr"
+    ],
+    "categories": [
+      "C",
+      "S"
+    ],
+    "de": "GDR (Global Depositary Receipt)"
+  },
+  {
+    "id": "reit",
+    "term": "REIT",
+    "aliases": [
+      "REITs",
+      "real estate investment trust",
+      "real estate investment trusts"
+    ],
+    "definition": "Real estate investment trust: a company that owns and typically operates income-producing real estate or related assets. Most REITs pay out most of their income as dividends.",
+    "related": [
+      "income-stock"
+    ],
+    "categories": [
+      "C",
+      "U"
+    ],
+    "de": "REIT / Immobilien-Investmentgesellschaft"
+  },
+  {
+    "id": "convertible-security",
+    "term": "Convertible security",
+    "aliases": [
+      "convertible bond",
+      "convertible bonds",
+      "convertible securities",
+      "convertibles"
+    ],
+    "definition": "Usually a bond or preferred share that can be converted into a different security, typically the company's common shares.",
+    "related": [
+      "warrant",
+      "bond"
+    ],
+    "categories": [
+      "C"
+    ],
+    "de": "Wandelanleihe / wandelbares Wertpapier"
+  },
+  {
+    "id": "warrant",
+    "term": "Warrant",
+    "aliases": [
+      "warrants"
+    ],
+    "definition": "A security giving the right, but not the obligation, to buy or sell an underlying asset at a fixed price within or at the end of a set period. Warrants can expire worthless.",
+    "related": [
+      "convertible-security"
+    ],
+    "categories": [
+      "C",
+      "N"
+    ],
+    "de": "Optionsschein"
+  },
+  {
+    "id": "subscription-right",
+    "term": "Subscription right",
+    "aliases": [
+      "subscription rights"
+    ],
+    "definition": "The right of existing shareholders to buy new shares in a capital increase before others, in proportion to their holdings. It protects against dilution and can often be traded.",
+    "related": [
+      "rights-issue",
+      "capital-increase"
+    ],
+    "categories": [
+      "C",
+      "V"
+    ],
+    "de": "Bezugsrecht"
+  },
+  {
+    "id": "certificate",
+    "term": "Certificate (structured product)",
+    "aliases": [
+      "structured product",
+      "structured products",
+      "tracker certificate",
+      "tracker certificates",
+      "Zertifikate"
+    ],
+    "definition": "In Austria and Germany, a bond issued by a bank whose payout depends on an underlying asset such as a share or index. You lend money to the issuer and carry its credit risk.",
+    "related": [
+      "warrant"
+    ],
+    "categories": [
+      "C",
+      "N"
+    ],
+    "de": "Zertifikat"
+  },
+  {
+    "id": "fractional-share",
+    "term": "Fractional share",
+    "aliases": [
+      "fractional shares",
+      "fractional share investing"
+    ],
+    "definition": "Less than one whole share, bought through brokers that offer fractional share investing. Voting rights, fees and transferability depend on the broker.",
+    "related": [
+      "broker"
+    ],
+    "categories": [
+      "C",
+      "F"
+    ],
+    "de": "Bruchteilsaktie"
+  },
+  {
+    "id": "sec",
+    "term": "SEC",
+    "aliases": [
+      "U.S. Securities and Exchange Commission",
+      "Securities and Exchange Commission",
+      "US Securities and Exchange Commission"
+    ],
+    "definition": "U.S. Securities and Exchange Commission: the federal authority that regulates the US securities markets and runs the investor education site Investor.gov.",
+    "related": [
+      "fma",
+      "esma"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "US-Börsenaufsicht SEC"
+  },
+  {
+    "id": "fma",
+    "term": "FMA",
+    "aliases": [
+      "Financial Market Authority",
+      "Finanzmarktaufsicht"
+    ],
+    "definition": "Finanzmarktaufsicht: Austria's Financial Market Authority, which supervises banks, insurers, investment firms and the securities markets in Austria.",
+    "related": [
+      "sec",
+      "esma"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Finanzmarktaufsicht (FMA)"
+  },
+  {
+    "id": "esma",
+    "term": "ESMA",
+    "aliases": [
+      "European Securities and Markets Authority"
+    ],
+    "definition": "European Securities and Markets Authority: the EU authority that works on common rules and supervisory practice for securities markets across the EU.",
+    "related": [
+      "fma",
+      "sec"
+    ],
+    "categories": [
+      "R",
+      "S"
+    ],
+    "de": "Europäische Wertpapier- und Marktaufsichtsbehörde (ESMA)"
   }
 ]

@@ -135,5 +135,38 @@
     "lessons": [
       "how-stocks-are-made/why-go-public"
     ]
+  },
+  {
+    "id": "TzhQlStDK-o",
+    "title": "What is preferred stock?",
+    "channel": "Marketplace APM",
+    "categories": [
+      "C"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.3,
+    "language": "en",
+    "whyGood": "A two-minute explainer from the public radio programme Marketplace.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "types-of-stocks/common-vs-preferred"
+    ]
+  },
+  {
+    "id": "OWiQ8LOBIg8",
+    "title": "American Depositary Receipts (ADRs) Explained",
+    "channel": "OTC Markets Group",
+    "categories": [
+      "C",
+      "S"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 6.6,
+    "language": "en",
+    "whyGood": "Explains how ADRs work, from a US market operator where many ADRs trade.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "types-of-stocks/adrs-and-gdrs"
+    ]
   }
 ]

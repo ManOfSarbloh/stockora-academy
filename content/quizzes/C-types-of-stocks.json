@@ -1,0 +1,891 @@
+[
+  {
+    "id": "C-001",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which share type usually has no voting rights but receives dividends first?",
+    "options": [
+      "Preferred shares",
+      "Common shares",
+      "Bonds",
+      "Warrants"
+    ],
+    "answerIndex": 0,
+    "explanation": "Preferred shares usually have no vote, but their dividends are paid before those on common shares.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-v/vorzugsaktie/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-002",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What do common (ordinary) shares usually give their holders?",
+    "options": [
+      "A vote and a share of dividends after preferred shareholders",
+      "A fixed interest rate",
+      "Priority over lenders in a bankruptcy",
+      "A guaranteed dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "Common shares usually carry a vote at the general meeting, a share of any dividends after preferred shareholders, and the residual claim.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-003",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "If a company is liquidated, how do preferred shareholders rank?",
+    "options": [
+      "After lenders, but before common shareholders",
+      "Before all lenders",
+      "Together with common shareholders",
+      "After common shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Preferred shareholders are paid after bondholders and other lenders but before common shareholders.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-004",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company distributes €1,000,000. Its 100,000 preferred shares get €2 each first. How much is left for the common shareholders, in euros?",
+    "answerNumber": 800000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Preferred first: 100,000 × €2 = €200,000. Left for common shareholders: €1,000,000 − €200,000 = €800,000.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-005",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under § 12a of the Austrian Aktiengesetz, non-voting preferred shares may make up at most what fraction of the share capital? Answer in percent (rounded to a whole number).",
+    "answerNumber": 33,
+    "tolerance": 0.5,
+    "unit": "%",
+    "explanation": "Non-voting preferred shares may only be issued up to one third of the share capital, which is about 33%.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40109222/NOR40109222.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-006",
+    "category": "C",
+    "topic": "common-vs-preferred",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In Austria, what happens if the preferred dividend on non-voting preferred shares is not paid in full and the arrears are not made up the following year?",
+    "options": [
+      "The preferred shareholders get voting rights until the arrears are paid",
+      "The shares are automatically cancelled",
+      "The company must be delisted",
+      "Nothing changes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under § 12a AktG, the preferred shareholders then get voting rights until the arrears have been paid.",
+    "lessonLink": "/learn/types-of-stocks/common-vs-preferred",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40109222/NOR40109222.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-007",
+    "category": "C",
+    "topic": "share-classes-and-voting",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "A company has 90 million Class A shares with 1 vote each and 10 million Class B shares with 10 votes each. What share of the votes do the Class B holders have?",
+    "options": [
+      "About 53%",
+      "10%",
+      "50%",
+      "90%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Class B votes: 10m × 10 = 100m. Total votes: 90m + 100m = 190m. 100 ÷ 190 ≈ 53%, a majority with only 10% of the shares.",
+    "lessonLink": "/learn/types-of-stocks/share-classes-and-voting",
+    "sources": [
+      "https://www.sec.gov/newsroom/speeches-statements/fleming-dual-class-shares-recipe-disaster"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-008",
+    "category": "C",
+    "topic": "share-classes-and-voting",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: 'Class A' shares always have more votes than 'Class B' shares.",
+    "answerBool": false,
+    "explanation": "False. Class letters have no standard meaning. Only the company's articles and prospectus tell you what rights each class has.",
+    "lessonLink": "/learn/types-of-stocks/share-classes-and-voting",
+    "sources": [
+      "https://www.sec.gov/newsroom/speeches-statements/fleming-dual-class-shares-recipe-disaster"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-009",
+    "category": "C",
+    "topic": "share-classes-and-voting",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the main criticism of dual-class structures?",
+    "options": [
+      "Insiders can control the company with a small stake, reducing accountability",
+      "They make shares more expensive",
+      "They are illegal everywhere",
+      "They force companies to pay higher dividends"
+    ],
+    "answerIndex": 0,
+    "explanation": "Critics argue that founders and insiders can control the company with a small economic stake, which reduces their accountability to public shareholders.",
+    "lessonLink": "/learn/types-of-stocks/share-classes-and-voting",
+    "sources": [
+      "https://www.sec.gov/newsroom/speeches-statements/fleming-dual-class-shares-recipe-disaster"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-010",
+    "category": "C",
+    "topic": "share-classes-and-voting",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What kind of shares does the Vienna Stock Exchange's prime market basically admit?",
+    "options": [
+      "Common stock",
+      "Preferred stock only",
+      "Any share class with extra votes",
+      "Bonds"
+    ],
+    "answerIndex": 0,
+    "explanation": "The prime market basically includes only common stock (or certificates giving the same rights as common stock).",
+    "lessonLink": "/learn/types-of-stocks/share-classes-and-voting",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-011",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which description fits a typical growth stock?",
+    "options": [
+      "Fast-growing earnings, rarely pays dividends",
+      "Pays high, steady dividends",
+      "Looks cheap compared with earnings",
+      "Has a very low share price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Growth stocks have earnings growing faster than the market average; they rarely pay dividends and investors hope for capital appreciation.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-012",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a blue-chip stock?",
+    "options": [
+      "A share of a large, well-known, established company",
+      "A share costing less than €1",
+      "A share of a new start-up",
+      "A share with no voting rights"
+    ],
+    "answerIndex": 0,
+    "explanation": "Blue chips are shares of large, well-known companies with a solid history; they generally pay dividends.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-013",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Investors buy value stocks hoping that…",
+    "options": [
+      "the market has overreacted and the price will recover",
+      "the company will never pay dividends",
+      "the share price will double every year",
+      "the company will be delisted"
+    ],
+    "answerIndex": 0,
+    "explanation": "Value stocks have a low P/E ratio, often because they are out of favour; investors hope the market has overreacted and the price will recover.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-014",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which company is most likely to be a defensive stock?",
+    "options": [
+      "A maker of toothpaste and household products",
+      "An airline",
+      "A luxury car maker",
+      "A builder of holiday homes"
+    ],
+    "answerIndex": 0,
+    "explanation": "People keep buying food and household products even in a recession, so such companies' profits tend to be steadier: a classic defensive stock.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-015",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a value stock is always a bargain.",
+    "answerBool": false,
+    "explanation": "False. A low price compared with earnings can mean a bargain or a business in real trouble. Style labels describe; they do not grade.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-016",
+    "category": "C",
+    "topic": "growth-value-dividend",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which of these are typically cyclical businesses? Select all that apply.",
+    "options": [
+      "Car makers",
+      "Airlines",
+      "Building materials companies",
+      "Electricity utilities"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Car makers, airlines and building materials companies depend strongly on the economy. Electricity utilities are usually considered defensive.",
+    "lessonLink": "/learn/types-of-stocks/growth-value-dividend",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-017",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the size of a company usually measured by when calling it large cap or small cap?",
+    "options": [
+      "Market capitalisation",
+      "Number of employees",
+      "Share price alone",
+      "Number of shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Size classes are based on market capitalisation: share price × number of shares.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/microcap-stock"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-018",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC's investor site, US companies with a market cap below roughly what amount are often called microcaps?",
+    "options": [
+      "$250–300 million",
+      "$5 billion",
+      "$1 million",
+      "$50 billion"
+    ],
+    "answerIndex": 0,
+    "explanation": "Companies with a market capitalisation of less than $250 or $300 million are often called microcap stocks.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/microcap-stock"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-019",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which risks does the SEC highlight for microcap stocks? Select all that apply.",
+    "options": [
+      "Little current, publicly available information",
+      "Low liquidity",
+      "Pump-and-dump fraud",
+      "A government guarantee against losses"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The SEC highlights limited public information, low liquidity and vulnerability to pump-and-dump fraud. Microcaps are not guaranteed by anyone.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-020",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a share that costs €0.05 is cheap.",
+    "answerBool": false,
+    "explanation": "False. A low price per share says nothing about value. Market cap = price × number of shares; billions of shares at €0.05 can still mean a large valuation.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-021",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, what characterised the 'meme stocks' of January 2021?",
+    "options": [
+      "Huge price moves driven by social-media excitement",
+      "Steady dividends",
+      "Government ownership",
+      "Very low trading volume"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC staff noted large price moves, large volume changes, high short interest, frequent Reddit mentions and heavy media coverage.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.sec.gov/newsroom/press-releases/2021-212"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-022",
+    "category": "C",
+    "topic": "company-size-penny-meme",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is a warning sign of a possible pump-and-dump in a small stock?",
+    "options": [
+      "The stock is promoted more heavily than the company's products",
+      "The company publishes audited reports",
+      "The stock is in a major index",
+      "The company pays a steady dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC suggests asking whether a stock seems to be more heavily promoted than its products or services.",
+    "lessonLink": "/learn/types-of-stocks/company-size-penny-meme",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-023",
+    "category": "C",
+    "topic": "sectors-and-gics",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many sectors does GICS have?",
+    "answerNumber": 11,
+    "tolerance": 0,
+    "explanation": "GICS has 11 sectors, 25 industry groups, 74 industries and 163 sub-industries.",
+    "lessonLink": "/learn/types-of-stocks/sectors-and-gics",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-024",
+    "category": "C",
+    "topic": "sectors-and-gics",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who developed GICS?",
+    "options": [
+      "S&P Dow Jones Indices and MSCI",
+      "The SEC",
+      "The European Central Bank",
+      "The Vienna Stock Exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "GICS was developed in 1999 by S&P Dow Jones Indices and MSCI.",
+    "lessonLink": "/learn/types-of-stocks/sectors-and-gics",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-025",
+    "category": "C",
+    "topic": "sectors-and-gics",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why compare a company mainly with others in its own sector?",
+    "options": [
+      "Because typical figures differ a lot between sectors",
+      "Because the law requires it",
+      "Because all sectors have the same profits",
+      "Because sectors never change"
+    ],
+    "answerIndex": 0,
+    "explanation": "Typical margins, growth and valuations differ a lot between sectors, so comparing like with like is more meaningful.",
+    "lessonLink": "/learn/types-of-stocks/sectors-and-gics",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-026",
+    "category": "C",
+    "topic": "sectors-and-gics",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: owning five different oil companies is good diversification.",
+    "answerBool": false,
+    "explanation": "False. Companies in the same sector often move together; one event, such as an oil price collapse, can hit all of them.",
+    "lessonLink": "/learn/types-of-stocks/sectors-and-gics",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-027",
+    "category": "C",
+    "topic": "sectors-and-gics",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which GICS sector would a supermarket chain most likely belong to?",
+    "options": [
+      "Consumer Staples",
+      "Consumer Discretionary",
+      "Information Technology",
+      "Materials"
+    ],
+    "answerIndex": 0,
+    "explanation": "Supermarkets sell food and household goods people buy regardless of the economy, which places them in Consumer Staples.",
+    "lessonLink": "/learn/types-of-stocks/sectors-and-gics",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/landing/topic/gics/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-028",
+    "category": "C",
+    "topic": "adrs-and-gdrs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does an American depositary receipt (ADR) represent?",
+    "options": [
+      "Shares of a non-US company held by a US depositary bank",
+      "A US government bond",
+      "Shares of a US company sold abroad",
+      "A savings account in dollars"
+    ],
+    "answerIndex": 0,
+    "explanation": "An ADR represents shares of a non-US company held by a US depositary bank, and trades in the US in dollars.",
+    "lessonLink": "/learn/types-of-stocks/adrs-and-gdrs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-029",
+    "category": "C",
+    "topic": "adrs-and-gdrs",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company's shares trade at the equivalent of $4. One ADR represents 10 shares. Roughly what should one ADR trade at, in dollars?",
+    "answerNumber": 40,
+    "tolerance": 0.5,
+    "unit": "$",
+    "explanation": "1 ADR = 10 shares, so its value is about 10 × $4 = $40, apart from fees, exchange rates and timing.",
+    "lessonLink": "/learn/types-of-stocks/adrs-and-gdrs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-030",
+    "category": "C",
+    "topic": "adrs-and-gdrs",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is an unsponsored ADR?",
+    "options": [
+      "An ADR set up without the company's cooperation",
+      "An ADR with no shares behind it",
+      "An ADR the SEC refused to approve",
+      "An ADR that pays no dividends by law"
+    ],
+    "answerIndex": 0,
+    "explanation": "An unsponsored ADR is set up without the cooperation of the non-US company, for example by a broker-dealer wishing to create a US trading market.",
+    "lessonLink": "/learn/types-of-stocks/adrs-and-gdrs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-031",
+    "category": "C",
+    "topic": "adrs-and-gdrs",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: buying an ADR removes all currency risk because it trades in US dollars.",
+    "answerBool": false,
+    "explanation": "False. The ADR price is in dollars, but the company earns in its own currency; if that currency falls against the dollar, the ADR tends to fall too.",
+    "lessonLink": "/learn/types-of-stocks/adrs-and-gdrs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-032",
+    "category": "C",
+    "topic": "adrs-and-gdrs",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What fee do ADR depositary banks charge holders for their work?",
+    "options": [
+      "Custody (depositary services) fees",
+      "A stamp duty to the SEC",
+      "No fees of any kind",
+      "A fee to the company's founders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Depositary banks charge ADR holders custody fees, sometimes called depositary services fees.",
+    "lessonLink": "/learn/types-of-stocks/adrs-and-gdrs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-88"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-033",
+    "category": "C",
+    "topic": "reits",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a REIT do?",
+    "options": [
+      "Owns and operates income-producing real estate",
+      "Builds houses to sell to families",
+      "Lends money to students",
+      "Insures buildings against fire"
+    ],
+    "answerIndex": 0,
+    "explanation": "A REIT owns, and typically operates, income-producing real estate or related assets such as mortgages.",
+    "lessonLink": "/learn/types-of-stocks/reits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-034",
+    "category": "C",
+    "topic": "reits",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, how much of their taxable income do most REITs pay out?",
+    "options": [
+      "At least 100 percent",
+      "About 10 percent",
+      "Nothing; they reinvest everything",
+      "Exactly 50 percent"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC notes that most REITs pay out at least 100 percent of their taxable income to shareholders.",
+    "lessonLink": "/learn/types-of-stocks/reits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-035",
+    "category": "C",
+    "topic": "reits",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which are risks of non-traded REITs highlighted by the SEC? Select all that apply.",
+    "options": [
+      "No readily available market price",
+      "Money can be locked up for more than 10 years",
+      "High upfront fees",
+      "A government guarantee on the investment"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Non-traded REITs have no market price, can lock up money for more than 10 years, have limited redemption programs and high upfront fees (around 9–10%). They are not guaranteed.",
+    "lessonLink": "/learn/types-of-stocks/reits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-89",
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-036",
+    "category": "C",
+    "topic": "reits",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: shares of a listed REIT cannot fall in price because they are backed by buildings.",
+    "answerBool": false,
+    "explanation": "False. A listed REIT is a company with shares; its price moves every day and can fall sharply, for example when interest rates rise.",
+    "lessonLink": "/learn/types-of-stocks/reits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-037",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a convertible security?",
+    "options": [
+      "A bond or preferred share that can be converted into common shares",
+      "A share that can be converted into cash at any time",
+      "A foreign currency account",
+      "A type of savings book"
+    ],
+    "answerIndex": 0,
+    "explanation": "Usually a bond or preferred share that can be converted into another security, typically the company's common shares.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/convertible-securities"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-038",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Why can convertibles with market-price-based conversion terms (sometimes called 'death spiral' convertibles) hurt shareholders?",
+    "options": [
+      "A falling price means more new shares are issued on conversion, causing heavy dilution",
+      "They pay too much interest",
+      "They can never be converted",
+      "They are only sold to employees"
+    ],
+    "answerIndex": 0,
+    "explanation": "If the conversion price is at a discount to the market price at conversion, a falling share price means more shares are issued, which dilutes shareholders and can push the price down further.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/convertible-securities"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-039",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "A warrant gives the right to buy a share at €50 until expiry. The share stays at €45 until the end. What is the warrant worth at expiry?",
+    "options": [
+      "Nothing: it expires worthless",
+      "€5",
+      "€45",
+      "€50"
+    ],
+    "answerIndex": 0,
+    "explanation": "Nobody would use the right to buy at €50 a share that costs €45, so the warrant expires worthless.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-o/optionsschein/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-040",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a subscription right (Bezugsrecht)?",
+    "options": [
+      "Existing shareholders' right to buy new shares first in a capital increase",
+      "A magazine subscription for investors",
+      "The right to vote on the CEO's salary",
+      "A tax refund"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is existing shareholders' right to buy the new shares issued in a capital increase before others.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-b/bezugsrecht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-041",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the FMA, what is a certificate (Zertifikat) legally?",
+    "options": [
+      "A bearer bond: you lend money to the issuer",
+      "A share in the underlying company",
+      "A deposit protected by deposit insurance",
+      "A fund held separately from the issuer"
+    ],
+    "answerIndex": 0,
+    "explanation": "A certificate is a bearer bond: by buying it you lend money to the issuer, with the payout linked to an underlying asset.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://redenwiruebergeld.fma.gv.at/zertifikate-lupe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-042",
+    "category": "C",
+    "topic": "convertibles-warrants-rights-certificates",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a certificate on a share carries no risk from the bank that issued it, as long as the share does well.",
+    "answerBool": false,
+    "explanation": "False. A certificate is a debt of the issuer, so you carry the issuer's credit risk. The FMA's risk indicator includes this credit risk.",
+    "lessonLink": "/learn/types-of-stocks/convertibles-warrants-rights-certificates",
+    "sources": [
+      "https://redenwiruebergeld.fma.gv.at/zertifikate-lupe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-043",
+    "category": "C",
+    "topic": "fractional-shares",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A share costs €1,000 and you invest €100 with fractional shares. How many shares do you own?",
+    "answerNumber": 0.1,
+    "tolerance": 0.001,
+    "explanation": "€100 ÷ €1,000 = 0.1 shares.",
+    "lessonLink": "/learn/types-of-stocks/fractional-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fractional-share-investing-buying-slice-instead-whole-share"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-044",
+    "category": "C",
+    "topic": "fractional-shares",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "According to the SEC, which of these may apply to fractional shares? Select all that apply.",
+    "options": [
+      "You may not have voting rights",
+      "Some brokers charge fees for fractional trades",
+      "They generally cannot be transferred to another broker",
+      "You never receive any dividends"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "You may not have voting rights, some firms charge fees, and fractional shares generally cannot be transferred to another broker. You generally still receive dividends in proportion.",
+    "lessonLink": "/learn/types-of-stocks/fractional-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fractional-share-investing-buying-slice-instead-whole-share"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "C-045",
+    "category": "C",
+    "topic": "fractional-shares",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if you move your account to another broker, you can always transfer your fractional shares.",
+    "answerBool": false,
+    "explanation": "False. Fractional shares generally cannot be transferred; you may have to sell them, which can have tax consequences.",
+    "lessonLink": "/learn/types-of-stocks/fractional-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/fractional-share-investing-buying-slice-instead-whole-share"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
