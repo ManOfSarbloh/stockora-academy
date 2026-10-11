@@ -20,12 +20,12 @@ export type Question =
   | (Base & { type: 'true_false'; answerBool: boolean })
   | (Base & { type: 'number'; answerNumber: number; tolerance: number; unit?: string })
   | (Base & { type: 'match'; pairs: [string, string][] })
-  | (Base & { type: 'order'; orderedItems: string[] });
+  | (Base & { type: 'order'; orderedItems: string[]; /** Set by shuffleOptions: the order the items are first shown in (indices into orderedItems). */ initialOrder?: number[] });
 
 export type AnswerValue = number | number[] | boolean | string;
 
-/** Question types the practice quiz can show today (match/order arrive with the full quiz hub). */
-export const SUPPORTED_TYPES = ['multiple_choice', 'multiple_select', 'true_false', 'number'] as const;
+/** Question types the practice quiz can show today (match arrives with the full quiz hub). */
+export const SUPPORTED_TYPES = ['multiple_choice', 'multiple_select', 'true_false', 'number', 'order'] as const;
 export const isSupported = (q: Question) => (SUPPORTED_TYPES as readonly string[]).includes(q.type);
 
 /**
@@ -75,6 +75,9 @@ export function isCorrect(q: Question, answer: AnswerValue | undefined): boolean
       const tol = q.tolerance ?? 0;
       return parseNumberCandidates(String(answer)).some((n) => Math.abs(n - q.answerNumber) <= tol + 1e-9);
     }
+    case 'order':
+      // The answer lists indices into orderedItems in the order the learner arranged them.
+      return Array.isArray(answer) && answer.length === q.orderedItems.length && answer.every((v, i) => v === i);
     default:
       return false;
   }
@@ -103,6 +106,17 @@ export function shuffle<T>(items: readonly T[], random: () => number = Math.rand
 
 /** Shuffle the answer options of a question and remap the correct answer(s) to the new positions. */
 export function shuffleOptions(q: Question, random: () => number = Math.random): Question {
+  if (q.type === 'order') {
+    const n = q.orderedItems.length;
+    let initialOrder = shuffle(
+      q.orderedItems.map((_, i) => i),
+      random,
+    );
+    // Never start in the correct order: swap the first two if the shuffle happened to solve it.
+    if (n > 1 && initialOrder.every((v, i) => v === i)) [initialOrder[0], initialOrder[1]] = [initialOrder[1], initialOrder[0]];
+    initialOrder = [...initialOrder];
+    return { ...q, initialOrder };
+  }
   if (q.type !== 'multiple_choice' && q.type !== 'multiple_select') return q;
   const order = shuffle(
     q.options.map((_, i) => i),
@@ -150,6 +164,8 @@ export function correctAnswerText(q: Question, labels: { true: string; false: st
       return q.answerBool ? labels.true : labels.false;
     case 'number':
       return `${q.answerNumber.toLocaleString('en')}${q.unit ? ` ${q.unit}` : ''}`;
+    case 'order':
+      return q.orderedItems.map((s, i) => `${i + 1}. ${s}`).join(' → ');
     default:
       return '';
   }

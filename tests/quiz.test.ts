@@ -16,6 +16,7 @@ const mc: Question = { ...base, id: 'A-1', type: 'multiple_choice', question: 'q
 const ms: Question = { ...base, id: 'A-2', type: 'multiple_select', question: 'q', options: ['a', 'b', 'c', 'd'], answers: [0, 3] };
 const tf: Question = { ...base, id: 'A-3', type: 'true_false', question: 'q', answerBool: false };
 const num: Question = { ...base, id: 'A-4', type: 'number', question: 'q', answerNumber: 2.5, tolerance: 0.05, unit: '%' };
+const ord: Question = { ...base, id: 'A-6', type: 'order', question: 'q', orderedItems: ['first', 'second', 'third'] };
 const big: Question = { ...base, id: 'A-5', type: 'number', question: 'q', answerNumber: 1500, tolerance: 0 };
 
 describe('parseNumberCandidates', () => {
@@ -62,6 +63,26 @@ describe('isCorrect', () => {
     expect(isCorrect(big, '1,500')).toBe(true);
     expect(isCorrect(big, '1.500')).toBe(true);
     expect(isCorrect(big, '15')).toBe(false);
+  });
+});
+
+describe('order questions', () => {
+  it('are correct only in the exact order', () => {
+    expect(isCorrect(ord, [0, 1, 2])).toBe(true);
+    expect(isCorrect(ord, [1, 0, 2])).toBe(false);
+    expect(isCorrect(ord, [0, 1])).toBe(false);
+    expect(isCorrect(ord, 'first')).toBe(false);
+  });
+  it('never start in the solved order and keep every item', () => {
+    for (let seed = 1; seed < 60; seed++) {
+      const q = shuffleOptions(ord, rng(seed)) as Extract<Question, { type: 'order' }>;
+      expect(q.initialOrder).toBeDefined();
+      expect([...q.initialOrder!].sort()).toEqual([0, 1, 2]);
+      expect(isCorrect(q, q.initialOrder)).toBe(false);
+    }
+  });
+  it('shows the full sequence as the correct answer', () => {
+    expect(correctAnswerText(ord, { true: 'True', false: 'False' })).toBe('1. first → 2. second → 3. third');
   });
 });
 

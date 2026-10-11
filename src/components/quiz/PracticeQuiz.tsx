@@ -42,6 +42,9 @@ export default function PracticeQuiz({ quizId, questions, reportHref }: Props) {
 
   const q = run[index];
   const answer = answers[q?.id ?? ''];
+  /** Current arrangement of an order question (indices into orderedItems). */
+  const orderNow: number[] =
+    q?.type === 'order' ? (Array.isArray(answer) ? answer : (q.initialOrder ?? q.orderedItems.map((_, i) => i))) : [];
   const correctCount = run.filter((x) => isCorrect(x, answers[x.id])).length;
 
   function setAnswer(v: AnswerValue) {
@@ -50,7 +53,16 @@ export default function PracticeQuiz({ quizId, questions, reportHref }: Props) {
   }
 
   function check() {
+    // An order question can be submitted as shown, so record the starting arrangement if nothing was moved.
+    if (q.type === 'order' && !Array.isArray(answer)) setAnswers((a) => ({ ...a, [q.id]: orderNow }));
     setPhase('feedback');
+  }
+
+  function move(from: number, to: number) {
+    if (to < 0 || to >= orderNow.length) return;
+    const next = [...orderNow];
+    [next[from], next[to]] = [next[to], next[from]];
+    setAnswer(next);
   }
 
   function next() {
@@ -128,7 +140,8 @@ export default function PracticeQuiz({ quizId, questions, reportHref }: Props) {
   // ---- Question ----
   const ok = isCorrect(q, answer);
   const hasAnswer =
-    answer !== undefined && !(Array.isArray(answer) && answer.length === 0) && !(typeof answer === 'string' && answer.trim() === '');
+    q.type === 'order' ||
+    (answer !== undefined && !(Array.isArray(answer) && answer.length === 0) && !(typeof answer === 'string' && answer.trim() === ''));
   const locked = phase === 'feedback';
 
   const optionClass = (selected: boolean, isRight: boolean) => {
@@ -162,6 +175,7 @@ export default function PracticeQuiz({ quizId, questions, reportHref }: Props) {
             {q.question}
           </h3>
           {q.type === 'multiple_select' && <span className="mt-1 block text-sm text-muted">{t('quiz.selectAll')}</span>}
+          {q.type === 'order' && <span className="mt-1 block text-sm text-muted">{t('quiz.orderHint')}</span>}
         </legend>
 
         <div className="mt-4 space-y-2">
@@ -236,6 +250,48 @@ export default function PracticeQuiz({ quizId, questions, reportHref }: Props) {
               />
               {q.unit && <span className="text-muted">{q.unit}</span>}
             </label>
+          )}
+
+          {q.type === 'order' && (
+            <ol className="space-y-2">
+              {orderNow.map((item, pos) => {
+                const rightPlace = item === pos;
+                return (
+                  <li key={item} className={optionClass(false, locked && rightPlace).replace('cursor-pointer', '')}>
+                    <span className="mt-0.5 w-6 shrink-0 text-right font-semibold tabular-nums text-muted">{pos + 1}.</span>
+                    <span className="flex-1">{q.orderedItems[item]}</span>
+                    {!locked ? (
+                      <span className="flex shrink-0 gap-1">
+                        <button
+                          type="button"
+                          className="btn btn-ghost px-2 py-1 disabled:opacity-40"
+                          disabled={pos === 0}
+                          aria-label={t('quiz.moveUp', { item: q.orderedItems[item] })}
+                          onClick={() => move(pos, pos - 1)}
+                        >
+                          ↑
+                        </button>
+                        <button
+                          type="button"
+                          className="btn btn-ghost px-2 py-1 disabled:opacity-40"
+                          disabled={pos === orderNow.length - 1}
+                          aria-label={t('quiz.moveDown', { item: q.orderedItems[item] })}
+                          onClick={() => move(pos, pos + 1)}
+                        >
+                          ↓
+                        </button>
+                      </span>
+                    ) : rightPlace ? (
+                      <span className="ml-auto shrink-0 text-sm font-semibold text-link">✓</span>
+                    ) : (
+                      <span className="ml-auto shrink-0 text-sm font-semibold text-[#c2410c] dark:text-[#fb923c]">
+                        ✗ {t('quiz.correctPosition', { n: item + 1 })}
+                      </span>
+                    )}
+                  </li>
+                );
+              })}
+            </ol>
           )}
         </div>
       </fieldset>

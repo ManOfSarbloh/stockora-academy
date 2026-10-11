@@ -39,7 +39,24 @@ for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
     validPaths.add(`/learn/${key}`);
   }
 }
+validPaths.add('/how-stocks-are-made');
 const pathOk = (p) => validPaths.has(p.split('#')[0].replace(/\/$/, ''));
+
+// "How Stocks Are Made" journey: step numbers 1..n without gaps, and every linked lesson must exist.
+const stepsDir = join(CONTENT, 'how-stocks-are-made', 'steps');
+const stepFiles = existsSync(stepsDir) ? readdirSync(stepsDir).filter((f) => f.endsWith('.md') && !f.startsWith('_')) : [];
+const stepNumbers = [];
+for (const f of stepFiles) {
+  const front = readFileSync(join(stepsDir, f), 'utf8').split('---')[1] ?? '';
+  const step = Number(front.match(/^step:\s*(\d+)/m)?.[1]);
+  stepNumbers.push(step);
+  const list = front.match(/^lessons:\s*\[(.*)\]/m)?.[1] ?? '';
+  for (const k of list.split(',').map((x) => x.trim()).filter(Boolean))
+    if (!lessonKeys.has(k)) errors.push(`how-stocks-are-made ${f}: lesson "${k}" does not exist`);
+}
+stepNumbers.sort((a, b) => a - b).forEach((n, i) => {
+  if (n !== i + 1) errors.push(`how-stocks-are-made: step numbers must run 1..${stepNumbers.length} without gaps (found ${n})`);
+});
 
 // Glossary
 const glossary = readJSON(join(CONTENT, 'glossary.json'));
@@ -78,6 +95,8 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
       errors.push(`quizzes ${q.id}: answerIndex out of range`);
     if (q.type === 'multiple_select' && q.answers?.some((a) => a >= q.options?.length))
       errors.push(`quizzes ${q.id}: an answer index is out of range`);
+    if (q.type === 'order' && new Set(q.orderedItems).size !== q.orderedItems?.length)
+      errors.push(`quizzes ${q.id}: order items must be unique`);
   }
 }
 
@@ -87,6 +106,7 @@ const pct = (n) => (total ? `${Math.round((n / total) * 100)}%` : '-');
 console.log('Content summary');
 console.log(`  categories      ${categories.length}`);
 console.log(`  lessons         ${lessonKeys.size}`);
+console.log(`  journey steps   ${stepFiles.length}`);
 console.log(`  glossary terms  ${glossary.length} / 400 target`);
 console.log(`  videos          ${videos.length}`);
 console.log(`  quiz questions  ${total} / 900 target`);

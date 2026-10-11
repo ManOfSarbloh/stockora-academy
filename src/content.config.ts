@@ -158,4 +158,35 @@ const quizzes = defineCollection({
   schema: question.and(z.object({ sourceFile: z.string() })),
 });
 
-export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes };
+// ---- "How Stocks Are Made" journey page ----
+const journeySteps = defineCollection({
+  loader: glob({ pattern: '[^_]*.md', base: './content/how-stocks-are-made/steps' }),
+  schema: z.object({
+    step: z.number().int().positive(),
+    title: z.string(),
+    /** Short label for the pipeline diagram. */
+    short: z.string(),
+    summary: z.string(),
+    /** Lesson keys ("<topic-slug>/<lesson-slug>") for "Go deeper" links and the step's mini-quiz. */
+    lessons: z.array(z.string()).min(1),
+    /** Interactive tool shown at the end of the step. */
+    tool: z.enum(['cap-table', 'bookbuilding']).optional(),
+    lastReviewed: reviewDate,
+    sources: z.array(source).min(1),
+  }),
+});
+
+const caseStudies = defineCollection({
+  loader: glob({ pattern: '[^_]*.md', base: './content/how-stocks-are-made/cases' }),
+  schema: z.object({
+    order: z.number().int().nonnegative(),
+    year: z.number().int(),
+    title: z.string(),
+    place: z.string(),
+    summary: z.string(),
+    lastReviewed: reviewDate,
+    sources: z.array(source).min(1),
+  }),
+});
+
+export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies };
