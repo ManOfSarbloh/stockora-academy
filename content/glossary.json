@@ -1833,5 +1833,462 @@
       "S"
     ],
     "de": "Europäische Wertpapier- und Marktaufsichtsbehörde (ESMA)"
+  },
+  {
+    "id": "order-book",
+    "term": "Order book",
+    "aliases": [
+      "order books",
+      "central order book"
+    ],
+    "definition": "The list of all buy and sell orders for a security that are waiting to be executed, sorted by price and time.",
+    "related": [
+      "bid-price",
+      "ask-price",
+      "price-time-priority"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Orderbuch"
+  },
+  {
+    "id": "bid-price",
+    "term": "Bid price",
+    "aliases": [
+      "best bid",
+      "bid prices"
+    ],
+    "definition": "The price at which someone is willing to buy. The highest bid in the order book is the best bid.",
+    "related": [
+      "ask-price",
+      "bid-ask-spread"
+    ],
+    "categories": [
+      "D",
+      "F"
+    ],
+    "de": "Geldkurs (Geld)"
+  },
+  {
+    "id": "ask-price",
+    "term": "Ask price",
+    "aliases": [
+      "best ask",
+      "offer price",
+      "ask prices"
+    ],
+    "definition": "The price at which someone is willing to sell, also called the offer. The lowest ask in the order book is the best ask.",
+    "related": [
+      "bid-price",
+      "bid-ask-spread"
+    ],
+    "categories": [
+      "D",
+      "F"
+    ],
+    "de": "Briefkurs (Brief)"
+  },
+  {
+    "id": "bid-ask-spread",
+    "term": "Bid-ask spread",
+    "aliases": [
+      "bid/ask spread",
+      "bid–ask spread"
+    ],
+    "definition": "The difference between the best ask (lowest selling price) and the best bid (highest buying price). A narrow spread usually signals a liquid security.",
+    "example": "Best bid €10.00, best ask €10.02: the spread is €0.02.",
+    "related": [
+      "bid-price",
+      "ask-price",
+      "liquidity"
+    ],
+    "categories": [
+      "D",
+      "F",
+      "G"
+    ],
+    "de": "Geld-Brief-Spanne / Spread"
+  },
+  {
+    "id": "price-time-priority",
+    "term": "Price-time priority",
+    "aliases": [],
+    "definition": "The rule for sorting orders: the best price comes first, and among orders at the same price, the earliest one comes first.",
+    "related": [
+      "order-book"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Preis-Zeit-Priorität"
+  },
+  {
+    "id": "matching-engine",
+    "term": "Matching engine",
+    "aliases": [],
+    "definition": "The exchange's computer system that matches buy and sell orders according to its rules.",
+    "related": [
+      "order-book"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Matching Engine / Handelssystem"
+  },
+  {
+    "id": "liquidity",
+    "term": "Liquidity",
+    "aliases": [],
+    "definition": "How quickly and easily a security can be bought or sold without substantially moving its price.",
+    "related": [
+      "bid-ask-spread",
+      "market-maker"
+    ],
+    "categories": [
+      "D",
+      "P"
+    ],
+    "de": "Liquidität"
+  },
+  {
+    "id": "price-discovery",
+    "term": "Price discovery",
+    "aliases": [],
+    "definition": "The process by which many buy and sell orders meeting in a market produce a price.",
+    "related": [
+      "order-book",
+      "auction"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Preisbildung / Kursbildung"
+  },
+  {
+    "id": "auction",
+    "term": "Auction (trading)",
+    "aliases": [
+      "auctions",
+      "opening auction",
+      "call phase"
+    ],
+    "definition": "A trading mode in which orders are collected during a call phase and then executed together at the single price where the largest number of shares can be traded.",
+    "related": [
+      "continuous-trading",
+      "closing-auction"
+    ],
+    "categories": [
+      "D",
+      "E"
+    ],
+    "de": "Auktion"
+  },
+  {
+    "id": "closing-auction",
+    "term": "Closing auction",
+    "aliases": [
+      "closing auctions",
+      "closing price"
+    ],
+    "definition": "The auction at the end of the trading day that determines the official closing price.",
+    "related": [
+      "auction"
+    ],
+    "categories": [
+      "D",
+      "E"
+    ],
+    "de": "Schlussauktion"
+  },
+  {
+    "id": "continuous-trading",
+    "term": "Continuous trading",
+    "aliases": [],
+    "definition": "A trading mode in which each incoming order is immediately checked against the order book and executed if possible.",
+    "related": [
+      "auction"
+    ],
+    "categories": [
+      "D",
+      "E"
+    ],
+    "de": "fortlaufender Handel"
+  },
+  {
+    "id": "regulated-market",
+    "term": "Regulated market",
+    "aliases": [
+      "regulated markets"
+    ],
+    "definition": "The EU term for a classic stock exchange: an authorised multilateral system bringing buyers and sellers together under non-discretionary rules.",
+    "related": [
+      "mtf",
+      "trading-venue"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "geregelter Markt"
+  },
+  {
+    "id": "dark-pool",
+    "term": "Dark pool",
+    "aliases": [
+      "dark pools"
+    ],
+    "definition": "A trading system where participants place orders without publicly displaying their size and price, used mainly by institutions to trade large orders.",
+    "related": [
+      "ats",
+      "trading-venue"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Dark Pool"
+  },
+  {
+    "id": "ats",
+    "term": "Alternative trading system",
+    "aliases": [
+      "ATS",
+      "ATSs",
+      "alternative trading systems"
+    ],
+    "definition": "In the US, an SEC-regulated electronic system that matches orders for securities but is not registered as a national securities exchange.",
+    "related": [
+      "dark-pool"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "alternatives Handelssystem (ATS)"
+  },
+  {
+    "id": "systematic-internaliser",
+    "term": "Systematic internaliser",
+    "aliases": [
+      "systematic internalisers",
+      "systematic internalizer"
+    ],
+    "definition": "An EU investment firm that trades against its clients' orders on its own account, outside a trading venue, on a frequent and substantial basis.",
+    "related": [
+      "otc",
+      "trading-venue"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "systematischer Internalisierer"
+  },
+  {
+    "id": "clearing",
+    "term": "Clearing",
+    "aliases": [],
+    "definition": "Everything between a trade and its final settlement: confirming details, working out obligations and managing the risk that a side fails.",
+    "related": [
+      "settlement",
+      "ccp"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Clearing / Abrechnung"
+  },
+  {
+    "id": "settlement",
+    "term": "Settlement",
+    "aliases": [],
+    "definition": "The final exchange of a trade: securities move to the buyer and money to the seller, usually at a central securities depository.",
+    "related": [
+      "clearing",
+      "settlement-cycle",
+      "csd"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Abwicklung / Settlement"
+  },
+  {
+    "id": "ccp",
+    "term": "Central counterparty",
+    "aliases": [
+      "CCP",
+      "central counterparties",
+      "CCPs"
+    ],
+    "definition": "An institution that steps into trades as the buyer to every seller and the seller to every buyer, so that one side's default does not hit the other. In Vienna: CCP Austria.",
+    "related": [
+      "clearing"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "zentrale Gegenpartei (CCP)"
+  },
+  {
+    "id": "delivery-versus-payment",
+    "term": "Delivery versus payment",
+    "aliases": [
+      "DvP"
+    ],
+    "definition": "A settlement method in which securities are delivered only if payment is made, and the other way round, so neither side is left exposed.",
+    "related": [
+      "settlement"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Lieferung gegen Zahlung"
+  },
+  {
+    "id": "settlement-cycle",
+    "term": "Settlement cycle",
+    "aliases": [
+      "T+1",
+      "T+2"
+    ],
+    "definition": "The time between the trade date (T) and settlement, such as T+1 or T+2 business days. The US uses T+1 since May 2024; the EU moves from T+2 to T+1 on 11 October 2027.",
+    "related": [
+      "settlement"
+    ],
+    "categories": [
+      "D",
+      "E"
+    ],
+    "de": "Abwicklungszyklus"
+  },
+  {
+    "id": "circuit-breaker",
+    "term": "Circuit breaker",
+    "aliases": [
+      "circuit breakers",
+      "limit up-limit down"
+    ],
+    "definition": "A rule that halts trading when prices fall or move too far, too fast. In the US, market-wide halts are triggered by S&P 500 falls of 7%, 13% and 20%.",
+    "related": [
+      "volatility-interruption",
+      "trading-halt"
+    ],
+    "categories": [
+      "D",
+      "K"
+    ],
+    "de": "Handelsunterbrechung (Circuit Breaker)"
+  },
+  {
+    "id": "volatility-interruption",
+    "term": "Volatility interruption",
+    "aliases": [
+      "volatility interruptions"
+    ],
+    "definition": "On Xetra-based markets such as Vienna: a short switch from continuous trading into an auction when the next price would fall outside a set price corridor.",
+    "related": [
+      "circuit-breaker",
+      "auction"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Volatilitätsunterbrechung"
+  },
+  {
+    "id": "trading-halt",
+    "term": "Trading halt",
+    "aliases": [
+      "trading halts",
+      "trading suspension"
+    ],
+    "definition": "A temporary stop in trading of a security, for example while important news is pending.",
+    "related": [
+      "circuit-breaker"
+    ],
+    "categories": [
+      "D",
+      "R"
+    ],
+    "de": "Handelsaussetzung"
+  },
+  {
+    "id": "tick-size",
+    "term": "Tick size",
+    "aliases": [
+      "tick sizes",
+      "tick"
+    ],
+    "definition": "The smallest step by which a price can change. In the EU it depends on a share's price and liquidity.",
+    "related": [
+      "lot-size"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Tickgröße"
+  },
+  {
+    "id": "lot-size",
+    "term": "Lot size",
+    "aliases": [
+      "lot sizes",
+      "board lot",
+      "trading unit"
+    ],
+    "definition": "The minimum quantity, or multiple, in which a security can be traded in some markets.",
+    "related": [
+      "tick-size"
+    ],
+    "categories": [
+      "D",
+      "S"
+    ],
+    "de": "Mindestschluss / Handelseinheit"
+  },
+  {
+    "id": "algorithmic-trading",
+    "term": "Algorithmic trading",
+    "aliases": [
+      "algorithmic"
+    ],
+    "definition": "Trading in which computer programs automatically decide on orders, such as when, at what price and in what quantity.",
+    "related": [
+      "hft"
+    ],
+    "categories": [
+      "D",
+      "N"
+    ],
+    "de": "algorithmischer Handel"
+  },
+  {
+    "id": "hft",
+    "term": "High-frequency trading",
+    "aliases": [
+      "HFT",
+      "high-frequency traders",
+      "high frequency trading"
+    ],
+    "definition": "The fastest form of algorithmic trading, using infrastructure such as co-location to minimise delays, automated decisions and very high numbers of orders and cancellations.",
+    "related": [
+      "algorithmic-trading",
+      "co-location"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Hochfrequenzhandel"
+  },
+  {
+    "id": "co-location",
+    "term": "Co-location",
+    "aliases": [],
+    "definition": "Placing a trading firm's computers inside or next to an exchange's data centre to reduce the time orders take to arrive.",
+    "related": [
+      "hft"
+    ],
+    "categories": [
+      "D"
+    ],
+    "de": "Co-Location"
   }
 ]

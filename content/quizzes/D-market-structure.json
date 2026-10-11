@@ -1,0 +1,890 @@
+[
+  {
+    "id": "D-001",
+    "category": "D",
+    "topic": "how-exchanges-work",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year was the Vienna Stock Exchange founded?",
+    "answerNumber": 1771,
+    "tolerance": 0,
+    "explanation": "Empress Maria Theresa founded the Vienna Stock Exchange in 1771, originally to help raise capital for the state.",
+    "lessonLink": "/learn/market-structure/how-exchanges-work",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-002",
+    "category": "D",
+    "topic": "how-exchanges-work",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these are core jobs of a stock exchange? Select all that apply.",
+    "options": [
+      "Listing companies",
+      "Matching buy and sell orders",
+      "Publishing prices and volumes",
+      "Deciding what each share is worth"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Exchanges list companies, match orders and publish prices. They do not set the value of shares; prices come from buyers and sellers.",
+    "lessonLink": "/learn/market-structure/how-exchanges-work",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-003",
+    "category": "D",
+    "topic": "how-exchanges-work",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In EU terms, what is a classic stock exchange?",
+    "options": [
+      "A regulated market",
+      "A systematic internaliser",
+      "A dark pool",
+      "A central counterparty"
+    ],
+    "answerIndex": 0,
+    "explanation": "A regulated market: an authorised multilateral system bringing together many buyers and sellers under non-discretionary rules.",
+    "lessonLink": "/learn/market-structure/how-exchanges-work",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-004",
+    "category": "D",
+    "topic": "how-exchanges-work",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What was the first share listed on the Vienna Stock Exchange, in 1818?",
+    "options": [
+      "The Austrian central bank (Nationalbank)",
+      "A railway company",
+      "A brewery",
+      "A shipping company"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Austrian central bank's share was the first on the list; Ludwig van Beethoven bought eight of them in 1819.",
+    "lessonLink": "/learn/market-structure/how-exchanges-work",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-005",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the 'bid' in an order book?",
+    "options": [
+      "A price at which someone is willing to buy",
+      "A price at which someone is willing to sell",
+      "The last traded price",
+      "The exchange's fee"
+    ],
+    "answerIndex": 0,
+    "explanation": "A bid is an order to buy: the price a buyer is willing to pay. The highest one is the best bid.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-006",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "The best bid is €10.00 and the best ask is €10.02. What is the spread, in euros?",
+    "answerNumber": 0.02,
+    "tolerance": 0.001,
+    "unit": "€",
+    "explanation": "Spread = best ask − best bid = €10.02 − €10.00 = €0.02.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-007",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Two sell orders are at the same price. Which one is executed first?",
+    "options": [
+      "The one that arrived first",
+      "The larger one",
+      "The smaller one",
+      "The one from the bigger bank"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under price-time priority, orders with the same price are sorted by arrival time; the earlier one comes first.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-p/preis-zeit-prioritaet/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-008",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy 300 shares. The order book offers 200 at €10.02 and 500 at €10.03. How much do you pay in total, in euros (before fees)?",
+    "answerNumber": 3007,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "200 × €10.02 = €2,004 plus 100 × €10.03 = €1,003, a total of €3,007.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-009",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Bid €4.80, ask €5.20. You buy 100 shares and immediately sell them. How much do you lose to the spread, in euros?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "You buy at €5.20 and sell at €4.80: 100 × €0.40 = €40 lost, before fees.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-010",
+    "category": "D",
+    "topic": "order-book-and-matching",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when you buy, you usually pay the last traded price shown on screen.",
+    "answerBool": false,
+    "explanation": "False. When you buy now, you usually pay the current ask; the last price is just what the previous trade happened at.",
+    "lessonLink": "/learn/market-structure/order-book-and-matching",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-011",
+    "category": "D",
+    "topic": "auctions-and-continuous-trading",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How is the price in an exchange auction determined?",
+    "options": [
+      "The price at which the most shares can be traded",
+      "The average of all orders",
+      "The previous day's closing price",
+      "The highest bid only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The auction price is the one at which the largest number of shares can be traded; all matching orders execute at that single price.",
+    "lessonLink": "/learn/market-structure/auctions-and-continuous-trading",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-012",
+    "category": "D",
+    "topic": "auctions-and-continuous-trading",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In an auction, at €20.00 buyers want 1,000 shares and sellers offer 800. At €20.10 buyers want 700 and sellers offer 1,000. Which price maximises volume?",
+    "options": [
+      "€20.00 (800 shares)",
+      "€20.10 (700 shares)",
+      "Both the same",
+      "Neither"
+    ],
+    "answerIndex": 0,
+    "explanation": "At €20.00, min(1,000, 800) = 800 shares can trade; at €20.10 only min(700, 1,000) = 700. €20.00 maximises volume.",
+    "lessonLink": "/learn/market-structure/auctions-and-continuous-trading",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-013",
+    "category": "D",
+    "topic": "auctions-and-continuous-trading",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do exchanges hold an opening auction?",
+    "options": [
+      "To find one fair price after overnight news, avoiding a chaotic start",
+      "To give brokers a break",
+      "Because computers need to warm up",
+      "To let the government set the price"
+    ],
+    "answerIndex": 0,
+    "explanation": "News piles up overnight. Collecting orders first and finding one price avoids a chaotic start.",
+    "lessonLink": "/learn/market-structure/auctions-and-continuous-trading",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-014",
+    "category": "D",
+    "topic": "auctions-and-continuous-trading",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "On a normal day, when is the closing auction for ATX shares on the Vienna Stock Exchange?",
+    "options": [
+      "17:30–17:35",
+      "08:55–09:00",
+      "12:00–12:03",
+      "16:00–16:05"
+    ],
+    "answerIndex": 0,
+    "explanation": "For ATX shares, the closing auction runs from 17:30 to 17:35, followed by trade at close.",
+    "lessonLink": "/learn/market-structure/auctions-and-continuous-trading",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-015",
+    "category": "D",
+    "topic": "auctions-and-continuous-trading",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: an order sent during an auction's call phase is executed immediately.",
+    "answerBool": false,
+    "explanation": "False. During the call phase, orders are only collected; they are executed (if at all) at the auction price when it is determined.",
+    "lessonLink": "/learn/market-structure/auctions-and-continuous-trading",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/market-models/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-016",
+    "category": "D",
+    "topic": "market-makers-and-liquidity",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does 'liquidity' mean for a share?",
+    "options": [
+      "How easily it can be traded without moving the price much",
+      "How much cash the company has",
+      "How many dividends it pays",
+      "How old the company is"
+    ],
+    "answerIndex": 0,
+    "explanation": "Liquidity is how quickly and easily a share can be bought or sold without substantially moving its price.",
+    "lessonLink": "/learn/market-structure/market-makers-and-liquidity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-017",
+    "category": "D",
+    "topic": "market-makers-and-liquidity",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a market maker do?",
+    "options": [
+      "Quotes both a buying and a selling price and stands ready to trade",
+      "Sets the official price once a day",
+      "Approves new listings",
+      "Holds investors' shares in custody"
+    ],
+    "answerIndex": 0,
+    "explanation": "A market maker stands ready to buy or sell at publicly quoted prices, posting both a bid and an ask.",
+    "lessonLink": "/learn/market-structure/market-makers-and-liquidity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-makers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-018",
+    "category": "D",
+    "topic": "market-makers-and-liquidity",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which are typical signs of a liquid share? Select all that apply.",
+    "options": [
+      "Narrow bid-ask spread",
+      "Many shares offered at each price",
+      "High daily trading volume",
+      "Days with no trades at all"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Narrow spreads, many shares at each price and high trading volume are signs of liquidity. Days without trades signal illiquidity.",
+    "lessonLink": "/learn/market-structure/market-makers-and-liquidity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-019",
+    "category": "D",
+    "topic": "market-makers-and-liquidity",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in an illiquid share, selling a large amount quickly can push the price down.",
+    "answerBool": true,
+    "explanation": "True. With few buyers at each price, a large sell order has to go deep into the book, lowering the average price.",
+    "lessonLink": "/learn/market-structure/market-makers-and-liquidity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-020",
+    "category": "D",
+    "topic": "where-shares-trade",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a dark pool?",
+    "options": [
+      "A venue where order size and price are not shown before trading",
+      "An illegal market",
+      "A pool of unused shares",
+      "A government bond fund"
+    ],
+    "answerIndex": 0,
+    "explanation": "A trading system where participants can place orders without publicly displaying their size and price, used mainly by institutions for large orders.",
+    "lessonLink": "/learn/market-structure/where-shares-trade",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/alternative-trading-systems-atss",
+      "https://www.finra.org/investors/insights/can-you-swim-dark-pool"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-021",
+    "category": "D",
+    "topic": "where-shares-trade",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why do institutional investors use dark pools?",
+    "options": [
+      "To trade large orders without revealing them and moving the price",
+      "To avoid paying any taxes",
+      "To trade outside the law",
+      "To get dividends earlier"
+    ],
+    "answerIndex": 0,
+    "explanation": "To trade large blocks anonymously, without revealing their orders and moving the price against themselves.",
+    "lessonLink": "/learn/market-structure/where-shares-trade",
+    "sources": [
+      "https://www.finra.org/investors/insights/can-you-swim-dark-pool"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-022",
+    "category": "D",
+    "topic": "where-shares-trade",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is a systematic internaliser in EU terms?",
+    "options": [
+      "A firm trading against client orders on its own account, off-venue, on a regular basis",
+      "A computer inside an exchange",
+      "A type of exchange auction",
+      "A regulator department"
+    ],
+    "answerIndex": 0,
+    "explanation": "An investment firm that trades against client orders on its own account, outside a trading venue, on a frequent and substantial basis.",
+    "lessonLink": "/learn/market-structure/where-shares-trade",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-023",
+    "category": "D",
+    "topic": "where-shares-trade",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in the US, trades on dark pools in listed stocks never become public.",
+    "answerBool": false,
+    "explanation": "False. All trades in listed stocks on ATSs, including dark pools, must be reported to a FINRA Trade Reporting Facility and appear on the consolidated tape.",
+    "lessonLink": "/learn/market-structure/where-shares-trade",
+    "sources": [
+      "https://www.finra.org/investors/insights/can-you-swim-dark-pool"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-024",
+    "category": "D",
+    "topic": "where-shares-trade",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does 'fragmentation' mean in market structure?",
+    "options": [
+      "Trading in a share is spread across several venues",
+      "A company splits into parts",
+      "Share prices fall in steps",
+      "A share loses its ISIN"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading in the same share is spread across several venues, such as exchanges, MTFs and dark pools.",
+    "lessonLink": "/learn/market-structure/where-shares-trade",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-025",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is settlement?",
+    "options": [
+      "The final exchange of shares and money after a trade",
+      "Agreeing the price of a trade",
+      "Paying the broker's fee",
+      "Listing a company"
+    ],
+    "answerIndex": 0,
+    "explanation": "Settlement is the final exchange of a trade: shares go to the buyer and money to the seller.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/clearing-settlement/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-026",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does a central counterparty (CCP) do?",
+    "options": [
+      "Becomes buyer to every seller and seller to every buyer",
+      "Sets share prices",
+      "Approves prospectuses",
+      "Advises investors which shares to buy"
+    ],
+    "answerIndex": 0,
+    "explanation": "It becomes the buyer to every seller and the seller to every buyer, so one side's default does not hit the other.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/clearing-settlement/",
+      "https://www.ccpa.at/en/clearing/securities-clearing/clearing-cycle/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-027",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which institution is the central counterparty for trades on the Vienna Stock Exchange?",
+    "options": [
+      "CCP Austria",
+      "The FMA",
+      "The Austrian National Bank",
+      "ÖBAG"
+    ],
+    "answerIndex": 0,
+    "explanation": "CCP Austria (CCP.A), set up by the OeKB and Wiener Börse, has acted as central counterparty since 1 January 2005.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/clearing-settlement/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-028",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "You buy shares on a Monday under T+2 settlement (no holidays). When does the trade settle?",
+    "options": [
+      "Wednesday",
+      "Monday",
+      "Tuesday",
+      "Friday"
+    ],
+    "answerIndex": 0,
+    "explanation": "T+2 means two business days after the trade date: Monday + 2 = Wednesday.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.ccpa.at/en/clearing/securities-clearing/clearing-cycle/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-029",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Since when has the standard US settlement cycle been T+1?",
+    "options": [
+      "28 May 2024",
+      "1 January 2005",
+      "11 October 2027",
+      "2010"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC's T+1 rule took effect on 28 May 2024.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/new-t1-settlement-cycle-what-investors-need-know-investor-bulletin"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-030",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When is the EU scheduled to move to T+1 settlement?",
+    "options": [
+      "11 October 2027",
+      "28 May 2024",
+      "1 January 2026",
+      "It has no plans"
+    ],
+    "answerIndex": 0,
+    "explanation": "Regulation (EU) 2025/2075 mandates the EU's transition to T+1 by 11 October 2027.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.esma.europa.eu/regulation/post-trading/settlement"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-031",
+    "category": "D",
+    "topic": "clearing-and-settlement",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What does 'delivery versus payment' ensure?",
+    "options": [
+      "Shares are only delivered if payment is made, and vice versa",
+      "Shares are delivered first, payment a week later",
+      "Payment is made in cash at a bank counter",
+      "Delivery is free of charge"
+    ],
+    "answerIndex": 0,
+    "explanation": "Securities are only delivered if payment is made, and the other way round, so neither side is left exposed.",
+    "lessonLink": "/learn/market-structure/clearing-and-settlement",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/clearing-settlement/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-032",
+    "category": "D",
+    "topic": "circuit-breakers-and-halts",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What happens on the Vienna Stock Exchange when the next price would fall outside the set price corridor?",
+    "options": [
+      "Trading switches into a short auction (volatility interruption)",
+      "The trade happens anyway",
+      "The share is delisted",
+      "The broker cancels all orders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading is interrupted and switches into a short auction (volatility interruption), e.g. 2 minutes in continuous trading.",
+    "lessonLink": "/learn/market-structure/circuit-breakers-and-halts",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/volatility-interruption/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-033",
+    "category": "D",
+    "topic": "circuit-breakers-and-halts",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In the US, at what percentage fall of the S&P 500 does a Level 1 market-wide circuit breaker trigger?",
+    "answerNumber": 7,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The three thresholds are 7% (Level 1), 13% (Level 2) and 20% (Level 3).",
+    "lessonLink": "/learn/market-structure/circuit-breakers-and-halts",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-034",
+    "category": "D",
+    "topic": "circuit-breakers-and-halts",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What happens in the US if the S&P 500 falls 20% (Level 3) during a day?",
+    "options": [
+      "Trading halts for the rest of the day",
+      "A 15-minute halt only",
+      "Nothing happens",
+      "Prices are reset to the previous day"
+    ],
+    "answerIndex": 0,
+    "explanation": "A Level 3 decline halts market-wide trading for the rest of the day.",
+    "lessonLink": "/learn/market-structure/circuit-breakers-and-halts",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-035",
+    "category": "D",
+    "topic": "circuit-breakers-and-halts",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a circuit breaker guarantees that prices will not fall further.",
+    "answerBool": false,
+    "explanation": "False. It only pauses trading so prices can form in an orderly way; after the pause prices can still fall.",
+    "lessonLink": "/learn/market-structure/circuit-breakers-and-halts",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-036",
+    "category": "D",
+    "topic": "circuit-breakers-and-halts",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Vienna uses two price corridors. The dynamic corridor is measured from…",
+    "options": [
+      "the last traded price",
+      "the last auction price",
+      "the previous year's high",
+      "the IPO price"
+    ],
+    "answerIndex": 0,
+    "explanation": "The dynamic corridor is around the last traded price; the static corridor is around the last auction price.",
+    "lessonLink": "/learn/market-structure/circuit-breakers-and-halts",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/volatility-interruption/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-037",
+    "category": "D",
+    "topic": "tick-sizes-lots-and-fees",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a 'tick size'?",
+    "options": [
+      "The smallest step by which a price can change",
+      "The number of shares in a lot",
+      "The fee per trade",
+      "The length of a trading day"
+    ],
+    "answerIndex": 0,
+    "explanation": "The tick size is the smallest step by which a price can change, e.g. €0.01.",
+    "lessonLink": "/learn/market-structure/tick-sizes-lots-and-fees",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-final-report-tick-size-regime"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-038",
+    "category": "D",
+    "topic": "tick-sizes-lots-and-fees",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under the EU tick size regime, the minimum tick size for a share depends on…",
+    "options": [
+      "its price and its liquidity",
+      "only the company's size",
+      "the investor's nationality",
+      "the day of the week"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under MiFID II's RTS 11, the tick size depends on the share's price and its liquidity (average daily number of transactions).",
+    "lessonLink": "/learn/market-structure/tick-sizes-lots-and-fees",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-final-report-tick-size-regime"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-039",
+    "category": "D",
+    "topic": "tick-sizes-lots-and-fees",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You invest €500 with a €5 broker fee and about €1 of spread. What are total costs as a percentage of the investment?",
+    "answerNumber": 1.2,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "€6 ÷ €500 = 0.012 = 1.2%.",
+    "lessonLink": "/learn/market-structure/tick-sizes-lots-and-fees",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-040",
+    "category": "D",
+    "topic": "tick-sizes-lots-and-fees",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: on most European exchanges you can buy a single share.",
+    "answerBool": true,
+    "explanation": "True. Most European exchanges allow single shares; some other markets trade only in fixed lots.",
+    "lessonLink": "/learn/market-structure/tick-sizes-lots-and-fees",
+    "sources": [],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-041",
+    "category": "D",
+    "topic": "high-frequency-trading",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which feature is part of the EU definition of high-frequency trading?",
+    "options": [
+      "Infrastructure to minimise delays, such as co-location",
+      "Holding shares for at least a year",
+      "Trading only by phone",
+      "Trading only in auctions"
+    ],
+    "answerIndex": 0,
+    "explanation": "MiFID II lists low-latency infrastructure (such as co-location), automated order decisions without human intervention, and high intraday message rates.",
+    "lessonLink": "/learn/market-structure/high-frequency-trading",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-042",
+    "category": "D",
+    "topic": "high-frequency-trading",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is co-location?",
+    "options": [
+      "Putting a firm's computers in or next to the exchange's data centre",
+      "Two companies sharing an office",
+      "Listing on two exchanges",
+      "Sharing a broker account"
+    ],
+    "answerIndex": 0,
+    "explanation": "Placing a trading firm's computers in or next to the exchange's data centre to cut delays.",
+    "lessonLink": "/learn/market-structure/high-frequency-trading",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-043",
+    "category": "D",
+    "topic": "high-frequency-trading",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "According to the SEC's 2009 testimony, which are possible effects of HFT? Select all that apply.",
+    "options": [
+      "Providing liquidity",
+      "Helping to reduce spreads",
+      "Profiting from trading ahead of large orders",
+      "Guaranteeing higher returns for all investors"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The testimony says HFT can provide liquidity and help reduce spreads, but a high-frequency trader may profit from trading ahead of a large order. It does not guarantee higher returns for everyone.",
+    "lessonLink": "/learn/market-structure/high-frequency-trading",
+    "sources": [
+      "https://www.sec.gov/newsroom/speeches-statements/ts102809jab-testimony-concerning-dark-pools-flash-orders-high-frequency-trading-other-market-structure-issues"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-044",
+    "category": "D",
+    "topic": "high-frequency-trading",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: retail investors can compete with high-frequency traders by reacting quickly in their app.",
+    "answerBool": false,
+    "explanation": "False. Machines placed next to exchange servers react in fractions of a second; long-term investors should focus on costs, diversification and time.",
+    "lessonLink": "/learn/market-structure/high-frequency-trading",
+    "sources": [
+      "https://www.sec.gov/newsroom/speeches-statements/ts102809jab-testimony-concerning-dark-pools-flash-orders-high-frequency-trading-other-market-structure-issues"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-045",
+    "category": "D",
+    "topic": "high-frequency-trading",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is algorithmic trading?",
+    "options": [
+      "Trading where computer programs decide on orders",
+      "Trading using only paper forms",
+      "Trading only government bonds",
+      "Trading by public vote"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading in which computer programs automatically decide on orders: when, at what price and in what quantity.",
+    "lessonLink": "/learn/market-structure/high-frequency-trading",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

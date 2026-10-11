@@ -168,5 +168,54 @@
     "lessons": [
       "types-of-stocks/adrs-and-gdrs"
     ]
+  },
+  {
+    "id": "5k81YKcKCW8",
+    "title": "So wird der Aktienpreis ermittelt",
+    "channel": "Deutsche Börse",
+    "categories": [
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.8,
+    "language": "de",
+    "whyGood": "A short German-language explainer from the Frankfurt stock exchange operator on how a share price is determined.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-structure/order-book-and-matching",
+      "market-structure/auctions-and-continuous-trading"
+    ]
+  },
+  {
+    "id": "1Jjr-rewijY",
+    "title": "Clearing Up the Settlement Process: How Everyday Investors Leverage DTCC Services",
+    "channel": "The DTCC",
+    "categories": [
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.3,
+    "language": "en",
+    "whyGood": "A two-minute overview of clearing and settlement from the US post-trade infrastructure provider itself.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-structure/clearing-and-settlement"
+    ]
+  },
+  {
+    "id": "zi78J-h1XgY",
+    "title": "High Frequency Trading and its Impact on Markets",
+    "channel": "The Plain Bagel",
+    "categories": [
+      "D"
+    ],
+    "level": "advanced",
+    "durationMinutes": 11.9,
+    "language": "en",
+    "whyGood": "A balanced look at what high-frequency traders do and the debate around them, from an independent finance educator.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "market-structure/high-frequency-trading"
+    ]
   }
 ]
