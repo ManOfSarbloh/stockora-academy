@@ -203,6 +203,28 @@
   .dark .tt-overlap { background: rgb(44 196 190 / 0.18); }
   .tt-now { background: #d03b3b; }
 
+  /* ---- Chart Lab ---- */
+  .cl-root {
+    --cl-up: #16834a;
+    --cl-down: #c8352f;
+    --cl-grid: #e8edf2;
+    --cl-axis: #516075;
+    --cl-cross: #7a8899;
+    --cl-draw: #0a7672;
+    --cl-vol: #c9d3de;
+    --cl-ha-note: #7a4f00;
+  }
+  .dark .cl-root {
+    --cl-up: #34b36f;
+    --cl-down: #ef6a5f;
+    --cl-grid: #213552;
+    --cl-axis: #9aa9bc;
+    --cl-cross: #7f93ab;
+    --cl-draw: #2cc4be;
+    --cl-vol: #2b4466;
+    --cl-ha-note: #f5c76e;
+  }
+
   /* ---- Callout boxes (Markdown `> [!KIND]` and <Callout>) ---- */
   .callout {
     --callout-accent: var(--muted);

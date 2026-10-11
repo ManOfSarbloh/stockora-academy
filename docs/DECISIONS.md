@@ -94,6 +94,20 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Tests | 28 tests for DST transitions (Europe, US, Australia, zones without DST), the Vienna–New York gap, weekends, holidays, lunch breaks, early closes, late opens, per-weekday sessions, missing holiday data and the timeline |
 | Category E correction check | The HKEX "Extended Morning Session" (12:00–13:00) applies only to special securities per HKEX's 2011 notice; for shares it remains a lunch break, so the Category E lesson stays correct |
 
+## Phase 7a/7b (2026-10-11): Chart School and Chart Lab
+
+| Topic | Decision |
+|---|---|
+| Order | Category J (Chart School) first, because the brief asks to show the Chart Lab before continuing; categories I and K–W follow after review |
+| Lessons | 10 lessons under /learn/technical-analysis; /charts is the hub, /charts/candles the encyclopedia, /charts/lab the lab, /charts/quiz the chart reading quiz |
+| Sources | Indicator definitions from CME Group's education course (an exchange) and John Bollinger's own site; evidence from Park & Irwin (2007), Lo, Mamaysky & Wang (2000), Marshall (2005) and the Nobel committee's 2013 summary; pattern rules and test statistics from Thomas Bulkowski (shown as "direction only, not profit"); TradingView facts only from its own help pages |
+| Homma | Presented as commonly linked to candlesticks with uncertain history; only the Dojima Rice Exchange (JPX) and Nison's 1991 book are stated as facts |
+| Single source of drawings | content/candles.json holds OHLC data for 24 patterns; the encyclopedia, the lessons (via scripts/build-chart-images.mjs) and the lab all draw from it |
+| Simulated data only | No real price data anywhere. src/lib/chart/core.ts simulates 1-minute data for 7 scenarios (seeded, deterministic) and aggregates to 5m–1W without crossing sessions |
+| Chart Lab | Hand-built SVG (no chart library, no third-party scripts, no TradingView widgets): candles/bars/line/Heikin Ashi, log scale, volume, SMA/EMA/Bollinger/VWAP, RSI and MACD panes, trendline/horizontal line/zone/Fibonacci/measure tools, crosshair with OHLC readout, replay, "next candle" game, click-to-explain, interface tour and a "read this chart" walkthrough following the lesson 9 checklist |
+| Chart quiz | Generated per round from a seed: candle names, trend, RSI, timeframe and two click-on-the-chart questions (support zone, highest close); scores in stockora-quiz-scores ("chart-quiz") |
+| Base path | New rehype plugin prefixes internal Markdown links (e.g. /charts/lab) with the deploy base path |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).

@@ -12,7 +12,7 @@ const lessons = (await getLessonSequence()).filter((l) => l.category.id === 'J')
 <BaseLayout title={t('cs.title')} description={t('cs.lead')}>
   <PageHeader title={t('cs.title')} lead={t('cs.lead')} />
   <div class="container-page py-10">
-    <div class="grid gap-5 md:grid-cols-2">
+    <div class="grid gap-5 md:grid-cols-3">
       <a href={url('/charts/candles')} class="card block p-6 text-text no-underline transition-colors hover:border-link">
         <p class="text-xl font-bold">{t('cs.encyclopedia')}</p>
         <p class="mt-1 text-muted">{t('cs.encyclopediaBody')}</p>
@@ -21,6 +21,11 @@ const lessons = (await getLessonSequence()).filter((l) => l.category.id === 'J')
       <a href={url('/charts/lab')} class="card block p-6 text-text no-underline transition-colors hover:border-link">
         <p class="text-xl font-bold">{t('cs.lab')}</p>
         <p class="mt-1 text-muted">{t('cs.labBody')}</p>
+        <p class="mt-3 font-medium text-link">{t('cs.open')} →</p>
+      </a>
+      <a href={url('/charts/quiz')} class="card block p-6 text-text no-underline transition-colors hover:border-link">
+        <p class="text-xl font-bold">{t('cq.title')}</p>
+        <p class="mt-1 text-muted">{t('cq.lead')}</p>
         <p class="mt-3 font-medium text-link">{t('cs.open')} →</p>
       </a>
     </div>

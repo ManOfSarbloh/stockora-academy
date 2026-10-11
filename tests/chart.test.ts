@@ -4,6 +4,7 @@ import { SCENARIOS, SESSION_MINUTES, aggregate, heikinAshi, simulate, type Candl
 import { atr, bollinger, ema, macd, rsi, sma, vwap } from '../src/lib/chart/indicators';
 import { anatomy, explain, multiCandle, singleCandle } from '../src/lib/chart/patterns';
 import { exampleSeries, type PatternDef } from '../src/lib/chart/examples';
+import { generateChartQuiz, isHighestClick, isSupportClick } from '../src/lib/chart/quiz-gen';
 
 const patterns = candlesData as unknown as PatternDef[];
 const bar = (o: number, h: number, l: number, c: number, day = 0, v = 100, t = 0): Candle => ({ t, day, o, h, l, c, v });
@@ -137,5 +138,36 @@ describe('pattern recognition', () => {
         expect(h).toBeGreaterThanOrEqual(Math.max(o, c));
         expect(l).toBeLessThanOrEqual(Math.min(o, c));
       }
+  });
+});
+
+
+describe('chart reading quiz generator', () => {
+  const named = patterns as unknown as (PatternDef & { name: string })[];
+  it.each([1, 2, 3, 42, 99])('builds a valid round of ten questions (seed %i)', (seed) => {
+    const qs = generateChartQuiz(seed, named);
+    expect(qs).toHaveLength(10);
+    expect(generateChartQuiz(seed, named)).toEqual(qs);
+    for (const q of qs) {
+      expect(q.candles.length).toBeGreaterThan(3);
+      if (q.kind === 'candle') {
+        expect(new Set(q.options).size).toBe(4);
+        expect(q.options[q.answer]).toBe(named.find((p) => p.id === q.patternId)!.name);
+      }
+      if (q.kind === 'rsi') {
+        const v = rsi(q.candles.map((c) => c.c), 14)[q.candles.length - 1];
+        expect(v).toBeCloseTo(q.value, 6);
+        expect(q.answer === 'high' ? v >= 72 : q.answer === 'low' ? v <= 28 : v >= 40 && v <= 60).toBe(true);
+      }
+      if (q.kind === 'support') {
+        expect(q.zone.lo).toBeLessThanOrEqual(q.zone.hi);
+        expect(isSupportClick(q, q.zone.lo)).toBe(true);
+        expect(isSupportClick(q, Math.max(...q.candles.map((c) => c.h)))).toBe(false);
+      }
+      if (q.kind === 'highest') {
+        expect(isHighestClick(q, q.index)).toBe(true);
+        expect(q.candles.every((c) => c.c <= q.candles[q.index].c)).toBe(true);
+      }
+    }
   });
 });
