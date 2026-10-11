@@ -1880,7 +1880,6 @@
     "term": "Ask price",
     "aliases": [
       "best ask",
-      "offer price",
       "ask prices"
     ],
     "definition": "The price at which someone is willing to sell, also called the offer. The lowest ask in the order book is the best ask.",
@@ -3953,5 +3952,26 @@
       "Q"
     ],
     "de": "Anschaffungskosten"
+  },
+  {
+    "id": "offer-price",
+    "term": "Offer price (IPO)",
+    "aliases": [
+      "offer price",
+      "final offer price",
+      "issue price",
+      "placement price"
+    ],
+    "definition": "The price per share at which shares are sold to investors in an IPO or other public offer, set by the company with its banks at the end of bookbuilding.",
+    "example": "BAWAG's 2017 IPO had a price range of €47 to €52 and an offer price of €48.",
+    "related": [
+      "ipo",
+      "bookbuilding",
+      "underpricing"
+    ],
+    "categories": [
+      "B"
+    ],
+    "de": "Angebotspreis / Emissionspreis"
   }
 ]

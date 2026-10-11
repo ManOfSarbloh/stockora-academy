@@ -166,7 +166,7 @@ export default function BookbuildingSimulator() {
           </text>
           {/* demand curve */}
           <path d={path} fill="none" stroke="var(--series-1)" strokeWidth="2" strokeLinejoin="round" />
-          <text x={x(demandAt(BOOK, PMIN + 0.5)) - 4} y={y(PMIN + 0.5) - 8} textAnchor="end" fontSize="12" fontWeight="600" fill="var(--text)">
+          <text x={x(demandAt(BOOK, PMIN)) + 8} y={y(PMIN + 0.25)} dy="0.32em" fontSize="12" fontWeight="600" fill="var(--text)">
             {t('book.demandLabel')}
           </text>
           {/* hover crosshair */}

@@ -64,6 +64,21 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Video vetting | Descriptions are checked for broker referrals, courses or signals. Non-financial sponsors are acceptable. A news segment featuring an issuer's CEO was rejected as promotional |
 | Glossary aliases | Everyday words are left out as aliases, and so are words that collide with other terms ("acquisition cost" got its own entry so it does not link to Takeover) |
 
+## Phase 5 (2026-10-11): "How Stocks Are Made"
+
+| Topic | Decision |
+|---|---|
+| Page structure | One scroll-through page (`/how-stocks-are-made`) that acts as a hub. It holds 9 short steps (what happens, who is involved, an example with numbers, Austria/US notes), each linking to the full lessons in the Learn section rather than repeating them |
+| Content location | Steps in `content/how-stocks-are-made/steps/*.md` and case studies in `.../cases/*.md`, as content collections (`journeySteps`, `caseStudies`) with sources and `lastReviewed` |
+| Case studies | VOC 1602 (Euronext), Facebook/Nasdaq 2012 (SEC release 2013-95), Saudi Aramco 2019 (Aramco's pricing announcement), BAWAG 2017 as the Austrian IPO (Wiener Börse + BAWAG ad-hoc release), Stable Road/Momentus as the SPAC example (SEC release 2021-124). Only facts stated in those documents are used; e.g. no "largest IPO ever" claim for Aramco and no claim that its greenshoe was exercised |
+| Simulators | Cap table/dilution, IPO bookbuilding and "Build your own company" are React islands built on pure, unit-tested libraries (`captable.ts`, `bookbuilding.ts`, `founder-game.ts`). The order book and all game numbers are invented and labelled as such |
+| Charts | Hand-built HTML/SVG (no chart library). The categorical palette is validated for light (#ffffff) and dark (#13233a) surfaces. Every chart has a table or list view, a legend and direct labels; colours follow the holder, not its rank |
+| Mini-quizzes | Each step shows up to 3 questions drawn in turn from its linked lessons' quizzes (`QuizSection lessonLinks`) |
+| Special quiz | `content/quizzes/HSM-how-stocks-are-made.json` (25 questions, category "HSM"), including the new **order-the-steps** question type |
+| Order questions | Reordered with up/down buttons (keyboard and screen-reader friendly, no drag and drop); they never start in the solved order |
+| Founder badge | Finishing the game stores `stockora-founder-game` in localStorage for the "Founder" badge (Phase 9) |
+| Glossary | Each Markdown entry links the first mention of a term, so a small script on the journey page keeps only the first link per term on the whole page. "Offer price" got its own entry; it had been linked to Ask price |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).

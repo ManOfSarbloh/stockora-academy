@@ -3,6 +3,7 @@
  * Renders a practice quiz from the content collection:
  *  - `categoryId`: the full topic quiz
  *  - `lessonTopic` (+ categoryId): up to `limit` questions whose `topic` matches the lesson slug
+ *  - `lessonLinks`: up to `limit` questions from these lessons, taken in turn from each lesson
  */
 import { getCollection } from 'astro:content';
 import PracticeQuiz from './PracticeQuiz';
@@ -11,30 +12,47 @@ import { reportMistakeHref } from '@/lib/report';
 import type { Question } from '@/lib/quiz';
 
 interface Props {
-  categoryId: string;
+  categoryId?: string;
   lessonTopic?: string;
+  lessonLinks?: string[];
   limit?: number;
   title?: string;
+  lead?: string;
+  quizId?: string;
   id?: string;
+  /** Use 3 when the quiz sits inside a section that already has an h2. */
+  headingLevel?: 2 | 3;
 }
 
-const { categoryId, lessonTopic, limit, title, id = 'quiz' } = Astro.props;
-const all = (await getCollection('quizzes', (q) => q.data.category === categoryId && (!lessonTopic || q.data.topic === lessonTopic))).map(
-  (q) => q.data as unknown as Question,
-);
-const questions = limit ? all.slice(0, limit) : all;
-const heading = title ?? (lessonTopic ? t('quiz.checkYourself') : t('quiz.practice'));
-const lead = lessonTopic ? t('quiz.miniLead', { n: questions.length }) : t('quiz.topicQuizLead', { n: questions.length });
-const quizId = lessonTopic ? `${categoryId}:${lessonTopic}` : categoryId;
+const { categoryId, lessonTopic, lessonLinks, limit, title, lead: leadProp, quizId: quizIdProp, id = 'quiz', headingLevel = 2 } = Astro.props;
+const Heading = headingLevel === 3 ? 'h3' : 'h2';
+let questions: Question[];
+if (lessonLinks) {
+  const pool = (await getCollection('quizzes', (q) => lessonLinks.includes(q.data.lessonLink))).map((q) => q.data as unknown as Question);
+  const byLink = lessonLinks.map((l) => pool.filter((q) => q.lessonLink === l));
+  // Round-robin, so a step with two lessons gets questions from both.
+  questions = [];
+  for (let i = 0; questions.length < (limit ?? Infinity) && byLink.some((b) => b[i]); i++) {
+    for (const b of byLink) if (b[i] && questions.length < (limit ?? Infinity)) questions.push(b[i]);
+  }
+} else {
+  const all = (await getCollection('quizzes', (q) => q.data.category === categoryId && (!lessonTopic || q.data.topic === lessonTopic))).map(
+    (q) => q.data as unknown as Question,
+  );
+  questions = limit ? all.slice(0, limit) : all;
+}
+const heading = title ?? (lessonTopic || lessonLinks ? t('quiz.checkYourself') : t('quiz.practice'));
+const lead = leadProp ?? (lessonTopic ? t('quiz.miniLead', { n: questions.length }) : t('quiz.topicQuizLead', { n: questions.length }));
+const quizId = quizIdProp ?? (lessonTopic ? `${categoryId}:${lessonTopic}` : (categoryId ?? id));
 const reportHref = reportMistakeHref(`Quiz ${quizId}`, new URL(Astro.url.pathname, Astro.site).toString());
 ---
 
 {
   questions.length > 0 && (
     <section id={id} class="not-prose scroll-mt-24" aria-labelledby={`${id}-title`} data-pagefind-ignore>
-      <h2 id={`${id}-title`} class="text-xl font-bold">
+      <Heading id={`${id}-title`} class={headingLevel === 3 ? 'text-lg font-bold' : 'text-xl font-bold'}>
         {heading}
-      </h2>
+      </Heading>
       <p class="mt-1 text-sm text-muted">{lead}</p>
       <div class="mt-4">
         <PracticeQuiz client:only="react" quizId={quizId} questions={questions} reportHref={reportHref} />

@@ -50,17 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  'how-stocks-are-made': {
-    title: 'How Stocks Are Made',
-    lead: 'The full journey of a share, from an idea to a listed company, step by step.',
-    planned: [
-      'Nine interactive steps, from founding a company to how shares disappear',
-      'Austria and US examples side by side',
-      'Cap table and dilution simulator',
-      'IPO bookbuilding simulator',
-      '"Build your own company" mini-game (play money only)',
-    ],
-  },
   world: {
     title: 'World Markets',
     lead: 'Stock markets country by country: exchanges, indexes, regulators, hours, rules and taxes.',

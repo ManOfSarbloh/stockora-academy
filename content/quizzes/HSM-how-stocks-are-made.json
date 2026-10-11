@@ -1,0 +1,487 @@
+[
+  {
+    "id": "HSM-001",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these stages of a company's life in the right order.",
+    "orderedItems": [
+      "Founding the company",
+      "Private funding rounds",
+      "IPO",
+      "Trading on the secondary market"
+    ],
+    "explanation": "A company is founded, raises private money, goes public in an IPO, and from then on its shares trade between investors on the secondary market.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://www.wienerborse.at/en/listing/going-public-ipo/process/the-initial-public-offering-and-share-placement/",
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-002",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these IPO steps in the right order.",
+    "orderedItems": [
+      "Choosing the underwriting banks",
+      "Due diligence and writing the prospectus",
+      "Prospectus approval",
+      "Roadshow and bookbuilding",
+      "Setting the final price and allocating shares",
+      "First trading day"
+    ],
+    "explanation": "Banks are chosen first, then due diligence produces the prospectus, which must be approved before the offer. Bookbuilding collects orders, then the price is set and shares are allocated, and finally trading starts.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://www.wienerborse.at/en/listing/going-public-ipo/process/the-initial-public-offering-and-share-placement/",
+      "https://www.fma.gv.at/glossar/prospektbilligung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-003",
+    "category": "HSM",
+    "topic": "step-3",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these funding stages in their usual order.",
+    "orderedItems": [
+      "Friends and family",
+      "Seed round",
+      "Series A",
+      "Series B"
+    ],
+    "explanation": "Young companies usually start with small amounts from people they know, then a seed round, then lettered venture rounds: Series A, B, C.",
+    "lessonLink": "/how-stocks-are-made#step-3",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-004",
+    "category": "HSM",
+    "topic": "step-9",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "In a bankruptcy, who is paid first? Order from first to last.",
+    "orderedItems": [
+      "Creditors",
+      "Ordinary shareholders"
+    ],
+    "explanation": "Creditors are paid before shareholders. Ordinary shareholders are last in line and often receive nothing.",
+    "lessonLink": "/how-stocks-are-made#step-9",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bankruptcy"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-005",
+    "category": "HSM",
+    "topic": "step-1",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which Austrian company form can list its shares on the Vienna Stock Exchange?",
+    "options": [
+      "AG (Aktiengesellschaft)",
+      "GmbH",
+      "Sole trader (Einzelunternehmen)",
+      "Any of them"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only an AG can list its shares; the stakes of a GmbH are not traded on a stock exchange. The Vienna Stock Exchange names conversion into an AG as one of the first steps before an IPO.",
+    "lessonLink": "/how-stocks-are-made#step-1",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft",
+      "https://www.wienerborse.at/en/listing/going-public-ipo/process/internal-preparations-for-the-going-public/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-006",
+    "category": "HSM",
+    "topic": "step-1",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the minimum share capital of an Austrian AG, in euros?",
+    "answerNumber": 70000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "An AG needs at least €70,000 of share capital (Grundkapital). A GmbH needs at least €10,000.",
+    "lessonLink": "/how-stocks-are-made#step-1",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-007",
+    "category": "HSM",
+    "topic": "step-2",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Anna owns 600,000 of a company's 1,000,000 shares. The company issues 250,000 new shares to an investor. What percentage does Anna own afterwards?",
+    "answerNumber": 48,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "600,000 ÷ 1,250,000 = 48%. She keeps her shares, but they are a smaller slice of a larger total.",
+    "lessonLink": "/how-stocks-are-made#step-2",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-008",
+    "category": "HSM",
+    "topic": "step-3",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "An investor pays €2 million at a pre-money valuation of €8 million. What percentage of the company does the investor receive?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Post-money = €8m + €2m = €10m. Investor's share = €2m ÷ €10m = 20%.",
+    "lessonLink": "/how-stocks-are-made#step-3",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-009",
+    "category": "HSM",
+    "topic": "step-3",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if your percentage goes down in a funding round, you have automatically lost money.",
+    "answerBool": false,
+    "explanation": "False. Your percentage falls, but the company now has more money. If the new shares were priced fairly, your stake can be worth the same or more.",
+    "lessonLink": "/how-stocks-are-made#step-3",
+    "sources": [
+      "https://www.sec.gov/resources-small-businesses/glossary"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-010",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In an IPO, where does the money from primary shares go?",
+    "options": [
+      "To the company",
+      "To the existing shareholders who sell",
+      "To the stock exchange",
+      "To the regulator"
+    ],
+    "answerIndex": 0,
+    "explanation": "Primary shares are newly issued; the money goes to the company. Secondary shares are sold by existing owners, who receive that money.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://www.wienerborse.at/en/listing/going-public-ipo/process/the-initial-public-offering-and-share-placement/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-011",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the FMA check when it approves a prospectus?",
+    "options": [
+      "Completeness, coherence and comprehensibility",
+      "That the information is correct",
+      "That the shares are a good investment",
+      "That the price is fair"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA checks the prospectus for completeness, coherence and comprehensibility, not for correctness. The issuer is responsible for the content.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://www.fma.gv.at/glossar/prospektbilligung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-012",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under EU rules, a greenshoe may be at most 15% of the original offer. A company offers 20 million shares. What is the largest greenshoe, in shares?",
+    "answerNumber": 3000000,
+    "tolerance": 0,
+    "explanation": "15% × 20,000,000 = 3,000,000 shares.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://eur-lex.europa.eu/eli/reg_del/2016/1052/oj/eng"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-013",
+    "category": "HSM",
+    "topic": "step-5",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the minimum free float for the Vienna Stock Exchange's prime market?",
+    "options": [
+      "25%",
+      "10%",
+      "50%",
+      "75%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The prime market requires a free float of at least 25%, worth at least €20 million.",
+    "lessonLink": "/how-stocks-are-made#step-5",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/prime-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-014",
+    "category": "HSM",
+    "topic": "step-6",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who assigns ISINs to Austrian securities?",
+    "options": [
+      "The OeKB",
+      "The FMA",
+      "The Vienna Stock Exchange",
+      "The company itself"
+    ],
+    "answerIndex": 0,
+    "explanation": "In Austria, ISINs are assigned by the Oesterreichische Kontrollbank (OeKB).",
+    "lessonLink": "/how-stocks-are-made#step-6",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-015",
+    "category": "HSM",
+    "topic": "step-6",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when you buy shares today, you usually receive a printed share certificate.",
+    "answerBool": false,
+    "explanation": "False. Shares are held as electronic book entries at a central securities depository and passed down a chain of accounts to your broker.",
+    "lessonLink": "/how-stocks-are-made#step-6",
+    "sources": [
+      "https://www.oekb-csd.at/en/about-oekb-csd/the-five-functions-of-oekb-csd.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-016",
+    "category": "HSM",
+    "topic": "step-8",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which report does a US listed company file for each of the first three quarters of its fiscal year?",
+    "options": [
+      "Form 10-Q",
+      "Form 10-K",
+      "Form S-1",
+      "Form 8-K"
+    ],
+    "answerIndex": 0,
+    "explanation": "Form 10-Q is the quarterly report; 10-K is the annual report, 8-K reports major events and S-1 registers an offering.",
+    "lessonLink": "/how-stocks-are-made#step-8",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/form-10-q"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-017",
+    "category": "HSM",
+    "topic": "step-9",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Under the Austrian Gesellschafter-Ausschlussgesetz, what minimum percentage of the capital must a shareholder own to squeeze out the minority?",
+    "answerNumber": 90,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "A shareholder with at least nine tenths (90%) of the capital can have the remaining shares transferred to them against appropriate cash compensation.",
+    "lessonLink": "/how-stocks-are-made#step-9",
+    "sources": [
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20004778"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-018",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In which year was the Dutch East India Company (VOC) founded?",
+    "options": [
+      "1602",
+      "1702",
+      "1492",
+      "1802"
+    ],
+    "answerIndex": 0,
+    "explanation": "The VOC was founded in 1602. Euronext describes it as the first company to go to the Amsterdam exchange.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.euronext.com/blog/417th-anniversary-amsterdam-exchange"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-019",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the SEC, what caused the problems on Facebook's first trading day in 2012?",
+    "options": [
+      "A design limitation in Nasdaq's system for matching IPO orders",
+      "Too few buyers for the shares",
+      "A power cut in New York",
+      "Facebook changed its offer price after trading began"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC found that a design limitation in Nasdaq's IPO cross caused disruptions; Nasdaq paid a $10 million penalty.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.sec.gov/newsroom/press-releases/2013-2013-95htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-020",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Saudi Aramco's 2019 IPO received total demand of SAR 446 billion for an offer of SAR 96 billion. Roughly how many times was it covered? (Round to one decimal place.)",
+    "answerNumber": 4.6,
+    "tolerance": 0.1,
+    "unit": "×",
+    "explanation": "SAR 446bn ÷ SAR 96bn ≈ 4.6 times, which Aramco reported as 465% of the shares offered.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.aramco.com/-/media/images/investors/saudi-aramco-final-price-announcement-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-021",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: BAWAG Group received the proceeds of its 2017 IPO.",
+    "answerBool": false,
+    "explanation": "False. All 40.25 million shares placed were existing shares; the gross proceeds of about €1.93 billion went to the selling shareholders.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.bawaggroup.com/resource/blob/38650/3f4570fea41efad63a6ec04c53623d1c/20171024-bawag-group-ad-hoc-release-1--data.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-022",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "BAWAG's offer price was €48. Its first price on the Vienna Stock Exchange was €47.40. What does this show?",
+    "options": [
+      "IPOs do not always rise on the first day",
+      "The IPO was cancelled",
+      "The company received more money than planned",
+      "The shares were underpriced"
+    ],
+    "answerIndex": 0,
+    "explanation": "The first trade was slightly below the offer price: not every IPO \"pops\" on day one.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.wienerborse.at/en/news/vienna-stock-exchange-news/ipo-bawag-group/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-023",
+    "category": "HSM",
+    "topic": "case-studies",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "According to the SEC, what went wrong in the Stable Road / Momentus SPAC case? Select all that apply.",
+    "options": [
+      "Momentus claimed its technology had been successfully tested in space although the test had failed its main objectives",
+      "The SPAC repeated misleading statements in its filings",
+      "The SPAC failed its due diligence",
+      "The stock exchange's systems failed on the first trading day"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The SEC found misleading claims by Momentus and its former CEO, which the SPAC repeated while failing its due diligence. Exchange system failures were the Facebook case, not this one.",
+    "lessonLink": "/how-stocks-are-made#case-studies",
+    "sources": [
+      "https://www.sec.gov/newsroom/press-releases/2021-124"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-024",
+    "category": "HSM",
+    "topic": "step-4",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which of these is NOT a usual reason for a company to go public?",
+    "options": [
+      "To avoid having to publish financial reports",
+      "To raise money for growth",
+      "To let early investors sell",
+      "To use shares to pay for acquisitions"
+    ],
+    "answerIndex": 0,
+    "explanation": "Going public brings more disclosure, not less: listed companies must publish regular reports and price-relevant news.",
+    "lessonLink": "/how-stocks-are-made#step-4",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-17"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HSM-025",
+    "category": "HSM",
+    "topic": "step-7",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "After the IPO, who usually receives the money when you buy a share on the stock exchange?",
+    "options": [
+      "The investor who sells it to you",
+      "The company",
+      "The underwriting bank",
+      "The central securities depository"
+    ],
+    "answerIndex": 0,
+    "explanation": "On the secondary market, investors trade with each other; the company is not involved and receives nothing.",
+    "lessonLink": "/how-stocks-are-made#step-7",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/orderbuch/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
