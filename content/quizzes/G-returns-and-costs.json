@@ -1,0 +1,748 @@
+[
+  {
+    "id": "G-001",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "You buy a share at €80 and sell it at €100. Fees total €4 per share. What is your profit per share before tax, in euros?",
+    "answerNumber": 16,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100 − €80 = €20 price gain, minus €4 fees = €16 per share.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-002",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "You bought at €80 and the share is now €100. What is your percentage gain?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "(€100 − €80) ÷ €80 = 0.25 = 25%.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-003",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "If a stock falls 50%, what percentage gain is needed to get back to the starting value?",
+    "answerNumber": 100,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "From €100 to €50 is −50%. To get from €50 back to €100 you need +€50, which is +100% of €50.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-004",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does a gain become 'realised'?",
+    "options": [
+      "When you sell the investment",
+      "When the price rises",
+      "At the end of each year",
+      "When you receive a statement"
+    ],
+    "answerIndex": 0,
+    "explanation": "A gain or loss is unrealised while you hold the investment and becomes realised when you sell.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-005",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: an unrealised loss is not a real loss of value.",
+    "answerBool": false,
+    "explanation": "False. Your investment is worth less than you paid; not selling only means you are still exposed to further changes.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-006",
+    "category": "G",
+    "topic": "capital-gains-and-losses",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy 50 shares at €80 and sell at €70, paying €4 in total fees. What is your total loss, in euros?",
+    "answerNumber": 504,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "50 × (€80 − €70) = €500 loss, plus €4 fees = €504.",
+    "lessonLink": "/learn/returns-and-costs/capital-gains-and-losses",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-007",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the ex-dividend date?",
+    "options": [
+      "The first day the share trades without the dividend",
+      "The day the dividend is paid",
+      "The day of the general meeting",
+      "The last day of the year"
+    ],
+    "answerIndex": 0,
+    "explanation": "The first day the share trades without the right to the upcoming dividend.",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/finanzinstrumente/aktien/dividendenberechtigt/",
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-008",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What typically happens to the share price on the ex-dividend date?",
+    "options": [
+      "It drops by about the dividend amount",
+      "It rises by the dividend amount",
+      "It stays exactly the same",
+      "Trading is suspended"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is usually marked down by about the dividend amount (shown as 'eD' in Vienna price lists).",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-009",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which date determines who receives the dividend, based on securities account holdings?",
+    "options": [
+      "The record date",
+      "The payment date",
+      "The general meeting date",
+      "The IPO date"
+    ],
+    "answerIndex": 0,
+    "explanation": "The record date: holdings on that day decide who is paid.",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/finanzinstrumente/aktien/dividendenberechtigt/",
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-010",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: buying a share just before the ex-date gives you a free dividend.",
+    "answerBool": false,
+    "explanation": "False. The price usually drops by about the dividend on the ex-date, and the dividend is typically taxed.",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-011",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In the US, what special rule applies if a dividend is 25% or more of the share value?",
+    "options": [
+      "The ex-date is set one business day after payment",
+      "The dividend is cancelled",
+      "The record date is skipped",
+      "The SEC sets the price"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ex-dividend date is deferred until one business day after the dividend is paid.",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/ex-dividend-dates-when-are-you-entitled-stock-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-012",
+    "category": "G",
+    "topic": "dividends-and-key-dates",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to the Vienna Stock Exchange, by when must you have bought a share to receive the dividend?",
+    "options": [
+      "At least two trading days before the record date",
+      "On the payment date",
+      "On the record date itself",
+      "Any day in the dividend year"
+    ],
+    "answerIndex": 0,
+    "explanation": "At least two trading days before the record date (on the cum date at the latest).",
+    "lessonLink": "/learn/returns-and-costs/dividends-and-key-dates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/finanzinstrumente/aktien/dividendenberechtigt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-013",
+    "category": "G",
+    "topic": "dividend-yield-and-payout-ratio",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A €200 share pays €6 in dividends per year. What is the dividend yield, in percent?",
+    "answerNumber": 3,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€6 ÷ €200 × 100 = 3%.",
+    "lessonLink": "/learn/returns-and-costs/dividend-yield-and-payout-ratio",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/dividenden-rendite/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-014",
+    "category": "G",
+    "topic": "dividend-yield-and-payout-ratio",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A company earns €4.00 per share and pays €1.60 per share in dividends. What is the payout ratio, in percent?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€1.60 ÷ €4.00 × 100 = 40%.",
+    "lessonLink": "/learn/returns-and-costs/dividend-yield-and-payout-ratio",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/dividenden-rendite/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-015",
+    "category": "G",
+    "topic": "dividend-yield-and-payout-ratio",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why can a very high dividend yield be a warning sign?",
+    "options": [
+      "The price may have fallen sharply and the dividend may be cut",
+      "High yields are always guaranteed",
+      "It means the company has no debt",
+      "It means taxes are lower"
+    ],
+    "answerIndex": 0,
+    "explanation": "It often results from a sharply fallen price, and the dividend may be cut if profits are falling.",
+    "lessonLink": "/learn/returns-and-costs/dividend-yield-and-payout-ratio",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/dividenden-rendite/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-016",
+    "category": "G",
+    "topic": "dividend-yield-and-payout-ratio",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a company can pay a dividend above 100% of its profit forever.",
+    "answerBool": false,
+    "explanation": "False. Paying out more than it earns requires using reserves or borrowing, which cannot continue indefinitely.",
+    "lessonLink": "/learn/returns-and-costs/dividend-yield-and-payout-ratio",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/dividenden-rendite/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-017",
+    "category": "G",
+    "topic": "dividend-yield-and-payout-ratio",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A share's dividend stays €2, but the price falls from €50 to €20. What is the new dividend yield, in percent?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€2 ÷ €20 × 100 = 10% (before any dividend cut).",
+    "lessonLink": "/learn/returns-and-costs/dividend-yield-and-payout-ratio",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/dividenden-rendite/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-018",
+    "category": "G",
+    "topic": "total-return",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "You buy a share at €80. A year later it is €86 and you received a €2 dividend. What is your total return, in percent?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "(€86 − €80 + €2) ÷ €80 = 10%.",
+    "lessonLink": "/learn/returns-and-costs/total-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-019",
+    "category": "G",
+    "topic": "total-return",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does total return include?",
+    "options": [
+      "Price change plus income such as dividends",
+      "Only the price change",
+      "Only dividends",
+      "Only fees"
+    ],
+    "answerIndex": 0,
+    "explanation": "Price change plus income such as dividends.",
+    "lessonLink": "/learn/returns-and-costs/total-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-020",
+    "category": "G",
+    "topic": "total-return",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the difference between a price index and a total return index?",
+    "options": [
+      "A total return index includes reinvested dividends",
+      "A price index includes dividends",
+      "They are identical",
+      "A total return index ignores prices"
+    ],
+    "answerIndex": 0,
+    "explanation": "A total return index assumes dividends are reinvested; a price index only follows prices.",
+    "lessonLink": "/learn/returns-and-costs/total-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-021",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is compound interest?",
+    "options": [
+      "Interest on the principal and on earlier interest",
+      "Interest paid only once",
+      "A bank fee",
+      "Interest on borrowed shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Interest paid on the principal and on the interest already accumulated.",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-z/zinseszinseffekt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-022",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "€10,000 grows at 5% a year, compounded, for 30 years. Roughly what is it worth, in euros (to the nearest thousand)?",
+    "answerNumber": 43219,
+    "tolerance": 500,
+    "unit": "€",
+    "explanation": "€10,000 × 1.05^30 ≈ €43,219.",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-023",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Using the rule of 72, roughly how many years does it take to double money at 6% per year?",
+    "answerNumber": 12,
+    "tolerance": 0.2,
+    "unit": "years",
+    "explanation": "72 ÷ 6 = 12 years (the exact answer is about 11.9).",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-024",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why does starting to invest early matter so much?",
+    "options": [
+      "Compounding needs time to work",
+      "Early investors pay no fees",
+      "Markets only rise in the first years",
+      "Taxes are lower for young people"
+    ],
+    "answerIndex": 0,
+    "explanation": "Compounding needs time: growth accelerates the longer returns are reinvested.",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-025",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: compounding only works in your favour.",
+    "answerBool": false,
+    "explanation": "False. Costs and debt compound too; a yearly fee or high-interest debt grows in the same way.",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-026",
+    "category": "G",
+    "topic": "compound-growth",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Simple growth: €10,000 earns 5% a year for 30 years, but the interest is taken out each year. What is the total (original amount plus all interest), in euros?",
+    "answerNumber": 25000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€10,000 + 30 × €500 = €25,000.",
+    "lessonLink": "/learn/returns-and-costs/compound-growth",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/compound-interest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-027",
+    "category": "G",
+    "topic": "inflation-and-real-returns",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Your investment earns 5% while inflation is 3%. Using the exact formula, what is the real return, in percent (two decimals)?",
+    "answerNumber": 1.94,
+    "tolerance": 0.02,
+    "unit": "%",
+    "explanation": "1.05 ÷ 1.03 − 1 ≈ 1.94%.",
+    "lessonLink": "/learn/returns-and-costs/inflation-and-real-returns",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-028",
+    "category": "G",
+    "topic": "inflation-and-real-returns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the ECB's inflation target?",
+    "options": [
+      "2% over the medium term",
+      "0%",
+      "5% every year",
+      "Whatever the government decides"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB aims for 2% inflation over the medium term, measured by the HICP, and treats deviations either way as equally undesirable.",
+    "lessonLink": "/learn/returns-and-costs/inflation-and-real-returns",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-029",
+    "category": "G",
+    "topic": "inflation-and-real-returns",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which index does the ECB use to measure euro-area inflation?",
+    "options": [
+      "The HICP",
+      "The ATX",
+      "The S&P 500",
+      "The GDP deflator only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Harmonised Index of Consumer Prices (HICP).",
+    "lessonLink": "/learn/returns-and-costs/inflation-and-real-returns",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-030",
+    "category": "G",
+    "topic": "inflation-and-real-returns",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: if your savings account balance does not fall, you cannot lose purchasing power.",
+    "answerBool": false,
+    "explanation": "False. If prices rise faster than your interest, the same balance buys less.",
+    "lessonLink": "/learn/returns-and-costs/inflation-and-real-returns",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html",
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-031",
+    "category": "G",
+    "topic": "inflation-and-real-returns",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "€10,000 is kept in cash for 20 years at 0% interest while prices rise 2% a year. What is it worth in today's purchasing power, in euros (to the nearest ten)?",
+    "answerNumber": 6730,
+    "tolerance": 15,
+    "unit": "€",
+    "explanation": "Prices rise to 1.02^20 ≈ 1.486 times. €10,000 ÷ 1.486 ≈ €6,730.",
+    "lessonLink": "/learn/returns-and-costs/inflation-and-real-returns",
+    "sources": [
+      "https://www.ecb.europa.eu/mopo/strategy/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-032",
+    "category": "G",
+    "topic": "investment-costs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does TER stand for?",
+    "options": [
+      "Total expense ratio",
+      "Tax exemption rate",
+      "Trading execution rule",
+      "Total equity return"
+    ],
+    "answerIndex": 0,
+    "explanation": "Total expense ratio: a fund's yearly costs as a percentage of its assets.",
+    "lessonLink": "/learn/returns-and-costs/investment-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-033",
+    "category": "G",
+    "topic": "investment-costs",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which costs are typically included in a fund's TER? Select all that apply.",
+    "options": [
+      "Management fee",
+      "Custody fees",
+      "Audit costs",
+      "Your broker's commission for buying the fund"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "According to the Wiener Börse, the TER includes mainly the management fee, custody fees, adviser and audit costs. Your broker's commission for buying the fund is not part of the TER.",
+    "lessonLink": "/learn/returns-and-costs/investment-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-034",
+    "category": "G",
+    "topic": "investment-costs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "€10,000 grows for 30 years at 6% before costs. Fund A charges 0.2% a year, fund B 1.5%. Roughly how much more does A end with?",
+    "options": [
+      "About €16,800",
+      "About €130",
+      "About €1,300",
+      "No difference"
+    ],
+    "answerIndex": 0,
+    "explanation": "A: ≈ €54,300; B: ≈ €37,500. The difference is about €16,800 because costs compound.",
+    "lessonLink": "/learn/returns-and-costs/investment-costs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-035",
+    "category": "G",
+    "topic": "investment-costs",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Under MiFID II, what must firms tell you about costs?",
+    "options": [
+      "All costs, aggregated, including their cumulative effect on return",
+      "Nothing unless you ask in writing",
+      "Only the commission per trade",
+      "Only taxes"
+    ],
+    "answerIndex": 0,
+    "explanation": "All costs and charges, aggregated so you understand the overall cost and its cumulative effect on your return; an itemised breakdown on request.",
+    "lessonLink": "/learn/returns-and-costs/investment-costs",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-036",
+    "category": "G",
+    "topic": "investment-costs",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: costs are uncertain, while returns are certain.",
+    "answerBool": false,
+    "explanation": "False. It is the other way round: costs are certain, returns are not.",
+    "lessonLink": "/learn/returns-and-costs/investment-costs",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-037",
+    "category": "G",
+    "topic": "break-even-and-small-trades",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy 100 shares at €50.05 with a €5 fee. The selling fee is also €5. What is your break-even selling price per share, in euros?",
+    "answerNumber": 50.15,
+    "tolerance": 0.005,
+    "unit": "€",
+    "explanation": "Paid: €5,005 + €5 = €5,010. Need €5,010 + €5 = €5,015 from the sale: €5,015 ÷ 100 = €50.15.",
+    "lessonLink": "/learn/returns-and-costs/break-even-and-small-trades",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-038",
+    "category": "G",
+    "topic": "break-even-and-small-trades",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "You invest €200 with €5 fees to buy and €5 to sell. What percentage of the amount do fees take?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "€10 ÷ €200 = 5%.",
+    "lessonLink": "/learn/returns-and-costs/break-even-and-small-trades",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-039",
+    "category": "G",
+    "topic": "break-even-and-small-trades",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: selling at the same price you bought at means you broke even.",
+    "answerBool": false,
+    "explanation": "False. You paid the spread and fees both ways, so you made a loss.",
+    "lessonLink": "/learn/returns-and-costs/break-even-and-small-trades",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-040",
+    "category": "G",
+    "topic": "break-even-and-small-trades",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which price must reach your break-even level for you to sell without a loss?",
+    "options": [
+      "The bid",
+      "The ask",
+      "The last traded price",
+      "The opening price"
+    ],
+    "answerIndex": 0,
+    "explanation": "When you sell, you receive the bid, so the bid must reach the break-even price.",
+    "lessonLink": "/learn/returns-and-costs/break-even-and-small-trades",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

@@ -249,5 +249,53 @@
     "lessons": [
       "brokers-accounts-orders/stop-orders"
     ]
+  },
+  {
+    "id": "sP8uEdKVRvA",
+    "title": "Investopedia Video: What Is A Dividend?",
+    "channel": "Investopedia",
+    "categories": [
+      "G"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.2,
+    "language": "en",
+    "whyGood": "A one-minute introduction to dividends from a well-known financial education site.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "returns-and-costs/dividends-and-key-dates"
+    ]
+  },
+  {
+    "id": "Rm6UdfRs3gw",
+    "title": "Compound interest introduction | Interest and debt | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "G"
+    ],
+    "level": "beginner",
+    "durationMinutes": 6.6,
+    "language": "en",
+    "whyGood": "Works through the arithmetic of compound interest step by step, from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "returns-and-costs/compound-growth"
+    ]
+  },
+  {
+    "id": "mec-QpjQMXY",
+    "title": "The rule of 72 for compound interest | Interest and debt | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "G"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 9.2,
+    "language": "en",
+    "whyGood": "Explains where the rule of 72 comes from and how accurate it is, from the non-profit Khan Academy.",
+    "lastChecked": "2026-10-11",
+    "lessons": [
+      "returns-and-costs/compound-growth"
+    ]
   }
 ]

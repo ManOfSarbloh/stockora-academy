@@ -81,7 +81,12 @@
       "G",
       "Q"
     ],
-    "de": "Kursgewinn"
+    "de": "Kursgewinn",
+    "aliases": [
+      "capital gains",
+      "capital loss",
+      "capital losses"
+    ]
   },
   {
     "id": "market-capitalisation",
@@ -2996,5 +3001,283 @@
       "N"
     ],
     "de": "Leerverkauf"
+  },
+  {
+    "id": "unrealised-gain",
+    "term": "Unrealised gain or loss",
+    "aliases": [
+      "unrealised",
+      "unrealized",
+      "realised",
+      "realized",
+      "paper gain",
+      "paper loss"
+    ],
+    "definition": "A gain or loss on an investment you still hold (a 'paper' gain or loss). It becomes realised when you sell.",
+    "related": [
+      "capital-gain"
+    ],
+    "categories": [
+      "G",
+      "Q"
+    ],
+    "de": "nicht realisierter Gewinn/Verlust"
+  },
+  {
+    "id": "ex-dividend-date",
+    "term": "Ex-dividend date",
+    "aliases": [
+      "ex-date",
+      "ex-dividend",
+      "ex-dividend dates"
+    ],
+    "definition": "The first day a share trades without the right to the upcoming dividend. The share price usually drops by about the dividend amount on this day.",
+    "related": [
+      "record-date",
+      "cum-date",
+      "dividend"
+    ],
+    "categories": [
+      "G",
+      "V"
+    ],
+    "de": "Ex-Tag"
+  },
+  {
+    "id": "cum-date",
+    "term": "Cum date",
+    "aliases": [],
+    "definition": "The last day on which a share can be bought with the right to the upcoming dividend.",
+    "related": [
+      "ex-dividend-date"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "Cum-Tag"
+  },
+  {
+    "id": "record-date",
+    "term": "Record date",
+    "aliases": [
+      "date of record"
+    ],
+    "definition": "The day on which the holdings in securities accounts determine who receives a dividend.",
+    "related": [
+      "ex-dividend-date",
+      "payment-date"
+    ],
+    "categories": [
+      "G",
+      "V"
+    ],
+    "de": "Nachweisstichtag (Record Date)"
+  },
+  {
+    "id": "payment-date",
+    "term": "Payment date",
+    "aliases": [],
+    "definition": "The day a dividend is actually paid out to shareholders.",
+    "related": [
+      "record-date"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "Zahltag"
+  },
+  {
+    "id": "special-dividend",
+    "term": "Special dividend",
+    "aliases": [
+      "special dividends"
+    ],
+    "definition": "A one-off dividend paid outside the regular schedule, for example after selling a business.",
+    "related": [
+      "dividend"
+    ],
+    "categories": [
+      "G",
+      "V"
+    ],
+    "de": "Sonderdividende"
+  },
+  {
+    "id": "dividend-yield",
+    "term": "Dividend yield",
+    "aliases": [],
+    "definition": "The annual dividend per share divided by the share price, in percent.",
+    "example": "€6 dividend ÷ €200 share price = 3%.",
+    "related": [
+      "payout-ratio",
+      "dividend"
+    ],
+    "categories": [
+      "G",
+      "I"
+    ],
+    "de": "Dividendenrendite"
+  },
+  {
+    "id": "payout-ratio",
+    "term": "Payout ratio",
+    "aliases": [],
+    "definition": "The share of a company's profit paid out as dividends: dividends ÷ net profit (or dividend per share ÷ earnings per share).",
+    "example": "€1.60 dividend ÷ €4.00 earnings per share = 40%.",
+    "related": [
+      "dividend-yield"
+    ],
+    "categories": [
+      "G",
+      "I"
+    ],
+    "de": "Ausschüttungsquote"
+  },
+  {
+    "id": "total-return",
+    "term": "Total return",
+    "aliases": [
+      "total returns"
+    ],
+    "definition": "The full return of an investment: price change plus income such as dividends, usually assuming income is reinvested.",
+    "related": [
+      "dividend",
+      "compound-interest"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "Gesamtrendite (Total Return)"
+  },
+  {
+    "id": "compound-interest",
+    "term": "Compound interest",
+    "aliases": [
+      "compounding",
+      "compound growth",
+      "compound effect"
+    ],
+    "definition": "Interest (or returns) earned on both the original amount and on earlier interest. End value = start value × (1 + rate)^years.",
+    "related": [
+      "rule-of-72",
+      "total-return"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "Zinseszins"
+  },
+  {
+    "id": "rule-of-72",
+    "term": "Rule of 72",
+    "aliases": [],
+    "definition": "A shortcut for doubling time: 72 divided by the yearly return in percent gives the approximate number of years to double.",
+    "example": "At 6% a year: 72 ÷ 6 ≈ 12 years.",
+    "related": [
+      "compound-interest"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "72er-Regel"
+  },
+  {
+    "id": "nominal-return",
+    "term": "Nominal return",
+    "aliases": [],
+    "definition": "The return in money terms, before accounting for inflation.",
+    "related": [
+      "real-return",
+      "inflation"
+    ],
+    "categories": [
+      "G",
+      "L"
+    ],
+    "de": "Nominalrendite"
+  },
+  {
+    "id": "real-return",
+    "term": "Real return",
+    "aliases": [
+      "real returns"
+    ],
+    "definition": "The return after inflation, showing the change in purchasing power: (1 + nominal) ÷ (1 + inflation) − 1.",
+    "related": [
+      "nominal-return",
+      "inflation"
+    ],
+    "categories": [
+      "G",
+      "L"
+    ],
+    "de": "Realrendite"
+  },
+  {
+    "id": "hicp",
+    "term": "HICP",
+    "aliases": [
+      "Harmonised Index of Consumer Prices"
+    ],
+    "definition": "Harmonised Index of Consumer Prices: the measure of inflation used by the ECB for the euro area.",
+    "related": [
+      "inflation"
+    ],
+    "categories": [
+      "G",
+      "L"
+    ],
+    "de": "Harmonisierter Verbraucherpreisindex (HVPI)"
+  },
+  {
+    "id": "ter",
+    "term": "Total expense ratio",
+    "aliases": [
+      "TER",
+      "ongoing charges"
+    ],
+    "definition": "The yearly costs charged to a fund (management, custody, audit and other fees) as a percentage of its assets.",
+    "related": [
+      "custody-fee"
+    ],
+    "categories": [
+      "G",
+      "H"
+    ],
+    "de": "Gesamtkostenquote (TER)"
+  },
+  {
+    "id": "custody-fee",
+    "term": "Custody fee",
+    "aliases": [
+      "custody fees",
+      "account fee"
+    ],
+    "definition": "A fee charged for keeping your securities account, often a percentage per year or a fixed amount.",
+    "related": [
+      "ter",
+      "depot"
+    ],
+    "categories": [
+      "G",
+      "F"
+    ],
+    "de": "Depotgebühr"
+  },
+  {
+    "id": "break-even-price",
+    "term": "Break-even price",
+    "aliases": [
+      "break-even",
+      "breakeven"
+    ],
+    "definition": "The selling price at which you get back exactly what you paid, including all costs of buying and selling.",
+    "related": [
+      "bid-ask-spread"
+    ],
+    "categories": [
+      "G"
+    ],
+    "de": "Break-even-Kurs"
   }
 ]
