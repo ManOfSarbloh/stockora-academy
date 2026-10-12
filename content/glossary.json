@@ -7385,5 +7385,301 @@
       "Q"
     ],
     "de": "Automatischer Informationsaustausch"
+  },
+  {
+    "id": "mar",
+    "term": "Market Abuse Regulation",
+    "aliases": [
+      "MAR"
+    ],
+    "definition": "The EU regulation (applicable since 3 July 2016) that defines and bans insider dealing and market manipulation and sets disclosure duties for issuers and managers.",
+    "related": [
+      "inside-information",
+      "insider-dealing",
+      "market-manipulation"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Marktmissbrauchsverordnung"
+  },
+  {
+    "id": "inside-information",
+    "term": "Inside information",
+    "aliases": [
+      "Insiderinformation"
+    ],
+    "definition": "Precise, non-public information about an issuer or financial instrument that would be likely to move the price significantly if made public.",
+    "related": [
+      "insider-dealing",
+      "ad-hoc-announcement"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Insiderinformation"
+  },
+  {
+    "id": "insider-dealing",
+    "term": "Insider dealing",
+    "aliases": [
+      "insider trading",
+      "insider dealer",
+      "insider dealers"
+    ],
+    "definition": "Using inside information to trade, recommending trades on that basis, or passing it on. A criminal and administrative offence in Austria.",
+    "related": [
+      "inside-information",
+      "mar"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Insiderhandel"
+  },
+  {
+    "id": "market-manipulation",
+    "term": "Market manipulation",
+    "aliases": [
+      "Marktmanipulation",
+      "price manipulation"
+    ],
+    "definition": "Trades, orders or information that give false or misleading signals about supply, demand or price, or set prices at artificial levels.",
+    "related": [
+      "pump-and-dump",
+      "mar"
+    ],
+    "categories": [
+      "R",
+      "T"
+    ],
+    "de": "Marktmanipulation"
+  },
+  {
+    "id": "pump-and-dump",
+    "term": "Pump and dump",
+    "aliases": [
+      "pump-and-dump"
+    ],
+    "definition": "A scheme in which promoters push up the price of a cheap share with hype or false claims, then sell their own shares at the top, leaving others with losses.",
+    "related": [
+      "market-manipulation",
+      "penny-stock"
+    ],
+    "categories": [
+      "R",
+      "T"
+    ]
+  },
+  {
+    "id": "ad-hoc-announcement",
+    "term": "Ad hoc announcement",
+    "aliases": [
+      "ad hoc announcements",
+      "Ad-hoc-Meldung",
+      "ad hoc disclosure"
+    ],
+    "definition": "A company announcement publishing inside information without delay, as required by Article 17 MAR, for example a profit warning.",
+    "related": [
+      "inside-information",
+      "profit-warning"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Ad-hoc-Meldung"
+  },
+  {
+    "id": "major-holdings-notification",
+    "term": "Major holdings notification",
+    "aliases": [
+      "Beteiligungsmeldung",
+      "major holdings"
+    ],
+    "definition": "In Austria, the duty to report when voting rights in a listed company reach, exceed or fall below thresholds from 4% to 90%, within two trading days.",
+    "related": [
+      "takeover",
+      "mandatory-offer"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Beteiligungsmeldung"
+  },
+  {
+    "id": "directors-dealings",
+    "term": "Directors' dealings",
+    "aliases": [
+      "managers' transactions",
+      "Directors’ dealings",
+      "managers’ transactions"
+    ],
+    "definition": "Trades by managers of a listed company and their close associates in the company's shares, which must be reported within three business days once €20,000 a year is reached.",
+    "related": [
+      "inside-information"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Directors' Dealings / Eigengeschäfte von Führungskräften"
+  },
+  {
+    "id": "mandatory-offer",
+    "term": "Mandatory offer",
+    "aliases": [
+      "Pflichtangebot",
+      "mandatory bid"
+    ],
+    "definition": "In Austria, the obligation to offer to buy all shares after gaining more than 30% of the voting rights in a listed company, at a legally set minimum price.",
+    "related": [
+      "takeover",
+      "squeeze-out",
+      "takeover-commission"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Pflichtangebot"
+  },
+  {
+    "id": "takeover-commission",
+    "term": "Takeover Commission",
+    "aliases": [
+      "Übernahmekommission"
+    ],
+    "definition": "Austria's independent authority at the Vienna Stock Exchange that supervises takeover offers and decides whether a mandatory offer is required.",
+    "related": [
+      "mandatory-offer"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Übernahmekommission"
+  },
+  {
+    "id": "management-board",
+    "term": "Management board",
+    "aliases": [
+      "Vorstand",
+      "executive board"
+    ],
+    "definition": "In an Austrian stock corporation, the body that runs the company on its own responsibility.",
+    "related": [
+      "supervisory-board",
+      "corporate-governance"
+    ],
+    "categories": [
+      "R",
+      "A"
+    ],
+    "de": "Vorstand"
+  },
+  {
+    "id": "supervisory-board",
+    "term": "Supervisory board",
+    "aliases": [
+      "Aufsichtsrat"
+    ],
+    "definition": "In an Austrian stock corporation, the body that monitors the management board and is elected by the general meeting.",
+    "related": [
+      "management-board",
+      "general-meeting"
+    ],
+    "categories": [
+      "R",
+      "A"
+    ],
+    "de": "Aufsichtsrat"
+  },
+  {
+    "id": "bail-in",
+    "term": "Bail-in",
+    "aliases": [
+      "bail-ins"
+    ],
+    "definition": "Writing down or converting into shares the claims of a failing bank's shareholders and creditors, so that they, rather than taxpayers, bear its losses.",
+    "related": [
+      "bank-resolution"
+    ],
+    "categories": [
+      "R"
+    ]
+  },
+  {
+    "id": "bank-resolution",
+    "term": "Bank resolution",
+    "aliases": [
+      "resolution authority",
+      "Single Resolution Board"
+    ],
+    "definition": "The orderly restructuring or winding down of a failing bank by a resolution authority, using tools such as sale of business, a bridge bank or bail-in.",
+    "related": [
+      "bail-in"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Bankenabwicklung"
+  },
+  {
+    "id": "banking-ombudsman",
+    "term": "Banking ombudsman",
+    "aliases": [
+      "Bankenschlichtung",
+      "Schlichtungsstelle"
+    ],
+    "definition": "In Austria, the Joint Conciliation Board of the Austrian Banking Industry, which mediates complaints about Austrian banks free of charge after you have tried to resolve them with the bank.",
+    "related": [
+      "fma"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Gemeinsame Schlichtungsstelle der Österreichischen Kreditwirtschaft"
+  },
+  {
+    "id": "esg",
+    "term": "ESG",
+    "aliases": [
+      "environmental, social and governance"
+    ],
+    "definition": "Environmental, social and governance factors considered by investors to manage risk or align investments with values.",
+    "related": [
+      "sfdr",
+      "greenwashing"
+    ],
+    "categories": [
+      "R",
+      "H"
+    ]
+  },
+  {
+    "id": "sfdr",
+    "term": "Sustainable Finance Disclosure Regulation",
+    "aliases": [
+      "SFDR"
+    ],
+    "definition": "The EU regulation requiring financial firms to disclose how they consider sustainability risks and adverse impacts, and to justify sustainability claims.",
+    "related": [
+      "esg",
+      "greenwashing"
+    ],
+    "categories": [
+      "R"
+    ],
+    "de": "Offenlegungsverordnung"
+  },
+  {
+    "id": "greenwashing",
+    "term": "Greenwashing",
+    "definition": "Presenting a product or company as more environmentally friendly or sustainable than it really is.",
+    "related": [
+      "esg",
+      "sfdr"
+    ],
+    "categories": [
+      "R",
+      "T"
+    ]
   }
 ]

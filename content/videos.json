@@ -1154,5 +1154,53 @@
     "lessons": [
       "taxes/filing-and-records"
     ]
+  },
+  {
+    "id": "Iorb71CPj8E",
+    "title": "Insider Trading explained",
+    "channel": "Yale Law School",
+    "categories": [
+      "R"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 12.2,
+    "language": "en",
+    "whyGood": "A Yale Law School professor explains insider trading law and the competing views of regulators and courts (US focus).",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "regulation-law-ethics/insider-dealing"
+    ]
+  },
+  {
+    "id": "G8s5vSraX6Y",
+    "title": "What is the role of the Single Resolution Board?",
+    "channel": "Single Resolution Board",
+    "categories": [
+      "R"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.5,
+    "language": "en",
+    "whyGood": "The EU's resolution authority explains in 90 seconds what it does when banks fail.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "regulation-law-ethics/bank-failures-and-bail-in"
+    ]
+  },
+  {
+    "id": "cZ3jwpfQqDU",
+    "title": "What is the Single Resolution Mechanism?",
+    "channel": "Single Resolution Board",
+    "categories": [
+      "R"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 2.4,
+    "language": "en",
+    "whyGood": "Explains how the SRB and national resolution authorities work together in the banking union.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "regulation-law-ethics/bank-failures-and-bail-in"
+    ]
   }
 ]

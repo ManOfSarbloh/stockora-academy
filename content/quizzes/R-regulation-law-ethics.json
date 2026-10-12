@@ -1,0 +1,815 @@
+[
+  {
+    "id": "R-001",
+    "category": "R",
+    "topic": "who-regulates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises banks, insurers and the securities markets in Austria?",
+    "options": [
+      "The Financial Market Authority (FMA)",
+      "The Vienna Stock Exchange",
+      "The Ministry of Finance",
+      "The ECB alone"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA carries out banking, insurance, pension fund and securities supervision.",
+    "lessonLink": "/learn/regulation-law-ethics/who-regulates",
+    "sources": [
+      "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-002",
+    "category": "R",
+    "topic": "who-regulates",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the FMA is bound by instructions from the government in exercising its duties.",
+    "answerBool": false,
+    "explanation": "False. The FMA states it is not bound by instructions in exercising its office.",
+    "lessonLink": "/learn/regulation-law-ethics/who-regulates",
+    "sources": [
+      "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-003",
+    "category": "R",
+    "topic": "who-regulates",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which two broad approaches does the FMA use in its supervision? Select all that apply.",
+    "options": [
+      "Solvency supervision",
+      "Market and conduct supervision",
+      "Setting interest rates",
+      "Running the stock exchange"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Solvency supervision ensures firms can pay; market and conduct supervision ensures fair, transparent markets and proper client treatment.",
+    "lessonLink": "/learn/regulation-law-ethics/who-regulates",
+    "sources": [
+      "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-004",
+    "category": "R",
+    "topic": "who-regulates",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA is also Austria's national resolution authority for failing banks.",
+    "answerBool": true,
+    "explanation": "True, according to the FMA's description of its tasks.",
+    "lessonLink": "/learn/regulation-law-ethics/who-regulates",
+    "sources": [
+      "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-005",
+    "category": "R",
+    "topic": "who-regulates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What should you do before giving money to a financial firm?",
+    "options": [
+      "Check that it is authorised for the service, for example in the FMA's company database",
+      "Rely on its advertising",
+      "Check how many followers it has",
+      "Ask it to send a certificate by email"
+    ],
+    "answerIndex": 0,
+    "explanation": "Authorisation can be checked with the regulator; Category T explains how.",
+    "lessonLink": "/learn/regulation-law-ethics/who-regulates",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-006",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Under Article 17 MAR, how quickly must issuers publish inside information that directly concerns them?",
+    "options": [
+      "Without delay",
+      "Within one year",
+      "Only in the annual report",
+      "Whenever they choose"
+    ],
+    "answerIndex": 0,
+    "explanation": "Issuers must disclose such inside information to the public without delay.",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/ad-hoc-meldungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-007",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which features define inside information under MAR? Select all that apply.",
+    "options": [
+      "It is precise",
+      "It is not public",
+      "It would likely have a significant effect on the price if made public",
+      "It has been published in a newspaper"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Inside information is precise, non-public and likely to move the price significantly; published information is no longer inside information.",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/ad-hoc-meldungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-008",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which of these is NOT one of the Austrian major holdings thresholds?",
+    "options": [
+      "7%",
+      "4%",
+      "5%",
+      "10%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The thresholds are 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75 and 90% (§ 130 BörseG 2018).",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/beteiligungsmeldungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-009",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Within how many trading days at the latest must a major holdings notification be sent?",
+    "answerNumber": 2,
+    "tolerance": 0,
+    "unit": "trading days",
+    "explanation": "Without delay, at the latest after two trading days.",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/beteiligungsmeldungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-010",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Above what annual total (in euros) must managers report their own trades in their company's shares under Article 19 MAR?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The duty applies once €20,000 is reached within a calendar year, added up without netting.",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/directors-dealings/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-011",
+    "category": "R",
+    "topic": "disclosure-duties",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Within how many business days after a trade must directors' dealings be reported at the latest?",
+    "answerNumber": 3,
+    "tolerance": 0,
+    "unit": "days",
+    "explanation": "Without delay and at the latest three business days after the transaction.",
+    "lessonLink": "/learn/regulation-law-ethics/disclosure-duties",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/directors-dealings/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-012",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which of these is insider dealing?",
+    "options": [
+      "A board member buys shares after learning of an unannounced takeover offer",
+      "An investor buys after reading the annual report",
+      "A fund rebalances its portfolio",
+      "A saver buys an ETF every month"
+    ],
+    "answerIndex": 0,
+    "explanation": "Using non-public, price-sensitive information to trade is insider dealing.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-013",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Since when has the EU Market Abuse Regulation applied?",
+    "options": [
+      "3 July 2016",
+      "1 January 2005",
+      "3 July 2014, the day it applied in full",
+      "1 January 2026"
+    ],
+    "answerIndex": 0,
+    "explanation": "MAR entered into force on 3 July 2014 and has applied since 3 July 2016.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-014",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: passing inside information on to a friend, who then trades, can itself be an offence.",
+    "answerBool": true,
+    "explanation": "True. The offence covers recommending or passing on inside information, not only trading.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-015",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who is a 'secondary insider' under Austrian law?",
+    "options": [
+      "Anyone with inside information who is not a primary insider, e.g. a board member's partner",
+      "Only the CEO",
+      "Only auditors",
+      "Only the stock exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "Primary insiders have access through their position, profession or stake; everyone else with inside information is a secondary insider.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-016",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "What is the maximum prison sentence for insider dealing in Austrian criminal proceedings, in years?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "years",
+    "explanation": "6 months to 5 years, according to the FMA.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-017",
+    "category": "R",
+    "topic": "insider-dealing",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Up to what amount can the FMA fine a person for insider dealing in administrative proceedings, in million euros (alternatively three times the benefit)?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "€ million",
+    "explanation": "Up to €5 million or up to three times the benefit gained or loss avoided.",
+    "lessonLink": "/learn/regulation-law-ethics/insider-dealing",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/insiderhandel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-018",
+    "category": "R",
+    "topic": "market-manipulation",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which of these is market manipulation?",
+    "options": [
+      "Spreading false rumours to move a share price",
+      "Publishing a correct annual report",
+      "Buying shares through a savings plan",
+      "Voting at the general meeting"
+    ],
+    "answerIndex": 0,
+    "explanation": "Spreading information that gives false or misleading signals is manipulation under MAR.",
+    "lessonLink": "/learn/regulation-law-ethics/market-manipulation",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-019",
+    "category": "R",
+    "topic": "market-manipulation",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: trading at the market close in order to mislead investors who rely on the closing price is listed as a manipulative practice.",
+    "answerBool": true,
+    "explanation": "True. The FMA lists this among practices that count as manipulation.",
+    "lessonLink": "/learn/regulation-law-ethics/market-manipulation",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-020",
+    "category": "R",
+    "topic": "market-manipulation",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a 'pump and dump'?",
+    "options": [
+      "Promoters hype a cheap share, then sell their own shares at the top",
+      "A type of dividend",
+      "A legal market-making strategy",
+      "A government bond auction"
+    ],
+    "answerIndex": 0,
+    "explanation": "It combines misleading promotion with selling into the rise, leaving others with losses.",
+    "lessonLink": "/learn/regulation-law-ethics/market-manipulation",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-021",
+    "category": "R",
+    "topic": "market-manipulation",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: companies can also be fined for market manipulation in Austria.",
+    "answerBool": true,
+    "explanation": "True. Legal persons can be fined up to €15 million or 15% of annual net turnover.",
+    "lessonLink": "/learn/regulation-law-ethics/market-manipulation",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-022",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Above what percentage of voting rights does a stake count as controlling, triggering a mandatory offer in Austria?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "§ 22 ÜbG: more than 30% of the voting rights of permanently voting shares.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/22"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-023",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Within how many trading days of gaining control must the mandatory offer be announced?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "trading days",
+    "explanation": "§ 22 ÜbG: within 20 trading days of gaining control.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/22"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-024",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Under § 26 ÜbG, the price of a mandatory offer must be at least… Select all that apply.",
+    "options": [
+      "The highest price the bidder paid for these shares in the last 12 months",
+      "The volume-weighted average stock exchange price of the last 6 months",
+      "The company's book value per share",
+      "The price at the company's IPO"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Both minimum price rules apply; book value and IPO price are not part of the rule.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/26"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-025",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which authority supervises takeover offers in Austria?",
+    "options": [
+      "The Übernahmekommission (Takeover Commission)",
+      "The Ministry of Finance",
+      "The OeNB",
+      "The tax office"
+    ],
+    "answerIndex": 0,
+    "explanation": "An independent authority established at the Vienna Stock Exchange under the Takeover Act.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.takeover.at/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-026",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "From what share of the capital can a main shareholder squeeze out the remaining shareholders under the Austrian Shareholder Exclusion Act, in percent?",
+    "answerNumber": 90,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "At least nine tenths of the capital, in exchange for appropriate cash compensation.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.jusline.at/gesetz/gesausg/paragraf/1"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-027",
+    "category": "R",
+    "topic": "takeovers",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the target's management and supervisory boards must publish reasoned statements on a takeover offer.",
+    "answerBool": true,
+    "explanation": "True (§ 14 ÜbG), including whether the price is appropriate for all shareholders.",
+    "lessonLink": "/learn/regulation-law-ethics/takeovers",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-028",
+    "category": "R",
+    "topic": "corporate-governance-boards",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which body runs an Austrian stock corporation day to day?",
+    "options": [
+      "The management board (Vorstand)",
+      "The supervisory board (Aufsichtsrat)",
+      "The stock exchange",
+      "The FMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under § 70 AktG, the management board runs the company on its own responsibility.",
+    "lessonLink": "/learn/regulation-law-ethics/corporate-governance-boards",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/70"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-029",
+    "category": "R",
+    "topic": "corporate-governance-boards",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the main task of the supervisory board (Aufsichtsrat)?",
+    "options": [
+      "To monitor the management",
+      "To run daily operations",
+      "To set interest rates",
+      "To approve tax returns"
+    ],
+    "answerIndex": 0,
+    "explanation": "§ 95 AktG: the supervisory board must monitor the management.",
+    "lessonLink": "/learn/regulation-law-ethics/corporate-governance-boards",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/95"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-030",
+    "category": "R",
+    "topic": "corporate-governance-boards",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Whose interests must the management board take into account under § 70 AktG? Select all that apply.",
+    "options": [
+      "Shareholders",
+      "Employees",
+      "The public interest",
+      "Only short-term traders"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The law names shareholders, employees and the public interest.",
+    "lessonLink": "/learn/regulation-law-ethics/corporate-governance-boards",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/70"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-031",
+    "category": "R",
+    "topic": "corporate-governance-boards",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Austrian companies with shares on a regulated market must prepare a corporate governance report naming the code they follow.",
+    "answerBool": true,
+    "explanation": "True (§ 243c UGB).",
+    "lessonLink": "/learn/regulation-law-ethics/corporate-governance-boards",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40276907/NOR40276907.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-032",
+    "category": "R",
+    "topic": "bank-failures-and-bail-in",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Under EU resolution rules, who must bear a failing bank's losses first?",
+    "options": [
+      "The shareholders",
+      "Taxpayers",
+      "Depositors with less than €100,000",
+      "The central bank"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SRB: shareholders bear losses first, then creditors in the order of their claims.",
+    "lessonLink": "/learn/regulation-law-ethics/bank-failures-and-bail-in",
+    "sources": [
+      "https://www.srb.europa.eu/en/content/tasks-tools"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-033",
+    "category": "R",
+    "topic": "bank-failures-and-bail-in",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a bail-in?",
+    "options": [
+      "Writing down or converting creditors' claims into shares to absorb a bank's losses",
+      "A government injecting money to rescue a bank",
+      "A bank buying back its own shares",
+      "A deposit guarantee payment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bail-in replicates how creditors would lose in bankruptcy and protects taxpayers.",
+    "lessonLink": "/learn/regulation-law-ethics/bank-failures-and-bail-in",
+    "sources": [
+      "https://www.srb.europa.eu/en/content/tasks-tools"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-034",
+    "category": "R",
+    "topic": "bank-failures-and-bail-in",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount per person and bank are deposits at Austrian banks protected, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Einlagensicherung AUSTRIA: up to €100,000 per person and bank.",
+    "lessonLink": "/learn/regulation-law-ethics/bank-failures-and-bail-in",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-035",
+    "category": "R",
+    "topic": "bank-failures-and-bail-in",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: shares of a bank can be wiped out in a resolution.",
+    "answerBool": true,
+    "explanation": "True. Shareholders bear losses first.",
+    "lessonLink": "/learn/regulation-law-ethics/bank-failures-and-bail-in",
+    "sources": [
+      "https://www.srb.europa.eu/en/content/tasks-tools"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-036",
+    "category": "R",
+    "topic": "complaints-and-redress",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these steps for a complaint about an Austrian bank in a sensible order.",
+    "orderedItems": [
+      "Complain in writing to the bank",
+      "Contact the banking ombudsman (Bankenschlichtung)",
+      "Consider legal advice or court action"
+    ],
+    "explanation": "The ombudsman requires a prior attempt with the bank; courts are the last resort for compensation claims.",
+    "lessonLink": "/learn/regulation-law-ethics/complaints-and-redress",
+    "sources": [
+      "https://www.bankenschlichtung.at/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-037",
+    "category": "R",
+    "topic": "complaints-and-redress",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Austrian banking ombudsman's procedure is free of charge.",
+    "answerBool": true,
+    "explanation": "True. It is voluntary and free for both sides.",
+    "lessonLink": "/learn/regulation-law-ethics/complaints-and-redress",
+    "sources": [
+      "https://www.bankenschlichtung.at/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-038",
+    "category": "R",
+    "topic": "complaints-and-redress",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the FMA say about genuine FMA email addresses?",
+    "options": [
+      "They only end in @fma.gv.at",
+      "They can end in any domain",
+      "The FMA never uses email",
+      "They end in @fma.com"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA warns about fraudsters using fake FMA addresses; real ones end only in @fma.gv.at.",
+    "lessonLink": "/learn/regulation-law-ethics/complaints-and-redress",
+    "sources": [
+      "https://www.fma.gv.at/die-fma-warnt-betrueger-geben-sich-als-fma-mitarbeiter-aus-oder-verwenden-gefaelschte-fma-schriftstuecke-um-persoenliche-daten-oder-zahlungen-herauszulocken/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-039",
+    "category": "R",
+    "topic": "complaints-and-redress",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA decides individual compensation claims like a court.",
+    "answerBool": false,
+    "explanation": "False. The FMA accepts complaints about supervised companies and checks compliance, but it is not a court.",
+    "lessonLink": "/learn/regulation-law-ethics/complaints-and-redress",
+    "sources": [
+      "https://www.fma.gv.at/beschwerden-ueber-beaufsichtigte-unternehmen-einbringen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-040",
+    "category": "R",
+    "topic": "sustainable-finance",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does ESG stand for?",
+    "options": [
+      "Environmental, social and governance",
+      "Equity, savings and growth",
+      "European securities guarantee",
+      "Earnings, sales and gains"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESG covers environmental, social and governance factors.",
+    "lessonLink": "/learn/regulation-law-ethics/sustainable-finance",
+    "sources": [
+      "https://finance.ec.europa.eu/sustainable-finance/disclosures/sustainability-related-disclosure-financial-services-sector_en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-041",
+    "category": "R",
+    "topic": "sustainable-finance",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the SFDR forces asset managers to invest only in green companies.",
+    "answerBool": false,
+    "explanation": "False. The Commission states the SFDR does not force green criteria; it requires firms to justify the sustainability claims they make.",
+    "lessonLink": "/learn/regulation-law-ethics/sustainable-finance",
+    "sources": [
+      "https://finance.ec.europa.eu/sustainable-finance/disclosures/sustainability-related-disclosure-financial-services-sector_en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-042",
+    "category": "R",
+    "topic": "sustainable-finance",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is greenwashing?",
+    "options": [
+      "Presenting a product as more sustainable than it is",
+      "Investing only in water companies",
+      "A cleaning fee charged by banks",
+      "A type of green bond"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA has prioritised tackling greenwashing.",
+    "lessonLink": "/learn/regulation-law-ethics/sustainable-finance",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/sustainable-finance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-043",
+    "category": "R",
+    "topic": "sustainable-finance",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to ESMA's 2024 report, how did ESG equity funds perform against comparable non-ESG funds in 2023?",
+    "options": [
+      "They outperformed",
+      "They underperformed",
+      "They performed exactly the same",
+      "ESMA did not compare them"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESG equity funds outperformed in 2023, while ESG fixed income and mixed funds underperformed. One year proves little.",
+    "lessonLink": "/learn/regulation-law-ethics/sustainable-finance",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
