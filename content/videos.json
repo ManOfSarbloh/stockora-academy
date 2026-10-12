@@ -912,5 +912,118 @@
     "lessons": [
       "investing-strategies/active-vs-passive"
     ]
+  },
+  {
+    "id": "B2HDOtHcDGU",
+    "title": "What is a Margin Account?",
+    "channel": "U.S. Securities and Exchange Commission",
+    "categories": [
+      "N"
+    ],
+    "level": "beginner",
+    "durationMinutes": 0.4,
+    "language": "en",
+    "whyGood": "A 30-second explainer from the US regulator's Investor.gov team on borrowing to invest.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/leverage-and-margin"
+    ]
+  },
+  {
+    "id": "2ubzSv7NWx0",
+    "title": "What is Options Trading?",
+    "channel": "U.S. Securities and Exchange Commission",
+    "categories": [
+      "N"
+    ],
+    "level": "beginner",
+    "durationMinutes": 0.6,
+    "language": "en",
+    "whyGood": "A very short introduction to options from the SEC's investor education team.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/options"
+    ]
+  },
+  {
+    "id": "nnl3x1wo25g",
+    "title": "American call options",
+    "channel": "Khan Academy",
+    "categories": [
+      "N"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.5,
+    "language": "en",
+    "whyGood": "Sal Khan shows how a call option's value depends on the share price at expiry.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/options"
+    ]
+  },
+  {
+    "id": "i65NIcnHS9Y",
+    "title": "Put as insurance",
+    "channel": "Khan Academy",
+    "categories": [
+      "N"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.8,
+    "language": "en",
+    "whyGood": "Explains how buying a put can protect a share position, and what that protection costs.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/options"
+    ]
+  },
+  {
+    "id": "jAOtWm_WZiE",
+    "title": "Basic shorting",
+    "channel": "Khan Academy",
+    "categories": [
+      "N"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.5,
+    "language": "en",
+    "whyGood": "A step-by-step walk-through of borrowing and selling shares, and why losses can be large.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/short-selling"
+    ]
+  },
+  {
+    "id": "3g6P0lRXotI",
+    "title": "Futures introduction",
+    "channel": "Khan Academy",
+    "categories": [
+      "N"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.5,
+    "language": "en",
+    "whyGood": "Introduces futures contracts and how they differ from forward contracts.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/futures"
+    ]
+  },
+  {
+    "id": "1t42z5U2uoc",
+    "title": "Futures margin mechanics",
+    "channel": "Khan Academy",
+    "categories": [
+      "N"
+    ],
+    "level": "advanced",
+    "durationMinutes": 3.6,
+    "language": "en",
+    "whyGood": "Shows how initial and maintenance margin work on a futures position day by day.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "trading-leverage-derivatives/futures",
+      "trading-leverage-derivatives/leverage-and-margin"
+    ]
   }
 ]

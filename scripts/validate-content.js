@@ -6,6 +6,7 @@
  */
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
+import { parse as parseYaml } from 'yaml';
 
 const CONTENT = 'content';
 const errors = [];
@@ -37,6 +38,13 @@ for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
     const key = `${slugByLetter[letter]}/${f.replace(/\.md$/, '')}`;
     lessonKeys.add(key);
     validPaths.add(`/learn/${key}`);
+    // Front matter must be valid YAML (an unquoted ": " in a summary breaks it), and tags must be text.
+    try {
+      const data = parseYaml(readFileSync(join(dir, f), 'utf8').split(/^---$/m)[1] ?? '');
+      for (const t of data?.tags ?? []) if (typeof t !== 'string') errors.push(`lesson ${key}: tag ${t} must be quoted text`);
+    } catch (e) {
+      errors.push(`lesson ${key}: invalid front matter (${e.message.split('\n')[0]})`);
+    }
   }
 }
 validPaths.add('/how-stocks-are-made');

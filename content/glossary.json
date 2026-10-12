@@ -6396,5 +6396,307 @@
       "M"
     ],
     "de": "Einmalanlage"
+  },
+  {
+    "id": "day-trading",
+    "term": "Day trading",
+    "aliases": [
+      "day trader",
+      "day traders",
+      "day trade"
+    ],
+    "definition": "Buying and selling securities within the same day to profit from short price moves. Investor.gov calls it extremely risky; studies find most retail day traders lose money.",
+    "related": [
+      "swing-trading",
+      "leverage"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Daytrading"
+  },
+  {
+    "id": "swing-trading",
+    "term": "Swing trading",
+    "definition": "Holding positions for days to a few weeks to profit from price swings, often using chart analysis.",
+    "related": [
+      "day-trading",
+      "technical-analysis"
+    ],
+    "categories": [
+      "N"
+    ]
+  },
+  {
+    "id": "derivative",
+    "term": "Derivative",
+    "aliases": [
+      "derivatives"
+    ],
+    "definition": "A financial instrument whose value is derived from an underlying asset, security or index, such as an option, a future or a CFD.",
+    "related": [
+      "option",
+      "futures-contract",
+      "cfd"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Derivat"
+  },
+  {
+    "id": "option",
+    "term": "Option (derivative)",
+    "aliases": [
+      "call option",
+      "put option",
+      "call options",
+      "put options",
+      "options contract",
+      "options trading"
+    ],
+    "definition": "A contract giving the buyer the right, but not the obligation, to buy (call) or sell (put) an underlying at a fixed price within or at the end of a set period, in exchange for a premium.",
+    "related": [
+      "strike-price",
+      "option-premium",
+      "option-writer",
+      "warrant"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Option"
+  },
+  {
+    "id": "strike-price",
+    "term": "Strike price",
+    "aliases": [
+      "exercise price"
+    ],
+    "definition": "The fixed price at which the holder of an option or warrant can buy or sell the underlying.",
+    "related": [
+      "option"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Ausübungspreis / Basispreis"
+  },
+  {
+    "id": "option-premium",
+    "term": "Option premium",
+    "definition": "The price the buyer of an option pays the seller for the right it gives. It is the most the option buyer can lose.",
+    "related": [
+      "option",
+      "time-value"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Optionsprämie"
+  },
+  {
+    "id": "option-writer",
+    "term": "Option writer",
+    "aliases": [
+      "option seller",
+      "Stillhalter"
+    ],
+    "definition": "The seller of an option, who receives the premium and must deliver or buy the underlying if the buyer exercises. Losses can be very large, for uncovered calls even unlimited.",
+    "related": [
+      "option"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Stillhalter"
+  },
+  {
+    "id": "time-value",
+    "term": "Time value",
+    "definition": "The part of an option's price that reflects the time left until expiry. It shrinks as expiry approaches.",
+    "related": [
+      "option",
+      "option-premium"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Zeitwert"
+  },
+  {
+    "id": "futures-contract",
+    "term": "Futures contract",
+    "aliases": [
+      "futures",
+      "futures contracts",
+      "index future"
+    ],
+    "definition": "A standardised, exchange-traded agreement that obliges both sides to buy or sell an underlying at a fixed price on a set future date.",
+    "related": [
+      "forward-contract",
+      "initial-margin",
+      "derivative"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Future / Finanzterminkontrakt"
+  },
+  {
+    "id": "forward-contract",
+    "term": "Forward contract",
+    "definition": "A privately agreed, non-standardised contract to buy or sell an asset at a fixed price on a future date; the over-the-counter counterpart of a future.",
+    "related": [
+      "futures-contract"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Forward / Termingeschäft"
+  },
+  {
+    "id": "initial-margin",
+    "term": "Initial margin",
+    "aliases": [
+      "variation margin",
+      "Einschuss"
+    ],
+    "definition": "Collateral deposited to open a futures or other derivatives position. Variation margin settles gains and losses daily, so losing positions require new money.",
+    "related": [
+      "futures-contract",
+      "margin-call"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Einschuss (Initial Margin)"
+  },
+  {
+    "id": "cfd",
+    "term": "Contract for difference",
+    "aliases": [
+      "CFD",
+      "CFDs",
+      "contracts for difference"
+    ],
+    "definition": "A leveraged contract with a provider to exchange the difference in an underlying's price between opening and closing. You never own the underlying. In the EU, retail CFDs face leverage limits and negative balance protection.",
+    "related": [
+      "leverage",
+      "negative-balance-protection",
+      "binary-option"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Differenzkontrakt (CFD)"
+  },
+  {
+    "id": "binary-option",
+    "term": "Binary option",
+    "aliases": [
+      "binary options"
+    ],
+    "definition": "A bet that pays a fixed amount or nothing depending on whether a condition is met. Their sale to retail clients is banned in Austria by the FMA-PIV.",
+    "related": [
+      "cfd"
+    ],
+    "categories": [
+      "N",
+      "T"
+    ],
+    "de": "Binäre Option"
+  },
+  {
+    "id": "negative-balance-protection",
+    "term": "Negative balance protection",
+    "definition": "A rule ensuring that a retail client cannot lose more than the money in their CFD account. Required in the EU and in Austria under the FMA-PIV.",
+    "related": [
+      "cfd"
+    ],
+    "categories": [
+      "N"
+    ],
+    "de": "Negativsaldoschutz"
+  },
+  {
+    "id": "short-squeeze",
+    "term": "Short squeeze",
+    "definition": "A rapid price rise that forces short sellers to buy back shares to limit losses, which pushes the price up further.",
+    "related": [
+      "short-selling",
+      "meme-stock"
+    ],
+    "categories": [
+      "N"
+    ]
+  },
+  {
+    "id": "net-short-position",
+    "term": "Net short position",
+    "aliases": [
+      "net short positions"
+    ],
+    "definition": "An investor's overall bet on a falling share price. In the EU, positions from 0.1% of share capital must be reported to the regulator and from 0.5% published.",
+    "related": [
+      "short-selling"
+    ],
+    "categories": [
+      "N",
+      "R"
+    ],
+    "de": "Netto-Leerverkaufsposition"
+  },
+  {
+    "id": "naked-short-selling",
+    "term": "Naked short selling",
+    "aliases": [
+      "uncovered short selling"
+    ],
+    "definition": "Selling shares short without having borrowed them or arranged to borrow them. Banned for shares in the EU.",
+    "related": [
+      "short-selling"
+    ],
+    "categories": [
+      "N",
+      "R"
+    ],
+    "de": "Ungedeckter Leerverkauf"
+  },
+  {
+    "id": "prop-trading",
+    "term": "Prop trading",
+    "aliases": [
+      "proprietary trading",
+      "prop trading challenge",
+      "funded trader"
+    ],
+    "definition": "Trading on a firm's own account. The FMA warns that paid online prop trading challenges often profit mainly from participants' fees.",
+    "related": [
+      "day-trading"
+    ],
+    "categories": [
+      "N",
+      "T"
+    ],
+    "de": "Eigenhandel / Prop Trading"
+  },
+  {
+    "id": "issuer-risk",
+    "term": "Issuer risk",
+    "aliases": [
+      "issuer credit risk"
+    ],
+    "definition": "The risk that the issuer of a bond, certificate or warrant cannot pay. Certificates are debts of the issuing bank, so you can lose money even if the underlying rises.",
+    "related": [
+      "certificate",
+      "warrant",
+      "counterparty-risk"
+    ],
+    "categories": [
+      "N",
+      "H"
+    ],
+    "de": "Emittentenrisiko"
   }
 ]

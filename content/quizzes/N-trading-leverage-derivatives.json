@@ -1,0 +1,1027 @@
+[
+  {
+    "id": "N-001",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does Investor.gov describe day trading?",
+    "options": [
+      "Extremely risky, with possible substantial losses in a very short time",
+      "A safe way to earn a regular income",
+      "Suitable for all beginners",
+      "Illegal in the United States"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: day trading is extremely risky and can result in substantial financial losses in a very short period of time.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/day-trading"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-002",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Order these styles from the shortest to the longest typical holding period.",
+    "orderedItems": [
+      "Day trading",
+      "Swing trading",
+      "Position trading",
+      "Buy-and-hold investing"
+    ],
+    "explanation": "Day trades close the same day; swing trades last days to weeks; position trades weeks to months; buy-and-hold investing years.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/day-trading"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-003",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A trader pays €5 in costs per round trip and makes 10 round trips a day on 220 trading days. What are the yearly costs in euros?",
+    "answerNumber": 11000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€5 × 10 × 220 = €11,000, which must be earned from price moves just to break even.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/day-trading"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-004",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA warns that paid prop trading challenges can resemble the relationship between a player and a casino.",
+    "answerBool": true,
+    "explanation": "True. The FMA notes that the company sets the rules, which need not be balanced, and that the business often lives mainly from challenge fees.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/was-ist-prop-trading/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-005",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the FMA, what did traders who lost money with prop trading platforms often report?",
+    "options": [
+      "Spreads far wider than at real brokers",
+      "Guaranteed profits",
+      "Free real-money accounts",
+      "No fees at all"
+    ],
+    "answerIndex": 0,
+    "explanation": "Traders reported strongly inflated spreads, so positions started with a loss before the market moved.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/was-ist-prop-trading/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-006",
+    "category": "N",
+    "topic": "trading-styles",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what special rate are realised gains on shares held privately generally taxed in Austria, in percent?",
+    "answerNumber": 27.5,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "§ 27a EStG sets the special rate of 27.5% for income from capital assets such as share gains.",
+    "lessonLink": "/learn/trading-leverage-derivatives/trading-styles",
+    "sources": [
+      "https://www.jusline.at/gesetz/estg/paragraf/27a"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-007",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In the AMF's 2014 study of 14,799 active forex and CFD clients in France, more than what percentage lost money over four years?",
+    "answerNumber": 89,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The AMF found a share of losing clients of more than 89%.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-008",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What was the average loss per client in the AMF study, in euros?",
+    "answerNumber": 10887,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The average result was a loss of €10,887 per client; the median loss was €1,843.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-009",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to national regulators' analyses cited by ESMA in 2018, what share of retail CFD accounts typically lose money?",
+    "options": [
+      "74–89%",
+      "10–20%",
+      "About 50%",
+      "Less than 5%"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA: 74–89% of retail accounts typically lose money on CFDs, with average losses of €1,600 to €29,000 per client.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-010",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in the Taiwan day-trading study, heavy day traders earned profits before costs but not enough to cover transaction costs.",
+    "answerBool": true,
+    "explanation": "True. Barber, Lee, Liu and Odean found heavy day traders' gross profits were not sufficient to cover transaction costs.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/papers/Day%20Traders/Day%20Trade%20040330.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-011",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What did the AMF find about clients who traded the most?",
+    "options": [
+      "They lost the most, and there was no learning effect over time",
+      "They earned the most",
+      "They paid no costs",
+      "They all switched to buy-and-hold"
+    ],
+    "answerIndex": 0,
+    "explanation": "The AMF found that the most active traders lost the most, and that those who kept trading did not learn to do better.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-012",
+    "category": "N",
+    "topic": "day-trading-evidence",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In the Taiwan study, in a typical six-month period, what share of day traders lost money?",
+    "options": [
+      "More than eight out of ten",
+      "About half",
+      "Fewer than one in ten",
+      "Exactly one third"
+    ],
+    "answerIndex": 0,
+    "explanation": "More than eight out of ten day traders lost money in the typical six-month period.",
+    "lessonLink": "/learn/trading-leverage-derivatives/day-trading-evidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/papers/Day%20Traders/Day%20Trade%20040330.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-013",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "With leverage of 5:1, a price rises by 10%. Roughly what percentage gain is that on your own money (before costs)?",
+    "answerNumber": 50,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "% result ≈ % price move × leverage = 10% × 5 = 50%.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin-account"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-014",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "With leverage of 5:1, what price fall (in percent) wipes out your whole stake?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "A 20% fall × 5 = 100% of your own money.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin-account"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-015",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to Investor.gov, in a margin call your broker may sell your securities without informing you in advance.",
+    "answerBool": true,
+    "explanation": "True. The broker can demand more money or sell securities without notice, and it decides which ones to sell.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin-call"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-016",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You buy €10,000 of shares with €5,000 of your own money. The shares fall 30% and are sold. How much of your own money is left, in euros?",
+    "answerNumber": 2000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The shares are worth €7,000; after repaying the €5,000 loan, €2,000 remains: a 60% loss from a 30% fall.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin-account",
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/margin-call"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-017",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the Wiener Börse lexicon, what does variation margin do in futures trading?",
+    "options": [
+      "Settles gains and losses daily",
+      "Pays the dividend",
+      "Replaces the initial margin",
+      "Fixes the futures price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Variation margin is the daily settlement of profits and losses; initial margin is deposited to open the position.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-m/margin/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-018",
+    "category": "N",
+    "topic": "leverage-and-margin",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in the late 1920s, buyers of shares on margin typically paid about 10% of the price themselves.",
+    "answerBool": true,
+    "explanation": "True, according to Federal Reserve History; borrowed money fuelled the boom and deepened the crash.",
+    "lessonLink": "/learn/trading-leverage-derivatives/leverage-and-margin",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-019",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a short seller do?",
+    "options": [
+      "Sells borrowed shares, hoping to buy them back cheaper later",
+      "Buys shares for a very short time only",
+      "Sells shares they have owned for years",
+      "Buys options on rising prices"
+    ],
+    "answerIndex": 0,
+    "explanation": "Short sellers borrow and sell shares, then buy them back and return them, profiting if the price fell.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-020",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You sell 100 borrowed shares short at €50 and buy them back at €80. What is your loss in euros (before fees)?",
+    "answerNumber": 3000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Sold for €5,000, bought back for €8,000: a loss of €3,000.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-021",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the potential loss of a short sale is limited to the amount received when selling.",
+    "answerBool": false,
+    "explanation": "False. A share price has no upper limit, so short losses are theoretically unlimited.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-022",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under the EU Short Selling Regulation, from what percentage of issued share capital must a net short position be published?",
+    "answerNumber": 0.5,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "Positions must be reported to the regulator from 0.1% and disclosed to the public from 0.5%, and at every 0.1% above.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-023",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: naked (uncovered) short selling of shares is banned in the EU.",
+    "answerBool": true,
+    "explanation": "True. ESMA: all short sales of shares must be covered.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-024",
+    "category": "N",
+    "topic": "short-selling",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a short squeeze?",
+    "options": [
+      "A rise that forces short sellers to buy back, pushing prices even higher",
+      "A ban on short selling",
+      "A fall caused by short sellers",
+      "A fee for borrowing shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Buying to cover short positions adds demand, which can drive the price further up.",
+    "lessonLink": "/learn/trading-leverage-derivatives/short-selling",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-025",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a call option give its buyer?",
+    "options": [
+      "The right, but not the obligation, to buy the underlying at the strike price",
+      "The obligation to buy the underlying",
+      "The right to sell the underlying",
+      "A guaranteed dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "A call is the right to buy; a put is the right to sell (Investor.gov, Wiener Börse).",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/options",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-c/call/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-026",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy a call with strike €100 for a premium of €5. Above what share price at expiry do you start to make a profit, in euros?",
+    "answerNumber": 105,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Break-even = strike + premium = €105.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-o/option/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-027",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Same call (strike €100, premium €5). At expiry the share is at €120. What is your profit per share in euros?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The call is worth €20; minus the €5 premium = €15, a 300% return on the premium.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-o/option/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-028",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What happens to a call option that is not exercised by expiry?",
+    "options": [
+      "It expires worthless",
+      "It turns into a share",
+      "Its premium is refunded",
+      "It becomes a bond"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse lexicon: if a call is not exercised, it expires worthless.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-c/call/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-029",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Who is the 'Stillhalter' (writer) of an option?",
+    "options": [
+      "The seller, who receives the premium and must fulfil the contract if it is exercised",
+      "The buyer of the option",
+      "The stock exchange",
+      "The clearing house only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The writer holds a short position and must deliver (call) or buy (put) the underlying if the buyer exercises.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-s/stillhalter/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-030",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: the writer of an uncovered call can, in theory, face unlimited losses.",
+    "answerBool": true,
+    "explanation": "True. If the share price soars, the writer must deliver shares they do not own at the strike price.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-s/stillhalter/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-031",
+    "category": "N",
+    "topic": "options",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the 'leverage' (Hebel) of an option describe, according to the Wiener Börse lexicon?",
+    "options": [
+      "How much more the option's price changes in percent than the underlying's",
+      "The option's interest rate",
+      "The number of shares per contract",
+      "The exchange fee"
+    ],
+    "answerIndex": 0,
+    "explanation": "Option prices move disproportionately more than the underlying, so less capital is needed to take part in a move.",
+    "lessonLink": "/learn/trading-leverage-derivatives/options",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-h/hebel/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-032",
+    "category": "N",
+    "topic": "futures",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the main difference between a future and an option for the buyer?",
+    "options": [
+      "A future is an obligation; an option is a right",
+      "A future can never lose money",
+      "An option has no price",
+      "A future is only for currencies"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse lexicon calls futures unconditional forward transactions: both sides are obliged.",
+    "lessonLink": "/learn/trading-leverage-derivatives/futures",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-f/future/",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-o/option/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-033",
+    "category": "N",
+    "topic": "futures",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: futures are standardised and can therefore be traded on exchanges.",
+    "answerBool": true,
+    "explanation": "True. Contract specifications are standardised; non-exchange equivalents are forwards.",
+    "lessonLink": "/learn/trading-leverage-derivatives/futures",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-f/future/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-034",
+    "category": "N",
+    "topic": "futures",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You deposit €8,000 initial margin on an index future worth €100,000. The index falls 3% on day 1 and another 3% on day 2. Roughly what percentage of your margin is lost? (Nearest whole number.)",
+    "answerNumber": 74,
+    "tolerance": 1,
+    "unit": "%",
+    "explanation": "Losses: €3,000 + €2,910 = €5,910, about 74% of €8,000, while the index fell only about 6%.",
+    "lessonLink": "/learn/trading-leverage-derivatives/futures",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-m/margin/",
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/futures-contract"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-035",
+    "category": "N",
+    "topic": "futures",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: losses on a futures position are limited to the initial margin deposited.",
+    "answerBool": false,
+    "explanation": "False. Both sides are obliged to the contract, so losses can exceed the margin.",
+    "lessonLink": "/learn/trading-leverage-derivatives/futures",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-f/future/",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-m/margin/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-036",
+    "category": "N",
+    "topic": "futures",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which is a typical use of futures besides speculation?",
+    "options": [
+      "Hedging, for example fixing a price in advance",
+      "Receiving dividends",
+      "Voting at the general meeting",
+      "Avoiding all risk"
+    ],
+    "answerIndex": 0,
+    "explanation": "Producers, consumers and funds use futures to fix prices or adjust exposure.",
+    "lessonLink": "/learn/trading-leverage-derivatives/futures",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/futures-contract"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-037",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which elements are part of the EU and Austrian rules for retail CFDs? Select all that apply.",
+    "options": [
+      "Leverage limits",
+      "Negative balance protection",
+      "A standardised risk warning",
+      "Guaranteed minimum returns"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The rules include leverage limits, a margin close-out rule, negative balance protection, a ban on incentives and a risk warning. Returns are never guaranteed.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors",
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010637"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-038",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the maximum leverage for a retail CFD on a major currency pair under the ESMA rules?",
+    "options": [
+      "30:1",
+      "2:1",
+      "100:1",
+      "500:1"
+    ],
+    "answerIndex": 0,
+    "explanation": "30:1 for major currency pairs, 20:1 for gold and major indices, 10:1 for other commodities and indices, 5:1 for shares, 2:1 for cryptocurrencies.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-039",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What minimum initial margin, in percent, does the Austrian FMA-PIV require for a CFD on an individual share?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The FMA-PIV requires 20% for shares (5:1 leverage); 50% for virtual currencies.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010637"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-040",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "At what percentage of the minimum required margin must a provider close out a retail client's CFD positions?",
+    "answerNumber": 50,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The margin close-out rule is set at 50% of the minimum required margin.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors",
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010637"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-041",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Since when has Austria's FMA Product Intervention Regulation (FMA-PIV) been in force?",
+    "options": [
+      "15 May 2019",
+      "1 January 2008",
+      "1 August 2025",
+      "It does not exist"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA-PIV entered into force on 15 May 2019, making the ESMA measures permanent in Austria.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.fma.gv.at/fma-erlaesst-verbot-des-verkaufs-binaerer-optionen-an-kleinanleger-und-schraenkt-den-vertrieb-von-differenzkontrakten-cfds-an-diese-massiv-ein/",
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010637"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-042",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in Austria, binary options may not be marketed, distributed or sold to private clients.",
+    "answerBool": true,
+    "explanation": "True. The FMA-PIV prohibits this.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.fma.gv.at/fma-erlaesst-verbot-des-verkaufs-binaerer-optionen-an-kleinanleger-und-schraenkt-den-vertrieb-von-differenzkontrakten-cfds-an-diese-massiv-ein/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-043",
+    "category": "N",
+    "topic": "cfds",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: negative balance protection means a retail client can never lose money on CFDs.",
+    "answerBool": false,
+    "explanation": "False. It means a retail client cannot lose more than the money in the CFD account. Most retail accounts still lose money.",
+    "lessonLink": "/learn/trading-leverage-derivatives/cfds",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-044",
+    "category": "N",
+    "topic": "gamestop-2021",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what price did GameStop close on 27 January 2021, according to the SEC staff report? (Two decimals.)",
+    "answerNumber": 347.51,
+    "tolerance": 0.01,
+    "unit": "$",
+    "explanation": "It closed at $347.51, more than 1,600% above its close on 11 January.",
+    "lessonLink": "/learn/trading-leverage-derivatives/gamestop-2021",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-045",
+    "category": "N",
+    "topic": "gamestop-2021",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did the SEC staff conclude sustained GameStop's weeks-long price rise?",
+    "options": [
+      "Positive sentiment, not buying by short sellers covering their positions",
+      "Only short covering",
+      "A takeover offer",
+      "Company profits rising 1,600%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The staff found short covering was a small fraction of buying; positive sentiment sustained the rise.",
+    "lessonLink": "/learn/trading-leverage-derivatives/gamestop-2021",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-046",
+    "category": "N",
+    "topic": "gamestop-2021",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: some brokers restricted trading in GameStop on 28 January 2021.",
+    "answerBool": true,
+    "explanation": "True. The SEC staff report links the restrictions to volatility combined with settlement risk.",
+    "lessonLink": "/learn/trading-leverage-derivatives/gamestop-2021",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-047",
+    "category": "N",
+    "topic": "gamestop-2021",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Around what level had GameStop's short interest hovered through most of 2020, relative to its public float?",
+    "options": [
+      "Around 100%",
+      "Around 5%",
+      "Around 25%",
+      "Exactly 0%"
+    ],
+    "answerIndex": 0,
+    "explanation": "About 100%, peaking at 109.26% on 31 December 2020.",
+    "lessonLink": "/learn/trading-leverage-derivatives/gamestop-2021",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-048",
+    "category": "N",
+    "topic": "gamestop-2021",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which areas did the SEC staff identify for further study after the meme-stock episode? Select all that apply.",
+    "options": [
+      "Forces that may cause a broker to restrict trading",
+      "Digital engagement practices and payment for order flow",
+      "The market dynamics of short selling",
+      "Banning all retail trading"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The press release lists these, plus trading in dark pools and by wholesalers.",
+    "lessonLink": "/learn/trading-leverage-derivatives/gamestop-2021",
+    "sources": [
+      "https://www.sec.gov/newsroom/press-releases/2021-212"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-049",
+    "category": "N",
+    "topic": "warrants-and-leverage-certificates",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How do warrants (Optionsscheine) differ from exchange-traded options, according to the Wiener Börse lexicon?",
+    "options": [
+      "Options are strictly standardised; warrants from different issuers have different features",
+      "Warrants never expire",
+      "Warrants are shares",
+      "Options are issued by banks only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both give option-like rights, but warrants are issued with varying features by different issuers.",
+    "lessonLink": "/learn/trading-leverage-derivatives/warrants-and-leverage-certificates",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-o/optionsschein/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-050",
+    "category": "N",
+    "topic": "warrants-and-leverage-certificates",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a certificate is legally a bearer bond, so you lend money to the issuer and carry its credit risk.",
+    "answerBool": true,
+    "explanation": "True. The FMA's Zertifikate-Lupe explains that buying a certificate means lending money to the issuer.",
+    "lessonLink": "/learn/trading-leverage-derivatives/warrants-and-leverage-certificates",
+    "sources": [
+      "https://redenwiruebergeld.fma.gv.at/zertifikate-lupe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-051",
+    "category": "N",
+    "topic": "warrants-and-leverage-certificates",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "On what scale does the KID's risk indicator rate products?",
+    "options": [
+      "1 to 7, where 7 is very high risk",
+      "A to F",
+      "0 to 100",
+      "Low or high only"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA explains the summary risk indicator from 1 (lower risk) to 7 (very high risk), including issuer credit risk.",
+    "lessonLink": "/learn/trading-leverage-derivatives/warrants-and-leverage-certificates",
+    "sources": [
+      "https://redenwiruebergeld.fma.gv.at/zertifikate-lupe/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-052",
+    "category": "N",
+    "topic": "warrants-and-leverage-certificates",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: leverage products such as warrants are among the non-complex instruments for which firms never need to check appropriateness.",
+    "answerBool": false,
+    "explanation": "False. Derivatives are not among the non-complex instruments listed in MiFID II Article 25(4), so firms generally assess appropriateness.",
+    "lessonLink": "/learn/trading-leverage-derivatives/warrants-and-leverage-certificates",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-053",
+    "category": "N",
+    "topic": "protecting-yourself",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which rules help limit the damage if you decide to try trading? Select all that apply.",
+    "options": [
+      "A small, fixed budget kept separate from long-term savings",
+      "Using only regulated providers",
+      "Writing a stop rule for the whole experiment",
+      "Doubling the stake after every loss"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Separate budgets, regulated providers and written limits help. Doubling after losses is how accounts get wiped out.",
+    "lessonLink": "/learn/trading-leverage-derivatives/protecting-yourself",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors",
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-054",
+    "category": "N",
+    "topic": "protecting-yourself",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a provider offering a private client in Austria CFD leverage of 100:1 on a major currency pair is a warning sign.",
+    "answerBool": true,
+    "explanation": "True. The FMA-PIV limits retail leverage on major currency pairs to 30:1 (3.33% margin).",
+    "lessonLink": "/learn/trading-leverage-derivatives/protecting-yourself",
+    "sources": [
+      "https://www.ris.bka.gv.at/GeltendeFassung.wxe?Abfrage=Bundesnormen&Gesetzesnummer=20010637"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "N-055",
+    "category": "N",
+    "topic": "protecting-yourself",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why is keeping an honest record of every trade useful?",
+    "options": [
+      "It shows real results after costs, which can be compared with a simple index investment",
+      "It avoids taxes",
+      "It guarantees profits",
+      "It is required to open any account"
+    ],
+    "answerIndex": 0,
+    "explanation": "The AMF found no learning effect over time among CFD and forex clients; records stop you remembering only the wins.",
+    "lessonLink": "/learn/trading-leverage-derivatives/protecting-yourself",
+    "sources": [
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
