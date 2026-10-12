@@ -1,0 +1,775 @@
+[
+  {
+    "id": "Q-001",
+    "category": "Q",
+    "topic": "tax-concepts",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does a gain on a share generally become taxable?",
+    "options": [
+      "When it is realised, i.e. when you sell",
+      "Every day the price rises",
+      "Only when you withdraw cash from your account",
+      "Never, if you hold it for a year"
+    ],
+    "answerIndex": 0,
+    "explanation": "The taxable gain is the difference between sale proceeds and acquisition cost, arising when you sell (BMF).",
+    "lessonLink": "/learn/taxes/tax-concepts",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-002",
+    "category": "Q",
+    "topic": "tax-concepts",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: selling a share and leaving the money in your securities account means no gain has been realised yet.",
+    "answerBool": false,
+    "explanation": "False. The sale realises the gain; withdrawing the cash later does not matter.",
+    "lessonLink": "/learn/taxes/tax-concepts",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-003",
+    "category": "Q",
+    "topic": "tax-concepts",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a double taxation agreement for?",
+    "options": [
+      "Limiting taxation of the same income by two countries",
+      "Doubling the tax on foreign income",
+      "Avoiding all taxes",
+      "Setting exchange rates"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF explains that foreign tax can be credited against Austrian tax according to the relevant DTA.",
+    "lessonLink": "/learn/taxes/tax-concepts",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-004",
+    "category": "Q",
+    "topic": "tax-concepts",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in Austria, custody fees can be deducted from capital income taxed at the special rate.",
+    "answerBool": false,
+    "explanation": "False. The BMF states that expenses such as financing costs, transaction costs and custody fees cannot be deducted.",
+    "lessonLink": "/learn/taxes/tax-concepts",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-005",
+    "category": "Q",
+    "topic": "tax-concepts",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is withholding tax?",
+    "options": [
+      "Tax deducted at source before income is paid to you",
+      "A penalty for late filing",
+      "A fee charged by an exchange",
+      "A tax on bank deposits only"
+    ],
+    "answerIndex": 0,
+    "explanation": "In Austria, KESt is withheld at source by a domestic bank or company.",
+    "lessonLink": "/learn/taxes/tax-concepts",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/information-zu-einkuenften-aus-kapitalvermoegen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-006",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What special tax rate applies to most capital income in Austria, such as dividends and share gains, in percent?",
+    "answerNumber": 27.5,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "§ 27a EStG: 27.5%, except interest on bank deposits (25%).",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html",
+      "https://www.jusline.at/gesetz/estg/paragraf/27a"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-007",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What special rate applies to interest on savings accounts and current accounts in Austria, in percent?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The BMF: 25% for interest from savings books and current accounts.",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-008",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An Austrian company pays you a gross dividend of €100. How much is paid to you after KESt, in euros?",
+    "answerNumber": 72.5,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "27.5% KESt = €27.50 withheld; €72.50 is paid out.",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-009",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'Endbesteuerung' mean?",
+    "options": [
+      "KESt withheld settles the income tax, so the income need not be declared",
+      "All taxes end at age 65",
+      "Tax is paid at the end of the year",
+      "Only the final sale of a share is taxed"
+    ],
+    "answerIndex": 0,
+    "explanation": "With KESt withheld by a domestic bank or company, income tax on that income is generally settled.",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-010",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: capital income taxed at the special rate raises the progressive income tax rate on your salary.",
+    "answerBool": false,
+    "explanation": "False. The BMF explains it is taxed separately and causes no increase in progression for other income.",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-011",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the Regelbesteuerungsoption?",
+    "options": [
+      "Applying for all capital income to be taxed at the normal progressive rate, useful for low total incomes",
+      "A way to avoid KESt on foreign shares",
+      "An option to pay tax in instalments",
+      "A bank's offer to manage taxes"
+    ],
+    "answerIndex": 0,
+    "explanation": "It applies only to all capital income together (§ 27a Abs. 5 EStG).",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-012",
+    "category": "Q",
+    "topic": "austria-kest-overview",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "In which cases must capital income generally be included in the tax return, according to the BMF? Select all that apply.",
+    "options": [
+      "Gains on investments in a foreign securities account",
+      "Interest from savings at a foreign bank",
+      "The sale of a GmbH share",
+      "Dividends from an Austrian company with KESt withheld"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Where no KESt can be deducted, the income must be declared. Austrian dividends with KESt withheld are generally settled.",
+    "lessonLink": "/learn/taxes/austria-kest-overview",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-013",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A buys shares for €1,000 plus €5 fees, pays €20 custody fees and sells for €1,200. What is the taxable gain in euros?",
+    "answerNumber": 200,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "The BMF's own example: 1,200 − 1,000 = €200. Fees and custody costs do not count.",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-014",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You buy 10 units at €100, 10 at €80 and 20 at €110 in the same account. What is the moving average price per unit in euros?",
+    "answerNumber": 100,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Total €4,000 for 40 units = €100 (§ 27a Abs. 4 Z 3 EStG).",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.jusline.at/gesetz/estg/paragraf/27a"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-015",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Shares bought up to which date are generally 'old holdings' exempt from tax on gains in Austria?",
+    "options": [
+      "31 December 2010",
+      "31 December 2015",
+      "1 March 2022",
+      "31 March 2020"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: capital assets acquired up to 31 December 2010 are in principle Altbestand (exception: holdings of 1% or more).",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-016",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: inheriting old holdings from 2011 onwards turns them into taxable new holdings.",
+    "answerBool": false,
+    "explanation": "False. Free transfers such as inheritances do not change old holdings into new ones; the previous owner's date and costs apply.",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-017",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "How does the BMF treat moving abroad (Wegzug) for capital assets?",
+    "options": [
+      "As a deemed sale at market value, with deferral possible for moves within the EU/EEA",
+      "As tax-free in all cases",
+      "As a gift",
+      "As a loss"
+    ],
+    "answerIndex": 0,
+    "explanation": "Austria usually loses the right to tax later gains, so moving abroad counts as a sale; deferral can be requested for EU/EEA moves.",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-018",
+    "category": "Q",
+    "topic": "gains-and-cost-basis",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "If acquisition costs are not passed to a new bank, by what percentage per month since purchase is the market value reduced to estimate them?",
+    "answerNumber": 0.5,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "The BMF: market value at transfer minus 0.5% per month since purchase, but not below half the market value.",
+    "lessonLink": "/learn/taxes/gains-and-cost-basis",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-019",
+    "category": "Q",
+    "topic": "dividends-and-withholding-tax",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what percentage of a foreign dividend can an Austrian bank credit foreign withholding tax against KESt?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The BMF: the credit may not exceed 15% of the dividend, regardless of the DTA.",
+    "lessonLink": "/learn/taxes/dividends-and-withholding-tax",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-020",
+    "category": "Q",
+    "topic": "dividends-and-withholding-tax",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A foreign dividend of €100 has €15 foreign withholding tax. How much Austrian KESt does the bank withhold, in euros?",
+    "answerNumber": 12.5,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "27.50 − 15 credit = €12.50; total tax €27.50.",
+    "lessonLink": "/learn/taxes/dividends-and-withholding-tax",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-021",
+    "category": "Q",
+    "topic": "dividends-and-withholding-tax",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A foreign dividend of €100 has €25 foreign withholding tax and is paid via an Austrian bank. What is the total tax, in euros?",
+    "answerNumber": 37.5,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Only €15 can be credited: KESt 12.50 + foreign tax 25 = €37.50, unless the excess is reclaimed abroad.",
+    "lessonLink": "/learn/taxes/dividends-and-withholding-tax",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-022",
+    "category": "Q",
+    "topic": "dividends-and-withholding-tax",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: foreign dividends paid by a foreign broker without KESt must be included in the Austrian tax return.",
+    "answerBool": true,
+    "explanation": "True. They are taxed at 27.5% in the return, with foreign tax credited per the DTA.",
+    "lessonLink": "/learn/taxes/dividends-and-withholding-tax",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-023",
+    "category": "Q",
+    "topic": "dividends-and-withholding-tax",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "By when must Austrian banks provide the tax report (on request) for a calendar year, from income received in 2025?",
+    "options": [
+      "31 March of the following year",
+      "31 December of the same year",
+      "30 June two years later",
+      "They never provide one"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: the tax report must be available at the latest by 31 March of the following year.",
+    "lessonLink": "/learn/taxes/dividends-and-withholding-tax",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-024",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Against what can losses from selling shares be offset in Austria?",
+    "options": [
+      "Capital income taxed the same way in the same year",
+      "Your salary",
+      "Interest on savings accounts",
+      "Rental income"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: only against similarly taxed capital income in the same year; not against bank interest or other income types.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-025",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At one Austrian bank you realise a €1,000 gain and a €600 loss in the same year. What is the KESt on the net result, in euros?",
+    "answerNumber": 110,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Net €400 × 27.5% = €110.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-026",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a loss on shares can reduce the 25% tax on savings account interest.",
+    "answerBool": false,
+    "explanation": "False. Losses cannot be offset against interest on bank deposits.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-027",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Austrian banks automatically offset losses across all banks where you have accounts.",
+    "answerBool": false,
+    "explanation": "False. The automatic offset works within one bank; across banks you use the loss offset option in your tax return.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-028",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How can you offset a loss at bank 2 against KESt-taxed gains at bank 1?",
+    "options": [
+      "Through the loss offset option in the income tax return (§ 97 Abs. 2 EStG)",
+      "By asking bank 1 to call bank 2",
+      "It is not possible at all",
+      "By selling the shares again"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Verlustausgleichsoption in the tax return allows offsets across banks and with foreign income.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-029",
+    "category": "Q",
+    "topic": "losses-and-loss-offsetting",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: banks automatically offset crypto losses against losses or gains on shares.",
+    "answerBool": false,
+    "explanation": "False. The BMF states such an offset is only possible in the tax return.",
+    "lessonLink": "/learn/taxes/losses-and-loss-offsetting",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/verluste-aus-veraeusserung-von-kapitalvermoegen-und-derivaten.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-030",
+    "category": "Q",
+    "topic": "foreign-brokers",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "If your broker is abroad and withholds no Austrian tax, what must you do?",
+    "options": [
+      "Declare the capital income in your Austrian tax return",
+      "Nothing; foreign accounts are tax-free",
+      "Pay tax only when you move the money to Austria",
+      "Pay the foreign tax only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Income on which no KESt was withheld must be declared, still at the special rate.",
+    "lessonLink": "/learn/taxes/foreign-brokers",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-031",
+    "category": "Q",
+    "topic": "foreign-brokers",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At a foreign broker: gains €1,500, losses €400, dividends €200 with €30 creditable foreign tax. How much Austrian tax is due, in euros? (Two decimals.)",
+    "answerNumber": 327.5,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "Net €1,300 × 27.5% = €357.50, minus €30 credit = €327.50.",
+    "lessonLink": "/learn/taxes/foreign-brokers",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html",
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-032",
+    "category": "Q",
+    "topic": "foreign-brokers",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Within what period must you notify the tax office of a transfer from one foreign securities account to another?",
+    "options": [
+      "One month",
+      "One year",
+      "Ten days",
+      "No notification is ever needed"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: the account holder must notify the tax office within one month.",
+    "lessonLink": "/learn/taxes/foreign-brokers",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/substanzgewinne-bzw-einkuenfte-aus-realisierten-wertsteigerungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-033",
+    "category": "Q",
+    "topic": "foreign-brokers",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Since when have tax authorities exchanged financial account information automatically each year under the OECD/G20 standard, according to the BMF?",
+    "options": [
+      "2017",
+      "1995",
+      "2025",
+      "It is not exchanged"
+    ],
+    "answerIndex": 0,
+    "explanation": "The standard was agreed on 29 October 2014, with annual automatic exchange beginning in 2017.",
+    "lessonLink": "/learn/taxes/foreign-brokers",
+    "sources": [
+      "https://www.bmf.gv.at/themen/betrugsbekaempfung/automatischer-informationsaustausch.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-034",
+    "category": "Q",
+    "topic": "funds-etfs-and-crypto",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under § 186 InvFG, what percentage of a fund's positive balance of realised gains counts as deemed distributed income?",
+    "answerNumber": 60,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Retained interest and dividends plus 60% of the positive balance of realised gains are deemed distributed.",
+    "lessonLink": "/learn/taxes/funds-etfs-and-crypto",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-035",
+    "category": "Q",
+    "topic": "funds-etfs-and-crypto",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: accumulating ETFs never create a tax bill until you sell.",
+    "answerBool": false,
+    "explanation": "False. Deemed distributed income is taxed every year, even without a payout.",
+    "lessonLink": "/learn/taxes/funds-etfs-and-crypto",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-036",
+    "category": "Q",
+    "topic": "funds-etfs-and-crypto",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Since when has income from cryptocurrencies been taxed as capital income at 27.5% in Austria?",
+    "options": [
+      "1 March 2022",
+      "1 January 2011",
+      "1 April 2012",
+      "1 January 2026"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: the new rules took effect on 1 March 2022, for cryptocurrencies acquired after 28 February 2021.",
+    "lessonLink": "/learn/taxes/funds-etfs-and-crypto",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerliche-behandlung-von-kryptowaehrungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-037",
+    "category": "Q",
+    "topic": "funds-etfs-and-crypto",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: NFTs are covered by the Austrian legal definition of cryptocurrency for capital income taxation.",
+    "answerBool": false,
+    "explanation": "False. The BMF states NFTs and asset tokens are not covered, as they lack the character of a means of exchange.",
+    "lessonLink": "/learn/taxes/funds-etfs-and-crypto",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerliche-behandlung-von-kryptowaehrungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-038",
+    "category": "Q",
+    "topic": "funds-etfs-and-crypto",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: taxed deemed distributed income increases the acquisition cost of fund units.",
+    "answerBool": true,
+    "explanation": "True (§ 186 Abs. 3 InvFG), so it is not taxed again on sale.",
+    "lessonLink": "/learn/taxes/funds-etfs-and-crypto",
+    "sources": [
+      "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-039",
+    "category": "Q",
+    "topic": "filing-and-records",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which supplementary form is used to declare capital income in the Austrian income tax return?",
+    "options": [
+      "E 1kv",
+      "L 16",
+      "U 30",
+      "E 6c"
+    ],
+    "answerIndex": 0,
+    "explanation": "Capital income goes in the supplementary form E 1kv, usually filed via FinanzOnline.",
+    "lessonLink": "/learn/taxes/filing-and-records",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-040",
+    "category": "Q",
+    "topic": "filing-and-records",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "For how many past calendar years can Austrian banks issue the tax report on request?",
+    "options": [
+      "Five (but not before 2025)",
+      "One",
+      "Ten",
+      "Twenty"
+    ],
+    "answerIndex": 0,
+    "explanation": "The BMF: on request for the past five calendar years, but at the earliest for 2025.",
+    "lessonLink": "/learn/taxes/filing-and-records",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-041",
+    "category": "Q",
+    "topic": "filing-and-records",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: if a bank withheld too much KESt because it used flat acquisition costs, you can reclaim it in your tax return.",
+    "answerBool": true,
+    "explanation": "True. The BMF describes how to enter actual gains and KESt withheld in form E 1kv; the tax office may ask for proof.",
+    "lessonLink": "/learn/taxes/filing-and-records",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/korrektur-kest-abzug.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-042",
+    "category": "Q",
+    "topic": "filing-and-records",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which documents should investors keep? Select all that apply.",
+    "options": [
+      "Purchase and sale confirmations",
+      "Annual statements and tax reports",
+      "Foreign withholding tax certificates",
+      "Advertising brochures from brokers"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "These documents prove costs, income and foreign tax; brochures are not tax records.",
+    "lessonLink": "/learn/taxes/filing-and-records",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/korrektur-kest-abzug.html",
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

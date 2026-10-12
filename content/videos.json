@@ -1122,5 +1122,37 @@
     "lessons": [
       "risk-management/correlation-and-portfolio-risk"
     ]
+  },
+  {
+    "id": "v-JL35RTdCw",
+    "title": "FinanzOnline Erklärvideo",
+    "channel": "Bundesministerium für Finanzen",
+    "categories": [
+      "Q"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.2,
+    "language": "de",
+    "whyGood": "The Austrian Finance Ministry's own short introduction to FinanzOnline, the portal used to file tax returns (in German).",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "taxes/filing-and-records"
+    ]
+  },
+  {
+    "id": "SvY62OR2gdM",
+    "title": "Registrierung der 2-Faktor-Authentifizierung in FinanzOnline",
+    "channel": "Bundesministerium für Finanzen",
+    "categories": [
+      "Q"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5.3,
+    "language": "de",
+    "whyGood": "Official step-by-step guide to securing your FinanzOnline account with two-factor authentication (in German).",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "taxes/filing-and-records"
+    ]
   }
 ]

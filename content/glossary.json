@@ -7181,5 +7181,209 @@
       "H"
     ],
     "de": "Gesamtrisikoindikator (SRI)"
+  },
+  {
+    "id": "special-tax-rate",
+    "term": "Special tax rate",
+    "aliases": [
+      "besonderer Steuersatz"
+    ],
+    "definition": "In Austria, the flat rate for most capital income: 27.5%, or 25% for interest on bank deposits. It is applied separately from other income and does not raise the progressive rate.",
+    "related": [
+      "kest",
+      "regelbesteuerungsoption"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Besonderer Steuersatz"
+  },
+  {
+    "id": "endbesteuerung",
+    "term": "Final taxation",
+    "aliases": [
+      "Endbesteuerung"
+    ],
+    "definition": "In Austria, the effect that KESt withheld by a domestic bank or company settles the income tax on that income, so it need not be declared.",
+    "related": [
+      "kest"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Endbesteuerung"
+  },
+  {
+    "id": "regelbesteuerungsoption",
+    "term": "Option for normal taxation",
+    "aliases": [
+      "Regelbesteuerungsoption"
+    ],
+    "definition": "In Austria, the option to have all capital income taxed at the normal progressive rate instead of the special rate, useful for people with low total income.",
+    "related": [
+      "special-tax-rate"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Regelbesteuerungsoption"
+  },
+  {
+    "id": "loss-offset",
+    "term": "Loss offset",
+    "aliases": [
+      "Verlustausgleich",
+      "loss offsetting",
+      "Verlustausgleichsoption",
+      "loss offset option"
+    ],
+    "definition": "In Austria, setting losses on capital assets against capital income taxed the same way in the same year. Banks do it automatically within their accounts; across banks via the tax return.",
+    "related": [
+      "kest",
+      "capital-gain"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Verlustausgleich"
+  },
+  {
+    "id": "withholding-tax",
+    "term": "Withholding tax",
+    "aliases": [
+      "Quellensteuer",
+      "foreign withholding tax"
+    ],
+    "definition": "Tax deducted at source by the country where income such as a dividend arises. Austrian banks can credit foreign withholding tax on dividends up to 15% of the dividend.",
+    "related": [
+      "double-taxation-agreement",
+      "dividend"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Quellensteuer"
+  },
+  {
+    "id": "double-taxation-agreement",
+    "term": "Double taxation agreement",
+    "aliases": [
+      "DTA",
+      "double tax treaty",
+      "Doppelbesteuerungsabkommen",
+      "DBA"
+    ],
+    "definition": "A treaty between two countries that limits taxation of the same income by both, for example by allowing foreign tax to be credited.",
+    "related": [
+      "withholding-tax"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Doppelbesteuerungsabkommen"
+  },
+  {
+    "id": "moving-average-price",
+    "term": "Moving average price",
+    "aliases": [
+      "gleitender Durchschnittspreis"
+    ],
+    "definition": "In Austria, the acquisition cost used for repeated purchases of the same security in one account: total cost divided by total units, recalculated after each purchase.",
+    "related": [
+      "acquisition-cost"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Gleitender Durchschnittspreis"
+  },
+  {
+    "id": "altbestand",
+    "term": "Old holdings",
+    "aliases": [
+      "Altbestand",
+      "Altvermögen"
+    ],
+    "definition": "In Austria, shares and fund units acquired up to 31 December 2010 (cryptocurrencies up to 28 February 2021), generally exempt from the current tax on gains.",
+    "related": [
+      "capital-gain"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Altbestand"
+  },
+  {
+    "id": "e1kv",
+    "term": "E 1kv",
+    "aliases": [
+      "E1kv"
+    ],
+    "definition": "The supplementary form to the Austrian income tax return for declaring capital income, filed via FinanzOnline.",
+    "related": [
+      "finanzonline",
+      "kest"
+    ],
+    "categories": [
+      "Q"
+    ]
+  },
+  {
+    "id": "finanzonline",
+    "term": "FinanzOnline",
+    "definition": "The Austrian tax administration's online portal for filing tax returns and communicating with the tax office.",
+    "related": [
+      "e1kv"
+    ],
+    "categories": [
+      "Q"
+    ]
+  },
+  {
+    "id": "tax-reporting",
+    "term": "Tax report",
+    "aliases": [
+      "Steuerreporting"
+    ],
+    "definition": "In Austria, a yearly statement banks must provide on request (from income in 2025, by 31 March) listing capital income, KESt, foreign tax and losses, linked to form E 1kv.",
+    "related": [
+      "e1kv",
+      "loss-offset"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Steuerreporting"
+  },
+  {
+    "id": "exit-taxation",
+    "term": "Exit taxation",
+    "aliases": [
+      "Wegzugsbesteuerung"
+    ],
+    "definition": "In Austria, the rule that moving abroad is treated like a sale of capital assets at market value; deferral can be requested for moves within the EU/EEA.",
+    "related": [
+      "capital-gain"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Wegzugsbesteuerung"
+  },
+  {
+    "id": "automatic-exchange-of-information",
+    "term": "Automatic exchange of information",
+    "aliases": [
+      "Common Reporting Standard",
+      "CRS"
+    ],
+    "definition": "The annual exchange of financial account data between tax authorities under the OECD/G20 standard, in place since 2017.",
+    "related": [
+      "double-taxation-agreement"
+    ],
+    "categories": [
+      "Q"
+    ],
+    "de": "Automatischer Informationsaustausch"
   }
 ]
