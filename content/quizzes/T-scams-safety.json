@@ -1,0 +1,710 @@
+[
+  {
+    "id": "T-001",
+    "category": "T",
+    "topic": "why-fraud-works",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many reports of investment fraud did the FMA receive in 2025?",
+    "answerNumber": 843,
+    "tolerance": 0,
+    "explanation": "The FMA received 843 reports in 2025, with total losses of €20 million.",
+    "lessonLink": "/learn/scams-safety/why-fraud-works",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-002",
+    "category": "T",
+    "topic": "why-fraud-works",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What total losses did the investment fraud cases reported to the FMA in 2025 involve, in million euros?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "€ million",
+    "explanation": "€20 million, according to the FMA's press release of 30 September 2026.",
+    "lessonLink": "/learn/scams-safety/why-fraud-works",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-003",
+    "category": "T",
+    "topic": "why-fraud-works",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which tools do fraudsters use to look credible, according to the FMA? Select all that apply.",
+    "options": [
+      "Social media",
+      "Messenger chat groups",
+      "AI-generated images, videos and voices",
+      "Official FMA authorisation"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Fraudsters use social media, messenger services and AI-generated content; they do not have genuine authorisation.",
+    "lessonLink": "/learn/scams-safety/why-fraud-works",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-004",
+    "category": "T",
+    "topic": "why-fraud-works",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: only people with little education fall for investment fraud.",
+    "answerBool": false,
+    "explanation": "False. Fraud targets everyone; fixed checks protect better than confidence.",
+    "lessonLink": "/learn/scams-safety/why-fraud-works",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-005",
+    "category": "T",
+    "topic": "red-flags",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which are warning signs of investment fraud named by the FMA? Select all that apply.",
+    "options": [
+      "Exceptionally high or seemingly risk-free returns",
+      "Time pressure",
+      "Communication only via messenger services",
+      "A firm listed in the FMA company database with matching contact details"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "High or risk-free returns, time pressure and messenger-only contact are red flags. Verified authorisation is a good sign, although contact details must match.",
+    "lessonLink": "/learn/scams-safety/red-flags",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-006",
+    "category": "T",
+    "topic": "red-flags",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a legitimate investment adviser may ask you to install remote access software on your computer.",
+    "answerBool": false,
+    "explanation": "False. The FMA calls such requests a clear warning signal.",
+    "lessonLink": "/learn/scams-safety/red-flags",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-007",
+    "category": "T",
+    "topic": "red-flags",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which is a red flag of a Ponzi scheme according to Investor.gov?",
+    "options": [
+      "Overly consistent returns regardless of market conditions",
+      "Returns that go up and down with the market",
+      "A registered, licensed seller",
+      "Clear, complete documentation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Real investments fluctuate; steady returns regardless of markets are suspicious.",
+    "lessonLink": "/learn/scams-safety/red-flags",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-008",
+    "category": "T",
+    "topic": "red-flags",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA has described unsolicited 'cold calling' to sell financial transactions as prohibited by law in Austria.",
+    "answerBool": true,
+    "explanation": "True, in its 2018 warning about providers who fake regulation.",
+    "lessonLink": "/learn/scams-safety/red-flags",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-009",
+    "category": "T",
+    "topic": "red-flags",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "A stranger writes 'Sorry, wrong number!' and then offers you a place in a VIP trading group with 2% daily returns. What should you do?",
+    "options": [
+      "Ignore, block and report the message",
+      "Join the group to learn more",
+      "Send a small test amount",
+      "Share your bank login to verify your identity"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov advises ignoring messages from unknown senders and blocking and reporting them.",
+    "lessonLink": "/learn/scams-safety/red-flags",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-010",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Where can you check whether a company is authorised by the FMA?",
+    "options": [
+      "In the FMA's company database (Unternehmensdatenbank)",
+      "On the company's own website",
+      "In the company's social media posts",
+      "By asking the company's sales agent"
+    ],
+    "answerIndex": 0,
+    "explanation": "Every FMA warning refers to the company database to check authorisation.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/",
+      "https://www.fma.gv.at/die-fma-warnt-vor-angeboten-von-coinmindz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-011",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does an FMA warning about a provider mean?",
+    "options": [
+      "The provider is not authorised to offer those services in Austria; do not do business with it",
+      "The provider is a safe partner",
+      "The provider has paid a fine and is now fine",
+      "Nothing important"
+    ],
+    "answerIndex": 0,
+    "explanation": "Warnings name providers without the required authorisation.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.fma.gv.at/warnungen/",
+      "https://www.fma.gv.at/die-fma-warnt-vor-angeboten-von-coinmindz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-012",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is I-SCAN?",
+    "options": [
+      "IOSCO's searchable network of investor alerts from regulators worldwide",
+      "An Austrian tax form",
+      "A stock exchange in Singapore",
+      "A type of fund"
+    ],
+    "answerIndex": 0,
+    "explanation": "I-SCAN collects warnings submitted by securities regulators around the world.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.iosco.org/i-scan/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-013",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: IOSCO independently verifies every alert submitted to I-SCAN.",
+    "answerBool": false,
+    "explanation": "False. IOSCO states it does not independently verify all content submitted by its members.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.iosco.org/i-scan/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-014",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put the Scam Shield checks in a sensible order.",
+    "orderedItems": [
+      "Search the FMA company database",
+      "Search the FMA warning list",
+      "Search international alerts on I-SCAN",
+      "Compare contact details with the official register",
+      "Contact the regulator directly if still unsure"
+    ],
+    "explanation": "Check authorisation, warnings and international alerts, verify contact details independently, and ask the regulator if in doubt.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/",
+      "https://www.fma.gv.at/warnungen/",
+      "https://www.iosco.org/i-scan/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-015",
+    "category": "T",
+    "topic": "scam-shield-check-a-firm",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the FMA offers an app that gives access to its company database and notifies you of new warnings.",
+    "answerBool": true,
+    "explanation": "True. The FMA app is free.",
+    "lessonLink": "/learn/scams-safety/scam-shield-check-a-firm",
+    "sources": [
+      "https://www.fma.gv.at/fma-app/",
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-016",
+    "category": "T",
+    "topic": "clone-firms-and-fake-regulators",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a clone firm?",
+    "options": [
+      "A fraudster using the name and register data of a genuine authorised firm",
+      "A subsidiary of a bank",
+      "A firm with two offices",
+      "An ETF copying an index"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA describes clones as a common fraud method that misuses real firms' identities.",
+    "lessonLink": "/learn/scams-safety/clone-firms-and-fake-regulators",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-017",
+    "category": "T",
+    "topic": "clone-firms-and-fake-regulators",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did the fake 'FINSA' turn out to be, according to the FMA?",
+    "options": [
+      "An invented supervisory authority used by a fraudulent provider",
+      "Austria's real financial regulator",
+      "A European directive",
+      "A stock index"
+    ],
+    "answerIndex": 0,
+    "explanation": "A provider claimed to be licensed by FINSA, which does not exist. Austria's supervisor is the FMA.",
+    "lessonLink": "/learn/scams-safety/clone-firms-and-fake-regulators",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-018",
+    "category": "T",
+    "topic": "clone-firms-and-fake-regulators",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How do genuine FMA email addresses end?",
+    "options": [
+      "@fma.gv.at",
+      "@fma-austria.com",
+      "@fragency.net",
+      "@gmail.com"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA warns that real FMA addresses end only in @fma.gv.at.",
+    "lessonLink": "/learn/scams-safety/clone-firms-and-fake-regulators",
+    "sources": [
+      "https://www.fma.gv.at/die-fma-warnt-betrueger-geben-sich-als-fma-mitarbeiter-aus-oder-verwenden-gefaelschte-fma-schriftstuecke-um-persoenliche-daten-oder-zahlungen-herauszulocken/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-019",
+    "category": "T",
+    "topic": "clone-firms-and-fake-regulators",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: you should use the phone number given to you by someone who contacts you claiming to be from a regulator to check their identity.",
+    "answerBool": false,
+    "explanation": "False. Look up contact details yourself on the official website or register.",
+    "lessonLink": "/learn/scams-safety/clone-firms-and-fake-regulators",
+    "sources": [
+      "https://www.fma.gv.at/die-fma-warnt-betrueger-geben-sich-als-fma-mitarbeiter-aus-oder-verwenden-gefaelschte-fma-schriftstuecke-um-persoenliche-daten-oder-zahlungen-herauszulocken/",
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/impersonation-schemes"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-020",
+    "category": "T",
+    "topic": "chat-groups-and-pump-and-dump",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to the FMA, investment fraud via messenger services such as WhatsApp and Telegram is increasing.",
+    "answerBool": true,
+    "explanation": "True, as the FMA reported in September 2026.",
+    "lessonLink": "/learn/scams-safety/chat-groups-and-pump-and-dump",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-021",
+    "category": "T",
+    "topic": "chat-groups-and-pump-and-dump",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put the stages of a pump-and-dump scheme in order.",
+    "orderedItems": [
+      "Promoters buy a cheap share",
+      "They spread false or misleading claims to boost the price",
+      "They sell their own shares at the higher price",
+      "The hype stops and the price falls"
+    ],
+    "explanation": "Pump with misleading claims, dump the shares, and leave latecomers with losses (Investor.gov).",
+    "lessonLink": "/learn/scams-safety/chat-groups-and-pump-and-dump",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/pump-and-dump-schemes"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-022",
+    "category": "T",
+    "topic": "chat-groups-and-pump-and-dump",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In the EU and Austria, what is spreading false information to push up a share price?",
+    "options": [
+      "Market manipulation, a punishable offence",
+      "Normal marketing",
+      "Legal investment advice",
+      "A tax deduction"
+    ],
+    "answerIndex": 0,
+    "explanation": "MAR and Austrian law punish manipulation by false or misleading information (Category R).",
+    "lessonLink": "/learn/scams-safety/chat-groups-and-pump-and-dump",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-023",
+    "category": "T",
+    "topic": "chat-groups-and-pump-and-dump",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the 'other investors' praising profits in an investment chat group may be fake accounts.",
+    "answerBool": true,
+    "explanation": "True. Fraudsters create credible-looking identities, including with AI.",
+    "lessonLink": "/learn/scams-safety/chat-groups-and-pump-and-dump",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-024",
+    "category": "T",
+    "topic": "chat-groups-and-pump-and-dump",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the FMA recommend checking before following a finfluencer's tip?",
+    "options": [
+      "Their qualifications and whether they earn money from the products they recommend",
+      "Only their number of followers",
+      "The colour of their logo",
+      "Nothing; finfluencers are licensed"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA advises checking qualifications and conflicts of interest such as affiliate marketing.",
+    "lessonLink": "/learn/scams-safety/chat-groups-and-pump-and-dump",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-025",
+    "category": "T",
+    "topic": "relationship-and-crypto-scams",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: an app available in a well-known app store must be legitimate.",
+    "answerBool": false,
+    "explanation": "False. Investor.gov warns that availability in an app store does not mean the app or its activities are legitimate.",
+    "lessonLink": "/learn/scams-safety/relationship-and-crypto-scams",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-026",
+    "category": "T",
+    "topic": "relationship-and-crypto-scams",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Your trading app shows big profits, but to withdraw you are told to pay a 20% 'tax' first. What is this?",
+    "options": [
+      "Advance fee fraud; never pay",
+      "A normal Austrian tax procedure",
+      "A sign the investment is safe",
+      "A bank fee"
+    ],
+    "answerIndex": 0,
+    "explanation": "Requests to pay fees or taxes to release funds are classic advance fee fraud.",
+    "lessonLink": "/learn/scams-safety/relationship-and-crypto-scams",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud",
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-027",
+    "category": "T",
+    "topic": "relationship-and-crypto-scams",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How long do relationship scammers typically spend building trust before talking about investments, according to Investor.gov?",
+    "options": [
+      "Weeks or months",
+      "A few seconds",
+      "Ten years",
+      "They never talk about investments"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov calls it a 'long con' over weeks or months.",
+    "lessonLink": "/learn/scams-safety/relationship-and-crypto-scams",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-028",
+    "category": "T",
+    "topic": "relationship-and-crypto-scams",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which does Investor.gov recommend to protect yourself from relationship investment scams? Select all that apply.",
+    "options": [
+      "Ignore and block messages from unknown senders",
+      "Make investment decisions independently of unsolicited online contacts",
+      "Never pay money to recover an investment",
+      "Share your ID documents to prove you are serious"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Protect personal information and never pay to release or recover funds.",
+    "lessonLink": "/learn/scams-safety/relationship-and-crypto-scams",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-029",
+    "category": "T",
+    "topic": "recovery-scams-and-what-to-do",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "You realise you have sent money to an investment fraudster. Put the FMA's recommended first steps in order.",
+    "orderedItems": [
+      "Contact your own bank immediately",
+      "Report the case to the police",
+      "Report the fraudsters' profiles to the platforms"
+    ],
+    "explanation": "The FMA recommends contacting your bank and the police right away, and reporting profiles on the platforms.",
+    "lessonLink": "/learn/scams-safety/recovery-scams-and-what-to-do",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-030",
+    "category": "T",
+    "topic": "recovery-scams-and-what-to-do",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "After being defrauded, you are contacted by an 'asset recovery agency' asking for a fee to return your money. What is it most likely to be?",
+    "options": [
+      "A recovery (reload) scam",
+      "A genuine government service",
+      "Your bank's normal procedure",
+      "An insurance payment"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov warns that scammers target prior victims, sometimes impersonating regulators, and demand upfront fees.",
+    "lessonLink": "/learn/scams-safety/recovery-scams-and-what-to-do",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-031",
+    "category": "T",
+    "topic": "recovery-scams-and-what-to-do",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: you should never pay money to recover an investment or to release funds.",
+    "answerBool": true,
+    "explanation": "True. This is Investor.gov's explicit advice.",
+    "lessonLink": "/learn/scams-safety/recovery-scams-and-what-to-do",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-032",
+    "category": "T",
+    "topic": "recovery-scams-and-what-to-do",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: scammers may impersonate government regulators when contacting previous fraud victims.",
+    "answerBool": true,
+    "explanation": "True. Investor.gov describes impersonation of regulators in recovery scams.",
+    "lessonLink": "/learn/scams-safety/recovery-scams-and-what-to-do",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-033",
+    "category": "T",
+    "topic": "ponzi-and-pyramid-schemes",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does a Ponzi scheme pay its investors?",
+    "options": [
+      "With money from new investors",
+      "From real business profits",
+      "From government subsidies",
+      "From central bank interest"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: it pays existing investors with funds collected from new investors.",
+    "lessonLink": "/learn/scams-safety/ponzi-and-pyramid-schemes",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-034",
+    "category": "T",
+    "topic": "ponzi-and-pyramid-schemes",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who gave the Ponzi scheme its name?",
+    "options": [
+      "Charles Ponzi, who defrauded investors in the 1920s",
+      "An Italian bank",
+      "A US regulator",
+      "A stock index"
+    ],
+    "answerIndex": 0,
+    "explanation": "Charles Ponzi ran a postage stamp speculation scheme in the 1920s.",
+    "lessonLink": "/learn/scams-safety/ponzi-and-pyramid-schemes",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-035",
+    "category": "T",
+    "topic": "ponzi-and-pyramid-schemes",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a hallmark of a pyramid scheme, according to Investor.gov?",
+    "options": [
+      "Emphasis on recruiting new members rather than selling real products",
+      "Regular audited accounts",
+      "Low, steady returns",
+      "Authorisation by the FMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pyramid schemes focus on recruitment and pay earlier participants with new recruits' money.",
+    "lessonLink": "/learn/scams-safety/ponzi-and-pyramid-schemes",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/pyramid-schemes"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-036",
+    "category": "T",
+    "topic": "ponzi-and-pyramid-schemes",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Ponzi schemes need a constant flow of new money and collapse when it stops.",
+    "answerBool": true,
+    "explanation": "True. With little or no real earnings, they collapse when recruitment slows or many investors cash out.",
+    "lessonLink": "/learn/scams-safety/ponzi-and-pyramid-schemes",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-037",
+    "category": "T",
+    "topic": "ponzi-and-pyramid-schemes",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A scheme promises 10% a month on €100,000 of deposits with no real profits. After how many months would the original money be used up just paying the promised returns?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "months",
+    "explanation": "10% of €100,000 is €10,000 a month; after 10 months the €100,000 is gone unless new money arrives.",
+    "lessonLink": "/learn/scams-safety/ponzi-and-pyramid-schemes",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

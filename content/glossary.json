@@ -7752,5 +7752,153 @@
       "S"
     ],
     "de": "Kapitalverkehrskontrollen"
+  },
+  {
+    "id": "investment-fraud",
+    "term": "Investment fraud",
+    "aliases": [
+      "investment scam",
+      "investment scams",
+      "Anlagebetrug"
+    ],
+    "definition": "Deceiving people into handing over money for investments that are fake, misrepresented or unauthorised. The FMA received 843 reports with €20 million in losses in 2025.",
+    "related": [
+      "ponzi-scheme",
+      "clone-firm"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Anlagebetrug"
+  },
+  {
+    "id": "clone-firm",
+    "term": "Clone firm",
+    "aliases": [
+      "clone firms",
+      "cloned firm"
+    ],
+    "definition": "A fraudulent operation that copies the name and register details of a genuine authorised firm to appear legitimate.",
+    "related": [
+      "investment-fraud",
+      "fma"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Klon-Firma"
+  },
+  {
+    "id": "ponzi-scheme",
+    "term": "Ponzi scheme",
+    "aliases": [
+      "Ponzi schemes"
+    ],
+    "definition": "A fraud that pays earlier investors with money from new investors instead of real profits, and collapses when new money stops.",
+    "related": [
+      "pyramid-scheme",
+      "investment-fraud"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Schneeballsystem (Ponzi)"
+  },
+  {
+    "id": "pyramid-scheme",
+    "term": "Pyramid scheme",
+    "aliases": [
+      "pyramid schemes"
+    ],
+    "definition": "A scheme in which money from new recruits pays earlier participants, often disguised as a business; most participants lose money when recruitment slows.",
+    "related": [
+      "ponzi-scheme"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Pyramidensystem"
+  },
+  {
+    "id": "relationship-scam",
+    "term": "Relationship investment scam",
+    "aliases": [
+      "relationship scam",
+      "relationship scams",
+      "romance scam",
+      "romance scams"
+    ],
+    "definition": "A fraud in which the scammer builds a friendship or romance over weeks or months, then steers the victim to fake investments, often in crypto.",
+    "related": [
+      "advance-fee-fraud",
+      "investment-fraud"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Liebes- bzw. Beziehungsbetrug"
+  },
+  {
+    "id": "advance-fee-fraud",
+    "term": "Advance fee fraud",
+    "aliases": [
+      "recovery scam",
+      "recovery scams",
+      "reload scam",
+      "reload scams"
+    ],
+    "definition": "A fraud that asks victims to pay upfront fees, taxes or commissions to release funds or recover lost money. The money is never returned.",
+    "related": [
+      "relationship-scam"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Vorschussbetrug"
+  },
+  {
+    "id": "cold-calling",
+    "term": "Cold calling",
+    "definition": "Unsolicited contact by phone, email or fax to sell financial products. The FMA has called it prohibited in Austria and a warning sign of fraud.",
+    "related": [
+      "investment-fraud"
+    ],
+    "categories": [
+      "T"
+    ]
+  },
+  {
+    "id": "i-scan",
+    "term": "I-SCAN",
+    "aliases": [
+      "International Securities & Commodities Alerts Network"
+    ],
+    "definition": "IOSCO's searchable database of investor alerts and warnings submitted by securities regulators around the world.",
+    "related": [
+      "fma",
+      "investment-fraud"
+    ],
+    "categories": [
+      "T"
+    ]
+  },
+  {
+    "id": "investor-warning",
+    "term": "Investor warning",
+    "aliases": [
+      "investor warnings",
+      "FMA warning",
+      "FMA warnings",
+      "Investorenwarnung"
+    ],
+    "definition": "A public warning by a regulator, such as the FMA, about a provider that is not authorised to offer its services.",
+    "related": [
+      "fma",
+      "i-scan"
+    ],
+    "categories": [
+      "T"
+    ],
+    "de": "Investorenwarnung"
   }
 ]

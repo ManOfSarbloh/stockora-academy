@@ -1218,5 +1218,87 @@
     "lessons": [
       "world-markets/accessing-foreign-markets"
     ]
+  },
+  {
+    "id": "V3diu9-AJSg",
+    "title": "Smart & Simple - Die FMA erklärt das Thema Anlagebetrug",
+    "channel": "Reden wir über Geld",
+    "categories": [
+      "T"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.6,
+    "language": "de",
+    "whyGood": "The Austrian FMA's own short video on how investment fraudsters operate, the warning signs and where to check providers (in German).",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "scams-safety/why-fraud-works",
+      "scams-safety/red-flags",
+      "scams-safety/scam-shield-check-a-firm"
+    ]
+  },
+  {
+    "id": "apXq6_CfuVw",
+    "title": "1 Minute, 1 Begriff - Phishing",
+    "channel": "Reden wir über Geld",
+    "categories": [
+      "T"
+    ],
+    "level": "beginner",
+    "durationMinutes": 0.9,
+    "language": "de",
+    "whyGood": "A one-minute FMA explainer on phishing, a common way fraudsters steal access data (in German).",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "scams-safety/clone-firms-and-fake-regulators"
+    ]
+  },
+  {
+    "id": "IFdzpHYipm8",
+    "title": "Let's Talk About Relationship Investment Scams - Investor.gov",
+    "channel": "U.S. Securities and Exchange Commission",
+    "categories": [
+      "T"
+    ],
+    "level": "beginner",
+    "durationMinutes": 0.5,
+    "language": "en",
+    "whyGood": "A 30-second SEC warning about unsolicited messages that turn into relationship investment scams.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "scams-safety/relationship-and-crypto-scams"
+    ]
+  },
+  {
+    "id": "Zj1rKCbX9s4",
+    "title": "Phantom Riches",
+    "channel": "FINRAFoundation",
+    "categories": [
+      "T"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.4,
+    "language": "en",
+    "whyGood": "The FINRA Investor Education Foundation explains one of the classic red flags of fraud: the lure of unrealistic wealth.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "scams-safety/red-flags"
+    ]
+  },
+  {
+    "id": "mJX7qf16C-Q",
+    "title": "How AI Is Supercharging Investment Fraud (And What You Can Do About It)",
+    "channel": "FINRA",
+    "categories": [
+      "T"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 34.9,
+    "language": "en",
+    "whyGood": "FINRA's discussion of deepfakes, voice cloning and synthetic identities in investment fraud, and how the underlying playbook of urgency and emotion stays the same.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "scams-safety/why-fraud-works"
+    ]
   }
 ]
