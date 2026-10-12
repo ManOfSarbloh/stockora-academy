@@ -1,0 +1,763 @@
+[
+  {
+    "id": "O-001",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What has behavioural finance research found, according to the FMA?",
+    "options": [
+      "Investors are only partly able to act rationally",
+      "Investors always act rationally",
+      "Markets never make mistakes",
+      "Psychology has no effect on prices"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA: investors are only partly able to act rationally and often make errors of judgement.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-002",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which theory did Daniel Kahneman formulate together with Amos Tversky?",
+    "options": [
+      "Prospect theory",
+      "The efficient market hypothesis",
+      "The dual mandate",
+      "Modern portfolio theory"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Nobel committee credits Kahneman and Tversky with prospect theory, which better accounts for observed behaviour.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-003",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which term did Richard Thaler coin?",
+    "options": [
+      "Nudge",
+      "Bull market",
+      "Black Monday",
+      "Short squeeze"
+    ],
+    "answerIndex": 0,
+    "explanation": "Thaler coined 'nudge' and showed how it can help people exercise better self-control, for example in pension saving.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-004",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In Barber and Odean's study of 66,465 households, what annual return did the most active traders earn, in percent? (One decimal.)",
+    "answerNumber": 11.4,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "The most active traders earned 11.4% a year, while the market returned 17.9%.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/Individual_Investor_Performance_Final.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-005",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these does the FMA list among common psychological traps for investors? Select all that apply.",
+    "options": [
+      "Loss aversion",
+      "Herd behaviour",
+      "Home bias",
+      "Compound interest"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The FMA lists loss aversion, herd behaviour, the availability heuristic, the recency effect, home bias and the halo effect. Compound interest is a mathematical effect, not a bias.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-006",
+    "category": "O",
+    "topic": "behavioural-finance-basics",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a heuristic?",
+    "options": [
+      "A mental shortcut that can lead to systematic errors",
+      "A type of share",
+      "A tax rule",
+      "A trading platform"
+    ],
+    "answerIndex": 0,
+    "explanation": "Kahneman showed how judgement takes heuristic shortcuts that systematically depart from the rules of probability.",
+    "lessonLink": "/learn/psychology/behavioural-finance-basics",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2002/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-007",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does loss aversion mean, according to the FMA?",
+    "options": [
+      "Losses are felt more intensely than gains of the same size",
+      "Investors never accept losses",
+      "Losses are tax-free",
+      "Gains are felt more strongly than losses"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA: the subjective value of a gain is often rated lower than an equal loss; losses are experienced much more intensely.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-008",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the disposition effect?",
+    "options": [
+      "Selling winners too soon and holding losers too long",
+      "Buying shares in the news",
+      "Preferring domestic shares",
+      "Trading too often"
+    ],
+    "answerIndex": 0,
+    "explanation": "Odean tested this tendency with 10,000 brokerage accounts and found a strong preference for realising winners.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AreInvestorsReluctant.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-009",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Odean found that investors' preference for selling winners rather than losers was justified by the shares' later performance.",
+    "answerBool": false,
+    "explanation": "False. The behaviour was not justified by subsequent performance and led to lower after-tax returns in taxable accounts.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AreInvestorsReluctant.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-010",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What question does the FMA suggest instead of looking at your purchase price?",
+    "options": [
+      "Would I buy this share at today's price?",
+      "How much did I pay for it?",
+      "What did my neighbour buy?",
+      "How much has it fallen this week?"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA says purchase prices are of little help; consider whether you would buy at the current price.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-011",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the endowment effect?",
+    "options": [
+      "Valuing something more highly because you own it",
+      "A rise in share prices after a dividend",
+      "Inheriting shares",
+      "A fund's management fee"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Nobel committee describes Thaler showing that loss aversion can explain why people value an item more when they own it.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-012",
+    "category": "O",
+    "topic": "loss-aversion",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A coin toss wins €110 on heads and loses €100 on tails. What is the average result per toss, in euros?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "(110 − 100) ÷ 2 = €5 on average. Loss aversion makes many people hesitate anyway.",
+    "lessonLink": "/learn/psychology/loss-aversion",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-013",
+    "category": "O",
+    "topic": "overconfidence",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In 'Boys Will Be Boys', how much more did men trade than women, in percent?",
+    "answerNumber": 45,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Barber and Odean found men traded 45% more than women.",
+    "lessonLink": "/learn/psychology/overconfidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/BoysWillBeBoys.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-014",
+    "category": "O",
+    "topic": "overconfidence",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "By how much did trading reduce men's net returns per year in that study?",
+    "options": [
+      "2.65 percentage points",
+      "0.1 percentage points",
+      "10 percentage points",
+      "Not at all"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading reduced men's net returns by 2.65 points a year, compared with 1.72 points for women.",
+    "lessonLink": "/learn/psychology/overconfidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/BoysWillBeBoys.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-015",
+    "category": "O",
+    "topic": "overconfidence",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Barber and Odean conclude that overconfidence can explain high trading levels and poor performance.",
+    "answerBool": true,
+    "explanation": "True. Their central message is that trading is hazardous to your wealth.",
+    "lessonLink": "/learn/psychology/overconfidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/Individual_Investor_Performance_Final.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-016",
+    "category": "O",
+    "topic": "overconfidence",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What did Odean's study 'Do Investors Trade Too Much?' find about the shares investors bought compared with those they sold?",
+    "options": [
+      "On average, the shares bought did worse than the shares sold",
+      "The shares bought always did better",
+      "There was no difference at all",
+      "Investors never sold shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Not only did purchases fail to beat sales by enough to cover costs; on average they underperformed the shares sold.",
+    "lessonLink": "/learn/psychology/overconfidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/DoInvestors.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-017",
+    "category": "O",
+    "topic": "overconfidence",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What share of their portfolio did the average household in Barber and Odean's 2000 study turn over each year, in percent?",
+    "answerNumber": 75,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The average household turned over 75% of its share portfolio annually.",
+    "lessonLink": "/learn/psychology/overconfidence",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/Individual_Investor_Performance_Final.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-018",
+    "category": "O",
+    "topic": "herding-and-fomo",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does the FMA describe herd behaviour?",
+    "options": [
+      "Investors imitate the majority instead of deciding rationally",
+      "Investors buy only cattle farms",
+      "Investors follow a written plan",
+      "Investors diversify internationally"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under crowd psychology, investors often imitate the majority, especially in uncertain times.",
+    "lessonLink": "/learn/psychology/herding-and-fomo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-019",
+    "category": "O",
+    "topic": "herding-and-fomo",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to the FMA, herd behaviour can cause strong price swings because many investors act in the same direction.",
+    "answerBool": true,
+    "explanation": "True. Same-direction behaviour leads to strong price and value fluctuations.",
+    "lessonLink": "/learn/psychology/herding-and-fomo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-020",
+    "category": "O",
+    "topic": "herding-and-fomo",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does FOMO stand for?",
+    "options": [
+      "Fear of missing out",
+      "Fund of managed options",
+      "First order, market open",
+      "Fixed-rate option market order"
+    ],
+    "answerIndex": 0,
+    "explanation": "FOMO is the urge to buy because others seem to be making money, often near the top.",
+    "lessonLink": "/learn/psychology/herding-and-fomo",
+    "sources": [
+      "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-021",
+    "category": "O",
+    "topic": "herding-and-fomo",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which comparison was used to describe the panic on Black Monday 1987, quoted by Federal Reserve History?",
+    "options": [
+      "A theatre where someone yells 'Fire!'",
+      "A calm sea",
+      "A quiet library",
+      "A slow train"
+    ],
+    "answerIndex": 0,
+    "explanation": "Intel CEO Andrew Grove compared the psychological togetherness of the market to a theatre where someone yells 'Fire!'.",
+    "lessonLink": "/learn/psychology/herding-and-fomo",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-022",
+    "category": "O",
+    "topic": "herding-and-fomo",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the FMA suggest to counter herding?",
+    "options": [
+      "Critically question why you prefer a particular investment",
+      "Buy whatever is most popular",
+      "Sell whenever others sell",
+      "Ignore all information"
+    ],
+    "answerIndex": 0,
+    "explanation": "Becoming aware of why you favour an investment can lead to better decisions.",
+    "lessonLink": "/learn/psychology/herding-and-fomo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-023",
+    "category": "O",
+    "topic": "attention-and-recency",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the availability heuristic?",
+    "options": [
+      "Judging likelihood by how easily information comes to mind",
+      "Buying only available shares",
+      "Holding cash at all times",
+      "A broker's opening hours"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA: investors consider scenarios based on easily remembered information more likely, and underestimate risks that have not occurred for a while.",
+    "lessonLink": "/learn/psychology/attention-and-recency",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-024",
+    "category": "O",
+    "topic": "attention-and-recency",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the recency effect?",
+    "options": [
+      "Giving more weight to recent information than older information",
+      "Preferring new companies",
+      "Selling recent purchases",
+      "Rebalancing monthly"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA explains it with the limited capacity of short-term memory.",
+    "lessonLink": "/learn/psychology/attention-and-recency",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-025",
+    "category": "O",
+    "topic": "attention-and-recency",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA warns that some advisers mention risks in the middle of a conversation so they are less noticed.",
+    "answerBool": true,
+    "explanation": "True. Advantages are stressed at the beginning and end, using the recency effect.",
+    "lessonLink": "/learn/psychology/attention-and-recency",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-026",
+    "category": "O",
+    "topic": "attention-and-recency",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "According to 'All That Glitters' (Barber and Odean, 2008), individual investors are net buyers of which shares?",
+    "options": [
+      "Attention-grabbing shares, such as those in the news",
+      "Only shares with low trading volume",
+      "Only government bonds",
+      "Shares they have never heard of"
+    ],
+    "answerIndex": 0,
+    "explanation": "Individuals are net buyers of shares in the news, with high abnormal volume or extreme one-day returns.",
+    "lessonLink": "/learn/psychology/attention-and-recency",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AllThatGlitters_RFS_2008.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-027",
+    "category": "O",
+    "topic": "attention-and-recency",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Barber and Odean explain attention-driven buying by the difficulty of searching among thousands of possible shares.",
+    "answerBool": true,
+    "explanation": "True. Many investors only consider buying shares that have first caught their attention.",
+    "lessonLink": "/learn/psychology/attention-and-recency",
+    "sources": [
+      "https://faculty.haas.berkeley.edu/odean/Papers%20current%20versions/AllThatGlitters_RFS_2008.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-028",
+    "category": "O",
+    "topic": "mental-accounting-home-bias-halo",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is mental accounting, as described by the Nobel committee for Richard Thaler?",
+    "options": [
+      "Creating separate accounts in your mind and judging each decision narrowly",
+      "Keeping accounts at several banks",
+      "Calculating taxes in your head",
+      "Using accounting software"
+    ],
+    "answerIndex": 0,
+    "explanation": "People simplify decisions with separate mental accounts, focusing on each decision's narrow impact rather than the overall effect.",
+    "lessonLink": "/learn/psychology/mental-accounting-home-bias-halo",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-029",
+    "category": "O",
+    "topic": "mental-accounting-home-bias-halo",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is home bias?",
+    "options": [
+      "Preferring investments from your home market",
+      "Investing only in property",
+      "Working from home",
+      "Avoiding all foreign currencies by law"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA describes the tendency to prefer home-market investments.",
+    "lessonLink": "/learn/psychology/mental-accounting-home-bias-halo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-030",
+    "category": "O",
+    "topic": "mental-accounting-home-bias-halo",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the FMA notes that investments in the home market tend to be more correlated with each other than internationally diversified investments.",
+    "answerBool": true,
+    "explanation": "True, which is why international diversification can reduce risk.",
+    "lessonLink": "/learn/psychology/mental-accounting-home-bias-halo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-031",
+    "category": "O",
+    "topic": "mental-accounting-home-bias-halo",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the halo effect?",
+    "options": [
+      "One strong positive feature colours the judgement of everything else",
+      "A sudden price rise",
+      "A type of dividend",
+      "A bank's credit rating"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA advises checking the source of an idea and looking for negative information too.",
+    "lessonLink": "/learn/psychology/mental-accounting-home-bias-halo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-032",
+    "category": "O",
+    "topic": "finfluencers-and-social-media",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "What does the FMA advise checking before following a finfluencer's tip? Select all that apply.",
+    "options": [
+      "Their training and experience",
+      "Whether they earn money from the products they recommend",
+      "How credible their profit promises are",
+      "How many followers they have, as proof of quality"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The FMA advises checking qualifications, financial interests such as affiliate marketing, and the credibility of promises. Follower numbers say nothing about quality.",
+    "lessonLink": "/learn/psychology/finfluencers-and-social-media",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-033",
+    "category": "O",
+    "topic": "finfluencers-and-social-media",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: 'Finfluencer' is a protected title that only licensed advisers may use.",
+    "answerBool": false,
+    "explanation": "False. The FMA points out it is not a protected title and that there are fraudsters among finfluencers.",
+    "lessonLink": "/learn/psychology/finfluencers-and-social-media",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-034",
+    "category": "O",
+    "topic": "finfluencers-and-social-media",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is affiliate marketing in this context?",
+    "options": [
+      "Earning a commission when followers sign up or buy through a link",
+      "A type of index fund",
+      "A government subsidy",
+      "A stock exchange segment"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA names affiliate marketing as an example of a financial interest in the products recommended.",
+    "lessonLink": "/learn/psychology/finfluencers-and-social-media",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-035",
+    "category": "O",
+    "topic": "finfluencers-and-social-media",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the SEC listed frequent Reddit mentions among the features of GameStop in January 2021.",
+    "answerBool": true,
+    "explanation": "True, along with large price and volume moves, large short interest and significant media coverage.",
+    "lessonLink": "/learn/psychology/finfluencers-and-social-media",
+    "sources": [
+      "https://www.sec.gov/newsroom/press-releases/2021-212"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-036",
+    "category": "O",
+    "topic": "good-habits",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is Thaler's 'planner-doer' model about?",
+    "options": [
+      "The tension between long-term planning and short-term temptation",
+      "Planning a trading day",
+      "The roles of brokers and exchanges",
+      "How companies plan production"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Nobel committee describes it as a way to analyse self-control problems, such as failing to save for old age.",
+    "lessonLink": "/learn/psychology/good-habits",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-037",
+    "category": "O",
+    "topic": "good-habits",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which habits help protect you from your own biases? Select all that apply.",
+    "options": [
+      "Automating a monthly savings plan",
+      "Using a checklist before each purchase",
+      "Waiting before unplanned trades",
+      "Checking prices every few minutes"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Automation, checklists and waiting periods reduce impulsive decisions; constant price-checking tends to increase them.",
+    "lessonLink": "/learn/psychology/good-habits",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/",
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-038",
+    "category": "O",
+    "topic": "good-habits",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: investing a fixed amount at regular intervals means you buy more units when prices are low.",
+    "answerBool": true,
+    "explanation": "True (Investor.gov), which also removes the need to decide each month.",
+    "lessonLink": "/learn/psychology/good-habits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/dollar-cost-averaging"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-039",
+    "category": "O",
+    "topic": "good-habits",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these steps for an unplanned trade idea in a sensible order.",
+    "orderedItems": [
+      "Write down the reason for the trade",
+      "Check the idea against your checklist and plan",
+      "Wait 48 hours",
+      "Decide, and record the decision in your diary"
+    ],
+    "explanation": "Writing the reason first, checking it, waiting and then recording the decision slows impulsive action.",
+    "lessonLink": "/learn/psychology/good-habits",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

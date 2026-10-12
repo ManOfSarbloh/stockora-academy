@@ -6698,5 +6698,254 @@
       "H"
     ],
     "de": "Emittentenrisiko"
+  },
+  {
+    "id": "behavioural-finance",
+    "term": "Behavioural finance",
+    "aliases": [
+      "behavioral finance"
+    ],
+    "definition": "The study of how real people make financial decisions, including the systematic errors caused by psychology.",
+    "related": [
+      "cognitive-bias",
+      "prospect-theory"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Behavioral Finance / verhaltensorientierte Finanzmarkttheorie"
+  },
+  {
+    "id": "heuristic",
+    "term": "Heuristic",
+    "aliases": [
+      "heuristics"
+    ],
+    "definition": "A mental shortcut for making decisions quickly. Useful in daily life, but it can lead to systematic errors in investing.",
+    "related": [
+      "cognitive-bias",
+      "availability-heuristic"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Heuristik / Faustregel"
+  },
+  {
+    "id": "cognitive-bias",
+    "term": "Cognitive bias",
+    "aliases": [
+      "cognitive biases",
+      "behavioural bias",
+      "behavioural biases"
+    ],
+    "definition": "A systematic error in thinking that affects judgements and decisions, such as loss aversion or overconfidence.",
+    "related": [
+      "behavioural-finance",
+      "heuristic"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Kognitive Verzerrung"
+  },
+  {
+    "id": "prospect-theory",
+    "term": "Prospect theory",
+    "definition": "Kahneman and Tversky's theory of how people actually decide under risk, including that losses weigh more heavily than equal gains.",
+    "related": [
+      "loss-aversion",
+      "behavioural-finance"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Prospect Theory / Neue Erwartungstheorie"
+  },
+  {
+    "id": "loss-aversion",
+    "term": "Loss aversion",
+    "definition": "The tendency to feel losses more intensely than gains of the same size, which makes investors focus on avoiding losses.",
+    "related": [
+      "disposition-effect",
+      "prospect-theory"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Verlustaversion"
+  },
+  {
+    "id": "disposition-effect",
+    "term": "Disposition effect",
+    "definition": "The tendency to sell winning investments too soon and hold losing investments too long.",
+    "related": [
+      "loss-aversion"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Dispositionseffekt"
+  },
+  {
+    "id": "endowment-effect",
+    "term": "Endowment effect",
+    "definition": "The tendency to value something more highly simply because you own it.",
+    "related": [
+      "loss-aversion"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Besitztumseffekt"
+  },
+  {
+    "id": "overconfidence",
+    "term": "Overconfidence",
+    "aliases": [
+      "overconfident"
+    ],
+    "definition": "Overestimating your own knowledge or skill. In investing it leads to excessive trading and lower returns.",
+    "related": [
+      "cognitive-bias"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Selbstüberschätzung"
+  },
+  {
+    "id": "herd-behaviour",
+    "term": "Herd behaviour",
+    "aliases": [
+      "herding",
+      "herd behavior",
+      "herd mentality"
+    ],
+    "definition": "Copying what the majority does instead of deciding on the facts, which amplifies bubbles and panics.",
+    "related": [
+      "fomo",
+      "bubble"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Herdenverhalten"
+  },
+  {
+    "id": "fomo",
+    "term": "FOMO",
+    "aliases": [
+      "fear of missing out"
+    ],
+    "definition": "Fear of missing out: the urge to buy because others seem to be making money, often leading to buying near the top.",
+    "related": [
+      "herd-behaviour"
+    ],
+    "categories": [
+      "O"
+    ]
+  },
+  {
+    "id": "availability-heuristic",
+    "term": "Availability heuristic",
+    "definition": "Judging how likely something is by how easily examples come to mind, which leads to underestimating risks that have not occurred recently.",
+    "related": [
+      "recency-effect",
+      "heuristic"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Verfügbarkeitsheuristik"
+  },
+  {
+    "id": "recency-effect",
+    "term": "Recency effect",
+    "aliases": [
+      "recency bias"
+    ],
+    "definition": "Giving more weight to the most recent information than to older information.",
+    "related": [
+      "availability-heuristic"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Recency-Effekt"
+  },
+  {
+    "id": "mental-accounting",
+    "term": "Mental accounting",
+    "definition": "Treating money differently depending on which mental 'account' it is in, instead of looking at the overall effect of decisions.",
+    "related": [
+      "behavioural-finance"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Mentale Buchführung"
+  },
+  {
+    "id": "halo-effect",
+    "term": "Halo effect",
+    "definition": "Letting one positive feature, such as a famous brand, colour your whole judgement of an investment.",
+    "related": [
+      "cognitive-bias"
+    ],
+    "categories": [
+      "O"
+    ],
+    "de": "Halo-Effekt"
+  },
+  {
+    "id": "nudge",
+    "term": "Nudge",
+    "aliases": [
+      "nudging"
+    ],
+    "definition": "A change in how choices are presented that makes good decisions easier without forbidding any option, such as automatic enrolment in a savings plan.",
+    "related": [
+      "behavioural-finance"
+    ],
+    "categories": [
+      "O"
+    ]
+  },
+  {
+    "id": "finfluencer",
+    "term": "Finfluencer",
+    "aliases": [
+      "finfluencers",
+      "financial influencer",
+      "financial influencers"
+    ],
+    "definition": "A person who shares financial and investing content on social media. Not a protected title; check qualifications and conflicts of interest.",
+    "related": [
+      "affiliate-marketing"
+    ],
+    "categories": [
+      "O",
+      "T",
+      "W"
+    ],
+    "de": "Finfluencer"
+  },
+  {
+    "id": "affiliate-marketing",
+    "term": "Affiliate marketing",
+    "aliases": [
+      "affiliate link",
+      "affiliate links"
+    ],
+    "definition": "Earning a commission when followers sign up or buy through a personal link, which creates a conflict of interest for the person recommending.",
+    "related": [
+      "finfluencer"
+    ],
+    "categories": [
+      "O",
+      "W"
+    ],
+    "de": "Affiliate-Marketing"
   }
 ]

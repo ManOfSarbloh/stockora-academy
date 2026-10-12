@@ -1025,5 +1025,54 @@
       "trading-leverage-derivatives/futures",
       "trading-leverage-derivatives/leverage-and-margin"
     ]
+  },
+  {
+    "id": "xH_IlU7nIRs",
+    "title": "Psychology of money part 1",
+    "channel": "Khan Academy",
+    "categories": [
+      "O"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.8,
+    "language": "en",
+    "whyGood": "A short introduction to money biases such as herd mentality and anchoring, and how they affect financial decisions.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "psychology/behavioural-finance-basics",
+      "psychology/herding-and-fomo"
+    ]
+  },
+  {
+    "id": "xoA8N6nJMRs",
+    "title": "Richard Thaler - Nudge: An Overview",
+    "channel": "The University of Chicago",
+    "categories": [
+      "O"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.1,
+    "language": "en",
+    "whyGood": "The Nobel laureate explains in three minutes what nudges are and how they help people make better decisions, such as saving more.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "psychology/good-habits"
+    ]
+  },
+  {
+    "id": "ERDEozGpV74",
+    "title": "Behavioral Finance and Investment Strategy",
+    "channel": "Berkeley Haas Alumni Network",
+    "categories": [
+      "O"
+    ],
+    "level": "advanced",
+    "durationMinutes": 73.2,
+    "language": "en",
+    "whyGood": "A university lecture by Haas School of Business lecturer Greg LaBlanc on what behavioural finance means for markets and investment strategy.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "psychology/behavioural-finance-basics"
+    ]
   }
 ]
