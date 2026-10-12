@@ -6947,5 +6947,239 @@
       "W"
     ],
     "de": "Affiliate-Marketing"
+  },
+  {
+    "id": "standard-deviation",
+    "term": "Standard deviation",
+    "definition": "A measure of how widely returns spread around their average; the usual way to express volatility. About two-thirds of outcomes typically fall within one standard deviation.",
+    "related": [
+      "volatility"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Standardabweichung"
+  },
+  {
+    "id": "volatility-drag",
+    "term": "Volatility drag",
+    "definition": "The gap between the average of yearly returns and the compound return actually earned, caused by swings. +50% then −50% averages 0% but loses 25%.",
+    "related": [
+      "cagr",
+      "volatility"
+    ],
+    "categories": [
+      "P"
+    ]
+  },
+  {
+    "id": "cagr",
+    "term": "Compound annual growth rate",
+    "aliases": [
+      "CAGR",
+      "compound annual return",
+      "geometric average return"
+    ],
+    "definition": "The constant yearly rate that would turn the starting value into the final value; what your money actually earned per year.",
+    "related": [
+      "volatility-drag",
+      "compound-interest"
+    ],
+    "categories": [
+      "P",
+      "G"
+    ],
+    "de": "Durchschnittliche jährliche Wachstumsrate"
+  },
+  {
+    "id": "correlation",
+    "term": "Correlation",
+    "definition": "A number from −1 to +1 measuring how closely two investments move together. The lower it is, the more combining them reduces risk.",
+    "related": [
+      "diversification"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Korrelation"
+  },
+  {
+    "id": "sharpe-ratio",
+    "term": "Sharpe ratio",
+    "definition": "Excess return over a risk-free benchmark divided by its standard deviation: return per unit of risk.",
+    "related": [
+      "excess-return",
+      "standard-deviation"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Sharpe-Ratio"
+  },
+  {
+    "id": "excess-return",
+    "term": "Excess return",
+    "definition": "The return of an investment minus the return of a benchmark, usually a risk-free rate such as short-term government bills.",
+    "related": [
+      "sharpe-ratio",
+      "risk-free-rate"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Überrendite"
+  },
+  {
+    "id": "risk-free-rate",
+    "term": "Risk-free rate",
+    "aliases": [
+      "risk-free return"
+    ],
+    "definition": "The return on an investment considered free of default risk, usually short-term government bills, used as a benchmark for other returns.",
+    "related": [
+      "excess-return"
+    ],
+    "categories": [
+      "P",
+      "I"
+    ],
+    "de": "Risikoloser Zinssatz"
+  },
+  {
+    "id": "systematic-risk",
+    "term": "Systematic risk",
+    "aliases": [
+      "market risk",
+      "non-diversifiable risk"
+    ],
+    "definition": "Risk that affects almost all investments at once, such as recessions or interest rate shocks. It cannot be removed by diversifying across shares.",
+    "related": [
+      "specific-risk",
+      "diversification"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Systematisches Risiko / Marktrisiko"
+  },
+  {
+    "id": "specific-risk",
+    "term": "Specific risk",
+    "aliases": [
+      "unsystematic risk",
+      "idiosyncratic risk",
+      "company-specific risk"
+    ],
+    "definition": "Risk that affects a single company or sector, such as a failed product or fraud. It can be greatly reduced by diversification.",
+    "related": [
+      "systematic-risk",
+      "diversification"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Unsystematisches Risiko"
+  },
+  {
+    "id": "liquidity-risk",
+    "term": "Liquidity risk",
+    "definition": "The risk that you cannot sell an investment when you want, or only at a poor price.",
+    "related": [
+      "liquidity",
+      "bid-ask-spread"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Liquiditätsrisiko"
+  },
+  {
+    "id": "inflation-risk",
+    "term": "Inflation risk",
+    "definition": "The risk that rising prices erode the purchasing power of your savings and returns, especially for cash and fixed-rate investments.",
+    "related": [
+      "inflation",
+      "real-return"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Inflationsrisiko"
+  },
+  {
+    "id": "interest-rate-risk",
+    "term": "Interest rate risk",
+    "definition": "The risk that changes in interest rates reduce the value of investments, especially bonds with long maturities.",
+    "related": [
+      "bond-yield",
+      "interest-rate"
+    ],
+    "categories": [
+      "P",
+      "L"
+    ],
+    "de": "Zinsänderungsrisiko"
+  },
+  {
+    "id": "concentration-risk",
+    "term": "Concentration risk",
+    "definition": "The risk of having too much in one company, sector, country or asset, so that a single failure causes large losses.",
+    "related": [
+      "diversification",
+      "position-sizing"
+    ],
+    "categories": [
+      "P"
+    ],
+    "de": "Klumpenrisiko"
+  },
+  {
+    "id": "position-sizing",
+    "term": "Position sizing",
+    "aliases": [
+      "position size"
+    ],
+    "definition": "Deciding how much money to put into a single investment, for example by capping each position or limiting the amount at risk.",
+    "related": [
+      "concentration-risk"
+    ],
+    "categories": [
+      "P",
+      "N"
+    ],
+    "de": "Positionsgröße"
+  },
+  {
+    "id": "sequence-risk",
+    "term": "Sequence-of-returns risk",
+    "aliases": [
+      "sequence risk"
+    ],
+    "definition": "The risk that bad years arrive at the wrong time, such as just before or after you start withdrawing money, permanently reducing the pot.",
+    "related": [
+      "glide-path"
+    ],
+    "categories": [
+      "P",
+      "M"
+    ]
+  },
+  {
+    "id": "risk-indicator",
+    "term": "Summary risk indicator",
+    "aliases": [
+      "SRI",
+      "risk indicator"
+    ],
+    "definition": "The 1-to-7 risk scale in a product's Key Information Document, combining market risk (based on volatility) and the issuer's credit risk.",
+    "related": [
+      "kid",
+      "volatility"
+    ],
+    "categories": [
+      "P",
+      "H"
+    ],
+    "de": "Gesamtrisikoindikator (SRI)"
   }
 ]

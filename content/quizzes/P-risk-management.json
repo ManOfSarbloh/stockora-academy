@@ -1,0 +1,752 @@
+[
+  {
+    "id": "P-001",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does Investor.gov define risk in finance?",
+    "options": [
+      "The degree of uncertainty and/or potential financial loss in an investment decision",
+      "Only the chance of fraud",
+      "The cost of a trade",
+      "The tax on gains"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: risk refers to the degree of uncertainty and/or potential financial loss inherent in an investment decision.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-002",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "If a company is liquidated, who is last in line, according to Investor.gov?",
+    "options": [
+      "Common shareholders",
+      "Bondholders",
+      "Preferred shareholders",
+      "Employees' pension funds"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bondholders are paid first, then preferred stockholders; common shareholders get whatever is left, which may be nothing.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-003",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which type of risk can be greatly reduced by holding many different companies?",
+    "options": [
+      "Company-specific risk",
+      "Market-wide (systematic) risk",
+      "Inflation risk",
+      "Interest rate risk"
+    ],
+    "answerIndex": 0,
+    "explanation": "Diversification reduces company-specific risk; risks that hit almost everything at once remain.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-004",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is liquidity risk?",
+    "options": [
+      "The risk that you can't sell when you want, or only at a poor price",
+      "The risk of inflation",
+      "The risk that a share pays no dividend",
+      "The risk of a currency change"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: the risk that investors won't find a market for their securities when they want to buy or sell.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-005",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what amount does Austria's investor compensation scheme secure claims if a bank cannot deliver a customer's securities, in euros?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Einlagensicherung AUSTRIA: up to €20,000 (90% for legal entities, but not more than €20,000).",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-invest.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-006",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: securities in your custody account at an Austrian bank belong to you, not to the bank.",
+    "answerBool": true,
+    "explanation": "True. Einlagensicherung AUSTRIA explains that they are the customer's property, held only in safe custody.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-invest.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-007",
+    "category": "P",
+    "topic": "types-of-risk",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: keeping all your money in cash means taking no risk at all.",
+    "answerBool": false,
+    "explanation": "False. Investor.gov names inflation as the main concern for cash: it erodes purchasing power.",
+    "lessonLink": "/learn/risk-management/types-of-risk",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-008",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the standard deviation of returns measure?",
+    "options": [
+      "How widely returns spread around their average",
+      "The average return",
+      "The highest price ever",
+      "The dividend yield"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is the usual measure of volatility: a higher standard deviation means a wider spread of outcomes.",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-009",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In Damodaran's data for 1928–2025, what was the standard deviation of yearly S&P 500 returns, in percent? (One decimal.)",
+    "answerNumber": 19.4,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "About 19.4%, compared with 7.9% for 10-year Treasury bonds (own calculation).",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-010",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "On what scale does the KID's summary risk indicator rate products?",
+    "options": [
+      "1 to 7",
+      "A to E",
+      "0 to 10",
+      "1 to 100"
+    ],
+    "answerIndex": 0,
+    "explanation": "1 is lower risk, 7 is higher risk; it combines market risk and the issuer's credit risk (FMA).",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://redenwiruebergeld.fma.gv.at/zertifikate-lupe/",
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0653"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-011",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under Delegated Regulation (EU) 2017/653, which market risk class applies to a VaR-equivalent volatility above 80%?",
+    "options": [
+      "7",
+      "5",
+      "3",
+      "1"
+    ],
+    "answerIndex": 0,
+    "explanation": "Class 7 is above 80%; class 1 is below 0.5%.",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0653"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-012",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which market risk class applies to a VaR-equivalent volatility between 12% and 20%?",
+    "options": [
+      "4",
+      "2",
+      "6",
+      "7"
+    ],
+    "answerIndex": 0,
+    "explanation": "The PRIIPs table: 1 (<0.5%), 2 (0.5–5%), 3 (5–12%), 4 (12–20%), 5 (20–30%), 6 (30–80%), 7 (>80%).",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32017R0653"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-013",
+    "category": "P",
+    "topic": "volatility",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: volatility treats rises and falls in the same way.",
+    "answerBool": true,
+    "explanation": "True, which is one of its limits as a risk measure: investors mainly fear losses.",
+    "lessonLink": "/learn/risk-management/volatility",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-014",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "€1,000 rises 50% and then falls 50%. What is it worth now, in euros?",
+    "answerNumber": 750,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "1,000 × 1.5 × 0.5 = €750, a 25% loss although the average of +50% and −50% is 0%.",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-015",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "After a 65% drawdown, what gain in percent is needed to recover? (Nearest whole number.)",
+    "answerNumber": 186,
+    "tolerance": 1,
+    "unit": "%",
+    "explanation": "1 ÷ (1 − 0.65) − 1 ≈ 1.857, i.e. about +186%.",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-016",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How far did the Dow Jones fall from its 1929 peak to its 1932 low, in percent?",
+    "answerNumber": 89,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "From 381.17 to 41.22: 89% (Federal Reserve History).",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-017",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is 'volatility drag'?",
+    "options": [
+      "The gap between average yearly return and the compound return actually earned",
+      "A fee charged by volatile funds",
+      "The time a market needs to open",
+      "A type of stop order"
+    ],
+    "answerIndex": 0,
+    "explanation": "Swings lower the compound return below the arithmetic average; S&P 500 1928–2025: 11.9% average versus 10.0% compound.",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-018",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Using compound ≈ average − ½ × volatility², with an average of 11.9% and volatility of 19.4%, what compound return results, in percent? (One decimal.)",
+    "answerNumber": 10.0,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "0.5 × 0.194² ≈ 0.019; 11.9% − 1.9% ≈ 10.0%.",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-019",
+    "category": "P",
+    "topic": "drawdowns-and-volatility-drag",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "The Nikkei 225 fell from 38,915 yen (end of 1989) to 12,879 yen (October 1998). Roughly what drawdown is that, in percent? (Enter a negative whole number.)",
+    "answerNumber": -67,
+    "tolerance": 1,
+    "unit": "%",
+    "explanation": "12,879 ÷ 38,915 − 1 ≈ −67%.",
+    "lessonLink": "/learn/risk-management/drawdowns-and-volatility-drag",
+    "sources": [
+      "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-020",
+    "category": "P",
+    "topic": "correlation-and-portfolio-risk",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a correlation of +1 between two investments mean?",
+    "options": [
+      "They always move together, so combining them gives no diversification benefit",
+      "They always move in opposite directions",
+      "They have no relationship",
+      "They have the same price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Correlation runs from −1 to +1; +1 means perfectly moving together.",
+    "lessonLink": "/learn/risk-management/correlation-and-portfolio-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-021",
+    "category": "P",
+    "topic": "correlation-and-portfolio-risk",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Shares had 19.4% volatility and bonds 7.9%. What is the weighted average volatility of a 60/40 mix, in percent? (One decimal.)",
+    "answerNumber": 14.8,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "0.6 × 19.4 + 0.4 × 7.9 = 14.8%. The actual 60/40 volatility was only about 12.1% because the two were barely correlated.",
+    "lessonLink": "/learn/risk-management/correlation-and-portfolio-risk",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-022",
+    "category": "P",
+    "topic": "correlation-and-portfolio-risk",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: if two investments are not perfectly correlated, a mix of them is less volatile than the weighted average of their volatilities.",
+    "answerBool": true,
+    "explanation": "True. That is the mathematical basis of diversification.",
+    "lessonLink": "/learn/risk-management/correlation-and-portfolio-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-023",
+    "category": "P",
+    "topic": "correlation-and-portfolio-risk",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the correlation between shares and bonds is fixed and never changes.",
+    "answerBool": false,
+    "explanation": "False. In Damodaran's data it was about +0.15 in 1928–1999 and −0.36 in 2000–2025, and in 2022 both fell together.",
+    "lessonLink": "/learn/risk-management/correlation-and-portfolio-risk",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-024",
+    "category": "P",
+    "topic": "correlation-and-portfolio-risk",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why does the SEC say asset allocation can protect against significant losses?",
+    "options": [
+      "The returns of the major asset categories have historically not moved up and down at the same time",
+      "All asset categories always rise together",
+      "Bonds never lose money",
+      "Cash always beats inflation"
+    ],
+    "answerIndex": 0,
+    "explanation": "Including categories that react differently smooths the overall ride.",
+    "lessonLink": "/learn/risk-management/correlation-and-portfolio-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-025",
+    "category": "P",
+    "topic": "risk-adjusted-returns",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the Sharpe ratio measure?",
+    "options": [
+      "Excess return per unit of risk",
+      "Total return only",
+      "The number of shares in a fund",
+      "The fund's age"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sharpe describes it as the differential return per unit of risk associated with it.",
+    "lessonLink": "/learn/risk-management/risk-adjusted-returns",
+    "sources": [
+      "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-026",
+    "category": "P",
+    "topic": "risk-adjusted-returns",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A fund returned 12% with volatility of 20%; the risk-free rate is 3%. What is its Sharpe ratio? (Two decimals.)",
+    "answerNumber": 0.45,
+    "tolerance": 0.005,
+    "explanation": "(12 − 3) ÷ 20 = 0.45.",
+    "lessonLink": "/learn/risk-management/risk-adjusted-returns",
+    "sources": [
+      "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-027",
+    "category": "P",
+    "topic": "risk-adjusted-returns",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A fund returned 9% with volatility of 10%; the risk-free rate is 3%. What is its Sharpe ratio? (Two decimals.)",
+    "answerNumber": 0.6,
+    "tolerance": 0.005,
+    "explanation": "(9 − 3) ÷ 10 = 0.60, better than a fund with 12% return and 20% volatility.",
+    "lessonLink": "/learn/risk-management/risk-adjusted-returns",
+    "sources": [
+      "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-028",
+    "category": "P",
+    "topic": "risk-adjusted-returns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In the lesson's calculation from Damodaran's 1928–2025 data, which had the highest Sharpe ratio?",
+    "options": [
+      "A 60/40 shares/bonds mix (about 0.46)",
+      "US shares alone (about 0.43)",
+      "10-year Treasury bonds (about 0.18)",
+      "They were all equal"
+    ],
+    "answerIndex": 0,
+    "explanation": "The mix earned less than shares, but slightly more per unit of risk thanks to diversification.",
+    "lessonLink": "/learn/risk-management/risk-adjusted-returns",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-029",
+    "category": "P",
+    "topic": "risk-adjusted-returns",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a strategy of selling options can show smooth returns and a high Sharpe ratio until one large loss occurs.",
+    "answerBool": true,
+    "explanation": "True. The Sharpe ratio uses volatility and can miss rare, extreme losses.",
+    "lessonLink": "/learn/risk-management/risk-adjusted-returns",
+    "sources": [
+      "https://web.stanford.edu/~wfsharpe/art/sr/sr.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-030",
+    "category": "P",
+    "topic": "position-sizing-and-exits",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Account €20,000. You accept losing 1% on an idea, buy at €50 and plan to exit at €45. How many shares should you buy?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "shares",
+    "explanation": "Accepted loss €200 ÷ risk €5 per share = 40 shares.",
+    "lessonLink": "/learn/risk-management/position-sizing-and-exits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-031",
+    "category": "P",
+    "topic": "position-sizing-and-exits",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "With a 5% cap per company and a €40,000 portfolio, what is the maximum amount in one share, in euros?",
+    "answerNumber": 2000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "5% × €40,000 = €2,000. A total failure of that company costs 5% of the portfolio.",
+    "lessonLink": "/learn/risk-management/position-sizing-and-exits",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-032",
+    "category": "P",
+    "topic": "position-sizing-and-exits",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a stop-loss order guarantees that you sell at the stop price.",
+    "answerBool": false,
+    "explanation": "False. Investor.gov: the stop price is a trigger, not a guaranteed price; after a gap the sale can be much lower.",
+    "lessonLink": "/learn/risk-management/position-sizing-and-exits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-033",
+    "category": "P",
+    "topic": "position-sizing-and-exits",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "You hold 40 shares with a stop at €45 (bought at €50). The share opens at €38 after bad news and the stop sells there. What is your loss in euros?",
+    "answerNumber": 480,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "(50 − 38) × 40 = €480, instead of the planned €200.",
+    "lessonLink": "/learn/risk-management/position-sizing-and-exits",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-15"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-034",
+    "category": "P",
+    "topic": "position-sizing-and-exits",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which company in Germany's DAX 30 filed for insolvency in 2020 after €1.9 billion of claimed cash turned out not to exist?",
+    "options": [
+      "Wirecard",
+      "Siemens",
+      "Allianz",
+      "SAP"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA's peer review describes the Wirecard collapse; position limits cap the damage such a failure can do.",
+    "lessonLink": "/learn/risk-management/position-sizing-and-exits",
+    "sources": [
+      "https://www.esma.europa.eu/sites/default/files/library/esma42-111-5349_fast_track_peer_review_report_-_wirecard.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-035",
+    "category": "P",
+    "topic": "sequence-risk",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "€10,000 rises 20% and then falls 20%, with no additions or withdrawals. What is it worth, in euros?",
+    "answerNumber": 9600,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "10,000 × 1.2 × 0.8 = €9,600, the same in either order.",
+    "lessonLink": "/learn/risk-management/sequence-risk",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-036",
+    "category": "P",
+    "topic": "sequence-risk",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: for someone withdrawing money every year, bad years early on do more damage than the same bad years later.",
+    "answerBool": true,
+    "explanation": "True. Early losses force sales at low prices, so less money is left to recover.",
+    "lessonLink": "/learn/risk-management/sequence-risk",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-037",
+    "category": "P",
+    "topic": "sequence-risk",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Start €100,000, withdraw €10,000 at the start of each year; returns −30%, +10%, +30%. What is left after three years, in euros?",
+    "answerNumber": 62790,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "(90,000 × 0.7) = 63,000; (53,000 × 1.1) = 58,300; (48,300 × 1.3) = €62,790. In reverse order, €75,390 would be left.",
+    "lessonLink": "/learn/risk-management/sequence-risk",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-038",
+    "category": "P",
+    "topic": "sequence-risk",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which measure does the SEC say most people investing for retirement take as retirement approaches?",
+    "options": [
+      "Hold fewer shares and more bonds and cash",
+      "Borrow to buy more shares",
+      "Move everything into one company",
+      "Stop diversifying"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reducing risk near the goal also reduces sequence risk.",
+    "lessonLink": "/learn/risk-management/sequence-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-039",
+    "category": "P",
+    "topic": "risk-checklist",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which questions belong on a checklist before buying an investment? Select all that apply.",
+    "options": [
+      "Do I understand how it makes or loses money?",
+      "Is the seller authorised?",
+      "How big will this position be in my portfolio?",
+      "Did it go up last week?"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Understanding, authorisation and position size are key. Last week's price move says little about risk.",
+    "lessonLink": "/learn/risk-management/risk-checklist",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/getting-started/five-questions-ask-you-invest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-040",
+    "category": "P",
+    "topic": "risk-checklist",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does Investor.gov say many investment frauds are pitched?",
+    "options": [
+      "As high-return opportunities with little or no risk",
+      "As low-return, high-risk products",
+      "As government bonds",
+      "As savings accounts"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov's five questions warn that frauds are often pitched as high return with little or no risk.",
+    "lessonLink": "/learn/risk-management/risk-checklist",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/getting-started/five-questions-ask-you-invest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-041",
+    "category": "P",
+    "topic": "risk-checklist",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: borrowing to invest is a warning sign in a personal risk review.",
+    "answerBool": true,
+    "explanation": "True. Leverage magnifies losses and can force sales at the worst time (Category N).",
+    "lessonLink": "/learn/risk-management/risk-checklist",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

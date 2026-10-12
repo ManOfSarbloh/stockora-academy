@@ -1074,5 +1074,53 @@
     "lessons": [
       "psychology/behavioural-finance-basics"
     ]
+  },
+  {
+    "id": "DJQrJuiVK60",
+    "title": "Types of financial risks",
+    "channel": "Khan Academy",
+    "categories": [
+      "P"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.8,
+    "language": "en",
+    "whyGood": "A short overview of the different kinds of financial risk people face and how to think about managing them.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "risk-management/types-of-risk"
+    ]
+  },
+  {
+    "id": "HvDqbzu0i0E",
+    "title": "Statistics: Standard deviation",
+    "channel": "Khan Academy",
+    "categories": [
+      "P"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 13.1,
+    "language": "en",
+    "whyGood": "Explains what standard deviation measures, the basis of volatility, step by step.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "risk-management/volatility"
+    ]
+  },
+  {
+    "id": "-Y-M9aD_ccQ",
+    "title": "Example: Correlation coefficient intuition",
+    "channel": "Khan Academy",
+    "categories": [
+      "P"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 7.3,
+    "language": "en",
+    "whyGood": "Builds intuition for correlation coefficients between −1 and +1 using scatter plots.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "risk-management/correlation-and-portfolio-risk"
+    ]
   }
 ]
