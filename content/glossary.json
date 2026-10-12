@@ -7681,5 +7681,76 @@
       "R",
       "T"
     ]
+  },
+  {
+    "id": "developed-market",
+    "term": "Developed market",
+    "aliases": [
+      "developed markets"
+    ],
+    "definition": "A stock market classified by index providers as highly developed in terms of economy, size, liquidity and accessibility, such as Austria according to FTSE Russell.",
+    "related": [
+      "emerging-markets",
+      "frontier-market",
+      "market-classification"
+    ],
+    "categories": [
+      "S"
+    ],
+    "de": "Industrieland-Markt / entwickelter Markt"
+  },
+  {
+    "id": "frontier-market",
+    "term": "Frontier market",
+    "aliases": [
+      "frontier markets"
+    ],
+    "definition": "A smaller, less liquid and less accessible stock market than an emerging market, classified separately by index providers.",
+    "related": [
+      "emerging-markets",
+      "developed-market"
+    ],
+    "categories": [
+      "S"
+    ],
+    "de": "Frontier-Markt"
+  },
+  {
+    "id": "market-classification",
+    "term": "Market classification",
+    "aliases": [
+      "country classification"
+    ],
+    "definition": "The grouping of countries' stock markets into developed, emerging, frontier (and other) categories by index providers such as MSCI and FTSE Russell, reviewed every year.",
+    "related": [
+      "developed-market",
+      "emerging-markets"
+    ],
+    "categories": [
+      "S"
+    ]
+  },
+  {
+    "id": "stock-connect",
+    "term": "Stock Connect",
+    "definition": "The trading links between Hong Kong and the Shanghai and Shenzhen exchanges through which international investors can trade eligible mainland Chinese A-shares.",
+    "related": [
+      "emerging-markets"
+    ],
+    "categories": [
+      "S"
+    ]
+  },
+  {
+    "id": "capital-controls",
+    "term": "Capital controls",
+    "definition": "Restrictions on moving money into or out of a country, which can make it hard for foreign investors to invest or to take their money home.",
+    "related": [
+      "emerging-markets"
+    ],
+    "categories": [
+      "S"
+    ],
+    "de": "Kapitalverkehrskontrollen"
   }
 ]

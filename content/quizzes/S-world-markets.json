@@ -1,0 +1,516 @@
+[
+  {
+    "id": "S-001",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Into which categories does MSCI classify equity markets? Select all that apply.",
+    "options": [
+      "Developed",
+      "Emerging",
+      "Frontier",
+      "Standalone"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "MSCI uses developed, emerging, frontier and standalone categories.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-002",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In which month does MSCI announce the results of its annual market classification review?",
+    "options": [
+      "June",
+      "September",
+      "January",
+      "December"
+    ],
+    "answerIndex": 0,
+    "explanation": "MSCI announces its accessibility and classification reviews every June; FTSE Russell announces in September.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-003",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which four groups does FTSE Russell use?",
+    "options": [
+      "Developed, Advanced Emerging, Secondary Emerging, Frontier",
+      "Rich, middle, poor, closed",
+      "Developed, Emerging, Standalone, Excluded",
+      "Large, mid, small, micro"
+    ],
+    "answerIndex": 0,
+    "explanation": "FTSE classifies markets as Developed, Advanced Emerging, Secondary Emerging or Frontier.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.lseg.com/en/ftse-russell/equity-country-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-004",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in FTSE Russell's Quality of Markets criteria as at September 2026, Austria is classified as a developed market.",
+    "answerBool": true,
+    "explanation": "True. Austria appears among the Europe Developed markets.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/europe-developed-latest.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-005",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which country did FTSE Russell promote from Advanced Emerging to Developed, effective from the September 2026 review?",
+    "options": [
+      "Greece",
+      "Austria",
+      "Türkiye",
+      "Romania"
+    ],
+    "answerIndex": 0,
+    "explanation": "FTSE Russell reclassified Greece to Developed status effective from the September 2026 semi-annual review.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/policy-documents/ftse-faq-document-reclassification-of-greece-to-developed-market-status-effective-sep-2026.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-006",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which criteria appear in FTSE Russell's Quality of Markets matrix? Select all that apply.",
+    "options": [
+      "Fair treatment of minority shareholders",
+      "Foreign ownership restrictions",
+      "Restrictions on repatriating capital",
+      "The country's football ranking"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The matrix checks regulation, minority rights, foreign ownership and capital flows, among others.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/europe-developed-latest.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-007",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why do market classifications matter for an ordinary fund investor?",
+    "options": [
+      "They decide which countries a 'World' or 'Emerging Markets' fund holds",
+      "They set interest rates",
+      "They decide tax rates",
+      "They determine trading hours"
+    ],
+    "answerIndex": 0,
+    "explanation": "Index funds follow the provider's country lists.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification",
+      "https://www.lseg.com/en/ftse-russell/equity-country-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-008",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: MSCI and FTSE Russell always classify every country the same way.",
+    "answerBool": false,
+    "explanation": "False. They use different criteria and timetables, so classifications can differ.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification",
+      "https://www.lseg.com/en/ftse-russell/equity-country-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-009",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which of MSCI's three classification criteria is used only to determine developed market status?",
+    "options": [
+      "Economic development",
+      "Size and liquidity",
+      "Market accessibility",
+      "Trading hours"
+    ],
+    "answerIndex": 0,
+    "explanation": "MSCI: economic development is only used to determine the classification of developed markets.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-010",
+    "category": "S",
+    "topic": "market-classifications",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "On how many market accessibility criteria is MSCI's accessibility assessment based?",
+    "answerNumber": 5,
+    "tolerance": 0,
+    "explanation": "MSCI's market accessibility criterion aims to reflect institutional investors' experience based on five accessibility criteria.",
+    "lessonLink": "/learn/world-markets/market-classifications",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-011",
+    "category": "S",
+    "topic": "accessing-foreign-markets",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the Vienna Stock Exchange's 'global market' segment trade?",
+    "options": [
+      "Shares listed on at least one other exchange, with market making",
+      "Only Austrian government bonds",
+      "Only ATX companies",
+      "Cryptocurrencies"
+    ],
+    "answerIndex": 0,
+    "explanation": "The global market trades shares in the Vienna MTF that are listed on at least one other exchange, with market making obligations.",
+    "lessonLink": "/learn/world-markets/accessing-foreign-markets",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-012",
+    "category": "S",
+    "topic": "accessing-foreign-markets",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Through which programme can international investors trade eligible mainland Chinese A-shares via Hong Kong?",
+    "options": [
+      "Stock Connect",
+      "Global market",
+      "Eurosystem",
+      "EDGAR"
+    ],
+    "answerIndex": 0,
+    "explanation": "HKEX runs Stock Connect with Shanghai and Shenzhen.",
+    "lessonLink": "/learn/world-markets/accessing-foreign-markets",
+    "sources": [
+      "https://www.hkex.com.hk/Mutual-Market/Stock-Connect?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-013",
+    "category": "S",
+    "topic": "accessing-foreign-markets",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "What changes when you invest in foreign shares? Select all that apply.",
+    "options": [
+      "Currency risk",
+      "Trading hours",
+      "Withholding tax on dividends",
+      "Nothing at all"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Currency, hours, costs, taxes and investor protection can all change.",
+    "lessonLink": "/learn/world-markets/accessing-foreign-markets",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-014",
+    "category": "S",
+    "topic": "accessing-foreign-markets",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what percentage of a foreign dividend can an Austrian bank credit foreign withholding tax?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "The BMF: credit capped at 15% of the dividend (Category Q).",
+    "lessonLink": "/learn/world-markets/accessing-foreign-markets",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/kapitalertraege-im-engeren-sinn.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-015",
+    "category": "S",
+    "topic": "accessing-foreign-markets",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a broad international fund is a simple way to invest in many countries at once.",
+    "answerBool": true,
+    "explanation": "True. Funds can hold hundreds or thousands of foreign shares (Category H).",
+    "lessonLink": "/learn/world-markets/accessing-foreign-markets",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-016",
+    "category": "S",
+    "topic": "emerging-market-risks",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which is a typical risk of investing in emerging markets?",
+    "options": [
+      "Capital controls that restrict moving money out",
+      "Guaranteed returns",
+      "No currency changes",
+      "Unlimited deposit protection"
+    ],
+    "answerIndex": 0,
+    "explanation": "Restrictions on repatriating capital are one of the criteria index providers check.",
+    "lessonLink": "/learn/world-markets/emerging-market-risks",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/europe-developed-latest.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-017",
+    "category": "S",
+    "topic": "emerging-market-risks",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: fast economic growth in a country guarantees high returns for shareholders.",
+    "answerBool": false,
+    "explanation": "False. Prices may already reflect growth, profits may go to unlisted firms, and new issues can dilute shareholders.",
+    "lessonLink": "/learn/world-markets/emerging-market-risks",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-018",
+    "category": "S",
+    "topic": "emerging-market-risks",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why might MSCI move a market to 'standalone' status?",
+    "options": [
+      "Severe deterioration in accessibility or in size and liquidity",
+      "Strong economic growth",
+      "A new stock exchange building",
+      "A change of government"
+    ],
+    "answerIndex": 0,
+    "explanation": "MSCI notes that reclassification to standalone may follow severe deterioration in accessibility or size and liquidity.",
+    "lessonLink": "/learn/world-markets/emerging-market-risks",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-019",
+    "category": "S",
+    "topic": "emerging-market-risks",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How long did Japan's Nikkei 225 take to regain its 1989 high?",
+    "options": [
+      "More than 34 years",
+      "About 3 years",
+      "About 10 years",
+      "It never fell"
+    ],
+    "answerIndex": 0,
+    "explanation": "It closed above its 1989 high only in February 2024, a reminder that single markets can disappoint for decades.",
+    "lessonLink": "/learn/world-markets/emerging-market-risks",
+    "sources": [
+      "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-020",
+    "category": "S",
+    "topic": "global-indexes",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the MSCI World index includes emerging markets such as China and India.",
+    "answerBool": false,
+    "explanation": "False. MSCI World covers developed markets only; all-world indexes add emerging markets.",
+    "lessonLink": "/learn/world-markets/global-indexes",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-021",
+    "category": "S",
+    "topic": "global-indexes",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does the FTSE All-World Index combine, according to FTSE Russell?",
+    "options": [
+      "Developed, advanced emerging and emerging markets, large and mid caps",
+      "Only European small caps",
+      "Only US technology companies",
+      "Government bonds worldwide"
+    ],
+    "answerIndex": 0,
+    "explanation": "FTSE Russell describes combining the World Index with emerging markets into the FTSE All-World Index.",
+    "lessonLink": "/learn/world-markets/global-indexes",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-022",
+    "category": "S",
+    "topic": "global-indexes",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Where can you check a fund's country weights?",
+    "options": [
+      "In the fund's or index provider's factsheet",
+      "Only by calling the stock exchange",
+      "Nowhere; they are secret",
+      "In the newspaper's weather section"
+    ],
+    "answerIndex": 0,
+    "explanation": "Factsheets publish country and sector weights.",
+    "lessonLink": "/learn/world-markets/global-indexes",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-023",
+    "category": "S",
+    "topic": "global-indexes",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in a market-cap weighted global index, countries with large stock markets get large weights regardless of population.",
+    "answerBool": true,
+    "explanation": "True. Weights follow the market value of listed companies (Category H).",
+    "lessonLink": "/learn/world-markets/global-indexes",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-024",
+    "category": "S",
+    "topic": "major-exchanges",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which are segments of the Vienna Stock Exchange's equity market? Select all that apply.",
+    "options": [
+      "prime market",
+      "standard market",
+      "global market",
+      "night market"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The equity market comprises prime market, standard market, direct market plus, direct market and global market.",
+    "lessonLink": "/learn/world-markets/major-exchanges",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/market-segmentation/equity-market/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-025",
+    "category": "S",
+    "topic": "major-exchanges",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which exchange is linked to the Shanghai and Shenzhen exchanges through Stock Connect?",
+    "options": [
+      "Hong Kong Exchanges and Clearing (HKEX)",
+      "Vienna Stock Exchange",
+      "Toronto Stock Exchange",
+      "B3"
+    ],
+    "answerIndex": 0,
+    "explanation": "HKEX operates Stock Connect with the mainland exchanges.",
+    "lessonLink": "/learn/world-markets/major-exchanges",
+    "sources": [
+      "https://www.hkex.com.hk/Mutual-Market/Stock-Connect?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-026",
+    "category": "S",
+    "topic": "major-exchanges",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: all stock exchanges in the world have the same opening hours.",
+    "answerBool": false,
+    "explanation": "False. Hours, breaks and holidays differ; the Trading Times tool shows them in your time zone (Category E).",
+    "lessonLink": "/learn/world-markets/major-exchanges",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

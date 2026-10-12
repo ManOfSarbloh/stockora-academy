@@ -1202,5 +1202,21 @@
     "lessons": [
       "regulation-law-ethics/bank-failures-and-bail-in"
     ]
+  },
+  {
+    "id": "EzQN0_2Q5eE",
+    "title": "Stock Connect - Programme Overview",
+    "channel": "HKEX Group",
+    "categories": [
+      "S"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 3.8,
+    "language": "en",
+    "whyGood": "The exchange operator's own overview of how Stock Connect links the Hong Kong and mainland Chinese markets. Recorded in 2016, so check current details on HKEX's website.",
+    "lastChecked": "2026-10-12",
+    "lessons": [
+      "world-markets/accessing-foreign-markets"
+    ]
   }
 ]
