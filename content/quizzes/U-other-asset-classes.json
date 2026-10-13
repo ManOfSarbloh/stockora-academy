@@ -1,0 +1,770 @@
+[
+  {
+    "id": "U-001",
+    "category": "U",
+    "topic": "asset-classes-compared",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In Damodaran's US data for 1928–2025, which asset class had the highest compound annual return?",
+    "options": [
+      "US small company shares",
+      "10-year US Treasury bonds",
+      "Gold",
+      "3-month Treasury bills"
+    ],
+    "answerIndex": 0,
+    "explanation": "Small company shares returned about 12.0% a year, but with by far the largest swings (37.9% volatility).",
+    "lessonLink": "/learn/other-asset-classes/asset-classes-compared",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-002",
+    "category": "U",
+    "topic": "asset-classes-compared",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in the US data for 1928–2025, 3-month Treasury bills never had a losing year.",
+    "answerBool": true,
+    "explanation": "True. Their lowest year was +0.03% (2014), but their compound return of 3.4% a year was the lowest in the table.",
+    "lessonLink": "/learn/other-asset-classes/asset-classes-compared",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-003",
+    "category": "U",
+    "topic": "asset-classes-compared",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "By how much did 10-year US Treasury bonds fall in 2022, in Damodaran's data? Enter the loss as a positive percentage, rounded to one decimal.",
+    "answerNumber": 17.8,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "−17.8% in 2022, their worst year since 1928, when interest rates rose sharply.",
+    "lessonLink": "/learn/other-asset-classes/asset-classes-compared",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-004",
+    "category": "U",
+    "topic": "asset-classes-compared",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Order these US asset classes by volatility in 1928–2025, from lowest to highest.",
+    "orderedItems": [
+      "3-month Treasury bills",
+      "US real estate",
+      "10-year Treasury bonds",
+      "US large company shares (S&P 500)",
+      "Gold",
+      "US small company shares"
+    ],
+    "explanation": "Volatility: bills 3.0%, real estate 6.2%, T-bonds 7.9%, S&P 500 19.4%, gold 21.5%, small caps 37.9%.",
+    "lessonLink": "/learn/other-asset-classes/asset-classes-compared",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-005",
+    "category": "U",
+    "topic": "asset-classes-compared",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "According to the SEC's beginners' guide, what is the main concern for cash investments?",
+    "options": [
+      "Inflation",
+      "Daily price swings",
+      "Company bankruptcy",
+      "Currency risk"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cash is the safest of the three main asset classes, but inflation can erode its purchasing power.",
+    "lessonLink": "/learn/other-asset-classes/asset-classes-compared",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-006",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a bond?",
+    "options": [
+      "A debt security: you lend money to the issuer in return for interest and repayment",
+      "A share of ownership in a company",
+      "A bank deposit protected up to €100,000",
+      "A contract to buy a commodity later"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov describes a bond as a debt security, like an IOU.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-007",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "A bond has a face value of €1,000 and a 3% coupon. How much interest does it pay each year, in euros?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "3% of €1,000 = €30 a year.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-008",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when market interest rates rise, the prices of existing bonds with lower coupons tend to fall.",
+    "answerBool": true,
+    "explanation": "True. Investor.gov explains that to sell an older bond with a lower rate, you might have to sell at a discount.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-009",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How do high-yield bonds compare with investment-grade bonds?",
+    "options": [
+      "Lower credit ratings and higher credit risk, so they pay higher interest",
+      "Higher ratings and lower interest",
+      "They are guaranteed by the government",
+      "They never default"
+    ],
+    "answerIndex": 0,
+    "explanation": "High-yield bonds pay more because their issuers are riskier.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-010",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which are risks of bonds listed by Investor.gov? Select all that apply.",
+    "options": [
+      "Credit risk",
+      "Interest rate risk",
+      "Inflation risk",
+      "Call risk",
+      "Deposit guarantee risk"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Investor.gov lists credit, interest rate, inflation, liquidity and call risk.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-011",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who issues Austrian federal government bonds (Bundesanleihen)?",
+    "options": [
+      "The Austrian Treasury (OeBFA), on behalf of the Republic",
+      "The Oesterreichische Nationalbank",
+      "The FMA",
+      "The Wiener Börse"
+    ],
+    "answerIndex": 0,
+    "explanation": "The federal government issues Bundesanleihen through the OeBFA.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.bmf.gv.at/services/glossar/b/bundesanleihen.html",
+      "https://www.oebfa.at/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-012",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is Bundesschatz?",
+    "options": [
+      "An online savings product of the Republic of Austria, available since April 2024",
+      "A savings book at the Nationalbank",
+      "A federal deposit guarantee",
+      "A government share fund"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bundesschatz are securities of the Republic bought directly from the Austrian Treasury, with tenors from one month to ten years.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.oebfa.at/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-013",
+    "category": "U",
+    "topic": "bonds",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what rate is interest on bonds held at an Austrian bank taxed?",
+    "options": [
+      "27.5%",
+      "25%",
+      "55%",
+      "0%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bond interest is taxed at 27.5%; interest on bank deposits at 25%.",
+    "lessonLink": "/learn/other-asset-classes/bonds",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-014",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount per person and per bank are deposits protected in Austria, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000 per person and bank, regardless of how many accounts you hold there.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-015",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: shares in your custody account are covered by the €100,000 deposit guarantee.",
+    "answerBool": false,
+    "explanation": "False. Securities are not deposits, but they remain your property and can be transferred to another bank.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-016",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what amount does Austrian investor compensation cover securities that a bank cannot return in breach of its duties, in euros?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Up to €20,000.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php",
+      "https://www.einlagensicherung.at/en/prot-invest.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-017",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "At what rate is interest on bank deposits taxed in Austria?",
+    "options": [
+      "25%",
+      "27.5%",
+      "10%",
+      "Not taxed"
+    ],
+    "answerIndex": 0,
+    "explanation": "Deposit interest is taxed at 25%, withheld as KESt.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-018",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A joint account held by two people has €200,000. If the bank fails, up to how much can each account holder claim, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Each legitimated account holder is protected up to €100,000.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-019",
+    "category": "U",
+    "topic": "cash-and-deposits",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In certain cases, up to what total can temporary high balances (for example from selling a privately used home) be protected on application?",
+    "options": [
+      "€500,000",
+      "€200,000",
+      "€1 million",
+      "No extra protection exists"
+    ],
+    "answerIndex": 0,
+    "explanation": "Temporary high balances from the last 12 months can be protected up to €500,000 on application.",
+    "lessonLink": "/learn/other-asset-classes/cash-and-deposits",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-020",
+    "category": "U",
+    "topic": "property",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "You buy a €300,000 flat with €60,000 of your own money and a €240,000 mortgage. The price falls 10%. What happens to your equity?",
+    "options": [
+      "It falls by 50%, to €30,000",
+      "It falls by 10%, to €54,000",
+      "It stays at €60,000",
+      "It falls by 20%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The €30,000 loss comes entirely out of your €60,000: leverage magnifies the fall to −50%.",
+    "lessonLink": "/learn/other-asset-classes/property",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-021",
+    "category": "U",
+    "topic": "property",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Under § 11 ImmoInvFG, what applies to redeeming units of an Austrian property fund? Select all that apply.",
+    "options": [
+      "Units must have been held for at least 12 months",
+      "A 12-month notice period",
+      "Redemption dates at least quarterly",
+      "Daily redemption at any time"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The law sets a 12-month holding period, an irrevocable notice with a 12-month period, and quarterly or more frequent redemption dates.",
+    "lessonLink": "/learn/other-asset-classes/property",
+    "sources": [
+      "https://www.jusline.at/gesetz/immoinvfg/paragraf/11"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-022",
+    "category": "U",
+    "topic": "property",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a REIT?",
+    "options": [
+      "A company that owns and typically operates income-producing real estate",
+      "A government property bond",
+      "A mortgage from a bank",
+      "A property fund with a 12-month notice period"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: REITs let individuals invest in large-scale, income-producing real estate.",
+    "lessonLink": "/learn/other-asset-classes/property",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-023",
+    "category": "U",
+    "topic": "property",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Investor.gov warns that non-traded REITs can be illiquid and hard to value.",
+    "answerBool": true,
+    "explanation": "True. They do not trade on an exchange and often have high up-front fees.",
+    "lessonLink": "/learn/other-asset-classes/property",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/real-estate-investment-trusts-reits"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-024",
+    "category": "U",
+    "topic": "gold-and-commodities",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: gold pays interest or dividends.",
+    "answerBool": false,
+    "explanation": "False. The FMA points out that gold produces no ongoing income; its return comes only from price changes.",
+    "lessonLink": "/learn/other-asset-classes/gold-and-commodities",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/gold-mit-rabatt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-025",
+    "category": "U",
+    "topic": "gold-and-commodities",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the FMA's main warning about 'pay now, receive later' gold offered at a discount?",
+    "options": [
+      "If the provider becomes insolvent, there is often no claim to delivery and total loss is possible",
+      "The gold is always delivered, just later",
+      "The FMA guarantees delivery",
+      "Gold prices cannot fall"
+    ],
+    "answerIndex": 0,
+    "explanation": "Your money depends on the provider; many such models are not effectively supervised.",
+    "lessonLink": "/learn/other-asset-classes/gold-and-commodities",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/gold-mit-rabatt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-026",
+    "category": "U",
+    "topic": "gold-and-commodities",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "According to the Wiener Börse, what is an Exchange Traded Commodity (ETC)?",
+    "options": [
+      "An exchange-traded debt security that reflects the value of commodities or precious metals",
+      "A fund that must own shares",
+      "A physical gold bar",
+      "A bank deposit in gold"
+    ],
+    "answerIndex": 0,
+    "explanation": "Because ETCs are debt securities, the issuer matters.",
+    "lessonLink": "/learn/other-asset-classes/gold-and-commodities",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-e/exchange-traded-commodity/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-027",
+    "category": "U",
+    "topic": "gold-and-commodities",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In Damodaran's data, what was gold's volatility from 1972 to 2025, in percent (one decimal)?",
+    "answerNumber": 27.3,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "27.3%, higher than the S&P 500's 17.0% over the same period.",
+    "lessonLink": "/learn/other-asset-classes/gold-and-commodities",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-028",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "According to the BIS, how much was traded in global FX markets per day in April 2025, in trillion US dollars?",
+    "answerNumber": 9.6,
+    "tolerance": 0.1,
+    "unit": "$ trillion",
+    "explanation": "$9.6 trillion per day, up 28% from $7.5 trillion in 2022.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.bis.org/publications/202509-commentary-otc-derivatives"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-029",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which currency was on one side of about 89% of all FX trades in 2025?",
+    "options": [
+      "US dollar",
+      "Euro",
+      "Japanese yen",
+      "Swiss franc"
+    ],
+    "answerIndex": 0,
+    "explanation": "The US dollar was on one side of 89.2% of trades; the euro of 28.9%.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.bis.org/publications/202509-commentary-otc-derivatives"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-030",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "The ECB reference rate for the US dollar is 1.10. What does that mean?",
+    "options": [
+      "1 euro buys 1.10 US dollars",
+      "1 dollar buys 1.10 euros",
+      "The dollar rose 1.10%",
+      "The euro is worth 110 cents in Austria"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ECB quotes currencies per 1 euro.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-031",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the maximum leverage for retail CFDs on major currency pairs under the EU rules introduced in 2018?",
+    "options": [
+      "30:1",
+      "100:1",
+      "5:1",
+      "2:1"
+    ],
+    "answerIndex": 0,
+    "explanation": "30:1 for major pairs, 20:1 for other pairs.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-032",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What share of active forex and CFD clients lost money over four years in the AMF's 2014 study?",
+    "options": [
+      "More than 89%",
+      "About 50%",
+      "About 25%",
+      "Less than 10%"
+    ],
+    "answerIndex": 0,
+    "explanation": "More than 89% of 14,799 clients lost money; the average loss was €10,887.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.amf-france.org/sites/institutionnel/files/contenu_simple/rapport_etude_analyse/epargne_prestataire/Etude%20des%20resultats%20des%20investisseurs%20particuliers%20sur%20le%20trading%20de%20CFD%20et%20de%20Forex%20en%20France.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-033",
+    "category": "U",
+    "topic": "forex",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "With 30:1 leverage, a €30,000 currency position needs €1,000 margin. How much of that margin, in percent, does a 1% adverse move use up?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "1% of €30,000 = €300, which is 30% of the €1,000 margin.",
+    "lessonLink": "/learn/other-asset-classes/forex",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-agrees-prohibit-binary-options-and-restrict-cfds-protect-retail-investors"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-034",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in 2022, the EU supervisory authorities warned that many crypto-assets are highly risky and speculative.",
+    "answerBool": true,
+    "explanation": "True. They warned that consumers face a very real possibility of losing all their invested money.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/eu-financial-regulators-warn-consumers-risks-crypto-assets"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-035",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Under MiCAR, what is an e-money token (EMT)?",
+    "options": [
+      "A token linked 1:1 to a single official currency, such as one always worth €1",
+      "A token linked to a basket of currencies and gold",
+      "Bitcoin",
+      "An NFT"
+    ],
+    "answerIndex": 0,
+    "explanation": "EMTs are linked 1:1 to one official currency and intended for payments.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/welche-krypto-assets-sind-reguliert-und-welche-nicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-036",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Under MiCAR, which category does bitcoin belong to?",
+    "options": [
+      "Other crypto-assets",
+      "E-money tokens",
+      "Asset-referenced tokens",
+      "It is a bank deposit"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bitcoin is not linked to a fixed value, so it falls under 'other crypto-assets'.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/welche-krypto-assets-sind-reguliert-und-welche-nicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-037",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which crypto activities does the FMA describe as unregulated? Select all that apply.",
+    "options": [
+      "DeFi lending and borrowing",
+      "Staking-as-a-service",
+      "NFTs",
+      "Operating a crypto trading platform"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Operating a trading platform needs MiCAR authorisation; DeFi lending, staking services and NFTs remain unregulated.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/welche-krypto-assets-sind-reguliert-und-welche-nicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-038",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What risk does the FMA highlight for 'mixed platforms' offering regulated and unregulated crypto products side by side?",
+    "options": [
+      "Investors may wrongly believe MiCAR protects all products",
+      "They are always illegal",
+      "Their fees are fixed by law",
+      "They cannot offer bitcoin"
+    ],
+    "answerIndex": 0,
+    "explanation": "Providers may use their licence to promote unregulated products.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/welche-krypto-assets-sind-reguliert-und-welche-nicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-039",
+    "category": "U",
+    "topic": "crypto-assets",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "At what rate is income from cryptocurrencies acquired after 28 February 2021 taxed in Austria?",
+    "options": [
+      "27.5%",
+      "25%",
+      "Progressive income tax only",
+      "Tax-free after one year"
+    ],
+    "answerIndex": 0,
+    "explanation": "Since 1 March 2022, crypto income has been capital income taxed at 27.5%.",
+    "lessonLink": "/learn/other-asset-classes/crypto-assets",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerliche-behandlung-von-kryptowaehrungen.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

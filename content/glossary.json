@@ -7900,5 +7900,607 @@
       "T"
     ],
     "de": "Investorenwarnung"
+  },
+  {
+    "id": "coupon",
+    "term": "Coupon",
+    "aliases": [
+      "coupons",
+      "coupon rate"
+    ],
+    "definition": "The interest a bond pays, stated as a percentage of its face value. A 3% coupon on a €1,000 bond pays €30 a year.",
+    "related": [
+      "bond",
+      "face-value"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Kupon"
+  },
+  {
+    "id": "maturity",
+    "term": "Maturity",
+    "aliases": [
+      "maturity date",
+      "maturities"
+    ],
+    "definition": "The date on which a bond ends and the issuer repays its face value. Bonds with longer maturities react more strongly to interest rate changes.",
+    "related": [
+      "bond",
+      "face-value",
+      "interest-rate-risk"
+    ],
+    "categories": [
+      "U",
+      "L"
+    ],
+    "de": "Laufzeit / Fälligkeit"
+  },
+  {
+    "id": "face-value",
+    "term": "Face value",
+    "aliases": [
+      "face values"
+    ],
+    "definition": "The amount a bond issuer promises to repay at maturity, also called principal or par value of the bond. Interest is calculated on it.",
+    "related": [
+      "bond",
+      "coupon",
+      "maturity"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Nennwert (Anleihe)"
+  },
+  {
+    "id": "credit-rating",
+    "term": "Credit rating",
+    "aliases": [
+      "credit ratings",
+      "rating agency",
+      "rating agencies"
+    ],
+    "definition": "An assessment of a borrower's ability to pay its debts, published by a rating agency. Higher ratings mean lower credit risk and usually lower interest rates.",
+    "related": [
+      "investment-grade",
+      "high-yield-bond",
+      "credit-risk"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Bonitätsrating"
+  },
+  {
+    "id": "investment-grade",
+    "term": "Investment grade",
+    "aliases": [
+      "investment-grade"
+    ],
+    "definition": "Bonds with relatively high credit ratings and therefore lower credit risk than high-yield bonds.",
+    "related": [
+      "credit-rating",
+      "high-yield-bond"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Investment Grade"
+  },
+  {
+    "id": "high-yield-bond",
+    "term": "High-yield bond",
+    "aliases": [
+      "high-yield bonds",
+      "junk bond",
+      "junk bonds"
+    ],
+    "definition": "A bond with a lower credit rating and higher credit risk than investment-grade bonds, which therefore pays a higher interest rate.",
+    "related": [
+      "credit-rating",
+      "investment-grade",
+      "credit-risk"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Hochzinsanleihe"
+  },
+  {
+    "id": "government-bond",
+    "term": "Government bond",
+    "aliases": [
+      "government bonds",
+      "sovereign bond",
+      "sovereign bonds"
+    ],
+    "definition": "A bond issued by a national government to finance its spending. In Austria, federal bonds are issued by the Austrian Treasury (OeBFA).",
+    "related": [
+      "bond",
+      "bundesanleihe",
+      "treasury-bill"
+    ],
+    "categories": [
+      "U",
+      "L"
+    ],
+    "de": "Staatsanleihe"
+  },
+  {
+    "id": "corporate-bond",
+    "term": "Corporate bond",
+    "aliases": [
+      "corporate bonds"
+    ],
+    "definition": "A bond issued by a company. Its risk depends on the company's finances; it can be investment grade or high yield.",
+    "related": [
+      "bond",
+      "credit-rating",
+      "high-yield-bond"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Unternehmensanleihe"
+  },
+  {
+    "id": "treasury-bill",
+    "term": "Treasury bill",
+    "aliases": [
+      "Treasury bills",
+      "T-bill",
+      "T-bills"
+    ],
+    "definition": "A short-term US government security maturing in a few days to 52 weeks. Often used as a measure of cash-like returns.",
+    "related": [
+      "government-bond"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "US-Schatzwechsel"
+  },
+  {
+    "id": "credit-risk",
+    "term": "Credit risk",
+    "aliases": [
+      "default risk"
+    ],
+    "definition": "The risk that a borrower fails to pay interest or repay principal on time. The main risk of corporate and high-yield bonds.",
+    "related": [
+      "credit-rating",
+      "issuer-risk",
+      "high-yield-bond"
+    ],
+    "categories": [
+      "U",
+      "P"
+    ],
+    "de": "Kreditrisiko / Ausfallrisiko"
+  },
+  {
+    "id": "call-risk",
+    "term": "Call risk",
+    "aliases": [
+      "callable bond",
+      "callable bonds"
+    ],
+    "definition": "The risk that an issuer repays a bond before maturity, typically when interest rates have fallen, so the investor must reinvest at lower rates.",
+    "related": [
+      "bond",
+      "maturity"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Kündigungsrisiko"
+  },
+  {
+    "id": "bundesanleihe",
+    "term": "Bundesanleihe",
+    "aliases": [
+      "Bundesanleihen",
+      "RAGB",
+      "RAGBs",
+      "Republic of Austria Government Bonds"
+    ],
+    "definition": "An Austrian federal government bond: interest-bearing debt of the Republic, issued through the Austrian Treasury (OeBFA).",
+    "related": [
+      "government-bond",
+      "oebfa",
+      "bundesschatz"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Bundesanleihe"
+  },
+  {
+    "id": "bundesschatz",
+    "term": "Bundesschatz",
+    "aliases": [],
+    "definition": "An online savings product of the Republic of Austria for private individuals, available since April 2024. Bundesschatz are securities of the Republic bought directly from the Austrian Treasury, with tenors from one month to ten years.",
+    "related": [
+      "oebfa",
+      "bundesanleihe"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Bundesschatz"
+  },
+  {
+    "id": "oebfa",
+    "term": "OeBFA",
+    "aliases": [
+      "Austrian Treasury",
+      "ÖBFA",
+      "Österreichische Bundesfinanzierungsagentur"
+    ],
+    "definition": "The Austrian Treasury, the debt management office of the Republic of Austria. It issues government debt and manages the federal debt portfolio.",
+    "related": [
+      "bundesanleihe",
+      "bundesschatz"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Österreichische Bundesfinanzierungsagentur"
+  },
+  {
+    "id": "fixed-term-deposit",
+    "term": "Fixed-term deposit",
+    "aliases": [
+      "fixed-term deposits",
+      "time deposit",
+      "time deposits",
+      "Festgeld"
+    ],
+    "definition": "Money placed at a bank for an agreed period, usually at a higher interest rate than a savings account. In Austria covered by the deposit guarantee.",
+    "related": [
+      "deposit-guarantee"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Festgeld / Termineinlage"
+  },
+  {
+    "id": "property-fund",
+    "term": "Property fund",
+    "aliases": [
+      "property funds",
+      "real estate fund",
+      "real estate funds",
+      "Immobilienfonds",
+      "open-ended property fund",
+      "open-ended property funds"
+    ],
+    "definition": "A fund that pools investors' money to buy many properties. Austrian property funds require a 12-month holding period and a 12-month notice period for redemptions.",
+    "related": [
+      "reit",
+      "liquidity-risk"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Immobilienfonds"
+  },
+  {
+    "id": "mortgage",
+    "term": "Mortgage",
+    "aliases": [
+      "mortgages",
+      "mortgage loan"
+    ],
+    "definition": "A loan secured on property. It lets buyers purchase a home with borrowed money, which magnifies gains and losses on their own equity.",
+    "related": [
+      "leverage",
+      "subprime-mortgage"
+    ],
+    "categories": [
+      "U",
+      "K"
+    ],
+    "de": "Hypothekarkredit"
+  },
+  {
+    "id": "commodity",
+    "term": "Commodity",
+    "aliases": [
+      "commodities"
+    ],
+    "definition": "A raw material such as oil, gas, metals or agricultural products. Private investors usually gain exposure through futures or exchange-traded products rather than holding them physically.",
+    "related": [
+      "futures-contract",
+      "exchange-traded-commodity",
+      "spot-price"
+    ],
+    "categories": [
+      "U",
+      "N"
+    ],
+    "de": "Rohstoff"
+  },
+  {
+    "id": "exchange-traded-commodity",
+    "term": "Exchange-traded commodity",
+    "aliases": [
+      "exchange-traded commodities",
+      "ETCs"
+    ],
+    "definition": "An exchange-traded debt security that reflects the value of a commodity or precious metal (Wiener Börse). Because it is a debt security, the issuer's soundness matters.",
+    "related": [
+      "commodity",
+      "issuer-risk"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Exchange Traded Commodity (ETC)"
+  },
+  {
+    "id": "spot-price",
+    "term": "Spot price",
+    "aliases": [
+      "spot prices",
+      "spot market"
+    ],
+    "definition": "The price for immediate delivery of an asset, as opposed to a price agreed today for delivery in the future.",
+    "related": [
+      "futures-contract",
+      "commodity"
+    ],
+    "categories": [
+      "U",
+      "N"
+    ],
+    "de": "Kassakurs"
+  },
+  {
+    "id": "safe-haven",
+    "term": "Safe haven",
+    "aliases": [
+      "safe-haven asset",
+      "safe-haven assets"
+    ],
+    "definition": "An asset investors turn to in times of crisis, such as gold or highly rated government bonds. 'Safe haven' does not mean free of risk: gold prices, for example, can fluctuate considerably.",
+    "related": [
+      "commodity",
+      "government-bond"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Sicherer Hafen"
+  },
+  {
+    "id": "forex",
+    "term": "Forex",
+    "aliases": [
+      "FX",
+      "foreign exchange market",
+      "FX market",
+      "FX markets"
+    ],
+    "definition": "The foreign exchange market, where currencies are exchanged, mostly over the counter between banks, dealers and clients. In April 2025, trading averaged $9.6 trillion per day (BIS).",
+    "related": [
+      "exchange-rate",
+      "currency-pair",
+      "otc"
+    ],
+    "categories": [
+      "U",
+      "L"
+    ],
+    "de": "Devisenmarkt"
+  },
+  {
+    "id": "currency-pair",
+    "term": "Currency pair",
+    "aliases": [
+      "currency pairs"
+    ],
+    "definition": "Two currencies quoted against each other, such as EUR/USD: the price of one unit of the first currency in the second.",
+    "related": [
+      "forex",
+      "exchange-rate"
+    ],
+    "categories": [
+      "U",
+      "L"
+    ],
+    "de": "Währungspaar"
+  },
+  {
+    "id": "bank-for-international-settlements",
+    "term": "Bank for International Settlements",
+    "aliases": [],
+    "definition": "An international organisation of central banks based in Basel. Every three years it publishes the Triennial Survey of global foreign exchange trading.",
+    "related": [
+      "forex"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Bank für Internationalen Zahlungsausgleich (BIZ)"
+  },
+  {
+    "id": "crypto-asset",
+    "term": "Crypto-asset",
+    "aliases": [
+      "crypto-assets",
+      "crypto asset",
+      "crypto assets",
+      "cryptocurrency",
+      "cryptocurrencies"
+    ],
+    "definition": "A digital asset recorded on a blockchain or similar technology, such as bitcoin or a stablecoin. EU regulators warn that many crypto-assets are highly risky and speculative.",
+    "related": [
+      "bitcoin",
+      "stablecoin",
+      "micar"
+    ],
+    "categories": [
+      "U",
+      "Q",
+      "T"
+    ],
+    "de": "Kryptowert"
+  },
+  {
+    "id": "bitcoin",
+    "term": "Bitcoin",
+    "aliases": [
+      "bitcoins"
+    ],
+    "definition": "The first and best-known crypto-asset. It is not linked to any fixed value; under MiCAR it falls into the category of 'other crypto-assets'.",
+    "related": [
+      "crypto-asset",
+      "micar"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Bitcoin"
+  },
+  {
+    "id": "stablecoin",
+    "term": "Stablecoin",
+    "aliases": [
+      "stablecoins"
+    ],
+    "definition": "A crypto token designed to keep a stable value by linking it to a currency or other assets. Under MiCAR these are e-money tokens or asset-referenced tokens.",
+    "related": [
+      "e-money-token",
+      "asset-referenced-token",
+      "crypto-asset"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Stablecoin"
+  },
+  {
+    "id": "micar",
+    "term": "MiCAR",
+    "aliases": [
+      "MiCA",
+      "MiCA Regulation",
+      "Markets in Crypto-Assets Regulation"
+    ],
+    "definition": "The EU Markets in Crypto-Assets Regulation. It regulates certain tokens and crypto service providers, which need authorisation; DeFi lending, staking services and NFTs remain largely unregulated.",
+    "related": [
+      "crypto-asset",
+      "e-money-token",
+      "asset-referenced-token"
+    ],
+    "categories": [
+      "U",
+      "R"
+    ],
+    "de": "MiCA-Verordnung"
+  },
+  {
+    "id": "e-money-token",
+    "term": "E-money token",
+    "aliases": [
+      "e-money tokens",
+      "EMT",
+      "EMTs"
+    ],
+    "definition": "Under MiCAR, a crypto token linked 1:1 to a single official currency, such as a token always worth €1, intended for payments.",
+    "related": [
+      "stablecoin",
+      "micar"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "E-Geld-Token"
+  },
+  {
+    "id": "asset-referenced-token",
+    "term": "Asset-referenced token",
+    "aliases": [
+      "asset-referenced tokens"
+    ],
+    "definition": "Under MiCAR, a crypto token whose value is linked to one or more assets, such as currencies, commodities like gold, or other tokens.",
+    "related": [
+      "stablecoin",
+      "micar"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Vermögenswertereferenzierter Token"
+  },
+  {
+    "id": "defi",
+    "term": "DeFi",
+    "aliases": [
+      "decentralised finance",
+      "decentralized finance"
+    ],
+    "definition": "Decentralised finance: crypto platforms for lending, borrowing or trading without a traditional intermediary. The FMA warns that such offers are often unregulated, with total loss possible.",
+    "related": [
+      "crypto-asset",
+      "staking"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Dezentrale Finanzen (DeFi)"
+  },
+  {
+    "id": "staking",
+    "term": "Staking",
+    "aliases": [
+      "staking-as-a-service"
+    ],
+    "definition": "Locking up crypto-assets to help secure a blockchain's transactions in return for a reward. Staking services offered by providers are often unregulated.",
+    "related": [
+      "crypto-asset",
+      "defi"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Staking"
+  },
+  {
+    "id": "nft",
+    "term": "NFT",
+    "aliases": [
+      "NFTs",
+      "non-fungible token",
+      "non-fungible tokens"
+    ],
+    "definition": "A non-fungible token: a unique digital item on a blockchain, such as an artwork or collectible. NFTs fall outside MiCAR; their value is often purely speculative.",
+    "related": [
+      "crypto-asset",
+      "micar"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Non-Fungible Token (NFT)"
+  },
+  {
+    "id": "private-key",
+    "term": "Private key",
+    "aliases": [
+      "private keys"
+    ],
+    "definition": "The secret code that gives control over crypto-assets held at a blockchain address. Whoever has the private key can move the assets.",
+    "related": [
+      "crypto-asset"
+    ],
+    "categories": [
+      "U"
+    ],
+    "de": "Privater Schlüssel"
   }
 ]

@@ -66,7 +66,9 @@
     "lastChecked": "2026-10-11",
     "lessons": [
       "foundations/equity-vs-debt",
-      "foundations/stocks-bonds-cash-property"
+      "foundations/stocks-bonds-cash-property",
+      "other-asset-classes/asset-classes-compared",
+      "other-asset-classes/bonds"
     ]
   },
   {
@@ -804,7 +806,8 @@
     "title": "Currency Exchange Introduction",
     "channel": "Khan Academy",
     "categories": [
-      "L"
+      "L",
+      "U"
     ],
     "level": "beginner",
     "durationMinutes": 12.1,
@@ -812,7 +815,8 @@
     "whyGood": "An introduction to how exchange rates are set and why they move.",
     "lastChecked": "2026-10-11",
     "lessons": [
-      "macroeconomics/currencies-and-your-investments"
+      "macroeconomics/currencies-and-your-investments",
+      "other-asset-classes/forex"
     ]
   },
   {
@@ -998,7 +1002,8 @@
     "title": "Futures introduction",
     "channel": "Khan Academy",
     "categories": [
-      "N"
+      "N",
+      "U"
     ],
     "level": "intermediate",
     "durationMinutes": 3.5,
@@ -1006,7 +1011,8 @@
     "whyGood": "Introduces futures contracts and how they differ from forward contracts.",
     "lastChecked": "2026-10-12",
     "lessons": [
-      "trading-leverage-derivatives/futures"
+      "trading-leverage-derivatives/futures",
+      "other-asset-classes/gold-and-commodities"
     ]
   },
   {
@@ -1299,6 +1305,102 @@
     "lastChecked": "2026-10-12",
     "lessons": [
       "scams-safety/why-fraud-works"
+    ]
+  },
+  {
+    "id": "Qh-M3_L4xYk",
+    "title": "Introduction to bonds | Stocks and bonds | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 8.7,
+    "language": "en",
+    "whyGood": "Sal Khan explains, step by step, what it means to buy a bond: lending money in return for interest and repayment of the face value.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/bonds"
+    ]
+  },
+  {
+    "id": "JNL6f1xkie4",
+    "title": "Renting versus Buying a home | Housing | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 11.6,
+    "language": "en",
+    "whyGood": "Sal Khan compares the costs of renting and buying a home with a mortgage, a useful look at the numbers behind owning property directly.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/property"
+    ]
+  },
+  {
+    "id": "EA0LkCkvUeU",
+    "title": "Bitcoin: What is it? | Money, banking and central banks  | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 9.1,
+    "language": "en",
+    "whyGood": "A neutral introduction to what bitcoin is, from Khan Academy's money and banking series, without promoting any purchase.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/crypto-assets"
+    ]
+  },
+  {
+    "id": "Y-w7SnQWwVA",
+    "title": "Bitcoin: Overview | Money, banking and central banks  | Finance & Capital Markets | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "U"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 11.0,
+    "language": "en",
+    "whyGood": "An introduction to the mechanics of bitcoin and an overview of how transactions take place, for learners who want to understand how it works.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/crypto-assets"
+    ]
+  },
+  {
+    "id": "9ss2j72BaqQ",
+    "title": "The difference between the digital euro and crypto-assets | European Central Bank",
+    "channel": "European Central Bank",
+    "categories": [
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 0.8,
+    "language": "en",
+    "whyGood": "A one-minute clip from the ECB explaining why the planned digital euro is not a crypto-asset.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/crypto-assets"
+    ]
+  },
+  {
+    "id": "-5x6j_P1OSI",
+    "title": "Exchange rate primer | AP Macroeconomics | Khan Academy",
+    "channel": "Khan Academy",
+    "categories": [
+      "U"
+    ],
+    "level": "beginner",
+    "durationMinutes": 7.4,
+    "language": "en",
+    "whyGood": "A clear primer on what exchange rates are and what it means when a currency strengthens or weakens.",
+    "lastChecked": "2026-10-13",
+    "lessons": [
+      "other-asset-classes/forex"
     ]
   }
 ]
