@@ -108,6 +108,24 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Chart quiz | Generated per round from a seed: candle names, trend, RSI, timeframe and two click-on-the-chart questions (support zone, highest close); scores in stockora-quiz-scores ("chart-quiz") |
 | Base path | New rehype plugin prefixes internal Markdown links (e.g. /charts/lab) with the deploy base path |
 
+## Phase 7c (2026-10-11 to 2026-10-14): Categories I and K–W
+
+| Topic | Decision |
+|---|---|
+| Scope | 14 categories, one commit each (I, K, L, M, N, O, P, Q, R, S, T, U, V, W); 114 new lessons |
+| Totals after Phase 7 | 196 lessons; glossary 551 terms; quiz 1,060 questions (every category ≥ 25; beginner 40%, intermediate 44%, advanced 15%); 89 videos |
+| Running example | Fictional "Alpenrad AG" for company figures (I, V, W); no real company is used as a worked example |
+| Long-run data | Damodaran's 1928–2025 US returns (NYU Stern, updated January 2026), own calculations; always labelled as US dollar data, before costs and taxes |
+| Austrian law | Read from RIS or JUSLINE in the current version (AktG, ÜbG, ImmoInvFG, BörseG 2018, WAG 2018, MedienG); RIS document numbers cited where JUSLINE lacks a law |
+| Taxes (Q) | Every lesson carries a VERIFY banner; BMF pages are the primary source; no rate is stated without a BMF or law citation |
+| Scams (T) | FMA warning pages and Investor.gov only; specific warned firms are never named in lessons |
+| Category S | Overview only; country detail is deferred to the Phase 8 country pages; exchanges limited to the 16 in content/exchanges.json |
+| Site tool links | Lessons link only to live pages (/glossary, /times, /charts, /search, /sources, /corrections); /scams, /world, /quizzes, /videos and /tools are still "coming soon" (one existing link to /scams in Category J will work once Scam Shield ships) |
+| Videos | Official or educational channels (Khan Academy, regulators, central banks, universities, major newsrooms); every ID checked with YouTube oEmbed; channels selling courses, signals or broker referrals excluded |
+| Validator | scripts/validate-content.js now parses front matter with the `yaml` package (new devDependency) and rejects invalid YAML and non-string tags |
+| Glossary linking | Generic words avoided as aliases (e.g. "own shares" renamed to "Treasury shares", "ETC" and "BIS" not used as aliases because they match ordinary text); each category checked for false links after build |
+| Blocked sources | FRED blocked (NY Fed, Cleveland Fed used instead); some sec.gov PDFs read via web.archive.org copies; EUR-Lex unreachable at times (Austrian implementing law cited instead, e.g. § 49 WAG 2018 for MiFID II marketing rules) |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
