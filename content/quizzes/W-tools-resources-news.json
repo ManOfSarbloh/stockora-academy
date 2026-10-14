@@ -1,0 +1,592 @@
+[
+  {
+    "id": "W-001",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "On a Wiener Börse price table, what does 'H/L/C' stand for?",
+    "options": [
+      "High, low and close of the day",
+      "Holding, loss and cost",
+      "Highest volume, lowest volume and change",
+      "Hedged, leveraged and currency"
+    ],
+    "answerIndex": 0,
+    "explanation": "The day's highest, lowest and closing prices.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-002",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How is turnover in euros calculated in the Wiener Börse's explanation?",
+    "options": [
+      "Number of shares traded × closing price",
+      "Market capitalisation ÷ shares",
+      "Highest price − lowest price",
+      "Dividend × shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Turnover = volume (shares) × closing price.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-003",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Wiener Börse website shows share prices 15 minutes delayed.",
+    "answerBool": true,
+    "explanation": "True; the ATX and third-party price indications are shown in real time.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-004",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the code 'eD' next to an Austrian share price mean?",
+    "options": [
+      "Ex dividend: the price was reduced by the dividend that day",
+      "Earnings down",
+      "End of day",
+      "Electronic delivery"
+    ],
+    "answerIndex": 0,
+    "explanation": "On the ex-date, a price deduction equal to the dividend is made.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-005",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What does 'eB' next to a share price mean?",
+    "options": [
+      "Ex Bezugsrecht: the value of the subscription right has been deducted",
+      "Earnings before tax",
+      "Exchange bid",
+      "Euro based"
+    ],
+    "answerIndex": 0,
+    "explanation": "After a rights issue starts, the price no longer includes the subscription right.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-006",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "182,000 shares traded and the closing price was €30.20. What was the turnover, in million euros (one decimal)?",
+    "answerNumber": 5.5,
+    "tolerance": 0.05,
+    "unit": "€ million",
+    "explanation": "182,000 × €30.20 = €5,496,400, about €5.5 million.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-007",
+    "category": "W",
+    "topic": "reading-a-quote-page",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Why can the same share show different prices on different websites? Select all that apply.",
+    "options": [
+      "Different trading venues",
+      "Different currencies",
+      "Delayed versus real-time data",
+      "The ISIN changes every day"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The ISIN identifies the security and does not change; venue, currency and delay do differ.",
+    "lessonLink": "/learn/tools-resources-news/reading-a-quote-page",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/",
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-008",
+    "category": "W",
+    "topic": "official-sources",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which institution acts as Austria's Officially Appointed Mechanism (OAM) for regulated information of listed issuers?",
+    "options": [
+      "OeKB",
+      "The FMA",
+      "Statistik Austria",
+      "The ECB"
+    ],
+    "answerIndex": 0,
+    "explanation": "OeKB receives the regulated information of listed issuers as the OAM.",
+    "lessonLink": "/learn/tools-resources-news/official-sources",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/about-oekb-capital-market-services.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-009",
+    "category": "W",
+    "topic": "official-sources",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Where can you search US companies' filings, such as annual reports on Form 10-K, for free?",
+    "options": [
+      "The SEC's EDGAR database",
+      "The FMA warning list",
+      "Eurostat",
+      "The Austrian Firmenbuch"
+    ],
+    "answerIndex": 0,
+    "explanation": "EDGAR is the SEC's database of company filings.",
+    "lessonLink": "/learn/tools-resources-news/official-sources",
+    "sources": [
+      "https://www.sec.gov/edgar/search/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-010",
+    "category": "W",
+    "topic": "official-sources",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the FMA company database shows which firms hold an Austrian licence.",
+    "answerBool": true,
+    "explanation": "True. Use it together with the FMA's warning list before dealing with an unknown firm.",
+    "lessonLink": "/learn/tools-resources-news/official-sources",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/",
+      "https://www.fma.gv.at/warnungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-011",
+    "category": "W",
+    "topic": "official-sources",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When must listed issuers publish inside information?",
+    "options": [
+      "Without delay",
+      "Within one year",
+      "Only in the annual report",
+      "Only if asked by shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Ad hoc announcements must be published without delay (Category R).",
+    "lessonLink": "/learn/tools-resources-news/official-sources",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/ad-hoc-meldungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-012",
+    "category": "W",
+    "topic": "official-sources",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Where can you see in advance when euro area statistics will be published?",
+    "options": [
+      "Eurostat's release calendar",
+      "A company's annual report",
+      "The FMA warning list",
+      "EDGAR"
+    ],
+    "answerIndex": 0,
+    "explanation": "Eurostat publishes a release calendar for its statistics.",
+    "lessonLink": "/learn/tools-resources-news/official-sources",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-013",
+    "category": "W",
+    "topic": "news-opinion-advertising",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Under § 26 Mediengesetz, which labels can mark paid content in Austrian periodical media? Select all that apply.",
+    "options": [
+      "Anzeige",
+      "entgeltliche Einschaltung",
+      "Werbung",
+      "Exklusiv"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Paid contributions must be labelled 'Anzeige', 'entgeltliche Einschaltung' or 'Werbung', unless their design rules out doubt.",
+    "lessonLink": "/learn/tools-resources-news/news-opinion-advertising",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40277086/NOR40277086.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-014",
+    "category": "W",
+    "topic": "news-opinion-advertising",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: under § 49 WAG 2018, marketing communications of investment firms must be clearly identifiable as such.",
+    "answerBool": true,
+    "explanation": "True. All information must also be fair, clear and not misleading.",
+    "lessonLink": "/learn/tools-resources-news/news-opinion-advertising",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40276879/NOR40276879.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-015",
+    "category": "W",
+    "topic": "news-opinion-advertising",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which sentence is most likely opinion rather than news?",
+    "options": [
+      "'In our view, the share could rise 30%.'",
+      "'Sales rose 4% in the first half, according to the half-year report.'",
+      "'The general meeting is on 24 April.'",
+      "'The dividend is €1.10 per share.'"
+    ],
+    "answerIndex": 0,
+    "explanation": "Forecasts and views are opinions; reported facts can be checked.",
+    "lessonLink": "/learn/tools-resources-news/news-opinion-advertising",
+    "sources": [
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40276879/NOR40276879.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-016",
+    "category": "W",
+    "topic": "news-opinion-advertising",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "According to the FMA, which question should you ask about a finfluencer's recommendation?",
+    "options": [
+      "Do they have a financial interest, for example through affiliate marketing?",
+      "How many followers do they have?",
+      "How often do they post?",
+      "Do they use professional video equipment?"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA advises checking who is behind a recommendation, their financial interest and how credible the promises are.",
+    "lessonLink": "/learn/tools-resources-news/news-opinion-advertising",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-017",
+    "category": "W",
+    "topic": "news-opinion-advertising",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: a social media post can be paid promotion even if it carries no label.",
+    "answerBool": true,
+    "explanation": "True. Labelling rules don't reach everyone; always ask who benefits.",
+    "lessonLink": "/learn/tools-resources-news/news-opinion-advertising",
+    "sources": [
+      "https://www.fma.gv.at/likes-statt-lizenz/",
+      "https://www.ris.bka.gv.at/Dokumente/Bundesnormen/NOR40277086/NOR40277086.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-018",
+    "category": "W",
+    "topic": "reading-market-news",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An index at 4,000 points falls 80 points. What is the fall in percent?",
+    "answerNumber": 2,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "80 ÷ 4,000 = 2%.",
+    "lessonLink": "/learn/tools-resources-news/reading-market-news",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-019",
+    "category": "W",
+    "topic": "reading-market-news",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "An index at 40,000 points falls 80 points. What is the fall in percent?",
+    "answerNumber": 0.2,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "80 ÷ 40,000 = 0.2%.",
+    "lessonLink": "/learn/tools-resources-news/reading-market-news",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-020",
+    "category": "W",
+    "topic": "reading-market-news",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A share falls 50% and then rises 50%. How far is it below its starting price, in percent?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "0.5 × 1.5 = 0.75, so 25% below the start.",
+    "lessonLink": "/learn/tools-resources-news/reading-market-news",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-021",
+    "category": "W",
+    "topic": "reading-market-news",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In Damodaran's US data for 1928–2025, in how many of the 98 years did the S&P 500 fall?",
+    "options": [
+      "26",
+      "5",
+      "50",
+      "70"
+    ],
+    "answerIndex": 0,
+    "explanation": "26 losing years, yet about 10% a year on average over the period.",
+    "lessonLink": "/learn/tools-resources-news/reading-market-news",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-022",
+    "category": "W",
+    "topic": "reading-market-news",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: explanations in daily market reports ('shares fell because…') are always proven causes.",
+    "answerBool": false,
+    "explanation": "False. They are often chosen after the move and should be read as plausible stories.",
+    "lessonLink": "/learn/tools-resources-news/reading-market-news",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-023",
+    "category": "W",
+    "topic": "screeners-and-data-quality",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does a stock screener do?",
+    "options": [
+      "Filters securities by criteria you choose",
+      "Guarantees which shares will rise",
+      "Executes orders on the exchange",
+      "Checks a firm's licence"
+    ],
+    "answerIndex": 0,
+    "explanation": "It narrows a list by criteria such as P/E or dividend yield; it doesn't judge quality.",
+    "lessonLink": "/learn/tools-resources-news/screeners-and-data-quality",
+    "sources": [
+      "https://www.wienerborse.at/wissen/in-wertpapiere-investieren/informiert-bleiben/kursblatt-richtig-lesen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-024",
+    "category": "W",
+    "topic": "screeners-and-data-quality",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which identifier best confirms that data refers to the right security?",
+    "options": [
+      "The ISIN",
+      "The company's logo",
+      "The ticker on any exchange",
+      "The share price"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tickers differ between exchanges; the ISIN identifies a security uniquely.",
+    "lessonLink": "/learn/tools-resources-news/screeners-and-data-quality",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-025",
+    "category": "W",
+    "topic": "screeners-and-data-quality",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why can a database that lists only today's companies make a strategy look better than it was?",
+    "options": [
+      "Companies that failed or were taken over are missing (survivorship bias)",
+      "Because prices are delayed",
+      "Because of currency conversion",
+      "Because dividends are excluded"
+    ],
+    "answerIndex": 0,
+    "explanation": "Survivorship bias removes the failures from the history.",
+    "lessonLink": "/learn/tools-resources-news/screeners-and-data-quality",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-026",
+    "category": "W",
+    "topic": "screeners-and-data-quality",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which checks belong in a checklist for numbers you rely on? Select all that apply.",
+    "options": [
+      "Original source",
+      "Date of the figure",
+      "Definition used",
+      "Currency and units",
+      "Number of likes on social media"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Source, date, definition, currency/units and a cross-check with the company's report.",
+    "lessonLink": "/learn/tools-resources-news/screeners-and-data-quality",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-027",
+    "category": "W",
+    "topic": "screeners-and-data-quality",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a share that passes a screener's filters is automatically a good investment.",
+    "answerBool": false,
+    "explanation": "False. A screen finds numbers, not bargains; read the reports behind them.",
+    "lessonLink": "/learn/tools-resources-news/screeners-and-data-quality",
+    "sources": [
+      "https://www.sec.gov/about/reports-publications/beginners-guide-financial-statements"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-028",
+    "category": "W",
+    "topic": "research-routine",
+    "difficulty": "beginner",
+    "type": "order",
+    "question": "Put these steps for checking an unsolicited investment offer in a sensible order.",
+    "orderedItems": [
+      "Check the provider in the FMA database and warning list",
+      "Identify the exact product and its ISIN",
+      "Read the original documents",
+      "Compare with your own plan",
+      "Wait a day before deciding"
+    ],
+    "explanation": "Start with who is offering it, then what it is, then the original source, then your plan, and don't let urgency rush you.",
+    "lessonLink": "/learn/tools-resources-news/research-routine",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/",
+      "https://www.fma.gv.at/warnungen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-029",
+    "category": "W",
+    "topic": "research-routine",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a decision diary for?",
+    "options": [
+      "Recording why you made a decision and what you expected",
+      "Tracking daily price moves",
+      "Storing passwords",
+      "Copying other investors' trades"
+    ],
+    "answerIndex": 0,
+    "explanation": "It protects against hindsight and self-attribution, and helps with records.",
+    "lessonLink": "/learn/tools-resources-news/research-routine",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-030",
+    "category": "W",
+    "topic": "research-routine",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: urgency ('only today', 'limited places') is a warning sign when you receive an investment offer.",
+    "answerBool": true,
+    "explanation": "True. Pressure to act fast is a classic red flag (Category T).",
+    "lessonLink": "/learn/tools-resources-news/research-routine",
+    "sources": [
+      "https://www.fma.gv.at/warnungen/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

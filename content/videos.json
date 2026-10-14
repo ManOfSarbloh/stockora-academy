@@ -1230,7 +1230,8 @@
     "title": "Smart & Simple - Die FMA erklärt das Thema Anlagebetrug",
     "channel": "Reden wir über Geld",
     "categories": [
-      "T"
+      "T",
+      "W"
     ],
     "level": "beginner",
     "durationMinutes": 3.6,
@@ -1240,7 +1241,8 @@
     "lessons": [
       "scams-safety/why-fraud-works",
       "scams-safety/red-flags",
-      "scams-safety/scam-shield-check-a-firm"
+      "scams-safety/scam-shield-check-a-firm",
+      "tools-resources-news/research-routine"
     ]
   },
   {
@@ -1433,6 +1435,22 @@
     "lastChecked": "2026-10-14",
     "lessons": [
       "corporate-actions/share-buybacks"
+    ]
+  },
+  {
+    "id": "tWIWsI_RvDQ",
+    "title": "Introduction to EDGAR",
+    "channel": "University of Alabama Libraries",
+    "categories": [
+      "W"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5.8,
+    "language": "en",
+    "whyGood": "A university library's neutral walkthrough of the SEC's EDGAR database: finding a company and locating its annual report on Form 10-K.",
+    "lastChecked": "2026-10-14",
+    "lessons": [
+      "tools-resources-news/official-sources"
     ]
   }
 ]

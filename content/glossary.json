@@ -8761,5 +8761,228 @@
       "V"
     ],
     "de": "Auskunftsrecht"
+  },
+  {
+    "id": "quote-page",
+    "term": "Quote page",
+    "aliases": [
+      "quote pages"
+    ],
+    "definition": "A page showing a security's current and recent trading data: last price, change, high and low, volume, bid and ask, and often market capitalisation and valuation ratios.",
+    "related": [
+      "bid-price",
+      "ask-price",
+      "delayed-data"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Kursseite / Kursblatt"
+  },
+  {
+    "id": "fifty-two-week-range",
+    "term": "52-week range",
+    "aliases": [
+      "52-week high",
+      "52-week low",
+      "52-week highs",
+      "52-week lows"
+    ],
+    "definition": "The highest and lowest prices of a security over the past year, shown on many quote pages.",
+    "related": [
+      "quote-page"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "52-Wochen-Hoch/-Tief"
+  },
+  {
+    "id": "delayed-data",
+    "term": "Delayed data",
+    "aliases": [
+      "delayed prices",
+      "delayed quotes"
+    ],
+    "definition": "Price data shown with a time lag, often 15 minutes. The Wiener Börse website, for example, shows prices 15 minutes delayed. Check live prices before trading.",
+    "related": [
+      "real-time-data",
+      "quote-page"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Zeitverzögerte Kurse"
+  },
+  {
+    "id": "real-time-data",
+    "term": "Real-time data",
+    "aliases": [
+      "real-time prices",
+      "real-time quotes"
+    ],
+    "definition": "Prices shown as they happen, without delay. Exchanges often charge for real-time data; brokers show real-time prices in their order screens.",
+    "related": [
+      "delayed-data"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Echtzeitkurse"
+  },
+  {
+    "id": "stock-screener",
+    "term": "Stock screener",
+    "aliases": [
+      "stock screeners",
+      "screener",
+      "screeners"
+    ],
+    "definition": "A tool that filters securities by criteria such as market capitalisation, P/E ratio or dividend yield. Its results are only as good as its data and are a starting point for research.",
+    "related": [
+      "survivorship-bias",
+      "pe-ratio"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Aktien-Screener"
+  },
+  {
+    "id": "oam",
+    "term": "Officially Appointed Mechanism",
+    "aliases": [
+      "OAM"
+    ],
+    "definition": "The official central storage for regulated information of listed issuers. In Austria, this is OeKB.",
+    "related": [
+      "ad-hoc-announcement",
+      "annual-report"
+    ],
+    "categories": [
+      "W",
+      "R"
+    ],
+    "de": "Amtlich bestelltes System (OAM)"
+  },
+  {
+    "id": "marketing-communication",
+    "term": "Marketing communication",
+    "aliases": [
+      "marketing communications",
+      "Marketingmitteilung",
+      "Marketingmitteilungen"
+    ],
+    "definition": "Promotional information from an investment firm. In Austria, it must be fair, clear and not misleading and clearly identifiable as marketing (§ 49 WAG 2018).",
+    "related": [
+      "advertorial",
+      "finfluencer"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Marketingmitteilung"
+  },
+  {
+    "id": "advertorial",
+    "term": "Advertorial",
+    "aliases": [
+      "advertorials",
+      "sponsored content",
+      "paid content"
+    ],
+    "definition": "Paid content designed to look like editorial content. In Austrian periodical media, paid content must be labelled 'Anzeige', 'entgeltliche Einschaltung' or 'Werbung' (§ 26 Mediengesetz).",
+    "related": [
+      "marketing-communication"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Entgeltliche Einschaltung / Advertorial"
+  },
+  {
+    "id": "index-point",
+    "term": "Index point",
+    "aliases": [
+      "index points"
+    ],
+    "definition": "The unit in which an index level is quoted. A move in points only makes sense relative to the index level, so convert to percent before comparing.",
+    "related": [
+      "stock-index"
+    ],
+    "categories": [
+      "W"
+    ],
+    "de": "Indexpunkt"
+  },
+  {
+    "id": "trading-volume",
+    "term": "Trading volume",
+    "aliases": [
+      "trading volumes"
+    ],
+    "definition": "The number of shares traded in a period, usually a day. Turnover is the value traded: volume times price.",
+    "related": [
+      "liquidity",
+      "quote-page"
+    ],
+    "categories": [
+      "W",
+      "D"
+    ],
+    "de": "Handelsvolumen / Stückumsatz"
+  },
+  {
+    "id": "ex-rights",
+    "term": "Ex-rights",
+    "aliases": [
+      "ex Bezugsrecht"
+    ],
+    "definition": "Marked 'eB' in Austrian price lists: the value of the subscription right has been deducted from the share price after a rights issue starts.",
+    "related": [
+      "subscription-right",
+      "rights-issue",
+      "ex-dividend-date"
+    ],
+    "categories": [
+      "W",
+      "V"
+    ],
+    "de": "ex Bezugsrecht (eB)"
+  },
+  {
+    "id": "investor-relations",
+    "term": "Investor relations",
+    "aliases": [
+      "investor relations website",
+      "IR website"
+    ],
+    "definition": "A listed company's communication with investors, usually through an IR website with reports, announcements, presentations and general meeting documents.",
+    "related": [
+      "annual-report",
+      "ad-hoc-announcement"
+    ],
+    "categories": [
+      "W",
+      "I"
+    ],
+    "de": "Investor Relations"
+  },
+  {
+    "id": "decision-diary",
+    "term": "Decision diary",
+    "aliases": [
+      "decision diaries",
+      "investment diary"
+    ],
+    "definition": "A written record of why you made an investment decision and what you expected. It protects against hindsight and self-attribution.",
+    "related": [
+      "overconfidence"
+    ],
+    "categories": [
+      "W",
+      "O"
+    ],
+    "de": "Entscheidungstagebuch"
   }
 ]
