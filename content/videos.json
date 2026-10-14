@@ -1402,5 +1402,37 @@
     "lessons": [
       "other-asset-classes/forex"
     ]
+  },
+  {
+    "id": "DOhVBVGivho",
+    "title": "Stock splits: How they work and why companies do them",
+    "channel": "Yahoo Finance",
+    "categories": [
+      "V"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5.1,
+    "language": "en",
+    "whyGood": "A short news-desk explainer of how stock splits work and why companies do them, without trading tips.",
+    "lastChecked": "2026-10-14",
+    "lessons": [
+      "corporate-actions/splits-and-bonus-shares"
+    ]
+  },
+  {
+    "id": "EDyvkbwR6Uw",
+    "title": "The Debate Over Stock Buybacks, Explained | WSJ",
+    "channel": "The Wall Street Journal",
+    "categories": [
+      "V"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.8,
+    "language": "en",
+    "whyGood": "Presents the arguments for and against share buybacks in under five minutes, useful context for judging a buyback.",
+    "lastChecked": "2026-10-14",
+    "lessons": [
+      "corporate-actions/share-buybacks"
+    ]
   }
 ]

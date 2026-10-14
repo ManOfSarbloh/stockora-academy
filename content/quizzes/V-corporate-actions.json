@@ -1,0 +1,757 @@
+[
+  {
+    "id": "V-001",
+    "category": "V",
+    "topic": "what-are-corporate-actions",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which corporate action usually requires a decision from you by a deadline?",
+    "options": [
+      "A rights issue",
+      "A stock split",
+      "A cash dividend",
+      "A reverse split"
+    ],
+    "answerIndex": 0,
+    "explanation": "With a rights issue you can subscribe, sell the rights or let them lapse; splits and dividends are applied automatically.",
+    "lessonLink": "/learn/corporate-actions/what-are-corporate-actions",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/153",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalerhoehung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-002",
+    "category": "V",
+    "topic": "what-are-corporate-actions",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: when trading in a share is suspended on the Wiener Börse, all orders in the order book are automatically deleted.",
+    "answerBool": true,
+    "explanation": "True. Check your open limit and stop orders after a suspension.",
+    "lessonLink": "/learn/corporate-actions/what-are-corporate-actions",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-h/handelsaussetzung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-003",
+    "category": "V",
+    "topic": "what-are-corporate-actions",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which statements about tender offers are true, according to Investor.gov? Select all that apply.",
+    "options": [
+      "They are open for a limited period",
+      "Each shareholder decides whether to sell",
+      "The terms, such as the price, are fixed",
+      "Shareholders must accept them"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Each shareholder decides individually; nobody is forced to accept a tender offer.",
+    "lessonLink": "/learn/corporate-actions/what-are-corporate-actions",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/tender-offer"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-004",
+    "category": "V",
+    "topic": "what-are-corporate-actions",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a capital increase for cash, how are new shares offered to existing shareholders?",
+    "options": [
+      "Through subscription rights, in proportion to their holdings",
+      "By lottery",
+      "Only to the largest shareholder",
+      "They are not offered to existing shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse: existing shareholders are offered new shares via subscription rights in a set ratio.",
+    "lessonLink": "/learn/corporate-actions/what-are-corporate-actions",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalerhoehung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-005",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "You own 100 shares at €100. After a 2-for-1 split, how many shares do you own?",
+    "answerNumber": 200,
+    "tolerance": 0,
+    "unit": "shares",
+    "explanation": "Twice as many shares, each at half the price: 200 × €50 = €10,000.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-split"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-006",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What happens to the total value of your holding in a share split?",
+    "options": [
+      "It stays the same",
+      "It doubles",
+      "It halves",
+      "It depends on the dividend"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Wiener Börse: the share capital and the total value of the shares remain unchanged.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/aktiensplit/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-007",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to Investor.gov, a stock split dilutes existing shareholders like issuing new shares does.",
+    "answerBool": false,
+    "explanation": "False. Unlike issuing new shares, a split does not dilute existing shareholders.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-split"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-008",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "After a 1-for-10 reverse split, 1,000 shares at €0.80 become…",
+    "options": [
+      "100 shares at €8",
+      "10,000 shares at €0.08",
+      "100 shares at €0.80",
+      "1,000 shares at €8"
+    ],
+    "answerIndex": 0,
+    "explanation": "Fewer shares at a higher price; the total stays €800.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-0"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-009",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why does the SEC warn about 'mammoth' reverse splits such as 1-for-20,000?",
+    "options": [
+      "They can be part of fraud schemes involving dormant shell companies",
+      "They are illegal in the US",
+      "They always increase a company's value",
+      "They double the number of shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "A modest reverse split may be done to meet minimum price rules; extreme ratios are a warning sign.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-alerts/investor-0"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-010",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Wiener Börse calls the term 'free shares' for bonus shares from reserves misleading.",
+    "answerBool": true,
+    "explanation": "True. Shareholders already owned the reserves, and the share price falls in proportion.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalberichtigung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-011",
+    "category": "V",
+    "topic": "splits-and-bonus-shares",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Under § 8 AktG, what is the minimum amount of share capital per share in Austria, in euros?",
+    "answerNumber": 1,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Par value shares must be at least €1, and for no-par shares the portion per share must be at least €1.",
+    "lessonLink": "/learn/corporate-actions/splits-and-bonus-shares",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/8"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-012",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Under § 153 AktG, how long must the period for exercising subscription rights be, at least?",
+    "options": [
+      "Two weeks",
+      "Two days",
+      "One month",
+      "Three months"
+    ],
+    "answerIndex": 0,
+    "explanation": "At least two weeks; the issue price and period must be published.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/153"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-013",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What majority does a capital increase by issuing new shares need under § 149 AktG?",
+    "options": [
+      "At least three quarters of the share capital represented",
+      "A simple majority",
+      "Unanimity",
+      "Two thirds of all shares issued"
+    ],
+    "answerIndex": 0,
+    "explanation": "At least three quarters of the capital represented, unless the articles set a different capital majority.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/149"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-014",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "10 million shares trade at €20. A 1-for-4 rights issue offers new shares at €16. What is the theoretical share price after the issue, in euros?",
+    "answerNumber": 19.2,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "(€200m + 2.5m × €16) ÷ 12.5m shares = €240m ÷ 12.5m = €19.20.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalerhoehung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-015",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In the same rights issue (old price €20, theoretical price after €19.20, one right per old share), what is the theoretical value of one right, in euros?",
+    "answerNumber": 0.8,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "€20 − €19.20 = €0.80; four rights plus €16 buy one new share worth €19.20.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalerhoehung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-016",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In a rights issue, which option keeps your percentage of the company unchanged?",
+    "options": [
+      "Subscribing for the new shares",
+      "Selling the rights",
+      "Doing nothing",
+      "Selling half your shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Only subscribing keeps your percentage; selling the rights preserves value but not percentage.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/153"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-017",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: if you neither use nor sell your subscription rights, you lose value because the share price falls after the issue.",
+    "answerBool": true,
+    "explanation": "True. The rights compensate for the lower price only if you use or sell them.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalerhoehung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-018",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "What does excluding shareholders' subscription rights require under § 153 AktG? Select all that apply.",
+    "options": [
+      "A resolution with at least a three-quarters capital majority",
+      "Express announcement in the agenda",
+      "A written report by the management board on the reasons and issue price",
+      "Approval by the FMA"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "No FMA approval is required, but the majority, agenda announcement and report are.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/153"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-019",
+    "category": "V",
+    "topic": "capital-increases-and-rights-issues",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is a capital cut (Kapitalschnitt)?",
+    "options": [
+      "A capital reduction followed by a capital increase, often in a restructuring",
+      "A share split",
+      "A dividend cut",
+      "A buyback programme"
+    ],
+    "answerIndex": 0,
+    "explanation": "In a restructuring, shareholders provide new money after losses have been absorbed.",
+    "lessonLink": "/learn/corporate-actions/capital-increases-and-rights-issues",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-k/kapitalschnitt/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-020",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Under § 65 AktG, own shares acquired by a listed company may not exceed what percentage of its share capital?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Together with other own shares held, at most 10% of share capital.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/65"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-021",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "For at most how many months can a general meeting authorise a listed Austrian company to buy back shares?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "months",
+    "explanation": "The authorisation may be valid for at most 30 months.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/65"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-022",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a company receives dividends and votes on its own shares.",
+    "answerBool": false,
+    "explanation": "False. Under § 65 (5) AktG, the company has no rights from its own shares.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/65"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-023",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A company earns €50 million with 10 million shares, then buys back and cancels 500,000 shares. With unchanged profit, what is the new EPS, in euros (two decimals)?",
+    "answerNumber": 5.26,
+    "tolerance": 0.01,
+    "unit": "€",
+    "explanation": "€50m ÷ 9.5m = €5.26, up from €5.00.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/65"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-024",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who must approve a share buyback in Austria, according to the Wiener Börse?",
+    "options": [
+      "The general meeting",
+      "The FMA",
+      "The stock exchange",
+      "The auditor"
+    ],
+    "answerIndex": 0,
+    "explanation": "A buyback requires an authorisation by the general meeting.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/aktienrueckkauf/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-025",
+    "category": "V",
+    "topic": "share-buybacks",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: in Austria, trading in own shares is allowed as the purpose of a buyback.",
+    "answerBool": false,
+    "explanation": "False. § 65 AktG excludes trading in own shares as a purpose.",
+    "lessonLink": "/learn/corporate-actions/share-buybacks",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/65"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-026",
+    "category": "V",
+    "topic": "takeover-offers-and-mergers",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Why is a tender offer price usually above the current market price?",
+    "options": [
+      "To encourage shareholders to sell",
+      "Because the law forbids lower prices in all cases",
+      "To pay the bank's fees",
+      "Because the shares will be split"
+    ],
+    "answerIndex": 0,
+    "explanation": "Investor.gov: the premium is meant to encourage shareholders to tender.",
+    "lessonLink": "/learn/corporate-actions/takeover-offers-and-mergers",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/tender-offer"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-027",
+    "category": "V",
+    "topic": "takeover-offers-and-mergers",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A bidder offers 0.5 of its own shares for each target share. The bidder's share trades at €60. What is the offer worth per target share, in euros?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "0.5 × €60 = €30; if the bidder's price changes, so does the offer's value.",
+    "lessonLink": "/learn/corporate-actions/takeover-offers-and-mergers",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/tender-offer"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-028",
+    "category": "V",
+    "topic": "takeover-offers-and-mergers",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why can a target's share trade slightly below a cash offer price?",
+    "options": [
+      "Time until payment and the risk that the deal fails",
+      "Because the offer price includes tax",
+      "Because the stock exchange charges a fee",
+      "It never does"
+    ],
+    "answerIndex": 0,
+    "explanation": "The gap reflects time and deal risk, such as unmet conditions.",
+    "lessonLink": "/learn/corporate-actions/takeover-offers-and-mergers",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/tender-offer"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-029",
+    "category": "V",
+    "topic": "takeover-offers-and-mergers",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in Austria, the target's management and supervisory boards must publish reasoned statements on a takeover offer.",
+    "answerBool": true,
+    "explanation": "True, under § 14 ÜbG, including on whether the price is appropriate.",
+    "lessonLink": "/learn/corporate-actions/takeover-offers-and-mergers",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-030",
+    "category": "V",
+    "topic": "spin-offs",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What happens in a spin-off?",
+    "options": [
+      "A parent company distributes shares of a subsidiary to its own shareholders",
+      "Two companies merge",
+      "A company buys back shares",
+      "A company leaves the stock exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "The subsidiary becomes a separate, independent company; shares are usually distributed pro rata.",
+    "lessonLink": "/learn/corporate-actions/spin-offs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/spin-offs"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-031",
+    "category": "V",
+    "topic": "spin-offs",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the SEC evaluates whether spin-off shares are a good investment.",
+    "answerBool": false,
+    "explanation": "False. The SEC does not evaluate the merits of a spin-off.",
+    "lessonLink": "/learn/corporate-actions/spin-offs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/spin-offs"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-032",
+    "category": "V",
+    "topic": "spin-offs",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "A spin-off gives 1 new share for every 4 shares held. You own 100 shares. How many new shares do you receive?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "shares",
+    "explanation": "100 ÷ 4 = 25.",
+    "lessonLink": "/learn/corporate-actions/spin-offs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/spin-offs"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-033",
+    "category": "V",
+    "topic": "delisting-and-insolvency",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is a delisting?",
+    "options": [
+      "Removal of a security's listing from the exchange",
+      "A share split",
+      "A capital increase",
+      "A dividend cut"
+    ],
+    "answerIndex": 0,
+    "explanation": "Wiener Börse: delisting is the removal of a listed security from the exchange.",
+    "lessonLink": "/learn/corporate-actions/delisting-and-insolvency",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-d/delisting/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-034",
+    "category": "V",
+    "topic": "delisting-and-insolvency",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under § 27e ÜbG, the price of a delisting offer must be at least the volume-weighted average stock exchange price over which period before the delisting intention was announced?",
+    "options": [
+      "The last five trading days",
+      "The last 12 months",
+      "The last trading day",
+      "The last 30 days"
+    ],
+    "answerIndex": 0,
+    "explanation": "Five trading days, in addition to the § 26 ÜbG minimum price rules; and appropriate if obviously below the company's value.",
+    "lessonLink": "/learn/corporate-actions/delisting-and-insolvency",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/27e"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-035",
+    "category": "V",
+    "topic": "delisting-and-insolvency",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: according to Investor.gov, in a Chapter 11 reorganisation, common shareholders are frequently replaced by new shareholders.",
+    "answerBool": true,
+    "explanation": "True. Creditors come before shareholders.",
+    "lessonLink": "/learn/corporate-actions/delisting-and-insolvency",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/bankruptcy"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-036",
+    "category": "V",
+    "topic": "general-meeting-and-voting",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "At least how many days before an annual general meeting must an Austrian company publish the notice?",
+    "answerNumber": 28,
+    "tolerance": 0,
+    "unit": "days",
+    "explanation": "At least 28 days for an ordinary general meeting; 21 days for other meetings (§ 107 AktG).",
+    "lessonLink": "/learn/corporate-actions/general-meeting-and-voting",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/107"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-037",
+    "category": "V",
+    "topic": "general-meeting-and-voting",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "For bearer shares of a listed Austrian company, which holding decides who may attend the general meeting?",
+    "options": [
+      "The holding at the end of the tenth day before the meeting",
+      "The holding on the day of the meeting",
+      "The holding on the dividend payment date",
+      "The holding at the end of the last financial year"
+    ],
+    "answerIndex": 0,
+    "explanation": "The record date (Nachweisstichtag) under § 111 AktG.",
+    "lessonLink": "/learn/corporate-actions/general-meeting-and-voting",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/111"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-038",
+    "category": "V",
+    "topic": "general-meeting-and-voting",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which rights do shareholders have at the general meeting? Select all that apply.",
+    "options": [
+      "Voting right",
+      "Right to information about agenda items",
+      "Right to make proposals",
+      "Right to set the dividend alone"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Dividends are decided by the meeting as a whole, not by individual shareholders.",
+    "lessonLink": "/learn/corporate-actions/general-meeting-and-voting",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-s/stimmrecht/",
+      "https://www.jusline.at/gesetz/aktg/paragraf/118",
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-h/hauptversammlung/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-039",
+    "category": "V",
+    "topic": "general-meeting-and-voting",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: under § 118 AktG, a company may refuse information whose disclosure would seriously harm the company.",
+    "answerBool": true,
+    "explanation": "True, on reasonable business judgement; also if disclosure would be a criminal offence.",
+    "lessonLink": "/learn/corporate-actions/general-meeting-and-voting",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/118"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-040",
+    "category": "V",
+    "topic": "general-meeting-and-voting",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put the steps for attending an Austrian AGM with bank-held bearer shares in order.",
+    "orderedItems": [
+      "The notice is published at least 28 days before",
+      "Your holding is fixed at the end of the record date",
+      "Your bank's deposit confirmation reaches the company",
+      "The general meeting takes place"
+    ],
+    "explanation": "Notice (§ 107), record date ten days before (§ 111 (1)), deposit confirmation by the third working day before (§ 111 (2)), then the meeting.",
+    "lessonLink": "/learn/corporate-actions/general-meeting-and-voting",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/107",
+      "https://www.jusline.at/gesetz/aktg/paragraf/111"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

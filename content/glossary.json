@@ -3061,10 +3061,11 @@
     "aliases": [
       "date of record"
     ],
-    "definition": "The day on which the holdings in securities accounts determine who receives a dividend.",
+    "definition": "The day whose holdings in securities accounts decide who receives a dividend. In Austria, the holding at the end of the tenth day before a listed company's general meeting also decides who may take part and vote (Nachweisstichtag).",
     "related": [
       "ex-dividend-date",
-      "payment-date"
+      "payment-date",
+      "general-meeting"
     ],
     "categories": [
       "G",
@@ -8502,5 +8503,263 @@
       "U"
     ],
     "de": "Privater Schlüssel"
+  },
+  {
+    "id": "corporate-action",
+    "term": "Corporate action",
+    "aliases": [
+      "corporate actions"
+    ],
+    "definition": "An event decided by a company that changes its shares or what shareholders receive, such as a dividend, split, capital increase, buyback, takeover offer or spin-off. Some are automatic; others need a decision by a deadline.",
+    "related": [
+      "stock-split",
+      "capital-increase",
+      "share-buyback"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Kapitalmaßnahme / Corporate Action"
+  },
+  {
+    "id": "stock-split",
+    "term": "Stock split",
+    "aliases": [
+      "stock splits",
+      "share split",
+      "share splits"
+    ],
+    "definition": "Dividing a company's share capital into more shares. The total value stays the same, so the price per share falls in proportion and existing shareholders are not diluted.",
+    "related": [
+      "reverse-split",
+      "bonus-shares"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Aktiensplit"
+  },
+  {
+    "id": "reverse-split",
+    "term": "Reverse split",
+    "aliases": [
+      "reverse splits",
+      "reverse stock split",
+      "reverse stock splits"
+    ],
+    "definition": "Merging shares into fewer, higher-priced shares without changing total value. Often done after a large price fall, for example to meet an exchange's minimum price.",
+    "related": [
+      "stock-split"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Reverse Split / Aktienzusammenlegung"
+  },
+  {
+    "id": "bonus-shares",
+    "term": "Bonus shares",
+    "aliases": [
+      "bonus share",
+      "Kapitalberichtigung"
+    ],
+    "definition": "New shares given to shareholders without payment when reserves are converted into share capital. The share price falls in proportion, so nothing is gained in value.",
+    "related": [
+      "stock-split",
+      "share-capital"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Berichtigungsaktien / Gratisaktien"
+  },
+  {
+    "id": "theoretical-ex-rights-price",
+    "term": "Theoretical ex-rights price",
+    "aliases": [
+      "TERP"
+    ],
+    "definition": "The calculated share price after a rights issue: (value of old shares + money raised) ÷ total shares after the issue.",
+    "related": [
+      "rights-issue",
+      "subscription-right"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Theoretischer Kurs ex Bezugsrecht"
+  },
+  {
+    "id": "capital-cut",
+    "term": "Capital cut",
+    "aliases": [
+      "Kapitalschnitt"
+    ],
+    "definition": "A reduction of share capital to absorb losses, followed by a capital increase, typically in a restructuring. Shareholders who don't put in new money can be heavily diluted.",
+    "related": [
+      "capital-increase",
+      "dilution"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Kapitalschnitt"
+  },
+  {
+    "id": "share-buyback",
+    "term": "Share buyback",
+    "aliases": [
+      "share buybacks",
+      "buyback",
+      "buybacks",
+      "share repurchase",
+      "share repurchases",
+      "buyback programme"
+    ],
+    "definition": "A company buying its own shares, reducing the number of shares held by others. In Austria it needs an authorisation by the general meeting, valid for up to 30 months, and own shares may not exceed 10% of share capital.",
+    "related": [
+      "treasury-shares",
+      "eps",
+      "dividend"
+    ],
+    "categories": [
+      "V",
+      "I"
+    ],
+    "de": "Aktienrückkauf"
+  },
+  {
+    "id": "treasury-shares",
+    "term": "Treasury shares",
+    "aliases": [
+      "treasury stock",
+      "eigene Aktien"
+    ],
+    "definition": "Shares a company holds in itself after buying them back. They carry no rights: no votes and no dividends.",
+    "related": [
+      "share-buyback"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Eigene Aktien"
+  },
+  {
+    "id": "tender-offer",
+    "term": "Tender offer",
+    "aliases": [
+      "tender offers",
+      "issuer tender offer"
+    ],
+    "definition": "An offer to all shareholders to buy their shares for a limited period on fixed terms, usually at a premium to the market price. Each shareholder decides whether to accept.",
+    "related": [
+      "takeover",
+      "mandatory-offer",
+      "acceptance-period"
+    ],
+    "categories": [
+      "V",
+      "R"
+    ],
+    "de": "Kaufangebot / Übernahmeangebot"
+  },
+  {
+    "id": "acceptance-period",
+    "term": "Acceptance period",
+    "aliases": [
+      "acceptance periods"
+    ],
+    "definition": "The limited time during which shareholders can accept a takeover or tender offer.",
+    "related": [
+      "tender-offer"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Annahmefrist"
+  },
+  {
+    "id": "exchange-ratio",
+    "term": "Exchange ratio",
+    "aliases": [
+      "exchange ratios"
+    ],
+    "definition": "In a share-for-share offer or merger, the number of the bidder's shares offered for each share of the target. The offer's value moves with the bidder's share price.",
+    "related": [
+      "tender-offer",
+      "takeover"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Umtauschverhältnis"
+  },
+  {
+    "id": "insolvency",
+    "term": "Insolvency",
+    "aliases": [
+      "insolvent",
+      "insolvency proceedings",
+      "bankruptcy",
+      "bankrupt"
+    ],
+    "definition": "The situation in which a company cannot pay its debts, often leading to formal proceedings to restructure or liquidate it. Creditors are paid before shareholders, who often lose everything.",
+    "related": [
+      "equity",
+      "debt",
+      "delisting"
+    ],
+    "categories": [
+      "V",
+      "A"
+    ],
+    "de": "Insolvenz"
+  },
+  {
+    "id": "voting-right",
+    "term": "Voting right",
+    "aliases": [
+      "voting rights"
+    ],
+    "definition": "A shareholder's right to vote for or against proposals at the general meeting. One share usually carries one vote; non-voting preference shares also exist.",
+    "related": [
+      "general-meeting"
+    ],
+    "categories": [
+      "V",
+      "C"
+    ],
+    "de": "Stimmrecht"
+  },
+  {
+    "id": "proxy-voting",
+    "term": "Proxy voting",
+    "aliases": [
+      "voting by proxy"
+    ],
+    "definition": "Letting someone else, such as a representative named by you, cast your votes at a general meeting when you don't attend.",
+    "related": [
+      "general-meeting",
+      "voting-right"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Stimmrechtsvertretung"
+  },
+  {
+    "id": "right-to-information",
+    "term": "Right to information",
+    "aliases": [
+      "Auskunftsrecht"
+    ],
+    "definition": "In Austria, every shareholder's right to receive information at the general meeting about company matters, as far as needed to assess an agenda item (§ 118 AktG).",
+    "related": [
+      "general-meeting"
+    ],
+    "categories": [
+      "V"
+    ],
+    "de": "Auskunftsrecht"
   }
 ]
