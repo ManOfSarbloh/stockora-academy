@@ -1,0 +1,222 @@
+[
+  {
+    "id": "HK-001",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Within which band is the Hong Kong dollar kept against the US dollar?",
+    "options": [
+      "HK$7.75–7.85 per US dollar",
+      "HK$1.00–1.10 per US dollar",
+      "HK$6.50–7.50 per US dollar",
+      "It floats freely"
+    ],
+    "answerIndex": 0,
+    "explanation": "Under the Linked Exchange Rate System, in place since 17 October 1983.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-002",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was the Hang Seng Index publicly launched?",
+    "answerNumber": 1969,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 24 November 1969.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hsi.com.hk/en-hk/indexes/all-indexes/index-details/?seriesCode=hsi"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-003",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How much stamp duty does each side pay on a Hong Kong stock trade (since 17 November 2023)?",
+    "options": [
+      "0.1% each, buyer and seller",
+      "0.1% only the seller",
+      "0.5% only the buyer",
+      "None"
+    ],
+    "answerIndex": 0,
+    "explanation": "0.1% for both buyer and seller; it was 0.13% before.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.gov.hk/en/residents/taxes/stamp/stamp_duty_rates.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-004",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Hong Kong withholds tax on dividends paid by companies.",
+    "answerBool": false,
+    "explanation": "False. There is no withholding tax on dividends, and dividends received from corporations are exempt.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.gov.hk/en/about/abouthk/factsheets/docs/public_finance.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-005",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the settlement cycle for Hong Kong exchange trades?",
+    "options": [
+      "T+2",
+      "T+1",
+      "T+0",
+      "T+3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Exchange trades are cleared and settled two days after the trade day.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkex.com.hk/Services/Clearing/Securities/Overview/Clearing-Services?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-006",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Instead of fixed daily price limits, what does HKEX use for larger stocks?",
+    "options": [
+      "A Volatility Control Mechanism with five-minute cooling-off periods",
+      "A ±10% daily limit",
+      "A ban on short selling",
+      "Trading only in the morning"
+    ],
+    "answerIndex": 0,
+    "explanation": "The VCM triggers a five-minute cooling-off period if a trade would move the price beyond a threshold versus five minutes earlier.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-007",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to how many Hong Kong dollars can the Investor Compensation Fund pay per person for securities losses?",
+    "answerNumber": 500000,
+    "tolerance": 0,
+    "unit": "HK$",
+    "explanation": "HK$500,000 per person if a licensed intermediary defaults.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkicc.org.hk/investor/fund_limit_e.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-008",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to how many Hong Kong dollars are bank deposits protected per depositor and bank?",
+    "answerNumber": 800000,
+    "tolerance": 0,
+    "unit": "HK$",
+    "explanation": "HK$800,000 under the Deposit Protection Scheme; shares and funds are not covered.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.dps.org.hk/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-009",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which exchanges were unified when The Stock Exchange of Hong Kong was incorporated? Select all that apply.",
+    "options": [
+      "Hong Kong Stock Exchange",
+      "Far East Exchange",
+      "Kam Ngan Stock Exchange",
+      "Kowloon Stock Exchange",
+      "Macau Stock Exchange"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "The four exchanges were unified in 1980.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkexgroup.com/About-HKEX/About-HKEX/HKEX-Milestones?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-010",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does the Hong Kong exchange take its lunch break?",
+    "options": [
+      "12:00–13:00",
+      "11:30–13:00",
+      "11:30–12:30",
+      "There is none"
+    ],
+    "answerIndex": 0,
+    "explanation": "Morning session 09:30–12:00, afternoon 13:00–16:00.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "HK-011",
+    "category": "HK",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "Hang Seng Index launched",
+      "Stock Exchange of Hong Kong incorporated",
+      "HKEX lists its own shares",
+      "Shanghai-Hong Kong Stock Connect launches",
+      "Severe Weather Trading begins"
+    ],
+    "explanation": "1969, 1980, 2000, 2014, 2024.",
+    "lessonLink": "/world/hk",
+    "sources": [
+      "https://www.hsi.com.hk/en-hk/indexes/all-indexes/index-details/?seriesCode=hsi",
+      "https://www.hkexgroup.com/About-HKEX/About-HKEX/HKEX-Milestones?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

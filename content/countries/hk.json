@@ -1,0 +1,210 @@
+{
+  "code": "HK",
+  "name": "Hong Kong",
+  "region": "asia-pacific",
+  "summary": "Hong Kong is a special administrative region of China with its own currency, laws and stock exchange. HKEX is the gateway between mainland China and international investors: many large mainland companies list here, and Stock Connect links it to Shanghai and Shenzhen. The Hang Seng Index is the headline benchmark. Hong Kong charges no tax on dividends, but there is stamp duty on every share trade.",
+  "currency": {
+    "code": "HKD",
+    "name": "Hong Kong dollar",
+    "note": "The Hong Kong dollar has been linked to the US dollar since 17 October 1983, within a band of HK$7.75–7.85 per US dollar. For a euro investor it therefore moves roughly like the US dollar against the euro (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "The Stock Exchange of Hong Kong (part of Hong Kong Exchanges and Clearing, HKEX)",
+      "tradingTimesId": "hkex",
+      "city": "Hong Kong",
+      "founded": "1980 (SEHK incorporated, unifying four exchanges); HKEX holding company 2000",
+      "website": "https://www.hkex.com.hk/?sc_lang=en",
+      "hours": "Pre-opening auction 09:00–09:30, morning session 09:30–12:00, lunch break 12:00–13:00, afternoon session 13:00–16:00, then a closing auction ending at a random time between 16:08 and 16:10.",
+      "timeZone": "Asia/Hong_Kong",
+      "hoursSource": "https://www.hkex.com.hk/Services/Trading-hours-and-Severe-Weather-Arrangements/Trading-Hours/Securities-Market?sc_lang=en",
+      "holidaysSource": "https://www.gov.hk/en/about/abouthk/holiday/2026.htm",
+      "note": "Since September 2024 the market also stays open during typhoons and black rainstorms (Severe Weather Trading). Hong Kong does not use daylight saving time."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Hang Seng Index (HSI)",
+      "constituents": "95 companies (October 2026)",
+      "description": "One of Hong Kong's earliest stock market indexes, publicly launched on 24 November 1969, and the most widely quoted indicator of the market. Its constituents are grouped into four sub-indexes: Finance, Utilities, Properties, and Commerce and Industry. Calculated by Hang Seng Indexes Company.",
+      "source": {
+        "title": "Hang Seng Index and Sub-indexes (Hang Seng Indexes)",
+        "url": "https://www.hsi.com.hk/en-hk/indexes/all-indexes/index-details/?seriesCode=hsi"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Futures Commission (SFC)",
+      "role": "Hong Kong's independent regulator of the securities and futures markets.",
+      "url": "https://www.sfc.hk/en/"
+    },
+    {
+      "name": "Hong Kong Monetary Authority (HKMA)",
+      "role": "Central banking institution: runs the Linked Exchange Rate System and supervises banks.",
+      "url": "https://www.hkma.gov.hk/eng/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Investor Compensation Fund",
+      "text": "If a licensed broker defaults, investors can be compensated up to HK$500,000 per person for securities losses (and separately up to HK$500,000 for futures).",
+      "url": "https://www.hkicc.org.hk/investor/fund_limit_e.htm"
+    },
+    {
+      "name": "Deposit Protection Scheme",
+      "text": "Bank deposits are protected up to HK$800,000 per depositor and bank. Shares, bonds and funds are not covered.",
+      "url": "https://www.dps.org.hk/en/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days)",
+    "csd": "CCASS, the Central Clearing and Settlement System run by Hong Kong Securities Clearing Company (HKSCC, part of HKEX)",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "Clearing services, securities (HKEX)",
+      "url": "https://www.hkex.com.hk/Services/Clearing/Securities/Overview/Clearing-Services?sc_lang=en"
+    }
+  },
+  "rules": [
+    {
+      "title": "No daily price limits, but a volatility control",
+      "text": "Unlike mainland China, Hong Kong has no fixed daily price limits. Instead, a Volatility Control Mechanism covers larger stocks and some ETFs: if a trade would move the price more than a set threshold (between ±5% and ±50%) away from its level five minutes earlier, a five-minute cooling-off period with a price band starts.",
+      "source": {
+        "title": "Trading mechanism, securities market (HKEX)",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=en"
+      }
+    },
+    {
+      "title": "Board lots and odd lots",
+      "text": "Shares trade in board lots. Orders smaller than one board lot are odd-lot trades, which are handled separately from board-lot orders and may get a less favourable price.",
+      "source": {
+        "title": "Trading mechanism, securities market (HKEX)",
+        "url": "https://www.hkex.com.hk/Services/Trading/Securities/Overview/Trading-Mechanism?sc_lang=en"
+      }
+    },
+    {
+      "title": "Stamp duty on every trade",
+      "text": "Buyer and seller each pay 0.1% stamp duty on the value of a Hong Kong stock trade (since 17 November 2023, previously 0.13%).",
+      "source": {
+        "title": "Stamp duty rates (GovHK)",
+        "url": "https://www.gov.hk/en/residents/taxes/stamp/stamp_duty_rates.htm"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "No withholding tax on dividends and no tax on dividends received. Hong Kong taxes only business profits, salaries and property rental income; gains from selling capital assets are not part of taxable profits. Stamp duty 0.1% on each side of a share trade.",
+    "items": [
+      {
+        "title": "Dividends",
+        "text": "There is no withholding tax on dividends paid by corporations, and dividends received from corporations are exempt from tax."
+      },
+      {
+        "title": "Gains",
+        "text": "Hong Kong taxes three sources of income: business profits, salaries and property rental income. Profits from the sale of capital assets are excluded from assessable profits; someone who trades shares as a business can be taxed on the profits."
+      },
+      {
+        "title": "Stamp duty",
+        "text": "0.1% of the trade value, paid by both buyer and seller."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "Austrian tax (KESt) applies to dividends and gains as usual (Category Q); with no Hong Kong withholding tax, there is nothing to credit or reclaim."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Hong Kong fact sheet: Public Finance, May 2026 (GovHK, PDF)",
+        "url": "https://www.gov.hk/en/about/abouthk/factsheets/docs/public_finance.pdf"
+      },
+      {
+        "title": "Profits Tax (Inland Revenue Department)",
+        "url": "https://www.ird.gov.hk/eng/tax/bus_pft.htm"
+      },
+      {
+        "title": "Stamp duty rates (GovHK)",
+        "url": "https://www.gov.hk/en/residents/taxes/stamp/stamp_duty_rates.htm"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on the Hong Kong exchange; check the costs of converting euros into Hong Kong dollars and the stamp duty.",
+    "Hong Kong is also the route into mainland A-shares via Stock Connect, for brokers that support it (see China).",
+    "Indirectly, through funds or ETFs on the Hang Seng Index, Chinese or Asian indexes (Category H)."
+  ],
+  "companies": [
+    "Tencent",
+    "Alibaba",
+    "HSBC",
+    "AIA",
+    "China Construction Bank",
+    "Xiaomi",
+    "China Mobile",
+    "ICBC",
+    "HKEX",
+    "Bank of China"
+  ],
+  "history": [
+    {
+      "year": "1969",
+      "text": "The Hang Seng Index is publicly launched on 24 November."
+    },
+    {
+      "year": "1980",
+      "text": "The Stock Exchange of Hong Kong is incorporated, unifying four exchanges: the Hong Kong, Far East, Kam Ngan and Kowloon stock exchanges."
+    },
+    {
+      "year": "1983",
+      "text": "The Hong Kong dollar is linked to the US dollar on 17 October."
+    },
+    {
+      "year": "1986",
+      "text": "Trading moves to a new hall in Exchange Square, which at its peak held over 1,200 floor traders."
+    },
+    {
+      "year": "2000",
+      "text": "The stock exchange, futures exchange and clearing house become subsidiaries of HKEX (6 March); HKEX lists its own shares on 27 June."
+    },
+    {
+      "year": "2014",
+      "text": "Shanghai-Hong Kong Stock Connect launches on 17 November."
+    },
+    {
+      "year": "2024",
+      "text": "Severe Weather Trading starts in September: the market stays open during typhoons."
+    }
+  ],
+  "funFacts": [
+    "HKEX was one of the first stock exchanges in the world to list its own shares, in 2000 (stock code 388).",
+    "The first ETF listed in Hong Kong, the Tracker Fund of Hong Kong (1999), raised HK$33.3 billion, at the time the largest IPO in Asia outside Japan."
+  ],
+  "lessons": [
+    "world-markets/accessing-foreign-markets",
+    "trading-times/lunch-breaks-asia",
+    "macroeconomics/currencies-and-your-investments"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "HKEX Milestones (HKEX Group)",
+      "url": "https://www.hkexgroup.com/About-HKEX/About-HKEX/HKEX-Milestones?sc_lang=en"
+    },
+    {
+      "title": "Linked Exchange Rate System (HKMA)",
+      "url": "https://www.hkma.gov.hk/eng/key-functions/money/linked-exchange-rate-system/"
+    },
+    {
+      "title": "Securities: transaction fees and stamp duty (HKEX)",
+      "url": "https://www.hkex.com.hk/Services/Rules-and-Forms-and-Fees/Fees/Securities-(Hong-Kong)/Trading/Transaction?sc_lang=en"
+    }
+  ]
+}

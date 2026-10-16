@@ -26,7 +26,8 @@
       "hours": "Opening call auction 09:15–09:25, continuous trading 09:30–11:30 and 13:00–14:57, closing call auction 14:57–15:00. Lunch break 11:30–13:00.",
       "timeZone": "Asia/Shanghai",
       "hoursSource": "https://english.sse.com.cn/start/trading/schedule/",
-      "note": "Home of the Main Board and, since 2019, the STAR Market for science and technology companies."
+      "note": "Home of the Main Board and, since 2019, the STAR Market for science and technology companies.",
+      "holidaysSource": "https://www.szse.cn/English/services/trading/calendar/index.html"
     },
     {
       "name": "Shenzhen Stock Exchange (SZSE)",
@@ -36,7 +37,8 @@
       "hours": "Same as Shanghai: opening call auction 09:15–09:25, continuous trading 09:30–11:30 and 13:00–14:57, closing call auction 14:57–15:00.",
       "timeZone": "Asia/Shanghai",
       "hoursSource": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf",
-      "note": "Runs the Main Board and the ChiNext market (launched October 2009) for growth companies."
+      "note": "Runs the Main Board and the ChiNext market (launched October 2009) for growth companies.",
+      "holidaysSource": "https://www.szse.cn/English/services/trading/calendar/index.html"
     }
   ],
   "indexes": [
