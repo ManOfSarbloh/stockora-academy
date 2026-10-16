@@ -1,0 +1,201 @@
+{
+  "code": "AU",
+  "name": "Australia",
+  "region": "asia-pacific",
+  "summary": "Australia's national exchange, ASX, was formed in 1987 from six state exchanges; the Sydney Stock Exchange dates back to 1871. Early listings included the Bank of NSW (today Westpac) and, from 1885, the miner BHP. Australia's franking system means many dividends come with tax already paid by the company, and fully franked dividends paid to foreign investors carry no withholding tax. Sydney uses daylight saving time in the opposite season to Europe.",
+  "currency": {
+    "code": "AUD",
+    "name": "Australian dollar",
+    "note": "Australian shares are priced in Australian dollars, so a euro investor carries currency risk: moves of the Australian dollar against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Australian Securities Exchange (ASX)",
+      "tradingTimesId": "asx",
+      "city": "Sydney",
+      "founded": "1 April 1987 (amalgamation of six state exchanges); Sydney Stock Exchange 1871",
+      "website": "https://www.asx.com.au/",
+      "hours": "Opening auction at about 09:59 (randomised), normal trading until 16:00, a pre-close phase 16:00–16:10 and the closing auction at about 16:10.",
+      "timeZone": "Australia/Sydney",
+      "hoursSource": "https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours",
+      "holidaysSource": "https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours/trading-calendar",
+      "note": "Sydney uses daylight saving time from October to April, the opposite season to Europe, so the time difference to Vienna changes twice a year by different amounts. Since 2010 ASX faces competition from other trading venues."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/ASX 200",
+      "constituents": "200 companies",
+      "description": "The investable benchmark for the Australian share market: the S&P/ASX 100 plus another 100 stocks, weighted by float-adjusted market capitalisation. Calculated by S&P Dow Jones Indices.",
+      "source": {
+        "title": "Capitalisation indices (ASX)",
+        "url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/indices/types/capitalisation-indices"
+      }
+    },
+    {
+      "name": "All Ordinaries",
+      "constituents": "500 companies",
+      "description": "The 500 largest companies listed on ASX by market capitalisation; liquidity is not a criterion (except for foreign-domiciled companies).",
+      "source": {
+        "title": "Capitalisation indices (ASX)",
+        "url": "https://www.asx.com.au/investors/learn-about-our-investment-solutions/indices/types/capitalisation-indices"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Australian Securities and Investments Commission (ASIC)",
+      "role": "Regulates companies, financial services and markets; it took over real-time market supervision from ASX in 2010.",
+      "url": "https://asic.gov.au/"
+    },
+    {
+      "name": "Australian Prudential Regulation Authority (APRA)",
+      "role": "Supervises banks, insurers and superannuation funds, and runs the Financial Claims Scheme.",
+      "url": "https://www.apra.gov.au/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Claims Scheme",
+      "text": "Deposits are protected up to A$250,000 per account holder at each bank, building society and credit union.",
+      "url": "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days)",
+    "csd": "CHESS (Clearing House Electronic Subregister System), run by ASX Settlement",
+    "note": "Australia moved from T+3 to T+2 for trades from 7 March 2016. ASX has studied a move to T+1 but has not set a date.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "T+1 settlement cycle (ASX)",
+      "url": "https://www.asx.com.au/markets/clearing-and-settlement-services/t1-settlement-cycle"
+    }
+  },
+  "rules": [
+    {
+      "title": "Franked dividends",
+      "text": "Australian companies can attach franking credits for company tax already paid. For foreign investors, no withholding tax is deducted from fully franked dividends (or from conduit foreign income); only the unfranked part is subject to withholding.",
+      "source": {
+        "title": "Withholding from dividends paid to foreign residents (ATO)",
+        "url": "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/income/withholding-from-dividends-paid-to-foreign-residents"
+      }
+    },
+    {
+      "title": "Electronic ownership since 1998",
+      "text": "Paper share certificates were fully replaced by electronic registration on 31 December 1998. Shares are held either on the CHESS subregister (sponsored by a broker) or on an issuer-sponsored subregister.",
+      "source": {
+        "title": "Our story (ASX)",
+        "url": "https://www.asx.com.au/about/asx-story"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Foreign residents: no withholding on fully franked dividends; unfranked dividends 30%, reduced to 15% under most tax treaties. Capital gains on ordinary portfolio shares are generally not taxed in Australia for foreign residents (exceptions for land-rich holdings of 10% or more).",
+    "items": [
+      {
+        "title": "Unfranked dividends",
+        "text": "Withholding tax of 30% for non-treaty countries; most tax treaties reduce it to 15%. For foreign residents this is a final tax."
+      },
+      {
+        "title": "Franked dividends",
+        "text": "Fully franked dividends carry no withholding tax; for partly franked dividends only the unfranked part is taxed. Foreign residents cannot claim the franking credits."
+      },
+      {
+        "title": "Capital gains",
+        "text": "Foreign residents pay Australian capital gains tax only on 'taxable Australian property'. Shares count only in special cases, for example a holding of 10% or more in a company whose assets are mainly Australian real property."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Interest, unfranked dividends and royalties, updated 22 June 2026 (ATO)",
+        "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/foreign-resident-investments/interest-unfranked-dividends-and-royalties"
+      },
+      {
+        "title": "Withholding from dividends paid to foreign residents (ATO)",
+        "url": "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/income/withholding-from-dividends-paid-to-foreign-residents"
+      },
+      {
+        "title": "Taxable Australian property, updated 9 October 2026 (ATO)",
+        "url": "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/taxable-australian-property"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on ASX; check currency conversion into Australian dollars. Because of the time difference, ASX trades while Europe sleeps.",
+    "Indirectly, through funds or ETFs on the S&P/ASX 200, Pacific or developed-market indexes (Category H)."
+  ],
+  "companies": [
+    "Commonwealth Bank of Australia",
+    "BHP",
+    "CSL",
+    "National Australia Bank",
+    "Westpac",
+    "ANZ",
+    "Macquarie Group",
+    "Wesfarmers",
+    "Rio Tinto",
+    "Woolworths Group"
+  ],
+  "history": [
+    {
+      "year": "1871",
+      "text": "The Sydney Stock Exchange is formed; early listings include AGL and the Bank of NSW (today Westpac)."
+    },
+    {
+      "year": "1885",
+      "text": "BHP (Broken Hill Proprietary) lists."
+    },
+    {
+      "year": "1987",
+      "text": "The Australian Stock Exchange is formed on 1 April from six state exchanges; the SEATS electronic trading system is introduced."
+    },
+    {
+      "year": "1998",
+      "text": "ASX becomes the first exchange in the world to demutualise and list on its own market (14 October)."
+    },
+    {
+      "year": "2006",
+      "text": "ASX merges with the Sydney Futures Exchange."
+    },
+    {
+      "year": "2016",
+      "text": "Settlement moves from T+3 to T+2 (7 March)."
+    }
+  ],
+  "funFacts": [
+    "The Sydney Stock Exchange's first business rules had 17 rules on 6 pages; ASX's operating rules today run to about 500 pages.",
+    "Cricket legend Don Bradman became a member of the Stock Exchange of Adelaide in 1943."
+  ],
+  "lessons": [
+    "trading-times/time-zones-and-dst",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Our story is full of world-firsts and new technologies (ASX)",
+      "url": "https://www.asx.com.au/about/asx-story"
+    },
+    {
+      "title": "Transition to T+2 settlement (ASX, PDF)",
+      "url": "https://www.asx.com.au/content/dam/asx/investors/investment-tools-and-resources/education/transition-to-t2-settlement.pdf"
+    },
+    {
+      "title": "Financial Claims Scheme (APRA)",
+      "url": "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions"
+    }
+  ]
+}

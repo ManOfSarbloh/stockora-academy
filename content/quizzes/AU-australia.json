@@ -1,0 +1,215 @@
+[
+  {
+    "id": "AU-001",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was the Sydney Stock Exchange formed?",
+    "answerNumber": 1871,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "In 1871; it merged with five other state exchanges into ASX in 1987.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/about/asx-story"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-002",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many state-based exchanges were amalgamated to form the Australian Stock Exchange in 1987?",
+    "answerNumber": 6,
+    "tolerance": 0,
+    "unit": "exchanges",
+    "explanation": "Six independent state exchanges, on 1 April 1987.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/about/asx-story"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-003",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in 1998 ASX became the first exchange in the world to demutualise and list on its own market.",
+    "answerBool": true,
+    "explanation": "True, on 14 October 1998.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/about/asx-story"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-004",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How many companies are in the All Ordinaries index?",
+    "options": [
+      "500",
+      "200",
+      "100",
+      "50"
+    ],
+    "answerIndex": 0,
+    "explanation": "The 500 largest companies listed on ASX.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/investors/learn-about-our-investment-solutions/indices/types/capitalisation-indices"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-005",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the settlement cycle for ASX shares?",
+    "options": [
+      "T+2",
+      "T+1",
+      "T+3",
+      "T+0"
+    ],
+    "answerIndex": 0,
+    "explanation": "T+2 since 7 March 2016; a move to T+1 has been studied but not set.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/markets/clearing-and-settlement-services/t1-settlement-cycle",
+      "https://www.asx.com.au/content/dam/asx/investors/investment-tools-and-resources/education/transition-to-t2-settlement.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-006",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How much Australian withholding tax is deducted from a fully franked dividend paid to a foreign resident?",
+    "options": [
+      "None",
+      "15%",
+      "30%",
+      "47%"
+    ],
+    "answerIndex": 0,
+    "explanation": "None: withholding applies only to the unfranked part.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.ato.gov.au/businesses-and-organisations/international-tax-for-business/in-detail/income/withholding-from-dividends-paid-to-foreign-residents"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-007",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the usual treaty rate on unfranked dividends for foreign residents (instead of 30%)?",
+    "options": [
+      "15%",
+      "10%",
+      "5%",
+      "0%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Most tax treaties reduce the 30% rate to 15%.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.ato.gov.au/individuals-and-families/investments-and-assets/foreign-resident-investments/interest-unfranked-dividends-and-royalties"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-008",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: a foreign resident holding a small portfolio of ordinary ASX shares generally pays Australian capital gains tax when selling.",
+    "answerBool": false,
+    "explanation": "False: foreign residents pay Australian CGT only on 'taxable Australian property', which covers shares only in special cases such as 10%+ holdings in land-rich companies.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.ato.gov.au/individuals-and-families/investments-and-assets/capital-gains-tax/foreign-residents-and-capital-gains-tax/taxable-australian-property"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-009",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Up to how much are deposits protected per account holder and bank under Australia's Financial Claims Scheme?",
+    "options": [
+      "A$250,000",
+      "A$100,000",
+      "A$1 million",
+      "A$50,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "A$250,000 per account holder at each bank, building society and credit union.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.apra.gov.au/financial-claims-scheme-banks-building-societies-and-credit-unions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-010",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Why does the time difference between Vienna and Sydney change during the year?",
+    "options": [
+      "Both use daylight saving time, but in opposite seasons",
+      "Only Vienna changes its clocks",
+      "Only Sydney changes its clocks",
+      "It never changes"
+    ],
+    "answerIndex": 0,
+    "explanation": "Sydney uses daylight saving from October to April, Europe from March to October.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/markets/market-resources/trading-hours-calendar/cash-market-trading-hours"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AU-011",
+    "category": "AU",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "Sydney Stock Exchange formed",
+      "BHP lists",
+      "Australian Stock Exchange formed from six exchanges",
+      "ASX lists its own shares",
+      "Settlement moves to T+2"
+    ],
+    "explanation": "1871, 1885, 1987, 1998, 2016.",
+    "lessonLink": "/world/au",
+    "sources": [
+      "https://www.asx.com.au/about/asx-story",
+      "https://www.asx.com.au/content/dam/asx/investors/investment-tools-and-resources/education/transition-to-t2-settlement.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
