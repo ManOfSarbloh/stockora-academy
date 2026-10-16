@@ -1,0 +1,220 @@
+[
+  {
+    "id": "SG-001",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was Singapore Exchange (SGX) formed by merger?",
+    "answerNumber": 1999,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 1 December 1999, from the Stock Exchange of Singapore, SIMEX and Securities Clearing and Computer Services.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.mas.gov.sg/news/speeches/2025/keynote-speech-by-dpm-gan-kim-yong-at-the-sgx-group-25th-anniversary-securities-market-open"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-002",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which newspaper gives Singapore's main stock index its name?",
+    "options": [
+      "The Straits Times",
+      "The Business Times",
+      "Lianhe Zaobao",
+      "The Edge"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Straits Times Index is calculated by FTSE Russell with SGX and SPH Media Trust, the newspaper's publisher.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/straits-times-index-quarterly-review-september-2026"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-003",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "From 5 October 2026, what is the board lot for SGX stocks priced above S$100?",
+    "options": [
+      "1 share",
+      "10 shares",
+      "100 shares",
+      "1,000 shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "1 share above S$100, 10 shares above S$10 (up to S$100); otherwise 100.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://links.sgx.com/FileOpen/20260701%20SGX%20custody%20structure%20enhancements%20to%20take%20effect%20from%20July%20board%20lot%20reduction%20in%20October.ashx?App=Announcement&FileID=895053"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-004",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What was the standard SGX board lot before 19 January 2015?",
+    "options": [
+      "1,000 shares",
+      "100 shares",
+      "10 shares",
+      "1 share"
+    ],
+    "answerIndex": 0,
+    "explanation": "It was cut from 1,000 to 100 units on 19 January 2015.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://links.sgx.com/FileOpen/20140825_SGX_to_introduce_reduced_board_lot_size_from_19_January.ashx?App=ArchiveAnnouncement&FileID=312230&AnncID=7DQWR38YKAQKDCBE"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-005",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the settlement cycle for SGX shares?",
+    "options": [
+      "T+2",
+      "T+1",
+      "T+3",
+      "T+0"
+    ],
+    "answerIndex": 0,
+    "explanation": "T+2 since trades of 10 December 2018 (before: T+3).",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://api2.sgx.com/sites/default/files/2018-11/20181108_NPTS%20FAQs_Website_1.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-006",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: dividends from Singapore resident companies are generally not taxable for shareholders.",
+    "answerBool": true,
+    "explanation": "True: under the one-tier system the company's tax is final.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/dividends"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-007",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Singapore generally taxes individuals' gains from buying and selling shares.",
+    "answerBool": false,
+    "explanation": "False: such gains are generally viewed as personal investments and not taxed; trading as a business can be taxed.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/gains-from-sale-of-property-shares-and-financial-instruments"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-008",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Up to how much are deposits insured per depositor and member in Singapore?",
+    "options": [
+      "S$100,000",
+      "S$50,000",
+      "S$250,000",
+      "S$1 million"
+    ],
+    "answerIndex": 0,
+    "explanation": "S$100,000 by the Singapore Deposit Insurance Corporation.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.sdic.org.sg/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-009",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "About what share of SGX-listed companies come from outside Singapore?",
+    "options": [
+      "About 40%",
+      "About 5%",
+      "About 90%",
+      "None"
+    ],
+    "answerIndex": 0,
+    "explanation": "About 40% of listed companies and over 80% of listed bonds, according to SGX.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.sgxgroup.com/about"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-010",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Does SGX have a mid-day break?",
+    "options": [
+      "Yes, 12:00–13:00",
+      "No",
+      "Yes, 11:30–13:00",
+      "Only on Fridays"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading 09:00–12:00 and 13:00–17:00.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://rulebook.sgx.com/rulebook/regulatory-notice-821-trading-hours-market-phases-application-market-phases-and-principles"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SG-011",
+    "category": "SG",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "Straits Times Index first calculated",
+      "SGX formed",
+      "STI relaunched on FTSE methodology",
+      "Board lot cut to 100 shares",
+      "Settlement shortened to T+2"
+    ],
+    "explanation": "1966, 1999, 2008, 2015, 2018.",
+    "lessonLink": "/world/sg",
+    "sources": [
+      "https://www.lseg.com/en/insights/ftse-russell/singapores-sixty-year-journey-of-progress-navigated-through-the-straits-times-index",
+      "https://www.mas.gov.sg/news/speeches/2025/keynote-speech-by-dpm-gan-kim-yong-at-the-sgx-group-25th-anniversary-securities-market-open",
+      "https://links.sgx.com/FileOpen/20140825_SGX_to_introduce_reduced_board_lot_size_from_19_January.ashx?App=ArchiveAnnouncement&FileID=312230&AnncID=7DQWR38YKAQKDCBE",
+      "https://api2.sgx.com/sites/default/files/2018-11/20181108_NPTS%20FAQs_Website_1.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

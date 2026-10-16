@@ -1,0 +1,182 @@
+{
+  "code": "SG",
+  "name": "Singapore",
+  "region": "asia-pacific",
+  "summary": "Singapore Exchange (SGX) was formed on 1 December 1999 from the merger of the stock exchange, the futures exchange and a clearing company. It is a small but very international market: about 40% of its listed companies come from outside Singapore. The Straits Times Index tracks its largest and most liquid companies. Singapore does not tax dividends or, in general, gains from investing in shares.",
+  "currency": {
+    "code": "SGD",
+    "name": "Singapore dollar",
+    "note": "Singapore shares are priced in Singapore dollars, so a euro investor carries currency risk: moves of the Singapore dollar against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Singapore Exchange (SGX)",
+      "tradingTimesId": "sgx",
+      "city": "Singapore",
+      "founded": "1 December 1999 (merger of the Stock Exchange of Singapore, SIMEX and Securities Clearing and Computer Services)",
+      "website": "https://www.sgx.com/",
+      "hours": "Opening routine 08:30–09:00, trading 09:00–12:00, mid-day break 12:00–13:00, trading 13:00–17:00, closing routine until 17:06 and trade at close until 17:16.",
+      "timeZone": "Asia/Singapore",
+      "hoursSource": "https://rulebook.sgx.com/rulebook/regulatory-notice-821-trading-hours-market-phases-application-market-phases-and-principles",
+      "note": "Singapore does not use daylight saving time."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Straits Times Index (STI)",
+      "description": "Tracks the 30 largest and most liquid companies listed on SGX. First calculated in 1966 and relaunched on FTSE's methodology on 10 January 2008; calculated by FTSE Russell with SPH Media Trust (publisher of The Straits Times) and SGX, and reviewed quarterly.",
+      "source": {
+        "title": "Singapore's sixty-year journey of progress, navigated through the Straits Times Index (FTSE Russell)",
+        "url": "https://www.lseg.com/en/insights/ftse-russell/singapores-sixty-year-journey-of-progress-navigated-through-the-straits-times-index"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Monetary Authority of Singapore (MAS)",
+      "role": "Singapore's central bank and integrated financial regulator, including the securities markets.",
+      "url": "https://www.mas.gov.sg/"
+    },
+    {
+      "name": "Singapore Exchange Regulation (SGX RegCo)",
+      "role": "SGX's regulatory subsidiary, which supervises listed companies and market rules.",
+      "url": "https://regco.sgx.com/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Deposit insurance (SDIC)",
+      "text": "Deposits with member banks and finance companies are insured up to S$100,000 per depositor and member.",
+      "url": "https://www.sdic.org.sg/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two market days); T+3 until December 2018",
+    "csd": "The Central Depository (CDP), part of SGX",
+    "note": "Investors can hold shares directly in their own CDP account or, increasingly, through a broker's custody account.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "FAQs on T+2 and new settlement, updated 8 November 2018 (SGX, PDF)",
+      "url": "https://api2.sgx.com/sites/default/files/2018-11/20181108_NPTS%20FAQs_Website_1.pdf"
+    }
+  },
+  "rules": [
+    {
+      "title": "Smaller board lots from October 2026",
+      "text": "The standard board lot is 100 shares (since January 2015; before that 1,000). From 5 October 2026 it falls to 10 shares for instruments priced above S$10 and 1 share above S$100, starting with 11 stocks. SGX reviews this every quarter.",
+      "source": {
+        "title": "SGX custody structure enhancements to take effect from July, board lot reduction in October, 1 July 2026 (SGX news release)",
+        "url": "https://links.sgx.com/FileOpen/20260701%20SGX%20custody%20structure%20enhancements%20to%20take%20effect%20from%20July%20board%20lot%20reduction%20in%20October.ashx?App=Announcement&FileID=895053"
+      }
+    },
+    {
+      "title": "International listings",
+      "text": "About 40% of SGX-listed companies and over 80% of listed bonds come from outside Singapore.",
+      "source": {
+        "title": "About SGX Group (SGX)",
+        "url": "https://www.sgxgroup.com/about"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Dividends from Singapore companies are not taxed (one-tier system). Gains from buying and selling shares are generally treated as personal investment and not taxed. Austria taxes both as usual.",
+    "items": [
+      {
+        "title": "Dividends",
+        "text": "Dividends paid by Singapore resident companies under the one-tier corporate tax system are generally not taxable for shareholders, because the tax paid by the company is final."
+      },
+      {
+        "title": "Gains",
+        "text": "Profits or losses from buying and selling shares or other financial instruments are generally viewed as personal investments and not taxed. Gains from trading as a business can be taxable."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "With no Singapore withholding tax on dividends there is nothing to credit; Austrian KESt applies to dividends and gains as usual (Category Q)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dividends (IRAS)",
+        "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/dividends"
+      },
+      {
+        "title": "Gains from sale of property, shares and financial instruments (IRAS)",
+        "url": "https://www.iras.gov.sg/taxes/individual-income-tax/basics-of-individual-income-tax/what-is-taxable-what-is-not/gains-from-sale-of-property-shares-and-financial-instruments"
+      }
+    ]
+  },
+  "access": [
+    "Some Austrian banks and brokers offer trading on SGX; check costs for converting euros into Singapore dollars.",
+    "Indirectly, through funds or ETFs on the STI, Asian or developed-market Pacific indexes (Category H)."
+  ],
+  "companies": [
+    "DBS Group",
+    "OCBC",
+    "UOB",
+    "Singtel",
+    "Keppel",
+    "Singapore Airlines",
+    "CapitaLand Integrated Commercial Trust",
+    "Sembcorp Industries",
+    "Singapore Exchange",
+    "Wilmar International"
+  ],
+  "history": [
+    {
+      "year": "1966",
+      "text": "The Straits Times Index's history begins (first calculated in 1966)."
+    },
+    {
+      "year": "1999",
+      "text": "SGX is formed on 1 December, merging the Stock Exchange of Singapore, the Singapore International Monetary Exchange and a clearing company."
+    },
+    {
+      "year": "2008",
+      "text": "The STI is relaunched on 10 January using FTSE's methodology."
+    },
+    {
+      "year": "2015",
+      "text": "The standard board lot falls from 1,000 to 100 shares (19 January)."
+    },
+    {
+      "year": "2018",
+      "text": "Settlement moves from T+3 to T+2 for trades from 10 December."
+    },
+    {
+      "year": "2026",
+      "text": "Board lots shrink to 10 or 1 shares for higher-priced stocks from 5 October."
+    }
+  ],
+  "funFacts": [
+    "Singapore's main index is named after a newspaper: it is calculated jointly by FTSE Russell, SGX and SPH Media Trust, publisher of The Straits Times.",
+    "SGX describes itself as the world's most liquid international market for the benchmark equity indices of China, India, Japan and ASEAN (through its futures)."
+  ],
+  "lessons": [
+    "trading-times/lunch-breaks-asia",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Keynote speech at the SGX Group 25th anniversary, 2 January 2025 (MAS)",
+      "url": "https://www.mas.gov.sg/news/speeches/2025/keynote-speech-by-dpm-gan-kim-yong-at-the-sgx-group-25th-anniversary-securities-market-open"
+    },
+    {
+      "title": "Straits Times Index quarterly review, September 2026 (FTSE Russell)",
+      "url": "https://www.lseg.com/en/media-centre/press-releases/ftse-russell/2026/straits-times-index-quarterly-review-september-2026"
+    },
+    {
+      "title": "SGX to introduce reduced board lot size from 19 January, 25 August 2014 (SGX)",
+      "url": "https://links.sgx.com/FileOpen/20140825_SGX_to_introduce_reduced_board_lot_size_from_19_January.ashx?App=ArchiveAnnouncement&FileID=312230&AnncID=7DQWR38YKAQKDCBE"
+    }
+  ]
+}
