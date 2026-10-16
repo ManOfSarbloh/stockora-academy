@@ -1066,5 +1066,22 @@
       "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "K-058",
+    "category": "K",
+    "topic": "lessons-from-history",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In Damodaran's yearly S&P 500 data (1928–2025, including dividends), in how many of the 98 years did the index end the year lower?",
+    "answerNumber": 26,
+    "tolerance": 0,
+    "unit": "years",
+    "explanation": "26 of 98 years were losing years: losses are a normal part of owning shares.",
+    "lessonLink": "/learn/market-cycles-history/lessons-from-history",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

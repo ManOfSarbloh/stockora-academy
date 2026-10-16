@@ -811,5 +811,110 @@
       "https://www.esma.europa.eu/sites/default/files/2025-01/ESMA50-524821-3525_ESMA_Market_Report_-_Costs_and_Performance_of_EU_Retail_Investment_Products.pdf"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-044",
+    "category": "R",
+    "topic": "bank-failures-and-bail-in",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under the SRB's resolution principles, who bears a failing bank's losses after the shareholders?",
+    "options": [
+      "Creditors, in the order of their claims in normal insolvency",
+      "Taxpayers, before anyone else",
+      "Depositors below €100,000 first",
+      "Nobody: losses stop with the shareholders"
+    ],
+    "answerIndex": 0,
+    "explanation": "Shareholders lose first; creditors follow in insolvency order. Covered deposits are protected by the deposit guarantee.",
+    "lessonLink": "/learn/regulation-law-ethics/bank-failures-and-bail-in",
+    "sources": [
+      "https://www.srb.europa.eu/en/content/tasks-tools"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-045",
+    "category": "R",
+    "topic": "complaints-and-redress",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In which languages is the Austrian banking ombudsman's (Bankenschlichtung) procedure conducted?",
+    "options": [
+      "German, and English for cross-border cases",
+      "Only English",
+      "Any EU language",
+      "Only German, without exception"
+    ],
+    "answerIndex": 0,
+    "explanation": "According to its website, the procedure is in German, and in English for cross-border cases. It is voluntary and free of charge.",
+    "lessonLink": "/learn/regulation-law-ethics/complaints-and-redress",
+    "sources": [
+      "https://www.bankenschlichtung.at/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-046",
+    "category": "R",
+    "topic": "corporate-governance-boards",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When was the Austrian Code of Corporate Governance first presented?",
+    "options": [
+      "1 October 2002",
+      "1 January 1999",
+      "15 March 2010",
+      "It has not been published yet"
+    ],
+    "answerIndex": 0,
+    "explanation": "The code was first presented on 1 October 2002 and sets voluntary standards on top of the law.",
+    "lessonLink": "/learn/regulation-law-ethics/corporate-governance-boards",
+    "sources": [
+      "https://www.corporate-governance.at/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-047",
+    "category": "R",
+    "topic": "market-manipulation",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which article of the EU Market Abuse Regulation (MAR) defines market manipulation, as explained by the FMA?",
+    "options": [
+      "Article 12",
+      "Article 4",
+      "Article 25",
+      "Article 99"
+    ],
+    "answerIndex": 0,
+    "explanation": "Article 12 MAR, with examples in Annex I and Delegated Regulation (EU) 2016/522.",
+    "lessonLink": "/learn/regulation-law-ethics/market-manipulation",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/marktmissbrauch/marktmissbrauch/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "R-048",
+    "category": "R",
+    "topic": "sustainable-finance",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "The SFDR asks firms to disclose sustainability information in two directions. What does the 'inside-out' view describe?",
+    "options": [
+      "The adverse impacts of the investments on the environment and society",
+      "Sustainability risks that can affect the value of the investments",
+      "The firm's office energy use only",
+      "The fund's past performance"
+    ],
+    "answerIndex": 0,
+    "explanation": "Outside-in: sustainability risks affecting value. Inside-out: adverse impacts of the investments on the environment and society.",
+    "lessonLink": "/learn/regulation-law-ethics/sustainable-finance",
+    "sources": [
+      "https://finance.ec.europa.eu/sustainable-finance/disclosures/sustainability-related-disclosure-financial-services-sector_en"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

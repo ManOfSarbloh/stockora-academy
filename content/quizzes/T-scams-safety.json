@@ -706,5 +706,90 @@
       "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-038",
+    "category": "T",
+    "topic": "clone-firms-and-fake-regulators",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "What does the FMA do when it learns of a clone firm? Select all that apply.",
+    "options": [
+      "Publishes a warning naming the clone and its contact details",
+      "Prohibits its activities",
+      "Reports the case to the public prosecutor",
+      "Refunds victims from its own budget"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The FMA warns, prohibits and reports; it does not compensate victims.",
+    "lessonLink": "/learn/scams-safety/clone-firms-and-fake-regulators",
+    "sources": [
+      "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-039",
+    "category": "T",
+    "topic": "recovery-scams-and-what-to-do",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What does Investor.gov call scams that target previous fraud victims, for example by posing as regulators who can 'recover' funds for a fee?",
+    "options": [
+      "Reload scams",
+      "Pump and dump",
+      "Ponzi schemes",
+      "Phishing for passwords only"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reload scammers target past victims and demand upfront fees to 'release' or 'recover' funds. Never pay to get your money back.",
+    "lessonLink": "/learn/scams-safety/recovery-scams-and-what-to-do",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-040",
+    "category": "T",
+    "topic": "relationship-and-crypto-scams",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "When victims of a fake trading platform try to withdraw, what does Investor.gov say often happens?",
+    "options": [
+      "They are persuaded to pay 'fees' that can exceed what they deposited in the first place",
+      "They receive their money minus a small fee",
+      "The platform reports itself to the regulator",
+      "Their bank automatically blocks the platform"
+    ],
+    "answerIndex": 0,
+    "explanation": "The withdrawal becomes advance fee fraud: every further payment only increases the loss.",
+    "lessonLink": "/learn/scams-safety/relationship-and-crypto-scams",
+    "sources": [
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud",
+      "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "T-041",
+    "category": "T",
+    "topic": "why-fraud-works",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In 2025 the FMA received 843 reports of investment fraud with total losses of €20 million. What was the average loss per reported case, in euros? (Round to the nearest hundred.)",
+    "answerNumber": 23700,
+    "tolerance": 60,
+    "unit": "€",
+    "explanation": "€20,000,000 ÷ 843 ≈ €23,725, so about €23,700 per case, and only reported cases are counted.",
+    "lessonLink": "/learn/scams-safety/why-fraud-works",
+    "sources": [
+      "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

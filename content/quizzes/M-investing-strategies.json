@@ -889,5 +889,47 @@
       "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-049",
+    "category": "M",
+    "topic": "investment-plan",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which of these are among Investor.gov's 'Five Questions to Ask Before You Invest'? Select all that apply.",
+    "options": [
+      "Is the seller licensed?",
+      "Is the investment registered?",
+      "Do you understand the investment?",
+      "Where can you turn for help?",
+      "How many people liked the offer online?"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "The five questions: licensed seller, registered investment, risks versus rewards, understanding the investment, and where to turn for help.",
+    "lessonLink": "/learn/investing-strategies/investment-plan",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/getting-started/five-questions-ask-you-invest"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "M-050",
+    "category": "M",
+    "topic": "lifecycle-investing",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: in 2022, a 30% shares / 70% bonds mix would also have lost money, because shares and bonds fell together.",
+    "answerBool": true,
+    "explanation": "True: in Damodaran's US data both fell in 2022, so such a saver would have lost about 18%. Reducing share exposure lowers risk; it does not remove it.",
+    "lessonLink": "/learn/investing-strategies/lifecycle-investing",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

@@ -792,5 +792,48 @@
       "https://www.jpx.co.jp/english/equities/trading/domestic/01.html"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-041",
+    "category": "E",
+    "topic": "open-close-and-overlaps",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In the few weeks a year when New York is only five hours behind Vienna, when does the overlap between Vienna's continuous trading and the NYSE core session start (Vienna time)?",
+    "options": [
+      "14:30",
+      "15:30",
+      "13:00",
+      "16:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "The NYSE opens at 09:30 New York time, which is 14:30 in Vienna when the difference is five hours; the overlap then runs until 17:30.",
+    "lessonLink": "/learn/trading-times/open-close-and-overlaps",
+    "sources": [
+      "https://www.nyse.com/trade/hours-calendars",
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "E-042",
+    "category": "E",
+    "topic": "overnight-trading",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which hours (Eastern Time) is Nasdaq's planned night session scheduled to cover?",
+    "options": [
+      "9:00 p.m. to 4:00 a.m.",
+      "8:00 p.m. to 9:30 a.m.",
+      "Midnight to 6:00 a.m.",
+      "4:00 p.m. to 8:00 p.m."
+    ],
+    "answerIndex": 0,
+    "explanation": "The night session (9 p.m.–4 a.m. ET) joins the early (4:00–9:30 a.m.) and late (4–8 p.m.) sessions for near-continuous 23/5 trading.",
+    "lessonLink": "/learn/trading-times/overnight-trading",
+    "sources": [
+      "https://www.nasdaq.com/products/north-american-markets/market-structure-policy/24-hour-trading-hub"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

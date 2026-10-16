@@ -909,5 +909,123 @@
       "https://www.fma.gv.at/en/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-047",
+    "category": "A",
+    "topic": "risk-and-return",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "An investment of €100 falls 15% in one year and rises 15% the next. How much are you down overall after the two years, in percent?",
+    "answerNumber": 2.25,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "€100 × 0.85 = €85; €85 × 1.15 = €97.75. You are 2.25% below where you started: a loss needs a bigger gain to recover.",
+    "lessonLink": "/learn/foundations/risk-and-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-048",
+    "category": "A",
+    "topic": "stocks-bonds-cash-property",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Two bonds pay interest and repay the amount at the end. What mainly decides how risky each one is?",
+    "options": [
+      "Who the borrower is, e.g. a stable government or a struggling company",
+      "Whether the bond is bought on a weekday",
+      "The colour of the bond certificate",
+      "Nothing: all bonds carry the same risk"
+    ],
+    "answerIndex": 0,
+    "explanation": "Bond risk depends heavily on the borrower's ability to pay interest and repay the loan.",
+    "lessonLink": "/learn/foundations/stocks-bonds-cash-property",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/bonds-or-fixed-income-products/bonds"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-049",
+    "category": "A",
+    "topic": "what-is-the-stock-market",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which of the three EU trading venue types under MiFID II is NOT used for trading shares?",
+    "options": [
+      "Organised trading facilities (OTFs)",
+      "Regulated markets",
+      "Multilateral trading facilities (MTFs)",
+      "None: all three trade shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "OTFs are a category for bonds, derivatives and similar instruments; shares trade on regulated markets and MTFs.",
+    "lessonLink": "/learn/foundations/what-is-the-stock-market",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-050",
+    "category": "A",
+    "topic": "who-takes-part",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which state holding company manages the Republic of Austria's stakes in several large Austrian companies?",
+    "options": [
+      "ÖBAG (Österreichische Beteiligungs AG)",
+      "FMA (Finanzmarktaufsicht)",
+      "Wiener Börse AG",
+      "Oesterreichische Nationalbank"
+    ],
+    "answerIndex": 0,
+    "explanation": "ÖBAG manages the state's holdings; the FMA supervises the markets.",
+    "lessonLink": "/learn/foundations/who-takes-part",
+    "sources": [
+      "https://www.oebag.gv.at/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-051",
+    "category": "A",
+    "topic": "why-companies-need-money",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Bakery owners sell a 25% stake to an investor for €300,000. What total value does this deal put on the bakery, in euros?",
+    "answerNumber": 1200000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "If 25% costs €300,000, 100% is worth €300,000 ÷ 0.25 = €1,200,000.",
+    "lessonLink": "/learn/foundations/why-companies-need-money",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "A-052",
+    "category": "A",
+    "topic": "why-prices-move",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Why do share trades happen at all, if buyer and seller look at the same company?",
+    "options": [
+      "They disagree about what it is worth: the seller finds the price good to sell, the buyer good to buy",
+      "The exchange forces them to trade",
+      "The company sets both prices",
+      "Trades only happen when the price is exactly the company's value"
+    ],
+    "answerIndex": 0,
+    "explanation": "Prices reflect the individual opinions of thousands of market participants; a trade happens where a buyer and a seller agree on the price.",
+    "lessonLink": "/learn/foundations/why-prices-move",
+    "sources": [
+      "https://www.wienerborse.at/wissen/einstiegsinformationen/handelsprinzip/kursschwankungen/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

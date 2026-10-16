@@ -744,5 +744,60 @@
       "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-24-general-principles-and"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-041",
+    "category": "G",
+    "topic": "break-even-and-small-trades",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You buy 200 shares at an ask of €20.00 and pay a €10 fee; selling will cost another €10. What is your break-even selling price per share, in euros?",
+    "answerNumber": 20.1,
+    "tolerance": 0.001,
+    "unit": "€",
+    "explanation": "Paid: 200 × €20 + €10 = €4,010. You need €4,010 + €10 = €4,020 from the sale: €4,020 ÷ 200 = €20.10.",
+    "lessonLink": "/learn/returns-and-costs/break-even-and-small-trades",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/how-stock-markets-work/types-orders"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-042",
+    "category": "G",
+    "topic": "total-return",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A share stays at €50 for a year but pays a €2 dividend. What is its total return for the year, in percent?",
+    "answerNumber": 4,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "(€50 − €50 + €2) ÷ €50 = 4%. A flat price does not mean a zero return.",
+    "lessonLink": "/learn/returns-and-costs/total-return",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "G-043",
+    "category": "G",
+    "topic": "total-return",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Why does reinvesting dividends make a big difference over many years?",
+    "options": [
+      "Future returns are earned on a larger amount: the compound effect",
+      "Reinvested dividends are tax-free everywhere",
+      "Reinvesting guarantees the share price rises",
+      "It does not make any difference"
+    ],
+    "answerIndex": 0,
+    "explanation": "Reinvested income itself earns returns, so growth compounds on a growing base (Zinseszinseffekt).",
+    "lessonLink": "/learn/returns-and-costs/total-return",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-z/zinseszinseffekt/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

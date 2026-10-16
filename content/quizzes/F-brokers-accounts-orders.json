@@ -868,5 +868,83 @@
       "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-046",
+    "category": "F",
+    "topic": "choosing-a-broker",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What can you check in the FMA's free app before sending money to an unknown provider?",
+    "options": [
+      "Its company database, register of intermediaries and current investor warnings",
+      "The provider's future share price",
+      "Your Austrian tax refund",
+      "Nothing: the app only shows news"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA app gives access to the company database, the register of intermediaries and investor warnings.",
+    "lessonLink": "/learn/brokers-accounts-orders/choosing-a-broker",
+    "sources": [
+      "https://www.fma.gv.at/fma-app/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-047",
+    "category": "F",
+    "topic": "opening-an-account",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under MiFID II, what is the difference between a suitability and an appropriateness assessment?",
+    "options": [
+      "Suitability applies to advice and portfolio management and covers knowledge, finances and goals; appropriateness checks knowledge and experience for many services without advice",
+      "They are two names for the same test",
+      "Appropriateness is only for bank accounts, suitability only for shares",
+      "Suitability is optional, appropriateness is never required"
+    ],
+    "answerIndex": 0,
+    "explanation": "Article 25 MiFID II: advice needs a suitability assessment (knowledge and experience, financial situation, objectives); many non-advised services need an appropriateness check.",
+    "lessonLink": "/learn/brokers-accounts-orders/opening-an-account",
+    "sources": [
+      "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-25-assessment-suitability-and"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-048",
+    "category": "F",
+    "topic": "order-validity",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "You want exactly 1,000 shares and nothing less, immediately. Which validity matches this?",
+    "options": [
+      "Fill-or-kill (FOK)",
+      "Immediate-or-cancel (IOC)",
+      "Good-till-cancelled (GTC)",
+      "Day order"
+    ],
+    "answerIndex": 0,
+    "explanation": "FOK executes immediately in full or not at all; IOC would accept a partial fill and cancel the rest.",
+    "lessonLink": "/learn/brokers-accounts-orders/order-validity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-14"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "F-049",
+    "category": "F",
+    "topic": "what-a-broker-does",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: if an Austrian bank or investment firm becomes insolvent and cannot return your securities, an investor compensation scheme may step in, within limits.",
+    "answerBool": true,
+    "explanation": "True: securities in your Depot belong to you, and investor compensation can apply within limits if they cannot be returned.",
+    "lessonLink": "/learn/brokers-accounts-orders/what-a-broker-does",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/sonderfall-insolvenz-des-anbieters/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

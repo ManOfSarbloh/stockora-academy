@@ -512,5 +512,93 @@
       "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-027",
+    "category": "S",
+    "topic": "emerging-market-risks",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which of these does FTSE Russell's Quality of Markets matrix check? Select all that apply.",
+    "options": [
+      "Whether regulators actively monitor the market",
+      "Fair treatment of minority shareholders",
+      "Foreign ownership restrictions",
+      "Restrictions on investing and repatriating capital",
+      "How popular the country is with tourists"
+    ],
+    "answers": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "The criteria are in effect a list of risks that separate developed from emerging markets.",
+    "lessonLink": "/learn/world-markets/emerging-market-risks",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/europe-developed-latest.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-028",
+    "category": "S",
+    "topic": "global-indexes",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: the same country can be placed in different groups (for example developed or emerging) by MSCI and by FTSE Russell.",
+    "answerBool": true,
+    "explanation": "True: each provider has its own classification process and criteria, so a country's status can differ between them.",
+    "lessonLink": "/learn/world-markets/global-indexes",
+    "sources": [
+      "https://www.msci.com/indexes/index-resources/market-classification",
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-029",
+    "category": "S",
+    "topic": "major-exchanges",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Since January 2026, on which days does the Tel Aviv Stock Exchange trade?",
+    "options": [
+      "Monday to Friday, with shorter Friday sessions",
+      "Sunday to Thursday",
+      "Only Monday to Wednesday",
+      "Every day of the week"
+    ],
+    "answerIndex": 0,
+    "explanation": "TASE moved its trading week from Sunday–Thursday to Monday–Friday in January 2026.",
+    "lessonLink": "/learn/world-markets/major-exchanges",
+    "sources": [
+      "https://www.tase.co.il/en/content/knowledge_center/trading_vacation_schedule/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "S-030",
+    "category": "S",
+    "topic": "major-exchanges",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which mainland Chinese stock exchanges are linked to Hong Kong through Stock Connect? Select all that apply.",
+    "options": [
+      "Shanghai Stock Exchange",
+      "Shenzhen Stock Exchange",
+      "Taiwan Stock Exchange",
+      "Singapore Exchange"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Stock Connect links HKEX with the Shanghai and Shenzhen exchanges.",
+    "lessonLink": "/learn/world-markets/major-exchanges",
+    "sources": [
+      "https://www.hkex.com.hk/Mutual-Market/Stock-Connect?sc_lang=en"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

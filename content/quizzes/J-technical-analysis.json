@@ -1045,5 +1045,83 @@
       "https://www.tradingview.com/support/solutions/43000591338-publishing-and-updating-ideas/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-056",
+    "category": "J",
+    "topic": "chart-patterns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In a double bottom, which move do traders traditionally wait for before treating it as a reversal signal?",
+    "options": [
+      "A break above the high between the two bottoms",
+      "The second low itself",
+      "Any green candle",
+      "A break below the second low"
+    ],
+    "answerIndex": 0,
+    "explanation": "Until the price breaks the peak between the two lows, the shape is just 'low, rise, low'.",
+    "lessonLink": "/learn/technical-analysis/chart-patterns",
+    "sources": [
+      "https://www.cmegroup.com/education/courses/technical-analysis/technical-patterns-reversals"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-057",
+    "category": "J",
+    "topic": "chart-patterns",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What did Lo, Mamaysky and Wang (2000) do about chart patterns?",
+    "options": [
+      "Built a computer method to identify patterns objectively, and found some carried incremental information on US stocks",
+      "Proved that head and shoulders patterns always work",
+      "Showed that chart patterns can never contain any information",
+      "Invented candlestick charts"
+    ],
+    "answerIndex": 0,
+    "explanation": "They automated pattern recognition because the shapes are often 'in the eyes of the beholder'. Incremental information is not the same as a reliable trading signal.",
+    "lessonLink": "/learn/technical-analysis/chart-patterns",
+    "sources": [
+      "https://www.nber.org/papers/w7613"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-058",
+    "category": "J",
+    "topic": "charting-platforms",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: on TradingView, the paid plans already include the exchange fees for real-time stock data.",
+    "answerBool": false,
+    "explanation": "False. Most stock exchanges charge for real-time data; TradingView says its plans do not cover these fees, so data is often delayed unless you buy a data package.",
+    "lessonLink": "/learn/technical-analysis/charting-platforms",
+    "sources": [
+      "https://www.tradingview.com/support/solutions/43000471705-how-to-purchase-additional-market-data/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "J-059",
+    "category": "J",
+    "topic": "reading-routine",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which problems do Park and Irwin (2007) name in research on technical trading rules?",
+    "options": [
+      "Data snooping and selecting rules after seeing the results",
+      "Too little historical data in every market",
+      "Charts being drawn in the wrong colours",
+      "Exchanges refusing to publish prices"
+    ],
+    "answerIndex": 0,
+    "explanation": "Testing many rules and keeping the best one makes backtests look better than reality.",
+    "lessonLink": "/learn/technical-analysis/reading-routine",
+    "sources": [
+      "https://ideas.repec.org/a/bla/jecsur/v21y2007i4p786-826.html"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

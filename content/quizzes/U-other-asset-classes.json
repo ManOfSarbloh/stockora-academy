@@ -766,5 +766,43 @@
       "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerliche-behandlung-von-kryptowaehrungen.html"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-040",
+    "category": "U",
+    "topic": "gold-and-commodities",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In Damodaran's US dollar data, what did gold do in 2008, when the S&P 500 lost 36.6%?",
+    "options": [
+      "It gained 4.3%",
+      "It lost 32.6%",
+      "It lost 36.6% as well",
+      "It was unchanged"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gold rose 4.3% in 2008. In other periods it fell for years in a row (1988–1992), so it is no reliable hedge.",
+    "lessonLink": "/learn/other-asset-classes/gold-and-commodities",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "U-041",
+    "category": "U",
+    "topic": "property",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under § 11 ImmoInvFG, for at least how many months must you have held units of an Austrian open-ended property fund before you can redeem them?",
+    "answerNumber": 12,
+    "tolerance": 0,
+    "unit": "months",
+    "explanation": "At least 12 months' holding, plus an irrevocable 12-month notice period; payouts can be suspended in exceptional circumstances.",
+    "lessonLink": "/learn/other-asset-classes/property",
+    "sources": [
+      "https://www.jusline.at/gesetz/immoinvfg/paragraf/11"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

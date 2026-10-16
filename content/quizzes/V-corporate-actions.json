@@ -753,5 +753,119 @@
       "https://www.jusline.at/gesetz/aktg/paragraf/111"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-041",
+    "category": "V",
+    "topic": "delisting-and-insolvency",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under § 27e ÜbG, what must the offer document of a delisting offer in Austria state?",
+    "options": [
+      "That a delisting is intended",
+      "Nothing: delisting offers need no document",
+      "Only the bidder's address",
+      "A guarantee that the share price will rise"
+    ],
+    "answerIndex": 0,
+    "explanation": "The document must state the intended delisting; the offer must cover all shares and meet minimum price rules.",
+    "lessonLink": "/learn/corporate-actions/delisting-and-insolvency",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/27e"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-042",
+    "category": "V",
+    "topic": "delisting-and-insolvency",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Under § 27e ÜbG, what applies if the minimum price of a delisting offer is obviously below the company's actual value?",
+    "options": [
+      "The price must be set appropriately",
+      "The offer is still valid at the low price",
+      "Shareholders must pay the difference",
+      "The delisting is automatically cancelled"
+    ],
+    "answerIndex": 0,
+    "explanation": "Besides the five-day average price rule, the law requires an appropriate price if the minimum is obviously below the actual value.",
+    "lessonLink": "/learn/corporate-actions/delisting-and-insolvency",
+    "sources": [
+      "https://www.jusline.at/gesetz/uebg/paragraf/27e"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-043",
+    "category": "V",
+    "topic": "spin-offs",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "A spin-off gives 1 new share for every 4 shares held. You own 102 shares. How many new shares are you entitled to, before any rounding?",
+    "answerNumber": 25.5,
+    "tolerance": 0.001,
+    "unit": "shares",
+    "explanation": "102 ÷ 4 = 25.5. How fractions are handled (cash, rounding, sale) depends on the terms; check your bank's notice.",
+    "lessonLink": "/learn/corporate-actions/spin-offs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/spin-offs"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-044",
+    "category": "V",
+    "topic": "spin-offs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "On the ex-date of a spin-off, the parent company's share price falls. Why?",
+    "options": [
+      "Part of the company now trades separately, so the parent's price no longer includes it",
+      "The company made a loss that day",
+      "The exchange charges a spin-off fee",
+      "It never falls"
+    ],
+    "answerIndex": 0,
+    "explanation": "The value is split between parent and subsidiary: a price drop on the ex-date is not a loss in itself.",
+    "lessonLink": "/learn/corporate-actions/spin-offs",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/spin-offs"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-045",
+    "category": "V",
+    "topic": "takeover-offers-and-mergers",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "After a cash offer of €30 is announced, the target trades at €29.40. How large is the remaining gap, in percent of the market price? (Two decimals.)",
+    "answerNumber": 2.04,
+    "tolerance": 0.02,
+    "unit": "%",
+    "explanation": "(€30 − €29.40) ÷ €29.40 ≈ 2.04%. The gap reflects time until payment and the risk that the offer fails.",
+    "lessonLink": "/learn/corporate-actions/takeover-offers-and-mergers",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/tender-offer"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "V-046",
+    "category": "V",
+    "topic": "what-are-corporate-actions",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Under § 153 AktG, the subscription period for new shares must be at least how many weeks?",
+    "answerNumber": 2,
+    "tolerance": 0,
+    "unit": "weeks",
+    "explanation": "At least two weeks. Banks may set earlier internal deadlines, and rights that are neither exercised nor sold can lapse.",
+    "lessonLink": "/learn/corporate-actions/what-are-corporate-actions",
+    "sources": [
+      "https://www.jusline.at/gesetz/aktg/paragraf/153"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

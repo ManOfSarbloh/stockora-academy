@@ -759,5 +759,72 @@
       "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-040",
+    "category": "O",
+    "topic": "finfluencers-and-social-media",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "A likeable, confident presenter makes their investment tips seem more trustworthy. Which bias is at work?",
+    "options": [
+      "The halo effect",
+      "Home bias",
+      "Mental accounting",
+      "Loss aversion"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA describes the halo effect: one strong characteristic colours the perception of everything else.",
+    "lessonLink": "/learn/psychology/finfluencers-and-social-media",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-041",
+    "category": "O",
+    "topic": "good-habits",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which economist coined the term 'nudging' and received the 2017 Prize in Economic Sciences?",
+    "options": [
+      "Richard Thaler",
+      "Daniel Kahneman",
+      "Robert Shiller",
+      "Eugene Fama"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Nobel committee credits Richard Thaler with the planner-doer model and with showing how nudging can help people exercise self-control.",
+    "lessonLink": "/learn/psychology/good-habits",
+    "sources": [
+      "https://www.nobelprize.org/prizes/economic-sciences/2017/press-release/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "O-042",
+    "category": "O",
+    "topic": "mental-accounting-home-bias-halo",
+    "difficulty": "advanced",
+    "type": "multiple_select",
+    "question": "Which reasons for home bias does the FMA mention? Select all that apply.",
+    "options": [
+      "High international transaction costs",
+      "Information gaps about foreign markets",
+      "Avoiding exchange rate risk",
+      "Home-market shares are guaranteed by the state"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The FMA names costs, information gaps and currency risk, and notes that home-market investments are more correlated with each other.",
+    "lessonLink": "/learn/psychology/mental-accounting-home-bias-halo",
+    "sources": [
+      "https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

@@ -6,7 +6,7 @@ level: beginner
 summary: "An orientation map of major stock exchanges by region, from Vienna to New York, Tokyo and Shanghai, and where to check their opening hours. Detailed country pages follow separately."
 readingTime: 5
 tags: [stock exchanges, world markets, Wiener Börse, NYSE, Tokyo, Hong Kong, trading hours]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-10-16
 sources:
   - title: "Trading hours (Wiener Börse)"
     url: https://www.wienerborse.at/en/trading/trading-information/trading-hours/
@@ -14,6 +14,8 @@ sources:
     url: https://www.wienerborse.at/en/trading/market-segmentation/equity-market/
   - title: "Stock Connect (Hong Kong Exchanges and Clearing)"
     url: https://www.hkex.com.hk/Mutual-Market/Stock-Connect?sc_lang=en
+  - title: "Trading and vacation schedules (Tel Aviv Stock Exchange)"
+    url: https://www.tase.co.il/en/content/knowledge_center/trading_vacation_schedule/
 ---
 
 Stock exchanges exist on every continent. This lesson is a short map; the academy's [Trading Times tool](/times) shows the opening hours, lunch breaks and holidays of major exchanges in your own time zone, with official sources for each.
@@ -34,7 +36,7 @@ Stock exchanges exist on every continent. This lesson is a short map; the academ
 - The **Tokyo Stock Exchange** (Japan Exchange Group), whose best-known index is the Nikkei 225 (Category K).
 - The **Shanghai** and **Shenzhen** stock exchanges in mainland China, and **Hong Kong Exchanges and Clearing (HKEX)**, linked to the mainland exchanges through **Stock Connect** (lesson 2).
 - The **National Stock Exchange of India (NSE)**, the **Korea Exchange (KRX)**, the **Singapore Exchange (SGX)** and the **Australian Securities Exchange (ASX)**.
-- The **Tel Aviv Stock Exchange (TASE)**, which trades on a different weekly schedule from most others.
+- The **Tel Aviv Stock Exchange (TASE)**, which trades Monday to Friday, with shorter sessions on Fridays. Until January 2026 its trading week ran from Sunday to Thursday.
 
 > [!TIP] Time zones matter
 > Exchanges in Asia, Europe and the Americas open at very different times of your day, and only some of their sessions overlap. The Trading Times tool shows the overlaps (Category E).

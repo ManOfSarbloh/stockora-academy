@@ -1036,5 +1036,62 @@
       "https://www.investor.gov/introduction-investing/investing-basics/investment-products/stocks"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-054",
+    "category": "B",
+    "topic": "how-a-share-exists",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Who assigns ISINs (international securities identification numbers) in Austria?",
+    "options": [
+      "Oesterreichische Kontrollbank (OeKB)",
+      "The Vienna Stock Exchange",
+      "The FMA",
+      "Each company itself"
+    ],
+    "answerIndex": 0,
+    "explanation": "In Austria, ISINs are allocated by the OeKB; the exchange gives the share its ticker.",
+    "lessonLink": "/learn/how-stocks-are-made/how-a-share-exists",
+    "sources": [
+      "https://www.oekb.at/en/capital-market-services/isin-allocation.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-055",
+    "category": "B",
+    "topic": "how-a-share-exists",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: for registered shares of an Austrian AG, only the person entered in the share register counts as a shareholder towards the company.",
+    "answerBool": true,
+    "explanation": "True: towards the company, the share register is decisive for registered shares.",
+    "lessonLink": "/learn/how-stocks-are-made/how-a-share-exists",
+    "sources": [
+      "https://startup.usp.gv.at/gruendung/ueberlegungen-im-vorfeld/weitere-informationen/aktiengesellschaft"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "B-056",
+    "category": "B",
+    "topic": "life-after-ipo",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which regular financial reports must a company listed on an EU regulated market publish?",
+    "options": [
+      "Annual and half-yearly financial reports",
+      "Only a report every five years",
+      "Daily profit figures",
+      "No reports once the IPO is done"
+    ],
+    "answerIndex": 0,
+    "explanation": "Regular disclosure (Regelpublizität) includes annual and half-yearly financial reports; price-relevant news must also be published promptly.",
+    "lessonLink": "/learn/how-stocks-are-made/life-after-ipo",
+    "sources": [
+      "https://www.fma.gv.at/kapitalmaerkte/emittentenaufsicht/publizitaetsverpflichtungen-der-emittenten/regelpublizitaet/"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

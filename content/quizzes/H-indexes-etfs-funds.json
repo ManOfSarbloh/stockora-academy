@@ -979,5 +979,48 @@
       "https://www.jusline.at/gesetz/invfg_2011/paragraf/186"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-053",
+    "category": "H",
+    "topic": "comparing-etfs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which costs does a fund's TER (total expense ratio) mainly include?",
+    "options": [
+      "Running costs charged to the fund, such as the management fee, custody, adviser and audit costs",
+      "Your broker's commission when you buy the ETF",
+      "The bid-ask spread on the exchange",
+      "Austrian capital gains tax"
+    ],
+    "answerIndex": 0,
+    "explanation": "The TER covers costs charged to the fund itself; trading costs and spreads when you buy and sell come on top.",
+    "lessonLink": "/learn/indexes-etfs-funds/comparing-etfs",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "H-054",
+    "category": "H",
+    "topic": "comparing-etfs",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Fund A tracks the MSCI World, Fund B the FTSE All-World. What is the key difference between the two indexes?",
+    "options": [
+      "The FTSE All-World also includes emerging markets; the MSCI World covers developed markets only",
+      "There is none: both hold exactly the same companies",
+      "The MSCI World includes emerging markets, the FTSE All-World does not",
+      "The FTSE All-World only holds US companies"
+    ],
+    "answerIndex": 0,
+    "explanation": "Same word 'World', different coverage: always check the index behind a fund.",
+    "lessonLink": "/learn/indexes-etfs-funds/comparing-etfs",
+    "sources": [
+      "https://www.msci.com/indexes/index/990100",
+      "https://www.lseg.com/en/ftse-russell/indices/ftseall-world"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

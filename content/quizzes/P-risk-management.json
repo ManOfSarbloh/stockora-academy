@@ -748,5 +748,56 @@
       "https://www.investor.gov/introduction-investing/investing-basics/what-risk"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-042",
+    "category": "P",
+    "topic": "risk-checklist",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In Austria, up to how many euros does investor compensation cover if securities held in custody cannot be delivered?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Securities in a custody account remain your property; investor compensation covers up to €20,000 if they cannot be delivered (Einlagensicherung AUSTRIA).",
+    "lessonLink": "/learn/risk-management/risk-checklist",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-invest.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-043",
+    "category": "P",
+    "topic": "risk-checklist",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "As a drawdown test, you ask what a fall like 2008 (−36.6% for US shares) would mean for €50,000 in shares. How many euros would you lose?",
+    "answerNumber": 18300,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€50,000 × 36.6% = €18,300. Ask yourself whether you could live with that without selling.",
+    "lessonLink": "/learn/risk-management/risk-checklist",
+    "sources": [
+      "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "P-044",
+    "category": "P",
+    "topic": "sequence-risk",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Start with €100,000 and withdraw €10,000 at the start of each year. Yearly returns are +30%, then +10%, then −30%. What is left after three years, in euros?",
+    "answerNumber": 75390,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "(90,000 × 1.30) = 117,000; (107,000 × 1.10) = 117,700; (107,700 × 0.70) = 75,390. With the bad year first, the same returns leave only €62,790.",
+    "lessonLink": "/learn/risk-management/sequence-risk",
+    "sources": [
+      "https://www.investor.gov/additional-resources/general-resources/publications-research/info-sheets/beginners-guide-asset"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

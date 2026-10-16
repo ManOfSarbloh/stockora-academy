@@ -771,5 +771,47 @@
       "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-043",
+    "category": "Q",
+    "topic": "filing-and-records",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "For income received from 2025, by when must an Austrian bank provide the tax report (Steuerreporting) you request for a year?",
+    "options": [
+      "By 31 March of the following year",
+      "By 31 December of the same year",
+      "Within one week of the request, any time",
+      "Only after five years"
+    ],
+    "answerIndex": 0,
+    "explanation": "Banks and crypto service providers must provide the tax report on request at the latest by 31 March of the following year.",
+    "lessonLink": "/learn/taxes/filing-and-records",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerreporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "Q-044",
+    "category": "Q",
+    "topic": "foreign-brokers",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Gains on shares at a foreign broker that withholds no Austrian tax are declared in your Austrian return. Which rate applies?",
+    "options": [
+      "The special rate of 27.5%, separately from your other income",
+      "Your normal progressive income tax rate, always",
+      "0%: foreign gains are tax-free in Austria",
+      "The foreign country's rate"
+    ],
+    "answerIndex": 0,
+    "explanation": "The special rate of 27.5% (25% for bank deposit interest) applies whether or not the tax is withheld; the option to use the normal rate exists for low incomes.",
+    "lessonLink": "/learn/taxes/foreign-brokers",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/information-zu-einkuenften-aus-kapitalvermoegen.html"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

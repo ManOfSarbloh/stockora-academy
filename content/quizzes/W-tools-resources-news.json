@@ -588,5 +588,47 @@
       "https://www.fma.gv.at/warnungen/"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-031",
+    "category": "W",
+    "topic": "research-routine",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Where can you check whether a provider holds an authorisation from Austria's FMA?",
+    "options": [
+      "The FMA company database (Unternehmensdatenbank)",
+      "The provider's own website",
+      "A finfluencer's comment section",
+      "The Vienna Stock Exchange price list"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA company database shows authorisations; the FMA warning list shows firms acting without one.",
+    "lessonLink": "/learn/tools-resources-news/research-routine",
+    "sources": [
+      "https://www.fma.gv.at/unternehmensdatenbank-suche/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "W-032",
+    "category": "W",
+    "topic": "research-routine",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which Eurostat page tells you in advance when EU statistics such as inflation figures are published?",
+    "options": [
+      "The release calendar",
+      "The FMA warning list",
+      "The OeKB fund database",
+      "The Wiener Börse holiday list"
+    ],
+    "answerIndex": 0,
+    "explanation": "Eurostat publishes a release calendar with the dates of its statistical releases.",
+    "lessonLink": "/learn/tools-resources-news/research-routine",
+    "sources": [
+      "https://ec.europa.eu/eurostat/news/release-calendar"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]

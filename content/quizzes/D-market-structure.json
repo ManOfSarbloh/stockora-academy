@@ -886,5 +886,59 @@
       "https://www.esma.europa.eu/publications-and-data/interactive-single-rulebook/mifid-ii/article-4-definitions"
     ],
     "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-046",
+    "category": "D",
+    "topic": "how-exchanges-work",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which famous composer bought eight shares of the Austrian central bank in 1819, making him one of the Vienna Stock Exchange's early shareholders?",
+    "options": [
+      "Ludwig van Beethoven",
+      "Wolfgang Amadeus Mozart",
+      "Franz Schubert",
+      "Johann Strauss"
+    ],
+    "answerIndex": 0,
+    "explanation": "According to the Wiener Börse, Beethoven bought eight shares in 1819; the central bank's share was the first on the exchange's list in 1818.",
+    "lessonLink": "/learn/market-structure/how-exchanges-work",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-047",
+    "category": "D",
+    "topic": "market-makers-and-liquidity",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "You sell 2,000 shares of an illiquid stock at once: 300 sell at €8.10, 500 at €7.90 and the remaining 1,200 at €7.50. What is your average selling price, in euros?",
+    "answerNumber": 7.69,
+    "tolerance": 0.005,
+    "unit": "€",
+    "explanation": "(300 × 8.10 + 500 × 7.90 + 1,200 × 7.50) ÷ 2,000 = €15,380 ÷ 2,000 = €7.69, well below the best bid of €8.10.",
+    "lessonLink": "/learn/market-structure/market-makers-and-liquidity",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/investor-2",
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/market-makers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "D-048",
+    "category": "D",
+    "topic": "tick-sizes-lots-and-fees",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: under the EU tick size regime, more liquid shares get larger minimum ticks.",
+    "answerBool": false,
+    "explanation": "False. The tick depends on price and liquidity; more liquid shares get smaller ticks because many traders already compete on price.",
+    "lessonLink": "/learn/market-structure/tick-sizes-lots-and-fees",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/esma-publishes-final-report-tick-size-regime"
+    ],
+    "lastReviewed": "2026-10"
   }
 ]
