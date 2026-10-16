@@ -1,0 +1,192 @@
+[
+  {
+    "id": "JP-001",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was Tokyo Stock Exchange Co., Ltd. established?",
+    "answerNumber": 1878,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 15 May 1878.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/corporate/about-jpx/history/01-01.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-002",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In how many shares do common stocks of Japanese listed companies trade (the trading unit)?",
+    "answerNumber": 100,
+    "tolerance": 0,
+    "unit": "shares",
+    "explanation": "100 shares since 1 October 2018.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/03.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-003",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "A share closed at ¥1,000. Within which range can it trade the next day under TSE daily price limits?",
+    "options": [
+      "¥700–¥1,300",
+      "¥900–¥1,100",
+      "¥500–¥1,500",
+      "No limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "JPX's own example.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/06.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-004",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Does the Tokyo Stock Exchange have a lunch break?",
+    "options": [
+      "Yes, 11:30–12:30",
+      "No",
+      "Yes, 12:00–13:30",
+      "Only on Fridays"
+    ],
+    "answerIndex": 0,
+    "explanation": "Morning 09:00–11:30, afternoon 12:30–15:30.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/01.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-005",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What base value and date does TOPIX use?",
+    "options": [
+      "100 points on 4 January 1968",
+      "1,000 points on 4 January 1968",
+      "100 points in 1989",
+      "10,000 points in 2000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Free-float market-cap weighted, base 100 on 4 January 1968.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/markets/indices/topix/index.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-006",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the settlement cycle for Japanese shares?",
+    "options": [
+      "T+2",
+      "T+1",
+      "T+3",
+      "T+0"
+    ],
+    "answerIndex": 0,
+    "explanation": "Two business days after the trade date.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.jpx.co.jp/english/equities/trading/domestic/tvdivq000000tpfi-att/eg.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-007",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the total tax rate for Japanese residents on listed-share dividends (national plus local), in percent?",
+    "answerNumber": 20.315,
+    "tolerance": 0.001,
+    "unit": "%",
+    "explanation": "15.315% + 5% local tax.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-008",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the lifetime tax-free holding limit in the current NISA, in million yen?",
+    "answerNumber": 18,
+    "tolerance": 0,
+    "unit": "¥ million",
+    "explanation": "¥18 million (of which up to ¥12 million in the growth part).",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1535.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-009",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what rate are listed-share dividends paid to non-residents (with under 3%) generally withheld?",
+    "options": [
+      "15.315%",
+      "30%",
+      "20.315%",
+      "10%"
+    ],
+    "answerIndex": 0,
+    "explanation": "15.315%; 20.42% for holders of 3% or more; treaties may reduce it.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://www.nta.go.jp/english/taxes/individual/12006.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "JP-010",
+    "category": "JP",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In which year did the Nikkei 225 first close above its 1989 record high again?",
+    "answerNumber": 2024,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 22 February 2024.",
+    "lessonLink": "/world/jp",
+    "sources": [
+      "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

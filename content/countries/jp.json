@@ -1,0 +1,96 @@
+{
+  "code": "JP",
+  "name": "Japan",
+  "region": "asia-pacific",
+  "summary": "Asia's oldest major market: the Tokyo Stock Exchange traces its origins to 1878 and is now part of Japan Exchange Group (JPX). Shares trade in fixed lots of 100, with a lunch break and daily price limits. TOPIX and the Nikkei 225 are the headline indexes.",
+  "currency": {
+    "code": "JPY",
+    "name": "Japanese yen",
+    "note": "For a euro investor, Japanese shares carry currency risk: moves of the yen against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": { "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" }
+  },
+  "exchanges": [
+    {
+      "name": "Tokyo Stock Exchange (Japan Exchange Group)",
+      "tradingTimesId": "jpx",
+      "city": "Tokyo",
+      "founded": "15 May 1878 (Tokyo Stock Exchange Co., Ltd.); present form 1949",
+      "website": "https://www.jpx.co.jp/english/",
+      "hours": "Morning session 09:00–11:30, afternoon session 12:30–15:30 (the close moved from 15:00 to 15:30 in November 2024).",
+      "timeZone": "Asia/Tokyo",
+      "hoursSource": "https://www.jpx.co.jp/english/equities/trading/domestic/01.html",
+      "holidaysSource": "https://www.jpx.co.jp/english/corporate/about-jpx/calendar/index.html",
+      "note": "Japan does not use daylight saving time."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TOPIX (Tokyo Stock Price Index)",
+      "description": "A free-float adjusted, market-capitalisation-weighted index covering an extensive part of the Japanese market. Base: 100 points on 4 January 1968. Calculated by JPX.",
+      "source": { "title": "TOPIX (Japan Exchange Group)", "url": "https://www.jpx.co.jp/english/markets/indices/topix/index.html" }
+    },
+    {
+      "name": "Nikkei 225",
+      "constituents": "225 companies",
+      "description": "A price index of 225 stocks on the Tokyo Stock Exchange's Prime Market, calculated by Nikkei Inc. It ended 1989 at a record 38,915 and only closed above that again on 22 February 2024 (Category K).",
+      "source": { "title": "Nikkei 225: index information (Nikkei Inc.)", "url": "https://indexes.nikkei.co.jp/en/nkave/index/profile?idx=nk225" }
+    }
+  ],
+  "regulators": [
+    { "name": "Financial Services Agency (FSA)", "role": "Japan's financial regulator, which also oversees the tax-free NISA investment accounts framework.", "url": "https://www.fsa.go.jp/en/" }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days)",
+    "csd": "JASDEC (Japan Securities Depository Center)",
+    "note": "Trades on Monday settle on Wednesday; trades on Friday settle the following Tuesday.",
+    "asOf": "2026-10-16",
+    "source": { "title": "Guide to TSE trading methodology, 2024 edition (JPX, PDF)", "url": "https://www.jpx.co.jp/english/equities/trading/domestic/tvdivq000000tpfi-att/eg.pdf" }
+  },
+  "rules": [
+    {
+      "title": "Trading unit of 100 shares",
+      "text": "All common stocks of listed domestic companies trade in units of 100 shares since 1 October 2018, so the minimum purchase is 100 × the share price.",
+      "source": { "title": "Trading unit (JPX)", "url": "https://www.jpx.co.jp/english/equities/trading/domestic/03.html" }
+    },
+    {
+      "title": "Daily price limits",
+      "text": "Each share can only move within a set range around the previous close in one day; for example, from a close of ¥1,000 the limits are ¥700 and ¥1,300. Limits can widen after two days at the limit.",
+      "source": { "title": "Daily price limits (JPX)", "url": "https://www.jpx.co.jp/english/equities/trading/domestic/06.html" }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: 20.315% on listed-share dividends and gains (15.315% national + 5% local); NISA accounts tax-free. Non-residents: 15.315% withholding on listed-share dividends (20.42% for 3%+ holders), reducible by treaty.",
+    "items": [
+      { "title": "Residents", "text": "Dividends on listed shares are taxed at 15.315% (income tax incl. reconstruction surtax) plus 5% local tax; gains on listed shares likewise." },
+      { "title": "NISA", "text": "Residents aged 18 or over can invest up to ¥1.2 million a year (tsumitate) and ¥2.4 million (growth) tax-free, with a lifetime limit of ¥18 million." },
+      { "title": "Non-residents", "text": "Listed-share dividends paid to non-residents are generally subject to 15.315% withholding; 20.42% applies to holders of 3% or more. A tax treaty may reduce this." },
+      { "title": "For an Austrian investor", "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q)." }
+    ],
+    "sources": [
+      { "title": "No.1330 配当金を受け取ったとき (National Tax Agency, in Japanese)", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1330.htm" },
+      { "title": "No.1535 NISA制度 (National Tax Agency, in Japanese)", "url": "https://www.nta.go.jp/taxes/shiraberu/taxanswer/shotoku/1535.htm" },
+      { "title": "No.12006 Tax on the income of an individual non-resident (National Tax Agency)", "url": "https://www.nta.go.jp/english/taxes/individual/12006.htm" }
+    ]
+  },
+  "access": [
+    "Some Austrian banks and brokers offer trading on the Tokyo Stock Exchange; note the 100-share minimum lot and yen conversion.",
+    "Indirectly, through funds or ETFs on TOPIX, the Nikkei 225 or Asian indexes (Category H)."
+  ],
+  "history": [
+    { "year": "1878", "text": "Tokyo Stock Exchange Co., Ltd. is established on 15 May." },
+    { "year": "1949", "text": "The Tokyo Stock Exchange in its present form is founded (opened 16 May)." },
+    { "year": "1989", "text": "The Nikkei 225 ends the year at a record 38,915 (Category K)." },
+    { "year": "2024", "text": "The Nikkei 225 finally closes above its 1989 high (22 February); TSE's afternoon close moves to 15:30 (November)." }
+  ],
+  "lessons": ["market-cycles-history/vienna-1873-and-japan-1989", "trading-times/lunch-breaks-asia"],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    { "title": "Before JPX launched: history (JPX)", "url": "https://www.jpx.co.jp/english/corporate/about-jpx/history/01-01.html" },
+    { "title": "Japan's Nikkei closes above 1989's all-time high (Nikkei Asia)", "url": "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high" }
+  ]
+}
