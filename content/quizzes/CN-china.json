@@ -1,0 +1,263 @@
+[
+  {
+    "id": "CN-001",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year did both mainland Chinese stock exchanges, Shanghai and Shenzhen, open?",
+    "answerNumber": 1990,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Shanghai was established on 26 November 1990 and Shenzhen on 1 December 1990.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://english.sse.com.cn/aboutsse/overview/",
+      "https://www.szse.cn/English/about/overview/index.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-002",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the normal daily price limit for A-shares on the Shanghai and Shenzhen Main Boards?",
+    "options": [
+      "±10%",
+      "±5%",
+      "±20%",
+      "No limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "±10% on the Main Boards; ±20% on STAR Market and ChiNext; 5% for shares under risk warning.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://english.sse.com.cn/start/trading/mechanism/",
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-003",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "match",
+    "question": "Match each market segment with its daily price limit.",
+    "pairs": [
+      [
+        "Shanghai/Shenzhen Main Board",
+        "±10%"
+      ],
+      [
+        "STAR Market and ChiNext",
+        "±20%"
+      ],
+      [
+        "Shares under risk warning",
+        "±5%"
+      ]
+    ],
+    "explanation": "As set by the exchanges.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://english.sse.com.cn/start/trading/mechanism/",
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-004",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: a Stock Connect investor who buys Shanghai shares in the morning can sell them the same afternoon.",
+    "answerBool": false,
+    "explanation": "False. Day trading is not allowed: shares bought on T can only be sold from T+1.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-005",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In what multiples must buy orders for Main Board A-shares be placed?",
+    "options": [
+      "100 shares",
+      "1 share",
+      "1,000 shares",
+      "10 shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Buy orders must be in board lots of 100 shares (STAR Market: minimum 200 shares).",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://english.sse.com.cn/start/trading/mechanism/",
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-006",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How do Hong Kong and overseas investors usually reach Shanghai and Shenzhen shares?",
+    "options": [
+      "Through Stock Connect, via Hong Kong",
+      "Only by opening a mainland bank account",
+      "Only through the London Stock Exchange",
+      "They cannot buy A-shares at all"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stock Connect links Hong Kong with Shanghai (since 2014) and Shenzhen (since 2016).",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-007",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "Shanghai Stock Exchange opens",
+      "ChiNext launches in Shenzhen",
+      "Shanghai Connect launches",
+      "STAR Market's first listings trade"
+    ],
+    "explanation": "1990, 2009, 2014, 2019.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://english.sse.com.cn/aboutsse/overview/",
+      "https://www.szse.cn/English/about/overview/index.html",
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-008",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what standard rate is Chinese tax withheld on dividends for Stock Connect investors, in percent?",
+    "answerNumber": 10,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "10%, withheld by the listed company; treaty residents with a lower rate can apply for a refund.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-009",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who pays the 0.05% stamp duty on A-share trades?",
+    "options": [
+      "Only the seller",
+      "Only the buyer",
+      "Both sides",
+      "Nobody since 2023"
+    ],
+    "answerIndex": 0,
+    "explanation": "The seller only. It was halved from 0.1% to 0.05% on 28 August 2023.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-010",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: overseas investors pay Chinese capital gains tax on A-shares sold through Stock Connect.",
+    "answerBool": false,
+    "explanation": "False. Under a 2014 notice they are exempt from capital gains tax and business tax.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-011",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the maximum share of a listed company's total shares that a single foreign investor may hold in A-shares?",
+    "options": [
+      "10%",
+      "5%",
+      "30%",
+      "49%"
+    ],
+    "answerIndex": 0,
+    "explanation": "10% for a single foreign investor; 30% for all foreign investors together.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-012",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the CSI 300?",
+    "options": [
+      "An index of the 300 largest and most liquid A-shares",
+      "An index of 300 Hong Kong shares",
+      "Shanghai's opening auction rule",
+      "A government bond"
+    ],
+    "answerIndex": 0,
+    "explanation": "Base 1,000 on 31 December 2004, calculated by China Securities Index Co.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.csindex.com.cn/en/indices/index-detail/000300"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CN-013",
+    "category": "CN",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "Up to how much (in renminbi) are bank deposits per depositor and bank protected by China's deposit insurance?",
+    "answerNumber": 500000,
+    "tolerance": 0,
+    "unit": "RMB",
+    "explanation": "RMB 500,000 under the Deposit Insurance Regulations in force since 1 May 2015.",
+    "lessonLink": "/world/cn",
+    "sources": [
+      "https://www.gov.cn/zhengce/content/2015-03/31/content_9562.htm"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

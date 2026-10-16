@@ -1,0 +1,227 @@
+{
+  "code": "CN",
+  "name": "China (mainland)",
+  "region": "asia-pacific",
+  "summary": "Mainland China's two stock exchanges, in Shanghai and Shenzhen, both opened in December 1990. Together they form one of the world's largest stock markets by value. Local shares (A-shares) trade in renminbi under special rules: daily price limits, 100-share buy lots and no selling on the day of purchase. Foreign private investors usually reach them through Stock Connect in Hong Kong.",
+  "currency": {
+    "code": "CNY",
+    "name": "Chinese yuan (renminbi)",
+    "note": "A-shares are priced in yuan, so a euro investor carries currency risk: moves of the yuan against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Secondary Emerging",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Shanghai Stock Exchange (SSE)",
+      "tradingTimesId": "china",
+      "city": "Shanghai",
+      "founded": "26 November 1990 (formal operations from 19 December 1990)",
+      "website": "https://english.sse.com.cn/",
+      "hours": "Opening call auction 09:15–09:25, continuous trading 09:30–11:30 and 13:00–14:57, closing call auction 14:57–15:00. Lunch break 11:30–13:00.",
+      "timeZone": "Asia/Shanghai",
+      "hoursSource": "https://english.sse.com.cn/start/trading/schedule/",
+      "note": "Home of the Main Board and, since 2019, the STAR Market for science and technology companies."
+    },
+    {
+      "name": "Shenzhen Stock Exchange (SZSE)",
+      "city": "Shenzhen",
+      "founded": "1 December 1990",
+      "website": "https://www.szse.cn/English/",
+      "hours": "Same as Shanghai: opening call auction 09:15–09:25, continuous trading 09:30–11:30 and 13:00–14:57, closing call auction 14:57–15:00.",
+      "timeZone": "Asia/Shanghai",
+      "hoursSource": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf",
+      "note": "Runs the Main Board and the ChiNext market (launched October 2009) for growth companies."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CSI 300",
+      "constituents": "300 securities",
+      "description": "The 300 largest and most liquid A-share stocks from Shanghai and Shenzhen. Base 1,000 points on 31 December 2004, published since 8 April 2005; reviewed twice a year. Calculated by China Securities Index Co.",
+      "source": {
+        "title": "CSI 300 Index (China Securities Index Co.)",
+        "url": "https://www.csindex.com.cn/en/indices/index-detail/000300"
+      }
+    },
+    {
+      "name": "SSE Composite Index",
+      "description": "All eligible shares and depositary receipts listed in Shanghai. Base 100 points on 19 December 1990, the exchange's first trading day; published since 15 July 1991.",
+      "source": {
+        "title": "SSE Composite Index (China Securities Index Co.)",
+        "url": "https://www.csindex.com.cn/en/indices/index-detail/000001"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "China Securities Regulatory Commission (CSRC)",
+      "role": "Supervises the securities and futures markets, including both stock exchanges, which are self-regulated legal entities under its supervision.",
+      "url": "http://www.csrc.gov.cn/csrc_en/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Deposit insurance (People's Bank of China)",
+      "text": "Bank deposits are protected up to RMB 500,000 per depositor and bank, under the Deposit Insurance Regulations in force since 1 May 2015.",
+      "url": "https://www.gov.cn/zhengce/content/2015-03/31/content_9562.htm"
+    },
+    {
+      "name": "Hong Kong Investor Compensation Fund (for Stock Connect)",
+      "text": "Since 1 January 2020, the Hong Kong Investor Compensation Fund also covers Northbound trading through Stock Connect, for example if a Hong Kong broker defaults.",
+      "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+    }
+  ],
+  "settlement": {
+    "cycle": "Shares settle on the trade day (T); cash on T or T+1",
+    "csd": "China Securities Depository and Clearing Corporation (ChinaClear / CSDC)",
+    "note": "Shares bought on one day can only be sold from the next trading day (no day trading), also for Stock Connect investors.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "Stock Connect Information Book for Investors, version 6 July 2026, section 4.2 (HKEX, PDF)",
+      "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    }
+  },
+  "rules": [
+    {
+      "title": "Daily price limits",
+      "text": "A-shares may only trade within a band around the previous close: ±10% on the Main Boards, ±20% on the STAR Market and ChiNext, and 5% for shares under risk warning. Orders outside the band are rejected.",
+      "source": {
+        "title": "Trading mechanism (Shanghai Stock Exchange)",
+        "url": "https://english.sse.com.cn/start/trading/mechanism/"
+      }
+    },
+    {
+      "title": "Buy in lots of 100, sell from the next day",
+      "text": "Buy orders must be in multiples of 100 shares (STAR Market: at least 200 shares). Shares bought on trade day T can only be sold from T+1.",
+      "source": {
+        "title": "Stock Connect Information Book for Investors, sections 3.11–3.12 (HKEX, PDF)",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+      }
+    },
+    {
+      "title": "Foreign ownership limits",
+      "text": "A single foreign investor may hold at most 10% of a listed company's shares, and all foreign investors together at most 30% of its A-shares, across all access channels.",
+      "source": {
+        "title": "Stock Connect FAQ, question 1.49 (HKEX, PDF)",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+      }
+    },
+    {
+      "title": "Stock Connect daily quota",
+      "text": "Northbound buying through Stock Connect is capped by a daily net-buy quota of RMB 52 billion each for Shanghai and Shenzhen. It resets every day.",
+      "source": {
+        "title": "Stock Connect Information Book for Investors, section 3.4 (HKEX, PDF)",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Via Stock Connect: 10% Chinese tax withheld on dividends (treaty refund possible); no Chinese capital gains tax; 0.05% stamp duty on the seller since 28 August 2023.",
+    "items": [
+      {
+        "title": "Dividends (Stock Connect)",
+        "text": "Hong Kong and overseas investors pay 10% tax on cash dividends and bonus shares, withheld by the listed company. Investors from a treaty country with a lower rate can apply to the Chinese tax authority for a refund of the difference."
+      },
+      {
+        "title": "Capital gains (Stock Connect)",
+        "text": "Hong Kong and overseas investors are exempt from capital gains tax and business tax on A-shares traded through Stock Connect (notice of the Ministry of Finance, State Taxation Administration and CSRC, 14 November 2014)."
+      },
+      {
+        "title": "Stamp duty",
+        "text": "0.05% of the value of each A-share trade, paid by the seller only. It was halved from 0.1% on 28 August 2023."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q), so the 10% Chinese tax can usually be credited in full."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stock Connect FAQ, section 5 (taxes), version 6 July 2026 (HKEX, PDF)",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/FAQ/FAQ_En.pdf"
+      },
+      {
+        "title": "Stock Connect Information Book for Investors, section 7 (fees and taxes) (HKEX, PDF)",
+        "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+      }
+    ]
+  },
+  "access": [
+    "Stock Connect: brokers with access to the Hong Kong exchange can route orders for eligible Shanghai and Shenzhen shares (Northbound trading). Not every Austrian bank or broker offers this.",
+    "Many large Chinese companies also list H-shares in Hong Kong (in Hong Kong dollars), and some have depositary receipts in the US.",
+    "Indirectly, through funds or ETFs on Chinese, Asian or emerging-market indexes (Category H)."
+  ],
+  "companies": [
+    "Kweichow Moutai",
+    "CATL (Contemporary Amperex Technology)",
+    "Industrial and Commercial Bank of China",
+    "China Merchants Bank",
+    "Ping An Insurance",
+    "BYD",
+    "PetroChina",
+    "Agricultural Bank of China",
+    "China Yangtze Power",
+    "Midea Group"
+  ],
+  "history": [
+    {
+      "year": "1990",
+      "text": "The Shanghai Stock Exchange is established on 26 November and starts operations on 19 December; the Shenzhen Stock Exchange is established on 1 December."
+    },
+    {
+      "year": "2009",
+      "text": "Shenzhen launches the ChiNext market for growth companies (October)."
+    },
+    {
+      "year": "2014",
+      "text": "Shanghai Connect launches on 17 November, linking Hong Kong and Shanghai."
+    },
+    {
+      "year": "2016",
+      "text": "Shenzhen Connect follows on 5 December."
+    },
+    {
+      "year": "2019",
+      "text": "Shanghai's STAR Market debuts; the first 25 companies start trading on 22 July."
+    },
+    {
+      "year": "2023",
+      "text": "Stamp duty on A-share trades is halved to 0.05% from 28 August."
+    }
+  ],
+  "funFacts": [
+    "The Shanghai Stock Exchange's first home was the Astor House Hotel on the old financial street near the Bund.",
+    "All of mainland China uses one time zone (UTC+8) and has no daylight saving time, so both exchanges keep the same hours all year."
+  ],
+  "lessons": [
+    "world-markets/accessing-foreign-markets",
+    "world-markets/emerging-market-risks",
+    "trading-times/lunch-breaks-asia"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Overview (Shanghai Stock Exchange)",
+      "url": "https://english.sse.com.cn/aboutsse/overview/"
+    },
+    {
+      "title": "Overview (Shenzhen Stock Exchange)",
+      "url": "https://www.szse.cn/English/about/overview/index.html"
+    },
+    {
+      "title": "Stock Connect Information Book for Investors, version 6 July 2026 (HKEX, PDF)",
+      "url": "https://www.hkex.com.hk/-/media/HKEX-Market/Mutual-Market/Stock-Connect/Getting-Started/Information-Booklet-and-FAQ/Information-Book-for-Investors/Investor_Book_En.pdf"
+    },
+    {
+      "title": "Clearing and settlement (Shanghai Stock Exchange)",
+      "url": "https://english.sse.com.cn/start/settlement/clearing/"
+    }
+  ]
+}
