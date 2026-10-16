@@ -1,0 +1,251 @@
+[
+  {
+    "id": "PL-001",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was the Warsaw Mercantile Exchange established, the start of Polish capital market traditions?",
+    "answerNumber": 1817,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "1817; today's Warsaw Stock Exchange company was founded in 1991.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.gpw.pl/about-the-company"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-002",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When was today's Warsaw Stock Exchange company founded?",
+    "options": [
+      "12 April 1991",
+      "9 November 1989",
+      "1 May 2004",
+      "16 April 1994"
+    ],
+    "answerIndex": 0,
+    "explanation": "By the State Treasury on 12 April 1991, after the fall of communism.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.gpw.pl/about-the-company"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-003",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the WIG20 contain?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "20 major and most liquid companies on the WSE Main List.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://gpwbenchmark.pl/en-karta-indeksu?isin=PL9999999987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-004",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Since which year has the WIG20 been calculated?",
+    "answerNumber": 1994,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Since 16 April 1994.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://gpwbenchmark.pl/en-karta-indeksu?isin=PL9999999987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-005",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In which year did FTSE Russell promote Poland to developed-market status?",
+    "options": [
+      "2018",
+      "2008",
+      "2004",
+      "2022"
+    ],
+    "answerIndex": 0,
+    "explanation": "Effective 24 September 2018; in 2008 Poland moved from Secondary to Advanced Emerging.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-006",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In which currency do shares trade on the Warsaw Stock Exchange?",
+    "options": [
+      "Polish złoty (PLN)",
+      "Euro",
+      "Czech koruna",
+      "US dollar"
+    ],
+    "answerIndex": 0,
+    "explanation": "Poland is in the EU but does not use the euro.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.gpw.pl/about-the-company"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-007",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises the Polish financial market?",
+    "options": [
+      "KNF (Polish Financial Supervision Authority)",
+      "FMA",
+      "BaFin",
+      "CNMV"
+    ],
+    "answerIndex": 0,
+    "explanation": "KNF.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.knf.gov.pl/en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-008",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Up to what amount does Poland's Bank Guarantee Fund cover eligible deposits per depositor and institution?",
+    "options": [
+      "€100,000",
+      "PLN 100,000",
+      "€20,000",
+      "Unlimited"
+    ],
+    "answerIndex": 0,
+    "explanation": "€100,000 (in złoty or foreign currencies).",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://bfg.pl/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-009",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "At what rate is income from selling shares taxed for Polish residents, in percent?",
+    "answerNumber": 19,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "19%, declared on PIT-38.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.podatki.gov.pl/media/g5ebnm2e/broszura-do-pit-38-za-2025-r.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-010",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in Poland, losses from selling shares can be offset against income from the same source in the following five years, within limits.",
+    "answerBool": true,
+    "explanation": "True, as explained in the PIT-38 brochure.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.podatki.gov.pl/media/g5ebnm2e/broszura-do-pit-38-za-2025-r.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-011",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which institution is Poland's central securities depository?",
+    "options": [
+      "KDPW",
+      "Euroclear Poland",
+      "Clearstream",
+      "GPW Benchmark"
+    ],
+    "answerIndex": 0,
+    "explanation": "KDPW, Krajowy Depozyt Papierów Wartościowych.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.kdpw.pl/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-012",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were WIG20 members in 2026? Select all that apply.",
+    "options": [
+      "PKO Bank Polski",
+      "CD Projekt",
+      "KGHM",
+      "Volvo"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Volvo is Swedish and in the OMXS30.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://gpwbenchmark.pl/en-karta-indeksu?isin=PL9999999987"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "PL-013",
+    "category": "PL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Poland, as an EU member, moves to T+1 settlement on 11 October 2027.",
+    "answerBool": true,
+    "explanation": "True.",
+    "lessonLink": "/world/pl",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

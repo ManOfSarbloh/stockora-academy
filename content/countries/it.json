@@ -1,0 +1,169 @@
+{
+  "code": "IT",
+  "name": "Italy",
+  "region": "europe",
+  "summary": "Milan's exchange was created by Napoleonic decree in 1808 and is now Euronext Milan, run by Borsa Italiana within the Euronext group. The FTSE MIB tracks 40 leading Italian companies, with banks, energy and luxury brands prominent. Buying Italian shares costs a financial transaction tax.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "Same currency as Austria, so no exchange-rate risk for a euro investor."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Milan (Borsa Italiana)",
+      "city": "Milan",
+      "founded": "1808 (Milan Merchandise Exchange, created by decree of 16 January 1808)",
+      "website": "https://www.borsaitaliana.it/",
+      "hours": "Opening auction 07:30–09:00, continuous trading 09:00–17:30, closing auction 17:30–17:35, then trading at the closing price until 17:40.",
+      "timeZone": "Europe/Rome",
+      "hoursSource": "https://www.borsaitaliana.it/azioni/mercati/negoziazioni/negoziazioni/negoziazioni.en.htm",
+      "holidaysSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
+      "note": "Milan closes on some days when other Euronext markets trade, for example 24 and 31 December 2026."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE MIB",
+      "constituents": "40 companies",
+      "description": "The 40 leading shares on Euronext Milan and Euronext MIV Milan, selected by liquidity and market capitalisation. Calculated by FTSE Russell with Borsa Italiana.",
+      "source": {
+        "title": "Indice FTSE MIB: glossario (Borsa Italiana, in Italian)",
+        "url": "https://www.borsaitaliana.it/borsa/glossario/indice-ftse-mib.html"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CONSOB (Commissione Nazionale per le Società e la Borsa)",
+      "role": "Italy's national commission for companies and the stock exchange: the securities market regulator.",
+      "url": "https://www.consob.it/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FITD (Interbank Deposit Protection Fund)",
+      "text": "Deposits at member banks are guaranteed up to €100,000 per depositor and bank. Cooperative and rural banks belong to a separate guarantee fund.",
+      "url": "https://www.fitd.it/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Euronext Securities Milan (Euronext's CSD in Milan)",
+    "note": "Like the rest of the EU, Italy moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Financial transaction tax",
+      "text": "Transfers of shares of Italian companies are taxed at 0.4% of the value since 1 January 2026 (0.2% until the end of 2025). The rate is halved for trades on regulated markets or multilateral trading facilities, so exchange purchases cost 0.2%. Shares of companies with an average market value below €500 million (in the previous November) are exempt.",
+      "source": {
+        "title": "Imposta sulle transazioni finanziarie: che cos'è (Agenzia delle Entrate, updated 17 March 2026, in Italian)",
+        "url": "https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-sulle-transazioni-finanziarie/infogen-imposta-transazioni-finanziarie"
+      }
+    },
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: 26% substitute tax on most capital gains on financial instruments. Non-residents: Italian tax withheld on dividends; treaty rate can be applied directly by the payer or refunds claimed within 48 months. FTT 0.2% on exchange purchases of larger Italian companies (2026).",
+    "items": [
+      {
+        "title": "Capital gains (residents)",
+        "text": "Gains on financial instruments are generally subject to a 26% substitute tax; some categories use a 20% rate."
+      },
+      {
+        "title": "Dividends for foreign investors",
+        "text": "Italy withholds tax on dividends paid to non-residents. A non-resident can ask the Italian withholding agent to apply the tax treaty rate directly, or claim a refund of the excess from the Agenzia delle Entrate (Centro Operativo di Pescara) within 48 months."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q); any higher Italian withholding must be reclaimed in Italy."
+      },
+      {
+        "title": "Transaction tax",
+        "text": "See market rules above: 0.4%, or 0.2% for trades on regulated markets, since 2026."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Plusvalenze di natura finanziaria (Agenzia delle Entrate, dichiarazione precompilata, in Italian)",
+        "url": "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-plusvalenze-natura-finanziaria"
+      },
+      {
+        "title": "Convenzioni contro le doppie imposizioni: soggetti non residenti in Italia (Agenzia delle Entrate, in Italian)",
+        "url": "https://www.agenziaentrate.gov.it/portale/schede/rimborsi/convenzioni-contro-le-doppie-imposizioni/soggetti-non-residenti-in-italia"
+      },
+      {
+        "title": "Imposta sulle transazioni finanziarie (Agenzia delle Entrate, in Italian)",
+        "url": "https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-sulle-transazioni-finanziarie/infogen-imposta-transazioni-finanziarie"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on Euronext Milan in euros; check whether the Italian transaction tax is added.",
+    "Indirectly, through funds or ETFs on the FTSE MIB or broader European indexes (Category H)."
+  ],
+  "companies": [
+    "Enel",
+    "Eni",
+    "Intesa Sanpaolo",
+    "UniCredit",
+    "Generali",
+    "Ferrari",
+    "Stellantis",
+    "Leonardo",
+    "Moncler",
+    "Prysmian"
+  ],
+  "history": [
+    {
+      "year": "1808",
+      "text": "A decree of 16 January by Viceroy Eugène Napoléon creates the Milan Merchandise Exchange; a second decree of 6 February sets its first rules."
+    },
+    {
+      "year": "2026",
+      "text": "Italy doubles its financial transaction tax on shares, to 0.4% (0.2% on regulated markets), from 1 January."
+    }
+  ],
+  "funFacts": [
+    "According to Borsa Italiana, the French authorities wanted Milan's exchange partly as an organised market for selling public debt, in competition with London."
+  ],
+  "lessons": [
+    "world-markets/major-exchanges",
+    "macroeconomics/euro-crisis"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "The history of the Italian Stock Exchange: the birth, 1808–1814 (Borsa Italiana)",
+      "url": "https://www.borsaitaliana.it/borsaitaliana/storia/storia/nascita-della-borsa-italiana.en.htm"
+    },
+    {
+      "title": "FTSE MIB constituents (Borsa Italiana)",
+      "url": "https://www.borsaitaliana.it/borsa/azioni/ftse-mib/lista.html?lang=en"
+    },
+    {
+      "title": "Euronext celebrates 25 years (Euronext)",
+      "url": "https://www.euronext.com/en/news/25-years-euronext-celebrating-quarter-century-shaping-capital-markets"
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+[
+  {
+    "id": "ES-001",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year was the Madrid Stock Exchange created?",
+    "answerNumber": 1831,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "In 1831, making it one of Spain's oldest financial institutions.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/en/bme-exchange/madrid-stock-exchange/history.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-002",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the IBEX 35 contain?",
+    "answerNumber": 35,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "35 of the largest securities traded in Spain.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/dam/descargas/indices/factsheet-ibex-35-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-003",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What was the IBEX 35's base level on 29 December 1989?",
+    "options": [
+      "3,000 points",
+      "1,000 points",
+      "1,500 points",
+      "100 points"
+    ],
+    "answerIndex": 0,
+    "explanation": "3,000 points.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/dam/descargas/indices/factsheet-ibex-35-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-004",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which group has owned BME, the operator of the Spanish exchanges, since 2020?",
+    "options": [
+      "SIX Group",
+      "Euronext",
+      "Deutsche Börse",
+      "London Stock Exchange Group"
+    ],
+    "answerIndex": 0,
+    "explanation": "SIX, which also runs the Swiss exchange.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/en/about-bme.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-005",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does continuous trading run on the Spanish exchange's SIBE system?",
+    "options": [
+      "09:00–17:30",
+      "08:30–16:30",
+      "10:00–18:00",
+      "09:30–16:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Opening auction 08:30–09:00; closing auction 17:30–17:35; trading at last until 17:45.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/bme-exchange/en/Trading/Trading-Hours"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-006",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount does Spain's FGD guarantee deposits per holder and institution, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.fgd.es/en/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-007",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the Spanish financial transaction tax rate, in percent?",
+    "answerNumber": 0.2,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "0.2% on purchases of shares of Spanish companies worth more than €1 billion.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.boe.es/buscar/act.php?id=BOE-A-2020-12356"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-008",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what rate does Spain tax dividends paid to non-residents without a permanent establishment, before treaty limits, in percent?",
+    "answerNumber": 19,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "19%.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://sede.agenciatributaria.gob.es/Sede/no-residentes/irnr-sin-establecimiento-permanente/tipos-gravamen-irnr-sin-establecimiento-permanente.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-009",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "In the 2025 Spanish scale, what is the top state rate on savings income above €300,000?",
+    "options": [
+      "15%",
+      "9.5%",
+      "19%",
+      "30%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The state part runs from 9.5% to 15%; with the regional part (also up to 15%) the top combined rate is 30%.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro/gravamen-estatal.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-010",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which institution is the Spanish central securities depository?",
+    "options": [
+      "Iberclear",
+      "Euroclear France",
+      "Clearstream",
+      "KDPW"
+    ],
+    "answerIndex": 0,
+    "explanation": "Iberclear is a subsidiary of BME.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/en/securities-services/iberclear.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-011",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were IBEX 35 members in December 2025? Select all that apply.",
+    "options": [
+      "Santander",
+      "Inditex",
+      "Iberdrola",
+      "Ferrari"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Ferrari is Italian and in the FTSE MIB.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.bolsasymercados.es/dam/descargas/indices/factsheet-ibex-35-en.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "ES-012",
+    "category": "ES",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Spain moves to T+1 settlement on 11 October 2027 with the rest of the EU.",
+    "answerBool": true,
+    "explanation": "True.",
+    "lessonLink": "/world/es",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

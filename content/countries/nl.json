@@ -1,0 +1,170 @@
+{
+  "code": "NL",
+  "name": "Netherlands",
+  "region": "europe",
+  "summary": "Amsterdam claims the oldest stock exchange in the world: the Dutch East India Company (VOC) was the first company on it, in 1602. Today Euronext Amsterdam's AEX tracks 30 large companies, led by a few global names in semiconductors, energy, consumer goods and finance.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "Same currency as Austria, so no exchange-rate risk for a euro investor. Several AEX companies report in other currencies or earn most of their revenue abroad."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Amsterdam",
+      "city": "Amsterdam",
+      "founded": "1602 (Euronext calls it the oldest stock exchange in the world); part of Euronext since 2000",
+      "website": "https://www.euronext.com/en/markets/amsterdam",
+      "hours": "Runs on Euronext's single trading platform: an opening auction, continuous trading through the European business day and a closing auction. Euronext publishes the exact phase times in its trading manual; this site has not verified them separately for Amsterdam.",
+      "timeZone": "Europe/Amsterdam",
+      "hoursSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
+      "holidaysSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
+      "note": "Amsterdam follows the Euronext holiday calendar; in 2026 it trades on Ascension Day and Whit Monday."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "AEX",
+      "constituents": "30 companies",
+      "description": "The 30 largest and most actively traded shares on Euronext Amsterdam, weighted by free-float market capitalisation. History since 1 March 1983. The ten largest members made up about 77% of the index at the end of September 2026.",
+      "source": {
+        "title": "AEX-Index factsheet as of 30 September 2026 (Euronext, PDF)",
+        "url": "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Dutch Authority for the Financial Markets (AFM)",
+      "role": "Supervises the conduct of the entire financial market sector since 1 March 2002, including capital markets, investment firms and financial reporting.",
+      "url": "https://www.afm.nl/en/over-de-afm"
+    },
+    {
+      "name": "De Nederlandsche Bank (DNB)",
+      "role": "Central bank and prudential supervisor; it administers the Dutch deposit guarantee.",
+      "url": "https://www.dnb.nl/en/reliable-financial-sector/dutch-deposit-guarantee/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Dutch deposit guarantee",
+      "text": "Money in bank accounts is automatically protected up to €100,000 per person and bank. Investment products such as shares and bonds are not covered by it.",
+      "url": "https://www.dnb.nl/en/reliable-financial-sector/dutch-deposit-guarantee/up-to-what-amount-is-my-money-protected/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Euroclear Nederland (one of Euroclear's ESES CSDs)",
+    "note": "Like the rest of the EU, the Netherlands moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    },
+    {
+      "title": "High concentration",
+      "text": "The AEX is dominated by a handful of companies: at the end of September 2026, the largest member alone had a weight of about 17%.",
+      "source": {
+        "title": "AEX-Index factsheet as of 30 September 2026 (Euronext, PDF)",
+        "url": "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "15% Dutch dividend tax withheld by the paying company; foreign investors may claim relief under a tax treaty. Dutch residents are taxed under their own income tax system (not covered here).",
+    "items": [
+      {
+        "title": "Dividend tax",
+        "text": "The general rate of Dutch dividend tax is 15%, withheld by the company paying the dividend."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q), which matches the Dutch rate."
+      },
+      {
+        "title": "Residents",
+        "text": "Dutch residents are taxed on savings and investments under the Dutch income tax system, which is complex and being reformed; check the Dutch Tax and Customs Administration."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Dividend tax (Government.nl)",
+        "url": "https://www.government.nl/themes/taxes-benefits-and-allowances/taxation-and-businesses/dividend-tax"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on Euronext Amsterdam in euros.",
+    "Indirectly, through funds or ETFs on the AEX or broader European indexes (Category H)."
+  ],
+  "companies": [
+    "ASML",
+    "Shell",
+    "Unilever",
+    "ING Group",
+    "Relx",
+    "Prosus",
+    "ASM International",
+    "Ahold Delhaize",
+    "Adyen",
+    "ABN AMRO"
+  ],
+  "history": [
+    {
+      "year": "1602",
+      "text": "The Dutch East India Company (VOC) is the first company on the Amsterdam exchange."
+    },
+    {
+      "year": "1983",
+      "text": "Start of the AEX index history (1 March)."
+    },
+    {
+      "year": "2000",
+      "text": "The Amsterdam, Brussels and Paris exchanges combine to form Euronext."
+    },
+    {
+      "year": "2019",
+      "text": "The Amsterdam exchange celebrates its 417th anniversary."
+    }
+  ],
+  "funFacts": [
+    "At the end of September 2026, the ten largest AEX members made up about 77% of the index, more than in the DAX (about 65%) or the CAC 40 (about 62%)."
+  ],
+  "lessons": [
+    "indexes-etfs-funds/major-indexes",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "417th anniversary of the Amsterdam exchange (Euronext, 2019)",
+      "url": "https://www.euronext.com/en/about/media/bell-ceremony-archive/417th-anniversary-amsterdam-exchange"
+    },
+    {
+      "title": "Euronext celebrates 25 years (Euronext)",
+      "url": "https://www.euronext.com/en/news/25-years-euronext-celebrating-quarter-century-shaping-capital-markets"
+    },
+    {
+      "title": "ESES CSDs: Euroclear Belgium, Euroclear France, Euroclear Nederland (Euroclear)",
+      "url": "https://www.euroclear.com/ourgroup/en/eses.html"
+    }
+  ]
+}

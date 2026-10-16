@@ -1,0 +1,90 @@
+{
+  "code": "PL",
+  "name": "Poland",
+  "region": "europe",
+  "summary": "Warsaw's stock market tradition goes back to 1817, but today's Warsaw Stock Exchange (GPW) was re-founded in 1991 after the end of communism. In 2018 FTSE Russell promoted Poland to developed-market status. The WIG20 tracks 20 large companies, led by banks, energy and retail. Shares trade in Polish złoty.",
+  "currency": {
+    "code": "PLN",
+    "name": "Polish złoty",
+    "note": "Poland is in the EU but not in the euro area, so a euro investor carries currency risk: moves of the złoty against the euro change the value of Polish shares in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": { "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" }
+  },
+  "exchanges": [
+    {
+      "name": "Warsaw Stock Exchange (Giełda Papierów Wartościowych, GPW)",
+      "city": "Warsaw",
+      "founded": "1991 (company founded on 12 April 1991); market traditions since 1817",
+      "website": "https://www.gpw.pl/",
+      "hours": "Shares trade in auctions and continuous trading during the Central European working day. GPW publishes the exact session phases in its detailed trading rules; this site could not open them directly, so please check the official rules.",
+      "timeZone": "Europe/Warsaw",
+      "hoursSource": "https://www.gpw.pl/",
+      "note": "GPW also runs NewConnect, a market for smaller companies, and the bond market Catalyst."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "WIG20",
+      "constituents": "20 companies",
+      "description": "Calculated since 16 April 1994 from 20 major and most liquid companies on the WSE Main List. Calculated by GPW Benchmark.",
+      "source": { "title": "WIG20 index factsheet (GPW Benchmark)", "url": "https://gpwbenchmark.pl/en-karta-indeksu?isin=PL9999999987" }
+    }
+  ],
+  "regulators": [
+    { "name": "Polish Financial Supervision Authority (KNF)", "role": "Supervises the Polish financial market, including banks, insurers, investment firms and the capital market.", "url": "https://www.knf.gov.pl/en" }
+  ],
+  "investorProtection": [
+    { "name": "Bank Guarantee Fund (BFG)", "text": "Eligible deposits at banks and cooperative credit unions, in złoty or foreign currencies, are covered up to €100,000 per depositor and institution.", "url": "https://bfg.pl/en/" }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "KDPW (Krajowy Depozyt Papierów Wartościowych), the central securities depository",
+    "note": "As an EU member, Poland moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": { "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)", "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it" }
+  },
+  "rules": [
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": { "title": "Short selling (ESMA)", "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling" }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: 19% flat tax on gains from selling shares (declared on PIT-38) and on dividends. Non-residents can apply the rate of a double taxation agreement under conditions.",
+    "items": [
+      { "title": "Capital gains (residents)", "text": "Income from selling shares and other securities is taxed at 19%, declared on the PIT-38 return. Losses can be offset against income from the same source in the following five years, within limits." },
+      { "title": "Dividends", "text": "Dividends and other profit shares are subject to a 19% flat-rate tax." },
+      { "title": "Non-residents", "text": "People with limited tax liability in Poland can apply the rate from a double taxation agreement, under conditions set by Polish law." },
+      { "title": "For an Austrian investor", "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q)." }
+    ],
+    "sources": [
+      { "title": "Broszura do PIT-38 za 2025 r. (Ministry of Finance, podatki.gov.pl, PDF, in Polish)", "url": "https://www.podatki.gov.pl/media/g5ebnm2e/broszura-do-pit-38-za-2025-r.pdf" }
+    ]
+  },
+  "access": [
+    "Some Austrian banks and brokers offer trading on the Warsaw Stock Exchange; check currency conversion into złoty.",
+    "Indirectly, through funds or ETFs on Polish or emerging/eastern European indexes (Category H)."
+  ],
+  "companies": ["PKO Bank Polski", "Orlen", "Allegro", "Pekao", "KGHM", "PZU", "LPP", "CD Projekt", "mBank", "Dino Polska"],
+  "history": [
+    { "year": "1817", "text": "The Warsaw Mercantile Exchange is established." },
+    { "year": "1991", "text": "After the fall of communism, the Warsaw Stock Exchange company is founded on 12 April by the State Treasury." },
+    { "year": "1994", "text": "The WIG20 index is first calculated, on 16 April." },
+    { "year": "2018", "text": "FTSE Russell promotes Poland to developed-market status (effective 24 September 2018)." }
+  ],
+  "funFacts": [
+    "Poland was promoted by FTSE Russell step by step: from Secondary Emerging to Advanced Emerging in 2008, and to Developed in 2018."
+  ],
+  "lessons": ["world-markets/market-classifications", "macroeconomics/currencies-and-your-investments"],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    { "title": "GPW Main Market: About the Company (GPW)", "url": "https://www.gpw.pl/about-the-company" },
+    { "title": "KDPW (Krajowy Depozyt Papierów Wartościowych, in Polish)", "url": "https://www.kdpw.pl/" },
+    { "title": "FTSE Equity Country Classification Process, v3.5, October 2026 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" }
+  ]
+}

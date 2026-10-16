@@ -1,0 +1,95 @@
+{
+  "code": "SE",
+  "name": "Sweden",
+  "region": "europe",
+  "summary": "Stockholm's exchange has traded since 4 February 1863 and is now Nasdaq Stockholm, part of Nasdaq's Nordic markets. The OMXS30 holds 30 large Swedish companies, many of them industrial groups, and many Swedish companies list separate A and B share classes. Shares trade in Swedish kronor.",
+  "currency": {
+    "code": "SEK",
+    "name": "Swedish krona",
+    "note": "For a euro investor, Swedish shares carry currency risk: moves of the krona against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": { "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" }
+  },
+  "exchanges": [
+    {
+      "name": "Nasdaq Stockholm",
+      "city": "Stockholm",
+      "founded": "1863 (first trading day 4 February 1863)",
+      "website": "https://www.nasdaq.com/products/european-markets/stockholm",
+      "hours": "Main market equities 09:00–17:30. In the last five minutes there is no order matching; the closing price is set in a closing auction that ends at a random moment in the final 30 seconds.",
+      "timeZone": "Europe/Stockholm",
+      "hoursSource": "https://www.nasdaq.com/european-market-activity/trading-hours",
+      "holidaysSource": "https://www.nasdaq.com/european-market-activity/trading-hours",
+      "note": "Nasdaq also runs the exchanges in Copenhagen, Helsinki and Iceland, with different hours."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "OMX Stockholm 30 (OMXS30)",
+      "constituents": "30 companies",
+      "description": "The 30 largest and most actively traded shares on the Stockholm Stock Exchange; base value 125. Calculated by Nasdaq.",
+      "source": { "title": "OMX Stockholm 30 Index overview (Nasdaq Global Indexes)", "url": "https://indexes.nasdaq.com/Index/Overview/OMXS30" }
+    }
+  ],
+  "regulators": [
+    { "name": "Finansinspektionen (FI)", "role": "The Swedish government authority that monitors the financial market, including banks, insurers and securities markets.", "url": "https://www.fi.se/en/about-fi/" }
+  ],
+  "investorProtection": [
+    { "name": "Deposit insurance (Riksgälden, Swedish National Debt Office)", "text": "Since 1 January 2026, deposits are protected up to SEK 1,150,000 per person and institution (the krona equivalent of €100,000, adjusted every five years).", "url": "https://www.riksgalden.se/press-och-publicerat/pressmeddelanden-och-nyheter/pressmeddelanden/2025/insattningsgarantins-maxbelopp-andras-till-1-150-000-kronor/" }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Euroclear Sweden, the Swedish central securities depository",
+    "note": "Like the rest of the EU, Sweden moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": { "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)", "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it" }
+  },
+  "rules": [
+    {
+      "title": "A and B share classes",
+      "text": "Many Swedish companies have more than one share class, usually with different voting rights. The OMXS30 itself includes, for example, Atlas Copco A, Volvo B and Investor B (Category C).",
+      "source": { "title": "OMXS30 weighting, constituent list (Nasdaq Global Indexes)", "url": "https://indexes.nasdaq.com/Index/Weighting/OMXS30" }
+    },
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": { "title": "Short selling (ESMA)", "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling" }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Non-residents: 30% Swedish withholding tax (kupongskatt) on dividends, reducible under a tax treaty at payment or by refund. Residents: investment savings accounts (ISK) are taxed at 30% of a standard yield instead of on actual gains and dividends.",
+    "items": [
+      { "title": "Dividends for foreign investors", "text": "The main rule is that 30% withholding tax (kupongskatt) is deducted from dividends. It can be lower if the recipient lives in a country that has a tax treaty with Sweden, either directly at payment or by refund afterwards." },
+      { "title": "For an Austrian investor", "text": "An Austrian bank can credit foreign withholding tax only up to 15% of the dividend against Austrian KESt (Category Q); any higher Swedish tax must be reduced or reclaimed in Sweden." },
+      { "title": "Residents: investment savings account (ISK)", "text": "In an ISK, gains, dividends and interest are not taxed. Instead, the account is taxed each year at 30% of a standard yield (schablonintäkt) calculated from its value." }
+    ],
+    "sources": [
+      { "title": "För dig som betalar svensk kupongskatt på utdelning (Skatteverket, in Swedish)", "url": "https://www.skatteverket.se/foretag/internationellt/kupongskatt/fordigsombetalarsvenskkupongskattpadinautdelningar.4.6e8a1495181dad54084380.html" },
+      { "title": "Skatt på investeringssparkonto (Skatteverket, in Swedish)", "url": "https://www.skatteverket.se/privat/skatter/vardepapper/investeringssparkontoisk.4.5fc8c94513259a4ba1d800037851.html" }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on Nasdaq Stockholm; check costs for converting euros into kronor.",
+    "Indirectly, through funds or ETFs on Swedish or Nordic indexes (Category H)."
+  ],
+  "companies": ["Atlas Copco", "Volvo", "Investor", "Ericsson", "H&M (Hennes & Mauritz)", "ASSA ABLOY", "Sandvik", "SEB", "Saab", "Hexagon"],
+  "history": [
+    { "year": "1863", "text": "The Stockholm Stock Exchange has its first trading day on 4 February." },
+    { "year": "2023", "text": "Nasdaq Stockholm celebrates its 160th anniversary." },
+    { "year": "2026", "text": "The deposit insurance limit rises to SEK 1,150,000 on 1 January." }
+  ],
+  "funFacts": [
+    "The OMXS30 also contains companies headquartered outside Sweden, such as ABB, AstraZeneca and Nordea, which have listings in Stockholm."
+  ],
+  "lessons": ["types-of-stocks/share-classes-and-voting", "macroeconomics/currencies-and-your-investments"],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    { "title": "Nasdaq Stockholm celebrates 160 years (Nasdaq)", "url": "https://www.nasdaq.com/articles/nasdaq-stockholm-celebrates-160-years" },
+    { "title": "Euroclear Sweden, the Swedish Central Securities Depository (Euroclear)", "url": "https://www.euroclear.com/sweden/en.html" },
+    { "title": "OMXS30 weighting, constituent list (Nasdaq Global Indexes)", "url": "https://indexes.nasdaq.com/Index/Weighting/OMXS30" }
+  ]
+}

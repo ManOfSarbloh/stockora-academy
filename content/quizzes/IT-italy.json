@@ -1,0 +1,230 @@
+[
+  {
+    "id": "IT-001",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year was the Milan Merchandise Exchange created by decree?",
+    "answerNumber": 1808,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "By a decree of 16 January 1808 issued by Viceroy Eugène Napoléon.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.borsaitaliana.it/borsaitaliana/storia/storia/nascita-della-borsa-italiana.en.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-002",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the FTSE MIB contain?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The 40 leading shares on Euronext Milan and Euronext MIV Milan.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.borsaitaliana.it/borsa/glossario/indice-ftse-mib.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-003",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does continuous trading run on Euronext Milan?",
+    "options": [
+      "09:00–17:30",
+      "08:00–16:30",
+      "09:30–17:30",
+      "10:00–18:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Opening auction 07:30–09:00, continuous 09:00–17:30, closing auction 17:30–17:35, trading at last until 17:40.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.borsaitaliana.it/azioni/mercati/negoziazioni/negoziazioni/negoziazioni.en.htm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-004",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount does the FITD guarantee deposits per depositor and bank, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.fitd.it/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-005",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is Italy's financial transaction tax rate on share transfers since 1 January 2026, before the reduction for regulated markets?",
+    "options": [
+      "0.4%",
+      "0.2%",
+      "0.1%",
+      "1%"
+    ],
+    "answerIndex": 0,
+    "explanation": "0.4% (0.2% until 2025); halved for trades on regulated markets and MTFs.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-sulle-transazioni-finanziarie/infogen-imposta-transazioni-finanziarie"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-006",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What does Italy's transaction tax cost on an exchange purchase of shares of a large Italian company in 2026?",
+    "options": [
+      "0.2%",
+      "0.4%",
+      "0.1%",
+      "Nothing"
+    ],
+    "answerIndex": 0,
+    "explanation": "The 0.4% rate is halved to 0.2% for trades on regulated markets or MTFs.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-sulle-transazioni-finanziarie/infogen-imposta-transazioni-finanziarie"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-007",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: shares of Italian companies with an average market value below €500 million (in the previous November) are exempt from the transaction tax.",
+    "answerBool": true,
+    "explanation": "True.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.agenziaentrate.gov.it/portale/schede/pagamenti/imposta-sulle-transazioni-finanziarie/infogen-imposta-transazioni-finanziarie"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-008",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what rate are most capital gains on financial instruments taxed for Italian residents, in percent?",
+    "answerNumber": 26,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "A 26% substitute tax; some categories use 20%.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://infoprecompilata.agenziaentrate.gov.it/portale/semplificata-mod-plusvalenze-natura-finanziaria"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-009",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Within how many months must a non-resident claim a refund of excess Italian withholding tax under a tax treaty?",
+    "options": [
+      "48 months",
+      "12 months",
+      "6 months",
+      "10 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "48 months from the date the tax was withheld; the treaty rate can also be applied directly by the withholding agent.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.agenziaentrate.gov.it/portale/schede/rimborsi/convenzioni-contro-le-doppie-imposizioni/soggetti-non-residenti-in-italia"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-010",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were FTSE MIB members in October 2026? Select all that apply.",
+    "options": [
+      "Ferrari",
+      "Enel",
+      "UniCredit",
+      "TotalEnergies"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "TotalEnergies is French and in the CAC 40.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.borsaitaliana.it/borsa/azioni/ftse-mib/lista.html?lang=en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-011",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority regulates the Italian stock market?",
+    "options": [
+      "CONSOB",
+      "AMF",
+      "CNMV",
+      "FMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "CONSOB: Commissione Nazionale per le Società e la Borsa.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.consob.it/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IT-012",
+    "category": "IT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: Italy moves to T+1 settlement on 11 October 2027 with the rest of the EU.",
+    "answerBool": true,
+    "explanation": "True.",
+    "lessonLink": "/world/it",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "id": "NL-001",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the AEX contain (as of 2026)?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The 30 largest and most actively traded shares on Euronext Amsterdam.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-002",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which company was the first to go to the Amsterdam exchange, in 1602?",
+    "options": [
+      "The Dutch East India Company (VOC)",
+      "Shell",
+      "Philips",
+      "The Bank of Amsterdam"
+    ],
+    "answerIndex": 0,
+    "explanation": "The VOC; Euronext calls Amsterdam the oldest stock exchange in the world.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.euronext.com/en/about/media/bell-ceremony-archive/417th-anniversary-amsterdam-exchange"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-003",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which company had the largest weight in the AEX at the end of September 2026?",
+    "options": [
+      "ASML",
+      "Shell",
+      "Unilever",
+      "ING Group"
+    ],
+    "answerIndex": 0,
+    "explanation": "ASML, at about 16.9%.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-004",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "About what share of the AEX did its ten largest members make up at the end of September 2026, in percent (whole number)?",
+    "answerNumber": 77,
+    "tolerance": 1,
+    "unit": "%",
+    "explanation": "76.61%, so about 77%.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-005",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises the conduct of the Dutch financial market sector?",
+    "options": [
+      "AFM",
+      "DNB",
+      "ECB",
+      "BaFin"
+    ],
+    "answerIndex": 0,
+    "explanation": "The AFM, since 1 March 2002; DNB is the central bank and prudential supervisor.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.afm.nl/en/over-de-afm"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-006",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount is money in Dutch bank accounts protected per person and bank, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000; shares and bonds are not covered by the deposit guarantee.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.dnb.nl/en/reliable-financial-sector/dutch-deposit-guarantee/up-to-what-amount-is-my-money-protected/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-007",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the general rate of Dutch dividend tax, in percent?",
+    "answerNumber": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "15%, withheld by the paying company.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.government.nl/themes/taxes-benefits-and-allowances/taxation-and-businesses/dividend-tax"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-008",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the Dutch deposit guarantee also covers shares held in a securities account.",
+    "answerBool": false,
+    "explanation": "False. It covers bank deposits, not investment products such as shares and bonds.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.dnb.nl/en/reliable-financial-sector/dutch-deposit-guarantee/up-to-what-amount-is-my-money-protected/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-009",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "In which year did the Amsterdam, Brussels and Paris exchanges combine to form Euronext?",
+    "options": [
+      "2000",
+      "1602",
+      "1988",
+      "2014"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euronext began in 2000.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.euronext.com/en/news/25-years-euronext-celebrating-quarter-century-shaping-capital-markets"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-010",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which central securities depository settles Dutch shares?",
+    "options": [
+      "Euroclear Nederland",
+      "Clearstream",
+      "Monte Titoli",
+      "Iberclear"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euroclear Nederland is one of Euroclear's ESES CSDs.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.euroclear.com/ourgroup/en/eses.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-011",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Netherlands moves to T+1 settlement on 11 October 2027 with the rest of the EU.",
+    "answerBool": true,
+    "explanation": "True; until then trades settle on T+2.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "NL-012",
+    "category": "NL",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were among the ten largest AEX members at the end of September 2026? Select all that apply.",
+    "options": [
+      "ASML",
+      "Unilever",
+      "Adyen",
+      "Siemens"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Siemens is a German DAX company.",
+    "lessonLink": "/world/nl",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/AEX_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

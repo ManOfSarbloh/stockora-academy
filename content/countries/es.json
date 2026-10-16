@@ -1,0 +1,181 @@
+{
+  "code": "ES",
+  "name": "Spain",
+  "region": "europe",
+  "summary": "Spain's main exchange, the Bolsa de Madrid, dates from 1831. Its operator BME has belonged to the Swiss SIX Group since 2020. The IBEX 35 is dominated by banks, utilities and the fashion group Inditex, and purchases of large Spanish shares carry a 0.2% transaction tax.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "Same currency as Austria, so no exchange-rate risk for a euro investor."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Madrid (BME Exchange)",
+      "city": "Madrid",
+      "founded": "1831",
+      "website": "https://www.bolsasymercados.es/en/bme-exchange/madrid-stock-exchange.html",
+      "hours": "On the electronic interconnection system (SIBE): opening auction 08:30–09:00, continuous trading 09:00–17:30, closing auction 17:30–17:35, trading at last 17:35–17:45.",
+      "timeZone": "Europe/Madrid",
+      "hoursSource": "https://www.bolsasymercados.es/bme-exchange/en/Trading/Trading-Hours",
+      "note": "BME is the operator of the Spanish stock exchanges and financial markets, and has been part of SIX Group since 2020."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "IBEX 35",
+      "constituents": "35 companies",
+      "description": "Designed to represent the largest securities traded on the Spanish stock market, weighted by free-float market capitalisation. Base level 3,000 on 29 December 1989. Calculated by BME.",
+      "source": {
+        "title": "IBEX 35 factsheet (BME, PDF)",
+        "url": "https://www.bolsasymercados.es/dam/descargas/indices/factsheet-ibex-35-en.pdf"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CNMV (Comisión Nacional del Mercado de Valores)",
+      "role": "Spain's national securities market commission: supervises issuers, investment firms, funds and market infrastructures, and publishes warnings about unauthorised firms.",
+      "url": "https://www.cnmv.es/portal/quees/Funciones/Funciones.aspx?lang=en"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGD (Deposit Guarantee Fund of Credit Institutions)",
+      "text": "Deposits are guaranteed up to €100,000 per holder and institution.",
+      "url": "https://www.fgd.es/en/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Iberclear, the Spanish central securities depository (part of BME)",
+    "note": "Like the rest of the EU, Spain moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Financial transaction tax",
+      "text": "Purchases of shares of Spanish companies with a market capitalisation above €1 billion (measured on 1 December of the previous year) are taxed at 0.2%.",
+      "source": {
+        "title": "Ley 5/2020 del Impuesto sobre las Transacciones Financieras (BOE, in Spanish)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-12356"
+      }
+    },
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: savings income (dividends, gains) taxed at 19% to 30% (state and regional parts of 9.5%–15% each, 2025 scale). Non-residents without a permanent establishment: 19% on Spanish dividends (or the treaty rate). 0.2% transaction tax on large Spanish shares.",
+    "items": [
+      {
+        "title": "Residents: savings income",
+        "text": "Dividends and capital gains form the savings tax base, taxed progressively. In 2025 the state part ranges from 9.5% to 15% and the regional part also from 9.5% to 15%, so 19% to 30% in total."
+      },
+      {
+        "title": "Dividends for non-residents",
+        "text": "Non-residents without a permanent establishment in Spain pay 19% on Spanish dividends; a tax treaty can set a lower limit."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q); any higher Spanish withholding must be reclaimed in Spain."
+      },
+      {
+        "title": "Transaction tax",
+        "text": "0.2% on purchases of shares of large Spanish companies (see market rules above)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Gravamen estatal de la base liquidable del ahorro, Renta 2025 (Agencia Tributaria, in Spanish)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro/gravamen-estatal.html"
+      },
+      {
+        "title": "Gravamen autonómico de la base liquidable del ahorro, Renta 2025 (Agencia Tributaria, in Spanish)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/ayuda/manuales-videos-folletos/manuales-practicos/irpf-2025/c15-calculo-impuesto-determinacion-cuotas-integras/gravamen-base-liquidable-ahorro/gravamen-autonomico.html"
+      },
+      {
+        "title": "Tipos de gravamen en el IRNR sin establecimiento permanente (Agencia Tributaria, in Spanish)",
+        "url": "https://sede.agenciatributaria.gob.es/Sede/no-residentes/irnr-sin-establecimiento-permanente/tipos-gravamen-irnr-sin-establecimiento-permanente.html"
+      },
+      {
+        "title": "Ley 5/2020 del Impuesto sobre las Transacciones Financieras (BOE, in Spanish)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2020-12356"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on the Spanish exchange in euros; check whether the 0.2% transaction tax is added.",
+    "Indirectly, through funds or ETFs on the IBEX 35 or broader European indexes (Category H)."
+  ],
+  "companies": [
+    "Santander",
+    "Iberdrola",
+    "BBVA",
+    "Inditex",
+    "CaixaBank",
+    "Ferrovial",
+    "Amadeus",
+    "Aena",
+    "Telefónica",
+    "Repsol"
+  ],
+  "history": [
+    {
+      "year": "1831",
+      "text": "The Madrid Stock Exchange is created."
+    },
+    {
+      "year": "1989",
+      "text": "Base date of the IBEX 35: 3,000 points on 29 December."
+    },
+    {
+      "year": "2020",
+      "text": "Spain's financial transaction tax law (Ley 5/2020) is passed, and SIX Group takes over BME (June)."
+    }
+  ],
+  "funFacts": [
+    "The four largest IBEX 35 members (Santander, Iberdrola, BBVA and Inditex) made up more than half of the index in December 2025.",
+    "Since 2020, the Spanish and Swiss stock exchanges belong to the same group, SIX."
+  ],
+  "lessons": [
+    "world-markets/major-exchanges",
+    "macroeconomics/euro-crisis"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "History of the Madrid Stock Exchange (BME)",
+      "url": "https://www.bolsasymercados.es/en/bme-exchange/madrid-stock-exchange/history.html"
+    },
+    {
+      "title": "About BME (BME)",
+      "url": "https://www.bolsasymercados.es/en/about-bme.html"
+    },
+    {
+      "title": "Iberclear (BME)",
+      "url": "https://www.bolsasymercados.es/en/securities-services/iberclear.html"
+    },
+    {
+      "title": "IBEX 35 factsheet, components as of 19 December 2025 (BME, PDF)",
+      "url": "https://www.bolsasymercados.es/dam/descargas/indices/factsheet-ibex-35-en.pdf"
+    }
+  ]
+}

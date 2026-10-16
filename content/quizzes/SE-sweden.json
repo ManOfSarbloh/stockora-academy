@@ -1,0 +1,230 @@
+[
+  {
+    "id": "SE-001",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year did the Stockholm Stock Exchange have its first trading day?",
+    "answerNumber": 1863,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 4 February 1863.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.nasdaq.com/articles/nasdaq-stockholm-celebrates-160-years"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-002",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the OMXS30 contain?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The 30 largest and most actively traded stocks on the Stockholm Stock Exchange.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://indexes.nasdaq.com/Index/Overview/OMXS30"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-003",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the OMXS30's base value?",
+    "options": [
+      "125",
+      "1,000",
+      "100",
+      "3,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "Base value 125.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://indexes.nasdaq.com/Index/Overview/OMXS30"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-004",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "In which currency do shares trade on Nasdaq Stockholm?",
+    "options": [
+      "Swedish krona (SEK)",
+      "Euro",
+      "Danish krone",
+      "Norwegian krone"
+    ],
+    "answerIndex": 0,
+    "explanation": "Swedish kronor, so a euro investor carries currency risk.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://indexes.nasdaq.com/Index/Overview/OMXS30"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-005",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When do main-market equities trade on Nasdaq Stockholm?",
+    "options": [
+      "09:00–17:30",
+      "10:00–18:30",
+      "09:00–17:00",
+      "08:00–16:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "09:00–17:30, with no matching in the last five minutes before the closing auction.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.nasdaq.com/european-market-activity/trading-hours"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-006",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority monitors the Swedish financial market?",
+    "options": [
+      "Finansinspektionen (FI)",
+      "Riksbank",
+      "Skatteverket",
+      "Nasdaq"
+    ],
+    "answerIndex": 0,
+    "explanation": "FI is the government authority tasked with monitoring the financial market.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.fi.se/en/about-fi/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-007",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what amount, in Swedish kronor, are deposits protected per person and institution since 1 January 2026?",
+    "answerNumber": 1150000,
+    "tolerance": 0,
+    "unit": "SEK",
+    "explanation": "SEK 1,150,000, the krona equivalent of €100,000.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.riksgalden.se/press-och-publicerat/pressmeddelanden-och-nyheter/pressmeddelanden/2025/insattningsgarantins-maxbelopp-andras-till-1-150-000-kronor/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-008",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the main rate of Swedish withholding tax (kupongskatt) on dividends paid to foreign investors, in percent?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "30%, which can be reduced under a tax treaty.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.skatteverket.se/foretag/internationellt/kupongskatt/fordigsombetalarsvenskkupongskattpadinautdelningar.4.6e8a1495181dad54084380.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-009",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: inside a Swedish investment savings account (ISK), dividends and gains are taxed when they occur.",
+    "answerBool": false,
+    "explanation": "False. The account is taxed at 30% of a standard yield instead.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.skatteverket.se/privat/skatter/vardepapper/investeringssparkontoisk.4.5fc8c94513259a4ba1d800037851.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-010",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which institution is the Swedish central securities depository?",
+    "options": [
+      "Euroclear Sweden",
+      "Clearstream",
+      "Iberclear",
+      "KDPW"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euroclear Sweden.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://www.euroclear.com/sweden/en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-011",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were OMXS30 members in October 2026? Select all that apply.",
+    "options": [
+      "Volvo",
+      "Ericsson",
+      "H&M",
+      "Nestlé"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nestlé is Swiss and in the SMI.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://indexes.nasdaq.com/Index/Weighting/OMXS30"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "SE-012",
+    "category": "SE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: the OMXS30 can include more than one share class designation, such as 'ser. A' or 'ser. B'.",
+    "answerBool": true,
+    "explanation": "True: for example Atlas Copco A and Volvo B.",
+    "lessonLink": "/world/se",
+    "sources": [
+      "https://indexes.nasdaq.com/Index/Weighting/OMXS30"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
