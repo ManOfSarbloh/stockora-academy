@@ -1,0 +1,252 @@
+[
+  {
+    "id": "DE-001",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year did Frankfurt merchants first set uniform exchange rates, the date regarded as the birth of the Frankfurt exchange?",
+    "answerNumber": 1585,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 9 September 1585.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.deutsche-boerse.com/dbg-en/markets-services/trading/frankfurt-stock-exchange/history-of-the-frankfurt-stock-exchange"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-002",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the DAX contain?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The DAX comprises the 40 largest eligible companies on the Frankfurt Regulated Market.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.stoxx.com/document/News/2026/May/DAX_Equity_Index_Methodology_Guide_20260518.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-003",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which index holds the 50 companies that follow the DAX by market value?",
+    "options": [
+      "MDAX",
+      "SDAX",
+      "TecDAX",
+      "ATX Prime"
+    ],
+    "answerIndex": 0,
+    "explanation": "MDAX: 50 companies; SDAX: the next 70.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.stoxx.com/document/News/2026/May/DAX_Equity_Index_Methodology_Guide_20260518.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-004",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the name of Deutsche Börse's fully electronic trading system, launched in 1997?",
+    "options": [
+      "Xetra",
+      "Euronext",
+      "SETS",
+      "Arrowhead"
+    ],
+    "answerIndex": 0,
+    "explanation": "Xetra is where most trading in DAX shares takes place.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.deutsche-boerse.com/dbg-en/markets-services/trading/frankfurt-stock-exchange/history-of-the-frankfurt-stock-exchange"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-005",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises banks, insurers and securities markets in Germany?",
+    "options": [
+      "BaFin",
+      "FMA",
+      "AMF",
+      "FINMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "BaFin is Germany's Federal Financial Supervisory Authority.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.bafin.de/EN/die-bafin/ueber-die-bafin/aufgaben/aufgaben_node_en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-006",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the flat tax rate on capital income for residents in Germany, before the solidarity surcharge, in percent?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "25% under § 32d EStG, plus 5.5% of that tax as solidarity surcharge (and church tax if applicable).",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.gesetze-im-internet.de/estg/__32d.html",
+      "https://www.gesetze-im-internet.de/solzg_1995/__4.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-007",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "How much capital income per year is tax-free for a single person in Germany (saver's allowance), in euros?",
+    "answerNumber": 1000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€1,000 a year; €2,000 for jointly assessed spouses.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.gesetze-im-internet.de/estg/__20.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-008",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: foreign residents can apply to Germany's Federal Central Tax Office for relief from German withholding tax on dividends under a tax treaty.",
+    "answerBool": true,
+    "explanation": "True; the BZSt notes that refunds can take more than 20 months.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.bzst.de/DE/Unternehmen/Kapitalertraege/Kapitalertragsteuerentlastung/kapitalertragsteuerentlastung_node.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-009",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Up to what amount per customer and bank do German statutory deposit guarantee schemes protect balances?",
+    "options": [
+      "€100,000",
+      "€20,000",
+      "€250,000",
+      "Unlimited"
+    ],
+    "answerIndex": 0,
+    "explanation": "€100,000, as in the rest of the EU.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.bafin.de/EN/verbraucherinnen-verbraucher/themen-finanzprodukte/geldanlage/spareinlagen/tagesgeld/tagesgeld_en.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-010",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What were Xetra's regular continuous trading hours in October 2026 (Frankfurt time)?",
+    "options": [
+      "09:00–17:30",
+      "08:00–16:30",
+      "09:30–16:00",
+      "10:00–18:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous trading 09:00–17:30, with auctions.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-011",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "The first share traded in Frankfurt, in 1820, came from which institution?",
+    "options": [
+      "The Austrian National Bank (Oesterreichische Nationalbank)",
+      "The Bank of England",
+      "Deutsche Bank",
+      "The Dutch East India Company"
+    ],
+    "answerIndex": 0,
+    "explanation": "A participating certificate of the Oesterreichische Nationalbank.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.deutsche-boerse.com/dbg-en/markets-services/trading/frankfurt-stock-exchange/history-of-the-frankfurt-stock-exchange"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-012",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were among the ten largest DAX members at the end of September 2026? Select all that apply.",
+    "options": [
+      "Siemens",
+      "SAP",
+      "Allianz",
+      "Nestlé"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nestlé is a Swiss company in the SMI.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://stoxx.com/index/DAXNR/?factsheet=true"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "DE-013",
+    "category": "DE",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Germany moves to T+1 settlement on 11 October 2027 together with the rest of the EU.",
+    "answerBool": true,
+    "explanation": "True; until then trades settle on T+2.",
+    "lessonLink": "/world/de",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

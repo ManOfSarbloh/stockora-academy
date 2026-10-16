@@ -1,0 +1,240 @@
+[
+  {
+    "id": "US-001",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year was the Buttonwood Agreement signed, the official founding of the NYSE?",
+    "answerNumber": 1792,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Signed by 24 stockbrokers on 17 May 1792.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.nyse.com/history-of-nyse"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-002",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How many companies does the S&P 500 include?",
+    "options": [
+      "500",
+      "100",
+      "30",
+      "2,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "500 leading US companies, covering about 80% of available market capitalisation.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-003",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How is the Dow Jones Industrial Average weighted?",
+    "options": [
+      "By share price",
+      "By market capitalisation",
+      "Equally",
+      "By revenue"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is a price-weighted measure of 30 companies.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-004",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Since when do most US securities trades settle on T+1?",
+    "options": [
+      "28 May 2024",
+      "1 January 2020",
+      "11 October 2027",
+      "They still settle on T+3"
+    ],
+    "answerIndex": 0,
+    "explanation": "The SEC's rule change took effect on 28 May 2024.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/new-t1-settlement-cycle-what-investors-need-know-investor-bulletin"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-005",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Up to what total does SIPC protect a customer's securities and cash if a member brokerage firm fails?",
+    "options": [
+      "$500,000, including $250,000 for cash",
+      "$250,000 in total",
+      "$1 million",
+      "Unlimited"
+    ],
+    "answerIndex": 0,
+    "explanation": "SIPC does not protect against market losses.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.sipc.org/for-investors/what-sipc-protects"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-006",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount are bank deposits insured at each FDIC-insured bank, at least, in US dollars?",
+    "answerNumber": 250000,
+    "tolerance": 0,
+    "unit": "$",
+    "explanation": "At least $250,000.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.fdic.gov/resources/deposit-insurance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-007",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "At which S&P 500 declines in a day can market-wide circuit breakers halt trading? Select all that apply.",
+    "options": [
+      "7%",
+      "13%",
+      "20%",
+      "50%"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Level 1 (7%), Level 2 (13%) and Level 3 (20%).",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-008",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the standard US withholding rate on dividends paid to non-resident aliens, before any treaty reduction, in percent?",
+    "answerNumber": 30,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "30%; a tax treaty may reduce it.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.irs.gov/individuals/international-taxpayers/nra-withholding"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-009",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: for US taxpayers, a gain on shares held for more than one year is a long-term capital gain.",
+    "answerBool": true,
+    "explanation": "True; held one year or less, it is short-term and taxed as ordinary income.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.irs.gov/taxtopics/tc409"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-010",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which organisation supervises US broker-dealers as a self-regulatory organisation under SEC oversight?",
+    "options": [
+      "FINRA",
+      "FDIC",
+      "Federal Reserve",
+      "SIPC"
+    ],
+    "answerIndex": 0,
+    "explanation": "FINRA also runs BrokerCheck.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.finra.org/about"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-011",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does Nasdaq's pre-market session run (New York time)?",
+    "options": [
+      "04:00–09:30",
+      "07:00–09:00",
+      "08:00–09:30",
+      "There is none"
+    ],
+    "answerIndex": 0,
+    "explanation": "Pre-market 04:00–09:30; after hours 16:00–20:00.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "US-012",
+    "category": "US",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Roughly how large was the market capitalisation of US listed domestic companies at the end of 2025?",
+    "options": [
+      "About $69 trillion",
+      "About $7 trillion",
+      "About $210 billion",
+      "About $690 trillion"
+    ],
+    "answerIndex": 0,
+    "explanation": "$68.9 trillion according to World Bank/WFE data.",
+    "lessonLink": "/world/us",
+    "sources": [
+      "https://data.worldbank.org/indicator/CM.MKT.LCAP.CD"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

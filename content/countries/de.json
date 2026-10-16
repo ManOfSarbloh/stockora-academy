@@ -1,0 +1,189 @@
+{
+  "code": "DE",
+  "name": "Germany",
+  "region": "europe",
+  "summary": "Europe's largest economy has a deep-rooted exchange in Frankfurt, dating back to 1585, and the DAX of 40 large companies. Most trading in German shares runs on the fully electronic Xetra system operated by Deutsche Börse.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "Same currency as Austria, so no exchange-rate risk for a euro investor. Many DAX companies earn much of their revenue abroad, so currency moves can still affect their profits."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Frankfurt Stock Exchange (Xetra and Börse Frankfurt), operated by Deutsche Börse",
+      "tradingTimesId": "xetra",
+      "city": "Frankfurt am Main",
+      "founded": "1585 (uniform exchange rates first set on 9 September 1585)",
+      "website": "https://www.deutsche-boerse.com/dbg-en/",
+      "hours": "Xetra continuous trading 09:00–17:30, with opening and closing auctions. The Börse Frankfurt venue generally trades 08:00–22:00.",
+      "timeZone": "Europe/Berlin",
+      "hoursSource": "https://cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+      "holidaysSource": "https://cashmarket.deutsche-boerse.com/cash-en/trading/trading-calendar-and-trading-hours",
+      "note": "Xetra, launched in 1997, is Deutsche Börse's fully electronic trading system and where most trading in DAX shares takes place."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "DAX",
+      "constituents": "40 companies",
+      "description": "The 40 largest companies on the Frankfurt Stock Exchange's Regulated Market that meet minimum quality and profitability requirements, weighted by free-float market capitalisation and capped at 15%. Base value 1,000 on 30 December 1987. Calculated by STOXX (Deutsche Börse Group).",
+      "source": {
+        "title": "DAX Equity Index Methodology Guide, May 2026 (STOXX, PDF)",
+        "url": "https://www.stoxx.com/document/News/2026/May/DAX_Equity_Index_Methodology_Guide_20260518.pdf"
+      }
+    },
+    {
+      "name": "MDAX and SDAX",
+      "constituents": "50 and 70 companies",
+      "description": "The MDAX holds the 50 companies that follow the DAX by market value; the SDAX the 70 that follow the MDAX. Together with the DAX they cover German large, mid and small caps.",
+      "source": {
+        "title": "DAX Equity Index Methodology Guide, May 2026 (STOXX, PDF)",
+        "url": "https://www.stoxx.com/document/News/2026/May/DAX_Equity_Index_Methodology_Guide_20260518.pdf"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "BaFin (Federal Financial Supervisory Authority)",
+      "role": "Supervises banks, insurers and securities markets, with a focus on transparency, market integrity and consumer protection; also Germany's national resolution authority.",
+      "url": "https://www.bafin.de/EN/die-bafin/ueber-die-bafin/aufgaben/aufgaben_node_en.html"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Statutory deposit guarantee",
+      "text": "Balances up to €100,000 per customer and bank are protected; amounts above that are often covered by voluntary schemes of the banking associations.",
+      "url": "https://www.bafin.de/EN/verbraucherinnen-verbraucher/themen-finanzprodukte/geldanlage/spareinlagen/tagesgeld/tagesgeld_en.html"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Clearstream (Deutsche Börse Group), which includes the German central securities depository",
+    "note": "Like the rest of the EU, Germany moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: 25% flat tax on capital income plus 5.5% solidarity surcharge on that tax (and church tax if applicable); €1,000 annual saver's allowance. Non-residents: 25% withholding plus surcharge on German dividends, partly refundable under tax treaties.",
+    "items": [
+      {
+        "title": "Residents: flat tax",
+        "text": "Capital income, including dividends and gains on shares, is taxed at 25% (Abgeltungsteuer), plus a solidarity surcharge of 5.5% of that tax, and church tax for church members. Banks normally withhold it."
+      },
+      {
+        "title": "Saver's allowance",
+        "text": "The first €1,000 of capital income a year is tax-free (€2,000 for jointly assessed spouses)."
+      },
+      {
+        "title": "Dividends paid to foreign investors",
+        "text": "German companies withhold 25% capital gains tax plus the surcharge on dividends, regardless of where the shareholder lives. Foreign residents can apply to the Federal Central Tax Office (BZSt) for relief under a double taxation agreement; it warns that refunds can take more than 20 months."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax only up to 15% of the dividend against Austrian KESt (Category Q). Any excess has to be reclaimed in Germany."
+      }
+    ],
+    "sources": [
+      {
+        "title": "§ 32d EStG, Gesonderter Steuertarif für Einkünfte aus Kapitalvermögen (gesetze-im-internet.de, in German)",
+        "url": "https://www.gesetze-im-internet.de/estg/__32d.html"
+      },
+      {
+        "title": "§ 20 EStG, Kapitalvermögen (Sparer-Pauschbetrag) (gesetze-im-internet.de, in German)",
+        "url": "https://www.gesetze-im-internet.de/estg/__20.html"
+      },
+      {
+        "title": "§ 4 SolZG 1995, Zuschlagsatz (gesetze-im-internet.de, in German)",
+        "url": "https://www.gesetze-im-internet.de/solzg_1995/__4.html"
+      },
+      {
+        "title": "§ 43a EStG, Bemessung der Kapitalertragsteuer (gesetze-im-internet.de, in German)",
+        "url": "https://www.gesetze-im-internet.de/estg/__43a.html"
+      },
+      {
+        "title": "Kapitalertragsteuerentlastung (Bundeszentralamt für Steuern, in German)",
+        "url": "https://www.bzst.de/DE/Unternehmen/Kapitalertraege/Kapitalertragsteuerentlastung/kapitalertragsteuerentlastung_node.html"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on Xetra and other German venues.",
+    "German shares also trade on other European venues under the same ISIN (Categories A and D).",
+    "Indirectly, through funds or ETFs on the DAX or broader indexes (Category H)."
+  ],
+  "companies": [
+    "Siemens",
+    "SAP",
+    "Allianz",
+    "Siemens Energy",
+    "Airbus",
+    "Deutsche Telekom",
+    "Infineon Technologies",
+    "Munich Re",
+    "Deutsche Bank",
+    "DHL"
+  ],
+  "history": [
+    {
+      "year": "1585",
+      "text": "Merchants at the Frankfurt fair set uniform exchange rates for coins for the first time, on 9 September; this is regarded as the birth of the Frankfurt exchange."
+    },
+    {
+      "year": "1820",
+      "text": "The first share traded in Frankfurt is a participating certificate of the Austrian National Bank (Oesterreichische Nationalbank)."
+    },
+    {
+      "year": "1987",
+      "text": "Base date of the DAX: 1,000 points on 30 December 1987."
+    },
+    {
+      "year": "1997",
+      "text": "Deutsche Börse launches the fully electronic Xetra trading system."
+    }
+  ],
+  "funFacts": [
+    "The first share ever traded in Frankfurt came from Austria: a certificate of the Oesterreichische Nationalbank, in 1820.",
+    "The ten largest DAX members made up about 65% of the index's weight at the end of September 2026."
+  ],
+  "lessons": [
+    "indexes-etfs-funds/major-indexes",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "History of the Frankfurt Stock Exchange (Deutsche Börse)",
+      "url": "https://www.deutsche-boerse.com/dbg-en/markets-services/trading/frankfurt-stock-exchange/history-of-the-frankfurt-stock-exchange"
+    },
+    {
+      "title": "DAX factsheet, top 10 components as of 30 September 2026 (STOXX)",
+      "url": "https://stoxx.com/index/DAXNR/?factsheet=true"
+    },
+    {
+      "title": "About Clearstream (Clearstream)",
+      "url": "https://www.clearstream.com/clearstream-en/about-clearstream"
+    }
+  ]
+}

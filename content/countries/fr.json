@@ -1,0 +1,184 @@
+{
+  "code": "FR",
+  "name": "France",
+  "region": "europe",
+  "summary": "Paris is one of the markets of Euronext, the group formed in 2000 from the Amsterdam, Brussels and Paris exchanges. The CAC 40 tracks 40 large French companies, from luxury goods to aerospace. Buying shares of large French companies carries a 0.4% financial transaction tax.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "Same currency as Austria, so no exchange-rate risk for a euro investor. Many CAC 40 companies earn a large part of their revenue outside the euro area."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Paris",
+      "tradingTimesId": "euronext-paris",
+      "city": "Paris",
+      "founded": "Part of Euronext since 2000, when the Amsterdam, Brussels and Paris markets were combined",
+      "website": "https://www.euronext.com/en",
+      "hours": "For CAC 40 shares: opening auction, continuous trading 09:00–17:30, closing auction until 17:35, then trading at the closing price until 17:40.",
+      "timeZone": "Europe/Paris",
+      "hoursSource": "https://live.euronext.com/resources/trading-hours-holidays",
+      "holidaysSource": "https://live.euronext.com/resources/trading-hours-holidays",
+      "note": "Euronext runs seven regulated markets: Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo and Paris."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CAC 40",
+      "constituents": "40 companies",
+      "description": "The 40 largest and most actively traded shares on Euronext Paris, weighted by free-float market capitalisation. Base value 1,000 on 31 December 1987; officially launched on 15 June 1988.",
+      "source": {
+        "title": "CAC 40 factsheet as of 30 September 2026 (Euronext, PDF)",
+        "url": "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/CAC_40_Index_Factsheet.pdf"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité des marchés financiers (AMF)",
+      "role": "Independent public authority that regulates the French financial markets, their participants and investment products, and makes sure investors are properly informed.",
+      "url": "https://www.amf-france.org/en/amf/our-missions"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGDR deposit guarantee",
+      "text": "Deposits are guaranteed up to €100,000 per customer and bank.",
+      "url": "https://www.garantiedesdepots.fr/en"
+    },
+    {
+      "name": "FGDR securities guarantee",
+      "text": "If an investment firm fails and cannot return clients' shares, bonds or fund units, they are covered up to €70,000 per client and firm.",
+      "url": "https://www.garantiedesdepots.fr/en"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "Euroclear France (part of the Euroclear group's ESES CSDs with Euroclear Belgium and Euroclear Nederland)",
+    "note": "Like the rest of the EU, France moves to next-day settlement on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Financial transaction tax",
+      "text": "Acquisitions of shares of French companies with a market capitalisation above €1 billion are taxed at 0.4% since 1 April 2025 (previously 0.3%). The list of companies is fixed each 1 December for the following year.",
+      "source": {
+        "title": "Augmentation du taux de la taxe sur les acquisitions de titres de capital (BOFiP, in French)",
+        "url": "https://bofip.impots.gouv.fr/bofip/14605-PGP.html/ACTU-2025-00034"
+      }
+    },
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents: 31.4% flat levy on dividends and gains since 1 January 2026 (12.8% income tax + 18.6% social charges). Non-resident individuals: 12.8% withholding on French dividends, or a lower treaty rate. 0.4% transaction tax on large French shares.",
+    "items": [
+      {
+        "title": "Residents: flat tax",
+        "text": "Income from securities is subject to a total levy of 31.4%: 12.8% income tax and 18.6% social contributions. Taxpayers can opt for the progressive income tax scale instead."
+      },
+      {
+        "title": "Dividends for non-residents",
+        "text": "French dividends paid to individuals resident abroad are subject to 12.8% withholding tax (rate in force on 1 January 2026), unless a tax treaty provides for a more favourable rate."
+      },
+      {
+        "title": "Transaction tax",
+        "text": "0.4% on purchases of shares of large French companies (see market rules above)."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "J'ai des valeurs mobilières, comment sont-elles imposées ? (impots.gouv.fr, in French)",
+        "url": "https://www.impots.gouv.fr/particulier/questions/jai-des-valeurs-mobilieres-comment-sont-elles-imposees"
+      },
+      {
+        "title": "Mes dividendes, non-résidents (impots.gouv.fr, in French)",
+        "url": "https://www.impots.gouv.fr/international-particulier/mes-dividendes"
+      },
+      {
+        "title": "Taxe sur les acquisitions de titres de capital: taux de 0,4 % (BOFiP, in French)",
+        "url": "https://bofip.impots.gouv.fr/bofip/14605-PGP.html/ACTU-2025-00034"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on Euronext Paris in euros; check whether the 0.4% transaction tax is added to the purchase.",
+    "Indirectly, through funds or ETFs on the CAC 40 or broader European indexes (Category H)."
+  ],
+  "companies": [
+    "Schneider Electric",
+    "TotalEnergies",
+    "Airbus",
+    "Air Liquide",
+    "Safran",
+    "BNP Paribas",
+    "LVMH",
+    "L'Oréal",
+    "Sanofi",
+    "AXA"
+  ],
+  "history": [
+    {
+      "year": "1987",
+      "text": "Base date of the CAC 40: 1,000 points on 31 December 1987."
+    },
+    {
+      "year": "1988",
+      "text": "The CAC 40 is officially launched on 15 June."
+    },
+    {
+      "year": "2000",
+      "text": "The Amsterdam, Brussels and Paris exchanges combine to form Euronext."
+    },
+    {
+      "year": "2025",
+      "text": "The financial transaction tax rises from 0.3% to 0.4% (from 1 April)."
+    }
+  ],
+  "funFacts": [
+    "The ten largest CAC 40 members made up about 62% of the index at the end of September 2026.",
+    "Airbus is listed in Paris and was also among the ten largest DAX members in 2026."
+  ],
+  "lessons": [
+    "indexes-etfs-funds/major-indexes",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Euronext celebrates 25 years (Euronext)",
+      "url": "https://www.euronext.com/en/news/25-years-euronext-celebrating-quarter-century-shaping-capital-markets"
+    },
+    {
+      "title": "CAC Index Family Rulebook (Euronext, PDF)",
+      "url": "https://live.euronext.com/sites/default/files/documentation/index-rules2/CAC_Index_Family_Rulebook.pdf"
+    },
+    {
+      "title": "ESES CSDs: Euroclear Belgium, Euroclear France, Euroclear Nederland (Euroclear)",
+      "url": "https://www.euroclear.com/ourgroup/en/eses.html"
+    }
+  ]
+}

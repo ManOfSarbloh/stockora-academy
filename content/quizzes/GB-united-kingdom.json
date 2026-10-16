@@ -1,0 +1,267 @@
+[
+  {
+    "id": "GB-001",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year did the first regulated exchange come into existence in London?",
+    "answerNumber": 1801,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "LSEG dates the modern Stock Exchange to 1801; price lists go back to 1698.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.lseg.com/en/about-us/history"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-002",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Where did John Castaing start publishing stock and commodity prices in 1698?",
+    "options": [
+      "Jonathan's Coffee House",
+      "The Royal Exchange",
+      "Lloyd's of London",
+      "The Bank of England"
+    ],
+    "answerIndex": 0,
+    "explanation": "At Jonathan's Coffee House.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.lseg.com/en/about-us/history"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-003",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What does the FTSE 100 contain?",
+    "options": [
+      "The largest 100 UK companies by full market capitalisation",
+      "The 100 oldest UK companies",
+      "100 companies chosen by the FCA",
+      "All companies listed in London"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is reviewed quarterly.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/research/ftse-100-index-turns-forty.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-004",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At how many points did the FTSE 100 start on 3 January 1984?",
+    "answerNumber": 1000,
+    "tolerance": 0,
+    "unit": "points",
+    "explanation": "1,000 points.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/research/ftse-100-index-turns-forty.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-005",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the usual tax rate when buying UK shares electronically (Stamp Duty Reserve Tax), in percent?",
+    "answerNumber": 0.5,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "0.5%; 1.5% for transfers into some depositary receipt schemes or clearance services.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.gov.uk/tax-buy-shares"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-006",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Since 1 December 2025, up to what amount does the FSCS protect bank deposits per person and bank?",
+    "options": [
+      "£120,000",
+      "£85,000",
+      "£50,000",
+      "£250,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "£120,000; investment claims are covered up to £85,000.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.fscs.org.uk/what-we-cover/banks-building-societies/",
+      "https://www.fscs.org.uk/what-we-cover/investments/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-007",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which regulator oversees the conduct of financial firms and markets in the UK?",
+    "options": [
+      "Financial Conduct Authority (FCA)",
+      "BaFin",
+      "SEC",
+      "FINMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FCA regulates the conduct of around 35,500 businesses.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.fca.org.uk/about"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-008",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the annual Capital Gains Tax allowance for individuals in the 2026–27 tax year, in pounds?",
+    "answerNumber": 3000,
+    "tolerance": 0,
+    "unit": "£",
+    "explanation": "£3,000.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.gov.uk/capital-gains-tax/allowances"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-009",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what rate do higher-rate taxpayers pay Capital Gains Tax on shares from 6 April 2026?",
+    "options": [
+      "24%",
+      "18%",
+      "20%",
+      "28%"
+    ],
+    "answerIndex": 0,
+    "explanation": "24% above the basic-rate band; 18% within it.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.gov.uk/capital-gains-tax/rates"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-010",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How much can a UK resident save in ISAs in the 2026–27 tax year, in pounds?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "£",
+    "explanation": "£20,000 across all ISA types.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.gov.uk/individual-savings-accounts"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-011",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: according to HMRC, UK dividend income remains non-taxable for most non-UK residents.",
+    "answerBool": true,
+    "explanation": "True, except for individuals who also have taxable UK income.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.gov.uk/hmrc-internal-manuals/savings-and-investment-manual/saim5120"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-012",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "A London share price is shown as 2,450 GBX. What is that in pounds?",
+    "options": [
+      "£24.50",
+      "£2,450",
+      "£245",
+      "£2.45"
+    ],
+    "answerIndex": 0,
+    "explanation": "GBX means pence: 2,450 pence = £24.50.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.londonstockexchange.com/stock/BP./bp-plc/company-page"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-013",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the UK's central securities depository and its settlement system?",
+    "options": [
+      "Euroclear UK & International, with CREST",
+      "Clearstream, with Xetra",
+      "DTC, with NSCC",
+      "SIX SIS, with SECOM"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euroclear UK & International runs the CREST system.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.euroclear.com/services/en/provider-homepage/euroclear-uk-international.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "GB-014",
+    "category": "GB",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "By how much did the FTSE 100 fall on 20 October 1987, its worst day from 1984 to 2023, in percent?",
+    "answerNumber": 12.22,
+    "tolerance": 0.01,
+    "unit": "%",
+    "explanation": "−12.22%, according to FTSE Russell.",
+    "lessonLink": "/world/gb",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/research/ftse-100-index-turns-forty.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

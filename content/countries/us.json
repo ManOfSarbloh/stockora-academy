@@ -1,0 +1,204 @@
+{
+  "code": "US",
+  "name": "United States",
+  "region": "americas",
+  "summary": "By far the world's largest stock market: listed US companies were worth almost $69 trillion at the end of 2025. Shares trade mainly on the NYSE and Nasdaq. The S&P 500 is the benchmark most investors follow, and US trades already settle the next business day (T+1).",
+  "currency": {
+    "code": "USD",
+    "name": "US dollar",
+    "note": "For a euro investor, US shares carry currency risk: a stronger euro reduces the euro value of dollar holdings, a weaker euro increases it (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "New York Stock Exchange (NYSE)",
+      "tradingTimesId": "nyse",
+      "city": "New York",
+      "founded": "1792 (Buttonwood Agreement, signed by 24 stockbrokers on 17 May)",
+      "website": "https://www.nyse.com/",
+      "hours": "Core session 09:30–16:00 New York time, with opening and closing auctions. NYSE Arca also offers early (04:00–09:30) and late (16:00–20:00) sessions; other venues and brokers use different extended hours.",
+      "timeZone": "America/New_York",
+      "hoursSource": "https://www.nyse.com/trade/hours-calendars",
+      "holidaysSource": "https://www.nyse.com/trade/hours-calendars",
+      "note": "Nasdaq publishes the same 2026 holidays and early closes."
+    },
+    {
+      "name": "Nasdaq",
+      "city": "New York",
+      "website": "https://www.nasdaq.com/",
+      "hours": "Regular market 09:30–16:00 New York time; pre-market 04:00–09:30 and after-hours 16:00–20:00.",
+      "timeZone": "America/New_York",
+      "hoursSource": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule",
+      "holidaysSource": "https://www.nasdaq.com/market-activity/stock-market-holiday-schedule"
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P 500",
+      "constituents": "500 companies",
+      "description": "500 leading US companies, covering about 80% of available market capitalisation. Calculated by S&P Dow Jones Indices.",
+      "source": {
+        "title": "S&P 500 (S&P Dow Jones Indices)",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/sp-500/"
+      }
+    },
+    {
+      "name": "Dow Jones Industrial Average (the Dow)",
+      "constituents": "30 companies",
+      "description": "A price-weighted index of 30 prominent US companies: shares with higher prices have more weight (Category H).",
+      "source": {
+        "title": "Dow Jones Industrial Average (S&P Dow Jones Indices)",
+        "url": "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+      }
+    },
+    {
+      "name": "Nasdaq-100",
+      "constituents": "About 100 companies",
+      "description": "Large companies listed on Nasdaq, excluding financial companies, so technology and other growth industries dominate.",
+      "source": {
+        "title": "Nasdaq-100 Index (Nasdaq)",
+        "url": "https://www.nasdaq.com/solutions/global-indexes/nasdaq-100"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "role": "Federal regulator of the securities markets, public company disclosure, exchanges and brokers.",
+      "url": "https://www.sec.gov/about"
+    },
+    {
+      "name": "FINRA",
+      "role": "Self-regulatory organisation for member broker-dealers, supervising them under SEC oversight; it also runs BrokerCheck, where you can look up a broker's registration.",
+      "url": "https://www.finra.org/about"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "SIPC",
+      "text": "If a member brokerage firm fails, SIPC protects customers' securities and cash up to $500,000, including $250,000 for cash. It does not cover market losses.",
+      "url": "https://www.sipc.org/for-investors/what-sipc-protects"
+    },
+    {
+      "name": "FDIC deposit insurance",
+      "text": "Bank deposits are insured to at least $250,000 at each FDIC-insured bank.",
+      "url": "https://www.fdic.gov/resources/deposit-insurance"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (one business day) since 28 May 2024",
+    "csd": "The Depository Trust Company (DTC), part of DTCC",
+    "note": "The SEC adopted the change from T+2 to T+1 on 15 February 2023.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "New \"T+1\" Settlement Cycle: What Investors Need To Know (Investor.gov, U.S. SEC)",
+      "url": "https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/new-t1-settlement-cycle-what-investors-need-know-investor-bulletin"
+    }
+  },
+  "rules": [
+    {
+      "title": "Market-wide circuit breakers",
+      "text": "Trading across all US exchanges can be halted if the S&P 500 falls 7% (Level 1), 13% (Level 2) or 20% (Level 3) in a day (Category D).",
+      "source": {
+        "title": "Stock market circuit breakers (Investor.gov, U.S. SEC)",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/glossary/stock-market-circuit-breakers"
+      }
+    },
+    {
+      "title": "Extended trading hours",
+      "text": "Many US venues and brokers offer trading before 09:30 and after 16:00 New York time, with lower liquidity and wider spreads (Category E)."
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Non-residents: 30% US withholding on dividends, reduced under a tax treaty. Residents: long-term gains (assets held more than a year) taxed at 0%, 15% or 20% depending on income; short-term gains at ordinary income tax rates.",
+    "items": [
+      {
+        "title": "Dividends paid to foreign investors",
+        "text": "US payers generally withhold 30% on dividends paid to non-resident aliens. A reduced rate may apply under a tax treaty between the investor's country and the United States."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax only up to 15% of the dividend (Category Q). Ask your bank how it applies the US treaty rate."
+      },
+      {
+        "title": "Capital gains (US residents)",
+        "text": "Assets held more than one year produce long-term gains, taxed at 0%, 15% or 20% depending on taxable income; assets held one year or less produce short-term gains, taxed as ordinary income."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NRA withholding (IRS)",
+        "url": "https://www.irs.gov/individuals/international-taxpayers/nra-withholding"
+      },
+      {
+        "title": "Topic no. 409, Capital gains and losses (IRS)",
+        "url": "https://www.irs.gov/taxtopics/tc409"
+      }
+    ]
+  },
+  "access": [
+    "Most Austrian banks and brokers offer trading in US shares, usually with currency conversion into dollars.",
+    "Some US shares are also traded on European venues in euros (Category D).",
+    "Indirectly, through funds or ETFs on the S&P 500 or other US indexes (Category H)."
+  ],
+  "companies": [
+    "Alphabet",
+    "NVIDIA",
+    "Honeywell International",
+    "Sherwin-Williams"
+  ],
+  "history": [
+    {
+      "year": "1792",
+      "text": "24 stockbrokers sign the Buttonwood Agreement on 17 May, the official founding of the NYSE."
+    },
+    {
+      "year": "1929",
+      "text": "The stock market crash starts the Great Depression era (Category K)."
+    },
+    {
+      "year": "1987",
+      "text": "Black Monday, 19 October: the largest one-day percentage fall in the Dow's history (Category K)."
+    },
+    {
+      "year": "2024",
+      "text": "The US moves to T+1 settlement on 28 May."
+    },
+    {
+      "year": "2026",
+      "text": "Alphabet is announced as a new member of the Dow Jones Industrial Average (June)."
+    }
+  ],
+  "funFacts": [
+    "The NYSE traces its roots to a financial panic: the Buttonwood Agreement of 1792 was a response to the young nation's first financial panic.",
+    "US listed companies were worth about 224% of US GDP at the end of 2025 (World Bank/WFE)."
+  ],
+  "lessons": [
+    "market-cycles-history/crash-of-1929",
+    "market-cycles-history/black-monday-1987",
+    "indexes-etfs-funds/major-indexes"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "The History of NYSE (NYSE)",
+      "url": "https://www.nyse.com/history-of-nyse"
+    },
+    {
+      "title": "Alphabet set to join the Dow Jones Industrial Average, 23 June 2026 (S&P Dow Jones Indices)",
+      "url": "https://www.spglobal.com/spdji/en/indices/equity/dow-jones-industrial-average/"
+    },
+    {
+      "title": "DTC (DTCC, businesses and subsidiaries)",
+      "url": "https://www.dtcc.com/about/businesses-and-subsidiaries/dtc"
+    }
+  ]
+}

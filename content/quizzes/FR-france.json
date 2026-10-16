@@ -1,0 +1,232 @@
+[
+  {
+    "id": "FR-001",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the CAC 40 contain?",
+    "answerNumber": 40,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The 40 largest and most actively traded shares on Euronext Paris.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/CAC_40_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-002",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which three exchanges combined to form Euronext in 2000?",
+    "options": [
+      "Amsterdam, Brussels and Paris",
+      "Paris, Frankfurt and Milan",
+      "London, Paris and Madrid",
+      "Paris, Lisbon and Oslo"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euronext began in 2000 as a consolidation of Amsterdam, Brussels and Paris.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.euronext.com/en/news/25-years-euronext-celebrating-quarter-century-shaping-capital-markets"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-003",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What was the CAC 40's base value on 31 December 1987?",
+    "options": [
+      "1,000 points",
+      "1,500 points",
+      "100 points",
+      "500 points"
+    ],
+    "answerIndex": 0,
+    "explanation": "1,000 points; the index was launched on 15 June 1988.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-rules2/CAC_Index_Family_Rulebook.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-004",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority regulates the French financial markets?",
+    "options": [
+      "Autorité des marchés financiers (AMF)",
+      "BaFin",
+      "FCA",
+      "CONSOB"
+    ],
+    "answerIndex": 0,
+    "explanation": "The AMF is an independent public authority.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.amf-france.org/en/amf/our-missions"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-005",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount are deposits guaranteed per customer and bank in France, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000 (FGDR).",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.garantiedesdepots.fr/en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-006",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what amount does the French securities guarantee cover clients of a failed investment firm, in euros?",
+    "answerNumber": 70000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€70,000 per client and firm.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.garantiedesdepots.fr/en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-007",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the total flat levy on income from securities for French residents since 1 January 2026, in percent?",
+    "answerNumber": 31.4,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "31.4%: 12.8% income tax and 18.6% social contributions.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.impots.gouv.fr/particulier/questions/jai-des-valeurs-mobilieres-comment-sont-elles-imposees"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-008",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the French withholding rate on dividends paid to individuals resident abroad (before treaty reductions), in percent?",
+    "answerNumber": 12.8,
+    "tolerance": 0.05,
+    "unit": "%",
+    "explanation": "12.8%, the rate in force on 1 January 2026.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.impots.gouv.fr/international-particulier/mes-dividendes"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-009",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the French financial transaction tax rate on buying shares of large French companies since 1 April 2025?",
+    "options": [
+      "0.4%",
+      "0.3%",
+      "0.5%",
+      "0.1%"
+    ],
+    "answerIndex": 0,
+    "explanation": "Raised from 0.3% to 0.4% by the 2025 budget law.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://bofip.impots.gouv.fr/bofip/14605-PGP.html/ACTU-2025-00034"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-010",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: France moves to T+1 settlement on 11 October 2027 with the rest of the EU.",
+    "answerBool": true,
+    "explanation": "True; until then trades settle on T+2.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-011",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which companies were among the ten largest CAC 40 members at the end of September 2026? Select all that apply.",
+    "options": [
+      "TotalEnergies",
+      "LVMH",
+      "Schneider Electric",
+      "Nestlé"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nestlé is Swiss and listed in Zurich.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://live.euronext.com/sites/default/files/documentation/index-fact-sheets/CAC_40_Index_Factsheet.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "FR-012",
+    "category": "FR",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "Which group runs the central securities depository for French shares?",
+    "options": [
+      "Euroclear (Euroclear France)",
+      "Clearstream",
+      "DTCC",
+      "SIX SIS"
+    ],
+    "answerIndex": 0,
+    "explanation": "Euroclear France is one of the ESES CSDs.",
+    "lessonLink": "/world/fr",
+    "sources": [
+      "https://www.euroclear.com/ourgroup/en/eses.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

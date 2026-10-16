@@ -1,0 +1,214 @@
+{
+  "code": "GB",
+  "name": "United Kingdom",
+  "region": "europe",
+  "summary": "London is one of the world's oldest and most international markets: its history goes back to price lists at a coffee house in 1698. The FTSE 100 tracks the largest UK-listed companies. Shares trade in pounds, and buying UK shares usually costs 0.5% stamp duty.",
+  "currency": {
+    "code": "GBP",
+    "name": "Pound sterling",
+    "note": "Many UK share prices are quoted in pence (GBX), where 100 pence make one pound. For a euro investor, moves in the pound against the euro change the value of UK shares (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "London Stock Exchange (LSE)",
+      "tradingTimesId": "lse",
+      "city": "London",
+      "founded": "1801 (first regulated exchange); price lists since 1698",
+      "website": "https://www.londonstockexchange.com/",
+      "hours": "For SETS, the order book of the most liquid shares: opening auction 07:50–08:00, continuous trading 08:00–16:30, closing auction 16:30–16:35. On half days, continuous trading ends at 12:30.",
+      "timeZone": "Europe/London",
+      "hoursSource": "https://docs.londonstockexchange.com/sites/default/files/documents/20260727-mit-and-te-parameters-version-10-0.xlsx",
+      "holidaysSource": "https://www.londonstockexchange.com/equities-trading/business-days",
+      "note": "The exchange also runs AIM, a market for smaller and growing companies, founded in 1995."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE 100",
+      "constituents": "100 companies",
+      "description": "The largest 100 UK companies by full market capitalisation, reviewed quarterly. Launched on 3 January 1984 at 1,000 points. Calculated by FTSE Russell (LSEG).",
+      "source": {
+        "title": "The FTSE 100 Index: the UK's best-known equity index turns forty (FTSE Russell, PDF)",
+        "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/research/ftse-100-index-turns-forty.pdf"
+      }
+    },
+    {
+      "name": "FTSE 250",
+      "constituents": "250 companies",
+      "description": "The next 250 companies after the FTSE 100: the UK's mid caps. Together, the two form the FTSE 350.",
+      "source": {
+        "title": "The FTSE 100 Index: the UK's best-known equity index turns forty (FTSE Russell, PDF)",
+        "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/research/ftse-100-index-turns-forty.pdf"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Conduct Authority (FCA)",
+      "role": "Regulates the conduct of around 35,500 businesses so that financial markets work well, including listing rules and market abuse.",
+      "url": "https://www.fca.org.uk/about"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Services Compensation Scheme (FSCS): deposits",
+      "text": "Since 1 December 2025, deposits are protected up to £120,000 per eligible person and bank.",
+      "url": "https://www.fscs.org.uk/what-we-cover/banks-building-societies/"
+    },
+    {
+      "name": "FSCS: investments",
+      "text": "If an investment firm fails, eligible claims are covered up to £85,000 per person and firm (for failures after 1 April 2019). Market losses are not covered.",
+      "url": "https://www.fscs.org.uk/what-we-cover/investments/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 from 11 October 2027",
+    "csd": "Euroclear UK & International (CREST system)",
+    "note": "The UK moves to T+1 on the same date as the EU and Switzerland.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "T+1 Settlement: SIX and the transition to T+1 (SIX)",
+      "url": "https://www.six-group.com/en/products-services/securities-services/site/lp/tplusone.html"
+    }
+  },
+  "rules": [
+    {
+      "title": "Stamp duty on purchases",
+      "text": "Buying UK shares usually costs 0.5%: Stamp Duty Reserve Tax for electronic purchases, or Stamp Duty for paper transfers over £1,000. A 1.5% rate applies to transfers into some depositary receipt schemes or clearance services.",
+      "source": {
+        "title": "Tax when you buy shares (GOV.UK)",
+        "url": "https://www.gov.uk/tax-buy-shares"
+      }
+    },
+    {
+      "title": "Prices in pence",
+      "text": "The London Stock Exchange quotes many shares in GBX, which means pence: a price of 2,450 GBX is £24.50. Trade values are shown in pounds.",
+      "source": {
+        "title": "BP plc share page, price shown in GBX (London Stock Exchange)",
+        "url": "https://www.londonstockexchange.com/stock/BP./bp-plc/company-page"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Residents (2026–27): capital gains tax 18% or 24% above a £3,000 allowance; dividends 10.75%/35.75%/39.35% above a £500 allowance; £20,000 ISA allowance. No UK tax deducted from ordinary dividends paid to most non-residents. 0.5% stamp duty on share purchases.",
+    "items": [
+      {
+        "title": "Capital gains (residents)",
+        "text": "From 6 April 2026, gains on shares are taxed at 18% within the basic-rate band and 24% above it, after a £3,000 annual tax-free allowance."
+      },
+      {
+        "title": "Dividends (residents)",
+        "text": "A £500 dividend allowance; above that, 10.75% (basic rate), 35.75% (higher rate) or 39.35% (additional rate) in the 2026–27 tax year."
+      },
+      {
+        "title": "ISAs",
+        "text": "UK residents can save up to £20,000 a year in ISAs, including stocks and shares ISAs, where gains and income are tax-free."
+      },
+      {
+        "title": "Dividends for non-residents",
+        "text": "HMRC says UK dividend income remains non-taxable for most non-UK residents, and no UK tax is deducted from ordinary dividends. An Austrian investor pays Austrian tax on them (Category Q)."
+      },
+      {
+        "title": "Stamp duty",
+        "text": "Usually 0.5% when buying shares (see market rules above)."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Capital Gains Tax rates (GOV.UK)",
+        "url": "https://www.gov.uk/capital-gains-tax/rates"
+      },
+      {
+        "title": "Capital Gains Tax allowances (GOV.UK)",
+        "url": "https://www.gov.uk/capital-gains-tax/allowances"
+      },
+      {
+        "title": "Tax on dividends (GOV.UK)",
+        "url": "https://www.gov.uk/tax-on-dividends"
+      },
+      {
+        "title": "Individual Savings Accounts (GOV.UK)",
+        "url": "https://www.gov.uk/individual-savings-accounts"
+      },
+      {
+        "title": "SAIM5120: dividends received by non-UK resident persons (HMRC manual, GOV.UK)",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/savings-and-investment-manual/saim5120"
+      },
+      {
+        "title": "IFM05600: non-resident investors (HMRC manual, GOV.UK)",
+        "url": "https://www.gov.uk/hmrc-internal-manuals/investment-funds/ifm05600"
+      },
+      {
+        "title": "Tax when you buy shares (GOV.UK)",
+        "url": "https://www.gov.uk/tax-buy-shares"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on the London Stock Exchange; check costs for pound conversion and stamp duty.",
+    "Some UK-listed companies also have shares or depositary receipts traded elsewhere (Category C).",
+    "Indirectly, through funds or ETFs on the FTSE 100 or broader UK indexes (Category H)."
+  ],
+  "companies": [
+    "BP",
+    "BT Group",
+    "Centrica",
+    "BAE Systems",
+    "Relx"
+  ],
+  "history": [
+    {
+      "year": "1698",
+      "text": "At Jonathan's Coffee House, John Castaing begins publishing a list of stock and commodity prices."
+    },
+    {
+      "year": "1801",
+      "text": "The first regulated exchange comes into existence in London: the modern Stock Exchange is born."
+    },
+    {
+      "year": "1984",
+      "text": "The FTSE 100 is launched on 3 January at 1,000 points."
+    },
+    {
+      "year": "1986",
+      "text": "The 'Big Bang' deregulates the UK market."
+    },
+    {
+      "year": "1987",
+      "text": "On 20 October, the FTSE 100 falls 12.22%, its worst day from 1984 to 2023 (Category K)."
+    },
+    {
+      "year": "1995",
+      "text": "AIM, the market for smaller growing companies, is founded."
+    }
+  ],
+  "funFacts": [
+    "Of the 100 original FTSE 100 members in 1984, 26 were still in the index at the end of 2023, 12 of them under new names.",
+    "£100 invested in Reed International (now Relx) at the FTSE 100's launch would have grown to £35,393 by the end of 2023, with dividends reinvested, according to FTSE Russell.",
+    "The listed companies above are original 1984 FTSE 100 members (or their successors) that were still in the index at the end of 2023."
+  ],
+  "lessons": [
+    "market-cycles-history/black-monday-1987",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "History (LSEG)",
+      "url": "https://www.lseg.com/en/about-us/history"
+    },
+    {
+      "title": "Euroclear UK & International (Euroclear)",
+      "url": "https://www.euroclear.com/services/en/provider-homepage/euroclear-uk-international.html"
+    }
+  ]
+}

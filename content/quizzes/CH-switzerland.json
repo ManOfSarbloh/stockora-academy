@@ -1,0 +1,254 @@
+[
+  {
+    "id": "CH-001",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "How many companies does the SMI contain?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "companies",
+    "explanation": "The 20 largest and most liquid Swiss shares.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/blog/what-is-the-smi.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-002",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what level was the SMI standardised on 30 June 1988?",
+    "options": [
+      "1,500 points",
+      "1,000 points",
+      "100 points",
+      "10,000 points"
+    ],
+    "answerIndex": 0,
+    "explanation": "1,500 points.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/market-data/indices/switzerland/equity/smi.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-003",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "To what maximum weight are SMI constituents capped each quarter, in percent?",
+    "answerNumber": 18,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "18%, which makes the SMI compliant with EU UCITS rules.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/market-data/indices/switzerland/equity/smi.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-004",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which authority supervises the Swiss financial market?",
+    "options": [
+      "FINMA",
+      "BaFin",
+      "FCA",
+      "FMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "FINMA is Switzerland's independent financial market supervisor.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.finma.ch/en/finma/finma-an-overview/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-005",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Up to what amount are bank deposits protected per client in Switzerland?",
+    "options": [
+      "CHF 100,000",
+      "CHF 20,000",
+      "CHF 500,000",
+      "No protection"
+    ],
+    "answerIndex": 0,
+    "explanation": "esisuisse protects deposits up to CHF 100,000 per client and bank.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.esisuisse.ch/en"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-006",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "What is the Swiss withholding tax rate on dividends, in percent?",
+    "answerNumber": 35,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "35% (Verrechnungssteuer); residents get it back by declaring the income.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-007",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: in Switzerland, gains from selling securities held as private assets are tax-free at federal and cantonal level.",
+    "answerBool": true,
+    "explanation": "True, according to the Swiss Federal Tax Administration.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-008",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What turnover stamp duty applies when a Swiss securities dealer is involved in buying foreign securities?",
+    "options": [
+      "0.3%",
+      "0.15%",
+      "0.5%",
+      "None"
+    ],
+    "answerIndex": 0,
+    "explanation": "0.15% for Swiss and 0.3% for foreign securities.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-009",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "On which date did the Basel, Geneva and Zurich exchanges merge into the Swiss Stock Exchange SWX?",
+    "options": [
+      "17 May 1995",
+      "1 July 1988",
+      "8 December 1995",
+      "1 January 2000"
+    ],
+    "answerIndex": 0,
+    "explanation": "17 May 1995; full electronic trading followed between December 1995 and August 1996.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/site/smi-30years/time-journey.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-010",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: the Swiss stock exchange was the first in the world to switch trading, settlement and custody fully to electronic systems.",
+    "answerBool": true,
+    "explanation": "True, between 8 December 1995 and 16 August 1996, according to SIX.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/site/smi-30years/time-journey.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-011",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_select",
+    "question": "Which companies joined the SMI in September 2026? Select all that apply.",
+    "options": [
+      "Galderma",
+      "Sandoz",
+      "Swisscom",
+      "Kuehne+Nagel"
+    ],
+    "answers": [
+      0,
+      1
+    ],
+    "explanation": "Galderma and Sandoz joined; Swisscom and Kuehne+Nagel left.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/dam/download/market-data/indices/index-messages/index-adjustments-on-the-occasion-of-the-ordinary-index-review-2026.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-012",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does Switzerland move to T+1 settlement?",
+    "options": [
+      "11 October 2027, together with the EU and UK",
+      "It already uses T+0",
+      "In 2030",
+      "Never; it keeps T+3"
+    ],
+    "answerIndex": 0,
+    "explanation": "SIX coordinates the transition on 11 October 2027.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/products-services/securities-services/site/lp/tplusone.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CH-013",
+    "category": "CH",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Until what time can shares trade at the closing price on SIX after the closing auction?",
+    "options": [
+      "17:40",
+      "17:20",
+      "18:30",
+      "22:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Trading at the closing price runs until 17:40.",
+    "lessonLink": "/world/ch",
+    "sources": [
+      "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/trading-provisions/trading-hours.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

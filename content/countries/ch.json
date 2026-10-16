@@ -1,0 +1,190 @@
+{
+  "code": "CH",
+  "name": "Switzerland",
+  "region": "europe",
+  "summary": "A financial centre with a market dominated by a few global giants in food, pharmaceuticals and finance. SIX Swiss Exchange in Zurich was the first exchange in the world to run trading, settlement and custody fully electronically. Prices are in Swiss francs.",
+  "currency": {
+    "code": "CHF",
+    "name": "Swiss franc",
+    "note": "For a euro investor, Swiss shares carry currency risk: if the franc strengthens against the euro, holdings are worth more in euros, and vice versa (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "SIX Swiss Exchange",
+      "tradingTimesId": "six",
+      "city": "Zurich",
+      "founded": "17 May 1995, when the Basel, Geneva and Zurich exchanges merged into the Swiss Stock Exchange SWX",
+      "website": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange.html",
+      "hours": "Opening auction at 09:00, continuous trading until 17:20, closing auction 17:20–17:30, then trading at the closing price until 17:40 for blue chips and mid/small caps.",
+      "timeZone": "Europe/Zurich",
+      "hoursSource": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/trading-provisions/trading-hours.html",
+      "holidaysSource": "https://www.six-group.com/en/market-data/news-tools/trading-currency-holiday-calendar.html",
+      "note": "Full electronic trading was introduced between 8 December 1995 and 16 August 1996."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "SMI (Swiss Market Index)",
+      "constituents": "20 companies",
+      "description": "The 20 largest and most liquid Swiss shares, selected by free-float market capitalisation and turnover. Weights are capped at 18%; the composition is reviewed every September. Standardised at 1,500 points on 30 June 1988.",
+      "source": {
+        "title": "SMI (Swiss Market Index) (SIX)",
+        "url": "https://www.six-group.com/en/market-data/indices/switzerland/equity/smi.html"
+      }
+    },
+    {
+      "name": "SPI (Swiss Performance Index)",
+      "description": "SIX's broad Swiss index, from which the SMI's largest and most liquid shares are drawn.",
+      "source": {
+        "title": "What is the SMI? (SIX)",
+        "url": "https://www.six-group.com/en/blog/what-is-the-smi.html"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "FINMA (Swiss Financial Market Supervisory Authority)",
+      "role": "Independent supervisor of the Swiss financial market: banks, securities firms, insurers, asset managers and financial market infrastructures.",
+      "url": "https://www.finma.ch/en/finma/finma-an-overview/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "esisuisse (deposit insurance)",
+      "text": "If a bank fails, deposits are protected up to CHF 100,000 per client and bank.",
+      "url": "https://www.esisuisse.ch/en"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 from 11 October 2027",
+    "csd": "SIX SIS, the national central securities depository",
+    "note": "Switzerland moves to T+1 on the same date as the EU and the UK.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "T+1 Settlement: SIX and the transition to T+1 (SIX)",
+      "url": "https://www.six-group.com/en/products-services/securities-services/site/lp/tplusone.html"
+    }
+  },
+  "rules": [
+    {
+      "title": "Trading at the closing price",
+      "text": "After the closing auction, SIX offers a short phase in which shares trade only at the closing price (until 17:40).",
+      "source": {
+        "title": "Trading hours (SIX)",
+        "url": "https://www.six-group.com/en/products-services/the-swiss-stock-exchange/trading/trading-provisions/trading-hours.html"
+      }
+    },
+    {
+      "title": "Securities transfer stamp duty",
+      "text": "When a Swiss securities dealer is involved, a federal turnover tax applies to purchases and sales: 0.15% for Swiss securities and 0.3% for foreign securities, on the price paid.",
+      "source": {
+        "title": "Geltende Steuern, Stand 1. Januar 2026 (ESTV, PDF, in German)",
+        "url": "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "35% withholding tax on Swiss dividends (refundable for residents who declare them; partly reclaimable under tax treaties); private capital gains on securities tax-free; 0.15%/0.3% turnover stamp duty via Swiss dealers.",
+    "items": [
+      {
+        "title": "Withholding tax on dividends",
+        "text": "Swiss companies deduct 35% withholding tax (Verrechnungssteuer) from dividends. Swiss residents who declare the income get it back through their tax return; foreign investors may reclaim part under a double taxation agreement."
+      },
+      {
+        "title": "Capital gains for private investors",
+        "text": "Gains from selling movable private assets such as securities are tax-free at both federal and cantonal level."
+      },
+      {
+        "title": "Turnover stamp duty",
+        "text": "0.15% on Swiss and 0.3% on foreign securities when a Swiss securities dealer is involved."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax only up to 15% of the dividend (Category Q); the rest of the 35% has to be reclaimed in Switzerland under the tax treaty, if available."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Geltende Steuern von Bund, Kantonen und Gemeinden, Stand der Gesetzgebung 1. Januar 2026 (ESTV, PDF, in German)",
+        "url": "https://www.estv2.admin.ch/stp/ds/c-geltende-steuern-de.pdf"
+      },
+      {
+        "title": "Verrechnungssteuer (Eidgenössische Steuerverwaltung, in German)",
+        "url": "https://www.estv.admin.ch/de/verrechnungssteuer"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on SIX Swiss Exchange; check currency conversion costs for francs.",
+    "Some Swiss blue chips are also traded on other European venues.",
+    "Indirectly, through funds or ETFs on the SMI or broader Swiss indexes (Category H)."
+  ],
+  "companies": [
+    "Nestlé",
+    "Novartis",
+    "Roche",
+    "ABB",
+    "UBS",
+    "Zurich Insurance Group",
+    "Galderma",
+    "Sandoz"
+  ],
+  "history": [
+    {
+      "year": "1988",
+      "text": "The SMI is introduced with a base of 1,500 points (30 June)."
+    },
+    {
+      "year": "1995",
+      "text": "On 17 May, the Basel, Geneva and Zurich exchanges merge to form the Swiss Stock Exchange SWX, today SIX Swiss Exchange."
+    },
+    {
+      "year": "1995–96",
+      "text": "Switzerland becomes the first country to switch trading, settlement and custody fully to electronic systems (8 December 1995 to 16 August 1996)."
+    },
+    {
+      "year": "1996",
+      "text": "Ciba-Geigy and Sandoz announce their merger to form Novartis (7 March), creating one of the SMI's heaviest stocks."
+    },
+    {
+      "year": "2026",
+      "text": "Galderma and Sandoz join the SMI, replacing Swisscom and Kuehne+Nagel, effective 21 September."
+    }
+  ],
+  "funFacts": [
+    "Until 1995, the SMI was calculated from prices on three separate exchanges: Basel, Geneva and Zurich.",
+    "Nestlé, Novartis, Roche and ABB were large enough in 2026 to be capped at 9% each in SIX's broader SLI index."
+  ],
+  "lessons": [
+    "macroeconomics/currencies-and-your-investments",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "What is the SMI? (SIX)",
+      "url": "https://www.six-group.com/en/blog/what-is-the-smi.html"
+    },
+    {
+      "title": "30 years at a glance: SMI history (SIX)",
+      "url": "https://www.six-group.com/en/site/smi-30years/time-journey.html"
+    },
+    {
+      "title": "Index adjustments on the occasion of the ordinary index review, 8 July 2026 (SIX, PDF)",
+      "url": "https://www.six-group.com/dam/download/market-data/indices/index-messages/index-adjustments-on-the-occasion-of-the-ordinary-index-review-2026.pdf"
+    },
+    {
+      "title": "About SIX SIS AG (SIX)",
+      "url": "https://www.six-group.com/en/products-services/securities-services/settlement-and-custody/info-center/about-six-sis-ag.html"
+    }
+  ]
+}
