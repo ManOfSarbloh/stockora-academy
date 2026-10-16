@@ -142,6 +142,24 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Companies | "Famous companies" lists are neutral name lists of large listed firms, never recommendations, and show no figures |
 | Preview | `astro preview` in Astro 7 daemonises itself, so the preview_start launcher hangs; run it via Bash in the background and open http://localhost:4321 instead |
 
+## Phase 9 (2026-10-16): Quiz hub
+
+| Topic | Decision |
+|---|---|
+| One player | src/components/quiz/QuizRunner.tsx runs every quiz on the site (lesson, topic, country, journey and hub quizzes). Practice mode: check, explanation, hint (removes one wrong option, gives the answer count, or links to the lesson). Exam mode: no feedback until the end, free navigation, question palette, optional timer, auto-finish when time runs out, leave-page warning |
+| New question type | "Match the pairs" (select per row; right-hand list shuffled and never pre-solved). The two existing match questions now show; the validator checks pairs |
+| Pages | /quizzes (hub), /quizzes/play?kind=… (category, country, special, mega, exam, daily, weak, review, custom), /quizzes/certificate (printable, print CSS hides site chrome), /quizzes/flashcards (glossary and key facts, "Again" cards return three cards later), /quizzes/world-game (matching plus map clicks) |
+| Question bank delivery | /quizzes/questions.json built at build time (about 1.1 MB, about 240 KB gzipped) and fetched only by the player and flashcards; sources stay in the content files, only the first source travels for the "Source" link |
+| Spreading | Mega Quiz, daily quiz and Final Exam draw round-robin across groups; all country quizzes count as one group so 20 countries do not crowd out topics |
+| Final Exam | 100 questions (88 spread evenly over the 22 topics, the rest from everything), 100 minutes, pass mark 80%. Certificate shows best score and first pass date, clearly "for fun and self-assessment, not an official qualification"; the name is stored only locally |
+| Daily quiz | Same five questions for everyone on a calendar day (seeded by the date), beginner and intermediate only, five different groups; streak breaks after a missed day |
+| Spaced repetition | Leitner boxes 1–5 per question (intervals 0, 1, 3, 7, 14, 30 days); wrong answers return to box 1, due the same day. Weak-spot mode uses categories with at least 3 answers, weakest three first. Category is read from the question id prefix, which the validator now enforces |
+| Special quizzes | Built from existing verified content: glossary quiz generated from definitions (terms whose definition contains the term are skipped), Trading Times = E, How Stocks Are Made = B + journey, Scam Spotter = T, Taxes = Q, Calculation = all number questions, True or Myth = all true/false, Timeline = ordering questions + K; Chart Reading links to /charts/quiz; World Markets game uses the country files (indexes, and currencies used by only one country) |
+| Badges | First Quiz, Perfect Score (100% with at least 5 questions), Category Master (80%+ in a topic quiz), World Traveler (all 20 country quizzes), Scam Spotter (80%+ in the Scam Spotter quiz or topic T), Founder (finish the How Stocks Are Made quiz), Streak 7, Exam Passed. Computed from stored scores, never from events, so they survive reloads |
+| Storage | New localStorage keys quiz-stats, quiz-daily, quiz-exam, quiz-name (all "stockora-" prefixed); listed on the privacy page together with the older founder-game and times-zone keys; "Reset" on My Progress clears them |
+| Content | 68 new advanced questions so every one of the 196 lessons has a 5-question mini-quiz; each is built from its lesson and cites that lesson's official source. Totals: 1,368 questions (plus 431 generated glossary questions), beginner 38%, intermediate 44%, advanced 18% |
+| Correction | S/major-exchanges said Tel Aviv trades on a different weekly schedule; TASE has traded Monday to Friday since January 2026 (TASE trading schedule page), fixed |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
