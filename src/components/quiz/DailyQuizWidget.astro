@@ -1,0 +1,29 @@
+---
+/** Home page card: link to today's quiz with the current streak (filled in from localStorage). */
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+---
+
+<a href={`${url('/quizzes/play')}?kind=daily`} class="card block h-full p-5 no-underline transition-colors hover:border-link">
+  <span class="block font-semibold text-text">📅 {t('home.widgets.quiz')}</span>
+  <span class="mt-1 block text-sm text-muted">{t('home.widgets.quizBody')}</span>
+  <span class="mt-3 block text-sm font-semibold text-text" id="daily-widget-status" data-one={t('qh.daily.streakOne')} data-many={t('qh.daily.streak', { n: '{n}' })}>
+    {t('qh.daily.start')} →
+  </span>
+</a>
+
+<script>
+  import { loadDaily } from '@/lib/quiz-store';
+  import { currentStreak, dayKey } from '@/lib/quiz-engine';
+
+  const el = document.getElementById('daily-widget-status');
+  if (el) {
+    const today = dayKey(new Date());
+    const d = loadDaily();
+    const streak = currentStreak(d, today);
+    if (streak > 0) {
+      const label = streak === 1 ? (el.dataset.one ?? '') : (el.dataset.many ?? '').replace('{n}', String(streak));
+      el.textContent = `🔥 ${label}${d.lastDay === today ? ' ✓' : ''}`;
+    }
+  }
+</script>

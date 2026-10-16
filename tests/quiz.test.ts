@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest';
 import {
   correctAnswerText,
+  isAnswered,
   isCorrect,
   parseNumberCandidates,
   prepareQuiz,
@@ -126,5 +127,33 @@ describe('correctAnswerText', () => {
     expect(correctAnswerText(ms, labels)).toBe('a; d');
     expect(correctAnswerText(tf, labels)).toBe('False');
     expect(correctAnswerText(num, labels)).toBe('2.5 %');
+  });
+});
+
+describe('match questions', () => {
+  const m: Question = { ...base, id: 'A-7', type: 'match', question: 'q', pairs: [['a', '1'], ['b', '2'], ['c', '3']] };
+  it('is correct only when every left item has its own right item', () => {
+    expect(isCorrect(m, [0, 1, 2])).toBe(true);
+    expect(isCorrect(m, [1, 0, 2])).toBe(false);
+    expect(isCorrect(m, [0, 1, -1])).toBe(false);
+    expect(isCorrect(m, [0, 1])).toBe(false);
+  });
+  it('needs every pair chosen before it counts as answered', () => {
+    expect(isAnswered(m, [0, -1, 2])).toBe(false);
+    expect(isAnswered(m, [2, 0, 1])).toBe(true);
+    expect(isAnswered(mc, undefined)).toBe(false);
+    expect(isAnswered(num, '  ')).toBe(false);
+    expect(isAnswered(ord, undefined)).toBe(true);
+  });
+  it('shuffles the right-hand list so it never starts in the solved order', () => {
+    for (let s = 1; s < 30; s++) {
+      const sh = shuffleOptions(m, rng(s));
+      if (sh.type !== 'match') throw new Error('type');
+      expect([...sh.rightOrder!].sort()).toEqual([0, 1, 2]);
+      expect(sh.rightOrder).not.toEqual([0, 1, 2]);
+    }
+  });
+  it('shows the pairs as the correct answer', () => {
+    expect(correctAnswerText(m, { true: 'T', false: 'F' })).toBe('a → 1; b → 2; c → 3');
   });
 });

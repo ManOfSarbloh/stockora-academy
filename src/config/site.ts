@@ -50,16 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  quizzes: {
-    title: 'Quizzes',
-    lead: 'Test what you have learned, topic by topic or across everything.',
-    planned: [
-      'A quiz for every topic and every country',
-      'Practice, exam, review and weak-spot modes',
-      'Daily quiz with streaks, and a Mega Quiz',
-      'Final Exam with a printable just-for-fun certificate',
-    ],
-  },
   videos: {
     title: 'Videos',
     lead: 'Hand-picked educational videos for every topic.',

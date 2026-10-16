@@ -1,0 +1,102 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import LogoMark from '@/components/LogoMark.astro';
+import { EXAM } from '@/lib/quiz-engine';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+---
+
+<BaseLayout title={t('cert.title')} description={t('cert.lead')} searchable={false} noindex>
+  <div class="no-print">
+    <PageHeader title={t('cert.title')} lead={t('cert.lead')} />
+  </div>
+  <div class="container-page py-10">
+    <div id="cert-locked" class="card max-w-xl p-5 no-print">
+      <p>{t('cert.locked', { pass: EXAM.passPercent })}</p>
+      <a class="btn btn-primary mt-4" href={`${url('/quizzes/play')}?kind=exam`}>{t('qh.exam.start')}</a>
+    </div>
+
+    <div id="cert-unlocked" class="hidden">
+      <div class="no-print flex max-w-3xl flex-wrap items-end gap-3">
+        <label class="block text-sm font-semibold" for="cert-name">
+          {t('cert.nameLabel')}
+          <input
+            id="cert-name"
+            type="text"
+            maxlength="80"
+            autocomplete="name"
+            class="mt-1.5 block w-72 max-w-full rounded-lg border border-border bg-surface px-3 py-2 font-normal text-text"
+          />
+        </label>
+        <button type="button" id="cert-print" class="btn btn-primary">{t('cert.print')}</button>
+      </div>
+
+      <article id="certificate" class="certificate mt-8 max-w-3xl rounded-2xl border-4 border-double border-link bg-surface p-8 text-center sm:p-12">
+        <div class="flex items-center justify-center gap-2">
+          <LogoMark size={36} />
+          <span class="text-xl font-bold">{t('site.name')}</span>
+        </div>
+        <h2 class="mt-8 text-3xl font-bold tracking-tight sm:text-4xl">{t('cert.heading')}</h2>
+        <p class="mt-8 text-sm text-muted">{t('cert.certify')}</p>
+        <p id="cert-out-name" class="mx-auto mt-2 min-h-10 max-w-md border-b-2 border-border pb-1 text-2xl font-semibold"></p>
+        <p class="mt-4" id="cert-out-body" data-template={t('cert.body', { score: '{score}' })}></p>
+        <p class="mt-6 text-sm" id="cert-out-date" data-template={t('cert.date', { date: '{date}' })}></p>
+        <p class="mt-10 text-xs text-muted">{t('cert.disclaimer')}</p>
+      </article>
+    </div>
+  </div>
+</BaseLayout>
+
+<style is:global>
+  @media print {
+    header,
+    footer,
+    .no-print,
+    #gloss-tip {
+      display: none !important;
+    }
+    html,
+    body,
+    main {
+      background: #fff !important;
+      color: #111 !important;
+    }
+    .certificate {
+      border-color: #0f766e !important;
+      background: #fff !important;
+      color: #111 !important;
+      margin: 0 auto !important;
+      break-inside: avoid;
+    }
+    .certificate .text-muted {
+      color: #444 !important;
+    }
+  }
+</style>
+
+<script>
+  import { loadExam, loadName, saveName } from '@/lib/quiz-store';
+
+  const exam = loadExam();
+  const locked = document.getElementById('cert-locked')!;
+  const unlocked = document.getElementById('cert-unlocked')!;
+  if (exam.passed && exam.passedOn) {
+    locked.classList.add('hidden');
+    unlocked.classList.remove('hidden');
+    const input = document.getElementById('cert-name') as HTMLInputElement;
+    const outName = document.getElementById('cert-out-name')!;
+    const body = document.getElementById('cert-out-body')!;
+    const date = document.getElementById('cert-out-date')!;
+    body.textContent = (body.dataset.template ?? '').replace('{score}', String(exam.best));
+    const when = new Date(`${exam.passedOn}T12:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    date.textContent = (date.dataset.template ?? '').replace('{date}', when);
+    input.value = loadName();
+    outName.textContent = input.value;
+    input.addEventListener('input', () => {
+      outName.textContent = input.value;
+      saveName(input.value);
+    });
+    document.getElementById('cert-print')!.addEventListener('click', () => window.print());
+  }
+</script>

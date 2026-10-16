@@ -121,6 +121,13 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
       errors.push(`quizzes ${q.id}: an answer index is out of range`);
     if (q.type === 'order' && new Set(q.orderedItems).size !== q.orderedItems?.length)
       errors.push(`quizzes ${q.id}: order items must be unique`);
+    // The quiz hub reads the category from the id prefix (review and weak-spot statistics).
+    if (q.id.split('-')[0] !== q.category) errors.push(`quizzes ${q.id}: id must start with its category "${q.category}-"`);
+    if (q.type === 'match') {
+      const rights = (q.pairs ?? []).map((p) => p[1]);
+      if ((q.pairs ?? []).length < 2) errors.push(`quizzes ${q.id}: a match question needs at least 2 pairs`);
+      if (new Set(rights).size !== rights.length) errors.push(`quizzes ${q.id}: match answers must be unique`);
+    }
   }
 }
 

@@ -1,0 +1,139 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import QuizHub from '@/components/quiz/QuizHub';
+import { getQuizMeta } from '@/lib/quiz-meta';
+import { SPECIAL_QUIZZES, playQuery, GLOSSARY_CATEGORY } from '@/lib/quiz-sets';
+import { t, type UiKey } from '@/i18n';
+import { url } from '@/lib/url';
+
+const meta = await getQuizMeta();
+const play = (q: Parameters<typeof playQuery>[0]) => `${url('/quizzes/play')}${playQuery(q)}`;
+const totalWithGlossary = meta.total + (meta.counts[GLOSSARY_CATEGORY] ?? 0);
+
+const specials = SPECIAL_QUIZZES.map((s) => ({
+  id: s.id,
+  title: t(`qs.${s.id}.title` as UiKey),
+  lead: t(`qs.${s.id}.lead` as UiKey),
+  href: s.href ? url(s.href) : play({ kind: 'special', id: s.id }),
+  scoreId: s.id === 'chart-reading' ? 'chart-quiz' : s.href ? '' : `special-${s.id}`,
+  size: s.size,
+}));
+const topicQuizzes = [...meta.topics, 'HSM'].map((id) => ({
+  id,
+  name: meta.names[id],
+  n: meta.counts[id] ?? 0,
+  href: play({ kind: 'category', id }),
+}));
+const countryQuizzes = meta.countries.map((code) => ({
+  code,
+  name: meta.names[code],
+  n: meta.counts[code] ?? 0,
+  href: play({ kind: 'country', id: code }),
+  scoreId: `country-${code}`,
+}));
+---
+
+<BaseLayout title={t('qh.title')} description={t('qh.lead')}>
+  <PageHeader title={t('qh.title')} lead={t('qh.lead')}>
+    <p class="mt-3 text-sm font-semibold text-muted">{t('qh.count', { n: totalWithGlossary.toLocaleString('en') })}</p>
+  </PageHeader>
+
+  <div class="container-page space-y-12 py-10">
+    <QuizHub client:load names={meta.names} topics={meta.topics} countries={meta.countries} />
+
+    <section aria-labelledby="special-title">
+      <h2 id="special-title" class="text-2xl font-bold tracking-tight">{t('qh.special.title')}</h2>
+      <ul class="mt-5 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          specials.map((s) => (
+            <li>
+              <a href={s.href} class="card block h-full p-5 no-underline transition-colors hover:border-link">
+                <span class="block font-semibold text-text">{s.title}</span>
+                <span class="mt-1 block text-sm text-muted">{s.lead}</span>
+                <span class="mt-3 block text-xs font-semibold text-muted">
+                  {s.size > 0 && <>{t('qh.questions', { n: s.size })} · </>}
+                  <span data-score-id={s.scoreId}>{s.scoreId ? t('qh.notTaken') : ''}</span>
+                </span>
+              </a>
+            </li>
+          ))
+        }
+        <li>
+          <a href={url('/quizzes/flashcards')} class="card block h-full p-5 no-underline transition-colors hover:border-link">
+            <span class="block font-semibold text-text">{t('qh.flashcards.title')}</span>
+            <span class="mt-1 block text-sm text-muted">{t('qh.flashcards.lead')}</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="topics-title">
+      <h2 id="topics-title" class="text-2xl font-bold tracking-tight">{t('qh.topics.title')}</h2>
+      <p class="mt-1 text-muted">{t('qh.topics.lead')}</p>
+      <ul class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          topicQuizzes.map((q) => (
+            <li>
+              <a href={q.href} class="card flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-link">
+                <span>
+                  <span class="block font-semibold text-text">{q.name}</span>
+                  <span class="block text-xs text-muted">{t('qh.questions', { n: q.n })}</span>
+                </span>
+                <span class="shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.id}>
+                  {t('qh.notTaken')}
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section aria-labelledby="countries-title">
+      <h2 id="countries-title" class="text-2xl font-bold tracking-tight">{t('qh.countries.title')}</h2>
+      <p class="mt-1 text-muted">{t('qh.countries.lead')}</p>
+      <ul class="mt-5 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+        {
+          countryQuizzes.map((q) => (
+            <li>
+              <a href={q.href} class="card flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-link">
+                <span>
+                  <span class="block font-semibold text-text">{q.name}</span>
+                  <span class="block text-xs text-muted">{t('qh.questions', { n: q.n })}</span>
+                </span>
+                <span class="shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.scoreId}>
+                  {t('qh.notTaken')}
+                </span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <p class="text-sm text-muted">
+      {t('qh.privacy')} <a href={url('/me')}>{t('nav.me')} →</a>
+    </p>
+  </div>
+</BaseLayout>
+
+<script>
+  import { loadScores } from '@/lib/quiz-store';
+  import { t } from '@/i18n';
+
+  /** Fill in best scores from localStorage. */
+  function fill() {
+    const scores = loadScores();
+    document.querySelectorAll<HTMLElement>('[data-score-id]').forEach((el) => {
+      const id = el.dataset.scoreId;
+      const s = id ? scores[id] : undefined;
+      if (s) {
+        el.textContent = t('qh.best', { pct: s.best });
+        el.classList.add('text-link');
+      }
+    });
+  }
+  fill();
+  window.addEventListener('pageshow', fill);
+</script>

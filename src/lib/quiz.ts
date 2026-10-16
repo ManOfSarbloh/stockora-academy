@@ -19,13 +19,13 @@ export type Question =
   | (Base & { type: 'multiple_select'; options: string[]; answers: number[] })
   | (Base & { type: 'true_false'; answerBool: boolean })
   | (Base & { type: 'number'; answerNumber: number; tolerance: number; unit?: string })
-  | (Base & { type: 'match'; pairs: [string, string][] })
+  | (Base & { type: 'match'; pairs: [string, string][]; /** Set by shuffleOptions: the order the right-hand items are listed in (indices into pairs). */ rightOrder?: number[] })
   | (Base & { type: 'order'; orderedItems: string[]; /** Set by shuffleOptions: the order the items are first shown in (indices into orderedItems). */ initialOrder?: number[] });
 
 export type AnswerValue = number | number[] | boolean | string;
 
-/** Question types the practice quiz can show today (match arrives with the full quiz hub). */
-export const SUPPORTED_TYPES = ['multiple_choice', 'multiple_select', 'true_false', 'number', 'order'] as const;
+/** Question types the quiz player can show. */
+export const SUPPORTED_TYPES = ['multiple_choice', 'multiple_select', 'true_false', 'number', 'order', 'match'] as const;
 export const isSupported = (q: Question) => (SUPPORTED_TYPES as readonly string[]).includes(q.type);
 
 /**
@@ -78,9 +78,22 @@ export function isCorrect(q: Question, answer: AnswerValue | undefined): boolean
     case 'order':
       // The answer lists indices into orderedItems in the order the learner arranged them.
       return Array.isArray(answer) && answer.length === q.orderedItems.length && answer.every((v, i) => v === i);
+    case 'match':
+      // answer[i] is the pair index whose right-hand item the learner matched to left item i (-1 = not chosen).
+      return Array.isArray(answer) && answer.length === q.pairs.length && answer.every((v, i) => v === i);
     default:
       return false;
   }
+}
+
+/** True when a learner has given a complete answer that can be checked. */
+export function isAnswered(q: Question, answer: AnswerValue | undefined): boolean {
+  if (q.type === 'order') return true;
+  if (answer === undefined) return false;
+  if (q.type === 'match') return Array.isArray(answer) && answer.length === q.pairs.length && answer.every((v) => v >= 0);
+  if (Array.isArray(answer)) return answer.length > 0;
+  if (typeof answer === 'string') return answer.trim() !== '';
+  return true;
 }
 
 /** Small seeded random generator (mulberry32), so shuffles can be reproduced in tests. */
@@ -116,6 +129,14 @@ export function shuffleOptions(q: Question, random: () => number = Math.random):
     if (n > 1 && initialOrder.every((v, i) => v === i)) [initialOrder[0], initialOrder[1]] = [initialOrder[1], initialOrder[0]];
     initialOrder = [...initialOrder];
     return { ...q, initialOrder };
+  }
+  if (q.type === 'match') {
+    let rightOrder = shuffle(
+      q.pairs.map((_, i) => i),
+      random,
+    );
+    if (q.pairs.length > 1 && rightOrder.every((v, i) => v === i)) rightOrder = [...rightOrder.slice(1), rightOrder[0]];
+    return { ...q, rightOrder };
   }
   if (q.type !== 'multiple_choice' && q.type !== 'multiple_select') return q;
   const order = shuffle(
@@ -166,6 +187,8 @@ export function correctAnswerText(q: Question, labels: { true: string; false: st
       return `${q.answerNumber.toLocaleString('en')}${q.unit ? ` ${q.unit}` : ''}`;
     case 'order':
       return q.orderedItems.map((s, i) => `${i + 1}. ${s}`).join(' → ');
+    case 'match':
+      return q.pairs.map(([l, r]) => `${l} → ${r}`).join('; ');
     default:
       return '';
   }

@@ -51,6 +51,7 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
 <script>
   import { BOOKMARKS_KEY, PROGRESS_KEY, loadBookmarks, notifyChange, saveBookmarks, CHANGE_EVENT } from '@/lib/progress';
   import { remove, writeJSON } from '@/lib/storage';
+  import { resetQuizData } from '@/lib/quiz-store';
 
   if (!writeJSON('storage-test', 1)) document.getElementById('storage-warning')?.classList.remove('hidden');
   remove('storage-test');
@@ -89,6 +90,7 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
     if (!window.confirm(btn.dataset.confirm)) return;
     remove(PROGRESS_KEY);
     remove(BOOKMARKS_KEY);
+    resetQuizData();
     location.reload();
   });
 

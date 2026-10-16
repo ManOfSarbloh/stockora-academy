@@ -4,7 +4,7 @@ import Callout from '@/components/Callout.astro';
 import { url } from '@/lib/url';
 ---
 
-<ProseLayout title="Privacy Policy" lead="Short version: we do not track you." lastUpdated="2026-10-11">
+<ProseLayout title="Privacy Policy" lead="Short version: we do not track you." lastUpdated="2026-10-16">
   <Callout kind="verify" title="Draft for review">
     <p>
       This policy describes how the site is built. The site owner must review it (ideally with legal advice) before the
@@ -31,6 +31,12 @@ import { url } from '@/lib/url';
     <li><code>stockora-progress</code>: which lessons you marked as done, and when.</li>
     <li><code>stockora-bookmarks</code>: lessons you bookmarked.</li>
     <li><code>stockora-quiz-scores</code>: your best and latest score for each quiz.</li>
+    <li><code>stockora-quiz-stats</code>: for each quiz question you answered, how often you got it right and when it is due again (used by the review and weak-spot modes).</li>
+    <li><code>stockora-quiz-daily</code>: your daily quiz streak.</li>
+    <li><code>stockora-quiz-exam</code>: your Final Exam attempts, best score and pass date.</li>
+    <li><code>stockora-quiz-name</code>: the name you typed for your certificate, if any.</li>
+    <li><code>stockora-founder-game</code>: whether you finished the founder game on the "How Stocks Are Made" page, and when.</li>
+    <li><code>stockora-times-zone</code>: the time zone you chose on the Trading Times page.</li>
   </ul>
   <p>
     This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings.
