@@ -1,0 +1,210 @@
+{
+  "code": "KR",
+  "name": "South Korea",
+  "region": "asia-pacific",
+  "summary": "South Korea's stock market opened in 1956 and is run by Korea Exchange (KRX), formed in 2005 from the stock, KOSDAQ and futures exchanges. The KOSPI market lists global groups such as Samsung Electronics, Hyundai Motor, POSCO and LG Electronics. Shares trade one at a time (no lots), within a ±30% daily limit. FTSE Russell classifies Korea as a developed market.",
+  "currency": {
+    "code": "KRW",
+    "name": "South Korean won",
+    "note": "Korean shares are priced in won, so a euro investor carries currency risk: moves of the won against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Korea Exchange (KRX)",
+      "tradingTimesId": "krx",
+      "city": "Seoul",
+      "founded": "1956 (Daehan Stock Exchange, established 3 March 1956); KRX formed 27 January 2005",
+      "website": "https://global.krx.co.kr/",
+      "hours": "Regular session 09:00–15:30, with continuous trading until 15:20 and a closing auction until 15:30. Off-hours sessions: pre-hours 07:30–09:00 and after-hours 15:40–18:00.",
+      "timeZone": "Asia/Seoul",
+      "hoursSource": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf",
+      "note": "KRX runs the main KOSPI market and the KOSDAQ market for growth companies. Markets close on Labor Day (1 May) and the last trading day of the year. Korea does not use daylight saving time."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "KOSPI (Korea Composite Stock Price Index)",
+      "description": "All common stocks on the KOSPI market, weighted by market capitalisation. Base 100 on 4 January 1980.",
+      "source": {
+        "title": "KOSPI Market: introduction (Korea Exchange)",
+        "url": "https://global.krx.co.kr/contents/GLB/02/0201/0201010100/GLB0201010100.jsp"
+      }
+    },
+    {
+      "name": "KOSPI 200",
+      "constituents": "200 companies",
+      "description": "200 large KOSPI stocks; the underlying index for Korea's main futures and options. Published since 15 June 1994 (base 100 on 3 January 1990).",
+      "source": {
+        "title": "KRX History (Korea Exchange)",
+        "url": "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Services Commission (FSC)",
+      "role": "Sets financial policy and supervises the financial and capital markets.",
+      "url": "https://www.fsc.go.kr/eng/"
+    },
+    {
+      "name": "Financial Supervisory Service (FSS)",
+      "role": "Carries out inspection and supervision of financial firms under the FSC.",
+      "url": "https://www.fss.or.kr/eng/main/main.do"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Deposit insurance (KDIC)",
+      "text": "Since 1 September 2025, deposits are protected up to KRW 100 million per depositor and institution (previously KRW 50 million). Investment products such as funds are not covered.",
+      "url": "https://www.kdic.or.kr/en/eng/DpsmInsrncSystGudn/selectScrn.do"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days)",
+    "csd": "Korea Securities Depository (KSD, established 1974)",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "Guide to Trading in the Korean Stock Market (Korea Exchange, PDF)",
+      "url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    }
+  },
+  "rules": [
+    {
+      "title": "Daily price limit of ±30%",
+      "text": "A share can move at most 30% up or down from its base price in one day. Stocks, ETFs and ETNs trade in units of one share.",
+      "source": {
+        "title": "Guide to Trading in the Korean Stock Market (Korea Exchange, PDF)",
+        "url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+      }
+    },
+    {
+      "title": "Circuit breakers at −8%, −15% and −20%",
+      "text": "If the KOSPI or KOSDAQ falls 8% or more from the previous day (lasting one minute), the whole market stops for 20 minutes; further stages follow at 15% and 20%.",
+      "source": {
+        "title": "Guide to Trading in the Korean Stock Market (Korea Exchange, PDF)",
+        "url": "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+      }
+    },
+    {
+      "title": "Short selling: banned 2023–2025, now with stricter rules",
+      "text": "Short selling of all stocks was banned from 6 November 2023 and fully resumed on 31 March 2025, with computer systems required to prevent naked short selling and identical stock-borrowing conditions for institutional and retail investors.",
+      "source": {
+        "title": "Stock short selling to be fully reinstated from March 31 (FSC press release)",
+        "url": "https://www.fsc.go.kr/eng/pr010101/84220"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Securities transaction tax on share sales from January 2026: KOSPI 0.05% plus 0.15% special rural development tax (0.20% in total); KOSDAQ 0.20%. Dividends paid to non-residents have Korean tax withheld; a reduced treaty rate requires an application.",
+    "items": [
+      {
+        "title": "Securities transaction tax",
+        "text": "The 2025 tax revision restored the transaction tax to its 2023 level from January 2026: 0.05% on KOSPI shares (plus the 0.15% special rural development tax, which was unchanged) and 0.20% on KOSDAQ shares. In 2025 the rates had been 0% (plus 0.15%) and 0.15%."
+      },
+      {
+        "title": "Dividends for non-residents",
+        "text": "Korean tax is withheld from dividends paid to non-residents. To get a reduced rate under a tax treaty, the investor files an 'Application for Entitlement to Reduced Tax Rate on Domestic Source Income' with the withholding agent."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q); any higher Korean tax has to be reduced under the treaty or reclaimed in Korea."
+      }
+    ],
+    "sources": [
+      {
+        "title": "25년 세제개편안 관련 세법 시행령 개정 추진, 1 December 2025 (Ministry of Economy and Finance via korea.kr, in Korean)",
+        "url": "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156732268"
+      },
+      {
+        "title": "2025 Tax Revision (Ministry of Economy and Finance)",
+        "url": "https://english.moef.go.kr/pc/selectTbPressCenterDtl.do?boardCd=N0001&seq=6221"
+      },
+      {
+        "title": "Forms: application for entitlement to reduced tax rate (National Tax Service)",
+        "url": "https://www.nts.go.kr/english/cm/cntnts/cntntsView.do?cntntsId=8664&mi=10791"
+      }
+    ]
+  },
+  "access": [
+    "Some Austrian banks and brokers offer trading on the Korea Exchange; check currency conversion into won and order types.",
+    "Indirectly, through funds or ETFs on Korean, Asian, developed-market or emerging-market indexes (Category H). Whether Korea is included depends on how the index provider classifies it."
+  ],
+  "companies": [
+    "Samsung Electronics",
+    "SK hynix",
+    "Hyundai Motor",
+    "LG Energy Solution",
+    "Samsung Biologics",
+    "KB Financial Group",
+    "Kia",
+    "POSCO Holdings",
+    "NAVER",
+    "Celltrion"
+  ],
+  "history": [
+    {
+      "year": "1956",
+      "text": "The Daehan Stock Exchange, predecessor of the Korea Stock Exchange, is established on 3 March, with 12 listed companies."
+    },
+    {
+      "year": "1975",
+      "text": "Continuous trading is introduced."
+    },
+    {
+      "year": "1992",
+      "text": "Foreign investors are allowed to buy Korean listed shares directly from 3 January."
+    },
+    {
+      "year": "1997",
+      "text": "The trading system is fully automated and the trading floor closes."
+    },
+    {
+      "year": "2005",
+      "text": "The stock, KOSDAQ and futures exchanges are combined on 27 January into what is now Korea Exchange."
+    },
+    {
+      "year": "2009",
+      "text": "FTSE reclassifies Korea into its Developed indices group (September)."
+    },
+    {
+      "year": "2025",
+      "text": "Short selling fully resumes on 31 March; the deposit protection limit doubles to KRW 100 million on 1 September."
+    }
+  ],
+  "funFacts": [
+    "In its early years the Korean stock market was mostly a government bond market; share trading was small.",
+    "Korea's derivatives market started with KOSPI 200 futures in May 1996 and options in 1997; by 2005 it averaged KRW 18 trillion of trading a day, according to KRX."
+  ],
+  "lessons": [
+    "world-markets/market-classifications",
+    "trading-times/lunch-breaks-asia"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "KRX History (Korea Exchange)",
+      "url": "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp"
+    },
+    {
+      "title": "History of KOSPI Market (Korea Exchange)",
+      "url": "https://global.krx.co.kr/contents/GLB/02/0201/0201010200/GLB0201010200.jsp"
+    },
+    {
+      "title": "Deposit insurance overview (KDIC)",
+      "url": "https://www.kdic.or.kr/en/eng/DpsmInsrncSystGudn/selectScrn.do"
+    },
+    {
+      "title": "Derivatives Market division (Korea Exchange)",
+      "url": "https://global.krx.co.kr/contents/GLB/01/0103/0103020400/GLB0103020400.jsp"
+    }
+  ]
+}

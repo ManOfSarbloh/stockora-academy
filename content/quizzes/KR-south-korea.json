@@ -1,0 +1,238 @@
+[
+  {
+    "id": "KR-001",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year did South Korea's stock market open (Daehan Stock Exchange)?",
+    "answerNumber": 1956,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 3 March 1956, with only 12 listed companies.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp",
+      "https://global.krx.co.kr/contents/GLB/02/0201/0201010200/GLB0201010200.jsp"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-002",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the daily price limit for Korean shares?",
+    "options": [
+      "±30% of the base price",
+      "±10%",
+      "±20%",
+      "No limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "±30% of the base price.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-003",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the minimum trading unit for Korean stocks?",
+    "options": [
+      "1 share",
+      "10 shares",
+      "100 shares",
+      "1,000 shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Stocks, ETFs and ETNs trade in units of 1 share.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-004",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What base value and date does the KOSPI use?",
+    "options": [
+      "100 on 4 January 1980",
+      "1,000 on 3 January 1990",
+      "100 on 3 March 1956",
+      "1,000 on 4 January 1983"
+    ],
+    "answerIndex": 0,
+    "explanation": "Market-cap weighted, base 100 on 4 January 1980.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/02/0201/0201010100/GLB0201010100.jsp"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-005",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which three exchanges were combined in 2005 into what is now Korea Exchange?",
+    "options": [
+      "Korea Stock Exchange, KOSDAQ and Korea Futures Exchange",
+      "Seoul, Busan and Incheon exchanges",
+      "KOSPI, KONEX and K-OTC",
+      "Korea Exchange and the Tokyo Stock Exchange"
+    ],
+    "answerIndex": 0,
+    "explanation": "KSE, KOSDAQ and KOFEX were consolidated on 27 January 2005.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-006",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "By how many percent must the KOSPI fall from the previous day to trigger the first circuit breaker stage?",
+    "answerNumber": 8,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "8% or more for one minute; further stages at 15% and 20%.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-007",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "What is the settlement cycle for Korean shares?",
+    "options": [
+      "T+2",
+      "T+1",
+      "T+0",
+      "T+3"
+    ],
+    "answerIndex": 0,
+    "explanation": "Settlement on T+2.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0109/0109000000/guide_to_trading_in_the_korean_stock_market.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-008",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Since 1 September 2025, up to how much are deposits protected per depositor and institution in Korea?",
+    "options": [
+      "KRW 100 million",
+      "KRW 50 million",
+      "KRW 10 million",
+      "KRW 1 billion"
+    ],
+    "answerIndex": 0,
+    "explanation": "Raised from KRW 50 million to KRW 100 million.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://www.kdic.or.kr/en/eng/DpsmInsrncSystGudn/selectScrn.do"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-009",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: Korea banned short selling of all stocks from November 2023 and fully resumed it on 31 March 2025.",
+    "answerBool": true,
+    "explanation": "True, with new systems to prevent naked short selling.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://www.fsc.go.kr/eng/pr010101/84220"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-010",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What is the total transaction tax on selling KOSPI shares from January 2026?",
+    "options": [
+      "0.20% (0.05% securities transaction tax + 0.15% rural development tax)",
+      "0.15%",
+      "0.05%",
+      "0%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The 2025 tax revision restored the 2023 level; KOSDAQ is 0.20% without the rural tax.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://www.korea.kr/briefing/pressReleaseView.do?newsId=156732268"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-011",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year were foreign investors first allowed to invest directly in Korean listed shares?",
+    "answerNumber": 1992,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Direct portfolio investment by foreigners was allowed from 3 January 1992.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "KR-012",
+    "category": "KR",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does FTSE Russell classify South Korea?",
+    "options": [
+      "Developed",
+      "Advanced Emerging",
+      "Secondary Emerging",
+      "Frontier"
+    ],
+    "answerIndex": 0,
+    "explanation": "Developed; KRX notes the reclassification into FTSE's Developed group in September 2009.",
+    "lessonLink": "/world/kr",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf",
+      "https://global.krx.co.kr/contents/GLB/01/0102/0102040000/GLB0102040000.jsp"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
