@@ -1,0 +1,192 @@
+{
+  "code": "TW",
+  "name": "Taiwan",
+  "region": "asia-pacific",
+  "summary": "The Taiwan Stock Exchange (TWSE) opened in 1962. Its listed companies include the chip maker TSMC and electronics groups such as Hon Hai (Foxconn). The TAIEX tracks all listed shares. Trading is short (09:00–13:30), shares trade in lots of 1,000 with a ±10% daily limit, and individuals pay no capital gains tax, only a 0.3% transaction tax when selling. FTSE Russell classifies Taiwan as an advanced emerging market.",
+  "currency": {
+    "code": "TWD",
+    "name": "New Taiwan dollar",
+    "note": "Taiwanese shares are priced in New Taiwan dollars, so a euro investor carries currency risk: moves of the Taiwan dollar against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Advanced Emerging",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Taiwan Stock Exchange (TWSE)",
+      "city": "Taipei",
+      "founded": "23 October 1961; opened for business on 9 February 1962",
+      "website": "https://www.twse.com.tw/en/",
+      "hours": "Opening call auction 08:30–09:00, continuous trading 09:00–13:25, closing call auction 13:25–13:30. After-hours fixed-price trading 14:00–14:30.",
+      "timeZone": "Asia/Taipei",
+      "hoursSource": "https://www.twse.com.tw/en/products/system/trading.html",
+      "holidaysSource": "https://www.twse.com.tw/en/trading/holiday.html",
+      "note": "Smaller companies trade on the Taipei Exchange (TPEx). Taiwan does not use daylight saving time."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TAIEX (TWSE Capitalization Weighted Stock Index)",
+      "description": "Benchmark for the combined performance of shares listed on TWSE, weighted by market value. Base value 100 = the 1966 annual average. Compiled by TWSE.",
+      "source": {
+        "title": "The TAIEX Methodology, April 2023 (TWSE, PDF)",
+        "url": "https://www.twse.com.tw/downloads/en/products/indices/IndexSen02.pdf"
+      }
+    },
+    {
+      "name": "FTSE TWSE Taiwan 50",
+      "constituents": "50 companies",
+      "description": "Compiled by TWSE with FTSE. Taiwan's first ETF, launched in 2003, was based on it.",
+      "source": {
+        "title": "Timeline (Taiwan Stock Exchange)",
+        "url": "https://www.twse.com.tw/en/about/company/history.html"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Supervisory Commission (FSC)",
+      "role": "Regulates and supervises banking, securities, futures and insurance in Taiwan.",
+      "url": "https://www.fsc.gov.tw/en/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days)",
+    "csd": "Taiwan Depository & Clearing Corporation (TDCC); TWSE itself is the clearing house for exchange trades",
+    "note": "Foreign investors settle through their local custodian bank. T+2 DVP settlement was adopted in 2009.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "2025 Guide to Investing in Taiwan: clearing and settlement (TWSE)",
+      "url": "https://www.twse.com.tw/en/about/company/guide.html"
+    }
+  },
+  "rules": [
+    {
+      "title": "Lots of 1,000 shares, odd lots separately",
+      "text": "One trading unit is 1,000 shares. Smaller orders are odd-lot orders; since 26 October 2020 odd lots can also be traded during the regular session.",
+      "source": {
+        "title": "2025 Guide to Investing in Taiwan: trading principles (TWSE)",
+        "url": "https://www.twse.com.tw/en/about/company/guide.html"
+      }
+    },
+    {
+      "title": "Daily price limit of ±10%",
+      "text": "Shares, domestic ETFs and similar products may move at most 10% from the reference price per day (raised from 7% on 1 June 2015). Newly listed stocks are exempt for their first five trading days.",
+      "source": {
+        "title": "2025 Guide to Investing in Taiwan: trading principles (TWSE)",
+        "url": "https://www.twse.com.tw/en/about/company/guide.html"
+      }
+    },
+    {
+      "title": "Registration for foreign investors",
+      "text": "Foreign individual and institutional investors must appoint a local custodian bank, which registers them with TWSE before a broker can open a trading account.",
+      "source": {
+        "title": "2025 Guide to Investing in Taiwan: registration (TWSE)",
+        "url": "https://www.twse.com.tw/en/about/company/guide.html"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Securities transaction tax 0.3% on share sales (seller only). No capital gains tax for individuals. Dividends to non-residents: 21% withholding tax.",
+    "items": [
+      {
+        "title": "Securities transaction tax",
+        "text": "0.3% of the value of a share sale, paid by the seller (0.15% for day-trading offsets until the end of 2027). ETFs: 0.1%."
+      },
+      {
+        "title": "Capital gains",
+        "text": "Tax-exempt for individuals."
+      },
+      {
+        "title": "Dividends",
+        "text": "Non-residents: 21% withholding tax. Residents choose between adding dividends to taxable income (with an 8.5% credit up to NT$80,000) or a separate flat 28%."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax only up to 15% of the dividend against Austrian KESt (Category Q). Whether part of the 21% can be reclaimed in Taiwan depends on tax-treaty rules; check with your bank or tax adviser."
+      }
+    ],
+    "sources": [
+      {
+        "title": "2025 Guide to Investing in Taiwan: taxation (TWSE)",
+        "url": "https://www.twse.com.tw/en/about/company/guide.html"
+      },
+      {
+        "title": "Securities Transaction Tax Act (Ministry of Finance, R.O.C.)",
+        "url": "https://law-out.mof.gov.tw/EngLawContent.aspx?id=20707"
+      }
+    ]
+  },
+  "access": [
+    "Some Austrian banks and brokers offer trading on the Taiwan Stock Exchange; the 1,000-share lot can make a single round lot expensive.",
+    "Some large Taiwanese companies also have depositary receipts listed in the US.",
+    "Indirectly, through funds or ETFs on Taiwanese, Asian or emerging-market indexes (Category H)."
+  ],
+  "companies": [
+    "TSMC (Taiwan Semiconductor Manufacturing)",
+    "Hon Hai Precision (Foxconn)",
+    "MediaTek",
+    "Delta Electronics",
+    "Quanta Computer",
+    "Fubon Financial",
+    "Cathay Financial",
+    "ASE Technology",
+    "CTBC Financial",
+    "Chunghwa Telecom"
+  ],
+  "history": [
+    {
+      "year": "1961",
+      "text": "Taiwan's first regulated exchange, the Taiwan Stock Exchange, is founded on 23 October."
+    },
+    {
+      "year": "1962",
+      "text": "TWSE opens for business on 9 February."
+    },
+    {
+      "year": "1993",
+      "text": "Listed stocks move to the Fully Automated Securities Trading (FAST) system on 2 August."
+    },
+    {
+      "year": "2003",
+      "text": "Taiwan's first ETF is created, based on the Taiwan 50 Index."
+    },
+    {
+      "year": "2015",
+      "text": "The daily price limit is widened from 7% to 10% on 1 June."
+    },
+    {
+      "year": "2020",
+      "text": "Continuous trading replaces periodic call auctions during the session (23 March); intraday odd-lot trading starts (26 October)."
+    }
+  ],
+  "funFacts": [
+    "Before 23 March 2020, TWSE did not offer continuous trading during the session: orders were matched in repeated call auctions.",
+    "In the first half of 2025, individual investors made up about half of all trading on TWSE, foreign institutions 37%."
+  ],
+  "lessons": [
+    "world-markets/market-classifications",
+    "world-markets/emerging-market-risks"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Timeline (Taiwan Stock Exchange)",
+      "url": "https://www.twse.com.tw/en/about/company/history.html"
+    },
+    {
+      "title": "2025 Guide to Investing in Taiwan (TWSE)",
+      "url": "https://www.twse.com.tw/en/about/company/guide.html"
+    },
+    {
+      "title": "Trading mechanism introduction (TWSE)",
+      "url": "https://www.twse.com.tw/en/products/system/trading.html"
+    }
+  ]
+}

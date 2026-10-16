@@ -1,0 +1,238 @@
+[
+  {
+    "id": "TW-001",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year did the Taiwan Stock Exchange open for business?",
+    "answerNumber": 1962,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 9 February 1962; it was founded on 23 October 1961.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/history.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-002",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does the regular trading session in Taipei end?",
+    "options": [
+      "13:30",
+      "15:00",
+      "16:00",
+      "17:30"
+    ],
+    "answerIndex": 0,
+    "explanation": "Regular session 09:00–13:30, with orders accepted from 08:30.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html",
+      "https://www.twse.com.tw/en/products/system/trading.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-003",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "How many shares make one trading unit for stocks on TWSE?",
+    "answerNumber": 1000,
+    "tolerance": 0,
+    "unit": "shares",
+    "explanation": "1,000 shares; smaller orders are odd-lot orders.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-004",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the daily price limit for Taiwanese shares?",
+    "options": [
+      "±10%",
+      "±7%",
+      "±30%",
+      "No limit"
+    ],
+    "answerIndex": 0,
+    "explanation": "±10% of the reference price, raised from 7% on 1 June 2015.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html",
+      "https://www.twse.com.tw/en/about/company/history.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-005",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Who pays Taiwan's 0.3% securities transaction tax on share trades?",
+    "options": [
+      "The seller",
+      "The buyer",
+      "Both sides",
+      "Only foreign investors"
+    ],
+    "answerIndex": 0,
+    "explanation": "0.3% of the value traded, levied on the seller.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-006",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: individuals in Taiwan pay no tax on capital gains from shares.",
+    "answerBool": true,
+    "explanation": "True: capital gains are tax-exempt for individuals.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-007",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what rate is tax withheld on dividends paid to non-residents in Taiwan, in percent?",
+    "answerNumber": 21,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "21% withholding tax.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-008",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What base does the TAIEX use?",
+    "options": [
+      "100 = the 1966 annual average",
+      "1,000 on 9 February 1962",
+      "100 on 4 January 1980",
+      "1,000 on 31 December 2004"
+    ],
+    "answerIndex": 0,
+    "explanation": "The base value is 100, equal to the 1966 annual average.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/downloads/en/products/indices/IndexSen02.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-009",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "How does FTSE Russell classify Taiwan?",
+    "options": [
+      "Advanced Emerging",
+      "Developed",
+      "Secondary Emerging",
+      "Frontier"
+    ],
+    "answerIndex": 0,
+    "explanation": "Advanced Emerging (October 2026).",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-010",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "multiple_choice",
+    "question": "What changed on TWSE on 23 March 2020?",
+    "options": [
+      "Continuous trading was introduced during the session",
+      "The price limit rose to 10%",
+      "T+2 settlement started",
+      "The exchange opened"
+    ],
+    "answerIndex": 0,
+    "explanation": "Before that, orders were matched in repeated call auctions.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/history.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-011",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "TWSE opens for business",
+      "FAST automated trading system starts",
+      "Taiwan's first ETF is created",
+      "Daily price limit widened to 10%",
+      "Intraday odd-lot trading starts"
+    ],
+    "explanation": "1962, 1993, 2003, 2015, 2020.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/history.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "TW-012",
+    "category": "TW",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What must a foreign investor do before trading on TWSE?",
+    "options": [
+      "Appoint a local custodian bank, which registers them with TWSE",
+      "Nothing; any foreign broker can trade directly",
+      "Move to Taiwan",
+      "Buy at least 1 million shares"
+    ],
+    "answerIndex": 0,
+    "explanation": "Registration with TWSE through a domestic agent (custodian bank) comes first.",
+    "lessonLink": "/world/tw",
+    "sources": [
+      "https://www.twse.com.tw/en/about/company/guide.html"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
