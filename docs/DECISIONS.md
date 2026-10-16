@@ -126,9 +126,26 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Glossary linking | Generic words avoided as aliases (e.g. "own shares" renamed to "Treasury shares", "ETC" and "BIS" not used as aliases because they match ordinary text); each category checked for false links after build |
 | Blocked sources | FRED blocked (NY Fed, Cleveland Fed used instead); some sec.gov PDFs read via web.archive.org copies; EUR-Lex unreachable at times (Austrian implementing law cited instead, e.g. § 49 WAG 2018 for MiFID II marketing rules) |
 
+## Phase 8 (2026-10-16): World Markets
+
+| Topic | Decision |
+|---|---|
+| Scope | The brief's first 20 countries (owner's choice): AT, DE, CH, GB, US, FR, NL, IT, ES, SE, PL, JP, CN, HK, IN, KR, TW, SG, AU, CA. One JSON file per country in content/countries, validated by a strict Zod schema; each page has a quiz of 10–14 questions (category = country code, lessonLink /world/<code>) |
+| Pages | /world (hub with map and country cards by region), /world/<code> (country template following brief §6.1), /world/compare (compare-two picker plus sortable, region-filterable tables: overview, trading hours, taxes, market rules) |
+| Map | Natural Earth 110m boundaries from world-atlas (ISC licence) projected at build time with d3-geo into a static SVG; no map library ships to the browser. Hong Kong and Singapore are missing from the 110m file and are drawn as markers |
+| Market size | World Bank WDI (data from the World Federation of Exchanges) in content/world/market-size.json, as of 2026-10-08. Values older than 2022 are hidden ("No comparable recent figure"), which affects FR, NL, IT and SE (Euronext/Nasdaq group exchanges) and TW (not in WDI) |
+| Classification | FTSE Russell only (country classification paper v3.5, October 2026, Appendix 3). MSCI's classification table could not be read as text, so the compare page links to MSCI instead of quoting it |
+| Hours | Taken from content/exchanges.json where the exchange exists there; Amsterdam (Euronext) and Warsaw (GPW) session times are not stated because the official documents could not be opened; the pages link to the exchanges instead |
+| Taxes | Every country has a VERIFY banner, an as-of date and official sources (tax authority, ministry or exchange guide). Withholding rates are stated only where an official page gives them (e.g. Korea: procedure only, no rate). The "For an Austrian investor" note always refers back to Category Q's 15% credit rule |
+| Recent changes captured | Korea: transaction tax restored to the 2023 level from January 2026 (KOSPI 0.05% + 0.15% rural tax), deposit cover KRW 100m since 1 Sep 2025, short selling resumed 31 Mar 2025. Singapore: board lots of 10 or 1 share for stocks above S$10/S$100 from 5 Oct 2026. India: Income-tax Act 2025 in force from 1 Apr 2026. Canada and US on T+1 since May 2024; EU, UK and Switzerland move to T+1 on 11 Oct 2027 |
+| Not stated | Japan deposit protection (no official English page found); Taiwan deposit insurance (CDIC site unreachable); Hong Kong board lot sizes per stock |
+| Companies | "Famous companies" lists are neutral name lists of large listed firms, never recommendations, and show no figures |
+| Preview | `astro preview` in Astro 7 daemonises itself, so the preview_start launcher hangs; run it via Bash in the background and open http://localhost:4321 instead |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
 - Set `reportConfig.githubRepo` once the GitHub repository exists.
 - Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.
+- World Markets: refresh content/world/market-size.json when the World Bank publishes 2026 figures; re-check country tax pages yearly (lastReviewed 2026-10-16); add Amsterdam and Warsaw session times, Japanese and Taiwanese deposit protection once official pages can be read; consider MSCI classification if a readable official source is found.
