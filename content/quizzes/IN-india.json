@@ -1,0 +1,260 @@
+[
+  {
+    "id": "IN-001",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year was BSE, Asia's oldest stock exchange, founded?",
+    "answerNumber": 1875,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "BSE was founded in 1875 in Bombay (Mumbai).",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.bseindia.com/static/about/company-overview"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-002",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which index is calculated from 50 large companies on the National Stock Exchange?",
+    "options": [
+      "Nifty 50",
+      "Sensex",
+      "Hang Seng",
+      "KOSPI"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Nifty 50; the Sensex has 30 BSE-listed companies.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.niftyindices.com/indices/equity/broad-based-indices/nifty--50",
+      "https://beta.bseindia.com/Sensex/bse_sensex.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-003",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "match",
+    "question": "Match each Indian index with its number of constituents.",
+    "pairs": [
+      [
+        "Nifty 50",
+        "50"
+      ],
+      [
+        "BSE Sensex",
+        "30"
+      ]
+    ],
+    "explanation": "Nifty 50 at NSE; the Sensex at BSE.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.niftyindices.com/indices/equity/broad-based-indices/nifty--50",
+      "https://beta.bseindia.com/Sensex/bse_sensex.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-004",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the standard settlement cycle for Indian shares?",
+    "options": [
+      "T+1",
+      "T+2",
+      "T+3",
+      "T+5"
+    ],
+    "answerIndex": 0,
+    "explanation": "India completed its phased move to T+1 in January 2023; an optional T+0 cycle exists for selected shares.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.sebi.gov.in/sebi_data/meetingfiles/may-2024/1714651311614_1.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-005",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "number",
+    "question": "In which year did the optional same-day (T+0) settlement cycle start in India?",
+    "answerNumber": 2024,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 28 March 2024, for a limited set of shares.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.nseindia.com/static/products-services/t0-settlement-cycle"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-006",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "At what rate are long-term gains on listed Indian shares taxed above ₹1.25 lakh (sales from 23 July 2024)?",
+    "options": [
+      "12.5%",
+      "10%",
+      "20%",
+      "30%"
+    ],
+    "answerIndex": 0,
+    "explanation": "12.5% above ₹1.25 lakh; before 23 July 2024 it was 10% above ₹1 lakh.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.incometaxindia.gov.in/w/tax-on-long-term-capital-gains%E2%80%8B"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-007",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How long must listed Indian shares be held for a gain to count as long-term?",
+    "options": [
+      "More than 12 months",
+      "More than 24 months",
+      "More than 6 months",
+      "More than 36 months"
+    ],
+    "answerIndex": 0,
+    "explanation": "For listed shares the holding period is 12 months.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.incometaxindia.gov.in/w/tax-on-long-term-capital-gains%E2%80%8B"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-008",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At what rate is tax deducted at source on dividends paid to non-residents, in percent (before any treaty relief)?",
+    "answerNumber": 20,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "20%; a tax treaty may allow a lower rate.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.incometaxindia.gov.in/w/tds-rates-1"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-009",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What is the securities transaction tax (STT) on a delivery-based share purchase on an Indian exchange?",
+    "options": [
+      "0.1% paid by the buyer",
+      "0.5% paid by the seller",
+      "0.1% paid only by the exchange",
+      "No tax"
+    ],
+    "answerIndex": 0,
+    "explanation": "0.1% on delivery purchases (buyer) and on delivery sales (seller).",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.nseindia.com/static/invest/first-time-investor-sebi-turnover-fees-stt-other-levies"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-010",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year did the SEBI Act come into force, making SEBI a statutory regulator?",
+    "answerNumber": 1992,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 30 January 1992; SEBI had been set up as a non-statutory body in 1988.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.sebi.gov.in/about-sebi.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-011",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Up to how much are bank deposits insured per depositor and bank in India?",
+    "options": [
+      "₹5 lakh",
+      "₹1 lakh",
+      "₹50 lakh",
+      "Unlimited"
+    ],
+    "answerIndex": 0,
+    "explanation": "₹5 lakh, principal and interest combined (DICGC).",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.dicgc.org.in/guide-to-deposit-insurance"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-012",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "true_false",
+    "question": "True or false: foreign investors generally need to register under SEBI's Foreign Portfolio Investor rules to buy listed Indian shares directly.",
+    "answerBool": true,
+    "explanation": "True; registration goes through a designated depository participant. Private investors abroad usually use funds instead.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.fpi.nsdl.co.in/Static/FAQ.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "IN-013",
+    "category": "IN",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "BSE founded",
+      "Sensex launched",
+      "NSE starts screen-based trading",
+      "India completes the move to T+1"
+    ],
+    "explanation": "1875, 1986, 1994, 2023.",
+    "lessonLink": "/world/in",
+    "sources": [
+      "https://www.bseindia.com/static/about/company-overview",
+      "https://beta.bseindia.com/Sensex/bse_sensex.aspx",
+      "https://www.nseindia.com/national-stock-exchange/about-nse-company",
+      "https://www.sebi.gov.in/sebi_data/meetingfiles/may-2024/1714651311614_1.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

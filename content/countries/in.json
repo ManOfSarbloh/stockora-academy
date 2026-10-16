@@ -1,0 +1,233 @@
+{
+  "code": "IN",
+  "name": "India",
+  "region": "asia-pacific",
+  "summary": "India has two national stock exchanges in Mumbai: BSE, founded in 1875 and Asia's oldest exchange, and the National Stock Exchange (NSE), which introduced screen-based trading in 1994. The Nifty 50 and the Sensex are the headline indexes. India completed its move to next-day (T+1) settlement in January 2023, more than a year before the US. For foreign private investors, direct access is limited, so most invest through funds.",
+  "currency": {
+    "code": "INR",
+    "name": "Indian rupee",
+    "note": "Indian shares are priced in rupees, so a euro investor carries currency risk: moves of the rupee against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Secondary Emerging",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "National Stock Exchange of India (NSE)",
+      "tradingTimesId": "nse",
+      "city": "Mumbai",
+      "founded": "Began operations in 1994 as India's first screen-based exchange",
+      "website": "https://www.nseindia.com/",
+      "hours": "Pre-open session 09:00–09:15, continuous trading 09:15–15:30, closing auction matching 15:30–15:35, and a closing session 15:50–16:00.",
+      "timeZone": "Asia/Kolkata",
+      "hoursSource": "https://www.nseindia.com/resources/exchange-communication-holidays",
+      "holidaysSource": "https://www.nseindia.com/resources/exchange-communication-holidays",
+      "note": "India Standard Time is UTC+5:30, a half-hour offset, and India does not use daylight saving time."
+    },
+    {
+      "name": "BSE (formerly Bombay Stock Exchange)",
+      "city": "Mumbai",
+      "founded": "1875",
+      "website": "https://www.bseindia.com/",
+      "hours": "Pre-open call auction 09:00–09:15, continuous trading 09:15–15:30.",
+      "timeZone": "Asia/Kolkata",
+      "hoursSource": "https://beta.bseindia.com/static/markets/equity/preopen_session.html",
+      "note": "BSE describes itself as Asia's oldest exchange and the world's largest by number of listed companies."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Nifty 50",
+      "constituents": "50 companies",
+      "description": "A free-float market-capitalisation-weighted index of large NSE-listed companies. Base value 1,000 on 3 November 1995, one year after NSE's equity market started. It covered about 54% of the free-float market value of NSE-listed shares in March 2026. Calculated by NSE Indices.",
+      "source": {
+        "title": "Nifty 50 (NSE Indices)",
+        "url": "https://www.niftyindices.com/indices/equity/broad-based-indices/nifty--50"
+      }
+    },
+    {
+      "name": "BSE Sensex",
+      "constituents": "30 companies",
+      "description": "India's first stock market index, launched on 2 January 1986. Measures the 30 largest, most liquid companies listed on BSE across key sectors. Base value 100 (base date 3 April 1979).",
+      "source": {
+        "title": "BSE Sensex (BSE)",
+        "url": "https://beta.bseindia.com/Sensex/bse_sensex.aspx"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Board of India (SEBI)",
+      "role": "India's securities market regulator: set up in 1988 and a statutory body since the SEBI Act came into force on 30 January 1992.",
+      "url": "https://www.sebi.gov.in/about-sebi.html"
+    },
+    {
+      "name": "Reserve Bank of India (RBI)",
+      "role": "Central bank; regulates banks and foreign exchange.",
+      "url": "https://www.rbi.org.in/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Deposit insurance (DICGC)",
+      "text": "Bank deposits are insured up to ₹5 lakh (₹500,000) per depositor and bank, principal and interest combined. Unchanged since 4 February 2020.",
+      "url": "https://www.dicgc.org.in/guide-to-deposit-insurance"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (next business day); optional same-day T+0 for selected shares",
+    "csd": "Two depositories: NSDL (National Securities Depository) and CDSL (Central Depository Services)",
+    "note": "India moved from T+2 to T+1 in phases from 2021, completed in January 2023. An optional T+0 settlement cycle started on 28 March 2024 for a limited set of shares.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "Consultation paper on optional T+0 settlement, May 2024 (SEBI, PDF)",
+      "url": "https://www.sebi.gov.in/sebi_data/meetingfiles/may-2024/1714651311614_1.pdf"
+    }
+  },
+  "rules": [
+    {
+      "title": "Securities transaction tax (STT)",
+      "text": "Delivery-based purchases and sales of shares on an Indian exchange each pay 0.1% STT (the buyer on purchases, the seller on sales). Intraday trades pay a lower rate on the sell side.",
+      "source": {
+        "title": "SEBI turnover fees, STT and other levies (NSE)",
+        "url": "https://www.nseindia.com/static/invest/first-time-investor-sebi-turnover-fees-stt-other-levies"
+      }
+    },
+    {
+      "title": "Shares are held in electronic (demat) accounts",
+      "text": "Investors hold Indian shares in a demat account with a depository participant of NSDL or CDSL.",
+      "source": {
+        "title": "Overview (CDSL)",
+        "url": "https://www.cdslindia.com/About/Overview.html"
+      }
+    },
+    {
+      "title": "Limited direct access for foreigners",
+      "text": "Foreign investors generally invest in listed Indian shares under SEBI's Foreign Portfolio Investor (FPI) rules, which require registration through a designated depository participant. Private investors abroad therefore usually use funds or depositary receipts instead.",
+      "source": {
+        "title": "Frequently asked questions on the SEBI FPI Regulations, as on 24 June 2026 (NSDL FPI Monitor)",
+        "url": "https://www.fpi.nsdl.co.in/Static/FAQ.aspx"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Listed shares (STT paid): long-term gains (held over 12 months) taxed at 12.5% above ₹1.25 lakh; short-term gains 20% (rates since 23 July 2024). Dividends paid to non-residents: 20% tax deducted at source, reducible by treaty. STT 0.1% on delivery trades. A new Income-tax Act, 2025 applies from 1 April 2026.",
+    "items": [
+      {
+        "title": "Long-term capital gains",
+        "text": "Gains on listed equity shares held for more than 12 months, where STT was paid, are taxed at 12.5% on the amount above ₹1.25 lakh a year (10% above ₹1 lakh for sales before 23 July 2024)."
+      },
+      {
+        "title": "Short-term capital gains",
+        "text": "Gains on listed equity shares held for 12 months or less, sold on an exchange with STT paid, are taxed at 20% (15% for sales before 23 July 2024)."
+      },
+      {
+        "title": "Dividends for non-residents",
+        "text": "Tax is deducted at source at 20% on dividends paid to non-residents. A tax treaty may allow a lower rate."
+      },
+      {
+        "title": "New law",
+        "text": "The Income-tax Act, 2025 replaces the 1961 Act from 1 April 2026, with new section numbers. Check current rates with the Income Tax Department."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q); higher Indian tax must be reduced under the treaty or reclaimed in India."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Tax on long-term capital gains (Income Tax Department, India)",
+        "url": "https://www.incometaxindia.gov.in/w/tax-on-long-term-capital-gains%E2%80%8B"
+      },
+      {
+        "title": "TDS rates (Income Tax Department, India)",
+        "url": "https://www.incometaxindia.gov.in/w/tds-rates-1"
+      },
+      {
+        "title": "The Income Tax Act, 2025 to come into effect from 1st April, 2026 (PIB, Government of India)",
+        "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2221416&reg=3&lang=1"
+      },
+      {
+        "title": "SEBI turnover fees, STT and other levies (NSE)",
+        "url": "https://www.nseindia.com/static/invest/first-time-investor-sebi-turnover-fees-stt-other-levies"
+      }
+    ]
+  },
+  "access": [
+    "Indirectly, through funds or ETFs on Indian indexes such as the Nifty 50, or on emerging-market indexes (Category H). This is the usual route for private investors in Austria.",
+    "Some large Indian companies have depositary receipts listed in the US; check which are available through your bank or broker.",
+    "Direct trading on NSE or BSE requires registration under SEBI's foreign investor rules and is rarely offered to private investors abroad."
+  ],
+  "companies": [
+    "Reliance Industries",
+    "HDFC Bank",
+    "Tata Consultancy Services (TCS)",
+    "Bharti Airtel",
+    "ICICI Bank",
+    "Infosys",
+    "State Bank of India",
+    "Larsen & Toubro",
+    "ITC",
+    "Hindustan Unilever"
+  ],
+  "history": [
+    {
+      "year": "1875",
+      "text": "BSE is founded in Bombay (Mumbai)."
+    },
+    {
+      "year": "1986",
+      "text": "The Sensex, India's first stock index, is launched on 2 January."
+    },
+    {
+      "year": "1992",
+      "text": "The SEBI Act comes into force on 30 January, making SEBI a statutory regulator."
+    },
+    {
+      "year": "1994",
+      "text": "NSE starts operations as India's first screen-based exchange."
+    },
+    {
+      "year": "2023",
+      "text": "India completes its move to T+1 settlement in January."
+    },
+    {
+      "year": "2024",
+      "text": "Optional same-day (T+0) settlement starts on 28 March for a limited set of shares."
+    }
+  ],
+  "funFacts": [
+    "Every year NSE holds a special 'Muhurat' trading session for Diwali, the festival of lights; in 2026 it is on Sunday 8 November.",
+    "India's clock runs 5½ hours ahead of UTC, so Vienna is 3½ hours behind Mumbai in summer and 4½ hours in winter."
+  ],
+  "lessons": [
+    "world-markets/emerging-market-risks",
+    "world-markets/accessing-foreign-markets",
+    "trading-times/time-zones-and-dst"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Company overview (BSE)",
+      "url": "https://www.bseindia.com/static/about/company-overview"
+    },
+    {
+      "title": "About NSE (NSE)",
+      "url": "https://www.nseindia.com/national-stock-exchange/about-nse-company"
+    },
+    {
+      "title": "T+0 settlement cycle (NSE)",
+      "url": "https://www.nseindia.com/static/products-services/t0-settlement-cycle"
+    },
+    {
+      "title": "A guide to deposit insurance (DICGC)",
+      "url": "https://www.dicgc.org.in/guide-to-deposit-insurance"
+    }
+  ]
+}
