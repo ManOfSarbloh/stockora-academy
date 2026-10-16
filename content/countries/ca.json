@@ -1,0 +1,185 @@
+{
+  "code": "CA",
+  "name": "Canada",
+  "region": "americas",
+  "summary": "Canada's main stock exchange, the Toronto Stock Exchange (TSX), traces its roots to 1852 and is part of TMX Group. Toronto pioneered computer-assisted trading (1977) and launched the world's first ETF (1990). Canada moved to next-day (T+1) settlement on 27 May 2024, one day before the US.",
+  "currency": {
+    "code": "CAD",
+    "name": "Canadian dollar",
+    "note": "Canadian shares are priced in Canadian dollars, so a euro investor carries currency risk: moves of the Canadian dollar against the euro change the value of holdings in euros (Category L)."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Toronto Stock Exchange (TSX, part of TMX Group)",
+      "tradingTimesId": "tsx",
+      "city": "Toronto",
+      "founded": "1852 (Association of Brokers formed on 24 October 1852); formally created in 1861",
+      "website": "https://www.tsx.com/",
+      "hours": "Opening at 09:30 ET, continuous trading until 16:00 with the Market on Close facility from 15:50, and an extended session 16:15–17:00 at the last sale price only.",
+      "timeZone": "America/Toronto",
+      "hoursSource": "https://www.tsx.com/en/trading/calendars-and-trading-hours/trading-hours",
+      "holidaysSource": "https://www.tsx.com/en/trading/calendars-and-trading-hours/calendar",
+      "note": "TSX Venture Exchange is TMX's market for early-stage companies. Toronto uses the same daylight saving rules as New York."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/TSX Composite Index",
+      "description": "Canada's broad benchmark for Toronto-listed shares. Launched in 1977 as the TSE 300 Composite Index; S&P Dow Jones Indices took over its management in 2002 and it was renamed.",
+      "source": {
+        "title": "Historical timeline (TMX Group)",
+        "url": "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Provincial securities commissions (for example the Ontario Securities Commission)",
+      "role": "Securities regulation in Canada is provincial; the commissions coordinate through the Canadian Securities Administrators (CSA).",
+      "url": "https://www.securities-administrators.ca/"
+    },
+    {
+      "name": "Canadian Investment Regulatory Organization (CIRO)",
+      "role": "National self-regulatory organisation for investment dealers and mutual fund dealers, and for trading on Canadian marketplaces.",
+      "url": "https://www.ciro.ca/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Canadian Investor Protection Fund (CIPF)",
+      "text": "If a CIRO member firm becomes insolvent, CIPF generally protects an individual's property up to C$1 million for all general accounts combined, plus C$1 million each for retirement accounts and education savings plans.",
+      "url": "https://www.cipf.ca/cipf-coverage/about-cipf-coverage"
+    },
+    {
+      "name": "Canada Deposit Insurance Corporation (CDIC)",
+      "text": "Eligible deposits at member institutions are insured up to C$100,000 per insured category, principal and interest included.",
+      "url": "https://www.cdic.ca/depositors/whats-covered/"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (next business day), since 27 May 2024",
+    "csd": "CDS Clearing and Depository Services (part of TMX Group)",
+    "note": "Canada switched one day before the US (28 May 2024) because of a US holiday.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "Canadian securities regulators announce move to T+1 settlement cycle, 27 May 2024 (CSA)",
+      "url": "https://www.securities-administrators.ca/news/canadian-securities-regulators-announce-move-to-t1-settlement-cycle/"
+    }
+  },
+  "rules": [
+    {
+      "title": "Regulation is provincial",
+      "text": "Canada has no single national securities regulator: each province and territory has its own, coordinated through the Canadian Securities Administrators (CSA). Dealers are overseen by the self-regulatory organisation CIRO.",
+      "source": {
+        "title": "Canadian Securities Administrators",
+        "url": "https://www.securities-administrators.ca/"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-16",
+    "glance": "Non-residents: 25% Canadian tax on dividends (Part XIII), reducible under a tax treaty, usually by giving the payer form NR301. Gains on listed shares are generally not taxed in Canada for non-residents unless they are 'taxable Canadian property' (holdings of 25% or more in property-rich companies).",
+    "items": [
+      {
+        "title": "Dividends for non-residents",
+        "text": "Non-residents pay 25% tax on dividends and other amounts taxable under Part XIII. A tax treaty can lower the rate; the payer usually needs form NR301 (declaration of eligibility for treaty benefits) to apply it."
+      },
+      {
+        "title": "Capital gains for non-residents",
+        "text": "Non-residents are taxed in Canada on gains from 'taxable Canadian property'. Listed shares count only if, in the previous 60 months, the investor (with related persons) held 25% or more of a class and more than 50% of the share value came from Canadian real estate or resources."
+      },
+      {
+        "title": "For an Austrian investor",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt (Category Q); any higher Canadian tax must be reduced under the treaty or reclaimed in Canada."
+      }
+    ],
+    "sources": [
+      {
+        "title": "NR4: Non-resident tax withholding, remitting and reporting (Canada Revenue Agency)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4061/nr4-non-resident-tax-withholding-remitting-reporting.html"
+      },
+      {
+        "title": "NR301: Declaration of eligibility for benefits under a tax treaty (Canada Revenue Agency)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/nr301.html"
+      },
+      {
+        "title": "Disposing of or acquiring certain Canadian property (Canada Revenue Agency)",
+        "url": "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/disposing-acquiring-certain-canadian-property.html"
+      }
+    ]
+  },
+  "access": [
+    "Many Austrian banks and brokers offer trading on the Toronto Stock Exchange; check costs for converting euros into Canadian dollars.",
+    "Some large Canadian companies are also listed in the US and can be bought there in US dollars.",
+    "Indirectly, through funds or ETFs on Canadian, North American or developed-market indexes (Category H)."
+  ],
+  "companies": [
+    "Royal Bank of Canada",
+    "Shopify",
+    "Toronto-Dominion Bank",
+    "Enbridge",
+    "Brookfield",
+    "Canadian National Railway",
+    "Bank of Montreal",
+    "Canadian Natural Resources",
+    "Scotiabank",
+    "Canadian Pacific Kansas City"
+  ],
+  "history": [
+    {
+      "year": "1852",
+      "text": "Toronto businessmen form an 'Association of Brokers' on 24 October, the framework for the Toronto Stock Exchange."
+    },
+    {
+      "year": "1861",
+      "text": "The association formally creates the Toronto Stock Exchange; trading is limited to daily half-hour sessions in 18 securities."
+    },
+    {
+      "year": "1977",
+      "text": "Toronto launches the world's first Computer Assisted Trading System (CATS) and the TSE 300 Composite Index."
+    },
+    {
+      "year": "1990",
+      "text": "The world's first ETF, the Toronto 35 Index Participation Fund, is created."
+    },
+    {
+      "year": "1995–97",
+      "text": "Toronto becomes the first exchange in North America to introduce decimal trading, and the largest in North America to close its trading floor and go fully electronic."
+    },
+    {
+      "year": "2024",
+      "text": "Canada moves to T+1 settlement on 27 May."
+    }
+  ],
+  "funFacts": [
+    "In its early years, the Toronto Stock Exchange saw only two or three trades a day.",
+    "When World War I broke out, the Toronto Stock Exchange closed for three months out of fear of a financial panic."
+  ],
+  "lessons": [
+    "indexes-etfs-funds/how-etfs-work",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "Historical timeline (TMX Group)",
+      "url": "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+    },
+    {
+      "title": "T+1: One day to settle (CDS)",
+      "url": "https://www.cds.ca/solutions/cds-key-initiatives/t-1"
+    },
+    {
+      "title": "About CIPF coverage (CIPF)",
+      "url": "https://www.cipf.ca/cipf-coverage/about-cipf-coverage"
+    }
+  ]
+}

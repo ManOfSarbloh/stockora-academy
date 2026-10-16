@@ -1,0 +1,220 @@
+[
+  {
+    "id": "CA-001",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "In which year did Toronto businessmen form the 'Association of Brokers' that became the Toronto Stock Exchange?",
+    "answerNumber": 1852,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "On 24 October 1852; the exchange was formally created in 1861.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-002",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which world first did the Toronto Stock Exchange create in 1990?",
+    "options": [
+      "The first exchange-traded fund (ETF)",
+      "The first stock index",
+      "The first stock exchange website",
+      "The first short-selling ban"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Toronto 35 Index Participation Fund.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-003",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What did Toronto launch in 1977 as a world first?",
+    "options": [
+      "A Computer Assisted Trading System (CATS)",
+      "Decimal trading",
+      "The first ETF",
+      "T+1 settlement"
+    ],
+    "answerIndex": 0,
+    "explanation": "CATS, the same year the TSE 300 Composite Index was launched.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-004",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Since when do Canadian equity trades settle T+1?",
+    "options": [
+      "27 May 2024",
+      "28 May 2024",
+      "1 January 2020",
+      "11 October 2027"
+    ],
+    "answerIndex": 0,
+    "explanation": "Canada switched on 27 May 2024, one day before the US.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.securities-administrators.ca/news/canadian-securities-regulators-announce-move-to-t1-settlement-cycle/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-005",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "What is the default Canadian Part XIII tax rate on dividends paid to non-residents, in percent?",
+    "answerNumber": 25,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "25%, which a tax treaty can reduce.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/t4061/nr4-non-resident-tax-withholding-remitting-reporting.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-006",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Which form does a non-resident usually give the payer to claim a reduced treaty rate?",
+    "options": [
+      "NR301",
+      "W-8BEN",
+      "T1",
+      "NR4"
+    ],
+    "answerIndex": 0,
+    "explanation": "NR301, the declaration of eligibility for treaty benefits.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/nr301.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-007",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "advanced",
+    "type": "true_false",
+    "question": "True or false: an Austrian private investor with a small holding in a TSX-listed company generally pays Canadian tax on the gain when selling.",
+    "answerBool": false,
+    "explanation": "False: listed shares are taxable Canadian property only with a 25%+ holding in a company whose value comes mainly from Canadian real estate or resources.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.canada.ca/en/revenue-agency/services/tax/international-non-residents/information-been-moved/disposing-acquiring-certain-canadian-property.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-008",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "How much does CIPF generally protect for an individual's general accounts at an insolvent member firm?",
+    "options": [
+      "C$1 million combined",
+      "C$100,000",
+      "C$250,000",
+      "Unlimited"
+    ],
+    "answerIndex": 0,
+    "explanation": "C$1 million for all general accounts combined, plus separate limits for retirement and education accounts.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.cipf.ca/cipf-coverage/about-cipf-coverage"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-009",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "Up to how much does CDIC insure eligible deposits per insured category?",
+    "options": [
+      "C$100,000",
+      "C$1 million",
+      "C$250,000",
+      "C$50,000"
+    ],
+    "answerIndex": 0,
+    "explanation": "C$100,000 per category, principal and interest included.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.cdic.ca/depositors/whats-covered/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-010",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "When does the Toronto Stock Exchange's regular trading end (Eastern Time)?",
+    "options": [
+      "16:00",
+      "15:30",
+      "17:30",
+      "22:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous trading runs 09:30–16:00 ET; an extended session follows 16:15–17:00 at the last sale price.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://www.tsx.com/en/trading/calendars-and-trading-hours/trading-hours"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "CA-011",
+    "category": "CA",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "order",
+    "question": "Put these events in order, earliest first.",
+    "orderedItems": [
+      "Association of Brokers formed in Toronto",
+      "Toronto Stock Exchange formally created",
+      "Computer Assisted Trading System launched",
+      "World's first ETF created",
+      "Canada moves to T+1"
+    ],
+    "explanation": "1852, 1861, 1977, 1990, 2024.",
+    "lessonLink": "/world/ca",
+    "sources": [
+      "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx",
+      "https://www.securities-administrators.ca/news/canadian-securities-regulators-announce-move-to-t1-settlement-cycle/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]
