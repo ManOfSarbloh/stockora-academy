@@ -34,17 +34,22 @@
   },
   "devDependencies": {
     "@astrojs/check": "0.9.10",
+    "@types/d3-geo": "^3.1.1",
     "@types/hast": "^3.0.5",
     "@types/mdast": "^4.0.4",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
+    "@types/topojson-client": "^3.1.5",
+    "d3-geo": "^3.1.1",
     "pagefind": "1.5.2",
     "rehype-stringify": "^10.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.2",
+    "topojson-client": "^3.1.0",
     "typescript": "6.0.3",
     "unified": "^11.0.5",
     "vitest": "5.0.3",
+    "world-atlas": "^2.0.2",
     "yaml": "^2.9.1"
   }
 }

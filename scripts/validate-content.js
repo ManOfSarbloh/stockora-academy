@@ -48,6 +48,22 @@ for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
   }
 }
 validPaths.add('/how-stocks-are-made');
+
+// World Markets: country pages, their related lessons and Trading Times links.
+const countriesDir = join(CONTENT, 'countries');
+const exchangeIds = new Set((existsSync(join(CONTENT, 'exchanges.json')) ? readJSON(join(CONTENT, 'exchanges.json')) : []).map((e) => e.id));
+const countryCodes = new Set();
+for (const f of jsonFiles(countriesDir)) {
+  const c = readJSON(join(countriesDir, f));
+  if (f !== `${String(c.code).toLowerCase()}.json`) errors.push(`countries ${f}: file name must be the lower-case country code`);
+  if (countryCodes.has(c.code)) errors.push(`countries: duplicate code "${c.code}"`);
+  countryCodes.add(c.code);
+  validPaths.add(`/world/${String(c.code).toLowerCase()}`);
+  for (const k of c.lessons ?? []) if (!lessonKeys.has(k)) errors.push(`countries ${c.code}: lesson "${k}" does not exist`);
+  for (const e of c.exchanges ?? [])
+    if (e.tradingTimesId && !exchangeIds.has(e.tradingTimesId)) errors.push(`countries ${c.code}: tradingTimesId "${e.tradingTimesId}" is not in exchanges.json`);
+}
+validPaths.add('/world');
 const pathOk = (p) => validPaths.has(p.split('#')[0].replace(/\/$/, ''));
 
 // "How Stocks Are Made" journey: step numbers 1..n without gaps, and every linked lesson must exist.
@@ -150,6 +166,7 @@ console.log(`  categories      ${categories.length}`);
 console.log(`  lessons         ${lessonKeys.size}`);
 console.log(`  journey steps   ${stepFiles.length}`);
 console.log(`  exchanges       ${exchangeList.length}`);
+console.log(`  countries       ${countryCodes.size} / 20 target`);
 console.log(`  glossary terms  ${glossary.length} / 400 target`);
 console.log(`  videos          ${videos.length}`);
 console.log(`  quiz questions  ${total} / 900 target`);

@@ -139,17 +139,65 @@ const exchanges = defineCollection({
   }),
 });
 
+const textItem = z.object({ title: z.string(), text: z.string() });
+
 const countries = defineCollection({
   loader: glob({ pattern: '[^_]*.json', base: './content/countries' }),
   schema: z.object({
-    code: z.string().length(2),
+    /** ISO 3166-1 alpha-2 code in upper case; the page lives at /world/<code in lower case>. */
+    code: z.string().regex(/^[A-Z]{2}$/),
     name: z.string(),
-    region: z.string(),
-    currency: z.string().length(3),
-    exchanges: z.array(z.string()).default([]),
+    region: z.enum(['europe', 'americas', 'asia-pacific', 'middle-east-africa']),
+    /** Shown first and used as the home example (Austria). */
+    home: z.boolean().default(false),
+    summary: z.string(),
+    currency: z.object({ code: z.string().length(3), name: z.string(), note: z.string() }),
+    /** Equity market classification by index providers (as of a date, with source). */
+    classification: z.object({ ftse: z.enum(['Developed', 'Advanced Emerging', 'Secondary Emerging', 'Frontier', 'Unclassified']), asOf: reviewDate, source }),
+    /** Number of listed companies, market capitalisation and similar, each with its own date and source. */
+    marketSize: z.array(z.object({ label: z.string(), value: z.string(), asOf: reviewDate, source })).default([]),
+    exchanges: z
+      .array(
+        z.object({
+          name: z.string(),
+          /** Id in content/exchanges.json, if the exchange is in the Trading Times tool. */
+          tradingTimesId: z.string().optional(),
+          city: z.string(),
+          founded: z.string().optional(),
+          website: z.url(),
+          /** Plain-language summary of regular trading hours in local time. */
+          hours: z.string(),
+          timeZone: z.string(),
+          hoursSource: z.url(),
+          holidaysSource: z.url().optional(),
+          note: z.string().optional(),
+        }),
+      )
+      .min(1),
+    indexes: z.array(z.object({ name: z.string(), constituents: z.string().optional(), description: z.string(), source })).min(1),
+    regulators: z.array(z.object({ name: z.string(), role: z.string(), url: z.url() })).min(1),
+    investorProtection: z.array(z.object({ name: z.string(), text: z.string(), url: z.url() })).default([]),
+    settlement: z.object({ cycle: z.string(), csd: z.string(), note: z.string().optional(), asOf: reviewDate, source }),
+    /** Market rules that differ from what a European investor may expect. */
+    rules: z.array(textItem.extend({ source: source.optional() })).default([]),
+    taxes: z.object({
+      asOf: reviewDate,
+      /** One line for the comparison table. */
+      glance: z.string(),
+      items: z.array(textItem).min(1),
+      sources: z.array(source).min(1),
+    }),
+    /** How a foreign (Austrian) investor can access the market, in general terms. */
+    access: z.array(z.string()).min(1),
+    /** Neutral examples of well-known listed companies (never recommendations). */
+    companies: z.array(z.string()).default([]),
+    history: z.array(z.object({ year: z.string(), text: z.string() })).default([]),
+    funFacts: z.array(z.string()).default([]),
+    /** Lesson keys ("<category-slug>/<lesson>") related to this country. */
+    lessons: z.array(z.string()).default([]),
     lastReviewed: reviewDate,
     sources: z.array(source).min(1),
-  }).loose(),
+  }),
 });
 
 // ---- Quizzes: every file in /content/quizzes is an array of questions. ----

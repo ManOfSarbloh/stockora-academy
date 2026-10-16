@@ -50,18 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  world: {
-    title: 'World Markets',
-    lead: 'Stock markets country by country: exchanges, indexes, regulators, hours, rules and taxes.',
-    planned: [
-      'Country pages for at least 20 markets, starting with Austria',
-      'Clickable world map',
-      'Sortable comparison tables',
-      '"Compare two countries" tool',
-    ],
-  },
-
-
   quizzes: {
     title: 'Quizzes',
     lead: 'Test what you have learned, topic by topic or across everything.',

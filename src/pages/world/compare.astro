@@ -1,0 +1,78 @@
+---
+/**
+ * World Markets comparison page: sortable/filterable tables and "compare two countries".
+ * Rows are built from content/countries/*.json and content/world/market-size.json at build time.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import Callout from '@/components/Callout.astro';
+import CompareWorld, { type CompareRow } from '@/components/world/CompareWorld';
+import { getCountries, countryHref, marketSize, marketSizeSource, marketSizeAsOf, marketSizeNote } from '@/lib/countries';
+import { t } from '@/i18n';
+import type { UiKey } from '@/i18n/en';
+import { url } from '@/lib/url';
+
+const countries = await getCountries();
+const rows: CompareRow[] = countries.map((c) => {
+  const s = marketSize(c.code);
+  return {
+    code: c.code,
+    name: c.name,
+    href: countryHref(c.code),
+    region: c.region,
+    regionLabel: t(`tt.region.${c.region}` as UiKey),
+    currency: c.currency.code,
+    ftse: c.classification.ftse,
+    listedCompanies: s.listedCompanies?.value ?? null,
+    listedYear: s.listedCompanies?.year ?? null,
+    marketCapUsd: s.marketCapUsd?.value ?? null,
+    marketCapYear: s.marketCapUsd?.year ?? null,
+    marketCapPctGdp: s.marketCapPctGdp?.value ?? null,
+    settlement: c.settlement.cycle,
+    csd: c.settlement.csd,
+    exchanges: c.exchanges.map((e) => ({ name: e.name, hours: e.hours, timeZone: e.timeZone, hoursSource: e.hoursSource })),
+    index: c.indexes[0].name,
+    indexConstituents: c.indexes[0].constituents ?? '',
+    regulators: c.regulators.map((r) => r.name).join(', '),
+    rules: c.rules.map((r) => r.title),
+    taxGlance: c.taxes.glance,
+    taxAsOf: c.taxes.asOf,
+  };
+});
+const classificationAsOf = countries.map((c) => c.classification.asOf).sort()[0];
+const classificationSource = countries[0]?.classification.source;
+---
+
+<BaseLayout title={t('wm.compare')} description={t('wm.compare.lead')}>
+  <PageHeader title={t('wm.compare')} lead={t('wm.compare.lead')} eyebrow={t('wm.title')}>
+    <p class="mt-4 text-sm"><a href={url('/world')}>← {t('wm.allCountries')}</a> · <a href={url('/times')}>{t('nav.times')} →</a></p>
+  </PageHeader>
+
+  <div class="container-page py-10">
+    <CompareWorld client:load rows={rows} base={url('/')} />
+    <noscript>
+      <p class="card mt-4 p-4 text-muted">The comparison tables need JavaScript. Every fact is also on the individual country pages.</p>
+    </noscript>
+
+    <div class="mt-12 max-w-3xl space-y-4 text-sm">
+      <Callout kind="verify" title="Verify before you rely on it">
+        <p>{t('wm.taxes.verify')} Hours, settlement cycles and classifications change too; each country page links to the official source.</p>
+      </Callout>
+      <p class="text-muted">
+        <strong>Market size:</strong> {marketSizeNote} Figures older than 2022 are not shown. Source: <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>, data updated {marketSizeAsOf}.
+      </p>
+      {
+        classificationSource && (
+          <p class="text-muted">
+            <strong>Classification:</strong> FTSE Russell, as of {classificationAsOf}: <a href={classificationSource.url} rel="noopener">{classificationSource.title}</a>. MSCI publishes its own, sometimes different, list:{' '}
+            <a href="https://www.msci.com/indexes/index-resources/market-classification" rel="noopener">MSCI Market Classification</a>. See{' '}
+            <a href={url('/learn/world-markets/market-classifications')}>Developed, emerging and frontier markets</a>.
+          </p>
+        )
+      }
+      <p class="text-muted">
+        <strong>Trading hours in your time zone:</strong> the <a href={url('/times')}>Trading Times</a> tool converts exchange hours to your local time and shows holidays.
+      </p>
+    </div>
+  </div>
+</BaseLayout>

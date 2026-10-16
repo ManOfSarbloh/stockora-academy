@@ -1,0 +1,197 @@
+{
+  "code": "AT",
+  "name": "Austria",
+  "region": "europe",
+  "home": true,
+  "summary": "A small but long-established market: the Wiener Börse was founded in 1771, and the ATX tracks about 20 of its most liquid shares, many of them banks, insurers, energy and industrial companies. Austria is the home example on this site.",
+  "currency": {
+    "code": "EUR",
+    "name": "Euro",
+    "note": "For an investor whose money is in euros, Austrian shares carry no currency risk. Many ATX companies earn part of their revenue in other currencies, especially in Central and Eastern Europe, so currency moves can still affect their profits."
+  },
+  "classification": {
+    "ftse": "Developed",
+    "asOf": "2026-10-06",
+    "source": {
+      "title": "FTSE Equity Country Classification Process, v3.5, October 2026, Appendix 3 (FTSE Russell, PDF)",
+      "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    }
+  },
+  "exchanges": [
+    {
+      "name": "Wiener Börse (Vienna Stock Exchange)",
+      "tradingTimesId": "wiener-boerse",
+      "city": "Vienna",
+      "founded": "1771, by Maria Theresa",
+      "website": "https://www.wienerborse.at/en/",
+      "hours": "Continuous trading 09:00–17:30 for ATX shares, with an opening auction from 08:55, a short midday auction 12:00–12:03 and a closing auction 17:30–17:35. Less liquid shares may trade in auctions only.",
+      "timeZone": "Europe/Vienna",
+      "hoursSource": "https://www.wienerborse.at/en/trading/trading-information/trading-hours/",
+      "holidaysSource": "https://www.wienerborse.at/en/trading/trading-information/trading-calendar/",
+      "note": "The exchange trades on several Austrian public holidays, such as Epiphany, Ascension Day, Whit Monday and Corpus Christi."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "ATX (Austrian Traded Index)",
+      "constituents": "About 20 shares (20 as of October 2026)",
+      "description": "Price index of the blue-chip segment, calculated in real time by the Wiener Börse. Shares are weighted by their market value. It started on 2 January 1991 at 1,000 points.",
+      "source": {
+        "title": "ATX: Definition (Wiener Börse Börsenlexikon, in German)",
+        "url": "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+      }
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finanzmarktaufsicht (FMA)",
+      "role": "Integrated supervisor of banks, insurers, investment firms, funds and the securities markets, including market abuse and issuer disclosure.",
+      "url": "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    },
+    {
+      "name": "Übernahmekommission (Takeover Commission)",
+      "role": "Independent authority at the Vienna Stock Exchange that supervises takeover offers (Category R).",
+      "url": "https://www.takeover.at/"
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Deposit guarantee (Einlagensicherung AUSTRIA)",
+      "text": "Bank deposits are protected up to €100,000 per person and bank.",
+      "url": "https://www.einlagensicherung.at/en/prot-deposits.php"
+    },
+    {
+      "name": "Investor compensation",
+      "text": "If a bank cannot return securities held for you in breach of its duties, investor compensation covers up to €20,000. Securities in custody remain your property.",
+      "url": "https://www.einlagensicherung.at/en/prot-invest.php"
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (two business days); T+1 from 11 October 2027",
+    "csd": "OeKB CSD",
+    "note": "Like the rest of the EU, Austria moves to next-day settlement (T+1) on 11 October 2027.",
+    "asOf": "2026-10-16",
+    "source": {
+      "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+      "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    }
+  },
+  "rules": [
+    {
+      "title": "Volatility interruptions",
+      "text": "If the next price would fall outside a set corridor, trading pauses (for example 2 minutes in continuous trading) and an auction determines the price. This is the Vienna version of a circuit breaker.",
+      "source": {
+        "title": "Volatility interruption (Wiener Börse)",
+        "url": "https://www.wienerborse.at/en/trading/trading-information/volatility-interruption/"
+      }
+    },
+    {
+      "title": "Short selling (EU rules)",
+      "text": "Net short positions in shares must be reported to the regulator from 0.1% of issued share capital and published from 0.5% (Category N).",
+      "source": {
+        "title": "Short selling (ESMA)",
+        "url": "https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/short-selling"
+      }
+    }
+  ],
+  "taxes": {
+    "asOf": "2026-10-12",
+    "glance": "Residents: 27.5% on dividends and capital gains (KESt, withheld by Austrian banks); 25% on bank interest.",
+    "items": [
+      {
+        "title": "Capital gains and dividends",
+        "text": "Taxed at a special rate of 27.5% (Kapitalertragsteuer, KESt). An Austrian bank or broker withholds it, which usually settles the tax."
+      },
+      {
+        "title": "Bank interest",
+        "text": "Interest on bank deposits is taxed at 25%."
+      },
+      {
+        "title": "Foreign dividends",
+        "text": "An Austrian bank can credit foreign withholding tax up to 15% of the dividend against Austrian KESt."
+      },
+      {
+        "title": "Foreign broker",
+        "text": "With an account abroad, no KESt is withheld; you declare the income in your Austrian tax return yourself."
+      },
+      {
+        "title": "Cryptocurrencies",
+        "text": "Included in capital income at 27.5% since 1 March 2022, for assets acquired after 28 February 2021."
+      }
+    ],
+    "sources": [
+      {
+        "title": "Besteuerung von Kapitalerträgen im Inland (BMF, in German)",
+        "url": "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+      },
+      {
+        "title": "Information zu Einkünften aus Kapitalvermögen (BMF, in German)",
+        "url": "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/information-zu-einkuenften-aus-kapitalvermoegen.html"
+      },
+      {
+        "title": "Steuerliche Behandlung von Kryptowährungen (BMF, in German)",
+        "url": "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/steuerliche-behandlung-von-kryptowaehrungen.html"
+      }
+    ]
+  },
+  "access": [
+    "Through an Austrian bank or broker, which withholds Austrian tax automatically.",
+    "Through a foreign broker, in which case you declare the income yourself (Category Q).",
+    "Indirectly, through funds or ETFs that hold Austrian shares (Category H)."
+  ],
+  "companies": [
+    "Erste Group Bank",
+    "OMV",
+    "Verbund",
+    "voestalpine",
+    "Andritz",
+    "Raiffeisen Bank International",
+    "Vienna Insurance Group",
+    "Wienerberger",
+    "Österreichische Post",
+    "Lenzing"
+  ],
+  "history": [
+    {
+      "year": "1771",
+      "text": "Maria Theresa founds the Vienna Stock Exchange."
+    },
+    {
+      "year": "1873",
+      "text": "The crash of 9 May 1873 ends the Gründerzeit boom; about half of the listed companies disappear (Category K)."
+    },
+    {
+      "year": "1991",
+      "text": "The ATX is launched on 2 January at 1,000 points."
+    },
+    {
+      "year": "2021",
+      "text": "The Wiener Börse celebrates its 250th anniversary."
+    }
+  ],
+  "funFacts": [
+    "The Wiener Börse describes itself as one of the oldest stock exchanges in the world.",
+    "In October 2026, all 20 ATX shares were Austrian companies."
+  ],
+  "lessons": [
+    "market-cycles-history/vienna-1873-and-japan-1989",
+    "taxes/austria-kest-overview",
+    "regulation-law-ethics/who-regulates",
+    "world-markets/major-exchanges"
+  ],
+  "lastReviewed": "2026-10-16",
+  "sources": [
+    {
+      "title": "250 years Wiener Börse (Wiener Börse)",
+      "url": "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/"
+    },
+    {
+      "title": "ATX composition (Wiener Börse)",
+      "url": "https://www.wienerborse.at/en/index/atx-AT0000999982/composition/"
+    },
+    {
+      "title": "OeKB CSD (OeKB)",
+      "url": "https://www.oekb-csd.at/en/"
+    }
+  ]
+}

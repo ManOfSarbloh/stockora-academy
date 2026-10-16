@@ -1,0 +1,236 @@
+[
+  {
+    "id": "AT-001",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "In which year was the Vienna Stock Exchange founded?",
+    "answerNumber": 1771,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Maria Theresa founded it in 1771.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-002",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Which index tracks the blue-chip segment of the Wiener Börse?",
+    "options": [
+      "ATX",
+      "DAX",
+      "SMI",
+      "CAC 40"
+    ],
+    "answerIndex": 0,
+    "explanation": "The ATX contains about 20 of the most liquid shares on the Wiener Börse.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-003",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "At how many points did the ATX start on 2 January 1991?",
+    "answerNumber": 1000,
+    "tolerance": 0,
+    "unit": "points",
+    "explanation": "The starting value was set at 1,000 points.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-004",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "Who is Austria's main financial market supervisor?",
+    "options": [
+      "The FMA (Finanzmarktaufsicht)",
+      "The ECB",
+      "Statistik Austria",
+      "The Wiener Börse"
+    ],
+    "answerIndex": 0,
+    "explanation": "The FMA supervises banks, insurers, investment firms and the securities markets.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.fma.gv.at/aufgaben-der-finanzmarktaufsicht/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-005",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "number",
+    "question": "Up to what amount per person and bank are deposits protected in Austria, in euros?",
+    "answerNumber": 100000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "€100,000 per person and bank (Einlagensicherung AUSTRIA).",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-deposits.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-006",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does Austria, with the rest of the EU, move to T+1 settlement?",
+    "options": [
+      "11 October 2027",
+      "1 January 2026",
+      "28 May 2024",
+      "It already settles on T+0"
+    ],
+    "answerIndex": 0,
+    "explanation": "ESMA confirmed the EU switch to T+1 on 11 October 2027; until then trades settle on T+2.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-007",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_choice",
+    "question": "At what rate are dividends and capital gains on shares generally taxed in Austria?",
+    "options": [
+      "27.5%",
+      "25%",
+      "15%",
+      "0%"
+    ],
+    "answerIndex": 0,
+    "explanation": "The special rate is 27.5% (KESt); bank deposit interest is taxed at 25%.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.bmf.gv.at/themen/steuern/sparen-veranlagen/besteuerung-kapitalertraege-inland.html"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-008",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "true_false",
+    "question": "True or false: FTSE Russell classifies Austria as a developed market.",
+    "answerBool": true,
+    "explanation": "True, as of 6 October 2026.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-009",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "When does continuous trading for ATX shares normally run on the Wiener Börse?",
+    "options": [
+      "09:00–17:30",
+      "08:00–16:30",
+      "09:30–16:00",
+      "10:00–18:00"
+    ],
+    "answerIndex": 0,
+    "explanation": "Continuous trading runs 09:00–17:30 (Vienna time), with auctions around it.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/trading-hours/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-010",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "multiple_choice",
+    "question": "What happens in a volatility interruption on the Wiener Börse?",
+    "options": [
+      "Trading pauses briefly and an auction determines the next price",
+      "The share is delisted",
+      "All trades of the day are cancelled",
+      "The price is fixed by the FMA"
+    ],
+    "answerIndex": 0,
+    "explanation": "If the next price would fall outside a corridor, trading pauses (e.g. 2 minutes in continuous trading) and an auction follows.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/en/trading/trading-information/volatility-interruption/"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-011",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "intermediate",
+    "type": "number",
+    "question": "Up to what amount does investor compensation cover securities a bank cannot return in breach of its duties, in euros?",
+    "answerNumber": 20000,
+    "tolerance": 0,
+    "unit": "€",
+    "explanation": "Up to €20,000.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.einlagensicherung.at/en/prot-invest.php"
+    ],
+    "lastReviewed": "2026-10"
+  },
+  {
+    "id": "AT-012",
+    "category": "AT",
+    "topic": "country",
+    "difficulty": "beginner",
+    "type": "multiple_select",
+    "question": "Which of these companies were in the ATX in October 2026? Select all that apply.",
+    "options": [
+      "Erste Group Bank",
+      "OMV",
+      "Verbund",
+      "Siemens"
+    ],
+    "answers": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Siemens is a German company in the DAX; the other three were ATX members.",
+    "lessonLink": "/world/at",
+    "sources": [
+      "https://www.wienerborse.at/en/index/atx-AT0000999982/composition/"
+    ],
+    "lastReviewed": "2026-10"
+  }
+]

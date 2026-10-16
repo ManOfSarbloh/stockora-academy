@@ -1,0 +1,277 @@
+{
+  "source": {
+    "title": "World Development Indicators: market capitalization and listed domestic companies (World Bank, data from the World Federation of Exchanges)",
+    "url": "https://data.worldbank.org/indicator/CM.MKT.LCAP.CD"
+  },
+  "asOf": "2026-10-08",
+  "note": "End-of-year values for listed domestic companies, from the World Federation of Exchanges via the World Bank. Market capitalisation in US dollars at year-end exchange rates. Some countries have no recent value because their exchange belongs to a multi-country group.",
+  "minYear": 2022,
+  "countries": {
+    "AU": {
+      "marketCapUsd": {
+        "value": 2047916560000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 1782,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 113.9,
+        "year": 2025
+      }
+    },
+    "AT": {
+      "marketCapUsd": {
+        "value": 211144670000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 67,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 36.4,
+        "year": 2025
+      }
+    },
+    "CA": {
+      "marketCapUsd": {
+        "value": 4621231170000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 4377,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 199.2,
+        "year": 2025
+      }
+    },
+    "CH": {
+      "marketCapUsd": {
+        "value": 2514307680000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 201,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 240.9,
+        "year": 2025
+      }
+    },
+    "CN": {
+      "marketCapUsd": {
+        "value": 15508858500000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 11149,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 79.5,
+        "year": 2025
+      }
+    },
+    "DE": {
+      "marketCapUsd": {
+        "value": 2898631590000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 416,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 57.4,
+        "year": 2025
+      }
+    },
+    "ES": {
+      "marketCapUsd": {
+        "value": 1297626640000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 272,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 68.1,
+        "year": 2025
+      }
+    },
+    "FR": {
+      "marketCapUsd": {
+        "value": 2365950236659,
+        "year": 2018
+      },
+      "listedCompanies": {
+        "value": 457,
+        "year": 2018
+      },
+      "marketCapPctGdp": {
+        "value": 85.1,
+        "year": 2018
+      }
+    },
+    "GB": {
+      "marketCapUsd": {
+        "value": 3095983430000,
+        "year": 2022
+      },
+      "listedCompanies": {
+        "value": 1606,
+        "year": 2022
+      },
+      "marketCapPctGdp": {
+        "value": 97.3,
+        "year": 2022
+      }
+    },
+    "HK": {
+      "marketCapUsd": {
+        "value": 6089226700000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 2508,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 1425.0,
+        "year": 2025
+      }
+    },
+    "IN": {
+      "marketCapUsd": {
+        "value": 10559581760000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 8510,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 266.9,
+        "year": 2025
+      }
+    },
+    "IT": {
+      "marketCapUsd": {
+        "value": 587312440000,
+        "year": 2014
+      },
+      "listedCompanies": {
+        "value": 290,
+        "year": 2014
+      },
+      "marketCapPctGdp": {
+        "value": 27.0,
+        "year": 2014
+      }
+    },
+    "JP": {
+      "marketCapUsd": {
+        "value": 7610543670000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 3942,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 171.6,
+        "year": 2025
+      }
+    },
+    "KR": {
+      "marketCapUsd": {
+        "value": 2756667490000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 2653,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 147.2,
+        "year": 2025
+      }
+    },
+    "NL": {
+      "marketCapUsd": {
+        "value": 1100105440292,
+        "year": 2017
+      },
+      "listedCompanies": {
+        "value": 103,
+        "year": 2018
+      },
+      "marketCapPctGdp": {
+        "value": 129.7,
+        "year": 2017
+      }
+    },
+    "PL": {
+      "marketCapUsd": {
+        "value": 316497720000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 737,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 30.6,
+        "year": 2025
+      }
+    },
+    "SG": {
+      "marketCapUsd": {
+        "value": 824336190000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 394,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 136.5,
+        "year": 2025
+      }
+    },
+    "SE": {
+      "marketCapUsd": {
+        "value": 289877140000,
+        "year": 2003
+      },
+      "listedCompanies": {
+        "value": 278,
+        "year": 2002
+      },
+      "marketCapPctGdp": {
+        "value": 86.8,
+        "year": 2003
+      }
+    },
+    "US": {
+      "marketCapUsd": {
+        "value": 68937866210000,
+        "year": 2025
+      },
+      "listedCompanies": {
+        "value": 3908,
+        "year": 2025
+      },
+      "marketCapPctGdp": {
+        "value": 224.0,
+        "year": 2025
+      }
+    }
+  }
+}

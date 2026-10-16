@@ -1,0 +1,106 @@
+---
+/**
+ * Static SVG world map, rendered at build time (see src/lib/world-map.ts). Countries with a page are
+ * links, coloured by region; small countries get a marker. No JavaScript is needed to use it.
+ */
+import { buildWorldMap } from '@/lib/world-map';
+import { countryHref, type Country } from '@/lib/countries';
+import { t } from '@/i18n';
+import type { UiKey } from '@/i18n/en';
+import { url } from '@/lib/url';
+
+interface Props {
+  countries: Country[];
+  /** Highlight one country (on its own page). */
+  current?: string;
+  class?: string;
+}
+
+const { countries, current, class: className } = Astro.props;
+const map = buildWorldMap();
+const byCode = new Map(countries.map((c) => [c.code, c]));
+const regionClass: Record<string, string> = {
+  europe: 'fill-[var(--series-1)]',
+  americas: 'fill-[var(--series-3)]',
+  'asia-pacific': 'fill-[var(--series-2)]',
+  'middle-east-africa': 'fill-[var(--series-7)]',
+};
+const regions = [...new Set(countries.map((c) => c.region))];
+---
+
+<figure class:list={['not-prose', className]}>
+  <svg
+    viewBox={`0 0 ${map.width} ${map.height}`}
+    class="h-auto w-full"
+    role="group"
+    aria-label={t('wm.map.label')}
+  >
+    <g class="fill-[var(--chart-grid)] stroke-[var(--surface)]" stroke-width="0.5">
+      {map.shapes.filter((s) => !s.code || !byCode.has(s.code)).map((s) => <path d={s.d} />)}
+    </g>
+    {
+      map.shapes
+        .filter((s) => s.code && byCode.has(s.code))
+        .map((s) => {
+          const c = byCode.get(s.code!)!;
+          return (
+            <a href={url(countryHref(c.code))} aria-label={c.name} class="world-country">
+              <title>{c.name}</title>
+              <path
+                d={s.d}
+                class:list={[regionClass[c.region], current && current !== c.code && 'opacity-40', 'stroke-[var(--surface)]']}
+                stroke-width="0.6"
+              />
+            </a>
+          );
+        })
+    }
+    {
+      map.markers
+        .filter((m) => byCode.has(m.code))
+        .map((m) => {
+          const c = byCode.get(m.code)!;
+          return (
+            <a href={url(countryHref(c.code))} aria-label={c.name} class="world-country">
+              <title>{c.name}</title>
+              <circle
+                cx={m.x}
+                cy={m.y}
+                r="5"
+                class:list={[regionClass[c.region], current && current !== c.code && 'opacity-40', 'stroke-[var(--surface)]']}
+                stroke-width="1.5"
+              />
+            </a>
+          );
+        })
+    }
+  </svg>
+  <figcaption class="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm text-muted">
+    {
+      regions.map((r) => (
+        <span class="inline-flex items-center gap-1.5">
+          <svg width="12" height="12" aria-hidden="true">
+            <rect width="12" height="12" rx="2" class={regionClass[r]} />
+          </svg>
+          {t(`tt.region.${r}` as UiKey)}
+        </span>
+      ))
+    }
+    <span>{t('wm.map.hint')}</span>
+  </figcaption>
+</figure>
+
+<style>
+  .world-country:hover path,
+  .world-country:hover circle,
+  .world-country:focus-visible path,
+  .world-country:focus-visible circle {
+    opacity: 1;
+    filter: brightness(1.15);
+    stroke: var(--text);
+    stroke-width: 1.2;
+  }
+  .world-country:focus-visible {
+    outline: none;
+  }
+</style>
