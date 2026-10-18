@@ -160,6 +160,18 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Content | 68 new advanced questions so every one of the 196 lessons has a 5-question mini-quiz; each is built from its lesson and cites that lesson's official source. Totals: 1,368 questions (plus 431 generated glossary questions), beginner 38%, intermediate 44%, advanced 18% |
 | Correction | S/major-exchanges said Tel Aviv trades on a different weekly schedule; TASE has traded Monday to Friday since January 2026 (TASE trading schedule page), fixed |
 
+## Phase 10 (2026-10-16 to 2026-10-18): Video library
+
+| Topic | Decision |
+|---|---|
+| Page | /videos lists every video (110) with filters for topic or country, level, language, length (≤5, 5–15, 15–30, >30 minutes) and a text search over titles and channels. Filters are plain HTML plus a small script and are mirrored in the URL (e.g. /videos?topic=J). Each card links to the topic and country pages it appears on |
+| Privacy | Unchanged click-to-load embed: nothing is requested from YouTube before a click (checked in the browser), then the player loads from youtube-nocookie.com; every card also has a plain "Watch on YouTube" link |
+| Selection rules | Exchanges, regulators, central banks, public broadcasters and established newsrooms first. Broker channels (e.g. TD Direct Investing, Zerodha, Directa, Killik) were skipped even when educational, because the brief excludes broker promotion; anonymous explainer channels were skipped too. Marketing claims in descriptions ("most efficient exchange") ruled a video out |
+| New videos | 21 added after checking channel, title, length and description: 3 for Trading Times (Nasdaq on 23/5 trading, Bloomberg report, Börse Stuttgart on auctions) and country videos from Wiener Börse, Deutsche Börse, SIX, LSEG, Clearstream (T+1), Euronext Paris CEO, AMF, CONSOB, GPW, Nasdaq Stockholm, Telemadrid, NTV, moneycontrol (NSE), Reuters, TaiwanPlus, Bloomberg (SGX) and ASX. Five existing videos were tagged to countries (HKEX Stock Connect to CN and HK, DTCC to US, Deutsche Börse to DE, FMA and BMF to AT) |
+| Languages | English first; German, French, Spanish and Italian videos are labelled and filterable, used where an official local source is better than an English third-party one |
+| Gaps | The Netherlands has no video yet (no suitable AFM or Euronext Amsterdam explainer found); its page shows the brief's "Search YouTube" button. Several countries have one video only. 80 of 196 lessons have a lesson-specific video; every topic page shows 2–9 |
+| Checker | scripts/check-videos.js checks all IDs via oEmbed (existence, title similarity, channel). `npm run check:videos:write` also sets lastChecked to today for passing videos; `npm run verify:full` runs the normal verify plus the video check. It is not part of the plain build, because a build should not fail when YouTube is unreachable; a scheduled CI run is planned for Phase 12 |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
