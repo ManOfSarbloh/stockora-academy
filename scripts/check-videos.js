@@ -5,8 +5,9 @@
  *  - the title must still roughly match (catches re-used or replaced video IDs)
  *  - the channel must match
  * Prints a report and exits with code 1 if any video fails.
+ * With --write, the lastChecked date of every video that passed is set to today in content/videos.json.
  */
-import { readFileSync } from 'node:fs';
+import { readFileSync, writeFileSync } from 'node:fs';
 
 const videos = JSON.parse(readFileSync('content/videos.json', 'utf8'));
 
@@ -48,6 +49,14 @@ console.log(`Checked ${results.length} video(s)`);
 for (const r of results) console.log(`  ${r.ok ? '✓' : '✗'} ${r.v.id}  ${r.v.channel}: ${r.v.title}${r.ok ? '' : `\n      → ${r.reason}`}`);
 
 const failed = results.filter((r) => !r.ok);
+
+if (process.argv.includes('--write')) {
+  const today = new Date().toISOString().slice(0, 10);
+  const passed = new Set(results.filter((r) => r.ok).map((r) => r.v.id));
+  const updated = videos.map((v) => (passed.has(v.id) ? { ...v, lastChecked: today } : v));
+  writeFileSync('content/videos.json', `${JSON.stringify(updated, null, 2)}\n`);
+  console.log(`Updated lastChecked to ${today} for ${passed.size} video(s).`);
+}
 if (failed.length) {
   console.error(`\n${failed.length} video(s) need attention. Replace them or remove them from content/videos.json.`);
   process.exit(1);

@@ -7,6 +7,7 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Callout from '@/components/Callout.astro';
 import QuizSection from '@/components/quiz/QuizSection.astro';
+import VideoList from '@/components/VideoList.astro';
 import WorldMap from '@/components/world/WorldMap.astro';
 import {
   getCountries,
@@ -65,6 +66,7 @@ const toc = [
   ['taxes', t('wm.taxes')],
   ['access', t('wm.access')],
   ...(c.companies.length || c.history.length ? [['history', t('wm.history')]] : []),
+  ['videos', t('video.heading')],
   ...(hasQuiz ? [['quiz', t('wm.quiz')]] : []),
 ];
 ---
@@ -351,6 +353,10 @@ const toc = [
           </section>
         )
       }
+
+      <div id="videos" class="scroll-mt-24">
+        <VideoList categoryId={c.code} fallbackQuery={`${c.name} stock exchange explained`} />
+      </div>
 
       <QuizSection categoryId={c.code} id="quiz" title={t('wm.quiz')} quizId={`country-${c.code}`} />
 

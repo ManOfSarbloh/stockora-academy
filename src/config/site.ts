@@ -50,15 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  videos: {
-    title: 'Videos',
-    lead: 'Hand-picked educational videos for every topic.',
-    planned: [
-      'Videos filterable by topic, level, language and length',
-      'Privacy-friendly: videos load only after you click',
-      'Every link checked automatically',
-    ],
-  },
   tools: {
     title: 'Tools',
     lead: 'Calculators and simulators that show the maths behind investing.',

@@ -11,7 +11,7 @@
     "durationMinutes": 4.5,
     "language": "en",
     "whyGood": "A short animated introduction to how the stock market works, from TED's education channel.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "foundations/what-is-a-stock",
       "foundations/what-is-the-stock-market"
@@ -28,7 +28,7 @@
     "durationMinutes": 13.8,
     "language": "en",
     "whyGood": "A longer, step-by-step explanation of what owning a share means, from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "foundations/what-is-a-stock",
       "foundations/shareholder-rights"
@@ -45,7 +45,7 @@
     "durationMinutes": 13.9,
     "language": "en",
     "whyGood": "Compares owning part of a company (equity) with lending to it (debt), from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "foundations/equity-vs-debt",
       "foundations/why-companies-need-money"
@@ -63,7 +63,7 @@
     "durationMinutes": 9.4,
     "language": "en",
     "whyGood": "Compares bonds and stocks side by side, from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "foundations/equity-vs-debt",
       "foundations/stocks-bonds-cash-property",
@@ -79,10 +79,10 @@
       "B"
     ],
     "level": "intermediate",
-    "durationMinutes": 12.0,
+    "durationMinutes": 12,
     "language": "en",
     "whyGood": "Follows a start-up through its funding rounds and shows how ownership changes, from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "how-stocks-are-made/funding-rounds",
       "how-stocks-are-made/cap-table-and-dilution"
@@ -99,7 +99,7 @@
     "durationMinutes": 4.2,
     "language": "en",
     "whyGood": "A short news-channel explainer of what an initial public offering is.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "how-stocks-are-made/why-go-public",
       "how-stocks-are-made/ipo-process"
@@ -116,7 +116,7 @@
     "durationMinutes": 4.8,
     "language": "en",
     "whyGood": "A brief overview of the IPO process from a well-known financial education site.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "how-stocks-are-made/ipo-process",
       "how-stocks-are-made/listing-day"
@@ -133,7 +133,7 @@
     "durationMinutes": 9.3,
     "language": "en",
     "whyGood": "Explains special purpose acquisition companies, an alternative route to the stock market covered in this topic.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "how-stocks-are-made/why-go-public"
     ]
@@ -149,7 +149,7 @@
     "durationMinutes": 2.3,
     "language": "en",
     "whyGood": "A two-minute explainer from the public radio programme Marketplace.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "types-of-stocks/common-vs-preferred"
     ]
@@ -166,7 +166,7 @@
     "durationMinutes": 6.6,
     "language": "en",
     "whyGood": "Explains how ADRs work, from a US market operator where many ADRs trade.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "types-of-stocks/adrs-and-gdrs"
     ]
@@ -176,13 +176,14 @@
     "title": "So wird der Aktienpreis ermittelt",
     "channel": "Deutsche Börse",
     "categories": [
-      "D"
+      "D",
+      "DE"
     ],
     "level": "beginner",
     "durationMinutes": 2.8,
     "language": "de",
     "whyGood": "A short German-language explainer from the Frankfurt stock exchange operator on how a share price is determined.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-structure/order-book-and-matching",
       "market-structure/auctions-and-continuous-trading"
@@ -193,13 +194,14 @@
     "title": "Clearing Up the Settlement Process: How Everyday Investors Leverage DTCC Services",
     "channel": "The DTCC",
     "categories": [
-      "D"
+      "D",
+      "US"
     ],
     "level": "beginner",
     "durationMinutes": 2.3,
     "language": "en",
     "whyGood": "A two-minute overview of clearing and settlement from the US post-trade infrastructure provider itself.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-structure/clearing-and-settlement"
     ]
@@ -215,7 +217,7 @@
     "durationMinutes": 11.9,
     "language": "en",
     "whyGood": "A balanced look at what high-frequency traders do and the debate around them, from an independent finance educator.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-structure/high-frequency-trading"
     ]
@@ -231,7 +233,7 @@
     "durationMinutes": 1.4,
     "language": "en",
     "whyGood": "A 90-second comparison of the two basic order types from a well-known financial education site.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "brokers-accounts-orders/market-and-limit-orders"
     ]
@@ -247,7 +249,7 @@
     "durationMinutes": 1.8,
     "language": "en",
     "whyGood": "A short explanation of how stop orders differ from limit orders, from a well-known financial education site.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "brokers-accounts-orders/stop-orders"
     ]
@@ -263,7 +265,7 @@
     "durationMinutes": 1.2,
     "language": "en",
     "whyGood": "A one-minute introduction to dividends from a well-known financial education site.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "returns-and-costs/dividends-and-key-dates"
     ]
@@ -279,7 +281,7 @@
     "durationMinutes": 6.6,
     "language": "en",
     "whyGood": "Works through the arithmetic of compound interest step by step, from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "returns-and-costs/compound-growth"
     ]
@@ -295,7 +297,7 @@
     "durationMinutes": 9.2,
     "language": "en",
     "whyGood": "Explains where the rule of 72 comes from and how accurate it is, from the non-profit Khan Academy.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "returns-and-costs/compound-growth"
     ]
@@ -311,7 +313,7 @@
     "durationMinutes": 8.5,
     "language": "en",
     "whyGood": "Explains what makes up a stock index, how indexes are weighted and how index funds use them.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/what-is-an-index",
       "indexes-etfs-funds/funds-basics"
@@ -328,7 +330,7 @@
     "durationMinutes": 4,
     "language": "en",
     "whyGood": "A short whiteboard explanation of how an open-ended fund pools investors' money.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/funds-basics"
     ]
@@ -344,7 +346,7 @@
     "durationMinutes": 11,
     "language": "en",
     "whyGood": "Walks through the arguments on both sides of the active versus passive debate.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/funds-basics"
     ]
@@ -360,7 +362,7 @@
     "durationMinutes": 5,
     "language": "en",
     "whyGood": "Khan Academy's whiteboard explanation of what ETFs are and how they compare with traditional funds.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/how-etfs-work"
     ]
@@ -376,7 +378,7 @@
     "durationMinutes": 2,
     "language": "en",
     "whyGood": "A two-minute overview of what an ETF is and how it trades on an exchange.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/how-etfs-work"
     ]
@@ -392,7 +394,7 @@
     "durationMinutes": 1.5,
     "language": "en",
     "whyGood": "A short explanation from Morningstar Europe of physical versus synthetic (swap-based) ETFs, and where to find which one a fund uses.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/etf-structures"
     ]
@@ -408,7 +410,7 @@
     "durationMinutes": 11,
     "language": "en",
     "whyGood": "Shows with examples why daily-reset leveraged ETFs can return much less than the expected multiple over time.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "indexes-etfs-funds/leveraged-inverse-etfs"
     ]
@@ -424,7 +426,7 @@
     "durationMinutes": 5.5,
     "language": "en",
     "whyGood": "The derivatives exchange CME Group explains line, bar and candlestick charts.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/what-a-chart-shows",
       "technical-analysis/candlestick-anatomy"
@@ -441,7 +443,7 @@
     "durationMinutes": 5,
     "language": "en",
     "whyGood": "CME Group's short explainer of what support and resistance levels are and how traders identify them.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/trend-support-resistance"
     ]
@@ -457,7 +459,7 @@
     "durationMinutes": 3,
     "language": "en",
     "whyGood": "Tops, bottoms and head and shoulders explained by CME Group.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/chart-patterns"
     ]
@@ -473,7 +475,7 @@
     "durationMinutes": 3,
     "language": "en",
     "whyGood": "Triangles and rectangles as continuation patterns, from CME Group's education series.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/chart-patterns"
     ]
@@ -489,7 +491,7 @@
     "durationMinutes": 3.5,
     "language": "en",
     "whyGood": "How simple and exponential moving averages are calculated and used, from CME Group.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/indicators"
     ]
@@ -505,7 +507,7 @@
     "durationMinutes": 3.5,
     "language": "en",
     "whyGood": "CME Group introduces MACD, RSI and Stochastics.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/indicators"
     ]
@@ -521,7 +523,7 @@
     "durationMinutes": 10.5,
     "language": "en",
     "whyGood": "The platform's own overview of its charting interface. Shown as an example of how charting platforms work, not as a recommendation.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/charting-platforms"
     ]
@@ -537,7 +539,7 @@
     "durationMinutes": 25.5,
     "language": "en",
     "whyGood": "The platform's own tutorial on drawing tools such as trendlines and position tools. Shown as an example, not as a recommendation.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "technical-analysis/charting-platforms"
     ]
@@ -553,7 +555,7 @@
     "durationMinutes": 3.7,
     "language": "en",
     "whyGood": "A short, clear explanation by Sal Khan of how profit on the income statement changes the balance sheet. Khan Academy is a non-profit with free courses.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/balance-sheet"
     ]
@@ -569,7 +571,7 @@
     "durationMinutes": 15.4,
     "language": "en",
     "whyGood": "Walks through revenue, gross profit, operating profit and net income, and introduces ROA and ROE, with a simple worked example.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/income-statement",
       "fundamental-analysis/profitability-and-returns"
@@ -586,7 +588,7 @@
     "durationMinutes": 3.7,
     "language": "en",
     "whyGood": "Shows how a cash flow statement reconciles net income with the change in cash, the key idea behind lesson 4.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/cash-flow-statement"
     ]
@@ -602,7 +604,7 @@
     "durationMinutes": 14.8,
     "language": "en",
     "whyGood": "Explains what the P/E ratio measures and why companies with the same P/E can be very different investments.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/valuation-ratios"
     ]
@@ -618,7 +620,7 @@
     "durationMinutes": 16.2,
     "language": "en",
     "whyGood": "A short session from NYU Stern professor Aswath Damodaran's free online class on why valuation is done and the bias, complexity and uncertainty involved.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/intrinsic-value-and-dcf"
     ]
@@ -634,7 +636,7 @@
     "durationMinutes": 11.5,
     "language": "en",
     "whyGood": "Sets up the foundations of intrinsic valuation and the difference between valuing a business and valuing its equity.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "fundamental-analysis/intrinsic-value-and-dcf"
     ]
@@ -650,7 +652,7 @@
     "durationMinutes": 5.6,
     "language": "en",
     "whyGood": "A Federal Reserve Bank of Atlanta economist explains the Fed's role in the Great Depression, part of the bank's own history of central banking series.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/crash-of-1929"
     ]
@@ -666,7 +668,7 @@
     "durationMinutes": 14.4,
     "language": "en",
     "whyGood": "An engaging overview of the Depression, including why the 1929 crash was not its only cause. CrashCourse is a free educational series.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/crash-of-1929"
     ]
@@ -682,7 +684,7 @@
     "durationMinutes": 10.3,
     "language": "en",
     "whyGood": "Former Fed Vice Chair Donald Kohn describes how the Federal Reserve responded to Black Monday.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/black-monday-1987"
     ]
@@ -698,7 +700,7 @@
     "durationMinutes": 11.4,
     "language": "en",
     "whyGood": "Explains how mortgages became investment products, how the housing bubble burst and how the US government responded.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/financial-crisis-2008"
     ]
@@ -711,10 +713,10 @@
       "K"
     ],
     "level": "intermediate",
-    "durationMinutes": 8.0,
+    "durationMinutes": 8,
     "language": "en",
     "whyGood": "Sal Khan explains step by step how home loans are pooled into mortgage-backed securities.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/financial-crisis-2008"
     ]
@@ -730,7 +732,7 @@
     "durationMinutes": 2.4,
     "language": "en",
     "whyGood": "A short clip recorded in June 2009, in which St. Louis Fed President James Bullard explains how almost all the big players in financial markets were hit when the housing market turned down.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "market-cycles-history/financial-crisis-2008"
     ]
@@ -746,7 +748,7 @@
     "durationMinutes": 3.2,
     "language": "en",
     "whyGood": "The ECB's own short introduction to its role, inflation and why price stability matters.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/central-banks"
     ]
@@ -762,7 +764,7 @@
     "durationMinutes": 3.9,
     "language": "en",
     "whyGood": "A Federal Reserve bank explains how changing its policy rate sets off a chain of events towards its dual mandate goals.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/central-banks",
       "macroeconomics/monetary-policy-transmission"
@@ -779,7 +781,7 @@
     "durationMinutes": 13.2,
     "language": "en",
     "whyGood": "Shows step by step why bond prices fall when interest rates rise.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/bond-yields-and-the-yield-curve",
       "macroeconomics/interest-rates-and-stock-prices"
@@ -796,7 +798,7 @@
     "durationMinutes": 9.9,
     "language": "en",
     "whyGood": "Explains what the Treasury yield curve shows and why its shape matters.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/bond-yields-and-the-yield-curve"
     ]
@@ -813,7 +815,7 @@
     "durationMinutes": 12.1,
     "language": "en",
     "whyGood": "An introduction to how exchange rates are set and why they move.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/currencies-and-your-investments",
       "other-asset-classes/forex"
@@ -830,7 +832,7 @@
     "durationMinutes": 11.3,
     "language": "en",
     "whyGood": "The original recording of the 26 July 2012 speech in which Mario Draghi said the ECB would do \"whatever it takes\" to preserve the euro.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/euro-crisis"
     ]
@@ -846,7 +848,7 @@
     "durationMinutes": 4.8,
     "language": "en",
     "whyGood": "Explains the ECB's role in the euro area crisis, from a free online economics course.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "macroeconomics/euro-crisis"
     ]
@@ -862,7 +864,7 @@
     "durationMinutes": 4.9,
     "language": "en",
     "whyGood": "A short, clear introduction to the trade-off between risk and return that underlies every asset allocation decision.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "investing-strategies/risk-tolerance",
       "investing-strategies/asset-allocation"
@@ -879,7 +881,7 @@
     "durationMinutes": 11.7,
     "language": "en",
     "whyGood": "Sal Khan explains why riskier investments must offer higher expected returns, using simple examples.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "investing-strategies/risk-tolerance"
     ]
@@ -895,7 +897,7 @@
     "durationMinutes": 6.2,
     "language": "en",
     "whyGood": "Walks through choosing a mix of investments for a long-term retirement goal. The examples use US retirement accounts, but the principles apply anywhere.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "investing-strategies/asset-allocation",
       "investing-strategies/lifecycle-investing"
@@ -909,10 +911,10 @@
       "M"
     ],
     "level": "beginner",
-    "durationMinutes": 2.0,
+    "durationMinutes": 2,
     "language": "en",
     "whyGood": "The EU securities regulator explains why the costs of retail investment products matter for investors.",
-    "lastChecked": "2026-10-11",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "investing-strategies/active-vs-passive"
     ]
@@ -928,7 +930,7 @@
     "durationMinutes": 0.4,
     "language": "en",
     "whyGood": "A 30-second explainer from the US regulator's Investor.gov team on borrowing to invest.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/leverage-and-margin"
     ]
@@ -944,7 +946,7 @@
     "durationMinutes": 0.6,
     "language": "en",
     "whyGood": "A very short introduction to options from the SEC's investor education team.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/options"
     ]
@@ -960,7 +962,7 @@
     "durationMinutes": 3.5,
     "language": "en",
     "whyGood": "Sal Khan shows how a call option's value depends on the share price at expiry.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/options"
     ]
@@ -976,7 +978,7 @@
     "durationMinutes": 3.8,
     "language": "en",
     "whyGood": "Explains how buying a put can protect a share position, and what that protection costs.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/options"
     ]
@@ -992,7 +994,7 @@
     "durationMinutes": 3.5,
     "language": "en",
     "whyGood": "A step-by-step walk-through of borrowing and selling shares, and why losses can be large.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/short-selling"
     ]
@@ -1009,7 +1011,7 @@
     "durationMinutes": 3.5,
     "language": "en",
     "whyGood": "Introduces futures contracts and how they differ from forward contracts.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/futures",
       "other-asset-classes/gold-and-commodities"
@@ -1026,7 +1028,7 @@
     "durationMinutes": 3.6,
     "language": "en",
     "whyGood": "Shows how initial and maintenance margin work on a futures position day by day.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "trading-leverage-derivatives/futures",
       "trading-leverage-derivatives/leverage-and-margin"
@@ -1043,7 +1045,7 @@
     "durationMinutes": 4.8,
     "language": "en",
     "whyGood": "A short introduction to money biases such as herd mentality and anchoring, and how they affect financial decisions.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "psychology/behavioural-finance-basics",
       "psychology/herding-and-fomo"
@@ -1060,7 +1062,7 @@
     "durationMinutes": 3.1,
     "language": "en",
     "whyGood": "The Nobel laureate explains in three minutes what nudges are and how they help people make better decisions, such as saving more.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "psychology/good-habits"
     ]
@@ -1076,7 +1078,7 @@
     "durationMinutes": 73.2,
     "language": "en",
     "whyGood": "A university lecture by Haas School of Business lecturer Greg LaBlanc on what behavioural finance means for markets and investment strategy.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "psychology/behavioural-finance-basics"
     ]
@@ -1092,7 +1094,7 @@
     "durationMinutes": 4.8,
     "language": "en",
     "whyGood": "A short overview of the different kinds of financial risk people face and how to think about managing them.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "risk-management/types-of-risk"
     ]
@@ -1108,7 +1110,7 @@
     "durationMinutes": 13.1,
     "language": "en",
     "whyGood": "Explains what standard deviation measures, the basis of volatility, step by step.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "risk-management/volatility"
     ]
@@ -1124,7 +1126,7 @@
     "durationMinutes": 7.3,
     "language": "en",
     "whyGood": "Builds intuition for correlation coefficients between −1 and +1 using scatter plots.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "risk-management/correlation-and-portfolio-risk"
     ]
@@ -1134,13 +1136,14 @@
     "title": "FinanzOnline Erklärvideo",
     "channel": "Bundesministerium für Finanzen",
     "categories": [
-      "Q"
+      "Q",
+      "AT"
     ],
     "level": "beginner",
     "durationMinutes": 2.2,
     "language": "de",
     "whyGood": "The Austrian Finance Ministry's own short introduction to FinanzOnline, the portal used to file tax returns (in German).",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "taxes/filing-and-records"
     ]
@@ -1156,7 +1159,7 @@
     "durationMinutes": 5.3,
     "language": "de",
     "whyGood": "Official step-by-step guide to securing your FinanzOnline account with two-factor authentication (in German).",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "taxes/filing-and-records"
     ]
@@ -1172,7 +1175,7 @@
     "durationMinutes": 12.2,
     "language": "en",
     "whyGood": "A Yale Law School professor explains insider trading law and the competing views of regulators and courts (US focus).",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "regulation-law-ethics/insider-dealing"
     ]
@@ -1188,7 +1191,7 @@
     "durationMinutes": 1.5,
     "language": "en",
     "whyGood": "The EU's resolution authority explains in 90 seconds what it does when banks fail.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "regulation-law-ethics/bank-failures-and-bail-in"
     ]
@@ -1204,7 +1207,7 @@
     "durationMinutes": 2.4,
     "language": "en",
     "whyGood": "Explains how the SRB and national resolution authorities work together in the banking union.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "regulation-law-ethics/bank-failures-and-bail-in"
     ]
@@ -1214,13 +1217,15 @@
     "title": "Stock Connect - Programme Overview",
     "channel": "HKEX Group",
     "categories": [
-      "S"
+      "S",
+      "CN",
+      "HK"
     ],
     "level": "intermediate",
     "durationMinutes": 3.8,
     "language": "en",
     "whyGood": "The exchange operator's own overview of how Stock Connect links the Hong Kong and mainland Chinese markets. Recorded in 2016, so check current details on HKEX's website.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "world-markets/accessing-foreign-markets"
     ]
@@ -1231,13 +1236,14 @@
     "channel": "Reden wir über Geld",
     "categories": [
       "T",
-      "W"
+      "W",
+      "AT"
     ],
     "level": "beginner",
     "durationMinutes": 3.6,
     "language": "de",
     "whyGood": "The Austrian FMA's own short video on how investment fraudsters operate, the warning signs and where to check providers (in German).",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "scams-safety/why-fraud-works",
       "scams-safety/red-flags",
@@ -1256,7 +1262,7 @@
     "durationMinutes": 0.9,
     "language": "de",
     "whyGood": "A one-minute FMA explainer on phishing, a common way fraudsters steal access data (in German).",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "scams-safety/clone-firms-and-fake-regulators"
     ]
@@ -1272,7 +1278,7 @@
     "durationMinutes": 0.5,
     "language": "en",
     "whyGood": "A 30-second SEC warning about unsolicited messages that turn into relationship investment scams.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "scams-safety/relationship-and-crypto-scams"
     ]
@@ -1288,7 +1294,7 @@
     "durationMinutes": 1.4,
     "language": "en",
     "whyGood": "The FINRA Investor Education Foundation explains one of the classic red flags of fraud: the lure of unrealistic wealth.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "scams-safety/red-flags"
     ]
@@ -1304,7 +1310,7 @@
     "durationMinutes": 34.9,
     "language": "en",
     "whyGood": "FINRA's discussion of deepfakes, voice cloning and synthetic identities in investment fraud, and how the underlying playbook of urgency and emotion stays the same.",
-    "lastChecked": "2026-10-12",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "scams-safety/why-fraud-works"
     ]
@@ -1320,7 +1326,7 @@
     "durationMinutes": 8.7,
     "language": "en",
     "whyGood": "Sal Khan explains, step by step, what it means to buy a bond: lending money in return for interest and repayment of the face value.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/bonds"
     ]
@@ -1336,7 +1342,7 @@
     "durationMinutes": 11.6,
     "language": "en",
     "whyGood": "Sal Khan compares the costs of renting and buying a home with a mortgage, a useful look at the numbers behind owning property directly.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/property"
     ]
@@ -1352,7 +1358,7 @@
     "durationMinutes": 9.1,
     "language": "en",
     "whyGood": "A neutral introduction to what bitcoin is, from Khan Academy's money and banking series, without promoting any purchase.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/crypto-assets"
     ]
@@ -1365,10 +1371,10 @@
       "U"
     ],
     "level": "intermediate",
-    "durationMinutes": 11.0,
+    "durationMinutes": 11,
     "language": "en",
     "whyGood": "An introduction to the mechanics of bitcoin and an overview of how transactions take place, for learners who want to understand how it works.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/crypto-assets"
     ]
@@ -1384,7 +1390,7 @@
     "durationMinutes": 0.8,
     "language": "en",
     "whyGood": "A one-minute clip from the ECB explaining why the planned digital euro is not a crypto-asset.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/crypto-assets"
     ]
@@ -1400,7 +1406,7 @@
     "durationMinutes": 7.4,
     "language": "en",
     "whyGood": "A clear primer on what exchange rates are and what it means when a currency strengthens or weakens.",
-    "lastChecked": "2026-10-13",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "other-asset-classes/forex"
     ]
@@ -1416,7 +1422,7 @@
     "durationMinutes": 5.1,
     "language": "en",
     "whyGood": "A short news-desk explainer of how stock splits work and why companies do them, without trading tips.",
-    "lastChecked": "2026-10-14",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "corporate-actions/splits-and-bonus-shares"
     ]
@@ -1432,7 +1438,7 @@
     "durationMinutes": 4.8,
     "language": "en",
     "whyGood": "Presents the arguments for and against share buybacks in under five minutes, useful context for judging a buyback.",
-    "lastChecked": "2026-10-14",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "corporate-actions/share-buybacks"
     ]
@@ -1448,9 +1454,335 @@
     "durationMinutes": 5.8,
     "language": "en",
     "whyGood": "A university library's neutral walkthrough of the SEC's EDGAR database: finding a company and locating its annual report on Form 10-K.",
-    "lastChecked": "2026-10-14",
+    "lastChecked": "2026-10-18",
     "lessons": [
       "tools-resources-news/official-sources"
     ]
+  },
+  {
+    "id": "FkNfTjcuEpI",
+    "title": "Preparing for always-on trading | Nasdaq TradeTalks",
+    "channel": "Nasdaq",
+    "categories": [
+      "E",
+      "US"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 13.9,
+    "language": "en",
+    "whyGood": "Nasdaq's own discussion of its approved plan for trading 23 hours a day, five days a week, and what running markets around the clock requires.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "trading-times/overnight-trading"
+    ]
+  },
+  {
+    "id": "x96ZbqczZkc",
+    "title": "Nasdaq wants to extend the trading day to 23 hours",
+    "channel": "Bloomberg Television",
+    "categories": [
+      "E"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.5,
+    "language": "en",
+    "whyGood": "A short news report from December 2025 on Nasdaq's request to add a 9 p.m.–4 a.m. ET session, before the plan was approved.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "trading-times/overnight-trading"
+    ]
+  },
+  {
+    "id": "uJ4T3qSAE28",
+    "title": "Börsenwissen: Wie läuft eine Auktion ab?",
+    "channel": "Börse Stuttgart",
+    "categories": [
+      "E",
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 7.4,
+    "language": "de",
+    "whyGood": "An exchange explains in German how opening, closing and intraday auctions collect orders and set one price.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "trading-times/open-close-and-overlaps",
+      "market-structure/auctions-and-continuous-trading"
+    ]
+  },
+  {
+    "id": "OUkkLSlPvFs",
+    "title": "Kurzdoku: Vom Parkett bis ins Netzwerk – 250 Jahre Wiener Börse",
+    "channel": "Wiener Börse",
+    "categories": [
+      "AT",
+      "K"
+    ],
+    "level": "beginner",
+    "durationMinutes": 7.7,
+    "language": "de",
+    "whyGood": "The Vienna Stock Exchange's own short documentary (in German): a University of Vienna economic historian on its founding in 1771 and its historic locations.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "market-structure/how-exchanges-work"
+    ]
+  },
+  {
+    "id": "4EUnB2np0FQ",
+    "title": "So funktioniert die Börse",
+    "channel": "Deutsche Börse",
+    "categories": [
+      "DE",
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.2,
+    "language": "de",
+    "whyGood": "A short German explainer from Deutsche Börse on what an exchange does and how trading there works.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "044AulFjKFU",
+    "title": "SIX Swiss Exchange - eine der wichtigsten Börsen Europas (DE)",
+    "channel": "SIX",
+    "categories": [
+      "CH"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.1,
+    "language": "de",
+    "whyGood": "A one-minute German overview from SIX of the exchange's four core functions: admitting securities, running trading, surveillance and market data.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "5POOG9KS9co",
+    "title": "Lifecycle of a Trade – Alex Hardouin, Head of Equity at LSEG",
+    "channel": "LSEG",
+    "categories": [
+      "GB",
+      "D"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.9,
+    "language": "en",
+    "whyGood": "London Stock Exchange Group walks through what happens to a trade from order to settlement.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "market-structure/clearing-and-settlement"
+    ]
+  },
+  {
+    "id": "a09uBHBvZEI",
+    "title": "Getting ready for T+1 settlement",
+    "channel": "Deutsche Börse Group",
+    "categories": [
+      "CA",
+      "US",
+      "D"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 2.2,
+    "language": "en",
+    "whyGood": "Clearstream (Deutsche Börse Group) explains the 2024 move of the US, Canada and Mexico to next-day settlement and what it means for others.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "market-structure/clearing-and-settlement"
+    ]
+  },
+  {
+    "id": "L7Cx7hqE5CE",
+    "title": "Le rôle de la Bourse et d’Euronext expliqué par Anthony Attia",
+    "channel": "BoursedeParisTV",
+    "categories": [
+      "FR"
+    ],
+    "level": "beginner",
+    "durationMinutes": 10.4,
+    "language": "fr",
+    "whyGood": "The then CEO of Euronext Paris explains, in French, what a stock exchange is for and how Euronext works.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "JuxNTTPycOE",
+    "title": "The Warsaw Stock Exchange",
+    "channel": "Giełda Papierów Wartościowych w Warszawie",
+    "categories": [
+      "PL",
+      "S"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2,
+    "language": "en",
+    "whyGood": "A two-minute English introduction from the Warsaw Stock Exchange itself.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "PXRWgBZanug",
+    "title": "Rhythm of the World: Stockholm",
+    "channel": "Nasdaq",
+    "categories": [
+      "SE"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.7,
+    "language": "en",
+    "whyGood": "A brief look inside Nasdaq Stockholm from the exchange's operator; an impression rather than a lesson.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "C6mwBBBOuSg",
+    "title": "Hecho en Madrid: La Bolsa",
+    "channel": "Telemadrid",
+    "categories": [
+      "ES"
+    ],
+    "level": "beginner",
+    "durationMinutes": 25.2,
+    "language": "es",
+    "whyGood": "A Spanish public-broadcaster documentary (2013) about the Madrid Stock Exchange, its history and its building.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "H0T1quJXDjM",
+    "title": "Tokyo Stock Exchange reorganized into three sections",
+    "channel": "Nippon Television News Japan",
+    "categories": [
+      "JP",
+      "S"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.1,
+    "language": "en",
+    "whyGood": "A short 2022 news report on the Tokyo Stock Exchange's move from four market sections to three (Prime, Standard, Growth).",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "vjbDVaXuOmw",
+    "title": "NSE Explainer on Investor Protection Measures.",
+    "channel": "moneycontrol",
+    "categories": [
+      "IN"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.5,
+    "language": "en",
+    "whyGood": "A short explainer of the National Stock Exchange's Investor Protection Fund and when it can help after a broker default.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "2CzIegbRC7I",
+    "title": "South Korea's stock boom turns to investor trauma",
+    "channel": "Reuters",
+    "categories": [
+      "KR",
+      "N"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 2.1,
+    "language": "en",
+    "whyGood": "A Reuters report (August 2026) on how leveraged products and a sharp fall hurt Korean retail investors: a real-world example of leverage risk.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "2ihVVQSiWic",
+    "title": "Explainer: Taiwan Stock Market Becomes World’s 6th Largest｜TaiwanPlus News",
+    "channel": "TaiwanPlus News",
+    "categories": [
+      "TW",
+      "S"
+    ],
+    "level": "beginner",
+    "durationMinutes": 4.6,
+    "language": "en",
+    "whyGood": "A public-broadcaster explainer (April 2026) on why Taiwan's market has grown so large, the role of chip makers, and the risks of that concentration.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "JgRBPuTIaug",
+    "title": "SGX CEO on How New ‘Dual Listing’ With Nasdaq Will Work",
+    "channel": "Bloomberg Television",
+    "categories": [
+      "SG"
+    ],
+    "level": "intermediate",
+    "durationMinutes": 6.6,
+    "language": "en",
+    "whyGood": "The Singapore Exchange's CEO explains the planned dual-listing bridge with Nasdaq (interview, November 2025).",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "eiJKg1IH23k",
+    "title": "What is the sharemarket? ASX Tutorial",
+    "channel": "ASX",
+    "categories": [
+      "AU",
+      "A"
+    ],
+    "level": "beginner",
+    "durationMinutes": 3.4,
+    "language": "en",
+    "whyGood": "The Australian Securities Exchange explains how buying and selling works and the roles of investors, listed companies and brokers.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "foundations/what-is-the-stock-market"
+    ]
+  },
+  {
+    "id": "xjomSKjL4Ks",
+    "title": "How to buy shares | ASX Sharemarket Game",
+    "channel": "ASX",
+    "categories": [
+      "AU",
+      "F"
+    ],
+    "level": "beginner",
+    "durationMinutes": 5.2,
+    "language": "en",
+    "whyGood": "ASX shows how an order is placed, which order types exist and how orders are processed.",
+    "lastChecked": "2026-10-18",
+    "lessons": [
+      "brokers-accounts-orders/market-and-limit-orders"
+    ]
+  },
+  {
+    "id": "Pfi_85znF-U",
+    "title": "Che cos'è la CONSOB",
+    "channel": "Consob",
+    "categories": [
+      "IT",
+      "R"
+    ],
+    "level": "beginner",
+    "durationMinutes": 2.5,
+    "language": "it",
+    "whyGood": "Italy's securities regulator explains in Italian what the Commissione Nazionale per le Società e la Borsa does.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
+  },
+  {
+    "id": "8LwDZb85-cg",
+    "title": "Que fait l’AMF pour les investisseurs ? | Info Placements",
+    "channel": "Autorité des marchés financiers",
+    "categories": [
+      "FR",
+      "R"
+    ],
+    "level": "beginner",
+    "durationMinutes": 1.6,
+    "language": "fr",
+    "whyGood": "France's market regulator (AMF) and the national consumer institute explain in French how the AMF protects investors.",
+    "lastChecked": "2026-10-18",
+    "lessons": []
   }
 ]
