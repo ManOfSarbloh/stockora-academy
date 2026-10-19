@@ -43,3 +43,12 @@ export async function getLessonKeysByCategory(): Promise<Record<string, string[]
   for (const l of seq) (out[l.category.id] ??= []).push(l.key);
   return out;
 }
+
+/** Resolve lesson keys ("<topic-slug>/<lesson-slug>") to links; unknown keys are dropped (the validator reports them). */
+export async function lessonRefs(keys: string[]): Promise<{ key: string; title: string; href: string }[]> {
+  const all = await getLessonSequence();
+  return keys.flatMap((k) => {
+    const ref = all.find((l) => l.key === k);
+    return ref ? [{ key: ref.key, title: ref.title, href: ref.href }] : [];
+  });
+}

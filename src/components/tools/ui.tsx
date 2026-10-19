@@ -139,7 +139,8 @@ function niceMax(v: number): number {
   if (v <= 0) return 1;
   const p = 10 ** Math.floor(Math.log10(v));
   const n = v / p;
-  return (n <= 1 ? 1 : n <= 2 ? 2 : n <= 5 ? 5 : 10) * p;
+  const step = [1, 1.2, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10].find((x) => n <= x) ?? 10;
+  return step * p;
 }
 
 export function LineChart({ series, xLabels, format, ariaLabel, xTitle }: { series: LineSeries[]; xLabels: (string | number)[]; format: (v: number) => string; ariaLabel: string; xTitle?: string }) {
@@ -207,7 +208,8 @@ export function LineChart({ series, xLabels, format, ariaLabel, xTitle }: { seri
             </text>
           ) : null,
         )}
-        {series.map((s) => (
+        {/* Draw the first series last, so it stays on top where lines overlap. */}
+        {[...series].reverse().map((s) => (
           <polyline
             key={s.key}
             fill="none"

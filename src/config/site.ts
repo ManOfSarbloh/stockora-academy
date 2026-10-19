@@ -50,16 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  tools: {
-    title: 'Tools',
-    lead: 'Calculators and simulators that show the maths behind investing.',
-    planned: [
-      'Profit/loss, dividend, P/E and break-even calculators',
-      'Compound growth and savings plan simulators',
-      'Position size, leverage and currency effect calculators',
-      'Candlestick builder',
-    ],
-  },
   history: {
     title: 'History',
     lead: 'A timeline of stock markets, from the first shares to today.',
