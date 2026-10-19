@@ -22,3 +22,8 @@ export function stripBase(base: string, pathname: string): string {
   const rest = pathname.startsWith(b) ? pathname.slice(b.length) : pathname.replace(/^\/+/, '');
   return `/${rest}`.replace(/\/+$/, '') || '/';
 }
+
+/** Absolute URL of an internal page (for canonical links and structured data). */
+export function absoluteUrl(path: string, site: URL | undefined): string {
+  return new URL(url(path), site).href;
+}

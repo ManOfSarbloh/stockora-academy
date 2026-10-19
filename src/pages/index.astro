@@ -7,7 +7,8 @@ import ProgressScript from '@/components/ProgressScript.astro';
 import { getLessonKeysByCategory } from '@/lib/lessons';
 import { getCategories, STAGES } from '@/lib/categories';
 import { t } from '@/i18n';
-import { url } from '@/lib/url';
+import { absoluteUrl, url } from '@/lib/url';
+import * as seo from '@/lib/seo';
 import { getCollection } from 'astro:content';
 import MarketWidget from '@/components/times/MarketWidget';
 import type { Exchange } from '@/lib/market-hours';
@@ -33,7 +34,14 @@ const widgetExchanges = (await getCollection('exchanges'))
   .sort((a, b) => widgetIds.indexOf(a.id) - widgetIds.indexOf(b.id));
 ---
 
-<BaseLayout>
+<BaseLayout
+  jsonLd={seo.website({
+    siteUrl: absoluteUrl('/', Astro.site),
+    name: t('site.name'),
+    description: t('site.description'),
+    searchUrl: absoluteUrl('/search', Astro.site),
+  })}
+>
   <section class="border-b border-border bg-surface">
     <div class="container-page grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1.25fr_1fr]">
       <div>
@@ -97,7 +105,7 @@ const widgetExchanges = (await getCollection('exchanges'))
     <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
     <ul class="mt-5 grid gap-4 sm:grid-cols-3">
       <li><HomeProgress /></li>
-      <li><MarketWidget client:only="react" exchanges={widgetExchanges} href={url('/times')} /></li>
+      <li><MarketWidget client:only="react" exchanges={widgetExchanges} href={url('/times')}><div slot="fallback" class="island-fallback h-[250px]"></div></MarketWidget></li>
       <li><DailyQuizWidget /></li>
     </ul>
   </section>

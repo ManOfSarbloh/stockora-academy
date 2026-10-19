@@ -19,7 +19,8 @@ import {
 import { reportMistakeHref } from '@/lib/report';
 import { t } from '@/i18n';
 import type { UiKey } from '@/i18n/en';
-import { url } from '@/lib/url';
+import { absoluteUrl, url } from '@/lib/url';
+import * as seo from '@/lib/seo';
 
 export async function getStaticPaths() {
   const countries = await getCountries();
@@ -71,7 +72,14 @@ const toc = [
 ];
 ---
 
-<BaseLayout title={`${c.name}: stock market`} description={c.summary}>
+<BaseLayout
+  title={`${c.name}: stock market`}
+  description={c.summary}
+  jsonLd={seo.breadcrumbs([
+    { name: t('wm.title'), url: absoluteUrl('/world', Astro.site) },
+    { name: c.name, url: new URL(Astro.url.pathname, Astro.site).href },
+  ])}
+>
   <div class="border-b border-border bg-surface">
     <div class="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-center">
       <div>

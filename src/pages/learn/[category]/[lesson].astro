@@ -7,7 +7,8 @@ import QuizSection from '@/components/quiz/QuizSection.astro';
 import { getLessonSequence, lessonSlug, type LessonRef } from '@/lib/lessons';
 import { reportMistakeHref } from '@/lib/report';
 import { t } from '@/i18n';
-import { url } from '@/lib/url';
+import { absoluteUrl, url } from '@/lib/url';
+import * as seo from '@/lib/seo';
 
 export async function getStaticPaths() {
   const seq = await getLessonSequence();
@@ -31,9 +32,28 @@ const toc = headings.filter((h) => h.depth === 2);
 const hasQuiz = (await getCollection('quizzes', (q) => q.data.category === category.id)).length > 0;
 const levelLabel = t(`level.${d.level}`);
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const siteUrl = absoluteUrl('/', Astro.site);
+const jsonLd = [
+  seo.lesson({
+    title: d.title,
+    summary: d.summary,
+    url: pageUrl,
+    lastReviewed: d.lastReviewed,
+    level: levelLabel,
+    topic: category.title,
+    siteUrl,
+    siteName: t('site.name'),
+    image: absoluteUrl('/og-default.png', Astro.site),
+  }),
+  seo.breadcrumbs([
+    { name: t('learn.title'), url: absoluteUrl('/learn', Astro.site) },
+    { name: `${category.id}. ${category.title}`, url: absoluteUrl(`/learn/${category.slug}`, Astro.site) },
+    { name: d.title, url: pageUrl },
+  ]),
+];
 ---
 
-<BaseLayout title={d.title} description={d.summary}>
+<BaseLayout title={d.title} description={d.summary} ogType="article" modified={d.lastReviewed} jsonLd={jsonLd}>
   <div class="border-b border-border bg-surface">
     <div class="container-page py-8 sm:py-10">
       <nav aria-label="Breadcrumb" class="text-sm text-muted">

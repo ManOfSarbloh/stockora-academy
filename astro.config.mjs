@@ -14,6 +14,10 @@ import { rehypeBaseLinks } from './src/lib/markdown/base-links.ts';
 const site = process.env.SITE_URL || 'http://localhost:4321';
 const base = process.env.BASE_PATH || '/';
 
+// Pages marked noindex (BaseLayout `noindex` prop) are personal or utility pages: keep them out of the sitemap too.
+const NOINDEX = ['/brand/', '/impressum/', '/me/', '/quizzes/certificate/', '/quizzes/play/'];
+const basePrefix = base.replace(/\/$/, '');
+
 // Glossary terms are read once at startup for auto-linking (restart `npm run dev` after editing the glossary).
 const glossaryTerms = JSON.parse(readFileSync('./content/glossary.json', 'utf8'));
 
@@ -36,7 +40,7 @@ export default defineConfig({
     locales: ['en'],
     routing: { prefixDefaultLocale: false },
   },
-  integrations: [react(), sitemap()],
+  integrations: [react(), sitemap({ filter: (page) => !NOINDEX.some((p) => new URL(page).pathname === basePrefix + p) })],
   vite: {
     plugins: [tailwindcss()],
   },
