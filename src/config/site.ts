@@ -41,23 +41,3 @@ export const legalNav: NavItem[] = [
 export const reportConfig = {
   githubRepo: null as string | null,
 };
-
-/** Planned sections that are not built yet: shown on their placeholder pages. */
-export interface PlannedSection {
-  title: string;
-  lead: string;
-  planned: string[];
-}
-
-export const plannedSections: Record<string, PlannedSection> = {
-  scams: {
-    title: 'Scam Shield',
-    lead: 'Learn the red flags of investment fraud and how to check who you are dealing with.',
-    planned: [
-      'Interactive red-flag checklist',
-      'How to verify a broker, step by step',
-      '"Spot the scam" game',
-      'What to do if you have been scammed',
-    ],
-  },
-};

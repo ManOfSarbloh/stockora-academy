@@ -1,0 +1,175 @@
+{
+  "lastReviewed": "2026-10-19",
+  "flags": [
+    {
+      "id": "high-returns",
+      "text": "Exceptionally high or seemingly risk-free returns are promised",
+      "why": "Every investment carries risk. 'Guaranteed' high returns are the classic bait.",
+      "source": "FMA (2026), Investor.gov"
+    },
+    {
+      "id": "steady-returns",
+      "text": "Returns are suspiciously steady, whatever the markets do",
+      "why": "Real investments go up and down. Smooth gains every month are typical of Ponzi schemes.",
+      "source": "Investor.gov"
+    },
+    {
+      "id": "time-pressure",
+      "text": "You are pushed to decide fast: 'only today', 'last places'",
+      "why": "Urgency stops you from checking. A real opportunity survives a day of thinking.",
+      "source": "FMA (2026)"
+    },
+    {
+      "id": "unsolicited",
+      "text": "They contacted you first: a call, a message from a 'wrong number', a social media DM",
+      "why": "The FMA has described unsolicited cold calling for financial transactions as prohibited in Austria and a sure warning sign.",
+      "source": "FMA (2018)"
+    },
+    {
+      "id": "messenger",
+      "text": "Contact happens only through messenger apps or a chat group",
+      "why": "Fraudsters use WhatsApp, Telegram and chat groups full of fake 'winners' to create trust and pressure.",
+      "source": "FMA (2026)"
+    },
+    {
+      "id": "remote-access",
+      "text": "You are asked to install remote access software (e.g. a screen-sharing app)",
+      "why": "It lets a stranger control your computer and possibly your online banking. No legitimate investment firm needs it.",
+      "source": "FMA (2026)"
+    },
+    {
+      "id": "logins",
+      "text": "You are asked for passwords, login codes or ID photos",
+      "why": "With your access data, fraudsters can empty accounts or open new ones in your name.",
+      "source": "FMA (2026)"
+    },
+    {
+      "id": "crypto-payment",
+      "text": "You are told to pay in crypto assets, at a bitcoin ATM, or by transfer to a private person",
+      "why": "Such payments go straight to the scammers and are very hard to recover.",
+      "source": "Investor.gov"
+    },
+    {
+      "id": "no-licence",
+      "text": "You cannot find the firm in the FMA company database, or it appears on a warning list",
+      "why": "Anyone offering investment services in Austria needs permission from the FMA.",
+      "source": "FMA"
+    },
+    {
+      "id": "details-differ",
+      "text": "Website, email, phone or address differ from those in the official register",
+      "why": "Clone firms copy the name and register number of real firms.",
+      "source": "FMA (2018)"
+    },
+    {
+      "id": "withdrawal-fees",
+      "text": "Your account shows profits, but you must pay 'fees' or 'taxes' before you can withdraw",
+      "why": "This is advance fee fraud. Every further payment only increases the loss.",
+      "source": "Investor.gov"
+    },
+    {
+      "id": "romance",
+      "text": "An online friend or romantic contact you have never met suggests investing",
+      "why": "Relationship scammers build trust for weeks or months before talking about money.",
+      "source": "Investor.gov"
+    },
+    {
+      "id": "fake-regulator",
+      "text": "A 'regulator' or 'recovery agency' contacts you and asks for money",
+      "why": "Regulators do not charge victims fees. Genuine FMA email addresses end only in @fma.gv.at.",
+      "source": "FMA (2022), Investor.gov"
+    },
+    {
+      "id": "fake-endorsement",
+      "text": "Celebrities, glowing testimonials or videos 'prove' that others are getting rich",
+      "why": "Scammers pay for fake reviews and use AI-generated images, videos and voices.",
+      "source": "FMA (2026), Investor.gov"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "wrong-number",
+      "channel": "WhatsApp",
+      "from": "Unknown number",
+      "message": "Hi, is this Martina? Sorry, wrong number! 😊 Nice to meet you anyway. I'm a trader, I make 2% a day with an AI strategy. I could add you to our VIP group, but spots are limited.",
+      "scam": true,
+      "explain": "Wrong-number contact, an unrealistic return (2% a day), a group and artificial scarcity: four red flags in three sentences."
+    },
+    {
+      "id": "bank-corporate-action",
+      "channel": "Letter from your bank",
+      "from": "Your bank (known address)",
+      "message": "Alpenrad AG is carrying out a rights issue. You hold 400 shares and receive 400 subscription rights. Please give us your instruction in online banking by 12 November; otherwise the rights may lapse.",
+      "scam": false,
+      "explain": "A normal corporate action notice. It asks you to act in your own online banking, not via a link or a phone call. If in doubt, call your bank using the number on its website, not one from a message."
+    },
+    {
+      "id": "fma-email",
+      "channel": "Email",
+      "from": "FMA Compliance <compliance@fma-gov-at.com>",
+      "message": "Dear investor, the Financial Market Authority has located funds you lost to an online broker. To release €18,400 to you, an anti-money-laundering fee of €1,200 must be paid within 48 hours.",
+      "scam": true,
+      "explain": "Recovery scam with a fake regulator: the domain is not @fma.gv.at, regulators never charge victims fees, and there is a deadline."
+    },
+    {
+      "id": "broker-remote",
+      "channel": "Phone call",
+      "from": "'Senior account manager'",
+      "message": "Your first trades went very well! To help you set up the next ones, please install this support app so I can see your screen and guide you through the transfer.",
+      "scam": true,
+      "explain": "A request to install remote access software. No legitimate firm needs to control your device."
+    },
+    {
+      "id": "etf-plan",
+      "channel": "Your broker's app",
+      "from": "Broker app (you opened it yourself)",
+      "message": "Your monthly savings plan of €100 into the ETF you selected will be executed on the 5th. Fee: 1.5% per execution, as in our price list.",
+      "scam": false,
+      "explain": "Inside an app you installed and opened yourself, about a plan you set up. The fee is disclosed. Still worth checking that the broker is authorised and comparing costs (Category F)."
+    },
+    {
+      "id": "withdrawal-tax",
+      "channel": "Trading platform chat",
+      "from": "Support team",
+      "message": "Congratulations, your balance is now €38,000! Before we can process your withdrawal, please pay the 20% capital gains tax (€7,600) to our tax account.",
+      "scam": true,
+      "explain": "Classic advance fee fraud: 'profits' you cannot withdraw until you pay more. Real taxes are not paid to a trading platform's chat."
+    }
+  ],
+  "checks": [
+    { "title": "Is it authorised?", "text": "Search the FMA company database and check which services the firm may provide.", "href": "https://www.fma.gv.at/unternehmensdatenbank-suche/", "link": "FMA company database" },
+    { "title": "Is there a warning?", "text": "Search the FMA warning list. A warning means: do not do business with that provider.", "href": "https://www.fma.gv.at/warnungen/", "link": "FMA warnings" },
+    { "title": "Is there an international alert?", "text": "Search IOSCO's I-SCAN, which collects warnings from regulators worldwide (not all independently verified).", "href": "https://www.iosco.org/i-scan/", "link": "IOSCO I-SCAN" },
+    { "title": "Do the contact details match?", "text": "Compare website, email domain, phone number and address with the official register, not with what the firm sent you. Check that the regulator named really exists.", "href": "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/", "link": "FMA on clone firms and fake regulators" },
+    { "title": "Still unsure? Ask the regulator.", "text": "Contact the FMA directly, using contact details from its own website. Never install remote access software or share login codes for anyone.", "href": "https://www.fma.gv.at/", "link": "FMA website" }
+  ],
+  "afterSteps": [
+    { "title": "Contact your bank immediately", "text": "Ask whether payments can be stopped or recalled. The FMA stresses that acting quickly can prevent further damage." },
+    { "title": "Report it to the police", "text": "File a report (Anzeige) at any police station; the Bundeskriminalamt lists reporting points for online crime." },
+    { "title": "Report the profiles", "text": "Report the fraudulent profiles and groups to the platforms where you met them." },
+    { "title": "Stop all contact and send no more money", "text": "Do not respond to new 'offers', including people who claim they can recover your money." },
+    { "title": "Secure your accounts and devices", "text": "Change passwords. If you installed remote access software, remove it and have the device checked." },
+    { "title": "Keep the evidence", "text": "Save messages, emails, website addresses, transfer receipts and wallet addresses." },
+    { "title": "Watch out for the second wave", "text": "Recovery scams target previous victims, often posing as regulators or law firms. Never pay to get your money back." }
+  ],
+  "links": [
+    { "name": "FMA: warnings and company database", "text": "Austria's financial market authority: check providers and report suspicious offers.", "href": "https://www.fma.gv.at/warnungen/" },
+    { "name": "FMA app", "text": "The FMA's free app with its company database and new warnings.", "href": "https://www.fma.gv.at/fma-app/" },
+    { "name": "Bundeskriminalamt: reporting points", "text": "Austria's Federal Criminal Police Office lists where to report crimes, including online fraud.", "href": "https://www.bundeskriminalamt.at/602/" },
+    { "name": "Watchlist Internet", "text": "An independent Austrian platform with current warnings about internet fraud.", "href": "https://www.watchlist-internet.at/" },
+    { "name": "Arbeiterkammer (AK)", "text": "Austria's Chamber of Labour, which offers consumer advice.", "href": "https://www.arbeiterkammer.at/" },
+    { "name": "VKI (Verein für Konsumenteninformation)", "text": "Austria's consumer association.", "href": "https://vki.at/" },
+    { "name": "ESMA investor corner", "text": "The EU securities regulator's information for retail investors, including frauds and scams.", "href": "https://www.esma.europa.eu/investor-corner" },
+    { "name": "IOSCO I-SCAN", "text": "International alerts from securities regulators worldwide.", "href": "https://www.iosco.org/i-scan/" },
+    { "name": "Investor.gov: types of fraud", "text": "The US SEC's explanations of Ponzi schemes, relationship scams, advance fee fraud and more.", "href": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams" }
+  ],
+  "sources": [
+    { "title": "Von der Chat-Gruppe in die Betrugsfalle (FMA press release, 30 September 2026, in German)", "url": "https://www.fma.gv.at/von-der-chat-gruppe-in-die-betrugsfalle-die-fma-erklaert-wie-sich-verbraucherinnen-vor-anlagebetrug-schuetzen-koennen/" },
+    { "title": "FMA warnt vor unseriösen und betrügerischen Anbietern, die Regulierung und Aufsicht nur vortäuschen (FMA, 24 September 2018, in German)", "url": "https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/" },
+    { "title": "Die FMA warnt: Betrüger geben sich als FMA-Mitarbeiter aus (FMA, 3 February 2022, in German)", "url": "https://www.fma.gv.at/die-fma-warnt-betrueger-geben-sich-als-fma-mitarbeiter-aus-oder-verwenden-gefaelschte-fma-schriftstuecke-um-persoenliche-daten-oder-zahlungen-herauszulocken/" },
+    { "title": "Ponzi Scheme (Investor.gov, U.S. SEC)", "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/ponzi-scheme" },
+    { "title": "Relationship Investment Scams (Investor.gov, U.S. SEC)", "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/relationship-investment-scams" },
+    { "title": "Advance Fee Fraud (Investor.gov, U.S. SEC)", "url": "https://www.investor.gov/protect-your-investments/fraud/types-fraud/advance-fee-fraud" },
+    { "title": "I-SCAN (IOSCO)", "url": "https://www.iosco.org/i-scan/" }
+  ]
+}

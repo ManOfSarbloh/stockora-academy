@@ -1,5 +1,105 @@
 ---
-import ComingSoon from '@/components/ComingSoon.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { RedFlagChecklist, SpotTheScam } from '@/components/tools/ScamShield';
+import data from '../../content/scam-shield.json';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
 ---
 
-<ComingSoon section="scams" />
+<BaseLayout title={t('ss.title')} description={t('ss.lead')}>
+  <PageHeader title={t('ss.title')} lead={t('ss.lead')}>
+    <p class="callout callout-warning mt-4 max-w-2xl text-sm">{t('ss.stat')}</p>
+    <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+      <a href={`${url('/quizzes/play')}?kind=special&id=scam-spotter`}>{t('ss.quiz')} →</a>
+      <a href={url('/learn/scams-safety')}>{t('ss.lessons')} →</a>
+    </p>
+  </PageHeader>
+
+  <div class="container-page max-w-5xl space-y-14 py-10">
+    <section aria-labelledby="checklist">
+      <h2 id="checklist" class="text-2xl font-bold tracking-tight">🚩 {t('ss.checklist')}</h2>
+      <div class="mt-4" data-pagefind-ignore>
+        <RedFlagChecklist client:load flags={data.flags} />
+      </div>
+    </section>
+
+    <section aria-labelledby="checks">
+      <h2 id="checks" class="text-2xl font-bold tracking-tight">🔎 {t('ss.checks')}</h2>
+      <p class="mt-1 text-muted">{t('ss.checksLead')}</p>
+      <ol class="mt-4 space-y-3">
+        {
+          data.checks.map((c, i) => (
+            <li class="card flex gap-4 p-4">
+              <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-link/15 font-bold text-link">{i + 1}</span>
+              <span>
+                <span class="block font-semibold">{c.title}</span>
+                <span class="mt-0.5 block text-sm text-muted">{c.text}</span>
+                <a class="mt-1 inline-block text-sm" href={c.href} rel="noopener">
+                  {c.link} ↗
+                </a>
+              </span>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section aria-labelledby="spot">
+      <h2 id="spot" class="text-2xl font-bold tracking-tight">🕵️ {t('ss.spot')}</h2>
+      <p class="mt-1 text-muted">{t('ss.spotLead')}</p>
+      <div class="mt-4" data-pagefind-ignore>
+        <SpotTheScam client:load scenarios={data.scenarios} />
+      </div>
+    </section>
+
+    <section aria-labelledby="after">
+      <h2 id="after" class="text-2xl font-bold tracking-tight">🆘 {t('ss.after')}</h2>
+      <p class="mt-1 text-muted">{t('ss.afterLead')}</p>
+      <ol class="mt-4 grid gap-3 sm:grid-cols-2">
+        {
+          data.afterSteps.map((s, i) => (
+            <li class="card p-4">
+              <span class="font-semibold">
+                {i + 1}. {s.title}
+              </span>
+              <p class="mt-1 text-sm text-muted">{s.text}</p>
+            </li>
+          ))
+        }
+      </ol>
+    </section>
+
+    <section aria-labelledby="links">
+      <h2 id="links" class="text-2xl font-bold tracking-tight">🔗 {t('ss.links')}</h2>
+      <ul class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          data.links.map((l) => (
+            <li>
+              <a href={l.href} rel="noopener" class="card block h-full p-4 no-underline transition-colors hover:border-link">
+                <span class="block font-semibold text-text">{l.name} ↗</span>
+                <span class="mt-1 block text-sm text-muted">{l.text}</span>
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+
+    <section class="border-t border-border pt-6 text-sm" aria-labelledby="ss-sources">
+      <h2 id="ss-sources" class="font-bold">{t('learn.sources')}</h2>
+      <p class="mt-1 text-muted">{t('learn.lastReviewed')}: {data.lastReviewed}</p>
+      <ul class="mt-2 list-disc space-y-1 pl-5">
+        {
+          data.sources.map((s) => (
+            <li>
+              <a href={s.url} rel="noopener">
+                {s.title}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
