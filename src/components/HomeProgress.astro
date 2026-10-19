@@ -19,7 +19,7 @@ const lessons = seq.map((l) => ({ key: l.key, title: l.title, href: url(l.href) 
           <div class="progress-bar h-full w-0 rounded-full bg-teal transition-[width] duration-500"></div>
         </div>
         <p class="progress-summary mt-2 text-sm text-muted" data-label={t('learn.progressLabel')}>{t('learn.progressLabel', { done: 0, total: lessons.length })}</p>
-        <a href={url(lessons[0].href)} class="continue-link mt-3 inline-block text-sm font-semibold" data-label-continue={t('me.continue')}>
+        <a href={lessons[0].href} class="continue-link mt-3 inline-block text-sm font-semibold" data-label-continue={t('me.continue')}>
           {t('me.startFirst')} →
         </a>
       </>

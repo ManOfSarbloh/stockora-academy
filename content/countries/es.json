@@ -24,7 +24,7 @@
       "website": "https://www.bolsasymercados.es/en/bme-exchange/madrid-stock-exchange.html",
       "hours": "On the electronic interconnection system (SIBE): opening auction 08:30–09:00, continuous trading 09:00–17:30, closing auction 17:30–17:35, trading at last 17:35–17:45.",
       "timeZone": "Europe/Madrid",
-      "hoursSource": "https://www.bolsasymercados.es/bme-exchange/en/Trading/Trading-Hours",
+      "hoursSource": "https://www.bolsasymercados.es/en/bme-exchange/trading-hours.html",
       "note": "BME is the operator of the Spanish stock exchanges and financial markets, and has been part of SIX Group since 2020."
     }
   ],
@@ -43,7 +43,7 @@
     {
       "name": "CNMV (Comisión Nacional del Mercado de Valores)",
       "role": "Spain's national securities market commission: supervises issuers, investment firms, funds and market infrastructures, and publishes warnings about unauthorised firms.",
-      "url": "https://www.cnmv.es/portal/quees/Funciones/Funciones.aspx?lang=en"
+      "url": "https://www.cnmv.es/portal/quees/Funciones/Funciones?lang=en"
     }
   ],
   "investorProtection": [

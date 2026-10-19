@@ -15,7 +15,7 @@ sources:
   - title: "Reverse Mergers: Investor Bulletin (Investor.gov)"
     url: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/reverse
   - title: "Direct Listings (New York Stock Exchange)"
-    url: https://www.nyse.com/direct-listing
+    url: https://www.nyse.com/direct-listings
   - title: "Market segment: equity market (Wiener Börse)"
     url: https://www.wienerborse.at/en/trading/market-segmentation/equity-market/
 ---

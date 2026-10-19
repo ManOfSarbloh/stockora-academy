@@ -13,7 +13,7 @@ sources:
   - title: "Total-Expense-Ratio: Definition (Wiener Börse Börsenlexikon, in German)"
     url: https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-t/total-expense-ratio/
   - title: "Investment funds (European Commission)"
-    url: https://finance.ec.europa.eu/capital-markets-union-and-financial-markets/financial-markets/investment-funds_en
+    url: https://finance.ec.europa.eu/financial-markets/financial-markets-policy/investment-funds_en
 ---
 
 Buying 50 different shares yourself is expensive and complicated. A **fund** does it for you: it collects money from many investors, invests it in a portfolio of shares, bonds or other assets, and each investor owns a proportional **share (unit)** of the whole portfolio.

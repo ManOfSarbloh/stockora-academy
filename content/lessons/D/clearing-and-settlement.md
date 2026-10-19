@@ -13,7 +13,7 @@ sources:
   - title: "Clearing cycle (CCP Austria)"
     url: https://www.ccpa.at/en/clearing/securities-clearing/clearing-cycle/
   - title: "Central Securities Depositories: settlement (ESMA)"
-    url: https://www.esma.europa.eu/regulation/post-trading/settlement
+    url: https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/central-securities-depositories
   - title: "Shortening the settlement cycle to T+1 in the EU (ESMA)"
     url: https://www.esma.europa.eu/esmas-activities/markets-and-infrastructure/shortening-settlement-cycle-t1-eu
   - title: "New \"T+1\" Settlement Cycle: What Investors Need to Know (Investor.gov)"

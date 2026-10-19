@@ -1,0 +1,39 @@
+name: Weekly link check
+
+# YouTube videos and source links change without notice. This runs once a week (and on demand)
+# instead of on every deploy, so an outage at YouTube or a regulator never blocks publishing.
+on:
+  schedule:
+    - cron: '0 6 * * 1' # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Check that all YouTube videos still exist
+        run: npm run check:videos
+      - name: Check source links
+        if: success() || failure()
+        run: npm run check:sources -- --verbose
+      - name: Open an issue if something is broken
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Weekly link check found problems"
+          open=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open --search "in:title \"$title\"" --json number --jq 'length')
+          if [ "$open" = "0" ]; then
+            gh issue create --repo "$GITHUB_REPOSITORY" --title "$title" \
+              --body "A video or source link is broken. Details: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi

@@ -15,11 +15,14 @@
     "validate": "node scripts/validate-content.js",
     "test": "vitest run",
     "test:watch": "vitest",
-    "verify": "npm run validate && npm run check && npm run test && npm run build",
+    "verify": "npm run validate && npm run check && npm run test && npm run build && npm run check:dist",
     "check:videos": "node scripts/check-videos.js",
     "build:chart-images": "node scripts/build-chart-images.mjs",
     "check:videos:write": "node scripts/check-videos.js --write",
-    "verify:full": "npm run verify && npm run check:videos"
+    "verify:full": "npm run verify && npm run check:videos && npm run check:sources",
+    "build:og-image": "node scripts/build-og-image.mjs",
+    "check:dist": "node scripts/check-dist.js",
+    "check:sources": "node scripts/check-sources.js"
   },
   "dependencies": {
     "@astrojs/markdown-remark": "7.3.2",

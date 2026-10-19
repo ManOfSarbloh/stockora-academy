@@ -10,8 +10,8 @@ lastReviewed: 2026-10-11
 sources:
   - title: "Financial Tips for New Investors (FINRA)"
     url: https://www.finra.org/investors/insights/tips-new-investors
-  - title: "Financial Foundations: Start an Emergency Fund (FINRA)"
-    url: https://www.finra.org/investors/personal-finance/start-emergency-fund
+  - title: "Financial Foundations: Build an Emergency Fund (FINRA)"
+    url: https://www.finra.org/investors/investing/investing-basics/financial-foundations
   - title: "Time Horizon (Investor.gov glossary, U.S. SEC)"
     url: https://www.investor.gov/introduction-investing/investing-basics/glossary/time-horizon
   - title: "Beginners' Guide to Asset Allocation, Diversification, and Rebalancing (Investor.gov, U.S. SEC)"

@@ -25,8 +25,8 @@
       "website": "https://www.euronext.com/en",
       "hours": "For CAC 40 shares: opening auction, continuous trading 09:00–17:30, closing auction until 17:35, then trading at the closing price until 17:40.",
       "timeZone": "Europe/Paris",
-      "hoursSource": "https://live.euronext.com/resources/trading-hours-holidays",
-      "holidaysSource": "https://live.euronext.com/resources/trading-hours-holidays",
+      "hoursSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
+      "holidaysSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
       "note": "Euronext runs seven regulated markets: Amsterdam, Brussels, Dublin, Lisbon, Milan, Oslo and Paris."
     }
   ],

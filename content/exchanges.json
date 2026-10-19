@@ -415,7 +415,7 @@
     "region": "europe",
     "timeZone": "Europe/Paris",
     "website": "https://www.euronext.com/en",
-    "hoursSource": "https://live.euronext.com/resources/trading-hours-holidays",
+    "hoursSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
     "sessions": [
       {
         "type": "regular",
@@ -466,7 +466,7 @@
         "halfDay": true
       }
     ],
-    "holidaysSource": "https://live.euronext.com/resources/trading-hours-holidays",
+    "holidaysSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
     "holidayYears": [
       2026
     ],
