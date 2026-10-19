@@ -267,4 +267,28 @@ const caseStudies = defineCollection({
   }),
 });
 
-export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies };
+// ---- History timeline (/history) ----
+const history = defineCollection({
+  loader: file('content/history.json'),
+  schema: z.object({
+    id: z.string().regex(/^[a-z0-9-]+$/),
+    /** Year used for ordering and the era filter. */
+    year: z.number().int(),
+    /** Date as shown, e.g. "17 May 1792" or "1630s". */
+    date: z.string(),
+    kind: z.enum(['milestone', 'crash', 'bubble', 'rule', 'technology']),
+    title: z.string(),
+    what: z.string(),
+    why: z.string(),
+    lesson: z.string(),
+    /** Popular belief versus what the sources show. */
+    myth: z.object({ myth: z.string(), fact: z.string() }).optional(),
+    /** Planned events (shown under "Coming up" until they happen). */
+    planned: z.boolean().default(false),
+    /** Site links ("/learn/…", "/world/…"). */
+    links: z.array(z.object({ title: z.string(), href: z.string() })).default([]),
+    sources: z.array(source).min(1),
+  }),
+});
+
+export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history };

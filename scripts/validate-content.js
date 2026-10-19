@@ -131,6 +131,21 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
   }
 }
 
+// History timeline: unique ids, links to existing pages (or the live tool pages), sources present.
+{
+  const live = new Set(['/times', '/tools', '/quizzes', '/videos', '/glossary', '/history', '/scams', '/charts', '/charts/lab', '/charts/candles', '/charts/quiz', '/world/compare']);
+  const ids = new Set();
+  for (const h of readJSON(join(CONTENT, 'history.json'))) {
+    if (ids.has(h.id)) errors.push(`history: duplicate id "${h.id}"`);
+    ids.add(h.id);
+    for (const l of h.links ?? []) {
+      const p = l.href.split('#')[0].replace(/\/$/, '');
+      if (!pathOk(l.href) && !live.has(p)) errors.push(`history ${h.id}: link "${l.href}" does not match a page`);
+    }
+    if (!h.sources?.length) errors.push(`history ${h.id}: needs at least one source`);
+  }
+}
+
 // Exchanges (Trading Times): sessions in order, holidays on trading days within the covered years,
 // and a reminder when the data is getting old (hours and holidays must be re-checked regularly).
 const exchangesFile = join(CONTENT, 'exchanges.json');

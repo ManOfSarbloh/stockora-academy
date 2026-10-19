@@ -1,5 +1,171 @@
 ---
-import ComingSoon from '@/components/ComingSoon.astro';
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { t, type UiKey } from '@/i18n';
+import { url } from '@/lib/url';
+
+type Entry = Awaited<ReturnType<typeof getCollection<'history'>>>[number]['data'];
+const all = (await getCollection('history')).map((e) => e.data).sort((a, b) => a.year - b.year);
+const past = all.filter((e) => !e.planned);
+const planned = all.filter((e) => e.planned);
+const kinds = ['crash', 'bubble', 'rule', 'technology', 'milestone'] as const;
+const periods = [
+  { id: 'before-1800', label: 'Before 1800', from: -Infinity, to: 1799 },
+  { id: '1800-1945', label: '1800–1945', from: 1800, to: 1945 },
+  { id: '1946-1999', label: '1946–1999', from: 1946, to: 1999 },
+  { id: 'since-2000', label: 'Since 2000', from: 2000, to: Infinity },
+];
+const periodOf = (y: number) => periods.find((p) => y >= p.from && y <= p.to)!.id;
+const firstOfPeriod = new Set(periods.map((p) => past.find((e) => periodOf(e.year) === p.id)?.id).filter(Boolean));
+const kindClass: Record<Entry['kind'], string> = {
+  crash: 'bg-[#c2410c]/15 text-[#9a3412] dark:text-[#fdba74]',
+  bubble: 'bg-[#eda100]/20 text-[#7a5200] dark:text-[#fcd34d]',
+  rule: 'bg-[#4a3aa7]/15 text-[#4a3aa7] dark:text-[#c4b5fd]',
+  technology: 'bg-[#2a78d6]/15 text-[#1d5fae] dark:text-[#93c5fd]',
+  milestone: 'bg-[#1baf7a]/15 text-[#0f6e4d] dark:text-[#6ee7b7]',
+};
 ---
 
-<ComingSoon section="history" />
+<BaseLayout title={t('hist.title')} description={t('hist.lead')}>
+  <PageHeader title={t('hist.title')} lead={t('hist.lead')}>
+    <p class="mt-3 text-sm"><a href={`${url('/quizzes/play')}?kind=special&id=timeline`}>{t('hist.quiz')} →</a></p>
+  </PageHeader>
+
+  <div class="container-page max-w-4xl py-10">
+    <div class="card z-10 flex sm:sticky sm:top-16 flex-wrap items-center gap-2 p-3 text-sm" role="group" aria-label={t('hist.filter')}>
+      <span class="font-semibold">{t('hist.filter')}:</span>
+      <button type="button" class="hist-filter rounded-full border-2 border-link bg-link/10 px-3 py-1 font-semibold" data-kind="" aria-pressed="true">{t('hist.all')}</button>
+      {
+        kinds.map((k) => (
+          <button type="button" class="hist-filter rounded-full border-2 border-border px-3 py-1" data-kind={k} aria-pressed="false">
+            {t(`hist.kind.${k}` as UiKey)}
+          </button>
+        ))
+      }
+      <span id="hist-count" class="ml-auto text-muted" aria-live="polite" data-template={t('hist.count', { n: '{n}' })}>{t('hist.count', { n: past.length })}</span>
+    </div>
+
+    <nav class="mt-4 flex flex-wrap gap-x-4 gap-y-1 text-sm" aria-label={t('hist.jump')}>
+      {periods.map((p) => <a href={`#${p.id}`}>{p.label}</a>)}
+    </nav>
+
+    <ol class="relative mt-8 border-l-2 border-border pl-6 sm:pl-8">
+      {
+        past.map((e) => (
+          <li class="hist-item relative mb-8 scroll-mt-40" id={firstOfPeriod.has(e.id) ? periodOf(e.year) : e.id} data-kind={e.kind}>
+            <span class="absolute top-1.5 -left-[2.05rem] h-3.5 w-3.5 rounded-full border-2 border-surface bg-link sm:-left-[2.55rem]" aria-hidden="true" />
+            <article class="card p-5">
+              <p class="flex flex-wrap items-center gap-2 text-sm">
+                <span class="font-bold tabular-nums text-link">{e.date}</span>
+                <span class={`rounded-full px-2 py-0.5 text-xs font-semibold ${kindClass[e.kind]}`}>{t(`hist.kind.${e.kind}` as UiKey)}</span>
+              </p>
+              <h2 class="mt-1 text-lg font-bold">{e.title}</h2>
+              <dl class="mt-3 space-y-2 text-sm">
+                <div>
+                  <dt class="font-semibold">{t('hist.what')}</dt>
+                  <dd class="text-muted">{e.what}</dd>
+                </div>
+                <div>
+                  <dt class="font-semibold">{t('hist.why')}</dt>
+                  <dd class="text-muted">{e.why}</dd>
+                </div>
+              </dl>
+              {e.myth && (
+                <div class="mt-3 grid gap-2 rounded-lg border border-border p-3 text-sm sm:grid-cols-2">
+                  <p>
+                    <span class="block font-semibold text-[#9a3412] dark:text-[#fdba74]">✗ {t('hist.myth')}</span>
+                    {e.myth.myth}
+                  </p>
+                  <p>
+                    <span class="block font-semibold text-link">✓ {t('hist.fact')}</span>
+                    {e.myth.fact}
+                  </p>
+                </div>
+              )}
+              <p class="callout callout-tip mt-3 text-sm">
+                <strong>{t('hist.lesson')}:</strong> {e.lesson}
+              </p>
+              <div class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                {e.links.map((l) => (
+                  <a href={url(l.href)}>{l.title} →</a>
+                ))}
+              </div>
+              <details class="mt-2 text-xs text-muted">
+                <summary class="cursor-pointer">{t('hist.sources')} ({e.sources.length})</summary>
+                <ul class="mt-1 list-disc space-y-0.5 pl-5">
+                  {e.sources.map((s) => (
+                    <li>
+                      <a href={s.url} rel="noopener">
+                        {s.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </details>
+            </article>
+          </li>
+        ))
+      }
+    </ol>
+
+    {
+      planned.length > 0 && (
+        <section class="mt-12" aria-labelledby="upcoming">
+          <h2 id="upcoming" class="text-2xl font-bold tracking-tight">
+            {t('hist.upcoming')}
+          </h2>
+          <p class="mt-1 text-muted">{t('hist.upcomingLead')}</p>
+          <ul class="mt-4 grid gap-4 sm:grid-cols-2">
+            {planned.map((e) => (
+              <li class="card border-dashed p-5">
+                <p class="text-sm font-bold text-link">{e.date}</p>
+                <h3 class="mt-1 font-bold">{e.title}</h3>
+                <p class="mt-2 text-sm text-muted">{e.what}</p>
+                <p class="mt-2 text-sm">
+                  <strong>{t('hist.lesson')}:</strong> {e.lesson}
+                </p>
+                <p class="mt-2 text-xs">
+                  {e.sources.map((s, i) => (
+                    <>
+                      {i > 0 && ' · '}
+                      <a href={s.url} rel="noopener">
+                        {s.title}
+                      </a>
+                    </>
+                  ))}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<script>
+  const buttons = [...document.querySelectorAll<HTMLButtonElement>('.hist-filter')];
+  const items = [...document.querySelectorAll<HTMLLIElement>('.hist-item')];
+  const count = document.getElementById('hist-count')!;
+  buttons.forEach((b) =>
+    b.addEventListener('click', () => {
+      const kind = b.dataset.kind ?? '';
+      let n = 0;
+      for (const li of items) {
+        const show = !kind || li.dataset.kind === kind;
+        li.hidden = !show;
+        if (show) n++;
+      }
+      for (const x of buttons) {
+        const on = x === b;
+        x.setAttribute('aria-pressed', String(on));
+        x.classList.toggle('border-link', on);
+        x.classList.toggle('bg-link/10', on);
+        x.classList.toggle('font-semibold', on);
+        x.classList.toggle('border-border', !on);
+      }
+      count.textContent = (count.dataset.template ?? '{n}').replace('{n}', String(n));
+    }),
+  );
+</script>

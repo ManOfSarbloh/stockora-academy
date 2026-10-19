@@ -50,11 +50,6 @@ export interface PlannedSection {
 }
 
 export const plannedSections: Record<string, PlannedSection> = {
-  history: {
-    title: 'History',
-    lead: 'A timeline of stock markets, from the first shares to today.',
-    planned: ['Interactive timeline with sources', 'Famous crashes and what we learned from them', 'Myth vs fact (for example, Tulip mania)'],
-  },
   scams: {
     title: 'Scam Shield',
     lead: 'Learn the red flags of investment fraud and how to check who you are dealing with.',

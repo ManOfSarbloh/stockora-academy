@@ -1,0 +1,716 @@
+[
+  {
+    "id": "bruges-beurse",
+    "year": 1285,
+    "date": "13th–15th century",
+    "kind": "milestone",
+    "title": "Merchants meet at the Ter Buerse inn in Bruges",
+    "what": "In Bruges, the Van der Buerse family ran the Ter Buerse inn for five generations; Robrecht Van der Buerse was operating it as early as 1285. Over the 14th century the square in front of it, the Beursplein, became the city's commercial and financial centre, where foreign merchants met every day to do business.",
+    "why": "The family's name, and the three purses (beurzen) on their coat of arms, gave many languages their word for an exchange: beurs, bourse, Börse.",
+    "lesson": "Markets began as meeting places with customs rather than written rules. Rules, supervision and transparency came much later.",
+    "links": [
+      {
+        "title": "How exchanges work",
+        "href": "/learn/market-structure/how-exchanges-work"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The origins of the stock exchange: from the Ter Buerse inn to Wall Street (Museum of the National Bank of Belgium)",
+        "url": "https://museum.nbb.be/en/node/242"
+      }
+    ]
+  },
+  {
+    "id": "voc-1602",
+    "year": 1602,
+    "date": "1602",
+    "kind": "milestone",
+    "title": "The Dutch East India Company (VOC) and the Amsterdam exchange",
+    "what": "The VOC became the first company traded on the Amsterdam exchange, which Euronext describes as the oldest stock exchange in the world.",
+    "why": "Shares in one company could now be bought and sold by many people in a regular market, the basic idea of today's stock markets.",
+    "lesson": "Being able to sell your share to someone else, without the company paying you back, is what makes a stock market work.",
+    "links": [
+      {
+        "title": "Netherlands country page",
+        "href": "/world/nl"
+      }
+    ],
+    "sources": [
+      {
+        "title": "417th anniversary of the Amsterdam exchange (Euronext)",
+        "url": "https://www.euronext.com/en/about/media/bell-ceremony-archive/417th-anniversary-amsterdam-exchange"
+      }
+    ]
+  },
+  {
+    "id": "tulipmania",
+    "year": 1637,
+    "date": "1630s (peak in 1637)",
+    "kind": "bubble",
+    "title": "Tulipmania: a real bubble, a much bigger myth",
+    "what": "In the Dutch Republic of the 1630s, prices of rare tulip bulbs rose sharply and collapsed in 1637.",
+    "why": "Tulipmania is the most famous 'bubble' story, often retold as a nationwide frenzy that ruined many people.",
+    "lesson": "Check the source of a famous story. Historical myths can teach the wrong lesson.",
+    "myth": {
+      "myth": "Tulip mania swept through the whole country and its crash ruined many families and the Dutch economy.",
+      "fact": "Archival research by historian Anne Goldgar (University of Chicago Press, 2007) shows there was a speculative bubble in tulip prices, but neither its height nor its bursting was anywhere near as dramatic as the popular accounts claim."
+    },
+    "links": [
+      {
+        "title": "Bubbles and manias",
+        "href": "/learn/market-cycles-history/bubbles-and-manias"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Anne Goldgar: Tulipmania. Money, Honor, and Knowledge in the Dutch Golden Age (University of Chicago Press)",
+        "url": "https://press.uchicago.edu/ucp/books/book/chicago/T/bo5414939.html"
+      }
+    ]
+  },
+  {
+    "id": "london-1698",
+    "year": 1698,
+    "date": "1698",
+    "kind": "technology",
+    "title": "A price list from a London coffee house",
+    "what": "At Jonathan's Coffee House in London, John Castaing began issuing a list of stock and commodity prices, 'The Course of the Exchange and other things'.",
+    "why": "Published prices let people outside the room see what shares were worth: an early form of market data.",
+    "lesson": "Transparent prices are a public good. A market where only insiders know the prices is easy to abuse.",
+    "links": [
+      {
+        "title": "United Kingdom country page",
+        "href": "/world/gb"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Our history (LSEG)",
+        "url": "https://www.lseg.com/en/about-us/history"
+      }
+    ]
+  },
+  {
+    "id": "south-sea-1720",
+    "year": 1720,
+    "date": "1720",
+    "kind": "bubble",
+    "title": "The South Sea Bubble",
+    "what": "The South Sea Company, formed in London in 1711, took over a large part of Britain's national debt. Speculators paid inflated prices for its shares, and the company collapsed spectacularly in 1720.",
+    "why": "One of the first great stock market crashes, built on a company whose promised trade never justified its share price.",
+    "lesson": "A good story about future profits is not the same as profits. When everyone buys because prices are rising, the fall can be just as fast.",
+    "links": [
+      {
+        "title": "Bubbles and manias",
+        "href": "/learn/market-cycles-history/bubbles-and-manias"
+      }
+    ],
+    "sources": [
+      {
+        "title": "South Sea Bubble (Royal Museums Greenwich)",
+        "url": "https://www.rmg.co.uk/stories/maritime-history/south-sea-bubble"
+      }
+    ]
+  },
+  {
+    "id": "vienna-1771",
+    "year": 1771,
+    "date": "1771",
+    "kind": "milestone",
+    "title": "Maria Theresa founds the Vienna Stock Exchange",
+    "what": "Empress Maria Theresa founded the Wiener Börse in 1771, originally to help raise capital for the state; at first bonds, bills of exchange and currencies were traded. The first share on its list was the Austrian central bank's, in 1818.",
+    "why": "Austria's exchange is one of the oldest in the world and still the home of the ATX.",
+    "lesson": "Exchanges often started as a way to finance governments; shares came later.",
+    "links": [
+      {
+        "title": "Austria country page",
+        "href": "/world/at"
+      },
+      {
+        "title": "How exchanges work",
+        "href": "/learn/market-structure/how-exchanges-work"
+      }
+    ],
+    "sources": [
+      {
+        "title": "250 years: history of the Vienna Stock Exchange (Wiener Börse)",
+        "url": "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+      }
+    ]
+  },
+  {
+    "id": "buttonwood-1792",
+    "year": 1792,
+    "date": "17 May 1792",
+    "kind": "milestone",
+    "title": "The Buttonwood Agreement in New York",
+    "what": "24 stockbrokers signed the Buttonwood Agreement on 17 May 1792. In 1817 they adopted a constitution creating the New York Stock & Exchange Board, the forerunner of today's NYSE.",
+    "why": "The start of what became the world's largest stock exchange.",
+    "lesson": "Markets need agreed rules: who may trade, on what terms, and at what cost.",
+    "links": [
+      {
+        "title": "United States country page",
+        "href": "/world/us"
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of the NYSE (New York Stock Exchange)",
+        "url": "https://www.nyse.com/history-of-nyse"
+      }
+    ]
+  },
+  {
+    "id": "ticker-1867",
+    "year": 1867,
+    "date": "15 November 1867",
+    "kind": "technology",
+    "title": "The stock ticker",
+    "what": "Edward Calahan's stock ticker printed share prices on paper tape and made up-to-the-minute prices available over telegraph wires.",
+    "why": "For the first time, investors far from the trading floor could follow prices almost as they happened.",
+    "lesson": "Faster information changes markets, and gives an edge to whoever gets it first.",
+    "links": [
+      {
+        "title": "Trading Times",
+        "href": "/times"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Stock Ticker Turns 139 (NPR, 15 November 2006)",
+        "url": "https://www.npr.org/2006/11/15/6490325/the-stock-ticker-turns-139"
+      },
+      {
+        "title": "Edward Calahan (National Inventors Hall of Fame)",
+        "url": "https://invent.org/inductees/edward-calahan"
+      }
+    ]
+  },
+  {
+    "id": "vienna-crash-1873",
+    "year": 1873,
+    "date": "9 May 1873",
+    "kind": "crash",
+    "title": "The Vienna crash",
+    "what": "The crash of 9 May 1873 ended Austria's Gründerzeit boom; about half of the listed companies disappeared. The Stock Exchange Act of 1875 followed.",
+    "why": "A crash at home: Austria's own lesson in speculation and its consequences.",
+    "lesson": "Recovery can take decades, and single companies may never recover. Diversification is the main defence.",
+    "links": [
+      {
+        "title": "Vienna 1873 and Japan 1989",
+        "href": "/learn/market-cycles-history/vienna-1873-and-japan-1989"
+      }
+    ],
+    "sources": [
+      {
+        "title": "250 years: history of the Vienna Stock Exchange (Wiener Börse)",
+        "url": "https://www.wienerborse.at/en/about-us/vienna-stock-exchange/250-years-wiener-boerse/history/"
+      }
+    ]
+  },
+  {
+    "id": "crash-1929",
+    "year": 1929,
+    "date": "28–29 October 1929",
+    "kind": "crash",
+    "title": "The 1929 crash and the Great Depression",
+    "what": "After the Dow rose six-fold in the 1920s, fuelled by borrowed money, Black Monday (28 October) and Black Tuesday (29 October) began a fall of 89% to July 1932. The Dow's price level only recovered in November 1954.",
+    "why": "Combined with waves of bank failures, the crash became a decade-long economic catastrophe.",
+    "lesson": "Leverage turns a falling market into ruin. Even the broad market can take decades to recover in price terms.",
+    "links": [
+      {
+        "title": "The crash of 1929",
+        "href": "/learn/market-cycles-history/crash-of-1929"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stock Market Crash of 1929 (Federal Reserve History)",
+        "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+      },
+      {
+        "title": "The Great Depression (Federal Reserve History)",
+        "url": "https://www.federalreservehistory.org/essays/great-depression"
+      }
+    ]
+  },
+  {
+    "id": "sec-1934",
+    "year": 1934,
+    "date": "1933–1934",
+    "kind": "rule",
+    "title": "Securities laws and the SEC",
+    "what": "After investigating the crash, the US Congress passed the Securities Act of 1933 and, the following year, the Securities Exchange Act of 1934, which created the Securities and Exchange Commission (SEC).",
+    "why": "Companies selling shares to the public now had to disclose information, and markets got a permanent regulator.",
+    "lesson": "Disclosure rules and supervision exist because markets without them failed. Use them: read the documents and check who you deal with.",
+    "links": [
+      {
+        "title": "Regulation, law and ethics",
+        "href": "/learn/regulation-law-ethics"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The Role of the SEC (Investor.gov, U.S. SEC)",
+        "url": "https://www.investor.gov/introduction-investing/investing-basics/role-sec"
+      }
+    ]
+  },
+  {
+    "id": "nasdaq-1971",
+    "year": 1971,
+    "date": "8 February 1971",
+    "kind": "technology",
+    "title": "Nasdaq: quotes on computer screens",
+    "what": "The National Association of Securities Dealers Automated Quotations (NASDAQ) system launched on 8 February 1971, letting market makers in over-the-counter stocks update their bid and ask quotes electronically.",
+    "why": "The start of the move from trading floors to screens, which today covers almost all trading.",
+    "lesson": "What makes an exchange is its rules and systems, not a building.",
+    "links": [
+      {
+        "title": "Where shares trade",
+        "href": "/learn/market-structure/where-shares-trade"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Nasdaq: 50 Years of Market Innovation (Nasdaq, 11 February 2021)",
+        "url": "https://www.nasdaq.com/articles/nasdaq:-50-years-of-market-innovation-2021-02-11"
+      }
+    ]
+  },
+  {
+    "id": "index-fund-1976",
+    "year": 1976,
+    "date": "1976",
+    "kind": "milestone",
+    "title": "Index funds for private investors",
+    "what": "Vanguard launched its First Index Investment Trust (now the Vanguard 500 Index Fund), offering low-cost, broadly diversified index investing to individual investors.",
+    "why": "Owning a whole market cheaply, instead of picking single shares, became possible for ordinary savers.",
+    "lesson": "Costs and diversification are things you can control; picking winners is not.",
+    "links": [
+      {
+        "title": "Active vs passive investing",
+        "href": "/learn/investing-strategies/active-vs-passive"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Vanguard's history (Vanguard)",
+        "url": "https://corporate.vanguard.com/content/corporatesite/us/en/corp/who-we-are/sets-us-apart/our-history.html"
+      }
+    ]
+  },
+  {
+    "id": "big-bang-1986",
+    "year": 1986,
+    "date": "1986",
+    "kind": "rule",
+    "title": "London's 'Big Bang'",
+    "what": "The UK stock market was deregulated in the 'Big Bang' of 1986.",
+    "why": "It opened London's market to more competition and modern trading, shaping its role as a global financial centre.",
+    "lesson": "Market rules change over time, and with them who can trade and at what cost.",
+    "links": [
+      {
+        "title": "United Kingdom country page",
+        "href": "/world/gb"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Our history (LSEG)",
+        "url": "https://www.lseg.com/en/about-us/history"
+      }
+    ]
+  },
+  {
+    "id": "black-monday-1987",
+    "year": 1987,
+    "date": "19 October 1987",
+    "kind": "crash",
+    "title": "Black Monday",
+    "what": "The Dow fell 22.6% in one day, the largest one-day fall in its history. Rapid gains, bad news, automatic selling (portfolio insurance) and problems in the market's plumbing combined.",
+    "why": "The Federal Reserve provided liquidity; there was no recession, and US markets regained their pre-crash highs in under two years. Circuit breakers were introduced afterwards.",
+    "lesson": "Crashes can be sudden and still not be the end of the world. Panic-selling at the bottom locks in the loss.",
+    "links": [
+      {
+        "title": "Black Monday 1987",
+        "href": "/learn/market-cycles-history/black-monday-1987"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Stock Market Crash of 1987 (Federal Reserve History)",
+        "url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+      }
+    ]
+  },
+  {
+    "id": "nikkei-1989",
+    "year": 1989,
+    "date": "End of 1989",
+    "kind": "bubble",
+    "title": "Japan's bubble peaks",
+    "what": "The Nikkei 225 ended 1989 at a record 38,915. It only closed above that level again on 22 February 2024, more than 34 years later.",
+    "why": "Proof that a whole developed market can stay below its peak for decades.",
+    "lesson": "'Stocks always recover quickly' is not a law. Diversify across countries, not just across companies.",
+    "links": [
+      {
+        "title": "Vienna 1873 and Japan 1989",
+        "href": "/learn/market-cycles-history/vienna-1873-and-japan-1989"
+      },
+      {
+        "title": "Japan country page",
+        "href": "/world/jp"
+      }
+    ],
+    "sources": [
+      {
+        "title": "History of the market (Nikkei Indexes)",
+        "url": "https://indexes.nikkei.co.jp/70th/historyofthemarket-article.html"
+      },
+      {
+        "title": "Japan's Nikkei Stock Average closes above 1989's all-time high (Nikkei Asia, 22 February 2024)",
+        "url": "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high"
+      }
+    ]
+  },
+  {
+    "id": "first-etf-1990",
+    "year": 1990,
+    "date": "1990",
+    "kind": "milestone",
+    "title": "The world's first ETF, in Toronto",
+    "what": "The Toronto 35 Index Participation Fund, created on the Toronto Stock Exchange in 1990, is described by TMX Group as the world's first exchange-traded fund.",
+    "why": "ETFs let investors buy a whole index in one trade on the stock exchange, now a common way to invest.",
+    "lesson": "A good product idea can change investing for millions, but every ETF still needs checking: index, costs, structure.",
+    "links": [
+      {
+        "title": "How ETFs work",
+        "href": "/learn/indexes-etfs-funds/how-etfs-work"
+      },
+      {
+        "title": "Canada country page",
+        "href": "/world/ca"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Historical timeline (TMX Group)",
+        "url": "https://investors.tmx.com/English/about-us/historical-timeline/default.aspx"
+      }
+    ]
+  },
+  {
+    "id": "atx-1991",
+    "year": 1991,
+    "date": "2 January 1991",
+    "kind": "milestone",
+    "title": "Austria's ATX index is launched",
+    "what": "The ATX (Austrian Traded Index) was launched on 2 January 1991 at 1,000 points.",
+    "why": "Austria's headline index, used in news, funds and derivatives.",
+    "lesson": "An index is a summary of selected shares, not 'the market' itself.",
+    "links": [
+      {
+        "title": "What is an index?",
+        "href": "/learn/indexes-etfs-funds/what-is-an-index"
+      },
+      {
+        "title": "Austria country page",
+        "href": "/world/at"
+      }
+    ],
+    "sources": [
+      {
+        "title": "ATX: Definition (Wiener Börse Börsenlexikon, in German)",
+        "url": "https://www.wienerborse.at/wissen/boersenlexikon/buchstabe-a/atx/"
+      }
+    ]
+  },
+  {
+    "id": "euro-1999",
+    "year": 1999,
+    "date": "1 January 1999",
+    "kind": "milestone",
+    "title": "The euro is introduced",
+    "what": "The euro became the currency of Austria and other EU countries in 1999; euro cash followed on 1 January 2002, replacing national banknotes and coins such as the Austrian schilling.",
+    "why": "Shares across the euro area are now priced in the same currency, so Austrian investors carry no currency risk on them.",
+    "lesson": "Currency matters: outside the euro area, exchange rates add to or eat up your returns.",
+    "links": [
+      {
+        "title": "Currencies and your investments",
+        "href": "/learn/macroeconomics/currencies-and-your-investments"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Introducing the euro (European Central Bank)",
+        "url": "https://www.ecb.europa.eu/euro/intro/html/index.en.html"
+      }
+    ]
+  },
+  {
+    "id": "dot-com-2000",
+    "year": 2000,
+    "date": "March 2000",
+    "kind": "bubble",
+    "title": "The dot-com bubble bursts",
+    "what": "Late-1990s optimism about the internet pushed technology valuations to extreme levels. The Nasdaq peaked in March 2000 and fell 44.7% by the end of that year; the S&P 500 fell in 2000, 2001 and 2002.",
+    "why": "The internet did change the world, but investors who bought at bubble prices lost heavily.",
+    "lesson": "A great story does not justify any price. Concentrated investors suffered most.",
+    "links": [
+      {
+        "title": "The dot-com bubble",
+        "href": "/learn/market-cycles-history/dot-com-bubble"
+      }
+    ],
+    "sources": [
+      {
+        "title": "A Retrospective on the Stock Market in 2000 (Federal Reserve Bank of Cleveland, via FRASER, PDF)",
+        "url": "https://fraser.stlouisfed.org/files/docs/historical/frbclev/econcomm/econcomm_20010115.pdf"
+      }
+    ]
+  },
+  {
+    "id": "decimals-2001",
+    "year": 2001,
+    "date": "9 April 2001",
+    "kind": "rule",
+    "title": "US share prices switch from fractions to decimals",
+    "what": "Ordered by the SEC, US markets phased in decimal pricing from September 2000 to 9 April 2001. The smallest price step for shares fell from 1/16 of a dollar to one cent.",
+    "why": "Smaller price steps let spreads narrow, which lowers trading costs for investors.",
+    "lesson": "Market details such as tick sizes affect what you pay, even if you never notice them.",
+    "links": [
+      {
+        "title": "Tick sizes, lots and fees",
+        "href": "/learn/market-structure/tick-sizes-lots-and-fees"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Testimony: The Effects of Decimalization on the Securities Markets (U.S. SEC, 24 May 2001)",
+        "url": "https://www.sec.gov/newsroom/speeches-statements/052401tslu-testimony-effects-decimalization-securities-markets"
+      }
+    ]
+  },
+  {
+    "id": "crisis-2008",
+    "year": 2008,
+    "date": "2007–2009",
+    "kind": "crash",
+    "title": "The global financial crisis",
+    "what": "Risky mortgages, packaged into securities, set up the crisis; when US house prices fell, losses spread through the financial system. The S&P 500 fell 57% from October 2007 to March 2009.",
+    "why": "Central banks cut rates to near zero and bought bonds on a large scale; banking rules were tightened afterwards.",
+    "lesson": "Leverage and misjudged 'safe' assets can turn a housing slump into a global crisis.",
+    "links": [
+      {
+        "title": "The 2008 financial crisis",
+        "href": "/learn/market-cycles-history/financial-crisis-2008"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Subprime Mortgage Crisis, 2007–2010 (Federal Reserve History)",
+        "url": "https://www.federalreservehistory.org/essays/subprime-mortgage-crisis"
+      }
+    ]
+  },
+  {
+    "id": "flash-crash-2010",
+    "year": 2010,
+    "date": "6 May 2010",
+    "kind": "crash",
+    "title": "The flash crash",
+    "what": "Major US indices, already down over 4%, plummeted a further 5–6% in minutes and rebounded almost as quickly. Over 20,000 trades in more than 300 securities were executed more than 60% away from their prices moments before, some at a penny or as high as $100,000.",
+    "why": "The SEC and CFTC staff traced it to a large automated sell order executed quickly in a market where liquidity was already thinning.",
+    "lesson": "Market orders in a panic can be filled at absurd prices. A limit order sets the worst price you accept.",
+    "links": [
+      {
+        "title": "High-frequency trading",
+        "href": "/learn/market-structure/high-frequency-trading"
+      },
+      {
+        "title": "Market and limit orders",
+        "href": "/learn/brokers-accounts-orders/market-and-limit-orders"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Findings regarding the market events of May 6, 2010 (CFTC and SEC staff, 30 September 2010, PDF)",
+        "url": "http://www.cftc.gov/idc/groups/public/@otherif/documents/ifdocs/staff-findings050610.pdf"
+      }
+    ]
+  },
+  {
+    "id": "stock-connect-2014",
+    "year": 2014,
+    "date": "17 November 2014",
+    "kind": "milestone",
+    "title": "Stock Connect links Hong Kong and Shanghai",
+    "what": "Shanghai–Hong Kong Stock Connect launched, letting investors in each market trade shares listed in the other through their own brokers; Shenzhen followed in 2016.",
+    "why": "The main route for international investors into mainland Chinese shares.",
+    "lesson": "Access to a market can come with special rules: quotas, ownership limits, different settlement.",
+    "links": [
+      {
+        "title": "China country page",
+        "href": "/world/cn"
+      },
+      {
+        "title": "Accessing foreign markets",
+        "href": "/learn/world-markets/accessing-foreign-markets"
+      }
+    ],
+    "sources": [
+      {
+        "title": "HKEX Milestones (HKEX Group)",
+        "url": "https://www.hkexgroup.com/About-HKEX/About-HKEX/HKEX-Milestones?sc_lang=en"
+      }
+    ]
+  },
+  {
+    "id": "covid-2020",
+    "year": 2020,
+    "date": "February–March 2020",
+    "kind": "crash",
+    "title": "The COVID-19 crash",
+    "what": "US stocks fell 34% from their February 2020 high to 23 March 2020; circuit breakers halted trading three times. The Fed cut rates to near zero and bought bonds on a large scale.",
+    "why": "One of the fastest crashes and recoveries on record: the S&P 500 including dividends still gained 18% in 2020.",
+    "lesson": "Fast recoveries are possible but not guaranteed. The cause and the policy response matter.",
+    "links": [
+      {
+        "title": "The COVID crash of 2020",
+        "href": "/learn/market-cycles-history/covid-crash-2020"
+      }
+    ],
+    "sources": [
+      {
+        "title": "The COVID-19 Pandemic and the Fed's Response (Liberty Street Economics, Federal Reserve Bank of New York)",
+        "url": "https://libertystreeteconomics.newyorkfed.org/2020/04/the-covid-19-pandemic-and-the-feds-response/"
+      },
+      {
+        "title": "Historical Returns on Stocks, Bonds and Bills, 1928–2025 (Aswath Damodaran, NYU Stern)",
+        "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+      }
+    ]
+  },
+  {
+    "id": "gamestop-2021",
+    "year": 2021,
+    "date": "January 2021",
+    "kind": "bubble",
+    "title": "GameStop and the meme-stock boom",
+    "what": "GameStop's share price rose more than 1,600% in about two weeks, then fell sharply. The SEC staff concluded that positive sentiment, not short covering, sustained the rise; some brokers restricted trading on 28 January.",
+    "why": "Social media, app-based brokers and options trading showed how fast retail crowds can move a share.",
+    "lesson": "Meme-stock moves are speculative and can reverse quickly. Do not invest money you cannot afford to lose in a hype.",
+    "links": [
+      {
+        "title": "GameStop 2021",
+        "href": "/learn/trading-leverage-derivatives/gamestop-2021"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Staff Report on Equity and Options Market Structure Conditions in Early 2021 (U.S. SEC, PDF)",
+        "url": "https://www.sec.gov/files/staff-report-equity-options-market-struction-conditions-early-2021.pdf"
+      }
+    ]
+  },
+  {
+    "id": "rates-2022",
+    "year": 2022,
+    "date": "2022",
+    "kind": "rule",
+    "title": "Interest rates rise again",
+    "what": "With inflation high, central banks raised interest rates. On 21 July 2022 the ECB raised its key rates by 50 basis points, its first increase since 2011. In Damodaran's US data, both shares and bonds fell in 2022.",
+    "why": "Higher rates make bonds and savings more attractive and push down the value of future profits, so shares and bonds can fall together.",
+    "lesson": "Bonds do not always cushion falling shares. Diversification lowers risk; it does not remove it.",
+    "links": [
+      {
+        "title": "Interest rates and stock prices",
+        "href": "/learn/macroeconomics/interest-rates-and-stock-prices"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Monetary policy decisions, 21 July 2022 (European Central Bank)",
+        "url": "https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.mp220721~53e5bdd317.en.html"
+      },
+      {
+        "title": "Historical Returns on Stocks, Bonds and Bills, 1928–2025 (Aswath Damodaran, NYU Stern)",
+        "url": "https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html"
+      }
+    ]
+  },
+  {
+    "id": "t1-2024",
+    "year": 2024,
+    "date": "27–28 May 2024",
+    "kind": "rule",
+    "title": "North America moves to next-day settlement (T+1)",
+    "what": "Canada switched to T+1 settlement on 27 May 2024 and the United States on 28 May 2024: trades now settle one business day after the trade date.",
+    "why": "Shorter settlement reduces the risk that one side of a trade fails before it is completed.",
+    "lesson": "Your money or shares arrive a set number of days after the trade. Know the cycle before you plan a sale.",
+    "links": [
+      {
+        "title": "Clearing and settlement",
+        "href": "/learn/market-structure/clearing-and-settlement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "Canadian securities regulators announce move to T+1 settlement cycle (CSA, 27 May 2024)",
+        "url": "https://www.securities-administrators.ca/news/canadian-securities-regulators-announce-move-to-t1-settlement-cycle/"
+      }
+    ]
+  },
+  {
+    "id": "nasdaq-23-5",
+    "year": 2026,
+    "date": "6 December 2026 (planned)",
+    "kind": "technology",
+    "planned": true,
+    "title": "Nasdaq plans trading 23 hours a day",
+    "what": "Nasdaq has scheduled a night session from 9 p.m. to 4 a.m. Eastern Time to start on 6 December 2026, creating near-continuous trading five days a week.",
+    "why": "Investors around the world could trade US shares in their own daytime.",
+    "lesson": "Being able to trade at any hour does not mean you should: night sessions tend to be thin, with wider spreads.",
+    "links": [
+      {
+        "title": "Overnight trading",
+        "href": "/learn/trading-times/overnight-trading"
+      }
+    ],
+    "sources": [
+      {
+        "title": "23/5 Trading Information Hub (Nasdaq)",
+        "url": "https://www.nasdaq.com/products/north-american-markets/market-structure-policy/24-hour-trading-hub"
+      }
+    ]
+  },
+  {
+    "id": "eu-t1-2027",
+    "year": 2027,
+    "date": "11 October 2027 (planned)",
+    "kind": "rule",
+    "planned": true,
+    "title": "EU, UK and Switzerland move to T+1",
+    "what": "The EU is set to shorten settlement from two business days to one on 11 October 2027; the UK and Switzerland plan the same date.",
+    "why": "Austrian shares and most European trades will then settle one business day after the trade.",
+    "lesson": "Rules keep changing. Check settlement times and other market details from official sources.",
+    "links": [
+      {
+        "title": "Clearing and settlement",
+        "href": "/learn/market-structure/clearing-and-settlement"
+      }
+    ],
+    "sources": [
+      {
+        "title": "One year to go for T+1 settlement (ESMA, 16 October 2026)",
+        "url": "https://www.esma.europa.eu/press-news/esma-news/one-year-go-t1-settlement-regulatory-framework-complete-now-lets-make-it"
+      },
+      {
+        "title": "T+1 Settlement: SIX and the transition to T+1 (SIX)",
+        "url": "https://www.six-group.com/en/products-services/securities-services/site/lp/tplusone.html"
+      }
+    ]
+  }
+]

@@ -1135,6 +1135,28 @@ export const en = {
   'tools.d.candlestick-encyclopedia': 'Every common candlestick pattern, with a sketch and a live example.',
   'tools.t.chart-quiz': 'Chart Reading Quiz',
   'tools.d.chart-quiz': 'Name candles, spot trends and click support zones on generated charts.',
+  // ---- History timeline (Phase 11) ----
+  'hist.title': 'History of the stock market',
+  'hist.lead': 'From merchants meeting in Bruges to trading around the clock: the milestones, bubbles and crashes that shaped today’s markets, with what each one teaches. Every entry links to its sources.',
+  'hist.filter': 'Show',
+  'hist.all': 'Everything',
+  'hist.kind.milestone': 'Milestones',
+  'hist.kind.crash': 'Crashes',
+  'hist.kind.bubble': 'Bubbles',
+  'hist.kind.rule': 'Rules and regulation',
+  'hist.kind.technology': 'Technology',
+  'hist.what': 'What happened',
+  'hist.why': 'Why it matters',
+  'hist.lesson': 'Lesson',
+  'hist.myth': 'Myth',
+  'hist.fact': 'What the sources show',
+  'hist.sources': 'Sources',
+  'hist.learnMore': 'Learn more',
+  'hist.upcoming': 'Coming up',
+  'hist.upcomingLead': 'Changes that have been announced but have not happened yet. Plans can change: check the official sources.',
+  'hist.count': '{n} entries',
+  'hist.quiz': 'Test yourself: Timeline and History Quiz',
+  'hist.jump': 'Jump to a period',
 } as const;
 
 export type UiKey = keyof typeof en;
