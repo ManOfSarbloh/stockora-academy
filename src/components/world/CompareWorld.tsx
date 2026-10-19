@@ -164,7 +164,8 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
         <h2 id="tables-title" className="text-xl font-bold">
           Comparison tables
         </h2>
-        <div className="mt-4 flex flex-wrap items-center gap-2" role="tablist" aria-label="Table">
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <div className="flex flex-wrap gap-2" role="group" aria-label="Table">
           {(
             [
               ['overview', 'Overview'],
@@ -176,14 +177,14 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
             <button
               key={id}
               type="button"
-              role="tab"
-              aria-selected={table === id}
+              aria-pressed={table === id}
               onClick={() => setTable(id)}
               className={`rounded-full border px-3 py-1.5 text-sm font-medium ${table === id ? 'border-link bg-link text-[var(--bg)]' : 'border-border hover:border-link'}`}
             >
               {label}
             </button>
           ))}
+          </div>
           <label className="ml-auto text-sm">
             <span className="mr-2 text-muted">Region</span>
             <select value={region} onChange={(e) => setRegion(e.target.value)} className="rounded-md border border-border bg-surface px-2 py-1.5">
@@ -197,7 +198,7 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
           </label>
         </div>
 
-        <div className="mt-4 overflow-x-auto" role="tabpanel">
+        <div className="mt-4 overflow-x-auto">
           {table === 'overview' && (
             <table className="w-full min-w-[48rem] text-sm tabular-nums">
               <thead>

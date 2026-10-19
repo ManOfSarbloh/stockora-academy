@@ -3,6 +3,7 @@ export const en = {
   'site.name': 'Stockora Academy',
   'site.shortName': 'Stockora',
   'site.tagline': 'Learn how the stock market really works.',
+  'site.ogImageAlt': 'Stockora Academy logo with the line "Learn how the stock market really works."',
   'site.description':
     'A free, beginner-friendly learning site about stocks, trading and stock markets around the world. Education only, no investment advice.',
 
@@ -736,7 +737,10 @@ export const en = {
   'qh.timer': 'Timer',
   'qh.noTimer': 'No timer',
   'qh.minutes': '{n} minutes',
-  'qh.start': 'Start',
+  'qh.start.review': 'Start review',
+  'qh.start.weak': 'Practise weak spots',
+  'qh.start.mega': 'Start Mega Quiz',
+  'qh.start.custom': 'Start my quiz',
   'qh.exam.title': 'Final Exam',
   'qh.exam.lead': '{n} questions from all topics, {min} minutes, pass mark {pass}%. Passing unlocks a printable certificate of completion.',
   'qh.exam.note': 'Just for fun and self-assessment: not an official qualification.',

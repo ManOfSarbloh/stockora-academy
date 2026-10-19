@@ -34,7 +34,9 @@ const planned = [
   </PageHeader>
 
   <div class="container-page py-8" data-pagefind-ignore>
-    <TradingTimes client:only="react" exchanges={exchanges} asOf={asOf} />
+    <TradingTimes client:only="react" exchanges={exchanges} asOf={asOf}>
+      <div slot="fallback" class="island-fallback h-[1000px]"></div>
+    </TradingTimes>
     <noscript>
       <p class="card p-4 text-muted">The Trading Times tool needs JavaScript. The exchanges' official pages are listed below.</p>
     </noscript>
@@ -52,7 +54,7 @@ const planned = [
       </ul>
       <h2 class="mt-8 text-lg font-bold">{t('tt.planned.title')}</h2>
       <p class="mt-1 text-sm text-muted">{t('tt.planned.body')}</p>
-      <ul class="mt-2 list-disc pl-5 text-sm">
+      <ul class="mt-2 list-disc space-y-2 pl-5 text-sm">
         {
           planned.map((p) => (
             <li>

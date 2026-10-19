@@ -78,7 +78,14 @@ export default function Flashcards({ names, topics, countries }: Props) {
   useEffect(() => start(allCards), [allCards]);
 
   if (error) return <p className="callout callout-warning">{t('quiz.loadError')}</p>;
-  if (!data) return <p className="card p-5 text-muted">{t('quiz.loading')}</p>;
+  if (!data) {
+    // Same size as the page's fallback, so the footer does not jump while questions load.
+    return (
+      <div className="island-fallback h-[340px] lg:h-[285px]" role="status">
+        <span className="sr-only">{t('quiz.loading')}</span>
+      </div>
+    );
+  }
 
   const card = queue[pos];
   const done = queue.length > 0 && pos >= queue.length;

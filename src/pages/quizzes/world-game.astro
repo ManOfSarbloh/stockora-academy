@@ -24,7 +24,9 @@ const shapes = map.shapes.map((s) => ({ code: s.code && codes.has(s.code) ? s.co
     <p class="mt-3 text-sm"><a href={url('/quizzes')}>← {t('quiz.toHub')}</a> · <a href={url('/world')}>{t('nav.world')} →</a></p>
   </PageHeader>
   <div class="container-page max-w-4xl py-10" data-pagefind-ignore>
-    <WorldGame client:only="react" countries={countries} map={{ width: map.width, height: map.height, shapes, markers: map.markers.filter((m) => codes.has(m.code)) }} />
+    <WorldGame client:only="react" countries={countries} map={{ width: map.width, height: map.height, shapes, markers: map.markers.filter((m) => codes.has(m.code)) }}>
+      <div slot="fallback" class="island-fallback h-[750px] lg:h-[560px]"></div>
+    </WorldGame>
     <noscript><p class="card p-4 text-muted">The game needs JavaScript.</p></noscript>
   </div>
 </BaseLayout>

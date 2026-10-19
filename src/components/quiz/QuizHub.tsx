@@ -210,7 +210,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
             <p className="mt-2 text-sm font-semibold">{due > 0 ? t('qh.review.due', { n: due }) : t('qh.review.none')}</p>
             {due > 0 && (
               <a className="btn btn-primary mt-3" href={link('review', { n: Math.min(due, 20) })}>
-                {t('qh.start')}
+                {t('qh.start.review')}
               </a>
             )}
           </div>
@@ -223,7 +223,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
                   {t('qh.weak.topics', { list: weak.map((w) => `${names[w.category] ?? w.category} (${w.percent}%)`).join(', ') })}
                 </p>
                 <a className="btn btn-primary mt-3" href={link('weak', { n: 15 })}>
-                  {t('qh.start')}
+                  {t('qh.start.weak')}
                 </a>
               </>
             )}
@@ -246,7 +246,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
             className="btn btn-primary mt-4"
             href={link('mega', { n: megaN, level: megaLevel || null, mode: megaMode, minutes: megaMode === 'exam' ? megaTimer : 0 })}
           >
-            {t('qh.start')}
+            {t('qh.start.mega')}
           </a>
         </section>
 
@@ -301,7 +301,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
                 minutes: customMode === 'exam' ? customTimer : 0,
               })}
             >
-              {t('qh.start')}
+              {t('qh.start.custom')}
             </a>
           )}
         </section>

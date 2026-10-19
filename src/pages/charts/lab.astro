@@ -15,7 +15,9 @@ import { url } from '@/lib/url';
     </p>
   </PageHeader>
   <div class="container-page py-8" data-pagefind-ignore>
-    <ChartLab client:only="react" patterns={patterns as never} />
+    <ChartLab client:only="react" patterns={patterns as never}>
+      <div slot="fallback" class="island-fallback h-[1200px] lg:h-[950px]"></div>
+    </ChartLab>
     <noscript><p class="card p-4 text-muted">The Chart Lab needs JavaScript.</p></noscript>
     <p class="mt-8 max-w-3xl text-sm text-muted">{t('cs.disclaimer')}</p>
   </div>

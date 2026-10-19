@@ -14,7 +14,9 @@ const meta = await getQuizMeta();
     <p class="mt-3 text-sm"><a href={url('/quizzes')}>← {t('quiz.toHub')}</a></p>
   </PageHeader>
   <div class="container-page max-w-3xl py-10" data-pagefind-ignore>
-    <Flashcards client:only="react" names={meta.names} topics={meta.topics} countries={meta.countries} />
+    <Flashcards client:only="react" names={meta.names} topics={meta.topics} countries={meta.countries}>
+      <div slot="fallback" class="island-fallback h-[340px] lg:h-[285px]"></div>
+    </Flashcards>
     <noscript><p class="card p-4 text-muted">The flashcards need JavaScript.</p></noscript>
   </div>
 </BaseLayout>

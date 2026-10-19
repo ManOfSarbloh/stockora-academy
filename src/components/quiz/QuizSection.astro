@@ -56,7 +56,9 @@ const reportHref = reportMistakeHref(`Quiz ${quizId}`, new URL(Astro.url.pathnam
       </Heading>
       <p class="mt-1 text-sm text-muted">{lead}</p>
       <div class="mt-4">
-        <PracticeQuiz client:only="react" quizId={quizId} questions={questions} reportHref={reportHref} />
+        <PracticeQuiz client:only="react" quizId={quizId} questions={questions} reportHref={reportHref}>
+          <div slot="fallback" class="island-fallback h-[280px] lg:h-[300px]"></div>
+        </PracticeQuiz>
         <noscript>
           <p class="card p-4 text-muted">The quiz needs JavaScript.</p>
         </noscript>

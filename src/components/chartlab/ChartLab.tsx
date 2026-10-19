@@ -442,7 +442,7 @@ export default function ChartLab({ patterns }: { patterns: PatternInfo[] }) {
 
       {/* ---- explainer ---- */}
       <div id="cl-explain" className={`card p-4 ${ring('cl-explain')}`} aria-live="polite">
-        <h3 className="font-semibold">{t('cl.explain.title')}</h3>
+        <h2 className="font-semibold">{t('cl.explain.title')}</h2>
         {sel === null || !a ? (
           <p className="mt-1 text-sm text-muted">{t('cl.explain.hint')}</p>
         ) : (

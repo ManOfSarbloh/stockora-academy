@@ -23,7 +23,9 @@ const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
       countries={meta.countries}
       reportBase={reportMistakeHref('Quiz', pageUrl)}
       reportPage={pageUrl}
-    />
+    >
+      <div slot="fallback" class="island-fallback h-[760px] lg:h-[560px]"></div>
+    </QuizPlayer>
     <noscript><p class="card p-4 text-muted">The quiz needs JavaScript.</p></noscript>
   </div>
 </BaseLayout>

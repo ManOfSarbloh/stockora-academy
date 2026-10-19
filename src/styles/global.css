@@ -111,6 +111,12 @@
     color: var(--link);
     text-underline-offset: 0.2em;
   }
+  /* Links inside running text are underlined, so they are not told apart by colour alone (WCAG 1.4.1).
+     Styled links (buttons, cards, chips) carry classes and keep their own look. */
+  :where(p, li, td, dd, figcaption, small) > a:not([class]) {
+    text-decoration-line: underline;
+    text-decoration-thickness: 1px;
+  }
   :focus-visible {
     outline: 3px solid var(--focus);
     outline-offset: 2px;
@@ -296,6 +302,17 @@
   a.gloss:hover {
     color: var(--link);
   }
+  /* Space reserved for a client-only island until it renders (prevents layout shift). */
+  .island-fallback {
+    border-radius: 0.875rem;
+    background: var(--surface-2);
+    opacity: 0.5;
+  }
+  @media (scripting: none) {
+    .island-fallback {
+      display: none;
+    }
+  }
   .gloss-tip {
     position: absolute;
     z-index: 60;
@@ -319,19 +336,23 @@
     font-size: 0.85rem;
     font-weight: 600;
   }
+}
 
-  .prose-stockora {
-    --tw-prose-body: var(--text);
-    --tw-prose-headings: var(--text);
-    --tw-prose-links: var(--link);
-    --tw-prose-bold: var(--text);
-    --tw-prose-bullets: var(--muted);
-    --tw-prose-counters: var(--muted);
-    --tw-prose-quotes: var(--text);
-    --tw-prose-quote-borders: var(--teal);
-    --tw-prose-hr: var(--border);
-    --tw-prose-code: var(--text);
-    --tw-prose-th-borders: var(--border);
-    --tw-prose-td-borders: var(--border);
-  }
+/*
+ * Typography colours. Unlayered on purpose: the typography plugin's .prose rules live in the
+ * utilities layer, which would beat anything inside @layer components (dark mode broke that way).
+ */
+.prose-stockora {
+  --tw-prose-body: var(--text);
+  --tw-prose-headings: var(--text);
+  --tw-prose-links: var(--link);
+  --tw-prose-bold: var(--text);
+  --tw-prose-bullets: var(--muted);
+  --tw-prose-counters: var(--muted);
+  --tw-prose-quotes: var(--text);
+  --tw-prose-quote-borders: var(--teal);
+  --tw-prose-hr: var(--border);
+  --tw-prose-code: var(--text);
+  --tw-prose-th-borders: var(--border);
+  --tw-prose-td-borders: var(--border);
 }

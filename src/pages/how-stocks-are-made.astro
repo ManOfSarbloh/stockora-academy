@@ -83,7 +83,9 @@ const lastReviewed = [...steps, ...cases].map((e) => e.data.lastReviewed).sort()
 
               {d.tool === 'cap-table' && (
                 <div class="mt-8 max-w-4xl" data-pagefind-ignore>
-                  <CapTableSimulator client:only="react" />
+                  <CapTableSimulator client:only="react">
+                    <div slot="fallback" class="island-fallback h-[1300px]"></div>
+                  </CapTableSimulator>
                   <noscript>
                     <p class="card p-4 text-muted">{t('hsm.needsJs')}</p>
                   </noscript>
@@ -91,7 +93,9 @@ const lastReviewed = [...steps, ...cases].map((e) => e.data.lastReviewed).sort()
               )}
               {d.tool === 'bookbuilding' && (
                 <div class="mt-8 max-w-4xl" data-pagefind-ignore>
-                  <BookbuildingSimulator client:only="react" />
+                  <BookbuildingSimulator client:only="react">
+                    <div slot="fallback" class="island-fallback h-[1300px]"></div>
+                  </BookbuildingSimulator>
                   <noscript>
                     <p class="card p-4 text-muted">{t('hsm.needsJs')}</p>
                   </noscript>
@@ -183,7 +187,9 @@ const lastReviewed = [...steps, ...cases].map((e) => e.data.lastReviewed).sort()
       <h2 id="game-title" class="text-2xl font-bold tracking-tight sm:text-3xl">{t('hsm.game.title')}</h2>
       <p class="mt-2 max-w-3xl text-muted">{t('hsm.game.lead')}</p>
       <div class="mt-6">
-        <FounderGame client:only="react" />
+        <FounderGame client:only="react">
+          <div slot="fallback" class="island-fallback h-[460px] lg:h-[420px]"></div>
+        </FounderGame>
         <noscript>
           <p class="card p-4 text-muted">{t('hsm.needsJs')}</p>
         </noscript>

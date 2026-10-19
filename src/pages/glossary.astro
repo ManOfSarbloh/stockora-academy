@@ -48,7 +48,7 @@ const alphabet = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
             <nav aria-label="A–Z" class="mt-3 flex flex-wrap gap-1 text-sm">
               {alphabet.map((l) =>
                 groups.has(l) ? (
-                  <a href={`#letter-${l === '#' ? 'num' : l}`} class="rounded px-1.5 py-0.5 font-semibold no-underline hover:bg-surface-2">
+                  <a href={`#letter-${l === '#' ? 'num' : l}`} class="inline-flex min-h-7 min-w-7 items-center justify-center rounded px-1 font-semibold no-underline hover:bg-surface-2">
                     {l}
                   </a>
                 ) : (
@@ -94,11 +94,11 @@ const alphabet = ['#', ...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
                         <span>
                           {t('glossary.related')}:{' '}
                           {/* prettier-ignore */}
-                          {g.related.map((r, i) => (<>{i > 0 && ', '}<a href={`#${r}`}>{termById.get(r)?.term ?? r}</a></>))}
+                          {g.related.map((r, i) => (<>{i > 0 && ', '}<a href={`#${r}`} class="underline">{termById.get(r)?.term ?? r}</a></>))}
                         </span>
                       )}
                       {g.categories.map((c) => (
-                        <a href={url(`/learn/${categories.get(c)?.slug}`)} class="rounded-full bg-surface-2 px-2 py-0.5 text-muted no-underline hover:text-link">
+                        <a href={url(`/learn/${categories.get(c)?.slug}`)} class="inline-block rounded-full bg-surface-2 px-2 py-1 text-muted no-underline hover:text-link">
                           {c}. {categories.get(c)?.title}
                         </a>
                       ))}

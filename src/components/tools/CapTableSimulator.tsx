@@ -54,7 +54,9 @@ function NumberField(props: { label: string; value: number; onChange: (v: number
   );
 }
 
-export default function CapTableSimulator() {
+/** headingLevel: 3 inside a section of How Stocks Are Made, 2 on its own tool page. */
+export default function CapTableSimulator({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
+  const H = `h${headingLevel}` as 'h2' | 'h3';
   const [founders, setFounders] = useState<Holder[]>(defaultFounders);
   const [steps, setSteps] = useState<Step[]>(defaultSteps);
   const [counter, setCounter] = useState(3);
@@ -97,7 +99,7 @@ export default function CapTableSimulator() {
 
   return (
     <div className="card p-4 sm:p-6">
-      <h3 className="text-lg font-bold">{t('cap.title')}</h3>
+      <H className="text-lg font-bold">{t('cap.title')}</H>
       <p className="mt-1 text-sm text-muted">{t('cap.lead')}</p>
 
       {/* ---- Inputs ---- */}

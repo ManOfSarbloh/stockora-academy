@@ -33,7 +33,9 @@ const QMAX = 35_000_000;
 const x = (q: number) => M.left + (q / QMAX) * (W - M.left - M.right);
 const y = (p: number) => M.top + ((PMAX - p) / (PMAX - PMIN)) * (H - M.top - M.bottom);
 
-export default function BookbuildingSimulator() {
+/** headingLevel: 3 inside a section of How Stocks Are Made, 2 on its own tool page. */
+export default function BookbuildingSimulator({ headingLevel = 3 }: { headingLevel?: 2 | 3 }) {
+  const Heading = `h${headingLevel}` as 'h2' | 'h3';
   const sliderId = useId();
   const prices = priceSteps(OFFER.low, OFFER.high, OFFER.step);
   const [price, setPrice] = useState(20);
@@ -70,7 +72,7 @@ export default function BookbuildingSimulator() {
 
   return (
     <div className="card p-4 sm:p-6">
-      <h3 className="text-lg font-bold">{t('book.title')}</h3>
+      <Heading className="text-lg font-bold">{t('book.title')}</Heading>
       <p className="mt-1 text-sm text-muted">{t('book.lead', { company: OFFER.company, offered: int(OFFER.offered), before: int(OFFER.sharesBefore), low: eurCents(OFFER.low), high: eurCents(OFFER.high) })}</p>
 
       <div className="mt-5">

@@ -119,9 +119,9 @@ export default function FounderGame() {
   );
 
   const heading = (text: string) => (
-    <h4 ref={headingRef} tabIndex={-1} className="text-base font-bold outline-none sm:text-lg">
+    <h3 ref={headingRef} tabIndex={-1} className="text-base font-bold outline-none sm:text-lg">
       {text}
-    </h4>
+    </h3>
   );
 
   return (

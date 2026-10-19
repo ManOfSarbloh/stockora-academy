@@ -141,7 +141,14 @@ export default function QuizPlayer({ names, hrefs, topics, countries, reportBase
   }, [plan?.title]);
 
   if (error) return <p className="callout callout-warning">{t('quiz.loadError')}</p>;
-  if (!plan || !cfg) return <p className="card p-5 text-muted">{t('quiz.loading')}</p>;
+  if (!plan || !cfg) {
+    // Same size as the page's fallback, so the footer does not jump while questions load.
+    return (
+      <div className="island-fallback h-[760px] lg:h-[560px]" role="status">
+        <span className="sr-only">{t('quiz.loading')}</span>
+      </div>
+    );
+  }
 
   const reportHref = (q: Question) => {
     if (!reportBase.includes('github.com')) return reportBase;
@@ -177,6 +184,7 @@ export default function QuizPlayer({ names, hrefs, topics, countries, reportBase
             redraw={plan.redraw}
             hubHref="/quizzes"
             passPercent={plan.passPercent}
+            headingLevel={2}
           />
         )}
       </div>

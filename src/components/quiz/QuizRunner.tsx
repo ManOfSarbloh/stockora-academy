@@ -37,6 +37,8 @@ interface Props {
   redraw?: () => Question[];
   hubHref?: string;
   passPercent?: number;
+  /** Heading level for the question and the results title: 3 inside a lesson section, 2 on a page of its own. */
+  headingLevel?: 2 | 3;
 }
 
 type Phase = 'answering' | 'feedback' | 'done';
@@ -56,7 +58,10 @@ export default function QuizRunner({
   redraw,
   hubHref,
   passPercent,
+  headingLevel = 3,
 }: Props) {
+  const H = `h${headingLevel}` as 'h2' | 'h3';
+  const Sub = `h${headingLevel + 1}` as 'h3' | 'h4';
   const usable = useMemo(() => questions.filter(isSupported), [questions]);
   const exam = mode === 'exam';
   const [run, setRun] = useState<(Question & { src?: string })[]>([]);
@@ -226,9 +231,9 @@ export default function QuizRunner({
     const elapsed = (finishedAt || Date.now()) - startedAt;
     return (
       <div className="card p-5 sm:p-6">
-        <h3 ref={headingRef} tabIndex={-1} className="text-xl font-bold outline-none">
+        <H ref={headingRef} tabIndex={-1} className="text-xl font-bold outline-none">
           {pct === 100 ? t('quiz.perfect') : t('quiz.score', { score: correct, total: run.length, pct })}
-        </h3>
+        </H>
         <p className="mt-1 text-sm text-muted">
           {pct === 100 && <>{t('quiz.score', { score: correct, total: run.length, pct })} · </>}
           {t('quiz.timeTaken', { time: formatDuration(elapsed) })}
@@ -256,9 +261,9 @@ export default function QuizRunner({
 
         {multiCategory && rows.length > 1 && (
           <section className="mt-6" aria-labelledby={`${uid}-bd`}>
-            <h4 id={`${uid}-bd`} className="font-semibold">
+            <Sub id={`${uid}-bd`} className="font-semibold">
               {t('quiz.byTopic')}
-            </h4>
+            </Sub>
             <ul className="mt-3 space-y-2" aria-label={t('quiz.byTopicChart')}>
               {rows.map((r) => (
                 <li key={r.category} className="grid grid-cols-[minmax(0,10rem)_1fr_auto] items-center gap-3 text-sm sm:grid-cols-[minmax(0,14rem)_1fr_auto]">
@@ -279,7 +284,7 @@ export default function QuizRunner({
 
         {weak.length > 0 && (
           <section className="mt-6">
-            <h4 className="font-semibold">{t('quiz.weakTopics')}</h4>
+            <Sub className="font-semibold">{t('quiz.weakTopics')}</Sub>
             <ul className="mt-2 flex flex-wrap gap-2 text-sm">
               {weak.map((r) => (
                 <li key={r.category}>
@@ -298,7 +303,7 @@ export default function QuizRunner({
 
         {wrong.length > 0 && (
           <section className="mt-6">
-            <h4 className="font-semibold">{t('quiz.wrongAnswers')}</h4>
+            <Sub className="font-semibold">{t('quiz.wrongAnswers')}</Sub>
             <ul className="mt-3 space-y-3">
               {wrong.map((x) => (
                 <li key={x.id} className="rounded-lg border border-border p-3 text-sm">
@@ -392,9 +397,9 @@ export default function QuizRunner({
 
       <fieldset className="mt-4">
         <legend>
-          <h3 ref={headingRef} tabIndex={-1} className="text-base font-semibold outline-none sm:text-lg">
+          <H ref={headingRef} tabIndex={-1} className="text-base font-semibold outline-none sm:text-lg">
             {q.question}
-          </h3>
+          </H>
           {q.type === 'multiple_select' && <span className="mt-1 block text-sm text-muted">{t('quiz.selectAll')}</span>}
           {q.type === 'order' && <span className="mt-1 block text-sm text-muted">{t('quiz.orderHint')}</span>}
           {q.type === 'match' && <span className="mt-1 block text-sm text-muted">{t('quiz.matchHint')}</span>}
