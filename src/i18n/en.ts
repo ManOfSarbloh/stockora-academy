@@ -651,6 +651,7 @@ export const en = {
   'wm.marketCapGdp': 'Market capitalisation (% of GDP)',
   'wm.noFigure': 'No comparable recent figure',
   'wm.classification': 'FTSE Russell classification',
+  'wm.classificationHelp': 'what this means',
   'wm.exchanges': 'Exchanges',
   'wm.founded': 'Founded',
   'wm.hours': 'Trading hours (local time)',

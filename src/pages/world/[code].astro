@@ -143,7 +143,7 @@ const toc = [
         <p class="mt-4 text-sm">
           {t('wm.classification')}: <strong>{c.classification.ftse}</strong>
           <span class="text-muted">
-            ({t('wm.asOf', { date: c.classification.asOf })}; <a href={url('/learn/world-markets/market-classifications')}>what this means</a>)
+            ({t('wm.asOf', { date: c.classification.asOf })}; <a href={url('/learn/world-markets/market-classifications')}>{t('wm.classificationHelp')}</a>)
           </span>
         </p>
       </section>
