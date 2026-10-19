@@ -172,6 +172,20 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Gaps | The Netherlands has no video yet (no suitable AFM or Euronext Amsterdam explainer found); its page shows the brief's "Search YouTube" button. Several countries have one video only. 80 of 196 lessons have a lesson-specific video; every topic page shows 2–9 |
 | Checker | scripts/check-videos.js checks all IDs via oEmbed (existence, title similarity, channel). `npm run check:videos:write` also sets lastChecked to today for passing videos; `npm run verify:full` runs the normal verify plus the video check. It is not part of the plain build, because a build should not fail when YouTube is unreachable; a scheduled CI run is planned for Phase 12 |
 
+## Phase 11 (2026-10-19): Tools, history timeline and Scam Shield
+
+| Topic | Decision |
+|---|---|
+| Calculator maths | All formulas live in src/lib/calc.ts as pure functions, separate from the UI, with 23 tests in tests/calc.test.ts. The tests include the worked examples from the lessons (break-even €50.15, Alpenrad rights issue: TERP €19.20, right €0.80), so a calculator and its lesson cannot drift apart |
+| KESt estimate | The profit/loss calculator applies 27.5% (§ 27a EStG) to the gain before fees, because fees are not deductible for private investors (BMF). A loss produces no tax; loss offsetting across positions, foreign withholding tax and the option to use the normal income tax rate are not modelled. The result is labelled as an estimate, with a note to check with the BMF or a tax adviser and the official sources listed |
+| Tool registry | src/config/tools.ts lists every tool once (group, icon, lessons, sources). /tools is the hub; /tools/<slug> pages are generated for the 13 calculators. Tools that already had a page (Trading Times, country comparison, founder game, Chart Lab, candlestick encyclopedia, chart quiz) are linked to, not duplicated. Cap table and bookbuilding reuse the Phase 6 simulators. Every tool page shows "Learn more" lesson links, resolved and checked at build time |
+| Charts | The compound growth and savings plan charts have a legend, a hover readout and a table view; the compound chart can add a crash year and an inflation-adjusted line |
+| Brief items covered elsewhere | The indicator playground is Chart Lab, and the support/resistance trainer is part of the chart quiz. The paper-trading game was not built; it is a candidate for v2 |
+| History timeline | /history has 28 events from 1285 (Bruges) to 2024 (T+1 in North America), plus two dated planned events (Nasdaq 23/5 trading, EU T+1 in 2027) shown under "Coming up". Each event has what happened, why it mattered, a lesson, links to lessons, and at least one source. The validator checks ids, internal links and sources. The tulip mania entry separates myth from fact (UChicago Press) |
+| Sources skipped | The UK National Archives blog asked for human verification and was not used (Royal Museums Greenwich instead). History Today and Smithsonian returned 403 (UChicago Press instead). invent.org dates the stock ticker to 1863; the timeline keeps 1867 (first use on Wall Street) with NPR as an extra source. Claims no source supported were removed (e.g. on the flash crash and the dot-com bust) |
+| Scam Shield | /scams replaces the placeholder: a 14-item red-flag checklist (nothing is stored), five checks before investing (FMA company database, FMA warnings, IOSCO I-SCAN, contact details, ask the regulator), six fictional cases to sort into scam or legitimate (two are legitimate, so the answer is not always "scam"), what to do after fraud, and Austrian help links (FMA, Bundeskriminalamt, Watchlist Internet, AK, VKI). Sources: FMA warnings from 2018, 2022 and 2026, Investor.gov. No real firms are named. A claim about small first withdrawals was left out because no official source was found |
+| Placeholders | Every section is now live, so the ComingSoon component, plannedSections config and soon.* strings were removed |
+
 ## Open items
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
