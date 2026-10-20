@@ -1,0 +1,53 @@
+{
+  "flags": {
+    "high-returns": { "text": "Se prometen rentabilidades excepcionalmente altas o aparentemente sin riesgo", "why": "Toda inversión tiene riesgo. Las rentabilidades altas «garantizadas» son el cebo clásico." },
+    "steady-returns": { "text": "Las rentabilidades son sospechosamente estables, hagan lo que hagan los mercados", "why": "Las inversiones reales suben y bajan. Ganancias regulares todos los meses son típicas de los esquemas Ponzi." },
+    "time-pressure": { "text": "Te presionan para decidir rápido: «solo hoy», «últimas plazas»", "why": "Las prisas te impiden comprobar. Una oportunidad real aguanta un día para pensarlo." },
+    "unsolicited": { "text": "Te contactaron ellos primero: una llamada, un mensaje de un «número equivocado», un mensaje privado en redes sociales", "why": "La FMA (el supervisor financiero austriaco) ha calificado las llamadas no solicitadas para operaciones financieras como prohibidas en Austria y como una señal de alerta segura." },
+    "messenger": { "text": "El contacto solo se produce por aplicaciones de mensajería o en un grupo de chat", "why": "Los estafadores usan WhatsApp, Telegram y grupos de chat llenos de falsos «ganadores» para generar confianza y presión." },
+    "remote-access": { "text": "Te piden instalar un programa de acceso remoto (por ejemplo, una aplicación para compartir pantalla)", "why": "Permite a un desconocido controlar tu ordenador y quizá tu banca en línea. Ninguna empresa de inversión legítima lo necesita." },
+    "logins": { "text": "Te piden contraseñas, códigos de acceso o fotos de tu documento de identidad", "why": "Con tus datos de acceso, los estafadores pueden vaciar cuentas o abrir otras nuevas a tu nombre." },
+    "crypto-payment": { "text": "Te piden pagar con criptoactivos, en un cajero de bitcoin o mediante transferencia a un particular", "why": "Esos pagos van directamente a los estafadores y son muy difíciles de recuperar." },
+    "no-licence": { "text": "No encuentras la empresa en la base de datos de empresas de la FMA, o figura en una lista de advertencias", "why": "Quien ofrece servicios de inversión en Austria necesita autorización de la FMA." },
+    "details-differ": { "text": "La web, el correo, el teléfono o la dirección no coinciden con los del registro oficial", "why": "Las empresas clonadas copian el nombre y el número de registro de empresas reales." },
+    "withdrawal-fees": { "text": "Tu cuenta muestra ganancias, pero antes de retirarlas debes pagar «comisiones» o «impuestos»", "why": "Es un fraude de pago por adelantado. Cada nuevo pago solo aumenta la pérdida." },
+    "romance": { "text": "Un amigo en línea o un contacto sentimental al que nunca has visto en persona te sugiere invertir", "why": "Los estafadores sentimentales generan confianza durante semanas o meses antes de hablar de dinero." },
+    "fake-regulator": { "text": "Un «supervisor» o una «agencia de recuperación» te contacta y te pide dinero", "why": "Los supervisores no cobran comisiones a las víctimas. Las direcciones de correo auténticas de la FMA terminan únicamente en @fma.gv.at." },
+    "fake-endorsement": { "text": "Famosos, testimonios entusiastas o vídeos «demuestran» que otros se están haciendo ricos", "why": "Los estafadores pagan reseñas falsas y usan imágenes, vídeos y voces generados por IA." }
+  },
+  "scenarios": {
+    "wrong-number": { "channel": "WhatsApp", "from": "Número desconocido", "message": "Hola, ¿eres Martina? ¡Perdón, me he equivocado de número! 😊 Encantado de conocerte de todos modos. Soy trader y gano un 2 % al día con una estrategia de IA. Podría añadirte a nuestro grupo VIP, pero las plazas son limitadas.", "explain": "Contacto por un «número equivocado», una rentabilidad irreal (2 % al día), un grupo y escasez artificial: cuatro señales de alerta en tres frases." },
+    "bank-corporate-action": { "channel": "Carta de tu banco", "from": "Tu banco (dirección conocida)", "message": "Alpenrad AG está realizando una ampliación de capital con derechos de suscripción. Tiene usted 400 acciones y recibe 400 derechos de suscripción. Indíquenos su instrucción en la banca en línea antes del 12 de noviembre; de lo contrario, los derechos pueden caducar.", "explain": "Un aviso normal de una operación corporativa. Te pide actuar en tu propia banca en línea, no a través de un enlace ni de una llamada. Si tienes dudas, llama a tu banco al número que figura en su web, no a uno de un mensaje." },
+    "fma-email": { "channel": "Correo electrónico", "from": "FMA Compliance <compliance@fma-gov-at.com>", "message": "Estimado inversor: la Autoridad del Mercado Financiero ha localizado fondos que usted perdió con un bróker en línea. Para liberar 18.400 € a su favor, debe abonarse una tasa contra el blanqueo de capitales de 1.200 € en un plazo de 48 horas.", "explain": "Estafa de recuperación con un supervisor falso: el dominio no es @fma.gv.at, los supervisores nunca cobran comisiones a las víctimas y hay un plazo." },
+    "broker-remote": { "channel": "Llamada telefónica", "from": "«Gestor de cuenta sénior»", "message": "¡Sus primeras operaciones han ido muy bien! Para ayudarle con las siguientes, instale esta aplicación de soporte para que yo pueda ver su pantalla y guiarle en la transferencia.", "explain": "Una petición para instalar un programa de acceso remoto. Ninguna empresa legítima necesita controlar tu dispositivo." },
+    "etf-plan": { "channel": "La aplicación de tu bróker", "from": "Aplicación del bróker (la abriste tú)", "message": "Tu plan de ahorro mensual de 100 € en el ETF que elegiste se ejecutará el día 5. Comisión: 1,5 % por ejecución, según nuestra lista de precios.", "explain": "Dentro de una aplicación que instalaste y abriste tú, sobre un plan que configuraste tú. La comisión está indicada. Aun así, conviene comprobar que el bróker está autorizado y comparar costes (categoría F)." },
+    "withdrawal-tax": { "channel": "Chat de una plataforma de trading", "from": "Equipo de soporte", "message": "¡Enhorabuena, su saldo ya es de 38.000 €! Antes de tramitar su retirada, abone el 20 % del impuesto sobre las ganancias de capital (7.600 €) en nuestra cuenta fiscal.", "explain": "Fraude clásico de pago por adelantado: «ganancias» que no puedes retirar hasta que pagas más. Los impuestos reales no se pagan por el chat de una plataforma de trading." }
+  },
+  "checks": [
+    { "title": "¿Está autorizada?", "text": "Busca en la base de datos de empresas de la FMA y comprueba qué servicios puede prestar la empresa.", "link": "Base de datos de empresas de la FMA" },
+    { "title": "¿Hay alguna advertencia?", "text": "Busca en la lista de advertencias de la FMA. Una advertencia significa: no hagas negocios con ese proveedor.", "link": "Advertencias de la FMA" },
+    { "title": "¿Hay alguna alerta internacional?", "text": "Busca en I-SCAN de la IOSCO, que reúne advertencias de supervisores de todo el mundo (no todas verificadas de forma independiente).", "link": "IOSCO I-SCAN" },
+    { "title": "¿Coinciden los datos de contacto?", "text": "Compara la web, el dominio del correo, el teléfono y la dirección con el registro oficial, no con lo que te ha enviado la empresa. Comprueba que el supervisor mencionado existe de verdad.", "link": "La FMA sobre empresas clonadas y supervisores falsos" },
+    { "title": "¿Sigues con dudas? Pregunta al supervisor.", "text": "Contacta directamente con la FMA, con los datos de contacto de su propia web. Nunca instales un programa de acceso remoto para nadie ni compartas códigos de acceso.", "link": "Web de la FMA" }
+  ],
+  "afterSteps": [
+    { "title": "Contacta de inmediato con tu banco", "text": "Pregunta si se pueden detener o recuperar los pagos. La FMA subraya que actuar rápido puede evitar más daños." },
+    { "title": "Denúncialo a la policía", "text": "Presenta una denuncia en cualquier comisaría; la Oficina Federal de Investigación Criminal austriaca (Bundeskriminalamt) enumera puntos de denuncia para delitos en línea." },
+    { "title": "Denuncia los perfiles", "text": "Denuncia los perfiles y grupos fraudulentos en las plataformas donde los conociste." },
+    { "title": "Corta todo contacto y no envíes más dinero", "text": "No respondas a nuevas «ofertas», ni siquiera de quien diga que puede recuperar tu dinero." },
+    { "title": "Protege tus cuentas y dispositivos", "text": "Cambia las contraseñas. Si instalaste un programa de acceso remoto, elimínalo y haz revisar el dispositivo." },
+    { "title": "Guarda las pruebas", "text": "Guarda mensajes, correos, direcciones web, justificantes de transferencias y direcciones de monederos." },
+    { "title": "Cuidado con la segunda oleada", "text": "Las estafas de recuperación se dirigen a víctimas anteriores y a menudo se hacen pasar por supervisores o bufetes. Nunca pagues para recuperar tu dinero." }
+  ],
+  "links": [
+    { "name": "FMA: advertencias y base de datos de empresas", "text": "El supervisor financiero de Austria: comprueba proveedores y denuncia ofertas sospechosas." },
+    { "name": "Aplicación de la FMA", "text": "La aplicación gratuita de la FMA con su base de datos de empresas y las nuevas advertencias." },
+    { "name": "Bundeskriminalamt: puntos de denuncia", "text": "La Oficina Federal de Investigación Criminal de Austria indica dónde denunciar delitos, incluido el fraude en línea." },
+    { "name": "Watchlist Internet", "text": "Una plataforma austriaca independiente con advertencias actualizadas sobre fraudes en internet." },
+    { "name": "Arbeiterkammer (AK)", "text": "La Cámara de Trabajo de Austria, que ofrece asesoramiento a los consumidores." },
+    { "name": "VKI (Verein für Konsumenteninformation)", "text": "La asociación de consumidores de Austria." },
+    { "name": "Rincón del inversor de la ESMA", "text": "Información del supervisor europeo de valores para inversores minoristas, también sobre fraudes y estafas." },
+    { "name": "IOSCO I-SCAN", "text": "Alertas internacionales de supervisores de valores de todo el mundo." },
+    { "name": "Investor.gov: tipos de fraude", "text": "Explicaciones de la SEC estadounidense sobre esquemas Ponzi, estafas sentimentales, fraude de pago por adelantado y más (en inglés)." }
+  ]
+}
