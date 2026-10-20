@@ -39,5 +39,5 @@ export const legalNav: NavItem[] = [
  * repository exists; until then the links point to the Corrections page.
  */
 export const reportConfig = {
-  githubRepo: null as string | null,
+  githubRepo: 'ManOfSarbloh/stockora-academy' as string | null,
 };

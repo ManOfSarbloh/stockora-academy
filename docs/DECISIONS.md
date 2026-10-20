@@ -213,7 +213,7 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Taiwan protection | CDIC: NT$3 million per depositor and insured institution, principal and interest, NTD or foreign currency; securities firms are not covered. No official source was found for a securities investor compensation scheme, so none is stated |
 
 ## Open items
-- Create the GitHub repository, push `main`, enable Pages (Source: GitHub Actions), then set `reportConfig.githubRepo`.
+- Push `main` to github.com/ManOfSarbloh/stockora-academy and enable Pages (Source: GitHub Actions). `reportConfig.githubRepo` is set.
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
