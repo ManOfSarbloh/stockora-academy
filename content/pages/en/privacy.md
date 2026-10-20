@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 lead: "Short version: we do not track you."
-lastUpdated: 2026-10-16
+lastUpdated: 2026-10-20
 ---
 
 This policy describes how the site is built. The site owner must review it (ideally with legal advice) before the site goes public, especially the hosting section.
@@ -40,6 +40,10 @@ Lesson and topic pages include educational YouTube videos. A video does **not** 
 This website is hosted on GitHub Pages, a service of GitHub, Inc. Like any web server, the hosting provider receives technical data needed to deliver pages (for example your IP address and browser information) and may log it, for example for security purposes. We do not have access to visitor logs.
 
 The site owner must check GitHub's current terms and privacy statement for GitHub Pages, and add the required details here (provider, purpose, legal basis, data transfers).
+
+## Reporting a mistake
+
+The "Report a mistake" links open a pre-filled issue on GitHub. Nothing is sent until you submit it there, and GitHub's own privacy statement applies; you need a GitHub account to submit.
 
 ## Contact
 

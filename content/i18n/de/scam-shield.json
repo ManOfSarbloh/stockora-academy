@@ -1,0 +1,53 @@
+{
+  "flags": {
+    "high-returns": { "text": "Es werden außergewöhnlich hohe oder scheinbar risikolose Renditen versprochen", "why": "Jede Geldanlage hat Risiken. „Garantierte“ hohe Renditen sind der klassische Köder." },
+    "steady-returns": { "text": "Die Renditen sind verdächtig gleichmäßig, egal was die Märkte machen", "why": "Echte Anlagen schwanken. Gleichmäßige Gewinne Monat für Monat sind typisch für Schneeballsysteme." },
+    "time-pressure": { "text": "Du sollst schnell entscheiden: „nur heute“, „letzte Plätze“", "why": "Zeitdruck hält dich vom Prüfen ab. Eine echte Gelegenheit übersteht einen Tag Bedenkzeit." },
+    "unsolicited": { "text": "Sie haben dich zuerst kontaktiert: ein Anruf, eine Nachricht von einer „falschen Nummer“, eine Direktnachricht in sozialen Medien", "why": "Die FMA hat unerbetene Anrufe zu Finanzgeschäften als in Österreich verboten und als sicheres Warnsignal beschrieben." },
+    "messenger": { "text": "Der Kontakt läuft nur über Messenger-Apps oder eine Chatgruppe", "why": "Betrüger nutzen WhatsApp, Telegram und Chatgruppen voller falscher „Gewinner“, um Vertrauen und Druck aufzubauen." },
+    "remote-access": { "text": "Du sollst eine Fernwartungssoftware installieren (z. B. eine App zur Bildschirmfreigabe)", "why": "Damit kann eine fremde Person deinen Computer steuern und womöglich dein Online-Banking. Kein seriöses Wertpapierunternehmen braucht das." },
+    "logins": { "text": "Du wirst nach Passwörtern, Login-Codes oder Ausweisfotos gefragt", "why": "Mit deinen Zugangsdaten können Betrüger Konten leerräumen oder in deinem Namen neue eröffnen." },
+    "crypto-payment": { "text": "Du sollst in Kryptowerten, an einem Bitcoin-Automaten oder per Überweisung an eine Privatperson bezahlen", "why": "Solche Zahlungen gehen direkt an die Betrüger und sind kaum zurückzuholen." },
+    "no-licence": { "text": "Du findest das Unternehmen nicht in der Unternehmensdatenbank der FMA, oder es steht auf einer Warnliste", "why": "Wer in Österreich Wertpapierdienstleistungen anbietet, braucht eine Erlaubnis der FMA." },
+    "details-differ": { "text": "Website, E-Mail, Telefonnummer oder Adresse weichen von denen im offiziellen Register ab", "why": "Klon-Firmen kopieren den Namen und die Registernummer echter Unternehmen." },
+    "withdrawal-fees": { "text": "Dein Konto zeigt Gewinne, aber vor einer Auszahlung sollst du „Gebühren“ oder „Steuern“ zahlen", "why": "Das ist Vorschussbetrug. Jede weitere Zahlung vergrößert nur den Verlust." },
+    "romance": { "text": "Eine Online-Bekanntschaft oder ein romantischer Kontakt, den du nie getroffen hast, schlägt eine Geldanlage vor", "why": "Beim Beziehungsbetrug bauen Täter wochen- oder monatelang Vertrauen auf, bevor es um Geld geht." },
+    "fake-regulator": { "text": "Eine „Aufsichtsbehörde“ oder „Rückholagentur“ kontaktiert dich und verlangt Geld", "why": "Aufsichtsbehörden verlangen von Betroffenen keine Gebühren. Echte E-Mail-Adressen der FMA enden ausschließlich auf @fma.gv.at." },
+    "fake-endorsement": { "text": "Prominente, begeisterte Erfahrungsberichte oder Videos „beweisen“, dass andere reich werden", "why": "Betrüger bezahlen gefälschte Bewertungen und nutzen KI-erzeugte Bilder, Videos und Stimmen." }
+  },
+  "scenarios": {
+    "wrong-number": { "channel": "WhatsApp", "from": "Unbekannte Nummer", "message": "Hallo, bist du Martina? Sorry, falsche Nummer! 😊 Trotzdem schön, dich kennenzulernen. Ich bin Trader und mache mit einer KI-Strategie 2 % am Tag. Ich könnte dich in unsere VIP-Gruppe aufnehmen, aber die Plätze sind begrenzt.", "explain": "Kontakt über eine „falsche Nummer“, eine unrealistische Rendite (2 % am Tag), eine Gruppe und künstliche Knappheit: vier Warnsignale in drei Sätzen." },
+    "bank-corporate-action": { "channel": "Brief deiner Bank", "from": "Deine Bank (bekannte Adresse)", "message": "Die Alpenrad AG führt eine Kapitalerhöhung mit Bezugsrecht durch. Sie halten 400 Aktien und erhalten 400 Bezugsrechte. Bitte erteilen Sie uns bis 12. November im Online-Banking Ihren Auftrag; andernfalls können die Bezugsrechte verfallen.", "explain": "Eine normale Mitteilung zu einer Kapitalmaßnahme. Sie verlangt, dass du in deinem eigenen Online-Banking handelst, nicht über einen Link oder einen Anruf. Im Zweifel ruf deine Bank unter der Nummer auf ihrer Website an, nicht unter einer Nummer aus einer Nachricht." },
+    "fma-email": { "channel": "E-Mail", "from": "FMA Compliance <compliance@fma-gov-at.com>", "message": "Sehr geehrte Anlegerin, sehr geehrter Anleger, die Finanzmarktaufsicht hat Gelder gefunden, die Sie an einen Online-Broker verloren haben. Für die Freigabe von 18.400 € an Sie ist innerhalb von 48 Stunden eine Geldwäsche-Gebühr von 1.200 € zu bezahlen.", "explain": "Rückholbetrug mit einer falschen Aufsichtsbehörde: Die Domain ist nicht @fma.gv.at, Aufsichtsbehörden verlangen von Betroffenen nie Gebühren, und es gibt eine Frist." },
+    "broker-remote": { "channel": "Telefonanruf", "from": "„Senior Account Manager“", "message": "Ihre ersten Trades sind sehr gut gelaufen! Damit ich Ihnen bei den nächsten helfen kann, installieren Sie bitte diese Support-App, dann sehe ich Ihren Bildschirm und führe Sie durch die Überweisung.", "explain": "Eine Aufforderung, Fernwartungssoftware zu installieren. Kein seriöses Unternehmen muss dein Gerät steuern." },
+    "etf-plan": { "channel": "App deines Brokers", "from": "Broker-App (von dir selbst geöffnet)", "message": "Dein monatlicher Sparplan über 100 € in den von dir gewählten ETF wird am 5. ausgeführt. Gebühr: 1,5 % je Ausführung, laut unserem Preisverzeichnis.", "explain": "In einer App, die du selbst installiert und geöffnet hast, zu einem Plan, den du eingerichtet hast. Die Gebühr ist offengelegt. Trotzdem lohnt es sich zu prüfen, ob der Broker zugelassen ist, und die Kosten zu vergleichen (Kategorie F)." },
+    "withdrawal-tax": { "channel": "Chat einer Handelsplattform", "from": "Support-Team", "message": "Glückwunsch, Ihr Guthaben beträgt jetzt 38.000 €! Bevor wir Ihre Auszahlung bearbeiten können, überweisen Sie bitte die 20 % Kapitalertragsteuer (7.600 €) auf unser Steuerkonto.", "explain": "Klassischer Vorschussbetrug: „Gewinne“, die du erst abheben darfst, wenn du noch mehr zahlst. Echte Steuern zahlt man nicht über den Chat einer Handelsplattform." }
+  },
+  "checks": [
+    { "title": "Ist der Anbieter zugelassen?", "text": "Suche in der Unternehmensdatenbank der FMA und prüfe, welche Dienstleistungen das Unternehmen erbringen darf.", "link": "Unternehmensdatenbank der FMA" },
+    { "title": "Gibt es eine Warnung?", "text": "Suche in der Warnliste der FMA. Eine Warnung bedeutet: Mit diesem Anbieter keine Geschäfte machen.", "link": "Warnungen der FMA" },
+    { "title": "Gibt es eine internationale Warnung?", "text": "Suche in I-SCAN der IOSCO, das Warnungen von Aufsichtsbehörden weltweit sammelt (nicht alle unabhängig überprüft).", "link": "IOSCO I-SCAN" },
+    { "title": "Stimmen die Kontaktdaten?", "text": "Vergleiche Website, E-Mail-Domain, Telefonnummer und Adresse mit dem offiziellen Register, nicht mit dem, was dir das Unternehmen geschickt hat. Prüfe, ob die genannte Aufsichtsbehörde wirklich existiert.", "link": "FMA über Klon-Firmen und falsche Aufsichtsbehörden" },
+    { "title": "Immer noch unsicher? Frag die Aufsicht.", "text": "Kontaktiere die FMA direkt, mit den Kontaktdaten von ihrer eigenen Website. Installiere niemals Fernwartungssoftware für irgendjemanden und gib keine Login-Codes weiter.", "link": "Website der FMA" }
+  ],
+  "afterSteps": [
+    { "title": "Sofort deine Bank kontaktieren", "text": "Frag, ob Zahlungen gestoppt oder zurückgeholt werden können. Die FMA betont, dass schnelles Handeln weiteren Schaden verhindern kann." },
+    { "title": "Bei der Polizei anzeigen", "text": "Erstatte Anzeige bei jeder Polizeiinspektion; das Bundeskriminalamt listet Meldestellen für Internetkriminalität auf." },
+    { "title": "Die Profile melden", "text": "Melde die betrügerischen Profile und Gruppen bei den Plattformen, auf denen du sie getroffen hast." },
+    { "title": "Jeden Kontakt abbrechen und kein Geld mehr senden", "text": "Reagiere nicht auf neue „Angebote“, auch nicht von Leuten, die behaupten, dein Geld zurückholen zu können." },
+    { "title": "Konten und Geräte absichern", "text": "Ändere Passwörter. Wenn du Fernwartungssoftware installiert hast, entferne sie und lass das Gerät überprüfen." },
+    { "title": "Beweise sichern", "text": "Speichere Nachrichten, E-Mails, Website-Adressen, Überweisungsbelege und Wallet-Adressen." },
+    { "title": "Vorsicht vor der zweiten Welle", "text": "Rückholbetrüger zielen auf frühere Opfer und geben sich oft als Aufsichtsbehörden oder Anwaltskanzleien aus. Zahle niemals dafür, dein Geld zurückzubekommen." }
+  ],
+  "links": [
+    { "name": "FMA: Warnungen und Unternehmensdatenbank", "text": "Die österreichische Finanzmarktaufsicht: Anbieter prüfen und verdächtige Angebote melden." },
+    { "name": "FMA-App", "text": "Die kostenlose App der FMA mit Unternehmensdatenbank und neuen Warnungen." },
+    { "name": "Bundeskriminalamt: Meldestellen", "text": "Das Bundeskriminalamt listet auf, wo man Straftaten melden kann, auch Online-Betrug." },
+    { "name": "Watchlist Internet", "text": "Eine unabhängige österreichische Plattform mit aktuellen Warnungen vor Internetbetrug." },
+    { "name": "Arbeiterkammer (AK)", "text": "Die Arbeiterkammer bietet Konsumentenberatung an." },
+    { "name": "VKI (Verein für Konsumenteninformation)", "text": "Der österreichische Verbraucherverband." },
+    { "name": "ESMA Investor Corner", "text": "Informationen der EU-Wertpapieraufsicht für Privatanleger, auch zu Betrug." },
+    { "name": "IOSCO I-SCAN", "text": "Internationale Warnungen von Wertpapieraufsichtsbehörden weltweit." },
+    { "name": "Investor.gov: Betrugsarten", "text": "Erklärungen der US-Börsenaufsicht SEC zu Schneeballsystemen, Beziehungsbetrug, Vorschussbetrug und mehr (auf Englisch)." }
+  ]
+}

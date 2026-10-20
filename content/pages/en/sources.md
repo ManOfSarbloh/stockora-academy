@@ -1,7 +1,7 @@
 ---
 title: "Sources & Methodology"
 lead: "How content on Stockora Academy is researched, written and kept up to date."
-lastUpdated: 2026-10-11
+lastUpdated: 2026-10-20
 ---
 
 ## Which sources we use
@@ -27,7 +27,7 @@ Every factual page shows a **last reviewed** date and lists its sources. Facts t
 
 ## Videos
 
-Videos are chosen for accuracy and neutrality, preferring educators, universities, public broadcasters, regulators and exchanges. We exclude channels that sell trading courses, signals or broker referrals. Links are checked automatically on every build.
+Videos are chosen for accuracy and neutrality, preferring educators, universities, public broadcasters, regulators and exchanges. We exclude channels that sell trading courses, signals or broker referrals. Video and source links are checked automatically every week, and broken ones are fixed or removed.
 
 ## Mistakes
 

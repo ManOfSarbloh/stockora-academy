@@ -805,7 +805,7 @@ export const en = {
   'qh.custom.pick': 'Choose at least one topic.',
   'qh.special.title': 'Special quizzes',
   'qh.topics.title': 'Topic quizzes',
-  'qh.topics.lead': 'One quiz for each of the 22 topics. Score 80% or more to master a topic.',
+  'qh.topics.lead': 'One quiz for each of the 23 topics. Score 80% or more to master a topic.',
   'qh.countries.title': 'Country quizzes',
   'qh.countries.lead': 'One quiz for every country page. Complete them all for the World Traveler badge.',
   'qh.best': 'Best {pct}%',
