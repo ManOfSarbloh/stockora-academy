@@ -212,8 +212,9 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Japan protection | DICJ (Japanese page, current): ¥10 million principal per depositor and bank plus interest; non-interest settlement deposits in full; foreign-currency deposits not covered. JIPF (English): up to ¥10 million per customer if a failed securities firm cannot return segregated assets; no cover for price falls. DICJ's English guide (FY2005) was not used because of its age |
 | Taiwan protection | CDIC: NT$3 million per depositor and insured institution, principal and interest, NTD or foreign currency; securities firms are not covered. No official source was found for a securities investor compensation scheme, so none is stated |
 
+| Deployment | 2026-10-20: public repository github.com/ManOfSarbloh/stockora-academy, GitHub Pages (Source: GitHub Actions), live at https://manofsarbloh.github.io/stockora-academy/. The first run failed at configure-pages until Pages was enabled; the re-run passed build (verify incl. built-site check) and deploy |
+
 ## Open items
-- Push `main` to github.com/ManOfSarbloh/stockora-academy and enable Pages (Source: GitHub Actions). `reportConfig.githubRepo` is set.
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
