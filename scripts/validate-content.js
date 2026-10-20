@@ -180,6 +180,56 @@ for (const e of exchangeList) {
   if (!(e.holidayYears ?? []).includes(thisYear + 1) && new Date().getUTCMonth() >= 10) staleWarnings.push(`${e.id}: no ${thisYear + 1} holidays yet`);
 }
 
+// ---- Translations (content/i18n/<locale>/*.json, content/pages/<locale>/*.md) ----
+const LOCALES = ['de', 'es', 'fr', 'it', 'ru'];
+const translationStatus = [];
+const scamShield = readJSON('content/scam-shield.json');
+const glossaryById = new Map(glossary.map((g) => [g.id, g]));
+if (existsSync('content/i18n')) {
+  for (const loc of readdirSync('content/i18n')) {
+    if (!LOCALES.includes(loc)) {
+      errors.push(`content/i18n/${loc}: unknown language (expected one of ${LOCALES.join(', ')})`);
+      continue;
+    }
+    const status = [];
+    for (const f of readdirSync(`content/i18n/${loc}`).filter((n) => n.endsWith('.json'))) {
+      const where = `content/i18n/${loc}/${f}`;
+      const data = readJSON(where);
+      if (f === 'categories.json') {
+        for (const [id, v] of Object.entries(data)) {
+          if (!catIds.has(id)) errors.push(`${where}: unknown category "${id}"`);
+          if (!v.title || !v.summary) errors.push(`${where} ${id}: needs title and summary`);
+        }
+        status.push(`categories ${Object.keys(data).length}/${catIds.size}`);
+      } else if (f === 'glossary.json') {
+        for (const [id, v] of Object.entries(data)) {
+          const g = glossaryById.get(id);
+          if (!g) errors.push(`${where}: unknown term "${id}"`);
+          if (!v.term || !v.definition) errors.push(`${where} ${id}: needs term and definition`);
+          if (g && Boolean(v.example) !== Boolean(g.example)) errors.push(`${where} ${id}: example must be present exactly when the English entry has one`);
+        }
+        status.push(`glossary ${Object.keys(data).length}/${glossary.length}`);
+      } else if (f === 'scam-shield.json') {
+        const same = (a, b) => a.length === b.length && a.every((x) => b.includes(x));
+        if (!same(Object.keys(data.flags ?? {}), scamShield.flags.map((x) => x.id))) errors.push(`${where}: flags must have exactly the English ids`);
+        if (!same(Object.keys(data.scenarios ?? {}), scamShield.scenarios.map((x) => x.id))) errors.push(`${where}: scenarios must have exactly the English ids`);
+        for (const k of ['checks', 'afterSteps', 'links'])
+          if ((data[k] ?? []).length !== scamShield[k].length) errors.push(`${where}: ${k} must have ${scamShield[k].length} entries, in the English order`);
+        status.push('scam shield');
+      } else errors.push(`${where}: unknown translation file`);
+    }
+    translationStatus.push(`${loc}: ${status.join(', ') || 'no data files'}`);
+  }
+}
+if (existsSync('content/pages')) {
+  const enPages = new Set(readdirSync('content/pages/en').filter((n) => n.endsWith('.md')));
+  for (const loc of readdirSync('content/pages')) {
+    if (loc === 'en') continue;
+    if (!LOCALES.includes(loc)) errors.push(`content/pages/${loc}: unknown language`);
+    for (const f of readdirSync(`content/pages/${loc}`)) if (!enPages.has(f)) errors.push(`content/pages/${loc}/${f}: there is no English page with this name`);
+  }
+}
+
 // Report
 const total = qIds.size;
 const pct = (n) => (total ? `${Math.round((n / total) * 100)}%` : '-');
@@ -196,6 +246,8 @@ console.log(
   `    difficulty    beginner ${pct(byDifficulty.beginner)}, intermediate ${pct(byDifficulty.intermediate)}, advanced ${pct(byDifficulty.advanced)} (target 40/40/20)`,
 );
 for (const [f, n] of Object.entries(perFile)) console.log(`    ${f.padEnd(30)}${n}`);
+
+if (translationStatus.length) console.log(`  translations\n    ${translationStatus.join('\n    ')}`);
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s):`);

@@ -1,0 +1,103 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import CategoryCard from '@/components/CategoryCard.astro';
+import HomeProgress from '@/components/HomeProgress.astro';
+import ProgressScript from '@/components/ProgressScript.astro';
+import { getCategories } from '@/lib/categories';
+import { getLessonKeysByCategory } from '@/lib/lessons';
+import { t } from '@/i18n';
+
+const categories = await getCategories();
+const keys = await getLessonKeysByCategory();
+const withLessons = categories.filter((c) => keys[c.id]?.length);
+---
+
+<BaseLayout title={t('me.title')} description={t('me.lead')} searchable={false} noindex>
+  <PageHeader title={t('me.title')} lead={t('me.lead')} />
+  <div class="container-page py-10">
+    <p id="storage-warning" class="callout callout-warning hidden">{t('me.storageNote')}</p>
+
+    <div class="max-w-md"><HomeProgress /></div>
+
+    <section class="mt-12" aria-labelledby="bookmarks-title">
+      <h2 id="bookmarks-title" class="text-xl font-bold">{t('me.bookmarks')}</h2>
+      <p id="no-bookmarks" class="card mt-4 p-5 text-muted">{t('me.noBookmarks')}</p>
+      <ul id="bookmark-list" class="mt-4 max-w-3xl space-y-2" data-remove-label={t('me.remove')}></ul>
+    </section>
+
+    {
+      withLessons.length > 0 && (
+        <section class="mt-12" aria-labelledby="topics-title">
+          <h2 id="topics-title" class="text-xl font-bold">{t('me.byTopic')}</h2>
+          <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {withLessons.map((c) => (
+              <li>
+                <CategoryCard category={c} lessonKeys={keys[c.id]} />
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    <button type="button" id="reset" class="btn btn-ghost mt-12 text-sm" data-confirm={t('me.resetConfirm')}>
+      {t('me.reset')}
+    </button>
+  </div>
+  <ProgressScript />
+</BaseLayout>
+
+<script>
+  import { BOOKMARKS_KEY, PROGRESS_KEY, loadBookmarks, notifyChange, saveBookmarks, CHANGE_EVENT } from '@/lib/progress';
+  import { remove, writeJSON } from '@/lib/storage';
+  import { resetQuizData } from '@/lib/quiz-store';
+
+  if (!writeJSON('storage-test', 1)) document.getElementById('storage-warning')?.classList.remove('hidden');
+  remove('storage-test');
+
+  const list = document.getElementById('bookmark-list')!;
+  const empty = document.getElementById('no-bookmarks')!;
+
+  function renderBookmarks() {
+    const items = loadBookmarks();
+    empty.classList.toggle('hidden', items.length > 0);
+    list.replaceChildren(
+      ...items.map((b) => {
+        const li = document.createElement('li');
+        li.className = 'card flex items-center justify-between gap-3 p-3';
+        const a = document.createElement('a');
+        a.href = b.href;
+        a.textContent = b.title;
+        a.className = 'font-medium';
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'rounded-md px-2 py-1 text-sm text-muted hover:bg-surface-2';
+        btn.textContent = list.dataset.removeLabel ?? 'Remove';
+        btn.setAttribute('aria-label', `${btn.textContent}: ${b.title}`);
+        btn.addEventListener('click', () => {
+          saveBookmarks(loadBookmarks().filter((x) => x.key !== b.key));
+          notifyChange();
+        });
+        li.append(a, btn);
+        return li;
+      }),
+    );
+  }
+
+  document.getElementById('reset')!.addEventListener('click', (e) => {
+    const btn = e.currentTarget as HTMLButtonElement;
+    if (!window.confirm(btn.dataset.confirm)) return;
+    remove(PROGRESS_KEY);
+    remove(BOOKMARKS_KEY);
+    resetQuizData();
+    location.reload();
+  });
+
+  renderBookmarks();
+  window.addEventListener(CHANGE_EVENT, renderBookmarks);
+  window.addEventListener('storage', renderBookmarks);
+</script>

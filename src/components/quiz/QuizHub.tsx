@@ -6,6 +6,7 @@
 import { useEffect, useId, useState } from 'react';
 import { t, type UiKey } from '@/i18n';
 import { url } from '@/lib/url';
+import { dateLong } from '@/lib/format';
 import {
   BADGES,
   EXAM,
@@ -111,7 +112,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
   const levelOptions: (Level | '')[] = ['', 'beginner', 'intermediate', 'advanced'];
   const levelLabel = (l: Level | '') => (l ? t(`qh.level.${l}` as UiKey) : t('qh.anyLevel'));
   const fmtDate = (d: string) =>
-    new Date(`${d}T12:00:00`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    dateLong(d);
 
   const radioGroup = <T extends string | number>(name: string, legend: string, value: T, set: (v: T) => void, options: { v: T; label: string }[]) => (
     <fieldset className="mt-3">

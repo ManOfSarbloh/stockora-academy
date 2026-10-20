@@ -1,0 +1,156 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+/**
+ * Candlestick Encyclopedia: one card per pattern from content/candles.json, with an original
+ * drawing generated from the same OHLC data the Chart Lab and the lessons use.
+ */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import Callout from '@/components/Callout.astro';
+import patternsData from '../../../../content/candles.json';
+import { exampleSeries, type PatternDef } from '@/lib/chart/examples';
+import { patternSvg } from '@/lib/chart/svg';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+interface Pattern extends PatternDef {
+  aka?: string[];
+  formation: string;
+  reading: string;
+  confirmation: string;
+  failure: string;
+  tested?: { page: string; theory: string; result: string };
+}
+const patterns = patternsData as unknown as Pattern[];
+const biasKey = (b: string) => (['bullish', 'bearish', 'neutral', 'continuation'].includes(b) ? b : 'neutral') as 'bullish' | 'bearish' | 'neutral' | 'continuation';
+const contextText = { 'after-downtrend': t('cc.context.down'), 'after-uptrend': t('cc.context.up'), any: t('cc.context.any') };
+const groups = [
+  { kind: 'single', title: t('cc.single') },
+  { kind: 'multi', title: t('cc.multi') },
+] as const;
+---
+
+<BaseLayout title={t('cc.title')} description={t('cc.lead')}>
+  <PageHeader title={t('cc.title')} lead={t('cc.lead')} eyebrow={t('nav.charts')}>
+    <p class="mt-4 text-sm">
+      <a href={url('/charts')}>← {t('cc.backToSchool')}</a> · <a href={url('/charts/lab')}>{t('cc.openLab')}</a>
+    </p>
+  </PageHeader>
+
+  <div class="container-page py-8">
+    <div class="max-w-3xl">
+      <Callout kind="warning" title={t('cc.promiseTitle')}>
+        <p>{t('cc.promiseBody')}</p>
+      </Callout>
+    </div>
+
+    <div class="mt-6 flex flex-wrap gap-2" role="group" aria-label={t('cc.filter')} data-pagefind-ignore>
+      {
+        ['all', 'single', 'multi', 'bullish', 'bearish', 'neutral'].map((f, i) => (
+          <button type="button" class:list={['cc-filter btn btn-ghost px-3 py-1.5 text-sm', i === 0 && 'border-link']} data-filter={f} aria-pressed={i === 0 ? 'true' : 'false'}>
+            {t(`cc.filter.${f}` as never)}
+          </button>
+        ))
+      }
+    </div>
+
+    {
+      groups.map((g) => (
+        <section class="mt-10" aria-labelledby={`cc-${g.kind}`}>
+          <h2 id={`cc-${g.kind}`} class="text-2xl font-bold tracking-tight">
+            {g.title}
+          </h2>
+          <ul class="mt-4 grid gap-5 md:grid-cols-2 xl:grid-cols-3">
+            {patterns
+              .filter((p) => p.kind === g.kind)
+              .map((p) => {
+                const { candles, contextCount } = exampleSeries(p);
+                const svg = patternSvg(candles, contextCount, `${p.name}: example drawing`, { width: 300, height: 180 });
+                const bias = biasKey(p.traditionalBias);
+                return (
+                  <li id={p.id} class="cc-card card flex scroll-mt-24 flex-col p-4" data-kind={p.kind} data-bias={bias === 'continuation' ? 'neutral' : bias}>
+                    <div class="overflow-hidden rounded-lg border border-border" set:html={svg} />
+                    <h3 class="mt-3 text-lg font-bold">{p.name}</h3>
+                    {p.aka && <p class="text-xs text-muted">{t('cc.aka')}: {p.aka.join(', ')}</p>}
+                    <p class="mt-1 flex flex-wrap gap-2 text-xs">
+                      <span class:list={['tt-badge', bias === 'bullish' ? 'tt-open' : bias === 'bearish' ? 'tt-pause' : 'tt-closed']}>
+                        {t(`cc.bias.${bias}` as never)}
+                      </span>
+                      <span class="tt-badge tt-closed">{contextText[p.context]}</span>
+                    </p>
+                    <dl class="mt-3 space-y-2 text-sm">
+                      <div>
+                        <dt class="font-semibold">{t('cc.formation')}</dt>
+                        <dd class="text-muted">{p.formation}</dd>
+                      </div>
+                      <div>
+                        <dt class="font-semibold">{t('cc.reading')}</dt>
+                        <dd class="text-muted">{p.reading}</dd>
+                      </div>
+                      <div>
+                        <dt class="font-semibold">{t('cc.confirmation')}</dt>
+                        <dd class="text-muted">{p.confirmation}</dd>
+                      </div>
+                      <div>
+                        <dt class="font-semibold">{t('cc.failure')}</dt>
+                        <dd class="text-muted">{p.failure}</dd>
+                      </div>
+                      {p.tested && (
+                        <div class="rounded-lg bg-surface-2 p-2.5">
+                          <dt class="font-semibold">{t('cc.tested')}</dt>
+                          <dd class="text-muted">
+                            {t('cc.testedBody', { theory: p.tested.theory, result: p.tested.result })}{' '}
+                            <a href={p.tested.page} rel="noopener">
+                              {t('cc.testedSource')}
+                            </a>
+                          </dd>
+                        </div>
+                      )}
+                    </dl>
+                    <a href={url(`/charts/lab?pattern=${p.id}`)} class="mt-auto pt-3 text-sm font-medium">
+                      {t('cc.tryInLab')} →
+                    </a>
+                  </li>
+                );
+              })}
+          </ul>
+        </section>
+      ))
+    }
+
+    <section class="mt-12 max-w-3xl text-sm text-muted" aria-labelledby="cc-sources">
+      <h2 id="cc-sources" class="text-base font-bold text-text">{t('learn.sources')}</h2>
+      <p class="mt-1">{t('cc.sourcesBody')}</p>
+      <ul class="mt-2 list-disc space-y-1 pl-5">
+        <li><a href="https://thepatternsite.com/CandleEntry.html" rel="noopener">Thomas N. Bulkowski, ThePatternSite: candlestick pattern index</a></li>
+        <li><a href={url('/learn/technical-analysis/limits-of-patterns')}>{t('cc.limitsLesson')}</a></li>
+      </ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  // Simple client-side filter; all cards are in the HTML, so the page works without JavaScript.
+  const buttons = document.querySelectorAll<HTMLButtonElement>('.cc-filter');
+  const cards = document.querySelectorAll<HTMLElement>('.cc-card');
+  buttons.forEach((b) =>
+    b.addEventListener('click', () => {
+      const f = b.dataset.filter!;
+      buttons.forEach((x) => {
+        const on = x === b;
+        x.setAttribute('aria-pressed', String(on));
+        x.classList.toggle('border-link', on);
+      });
+      cards.forEach((c) => {
+        const show = f === 'all' || c.dataset.kind === f || c.dataset.bias === f;
+        c.hidden = !show;
+      });
+      document.querySelectorAll<HTMLElement>('section[aria-labelledby^="cc-"]').forEach((s) => {
+        const list = s.querySelectorAll<HTMLElement>('.cc-card');
+        if (list.length) s.hidden = [...list].every((c) => c.hidden);
+      });
+    }),
+  );
+</script>

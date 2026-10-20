@@ -3,6 +3,8 @@
  * Kept free of Astro imports so it can be unit-tested.
  */
 import marketSizeData from '../../content/world/market-size.json';
+import { t } from '@/i18n';
+import { int, num } from '@/lib/format';
 
 interface Figure {
   value: number;
@@ -38,8 +40,8 @@ export function marketSize(code: string): MarketSize {
   };
 }
 
-/** "$2.05 trillion" / "$824 billion" */
+/** "$2.05 trillion" / "$824 billion" (in the page's language) */
 export function formatUsd(value: number): string {
-  if (value >= 1e12) return `$${(value / 1e12).toFixed(2)} trillion`;
-  return `$${Math.round(value / 1e9).toLocaleString('en-GB')} billion`;
+  if (value >= 1e12) return t('fmt.usdTrillion', { n: num(value / 1e12, 2) });
+  return t('fmt.usdBillion', { n: int(Math.round(value / 1e9)) });
 }

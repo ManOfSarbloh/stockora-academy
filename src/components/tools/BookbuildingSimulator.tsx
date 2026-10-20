@@ -4,7 +4,7 @@
  * for teaching; it does not describe any real IPO.
  */
 import { useId, useMemo, useState } from 'react';
-import { t } from '@/i18n';
+import { t, type UiKey } from '@/i18n';
 import { allocate, demandAt, highestCoveredPrice, priceSteps, summarise, type BookOrder } from '@/lib/bookbuilding';
 import { eurCents, eurShort, int, pct } from '@/lib/format';
 
@@ -20,6 +20,19 @@ export const BOOK: BookOrder[] = [
   { investor: 'Family office I', shares: 3_000_000, maxPrice: 18.5 },
   { investor: 'Fund J', shares: 3_000_000, maxPrice: 18 },
 ];
+
+/** Display name of a fictional investor in the page's language: "Pension fund C" → "Pensionsfonds C". */
+const INVESTOR_KIND: Record<string, UiKey> = {
+  Fund: 'book.inv.fund',
+  'Pension fund': 'book.inv.pension',
+  Insurer: 'book.inv.insurer',
+  'Hedge fund': 'book.inv.hedge',
+  'Family office': 'book.inv.family',
+};
+function investorName(name: string): string {
+  const m = name.match(/^(.*) ([A-Z])$/);
+  return m && INVESTOR_KIND[m[1]] ? t(INVESTOR_KIND[m[1]], { x: m[2] }) : name;
+}
 
 export const OFFER = { company: 'Alpenbyte AG', sharesBefore: 30_000_000, offered: 10_000_000, low: 18, high: 22, step: 0.5 };
 
@@ -194,7 +207,7 @@ export default function BookbuildingSimulator({ headingLevel = 3 }: { headingLev
           <tbody>
             {alloc.map((a, i) => (
               <tr key={a.investor} className={`border-b border-border/60 ${a.allocated === 0 ? 'text-muted' : ''}`}>
-                <th scope="row" className="py-1.5 pr-3 text-left font-medium">{a.investor}</th>
+                <th scope="row" className="py-1.5 pr-3 text-left font-medium">{investorName(a.investor)}</th>
                 <td className="py-1.5 pr-3 text-right">{int(a.ordered)}</td>
                 <td className="py-1.5 pr-3 text-right">{eurCents(BOOK[i].maxPrice)}</td>
                 <td className="py-1.5 text-right">{a.allocated ? int(a.allocated) : t('book.none')}</td>

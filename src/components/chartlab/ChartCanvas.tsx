@@ -5,6 +5,7 @@
  */
 import { useEffect, useRef, useState, type PointerEvent as ReactPointerEvent } from 'react';
 import type { Candle } from '@/lib/chart/core';
+import { int } from '@/lib/format';
 import { fibLevels, measure, priceExtent, xScale, yScale, type Window } from '@/lib/chart/viewport';
 
 export type ChartType = 'candle' | 'bar' | 'line' | 'ha';
@@ -238,7 +239,7 @@ export default function ChartCanvas(props: ChartCanvasProps) {
         {hc ? (
           <>
             {timeLabel ? <strong className="text-text">{timeLabel(hc)} </strong> : null}O <span className="text-text">{fmt(hc.o)}</span> H <span className="text-text">{fmt(hc.h)}</span> L{' '}
-            <span className="text-text">{fmt(hc.l)}</span> C <span className="text-text">{fmt(hc.c)}</span> Vol <span className="text-text">{hc.v.toLocaleString('en')}</span>
+            <span className="text-text">{fmt(hc.l)}</span> C <span className="text-text">{fmt(hc.c)}</span> Vol <span className="text-text">{int(hc.v)}</span>
           </>
         ) : (
           ' '

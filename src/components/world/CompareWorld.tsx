@@ -3,6 +3,7 @@
  * All data is passed in at build time from the country files; nothing is fetched.
  */
 import { useMemo, useState } from 'react';
+import { int } from '@/lib/format';
 
 export interface CompareRow {
   code: string;
@@ -92,7 +93,7 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
     ['Region', (r) => r.regionLabel],
     ['Currency', (r) => r.currency],
     ['FTSE Russell classification', (r) => r.ftse],
-    ['Listed domestic companies', (r) => (r.listedCompanies === null ? '–' : `${r.listedCompanies.toLocaleString('en-GB')} (${r.listedYear})`)],
+    ['Listed domestic companies', (r) => (r.listedCompanies === null ? '–' : `${int(r.listedCompanies)} (${r.listedYear})`)],
     ['Market capitalisation', (r) => (r.marketCapUsd === null ? '–' : `${usd(r.marketCapUsd)} (${r.marketCapYear})`)],
     ['Main index', (r) => `${r.index}${r.indexConstituents ? ` (${r.indexConstituents})` : ''}`],
     ['Main exchange hours', (r) => `${r.exchanges[0].hours} (${r.exchanges[0].timeZone})`],
@@ -220,7 +221,7 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
                     <td className="py-2 pr-3">{link(r)}</td>
                     <td className="py-2 pr-3">{r.ftse}</td>
                     <td className="py-2 pr-3 text-right">
-                      {r.listedCompanies === null ? '–' : r.listedCompanies.toLocaleString('en-GB')}
+                      {r.listedCompanies === null ? '–' : int(r.listedCompanies)}
                       {r.listedYear !== null && <span className="ml-1 text-xs text-muted">{r.listedYear}</span>}
                     </td>
                     <td className="py-2 pr-3 text-right">{usd(r.marketCapUsd)}</td>

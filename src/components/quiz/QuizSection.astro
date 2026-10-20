@@ -60,7 +60,7 @@ const reportHref = reportMistakeHref(`Quiz ${quizId}`, new URL(Astro.url.pathnam
           <div slot="fallback" class="island-fallback h-[280px] lg:h-[300px]"></div>
         </PracticeQuiz>
         <noscript>
-          <p class="card p-4 text-muted">The quiz needs JavaScript.</p>
+          <p class="card p-4 text-muted">{t('js.quiz')}</p>
         </noscript>
       </div>
       <p class="mt-3 text-sm"><a href={url('/quizzes')}>{t('quiz.allModes')} →</a></p>

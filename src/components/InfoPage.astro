@@ -1,0 +1,29 @@
+---
+/**
+ * An information page (about, disclaimer, privacy, …) from content/pages/<locale>/<slug>.md,
+ * falling back to the English file when a translation is missing.
+ */
+import { getEntry, render } from 'astro:content';
+import ProseLayout from '@/layouts/ProseLayout.astro';
+import { getLocale } from '@/i18n';
+
+interface Props {
+  slug: string;
+}
+
+const locale = getLocale();
+const entry = (await getEntry('pages', `${locale}/${Astro.props.slug}`)) ?? (await getEntry('pages', `en/${Astro.props.slug}`));
+if (!entry) throw new Error(`Missing content/pages/en/${Astro.props.slug}.md`);
+const { Content } = await render(entry);
+const contentLang = entry.id.split('/')[0];
+---
+
+<ProseLayout
+  title={entry.data.title}
+  lead={entry.data.lead}
+  lastUpdated={entry.data.lastUpdated}
+  noindex={entry.data.noindex}
+  lang={contentLang !== locale ? contentLang : undefined}
+>
+  <Content />
+</ProseLayout>

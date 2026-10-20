@@ -1,6 +1,6 @@
 /** Formatting helpers and constants shared by the Trading Times components. */
 import { useEffect, useState } from 'react';
-import { t } from '@/i18n';
+import { getLocale, intlLocale, t } from '@/i18n';
 import type { MarketState } from '@/lib/market-hours';
 
 export const DEFAULT_ZONE = 'Europe/Vienna';
@@ -72,7 +72,7 @@ export function fmtDuration(ms: number): string {
 /** "Tue 13 Oct" for a calendar date string (zone-independent). */
 export function fmtDay(date: string, withYear = false): string {
   const [y, m, d] = date.split('-').map(Number);
-  return new Intl.DateTimeFormat('en-GB', {
+  return new Intl.DateTimeFormat(intlLocale[getLocale()], {
     weekday: 'short',
     day: 'numeric',
     month: 'short',

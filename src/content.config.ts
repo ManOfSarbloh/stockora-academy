@@ -291,4 +291,15 @@ const history = defineCollection({
   }),
 });
 
-export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history };
+/** Information pages (about, disclaimer, privacy, …), one Markdown file per language: content/pages/<locale>/<slug>.md */
+const pages = defineCollection({
+  loader: glob({ pattern: '*/[^_]*.md', base: './content/pages' }),
+  schema: z.object({
+    title: z.string(),
+    lead: z.string().optional(),
+    lastUpdated: reviewDate.optional(),
+    noindex: z.boolean().default(false),
+  }),
+});
+
+export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history, pages };

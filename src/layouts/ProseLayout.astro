@@ -1,6 +1,8 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
+import { t } from '@/i18n';
+import { dateLong } from '@/lib/format';
 
 interface Props {
   title: string;
@@ -8,17 +10,19 @@ interface Props {
   description?: string;
   lastUpdated?: string;
   noindex?: boolean;
+  /** Language of the text when it differs from the page (an untranslated fallback). */
+  lang?: string;
 }
 
-const { title, lead, description = lead, lastUpdated, noindex = false } = Astro.props;
+const { title, lead, description = lead, lastUpdated, noindex = false, lang } = Astro.props;
 ---
 
 <BaseLayout title={title} description={description} noindex={noindex}>
   <PageHeader title={title} lead={lead} />
   <div class="container-page py-10">
-    <article class="prose prose-stockora max-w-3xl prose-headings:tracking-tight prose-a:font-medium">
+    <article class="prose prose-stockora max-w-3xl prose-headings:tracking-tight prose-a:font-medium" lang={lang}>
       <slot />
-      {lastUpdated && <p class="text-sm text-muted">Last updated: {lastUpdated}</p>}
+      {lastUpdated && <p class="text-sm text-muted">{t('page.lastUpdated', { date: dateLong(lastUpdated) })}</p>}
     </article>
   </div>
 </BaseLayout>

@@ -1,0 +1,128 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+import DailyQuizWidget from '@/components/quiz/DailyQuizWidget.astro';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import CategoryCard from '@/components/CategoryCard.astro';
+import HomeProgress from '@/components/HomeProgress.astro';
+import ProgressScript from '@/components/ProgressScript.astro';
+import { getLessonKeysByCategory } from '@/lib/lessons';
+import { getCategories, STAGES } from '@/lib/categories';
+import { t } from '@/i18n';
+import { absoluteUrl, url } from '@/lib/url';
+import * as seo from '@/lib/seo';
+import { getCollection } from 'astro:content';
+import MarketWidget from '@/components/times/MarketWidget';
+import type { Exchange } from '@/lib/market-hours';
+
+const categories = await getCategories();
+const keys = await getLessonKeysByCategory();
+const first = categories[0];
+
+// Ownership example for the hero: 100 of 1,000 shares = 10 %.
+const owned = 0.1;
+const angle = owned * 2 * Math.PI;
+const r = 70;
+const cx = 90;
+const cy = 90;
+const x = cx + r * Math.sin(angle);
+const y = cy - r * Math.cos(angle);
+const lift = { dx: 6 * Math.sin(angle / 2), dy: -6 * Math.cos(angle / 2) };
+
+const widgetIds = ['wiener-boerse', 'xetra', 'lse', 'nyse', 'jpx'];
+const widgetExchanges = (await getCollection('exchanges'))
+  .map((e) => e.data as unknown as Exchange)
+  .filter((e) => widgetIds.includes(e.id))
+  .sort((a, b) => widgetIds.indexOf(a.id) - widgetIds.indexOf(b.id));
+---
+
+<BaseLayout
+  jsonLd={seo.website({
+    siteUrl: absoluteUrl('/', Astro.site),
+    name: t('site.name'),
+    description: t('site.description'),
+    searchUrl: absoluteUrl('/search', Astro.site),
+  })}
+>
+  <section class="border-b border-border bg-surface">
+    <div class="container-page grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1.25fr_1fr]">
+      <div>
+        <h1 class="text-4xl font-bold tracking-tight text-balance sm:text-5xl">{t('home.hero.title')}</h1>
+        <p class="mt-4 max-w-xl text-lg text-muted">{t('home.hero.lead')}</p>
+        <div class="mt-7 flex flex-wrap gap-3">
+          <a href={url(`/learn/${first.slug}`)} class="btn btn-primary">{t('home.hero.start')}</a>
+          <a href={url('/learn')} class="btn btn-ghost">{t('home.hero.browse')}</a>
+        </div>
+      </div>
+
+      <figure class="card mx-auto w-full max-w-sm p-6">
+        <svg viewBox="0 0 180 180" class="mx-auto h-44 w-44" role="img" aria-labelledby="pie-title">
+          <title id="pie-title">{t('home.pie.title')}</title>
+          <path
+            d={`M${cx} ${cy} L${x} ${y} A${r} ${r} 0 1 1 ${cx} ${cy - r} Z`}
+            fill="var(--surface-2)"
+            stroke="var(--border)"
+            stroke-width="1.5"></path>
+          <path
+            d={`M${cx + lift.dx} ${cy + lift.dy} L${cx + lift.dx} ${cy - r + lift.dy} A${r} ${r} 0 0 1 ${x + lift.dx} ${y + lift.dy} Z`}
+            fill="var(--teal)"></path>
+        </svg>
+        <figcaption class="mt-4 text-center">
+          <p class="font-semibold">{t('home.pie.caption')}</p>
+          <p class="mt-1 text-sm text-muted">{t('home.pie.body')}</p>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="container-page py-12" aria-labelledby="path-title">
+    <h2 id="path-title" class="text-2xl font-bold tracking-tight">{t('home.path.title')}</h2>
+    <p class="mt-2 max-w-2xl text-muted">{t('home.path.lead')}</p>
+
+    {
+      STAGES.map((stage, i) => (
+        <div class="mt-10">
+          <h3 class="flex items-baseline gap-3 text-lg font-bold">
+            <span class="text-sm font-semibold text-link">{i + 1}</span>
+            {t(`stage.${stage}`)}
+          </h3>
+          <p class="mt-1 text-sm text-muted">{t(`stage.${stage}.lead`)}</p>
+          <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {categories
+              .filter((c) => c.pathStage === stage)
+              .map((c) => (
+                <li>
+                  <CategoryCard category={c} step={c.pathOrder} lessonKeys={keys[c.id]} />
+                </li>
+              ))}
+          </ul>
+        </div>
+      ))
+    }
+  </section>
+
+  <section class="container-page" aria-labelledby="widgets-title">
+    <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
+    <ul class="mt-5 grid gap-4 sm:grid-cols-3">
+      <li><HomeProgress /></li>
+      <li><MarketWidget client:only="react" exchanges={widgetExchanges} href={url('/times')}><div slot="fallback" class="island-fallback h-[250px]"></div></MarketWidget></li>
+      <li><DailyQuizWidget /></li>
+    </ul>
+  </section>
+
+  <section class="container-page mt-12" aria-labelledby="trust-title">
+    <div class="card grid gap-6 p-6 sm:grid-cols-2">
+      <h2 id="trust-title" class="text-xl font-bold sm:col-span-2">{t('home.trust.title')}</h2>
+      <p class="flex gap-3">
+        <span class="font-bold text-link" aria-hidden="true">✓</span>
+        <span>{t('home.trust.is')}</span>
+      </p>
+      <p class="flex gap-3">
+        <span class="font-bold text-muted" aria-hidden="true">✕</span>
+        <span>{t('home.trust.isNot')}</span>
+      </p>
+    </div>
+  </section>
+  <ProgressScript />
+</BaseLayout>

@@ -1,0 +1,161 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { getCategories } from '@/lib/categories';
+import { getLocale, intlLocale, t } from '@/i18n';
+import { translationFile, type GlossaryText } from '@/lib/translations';
+import { url } from '@/lib/url';
+
+const locale = getLocale();
+const tr = translationFile<Record<string, GlossaryText>>('glossary');
+// On translated pages each entry shows the translated term and, because lessons are in English, the English term too.
+const entries = (await getCollection('glossary'))
+  .map((e) => e.data)
+  .map((g) => {
+    const x = tr?.[g.id];
+    return { ...g, en: g.term, translated: Boolean(x), term: x?.term ?? g.term, definition: x?.definition ?? g.definition, example: x ? x.example : g.example };
+  })
+  .sort((a, b) => a.term.localeCompare(b.term, intlLocale[locale], { sensitivity: 'base' }));
+const termById = new Map(entries.map((e) => [e.id, e]));
+const categories = new Map((await getCategories()).map((c) => [c.id, c]));
+
+/** First letter for the A–Z (or А–Я) index: accents are dropped, anything that is not a letter goes under "#". */
+const letterOf = (term: string) => {
+  const ch = term.normalize('NFD').replace(/\p{M}/gu, '')[0]?.toLocaleUpperCase(intlLocale[locale]) ?? '#';
+  return /\p{L}/u.test(ch) ? ch : '#';
+};
+const groups = new Map<string, typeof entries>();
+for (const e of entries) {
+  const l = letterOf(e.term);
+  if (!groups.has(l)) groups.set(l, []);
+  groups.get(l)!.push(e);
+}
+const latin = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+const cyrillic = [...'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯ'];
+const alphabet = ['#', ...(locale === 'ru' ? cyrillic : latin)];
+for (const l of groups.keys()) if (!alphabet.includes(l)) alphabet.push(l);
+---
+
+<BaseLayout title={t('glossary.title')} description={t('glossary.lead')}>
+  <PageHeader title={t('glossary.title')} lead={t('glossary.lead')}>
+    {entries.length > 0 && <p class="mt-2 text-sm text-muted">{t('glossary.count', { n: entries.length })}</p>}
+  </PageHeader>
+
+  <div class="container-page py-8">
+    {
+      entries.length === 0 ? (
+        <p class="card p-5 text-muted">{t('glossary.empty')}</p>
+      ) : (
+        <>
+          <div class="sticky top-16 z-30 -mx-4 border-b border-border bg-bg/95 px-4 py-3 backdrop-blur sm:mx-0 sm:px-0" data-pagefind-ignore>
+            <label class="block max-w-md">
+              <span class="sr-only">{t('glossary.filter')}</span>
+              <input
+                id="gloss-filter"
+                type="search"
+                autocomplete="off"
+                placeholder={t('glossary.filterPlaceholder')}
+                class="w-full rounded-lg border border-border bg-surface px-3 py-2 text-text placeholder:text-muted"
+              />
+            </label>
+            <nav aria-label={t('glossary.azNav')} class="mt-3 flex flex-wrap gap-1 text-sm">
+              {alphabet.map((l) =>
+                groups.has(l) ? (
+                  <a href={`#letter-${l === '#' ? 'num' : l}`} class="inline-flex min-h-7 min-w-7 items-center justify-center rounded px-1 font-semibold no-underline hover:bg-surface-2">
+                    {l}
+                  </a>
+                ) : (
+                  <span class="px-1.5 py-0.5 text-muted opacity-50" aria-hidden="true">
+                    {l}
+                  </span>
+                ),
+              )}
+            </nav>
+          </div>
+
+          <p id="gloss-nomatch" class="mt-6 hidden text-muted">{t('glossary.noMatch')}</p>
+
+          {[...groups.entries()].map(([letter, items]) => (
+            <section class="gloss-group mt-8" aria-labelledby={`letter-${letter === '#' ? 'num' : letter}`}>
+              <h2 id={`letter-${letter === '#' ? 'num' : letter}`} class="scroll-mt-48 text-2xl font-bold text-link">
+                {letter}
+              </h2>
+              <dl class="mt-3 grid gap-3">
+                {items.map((g) => (
+                  <div
+                    id={g.id}
+                    class="gloss-entry card scroll-mt-48 p-4 target:border-link target:ring-2 target:ring-link/30"
+                    data-search={[g.term, g.en, ...g.aliases, g.de ?? '', g.definition].join(' ').toLowerCase()}
+                  >
+                    <dt class="font-semibold" lang={g.translated ? undefined : 'en'}>
+                      {g.term}
+                      {locale === 'en' && g.aliases.length > 0 && <span class="font-normal text-muted"> ({g.aliases.join(', ')})</span>}
+                    </dt>
+                    {locale !== 'en' && (
+                      <dd class="text-sm text-muted">
+                        {t('glossary.english')}:{' '}
+                        <span lang="en" class="font-medium text-text">
+                          {g.en}
+                          {g.aliases.length > 0 && <span class="font-normal text-muted"> ({g.aliases.join(', ')})</span>}
+                        </span>
+                      </dd>
+                    )}
+                    <dd class="mt-1" lang={g.translated ? undefined : 'en'}>{g.definition}</dd>
+                    {g.example && (
+                      <dd class="mt-2 text-sm">
+                        <span class="font-semibold">{t('glossary.example')}:</span> {g.example}
+                      </dd>
+                    )}
+                    <dd class="mt-2 flex flex-wrap items-center gap-x-4 gap-y-1 text-xs text-muted">
+                      {g.de && locale !== 'de' && (
+                        <span lang="de">
+                          {t('glossary.german')}: <span class="font-medium text-text">{g.de}</span>
+                        </span>
+                      )}
+                      {g.related.length > 0 && (
+                        <span>
+                          {t('glossary.related')}:{' '}
+                          {/* prettier-ignore */}
+                          {g.related.map((r, i) => (<>{i > 0 && ', '}<a href={`#${r}`} class="underline">{termById.get(r)?.term ?? r}</a></>))}
+                        </span>
+                      )}
+                      {g.categories.map((c) => (
+                        <a href={url(`/learn/${categories.get(c)?.slug}`)} class="inline-block rounded-full bg-surface-2 px-2 py-1 text-muted no-underline hover:text-link">
+                          {c}. {categories.get(c)?.title}
+                        </a>
+                      ))}
+                    </dd>
+                  </div>
+                ))}
+              </dl>
+            </section>
+          ))}
+        </>
+      )
+    }
+  </div>
+</BaseLayout>
+
+<script>
+  const input = document.getElementById('gloss-filter') as HTMLInputElement | null;
+  const noMatch = document.getElementById('gloss-nomatch');
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    let any = false;
+    for (const group of document.querySelectorAll<HTMLElement>('.gloss-group')) {
+      let groupAny = false;
+      for (const entry of group.querySelectorAll<HTMLElement>('.gloss-entry')) {
+        const show = !q || (entry.dataset.search ?? '').includes(q);
+        entry.hidden = !show;
+        groupAny ||= show;
+      }
+      group.hidden = !groupAny;
+      any ||= groupAny;
+    }
+    noMatch?.classList.toggle('hidden', any);
+  });
+</script>

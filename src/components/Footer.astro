@@ -1,7 +1,7 @@
 ---
 import LogoMark from '@/components/LogoMark.astro';
 import { legalNav, primaryNav, secondaryNav } from '@/config/site';
-import { t } from '@/i18n';
+import { getLocale, t } from '@/i18n';
 import { url } from '@/lib/url';
 
 const year = new Date().getFullYear();
@@ -52,6 +52,7 @@ const year = new Date().getFullYear();
       </ul>
     </div>
 
-    <p class="mt-10 text-xs text-muted">© {year} {t('site.name')}</p>
+    {getLocale() !== 'en' && <p class="mt-10 max-w-2xl text-xs text-muted">{t('i18n.translationNote')}</p>}
+    <p class:list={['text-xs text-muted', getLocale() !== 'en' ? 'mt-3' : 'mt-10']}>© {year} {t('site.name')}</p>
   </div>
 </footer>

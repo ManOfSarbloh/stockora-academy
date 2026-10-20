@@ -1,0 +1,34 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import QuizPlayer from '@/components/quiz/QuizPlayer';
+import { getQuizMeta } from '@/lib/quiz-meta';
+import { reportMistakeHref } from '@/lib/report';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+
+const meta = await getQuizMeta();
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+---
+
+<BaseLayout title={t('qh.title')} description={t('qh.lead')} searchable={false} noindex>
+  <div class="container-page max-w-3xl py-8 sm:py-10" data-pagefind-ignore>
+    <nav class="mb-4 text-sm text-muted" aria-label={t('a11y.breadcrumb')}>
+      <a href={url('/quizzes')}>{t('qh.title')}</a>
+    </nav>
+    <QuizPlayer
+      client:only="react"
+      names={meta.names}
+      hrefs={meta.hrefs}
+      topics={meta.topics}
+      countries={meta.countries}
+      reportBase={reportMistakeHref('Quiz', pageUrl)}
+      reportPage={pageUrl}
+    >
+      <div slot="fallback" class="island-fallback h-[760px] lg:h-[560px]"></div>
+    </QuizPlayer>
+    <noscript><p class="card p-4 text-muted">{t('js.quiz')}</p></noscript>
+  </div>
+</BaseLayout>

@@ -5,6 +5,7 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import { t, type UiKey } from '@/i18n';
 import { url } from '@/lib/url';
+import { dateLong } from '@/lib/format';
 import type { Question } from '@/lib/quiz';
 import {
   EXAM,
@@ -103,7 +104,7 @@ export default function QuizPlayer({ names, hrefs, topics, countries, reportBase
       }
       case 'daily':
         return {
-          title: t('qp.title.daily', { date: new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) }),
+          title: t('qp.title.daily', { date: dateLong(new Date().toLocaleDateString('en-CA')) }),
           questions: pickDaily(bank, today, groupOf),
           quizId: 'daily',
           onFinish: (r) => {

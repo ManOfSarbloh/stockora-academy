@@ -1,0 +1,116 @@
+---
+import { withLocales } from '@/i18n/pages';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import CapTableSimulator from '@/components/tools/CapTableSimulator';
+import BookbuildingSimulator from '@/components/tools/BookbuildingSimulator';
+import {
+  BreakEvenCalculator,
+  CandleBuilder,
+  CompoundCalculator,
+  CurrencyCalculator,
+  DividendCalculator,
+  LeverageCalculator,
+  PositionSizeCalculator,
+  ProfitLossCalculator,
+  SavingsPlanCalculator,
+  SplitRightsCalculator,
+  ValuationCalculator,
+} from '@/components/tools/Calculators';
+import { calculatorTools, type Tool } from '@/config/tools';
+import { lessonRefs } from '@/lib/lessons';
+import { t, type UiKey } from '@/i18n';
+import { absoluteUrl, url } from '@/lib/url';
+import * as seo from '@/lib/seo';
+
+export function getStaticPaths() {
+  return withLocales(calculatorTools().map((tool) => ({ params: { slug: tool.slug }, props: { tool } })));
+}
+
+interface Props {
+  tool: Tool;
+}
+
+const { tool } = Astro.props;
+const slug = tool.slug;
+const title = t(`tools.t.${slug}` as UiKey);
+const lead = t(`tools.d.${slug}` as UiKey);
+const lessons = await lessonRefs(tool.lessons);
+---
+
+<BaseLayout
+  title={title}
+  description={lead}
+  jsonLd={seo.breadcrumbs([
+    { name: t('tools.title'), url: absoluteUrl('/tools', Astro.site) },
+    { name: title, url: absoluteUrl(`/tools/${slug}`, Astro.site) },
+  ])}
+>
+  <PageHeader title={title} lead={lead}>
+    <p class="mt-3 text-sm"><a href={url('/tools')}>← {t('tools.back')}</a></p>
+  </PageHeader>
+  <div class="container-page max-w-5xl space-y-8 py-10">
+    <div data-pagefind-ignore>
+      {slug === 'profit-loss' && <ProfitLossCalculator client:load />}
+      {slug === 'break-even' && <BreakEvenCalculator client:load />}
+      {slug === 'compound-growth' && <CompoundCalculator client:load />}
+      {slug === 'savings-plan' && <SavingsPlanCalculator client:load />}
+      {slug === 'currency' && <CurrencyCalculator client:load />}
+      {slug === 'dividends' && <DividendCalculator client:load />}
+      {slug === 'valuation-ratios' && <ValuationCalculator client:load />}
+      {slug === 'splits-and-rights' && <SplitRightsCalculator client:load />}
+      {slug === 'cap-table' && (
+        <CapTableSimulator client:only="react" headingLevel={2}>
+          <div slot="fallback" class="island-fallback h-[1300px]"></div>
+        </CapTableSimulator>
+      )}
+      {slug === 'ipo-bookbuilding' && (
+        <BookbuildingSimulator client:only="react" headingLevel={2}>
+          <div slot="fallback" class="island-fallback h-[1300px]"></div>
+        </BookbuildingSimulator>
+      )}
+      {slug === 'position-size' && <PositionSizeCalculator client:load />}
+      {slug === 'leverage' && <LeverageCalculator client:load />}
+      {slug === 'candlestick-builder' && <CandleBuilder client:load />}
+      <noscript><p class="card p-4 text-muted">{t('js.calculator')}</p></noscript>
+    </div>
+
+    <p class="text-sm text-muted">{t('tools.disclaimer')}</p>
+
+    {
+      lessons.length > 0 && (
+        <section aria-labelledby="learn-more">
+          <h2 id="learn-more" class="text-xl font-bold">
+            {t('tools.learnMore')}
+          </h2>
+          <ul class="mt-3 list-disc space-y-1 pl-5">
+            {lessons.map((l) => (
+              <li>
+                <a href={url(l.href)}>{l.title}</a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+
+    {
+      tool.sources && tool.sources.length > 0 && (
+        <section class="border-t border-border pt-6 text-sm" aria-labelledby="tool-sources">
+          <h2 id="tool-sources" class="font-bold">
+            {t('tools.sources')}
+          </h2>
+          <ul class="mt-2 list-disc space-y-1 pl-5">
+            {tool.sources.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener">
+                  {s.title}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      )
+    }
+  </div>
+</BaseLayout>

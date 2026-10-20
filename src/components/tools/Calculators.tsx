@@ -4,7 +4,7 @@
  */
 import { useMemo, useState } from 'react';
 import { t } from '@/i18n';
-import { eur, eurCents, int, pct } from '@/lib/format';
+import { eur, eurCents, int, num, pct } from '@/lib/format';
 import { url } from '@/lib/url';
 import { COLORS } from '@/lib/chart/svg';
 import {
@@ -29,7 +29,6 @@ import { CalcLayout, Formula, LineChart, Note, NumField, Results, Row, Select } 
 
 const signedEur = (n: number) => `${n > 0 ? '+' : ''}${eurCents(n)}`;
 const signedPct = (n: number, d = 1) => (Number.isFinite(n) ? `${n > 0 ? '+' : ''}${pct(n, d)}` : '–');
-const num = (n: number, d = 2) => (Number.isFinite(n) ? n.toLocaleString('en', { maximumFractionDigits: d, minimumFractionDigits: d }) : '–');
 const tone = (n: number) => (n > 0 ? 'good' : n < 0 ? 'bad' : undefined);
 
 // ---------------------------------------------------------------------------

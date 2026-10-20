@@ -84,7 +84,7 @@ export function runSteps(start: Holder[], steps: Step[]): StepResult[] {
   let holders = start;
   for (const step of steps) {
     if (step.type === 'pool') {
-      const r = topUpPool(holders, step.targetPct);
+      const r = topUpPool(holders, step.targetPct, 'pool', step.name);
       holders = r.holders;
       out.push({ step, holders, totalShares: totalShares(holders), newShares: r.newShares });
     } else {

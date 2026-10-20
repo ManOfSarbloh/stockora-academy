@@ -1,0 +1,8 @@
+---
+import { localeParams } from '@/i18n/pages';
+import InfoPage from '@/components/InfoPage.astro';
+
+export const getStaticPaths = () => localeParams();
+---
+
+<InfoPage slug="disclaimer" />

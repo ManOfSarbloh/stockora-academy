@@ -16,10 +16,11 @@ const defaultFounders: Holder[] = [
   { id: 'f2', name: 'Ben', kind: 'founder', shares: 400_000 },
 ];
 
-const defaultSteps: Step[] = [
-  { type: 'round', id: 'r1', name: 'Seed investor', investment: 1_000_000, preMoney: 4_000_000 },
-  { type: 'pool', id: 'p1', name: 'Option pool', targetPct: 0.1 },
-  { type: 'round', id: 'r2', name: 'Series A fund', investment: 5_000_000, preMoney: 20_000_000 },
+// Default names are created when the simulator starts, in the page's language.
+const defaultSteps = (): Step[] => [
+  { type: 'round', id: 'r1', name: t('cap.default.seed'), investment: 1_000_000, preMoney: 4_000_000 },
+  { type: 'pool', id: 'p1', name: t('cap.default.pool'), targetPct: 0.1 },
+  { type: 'round', id: 'r2', name: t('cap.default.seriesA'), investment: 5_000_000, preMoney: 20_000_000 },
 ];
 
 /** Colour slots follow the holder, never its position: founders 1–2, pool 3, investors 4–8 by creation order. */

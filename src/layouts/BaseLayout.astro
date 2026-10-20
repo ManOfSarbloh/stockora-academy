@@ -4,8 +4,10 @@ import '@/styles/global.css';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import GlossaryTooltip from '@/components/GlossaryTooltip.astro';
-import { t } from '@/i18n';
-import { url } from '@/lib/url';
+import { getLocale, intlLocale, t } from '@/i18n';
+import { ACTIVE_LOCALES } from '@/i18n/pages';
+import { isEnglishOnly, localizePath, stripLocale } from '@/i18n/routes';
+import { absoluteUrl, stripBase, url } from '@/lib/url';
 import { toScript, type JsonLd } from '@/lib/seo';
 
 interface Props {
@@ -20,27 +22,39 @@ interface Props {
   modified?: string;
   /** schema.org structured data for this page. */
   jsonLd?: JsonLd | JsonLd[];
+  /** False for pages that exist in English only, outside src/pages/[...locale]/ (404, logo options). */
+  localized?: boolean;
 }
 
-const { title, description = t('site.description'), searchable = true, noindex = false, ogType = 'website', modified, jsonLd } = Astro.props;
+const { title, description = t('site.description'), searchable = true, noindex = false, ogType = 'website', modified, jsonLd, localized = true } = Astro.props;
 const siteName = t('site.name');
 const fullTitle = title ? `${title} | ${siteName}` : `${siteName}: ${t('site.tagline')}`;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const locale = getLocale();
+const path = stripBase(import.meta.env.BASE_URL, Astro.url.pathname);
+const route = stripLocale(path === '/' ? '/' : `${path}/`);
+// Pages whose main content is English only (lessons, country data, …) point search engines to the
+// English original and list no translations; fully translated pages list every language.
+const englishOnly = isEnglishOnly(route);
+const canonical = englishOnly ? absoluteUrl(route, Astro.site, 'en') : new URL(Astro.url.pathname, Astro.site).href;
+const alternates = englishOnly || noindex || !localized || ACTIVE_LOCALES.length < 2 ? [] : ACTIVE_LOCALES.map((l) => ({ lang: l, href: absoluteUrl(route, Astro.site, l) }));
 const ogImage = new URL(url('/og-default.png'), Astro.site);
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={locale}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    {alternates.map((a) => <link rel="alternate" hreflang={a.lang} href={a.href} />)}
+    {alternates.length > 1 && <link rel="alternate" hreflang="x-default" href={alternates[0].href} />}
+    {locale !== 'en' && <script is:inline src={url(`/i18n/${locale}.js`)} />}
     {noindex && <meta name="robots" content="noindex" />}
     <meta property="og:type" content={ogType} />
     <meta property="og:site_name" content={siteName} />
-    <meta property="og:locale" content="en" />
+    <meta property="og:locale" content={intlLocale[locale].replace('-', '_')} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
@@ -71,8 +85,18 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
     >
       {t('a11y.skipToContent')}
     </a>
-    <Header />
+    <Header localized={localized} />
     <main id="main" class="flex-1" data-pagefind-body={searchable ? '' : undefined} tabindex="-1">
+      {
+        englishOnly && locale !== 'en' && (
+          <p class="border-b border-border bg-surface-2 px-4 py-2 text-center text-sm text-muted" data-pagefind-ignore>
+            {t('i18n.englishOnly')}{' '}
+            <a href={url(route, 'en')} hreflang="en" lang="en">
+              English
+            </a>
+          </p>
+        )
+      }
       <slot />
     </main>
     <Footer />

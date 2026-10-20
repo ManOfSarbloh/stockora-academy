@@ -1,0 +1,27 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+/** Chart Lab: educational chart sandbox with simulated data (React island). */
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import ChartLab from '@/components/chartlab/ChartLab';
+import patterns from '../../../../content/candles.json';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+---
+
+<BaseLayout title={t('cl.title')} description={t('cl.lead')}>
+  <PageHeader title={t('cl.title')} lead={t('cl.lead')} eyebrow={t('nav.charts')}>
+    <p class="mt-4 text-sm">
+      <a href={url('/charts')}>← {t('cc.backToSchool')}</a> · <a href={url('/charts/candles')}>{t('cc.title')}</a> · <a href={url('/charts/quiz')}>{t('cq.title')}</a>
+    </p>
+  </PageHeader>
+  <div class="container-page py-8" data-pagefind-ignore>
+    <ChartLab client:only="react" patterns={patterns as never}>
+      <div slot="fallback" class="island-fallback h-[1200px] lg:h-[950px]"></div>
+    </ChartLab>
+    <noscript><p class="card p-4 text-muted">{t('js.chartLab')}</p></noscript>
+    <p class="mt-8 max-w-3xl text-sm text-muted">{t('cs.disclaimer')}</p>
+  </div>
+</BaseLayout>

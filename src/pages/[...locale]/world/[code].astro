@@ -1,0 +1,412 @@
+---
+import { withLocales } from '@/i18n/pages';
+/**
+ * Country page. Data: content/countries/<code>.json (validated in content.config.ts),
+ * market size: content/world/market-size.json, live hours: content/exchanges.json via Trading Times.
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Callout from '@/components/Callout.astro';
+import QuizSection from '@/components/quiz/QuizSection.astro';
+import VideoList from '@/components/VideoList.astro';
+import WorldMap from '@/components/world/WorldMap.astro';
+import {
+  getCountries,
+  marketSize,
+  marketSizeSource,
+  formatUsd,
+  type Country,
+} from '@/lib/countries';
+import { reportMistakeHref } from '@/lib/report';
+import { t } from '@/i18n';
+import type { UiKey } from '@/i18n/en';
+import { absoluteUrl, url } from '@/lib/url';
+import { int } from '@/lib/format';
+import * as seo from '@/lib/seo';
+
+export async function getStaticPaths() {
+  const countries = await getCountries();
+  return withLocales(countries.map((c) => ({ params: { code: c.code.toLowerCase() }, props: { country: c, countries } })));
+}
+
+interface Props {
+  country: Country;
+  countries: Country[];
+}
+
+const { country: c, countries } = Astro.props;
+const size = marketSize(c.code);
+const lessons = await getCollection('lessons');
+const categories = await getCollection('categories');
+const slugByLetter = Object.fromEntries(categories.map((x) => [x.data.id, x.data.slug]));
+const related = c.lessons
+  .map((key) => {
+    const [slug, file] = key.split('/');
+    const entry = lessons.find((l) => slugByLetter[l.data.category] === slug && l.id.endsWith(`/${file}`));
+    return entry ? { href: `/learn/${key}`, title: entry.data.title } : null;
+  })
+  .filter(Boolean) as { href: string; title: string }[];
+const hasQuiz = (await getCollection('quizzes', (q) => q.data.category === c.code)).length > 0;
+const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
+const allSources = [
+  c.classification.source,
+  marketSizeSource,
+  ...c.indexes.map((i) => i.source),
+  c.settlement.source,
+  ...c.rules.flatMap((r) => (r.source ? [r.source] : [])),
+  ...c.taxes.sources,
+  ...c.marketSize.map((m) => m.source),
+  ...c.sources,
+].filter((s, i, arr) => arr.findIndex((x) => x.url === s.url) === i);
+const toc = [
+  ['overview', t('wm.overview')],
+  ['exchanges', t('wm.exchanges')],
+  ['indexes', t('wm.indexes')],
+  ['regulators', t('wm.regulators')],
+  ['currency', t('wm.currency')],
+  ['settlement', t('wm.settlement')],
+  ...(c.rules.length ? [['rules', t('wm.rules')]] : []),
+  ['taxes', t('wm.taxes')],
+  ['access', t('wm.access')],
+  ...(c.companies.length || c.history.length ? [['history', t('wm.history')]] : []),
+  ['videos', t('video.heading')],
+  ...(hasQuiz ? [['quiz', t('wm.quiz')]] : []),
+];
+---
+
+<BaseLayout
+  title={`${c.name}: stock market`}
+  description={c.summary}
+  jsonLd={seo.breadcrumbs([
+    { name: t('wm.title'), url: absoluteUrl('/world', Astro.site) },
+    { name: c.name, url: new URL(Astro.url.pathname, Astro.site).href },
+  ])}
+>
+  <div class="border-b border-border bg-surface">
+    <div class="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[minmax(0,1fr)_22rem] lg:items-center">
+      <div>
+        <nav aria-label={t('a11y.breadcrumb')} class="text-sm text-muted">
+          <ol class="flex flex-wrap items-center gap-1.5">
+            <li><a href={url('/world')}>{t('wm.title')}</a></li>
+            <li aria-hidden="true">›</li>
+            <li>{t(`tt.region.${c.region}` as UiKey)}</li>
+          </ol>
+        </nav>
+        <h1 class="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">{c.name}</h1>
+        <p class="mt-3 max-w-2xl text-lg text-muted">{c.summary}</p>
+        <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted">
+          {c.home && <span class="rounded-full bg-surface-2 px-2.5 py-0.5 font-medium text-link">{t('wm.home')}</span>}
+          <span>{c.currency.code}</span>
+          <span>{t('wm.classification')}: {c.classification.ftse}</span>
+          <span>{t('learn.lastReviewed')}: <time datetime={c.lastReviewed}>{c.lastReviewed}</time></span>
+        </div>
+      </div>
+      <WorldMap countries={countries} current={c.code} class="hidden lg:block" />
+    </div>
+  </div>
+
+  <div class="container-page grid gap-10 py-10 lg:grid-cols-[minmax(0,1fr)_15rem]">
+    <div class="min-w-0 max-w-3xl space-y-12">
+      <section id="overview" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.overview')}</h2>
+        <dl class="mt-4 grid gap-3 sm:grid-cols-3">
+          <div class="card p-4">
+            <dt class="text-sm text-muted">{t('wm.listedCompanies')}</dt>
+            <dd class="mt-1 text-xl font-bold tabular-nums">
+              {size.listedCompanies ? int(size.listedCompanies.value) : '–'}
+            </dd>
+            <dd class="text-xs text-muted">{size.listedCompanies ? `${size.listedCompanies.year}` : t('wm.noFigure')}</dd>
+          </div>
+          <div class="card p-4">
+            <dt class="text-sm text-muted">{t('wm.marketCap')}</dt>
+            <dd class="mt-1 text-xl font-bold tabular-nums">{size.marketCapUsd ? formatUsd(size.marketCapUsd.value) : '–'}</dd>
+            <dd class="text-xs text-muted">{size.marketCapUsd ? `${size.marketCapUsd.year}` : t('wm.noFigure')}</dd>
+          </div>
+          <div class="card p-4">
+            <dt class="text-sm text-muted">{t('wm.marketCapGdp')}</dt>
+            <dd class="mt-1 text-xl font-bold tabular-nums">{size.marketCapPctGdp ? `${Math.round(size.marketCapPctGdp.value)}%` : '–'}</dd>
+            <dd class="text-xs text-muted">{size.marketCapPctGdp ? `${size.marketCapPctGdp.year}` : t('wm.noFigure')}</dd>
+          </div>
+        </dl>
+        <p class="mt-2 text-xs text-muted">
+          End-of-year figures for listed domestic companies: <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>.
+        </p>
+        {
+          c.marketSize.length > 0 && (
+            <ul class="mt-3 space-y-1 text-sm">
+              {c.marketSize.map((m) => (
+                <li>
+                  {m.label}: <strong>{m.value}</strong> <span class="text-muted">({t('wm.asOf', { date: m.asOf })}, <a href={m.source.url} rel="noopener">{m.source.title}</a>)</span>
+                </li>
+              ))}
+            </ul>
+          )
+        }
+        <p class="mt-4 text-sm">
+          {t('wm.classification')}: <strong>{c.classification.ftse}</strong>
+          <span class="text-muted">
+            ({t('wm.asOf', { date: c.classification.asOf })}; <a href={url('/learn/world-markets/market-classifications')}>{t('wm.classificationHelp')}</a>)
+          </span>
+        </p>
+      </section>
+
+      <section id="exchanges" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.exchanges')}</h2>
+        <div class="mt-4 space-y-4">
+          {
+            c.exchanges.map((e) => (
+              <div class="card p-5">
+                <h3 class="text-lg font-bold">
+                  <a href={e.website} rel="noopener">
+                    {e.name}
+                  </a>
+                </h3>
+                <p class="text-sm text-muted">
+                  {e.city}
+                  {e.founded && <> · {t('wm.founded')}: {e.founded}</>}
+                </p>
+                <p class="mt-3">
+                  <strong>{t('wm.hours')}:</strong> {e.hours}
+                </p>
+                <p class="mt-1 text-sm text-muted">
+                  {t('wm.timeZone')}: {e.timeZone}
+                </p>
+                {e.note && <p class="mt-2 text-sm">{e.note}</p>}
+                <p class="mt-3 flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                  <a href={e.hoursSource} rel="noopener">
+                    {t('wm.officialHours')}
+                  </a>
+                  {e.holidaysSource && (
+                    <a href={e.holidaysSource} rel="noopener">
+                      {t('wm.holidays')}
+                    </a>
+                  )}
+                  {e.tradingTimesId && <a href={url('/times')}>{t('wm.liveTimes')} →</a>}
+                </p>
+              </div>
+            ))
+          }
+        </div>
+      </section>
+
+      <section id="indexes" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.indexes')}</h2>
+        <ul class="mt-4 space-y-3">
+          {
+            c.indexes.map((i) => (
+              <li class="card p-4">
+                <p class="font-bold">
+                  {i.name}
+                  {i.constituents && <span class="font-normal text-muted"> · {i.constituents}</span>}
+                </p>
+                <p class="mt-1">{i.description}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section id="regulators" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.regulators')}</h2>
+        <ul class="mt-4 space-y-3">
+          {
+            c.regulators.map((r) => (
+              <li>
+                <a href={r.url} rel="noopener" class="font-semibold">{r.name}</a>: {r.role}
+              </li>
+            ))
+          }
+          {
+            c.investorProtection.map((p) => (
+              <li>
+                <a href={p.url} rel="noopener" class="font-semibold">{p.name}</a>: {p.text}
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section id="currency" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.currency')}</h2>
+        <p class="mt-3">
+          <strong>{c.currency.name} ({c.currency.code}).</strong>
+          {c.currency.note}
+        </p>
+        <p class="mt-2 text-sm">
+          <a href={url('/learn/macroeconomics/currencies-and-your-investments')}>How exchange rates change your returns →</a>
+        </p>
+      </section>
+
+      <section id="settlement" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.settlement')}</h2>
+        <p class="mt-3">
+          <strong>{c.settlement.cycle}</strong>
+        </p>
+        <p class="mt-1">{t('wm.csd')}: {c.settlement.csd}</p>
+        {c.settlement.note && <p class="mt-2">{c.settlement.note}</p>}
+        <p class="mt-2 text-xs text-muted">
+          {t('wm.asOf', { date: c.settlement.asOf })}: <a href={c.settlement.source.url} rel="noopener">{c.settlement.source.title}</a>
+        </p>
+      </section>
+
+      {
+        c.rules.length > 0 && (
+          <section id="rules" class="scroll-mt-24">
+            <h2 class="text-2xl font-bold">{t('wm.rules')}</h2>
+            <dl class="mt-4 space-y-4">
+              {c.rules.map((r) => (
+                <div>
+                  <dt class="font-bold">{r.title}</dt>
+                  <dd class="mt-1">
+                    {r.text}
+                    {r.source && (
+                      <>
+                        {' '}
+                        <a href={r.source.url} rel="noopener" class="text-sm">
+                          (source)
+                        </a>
+                      </>
+                    )}
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </section>
+        )
+      }
+
+      <section id="taxes" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.taxes')}</h2>
+        <div class="mt-4">
+          <Callout kind="verify" title={`Verify · ${t('wm.asOf', { date: c.taxes.asOf })}`}>
+            <p>{t('wm.taxes.verify')}</p>
+          </Callout>
+        </div>
+        <dl class="mt-4 space-y-4">
+          {
+            c.taxes.items.map((i) => (
+              <div>
+                <dt class="font-bold">{i.title}</dt>
+                <dd class="mt-1">{i.text}</dd>
+              </div>
+            ))
+          }
+        </dl>
+        <ul class="mt-4 list-disc space-y-1 pl-5 text-sm">
+          {
+            c.taxes.sources.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener">
+                  {s.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      <section id="access" class="scroll-mt-24">
+        <h2 class="text-2xl font-bold">{t('wm.access')}</h2>
+        <ul class="mt-3 list-disc space-y-1.5 pl-5">{c.access.map((a) => <li>{a}</li>)}</ul>
+        <p class="mt-3 text-sm text-muted">{t('wm.access.note')}</p>
+      </section>
+
+      {
+        (c.companies.length > 0 || c.history.length > 0 || c.funFacts.length > 0) && (
+          <section id="history" class="scroll-mt-24">
+            {c.companies.length > 0 && (
+              <>
+                <h2 class="text-2xl font-bold">{t('wm.companies')}</h2>
+                <p class="mt-3">{c.companies.join(' · ')}</p>
+                <p class="mt-1 text-sm text-muted">{t('wm.companies.note')}</p>
+              </>
+            )}
+            {c.history.length > 0 && (
+              <>
+                <h2 class="mt-10 text-2xl font-bold">{t('wm.history')}</h2>
+                <ol class="mt-4 space-y-3 border-l-2 border-border pl-5">
+                  {c.history.map((h) => (
+                    <li>
+                      <span class="font-bold tabular-nums">{h.year}</span> · {h.text}
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+            {c.funFacts.length > 0 && (
+              <>
+                <h2 class="mt-10 text-2xl font-bold">{t('wm.funFacts')}</h2>
+                <ul class="mt-3 list-disc space-y-1.5 pl-5">
+                  {c.funFacts.map((f) => (
+                    <li>{f}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </section>
+        )
+      }
+
+      {
+        related.length > 0 && (
+          <section aria-labelledby="related-title">
+            <h2 id="related-title" class="text-2xl font-bold">
+              {t('wm.related')}
+            </h2>
+            <ul class="mt-3 list-disc space-y-1 pl-5">
+              {related.map((r) => (
+                <li>
+                  <a href={url(r.href)}>{r.title}</a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+
+      <div id="videos" class="scroll-mt-24">
+        <VideoList categoryId={c.code} fallbackQuery={`${c.name} stock exchange explained`} />
+      </div>
+
+      <QuizSection categoryId={c.code} id="quiz" title={t('wm.quiz')} quizId={`country-${c.code}`} />
+
+      <section class="border-t border-border pt-6 text-sm" aria-labelledby="sources-title" data-pagefind-ignore>
+        <h2 id="sources-title" class="font-bold">{t('learn.sources')}</h2>
+        <p class="mt-1 text-muted">{t('wm.sourcesLead')}</p>
+        <ul class="mt-2 list-disc space-y-1 pl-5">
+          {
+            allSources.map((s) => (
+              <li>
+                <a href={s.url} rel="noopener">
+                  {s.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-4">
+          <a href={reportMistakeHref(`${c.name} (World Markets)`, pageUrl)} class="text-muted">{t('lesson.reportMistake')}</a>
+        </p>
+      </section>
+    </div>
+
+    <aside class="hidden lg:block" data-pagefind-ignore>
+      <nav class="sticky top-24" aria-label={t('lesson.onThisPage')}>
+        <p class="text-sm font-semibold">{t('lesson.onThisPage')}</p>
+        <ul class="mt-3 space-y-2 border-l border-border text-sm">
+          {
+            toc.map(([id, label]) => (
+              <li>
+                <a href={`#${id}`} class="-ml-px block border-l-2 border-transparent pl-3 text-muted no-underline hover:border-link hover:text-link">
+                  {label}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+        <p class="mt-6 text-sm"><a href={url('/world')}>← {t('wm.allCountries')}</a></p>
+        <p class="mt-2 text-sm"><a href={url('/world/compare')}>{t('wm.compare')} →</a></p>
+      </nav>
+    </aside>
+  </div>
+</BaseLayout>

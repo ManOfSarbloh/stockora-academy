@@ -3,14 +3,16 @@
  * Checks the built site in dist/ (run after `astro build`; part of `npm run verify`):
  *   - every page has a title, description, canonical link, social image and exactly one <h1>
  *   - structured data (JSON-LD) parses
- *   - noindex pages are not in the sitemap, and every other page is
- *   - every internal link and #anchor points to something that exists
+ *   - a page is in the sitemap exactly when it is indexable and its canonical link points to itself
+ *   - every internal link, #anchor and hreflang alternate points to something that exists
+ *   - links on a translated page (/de/, /fr/, …) stay in that language, except the language switcher
  * Exits with code 1 and a list of problems if anything is wrong.
  */
 import { existsSync, readdirSync, readFileSync, statSync } from 'node:fs';
 import { join, relative } from 'node:path';
 
 const DIST = 'dist';
+const LOCALE_CODES = ['de', 'es', 'fr', 'it', 'ru'];
 const base = (process.env.BASE_PATH || '/').replace(/\/?$/, '/');
 const problems = [];
 const problem = (page, msg) => problems.push(`${page}: ${msg}`);
@@ -73,8 +75,32 @@ for (const [route, { html }] of pages) {
     }
   }
 
-  if (noindex && sitemapRoutes.has(route)) problem(route, 'noindex page is listed in the sitemap');
-  if (!noindex && !sitemapRoutes.has(route)) problem(route, 'missing from the sitemap');
+  const canonical = (html.match(/<link rel="canonical" href="([^"]+)"/) || [])[1];
+  const selfCanonical = canonical && '/' + new URL(canonical).pathname.slice(base.length) === route;
+  const shouldList = !noindex && selfCanonical;
+  if (!shouldList && sitemapRoutes.has(route)) problem(route, noindex ? 'noindex page is listed in the sitemap' : 'page with a canonical elsewhere is listed in the sitemap');
+  if (shouldList && !sitemapRoutes.has(route)) problem(route, 'missing from the sitemap');
+  if (canonical && !selfCanonical) {
+    const target = '/' + new URL(canonical).pathname.slice(base.length);
+    if (!pages.has(target)) problem(route, `canonical points to a missing page: ${canonical}`);
+  }
+  for (const m of html.matchAll(/<link rel="alternate" hreflang="([^"]+)" href="([^"]+)"/g)) {
+    const target = '/' + new URL(m[2]).pathname.slice(base.length);
+    if (!pages.has(target)) problem(route, `hreflang ${m[1]} points to a missing page: ${m[2]}`);
+  }
+
+  // Translated pages keep visitors in their language.
+  const lang = route.split('/')[1];
+  if (LOCALE_CODES.includes(lang)) {
+    for (const tag of html.match(/<a\b[^>]*>/g) || []) {
+      if (/\shreflang=/.test(tag)) continue;
+      const href = (tag.match(/\shref="([^"]+)"/) || [])[1];
+      if (!href || !href.startsWith(base)) continue;
+      const rest = href.slice(base.length).split(/[?#]/)[0];
+      if (/\.[a-z0-9]+$/i.test(rest)) continue; // files
+      if (!rest.startsWith(`${lang}/`) && rest !== lang) problem(route, `link leaves the language: ${href}`);
+    }
+  }
 
   // Internal links and anchors.
   for (const m of html.matchAll(linkRe)) {
