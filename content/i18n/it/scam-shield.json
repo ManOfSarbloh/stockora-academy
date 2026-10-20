@@ -1,0 +1,53 @@
+{
+  "flags": {
+    "high-returns": { "text": "Ti promettono rendimenti eccezionalmente alti o apparentemente senza rischi", "why": "Ogni investimento comporta rischi. I rendimenti alti «garantiti» sono l'esca classica." },
+    "steady-returns": { "text": "I rendimenti sono sospettosamente regolari, qualunque cosa facciano i mercati", "why": "Gli investimenti veri salgono e scendono. Guadagni regolari ogni mese sono tipici degli schemi Ponzi." },
+    "time-pressure": { "text": "Ti mettono fretta: «solo oggi», «ultimi posti»", "why": "La fretta ti impedisce di verificare. Un'opportunità vera regge un giorno di riflessione." },
+    "unsolicited": { "text": "Ti hanno contattato loro per primi: una telefonata, un messaggio da un «numero sbagliato», un messaggio privato sui social", "why": "La FMA (l'autorità austriaca dei mercati finanziari) ha definito le telefonate non richieste per operazioni finanziarie vietate in Austria e un segnale d'allarme sicuro." },
+    "messenger": { "text": "Il contatto avviene solo tramite app di messaggistica o in un gruppo di chat", "why": "I truffatori usano WhatsApp, Telegram e gruppi pieni di falsi «vincitori» per creare fiducia e pressione." },
+    "remote-access": { "text": "Ti chiedono di installare un software di accesso remoto (per esempio un'app di condivisione dello schermo)", "why": "Permette a uno sconosciuto di controllare il tuo computer e magari il tuo home banking. Nessuna società di investimento legittima ne ha bisogno." },
+    "logins": { "text": "Ti chiedono password, codici di accesso o foto del documento d'identità", "why": "Con i tuoi dati di accesso i truffatori possono svuotare conti o aprirne di nuovi a tuo nome." },
+    "crypto-payment": { "text": "Ti chiedono di pagare in cripto-attività, a uno sportello bitcoin o con un bonifico a un privato", "why": "Questi pagamenti vanno direttamente ai truffatori e sono molto difficili da recuperare." },
+    "no-licence": { "text": "Non trovi la società nella banca dati delle imprese della FMA, oppure compare in un elenco di avvertenze", "why": "Chi offre servizi di investimento in Austria ha bisogno di un'autorizzazione della FMA." },
+    "details-differ": { "text": "Sito, e-mail, telefono o indirizzo non coincidono con quelli del registro ufficiale", "why": "Le società clone copiano il nome e il numero di registrazione di società reali." },
+    "withdrawal-fees": { "text": "Il tuo conto mostra guadagni, ma prima di prelevare devi pagare «commissioni» o «tasse»", "why": "È una truffa con pagamento anticipato. Ogni nuovo pagamento aumenta solo la perdita." },
+    "romance": { "text": "Un amico online o un contatto sentimentale che non hai mai incontrato ti propone di investire", "why": "I truffatori sentimentali costruiscono fiducia per settimane o mesi prima di parlare di soldi." },
+    "fake-regulator": { "text": "Un'«autorità di vigilanza» o un'«agenzia di recupero» ti contatta e ti chiede soldi", "why": "Le autorità non fanno pagare commissioni alle vittime. Gli indirizzi e-mail autentici della FMA finiscono solo con @fma.gv.at." },
+    "fake-endorsement": { "text": "Personaggi famosi, testimonianze entusiaste o video «dimostrano» che altri si stanno arricchendo", "why": "I truffatori pagano recensioni false e usano immagini, video e voci generati con l'IA." }
+  },
+  "scenarios": {
+    "wrong-number": { "channel": "WhatsApp", "from": "Numero sconosciuto", "message": "Ciao, sei Martina? Scusa, numero sbagliato! 😊 Piacere di conoscerti comunque. Sono un trader e guadagno il 2% al giorno con una strategia basata sull'IA. Potrei aggiungerti al nostro gruppo VIP, ma i posti sono limitati.", "explain": "Contatto da un «numero sbagliato», un rendimento irrealistico (2% al giorno), un gruppo e una scarsità artificiale: quattro segnali d'allarme in tre frasi." },
+    "bank-corporate-action": { "channel": "Lettera della tua banca", "from": "La tua banca (indirizzo noto)", "message": "Alpenrad AG effettua un aumento di capitale con diritti di opzione. Lei detiene 400 azioni e riceve 400 diritti. La preghiamo di comunicarci la sua istruzione nell'home banking entro il 12 novembre; in caso contrario i diritti potrebbero scadere.", "explain": "Un normale avviso di operazione sul capitale. Ti chiede di agire nel tuo home banking, non tramite un link o una telefonata. In caso di dubbio, chiama la tua banca al numero indicato sul suo sito, non a uno preso da un messaggio." },
+    "fma-email": { "channel": "E-mail", "from": "FMA Compliance <compliance@fma-gov-at.com>", "message": "Gentile investitore, l'Autorità dei mercati finanziari ha individuato fondi da lei persi con un broker online. Per svincolare a suo favore 18.400 €, deve essere versata entro 48 ore una commissione antiriciclaggio di 1.200 €.", "explain": "Truffa di recupero con una falsa autorità: il dominio non è @fma.gv.at, le autorità non fanno mai pagare le vittime, e c'è una scadenza." },
+    "broker-remote": { "channel": "Telefonata", "from": "«Senior account manager»", "message": "Le sue prime operazioni sono andate benissimo! Per aiutarla con le prossime, installi questa app di assistenza così posso vedere il suo schermo e guidarla nel bonifico.", "explain": "Una richiesta di installare un software di accesso remoto. Nessuna società legittima ha bisogno di controllare il tuo dispositivo." },
+    "etf-plan": { "channel": "L'app del tuo broker", "from": "App del broker (aperta da te)", "message": "Il tuo piano di accumulo mensile di 100 € nell'ETF che hai scelto verrà eseguito il giorno 5. Commissione: 1,5% per esecuzione, come da nostro listino.", "explain": "In un'app che hai installato e aperto tu, su un piano che hai impostato tu. La commissione è dichiarata. Vale comunque la pena controllare che il broker sia autorizzato e confrontare i costi (categoria F)." },
+    "withdrawal-tax": { "channel": "Chat di una piattaforma di trading", "from": "Team di assistenza", "message": "Congratulazioni, il suo saldo ora è di 38.000 €! Prima di elaborare il prelievo, versi il 20% di imposta sulle plusvalenze (7.600 €) sul nostro conto fiscale.", "explain": "Classica truffa con pagamento anticipato: «guadagni» che non puoi prelevare finché non paghi ancora. Le tasse vere non si pagano tramite la chat di una piattaforma di trading." }
+  },
+  "checks": [
+    { "title": "È autorizzata?", "text": "Cerca nella banca dati delle imprese della FMA e controlla quali servizi può prestare la società.", "link": "Banca dati delle imprese della FMA" },
+    { "title": "C'è un'avvertenza?", "text": "Cerca nell'elenco delle avvertenze della FMA. Un'avvertenza significa: non fare affari con quel fornitore.", "link": "Avvertenze della FMA" },
+    { "title": "C'è un allarme internazionale?", "text": "Cerca in I-SCAN della IOSCO, che raccoglie le avvertenze delle autorità di tutto il mondo (non tutte verificate in modo indipendente).", "link": "IOSCO I-SCAN" },
+    { "title": "I recapiti coincidono?", "text": "Confronta sito, dominio dell'e-mail, telefono e indirizzo con il registro ufficiale, non con quanto ti ha inviato la società. Controlla che l'autorità citata esista davvero.", "link": "La FMA su società clone e false autorità" },
+    { "title": "Ancora dubbi? Chiedi all'autorità.", "text": "Contatta direttamente la FMA, con i recapiti del suo sito. Non installare mai software di accesso remoto per nessuno e non condividere codici di accesso.", "link": "Sito della FMA" }
+  ],
+  "afterSteps": [
+    { "title": "Contatta subito la tua banca", "text": "Chiedi se i pagamenti possono essere bloccati o richiamati. La FMA sottolinea che agire in fretta può evitare ulteriori danni." },
+    { "title": "Denuncia alla polizia", "text": "Sporgi denuncia in qualsiasi posto di polizia; l'Ufficio federale di polizia criminale austriaco (Bundeskriminalamt) elenca i punti di segnalazione per i reati online." },
+    { "title": "Segnala i profili", "text": "Segnala i profili e i gruppi fraudolenti alle piattaforme dove li hai incontrati." },
+    { "title": "Interrompi ogni contatto e non inviare altro denaro", "text": "Non rispondere a nuove «offerte», nemmeno di chi sostiene di poter recuperare i tuoi soldi." },
+    { "title": "Metti in sicurezza conti e dispositivi", "text": "Cambia le password. Se hai installato un software di accesso remoto, rimuovilo e fai controllare il dispositivo." },
+    { "title": "Conserva le prove", "text": "Salva messaggi, e-mail, indirizzi web, ricevute dei bonifici e indirizzi dei wallet." },
+    { "title": "Attenzione alla seconda ondata", "text": "Le truffe di recupero prendono di mira le vittime precedenti e spesso si spacciano per autorità o studi legali. Non pagare mai per riavere i tuoi soldi." }
+  ],
+  "links": [
+    { "name": "FMA: avvertenze e banca dati delle imprese", "text": "L'autorità austriaca dei mercati finanziari: verifica i fornitori e segnala le offerte sospette." },
+    { "name": "App della FMA", "text": "L'app gratuita della FMA con la banca dati delle imprese e le nuove avvertenze." },
+    { "name": "Bundeskriminalamt: punti di segnalazione", "text": "L'Ufficio federale di polizia criminale austriaco indica dove denunciare i reati, comprese le frodi online." },
+    { "name": "Watchlist Internet", "text": "Una piattaforma austriaca indipendente con avvisi aggiornati sulle truffe online." },
+    { "name": "Arbeiterkammer (AK)", "text": "La Camera del lavoro austriaca, che offre consulenza ai consumatori." },
+    { "name": "VKI (Verein für Konsumenteninformation)", "text": "L'associazione austriaca dei consumatori." },
+    { "name": "Sezione investitori dell'ESMA", "text": "Le informazioni dell'autorità europea dei mercati finanziari per gli investitori al dettaglio, anche su frodi e truffe." },
+    { "name": "IOSCO I-SCAN", "text": "Allarmi internazionali delle autorità dei mercati di tutto il mondo." },
+    { "name": "Investor.gov: tipi di frode", "text": "Le spiegazioni della SEC statunitense su schemi Ponzi, truffe sentimentali, frodi con pagamento anticipato e altro (in inglese)." }
+  ]
+}
