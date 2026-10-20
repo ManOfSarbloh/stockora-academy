@@ -1,0 +1,2225 @@
+{
+ "stock": {
+  "term": "Action",
+  "definition": "Une part de propriété d'une entreprise. Détenir des actions fait de vous un copropriétaire (actionnaire) de cette entreprise.",
+  "example": "Si une entreprise compte 1 000 actions et que vous en possédez 25, vous en détenez 2,5 %."
+ },
+ "shareholder": {
+  "term": "Actionnaire",
+  "definition": "Une personne ou une organisation qui détient des actions d'une entreprise. Les actionnaires ordinaires peuvent généralement voter à l'assemblée générale et peuvent recevoir des dividendes."
+ },
+ "equity": {
+  "term": "Capitaux propres / actions",
+  "definition": "La propriété d'une entreprise. En investissement, « equities » est le terme anglais formel pour les actions. Au bilan, les capitaux propres sont ce qui revient aux propriétaires : actifs moins passifs."
+ },
+ "dividend": {
+  "term": "Dividende",
+  "definition": "Un versement d'une entreprise à ses actionnaires, généralement prélevé sur ses bénéfices. Les dividendes ne sont pas garantis : l'entreprise décide si elle en verse un et de quel montant.",
+  "example": "Une entreprise verse un dividende de 2 € par action. Si vous détenez 50 actions, vous recevez 100 € (avant impôts)."
+ },
+ "capital-gain": {
+  "term": "Plus-value",
+  "definition": "Le gain réalisé en vendant un placement plus cher que son prix d'achat. Vendre moins cher est une moins-value.",
+  "example": "Vous achetez une action 80 € et la revendez 100 € : une plus-value de 20 € (avant frais et impôts)."
+ },
+ "market-capitalisation": {
+  "term": "Capitalisation boursière",
+  "definition": "La valeur de marché totale des actions d'une entreprise : le cours de l'action multiplié par le nombre d'actions.",
+  "example": "1 000 000 d'actions à 50 € chacune = une capitalisation boursière de 50 millions €."
+ },
+ "general-meeting": {
+  "term": "Assemblée générale",
+  "definition": "La réunion des actionnaires d'une entreprise, en général une fois par an, où ils peuvent voter sur des sujets importants comme la nomination des administrateurs ou l'approbation d'un dividende."
+ },
+ "diversification": {
+  "term": "Diversification",
+  "definition": "Répartir son argent entre de nombreux placements différents (par exemple de nombreuses entreprises, secteurs et pays) pour qu'un problème sur l'un d'eux nuise moins à l'ensemble."
+ },
+ "bond": {
+  "term": "Obligation",
+  "definition": "Un titre de dette : un prêt d'un investisseur à une entreprise ou à un État. L'émetteur verse des intérêts pendant la durée de vie de l'obligation et rembourse la valeur nominale à l'échéance.",
+  "example": "Vous achetez une obligation à 5 ans de 1 000 € rapportant 4 % par an : vous touchez 40 € d'intérêts chaque année et récupérez 1 000 € au bout de 5 ans, si l'émetteur peut payer."
+ },
+ "debt": {
+  "term": "Dette",
+  "definition": "De l'argent emprunté qui doit être remboursé, généralement avec intérêts. Pour une entreprise, les prêts et les obligations sont des dettes ; pour un investisseur, acheter une obligation, c'est prêter de l'argent (détenir une créance)."
+ },
+ "creditor": {
+  "term": "Créancier",
+  "definition": "Une personne ou une organisation à qui l'on doit de l'argent, par exemple une banque qui a accordé un prêt ou un investisseur qui détient une obligation. En cas de liquidation, les créanciers sont payés avant les actionnaires."
+ },
+ "interest-rate": {
+  "term": "Taux d'intérêt",
+  "definition": "Le prix de l'argent emprunté, exprimé en pourcentage par an. Les emprunteurs le paient ; les prêteurs et les épargnants le reçoivent.",
+  "example": "1 000 € à un taux de 3 % rapportent 30 € en un an."
+ },
+ "primary-market": {
+  "term": "Marché primaire",
+  "definition": "Là où de nouveaux titres sont émis pour la première fois et où l'émetteur (une entreprise ou un État) reçoit l'argent, par exemple lors d'une introduction en Bourse."
+ },
+ "secondary-market": {
+  "term": "Marché secondaire",
+  "definition": "Là où les investisseurs s'échangent des titres existants, par exemple en Bourse. L'entreprise qui a émis les actions ne reçoit pas d'argent de ces transactions."
+ },
+ "ipo": {
+  "term": "Introduction en Bourse (IPO)",
+  "definition": "Initial public offering : la première fois qu'une entreprise vend ses actions au public et les fait coter en Bourse."
+ },
+ "limited-liability": {
+  "term": "Responsabilité limitée",
+  "definition": "La règle selon laquelle les actionnaires de sociétés comme une AG ne sont pas personnellement responsables des dettes de l'entreprise. Un actionnaire peut perdre au maximum ce qu'il a payé pour ses actions."
+ },
+ "preferred-stock": {
+  "term": "Action de préférence",
+  "definition": "Un type d'action qui n'a généralement pas de droit de vote mais touche ses dividendes avant les actions ordinaires et passe avant elles en cas de liquidation."
+ },
+ "security": {
+  "term": "Valeur mobilière (titre)",
+  "definition": "Un instrument de placement négociable, comme une action ou une obligation."
+ },
+ "ticker": {
+  "term": "Mnémonique (ticker)",
+  "definition": "Un code court, généralement de quelques lettres, utilisé par une Bourse pour un titre coté. Les tickers ne sont pas uniques d'une Bourse à l'autre."
+ },
+ "isin": {
+  "term": "ISIN",
+  "definition": "Un code de 12 caractères qui identifie un titre dans le monde entier : un code pays de 2 lettres, un numéro de base de 9 caractères et un chiffre de contrôle. En Autriche, les ISIN sont attribués par l'OeKB."
+ },
+ "wkn": {
+  "term": "WKN",
+  "definition": "Un code allemand d'identification des titres à six caractères. Il a été largement remplacé par l'ISIN mais reste très utilisé dans les pays germanophones."
+ },
+ "stock-exchange": {
+  "term": "Bourse",
+  "definition": "Un marché organisé et réglementé où les titres des sociétés cotées s'échangent selon des règles fixes. Aujourd'hui, les échanges sont presque entièrement électroniques."
+ },
+ "trading-venue": {
+  "term": "Plate-forme de négociation",
+  "definition": "Selon les règles MiF II de l'UE : un marché réglementé, un système multilatéral de négociation (MTF) ou un système organisé de négociation (OTF)."
+ },
+ "mtf": {
+  "term": "Système multilatéral de négociation (MTF)",
+  "definition": "Une plate-forme de négociation de l'UE, exploitée par une entreprise d'investissement ou un opérateur de marché, qui réunit de nombreux acheteurs et vendeurs selon des règles fixes, comme une Bourse."
+ },
+ "otc": {
+  "term": "De gré à gré (OTC)",
+  "definition": "Over the counter : des échanges directs entre deux parties plutôt que sur une plate-forme de négociation. Aux États-Unis, les « OTC securities » sont des titres non cotés sur une Bourse nationale."
+ },
+ "stock-index": {
+  "term": "Indice boursier",
+  "definition": "Un nombre qui suit les cours d'un groupe choisi d'actions, comme l'ATX autrichien. Les informations l'appellent souvent « le marché »."
+ },
+ "retail-investor": {
+  "term": "Investisseur particulier",
+  "definition": "Une personne privée qui achète et vend des placements avec son propre argent, pour elle-même."
+ },
+ "institutional-investor": {
+  "term": "Investisseur institutionnel",
+  "definition": "Une organisation professionnelle qui rassemble de l'argent et l'investit pour le compte d'autrui, comme les fonds de pension, les fonds d'investissement, les assureurs et les banques."
+ },
+ "market-maker": {
+  "term": "Teneur de marché",
+  "definition": "Une société prête à acheter ou à vendre un titre à des prix affichés publiquement, ce qui permet aux autres d'échanger à tout moment."
+ },
+ "broker": {
+  "term": "Courtier",
+  "definition": "Une société qui achète et vend des titres pour le compte de ses clients et les conserve généralement sur le compte du client. Les particuliers accèdent au marché via un courtier."
+ },
+ "inflation": {
+  "term": "Inflation",
+  "definition": "Une hausse générale des prix dans le temps : avec la même somme d'argent, on achète moins.",
+  "example": "Si les prix augmentent de 3 % en un an, ce qui coûtait 100 € coûte désormais 103 €."
+ },
+ "volatility": {
+  "term": "Volatilité",
+  "definition": "L'ampleur et la fréquence des variations du prix d'un placement. Plus volatil signifie des fluctuations plus fortes dans les deux sens."
+ },
+ "asset-class": {
+  "term": "Classe d'actifs",
+  "definition": "Un groupe de placements qui se comportent de façon semblable, comme les actions, les obligations, les liquidités ou l'immobilier."
+ },
+ "share-capital": {
+  "term": "Capital social",
+  "definition": "L'argent (ou d'autres biens) que les propriétaires apportent à une société en échange d'actions. Dans une AG autrichienne, il s'appelle Grundkapital et il est divisé en actions."
+ },
+ "aktiengesellschaft": {
+  "term": "Aktiengesellschaft (AG)",
+  "definition": "Le nom allemand et autrichien de la société anonyme : une société dotée de la personnalité juridique dont le capital social est divisé en actions. En Autriche, le capital minimum est de 70 000 €."
+ },
+ "gmbh": {
+  "term": "GmbH",
+  "definition": "Gesellschaft mit beschränkter Haftung : une société à responsabilité limitée courante en Autriche, en Allemagne et en Suisse. En Autriche, elle exige au moins 10 000 € de capital social ; ses parts ne s'échangent pas en Bourse."
+ },
+ "firmenbuch": {
+  "term": "Firmenbuch",
+  "definition": "Le registre du commerce autrichien. Une GmbH ou une AG n'existe qu'une fois inscrite au Firmenbuch."
+ },
+ "par-value": {
+  "term": "Valeur nominale",
+  "definition": "Le montant nominal inscrit sur une action (en Autriche, au moins 1 € pour les actions à valeur nominale). C'est une donnée comptable qui ne dit rien du cours de Bourse."
+ },
+ "no-par-share": {
+  "term": "Action sans valeur nominale",
+  "definition": "Une action sans montant nominal ; chaque action représente une fraction égale du capital social."
+ },
+ "registered-share": {
+  "term": "Action nominative",
+  "definition": "Une action dont le propriétaire est inscrit nommément au registre des actionnaires de la société. En Autriche, les AG non cotées doivent émettre des actions nominatives."
+ },
+ "bearer-share": {
+  "term": "Action au porteur",
+  "definition": "Une action dont le propriétaire n'est pas inscrit nommément dans un registre de la société."
+ },
+ "share-register": {
+  "term": "Registre des actionnaires",
+  "definition": "La liste tenue par la société des noms des détenteurs d'actions nominatives. En Autriche (Aktienbuch), seule la personne inscrite est considérée comme actionnaire vis-à-vis de la société."
+ },
+ "authorised-shares": {
+  "term": "Actions autorisées",
+  "definition": "Le nombre maximal d'actions qu'une société peut émettre selon ses statuts. Les actions émises sont celles réellement attribuées."
+ },
+ "cap-table": {
+  "term": "Table de capitalisation",
+  "definition": "La liste de tous les détenteurs des actions d'une société et des titres associés (comme les options et les prêts convertibles), avec leur nombre et leurs conditions."
+ },
+ "dilution": {
+  "term": "Dilution",
+  "definition": "La baisse du pourcentage des propriétaires existants lorsqu'une société émet de nouvelles actions. Ils gardent le même nombre d'actions, mais chacune représente une part plus petite.",
+  "example": "Vous détenez 100 actions sur 1 000 (10 %). La société émet 250 actions nouvelles : vous en détenez maintenant 100 sur 1 250 (8 %)."
+ },
+ "valuation": {
+  "term": "Valorisation",
+  "definition": "Ce que vaut une entreprise selon l'estimation d'analystes ou l'accord entre l'entreprise et ses investisseurs."
+ },
+ "pre-money-valuation": {
+  "term": "Valorisation pré-money",
+  "definition": "La valeur d'une entreprise avant l'arrivée de l'argent frais d'un tour de financement."
+ },
+ "post-money-valuation": {
+  "term": "Valorisation post-money",
+  "definition": "La valeur d'une entreprise juste après un tour de financement : valorisation pré-money plus argent frais. La part de l'investisseur est son investissement divisé par la valorisation post-money.",
+  "example": "4 millions € pré-money + 1 million € investi = 5 millions € post-money ; l'investisseur détient 1 M€ ÷ 5 M€ = 20 %."
+ },
+ "angel-investor": {
+  "term": "Business angel",
+  "definition": "Un particulier fortuné qui investit son propre argent directement dans de jeunes entreprises, généralement lors des premiers tours de financement."
+ },
+ "venture-capital": {
+  "term": "Capital-risque",
+  "definition": "L'argent de fonds de capital-risque : des fonds privés qui investissent dans de jeunes entreprises à forte croissance en échange de parts, généralement des actions de préférence."
+ },
+ "seed-round": {
+  "term": "Tour d'amorçage",
+  "definition": "En général le premier tour de financement formel d'une entreprise, souvent auprès de proches, de business angels ou de fonds d'amorçage, fréquemment via des prêts convertibles ou des SAFE."
+ },
+ "series-round": {
+  "term": "Tour de série (série A, B, C)",
+  "definition": "Un tour de financement ultérieur, nommé dans l'ordre (série A, série B, série C…), souvent mené par des fonds de capital-risque."
+ },
+ "convertible-note": {
+  "term": "Prêt convertible",
+  "definition": "Un prêt à une jeune entreprise qui se convertit en actions (généralement de préférence) lors d'un tour ultérieur ou d'un autre événement convenu. Courant lors des tours d'amorçage."
+ },
+ "safe": {
+  "term": "SAFE",
+  "definition": "Simple agreement for future equity : un accord par lequel une entreprise promet à un investisseur des actions dans le futur si certains événements surviennent, comme un tour ultérieur (proche du BSA AIR en France)."
+ },
+ "liquidation-preference": {
+  "term": "Préférence de liquidation",
+  "definition": "Le droit d'un investisseur d'être payé avant les autres actionnaires en cas de vente ou de liquidation de l'entreprise, souvent exprimé en multiple de l'investissement (1x, 2x)."
+ },
+ "stock-option": {
+  "term": "Option sur actions (salariés)",
+  "definition": "Le droit, mais pas l'obligation, d'acheter un nombre donné d'actions de l'entreprise à un prix fixe (le prix d'exercice), généralement après une période d'acquisition."
+ },
+ "vesting": {
+  "term": "Acquisition des droits (vesting)",
+  "definition": "Le processus par lequel un salarié acquiert progressivement le droit à des options ou des actions, par exemple en restant dans l'entreprise pendant une durée donnée."
+ },
+ "crowdfunding": {
+  "term": "Financement participatif (crowdfunding)",
+  "definition": "Lever de l'argent auprès de nombreux particuliers qui investissent chacun de petites sommes, généralement via une plateforme en ligne. Ces placements sont souvent non garantis et présentent un risque de perte élevé."
+ },
+ "prospectus": {
+  "term": "Prospectus",
+  "definition": "Le document officiel d'une offre au public de titres, qui décrit la société, son activité, ses finances, ses risques et les conditions de l'offre. En Autriche, il doit être approuvé par la FMA."
+ },
+ "underwriter": {
+  "term": "Banque introductrice (souscripteur)",
+  "definition": "Une banque d'investissement qui organise et place une émission de titres, comme une introduction en Bourse, pour la société émettrice. La banque principale est souvent appelée chef de file (bookrunner)."
+ },
+ "bookbuilding": {
+  "term": "Construction du livre d'ordres (bookbuilding)",
+  "definition": "Recueillir les ordres des investisseurs (combien d'actions, jusqu'à quel prix) pendant la période de souscription d'une offre, pour aider à fixer le prix final."
+ },
+ "roadshow": {
+  "term": "Roadshow",
+  "definition": "Une série de présentations au cours desquelles la direction d'une entreprise présente une offre à des investisseurs potentiels."
+ },
+ "greenshoe": {
+  "term": "Option de surallocation (greenshoe)",
+  "definition": "Une option permettant aux banques introductrices d'acheter des actions supplémentaires au prix d'offre pour couvrir les actions surallouées. Selon les règles de l'UE, elle ne peut dépasser 15 % de l'offre initiale."
+ },
+ "stabilisation": {
+  "term": "Stabilisation du cours",
+  "definition": "Des achats des banques introductrices après une offre pour soutenir le cours. Dans l'UE, pour une introduction en Bourse d'actions, elle doit prendre fin sous 30 jours calendaires et jamais au-dessus du prix d'offre."
+ },
+ "lock-up": {
+  "term": "Engagement de conservation (lock-up)",
+  "definition": "Un accord qui empêche les dirigeants et les gros actionnaires de vendre leurs actions pendant une période après une introduction en Bourse. La plupart des lock-ups américains durent 180 jours, mais les conditions varient."
+ },
+ "quiet-period": {
+  "term": "Période de silence",
+  "definition": "Aux États-Unis, la période entourant l'enregistrement d'une offre pendant laquelle la société doit s'assurer que sa communication publique sur l'offre respecte le droit boursier."
+ },
+ "oversubscribed": {
+  "term": "Sursouscrite",
+  "definition": "Lorsque les investisseurs demandent plus d'actions que l'offre n'en propose, de sorte que les ordres doivent être réduits."
+ },
+ "primary-shares": {
+  "term": "Actions nouvelles",
+  "definition": "Des actions nouvellement émises vendues lors d'une offre ; l'argent va à l'entreprise."
+ },
+ "secondary-shares": {
+  "term": "Actions existantes (cession)",
+  "definition": "Des actions existantes vendues lors d'une offre par leurs propriétaires actuels ; l'argent va à ces vendeurs, pas à l'entreprise."
+ },
+ "direct-listing": {
+  "term": "Cotation directe",
+  "definition": "Admettre à la cote d'une Bourse les actions existantes d'une entreprise sans introduction classique avec banques introductrices ; le cours d'ouverture se forme sur le marché."
+ },
+ "spac": {
+  "term": "SPAC",
+  "definition": "Special purpose acquisition company : une coquille sans activité propre qui entre en Bourse, lève de l'argent puis fusionne avec une entreprise privée (l'opération de-SPAC)."
+ },
+ "reverse-merger": {
+  "term": "Fusion inversée",
+  "definition": "Un moyen d'entrer en Bourse par lequel une entreprise privée fusionne avec une coquille déjà cotée et en prend le contrôle, sans introduction classique."
+ },
+ "spin-off": {
+  "term": "Scission (spin-off)",
+  "definition": "Lorsqu'une entreprise détache une division pour en faire une nouvelle société indépendante et attribue les actions de celle-ci à ses propres actionnaires."
+ },
+ "free-float": {
+  "term": "Flottant",
+  "definition": "La part des actions d'une entreprise disponible à l'échange par le public, hors participations durables des fondateurs, familles, États ou propriétaires stratégiques."
+ },
+ "underpricing": {
+  "term": "Décote d'introduction (underpricing)",
+  "definition": "Lorsque le prix d'offre d'une introduction en Bourse est fixé sous le cours auquel les actions commencent à coter, ce qui donne aux acheteurs un gain immédiat."
+ },
+ "flipping": {
+  "term": "Flipping",
+  "definition": "Revendre aussitôt après le début de la cotation les actions obtenues lors d'une introduction en Bourse."
+ },
+ "csd": {
+  "term": "Dépositaire central de titres",
+  "definition": "Une institution qui enregistre les titres dans un système électronique d'inscription en compte et en assure la conservation. En Autriche : OeKB CSD."
+ },
+ "book-entry": {
+  "term": "Inscription en compte",
+  "definition": "Détenir des titres sous forme d'écritures électroniques plutôt que de certificats papier. La propriété change par modification des écritures."
+ },
+ "custodian": {
+  "term": "Teneur de compte-conservateur",
+  "definition": "Une banque ou une société qui conserve les titres de ses clients."
+ },
+ "capital-increase": {
+  "term": "Augmentation de capital",
+  "definition": "Lorsqu'une entreprise émet de nouvelles actions pour lever de l'argent. Les actionnaires existants sont dilués, sauf s'ils achètent leur part des nouvelles actions."
+ },
+ "rights-issue": {
+  "term": "Augmentation de capital avec DPS",
+  "definition": "Une augmentation de capital dans laquelle les actionnaires existants ont la priorité pour acheter les nouvelles actions, au prorata de ce qu'ils détiennent déjà (droit préférentiel de souscription)."
+ },
+ "squeeze-out": {
+  "term": "Retrait obligatoire (squeeze-out)",
+  "definition": "Une procédure qui permet à un actionnaire majoritaire d'évincer les minoritaires restants contre une indemnisation en espèces. En Autriche, le seuil est de 90 %."
+ },
+ "delisting": {
+  "term": "Radiation de la cote",
+  "definition": "Lorsque les actions d'une entreprise sont retirées d'une Bourse. Les actions continuent d'exister, mais deviennent beaucoup plus difficiles à échanger."
+ },
+ "takeover": {
+  "term": "Prise de contrôle",
+  "definition": "Lorsqu'une entreprise ou un investisseur prend le contrôle d'une autre entreprise, généralement en achetant la majorité ou la totalité de ses actions."
+ },
+ "common-stock": {
+  "term": "Action ordinaire",
+  "definition": "Le type d'action standard : elle donne généralement un vote à l'assemblée générale et une part des dividendes, et passe en dernier en cas de liquidation."
+ },
+ "share-class": {
+  "term": "Catégorie d'actions",
+  "definition": "Une catégorie d'actions d'une société dotée de droits propres, par exemple des votes ou des dividendes différents (classe A, classe B). Les lettres n'ont pas de signification standard."
+ },
+ "dual-class": {
+  "term": "Structure à deux catégories d'actions",
+  "definition": "Un montage dans lequel les fondateurs ou dirigeants détiennent des actions avec plus de voix par action que celles vendues au public, ce qui leur permet de contrôler l'entreprise avec une minorité des actions."
+ },
+ "growth-stock": {
+  "term": "Valeur de croissance",
+  "definition": "Une action d'une entreprise dont les bénéfices croissent plus vite que la moyenne du marché. Les entreprises de croissance versent rarement des dividendes et réinvestissent leurs bénéfices."
+ },
+ "value-stock": {
+  "term": "Valeur décotée (value)",
+  "definition": "Une action qui paraît bon marché par rapport aux bénéfices de l'entreprise (par exemple un PER bas), souvent parce qu'elle est boudée par les investisseurs."
+ },
+ "income-stock": {
+  "term": "Valeur de rendement",
+  "definition": "Une action d'une entreprise qui verse régulièrement des dividendes ; les investisseurs l'achètent surtout pour ce revenu régulier."
+ },
+ "blue-chip": {
+  "term": "Valeur vedette (blue chip)",
+  "definition": "Une action d'une grande entreprise connue, à l'historique long et solide, qui verse généralement des dividendes."
+ },
+ "cyclical-stock": {
+  "term": "Valeur cyclique",
+  "definition": "Une action d'une entreprise dont les ventes et les bénéfices montent et baissent fortement avec l'économie, comme les constructeurs automobiles ou les compagnies aériennes."
+ },
+ "defensive-stock": {
+  "term": "Valeur défensive",
+  "definition": "Une action d'une entreprise dont les clients continuent d'acheter les produits même en récession (alimentation, produits ménagers, services collectifs) ; ses bénéfices ont tendance à être plus stables."
+ },
+ "large-cap": {
+  "term": "Grande capitalisation (large cap)",
+  "definition": "Une entreprise à très forte capitalisation boursière. Il n'existe pas de seuil officiel unique."
+ },
+ "small-cap": {
+  "term": "Petite capitalisation (small cap)",
+  "definition": "Une société cotée plus petite par sa capitalisation. Les small caps peuvent croître plus vite mais sont souvent plus volatiles et moins suivies."
+ },
+ "microcap": {
+  "term": "Microcap",
+  "definition": "Une très petite société cotée. Aux États-Unis, le terme désigne souvent des entreprises valant moins d'environ 250 à 300 millions de dollars. Les microcaps peuvent être peu liquides et sont des cibles fréquentes de fraude."
+ },
+ "penny-stock": {
+  "term": "Penny stock",
+  "definition": "Une action à très bas prix. Ces sociétés ont souvent peu ou pas de bénéfices, versent rarement des dividendes et sont très spéculatives."
+ },
+ "meme-stock": {
+  "term": "Action mème",
+  "definition": "Une action dont le cours est surtout porté par l'engouement des particuliers sur les réseaux sociaux plutôt que par l'activité de l'entreprise, comme GameStop en janvier 2021."
+ },
+ "sector": {
+  "term": "Secteur",
+  "definition": "Un grand domaine de l'économie, comme l'énergie, la santé ou la finance, utilisé pour regrouper des entreprises similaires."
+ },
+ "gics": {
+  "term": "GICS",
+  "definition": "Global Industry Classification Standard : un système créé en 1999 par S&P Dow Jones Indices et MSCI qui classe les entreprises en 11 secteurs, 25 groupes d'industries, 74 industries et 163 sous-industries."
+ },
+ "adr": {
+  "term": "ADR (American depositary receipt)",
+  "definition": "Un certificat négocié aux États-Unis en dollars qui représente des actions d'une société non américaine détenues par une banque dépositaire américaine."
+ },
+ "gdr": {
+  "term": "GDR (global depositary receipt)",
+  "definition": "Comme un ADR, un certificat représentant des actions d'une société, généralement proposé à des investisseurs de plusieurs pays."
+ },
+ "reit": {
+  "term": "REIT (foncière cotée)",
+  "definition": "Real estate investment trust : une société qui possède et gère généralement des biens immobiliers générant des revenus ou des actifs liés. La plupart distribuent l'essentiel de leurs revenus en dividendes (proche de la SIIC française)."
+ },
+ "convertible-security": {
+  "term": "Titre convertible",
+  "definition": "Généralement une obligation ou une action de préférence qui peut être convertie en un autre titre, le plus souvent en actions ordinaires de la société."
+ },
+ "warrant": {
+  "term": "Warrant",
+  "definition": "Un titre qui donne le droit, mais pas l'obligation, d'acheter ou de vendre un actif sous-jacent à un prix fixe pendant une période donnée ou à son terme. Les warrants peuvent expirer sans valeur."
+ },
+ "subscription-right": {
+  "term": "Droit préférentiel de souscription",
+  "definition": "Le droit des actionnaires existants d'acheter des actions nouvelles lors d'une augmentation de capital avant les autres, au prorata de leur participation. Il protège contre la dilution et peut souvent être négocié."
+ },
+ "certificate": {
+  "term": "Certificat (produit structuré)",
+  "definition": "En Autriche et en Allemagne, une obligation émise par une banque dont le remboursement dépend d'un sous-jacent comme une action ou un indice. Vous prêtez de l'argent à l'émetteur et supportez son risque de crédit."
+ },
+ "fractional-share": {
+  "term": "Fraction d'action",
+  "definition": "Moins d'une action entière, achetée via des courtiers qui proposent l'investissement fractionné. Les droits de vote, les frais et la possibilité de transfert dépendent du courtier."
+ },
+ "sec": {
+  "term": "SEC",
+  "definition": "U.S. Securities and Exchange Commission : l'autorité fédérale qui régule les marchés financiers américains et gère le site d'éducation financière Investor.gov."
+ },
+ "fma": {
+  "term": "FMA",
+  "definition": "Finanzmarktaufsicht : l'autorité autrichienne des marchés financiers, qui supervise les banques, les assureurs, les entreprises d'investissement et les marchés de titres en Autriche."
+ },
+ "esma": {
+  "term": "AEMF (ESMA)",
+  "definition": "Autorité européenne des marchés financiers : l'autorité de l'UE qui travaille à des règles et pratiques de supervision communes pour les marchés de titres dans toute l'UE."
+ },
+ "order-book": {
+  "term": "Carnet d'ordres",
+  "definition": "La liste de tous les ordres d'achat et de vente d'un titre en attente d'exécution, triés par prix et par heure."
+ },
+ "bid-price": {
+  "term": "Prix acheteur (bid)",
+  "definition": "Le prix auquel quelqu'un est prêt à acheter. Le plus haut prix acheteur du carnet est la meilleure offre d'achat."
+ },
+ "ask-price": {
+  "term": "Prix vendeur (ask)",
+  "definition": "Le prix auquel quelqu'un est prêt à vendre, aussi appelé offre. Le prix vendeur le plus bas du carnet est la meilleure offre de vente."
+ },
+ "bid-ask-spread": {
+  "term": "Fourchette (écart acheteur-vendeur)",
+  "definition": "L'écart entre le meilleur prix vendeur (le plus bas) et le meilleur prix acheteur (le plus haut). Une fourchette étroite indique généralement un titre liquide.",
+  "example": "Meilleur acheteur 10,00 €, meilleur vendeur 10,02 € : la fourchette est de 0,02 €."
+ },
+ "price-time-priority": {
+  "term": "Priorité prix-temps",
+  "definition": "La règle de classement des ordres : le meilleur prix passe d'abord et, à prix égal, l'ordre le plus ancien."
+ },
+ "matching-engine": {
+  "term": "Moteur d'appariement",
+  "definition": "Le système informatique de la Bourse qui apparie les ordres d'achat et de vente selon ses règles."
+ },
+ "liquidity": {
+  "term": "Liquidité",
+  "definition": "La rapidité et la facilité avec lesquelles un titre peut être acheté ou vendu sans faire beaucoup bouger son prix."
+ },
+ "price-discovery": {
+  "term": "Formation des prix",
+  "definition": "Le processus par lequel de nombreux ordres d'achat et de vente qui se rencontrent sur un marché produisent un prix."
+ },
+ "auction": {
+  "term": "Fixing (enchère)",
+  "definition": "Un mode de négociation dans lequel les ordres sont collectés pendant une phase d'appel puis exécutés ensemble au prix unique qui permet d'échanger le plus grand nombre d'actions."
+ },
+ "closing-auction": {
+  "term": "Fixing de clôture",
+  "definition": "Le fixing de fin de séance qui détermine le cours de clôture officiel."
+ },
+ "continuous-trading": {
+  "term": "Cotation en continu",
+  "definition": "Un mode de négociation dans lequel chaque ordre entrant est aussitôt confronté au carnet d'ordres et exécuté si possible."
+ },
+ "regulated-market": {
+  "term": "Marché réglementé",
+  "definition": "Le terme de l'UE pour une Bourse classique : un système multilatéral agréé qui réunit acheteurs et vendeurs selon des règles non discrétionnaires."
+ },
+ "dark-pool": {
+  "term": "Dark pool",
+  "definition": "Un système de négociation où les participants passent des ordres sans en afficher publiquement la taille ni le prix ; utilisé surtout par les institutions pour de gros ordres."
+ },
+ "ats": {
+  "term": "Système de négociation alternatif (ATS)",
+  "definition": "Aux États-Unis, un système électronique régulé par la SEC qui apparie des ordres sur titres sans être enregistré comme Bourse nationale."
+ },
+ "systematic-internaliser": {
+  "term": "Internalisateur systématique",
+  "definition": "Une entreprise d'investissement de l'UE qui négocie pour compte propre face aux ordres de ses clients, hors plate-forme de négociation, de façon fréquente et substantielle."
+ },
+ "clearing": {
+  "term": "Compensation (clearing)",
+  "definition": "Tout ce qui se passe entre une transaction et son dénouement final : confirmer les détails, calculer les obligations et gérer le risque qu'une partie fasse défaut."
+ },
+ "settlement": {
+  "term": "Règlement-livraison",
+  "definition": "L'échange final d'une transaction : les titres vont à l'acheteur et l'argent au vendeur, généralement auprès d'un dépositaire central."
+ },
+ "ccp": {
+  "term": "Contrepartie centrale (CCP)",
+  "definition": "Une institution qui s'interpose dans les transactions comme acheteur face à chaque vendeur et vendeur face à chaque acheteur, pour que la défaillance d'une partie ne touche pas l'autre. À Vienne : CCP Austria."
+ },
+ "delivery-versus-payment": {
+  "term": "Livraison contre paiement",
+  "definition": "Un mode de règlement où les titres ne sont livrés que si le paiement est fait, et inversement, de sorte qu'aucune partie ne reste exposée."
+ },
+ "settlement-cycle": {
+  "term": "Cycle de règlement-livraison",
+  "definition": "Le délai entre la date de transaction (J) et le règlement, comme J+1 ou J+2 jours ouvrés. Les États-Unis utilisent J+1 depuis mai 2024 ; l'UE passe de J+2 à J+1 le 11 octobre 2027."
+ },
+ "circuit-breaker": {
+  "term": "Coupe-circuit",
+  "definition": "Une règle qui interrompt les échanges lorsque les cours chutent ou bougent trop, trop vite. Aux États-Unis, les arrêts de tout le marché sont déclenchés par des baisses du S&P 500 de 7 %, 13 % et 20 %."
+ },
+ "volatility-interruption": {
+  "term": "Interruption pour volatilité",
+  "definition": "Sur les marchés fondés sur Xetra comme Vienne : un bref passage de la cotation en continu à un fixing lorsque le prochain cours sortirait d'un corridor fixé."
+ },
+ "trading-halt": {
+  "term": "Suspension de cotation",
+  "definition": "Un arrêt temporaire des échanges sur un titre, par exemple dans l'attente d'une information importante."
+ },
+ "tick-size": {
+  "term": "Pas de cotation",
+  "definition": "Le plus petit écart dont un cours peut varier. Dans l'UE, il dépend du cours et de la liquidité de l'action."
+ },
+ "lot-size": {
+  "term": "Quotité de négociation",
+  "definition": "La quantité minimale, ou le multiple, par laquelle un titre peut être négocié sur certains marchés."
+ },
+ "algorithmic-trading": {
+  "term": "Trading algorithmique",
+  "definition": "Des échanges où des programmes informatiques décident automatiquement des ordres : quand, à quel prix et en quelle quantité."
+ },
+ "hft": {
+  "term": "Trading à haute fréquence",
+  "definition": "La forme la plus rapide de trading algorithmique, avec des infrastructures comme la colocation pour réduire au minimum les délais, des décisions automatisées et un très grand nombre d'ordres et d'annulations."
+ },
+ "co-location": {
+  "term": "Colocation",
+  "definition": "Installer les ordinateurs d'une société de trading dans le centre de données d'une Bourse ou à côté, pour réduire le temps d'acheminement des ordres."
+ },
+ "trading-hours": {
+  "term": "Horaires de cotation",
+  "definition": "Les heures fixes, en heure locale, pendant lesquelles une Bourse est ouverte, généralement réparties entre fixings et cotation en continu."
+ },
+ "pre-market": {
+  "term": "Pré-ouverture (pré-marché)",
+  "definition": "Des échanges avant l'ouverture officielle de la séance normale, proposés surtout aux États-Unis. La liquidité est plus faible et les écarts plus larges."
+ },
+ "after-hours": {
+  "term": "Après-Bourse",
+  "definition": "Des échanges après la clôture de la séance normale, aussi appelés horaires étendus. Les cours peuvent fortement varier sur peu de transactions."
+ },
+ "trade-at-close": {
+  "term": "Négociation au cours de clôture (trade at close)",
+  "definition": "À la Bourse de Vienne, une courte phase après le fixing de clôture pendant laquelle des ordres peuvent être exécutés au cours de clôture officiel."
+ },
+ "exchange-holiday": {
+  "term": "Jour férié boursier",
+  "definition": "Un jour de semaine où une Bourse est fermée. Les jours fériés boursiers ne coïncident pas toujours avec les jours fériés légaux."
+ },
+ "early-close": {
+  "term": "Clôture anticipée",
+  "definition": "Une séance raccourcie, par exemple quand le NYSE ferme à 13 heures le lendemain de Thanksgiving et la veille de Noël."
+ },
+ "dst": {
+  "term": "Heure d'été",
+  "definition": "Avancer les horloges d'une heure en été. L'UE change le dernier dimanche de mars et d'octobre ; les États-Unis, le deuxième dimanche de mars et le premier dimanche de novembre."
+ },
+ "market-overlap": {
+  "term": "Chevauchement des marchés",
+  "definition": "Les heures où deux grands marchés sont ouverts en même temps, comme l'Europe et les États-Unis (normalement de 15 h 30 à 17 h 30, heure de Vienne)."
+ },
+ "triple-witching": {
+  "term": "Triple sorcellerie",
+  "definition": "Le troisième vendredi de mars, juin, septembre et décembre, quand les options sur actions, les contrats à terme sur indices et les options sur ces contrats arrivent à échéance ensemble aux États-Unis."
+ },
+ "expiry-day": {
+  "term": "Jour d'échéance",
+  "definition": "Le jour où un contrat à terme ou d'options prend fin et est réglé. Pour de nombreux dérivés sur indices européens, c'est le troisième vendredi du mois du contrat."
+ },
+ "index-rebalancing": {
+  "term": "Révision d'indice",
+  "definition": "La révision régulière d'un indice, avec entrées, sorties et ajustement des pondérations ; les fonds indiciels doivent alors acheter et vendre en conséquence."
+ },
+ "overnight-trading": {
+  "term": "Cotation de nuit",
+  "definition": "Des échanges pendant la nuit, en dehors de la séance normale et des séances de pré-ouverture et d'après-Bourse. Les Bourses américaines préparent une cotation quasi continue « 23/5 »."
+ },
+ "depot": {
+  "term": "Compte-titres (Depot)",
+  "definition": "Le compte sur lequel une banque ou un courtier conserve vos titres. En Autriche et en Allemagne, on parle de Depot. Les titres qu'il contient vous appartiennent."
+ },
+ "neobroker": {
+  "term": "Néocourtier",
+  "definition": "Un courtier en ligne conçu d'abord pour l'application, avec une interface simple et souvent des frais par ordre très bas ou nuls. Les coûts totaux et l'acheminement des ordres varient."
+ },
+ "kyc": {
+  "term": "Connaissance du client (KYC)",
+  "definition": "L'obligation des établissements financiers de vérifier l'identité d'un client et de connaître les éléments essentiels le concernant, par exemple pour prévenir le blanchiment et la fraude."
+ },
+ "suitability-assessment": {
+  "term": "Évaluation de l'adéquation",
+  "definition": "Selon MiF II, la vérification qu'un établissement doit faire avant de conseiller ou de gérer un portefeuille : vos connaissances et votre expérience, votre situation financière et votre capacité à subir des pertes, vos objectifs et votre tolérance au risque."
+ },
+ "appropriateness-assessment": {
+  "term": "Évaluation du caractère approprié",
+  "definition": "Selon MiF II, la vérification qu'un client possède les connaissances et l'expérience nécessaires pour comprendre les risques d'un produit acheté sans conseil ; sinon, l'établissement doit le mettre en garde."
+ },
+ "cash-account": {
+  "term": "Compte au comptant",
+  "definition": "Un compte-titres sur lequel vous ne pouvez acheter qu'avec votre propre argent, de sorte que vous ne pouvez pas perdre plus que ce que vous y avez mis."
+ },
+ "margin-account": {
+  "term": "Compte sur marge",
+  "definition": "Un compte-titres sur lequel le courtier vous prête de l'argent pour acheter des titres, en prenant votre compte en garantie. Il amplifie les gains et les pertes."
+ },
+ "margin-call": {
+  "term": "Appel de marge",
+  "definition": "La demande d'un courtier d'ajouter de l'argent ou des titres sur un compte sur marge après une baisse des cours. Le courtier peut aussi vendre vos titres, éventuellement sans préavis."
+ },
+ "isa": {
+  "term": "ISA (Royaume-Uni)",
+  "definition": "Individual Savings Account : un compte britannique sur lequel l'épargne et les placements croissent sans impôt britannique, jusqu'à un plafond annuel (20 000 £ pour l'exercice fiscal 2026/27)."
+ },
+ "ira": {
+  "term": "IRA et 401(k)",
+  "definition": "Des comptes de retraite américains fiscalement avantageux. Pour 2026, les plafonds de versement sont de 7 500 dollars pour un IRA et de 24 500 dollars pour un 401(k)."
+ },
+ "nisa": {
+  "term": "NISA (Japon)",
+  "definition": "Nippon Individual Savings Account : le compte d'investissement exonéré d'impôt du Japon."
+ },
+ "tfsa": {
+  "term": "CELI / TFSA (Canada)",
+  "definition": "Compte d'épargne libre d'impôt : un compte canadien dans lequel intérêts, dividendes et plus-values sont généralement exonérés, y compris au retrait ; les versements ne sont pas déductibles."
+ },
+ "market-order": {
+  "term": "Ordre au marché",
+  "definition": "Un ordre d'achat ou de vente immédiat au meilleur prix disponible. Il garantit l'exécution, mais pas le prix."
+ },
+ "limit-order": {
+  "term": "Ordre à cours limité",
+  "definition": "Un ordre d'acheter à un prix fixé ou en dessous, ou de vendre à un prix fixé ou au-dessus. Il garantit le prix (ou mieux), mais pas l'exécution."
+ },
+ "slippage": {
+  "term": "Glissement (slippage)",
+  "definition": "L'écart entre le prix attendu au moment de passer un ordre et le prix auquel il a réellement été exécuté."
+ },
+ "partial-fill": {
+  "term": "Exécution partielle",
+  "definition": "Lorsque seule une partie d'un ordre est exécutée, faute d'actions disponibles en quantité suffisante au prix accepté."
+ },
+ "stop-order": {
+  "term": "Ordre stop (stop-loss)",
+  "definition": "Un ordre qui devient un ordre au marché quand un cours de déclenchement est atteint. Un stop de vente sous le cours actuel sert à limiter les pertes (stop-loss)."
+ },
+ "stop-limit-order": {
+  "term": "Ordre stop limite",
+  "definition": "Un ordre qui devient un ordre à cours limité quand un cours de déclenchement est atteint. Il protège le prix, mais peut ne jamais être exécuté."
+ },
+ "trailing-stop": {
+  "term": "Stop suiveur (trailing stop)",
+  "definition": "Un ordre stop dont le cours de déclenchement suit le cours du marché à distance fixe quand celui-ci évolue favorablement, mais ne recule pas."
+ },
+ "day-order": {
+  "term": "Ordre valable jour",
+  "definition": "Un ordre valable uniquement pour la séance où il est passé ; s'il n'est pas exécuté, il est en général annulé à la fin de la séance normale."
+ },
+ "gtc": {
+  "term": "Ordre à révocation (GTC)",
+  "definition": "Good till cancelled : un ordre qui reste ouvert jusqu'à son exécution ou son annulation (les courtiers fixent généralement une durée maximale)."
+ },
+ "ioc": {
+  "term": "Exécuter ou annuler (IOC)",
+  "definition": "Immediate-or-cancel : un ordre qui doit être exécuté immédiatement ; toute partie non exécutable aussitôt est annulée."
+ },
+ "fok": {
+  "term": "Tout ou rien (FOK)",
+  "definition": "Fill-or-kill : un ordre qui doit être exécuté immédiatement et en totalité, faute de quoi il est entièrement annulé."
+ },
+ "savings-plan": {
+  "term": "Plan d'épargne (versements programmés)",
+  "definition": "Investir automatiquement un montant fixe à intervalles réguliers, par exemple chaque mois, souvent dans un ETF ou un fonds."
+ },
+ "cost-average-effect": {
+  "term": "Effet de lissage (cost averaging)",
+  "definition": "Investir régulièrement la même somme revient à acheter plus de parts quand les cours sont bas et moins quand ils sont hauts, ce qui abaisse le coût moyen par part par rapport au cours moyen."
+ },
+ "securities-lending": {
+  "term": "Prêt de titres",
+  "definition": "Prêter des titres à une autre partie pour une durée donnée contre des garanties et une rémunération ; l'emprunteur restitue des titres de même nature et en même nombre. Souvent utilisé pour la vente à découvert."
+ },
+ "pfof": {
+  "term": "Paiement pour flux d'ordres (PFOF)",
+  "definition": "Des paiements reçus par un courtier d'une société de négociation pour lui transmettre les ordres de ses clients. Cela crée un conflit d'intérêts et c'est interdit dans l'UE (totalement depuis le 30 juin 2026)."
+ },
+ "best-execution": {
+  "term": "Meilleure exécution",
+  "definition": "L'obligation, dans l'UE, pour les entreprises d'investissement de prendre des mesures suffisantes afin d'obtenir le meilleur résultat possible lors de l'exécution des ordres ; pour les particuliers, mesuré par le coût total."
+ },
+ "deposit-guarantee": {
+  "term": "Garantie des dépôts",
+  "definition": "La protection des dépôts bancaires en cas de faillite d'une banque : dans l'UE, jusqu'à 100 000 € par personne et par banque. En Autriche, elle couvre aussi les comptes espèces liés aux titres, mais pas les titres eux-mêmes."
+ },
+ "investor-compensation": {
+  "term": "Indemnisation des investisseurs",
+  "definition": "Une indemnisation si une banque ou une entreprise d'investissement ne peut pas restituer les titres de ses clients ou l'argent dû au titre d'opérations sur titres ; en Autriche, jusqu'à 20 000 € par investisseur. Elle ne couvre pas les pertes de marché."
+ },
+ "short-selling": {
+  "term": "Vente à découvert",
+  "definition": "Vendre des actions empruntées en espérant les racheter plus tard moins cher. Si le cours monte, les pertes sont théoriquement illimitées."
+ },
+ "unrealised-gain": {
+  "term": "Plus-value ou moins-value latente",
+  "definition": "Un gain ou une perte sur un placement que vous détenez encore (un gain ou une perte « sur le papier »). Il se réalise lorsque vous vendez."
+ },
+ "ex-dividend-date": {
+  "term": "Date de détachement",
+  "definition": "Le premier jour où une action cote sans droit au prochain dividende. Ce jour-là, le cours baisse généralement d'environ le montant du dividende."
+ },
+ "cum-date": {
+  "term": "Dernier jour avec droit",
+  "definition": "Le dernier jour où l'on peut acheter une action en ayant droit au prochain dividende."
+ },
+ "record-date": {
+  "term": "Date d'enregistrement",
+  "definition": "Le jour dont les positions sur les comptes-titres déterminent qui reçoit un dividende. En Autriche, la position à la fin du dixième jour précédant l'assemblée générale d'une société cotée détermine aussi qui peut y participer et voter (Nachweisstichtag)."
+ },
+ "payment-date": {
+  "term": "Date de paiement",
+  "definition": "Le jour où le dividende est effectivement versé aux actionnaires."
+ },
+ "special-dividend": {
+  "term": "Dividende exceptionnel",
+  "definition": "Un dividende ponctuel versé en dehors du calendrier habituel, par exemple après la vente d'une activité."
+ },
+ "dividend-yield": {
+  "term": "Rendement du dividende",
+  "definition": "Le dividende annuel par action divisé par le cours de l'action, en pourcentage.",
+  "example": "6 € de dividende ÷ 200 € de cours = 3 %."
+ },
+ "payout-ratio": {
+  "term": "Taux de distribution",
+  "definition": "La part du bénéfice d'une entreprise versée en dividendes : dividendes ÷ bénéfice net (ou dividende par action ÷ bénéfice par action).",
+  "example": "1,60 € de dividende ÷ 4,00 € de bénéfice par action = 40 %."
+ },
+ "total-return": {
+  "term": "Rendement total",
+  "definition": "Le rendement complet d'un placement : variation du cours plus revenus comme les dividendes, en supposant généralement leur réinvestissement."
+ },
+ "compound-interest": {
+  "term": "Intérêts composés",
+  "definition": "Des intérêts (ou rendements) gagnés à la fois sur la somme initiale et sur les intérêts précédents. Valeur finale = valeur initiale × (1 + taux)^années."
+ },
+ "rule-of-72": {
+  "term": "Règle de 72",
+  "definition": "Un raccourci pour le temps de doublement : 72 divisé par le rendement annuel en pourcentage donne approximativement le nombre d'années pour doubler.",
+  "example": "À 6 % par an : 72 ÷ 6 ≈ 12 ans."
+ },
+ "nominal-return": {
+  "term": "Rendement nominal",
+  "definition": "Le rendement en termes monétaires, avant prise en compte de l'inflation."
+ },
+ "real-return": {
+  "term": "Rendement réel",
+  "definition": "Le rendement après inflation, qui montre l'évolution du pouvoir d'achat : (1 + nominal) ÷ (1 + inflation) − 1."
+ },
+ "hicp": {
+  "term": "IPCH",
+  "definition": "Indice des prix à la consommation harmonisé : la mesure de l'inflation utilisée par la BCE pour la zone euro."
+ },
+ "ter": {
+  "term": "Frais courants (TER)",
+  "definition": "Les coûts annuels prélevés sur un fonds (gestion, conservation, audit et autres frais), en pourcentage de son actif."
+ },
+ "custody-fee": {
+  "term": "Droits de garde",
+  "definition": "Des frais pour la tenue de votre compte-titres, souvent un pourcentage annuel ou un montant fixe."
+ },
+ "break-even-price": {
+  "term": "Point mort (prix d'équilibre)",
+  "definition": "Le prix de vente auquel vous récupérez exactement ce que vous avez payé, frais d'achat et de vente compris."
+ },
+ "investment-fund": {
+  "term": "Fonds d'investissement",
+  "definition": "Une réserve d'argent de nombreux investisseurs, investie ensemble en actions, obligations ou autres actifs. Chaque investisseur détient des parts de l'ensemble du portefeuille."
+ },
+ "nav": {
+  "term": "Valeur liquidative",
+  "definition": "La valeur des actifs d'un fonds moins ses dettes, généralement exprimée par part. Les fonds classiques s'achètent et se vendent à un prix fondé sur elle.",
+  "example": "Des actifs de 10 millions €, des dettes de 50 000 € et 1 000 000 de parts donnent une valeur liquidative de 9,95 € par part."
+ },
+ "index-fund": {
+  "term": "Fonds indiciel",
+  "definition": "Un fonds qui cherche à reproduire un indice le plus fidèlement possible au lieu de sélectionner des placements, généralement pour moins cher qu'un fonds actif."
+ },
+ "active-fund": {
+  "term": "Fonds à gestion active",
+  "definition": "Un fonds dont le gérant sélectionne les placements pour battre un indice de référence, généralement avec des frais plus élevés qu'un fonds indiciel."
+ },
+ "benchmark": {
+  "term": "Indice de référence (benchmark)",
+  "definition": "Un indice utilisé comme étalon pour juger la performance d'un fonds ou d'un portefeuille."
+ },
+ "etf": {
+  "term": "Fonds indiciel coté (ETF)",
+  "definition": "Un fonds dont les parts s'échangent en Bourse tout au long de la journée, comme des actions. La plupart des ETF répliquent un indice."
+ },
+ "ucits": {
+  "term": "OPCVM (UCITS)",
+  "definition": "Le principal cadre juridique de l'UE pour les fonds facilement accessibles aux particuliers. Les OPCVM suivent des règles européennes communes ; être un OPCVM ne rend pas un fonds sûr."
+ },
+ "authorised-participant": {
+  "term": "Participant autorisé",
+  "definition": "Un grand établissement financier autorisé à créer et racheter des parts d'ETF directement auprès du fonds par gros blocs. Son activité aide à maintenir le cours de l'ETF proche de sa valeur liquidative."
+ },
+ "creation-and-redemption": {
+  "term": "Création et rachat",
+  "definition": "Le mécanisme par lequel les participants autorisés échangent des paniers de titres (ou des espèces) contre de nouvelles parts d'ETF (création), ou rendent des parts au fonds (rachat)."
+ },
+ "etf-premium-discount": {
+  "term": "Prime et décote (ETF)",
+  "definition": "Lorsque le cours d'un ETF est supérieur (prime) ou inférieur (décote) à la valeur de ses actifs. Généralement faible pour les ETF liquides ; peut s'élargir en période de tension."
+ },
+ "physical-replication": {
+  "term": "Réplication physique",
+  "definition": "Reproduire un indice en détenant réellement les actions qui le composent, toutes selon leur poids (réplication complète) ou une sélection représentative (échantillonnage)."
+ },
+ "sampling-replication": {
+  "term": "Échantillonnage optimisé",
+  "definition": "Une forme de réplication physique dans laquelle un fonds détient une sélection représentative des membres d'un indice plutôt que tous."
+ },
+ "synthetic-replication": {
+  "term": "Réplication synthétique (swap)",
+  "definition": "Reproduire un indice via un swap avec une banque qui s'engage à verser la performance de l'indice, tandis que le fonds détient un autre panier de titres. Ajoute un risque de contrepartie."
+ },
+ "counterparty-risk": {
+  "term": "Risque de contrepartie",
+  "definition": "Le risque que l'autre partie d'un contrat, comme un swap, ne puisse pas honorer ses engagements."
+ },
+ "accumulating-fund": {
+  "term": "Fonds de capitalisation",
+  "definition": "Un fonds qui réinvestit ses revenus au lieu de les distribuer, de sorte que la valeur de chaque part augmente. En Autriche, les revenus réinvestis sont tout de même imposés chaque année."
+ },
+ "distributing-fund": {
+  "term": "Fonds de distribution",
+  "definition": "Un fonds qui verse à ses investisseurs les revenus qu'il perçoit (comme les dividendes), généralement plusieurs fois par an."
+ },
+ "tracking-difference": {
+  "term": "Différence de suivi",
+  "definition": "L'écart entre la performance d'un fonds et celle de l'indice qu'il réplique sur une période. Due surtout aux frais.",
+  "example": "Indice +8,0 %, fonds +7,8 % : différence de suivi de −0,2 point de pourcentage."
+ },
+ "tracking-error": {
+  "term": "Erreur de suivi (tracking error)",
+  "definition": "Au sens strict, la volatilité dans le temps de l'écart entre un fonds et son indice. Utilisé aussi de façon approximative pour tout écart par rapport à l'indice."
+ },
+ "smart-beta": {
+  "term": "Smart beta / investissement factoriel",
+  "definition": "Des stratégies indicielles qui sélectionnent ou pondèrent les actions selon des caractéristiques comme la décote, le momentum, la faible volatilité ou les dividendes, plutôt que selon la seule capitalisation."
+ },
+ "thematic-etf": {
+  "term": "ETF thématique",
+  "definition": "Un ETF qui investit dans des entreprises liées à un thème, comme la robotique ou les énergies propres. Souvent concentré et plus cher que les fonds indiciels larges."
+ },
+ "leveraged-etf": {
+  "term": "ETF à effet de levier",
+  "definition": "Un produit qui vise un multiple (par exemple 2× ou 3×) de la performance quotidienne d'un indice. Comme il se réajuste chaque jour, les résultats sur de longues périodes peuvent fortement s'écarter de ce multiple.",
+  "example": "Indice +10 % puis −10 % (−1 % au total) : un produit 2× fait +20 % puis −20 %, soit −4 % au total."
+ },
+ "inverse-etf": {
+  "term": "ETF inverse",
+  "definition": "Un produit qui vise l'inverse de la performance quotidienne d'un indice. Sur de longues périodes, ses résultats peuvent fortement s'écarter de l'inverse de la performance de l'indice."
+ },
+ "market-cap-weighted": {
+  "term": "Indice pondéré par la capitalisation",
+  "definition": "Un indice dans lequel le poids de chaque membre est sa capitalisation divisée par la capitalisation totale de tous les membres. La plupart des grands indices fonctionnent ainsi."
+ },
+ "price-weighted-index": {
+  "term": "Indice pondéré par les prix",
+  "definition": "Un indice dans lequel les membres comptent selon le cours de leur action, quelle que soit la taille de l'entreprise, comme le Dow Jones Industrial Average et le Nikkei 225."
+ },
+ "equal-weighted-index": {
+  "term": "Indice équipondéré",
+  "definition": "Un indice dans lequel chaque membre compte autant, quelle que soit sa taille."
+ },
+ "atx": {
+  "term": "ATX",
+  "definition": "L'indice phare de la Bourse de Vienne, composé d'une vingtaine des actions autrichiennes les plus liquides, pondérées par leur capitalisation."
+ },
+ "dax": {
+  "term": "DAX",
+  "definition": "L'indice phare allemand, composé des 40 plus grandes actions allemandes, les plus échangées sur le marché réglementé de la Bourse de Francfort."
+ },
+ "sp-500": {
+  "term": "S&P 500",
+  "definition": "Un indice américain de 500 grandes entreprises couvrant environ 80 % de la capitalisation disponible du marché américain, pondéré par la capitalisation flottante."
+ },
+ "dow-jones": {
+  "term": "Dow Jones Industrial Average",
+  "definition": "Un indice pondéré par les prix de 30 grandes valeurs américaines (blue chips)."
+ },
+ "nikkei-225": {
+  "term": "Nikkei 225",
+  "definition": "Un indice pondéré par les prix de 225 actions du segment Prime de la Bourse de Tokyo."
+ },
+ "msci-world": {
+  "term": "MSCI World",
+  "definition": "Un indice mondial de grandes et moyennes entreprises des seuls marchés développés ; il n'inclut pas les marchés émergents."
+ },
+ "ftse-all-world": {
+  "term": "FTSE All-World",
+  "definition": "Un indice mondial de grandes et moyennes entreprises des marchés développés et émergents."
+ },
+ "emerging-markets": {
+  "term": "Marchés émergents",
+  "definition": "Des pays dont l'économie et les marchés financiers sont encore en développement, comme la Chine ou l'Inde ; ce sont les fournisseurs d'indices qui déterminent quels pays en font partie."
+ },
+ "kid": {
+  "term": "Document d'informations clés (DIC)",
+  "definition": "Un document court et normalisé destiné aux investisseurs particuliers de l'UE, qui décrit les objectifs, les risques et les coûts d'un produit."
+ },
+ "kest": {
+  "term": "KESt (impôt autrichien sur les revenus du capital)",
+  "definition": "L'impôt autrichien sur les revenus du capital comme les dividendes, les plus-values et les revenus de fonds, en général 27,5 % pour les actions et les fonds. Il est généralement prélevé par un dépositaire autrichien."
+ },
+ "reporting-fund": {
+  "term": "Fonds déclarant (Meldefonds)",
+  "definition": "Un fonds qui communique ses données fiscales à l'OeKB, le bureau de déclaration officiel autrichien, afin que les banques puissent calculer correctement la KESt sur ses revenus."
+ },
+ "deemed-distributed-income": {
+  "term": "Revenus réputés distribués",
+  "definition": "En droit autrichien, des revenus d'un fonds qui ne sont pas versés mais traités comme s'ils l'avaient été, de sorte qu'ils sont imposés chaque année. Ils augmentent le coût d'acquisition fiscal des parts."
+ },
+ "oekb": {
+  "term": "OeKB",
+  "definition": "Oesterreichische Kontrollbank, qui est notamment le bureau officiel de déclaration des données fiscales des fonds en Autriche et l'agence nationale d'attribution des ISIN."
+ },
+ "acquisition-cost": {
+  "term": "Coût d'acquisition",
+  "definition": "Le montant payé pour un placement, utilisé pour calculer la plus- ou moins-value lors de la vente. Les règles fiscales définissent précisément ce qui compte ; en Autriche, les revenus réputés distribués déjà imposés l'augmentent."
+ },
+ "offer-price": {
+  "term": "Prix d'offre (introduction en Bourse)",
+  "definition": "Le prix par action auquel les actions sont vendues aux investisseurs lors d'une introduction en Bourse ou d'une autre offre au public, fixé par l'entreprise avec ses banques à l'issue du bookbuilding.",
+  "example": "L'introduction de BAWAG en 2017 avait une fourchette de 47 € à 52 € et un prix d'offre de 48 €."
+ },
+ "closing-price": {
+  "term": "Cours de clôture",
+  "definition": "Le dernier cours d'une période de cotation, généralement fixé lors du fixing de clôture. Les graphiques en ligne relient les cours de clôture, et la plupart des indicateurs en sont calculés."
+ },
+ "technical-analysis": {
+  "term": "Analyse technique",
+  "definition": "L'analyse des graphiques de cours, des volumes et des indicateurs pour décrire ce qu'a fait le marché, souvent dans le but d'anticiper ses mouvements futurs. Son utilité est débattue."
+ },
+ "candlestick": {
+  "term": "Chandelier (japonais)",
+  "definition": "Un symbole graphique qui montre l'ouverture, le plus haut, le plus bas et la clôture d'une période : un corps épais entre ouverture et clôture et de fines mèches jusqu'au plus haut et au plus bas.",
+  "example": "Ouverture 100, plus haut 106, plus bas 98, clôture 104 : un chandelier haussier dont le corps va de 100 à 104."
+ },
+ "ohlc": {
+  "term": "OHLC",
+  "definition": "Open, high, low, close (ouverture, plus haut, plus bas, clôture) : les quatre cours d'une période, représentés par les chandeliers et les graphiques en barres."
+ },
+ "wick": {
+  "term": "Mèche (ombre)",
+  "definition": "La fine ligne au-dessus ou en dessous du corps d'un chandelier, qui atteint le plus haut ou le plus bas de la période. Une longue mèche montre que les cours ont été repoussés."
+ },
+ "heikin-ashi": {
+  "term": "Heikin Ashi",
+  "definition": "Des chandeliers lissés construits à partir de moyennes de la période en cours et de la précédente. Ils rendent les tendances plus visibles, mais ne montrent pas des cours réellement échangés."
+ },
+ "log-scale": {
+  "term": "Échelle logarithmique",
+  "definition": "Un axe de prix sur lequel des distances égales correspondent à des variations en pourcentage égales (de 10 à 20 paraît aussi grand que de 100 à 200). Utile sur de longues périodes."
+ },
+ "timeframe": {
+  "term": "Unité de temps",
+  "definition": "La période représentée par chaque chandelier ou barre, comme 5 minutes, 1 heure, 1 jour ou 1 semaine. Le même marché peut paraître très différent selon l'unité de temps."
+ },
+ "doji": {
+  "term": "Doji",
+  "definition": "Un chandelier dont l'ouverture et la clôture sont (presque) égales, si bien que le corps est un simple trait : un signe d'indécision."
+ },
+ "spinning-top": {
+  "term": "Toupie (spinning top)",
+  "definition": "Un chandelier à petit corps central avec des mèches des deux côtés plus longues que le corps : indécision."
+ },
+ "marubozu": {
+  "term": "Marubozu",
+  "definition": "Un chandelier à long corps sans mèche (ou presque) : un camp a dominé de l'ouverture à la clôture."
+ },
+ "hammer": {
+  "term": "Marteau (chandelier)",
+  "definition": "Après une baisse, un chandelier à petit corps en haut et longue mèche basse (ou, pour le marteau inversé, longue mèche haute). Traditionnellement lu comme un possible retournement haussier."
+ },
+ "hanging-man": {
+  "term": "Pendu",
+  "definition": "La même forme qu'un marteau (petit corps en haut, longue mèche basse), mais après une hausse. Traditionnellement lu comme un avertissement baissier, bien qu'il échoue souvent."
+ },
+ "shooting-star": {
+  "term": "Étoile filante",
+  "definition": "Après une hausse, un chandelier à petit corps en bas et longue mèche haute. Traditionnellement lu comme un possible retournement baissier."
+ },
+ "engulfing-pattern": {
+  "term": "Avalement",
+  "definition": "Deux chandeliers dont le second corps recouvre entièrement le premier, de couleur opposée. Traditionnellement lu comme un possible retournement."
+ },
+ "harami": {
+  "term": "Harami",
+  "definition": "Deux chandeliers où un petit corps se loge à l'intérieur du long corps précédent, de couleur opposée : le mouvement marque une pause. « Enceinte » en japonais."
+ },
+ "piercing-line": {
+  "term": "Pénétrante / couverture en nuage noir",
+  "definition": "Une figure de deux chandeliers après une baisse : un chandelier baissier, puis un haussier qui ouvre sous son plus bas et clôture au-dessus du milieu de son corps. Son pendant baissier s'appelle couverture en nuage noir."
+ },
+ "morning-star": {
+  "term": "Étoile du matin / du soir",
+  "definition": "Une figure de trois chandeliers après une baisse : un long chandelier baissier, une petite « étoile », puis un long chandelier haussier. L'étoile du soir est son pendant baissier après une hausse."
+ },
+ "three-white-soldiers": {
+  "term": "Trois soldats blancs / trois corbeaux noirs",
+  "definition": "Trois longs chandeliers haussiers d'affilée, chacun clôturant près de son plus haut. Le pendant baissier (trois longs chandeliers baissiers) s'appelle trois corbeaux noirs."
+ },
+ "tweezer": {
+  "term": "Pinces (sommet et creux)",
+  "definition": "Deux chandeliers ayant (presque) le même plus haut (pince de sommet) ou le même plus bas (pince de creux) : le cours a échoué deux fois au même niveau."
+ },
+ "inside-bar": {
+  "term": "Barre intérieure (inside bar)",
+  "definition": "Un chandelier dont le plus haut et le plus bas restent dans l'amplitude du chandelier précédent : le marché marque une pause et l'amplitude se resserre."
+ },
+ "price-gap": {
+  "term": "Gap (écart de cours)",
+  "definition": "Un espace vide sur un graphique lorsqu'une période ouvre bien au-dessus ou en dessous de l'amplitude de la précédente, souvent après une nouvelle. Types : gap commun, de rupture, de continuation et d'épuisement."
+ },
+ "uptrend": {
+  "term": "Tendance haussière / baissière",
+  "definition": "Une suite de sommets et de creux de plus en plus hauts (tendance haussière) ou de plus en plus bas (tendance baissière)."
+ },
+ "trendline": {
+  "term": "Ligne de tendance",
+  "definition": "Une ligne tracée par deux creux ou plus (en tendance haussière) ou deux sommets ou plus (en tendance baissière) pour montrer la pente d'une tendance. Une seconde ligne parallèle forme un canal."
+ },
+ "support-resistance": {
+  "term": "Support et résistance",
+  "definition": "Support : une zone de prix où un cours en baisse a eu tendance à s'arrêter. Résistance : une zone où un cours en hausse a eu tendance à s'arrêter. Mieux vaut les traiter comme des zones que comme des lignes exactes."
+ },
+ "breakout": {
+  "term": "Cassure (breakout)",
+  "definition": "Un mouvement franc au-delà d'une zone de support ou de résistance ou d'une figure chartiste. Une fausse cassure revient rapidement à l'intérieur."
+ },
+ "head-and-shoulders": {
+  "term": "Épaule-tête-épaule",
+  "definition": "Une figure de retournement : un sommet, un sommet plus haut, puis un sommet plus bas, avec une ligne de cou passant par les creux intermédiaires. La cassure de la ligne de cou est le signal traditionnel."
+ },
+ "double-top": {
+  "term": "Double sommet / double creux",
+  "definition": "Deux sommets (ou deux creux, pour un double creux) à peu près au même niveau. Les traders attendent généralement la cassure du niveau intermédiaire."
+ },
+ "chart-triangle": {
+  "term": "Triangle / drapeau / fanion",
+  "definition": "Des figures de continuation où l'amplitude des cours se resserre (triangles, fanions) ou marque une pause après un mouvement brusque (drapeaux) avant une éventuelle cassure."
+ },
+ "moving-average": {
+  "term": "Moyenne mobile",
+  "definition": "Le cours moyen des n dernières périodes, recalculé à chaque période (simple) ou avec plus de poids sur les cours récents (exponentielle). Elle lisse le cours mais réagit avec retard.",
+  "example": "Des clôtures de 45,50, 45,25 et 46,10 donnent une moyenne mobile simple sur 3 périodes de 45,62."
+ },
+ "golden-cross": {
+  "term": "Croix dorée / croix de la mort",
+  "definition": "Lorsque la moyenne à 50 jours passe au-dessus de la moyenne à 200 jours (croix dorée) ou en dessous (croix de la mort). Les deux arrivent après le retournement réel du cours."
+ },
+ "rsi": {
+  "term": "RSI (indice de force relative)",
+  "definition": "Relative Strength Index : compare les gains moyens aux pertes moyennes sur une période (souvent 14) sur une échelle de 0 à 100. Par convention, au-dessus de 70 on parle de surachat, sous 30 de survente."
+ },
+ "macd": {
+  "term": "MACD",
+  "definition": "Moving Average Convergence Divergence : la moyenne exponentielle sur 12 périodes moins celle sur 26, avec une ligne de signal sur 9 périodes et un histogramme de l'écart."
+ },
+ "oscillator": {
+  "term": "Oscillateur",
+  "definition": "Un indicateur tracé dans son propre panneau qui évolue dans une fourchette ou autour de zéro, comme le RSI ou le MACD."
+ },
+ "bollinger-bands": {
+  "term": "Bandes de Bollinger",
+  "definition": "Une moyenne mobile (par défaut sur 20 périodes) entourée de bandes à deux écarts-types au-dessus et en dessous. Les bandes s'écartent quand la volatilité augmente et se resserrent quand elle baisse."
+ },
+ "vwap": {
+  "term": "VWAP (prix moyen pondéré par les volumes)",
+  "definition": "Volume-weighted average price : le prix moyen d'une séance pondéré par les quantités échangées à chaque prix. Il repart de zéro à chaque séance."
+ },
+ "atr": {
+  "term": "ATR (amplitude moyenne réelle)",
+  "definition": "Average True Range : l'amplitude moyenne de chaque période, gaps par rapport à la clôture précédente compris. Une mesure de volatilité, pas de direction."
+ },
+ "fibonacci-retracement": {
+  "term": "Retracement de Fibonacci",
+  "definition": "Des lignes à 38,2 %, 50 % et 61,8 % d'un mouvement précédent, où certains traders s'attendent à ce qu'une correction marque une pause. Populaire, mais subjectif."
+ },
+ "multi-timeframe-analysis": {
+  "term": "Analyse multi-unités de temps",
+  "definition": "Lire le même marché sur plusieurs unités de temps, de la plus longue (hebdomadaire) à la plus courte (horaire), pour voir le contexte avant le détail."
+ },
+ "backtesting": {
+  "term": "Backtest",
+  "definition": "Tester comment un ensemble de règles de trading se serait comporté sur des données passées. Sujet au surajustement, au data snooping, au biais du survivant et à l'oubli des frais."
+ },
+ "overfitting": {
+  "term": "Surajustement (overfitting)",
+  "definition": "Ajuster ou choisir des règles de trading jusqu'à ce qu'elles collent très bien aux données passées : elles captent alors du bruit et échouent généralement sur de nouvelles données."
+ },
+ "survivorship-bias": {
+  "term": "Biais du survivant",
+  "definition": "Une distorsion qui apparaît quand on n'étudie que les survivants (entreprises ou fonds encore existants) en ignorant ceux qui ont disparu, ce qui embellit les résultats."
+ },
+ "paper-trading": {
+  "term": "Trading fictif (paper trading)",
+  "definition": "S'entraîner sur un compte simulé avec de l'argent virtuel. Utile pour apprendre, mais sans émotions réelles ni exécution réelle."
+ },
+ "efficient-market-hypothesis": {
+  "term": "Hypothèse d'efficience des marchés",
+  "definition": "L'idée que les cours intègrent rapidement l'information disponible, de sorte que les cours passés servent peu à prévoir les rendements à court terme."
+ },
+ "fundamental-analysis": {
+  "term": "Analyse fondamentale",
+  "definition": "Juger une entreprise et ses actions à partir de l'activité elle-même : états financiers, bénéfices, trésorerie, dette, concurrence et direction, plutôt qu'à partir des graphiques de cours."
+ },
+ "annual-report": {
+  "term": "Rapport annuel",
+  "definition": "Le rapport annuel d'une société cotée avec les états financiers audités, le rapport de gestion et d'autres informations. En Autriche, les sociétés cotées doivent publier un rapport financier annuel dans les quatre mois suivant la clôture de l'exercice."
+ },
+ "balance-sheet": {
+  "term": "Bilan",
+  "definition": "Une photographie à une date de ce que possède une entreprise (actifs), de ce qu'elle doit (passifs) et de ce qui reste aux propriétaires (capitaux propres). L'actif est toujours égal au passif plus les capitaux propres."
+ },
+ "income-statement": {
+  "term": "Compte de résultat",
+  "definition": "L'état financier qui montre le chiffre d'affaires, les charges et le bénéfice ou la perte d'une entreprise sur une période, des ventes en haut jusqu'au résultat net en bas."
+ },
+ "cash-flow-statement": {
+  "term": "Tableau des flux de trésorerie",
+  "definition": "L'état financier qui montre la trésorerie entrante et sortante sur une période, répartie entre activités opérationnelles, d'investissement et de financement."
+ },
+ "management-report": {
+  "term": "Rapport de gestion",
+  "definition": "La partie du rapport annuel où la direction explique l'activité, les résultats, les perspectives et les principaux risques. L'équivalent américain dans un 10-K est le MD&A (management's discussion and analysis)."
+ },
+ "shareholders-equity": {
+  "term": "Capitaux propres",
+  "definition": "Ce qui resterait aux propriétaires si une entreprise vendait tous ses actifs à leur valeur au bilan et réglait toutes ses dettes. Aussi appelé valeur comptable."
+ },
+ "working-capital": {
+  "term": "Fonds de roulement",
+  "definition": "Actif courant moins passif courant : en gros, l'argent à court terme dont dispose une entreprise pour son activité quotidienne."
+ },
+ "current-ratio": {
+  "term": "Ratio de liquidité générale",
+  "definition": "Actif courant divisé par passif courant. Il montre dans quelle mesure les engagements à court terme sont couverts par des actifs censés devenir liquides dans l'année."
+ },
+ "quick-ratio": {
+  "term": "Ratio de liquidité réduite",
+  "definition": "Actif courant moins stocks, divisé par passif courant. Une version plus stricte qui exclut les stocks, parfois difficiles à vendre rapidement."
+ },
+ "book-value": {
+  "term": "Valeur comptable",
+  "definition": "La valeur des capitaux propres telle qu'elle figure au bilan. Divisée par le nombre d'actions, elle donne la valeur comptable par action."
+ },
+ "goodwill": {
+  "term": "Écart d'acquisition (goodwill)",
+  "definition": "Un actif incorporel qui apparaît lorsqu'une entreprise en achète une autre plus cher que la juste valeur de ses actifs nets identifiables. Selon les IFRS, il fait l'objet de tests de dépréciation."
+ },
+ "impairment": {
+  "term": "Dépréciation",
+  "definition": "Une réduction de valeur lorsqu'un actif, comme un écart d'acquisition ou une usine, vaut moins que sa valeur au bilan. Elle diminue le résultat et les capitaux propres."
+ },
+ "net-debt": {
+  "term": "Dette nette",
+  "definition": "La dette portant intérêt moins la trésorerie. Elle montre combien de dette resterait si l'entreprise utilisait toute sa trésorerie pour rembourser. Les définitions varient, par exemple pour les contrats de location."
+ },
+ "gross-margin": {
+  "term": "Marge brute",
+  "definition": "Le bénéfice brut (chiffre d'affaires moins coût des ventes) en pourcentage du chiffre d'affaires."
+ },
+ "operating-margin": {
+  "term": "Marge opérationnelle",
+  "definition": "Le résultat opérationnel en pourcentage du chiffre d'affaires : ce qui reste de chaque euro de ventes après les charges d'exploitation."
+ },
+ "ebit": {
+  "term": "EBIT",
+  "definition": "Earnings before interest and taxes, le résultat avant intérêts et impôts : en gros, le résultat opérationnel d'une entreprise, avant les effets du financement et de l'impôt."
+ },
+ "ebitda": {
+  "term": "EBITDA",
+  "definition": "Le résultat avant intérêts, impôts, dépréciations et amortissements : l'EBIT auquel on rajoute dépréciations et amortissements. Il n'est pas défini par les IFRS, les entreprises le calculent donc différemment."
+ },
+ "net-income": {
+  "term": "Résultat net",
+  "definition": "Le bénéfice ou la perte au bas du compte de résultat, après toutes les charges, les intérêts et les impôts. Aussi appelé bénéfice net."
+ },
+ "eps": {
+  "term": "Bénéfice par action (BPA)",
+  "definition": "Le résultat net divisé par le nombre d'actions. Selon les IFRS, les entreprises publient un BPA de base et un BPA dilué, qui suppose que les options et les convertibles deviennent des actions."
+ },
+ "depreciation-amortisation": {
+  "term": "Dépréciations et amortissements",
+  "definition": "Répartir le coût des actifs durables sur les années de leur utilisation : amortissement des actifs corporels comme les machines et des actifs incorporels. Une charge au compte de résultat qui ne consomme pas de trésorerie cette année-là."
+ },
+ "capex": {
+  "term": "Investissements (capex)",
+  "definition": "La trésorerie dépensée en actifs à long terme comme les bâtiments, les machines et les logiciels. Figure dans les activités d'investissement du tableau des flux de trésorerie."
+ },
+ "operating-cash-flow": {
+  "term": "Flux de trésorerie opérationnel",
+  "definition": "La trésorerie générée par l'activité courante d'une entreprise sur une période : le résultat net corrigé des éléments non monétaires et des variations du fonds de roulement."
+ },
+ "free-cash-flow": {
+  "term": "Flux de trésorerie disponible",
+  "definition": "La trésorerie qui reste après que l'entreprise a payé les investissements nécessaires, souvent calculée comme flux opérationnel moins capex. Non défini par les IFRS, ses définitions varient."
+ },
+ "roe": {
+  "term": "Rentabilité des capitaux propres (ROE)",
+  "definition": "Le résultat net divisé par les capitaux propres : le bénéfice obtenu sur le capital comptable des propriétaires. La dette peut le faire paraître plus élevé."
+ },
+ "roa": {
+  "term": "Rentabilité de l'actif (ROA)",
+  "definition": "Le résultat net divisé par le total de l'actif : le bénéfice obtenu sur tout ce que possède l'entreprise."
+ },
+ "roic": {
+  "term": "Rentabilité des capitaux investis (ROIC)",
+  "definition": "Le résultat opérationnel après impôt divisé par les capitaux apportés par les actionnaires et les prêteurs (dette plus capitaux propres moins trésorerie). Une activité crée de la valeur quand il dépasse son coût du capital."
+ },
+ "dupont-analysis": {
+  "term": "Analyse DuPont",
+  "definition": "Décomposer la rentabilité des capitaux propres en marge nette × rotation de l'actif × levier financier, pour voir si un ROE élevé vient de la rentabilité, de l'efficacité ou de la dette."
+ },
+ "debt-to-equity": {
+  "term": "Ratio d'endettement (gearing)",
+  "definition": "La dette rapportée aux capitaux propres. Certaines sources utilisent l'ensemble des dettes, d'autres seulement les dettes portant intérêt."
+ },
+ "equity-ratio": {
+  "term": "Ratio de fonds propres",
+  "definition": "Les capitaux propres en pourcentage du total de l'actif. Une mesure courante de la solidité financière dans les pays germanophones."
+ },
+ "interest-coverage": {
+  "term": "Couverture des intérêts",
+  "definition": "Le résultat opérationnel (EBIT) divisé par les charges d'intérêts : combien de fois le bénéfice couvre la facture d'intérêts."
+ },
+ "inventory-turnover": {
+  "term": "Rotation des stocks",
+  "definition": "Le coût des ventes divisé par le stock moyen : combien de fois par an une entreprise écoule ses stocks."
+ },
+ "pe-ratio": {
+  "term": "PER (cours/bénéfice)",
+  "definition": "Le cours de l'action divisé par le bénéfice par action : combien d'euros les investisseurs paient pour un euro de bénéfice annuel. Sans signification quand le bénéfice est négatif."
+ },
+ "forward-pe": {
+  "term": "PER prévisionnel",
+  "definition": "Le PER calculé avec le bénéfice prévu pour l'année suivante plutôt qu'avec le bénéfice publié."
+ },
+ "peg-ratio": {
+  "term": "Ratio PEG",
+  "definition": "Le PER divisé par le taux de croissance annuel attendu du bénéfice, en pourcentage. Il dépend fortement d'une prévision de croissance."
+ },
+ "price-to-book": {
+  "term": "Cours/valeur comptable (P/B)",
+  "definition": "Le cours de l'action divisé par la valeur comptable par action. Surtout utile pour les entreprises dont les actifs sont proches de leur valeur de marché, comme les banques."
+ },
+ "price-to-sales": {
+  "term": "Cours/chiffre d'affaires",
+  "definition": "La capitalisation boursière divisée par le chiffre d'affaires. Utilisé pour les entreprises sans bénéfice, mais un chiffre d'affaires n'est pas un bénéfice."
+ },
+ "enterprise-value": {
+  "term": "Valeur d'entreprise",
+  "definition": "La valeur de toute l'activité pour les actionnaires et les prêteurs : valeur de marché des actions plus dette moins trésorerie."
+ },
+ "ev-ebitda": {
+  "term": "VE/EBITDA",
+  "definition": "La valeur d'entreprise divisée par l'EBITDA. Un ratio de valorisation qui compare plus équitablement que le PER des entreprises à l'endettement différent."
+ },
+ "earnings-yield": {
+  "term": "Rendement bénéficiaire",
+  "definition": "Le bénéfice par action divisé par le cours : le PER inversé, exprimé en pourcentage."
+ },
+ "value-trap": {
+  "term": "Piège à valeur",
+  "definition": "Une action qui paraît bon marché selon des ratios comme un PER bas, mais reste bon marché ou baisse encore, parce que l'activité est en déclin durable."
+ },
+ "intrinsic-value": {
+  "term": "Valeur intrinsèque",
+  "definition": "Une estimation de ce que vaut une activité d'après la trésorerie qu'elle peut produire sur le reste de sa vie, actualisée à aujourd'hui. Toujours une estimation, jamais un chiffre précis."
+ },
+ "dcf": {
+  "term": "Actualisation des flux de trésorerie (DCF)",
+  "definition": "Une méthode de valorisation qui prévoit les flux de trésorerie futurs d'une entreprise et les actualise à leur valeur d'aujourd'hui. De petits changements d'hypothèses peuvent beaucoup modifier le résultat."
+ },
+ "present-value": {
+  "term": "Valeur actuelle",
+  "definition": "Ce que vaut aujourd'hui un paiement futur : le montant futur divisé par (1 + taux d'actualisation) pour chaque année d'attente."
+ },
+ "discount-rate": {
+  "term": "Taux d'actualisation",
+  "definition": "En valorisation, le rendement annuel utilisé pour convertir des flux futurs en valeur d'aujourd'hui ; plus de risque signifie un taux plus élevé. Certaines banques centrales utilisent aussi le terme pour un de leurs taux de prêt."
+ },
+ "terminal-value": {
+  "term": "Valeur terminale",
+  "definition": "Dans un DCF, la valeur de tous les flux postérieurs aux années de prévision détaillée, généralement estimée avec un taux de croissance constant. Elle représente souvent l'essentiel du résultat."
+ },
+ "margin-of-safety": {
+  "term": "Marge de sécurité",
+  "definition": "N'acheter que lorsque le cours est nettement inférieur à la valeur estimée, comme coussin contre les erreurs d'estimation. Un principe associé à Benjamin Graham."
+ },
+ "economic-moat": {
+  "term": "Avantage concurrentiel durable (moat)",
+  "definition": "Un avantage concurrentiel durable, comme une marque forte ou des coûts bas, qui protège les rendements élevés d'une entreprise face à la concurrence."
+ },
+ "five-forces": {
+  "term": "Cinq forces",
+  "definition": "Le cadre de Michael Porter pour la rentabilité d'un secteur : rivalité, clients, fournisseurs, nouveaux entrants potentiels et produits de substitution."
+ },
+ "alternative-performance-measure": {
+  "term": "Indicateur alternatif de performance",
+  "definition": "Un chiffre financier non défini par les normes comptables, comme l'EBITDA, le résultat ajusté ou la dette nette. L'ESMA attend des entreprises qu'elles les définissent et les rapprochent des chiffres comptables."
+ },
+ "ifrs": {
+  "term": "IFRS",
+  "definition": "Normes internationales d'information financière, publiées par l'IASB. Les groupes cotés dans l'UE doivent les appliquer, telles qu'adoptées par l'UE, dans leurs comptes consolidés."
+ },
+ "esef": {
+  "term": "ESEF",
+  "definition": "Format électronique unique européen : le format lisible par machine (Inline XBRL) dans lequel les sociétés cotées de l'UE doivent publier leurs rapports financiers annuels."
+ },
+ "audit-opinion": {
+  "term": "Rapport du commissaire aux comptes",
+  "definition": "L'opinion de l'auditeur indépendant sur le fait que les états financiers donnent une image fidèle. Une opinion qui n'est pas « sans réserve » est un signal d'alerte sérieux."
+ },
+ "profit-warning": {
+  "term": "Avertissement sur résultats",
+  "definition": "Une annonce d'une entreprise indiquant que le bénéfice sera plus faible, ou la perte plus forte, que prévu."
+ },
+ "corporate-governance": {
+  "term": "Gouvernance d'entreprise",
+  "definition": "Le système de règles et de contrôles sur la façon dont une entreprise est dirigée : conseil, commissaires aux comptes, droits des actionnaires et transparence. L'Autriche dispose d'un code de gouvernance d'entreprise volontaire."
+ },
+ "related-party-transaction": {
+  "term": "Transaction avec une partie liée",
+  "definition": "Une opération entre une entreprise et des personnes ou sociétés proches d'elle, comme des dirigeants, de gros actionnaires ou leurs sociétés. Un motif d'examen plus attentif."
+ },
+ "edgar": {
+  "term": "EDGAR",
+  "definition": "La base de données en ligne gratuite de la SEC américaine contenant les publications des sociétés, comme le rapport annuel 10-K."
+ },
+ "bull-market": {
+  "term": "Marché haussier",
+  "definition": "Une période de hausse des cours et d'optimisme. Définition générale d'Investor.gov : un indice large progresse de 20 % ou plus sur au moins deux mois."
+ },
+ "bear-market": {
+  "term": "Marché baissier",
+  "definition": "Une période de baisse des cours et de pessimisme. Définition générale d'Investor.gov : un indice large recule de 20 % ou plus sur au moins deux mois."
+ },
+ "market-correction": {
+  "term": "Correction",
+  "definition": "Jargon de marché pour une baisse plus modeste des cours, souvent autour de 10 %. Il n'existe pas de définition officielle."
+ },
+ "drawdown": {
+  "term": "Baisse depuis un sommet (drawdown)",
+  "definition": "La baisse entre un sommet et un creux ultérieur, en pourcentage. Après une baisse, il faut un gain en pourcentage plus élevé pour se rétablir : −50 % exigent +100 %."
+ },
+ "bubble": {
+  "term": "Bulle",
+  "definition": "Une période où les cours montent bien au-delà de ce que justifient les revenus sous-jacents, portés par l'attente de nouvelles hausses. Elle prend fin quand l'enthousiasme retombe, souvent par un krach."
+ },
+ "leverage": {
+  "term": "Effet de levier",
+  "definition": "Utiliser de l'argent emprunté pour augmenter la taille d'un placement ou d'une activité. Il amplifie les gains et les pertes."
+ },
+ "recession": {
+  "term": "Récession",
+  "definition": "Un recul marqué de l'activité économique, répandu dans toute l'économie et durant plus de quelques mois (définition du NBER). Les médias utilisent souvent la règle de deux trimestres de baisse du PIB."
+ },
+ "business-cycle": {
+  "term": "Cycle économique",
+  "definition": "La succession récurrente d'expansion, de pic, de récession et de creux."
+ },
+ "black-monday": {
+  "term": "Lundi noir",
+  "definition": "Le 19 octobre 1987, quand le Dow Jones Industrial Average a chuté de 22,6 % en une journée. Le nom désigne aussi le 28 octobre 1929."
+ },
+ "great-depression": {
+  "term": "Grande Dépression",
+  "definition": "La profonde crise économique d'une décennie qui a commencé en 1929, avec un krach boursier et des vagues de faillites bancaires, et a duré jusqu'à la Seconde Guerre mondiale."
+ },
+ "subprime-mortgage": {
+  "term": "Prêt hypothécaire subprime",
+  "definition": "Un prêt immobilier accordé à un emprunteur à l'historique de crédit fragile, avec un faible apport ou des mensualités élevées par rapport à ses revenus. Les pertes sur ces prêts ont déclenché la crise de 2007–2009."
+ },
+ "mortgage-backed-security": {
+  "term": "Titre adossé à des créances hypothécaires",
+  "definition": "Un titre adossé à un ensemble de prêts immobiliers ; les investisseurs reçoivent les remboursements des emprunteurs. Ces titres ont propagé les pertes hypothécaires américaines dans le système financier en 2007–2009."
+ },
+ "quantitative-easing": {
+  "term": "Assouplissement quantitatif",
+  "definition": "Des achats massifs d'obligations par une banque centrale pour faire baisser les taux à long terme quand les taux courts sont déjà proches de zéro."
+ },
+ "forward-guidance": {
+  "term": "Indications prospectives (forward guidance)",
+  "definition": "Les déclarations publiques d'une banque centrale sur l'évolution probable de ses taux, utilisées pour influencer dès aujourd'hui les taux à long terme."
+ },
+ "portfolio-insurance": {
+  "term": "Assurance de portefeuille",
+  "definition": "Une stratégie des années 1980 qui utilisait des contrats à terme et des options pour vendre automatiquement quand les cours baissaient. Elle est considérée comme une des causes de la rapidité du krach de 1987."
+ },
+ "dot-com-bubble": {
+  "term": "Bulle Internet",
+  "definition": "L'envolée des valeurs Internet et technologiques de la fin des années 1990, qui a culminé en mars 2000 et a été suivie d'un long déclin."
+ },
+ "gruenderzeit": {
+  "term": "Gründerzeit",
+  "definition": "La « période des fondateurs », d'industrialisation rapide et de création d'entreprises en Autriche-Hongrie de 1867 à 1873, qui s'est achevée avec le krach de la Bourse de Vienne du 9 mai 1873."
+ },
+ "central-bank": {
+  "term": "Banque centrale",
+  "definition": "L'institution qui émet une monnaie et pilote ses taux d'intérêt, comme la BCE pour l'euro ou la Réserve fédérale pour le dollar américain."
+ },
+ "ecb": {
+  "term": "BCE",
+  "definition": "La Banque centrale européenne. Son conseil des gouverneurs fixe les taux d'intérêt de la zone euro, avec un objectif d'inflation de 2 % à moyen terme."
+ },
+ "eurosystem": {
+  "term": "Eurosystème",
+  "definition": "La BCE et les banques centrales nationales des pays de la zone euro, dont l'Oesterreichische Nationalbank."
+ },
+ "oenb": {
+  "term": "OeNB",
+  "definition": "La banque centrale autrichienne, membre de l'Eurosystème. Son gouverneur représente l'Autriche au conseil des gouverneurs de la BCE."
+ },
+ "federal-reserve": {
+  "term": "Réserve fédérale",
+  "definition": "La banque centrale des États-Unis, souvent appelée la Fed. Son double mandat est le plein emploi et la stabilité des prix."
+ },
+ "dual-mandate": {
+  "term": "Double mandat",
+  "definition": "Les deux objectifs fixés à la Réserve fédérale par le Congrès : le plein emploi et la stabilité des prix."
+ },
+ "deposit-facility-rate": {
+  "term": "Taux de la facilité de dépôt",
+  "definition": "Le taux d'intérêt que reçoivent les banques sur leurs dépôts au jour le jour auprès de l'Eurosystème. Depuis mars 2024, c'est le taux par lequel la BCE pilote sa politique monétaire."
+ },
+ "inflation-target": {
+  "term": "Objectif d'inflation",
+  "definition": "Le taux d'inflation visé par une banque centrale. La BCE vise 2 % (IPCH) à moyen terme, de façon symétrique."
+ },
+ "vpi": {
+  "term": "VPI (IPC autrichien)",
+  "definition": "L'indice national des prix à la consommation de l'Autriche, publié par Statistik Austria en parallèle de l'IPCH harmonisé de l'UE."
+ },
+ "transmission-mechanism": {
+  "term": "Mécanisme de transmission",
+  "definition": "Le processus par lequel les décisions de la banque centrale influencent les taux d'intérêt, les prix des actifs, les taux de change, les dépenses et enfin l'inflation, avec des délais longs et variables."
+ },
+ "gdp": {
+  "term": "PIB",
+  "definition": "Produit intérieur brut : la valeur de tous les biens et services produits dans une économie sur une période. Son taux de croissance est la principale mesure de la croissance économique."
+ },
+ "flash-estimate": {
+  "term": "Estimation rapide (flash)",
+  "definition": "Une première estimation d'un indicateur économique, comme l'inflation, publiée avant que toutes les données soient disponibles et révisée ensuite."
+ },
+ "exchange-rate": {
+  "term": "Taux de change",
+  "definition": "Le prix d'une monnaie exprimé dans une autre. La BCE publie des taux de référence en unités de devise étrangère pour 1 euro."
+ },
+ "currency-risk": {
+  "term": "Risque de change",
+  "definition": "Le risque que les variations des taux de change réduisent la valeur d'un placement étranger dans votre monnaie."
+ },
+ "currency-hedging": {
+  "term": "Couverture de change",
+  "definition": "Utiliser des dérivés pour neutraliser l'essentiel de l'effet des variations de change sur un placement étranger. Cela réduit les fluctuations, mais coûte de l'argent et supprime les gains de change."
+ },
+ "bond-yield": {
+  "term": "Rendement obligataire",
+  "definition": "Le rendement qu'obtient un investisseur avec une obligation à son prix actuel. Quand les rendements montent, les prix des obligations existantes baissent."
+ },
+ "yield-curve": {
+  "term": "Courbe des taux",
+  "definition": "Une courbe qui montre les rendements des obligations d'un même émetteur selon leur échéance. Elle est généralement croissante ; une courbe inversée a été aux États-Unis un signe avant-coureur de récession."
+ },
+ "term-spread": {
+  "term": "Écart de taux (pente)",
+  "definition": "La différence entre un taux d'intérêt long et un taux court, par exemple le rendement à 10 ans moins celui à 1 an."
+ },
+ "deflation": {
+  "term": "Déflation",
+  "definition": "Une baisse générale des prix. Elle alourdit les dettes en termes réels et peut pousser les gens à différer leurs dépenses."
+ },
+ "pricing-power": {
+  "term": "Pouvoir de fixation des prix",
+  "definition": "La capacité d'une entreprise à augmenter ses prix sans perdre beaucoup de clients. Elle aide les bénéfices à suivre l'inflation."
+ },
+ "wealth-effect": {
+  "term": "Effet de richesse",
+  "definition": "La tendance des ménages à dépenser plus quand la valeur de leurs actifs, comme les actions, augmente, et moins quand elle baisse."
+ },
+ "esm": {
+  "term": "Mécanisme européen de stabilité (MES)",
+  "definition": "Le fonds de sauvetage permanent de la zone euro, créé le 8 octobre 2012 pour succéder au FESF temporaire (juin 2010), afin de prêter aux pays qui perdent l'accès aux marchés."
+ },
+ "sovereign-debt-crisis": {
+  "term": "Crise de la dette souveraine",
+  "definition": "Une crise dans laquelle les investisseurs doutent de la capacité des États à rembourser leurs dettes. Dans la zone euro, elle a commencé en 2010."
+ },
+ "omt": {
+  "term": "Opérations monétaires sur titres (OMT)",
+  "definition": "Un programme de la BCE annoncé en septembre 2012 pour acheter des obligations d'État sur le marché secondaire, à condition que le pays bénéficie d'un programme du FESF/MES."
+ },
+ "home-bias": {
+  "term": "Biais domestique",
+  "definition": "La tendance des investisseurs à détenir surtout des actions et des obligations de leur propre pays, ce qui réduit la diversification."
+ },
+ "asset-allocation": {
+  "term": "Allocation d'actifs",
+  "definition": "La répartition d'un portefeuille entre catégories d'actifs comme les actions, les obligations et les liquidités. Elle dépend surtout de votre horizon de placement et de votre tolérance au risque."
+ },
+ "rebalancing": {
+  "term": "Rééquilibrage",
+  "definition": "Ramener un portefeuille à son allocation d'actifs initiale après que certains placements ont progressé plus vite que d'autres."
+ },
+ "time-horizon": {
+  "term": "Horizon de placement",
+  "definition": "Le nombre de mois, d'années ou de décennies pendant lesquels vous comptez investir avant d'avoir besoin de l'argent pour un objectif."
+ },
+ "risk-tolerance": {
+  "term": "Tolérance au risque",
+  "definition": "Votre capacité et votre disposition à perdre une partie ou la totalité d'un placement en échange d'un rendement potentiel plus élevé."
+ },
+ "emergency-fund": {
+  "term": "Épargne de précaution",
+  "definition": "Une épargne facilement disponible pour les dépenses imprévues ou une perte de revenus, souvent trois à six mois de dépenses, pour ne pas devoir vendre des placements au mauvais moment."
+ },
+ "target-date-fund": {
+  "term": "Fonds à date cible",
+  "definition": "Un fonds diversifié qui adopte automatiquement une composition plus prudente à l'approche d'une année fixée, sa date cible."
+ },
+ "glide-path": {
+  "term": "Trajectoire de désensibilisation (glide path)",
+  "definition": "Une évolution planifiée de l'allocation d'actifs dans le temps, réduisant généralement la part des actions à l'approche d'un objectif comme la retraite."
+ },
+ "passive-investing": {
+  "term": "Gestion passive",
+  "definition": "Investir dans des fonds qui répliquent un indice au lieu d'essayer de le battre, généralement à faible coût."
+ },
+ "investment-plan": {
+  "term": "Plan d'investissement",
+  "definition": "Un court plan écrit qui fixe vos objectifs, la répartition visée, les produits, les règles de rééquilibrage et ce que vous ferez en cas de krach."
+ },
+ "lump-sum": {
+  "term": "Investissement en une fois",
+  "definition": "Une somme plus importante investie en une seule fois, par opposition à de petits montants réguliers via un plan d'épargne."
+ },
+ "day-trading": {
+  "term": "Day trading",
+  "definition": "Acheter et vendre des titres dans la même journée pour profiter de petits mouvements de cours. Investor.gov le juge extrêmement risqué ; les études montrent que la plupart des day traders particuliers perdent de l'argent."
+ },
+ "swing-trading": {
+  "term": "Swing trading",
+  "definition": "Garder des positions de quelques jours à quelques semaines pour profiter des oscillations de cours, souvent à l'aide de l'analyse graphique."
+ },
+ "derivative": {
+  "term": "Produit dérivé",
+  "definition": "Un instrument financier dont la valeur dérive d'un actif, d'un titre ou d'un indice sous-jacent, comme une option, un contrat à terme ou un CFD."
+ },
+ "option": {
+  "term": "Option (dérivé)",
+  "definition": "Un contrat qui donne à l'acheteur le droit, mais pas l'obligation, d'acheter (call) ou de vendre (put) un sous-jacent à un prix fixe pendant une période donnée ou à son terme, contre une prime."
+ },
+ "strike-price": {
+  "term": "Prix d'exercice",
+  "definition": "Le prix fixe auquel le détenteur d'une option ou d'un warrant peut acheter ou vendre le sous-jacent."
+ },
+ "option-premium": {
+  "term": "Prime d'option",
+  "definition": "Le prix que l'acheteur d'une option paie au vendeur pour le droit qu'elle confère. C'est le maximum que l'acheteur peut perdre."
+ },
+ "option-writer": {
+  "term": "Vendeur d'options",
+  "definition": "Celui qui vend une option, encaisse la prime et doit livrer ou acheter le sous-jacent si l'acheteur exerce. Les pertes peuvent être très lourdes, et même illimitées pour les calls non couverts."
+ },
+ "time-value": {
+  "term": "Valeur temps",
+  "definition": "La partie du prix d'une option qui reflète le temps restant jusqu'à l'échéance. Elle diminue à l'approche de l'échéance."
+ },
+ "futures-contract": {
+  "term": "Contrat à terme (future)",
+  "definition": "Un accord normalisé, négocié en Bourse, qui oblige les deux parties à acheter ou vendre un sous-jacent à un prix fixe à une date future déterminée."
+ },
+ "forward-contract": {
+  "term": "Contrat à terme de gré à gré (forward)",
+  "definition": "Un contrat non normalisé, conclu de gré à gré, pour acheter ou vendre un actif à un prix fixe à une date future ; l'équivalent hors Bourse d'un future."
+ },
+ "initial-margin": {
+  "term": "Dépôt de garantie initial",
+  "definition": "La garantie déposée pour ouvrir une position sur contrats à terme ou autres dérivés. La marge de variation règle chaque jour gains et pertes, si bien que les positions perdantes exigent de l'argent frais."
+ },
+ "cfd": {
+  "term": "Contrat sur différence (CFD)",
+  "definition": "Un contrat à effet de levier conclu avec un prestataire pour échanger la différence de cours d'un sous-jacent entre l'ouverture et la clôture. Vous ne possédez jamais le sous-jacent. Dans l'UE, les CFD pour particuliers sont soumis à des limites de levier et à une protection contre le solde négatif."
+ },
+ "binary-option": {
+  "term": "Option binaire",
+  "definition": "Un pari qui rapporte un montant fixe ou rien selon qu'une condition est remplie. Sa vente aux particuliers est interdite en Autriche par la FMA-PIV."
+ },
+ "negative-balance-protection": {
+  "term": "Protection contre le solde négatif",
+  "definition": "Une règle qui garantit qu'un client particulier ne peut pas perdre plus que l'argent de son compte de CFD. Obligatoire dans l'UE et, en Autriche, selon la FMA-PIV."
+ },
+ "short-squeeze": {
+  "term": "Short squeeze",
+  "definition": "Une hausse rapide du cours qui force les vendeurs à découvert à racheter des actions pour limiter leurs pertes, ce qui pousse le cours encore plus haut."
+ },
+ "net-short-position": {
+  "term": "Position courte nette",
+  "definition": "Le pari global d'un investisseur sur la baisse d'une action. Dans l'UE, les positions à partir de 0,1 % du capital doivent être déclarées à l'autorité et publiées à partir de 0,5 %."
+ },
+ "naked-short-selling": {
+  "term": "Vente à découvert à nu",
+  "definition": "Vendre des actions à découvert sans les avoir empruntées ni s'être assuré de pouvoir les emprunter. Interdite pour les actions dans l'UE."
+ },
+ "prop-trading": {
+  "term": "Négociation pour compte propre (prop trading)",
+  "definition": "Négocier pour le compte de la société elle-même. La FMA met en garde : les « challenges » de prop trading en ligne payants gagnent souvent surtout grâce aux frais des participants."
+ },
+ "issuer-risk": {
+  "term": "Risque émetteur",
+  "definition": "Le risque que l'émetteur d'une obligation, d'un certificat ou d'un warrant ne puisse pas payer. Les certificats sont des dettes de la banque émettrice : vous pouvez perdre de l'argent même si le sous-jacent monte."
+ },
+ "behavioural-finance": {
+  "term": "Finance comportementale",
+  "definition": "L'étude de la façon dont les vraies personnes prennent des décisions financières, y compris les erreurs systématiques causées par la psychologie."
+ },
+ "heuristic": {
+  "term": "Heuristique",
+  "definition": "Un raccourci mental pour décider vite. Utile au quotidien, mais il peut mener à des erreurs systématiques en investissement."
+ },
+ "cognitive-bias": {
+  "term": "Biais cognitif",
+  "definition": "Une erreur de raisonnement systématique qui influence les jugements et les décisions, comme l'aversion aux pertes ou l'excès de confiance."
+ },
+ "prospect-theory": {
+  "term": "Théorie des perspectives",
+  "definition": "La théorie de Kahneman et Tversky sur la façon dont les gens décident réellement face au risque, notamment le fait que les pertes pèsent plus lourd que des gains de même taille."
+ },
+ "loss-aversion": {
+  "term": "Aversion aux pertes",
+  "definition": "La tendance à ressentir les pertes plus fortement que des gains de même ampleur, ce qui pousse les investisseurs à se concentrer sur l'évitement des pertes."
+ },
+ "disposition-effect": {
+  "term": "Effet de disposition",
+  "definition": "La tendance à vendre trop tôt les placements gagnants et à garder trop longtemps les perdants."
+ },
+ "endowment-effect": {
+  "term": "Effet de dotation",
+  "definition": "La tendance à accorder plus de valeur à quelque chose simplement parce qu'on le possède."
+ },
+ "overconfidence": {
+  "term": "Excès de confiance",
+  "definition": "Surestimer ses propres connaissances ou compétences. En investissement, cela mène à trop de transactions et à des rendements plus faibles."
+ },
+ "herd-behaviour": {
+  "term": "Comportement moutonnier",
+  "definition": "Imiter ce que fait la majorité au lieu de décider sur les faits, ce qui amplifie bulles et paniques."
+ },
+ "fomo": {
+  "term": "FOMO",
+  "definition": "Fear of missing out, la peur de rater quelque chose : l'envie d'acheter parce que d'autres semblent gagner de l'argent, qui mène souvent à acheter près des sommets."
+ },
+ "availability-heuristic": {
+  "term": "Heuristique de disponibilité",
+  "definition": "Juger la probabilité d'un événement à la facilité avec laquelle des exemples viennent à l'esprit, ce qui conduit à sous-estimer les risques qui ne se sont pas produits récemment."
+ },
+ "recency-effect": {
+  "term": "Effet de récence",
+  "definition": "Accorder plus de poids aux informations les plus récentes qu'aux plus anciennes."
+ },
+ "mental-accounting": {
+  "term": "Comptabilité mentale",
+  "definition": "Traiter l'argent différemment selon le « compte » mental dans lequel on le range, au lieu de regarder l'effet global des décisions."
+ },
+ "halo-effect": {
+  "term": "Effet de halo",
+  "definition": "Laisser une seule qualité positive, comme une marque célèbre, colorer tout son jugement sur un placement."
+ },
+ "nudge": {
+  "term": "Coup de pouce (nudge)",
+  "definition": "Une modification de la présentation des choix qui facilite les bonnes décisions sans interdire aucune option, comme l'adhésion automatique à un plan d'épargne."
+ },
+ "finfluencer": {
+  "term": "Finfluenceur",
+  "definition": "Une personne qui partage des contenus sur la finance et l'investissement sur les réseaux sociaux. Ce n'est pas un titre protégé ; vérifiez ses qualifications et ses conflits d'intérêts."
+ },
+ "affiliate-marketing": {
+  "term": "Marketing d'affiliation",
+  "definition": "Toucher une commission lorsque des abonnés s'inscrivent ou achètent via un lien personnel, ce qui crée un conflit d'intérêts pour la personne qui recommande."
+ },
+ "standard-deviation": {
+  "term": "Écart-type",
+  "definition": "Une mesure de la dispersion des rendements autour de leur moyenne ; la façon habituelle d'exprimer la volatilité. Environ deux tiers des résultats se situent en général à moins d'un écart-type."
+ },
+ "volatility-drag": {
+  "term": "Frein de la volatilité",
+  "definition": "L'écart entre la moyenne des rendements annuels et le rendement composé réellement obtenu, dû aux fluctuations. +50 % puis −50 % font 0 % en moyenne, mais une perte de 25 %."
+ },
+ "cagr": {
+  "term": "Taux de croissance annuel composé (TCAC)",
+  "definition": "Le taux annuel constant qui transformerait la valeur de départ en valeur finale ; ce que votre argent a réellement rapporté par an."
+ },
+ "correlation": {
+  "term": "Corrélation",
+  "definition": "Un nombre de −1 à +1 qui mesure à quel point deux placements évoluent ensemble. Plus elle est faible, plus leur combinaison réduit le risque."
+ },
+ "sharpe-ratio": {
+  "term": "Ratio de Sharpe",
+  "definition": "Le rendement excédentaire par rapport à une référence sans risque, divisé par son écart-type : le rendement par unité de risque."
+ },
+ "excess-return": {
+  "term": "Rendement excédentaire",
+  "definition": "Le rendement d'un placement moins celui d'une référence, généralement un taux sans risque comme les bons du Trésor à court terme."
+ },
+ "risk-free-rate": {
+  "term": "Taux sans risque",
+  "definition": "Le rendement d'un placement considéré comme exempt de risque de défaut, généralement des titres d'État à court terme, utilisé comme référence pour les autres rendements."
+ },
+ "systematic-risk": {
+  "term": "Risque systématique",
+  "definition": "Le risque qui touche presque tous les placements à la fois, comme les récessions ou les chocs de taux. Il ne disparaît pas en diversifiant entre actions."
+ },
+ "specific-risk": {
+  "term": "Risque spécifique",
+  "definition": "Le risque qui touche une seule entreprise ou un seul secteur, comme un produit raté ou une fraude. La diversification permet de le réduire fortement."
+ },
+ "liquidity-risk": {
+  "term": "Risque de liquidité",
+  "definition": "Le risque de ne pas pouvoir vendre un placement quand vous le souhaitez, ou seulement à un mauvais prix."
+ },
+ "inflation-risk": {
+  "term": "Risque d'inflation",
+  "definition": "Le risque que la hausse des prix érode le pouvoir d'achat de votre épargne et de vos rendements, surtout pour les liquidités et les placements à taux fixe."
+ },
+ "interest-rate-risk": {
+  "term": "Risque de taux",
+  "definition": "Le risque que les variations de taux d'intérêt réduisent la valeur des placements, surtout des obligations à longue échéance."
+ },
+ "concentration-risk": {
+  "term": "Risque de concentration",
+  "definition": "Le risque d'avoir trop misé sur une entreprise, un secteur, un pays ou un actif, si bien qu'un seul échec provoque de grosses pertes."
+ },
+ "position-sizing": {
+  "term": "Taille des positions",
+  "definition": "Décider combien d'argent placer sur un seul investissement, par exemple en plafonnant chaque position ou en limitant le montant en risque."
+ },
+ "sequence-risk": {
+  "term": "Risque de séquence des rendements",
+  "definition": "Le risque que les mauvaises années tombent au mauvais moment, par exemple juste avant ou après le début des retraits, ce qui réduit durablement le capital."
+ },
+ "risk-indicator": {
+  "term": "Indicateur synthétique de risque",
+  "definition": "L'échelle de risque de 1 à 7 du document d'informations clés d'un produit, qui combine le risque de marché (selon la volatilité) et le risque de crédit de l'émetteur."
+ },
+ "special-tax-rate": {
+  "term": "Taux d'imposition spécial (Autriche)",
+  "definition": "En Autriche, le taux forfaitaire applicable à la plupart des revenus du capital : 27,5 %, ou 25 % pour les intérêts des dépôts bancaires. Il s'applique séparément des autres revenus et n'augmente pas le taux progressif."
+ },
+ "endbesteuerung": {
+  "term": "Imposition libératoire (Endbesteuerung)",
+  "definition": "En Autriche, l'effet par lequel la KESt prélevée par une banque ou une société autrichienne règle l'impôt sur le revenu dû sur ces revenus, qui n'ont donc pas à être déclarés."
+ },
+ "regelbesteuerungsoption": {
+  "term": "Option pour le barème normal",
+  "definition": "En Autriche, la possibilité de faire imposer tous les revenus du capital au barème progressif normal plutôt qu'au taux spécial, utile pour les personnes à faibles revenus totaux."
+ },
+ "loss-offset": {
+  "term": "Compensation des pertes",
+  "definition": "En Autriche, imputer les pertes sur actifs de capital sur des revenus du capital imposés de la même façon la même année. Les banques le font automatiquement au sein de leurs comptes ; entre banques, via la déclaration."
+ },
+ "withholding-tax": {
+  "term": "Retenue à la source",
+  "definition": "Un impôt prélevé à la source par le pays où naît un revenu comme un dividende. Les banques autrichiennes peuvent imputer la retenue étrangère sur dividendes jusqu'à 15 % du dividende."
+ },
+ "double-taxation-agreement": {
+  "term": "Convention fiscale (non-double imposition)",
+  "definition": "Un traité entre deux pays qui limite l'imposition d'un même revenu par les deux, par exemple en permettant d'imputer l'impôt étranger."
+ },
+ "moving-average-price": {
+  "term": "Prix moyen pondéré (Autriche)",
+  "definition": "En Autriche, le coût d'acquisition utilisé pour des achats répétés d'un même titre sur un compte : coût total divisé par le nombre total de titres, recalculé après chaque achat."
+ },
+ "altbestand": {
+  "term": "Ancien portefeuille (Altbestand)",
+  "definition": "En Autriche, les actions et parts de fonds acquises jusqu'au 31 décembre 2010 (cryptomonnaies jusqu'au 28 février 2021), en général exonérées de l'impôt actuel sur les plus-values."
+ },
+ "e1kv": {
+  "term": "E 1kv",
+  "definition": "L'annexe de la déclaration autrichienne d'impôt sur le revenu servant à déclarer les revenus du capital, déposée via FinanzOnline."
+ },
+ "finanzonline": {
+  "term": "FinanzOnline",
+  "definition": "Le portail en ligne de l'administration fiscale autrichienne pour déposer les déclarations et communiquer avec le centre des impôts."
+ },
+ "tax-reporting": {
+  "term": "Relevé fiscal",
+  "definition": "En Autriche, un récapitulatif annuel que les banques doivent fournir sur demande (pour les revenus de 2025 et suivants, avant le 31 mars) avec les revenus du capital, la KESt, l'impôt étranger et les pertes, aligné sur le formulaire E 1kv."
+ },
+ "exit-taxation": {
+  "term": "Imposition à la sortie (exit tax)",
+  "definition": "En Autriche, la règle selon laquelle un départ à l'étranger est traité comme une vente des actifs de capital à leur valeur de marché ; un report peut être demandé pour un départ au sein de l'UE/EEE."
+ },
+ "automatic-exchange-of-information": {
+  "term": "Échange automatique d'informations",
+  "definition": "L'échange annuel de données sur les comptes financiers entre administrations fiscales selon la norme OCDE/G20, en place depuis 2017."
+ },
+ "mar": {
+  "term": "Règlement sur les abus de marché (MAR)",
+  "definition": "Le règlement de l'UE (applicable depuis le 3 juillet 2016) qui définit et interdit les opérations d'initiés et la manipulation de marché et fixe des obligations d'information pour les émetteurs et les dirigeants."
+ },
+ "inside-information": {
+  "term": "Information privilégiée",
+  "definition": "Une information précise et non publique concernant un émetteur ou un instrument financier qui, si elle était rendue publique, serait susceptible d'influencer sensiblement le cours."
+ },
+ "insider-dealing": {
+  "term": "Opération d'initié",
+  "definition": "Utiliser une information privilégiée pour négocier, recommander des opérations sur cette base ou la transmettre. Une infraction pénale et administrative en Autriche."
+ },
+ "market-manipulation": {
+  "term": "Manipulation de marché",
+  "definition": "Des transactions, ordres ou informations qui donnent des signaux faux ou trompeurs sur l'offre, la demande ou le prix, ou fixent les cours à un niveau artificiel."
+ },
+ "pump-and-dump": {
+  "term": "Pump and dump",
+  "definition": "Un montage dans lequel des promoteurs font monter le cours d'une action bon marché à coups de battage ou de fausses affirmations, puis vendent leurs propres actions au sommet, laissant les pertes aux autres."
+ },
+ "ad-hoc-announcement": {
+  "term": "Communiqué d'information privilégiée",
+  "definition": "Une annonce d'une société publiant sans délai une information privilégiée, comme l'exige l'article 17 du MAR, par exemple un avertissement sur résultats."
+ },
+ "major-holdings-notification": {
+  "term": "Déclaration de franchissement de seuil",
+  "definition": "En Autriche, l'obligation de déclarer sous deux jours de Bourse lorsque les droits de vote dans une société cotée atteignent, dépassent ou passent sous des seuils allant de 4 % à 90 %."
+ },
+ "directors-dealings": {
+  "term": "Opérations des dirigeants",
+  "definition": "Les opérations des dirigeants d'une société cotée et de leurs proches sur les actions de la société, à déclarer sous trois jours ouvrés une fois atteints 20 000 € par an."
+ },
+ "mandatory-offer": {
+  "term": "Offre publique obligatoire",
+  "definition": "En Autriche, l'obligation de proposer le rachat de toutes les actions après avoir obtenu plus de 30 % des droits de vote d'une société cotée, à un prix minimum fixé par la loi."
+ },
+ "takeover-commission": {
+  "term": "Commission des OPA (Übernahmekommission)",
+  "definition": "L'autorité indépendante autrichienne, installée à la Bourse de Vienne, qui supervise les offres publiques d'acquisition et décide si une offre obligatoire est requise."
+ },
+ "management-board": {
+  "term": "Directoire (Vorstand)",
+  "definition": "Dans une société anonyme autrichienne, l'organe qui dirige l'entreprise sous sa propre responsabilité."
+ },
+ "supervisory-board": {
+  "term": "Conseil de surveillance (Aufsichtsrat)",
+  "definition": "Dans une société anonyme autrichienne, l'organe qui contrôle le directoire et qui est élu par l'assemblée générale."
+ },
+ "bail-in": {
+  "term": "Renflouement interne (bail-in)",
+  "definition": "Déprécier ou convertir en actions les créances des actionnaires et des créanciers d'une banque défaillante, pour que ce soient eux, et non les contribuables, qui supportent ses pertes."
+ },
+ "bank-resolution": {
+  "term": "Résolution bancaire",
+  "definition": "La restructuration ou la liquidation ordonnée d'une banque défaillante par une autorité de résolution, avec des outils comme la cession d'activité, une banque-relais ou le bail-in."
+ },
+ "banking-ombudsman": {
+  "term": "Médiation bancaire (Autriche)",
+  "definition": "En Autriche, l'organe de conciliation commun du secteur bancaire autrichien, qui intervient gratuitement dans les litiges avec des banques autrichiennes après une tentative de règlement avec la banque."
+ },
+ "esg": {
+  "term": "ESG",
+  "definition": "Critères environnementaux, sociaux et de gouvernance pris en compte par les investisseurs pour gérer les risques ou aligner leurs placements sur leurs valeurs."
+ },
+ "sfdr": {
+  "term": "Règlement SFDR (publication en matière de durabilité)",
+  "definition": "Le règlement de l'UE qui oblige les acteurs financiers à indiquer comment ils prennent en compte les risques de durabilité et les incidences négatives, et à justifier leurs allégations de durabilité."
+ },
+ "greenwashing": {
+  "term": "Écoblanchiment (greenwashing)",
+  "definition": "Présenter un produit ou une entreprise comme plus respectueux de l'environnement ou plus durable qu'il ne l'est réellement."
+ },
+ "developed-market": {
+  "term": "Marché développé",
+  "definition": "Un marché boursier classé par les fournisseurs d'indices comme très développé en termes d'économie, de taille, de liquidité et d'accessibilité, comme l'Autriche selon FTSE Russell."
+ },
+ "frontier-market": {
+  "term": "Marché frontière",
+  "definition": "Un marché boursier plus petit, moins liquide et moins accessible qu'un marché émergent, classé à part par les fournisseurs d'indices."
+ },
+ "market-classification": {
+  "term": "Classification des marchés",
+  "definition": "Le classement des marchés boursiers des pays en développés, émergents, frontières (et autres) par des fournisseurs d'indices comme MSCI et FTSE Russell, révisé chaque année."
+ },
+ "stock-connect": {
+  "term": "Stock Connect",
+  "definition": "Les liaisons de négociation entre Hong Kong et les Bourses de Shanghai et Shenzhen, par lesquelles les investisseurs internationaux peuvent négocier des actions A éligibles de Chine continentale."
+ },
+ "capital-controls": {
+  "term": "Contrôle des capitaux",
+  "definition": "Des restrictions sur l'entrée ou la sortie d'argent d'un pays, qui peuvent compliquer l'investissement des étrangers ou le rapatriement de leur argent."
+ },
+ "investment-fraud": {
+  "term": "Fraude à l'investissement",
+  "definition": "Tromper des personnes pour qu'elles versent de l'argent dans des placements faux, présentés de façon mensongère ou non autorisés. La FMA a reçu 843 signalements pour 20 millions € de pertes en 2025."
+ },
+ "clone-firm": {
+  "term": "Société clone",
+  "definition": "Une opération frauduleuse qui copie le nom et les données d'enregistrement d'une vraie société agréée pour paraître légitime."
+ },
+ "ponzi-scheme": {
+  "term": "Système de Ponzi",
+  "definition": "Une fraude qui rémunère les premiers investisseurs avec l'argent des nouveaux plutôt qu'avec de vrais bénéfices, et qui s'effondre quand l'argent frais cesse d'arriver."
+ },
+ "pyramid-scheme": {
+  "term": "Système pyramidal",
+  "definition": "Un système dans lequel l'argent des nouvelles recrues rémunère les participants précédents, souvent déguisé en activité ; la plupart des participants perdent de l'argent quand le recrutement ralentit."
+ },
+ "relationship-scam": {
+  "term": "Arnaque sentimentale à l'investissement",
+  "definition": "Une fraude dans laquelle l'escroc noue une amitié ou une romance pendant des semaines ou des mois, puis oriente la victime vers de faux placements, souvent en crypto."
+ },
+ "advance-fee-fraud": {
+  "term": "Escroquerie aux frais anticipés",
+  "definition": "Une fraude qui demande aux victimes de payer d'avance des frais, des impôts ou des commissions pour débloquer des fonds ou récupérer de l'argent perdu. L'argent n'est jamais rendu."
+ },
+ "cold-calling": {
+  "term": "Démarchage non sollicité",
+  "definition": "Un contact non sollicité par téléphone, e-mail ou fax pour vendre des produits financiers. La FMA l'a qualifié d'interdit en Autriche et de signal d'alerte de fraude."
+ },
+ "i-scan": {
+  "term": "I-SCAN",
+  "definition": "La base de données consultable de l'OICV (IOSCO), qui recense les alertes et mises en garde publiées par les autorités de marché du monde entier."
+ },
+ "investor-warning": {
+  "term": "Mise en garde aux investisseurs",
+  "definition": "Un avertissement public d'une autorité, comme la FMA, au sujet d'un prestataire qui n'est pas autorisé à proposer ses services."
+ },
+ "coupon": {
+  "term": "Coupon",
+  "definition": "L'intérêt versé par une obligation, exprimé en pourcentage de sa valeur nominale. Un coupon de 3 % sur une obligation de 1 000 € rapporte 30 € par an."
+ },
+ "maturity": {
+  "term": "Échéance",
+  "definition": "La date à laquelle une obligation prend fin et où l'émetteur rembourse sa valeur nominale. Les obligations à plus longue échéance réagissent plus fortement aux variations de taux."
+ },
+ "face-value": {
+  "term": "Valeur nominale (obligation)",
+  "definition": "Le montant que l'émetteur d'une obligation s'engage à rembourser à l'échéance, aussi appelé principal. Les intérêts sont calculés sur ce montant."
+ },
+ "credit-rating": {
+  "term": "Notation de crédit",
+  "definition": "Une évaluation de la capacité d'un emprunteur à rembourser ses dettes, publiée par une agence de notation. Une meilleure note signifie un risque de crédit plus faible et généralement des taux plus bas."
+ },
+ "investment-grade": {
+  "term": "Catégorie investissement (investment grade)",
+  "definition": "Des obligations relativement bien notées, donc à risque de crédit plus faible que les obligations à haut rendement."
+ },
+ "high-yield-bond": {
+  "term": "Obligation à haut rendement",
+  "definition": "Une obligation moins bien notée et à risque de crédit plus élevé que celles de catégorie investissement, qui verse donc un taux plus élevé."
+ },
+ "government-bond": {
+  "term": "Obligation d'État",
+  "definition": "Une obligation émise par un État pour financer ses dépenses. En Autriche, les obligations fédérales sont émises par l'agence autrichienne de financement fédéral (OeBFA)."
+ },
+ "corporate-bond": {
+  "term": "Obligation d'entreprise",
+  "definition": "Une obligation émise par une entreprise. Son risque dépend des finances de l'entreprise ; elle peut être de catégorie investissement ou à haut rendement."
+ },
+ "treasury-bill": {
+  "term": "Bon du Trésor américain (T-bill)",
+  "definition": "Un titre à court terme de l'État américain, d'une échéance de quelques jours à 52 semaines. Souvent utilisé comme mesure d'un rendement proche des liquidités."
+ },
+ "credit-risk": {
+  "term": "Risque de crédit",
+  "definition": "Le risque qu'un emprunteur ne paie pas à temps les intérêts ou le principal. Le principal risque des obligations d'entreprise et à haut rendement."
+ },
+ "call-risk": {
+  "term": "Risque de remboursement anticipé",
+  "definition": "Le risque qu'un émetteur rembourse une obligation avant son échéance, généralement après une baisse des taux, obligeant l'investisseur à réinvestir à des taux plus bas."
+ },
+ "bundesanleihe": {
+  "term": "Bundesanleihe",
+  "definition": "Une obligation de l'État fédéral autrichien : dette portant intérêt de la République, émise par l'OeBFA."
+ },
+ "bundesschatz": {
+  "term": "Bundesschatz",
+  "definition": "Un produit d'épargne en ligne de la République d'Autriche pour les particuliers, disponible depuis avril 2024. Ce sont des titres de la République achetés directement à l'OeBFA, avec des durées d'un mois à dix ans."
+ },
+ "oebfa": {
+  "term": "OeBFA",
+  "definition": "L'agence autrichienne de financement fédéral, chargée de la gestion de la dette de la République d'Autriche. Elle émet la dette publique et gère le portefeuille de dette fédérale."
+ },
+ "fixed-term-deposit": {
+  "term": "Dépôt à terme",
+  "definition": "De l'argent placé dans une banque pour une durée convenue, généralement à un taux plus élevé qu'un compte d'épargne. En Autriche, il est couvert par la garantie des dépôts."
+ },
+ "property-fund": {
+  "term": "Fonds immobilier",
+  "definition": "Un fonds qui réunit l'argent des investisseurs pour acheter de nombreux biens immobiliers. Les fonds immobiliers autrichiens imposent une durée minimale de détention de 12 mois et un préavis de 12 mois pour les rachats."
+ },
+ "mortgage": {
+  "term": "Prêt hypothécaire",
+  "definition": "Un prêt garanti par un bien immobilier. Il permet d'acheter un logement avec de l'argent emprunté, ce qui amplifie les gains et les pertes sur l'apport personnel."
+ },
+ "commodity": {
+  "term": "Matière première",
+  "definition": "Une ressource de base comme le pétrole, le gaz, les métaux ou les produits agricoles. Les particuliers s'y exposent généralement via des contrats à terme ou des produits cotés plutôt qu'en les détenant physiquement."
+ },
+ "exchange-traded-commodity": {
+  "term": "ETC (matière première cotée)",
+  "definition": "Un titre de créance négocié en Bourse qui reflète la valeur d'une matière première ou d'un métal précieux (Wiener Börse). S'agissant d'une dette, la solidité de l'émetteur compte."
+ },
+ "spot-price": {
+  "term": "Prix au comptant",
+  "definition": "Le prix d'une livraison immédiate d'un actif, par opposition à un prix convenu aujourd'hui pour une livraison future."
+ },
+ "safe-haven": {
+  "term": "Valeur refuge",
+  "definition": "Un actif vers lequel se tournent les investisseurs en période de crise, comme l'or ou les obligations d'État très bien notées. « Refuge » ne veut pas dire sans risque : le cours de l'or, par exemple, peut fortement varier."
+ },
+ "forex": {
+  "term": "Marché des changes (forex)",
+  "definition": "Le marché où s'échangent les monnaies, surtout de gré à gré entre banques, intermédiaires et clients. En avril 2025, il a traité en moyenne 9 600 milliards de dollars par jour (BRI)."
+ },
+ "currency-pair": {
+  "term": "Paire de devises",
+  "definition": "Deux monnaies cotées l'une contre l'autre, comme EUR/USD : le prix d'une unité de la première monnaie exprimé dans la seconde."
+ },
+ "bank-for-international-settlements": {
+  "term": "Banque des règlements internationaux (BRI)",
+  "definition": "Une organisation internationale de banques centrales basée à Bâle. Tous les trois ans, elle publie l'enquête triennale sur les échanges mondiaux de devises."
+ },
+ "crypto-asset": {
+  "term": "Crypto-actif",
+  "definition": "Un actif numérique enregistré sur une blockchain ou une technologie similaire, comme le bitcoin ou un stablecoin. Les autorités de l'UE avertissent que beaucoup de crypto-actifs sont très risqués et spéculatifs."
+ },
+ "bitcoin": {
+  "term": "Bitcoin",
+  "definition": "Le premier crypto-actif et le plus connu. Il n'est lié à aucune valeur fixe ; selon MiCA, il relève de la catégorie des « autres crypto-actifs »."
+ },
+ "stablecoin": {
+  "term": "Stablecoin",
+  "definition": "Un jeton crypto conçu pour garder une valeur stable en étant lié à une monnaie ou à d'autres actifs. Selon MiCA, il s'agit de jetons de monnaie électronique ou de jetons se référant à des actifs."
+ },
+ "micar": {
+  "term": "MiCA (règlement sur les marchés de crypto-actifs)",
+  "definition": "Le règlement de l'UE sur les marchés de crypto-actifs. Il encadre certains jetons et les prestataires de services sur crypto-actifs, qui doivent être agréés ; les prêts DeFi, les services de staking et les NFT restent largement non réglementés."
+ },
+ "e-money-token": {
+  "term": "Jeton de monnaie électronique",
+  "definition": "Selon MiCA, un jeton crypto lié 1:1 à une seule monnaie officielle, comme un jeton valant toujours 1 €, destiné aux paiements."
+ },
+ "asset-referenced-token": {
+  "term": "Jeton se référant à des actifs",
+  "definition": "Selon MiCA, un jeton crypto dont la valeur est liée à un ou plusieurs actifs, comme des monnaies, des matières premières telles que l'or, ou d'autres jetons."
+ },
+ "defi": {
+  "term": "DeFi (finance décentralisée)",
+  "definition": "Des plateformes crypto pour prêter, emprunter ou échanger sans intermédiaire traditionnel. La FMA avertit que ces offres sont souvent non réglementées et qu'une perte totale est possible."
+ },
+ "staking": {
+  "term": "Staking (jalonnement)",
+  "definition": "Bloquer des crypto-actifs pour aider à valider les transactions d'une blockchain contre une récompense. Les services de staking proposés par des prestataires sont souvent non réglementés."
+ },
+ "nft": {
+  "term": "NFT (jeton non fongible)",
+  "definition": "Un objet numérique unique sur une blockchain, comme une œuvre d'art ou un objet de collection. Les NFT ne relèvent pas de MiCA ; leur valeur est souvent purement spéculative."
+ },
+ "private-key": {
+  "term": "Clé privée",
+  "definition": "Le code secret qui donne le contrôle des crypto-actifs d'une adresse sur une blockchain. Celui qui détient la clé privée peut déplacer les actifs."
+ },
+ "corporate-action": {
+  "term": "Opération sur titres",
+  "definition": "Un événement décidé par une entreprise qui modifie ses actions ou ce que reçoivent les actionnaires, comme un dividende, une division, une augmentation de capital, un rachat, une offre publique ou une scission. Certaines sont automatiques ; d'autres demandent une décision avant une date limite."
+ },
+ "stock-split": {
+  "term": "Division d'actions (split)",
+  "definition": "Diviser le capital d'une entreprise en un plus grand nombre d'actions. La valeur totale ne change pas : le cours par action baisse en proportion et les actionnaires ne sont pas dilués."
+ },
+ "reverse-split": {
+  "term": "Regroupement d'actions",
+  "definition": "Regrouper des actions en un plus petit nombre d'actions plus chères sans changer la valeur totale. Souvent après une forte baisse du cours, par exemple pour respecter le prix minimum d'une Bourse."
+ },
+ "bonus-shares": {
+  "term": "Actions gratuites",
+  "definition": "Des actions nouvelles attribuées gratuitement aux actionnaires lorsque des réserves sont incorporées au capital. Le cours baisse en proportion : on ne gagne pas de valeur."
+ },
+ "theoretical-ex-rights-price": {
+  "term": "Cours théorique ex-droit",
+  "definition": "Le cours calculé de l'action après une augmentation de capital avec DPS : (valeur des actions anciennes + argent levé) ÷ nombre total d'actions après l'émission."
+ },
+ "capital-cut": {
+  "term": "Coup d'accordéon (réduction de capital)",
+  "definition": "Une réduction du capital pour absorber des pertes, suivie d'une augmentation de capital, généralement lors d'une restructuration. Les actionnaires qui n'apportent pas d'argent frais peuvent être fortement dilués."
+ },
+ "share-buyback": {
+  "term": "Rachat d'actions",
+  "definition": "Une entreprise rachète ses propres actions, réduisant le nombre d'actions détenues par d'autres. En Autriche, cela exige une autorisation de l'assemblée générale valable jusqu'à 30 mois, et les actions propres ne peuvent dépasser 10 % du capital."
+ },
+ "treasury-shares": {
+  "term": "Actions autodétenues",
+  "definition": "Des actions qu'une entreprise détient sur elle-même après les avoir rachetées. Elles ne donnent aucun droit : ni vote, ni dividende."
+ },
+ "tender-offer": {
+  "term": "Offre publique d'achat (OPA)",
+  "definition": "Une offre faite à tous les actionnaires d'acheter leurs actions pendant une durée limitée à des conditions fixes, généralement avec une prime sur le cours. Chaque actionnaire décide s'il apporte ses titres."
+ },
+ "acceptance-period": {
+  "term": "Période d'acceptation",
+  "definition": "La durée limitée pendant laquelle les actionnaires peuvent apporter leurs titres à une offre publique."
+ },
+ "exchange-ratio": {
+  "term": "Parité d'échange",
+  "definition": "Dans une offre d'échange ou une fusion, le nombre d'actions de l'initiateur proposé pour chaque action de la société visée. La valeur de l'offre varie avec le cours de l'initiateur."
+ },
+ "insolvency": {
+  "term": "Insolvabilité",
+  "definition": "La situation d'une entreprise qui ne peut plus payer ses dettes, menant souvent à une procédure formelle de restructuration ou de liquidation. Les créanciers passent avant les actionnaires, qui perdent souvent tout."
+ },
+ "voting-right": {
+  "term": "Droit de vote",
+  "definition": "Le droit d'un actionnaire de voter pour ou contre les résolutions de l'assemblée générale. Une action donne généralement une voix ; il existe aussi des actions de préférence sans droit de vote."
+ },
+ "proxy-voting": {
+  "term": "Vote par procuration",
+  "definition": "Laisser quelqu'un d'autre, comme un mandataire que vous désignez, voter en votre nom à une assemblée générale à laquelle vous n'assistez pas."
+ },
+ "right-to-information": {
+  "term": "Droit à l'information",
+  "definition": "En Autriche, le droit de tout actionnaire d'obtenir en assemblée générale des informations sur les affaires de la société, dans la mesure nécessaire pour apprécier un point de l'ordre du jour (§ 118 AktG)."
+ },
+ "quote-page": {
+  "term": "Page de cotation",
+  "definition": "Une page qui affiche les données de négociation actuelles et récentes d'un titre : dernier cours, variation, plus haut et plus bas, volume, prix acheteur et vendeur, et souvent capitalisation et ratios de valorisation."
+ },
+ "fifty-two-week-range": {
+  "term": "Plus haut et plus bas sur 52 semaines",
+  "definition": "Les cours le plus haut et le plus bas d'un titre sur l'année écoulée, affichés sur de nombreuses pages de cotation."
+ },
+ "delayed-data": {
+  "term": "Cours différés",
+  "definition": "Des données de cours affichées avec un délai, souvent de 15 minutes. Le site de la Wiener Börse, par exemple, affiche les cours avec 15 minutes de décalage. Vérifiez les cours en temps réel avant d'agir."
+ },
+ "real-time-data": {
+  "term": "Cours en temps réel",
+  "definition": "Des cours affichés instantanément, sans décalage. Les Bourses font souvent payer les données en temps réel ; les courtiers les affichent dans leurs écrans de passage d'ordres."
+ },
+ "stock-screener": {
+  "term": "Filtre d'actions (screener)",
+  "definition": "Un outil qui filtre les titres selon des critères comme la capitalisation, le PER ou le rendement du dividende. Ses résultats ne valent que ce que valent ses données et constituent un point de départ pour vos recherches."
+ },
+ "oam": {
+  "term": "Mécanisme officiellement désigné (OAM)",
+  "definition": "Le dispositif central officiel de stockage de l'information réglementée des émetteurs cotés. En Autriche, il s'agit de l'OeKB."
+ },
+ "marketing-communication": {
+  "term": "Communication à caractère promotionnel",
+  "definition": "Une information publicitaire d'une entreprise d'investissement. En Autriche, elle doit être correcte, claire et non trompeuse, et clairement identifiable comme publicité (§ 49 WAG 2018)."
+ },
+ "advertorial": {
+  "term": "Publireportage",
+  "definition": "Un contenu payant conçu pour ressembler à un contenu rédactionnel. Dans les médias périodiques autrichiens, les contenus payants doivent porter la mention « Anzeige », « entgeltliche Einschaltung » ou « Werbung » (§ 26 de la loi sur les médias)."
+ },
+ "index-point": {
+  "term": "Point d'indice",
+  "definition": "L'unité dans laquelle s'exprime le niveau d'un indice. Une variation en points n'a de sens que rapportée au niveau de l'indice : convertissez-la en pourcentage avant de comparer."
+ },
+ "trading-volume": {
+  "term": "Volume de transactions",
+  "definition": "Le nombre d'actions échangées sur une période, généralement une journée. Les capitaux échangés correspondent à la valeur : volume multiplié par le cours."
+ },
+ "ex-rights": {
+  "term": "Ex-droit",
+  "definition": "Marqué « eB » dans les listes de cours autrichiennes : après le début d'une augmentation de capital avec DPS, la valeur du droit de souscription a été déduite du cours de l'action."
+ },
+ "investor-relations": {
+  "term": "Relations investisseurs",
+  "definition": "La communication d'une société cotée avec les investisseurs, généralement via un site dédié avec rapports, communiqués, présentations et documents d'assemblée générale."
+ },
+ "decision-diary": {
+  "term": "Journal de décisions",
+  "definition": "Une trace écrite des raisons d'une décision d'investissement et de ce que vous en attendiez. Il protège contre le biais rétrospectif et l'auto-attribution."
+ }
+}
