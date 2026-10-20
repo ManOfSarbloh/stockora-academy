@@ -22,9 +22,9 @@
       "city": "Amsterdam",
       "founded": "1602 (Euronext calls it the oldest stock exchange in the world); part of Euronext since 2000",
       "website": "https://www.euronext.com/en/markets/amsterdam",
-      "hours": "Runs on Euronext's single trading platform: an opening auction, continuous trading through the European business day and a closing auction. Euronext publishes the exact phase times in its trading manual; this site has not verified them separately for Amsterdam.",
+      "hours": "For AEX shares: opening auction at 09:00, continuous trading 09:00–17:30, closing auction until 17:35, then trading at the closing price until 17:40. Less liquid shares trade in two daily auctions (11:30 and 16:30) instead.",
       "timeZone": "Europe/Amsterdam",
-      "hoursSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
+      "hoursSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
       "holidaysSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
       "note": "Amsterdam follows the Euronext holiday calendar; in 2026 it trades on Ascension Day and Whit Monday."
     }
@@ -152,7 +152,7 @@
     "indexes-etfs-funds/major-indexes",
     "world-markets/major-exchanges"
   ],
-  "lastReviewed": "2026-10-16",
+  "lastReviewed": "2026-10-20",
   "sources": [
     {
       "title": "417th anniversary of the Amsterdam exchange (Euronext, 2019)",
@@ -165,6 +165,10 @@
     {
       "title": "ESES CSDs: Euroclear Belgium, Euroclear France, Euroclear Nederland (Euroclear)",
       "url": "https://www.euroclear.com/ourgroup/en/eses.html"
+    },
+    {
+      "title": "Appendix to Euronext Instructions 4-01 and 4-03: trading hours by trading group (Euronext, Excel file, effective 19 October 2026)",
+      "url": "https://www.euronext.com/en/media/1927/download"
     }
   ]
 }

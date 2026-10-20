@@ -203,10 +203,19 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | README | Rewritten: what is on the site, all checks and when they run, how to edit every content file, deployment on GitHub Pages and other static hosts, the pre-launch list, credits |
 | Not changed | The /brand page (Phase 1 logo options) stays online but is noindex; it can be deleted once nobody needs the comparison. The site is English only; the i18n dictionary is ready for German |
 
+## Maintenance (2026-10-20)
+
+| Topic | Decision |
+|---|---|
+| Amsterdam hours | From Euronext's appendix to trading manuals 4-01/4-03 (Excel, effective 19 October 2026), trading group J0 (AEX shares): opening auction 09:00, continuous 09:00–17:30, closing auction 17:35, trading at last until 17:40; double fixing at 11:30 and 16:30 for less liquid groups. Same as Paris |
+| Warsaw hours | GPW's session page loads its timetable from a service that returned no data, and gpw.pl refuses curl. The English Detailed Exchange Trading Rules were read in the browser (PDF text extracted in the page, not opened as a document): both the UTP version (February 2026) and the WATS version give 08:30–09:00 opening auction, 09:00–16:50 continuous, 16:50–17:00 closing auction, 17:00–17:05 trading at last, so the times hold whichever system is live. Only the Polish text is binding; the source title says so |
+| Japan protection | DICJ (Japanese page, current): ¥10 million principal per depositor and bank plus interest; non-interest settlement deposits in full; foreign-currency deposits not covered. JIPF (English): up to ¥10 million per customer if a failed securities firm cannot return segregated assets; no cover for price falls. DICJ's English guide (FY2005) was not used because of its age |
+| Taiwan protection | CDIC: NT$3 million per depositor and insured institution, principal and interest, NTD or foreign currency; securities firms are not covered. No official source was found for a securities investor compensation scheme, so none is stated |
+
 ## Open items
 - Create the GitHub repository, push `main`, enable Pages (Source: GitHub Actions), then set `reportConfig.githubRepo`.
 - Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Owner to fill in real Impressum details.
-- Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.
-- World Markets: refresh content/world/market-size.json when the World Bank publishes 2026 figures; re-check country tax pages yearly (lastReviewed 2026-10-16); add Amsterdam and Warsaw session times, Japanese and Taiwanese deposit protection once official pages can be read; consider MSCI classification if a readable official source is found.
+- Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published (checked 2026-10-20: none official yet; B3 usually publishes in early January, China's exchanges in late December after the State Council notice, NSE in December; Euronext's 2026 year-end half-day hours were still "to be announced"); the SGX site only loads after accepting cookies, so its calendar was not read; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.
+- World Markets: refresh content/world/market-size.json when the World Bank publishes 2026 figures; re-check country tax pages yearly (lastReviewed 2026-10-16); consider MSCI classification if a readable official source is found.

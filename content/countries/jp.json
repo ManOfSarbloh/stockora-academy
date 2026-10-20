@@ -43,6 +43,10 @@
   "regulators": [
     { "name": "Financial Services Agency (FSA)", "role": "Japan's financial regulator, which also oversees the tax-free NISA investment accounts framework.", "url": "https://www.fsa.go.jp/en/" }
   ],
+  "investorProtection": [
+    { "name": "Deposit insurance (DICJ)", "text": "Ordinary deposits are protected up to ¥10 million principal per depositor and bank, plus interest; settlement deposits that pay no interest are protected in full. Foreign-currency deposits are not covered.", "url": "https://www.dic.go.jp/yokinsha/page_000109.html" },
+    { "name": "Japan Investor Protection Fund (JIPF)", "text": "Securities firms must keep customer assets separate from their own. If a failed firm cannot return them, JIPF pays up to ¥10 million per customer. It never covers losses from falling prices.", "url": "https://jipf.or.jp/en/introduction/index.html" }
+  ],
   "settlement": {
     "cycle": "T+2 (two business days)",
     "csd": "JASDEC (Japan Securities Depository Center)",
@@ -88,9 +92,11 @@
     { "year": "2024", "text": "The Nikkei 225 finally closes above its 1989 high (22 February); TSE's afternoon close moves to 15:30 (November)." }
   ],
   "lessons": ["market-cycles-history/vienna-1873-and-japan-1989", "trading-times/lunch-breaks-asia"],
-  "lastReviewed": "2026-10-16",
+  "lastReviewed": "2026-10-20",
   "sources": [
     { "title": "Before JPX launched: history (JPX)", "url": "https://www.jpx.co.jp/english/corporate/about-jpx/history/01-01.html" },
-    { "title": "Japan's Nikkei closes above 1989's all-time high (Nikkei Asia)", "url": "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high" }
+    { "title": "Japan's Nikkei closes above 1989's all-time high (Nikkei Asia)", "url": "https://asia.nikkei.com/business/markets/japan-s-nikkei-stock-average-closes-above-1989-s-all-time-high" },
+    { "title": "Scope of protected deposits (Deposit Insurance Corporation of Japan, in Japanese)", "url": "https://www.dic.go.jp/yokinsha/page_000109.html" },
+    { "title": "What JIPF Protects (Japan Investor Protection Fund)", "url": "https://jipf.or.jp/en/introduction/index.html" }
   ]
 }

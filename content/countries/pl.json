@@ -19,9 +19,9 @@
       "city": "Warsaw",
       "founded": "1991 (company founded on 12 April 1991); market traditions since 1817",
       "website": "https://www.gpw.pl/",
-      "hours": "Shares trade in auctions and continuous trading during the Central European working day. GPW publishes the exact session phases in its detailed trading rules; this site could not open them directly, so please check the official rules.",
+      "hours": "For shares in continuous trading: orders for the opening auction from 08:30, opening price at 09:00, continuous trading 09:00–16:50, closing auction 16:50–17:00, then trading at the closing price until 17:05. Less liquid shares trade in single-price auctions instead.",
       "timeZone": "Europe/Warsaw",
-      "hoursSource": "https://www.gpw.pl/",
+      "hoursSource": "https://www.gpw.pl/pub/GPW/files/PDF/regulacje/SZOG_en.pdf",
       "note": "GPW also runs NewConnect, a market for smaller companies, and the bond market Catalyst."
     }
   ],
@@ -81,10 +81,11 @@
     "Poland was promoted by FTSE Russell step by step: from Secondary Emerging to Advanced Emerging in 2008, and to Developed in 2018."
   ],
   "lessons": ["world-markets/market-classifications", "macroeconomics/currencies-and-your-investments"],
-  "lastReviewed": "2026-10-16",
+  "lastReviewed": "2026-10-20",
   "sources": [
     { "title": "GPW Main Market: About the Company (GPW)", "url": "https://www.gpw.pl/about-the-company" },
     { "title": "KDPW (Krajowy Depozyt Papierów Wartościowych, in Polish)", "url": "https://www.kdpw.pl/" },
-    { "title": "FTSE Equity Country Classification Process, v3.5, October 2026 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" }
+    { "title": "FTSE Equity Country Classification Process, v3.5, October 2026 (FTSE Russell, PDF)", "url": "https://www.lseg.com/content/dam/ftse-russell/en_us/documents/country-classification/ftse-equity-country-classification-paper.pdf" },
+    { "title": "WSE Detailed Exchange Trading Rules in UTP, Chapter 3: trading schedule (GPW, English translation; only the Polish text is binding)", "url": "https://www.gpw.pl/pub/GPW/files/PDF/regulacje/SZOG_en.pdf" }
   ]
 }

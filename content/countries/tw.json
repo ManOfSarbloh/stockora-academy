@@ -55,6 +55,13 @@
       "url": "https://www.fsc.gov.tw/en/"
     }
   ],
+  "investorProtection": [
+    {
+      "name": "Deposit insurance (CDIC)",
+      "text": "Deposits in New Taiwan dollars or foreign currency are covered up to NT$3 million per depositor and bank, including interest. Accounts at securities firms are not covered by deposit insurance.",
+      "url": "https://www.cdic.gov.tw/main_en/docdetail.aspx?uid=243&pid=72&docid=62"
+    }
+  ],
   "settlement": {
     "cycle": "T+2 (two business days)",
     "csd": "Taiwan Depository & Clearing Corporation (TDCC); TWSE itself is the clearing house for exchange trades",
@@ -174,7 +181,7 @@
     "world-markets/market-classifications",
     "world-markets/emerging-market-risks"
   ],
-  "lastReviewed": "2026-10-16",
+  "lastReviewed": "2026-10-20",
   "sources": [
     {
       "title": "Timeline (Taiwan Stock Exchange)",
@@ -187,6 +194,14 @@
     {
       "title": "Trading mechanism introduction (TWSE)",
       "url": "https://www.twse.com.tw/en/products/system/trading.html"
+    },
+    {
+      "title": "Deposit insurance overview (Central Deposit Insurance Corporation)",
+      "url": "https://www.cdic.gov.tw/main_en/docdetail.aspx?uid=243&pid=72&docid=62"
+    },
+    {
+      "title": "Insured deposits (Central Deposit Insurance Corporation)",
+      "url": "https://www.cdic.gov.tw/main_en/docdetail.aspx?uid=244&pid=83&docid=63"
     }
   ]
 }
