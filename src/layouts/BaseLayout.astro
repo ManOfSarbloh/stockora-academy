@@ -9,6 +9,7 @@ import { ACTIVE_LOCALES } from '@/i18n/pages';
 import { isEnglishOnly, localizePath, stripLocale } from '@/i18n/routes';
 import { absoluteUrl, stripBase, url } from '@/lib/url';
 import { toScript, type JsonLd } from '@/lib/seo';
+import { pageType } from '@/lib/search';
 
 interface Props {
   title?: string;
@@ -86,7 +87,13 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
       {t('a11y.skipToContent')}
     </a>
     <Header localized={localized} />
-    <main id="main" class="flex-1" data-pagefind-body={searchable ? '' : undefined} tabindex="-1">
+    <main
+      id="main"
+      class="flex-1"
+      data-pagefind-body={searchable ? '' : undefined}
+      data-pagefind-filter={searchable ? `type:${pageType(route)}` : undefined}
+      tabindex="-1"
+    >
       {
         englishOnly && locale !== 'en' && (
           <p class="border-b border-border bg-surface-2 px-4 py-2 text-center text-sm text-muted" data-pagefind-ignore>

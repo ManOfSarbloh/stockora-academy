@@ -94,6 +94,9 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
         href={url('/search')}
         class="inline-flex h-10 w-10 items-center justify-center rounded-md text-text hover:bg-surface-2"
         aria-label={t('nav.search')}
+        aria-keyshortcuts="/"
+        title={`${t('nav.search')} (/)`}
+        data-search-link
       >
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
       </a>
@@ -171,6 +174,19 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
 </header>
 
 <script>
+  // "/" opens the search from anywhere (or focuses the box on the search page), unless the visitor is typing.
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== '/' || e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
+    const target = e.target as HTMLElement | null;
+    if (target?.closest('input, textarea, select, [contenteditable]:not([contenteditable="false"])')) return;
+    const link = document.querySelector<HTMLAnchorElement>('a[data-search-link]');
+    if (!link) return;
+    e.preventDefault();
+    const box = document.getElementById('search-input');
+    if (box) box.focus();
+    else location.href = link.href;
+  });
+
   import { STORAGE_PREFIX } from '@/lib/storage';
 
   document.getElementById('theme-toggle')?.addEventListener('click', () => {

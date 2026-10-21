@@ -231,6 +231,18 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Checks | Tests fail on missing keys or placeholders; validate checks translation files against the English ids; the built-site check verifies canonicals, hreflang, sitemap and that links on translated pages stay in that language |
 | Header | With longer labels the full nav no longer fit at 1024 px (the right-hand buttons were pushed off-screen in English, Spanish and French). Between 1024 and 1279 px the last two primary items now move into "More"; Spanish and French nav labels were shortened ("Gráficos", "Tests", "Graphiques") so all six fit at 1280 px |
 
+## Search (2026-10-21)
+
+| Topic | Decision |
+|---|---|
+| No AI | The owner asked about an AI assistant and chose "not now" (it needs a server for the API key, costs per question and changes the privacy promise); search was improved instead, with no data leaving the browser |
+| Custom UI | Pagefind's JS API with our own interface instead of the stock Pagefind UI: localized, matches the site design, and can show instant answers above the results |
+| Instant answers | `src/lib/search.ts` (tested) strips question words and articles in all six languages ("Qu'est-ce qu'une action ?" → "action") and matches a small index built into the search page: 551 glossary terms (translated term, English term, aliases, German name), tools, countries (localized names via Intl.DisplayNames, plus exchange names), topics and sections. A strong glossary match shows its definition; other matches become quick links |
+| English lessons | On translated sites a matched glossary term is also searched under its English name and the results are merged, because lesson text is English ("Dividende" finds the English dividend lessons) |
+| Filters | Every indexed page gets a Pagefind filter `type` (lesson, topic, glossary, country, tool, quiz, chart, page) from its route; Pagefind returns counts only after `filters()` has loaded the filter index |
+| Bug fixed | Translated search pages loaded Pagefind from /<locale>/pagefind/ (404), so search never worked on /de/, /es/, /fr/ and /it/. The bundle URL is now always the root one |
+| Shortcut | "/" on any page opens the search (or focuses the box on the search page), unless the visitor is typing in a field |
+
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.

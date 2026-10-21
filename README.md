@@ -20,6 +20,7 @@ Full requirements: [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) · Decisions a
 | Tools | `/tools` | 13 calculators and simulators (profit/loss with an Austrian tax estimate, compound growth, savings plan, leverage, …) |
 | History | `/history` | A sourced timeline of market milestones, crashes and rule changes |
 | Scam Shield | `/scams` | Red-flag checklist, checks before investing, a spot-the-scam exercise and where to get help in Austria |
+| Search | `/search` | Pagefind full-text search plus instant answers: questions like “What is a dividend?” (in any of the five languages) show the glossary definition, with quick links to tools, countries and topics, filters by page type and a `/` shortcut |
 
 The site is also available in German (`/de/`), Spanish (`/es/`), French (`/fr/`) and Italian (`/it/`): the interface,
 home page, tools, glossary, Scam Shield and information pages are translated; lessons, quizzes and country pages stay in

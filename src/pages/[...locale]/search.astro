@@ -2,63 +2,365 @@
 import { localeParams } from '@/i18n/pages';
 
 export const getStaticPaths = () => localeParams();
+import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
-import { t } from '@/i18n';
+import { getLocale, intlLocale, t, type UiKey } from '@/i18n';
+import { getCategories } from '@/lib/categories';
+import { getCountries } from '@/lib/countries';
+import { normalize, PAGE_TYPES, type QuickEntry } from '@/lib/search';
+import { translationFile, type GlossaryText } from '@/lib/translations';
 import { url } from '@/lib/url';
+import { legalNav, primaryNav, secondaryNav } from '@/config/site';
+import { TOOLS } from '@/config/tools';
 
+const locale = getLocale();
 const base = import.meta.env.BASE_URL;
+
+/** "Exchange-traded fund (ETF)" → also matches "exchange-traded fund" and "etf". */
+const variants = (s: string) => {
+  const out = [s];
+  const m = s.match(/^(.*?)\s*\(([^)]+)\)\s*$/);
+  if (m) out.push(m[1], ...m[2].split(/[,/]| or | oder | o | ou /));
+  return out;
+};
+const names = (...list: (string | undefined)[]) =>
+  [...new Set(list.filter((x): x is string => Boolean(x)).flatMap(variants).map(normalize).filter((x) => x.length > 1))];
+
+// The built-in index for instant answers: glossary terms, tools, countries, topics and sections.
+const tr = translationFile<Record<string, GlossaryText>>('glossary');
+const terms: QuickEntry[] = (await getCollection('glossary')).map(({ data: g }) => {
+  const x = tr?.[g.id];
+  return {
+    kind: 'term',
+    title: x?.term ?? g.term,
+    en: x ? g.term : undefined,
+    href: `/glossary/#${g.id}`,
+    text: x?.definition ?? g.definition,
+    names: names(x?.term, g.term, ...(g.aliases ?? []), g.de),
+  };
+});
+const tools: QuickEntry[] = TOOLS.map((tool) => {
+  const key = `tools.t.${tool.slug}` as UiKey;
+  return { kind: 'tool', title: t(key), href: tool.href ?? `/tools/${tool.slug}/`, names: names(t(key), t(key, undefined, 'en')) };
+});
+const regionName = new Intl.DisplayNames([intlLocale[locale]], { type: 'region' });
+const countries: QuickEntry[] = (await getCountries()).map((c) => {
+  const local = regionName.of(c.code) ?? c.name;
+  return {
+    kind: 'country',
+    title: local,
+    href: `/world/${c.code.toLowerCase()}/`,
+    names: names(local, c.name, ...c.exchanges.map((x) => x.name)),
+  };
+});
+const enTopics = new Map((await getCollection('categories')).map((c) => [c.data.id, c.data.title]));
+const topics: QuickEntry[] = (await getCategories()).map((c) => ({
+  kind: 'topic',
+  title: c.title,
+  href: `/learn/${c.slug}/`,
+  names: names(c.title, enTopics.get(c.id)),
+}));
+const sections: QuickEntry[] = [...primaryNav, ...secondaryNav, ...legalNav].map((n) => ({
+  kind: 'section',
+  title: t(n.label),
+  href: `${n.href}/`,
+  names: names(t(n.label), t(n.label, undefined, 'en')),
+}));
+const quick = [...terms, ...tools, ...countries, ...topics, ...sections].map((e) => ({ ...e, href: url(e.href) }));
+
+// Strings the script needs (the page's own language, so no dictionary has to load).
+const strings = {
+  answer: t('search.answer'),
+  english: t('glossary.english'),
+  inGlossary: t('search.inGlossary'),
+  quickLinks: t('search.quickLinks'),
+  results: t('search.results'),
+  noResults: t('search.noResults'),
+  searching: t('search.searching'),
+  more: t('search.more'),
+  alsoEnglish: t('search.alsoEnglish'),
+  all: t('search.type.all'),
+  types: Object.fromEntries(PAGE_TYPES.map((p) => [p, t(`search.type.${p}` as UiKey)])),
+  kinds: { term: t('search.kind.term'), tool: t('search.type.tool'), country: t('search.type.country'), topic: t('search.type.topic'), section: t('search.kind.section') },
+};
+const examples = [t('search.example1'), t('search.example2'), t('search.example3')];
 ---
 
 <BaseLayout title={t('search.title')} description={t('search.lead')} searchable={false}>
   <PageHeader title={t('search.title')} lead={t('search.lead')} />
-  <div class="container-page py-10">
-    <div id="search" data-base={base} data-bundle={url('/pagefind/')}></div>
-    <p id="search-dev-note" class="card hidden p-5 text-muted">{t('search.devNote')}</p>
+  <div class="container-page max-w-4xl py-10">
+    <form id="search-form" role="search" class="relative" action={url('/search/')} method="get">
+      <label for="search-input" class="sr-only">{t('search.label')}</label>
+      <svg class="pointer-events-none absolute top-1/2 left-4 -translate-y-1/2 text-muted" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m20 20-3.5-3.5"></path></svg>
+      <input
+        id="search-input"
+        name="q"
+        type="search"
+        autocomplete="off"
+        spellcheck="false"
+        placeholder={t('search.placeholder')}
+        class="w-full rounded-xl border border-border bg-surface py-3.5 pr-4 pl-12 text-base text-text shadow-sm placeholder:text-muted focus:border-link focus:outline-none focus:ring-2 focus:ring-link/30"
+      />
+    </form>
+
+    <div id="search-tips" class="mt-4 flex flex-wrap items-center gap-2 text-sm text-muted">
+      <span>{t('search.tryLabel')}</span>
+      {
+        examples.map((ex) => (
+          <button type="button" class="search-example rounded-full border border-border px-3 py-1 text-text hover:border-link hover:text-link">
+            {ex}
+          </button>
+        ))
+      }
+      <span class="hidden sm:inline">· {t('search.shortcut')}</span>
+    </div>
+
+    <section id="search-answer" class="mt-8 hidden" aria-live="polite"></section>
+    <section id="search-quick" class="mt-6 hidden"></section>
+    <div id="search-filters" class="mt-8 hidden flex-wrap gap-2" role="group" aria-label={t('search.filterLabel')}></div>
+    <p id="search-status" class="mt-5 text-sm text-muted" aria-live="polite"></p>
+    <ol id="search-results" class="mt-3 grid gap-3"></ol>
+    <button id="search-more" type="button" class="btn btn-ghost mt-6 hidden border border-border">{t('search.more')}</button>
+    <p id="search-dev-note" class="card mt-6 hidden p-5 text-muted">{t('search.devNote')}</p>
   </div>
+  <script id="search-data" type="application/json" set:html={JSON.stringify({ locale, base, bundle: url('/pagefind/', 'en'), quick, strings }).replace(/</g, '\\u003c')} />
 </BaseLayout>
 
 <script>
-  // Pagefind's index is generated after `astro build`, so it only exists in production builds.
-  const root = document.getElementById('search')!;
-  const bundle = root.dataset.bundle!;
+  import { findQuick, normalize, questionCore, PAGE_TYPES, type QuickEntry, type PageType } from '@/lib/search';
+  import type { Locale } from '@/i18n/locales';
 
-  function showDevNote() {
-    document.getElementById('search-dev-note')?.classList.remove('hidden');
+  interface Data {
+    locale: Locale;
+    base: string;
+    bundle: string;
+    quick: QuickEntry[];
+    strings: {
+      answer: string; english: string; inGlossary: string; quickLinks: string; results: string; noResults: string;
+      searching: string; more: string; alsoEnglish: string; all: string;
+      types: Record<PageType, string>; kinds: Record<QuickEntry['kind'], string>;
+    };
+  }
+  interface PfData {
+    url: string;
+    excerpt: string;
+    meta: { title?: string };
+    filters?: { type?: string[] };
+    sub_results?: { title: string; url: string; excerpt: string }[];
+  }
+  interface PfResult { id: string; score: number; data: () => Promise<PfData> }
+  interface PfSearch { results: PfResult[]; totalFilters?: Record<string, Record<string, number>>; unfilteredResultCount: number }
+  interface Pagefind {
+    options: (o: Record<string, unknown>) => Promise<void>;
+    init: () => Promise<void>;
+    filters: () => Promise<unknown>;
+    search: (q: string, o?: Record<string, unknown>) => Promise<PfSearch | null>;
   }
 
-  const css = document.createElement('link');
-  css.rel = 'stylesheet';
-  css.href = `${bundle}pagefind-ui.css`;
-  document.head.append(css);
+  const data: Data = JSON.parse(document.getElementById('search-data')!.textContent!);
+  const S = data.strings;
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+  const input = $<HTMLInputElement>('search-input');
+  const answerEl = $('search-answer');
+  const quickEl = $('search-quick');
+  const filtersEl = $('search-filters');
+  const statusEl = $('search-status');
+  const resultsEl = $('search-results');
+  const moreBtn = $<HTMLButtonElement>('search-more');
+  const PAGE = 10;
 
-  const script = document.createElement('script');
-  script.src = `${bundle}pagefind-ui.js`;
-  script.onerror = showDevNote;
-  script.onload = () => {
-    // @ts-expect-error PagefindUI is a global from the script above
-    const ui = new window.PagefindUI({
-      element: '#search',
-      baseUrl: root.dataset.base,
-      showSubResults: true,
-      showImages: false,
-      autofocus: true,
+  const esc = (s: string) => s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]!);
+  const fill = (s: string, vars: Record<string, string | number>) => Object.entries(vars).reduce((acc, [k, v]) => acc.replaceAll(`{${k}}`, String(v)), s);
+
+  let pagefind: Pagefind | null = null;
+  async function loadPagefind(): Promise<Pagefind | null> {
+    if (pagefind) return pagefind;
+    try {
+      const pf = (await import(/* @vite-ignore */ `${data.bundle}pagefind.js`)) as Pagefind;
+      await pf.options({ baseUrl: data.base });
+      await pf.init();
+      await pf.filters(); // loads the filter index, so every search returns counts per page type
+      pagefind = pf;
+    } catch {
+      $('search-dev-note').classList.remove('hidden');
+    }
+    return pagefind;
+  }
+
+  let filter = (new URLSearchParams(location.search).get('type') ?? 'all') as PageType | 'all';
+  if (filter !== 'all' && !PAGE_TYPES.includes(filter)) filter = 'all';
+  let results: PfResult[] = [];
+  let shown = 0;
+  let run = 0;
+
+  function renderAnswer(core: string) {
+    const matches = findQuick(data.quick, core, 8);
+    const best = matches[0];
+    const answer = best && best.entry.kind === 'term' && best.score >= 55 ? best.entry : null;
+    if (answer) {
+      answerEl.innerHTML = `
+        <div class="card border-l-4 border-l-link p-5 sm:p-6">
+          <p class="text-xs font-semibold tracking-wide text-muted uppercase">${esc(S.answer)}</p>
+          <h2 class="mt-1 text-xl font-bold">${esc(answer.title)}</h2>
+          ${answer.en ? `<p class="mt-1 text-sm text-muted">${esc(S.english)}: <span lang="en">${esc(answer.en)}</span></p>` : ''}
+          <p class="mt-3 leading-relaxed">${esc(answer.text ?? '')}</p>
+          <a class="mt-4 inline-block font-semibold" href="${esc(answer.href)}">${esc(S.inGlossary)} →</a>
+        </div>`;
+      answerEl.classList.remove('hidden');
+    } else {
+      answerEl.innerHTML = '';
+      answerEl.classList.add('hidden');
+    }
+    const links = matches.filter((m) => m.entry !== answer && m.score >= 40).slice(0, 6);
+    if (links.length) {
+      quickEl.innerHTML = `
+        <h2 class="text-sm font-semibold text-muted">${esc(S.quickLinks)}</h2>
+        <ul class="mt-2 flex flex-wrap gap-2">
+          ${links
+            .map(
+              ({ entry }) => `<li><a class="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text no-underline hover:border-link hover:text-link" href="${esc(entry.href)}">
+                <span class="rounded bg-surface-2 px-1.5 py-0.5 text-xs text-muted">${esc(S.kinds[entry.kind])}</span>${esc(entry.title)}</a></li>`,
+            )
+            .join('')}
+        </ul>`;
+      quickEl.classList.remove('hidden');
+    } else {
+      quickEl.innerHTML = '';
+      quickEl.classList.add('hidden');
+    }
+    return answer;
+  }
+
+  function renderFilters(counts: Record<string, number>) {
+    const total = Object.values(counts).reduce((a, b) => a + b, 0);
+    const chip = (key: string, label: string, n: number) =>
+      `<button type="button" data-type="${key}" aria-pressed="${filter === key}" class="rounded-full border px-3 py-1 text-sm ${
+        filter === key ? 'border-link bg-link text-bg' : 'border-border text-text hover:border-link'
+      }">${esc(label)} <span class="opacity-75">${n}</span></button>`;
+    filtersEl.innerHTML = [chip('all', S.all, total), ...PAGE_TYPES.filter((p) => counts[p]).map((p) => chip(p, S.types[p], counts[p]))].join('');
+    filtersEl.classList.toggle('hidden', total === 0);
+    filtersEl.classList.toggle('flex', total > 0);
+  }
+
+  async function renderMore() {
+    const batch = results.slice(shown, shown + PAGE);
+    const items = await Promise.all(batch.map((r) => r.data()));
+    resultsEl.insertAdjacentHTML(
+      'beforeend',
+      items
+        .map((d) => {
+          const type = (d.filters?.type?.[0] ?? 'page') as PageType;
+          const subs = (d.sub_results ?? []).filter((s) => s.url !== d.url && s.url.includes('#')).slice(0, 3);
+          return `<li class="card p-4 sm:p-5">
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="rounded bg-surface-2 px-1.5 py-0.5 text-xs text-muted">${esc(S.types[type] ?? S.types.page)}</span>
+              <a class="font-semibold" href="${esc(d.url)}">${esc(d.meta.title ?? d.url)}</a>
+            </div>
+            <p class="mt-2 text-sm leading-relaxed text-muted">${d.excerpt}</p>
+            ${
+              subs.length
+                ? `<ul class="mt-3 grid gap-1.5 border-l-2 border-border pl-3 text-sm">${subs
+                    .map((s) => `<li><a href="${esc(s.url)}">${esc(s.title)}</a><span class="text-muted">: ${s.excerpt}</span></li>`)
+                    .join('')}</ul>`
+                : ''
+            }
+          </li>`;
+        })
+        .join(''),
+    );
+    shown += batch.length;
+    moreBtn.classList.toggle('hidden', shown >= results.length);
+  }
+
+  async function search(raw: string) {
+    const id = ++run;
+    const q = raw.trim();
+    const params = new URLSearchParams();
+    if (q) params.set('q', q);
+    if (q && filter !== 'all') params.set('type', filter);
+    const qs = params.toString();
+    history.replaceState(null, '', `${location.pathname}${qs ? `?${qs}` : ''}`);
+    $('search-tips').classList.toggle('hidden', Boolean(q));
+    if (!q) {
+      for (const el of [answerEl, quickEl]) { el.innerHTML = ''; el.classList.add('hidden'); }
+      filtersEl.classList.add('hidden');
+      filtersEl.classList.remove('flex');
+      statusEl.textContent = '';
+      resultsEl.innerHTML = '';
+      moreBtn.classList.add('hidden');
+      return;
+    }
+    const core = questionCore(q, data.locale);
+    const answer = renderAnswer(core);
+    statusEl.textContent = S.searching;
+    const pf = await loadPagefind();
+    if (id !== run) return;
+    if (!pf) {
+      statusEl.textContent = '';
+      return;
+    }
+
+    // On translated pages the lessons are in English, so a translated glossary term is also searched in English.
+    const english = data.locale !== 'en' && answer?.en && normalize(answer.en) !== normalize(core) ? answer.en.replace(/\s*\(.*\)\s*$/, '') : null;
+    const opts = filter === 'all' ? {} : { filters: { type: filter } };
+    const [main, extra] = await Promise.all([pf.search(core, opts), english ? pf.search(english, opts) : null]);
+    if (id !== run || !main) return;
+
+    const seen = new Set<string>();
+    results = [...main.results, ...(extra?.results ?? [])]
+      .sort((a, b) => b.score - a.score)
+      .filter((r) => (seen.has(r.id) ? false : (seen.add(r.id), true)));
+
+    const counts: Record<string, number> = { ...(main.totalFilters?.type ?? {}) };
+    if (extra) for (const [k, v] of Object.entries(extra.totalFilters?.type ?? {})) counts[k] = Math.max(counts[k] ?? 0, v);
+    renderFilters(counts);
+
+    resultsEl.innerHTML = '';
+    shown = 0;
+    const note = english ? ` ${fill(S.alsoEnglish, { en: english })}` : '';
+    statusEl.textContent = results.length ? `${fill(S.results, { n: results.length, q: core })}${note}` : fill(S.noResults, { q });
+    if (results.length) await renderMore();
+    else moreBtn.classList.add('hidden');
+  }
+
+  let timer: number | undefined;
+  input.addEventListener('input', () => {
+    clearTimeout(timer);
+    timer = window.setTimeout(() => search(input.value), 180);
+  });
+  $('search-form').addEventListener('submit', (e) => {
+    e.preventDefault();
+    clearTimeout(timer);
+    search(input.value);
+  });
+  filtersEl.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLButtonElement>('button[data-type]');
+    if (!btn) return;
+    filter = btn.dataset.type as PageType | 'all';
+    search(input.value);
+  });
+  moreBtn.addEventListener('click', () => renderMore());
+  for (const b of document.querySelectorAll<HTMLButtonElement>('.search-example')) {
+    b.addEventListener('click', () => {
+      input.value = b.textContent!.trim();
+      search(input.value);
+      input.focus();
     });
-    const q = new URLSearchParams(location.search).get('q');
-    if (q) ui.triggerSearch(q);
-  };
-  document.head.append(script);
+  }
+
+  const initial = new URLSearchParams(location.search).get('q') ?? '';
+  input.value = initial;
+  input.focus();
+  if (initial) search(initial);
+  else loadPagefind();
 </script>
 
 <style is:global>
-  #search {
-    --pagefind-ui-scale: 0.9;
-    --pagefind-ui-primary: var(--link);
-    --pagefind-ui-text: var(--text);
-    --pagefind-ui-background: var(--surface);
-    --pagefind-ui-border: var(--border);
-    --pagefind-ui-tag: var(--surface-2);
-    --pagefind-ui-border-radius: 10px;
-    --pagefind-ui-font: inherit;
+  #search-results mark {
+    background: color-mix(in srgb, var(--link) 22%, transparent);
+    color: inherit;
+    border-radius: 3px;
+    padding: 0 2px;
   }
 </style>
