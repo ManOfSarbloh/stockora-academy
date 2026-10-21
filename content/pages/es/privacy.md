@@ -1,10 +1,10 @@
 ---
 title: "Política de privacidad"
 lead: "En resumen: no te rastreamos."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
-Esta política describe cómo está construido el sitio. El responsable debe revisarla (idealmente con asesoramiento jurídico) antes de dar a conocer el sitio públicamente, en especial el apartado de alojamiento. Esta versión en español es una traducción; la versión de referencia es la inglesa.
+Esta política explica qué ocurre con los datos personales cuando usas Stockora Academy. Esta versión en español es una traducción; prevalece la versión en inglés.
 
 ## Lo que no hacemos
 
@@ -37,14 +37,22 @@ Las lecciones y las páginas de temas incluyen vídeos educativos de YouTube. Un
 
 ## Alojamiento
 
-Este sitio web está alojado en GitHub Pages, un servicio de GitHub, Inc. Como cualquier servidor web, el proveedor recibe los datos técnicos necesarios para servir las páginas (por ejemplo, tu dirección IP y datos del navegador) y puede registrarlos, por ejemplo por motivos de seguridad. No tenemos acceso a los registros de visitas.
+Este sitio web está alojado en GitHub Pages, un servicio de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Cuando abres una página, GitHub recibe los datos técnicos necesarios para entregarla, como tu dirección IP e información sobre tu navegador. Según la documentación de GitHub, la dirección IP de cada visitante de un sitio de GitHub Pages se registra y almacena por motivos de seguridad, tenga o no una cuenta de GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). No tenemos acceso a esos registros.
 
-El responsable del sitio debe revisar las condiciones y la declaración de privacidad actuales de GitHub para GitHub Pages y añadir aquí los datos exigidos (proveedor, finalidad, base jurídica, transferencias de datos).
+- **Finalidad:** entregar el sitio web y mantenerlo seguro.
+- **Base jurídica:** nuestro interés legítimo en ofrecer el sitio web de forma fiable y segura (art. 6.1.f del RGPD).
+- **Transferencias fuera de la UE:** los datos pueden tratarse en Estados Unidos y otros países. Según su declaración de privacidad, GitHub está certificada en el Marco de Privacidad de Datos UE-EE. UU. y, en los demás casos, se basa en las cláusulas contractuales tipo de la Comisión Europea.
+
+Más información: [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (en inglés).
 
 ## Informar de un error
 
 Los enlaces «Informar de un error» abren una incidencia ya rellenada en GitHub. No se envía nada hasta que la envías allí, y se aplica la declaración de privacidad de GitHub; para enviarla necesitas una cuenta de GitHub.
 
-## Contacto
+## Responsable
 
-Para cuestiones de privacidad, usa los datos de contacto del [Impressum](/impressum/).
+Responsable de este sitio web según el RGPD: Gurveen Singh Khatri, Viena, Austria. Correo electrónico: [gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com).
+
+## Tus derechos
+
+Según el RGPD tienes derecho de acceso, rectificación, supresión, limitación del tratamiento, portabilidad de los datos y oposición. Nosotros no recogemos datos personales; sobre los registros del servidor descritos en «Alojamiento» también puedes dirigirte directamente a GitHub (consulta su declaración de privacidad). También tienes derecho a presentar una reclamación ante una autoridad de protección de datos. En Austria es la Datenschutzbehörde; el [Comité Europeo de Protección de Datos enumera las autoridades](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) de todos los países de la UE.

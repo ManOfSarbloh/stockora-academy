@@ -213,10 +213,9 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Taiwan protection | CDIC: NT$3 million per depositor and insured institution, principal and interest, NTD or foreign currency; securities firms are not covered. No official source was found for a securities investor compensation scheme, so none is stated |
 
 | Deployment | 2026-10-20: public repository github.com/ManOfSarbloh/stockora-academy, GitHub Pages (Source: GitHub Actions), live at https://manofsarbloh.github.io/stockora-academy/. The first run failed at configure-pages until Pages was enabled; the re-run passed build (verify incl. built-site check) and deploy |
+| Legal pages | 2026-10-21: Impressum filled in with the owner's name, town (Vienna, no street address, at the owner's request) and email. Privacy Policy hosting section completed from GitHub's own docs (Pages IP logging; General Privacy Statement: DPF certification, standard contractual clauses, GitHub, Inc. address), plus controller and GDPR rights; legal basis Art. 6(1)(f). Not legal advice: the owner may want a lawyer to confirm a town-only Offenlegung is enough |
 
 ## Open items
-- Review the draft Privacy Policy (hosting section) before going public.
 - Owner to check domains, handles and trademarks (brief §0.1).
-- Owner to fill in real Impressum details.
 - Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published (checked 2026-10-20: none official yet; B3 usually publishes in early January, China's exchanges in late December after the State Council notice, NSE in December; Euronext's 2026 year-end half-day hours were still "to be announced"); the SGX site only loads after accepting cookies, so its calendar was not read; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.
 - World Markets: refresh content/world/market-size.json when the World Bank publishes 2026 figures; re-check country tax pages yearly (lastReviewed 2026-10-16); consider MSCI classification if a readable official source is found.

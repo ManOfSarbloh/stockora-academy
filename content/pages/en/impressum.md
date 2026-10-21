@@ -4,15 +4,13 @@ lead: "Legal notice / Offenlegung."
 noindex: true
 ---
 
-Websites published from Austria commonly need an Impressum (legal notice). Which details are required depends on the situation (for example private or commercial website). The site owner must check the exact requirements, for example in the Austrian legal information system [RIS](https://www.ris.bka.gv.at/) or with the Wirtschaftskammer or a lawyer, and fill in real details below.
-
 ## Media owner and publisher (Medieninhaber und Herausgeber)
 
-[Name]<br>[Address]<br>[Country]
+Gurveen Singh Khatri<br>Vienna, Austria
 
 ## Contact
 
-[Email address]
+[gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com)
 
 ## Purpose of the website (Blattlinie)
 

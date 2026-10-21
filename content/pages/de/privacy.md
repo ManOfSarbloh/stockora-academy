@@ -1,10 +1,10 @@
 ---
 title: "Datenschutzerklärung"
 lead: "Kurz gesagt: Wir verfolgen dich nicht."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
-Diese Erklärung beschreibt, wie die Seite aufgebaut ist. Der Betreiber muss sie prüfen (idealerweise mit rechtlicher Beratung), bevor die Seite öffentlich beworben wird, insbesondere den Abschnitt zum Hosting. Diese deutsche Fassung ist eine Übersetzung; maßgeblich ist die englische Fassung.
+Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du Stockora Academy nutzt. Diese deutsche Fassung ist eine Übersetzung; maßgeblich ist die englische Fassung.
 
 ## Was wir nicht tun
 
@@ -37,14 +37,22 @@ Lektionen und Themenseiten enthalten Lernvideos von YouTube. Ein Video wird **er
 
 ## Hosting
 
-Diese Website wird auf GitHub Pages gehostet, einem Dienst von GitHub, Inc. Wie jeder Webserver erhält der Hosting-Anbieter technische Daten, die zum Ausliefern der Seiten nötig sind (zum Beispiel deine IP-Adresse und Browserinformationen), und kann sie protokollieren, etwa aus Sicherheitsgründen. Wir haben keinen Zugriff auf Besucherprotokolle.
+Diese Website wird auf GitHub Pages gehostet, einem Dienst von GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Wenn du eine Seite öffnest, erhält GitHub die technischen Daten, die für die Auslieferung nötig sind, etwa deine IP-Adresse und Angaben zu deinem Browser. Laut der Dokumentation von GitHub wird die IP-Adresse jeder Person, die eine GitHub-Pages-Seite besucht, aus Sicherheitsgründen protokolliert und gespeichert, unabhängig davon, ob sie ein GitHub-Konto hat ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Wir haben keinen Zugriff auf diese Protokolle.
 
-Der Betreiber muss die aktuellen Bedingungen und die Datenschutzerklärung von GitHub für GitHub Pages prüfen und hier die erforderlichen Angaben ergänzen (Anbieter, Zweck, Rechtsgrundlage, Datenübermittlungen).
+- **Zweck:** Auslieferung der Website und ihre Sicherheit.
+- **Rechtsgrundlage:** unser berechtigtes Interesse an einer zuverlässigen und sicheren Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO).
+- **Übermittlung außerhalb der EU:** Daten können in den USA und anderen Ländern verarbeitet werden. Laut seiner Datenschutzerklärung ist GitHub nach dem EU-U.S. Data Privacy Framework zertifiziert und stützt sich ansonsten auf die Standardvertragsklauseln der Europäischen Kommission.
+
+Details: [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (Englisch).
 
 ## Fehler melden
 
 Die Links „Fehler melden“ öffnen ein vorausgefülltes Issue auf GitHub. Es wird nichts gesendet, bevor du es dort abschickst, und es gilt die Datenschutzerklärung von GitHub; zum Abschicken brauchst du ein GitHub-Konto.
 
-## Kontakt
+## Verantwortlicher
 
-Für Fragen zum Datenschutz nutze die Kontaktdaten im [Impressum](/impressum/).
+Verantwortlich für diese Website im Sinne der DSGVO: Gurveen Singh Khatri, Wien, Österreich. E-Mail: [gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com).
+
+## Deine Rechte
+
+Nach der DSGVO hast du das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit und Widerspruch. Wir selbst erheben keine personenbezogenen Daten; wegen der unter „Hosting“ beschriebenen Serverprotokolle kannst du dich auch direkt an GitHub wenden (siehe dessen Datenschutzerklärung). Außerdem kannst du dich bei einer Datenschutzbehörde beschweren. In Österreich ist das die Datenschutzbehörde; der [Europäische Datenschutzausschuss listet die Behörden](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) aller EU-Länder auf.

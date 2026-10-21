@@ -1,10 +1,10 @@
 ---
 title: "Informativa sulla privacy"
 lead: "In breve: non ti tracciamo."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
-Questa informativa descrive come è costruito il sito. Il gestore deve rivederla (idealmente con una consulenza legale) prima di promuovere il sito, in particolare la parte sull'hosting. Questa versione italiana è una traduzione; fa fede la versione inglese.
+Questa informativa spiega cosa succede ai dati personali quando usi Stockora Academy. Questa versione italiana è una traduzione; fa fede la versione inglese.
 
 ## Cosa non facciamo
 
@@ -37,14 +37,22 @@ Le lezioni e le pagine degli argomenti includono video educativi di YouTube. Un 
 
 ## Hosting
 
-Questo sito è ospitato su GitHub Pages, un servizio di GitHub, Inc. Come ogni server web, il fornitore riceve i dati tecnici necessari per servire le pagine (per esempio il tuo indirizzo IP e informazioni sul browser) e può registrarli, per esempio per motivi di sicurezza. Non abbiamo accesso ai registri delle visite.
+Questo sito è ospitato su GitHub Pages, un servizio di GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Quando apri una pagina, GitHub riceve i dati tecnici necessari per fornirla, come il tuo indirizzo IP e informazioni sul browser. Secondo la documentazione di GitHub, l'indirizzo IP di ogni visitatore di un sito GitHub Pages viene registrato e conservato per motivi di sicurezza, che abbia o meno un account GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Non abbiamo accesso a questi registri.
 
-Il gestore del sito deve verificare le condizioni e l'informativa privacy attuali di GitHub per GitHub Pages e aggiungere qui i dati richiesti (fornitore, finalità, base giuridica, trasferimenti di dati).
+- **Finalità:** fornire il sito e mantenerlo sicuro.
+- **Base giuridica:** il nostro legittimo interesse a offrire il sito in modo affidabile e sicuro (art. 6, par. 1, lett. f del GDPR).
+- **Trasferimenti fuori dall'UE:** i dati possono essere trattati negli Stati Uniti e in altri Paesi. Secondo la sua informativa sulla privacy, GitHub è certificata nell'ambito del quadro UE-USA per la protezione dei dati (Data Privacy Framework) e negli altri casi si basa sulle clausole contrattuali tipo della Commissione europea.
+
+Dettagli: [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (in inglese).
 
 ## Segnalare un errore
 
 I link «Segnala un errore» aprono una segnalazione precompilata su GitHub. Non viene inviato nulla finché non la invii lì, e si applica l'informativa privacy di GitHub; per inviarla serve un account GitHub.
 
-## Contatti
+## Titolare del trattamento
 
-Per domande sulla privacy, usa i contatti indicati nelle [Note legali](/impressum/).
+Titolare di questo sito ai sensi del GDPR: Gurveen Singh Khatri, Vienna, Austria. E-mail: [gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com).
+
+## I tuoi diritti
+
+Secondo il GDPR hai diritto di accesso, rettifica, cancellazione, limitazione del trattamento, portabilità dei dati e opposizione. Noi non raccogliamo dati personali; per i registri del server descritti alla voce «Hosting» puoi anche rivolgerti direttamente a GitHub (vedi la sua informativa sulla privacy). Hai inoltre il diritto di proporre reclamo a un'autorità di protezione dei dati. In Austria è la Datenschutzbehörde; il [Comitato europeo per la protezione dei dati elenca le autorità](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) di tutti i Paesi dell'UE.

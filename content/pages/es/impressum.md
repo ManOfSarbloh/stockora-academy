@@ -4,15 +4,13 @@ lead: "Información legal / Offenlegung."
 noindex: true
 ---
 
-Los sitios web publicados desde Austria suelen necesitar un Impressum (aviso legal). Los datos exigidos dependen de la situación (por ejemplo, si el sitio es privado o comercial). El responsable del sitio debe comprobar los requisitos exactos, por ejemplo en el sistema austriaco de información jurídica [RIS](https://www.ris.bka.gv.at/), en la Cámara de Comercio (Wirtschaftskammer) o con un abogado, y completar abajo los datos reales.
-
 ## Propietario y editor del medio (Medieninhaber und Herausgeber)
 
-[Nombre]<br>[Dirección]<br>[País]
+Gurveen Singh Khatri<br>Viena, Austria
 
 ## Contacto
 
-[Correo electrónico]
+[gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com)
 
 ## Finalidad del sitio web (Blattlinie)
 

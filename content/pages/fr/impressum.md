@@ -4,15 +4,13 @@ lead: "Informations légales / Offenlegung."
 noindex: true
 ---
 
-Les sites web publiés depuis l'Autriche doivent généralement comporter un Impressum (mentions légales). Les informations exigées dépendent de la situation (par exemple site privé ou commercial). L'exploitant du site doit vérifier les exigences exactes, par exemple dans le système autrichien d'information juridique [RIS](https://www.ris.bka.gv.at/), auprès de la Chambre économique (Wirtschaftskammer) ou d'un avocat, et compléter ci-dessous les informations réelles.
-
 ## Propriétaire et éditeur du média (Medieninhaber und Herausgeber)
 
-[Nom]<br>[Adresse]<br>[Pays]
+Gurveen Singh Khatri<br>Vienne, Autriche
 
 ## Contact
 
-[Adresse e-mail]
+[gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com)
 
 ## Ligne éditoriale (Blattlinie)
 

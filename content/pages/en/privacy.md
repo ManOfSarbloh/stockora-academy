@@ -1,10 +1,10 @@
 ---
 title: "Privacy Policy"
 lead: "Short version: we do not track you."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
-This policy describes how the site is built. The site owner must review it (ideally with legal advice) before the site goes public, especially the hosting section.
+This policy explains what happens to personal data when you use Stockora Academy.
 
 ## What we do not do
 
@@ -37,14 +37,22 @@ Lesson and topic pages include educational YouTube videos. A video does **not** 
 
 ## Hosting
 
-This website is hosted on GitHub Pages, a service of GitHub, Inc. Like any web server, the hosting provider receives technical data needed to deliver pages (for example your IP address and browser information) and may log it, for example for security purposes. We do not have access to visitor logs.
+This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open a page, GitHub receives the technical data needed to deliver it, such as your IP address and information about your browser. According to GitHub's documentation, the IP address of every visitor to a GitHub Pages site is logged and stored for security purposes, whether or not the visitor has a GitHub account ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). We have no access to these logs.
 
-The site owner must check GitHub's current terms and privacy statement for GitHub Pages, and add the required details here (provider, purpose, legal basis, data transfers).
+- **Purpose:** delivering the website and keeping it secure.
+- **Legal basis:** our legitimate interest in providing the website reliably and securely (Art. 6(1)(f) GDPR).
+- **Transfers outside the EU:** data may be processed in the United States and other countries. According to its privacy statement, GitHub is certified under the EU-U.S. Data Privacy Framework and otherwise relies on the European Commission's standard contractual clauses.
+
+Details: [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
 ## Reporting a mistake
 
 The "Report a mistake" links open a pre-filled issue on GitHub. Nothing is sent until you submit it there, and GitHub's own privacy statement applies; you need a GitHub account to submit.
 
-## Contact
+## Who is responsible
 
-For privacy questions, use the contact details in the [Impressum](/impressum/).
+Responsible for this website under the GDPR (controller): Gurveen Singh Khatri, Vienna, Austria. Email: [gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com).
+
+## Your rights
+
+Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. We do not collect personal data ourselves; for the server logs described under Hosting, you can also contact GitHub directly (see its privacy statement). You also have the right to lodge a complaint with a data protection authority. In Austria this is the Datenschutzbehörde; the [European Data Protection Board lists the authorities](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) of all EU countries.

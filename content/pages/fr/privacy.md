@@ -1,10 +1,10 @@
 ---
 title: "Politique de confidentialité"
 lead: "En bref : nous ne vous pistons pas."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
-Cette politique décrit la façon dont le site est construit. L'exploitant doit la relire (idéalement avec un conseil juridique) avant de faire connaître le site, en particulier la partie hébergement. Cette version française est une traduction ; seule la version anglaise fait foi.
+Cette politique explique ce qu’il advient des données personnelles lorsque vous utilisez Stockora Academy. Cette version française est une traduction ; seule la version anglaise fait foi.
 
 ## Ce que nous ne faisons pas
 
@@ -37,14 +37,22 @@ Les leçons et les pages de thèmes contiennent des vidéos pédagogiques YouTub
 
 ## Hébergement
 
-Ce site est hébergé sur GitHub Pages, un service de GitHub, Inc. Comme tout serveur web, l'hébergeur reçoit les données techniques nécessaires à l'affichage des pages (par exemple votre adresse IP et des informations sur votre navigateur) et peut les journaliser, par exemple pour des raisons de sécurité. Nous n'avons pas accès aux journaux de visite.
+Ce site est hébergé sur GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Lorsque vous ouvrez une page, GitHub reçoit les données techniques nécessaires pour la fournir, comme votre adresse IP et des informations sur votre navigateur. Selon la documentation de GitHub, l’adresse IP de chaque visiteur d’un site GitHub Pages est enregistrée et conservée pour des raisons de sécurité, qu’il ait ou non un compte GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Nous n’avons pas accès à ces journaux.
 
-L'exploitant du site doit vérifier les conditions et la déclaration de confidentialité actuelles de GitHub pour GitHub Pages, et ajouter ici les informations requises (prestataire, finalité, base juridique, transferts de données).
+- **Finalité :** fournir le site et en assurer la sécurité.
+- **Base juridique :** notre intérêt légitime à proposer le site de manière fiable et sécurisée (art. 6, paragraphe 1, point f du RGPD).
+- **Transferts hors de l’UE :** les données peuvent être traitées aux États-Unis et dans d’autres pays. Selon sa déclaration de confidentialité, GitHub est certifiée au titre du cadre de protection des données UE-États-Unis et s’appuie sinon sur les clauses contractuelles types de la Commission européenne.
+
+Détails : [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement) (en anglais).
 
 ## Signaler une erreur
 
 Les liens « Signaler une erreur » ouvrent un ticket prérempli sur GitHub. Rien n'est envoyé tant que vous ne le soumettez pas là-bas, et la déclaration de confidentialité de GitHub s'applique ; un compte GitHub est nécessaire pour soumettre.
 
-## Contact
+## Responsable du traitement
 
-Pour toute question sur la confidentialité, utilisez les coordonnées figurant dans les [mentions légales](/impressum/).
+Responsable de ce site au sens du RGPD : Gurveen Singh Khatri, Vienne, Autriche. E-mail : [gdb.singh@protonmail.com](mailto:gdb.singh@protonmail.com).
+
+## Vos droits
+
+En vertu du RGPD, vous disposez d’un droit d’accès, de rectification, d’effacement, de limitation du traitement, de portabilité et d’opposition. Nous ne collectons nous-mêmes aucune donnée personnelle ; pour les journaux du serveur décrits sous « Hébergement », vous pouvez aussi vous adresser directement à GitHub (voir sa déclaration de confidentialité). Vous avez également le droit d’introduire une réclamation auprès d’une autorité de protection des données. En Autriche, il s’agit de la Datenschutzbehörde ; le [Comité européen de la protection des données recense les autorités](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) de tous les pays de l’UE.
