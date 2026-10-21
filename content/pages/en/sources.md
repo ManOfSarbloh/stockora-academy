@@ -1,7 +1,7 @@
 ---
 title: "Sources & Methodology"
 lead: "How content on Stockora Academy is researched, written and kept up to date."
-lastUpdated: 2026-10-20
+lastUpdated: 2026-10-21
 ---
 
 ## Which sources we use
@@ -20,6 +20,10 @@ We prefer sources in this order:
 - Every term is defined the first time it is used and linked to the glossary.
 - Examples use simple, made-up numbers so you can follow the maths. They are not real prices or forecasts.
 - If we cannot verify a fact, we either say so on the page or leave it out. We never guess numbers, dates, tax rates, hours or links.
+
+## Translations
+
+The site's original language is English. The interface, tools, glossary, Scam Shield and the information pages are also available in German, Spanish, French and Italian, translated with the help of AI; official names (such as KESt, FMA or source titles) are kept unchanged. Lessons, quiz questions and country pages exist in English only. If in doubt, the English version is the reference.
 
 ## Dates and time-sensitive facts
 

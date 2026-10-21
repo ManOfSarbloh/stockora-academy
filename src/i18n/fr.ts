@@ -43,7 +43,7 @@ export const fr: Dictionary = {
   'nav.howStocksAreMade': "Naissance d'une action",
   'nav.world': "Bourses du monde",
   'nav.times': "Horaires",
-  'nav.charts': "École des graphiques",
+  'nav.charts': "Graphiques",
   'nav.quizzes': "Quiz",
   'nav.videos': "Vidéos",
   'nav.glossary': "Glossaire",

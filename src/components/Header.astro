@@ -13,6 +13,11 @@ const current = stripLocale(stripBase(import.meta.env.BASE_URL, Astro.url.pathna
 const route = current === '/' ? '/' : `${current}/`;
 const isActive = (href: string) => current === href || current.startsWith(`${href}/`);
 const moreActive = secondaryNav.some((i) => isActive(i.href));
+// On screens between lg and xl the full bar does not fit (longer labels in some languages), so the
+// last primary items move into "More" there.
+const LG_PRIMARY = 4;
+const lgOverflow = primaryNav.slice(LG_PRIMARY);
+const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
 ---
 
 <header class="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">
@@ -27,11 +32,11 @@ const moreActive = secondaryNav.some((i) => isActive(i.href));
 
     <nav aria-label={t('a11y.mainNav')} class="ml-2 hidden flex-1 items-center gap-0.5 lg:flex xl:ml-4 xl:gap-1">
       {
-        primaryNav.map((item) => (
+        primaryNav.map((item, i) => (
           <a
             href={url(item.href)}
             aria-current={isActive(item.href) ? 'page' : undefined}
-            class="rounded-md px-2 py-2 text-sm font-medium whitespace-nowrap xl:px-2.5 text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]"
+            class:list={[i >= LG_PRIMARY && 'hidden xl:inline', 'rounded-md px-2 py-2 text-sm font-medium whitespace-nowrap xl:px-2.5 text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]']}
           >
             {t(item.label)}
           </a>
@@ -42,12 +47,24 @@ const moreActive = secondaryNav.some((i) => isActive(i.href));
           class:list={[
             'flex cursor-pointer list-none items-center gap-1 rounded-md px-2 py-2 text-sm font-medium hover:bg-surface-2 xl:px-2.5',
             moreActive && 'text-link',
+            !moreActive && lgMoreActive && 'max-xl:text-link',
           ]}
         >
           {t('nav.more')}
           <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
         </summary>
         <div class="card absolute top-full right-0 mt-2 w-52 p-1.5 shadow-lg">
+          {
+            lgOverflow.map((item) => (
+              <a
+                href={url(item.href)}
+                aria-current={isActive(item.href) ? 'page' : undefined}
+                class="block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link xl:hidden"
+              >
+                {t(item.label)}
+              </a>
+            ))
+          }
           {
             secondaryNav.map((item) => (
               <a

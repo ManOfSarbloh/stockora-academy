@@ -21,6 +21,10 @@ Full requirements: [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) · Decisions a
 | History | `/history` | A sourced timeline of market milestones, crashes and rule changes |
 | Scam Shield | `/scams` | Red-flag checklist, checks before investing, a spot-the-scam exercise and where to get help in Austria |
 
+The site is also available in German (`/de/`), Spanish (`/es/`), French (`/fr/`) and Italian (`/it/`): the interface,
+home page, tools, glossary, Scam Shield and information pages are translated; lessons, quizzes and country pages stay in
+English and say so.
+
 Progress, bookmarks, quiz scores and settings stay in the visitor's browser (`localStorage`). There is no account, no
 analytics and no cookie.
 
@@ -121,10 +125,30 @@ Add entries to `content/videos.json` with the 11-character YouTube ID. `lessons`
 Prefer uploads from the original channel (exchanges, regulators, central banks, public broadcasters), never re-uploads
 or broker channels. Run `npm run check:videos` afterwards.
 
-### UI text
+### UI text and translations
 
-Buttons, menus and labels live in [`src/i18n/en.ts`](src/i18n/en.ts). A German dictionary can be added later with the
-same keys.
+Buttons, menus and labels live in [`src/i18n/en.ts`](src/i18n/en.ts). Each translation has the same keys in
+`src/i18n/<locale>.ts` (`de`, `es`, `fr`, `it`); keep `{placeholders}` unchanged. `npm test` fails if a key or
+placeholder is missing.
+
+| What | English (original) | Translation |
+|---|---|---|
+| UI strings | `src/i18n/en.ts` | `src/i18n/<locale>.ts` |
+| Topic titles and summaries | `content/categories.json` | `content/i18n/<locale>/categories.json` |
+| Glossary | `content/glossary.json` | `content/i18n/<locale>/glossary.json` (keyed by term id: `term`, `definition`, `example`) |
+| Scam Shield texts | `content/scam-shield.json` | `content/i18n/<locale>/scam-shield.json` |
+| About, Disclaimer, Privacy, Sources, Corrections, Impressum | `content/pages/en/*.md` | `content/pages/<locale>/*.md` |
+
+How it works: pages live under `src/pages/[...locale]/`; English stays at the root, the others get a `/<locale>/`
+prefix. `src/middleware.ts` sets the language per page and rewrites internal links so visitors stay in their language.
+Lessons, topic pages, country pages, history, videos, the chart lab and most quiz pages are English-only routes
+(`src/i18n/routes.ts`): their translated versions show a translated interface with a notice, point their canonical URL
+to the English page and are left out of the sitemap. When you change English text, update the translations too, or
+the translated page keeps the old wording; `npm run validate` shows how many topics and glossary terms each language covers and rejects unknown ids.
+
+To add a language: add it to `LOCALES` in `src/i18n/locales.ts`, create the files above, and register the dictionary
+in `src/i18n/dictionaries.ts`. A Russian dictionary, topic texts, Scam Shield texts and information pages exist but are
+not registered, because the Russian glossary has not been translated yet.
 
 ## Project structure
 
@@ -136,7 +160,7 @@ scripts/            content validation, built-site check, video and source link 
 src/
   components/       Astro and React components (quiz, tools, chartlab, times, world, …)
   config/           navigation, brand, tool registry
-  i18n/             UI strings
+  i18n/             UI strings (one dictionary per language) and language routing
   layouts/          page layouts (meta tags, structured data)
   lib/              pure, tested logic (calculators, market hours, quiz engine, charts, SEO, URLs)
   pages/            one file per route
@@ -167,9 +191,8 @@ unset when the site is served from the domain root.
 
 ### Before going public
 
-See "Open items" in [docs/DECISIONS.md](docs/DECISIONS.md). In short: fill in the Impressum with real details, review the
-Privacy Policy's hosting section for the chosen host, check the name, domain and trademarks, and set
-`reportConfig.githubRepo`.
+See "Open items" in [docs/DECISIONS.md](docs/DECISIONS.md). In short: check the name, domain and trademarks. If you move
+to another host, rewrite the Privacy Policy's hosting section (in every language) for that host.
 
 ## Social preview image
 

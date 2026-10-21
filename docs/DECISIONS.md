@@ -212,10 +212,28 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Japan protection | DICJ (Japanese page, current): ¥10 million principal per depositor and bank plus interest; non-interest settlement deposits in full; foreign-currency deposits not covered. JIPF (English): up to ¥10 million per customer if a failed securities firm cannot return segregated assets; no cover for price falls. DICJ's English guide (FY2005) was not used because of its age |
 | Taiwan protection | CDIC: NT$3 million per depositor and insured institution, principal and interest, NTD or foreign currency; securities firms are not covered. No official source was found for a securities investor compensation scheme, so none is stated |
 
+## Deployment and legal pages (2026-10-20 to 2026-10-21)
+
+| Topic | Decision |
+|---|---|
 | Deployment | 2026-10-20: public repository github.com/ManOfSarbloh/stockora-academy, GitHub Pages (Source: GitHub Actions), live at https://manofsarbloh.github.io/stockora-academy/. The first run failed at configure-pages until Pages was enabled; the re-run passed build (verify incl. built-site check) and deploy |
 | Legal pages | 2026-10-21: Impressum filled in with the owner's name, town (Vienna, no street address, at the owner's request) and email. Privacy Policy hosting section completed from GitHub's own docs (Pages IP logging; General Privacy Statement: DPF certification, standard contractual clauses, GitHub, Inc. address), plus controller and GDPR rights; legal basis Art. 6(1)(f). Not legal advice: the owner may want a lawyer to confirm a town-only Offenlegung is enough |
 
+
+## Languages (2026-10-20 to 2026-10-21)
+
+| Topic | Decision |
+|---|---|
+| Languages | German, Spanish, French and Italian are live. The owner chose "interface + key pages": UI strings, home page, tools, glossary, Scam Shield, topic titles and the information pages are translated; the 196 lessons, 1,368 quiz questions, country pages, history and videos stay English. Russian was requested too, then dropped by the owner to save time: its UI dictionary, topic texts, Scam Shield texts and pages are in the repo but not registered; the 551-term glossary is missing |
+| URLs | English stays at the root (no redirects, no broken links); other languages under /de/, /es/, /fr/, /it/. One `[...locale]` page tree generates every language; a middleware rewrites internal links in the HTML so visitors stay in their language |
+| English-only pages | Translated URLs exist for every page so navigation never drops a visitor back into English, but English-only pages show a notice, set their canonical to the English page, carry no hreflang and are not in the sitemap (no duplicate content). Translated pages carry hreflang alternates and are in the sitemap |
+| Translation | Written with AI help, with a footer note on every translated page and "English prevails" on the legal pages. Style: German "du" with Austrian conventions (de-AT number format), Spanish "tú", French "vous" with French spacing, Italian "tu". Official names (KESt, FMA, BMF, Firmenbuch, AG, GmbH) are kept; the glossary shows the English term under each translated one because the lessons are English. Counts use "Label: {n}" to avoid plural rules |
+| Checks | Tests fail on missing keys or placeholders; validate checks translation files against the English ids; the built-site check verifies canonicals, hreflang, sitemap and that links on translated pages stay in that language |
+| Header | With longer labels the full nav no longer fit at 1024 px (the right-hand buttons were pushed off-screen in English, Spanish and French). Between 1024 and 1279 px the last two primary items now move into "More"; Spanish and French nav labels were shortened ("Gráficos", "Tests", "Graphiques") so all six fit at 1280 px |
+
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
+- Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
+- When English text changes, update the four translations (README, "UI text and translations").
 - Trading Times: add 2027 holidays for Euronext, TSX, B3, NSE and China when published (checked 2026-10-20: none official yet; B3 usually publishes in early January, China's exchanges in late December after the State Council notice, NSE in December; Euronext's 2026 year-end half-day hours were still "to be announced"); the SGX site only loads after accepting cookies, so its calendar was not read; re-check B3 hours after US DST ends; find official KRX and SGX holiday lists; verify JSE, Saudi Exchange and Borsa Istanbul hours.
 - World Markets: refresh content/world/market-size.json when the World Bank publishes 2026 figures; re-check country tax pages yearly (lastReviewed 2026-10-16); consider MSCI classification if a readable official source is found.
