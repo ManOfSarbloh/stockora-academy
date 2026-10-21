@@ -139,6 +139,9 @@ export const en = {
   'lesson.draft': 'Draft: not published yet',
   'lesson.finishedAll': 'This is the newest lesson so far. More are on the way.',
 
+  'anim.play': 'Play animation',
+  'anim.pause': 'Pause',
+  'anim.replay': 'Replay',
   'video.heading': 'Videos',
   'video.disclaimer': 'External videos. We do not control their content. Not financial advice.',
   'video.load': 'Load video',

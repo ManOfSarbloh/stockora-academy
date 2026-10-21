@@ -24,7 +24,8 @@ sources:
 > - **Simple growth** (you take the €500 out every year and spend it): after 30 years you have the original €10,000 plus 30 × €500 = **€25,000** in total.
 > - **Compound growth** (you leave everything invested): each year's 5% is earned on a growing amount. After 10 years you have about **€16,289**, after 20 years about **€26,533**, after 30 years about **€43,219**.
 
-![Line chart: €10,000 growing at 5% a year. Compound growth reaches about €43,219 after 30 years, simple growth €25,000](./compound-growth.svg)
+> [!ANIMATION] compound-growth
+> €10,000 at 5% a year: simple growth reaches €25,000 after 30 years, compound growth about €43,219.
 
 The formula behind it: **end value = start value × (1 + rate)^years**. For example, €10,000 × 1.05³⁰ ≈ €43,219.
 

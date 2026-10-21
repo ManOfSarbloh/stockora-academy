@@ -1,0 +1,55 @@
+---
+/** Plays lesson animations (see src/lib/markdown/animations.ts) when they scroll into view, with a play/pause/replay button. */
+---
+
+<script>
+  import { t } from '@/i18n';
+
+  const figures = [...document.querySelectorAll<HTMLElement>('figure.anim')];
+  const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+  function setup(fig: HTMLElement) {
+    const btn = fig.querySelector<HTMLButtonElement>('.anim-btn')!;
+    let state: 'ready' | 'running' | 'paused' | 'done' = 'ready';
+    let run = 0;
+    const label = { ready: t('anim.play'), running: t('anim.pause'), paused: t('anim.play'), done: t('anim.replay') };
+    const show = (s: typeof state) => {
+      state = s;
+      btn.textContent = label[s];
+      btn.dataset.state = s;
+      fig.classList.toggle('anim-paused', s !== 'running' && s !== 'done');
+    };
+    function start() {
+      const id = ++run;
+      fig.classList.remove('anim-armed');
+      void fig.offsetWidth; // restart the CSS animations
+      fig.classList.add('anim-armed');
+      show('running');
+      const anims = fig.getAnimations?.({ subtree: true }) ?? [];
+      Promise.all(anims.map((a) => a.finished))
+        .then(() => id === run && show('done'))
+        .catch(() => {});
+    }
+    // Armed but paused at the first frame until the figure is on screen.
+    fig.classList.add('anim-armed');
+    show('ready');
+    btn.hidden = false;
+    btn.addEventListener('click', () => {
+      if (state === 'running') show('paused');
+      else if (state === 'paused') show('running');
+      else start();
+    });
+    const io = new IntersectionObserver(
+      (entries) => {
+        if (entries.some((e) => e.isIntersecting) && state === 'ready') {
+          start();
+          io.disconnect();
+        }
+      },
+      { threshold: 0.5 },
+    );
+    io.observe(fig);
+  }
+
+  if (!reduce.matches) figures.forEach(setup);
+</script>

@@ -6,6 +6,7 @@ import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
 import { remarkCallouts } from './src/lib/markdown/callouts.ts';
+import { remarkAnimations } from './src/lib/markdown/animations.ts';
 import { rehypeGlossaryLinks } from './src/lib/markdown/glossary-links.ts';
 import { rehypeBaseLinks } from './src/lib/markdown/base-links.ts';
 import { isEnglishOnly, localeFromPath, stripLocale } from './src/i18n/routes.ts';
@@ -41,7 +42,7 @@ export default defineConfig({
   markdown: {
     // The unified pipeline (remark/rehype) is used for our two small content plugins.
     processor: unified({
-      remarkPlugins: [remarkCallouts],
+      remarkPlugins: [remarkAnimations, remarkCallouts],
       rehypePlugins: [[rehypeGlossaryLinks, { terms: glossaryTerms, base }], [rehypeBaseLinks, { base }]],
     }),
   },

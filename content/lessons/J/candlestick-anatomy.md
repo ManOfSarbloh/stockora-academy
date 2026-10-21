@@ -22,6 +22,9 @@ A candlestick packs four prices of one period into a single shape: the **open**,
 
 ![Anatomy of a candle: open 100, high 106, low 98, close 104, and a falling candle for comparison](./img/candle-anatomy.svg)
 
+> [!ANIMATION] candle-forming
+> One example trading day turning into one candle: the price opens at 100, dips to 98, climbs to 106 and closes at 104.
+
 ## The parts of a candle
 
 - **Body:** the thick part between the open and the close.

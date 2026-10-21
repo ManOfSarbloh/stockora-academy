@@ -356,3 +356,66 @@
   --tw-prose-th-borders: var(--border);
   --tw-prose-td-borders: var(--border);
 }
+
+/* ---- Lesson animations (src/lib/markdown/animations.ts, AnimationScript.astro) ---- */
+.anim {
+  margin: 2rem 0;
+}
+.anim-stage svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+.anim-caption {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-top: 0.6rem;
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+.anim-btn {
+  display: inline-flex;
+  min-height: 2.25rem;
+  align-items: center;
+  gap: 0.4rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  padding: 0.3rem 0.9rem;
+  font-weight: 600;
+  color: var(--text);
+}
+.anim-btn:hover {
+  border-color: var(--link);
+}
+.anim-btn::before {
+  content: '▶';
+  font-size: 0.7em;
+}
+.anim-btn[data-state='running']::before {
+  content: '❚❚';
+  letter-spacing: -0.1em;
+}
+.anim-btn[data-state='done']::before {
+  content: '↻';
+  font-size: 1em;
+}
+.anim-paused svg * {
+  animation-play-state: paused !important;
+}
+@media (prefers-reduced-motion: reduce) {
+  .anim svg * {
+    animation: none !important;
+  }
+}
+@media print {
+  .anim svg * {
+    animation: none !important;
+  }
+  .anim-btn {
+    display: none;
+  }
+}
