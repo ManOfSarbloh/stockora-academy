@@ -126,7 +126,22 @@ Add entries to `content/videos.json` with the 11-character YouTube ID. `lessons`
 Prefer uploads from the original channel (exchanges, regulators, central banks, public broadcasters), never re-uploads
 or broker channels. Run `npm run check:videos` afterwards.
 
-### UI text and translations
+### Illustrations and animations
+
+All artwork is original SVG; nothing is loaded from other sites.
+
+- **Icons and header banners:** `src/components/art/icons.ts` holds the icon set (one per topic in `TOPIC_ICONS`,
+  plus section icons). `Icon.astro` draws one inline; `PageHeader`'s `art` prop adds the decorative banner.
+- **Lesson diagrams:** `npm run build:lesson-images` (`scripts/build-lesson-images.mjs`) and
+  `npm run build:chart-images` write SVGs into `content/lessons/<topic>/img/`. Every number in a diagram comes from
+  that lesson's worked example, so change both together, regenerate and commit the SVGs. Embed with
+  `![alt text](./img/name.svg)`.
+- **Animations:** `npm run build:animations` writes `src/animations/<name>.svg`. Embed one in a lesson with
+  `> [!ANIMATION] name` followed by a caption line. They follow the scroll (forward and back), have a play/pause
+  button, and show their final frame with reduced motion or without JavaScript.
+- **Journey scene:** `src/components/JourneyScroller.astro`, the pinned scroll scene on How Stocks Are Made.
+
+
 
 Buttons, menus and labels live in [`src/i18n/en.ts`](src/i18n/en.ts). Each translation has the same keys in
 `src/i18n/<locale>.ts` (`de`, `es`, `fr`, `it`); keep `{placeholders}` unchanged. `npm test` fails if a key or

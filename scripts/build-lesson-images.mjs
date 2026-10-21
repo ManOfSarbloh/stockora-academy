@@ -114,40 +114,6 @@ function write(topic, name, svg) {
   write('E', 'trading-day-vienna.svg', doc(W, H, b, 'Timeline of a normal trading day in Vienna time: Vienna opening auction 08:55, continuous trading 09:00 to 17:30 with a short midday auction, closing auction 17:30 to 17:35, trade at close to 17:45; the NYSE core session normally runs 15:30 to 22:00 Vienna time, so both are open from 15:30 to 17:30'));
 }
 
-// ---- F: a market order walking up the order book (lesson: market-and-limit-orders) -----------
-{
-  const W = 720;
-  const H = 300;
-  const levels = [
-    { price: 20.1, qty: 300 },
-    { price: 20.02, qty: 200 },
-  ];
-  const defs = arrowDef('fa', C.teal);
-  let b = T(40, 36, 'A market order to buy 500 shares', { size: 16, weight: 700 });
-  b += T(40, 66, 'Sellers in the order book', { weight: 600, fill: C.muted });
-  const scale = 0.48;
-  levels.forEach((lv, i) => {
-    const y = 82 + i * 56;
-    b += R(40, y, 300, 44, C.pale, { rx: 8, stroke: C.light });
-    b += T(56, y + 28, eur(lv.price, 2), { weight: 700, size: 15 });
-    b += R(140, y + 12, lv.qty * scale, 20, C.teal, { rx: 4 });
-    b += T(146 + lv.qty * scale, y + 27, `${lv.qty} shares`, { size: 12.5, fill: C.muted });
-  });
-  b += L(40, 214, 340, 214, { stroke: C.navy, w: 2, dash: '5 4' });
-  b += T(40, 234, 'Last price on your screen: €20.00', { size: 12.5, weight: 600, fill: C.navy });
-  b += L(352, 158, 404, 158, { stroke: C.teal, w: 2.5, arrow: 'fa' });
-  const rx = 416;
-  b += R(rx, 82, 264, 176, C.white, { rx: 10, stroke: C.light });
-  b += T(rx + 18, 108, 'What you pay', { weight: 700 });
-  b += T(rx + 18, 136, `200 × ${eur(20.02, 2)} = ${eur(4004)}`, { size: 13 });
-  b += T(rx + 18, 160, `300 × ${eur(20.1, 2)} = ${eur(6030)}`, { size: 13 });
-  b += L(rx + 18, 174, rx + 246, 174, { stroke: C.grid, w: 1 });
-  b += T(rx + 18, 196, `Total ${eur(10034)} · about ${eur(20.07, 2)} a share`, { size: 13, weight: 700 });
-  b += T(rx + 18, 222, 'Expected at €20.00: €10,000', { size: 12.5, fill: C.muted });
-  b += T(rx + 18, 244, 'Slippage: about €34', { size: 12.5, weight: 700, fill: C.down });
-  write('F', 'market-order-slippage.svg', doc(W, H, b, 'A market order to buy 500 shares fills 200 at €20.02 and 300 at €20.10: €10,034 in total, about €20.07 a share instead of the €20.00 last price, about €34 of slippage', defs));
-}
-
 // ---- H: how an ETF works (lesson: how-etfs-work) -----------------------------------------------
 {
   const W = 760;

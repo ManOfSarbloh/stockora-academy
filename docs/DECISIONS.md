@@ -243,6 +243,17 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Bug fixed | Translated search pages loaded Pagefind from /<locale>/pagefind/ (404), so search never worked on /de/, /es/, /fr/ and /it/. The bundle URL is now always the root one |
 | Shortcut | "/" on any page opens the search (or focuses the box on the search page), unless the visitor is typing in a field |
 
+## Illustrations and motion (2026-10-21)
+
+| Topic | Decision |
+|---|---|
+| Original SVG only | No stock photos, no AI-generated images and no GIF/video files: no licence questions, sharp at any size, small (the 17 lesson diagrams total about 120 KB), readable text for screen readers, and colours that follow dark mode for inline art |
+| Icon set | 36 line icons (23 topics, 13 sections) in `src/components/art/icons.ts`, used in topic cards (inside the progress ring), quiz cards and a decorative header banner on 22 section pages (hidden on phones) |
+| Lesson diagrams | One concept diagram for each topic that had none (C, E, H, I, K–W), drawn by `scripts/build-lesson-images.mjs` from the numbers in that lesson's worked example; the S diagram reads the FTSE classification from the country data. Checked visually for overlapping text |
+| Animations | Pilot of three animated SVGs (a candle forming, a market order filling, compound growth), replacing the still F and G diagrams. All animation rules sit behind `.anim-armed`, so without JavaScript, with reduced motion or in print the final frame shows. They scrub with the scroll (finished when the figure is centred) and have a play/pause button (WCAG 2.2.2). The candle's intraday path is labelled as an example; open, high, low and close are the lesson's |
+| Journey scene | Apple-style pinned scene on How Stocks Are Made: nine schematic stages (no numbers) switched by the step card nearest the middle of the screen; reversible; cards link to the full steps; hidden without JavaScript |
+| Not done yet | Animations for the opening auction, ETF creation/redemption and a stock split were proposed as the next batch |
+
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
