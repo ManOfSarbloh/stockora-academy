@@ -403,9 +403,6 @@
   content: '↻';
   font-size: 1em;
 }
-.anim-paused svg * {
-  animation-play-state: paused !important;
-}
 @media (prefers-reduced-motion: reduce) {
   .anim svg * {
     animation: none !important;

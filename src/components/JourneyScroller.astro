@@ -1,0 +1,331 @@
+---
+/**
+ * "The journey in one picture": a pinned scene on the How Stocks Are Made page that changes as the
+ * reader scrolls past the nine steps (Apple-style scrollytelling). The scene is decorative and
+ * schematic (no numbers); every step card links to the full step below. Without JavaScript only
+ * the cards are shown; with "reduce motion" the scene still follows the steps but without transitions.
+ */
+import { ICONS } from '@/components/art/icons';
+import { t } from '@/i18n';
+
+interface Step {
+  step: number;
+  short: string;
+  title: string;
+  summary: string;
+}
+interface Props {
+  steps: Step[];
+}
+const { steps } = Astro.props;
+const total = steps.length;
+
+// Share grid: 4 rows for the founders, then one row for investors (step 3) and one for the public (step 5).
+const COLS = 5;
+const SIZE = 22;
+const GAP = 4;
+const gx = 52;
+const gy = 116;
+const rows = [
+  { from: 2, fill: 'var(--teal)', label: 'Founders' },
+  { from: 2, fill: 'var(--teal)' },
+  { from: 2, fill: 'var(--series-1)' },
+  { from: 2, fill: 'var(--series-1)' },
+  { from: 3, fill: 'var(--series-4)', label: 'Investors' },
+  { from: 5, fill: 'var(--series-7)', label: 'Public' },
+];
+const chain = ['CSD', 'Bank', 'Broker', 'You'];
+const nested = (name: keyof typeof ICONS, x: number, y: number, size: number) =>
+  `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="var(--text)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${ICONS[name]}</svg>`;
+---
+
+<section class="jx mt-12" aria-labelledby="jx-title">
+  <h2 id="jx-title" class="text-2xl font-bold tracking-tight">{t('hsm.scroll.title')}</h2>
+  <p class="mt-1 max-w-3xl text-muted">{t('hsm.scroll.lead')}</p>
+
+  <div class="jx-grid mt-6">
+    <div class="jx-pin" aria-hidden="true">
+      <div class="jx-scene card">
+        <svg viewBox="0 0 480 400" class="block h-auto w-full">
+          {/* stage label */}
+          {
+            steps.map((s) => (
+              <text x="28" y="44" font-size="15" font-weight="700" fill="var(--link)" data-on={`${s.step}-${s.step}`}>
+                {t('hsm.stepN', { n: s.step, total })} · {s.short}
+              </text>
+            ))
+          }
+
+          {/* the company */}
+          <g data-on="1-9">
+            <rect x="30" y="74" width="220" height="210" rx="16" fill="var(--surface-2)" stroke="var(--border)" stroke-width="2"></rect>
+            <text x="46" y="100" font-size="14" font-weight="700" fill="var(--text)">Company</text>
+          </g>
+          <g data-on="1-1" set:html={nested('sprout', 90, 120, 100)} />
+          <g data-on="5-8">
+            <rect x="176" y="84" width="62" height="22" rx="11" fill="var(--teal)"></rect>
+            <text x="207" y="99" font-size="11.5" font-weight="700" fill="var(--bg)" text-anchor="middle">Listed</text>
+          </g>
+
+          {/* shares: the share capital split into shares, new rows dilute the earlier owners */}
+          {
+            rows.map((row, r) => (
+              <g data-on={`${row.from}-9`}>
+                {Array.from({ length: COLS }, (_, c) => (
+                  <rect
+                    x={gx + c * (SIZE + GAP)}
+                    y={gy + r * (SIZE + GAP)}
+                    width={SIZE}
+                    height={SIZE}
+                    rx="4"
+                    fill={row.fill}
+                    style={`transition-delay:${c * 60}ms`}
+                    class="jx-share"
+                  />
+                ))}
+                {row.label && (
+                  <text x={gx + COLS * (SIZE + GAP) + 4} y={gy + r * (SIZE + GAP) + 15} font-size="11.5" font-weight="600" fill="var(--muted)">
+                    {row.label}
+                  </text>
+                )}
+              </g>
+            ))
+          }
+
+          {/* going public: the exchange */}
+          <g data-on="4-9" data-dim="9">
+            <g set:html={nested('exchange', 322, 80, 96)} />
+            <text x="370" y="194" font-size="13" font-weight="700" fill="var(--text)" text-anchor="middle">Stock exchange</text>
+          </g>
+          <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="var(--muted)" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" data-on="4-4"></path>
+          <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" data-on="5-8"></path>
+          <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="#c8352f" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" data-on="9-9"></path>
+          <g data-on="9-9">
+            <rect x="318" y="118" width="104" height="30" rx="6" fill="none" stroke="#c8352f" stroke-width="2.5" transform="rotate(-8 370 133)"></rect>
+            <text x="370" y="139" font-size="14" font-weight="800" fill="#c8352f" text-anchor="middle" transform="rotate(-8 370 133)">DELISTED</text>
+          </g>
+
+          {/* trading: a price line on the exchange */}
+          <g data-on="7-8">
+            <rect x="288" y="208" width="170" height="76" rx="12" fill="var(--surface-2)" stroke="var(--border)"></rect>
+            <polyline
+              class="jx-line"
+              points="300,262 318,256 334,264 350,246 366,250 382,232 398,240 414,226 430,234 446,220"
+              fill="none"
+              stroke="var(--teal)"
+              stroke-width="2.5"
+              stroke-linejoin="round"
+              stroke-linecap="round"></polyline>
+          </g>
+
+          {/* listed life: reports, meetings, dividends */}
+          <g data-on="8-8">
+            <g set:html={nested('report', 300, 22, 34)} />
+            <g set:html={nested('calendar', 346, 22, 34)} />
+            <g set:html={nested('coins', 392, 22, 34)} />
+          </g>
+
+          {/* book entry: a chain of accounts down to you */}
+          <g data-on="6-9">
+            {
+              chain.map((c, i) => (
+                <g>
+                  <rect x={30 + i * 112} y="314" width="92" height="44" rx="10" fill={i === chain.length - 1 ? 'var(--teal)' : 'var(--surface-2)'} stroke="var(--border)" style={`transition-delay:${i * 120}ms`} class="jx-chain"></rect>
+                  <text x={76 + i * 112} y="341" font-size="13" font-weight="700" fill={i === chain.length - 1 ? 'var(--bg)' : 'var(--text)'} text-anchor="middle">
+                    {c}
+                  </text>
+                  {i < chain.length - 1 && <path d={`M${124 + i * 112} 336 h16`} stroke="var(--muted)" stroke-width="2.5" stroke-linecap="round" />}
+                </g>
+              ))
+            }
+            <text x="30" y="384" font-size="11.5" fill="var(--muted)">Shares live as electronic book entries, passed down a chain of accounts.</text>
+          </g>
+        </svg>
+        <ol class="jx-dots" aria-hidden="true">
+          {steps.map((s) => <li data-dot={s.step}></li>)}
+        </ol>
+      </div>
+    </div>
+
+    <ol class="jx-steps">
+      {
+        steps.map((s) => (
+          <li class="jx-step" data-step={s.step}>
+            <div class="card p-5">
+              <p class="text-sm font-semibold tracking-wide text-link uppercase">{t('hsm.stepN', { n: s.step, total })}</p>
+              <h3 class="mt-1 text-xl font-bold">{s.title}</h3>
+              <p class="mt-2 text-muted">{s.summary}</p>
+              <a class="mt-3 inline-block text-sm font-semibold" href={`#step-${s.step}`}>
+                {t('hsm.scroll.read', { n: s.step })} ↓
+              </a>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>
+
+<style is:global>
+  .jx-grid {
+    display: grid;
+    gap: 1.5rem;
+  }
+  .jx-pin {
+    display: none;
+  }
+  .jx-steps {
+    display: grid;
+    gap: 1rem;
+  }
+  .jx.jx-ready .jx-pin {
+    display: block;
+    position: sticky;
+    top: 4.5rem;
+    z-index: 5;
+    align-self: start;
+  }
+  .jx.jx-ready .jx-step {
+    min-height: 62vh;
+    display: flex;
+    align-items: center;
+  }
+  .jx.jx-ready .jx-step:last-child {
+    min-height: 40vh;
+  }
+  .jx-scene {
+    padding: 0.5rem 0.5rem 0.75rem;
+    background: var(--surface);
+  }
+  .jx [data-on] {
+    opacity: 0;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  .jx [data-on].on {
+    opacity: 1;
+  }
+  .jx [data-on].on.dim {
+    opacity: 0.28;
+  }
+  .jx-share {
+    transform-box: fill-box;
+    transform-origin: center;
+    transform: scale(0.4);
+    transition: transform 0.45s ease;
+  }
+  .jx .on .jx-share {
+    transform: scale(1);
+  }
+  .jx-line {
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
+    transition: stroke-dashoffset 1.2s ease;
+  }
+  .jx .on .jx-line {
+    stroke-dashoffset: 0;
+  }
+  .jx-dots {
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    margin-top: 0.25rem;
+  }
+  .jx-dots li {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    background: var(--border);
+    transition: background-color 0.3s, width 0.3s;
+  }
+  .jx-dots li.on {
+    width: 22px;
+    background: var(--teal);
+  }
+  .jx-step .card {
+    transition: border-color 0.3s, opacity 0.3s;
+  }
+  .jx.jx-ready .jx-step:not(.active) .card {
+    opacity: 0.55;
+  }
+  .jx.jx-ready .jx-step.active .card {
+    border-color: var(--link);
+  }
+  @media (min-width: 1024px) {
+    .jx.jx-ready .jx-grid {
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+      align-items: start;
+    }
+    .jx.jx-ready .jx-pin {
+      top: 6rem;
+    }
+  }
+  @media (max-width: 1023px) {
+    .jx.jx-ready .jx-pin {
+      max-width: 30rem;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .jx.jx-ready .jx-step {
+      min-height: 70vh;
+      align-items: flex-end;
+      padding-bottom: 4vh;
+    }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .jx *,
+    .jx [data-on] {
+      transition: none !important;
+    }
+  }
+</style>
+
+<script>
+  const root = document.querySelector<HTMLElement>('.jx');
+  if (root) {
+    root.classList.add('jx-ready');
+    const layers = [...root.querySelectorAll<SVGElement>('[data-on]')].map((el) => {
+      const [from, to] = el.dataset.on!.split('-').map(Number);
+      const dim = el.dataset.dim ? Number(el.dataset.dim) : null;
+      return { el, from, to, dim };
+    });
+    const dots = [...root.querySelectorAll<HTMLElement>('[data-dot]')];
+    const cards = [...root.querySelectorAll<HTMLElement>('.jx-step')];
+    let current = 0;
+    const show = (n: number) => {
+      if (n === current) return;
+      current = n;
+      for (const l of layers) {
+        l.el.classList.toggle('on', n >= l.from && n <= l.to);
+        l.el.classList.toggle('dim', l.dim !== null && n >= l.dim);
+      }
+      dots.forEach((d) => d.classList.toggle('on', Number(d.dataset.dot) === n));
+      cards.forEach((c) => c.classList.toggle('active', Number(c.dataset.step) === n));
+    };
+    // The step card nearest the middle of the screen sets the scene (scrolling back rewinds it).
+    let queued = false;
+    const update = () => {
+      queued = false;
+      const mid = window.innerHeight / 2;
+      let best = cards[0];
+      let dist = Infinity;
+      for (const c of cards) {
+        const r = c.getBoundingClientRect();
+        const d = Math.abs(r.top + r.height / 2 - mid);
+        if (d < dist) {
+          dist = d;
+          best = c;
+        }
+      }
+      show(Number(best.dataset.step));
+    };
+    const request = () => {
+      if (!queued) {
+        queued = true;
+        requestAnimationFrame(update);
+      }
+    };
+    window.addEventListener('scroll', request, { passive: true });
+    window.addEventListener('resize', request);
+    update();
+  }
+</script>

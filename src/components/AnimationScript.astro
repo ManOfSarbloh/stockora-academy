@@ -1,55 +1,96 @@
 ---
-/** Plays lesson animations (see src/lib/markdown/animations.ts) when they scroll into view, with a play/pause/replay button. */
+/**
+ * Lesson animations (see src/lib/markdown/animations.ts) follow the scroll: an animation runs from its
+ * first frame when the figure enters the screen to its last frame when the figure reaches the middle,
+ * and rewinds when the reader scrolls back. The button plays it on its own instead (play / pause).
+ * With "reduce motion" nothing moves and the final frame stays.
+ */
 ---
 
 <script>
   import { t } from '@/i18n';
 
-  const figures = [...document.querySelectorAll<HTMLElement>('figure.anim')];
   const reduce = window.matchMedia('(prefers-reduced-motion: reduce)');
 
-  function setup(fig: HTMLElement) {
-    const btn = fig.querySelector<HTMLButtonElement>('.anim-btn')!;
-    let state: 'ready' | 'running' | 'paused' | 'done' = 'ready';
-    let run = 0;
-    const label = { ready: t('anim.play'), running: t('anim.pause'), paused: t('anim.play'), done: t('anim.replay') };
-    const show = (s: typeof state) => {
-      state = s;
-      btn.textContent = label[s];
-      btn.dataset.state = s;
-      fig.classList.toggle('anim-paused', s !== 'running' && s !== 'done');
-    };
-    function start() {
-      const id = ++run;
-      fig.classList.remove('anim-armed');
-      void fig.offsetWidth; // restart the CSS animations
-      fig.classList.add('anim-armed');
-      show('running');
-      const anims = fig.getAnimations?.({ subtree: true }) ?? [];
-      Promise.all(anims.map((a) => a.finished))
-        .then(() => id === run && show('done'))
-        .catch(() => {});
-    }
-    // Armed but paused at the first frame until the figure is on screen.
-    fig.classList.add('anim-armed');
-    show('ready');
-    btn.hidden = false;
-    btn.addEventListener('click', () => {
-      if (state === 'running') show('paused');
-      else if (state === 'paused') show('running');
-      else start();
-    });
-    const io = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((e) => e.isIntersecting) && state === 'ready') {
-          start();
-          io.disconnect();
-        }
-      },
-      { threshold: 0.5 },
-    );
-    io.observe(fig);
+  interface Scrubber {
+    fig: HTMLElement;
+    anims: Animation[];
+    end: number;
+    mode: 'scroll' | 'playing' | 'paused';
   }
 
-  if (!reduce.matches) figures.forEach(setup);
+  function collect(fig: HTMLElement): { anims: Animation[]; end: number } {
+    const anims = fig.getAnimations({ subtree: true });
+    anims.forEach((a) => a.pause());
+    const end = Math.max(0, ...anims.map((a) => Number(a.effect?.getComputedTiming().endTime ?? 0)));
+    return { anims, end };
+  }
+
+  /** 0 when the figure's top enters the bottom of the screen, 1 when its centre reaches the middle. */
+  function progress(fig: HTMLElement): number {
+    const r = fig.getBoundingClientRect();
+    const vh = window.innerHeight;
+    const start = vh;
+    const finish = vh / 2 - r.height / 2;
+    return Math.min(1, Math.max(0, (start - r.top) / Math.max(1, start - finish)));
+  }
+
+  function setup(fig: HTMLElement): Scrubber | null {
+    if (!('getAnimations' in fig)) return null;
+    fig.classList.add('anim-armed');
+    const { anims, end } = collect(fig);
+    if (!anims.length || !end) return null;
+    const s: Scrubber = { fig, anims, end, mode: 'scroll' };
+    const btn = fig.querySelector<HTMLButtonElement>('.anim-btn')!;
+    const label = (mode: Scrubber['mode']) => {
+      btn.textContent = mode === 'playing' ? t('anim.pause') : t('anim.play');
+      btn.dataset.state = mode === 'playing' ? 'running' : 'ready';
+    };
+    label('scroll');
+    btn.hidden = false;
+    btn.addEventListener('click', () => {
+      if (s.mode === 'playing') {
+        s.anims.forEach((a) => a.pause());
+        s.mode = 'paused';
+      } else {
+        if (s.mode === 'scroll') s.anims.forEach((a) => (a.currentTime = 0));
+        s.anims.forEach((a) => a.play());
+        s.mode = 'playing';
+        Promise.all(s.anims.map((a) => a.finished))
+          .then(() => {
+            s.anims.forEach((a) => a.pause());
+            // Stay on the last frame; the next scroll hands control back to the scroll position.
+            s.mode = 'scroll';
+            label('scroll');
+          })
+          .catch(() => {});
+      }
+      label(s.mode);
+    });
+    return s;
+  }
+
+  const scrubbers = reduce.matches ? [] : [...document.querySelectorAll<HTMLElement>('figure.anim')].map(setup).filter((s): s is Scrubber => s !== null);
+
+  let queued = false;
+  function update() {
+    queued = false;
+    for (const s of scrubbers) {
+      // While the reader uses the button, scrolling does not take over until the run has ended.
+      if (s.mode !== 'scroll') continue;
+      const time = progress(s.fig) * s.end;
+      s.anims.forEach((a) => (a.currentTime = time));
+    }
+  }
+  const request = () => {
+    if (!queued) {
+      queued = true;
+      requestAnimationFrame(update);
+    }
+  };
+  if (scrubbers.length) {
+    window.addEventListener('scroll', request, { passive: true });
+    window.addEventListener('resize', request);
+    update();
+  }
 </script>
