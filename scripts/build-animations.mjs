@@ -259,4 +259,169 @@ const write = (name, svg) => {
   write(name, doc(name, W, H, css, b, `Animation: €10,000 growing at 5% a year for 30 years; simple growth reaches €25,000, compound growth about ${eur(Math.round(comp(10)))} after 10 years, ${eur(Math.round(comp(20)))} after 20 and ${eur(Math.round(comp(30)))} after 30`));
 }
 
+// ---- 4. An opening auction finds one price (D: auctions-and-continuous-trading) -------------------
+{
+  const name = 'opening-auction';
+  const P = 'oa';
+  const W = 720;
+  const H = 360;
+  const DUR = 9;
+  const at = (sec) => sec / DUR;
+  const rows = [
+    [20.2, 300, 1500],
+    [20.1, 700, 1000],
+    [20.0, 1000, 800],
+    [19.9, 1600, 400],
+  ];
+  const best = 2; // €20.00: 800 shares, the most that can trade
+  const k = 0.15; // px per share
+  const xb = 300; // buyers' bars end here (grow to the left)
+  const xs = 440; // sellers' bars start here
+  const rowY = (i) => 100 + i * 56;
+  const css = [
+    `.${P}-bar{transform-box:fill-box}`,
+    `.${P}-buy{transform-origin:100% 50%}`,
+    `.${P}-sell{transform-origin:0 50%}`,
+    `@keyframes ${P}-grow{from{transform:scaleX(0)}to{transform:scaleX(1)}}`,
+    `@keyframes ${P}-fade{from{opacity:0}to{opacity:1}}`,
+    `@keyframes ${P}-dim{from{opacity:1}to{opacity:.4}}`,
+    `.${P}-dim{opacity:.4}`,
+    `.anim-armed .${P}-bar{animation:${P}-grow .7s ease-out both}`,
+    `.anim-armed .${P}-can{animation:${P}-fade .4s ease-out both}`,
+    `.anim-armed .${P}-dim{animation:${P}-dim .5s ease-out both;animation-delay:${at(6.2) * DUR}s}`,
+    `.anim-armed .${P}-win{animation:${P}-fade .5s ease-out both;animation-delay:${at(6.2) * DUR}s}`,
+    `.anim-armed .${P}-badge{animation:${P}-fade .5s ease-out both;animation-delay:${at(6.8) * DUR}s}`,
+    `.anim-armed .${P}-end{animation:${P}-fade .1s linear both;animation-delay:${DUR - 0.1}s}`,
+  ].join('');
+  let b = T(32, 34, 'An opening auction: one price for everyone', { size: 16, weight: 700 });
+  b += T(xb, 78, 'Buyers would buy', { anchor: 'end', size: 12.5, weight: 700, fill: C.up });
+  b += T((xb + xs) / 2, 78, 'Price', { anchor: 'middle', size: 12.5, weight: 700, fill: C.muted });
+  b += T(xs, 78, 'Sellers would sell', { size: 12.5, weight: 700, fill: C.down });
+  rows.forEach(([price, buy, sell], i) => {
+    const y = rowY(i);
+    const d = `style="animation-delay:${r(0.3 + i * 0.45)}s"`;
+    const canTrade = Math.min(buy, sell);
+    const g = i === best ? '' : ` class="${P}-dim"`;
+    b += `<g${g}>`;
+    b += `<rect class="${P}-bar ${P}-buy" ${d} x="${xb - buy * k}" y="${y}" width="${buy * k}" height="20" rx="4" fill="${C.up}"/>`;
+    b += T(xb - buy * k - 6, y + 15, buy.toLocaleString('en-GB'), { anchor: 'end', size: 12.5, weight: 700, fill: C.up });
+    b += `<rect class="${P}-bar ${P}-sell" ${d} x="${xs}" y="${y}" width="${sell * k}" height="20" rx="4" fill="${C.down}"/>`;
+    b += T(xs + sell * k + 6, y + 15, sell.toLocaleString('en-GB'), { size: 12.5, weight: 700, fill: C.down });
+    b += T((xb + xs) / 2, y + 15, eur(price, 2), { anchor: 'middle', size: 14, weight: 700 });
+    b += `<g class="${P}-can" style="animation-delay:${r(3.6 + i * 0.5)}s">${T((xb + xs) / 2, y + 36, `could trade ${canTrade.toLocaleString('en-GB')}`, { anchor: 'middle', size: 11.5, weight: 600, fill: C.muted })}</g>`;
+    b += `</g>`;
+  });
+  const y = rowY(best);
+  b += `<rect class="${P}-win" x="${xb + 4}" y="${y - 8}" width="${xs - xb - 8}" height="52" rx="10" fill="none" stroke="${C.teal}" stroke-width="2.5"/>`;
+  b += `<g class="${P}-badge"><rect x="160" y="${rowY(3) + 50}" width="400" height="40" rx="20" fill="${C.navy}"/>`;
+  b += T(360, rowY(3) + 75, 'Auction price €20.00: 800 shares trade at one price', { anchor: 'middle', size: 13.5, weight: 700, fill: C.white }) + `</g>`;
+  b += `<g class="${P}-end"></g>`;
+  write(name, doc(name, W, H, css, b, 'Animation: buy and sell orders collected for an opening auction; at €20.20 300 shares could trade, at €20.10 700, at €20.00 800 and at €19.90 400, so the auction price is €20.00 and 800 shares trade at that single price'));
+}
+
+// ---- 5. ETF arbitrage: creation and redemption keep the price near its value (H: how-etfs-work) -----
+{
+  const name = 'etf-arbitrage';
+  const P = 'ea';
+  const W = 760;
+  const H = 360;
+  const DUR = 9;
+  // price scale for the gauge
+  const py = (p) => 320 - ((p - 49.7) / 0.4) * 210;
+  const boxes = [
+    ['Exchange', 250],
+    ['Authorised participant', 420],
+    ['ETF (the fund)', 590],
+  ];
+  const bx = (i) => boxes[i][1] + 65; // box centre
+  const BY = 92;
+  const move = (id, x1, y1, x2, y2, t0, t1) =>
+    `@keyframes ${P}-${id}{0%,${pctKey(t0 / DUR)}{transform:translate(${x1}px,${y1}px);opacity:0}${pctKey((t0 + 0.15) / DUR)}{opacity:1}${pctKey((t1 - 0.15) / DUR)}{opacity:1}${pctKey(t1 / DUR)},100%{transform:translate(${x2}px,${y2}px);opacity:0}}` +
+    `.${P}-${id}{opacity:0}.anim-armed .${P}-${id}{animation:${P}-${id} ${DUR}s ease-in-out both}`;
+  const step = (n, t0) =>
+    `@keyframes ${P}-s${n}{0%,${pctKey(t0 / DUR)}{opacity:.35}${pctKey((t0 + 0.3) / DUR)},100%{opacity:1}}.anim-armed .${P}-s${n}{animation:${P}-s${n} ${DUR}s linear both}`;
+  const css = [
+    move('u1', bx(0), BY + 40, bx(1), BY + 40, 0.6, 2.6),
+    move('u2', bx(1), BY + 40, bx(2), BY + 40, 3.4, 5.0),
+    move('b1', bx(2), BY + 52, bx(1), BY + 52, 4.2, 5.8),
+    move('b2', bx(1), BY + 52, bx(0), BY + 52, 6.2, 8.0),
+    step(1, 0.5),
+    step(2, 3.3),
+    step(3, 6.1),
+    `@keyframes ${P}-price{0%,${pctKey(0.8 / DUR)}{transform:translateY(${r(py(49.8))}px)}${pctKey(3.2 / DUR)},100%{transform:translateY(${r(py(50.0))}px)}}`,
+    `.${P}-price{transform:translateY(${r(py(50.0))}px)}.anim-armed .${P}-price{animation:${P}-price ${DUR}s ease-in-out both}`,
+    `@keyframes ${P}-t1{0%,${pctKey(3.2 / DUR)}{opacity:1}${pctKey(3.4 / DUR)},100%{opacity:0}}@keyframes ${P}-t2{0%,${pctKey(3.2 / DUR)}{opacity:0}${pctKey(3.4 / DUR)},100%{opacity:1}}`,
+    `.${P}-t1{opacity:0}.anim-armed .${P}-t1{animation:${P}-t1 ${DUR}s linear both}.anim-armed .${P}-t2{animation:${P}-t2 ${DUR}s linear both}`,
+  ].join('');
+  let b = T(32, 34, 'How arbitrage pulls an ETF back to its value', { size: 16, weight: 700 });
+  // gauge
+  b += T(40, 66, 'ETF price on the exchange', { size: 12.5, weight: 600, fill: C.muted });
+  for (const p of [49.7, 49.8, 49.9, 50.0, 50.1]) b += `<line x1="96" x2="200" y1="${r(py(p))}" y2="${r(py(p))}" stroke="${C.grid}"/>` + T(88, py(p) + 4, eur(p, 2), { anchor: 'end', size: 11.5, fill: C.muted });
+  b += `<line x1="96" x2="200" y1="${r(py(50))}" y2="${r(py(50))}" stroke="${C.navy}" stroke-width="2" stroke-dasharray="5 4"/>`;
+  b += `<line x1="40" x2="62" y1="84" y2="84" stroke="${C.navy}" stroke-width="2" stroke-dasharray="5 4"/>` + T(68, 88, 'Value of the holdings (NAV)', { size: 11.5, weight: 700, fill: C.navy });
+  b += `<g class="${P}-price"><rect x="110" y="-11" width="76" height="22" rx="11" fill="${C.teal}"/><text class="${P}-t1" x="148" y="4" font-size="12" font-weight="700" fill="${C.white}" text-anchor="middle">${esc(eur(49.8, 2))}</text><text class="${P}-t2" x="148" y="4" font-size="12" font-weight="700" fill="${C.white}" text-anchor="middle">≈ ${esc(eur(50, 2))}</text></g>`;
+  // boxes
+  boxes.forEach(([label, x]) => {
+    b += `<rect x="${x}" y="${BY}" width="130" height="64" rx="12" fill="${C.pale}" stroke="${C.light}"/>`;
+    const words = label.split(' ');
+    const lines = label.length > 16 ? [words.slice(0, 1).join(' '), words.slice(1).join(' ')] : [label];
+    lines.forEach((l, j) => (b += T(x + 65, BY + 28 + j * 17 - (lines.length - 1) * 8, l, { anchor: 'middle', size: 13, weight: 700 })));
+  });
+  // tokens: ETF units (squares) and a basket of shares (bars)
+  const unit = (cls) => `<g class="${cls}"><rect x="-14" y="-7" width="12" height="12" rx="2" fill="${C.teal}"/><rect x="2" y="-7" width="12" height="12" rx="2" fill="${C.teal}"/></g>`;
+  const basket = (cls) => `<g class="${cls}"><rect x="-16" y="-8" width="7" height="12" rx="1.5" fill="${C.slate}"/><rect x="-6" y="-12" width="7" height="16" rx="1.5" fill="${C.navy}"/><rect x="4" y="-6" width="7" height="10" rx="1.5" fill="${C.slate}"/></g>`;
+  b += unit(`${P}-u1`) + unit(`${P}-u2`) + basket(`${P}-b1`) + basket(`${P}-b2`);
+  // step captions
+  const caps = [
+    ['1', 'Buys ETF units cheaply on the exchange at €49.80,', 'below the €50.00 value of the holdings.'],
+    ['2', 'Redeems the units with the fund and receives', 'the underlying shares, worth €50.00 a unit.'],
+    ['3', 'Sells those shares. The buying in step 1 has', 'pushed the ETF price back towards €50.'],
+  ];
+  caps.forEach(([n, a, c], i) => {
+    const y = 196 + i * 50;
+    b += `<g class="${P}-s${i + 1}"><circle cx="262" cy="${y + 2}" r="12" fill="${C.navy}"/>${T(262, y + 7, n, { anchor: 'middle', size: 12.5, weight: 700, fill: C.white })}`;
+    b += T(284, y, a, { size: 13, weight: 600 }) + T(284, y + 18, c, { size: 12.5, fill: C.muted }) + `</g>`;
+  });
+  write(name, doc(name, W, H, css, b, 'Animation: an ETF trades at €49.80 while its holdings are worth €50.00 a unit; an authorised participant buys units on the exchange, which pushes the price up towards €50, redeems them with the fund for the underlying shares and sells those shares'));
+}
+
+// ---- 6. A 2-for-1 split (V: splits-and-bonus-shares; Investor.gov's example) ----------------------
+{
+  const name = 'stock-split';
+  const P = 'ss';
+  const W = 720;
+  const H = 340;
+  const DUR = 7;
+  const cell = 18;
+  const x0 = 70;
+  const y0 = 68;
+  const css = [
+    `.${P}-cut{transform-box:fill-box;transform-origin:50% 0}`,
+    `@keyframes ${P}-cut{from{transform:scaleY(0)}to{transform:scaleY(1)}}`,
+    `@keyframes ${P}-in{0%,${pctKey(4 / DUR)}{opacity:0}${pctKey(4.5 / DUR)},100%{opacity:1}}`,
+    `@keyframes ${P}-out{0%,${pctKey(4 / DUR)}{opacity:1}${pctKey(4.5 / DUR)},100%{opacity:0}}`,
+    `.${P}-before{opacity:0}`,
+    `.anim-armed .${P}-cut{animation:${P}-cut .35s ease-out both}`,
+    `.anim-armed .${P}-before{animation:${P}-out ${DUR}s linear both}`,
+    `.anim-armed .${P}-after{animation:${P}-in ${DUR}s linear both}`,
+  ].join('');
+  let b = T(32, 34, 'A 2-for-1 split: more, smaller slices of the same value', { size: 16, weight: 700 });
+  b += `<rect x="${x0 - 3}" y="${y0 - 3}" width="${10 * cell + 6}" height="${10 * cell + 6}" rx="6" fill="${C.white}" stroke="${C.navy}" stroke-width="2"/>`;
+  for (let rr = 0; rr < 10; rr++)
+    for (let c = 0; c < 10; c++) b += `<rect x="${x0 + c * cell + 1}" y="${y0 + rr * cell + 1}" width="${cell - 2}" height="${cell - 2}" rx="2" fill="${C.teal}"/>`;
+  // the cuts: one white line through the middle of each column of cells, sweeping left to right
+  for (let c = 0; c < 10; c++)
+    b += `<rect class="${P}-cut" style="animation-delay:${r(1 + c * 0.25)}s" x="${x0 + c * cell + cell / 2 - 1}" y="${y0}" width="2" height="${10 * cell}" fill="${C.white}"/>`;
+  const tx = 330;
+  const big = (y, s, cls, fill = C.text) => `<g class="${cls}">${T(tx, y, s, { size: 22, weight: 700, fill })}</g>`;
+  b += T(tx, 96, 'Shares', { size: 12.5, weight: 600, fill: C.muted });
+  b += big(124, '100', `${P}-before`) + big(124, '200', `${P}-after`);
+  b += T(tx, 166, 'Price per share', { size: 12.5, weight: 600, fill: C.muted });
+  b += big(194, '$100', `${P}-before`) + big(194, '$50', `${P}-after`);
+  b += T(tx, 236, 'Total value', { size: 12.5, weight: 600, fill: C.muted });
+  b += T(tx, 264, '$10,000', { size: 22, weight: 700, fill: C.navy }) + T(tx + 110, 264, 'unchanged', { size: 13, weight: 700, fill: C.up });
+  b += T(32, 318, 'Your slice of the company stays the same; there are just more, cheaper shares.', { size: 12.5, fill: C.muted });
+  write(name, doc(name, W, H, css, b, 'Animation: 100 shares at $100 each, worth $10,000, are each cut in two by a 2-for-1 split, giving 200 shares at $50 each, still worth $10,000'));
+}
+
 console.log(`Wrote ${out.length} animations: ${out.join(', ')}`);

@@ -37,6 +37,9 @@ The ETF calculates its **net asset value (NAV)** every business day. During the 
 >
 > If the ETF traded at a premium instead, the opposite happens through creation.
 
+> [!ANIMATION] etf-arbitrage
+> The example above, step by step: buying units below their value, redeeming them for the shares, and the price moving back towards €50.
+
 This mechanism usually keeps the price close to the value of the holdings, especially for ETFs on liquid markets. In stressed or illiquid markets, premiums and discounts can become larger.
 
 ## What this means for you

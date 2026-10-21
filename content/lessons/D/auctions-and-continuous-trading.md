@@ -39,6 +39,9 @@ An auction has two steps:
 >
 > At **€20.00**, buyers want 1,000 and sellers offer 800, so **800 shares** can trade. At €20.10 only 700 could trade (limited by buyers), at €19.90 only 400 (limited by sellers). So the auction price is **€20.00**, and 800 shares change hands at that single price.
 
+> [!ANIMATION] opening-auction
+> The same auction as bars: at each price, how much buyers would buy and sellers would sell. €20.00 lets the most shares trade (800), so everyone trades at €20.00.
+
 ## Why auctions are used at the open and close
 
 - **Opening auction:** overnight, news has piled up. Collecting orders first and finding one fair opening price avoids a chaotic start.

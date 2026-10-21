@@ -475,28 +475,6 @@ function write(topic, name, svg) {
   write('U', 'asset-classes-risk-return.svg', doc(W, H, b, 'Scatter chart of US data 1928–2025, compound return against volatility: small company shares 12.0% at 37.9%, large company shares 10.0% at 19.4%, Baa corporate bonds 6.6% at 7.7%, gold 5.6% at 21.5%, 10-year Treasury bonds 4.5% at 7.9%, US real estate 4.2% at 6.2%, 3-month Treasury bills 3.4% at 3.0%'));
 }
 
-// ---- V: a 2-for-1 split (lesson: splits-and-bonus-shares) ----------------------------------------
-{
-  const W = 720;
-  const H = 340;
-  const grid = (x, y, cols, rows, size, fill) => {
-    let s = R(x - 2, y - 2, cols * size + 4, rows * size + 4, C.white, { rx: 6, stroke: C.navy, sw: 2 });
-    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) s += R(x + c * size + 1, y + r * size + 1, size - 2, size - 2, fill, { rx: 1.5 });
-    return s;
-  };
-  const defs = arrowDef('va', C.slate);
-  let b = T(40, 36, 'A 2-for-1 split: more, smaller slices of the same value', { size: 16, weight: 700 });
-  b += grid(70, 70, 10, 10, 18, C.teal);
-  b += T(160, 278, '100 shares × $100', { anchor: 'middle', weight: 700 }) + T(160, 300, '= $10,000', { anchor: 'middle', size: 14, weight: 700, fill: C.navy });
-  b += L(286, 160, 404, 160, { stroke: C.slate, w: 2.5, arrow: 'va' }) + T(345, 148, 'split 2-for-1', { anchor: 'middle', size: 12.5, fill: C.muted });
-  // 200 shares: same area, 20 × 10 with half-width cells
-  let g = R(468, 68, 184, 184, C.white, { rx: 6, stroke: C.navy, sw: 2 });
-  for (let r = 0; r < 10; r++) for (let c = 0; c < 20; c++) g += R(470 + c * 9 + 0.6, 70 + r * 18 + 1, 7.8, 16, C.light, { rx: 1 });
-  b += g;
-  b += T(560, 278, '200 shares × $50', { anchor: 'middle', weight: 700 }) + T(560, 300, '= $10,000', { anchor: 'middle', size: 14, weight: 700, fill: C.navy });
-  write('V', 'stock-split-2-for-1.svg', doc(W, H, b, 'A 2-for-1 split: 100 shares at $100 ($10,000) become 200 shares at $50, still $10,000', defs));
-}
-
 // ---- W: reading one line of a quote page (lesson: reading-a-quote-page) --------------------------
 {
   const W = 760;

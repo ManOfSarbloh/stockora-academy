@@ -252,7 +252,8 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Lesson diagrams | One concept diagram for each topic that had none (C, E, H, I, K–W), drawn by `scripts/build-lesson-images.mjs` from the numbers in that lesson's worked example; the S diagram reads the FTSE classification from the country data. Checked visually for overlapping text |
 | Animations | Pilot of three animated SVGs (a candle forming, a market order filling, compound growth), replacing the still F and G diagrams. All animation rules sit behind `.anim-armed`, so without JavaScript, with reduced motion or in print the final frame shows. They scrub with the scroll (finished when the figure is centred) and have a play/pause button (WCAG 2.2.2). The candle's intraday path is labelled as an example; open, high, low and close are the lesson's |
 | Journey scene | Apple-style pinned scene on How Stocks Are Made: nine schematic stages (no numbers) switched by the step card nearest the middle of the screen; reversible; cards link to the full steps; hidden without JavaScript |
-| Not done yet | Animations for the opening auction, ETF creation/redemption and a stock split were proposed as the next batch |
+| Second batch | Opening auction (D, the lesson's four price levels: €20.00 lets 800 shares trade), ETF arbitrage (H, €49.80 against €50.00) and a 2-for-1 split (V, replacing the still diagram). Six animations in total |
+| Build cache | Astro caches rendered Markdown by its text, so an SVG inlined by the Markdown plugin went stale after the SVG changed. The plugin now leaves a placeholder and the middleware inlines `src/animations/*.svg` (imported with ?raw) on every page build |
 
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
