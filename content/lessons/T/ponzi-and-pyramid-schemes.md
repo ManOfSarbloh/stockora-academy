@@ -25,6 +25,8 @@ Because there are few or no real earnings, a Ponzi scheme needs a **constant flo
 > [!EXAMPLE] The arithmetic of collapse
 > A scheme promises 10% a month. 100 people invest €1,000 each: €100,000. Paying 10% a month costs €10,000 a month. Without real profits, after 10 months the original money is gone, unless more and more new investors join. The bigger it grows, the more new money it needs, and the bigger the loss when it stops.
 
+![Bars falling from €100,000 to €0 over 10 months as a scheme pays out €10,000 a month without real profits](./img/ponzi-arithmetic.svg)
+
 ## The SEC's red flags
 
 Investor.gov lists warning signs shared by many Ponzi schemes:

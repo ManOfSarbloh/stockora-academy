@@ -34,6 +34,8 @@ Stock exchanges are not open around the clock. Each has fixed **trading hours** 
 >
 > Other segments have slightly different times, and less liquid shares may only trade in auctions.
 
+![Timeline in Vienna time: opening auction 08:55, continuous trading 09:00–17:30 with a short midday auction, closing auction 17:30–17:35, trade at close to 17:45; the NYSE core session normally runs 15:30–22:00, so both are open 15:30–17:30](./img/trading-day-vienna.svg)
+
 ## A trading day in New York
 
 At the New York Stock Exchange (NYSE), the **core trading session** runs from **9:30 a.m. to 4:00 p.m. Eastern Time**, starting with an opening auction and ending with a closing auction at 4:00 p.m. Before and after that, there are extended sessions (next lesson).

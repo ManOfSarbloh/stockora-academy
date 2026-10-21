@@ -19,7 +19,7 @@ const regions = REGION_ORDER.filter((r) => countries.some((c) => c.region === r)
 ---
 
 <BaseLayout title={t('wm.title')} description={t('wm.lead')}>
-  <PageHeader title={t('wm.title')} lead={t('wm.lead')} eyebrow={t('wm.eyebrow')}>
+  <PageHeader art="globe" title={t('wm.title')} lead={t('wm.lead')} eyebrow={t('wm.eyebrow')}>
     <p class="mt-4 flex flex-wrap gap-3 text-sm">
       <a href={url('/world/compare')} class="btn btn-primary">{t('wm.compare')}</a>
       <a href={url('/learn/world-markets')} class="btn btn-ghost">{t('wm.learn')}</a>

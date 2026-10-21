@@ -15,7 +15,7 @@ const keys = await getLessonKeysByCategory();
 ---
 
 <BaseLayout title={t('learn.title')} description={t('learn.lead')}>
-  <PageHeader title={t('learn.title')} lead={t('learn.lead')} />
+  <PageHeader art="learn" title={t('learn.title')} lead={t('learn.lead')} />
   <div class="container-page py-4">
     {
       STAGES.map((stage, i) => (

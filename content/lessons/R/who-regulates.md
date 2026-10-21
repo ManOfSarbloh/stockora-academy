@@ -22,6 +22,8 @@ sources:
 
 Financial markets run on trust. Investors only hand over their money if they can rely on prices being fair, information being true and their assets being safe. **Regulators** set and enforce the rules that make this possible.
 
+![Diagram: EU rules and ESMA above the FMA; the OeNB beside it; the FMA supervises banks, insurers and pension funds, investment firms, issuers and the Wiener Börse](./img/who-regulates-austria.svg)
+
 ## The FMA: Austria's financial market authority
 
 The **Finanzmarktaufsichtsbehörde (FMA)** describes itself as an institution under public law, established by constitutional provision to carry out **banking, insurance, pension fund and securities supervision**. It is also Austria's **national resolution authority** for failing banks. It covers the whole country and is **not bound by instructions** in exercising its duties.

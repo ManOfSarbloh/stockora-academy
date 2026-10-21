@@ -41,7 +41,7 @@ for (const l of groups.keys()) if (!alphabet.includes(l)) alphabet.push(l);
 ---
 
 <BaseLayout title={t('glossary.title')} description={t('glossary.lead')}>
-  <PageHeader title={t('glossary.title')} lead={t('glossary.lead')}>
+  <PageHeader art="book" title={t('glossary.title')} lead={t('glossary.lead')}>
     {entries.length > 0 && <p class="mt-2 text-sm text-muted">{t('glossary.count', { n: entries.length })}</p>}
   </PageHeader>
 

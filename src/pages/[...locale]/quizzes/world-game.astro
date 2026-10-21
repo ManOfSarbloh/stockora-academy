@@ -23,7 +23,7 @@ const shapes = map.shapes.map((s) => ({ code: s.code && codes.has(s.code) ? s.co
 ---
 
 <BaseLayout title={t('wg.title')} description={t('wg.lead')}>
-  <PageHeader title={t('wg.title')} lead={t('wg.lead')}>
+  <PageHeader art="map" title={t('wg.title')} lead={t('wg.lead')}>
     <p class="mt-3 text-sm"><a href={url('/quizzes')}>← {t('quiz.toHub')}</a> · <a href={url('/world')}>{t('nav.world')} →</a></p>
   </PageHeader>
   <div class="container-page max-w-4xl py-10" data-pagefind-ignore>

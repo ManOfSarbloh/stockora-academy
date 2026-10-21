@@ -36,6 +36,8 @@ sources:
 
 The rule: **% change of your money ≈ % change of the price × leverage** (before costs).
 
+![Paired bars: with 5:1 leverage a 20% price fall loses 100% of your €1,000, a 10% fall loses 50% and a 10% rise gains 50%, five times the unleveraged result](./img/leverage-5-to-1.svg)
+
 On top of this, borrowed money costs **interest**, which is charged whether the trade wins or loses.
 
 ## Buying on margin

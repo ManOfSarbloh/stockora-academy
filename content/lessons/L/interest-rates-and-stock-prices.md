@@ -52,6 +52,8 @@ Berkshire Hathaway's *Owner's Manual* defines intrinsic value as the **discounte
 >
 > The same rise in rates hurts distant cash flows much more.
 
+![Bars: €100 in 1 year is worth €96.15 at 4% and €94.34 at 6%; €100 in 20 years is worth €45.64 at 4% and €31.18 at 6%](./img/discounting-near-far.svg)
+
 This is why **growth companies**, whose profits are expected mostly in the future, are often more sensitive to interest rates than mature companies paying steady dividends today.
 
 ## Bonds and shares can fall together

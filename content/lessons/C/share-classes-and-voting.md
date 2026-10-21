@@ -38,6 +38,8 @@ The most debated case is a **dual-class structure**: founders and insiders hold 
 >
 > If both classes have the same rights to dividends, the founder owns only **10%** of the economic value, but controls 100 ÷ 190 ≈ **53%** of the votes, a majority.
 
+![Two bars: the founder holds 10% of the economic value but about 53% of the votes; the public holds 90% of the value but about 47% of the votes](./img/dual-class-votes.svg)
+
 ## Why it is controversial
 
 - **For:** supporters argue that visionary founders can focus on the long term without being pushed around by short-term shareholders.

@@ -1,0 +1,27 @@
+---
+/** One illustration from the icon set (decorative: hidden from screen readers). */
+import { ICONS, type IconName } from './icons';
+
+interface Props {
+  name: IconName;
+  size?: number;
+  class?: string;
+  strokeWidth?: number;
+}
+const { name, size = 24, class: className, strokeWidth = 2.5 } = Astro.props;
+---
+
+<svg
+  viewBox="0 0 48 48"
+  width={size}
+  height={size}
+  class:list={['shrink-0', className]}
+  fill="none"
+  stroke="currentColor"
+  stroke-width={strokeWidth}
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+  set:html={ICONS[name]}
+/>

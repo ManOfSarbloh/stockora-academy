@@ -30,6 +30,8 @@ Aswath Damodaran at NYU Stern publishes yearly US returns for several asset clas
 | Gold | 5.6% | 21.5% | 34 | −32.6% (1981) |
 | 3-month US Treasury bills (cash-like) | 3.4% | 3.0% | 0 | +0.03% (2014) |
 
+![Scatter chart of return against volatility: small company shares highest on both, Treasury bills lowest, gold as volatile as large company shares but with a lower return](./img/asset-classes-risk-return.svg)
+
 *"Worst year" for bills is the lowest positive year. See the dataset's notes for how each series is measured.*
 
 ## What stands out

@@ -48,6 +48,8 @@ FTSE Russell uses four groups: **Developed, Advanced Emerging, Secondary Emergin
 > [!EXAMPLE] A market moving up: Greece
 > FTSE Russell reclassified **Greece** from Advanced Emerging to **Developed** status, effective from the **September 2026** semi-annual review of its global equity indexes. Index funds tracking FTSE's developed and emerging indexes must adjust their holdings at such changes.
 
+![Four columns grouping this site's 20 countries by FTSE Russell classification: 17 developed, Taiwan advanced emerging, China and India secondary emerging, none frontier](./img/ftse-classification-our-countries.svg)
+
 ## Why classifications matter
 
 - **Fund contents:** a "Developed World" ETF and an "Emerging Markets" ETF hold different countries according to these lists (Category H).

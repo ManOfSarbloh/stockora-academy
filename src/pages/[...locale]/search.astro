@@ -88,7 +88,7 @@ const examples = [t('search.example1'), t('search.example2'), t('search.example3
 ---
 
 <BaseLayout title={t('search.title')} description={t('search.lead')} searchable={false}>
-  <PageHeader title={t('search.title')} lead={t('search.lead')} />
+  <PageHeader art="search" title={t('search.title')} lead={t('search.lead')} />
   <div class="container-page max-w-4xl py-10">
     <form id="search-form" role="search" class="relative" action={url('/search/')} method="get">
       <label for="search-input" class="sr-only">{t('search.label')}</label>

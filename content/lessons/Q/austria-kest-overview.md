@@ -33,6 +33,8 @@ According to § 27a EStG and the BMF, most income from capital assets is taxed a
 > [!EXAMPLE] A dividend from an Austrian company
 > You receive a gross dividend of **€100** from an Austrian stock corporation. **€27.50** KESt is withheld; **€72.50** is paid to you. Nothing more needs to be declared for this dividend.
 
+![A bar split into €72.50 paid to you and €27.50 KESt withheld by the bank from a €100 gross dividend](./img/kest-dividend.svg)
+
 ## KESt: tax withheld at source
 
 The BMF explains that if a **domestic** custodian or paying agent, such as an Austrian bank, is involved, the tax is usually collected by **deduction**: the bank withholds the **capital gains tax (Kapitalertragsteuer, KESt)** and pays it to the tax office. For Austrian dividends, the distributing company withholds it.

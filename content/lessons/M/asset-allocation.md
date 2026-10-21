@@ -45,6 +45,8 @@ The table below uses Damodaran's yearly US data for the S&P 500 (with dividends)
 | 20 / 80 | 6.0% | 15 | −17.9% (2022) | −17.9% | +8.8% | −17.9% |
 | 0 / 100 | 4.5% | 20 | −17.8% (2022) | −21.5% | +20.1% | −17.8% |
 
+![For each share/bond mix, an upward bar for the average yearly return (10.0% down to 4.5%) and a downward bar for the worst calendar year (−43.8% up to −17.8%)](./img/mixes-return-vs-worst-year.svg)
+
 *Own calculation from Damodaran's annual returns. "Average yearly return" is the compound annual growth rate. "Worst fall" is measured on year-end values only; falls within a year were deeper.*
 
 What the table shows:

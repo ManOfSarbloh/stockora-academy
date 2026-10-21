@@ -2,6 +2,7 @@
 import { withLocales } from '@/i18n/pages';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
+import { topicIcon } from '@/components/art/icons';
 import VideoList from '@/components/VideoList.astro';
 import QuizSection from '@/components/quiz/QuizSection.astro';
 import { getCategories, type Category } from '@/lib/categories';
@@ -41,7 +42,7 @@ const { category: c, lessons, prev, next } = Astro.props;
     { name: `${c.id}. ${c.title}`, url: absoluteUrl(`/learn/${c.slug}`, Astro.site) },
   ])}
 >
-  <PageHeader title={c.title} lead={c.summary} eyebrow={`${t('learn.title')} · ${c.id}`}>
+  <PageHeader art={topicIcon(c.id)} title={c.title} lead={c.summary} eyebrow={`${t('learn.title')} · ${c.id}`}>
     <div class="mt-5 flex flex-wrap items-center gap-4">
       {lessons[0] && <a href={url(lessons[0].href)} class="btn btn-primary">{t('learn.startTopic')}</a>}
       <a href={url('/learn')} class="text-sm font-medium">← {t('learn.backToTopics')}</a>

@@ -47,6 +47,8 @@ The **average** of yearly returns is not the same as what your money actually ea
 > €1,000 rises 50% to €1,500, then falls 50% to **€750**.
 > The arithmetic average return is (50% − 50%) ÷ 2 = **0%**. Your actual result: **−25%**.
 
+![Bars: €1,000 rises 50% to €1,500, then falls 50% to €750; the average return is 0% but the result is −25%](./img/volatility-drag.svg)
+
 The return your money actually earns over time is the **compound (geometric) return**. The more volatile the returns, the bigger the gap below the arithmetic average. This gap is often called **volatility drag**.
 
 > [!EXAMPLE] The gap in real data

@@ -53,6 +53,8 @@ This is one of the most important facts in investing. After a loss, you need a *
 | −80% | +400% |
 | −90% | +900% |
 
+![Bars on one scale: a loss of 10% needs a gain of 11.1%, 20% needs 25%, 33% needs 50%, 50% needs 100% and 80% needs 400%](./img/loss-gain-asymmetry.svg)
+
 Formula: gain needed = 1 ÷ (1 − loss) − 1.
 
 > [!EXAMPLE] Losing half

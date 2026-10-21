@@ -59,6 +59,8 @@ Both explain price drops that are **not losses** for existing shareholders.
 >
 > The share closed at €30.20, down 3.8%, but "eD" shows that it went ex-dividend that day. With a dividend of €1.10, most of the fall is the dividend deduction, not a loss.
 
+![An annotated fictional quote line showing name, market segment, high/low/close with "eD", change, volume and turnover](./img/quote-line-annotated.svg)
+
 ## Same share, different numbers
 
 You may see slightly different prices for the same share on different sites. Reasons include:

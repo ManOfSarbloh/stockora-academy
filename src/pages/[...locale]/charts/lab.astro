@@ -12,7 +12,7 @@ import { url } from '@/lib/url';
 ---
 
 <BaseLayout title={t('cl.title')} description={t('cl.lead')}>
-  <PageHeader title={t('cl.title')} lead={t('cl.lead')} eyebrow={t('nav.charts')}>
+  <PageHeader art="candles" title={t('cl.title')} lead={t('cl.lead')} eyebrow={t('nav.charts')}>
     <p class="mt-4 text-sm">
       <a href={url('/charts')}>← {t('cc.backToSchool')}</a> · <a href={url('/charts/candles')}>{t('cc.title')}</a> · <a href={url('/charts/quiz')}>{t('cq.title')}</a>
     </p>

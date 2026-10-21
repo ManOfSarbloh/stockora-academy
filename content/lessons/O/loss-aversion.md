@@ -27,6 +27,8 @@ The FMA describes **loss aversion**: the subjective value of a gain is often rat
 > [!EXAMPLE] A coin toss
 > Would you accept a bet where heads wins €110 and tails loses €100? On average it pays €5 per toss. Loss aversion predicts that many people will still hesitate, because the possible loss feels bigger than the larger possible gain.
 
+![Illustration: the curve for losses drops more steeply than the curve for gains rises, so losing €100 feels worse than winning €100 feels good](./img/loss-aversion-curve.svg)
+
 ## The disposition effect: selling winners, keeping losers
 
 Loss aversion shows up in what investors sell. The FMA notes that shares that have done well are regularly sold first, but not those that have produced losses.

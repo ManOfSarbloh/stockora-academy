@@ -30,6 +30,8 @@ The difference between the price you expected and the price you got is called **
 >
 > You buy 200 × €20.02 + 300 × €20.10 = €4,004 + €6,030 = **€10,034**, an average of about **€20.07** per share, not €20.00. The slippage cost you about €34.
 
+![A market order for 500 shares fills 200 at €20.02 and 300 at €20.10: €10,034 in total, about €20.07 a share instead of €20.00](./img/market-order-slippage.svg)
+
 ## Limit order
 
 A **limit order** says: "buy at this price **or lower**" (or "sell at this price **or higher**").

@@ -28,7 +28,7 @@ const lastReviewed = [...steps, ...cases].map((e) => e.data.lastReviewed).sort()
 ---
 
 <BaseLayout title={t('hsm.title')} description={t('hsm.lead')}>
-  <PageHeader title={t('hsm.title')} lead={t('hsm.lead')} eyebrow={t('hsm.eyebrow')}>
+  <PageHeader art="sprout" title={t('hsm.title')} lead={t('hsm.lead')} eyebrow={t('hsm.eyebrow')}>
     <p class="mt-4 text-sm text-muted">
       {t('learn.lastReviewed')}: <time datetime={lastReviewed}>{lastReviewed}</time> ·
       <a href="#case-studies">{t('hsm.cases.title')}</a> ·

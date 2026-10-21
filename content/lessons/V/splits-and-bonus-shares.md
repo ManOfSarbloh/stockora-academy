@@ -29,6 +29,8 @@ The Wiener Börse defines a **share split** as dividing the share capital into s
 > After a two-for-one split you own **200 shares at $50**: still $10,000.
 > If the company pays a dividend, the dividend **per share** also falls proportionately.
 
+![A square of 100 shares at $100 becomes the same-sized square cut into 200 shares at $50: $10,000 either way](./img/stock-split-2-for-1.svg)
+
 Why split? Investor.gov notes that companies often split to make their shares more **affordable** to investors. A lower price per share can make it easier to buy small amounts, although fractional shares (Category C) do much the same.
 
 > [!AUSTRIA] There is a lower limit

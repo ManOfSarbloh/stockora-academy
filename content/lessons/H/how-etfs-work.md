@@ -24,6 +24,8 @@ An **exchange-traded fund (ETF)** is a fund whose units are traded on a stock ex
 - **Creation:** an authorised participant delivers a basket of the underlying securities (or cash) to the ETF and receives a block of new ETF units, which it can then sell on the exchange.
 - **Redemption:** the reverse: it returns a block of ETF units to the fund and receives the underlying securities (or cash).
 
+![Diagram: investors trade existing ETF units on the exchange; authorised participants create units by delivering a basket of securities to the fund, or redeem units for the basket](./img/how-an-etf-works.svg)
+
 ## Why the price stays close to the value
 
 The ETF calculates its **net asset value (NAV)** every business day. During the day, the market price can be a little above (**premium**) or below (**discount**) the value of its holdings. If the gap gets big enough, authorised participants can profit from it, and their trades push the price back:

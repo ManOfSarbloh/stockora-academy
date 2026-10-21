@@ -61,6 +61,8 @@ Alpenrad AG is our made-up Austrian bicycle maker. Its balance sheet at 31 Decem
 
 Check: 300 + 200 = 500. It balances.
 
+![Two stacked columns: Alpenrad's assets of €500 million on the left equal liabilities of €300 million plus equity of €200 million on the right](./img/balance-sheet-alpenrad.svg)
+
 ## Numbers you can calculate
 
 **Working capital** = current assets − current liabilities. The SEC guide describes it as the money left over if a company paid its current liabilities from its current assets.
