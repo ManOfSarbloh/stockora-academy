@@ -28,6 +28,9 @@ You chose a mix, say 60% shares and 40% bonds. A year later shares have risen st
 >
 > To return to 60/40: target shares = 0.60 × 115,000 = €69,000. Sell **€6,000** of shares and buy **€6,000** of bonds.
 
+> [!ANIMATION] rebalancing
+> The 60/40 mix drifts to 65% shares after shares rise 25%; moving €6,000 from shares to bonds restores 60/40.
+
 The SEC's guide uses a similar example: a target of 60% shares that grew to 80% after a market rise.
 
 ## Three ways to rebalance

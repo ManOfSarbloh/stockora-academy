@@ -54,6 +54,9 @@ If prices fall, Investor.gov warns that your broker can require you to deposit m
 > - Margin call: add money, or the broker sells. If it sells at €7,000, you are left with **€2,000**: a 60% loss on your own money from a 30% fall.
 > - If the shares later recover, you no longer own them.
 
+> [!ANIMATION] margin-call
+> A 30% fall takes your equity from €5,000 to €2,000, or 29% of the position, below the broker's 30% minimum: a margin call.
+
 ## Margin in derivatives
 
 With futures and other derivatives, **margin** is the collateral you deposit. The Wiener Börse lexicon distinguishes the **initial margin**, deposited to open a futures position, and the **variation margin**, which settles gains and losses **daily**. A losing position requires fresh money every day, which can force you to close it.

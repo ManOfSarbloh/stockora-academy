@@ -19,6 +19,7 @@ const C = {
   pale: '#E9F1F6',
   up: '#16834a',
   down: '#c8352f',
+  amber: '#c98500',
   text: '#1a2433',
   muted: '#516075',
   grid: '#e3e8ee',
@@ -422,6 +423,252 @@ const write = (name, svg) => {
   b += T(tx, 264, '$10,000', { size: 22, weight: 700, fill: C.navy }) + T(tx + 110, 264, 'unchanged', { size: 13, weight: 700, fill: C.up });
   b += T(32, 318, 'Your slice of the company stays the same; there are just more, cheaper shares.', { size: 12.5, fill: C.muted });
   write(name, doc(name, W, H, css, b, 'Animation: 100 shares at $100 each, worth $10,000, are each cut in two by a 2-for-1 split, giving 200 shares at $50 each, still worth $10,000'));
+}
+
+// ---- 7. A buy limit order: filled, or left waiting (F: market-and-limit-orders) ----------------------
+{
+  const name = 'limit-order';
+  const P = 'lo';
+  const W = 740;
+  const H = 330;
+  const DUR = 8;
+  const py = (p) => 260 - ((p - 46) / 16) * 190; // €46–62
+  const panel = (x0, title, pts, cls) => {
+    const xs = (i) => x0 + 20 + (i / (pts.length - 1)) * 270;
+    const line = pts.map((p, i) => `${r(xs(i))},${r(py(p))}`).join(' ');
+    let len = 0;
+    for (let i = 1; i < pts.length; i++) len += Math.hypot(xs(i) - xs(i - 1), py(pts[i]) - py(pts[i - 1]));
+    let g = T(x0 + 20, 74, title, { size: 13, weight: 700 });
+    for (const p of [48, 50, 52, 56, 60]) g += `<line x1="${x0 + 20}" x2="${x0 + 290}" y1="${r(py(p))}" y2="${r(py(p))}" stroke="${C.grid}"/>` + T(x0 + 14, py(p) + 4, eur(p), { size: 11, fill: C.muted, anchor: 'end' });
+    g += `<line x1="${x0 + 20}" x2="${x0 + 290}" y1="${r(py(50))}" y2="${r(py(50))}" stroke="${C.teal}" stroke-width="2" stroke-dasharray="6 4"/>`;
+    g += T(x0 + 290, py(50) + 16, 'your buy limit €50', { size: 11.5, weight: 700, fill: C.teal, anchor: 'end' });
+    g += `<polyline class="${P}-${cls}" points="${line}" fill="none" stroke="${C.slate}" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" style="stroke-dasharray:${r(len)}"/>`;
+    return { g, len, xs };
+  };
+  const a = panel(20, 'If the price falls to €50', [52, 52.6, 51.4, 51.8, 50.6, 50, 51, 52.4], 'la');
+  const b = panel(390, 'If it never gets there', [52, 53, 52.4, 54, 55.5, 55, 57.5, 60], 'lb');
+  const hit = a.xs(5);
+  const css = [
+    `@keyframes ${P}-draw-a{0%{stroke-dashoffset:${r(a.len)}}${pctKey(3.4 / DUR)},100%{stroke-dashoffset:0}}`,
+    `@keyframes ${P}-draw-b{0%,${pctKey(4 / DUR)}{stroke-dashoffset:${r(b.len)}}${pctKey(7.4 / DUR)},100%{stroke-dashoffset:0}}`,
+    `.${P}-la,.${P}-lb{stroke-dashoffset:0}`,
+    `.anim-armed .${P}-la{animation:${P}-draw-a ${DUR}s linear both}`,
+    `.anim-armed .${P}-lb{animation:${P}-draw-b ${DUR}s linear both}`,
+    fadeIn(`${P}-hit`, 2.4 / DUR),
+    fadeIn(`${P}-miss`, 7.4 / DUR),
+    `.anim-armed .${P}-hit{animation:${P}-hit ${DUR}s linear both}`,
+    `.anim-armed .${P}-miss{animation:${P}-miss ${DUR}s linear both}`,
+  ].join('');
+  let body = T(32, 34, 'A buy limit order at €50 while the share trades at €52', { size: 16, weight: 700 });
+  body += a.g + b.g;
+  body += `<g class="${P}-hit"><circle cx="${r(hit)}" cy="${r(py(50))}" r="8" fill="${C.up}" stroke="${C.white}" stroke-width="2"/>`;
+  body += `<rect x="60" y="282" width="270" height="34" rx="17" fill="${C.up}"/>` + T(195, 304, 'Executed at €50 or less', { anchor: 'middle', weight: 700, fill: C.white }) + `</g>`;
+  body += `<g class="${P}-miss"><rect x="430" y="282" width="270" height="34" rx="17" fill="${C.down}"/>` + T(565, 304, 'Never filled: you miss the rise to €60', { anchor: 'middle', size: 12.5, weight: 700, fill: C.white }) + `</g>`;
+  write(name, doc(name, W, H, css, body, 'Animation: a buy limit order at €50 placed while the share trades at €52; if the price falls to €50 the order executes at €50 or less; if the price never falls that far the order stays unexecuted and you miss a rise to €60'));
+}
+
+// ---- 8. The cost-average effect (M: savings-plans-and-lump-sums; €100 a month) -----------------------
+{
+  const name = 'cost-average';
+  const P = 'ca';
+  const W = 760;
+  const H = 360;
+  const DUR = 8;
+  const months = [
+    [50, 2.0],
+    [40, 2.5],
+    [25, 4.0],
+    [50, 2.0],
+  ];
+  const base = 300;
+  const k = 3.6; // px per € of price
+  const t0 = (i) => 0.3 + i * 1.3;
+  const css = [
+    `.${P}-bar{transform-box:fill-box;transform-origin:50% 100%}`,
+    `@keyframes ${P}-grow{from{transform:scaleY(0)}to{transform:scaleY(1)}}`,
+    `@keyframes ${P}-fade{from{opacity:0}to{opacity:1}}`,
+    `.anim-armed .${P}-bar{animation:${P}-grow .5s ease-out both}`,
+    `.anim-armed .${P}-f{animation:${P}-fade .45s ease-out both}`,
+  ].join('');
+  let b = T(32, 34, '€100 every month, whatever the price', { size: 16, weight: 700 });
+  b += T(40, 66, 'Price per unit', { size: 12.5, weight: 600, fill: C.muted });
+  months.forEach(([price, units], i) => {
+    const x = 60 + i * 100;
+    const st = (d) => `style="animation-delay:${r(t0(i) + d)}s"`;
+    b += `<rect class="${P}-bar" ${st(0)} x="${x}" y="${r(base - price * k)}" width="56" height="${r(price * k)}" rx="5" fill="${C.light}"/>`;
+    b += `<g class="${P}-f" ${st(0.3)}>${T(x + 28, base - price * k - 8, eur(price), { anchor: 'middle', weight: 700 })}</g>`;
+    b += T(x + 28, base + 20, `Month ${i + 1}`, { anchor: 'middle', size: 12, fill: C.muted });
+    // units bought: one block per half unit
+    const blocks = Math.round(units * 2);
+    let g = '';
+    for (let j = 0; j < blocks; j++) g += `<rect x="${x + 8 + (j % 4) * 11}" y="${r(base - 16 - Math.floor(j / 4) * 12)}" width="9" height="9" rx="2" fill="${C.teal}"/>`;
+    b += `<g class="${P}-f" ${st(0.6)}>${g}${T(x + 28, base + 38, `${units.toFixed(2)} units`, { anchor: 'middle', size: 12, weight: 700, fill: C.teal })}</g>`;
+  });
+  const rx = 470;
+  b += `<rect x="${rx}" y="60" width="260" height="250" rx="12" fill="${C.white}" stroke="${C.light}"/>`;
+  const line = (y, label, value, d, o = {}) =>
+    `<g class="${P}-f" style="animation-delay:${r(d)}s">${T(rx + 18, y, label, { size: 12.5, fill: C.muted })}${T(rx + 242, y, value, { anchor: 'end', size: o.size ?? 13.5, weight: 700, fill: o.fill ?? C.text })}</g>`;
+  b += T(rx + 18, 88, 'After four months', { weight: 700 });
+  b += line(120, 'Invested', '€400', t0(3) + 1);
+  b += line(146, 'Units bought', '10.50', t0(3) + 1.2);
+  b += line(182, 'Average cost per unit', '≈ €38.10', t0(3) + 1.5, { fill: C.teal, size: 14.5 });
+  b += line(208, 'Average of the four prices', '€41.25', t0(3) + 1.8);
+  b += `<g class="${P}-f" style="animation-delay:${r(t0(3) + 2.2)}s"><line x1="${rx + 18}" x2="${rx + 242}" y1="226" y2="226" stroke="${C.grid}"/>${T(rx + 18, 252, 'Worth at €50: 10.5 × €50 = €525', { size: 13, weight: 700 })}${T(rx + 18, 276, 'a gain of 31%, although the price only', { size: 12, fill: C.muted })}${T(rx + 18, 293, 'returned to where it started', { size: 12, fill: C.muted })}</g>`;
+  write(name, doc(name, W, H, css, b, 'Animation: €100 a month buys 2 units at €50, 2.5 at €40, 4 at €25 and 2 at €50: 10.5 units for €400, an average cost of about €38.10 against an average price of €41.25; at €50 the holding is worth €525'));
+}
+
+// ---- 9. Rebalancing back to 60/40 (M: rebalancing) -----------------------------------------------------
+{
+  const name = 'rebalancing';
+  const P = 'rb';
+  const W = 740;
+  const H = 340;
+  const DUR = 8;
+  const at = (sec) => pctKey(sec / DUR);
+  const base = 270;
+  const k = 2.4; // px per € thousand
+  const sx = 120;
+  const bx = 300;
+  const hS = (v) => r(v * k);
+  const css = [
+    `.${P}-sh{transform-box:fill-box;transform-origin:50% 100%}`,
+    // shares: 60 → 75 (rise) → 69 (sell 6)
+    `@keyframes ${P}-sh{0%,${at(0.6)}{transform:scaleY(${r(60 / 69)})}${at(2.4)},${at(4.6)}{transform:scaleY(${r(75 / 69)})}${at(6.2)},100%{transform:scaleY(1)}}`,
+    `@keyframes ${P}-bo{0%,${at(4.6)}{transform:scaleY(${r(40 / 46)})}${at(6.2)},100%{transform:scaleY(1)}}`,
+    `@keyframes ${P}-chip{0%,${at(4.4)}{transform:translate(0,${hS(-6)}px);opacity:0}${at(4.6)}{opacity:1;transform:translate(0,${hS(-6)}px)}${at(6.0)}{opacity:1;transform:translate(${bx - sx}px,${hS(-6)}px)}${at(6.3)},100%{opacity:0;transform:translate(${bx - sx}px,${hS(-6)}px)}}`,
+    `.${P}-chip{opacity:0}`,
+    `.anim-armed .${P}-shares{animation:${P}-sh ${DUR}s ease-in-out both}`,
+    `.anim-armed .${P}-bonds{animation:${P}-bo ${DUR}s ease-in-out both}`,
+    `.anim-armed .${P}-chip{animation:${P}-chip ${DUR}s ease-in-out both}`,
+    ...[
+      ['s1', 0, 2.4],
+      ['s2', 2.4, 6.2],
+      ['s3', 6.2, null],
+    ].map(([id, from, to]) =>
+      to === null
+        ? `@keyframes ${P}-${id}{0%,${at(from)}{opacity:0}${at(from + 0.3)},100%{opacity:1}}.anim-armed .${P}-${id}{animation:${P}-${id} ${DUR}s linear both}`
+        : `@keyframes ${P}-${id}{0%,${at(from)}{opacity:${from === 0 ? 1 : 0}}${at(from + 0.01)}{opacity:1}${at(to)}{opacity:1}${at(to + 0.01)},100%{opacity:0}}.${P}-${id}{opacity:0}.anim-armed .${P}-${id}{animation:${P}-${id} ${DUR}s linear both}`,
+    ),
+  ].join('');
+  let b = T(32, 34, 'Rebalancing a 60/40 mix after a good year for shares', { size: 16, weight: 700 });
+  b += `<line x1="80" x2="420" y1="${base}" y2="${base}" stroke="${C.text}" stroke-width="1.5"/>`;
+  // final heights: shares 69, bonds 46 (€ thousand); earlier frames are scaled versions of these
+  b += `<rect class="${P}-sh ${P}-shares" x="${sx}" y="${base - 69 * k}" width="90" height="${69 * k}" rx="6" fill="${C.navy}"/>`;
+  b += `<rect class="${P}-sh ${P}-bonds" x="${bx}" y="${base - 46 * k}" width="90" height="${46 * k}" rx="6" fill="${C.light}"/>`;
+  b += `<g class="${P}-chip"><rect x="${sx + 10}" y="${base - 75 * k}" width="70" height="${6 * k * 2.2}" rx="5" fill="${C.amber}"/>${T(sx + 45, base - 75 * k + 22, '€6,000', { anchor: 'middle', size: 12.5, weight: 700, fill: C.white })}</g>`;
+  b += T(sx + 45, base + 22, 'Shares', { anchor: 'middle', weight: 700 }) + T(bx + 45, base + 22, 'Bonds', { anchor: 'middle', weight: 700 });
+  const card = (cls, lines) =>
+    `<g class="${cls}"><rect x="450" y="70" width="270" height="170" rx="12" fill="${C.white}" stroke="${C.light}"/>${lines
+      .map(([s, o], i) => T(468, 100 + i * 26, s, o))
+      .join('')}</g>`;
+  b += card(`${P}-s1`, [
+    ['Start: €100,000', { weight: 700 }],
+    ['Shares €60,000 · bonds €40,000', {}],
+    ['Mix: 60% shares', { weight: 700, fill: C.navy }],
+  ]);
+  b += card(`${P}-s2`, [
+    ['Shares rise 25%, bonds stay flat', { weight: 700 }],
+    ['Shares €75,000 · bonds €40,000', {}],
+    ['Total €115,000', {}],
+    ['Mix: 75 ÷ 115 = 65% shares', { weight: 700, fill: C.amber }],
+  ]);
+  b += card(`${P}-s3`, [
+    ['Back to 60/40', { weight: 700 }],
+    ['Target: 0.60 × €115,000 = €69,000', { size: 12.5 }],
+    ['Sell €6,000 shares, buy €6,000 bonds', { size: 12.5 }],
+    ['Shares €69,000 · bonds €46,000', {}],
+    ['Mix: 60% shares again', { weight: 700, fill: C.up }],
+  ]);
+  write(name, doc(name, W, H, css, b, 'Animation: a €100,000 portfolio with €60,000 in shares and €40,000 in bonds; shares rise 25% to €75,000, so the mix drifts to 65% shares; selling €6,000 of shares and buying €6,000 of bonds restores 60/40 with €69,000 and €46,000'));
+}
+
+// ---- 10. A short sale: limited gain, unlimited loss (N: short-selling) ---------------------------------
+{
+  const name = 'short-sale';
+  const P = 'sh';
+  const W = 760;
+  const H = 360;
+  const DUR = 9;
+  const py = (p) => 320 - (p / 200) * 260; // €0–200
+  const steps = [
+    ['1', 'Borrow 100 shares'],
+    ['2', 'Sell them at €50: you receive €5,000'],
+    ['3', 'Later, buy 100 shares back'],
+    ['4', 'Return them to the lender'],
+  ];
+  const outcomes = [
+    [40, 'Buy back at €40: €4,000', 'Profit €1,000', C.up, 3.0],
+    [80, 'Buy back at €80: €8,000', 'Loss €3,000', C.down, 5.0],
+    [200, 'Buy back at €200: €20,000', 'Loss €15,000, three times what you received', C.down, 7.2],
+  ];
+  const css = [
+    `@keyframes ${P}-mk{0%,${pctKey(1.6 / DUR)}{transform:translateY(${r(py(50))}px)}${pctKey(2.8 / DUR)},${pctKey(3.6 / DUR)}{transform:translateY(${r(py(40))}px)}${pctKey(4.8 / DUR)},${pctKey(5.6 / DUR)}{transform:translateY(${r(py(80))}px)}${pctKey(7.0 / DUR)},100%{transform:translateY(${r(py(200))}px)}}`,
+    `.${P}-mk{transform:translateY(${r(py(200))}px)}.anim-armed .${P}-mk{animation:${P}-mk ${DUR}s ease-in-out both}`,
+    ...steps.map((_, i) => fadeIn(`${P}-st${i}`, (0.2 + i * 0.45) / DUR) + `.anim-armed .${P}-st${i}{animation:${P}-st${i} ${DUR}s linear both}`),
+    ...outcomes.map(([, , , , t], i) => fadeIn(`${P}-o${i}`, t / DUR) + `.anim-armed .${P}-o${i}{animation:${P}-o${i} ${DUR}s linear both}`),
+  ].join('');
+  let b = T(32, 34, 'Selling short 100 shares at €50', { size: 16, weight: 700 });
+  steps.forEach(([n, s], i) => {
+    const y = 74 + i * 36;
+    b += `<g class="${P}-st${i}"><circle cx="48" cy="${y - 4}" r="12" fill="${C.navy}"/>${T(48, y + 1, n, { anchor: 'middle', size: 12.5, weight: 700, fill: C.white })}${T(70, y, s, { size: 13, weight: 600 })}</g>`;
+  });
+  // price ruler
+  const rx = 390;
+  for (const p of [0, 50, 100, 150, 200]) b += `<line x1="${rx}" x2="${rx + 26}" y1="${r(py(p))}" y2="${r(py(p))}" stroke="${C.grid}"/>` + T(rx - 6, py(p) + 4, eur(p), { size: 11.5, fill: C.muted, anchor: 'end' });
+  b += `<line x1="${rx + 13}" x2="${rx + 13}" y1="${r(py(200))}" y2="${r(py(0))}" stroke="${C.light}" stroke-width="3" stroke-linecap="round"/>`;
+  b += `<line x1="${rx}" x2="${rx + 345}" y1="${r(py(50))}" y2="${r(py(50))}" stroke="${C.navy}" stroke-dasharray="5 4"/>` + T(rx + 345, py(50) - 6, 'sold at €50', { size: 11.5, weight: 700, fill: C.navy, anchor: 'end' });
+  outcomes.forEach(([p, a, c, fill], i) => {
+    const y = py(p);
+    const ty = i === 0 ? y + 22 : y - 4;
+    b += `<g class="${P}-o${i}"><circle cx="${rx + 13}" cy="${r(y)}" r="6" fill="${fill}"/>${T(rx + 40, ty, a, { size: 12.5, weight: 600 })}${T(rx + 40, ty + 17, c, { size: 12.5, weight: 700, fill })}</g>`;
+  });
+  b += `<g class="${P}-mk"><path d="M${rx - 2} 0l-9-6v12z" fill="${C.teal}"/></g>`;
+  b += T(32, 236, 'The most you can gain is the €5,000 you received,', { size: 12.5, fill: C.muted }) + T(32, 254, 'if the price falls to zero. The loss has no limit.', { size: 12.5, weight: 700, fill: C.down });
+  write(name, doc(name, W, H, css, b, 'Animation: you sell 100 borrowed shares at €50 and receive €5,000; buying back at €40 costs €4,000, a €1,000 profit; at €80 it costs €8,000, a €3,000 loss; at €200 it costs €20,000, a €15,000 loss; the gain is limited but the loss is not'));
+}
+
+// ---- 11. A margin call (N: leverage-and-margin) ------------------------------------------------------
+{
+  const name = 'margin-call';
+  const P = 'mc';
+  const W = 760;
+  const H = 360;
+  const DUR = 8;
+  const at = (sec) => pctKey(sec / DUR);
+  const base = 300;
+  const k = 0.022; // px per €
+  const x = 60;
+  const css = [
+    `.${P}-eq{transform-box:fill-box;transform-origin:50% 100%}`,
+    // equity bar sits on top of the loan: €5,000 shrinking to €2,000 (final), so scale from 5000/2000 to 1
+    `@keyframes ${P}-eq{0%,${at(1)}{transform:scaleY(2.5)}${at(4)},100%{transform:scaleY(1)}}`,
+    `.anim-armed .${P}-eq{animation:${P}-eq ${DUR}s ease-in-out both}`,
+    `@keyframes ${P}-gauge{0%,${at(1)}{transform:scaleX(${r(50 / 28.57)})}${at(4)},100%{transform:scaleX(1)}}`,
+    `.${P}-gfill{transform-box:fill-box;transform-origin:0 50%}.anim-armed .${P}-gfill{animation:${P}-gauge ${DUR}s ease-in-out both}`,
+    `@keyframes ${P}-t50{0%,${at(3.9)}{opacity:1}${at(4)},100%{opacity:0}}@keyframes ${P}-t29{0%,${at(3.9)}{opacity:0}${at(4)},100%{opacity:1}}`,
+    `.${P}-t50{opacity:0}.anim-armed .${P}-t50{animation:${P}-t50 ${DUR}s linear both}.anim-armed .${P}-t29{animation:${P}-t29 ${DUR}s linear both}`,
+    `@keyframes ${P}-p10{0%,${at(3.9)}{opacity:1}${at(4)},100%{opacity:0}}@keyframes ${P}-p7{0%,${at(3.9)}{opacity:0}${at(4)},100%{opacity:1}}`,
+    `.${P}-p10{opacity:0}.anim-armed .${P}-p10{animation:${P}-p10 ${DUR}s linear both}.anim-armed .${P}-p7{animation:${P}-p7 ${DUR}s linear both}`,
+    fadeIn(`${P}-call`, 4.4 / DUR) + `.anim-armed .${P}-call{animation:${P}-call ${DUR}s linear both}`,
+    fadeIn(`${P}-sold`, 6 / DUR) + `.anim-armed .${P}-sold{animation:${P}-sold ${DUR}s linear both}`,
+  ].join('');
+  let b = T(32, 34, 'Buying €10,000 of shares with €5,000 of your own money', { size: 16, weight: 700 });
+  b += `<rect x="${x}" y="${base - 5000 * k}" width="110" height="${5000 * k}" rx="6" fill="${C.slate}"/>` + T(x + 55, base - 2500 * k + 5, 'Loan €5,000', { anchor: 'middle', size: 12.5, weight: 700, fill: C.white });
+  b += `<rect class="${P}-eq" x="${x}" y="${base - 7000 * k}" width="110" height="${2000 * k}" rx="6" fill="${C.teal}"/>`;
+  b += T(x + 55, base + 22, 'Your position', { anchor: 'middle', weight: 700 });
+  b += `<g class="${P}-p10">${T(x + 124, base - 10000 * k + 14, 'Worth €10,000', { size: 12.5, weight: 700 })}${T(x + 124, base - 7500 * k + 4, 'Your money €5,000', { size: 12.5, weight: 700, fill: C.teal })}</g>`;
+  b += `<g class="${P}-p7">${T(x + 124, base - 7000 * k + 14, 'Shares fall 30%: €7,000', { size: 12.5, weight: 700 })}${T(x + 124, base - 7000 * k + 34, 'Yours: €7,000 − €5,000', { size: 12.5, weight: 700, fill: C.teal })}${T(x + 124, base - 7000 * k + 52, '= €2,000', { size: 12.5, weight: 700, fill: C.teal })}</g>`;
+  // equity share gauge
+  const gx = 470;
+  const gw = 260;
+  b += T(gx, 86, 'Your equity as a share of the position', { size: 12.5, weight: 600, fill: C.muted });
+  b += `<rect x="${gx}" y="98" width="${gw}" height="22" rx="11" fill="${C.pale}" stroke="${C.light}"/>`;
+  b += `<rect class="${P}-gfill" x="${gx}" y="98" width="${r(gw * 0.2857)}" height="22" rx="11" fill="${C.teal}"/>`;
+  b += `<line x1="${r(gx + gw * 0.3)}" x2="${r(gx + gw * 0.3)}" y1="92" y2="126" stroke="${C.down}" stroke-width="2.5"/>` + T(gx + gw * 0.3, 142, 'broker minimum 30%', { size: 11.5, weight: 700, fill: C.down, anchor: 'middle' });
+  b += `<g class="${P}-t50">${T(gx + gw, 86, '50%', { size: 13, weight: 700, anchor: 'end' })}</g><g class="${P}-t29">${T(gx + gw, 86, '29%', { size: 13, weight: 700, fill: C.down, anchor: 'end' })}</g>`;
+  b += `<g class="${P}-call"><rect x="${gx}" y="160" width="${gw}" height="50" rx="10" fill="${C.down}"/>${T(gx + gw / 2, 181, 'Margin call', { anchor: 'middle', size: 14, weight: 700, fill: C.white })}${T(gx + gw / 2, 199, 'add money, or the broker sells', { anchor: 'middle', size: 12.5, fill: C.white })}</g>`;
+  b += `<g class="${P}-sold">${T(gx, 238, 'If it sells at €7,000, you keep €2,000:', { size: 13, weight: 700 })}${T(gx, 258, 'a 60% loss on your own money', { size: 13, weight: 700, fill: C.down })}${T(gx, 276, 'from a 30% fall.', { size: 13, weight: 700, fill: C.down })}${T(gx, 302, 'If the shares recover later,', { size: 12.5, fill: C.muted })}${T(gx, 320, 'you no longer own them.', { size: 12.5, fill: C.muted })}</g>`;
+  write(name, doc(name, W, H, css, b, 'Animation: €10,000 of shares bought with €5,000 of your own money and a €5,000 loan; the shares fall 30% to €7,000, your equity drops to €2,000 or 29% of the position, below the broker\'s 30% minimum; a margin call follows, and if the broker sells you keep €2,000, a 60% loss'));
 }
 
 console.log(`Wrote ${out.length} animations: ${out.join(', ')}`);

@@ -36,6 +36,9 @@ Investor.gov explains: by investing the same amount at regular intervals regardl
 >
 > Because more units were bought at low prices, the average cost is below the average price. At the end, with the price back at €50, the holding is worth 10.5 × 50 = **€525**, a gain of 31% although the price only returned to where it started.
 
+> [!ANIMATION] cost-average
+> Each month €100 buys more units when the price is low and fewer when it is high, so the average cost (€38.10) ends up below the average price (€41.25).
+
 ## What a savings plan does well
 
 - **Discipline:** money is invested automatically, without needing to decide each month.

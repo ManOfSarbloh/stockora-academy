@@ -31,6 +31,9 @@ Most investors profit when prices rise. A **short seller** aims to profit when t
 > - The price rises to **€80**. You buy back for €8,000. Loss: **€3,000**.
 > - The price rises to **€200**. Loss: **€15,000**, three times the amount you received.
 
+> [!ANIMATION] short-sale
+> The four steps of a short sale, and what buying back at €40, €80 or €200 means for the seller who sold at €50.
+
 ## Limited gain, unlimited loss
 
 - The **most** a short seller can gain is 100% (if the price falls to zero).

@@ -46,6 +46,9 @@ A **limit order** says: "buy at this price **or lower**" (or "sell at this price
 > - If the price falls to €50 or below and there are sellers, your order executes at €50 or less.
 > - If the price never falls that far, your order stays unexecuted, and you might "miss" a rise to €60.
 
+> [!ANIMATION] limit-order
+> The same buy limit at €50, two ways it can go: the price comes down to your limit and the order fills, or it never gets there and the order waits while the price rises to €60.
+
 ## Partial fills
 
 Orders can be **partially filled**: if you want 1,000 shares at a limit of €50 but only 300 are offered at that price, you might buy 300 now and the remaining 700 later, or never. Some brokers charge a fee for each partial execution, so check your price list.
