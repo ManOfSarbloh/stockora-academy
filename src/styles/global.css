@@ -5,25 +5,27 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Brand palette (decided in Phase 1): deep navy + teal.
- * Contrast notes (WCAG AA needs 4.5:1 for body text):
- *   brand teal #0E9F9A on bg = 3.1:1  -> decoration, icons, large text only
- *   ink teal   #0A7672 on bg = 5.5:1  -> links and teal text
+ * Brand palette (October 2026): Prussian Blue #0B132B, Thistle #C8B8DB, Snow #F9F4F5, plus Space Cadet
+ * #1C2541 (dark surfaces) and Ultra Violet #55418C (links in light mode, where Thistle is too pale).
+ * The variable names --navy and --teal are historical: --navy is Prussian Blue, --teal the accent.
+ * Contrast (WCAG AA needs 4.5:1 for text), light / dark:
+ *   text on bg 16.9 / 16.9, muted on surface-2 6.2 / 6.1, link on surface-2 7.0 / 7.0, accent on bg 5.6 / 9.9.
+ * Dark-mode accent is Thistle: text on it must be dark (white on Thistle is only 1.85:1).
  */
 :root {
-  --bg: #f7fafc;
+  --bg: #f9f4f5;
   --surface: #ffffff;
-  --surface-2: #eef3f7;
-  --text: #1a2433;
-  --muted: #516075;
-  --border: #d8e1ea;
-  --navy: #0f2a44;
-  --teal: #0e9f9a;
-  --link: #0a7672;
+  --surface-2: #efe8f5;
+  --text: #0b132b;
+  --muted: #4d5470;
+  --border: #dcd2e6;
+  --navy: #0b132b;
+  --teal: #6a55a0;
+  --link: #55418c;
   --on-navy: #ffffff;
   --warn-bg: #fff7e6;
   --warn-border: #f0b44c;
-  --focus: #0a7672;
+  --focus: #55418c;
   /* Chart series (categorical, fixed order; validated with the dataviz palette checker on --surface). */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -47,19 +49,19 @@
 }
 
 .dark {
-  --bg: #0b1622;
-  --surface: #13233a;
-  --surface-2: #182c46;
-  --text: #e6edf5;
-  --muted: #9aa9bc;
-  --border: #25395a;
-  --navy: #0f2a44;
-  --teal: #2cc4be;
-  --link: #2cc4be;
+  --bg: #0b132b;
+  --surface: #1c2541;
+  --surface-2: #253052;
+  --text: #f9f4f5;
+  --muted: #adb0cb;
+  --border: #34405f;
+  --navy: #0b132b;
+  --teal: #c8b8db;
+  --link: #c8b8db;
   --on-navy: #ffffff;
   --warn-bg: #2b2210;
   --warn-border: #b7862e;
-  --focus: #2cc4be;
+  --focus: #c8b8db;
   color-scheme: dark;
   --series-1: #3987e5;
   --series-2: #d95926;
@@ -77,7 +79,7 @@
   --series-6-ink: #ffffff;
   --series-7-ink: #111111;
   --series-8-ink: #111111;
-  --chart-grid: #25395a;
+  --chart-grid: #34405f;
 }
 
 @theme inline {
@@ -166,7 +168,7 @@
     color: #ffffff;
   }
   .dark .btn-primary {
-    color: #0b1622;
+    color: #0b132b;
   }
   .btn-primary:hover {
     filter: brightness(1.08);
@@ -205,8 +207,8 @@
   .tt-seg-ext { background: #b7d3f6; box-shadow: inset 0 0 0 1px #6da7ec; }
   .dark .tt-seg-auction { background: #9ec5f4; }
   .dark .tt-seg-ext { background: #1c5cab; box-shadow: inset 0 0 0 1px #3987e5; }
-  .tt-overlap { background: rgb(14 159 154 / 0.16); }
-  .dark .tt-overlap { background: rgb(44 196 190 / 0.18); }
+  .tt-overlap { background: rgb(106 85 160 / 0.14); }
+  .dark .tt-overlap { background: rgb(200 184 219 / 0.16); }
   .tt-now { background: #d03b3b; }
 
   /* ---- Chart Lab ---- */
@@ -214,20 +216,20 @@
     --cl-up: #16834a;
     --cl-down: #c8352f;
     --cl-grid: #e8edf2;
-    --cl-axis: #516075;
+    --cl-axis: #4d5470;
     --cl-cross: #7a8899;
-    --cl-draw: #0a7672;
+    --cl-draw: #55418c;
     --cl-vol: #c9d3de;
     --cl-ha-note: #7a4f00;
   }
   .dark .cl-root {
     --cl-up: #34b36f;
     --cl-down: #ef6a5f;
-    --cl-grid: #213552;
-    --cl-axis: #9aa9bc;
+    --cl-grid: #253052;
+    --cl-axis: #adb0cb;
     --cl-cross: #7f93ab;
-    --cl-draw: #2cc4be;
-    --cl-vol: #2b4466;
+    --cl-draw: #c8b8db;
+    --cl-vol: #34405f;
     --cl-ha-note: #f5c76e;
   }
 

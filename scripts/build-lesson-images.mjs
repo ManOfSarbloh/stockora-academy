@@ -10,16 +10,16 @@ import { join } from 'node:path';
 
 // ---- Style ------------------------------------------------------------------------------------
 const C = {
-  navy: '#0F2A44',
-  teal: '#0E9F9A',
-  slate: '#3B6E8F',
-  light: '#9FB7C9',
-  pale: '#E9F1F6',
+  navy: '#0B132B',
+  teal: '#6A55A0',
+  slate: '#3A506B',
+  light: '#C8B8DB',
+  pale: '#F3EEF8',
   up: '#16834a',
   down: '#c8352f',
   amber: '#c98500',
-  text: '#1a2433',
-  muted: '#516075',
+  text: '#0B132B',
+  muted: '#4D5470',
   grid: '#e3e8ee',
   white: '#ffffff',
 };
@@ -96,7 +96,7 @@ function write(topic, name, svg) {
   let b = T(x0, 36, 'A normal trading day, in Vienna time', { size: 16, weight: 700 });
   for (let h = 8; h <= 22; h += 2) b += L(X(h), 58, X(h), 212, { stroke: C.grid, w: 1 }) + T(X(h), 230, `${String(h).padStart(2, '0')}:00`, { anchor: 'middle', size: 12, fill: C.muted });
   // overlap
-  b += R(X(15, 30), 60, X(17, 30) - X(15, 30), 150, 'rgba(14,159,154,0.10)', { rx: 6, stroke: C.teal, dash: '4 4', sw: 1.2 });
+  b += R(X(15, 30), 60, X(17, 30) - X(15, 30), 150, 'rgba(106,85,160,0.10)', { rx: 6, stroke: C.teal, dash: '4 4', sw: 1.2 });
   b += T((X(15, 30) + X(17, 30)) / 2, 74, 'Both open', { anchor: 'middle', size: 12, weight: 700, fill: C.teal });
   // Vienna
   const yV = 96;
@@ -121,9 +121,9 @@ function write(topic, name, svg) {
   const defs = arrowDef('ha', C.slate) + arrowDef('ht', C.teal);
   let b = T(40, 36, 'Two markets for one ETF', { size: 16, weight: 700 });
   // zone labels
-  b += R(24, 54, 712, 120, 'rgba(14,159,154,0.06)', { rx: 12 });
+  b += R(24, 54, 712, 120, 'rgba(106,85,160,0.06)', { rx: 12 });
   b += T(40, 76, '1 · On the exchange, all day: investors trade existing units with each other', { size: 12.5, weight: 600, fill: C.teal });
-  b += R(24, 190, 712, 150, 'rgba(15,42,68,0.05)', { rx: 12 });
+  b += R(24, 190, 712, 150, 'rgba(11,19,43,0.05)', { rx: 12 });
   b += T(40, 212, '2 · With the fund, in large blocks: units are created and redeemed', { size: 12.5, weight: 600, fill: C.navy });
   b += box(48, 92, 170, 64, ['You and other', 'investors'], { fill: C.white });
   b += box(296, 92, 170, 64, ['Stock exchange', 'ETF units change hands'], { fill: C.white });
@@ -163,11 +163,11 @@ function write(topic, name, svg) {
   b += T(xa + colW / 2, top - 10, 'What it owns: assets 500', { anchor: 'middle', weight: 700, fill: C.muted });
   b += T(xl + colW / 2, top - 10, 'Who financed it: 300 + 200', { anchor: 'middle', weight: 700, fill: C.muted });
   b += stack(xa, [
-    ['Cash', 40, '#CFE9E7', C.text],
-    ['Receivables', 60, '#A9DAD7', C.text],
-    ['Inventory', 100, '#6FC3BE', C.text],
+    ['Cash', 40, '#ECE5F4', C.text],
+    ['Receivables', 60, '#D8CCE7', C.text],
+    ['Inventory', 100, '#B29FCF', C.text],
     ['Property, plant, equipment', 220, C.slate, C.white],
-    ['Intangible assets', 80, '#2C5674', C.white],
+    ['Intangible assets', 80, '#26355A', C.white],
   ]);
   b += stack(xl, [
     ['Current liabilities', 120, '#F3D9D7', C.text],

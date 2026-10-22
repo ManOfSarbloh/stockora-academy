@@ -32,7 +32,7 @@ const candleSvg = candles
   .map(([o, c, h, l], i) => {
     const x = 40 + i * 34;
     const up = c < o; // smaller y = higher price
-    const colour = up ? '#2cc4be' : '#8aa4c1';
+    const colour = up ? '#c8b8db' : '#6c7393';
     return `<line x1="${x + 9}" y1="${h}" x2="${x + 9}" y2="${l}" stroke="${colour}" stroke-width="3" stroke-linecap="round"/>
       <rect x="${x}" y="${Math.min(o, c)}" width="18" height="${Math.max(Math.abs(o - c), 4)}" rx="3" fill="${colour}"/>`;
   })
@@ -41,20 +41,20 @@ const candleSvg = candles
 const html = `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face { font-family: Inter; src: url(${font}) format('woff2'); font-weight: 100 900; }
 html, body { margin: 0; width: 1200px; height: 630px; overflow: hidden; }
-body { font-family: Inter, sans-serif; background: #0f2a44; color: #fff; position: relative; }
+body { font-family: Inter, sans-serif; background: #0b132b; color: #f9f4f5; position: relative; }
 .wrap { position: absolute; left: 80px; top: 92px; width: 700px; }
 .brand { display: flex; align-items: center; gap: 28px; }
 h1 { margin: 0; font-size: 72px; line-height: 1.02; font-weight: 800; letter-spacing: -0.02em; }
-h1 span { display: block; color: #2cc4be; font-size: 40px; font-weight: 700; letter-spacing: 0.24em; margin-top: 10px; }
-p { margin: 52px 0 0; font-size: 40px; line-height: 1.25; font-weight: 600; color: #e6edf5; }
-.foot { position: absolute; left: 80px; bottom: 64px; font-size: 26px; color: #a9bdd3; font-weight: 500; }
+h1 span { display: block; color: #c8b8db; font-size: 40px; font-weight: 700; letter-spacing: 0.24em; margin-top: 10px; }
+p { margin: 52px 0 0; font-size: 40px; line-height: 1.25; font-weight: 600; color: #f9f4f5; }
+.foot { position: absolute; left: 80px; bottom: 64px; font-size: 26px; color: #adb0cb; font-weight: 500; }
 .chart { position: absolute; right: 60px; top: 120px; }
 </style></head><body>
 <div class="wrap">
   <div class="brand">
-    <svg viewBox="0 0 48 48" width="132" height="132"><rect width="48" height="48" rx="10" fill="#163a5e"/>
+    <svg viewBox="0 0 48 48" width="132" height="132"><rect width="48" height="48" rx="10" fill="#1c2541"/>
       <path d="M34 10 H22 A7 7 0 0 0 22 24 H26 A7 7 0 0 1 26 38 H14" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-      <circle cx="35" cy="10" r="5" fill="#2cc4be"/></svg>
+      <circle cx="35" cy="10" r="5" fill="#c8b8db"/></svg>
     <h1>Stockora<span>ACADEMY</span></h1>
   </div>
   <p>Learn how the stock market<br>really works.</p>

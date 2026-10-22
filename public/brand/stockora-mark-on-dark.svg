@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="512" height="512">
   <title>Stockora Academy</title>
-  <rect width="48" height="48" rx="10" fill="#0f2a44"/>
+  <rect width="48" height="48" rx="10" fill="#0b132b"/>
   <path d="M34 10 H22 A7 7 0 0 0 22 24 H26 A7 7 0 0 1 26 38 H14" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
-  <circle cx="35" cy="10" r="5" fill="#2cc4be"/>
+  <circle cx="35" cy="10" r="5" fill="#c8b8db"/>
 </svg>

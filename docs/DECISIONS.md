@@ -256,6 +256,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Third batch | Limit order (F: buy limit €50 at €52, filled or never reached while the price rises to €60), cost-average effect (M: €100 at €50/40/25/50, average cost €38.10 vs average price €41.25, €525), rebalancing (M: 60/40 drifts to 65% after shares +25%, €6,000 moved back), short sale (N: sold at €50, bought back at €40/€80/€200) and margin call (N: €10,000 with €5,000 own, −30% leaves €2,000 = 29% < 30% minimum). Eleven animations in total; the price paths in the limit-order panels are examples, the prices named are the lesson's |
 | Build cache | Astro caches rendered Markdown by its text, so an SVG inlined by the Markdown plugin went stale after the SVG changed. The plugin now leaves a placeholder and the middleware inlines `src/animations/*.svg` (imported with ?raw) on every page build |
 
+## New colour scheme (2026-10-23)
+
+| Topic | Decision |
+|---|---|
+| Palette | The owner chose Thistle #C8B8DB, Prussian Blue #0B132B and Snow #F9F4F5. Added in the same mood: Space Cadet #1C2541 (dark-mode cards) and Ultra Violet #55418C (light-mode links and buttons, because Thistle on Snow is only about 1.6:1). Light: Snow background, white cards, Prussian Blue text, violet accent #6A55A0. Dark: Prussian Blue background, Space Cadet cards, Snow text, Thistle accent |
+| Contrast | All text pairs pass WCAG AA with room to spare (text 16.9:1, muted at least 6.1:1, links at least 7.0:1 in both modes). Text on Thistle must be dark (white on Thistle is 1.85:1), so the dark-mode primary button and chips use Prussian Blue text |
+| Where | Tokens in src/styles/global.css (the old names --navy and --teal now mean Prussian Blue and the accent), logo mark, favicon, brand SVGs, theme-color, social preview image (regenerated), Chart Lab drawing colours, the diagram and animation generators (regenerated) and the three older hand-made lesson SVGs. Green, red, amber and the validated chart series colours are unchanged because they carry meaning |
+
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
