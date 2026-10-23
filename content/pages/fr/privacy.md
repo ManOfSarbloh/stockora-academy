@@ -1,7 +1,7 @@
 ---
 title: "Politique de confidentialité"
 lead: "En bref : nous ne vous pistons pas."
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-23
 ---
 
 Cette politique explique ce qu’il advient des données personnelles lorsque vous utilisez Stockora Academy. Cette version française est une traduction ; seule la version anglaise fait foi.
@@ -29,7 +29,7 @@ Pour mémoriser vos réglages et votre progression, le site utilise le *stockage
 - `stockora-founder-game` : si vous avez terminé le jeu du fondateur de la page « Naissance d'une action », et quand.
 - `stockora-times-zone` : le fuseau horaire choisi sur la page des horaires.
 
-Cette liste sera tenue à jour. Vous pouvez tout effacer à tout moment en supprimant les données de ce site dans les réglages de votre navigateur.
+Cette liste sera tenue à jour. Vous pouvez tout effacer à tout moment en supprimant les données de ce site dans les réglages de votre navigateur. Sur la page « Mon parcours », vous pouvez tout télécharger dans un fichier de sauvegarde et le restaurer dans un autre navigateur. Le fichier est créé sur votre appareil et n’est envoyé nulle part.
 
 ## Vidéos (YouTube)
 

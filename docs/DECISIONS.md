@@ -264,6 +264,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Contrast | All text pairs pass WCAG AA with room to spare (text 16.9:1, muted at least 6.1:1, links at least 7.0:1 in both modes). Text on Thistle must be dark (white on Thistle is 1.85:1), so the dark-mode primary button and chips use Prussian Blue text |
 | Where | Tokens in src/styles/global.css (the old names --navy and --teal now mean Prussian Blue and the accent), logo mark, favicon, brand SVGs, theme-color, social preview image (regenerated), Chart Lab drawing colours, the diagram and animation generators (regenerated) and the three older hand-made lesson SVGs. Green, red, amber and the validated chart series colours are unchanged because they carry meaning |
 
+## Progress backup (2026-10-23)
+
+| Topic | Decision |
+|---|---|
+| Why | Progress lives only in the visitor's browser (localStorage, no accounts), so it does not follow them to another device and can be lost when site data is cleared |
+| What | My learning has "Download backup" (a JSON file with every `stockora-` key, as stored) and "Restore from file" (checked by src/lib/backup.ts, tested: right format and version, only `stockora-` keys with string values, at most 2 MB; asks before replacing). The file is made on the device and never uploaded, so the no-tracking promise holds; the Privacy Policy says so in every language |
+| Not done | Accounts with automatic sync would need a server, a database and a new privacy policy |
+
 ## Open items
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.

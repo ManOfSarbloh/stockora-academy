@@ -1,7 +1,7 @@
 ---
 title: "Política de privacidad"
 lead: "En resumen: no te rastreamos."
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-23
 ---
 
 Esta política explica qué ocurre con los datos personales cuando usas Stockora Academy. Esta versión en español es una traducción; prevalece la versión en inglés.
@@ -29,7 +29,7 @@ Para recordar tus ajustes y tu progreso, el sitio usa el *almacenamiento local* 
 - `stockora-founder-game`: si terminaste el juego del fundador de la página «Cómo nacen las acciones», y cuándo.
 - `stockora-times-zone`: la zona horaria que elegiste en la página de horarios.
 
-Esta lista se mantendrá al día. Puedes borrarlo todo en cualquier momento eliminando los datos de este sitio en la configuración de tu navegador.
+Esta lista se mantendrá al día. Puedes borrarlo todo en cualquier momento eliminando los datos de este sitio en la configuración de tu navegador. En la página «Mi progreso» puedes descargarlo todo como archivo de copia y restaurarlo en otro navegador. El archivo se crea en tu dispositivo y no se sube a ningún sitio.
 
 ## Vídeos (YouTube)
 

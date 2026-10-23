@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 lead: "Short version: we do not track you."
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-23
 ---
 
 This policy explains what happens to personal data when you use Stockora Academy.
@@ -29,7 +29,7 @@ To remember your settings and learning progress, the site uses your browser's *l
 - `stockora-founder-game`: whether you finished the founder game on the "How Stocks Are Made" page, and when.
 - `stockora-times-zone`: the time zone you chose on the Trading Times page.
 
-This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings.
+This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings. On the My learning page you can download all of it as a backup file and restore it in another browser. The file is created on your device and is not uploaded anywhere.
 
 ## Videos (YouTube)
 

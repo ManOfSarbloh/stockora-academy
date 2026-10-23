@@ -44,6 +44,29 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
       )
     }
 
+    <section class="card mt-12 max-w-3xl p-5 sm:p-6" aria-labelledby="backup-title">
+      <h2 id="backup-title" class="text-xl font-bold">{t('me.backup.title')}</h2>
+      <p class="mt-2 text-muted">{t('me.backup.lead')}</p>
+      <div class="mt-4 flex flex-wrap gap-3">
+        <button type="button" id="backup-download" class="btn btn-primary">{t('me.backup.download')}</button>
+        <label class="btn btn-ghost cursor-pointer">
+          {t('me.backup.restore')}
+          <input id="backup-file" type="file" accept=".json,application/json" class="sr-only" />
+        </label>
+      </div>
+      <p
+        id="backup-status"
+        class="mt-3 text-sm font-semibold"
+        role="status"
+        data-confirm={t('me.backup.confirm')}
+        data-done={t('me.backup.done')}
+        data-invalid={t('me.backup.invalid')}
+        data-empty={t('me.backup.empty')}
+        data-nothing={t('me.backup.nothing')}
+      >
+      </p>
+    </section>
+
     <button type="button" id="reset" class="btn btn-ghost mt-12 text-sm" data-confirm={t('me.resetConfirm')}>
       {t('me.reset')}
     </button>
@@ -53,7 +76,8 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
 
 <script>
   import { BOOKMARKS_KEY, PROGRESS_KEY, loadBookmarks, notifyChange, saveBookmarks, CHANGE_EVENT } from '@/lib/progress';
-  import { remove, writeJSON } from '@/lib/storage';
+  import { readAllRaw, remove, replaceAllRaw, writeJSON } from '@/lib/storage';
+  import { backupFileName, makeBackup, parseBackup, pickEntries } from '@/lib/backup';
   import { resetQuizData } from '@/lib/quiz-store';
 
   if (!writeJSON('storage-test', 1)) document.getElementById('storage-warning')?.classList.remove('hidden');
@@ -95,6 +119,41 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
     remove(BOOKMARKS_KEY);
     resetQuizData();
     location.reload();
+  });
+
+  // ---- Backup and restore (src/lib/backup.ts) ----
+  const status = document.getElementById('backup-status')!;
+  const say = (key: 'done' | 'invalid' | 'empty' | 'nothing', ok = false) => {
+    status.textContent = status.dataset[key] ?? '';
+    status.classList.toggle('text-link', ok);
+    status.classList.toggle('text-[#c8352f]', !ok);
+    status.classList.toggle('dark:text-[#f87171]', !ok);
+  };
+  document.getElementById('backup-download')!.addEventListener('click', () => {
+    const now = new Date();
+    const data = pickEntries(readAllRaw());
+    if (!Object.keys(data).length) return say('nothing');
+    const blob = new Blob([JSON.stringify(makeBackup(data, now), null, 1)], { type: 'application/json' });
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = backupFileName(now);
+    document.body.append(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+    status.textContent = '';
+  });
+  const fileInput = document.getElementById('backup-file') as HTMLInputElement;
+  fileInput.addEventListener('change', async () => {
+    const file = fileInput.files?.[0];
+    fileInput.value = '';
+    if (!file) return;
+    const result = parseBackup(await file.text());
+    if (!result.ok) return say(result.error);
+    if (!window.confirm(status.dataset.confirm)) return;
+    if (!replaceAllRaw(result.data)) return say('invalid');
+    say('done', true);
+    setTimeout(() => location.reload(), 900);
   });
 
   renderBookmarks();

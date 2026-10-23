@@ -1,7 +1,7 @@
 ---
 title: "Informativa sulla privacy"
 lead: "In breve: non ti tracciamo."
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-23
 ---
 
 Questa informativa spiega cosa succede ai dati personali quando usi Stockora Academy. Questa versione italiana è una traduzione; fa fede la versione inglese.
@@ -29,7 +29,7 @@ Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazio
 - `stockora-founder-game`: se hai completato il gioco del fondatore nella pagina «Come nascono le azioni», e quando.
 - `stockora-times-zone`: il fuso orario scelto nella pagina degli orari.
 
-Questo elenco sarà tenuto aggiornato. Puoi cancellare tutto in qualsiasi momento eliminando i dati di questo sito nelle impostazioni del browser.
+Questo elenco sarà tenuto aggiornato. Puoi cancellare tutto in qualsiasi momento eliminando i dati di questo sito nelle impostazioni del browser. Nella pagina «Il mio percorso» puoi scaricare tutto come file di backup e ripristinarlo in un altro browser. Il file viene creato sul tuo dispositivo e non viene caricato da nessuna parte.
 
 ## Video (YouTube)
 

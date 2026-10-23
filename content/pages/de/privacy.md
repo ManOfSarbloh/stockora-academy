@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 lead: "Kurz gesagt: Wir verfolgen dich nicht."
-lastUpdated: 2026-10-21
+lastUpdated: 2026-10-23
 ---
 
 Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du Stockora Academy nutzt. Diese deutsche Fassung ist eine Übersetzung; maßgeblich ist die englische Fassung.
@@ -29,7 +29,7 @@ Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite 
 - `stockora-founder-game`: ob du das Gründerspiel auf der Seite „Wie Aktien entstehen“ abgeschlossen hast, und wann.
 - `stockora-times-zone`: die Zeitzone, die du auf der Seite „Handelszeiten“ gewählt hast.
 
-Diese Liste wird aktuell gehalten. Du kannst alles jederzeit löschen, indem du die Daten dieser Seite in deinen Browsereinstellungen löschst.
+Diese Liste wird aktuell gehalten. Du kannst alles jederzeit löschen, indem du die Daten dieser Seite in deinen Browsereinstellungen löschst. Auf der Seite „Mein Fortschritt“ kannst du alles als Sicherungsdatei herunterladen und in einem anderen Browser wiederherstellen. Die Datei entsteht auf deinem Gerät und wird nirgendwohin hochgeladen.
 
 ## Videos (YouTube)
 
