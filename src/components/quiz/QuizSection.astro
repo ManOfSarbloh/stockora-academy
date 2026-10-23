@@ -7,7 +7,8 @@
  */
 import { getCollection } from 'astro:content';
 import PracticeQuiz from './PracticeQuiz';
-import { t } from '@/i18n';
+import { getLocale, t } from '@/i18n';
+import { localizeQuestion } from '@/lib/quiz-translations';
 import { reportMistakeHref } from '@/lib/report';
 import { url } from '@/lib/url';
 import type { Question } from '@/lib/quiz';
@@ -42,6 +43,8 @@ if (lessonLinks) {
   );
   questions = limit ? all.slice(0, limit) : all;
 }
+const locale = getLocale();
+questions = questions.map((q) => localizeQuestion(q, locale));
 const heading = title ?? (lessonTopic || lessonLinks ? t('quiz.checkYourself') : t('quiz.practice'));
 const lead = leadProp ?? (lessonTopic ? t('quiz.miniLead', { n: questions.length }) : t('quiz.topicQuizLead', { n: questions.length }));
 const quizId = quizIdProp ?? (lessonTopic ? `${categoryId}:${lessonTopic}` : (categoryId ?? id));

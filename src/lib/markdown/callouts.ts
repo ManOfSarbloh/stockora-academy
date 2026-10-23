@@ -25,6 +25,14 @@ export const CALLOUT_KINDS = {
 
 export type CalloutKind = keyof typeof CALLOUT_KINDS;
 
+/** Default titles in translated lessons (content/i18n/<locale>/…). */
+export const CALLOUT_KINDS_BY_LOCALE: Record<string, Record<CalloutKind, string>> = {
+  de: { example: 'Beispiel', takeaways: 'Das Wichtigste', mistake: 'Typischer Anfängerfehler', warning: 'Achtung', austria: 'Österreich-Hinweis', verify: 'Bitte prüfen', note: 'Hinweis', tip: 'Tipp' },
+  es: { example: 'Ejemplo', takeaways: 'Ideas clave', mistake: 'Error típico de principiante', warning: 'Atención', austria: 'Nota sobre Austria', verify: 'Compruébalo', note: 'Nota', tip: 'Consejo' },
+  fr: { example: 'Exemple', takeaways: 'À retenir', mistake: 'Erreur fréquente de débutant', warning: 'Attention', austria: 'Note sur l’Autriche', verify: 'À vérifier', note: 'Remarque', tip: 'Astuce' },
+  it: { example: 'Esempio', takeaways: 'Punti chiave', mistake: 'Errore tipico da principiante', warning: 'Attenzione', austria: 'Nota sull’Austria', verify: 'Da verificare', note: 'Nota', tip: 'Consiglio' },
+};
+
 /** GitHub's own alert names, mapped onto ours so either works. */
 const ALIASES: Record<string, CalloutKind> = {
   important: 'note',
@@ -34,23 +42,25 @@ const ALIASES: Record<string, CalloutKind> = {
 
 const MARKER = /^\[!([A-Za-z]+)\][ \t]*([^\n]*)\n?/;
 
-export function parseMarker(text: string): { kind: CalloutKind; title: string; rest: string } | null {
+export function parseMarker(text: string, locale?: string): { kind: CalloutKind; title: string; rest: string } | null {
   const m = MARKER.exec(text);
   if (!m) return null;
   const raw = m[1].toLowerCase();
   const kind = (raw in CALLOUT_KINDS ? raw : ALIASES[raw]) as CalloutKind | undefined;
   if (!kind) return null;
-  return { kind, title: m[2].trim() || CALLOUT_KINDS[kind], rest: text.slice(m[0].length) };
+  const fallback = (locale && CALLOUT_KINDS_BY_LOCALE[locale]?.[kind]) || CALLOUT_KINDS[kind];
+  return { kind, title: m[2].trim() || fallback, rest: text.slice(m[0].length) };
 }
 
 export function remarkCallouts() {
-  return (tree: Root) => {
+  return (tree: Root, file?: { path?: string }) => {
+    const locale = file?.path?.match(/[\\/]content[\\/]i18n[\\/]([a-z]{2})[\\/]/)?.[1];
     visit(tree, 'blockquote', (node: Blockquote) => {
       const first = node.children[0];
       if (first?.type !== 'paragraph') return;
       const lead = first.children[0];
       if (lead?.type !== 'text') return;
-      const parsed = parseMarker(lead.value);
+      const parsed = parseMarker(lead.value, locale);
       if (!parsed) return;
 
       // Remove the marker line from the first paragraph (drop the paragraph if nothing is left).

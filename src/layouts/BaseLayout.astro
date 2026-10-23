@@ -4,9 +4,9 @@ import '@/styles/global.css';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import GlossaryTooltip from '@/components/GlossaryTooltip.astro';
-import { getLocale, intlLocale, t } from '@/i18n';
+import { getLocale, intlLocale, t, type Locale } from '@/i18n';
 import { ACTIVE_LOCALES } from '@/i18n/pages';
-import { isEnglishOnly, localizePath, stripLocale } from '@/i18n/routes';
+import { isEnglishOnly, stripLocale } from '@/i18n/routes';
 import { absoluteUrl, stripBase, url } from '@/lib/url';
 import { toScript, type JsonLd } from '@/lib/seo';
 import { pageType } from '@/lib/search';
@@ -25,19 +25,26 @@ interface Props {
   jsonLd?: JsonLd | JsonLd[];
   /** False for pages that exist in English only, outside src/pages/[...locale]/ (404, logo options). */
   localized?: boolean;
+  /**
+   * Languages this page's main content exists in, for pages that are only partly translated (lessons).
+   * Default: English only for the English-only routes in src/i18n/routes.ts, every language otherwise.
+   */
+  availableIn?: Locale[];
 }
 
-const { title, description = t('site.description'), searchable = true, noindex = false, ogType = 'website', modified, jsonLd, localized = true } = Astro.props;
+const { title, description = t('site.description'), searchable = true, noindex = false, ogType = 'website', modified, jsonLd, localized = true, availableIn } = Astro.props;
 const siteName = t('site.name');
 const fullTitle = title ? `${title} | ${siteName}` : `${siteName}: ${t('site.tagline')}`;
 const locale = getLocale();
 const path = stripBase(import.meta.env.BASE_URL, Astro.url.pathname);
 const route = stripLocale(path === '/' ? '/' : `${path}/`);
-// Pages whose main content is English only (lessons, country data, …) point search engines to the
-// English original and list no translations; fully translated pages list every language.
-const englishOnly = isEnglishOnly(route);
+// Pages whose main content is not in this language (lessons not yet translated, country data, …) point
+// search engines to the English original and list no translations; translated pages list every language
+// their content exists in.
+const languages: Locale[] = availableIn ?? (isEnglishOnly(route) ? ['en'] : ACTIVE_LOCALES);
+const englishOnly = !languages.includes(locale);
 const canonical = englishOnly ? absoluteUrl(route, Astro.site, 'en') : new URL(Astro.url.pathname, Astro.site).href;
-const alternates = englishOnly || noindex || !localized || ACTIVE_LOCALES.length < 2 ? [] : ACTIVE_LOCALES.map((l) => ({ lang: l, href: absoluteUrl(route, Astro.site, l) }));
+const alternates = englishOnly || noindex || !localized || languages.length < 2 ? [] : languages.map((l) => ({ lang: l, href: absoluteUrl(route, Astro.site, l) }));
 const ogImage = new URL(url('/og-default.png'), Astro.site);
 ---
 

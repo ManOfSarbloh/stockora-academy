@@ -31,6 +31,7 @@ for (const c of categories) {
 // Lessons: collect valid lesson keys ("<topic-slug>/<lesson-slug>") and page paths
 const slugByLetter = Object.fromEntries(categories.map((c) => [c.id, c.slug]));
 const lessonKeys = new Set();
+const lessonFiles = new Map(); // "A/slug" -> English markdown
 const validPaths = new Set(categories.map((c) => `/learn/${c.slug}`));
 const lessonsDir = join(CONTENT, 'lessons');
 for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
@@ -39,6 +40,7 @@ for (const letter of existsSync(lessonsDir) ? readdirSync(lessonsDir) : []) {
   for (const f of readdirSync(dir).filter((f) => f.endsWith('.md') && !f.startsWith('_'))) {
     const key = `${slugByLetter[letter]}/${f.replace(/\.md$/, '')}`;
     lessonKeys.add(key);
+    lessonFiles.set(`${letter}/${f}`, readFileSync(join(dir, f), 'utf8'));
     validPaths.add(`/learn/${key}`);
     // Front matter must be valid YAML (an unquoted ": " in a summary breaks it), and tags must be text.
     try {
@@ -107,6 +109,7 @@ for (const v of videos) {
 
 // Quizzes
 const qIds = new Map();
+const qById = new Map();
 const byDifficulty = { beginner: 0, intermediate: 0, advanced: 0 };
 const perFile = {};
 for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
@@ -115,6 +118,7 @@ for (const f of jsonFiles(join(CONTENT, 'quizzes'))) {
   for (const q of items) {
     if (qIds.has(q.id)) errors.push(`quizzes: id "${q.id}" in ${f} already used in ${qIds.get(q.id)}`);
     qIds.set(q.id, f);
+    qById.set(q.id, q);
     if (q.difficulty in byDifficulty) byDifficulty[q.difficulty]++;
     if (q.lessonLink && !pathOk(q.lessonLink)) errors.push(`quizzes ${q.id}: lessonLink "${q.lessonLink}" does not match any lesson or topic page`);
     if (q.type === 'multiple_choice' && !(q.answerIndex < q.options?.length))
@@ -194,6 +198,66 @@ if (existsSync('content/i18n')) {
       continue;
     }
     const status = [];
+    for (const d of readdirSync(`content/i18n/${loc}`, { withFileTypes: true })) {
+      if (d.isDirectory() && d.name !== 'lessons' && d.name !== 'quizzes') errors.push(`content/i18n/${loc}/${d.name}: unknown translation folder`);
+    }
+    const lessonDir = `content/i18n/${loc}/lessons`;
+    if (existsSync(lessonDir)) {
+      let n = 0;
+      let outdated = 0;
+      for (const letter of readdirSync(lessonDir)) {
+        for (const f of readdirSync(join(lessonDir, letter)).filter((x) => x.endsWith('.md') && !x.startsWith('_'))) {
+          const where = `${lessonDir}/${letter}/${f}`;
+          const en = lessonFiles.get(`${letter}/${f}`);
+          if (!en) {
+            errors.push(`${where}: there is no English lesson content/lessons/${letter}/${f}`);
+            continue;
+          }
+          n++;
+          const text = readFileSync(where, 'utf8');
+          let fm;
+          try {
+            fm = parseYaml(text.split(/^---$/m)[1] ?? '') ?? {};
+          } catch (e) {
+            errors.push(`${where}: invalid front matter (${e.message.split('\n')[0]})`);
+            continue;
+          }
+          const enFm = parseYaml(en.split(/^---$/m)[1] ?? '') ?? {};
+          if (!fm.title || !fm.summary || !fm.translatedFrom) errors.push(`${where}: needs title, summary and translatedFrom`);
+          if (String(fm.translatedFrom) > String(enFm.lastReviewed)) errors.push(`${where}: translatedFrom is later than the English lastReviewed`);
+          if (String(fm.translatedFrom) < String(enFm.lastReviewed)) outdated++;
+          // Same figures and animations as the English lesson (images point at the English files).
+          const figs = (md, base) =>
+            [...md.matchAll(/!\[[^\]]*\]\(([^)\s]+)/g)].map((m) => join(base, m[1])).concat([...md.matchAll(/\[!ANIMATION\]\s+(\S+)/g)].map((m) => `anim:${m[1]}`)).sort().join('|');
+          if (figs(text, join(lessonDir, letter)) !== figs(en, join('content/lessons', letter))) errors.push(`${where}: figures and animations must match the English lesson (image paths point to ../../../../lessons/${letter}/img/…)`);
+          const sections = (md) => (md.match(/^## /gm) ?? []).length;
+          if (sections(text) !== sections(en)) errors.push(`${where}: has ${sections(text)} sections (##), the English lesson has ${sections(en)}`);
+        }
+      }
+      status.push(`lessons ${n}/${lessonKeys.size}${outdated ? ` (${outdated} outdated)` : ''}`);
+    }
+    const quizDir = `content/i18n/${loc}/quizzes`;
+    if (existsSync(quizDir)) {
+      let n = 0;
+      for (const f of jsonFiles(quizDir)) {
+        const where = `${quizDir}/${f}`;
+        for (const [id, o] of Object.entries(readJSON(where))) {
+          const q = qById.get(id);
+          if (!q) {
+            errors.push(`${where}: unknown question "${id}"`);
+            continue;
+          }
+          n++;
+          if (!o.question || !o.explanation) errors.push(`${where} ${id}: needs question and explanation`);
+          for (const k of ['options', 'pairs', 'orderedItems']) {
+            if (o[k] === undefined) {
+              if (q[k]?.some((x) => /[a-z]{3}/i.test(String(x)))) errors.push(`${where} ${id}: ${k} must be translated`);
+            } else if (!Array.isArray(q[k]) || o[k].length !== q[k].length) errors.push(`${where} ${id}: ${k} must have ${q[k]?.length ?? 0} entries, in the English order`);
+          }
+        }
+      }
+      status.push(`quiz questions ${n}/${qById.size}`);
+    }
     for (const f of readdirSync(`content/i18n/${loc}`).filter((n) => n.endsWith('.json'))) {
       const where = `content/i18n/${loc}/${f}`;
       const data = readJSON(where);

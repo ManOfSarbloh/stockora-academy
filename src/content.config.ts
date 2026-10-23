@@ -52,6 +52,20 @@ const lessons = defineCollection({
   }),
 });
 
+/**
+ * Translated lessons: content/i18n/<locale>/lessons/<topic letter>/<lesson>.md. Only the title, summary and
+ * text are translated; level, order, sources and dates come from the English original. `translatedFrom` is
+ * the English lesson's lastReviewed date at translation time, so outdated translations can be spotted.
+ */
+const lessonTranslations = defineCollection({
+  loader: glob({ pattern: '*/lessons/**/[^_]*.md', base: './content/i18n' }),
+  schema: z.object({
+    title: z.string(),
+    summary: z.string(),
+    translatedFrom: reviewDate,
+  }),
+});
+
 const glossary = defineCollection({
   loader: file('content/glossary.json'),
   schema: z.object({
@@ -302,4 +316,4 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { categories, lessons, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history, pages };
+export const collections = { categories, lessons, lessonTranslations, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history, pages };

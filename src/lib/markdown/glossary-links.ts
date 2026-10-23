@@ -27,7 +27,10 @@ export interface Matcher {
   idFor: (phrase: string) => GlossaryTerm | undefined;
 }
 
-export function buildMatcher(terms: GlossaryTerm[]): Matcher | null {
+/** Optional word endings accepted after a term: English plurals by default, German declensions for "de". */
+export const PLURAL_SUFFIX: Record<string, string> = { en: '(?:e?s)?', de: '(?:e|en|n|s|es|er|ern)?', es: '(?:e?s)?', fr: '(?:s|x)?', it: '' };
+
+export function buildMatcher(terms: GlossaryTerm[], suffix = PLURAL_SUFFIX.en): Matcher | null {
   const byPhrase = new Map<string, GlossaryTerm>();
   for (const t of terms) {
     for (const p of [t.term, ...(t.aliases ?? [])]) {
@@ -37,7 +40,7 @@ export function buildMatcher(terms: GlossaryTerm[]): Matcher | null {
   }
   if (byPhrase.size === 0) return null;
   const phrases = [...byPhrase.keys()].sort((a, b) => b.length - a.length).map(escapeRegex);
-  const regex = new RegExp(`(?<![\\p{L}\\p{N}])(${phrases.join('|')})(?:e?s)?(?![\\p{L}\\p{N}])`, 'giu');
+  const regex = new RegExp(`(?<![\\p{L}\\p{N}])(${phrases.join('|')})${suffix}(?![\\p{L}\\p{N}])`, 'giu');
   return { regex, idFor: (phrase) => byPhrase.get(phrase.toLowerCase()) };
 }
 
@@ -75,12 +78,22 @@ export function linkText(
   return out;
 }
 
-export function rehypeGlossaryLinks(options: { terms: GlossaryTerm[]; base?: string }) {
-  const matcher = buildMatcher(options.terms);
+/**
+ * `termsByLocale` holds each translated glossary; a Markdown file under content/i18n/<locale>/ is linked with
+ * that language's terms (whose aliases include the English term, often used as is). Links point to the English
+ * glossary URL; the middleware moves them into the page's language.
+ */
+export function rehypeGlossaryLinks(options: { terms: GlossaryTerm[]; termsByLocale?: Record<string, GlossaryTerm[]>; base?: string }) {
+  const english = buildMatcher(options.terms);
+  const byLocale = new Map(
+    Object.entries(options.termsByLocale ?? {}).map(([loc, terms]) => [loc, buildMatcher(terms, PLURAL_SUFFIX[loc] ?? '')]),
+  );
   const base = (options.base ?? '/').replace(/\/?$/, '/');
   const hrefFor = (id: string) => `${base}glossary/#${id}`;
 
-  return (tree: Root) => {
+  return (tree: Root, file?: { path?: string }) => {
+    const loc = file?.path?.match(/[\\/]content[\\/]i18n[\\/]([a-z]{2})[\\/]/)?.[1];
+    const matcher = loc ? byLocale.get(loc) ?? null : english;
     if (!matcher) return;
     const used = new Set<string>();
 

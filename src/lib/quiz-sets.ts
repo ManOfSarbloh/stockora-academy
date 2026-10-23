@@ -67,7 +67,8 @@ const mentions = (text: string, word: string) => word.length > 2 && text.toLower
  * other terms as distractors, preferably from the same topic. Terms whose definition gives the answer
  * away (it contains the term or an alias) are skipped. Deterministic for a given seed.
  */
-export function glossaryQuestions(items: GlossaryItem[], seed = 1): Question[] {
+/** `prompt` is the question text; "{def}" is replaced with the definition. */
+export function glossaryQuestions(items: GlossaryItem[], seed = 1, prompt = 'Which term matches this definition? "{def}"'): Question[] {
   const random = rng(seed);
   const usable = items.filter((g) => !mentions(g.definition, g.term) && !(g.aliases ?? []).some((a) => mentions(g.definition, a)));
   return usable.map((g) => {
@@ -84,7 +85,7 @@ export function glossaryQuestions(items: GlossaryItem[], seed = 1): Question[] {
       topic: 'glossary',
       difficulty: 'beginner',
       type: 'multiple_choice',
-      question: `Which term matches this definition? "${g.definition}"`,
+      question: prompt.replace('{def}', g.definition),
       options,
       answerIndex: 0,
       explanation: `${g.term}: ${g.definition}`,

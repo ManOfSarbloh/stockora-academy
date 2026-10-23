@@ -7,7 +7,7 @@ import { t } from '@/i18n';
 import { url } from '@/lib/url';
 import { correctAnswerText, shuffle, type Question } from '@/lib/quiz';
 import { loadQuizData } from '@/lib/quiz-data';
-import type { QuizData } from '@/pages/quizzes/questions.json';
+import type { QuizData } from '@/lib/quiz-bank';
 
 interface Props {
   names: Record<string, string>;

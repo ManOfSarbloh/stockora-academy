@@ -138,6 +138,7 @@ export const en = {
   'lesson.sourcesLead': 'Facts on this page were checked against these sources:',
   'lesson.draft': 'Draft: not published yet',
   'lesson.finishedAll': 'This is the newest lesson so far. More are on the way.',
+  'lesson.translationOutdated': 'The English original of this lesson was updated after this translation was made. If something looks different, the English version is the reference.',
 
   'anim.play': 'Play animation',
   'anim.pause': 'Pause',
@@ -172,6 +173,7 @@ export const en = {
   'quiz.topicQuizLead': '{n} questions on this topic. Instant feedback after every question.',
   'quiz.miniLead': '{n} quick questions on this lesson.',
   'quiz.perfect': 'Perfect score!',
+  'quiz.glossaryPrompt': 'Which term matches this definition? "{def}"',
   'quiz.numberPlaceholder': 'Type a number',
   'cap.title': "Cap table and dilution simulator",
   'cap.lead': "Start with two founders, add funding rounds and an option pool, and watch everyone's percentage change. All numbers are invented for practice.",

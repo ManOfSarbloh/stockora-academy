@@ -1,5 +1,7 @@
 import { getCollection, type CollectionEntry } from 'astro:content';
 import { getCategories, type Category } from './categories';
+import { getLocale } from '@/i18n';
+import { lessonTranslation } from './lesson-translations';
 
 export type LessonEntry = CollectionEntry<'lessons'>;
 
@@ -16,10 +18,14 @@ export const lessonSlug = (entry: LessonEntry) => entry.id.split('/').pop()!;
 
 const isPublished = (l: LessonEntry) => import.meta.env.DEV || !l.data.draft;
 
-/** Every published lesson in learning-path order: by category path order, then lesson order. */
+/**
+ * Every published lesson in learning-path order: by category path order, then lesson order.
+ * Titles are in the current page's language where a translation exists.
+ */
 export async function getLessonSequence(): Promise<LessonRef[]> {
+  const locale = getLocale();
   const [categories, lessons] = await Promise.all([getCategories(), getCollection('lessons', isPublished)]);
-  return categories.flatMap((category) =>
+  const refs = categories.flatMap((category) =>
     lessons
       .filter((l) => l.data.category === category.id)
       .sort((a, b) => a.data.order - b.data.order)
@@ -34,6 +40,8 @@ export async function getLessonSequence(): Promise<LessonRef[]> {
         };
       }),
   );
+  if (locale === 'en') return refs;
+  return Promise.all(refs.map(async (r) => ({ ...r, title: (await lessonTranslation(r.entry, locale))?.data.title ?? r.title })));
 }
 
 /** Lesson keys grouped by category id, for progress rings. */
