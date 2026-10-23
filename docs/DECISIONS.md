@@ -280,6 +280,20 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | On the page | The middleware swaps each lesson <img> (Astro's hashed /_astro/<name>.<hash>.svg) for /figures/<locale>/<name>.svg and uses the translated SVG title as alt text; animations are inlined from src/animations/<locale>/ |
 | Layout | Longer translations overflowed in places. A browser check measured every text box against the canvas, the box it sits in and the other labels, compared with English; all overflows were fixed by shorter wording (for example "Verbindl. 300", "Ø-Kosten je Anteil"). The check is not part of CI; re-run it after big wording changes |
 | Language of the page | Figures follow the page language even where the lesson text is still English (Spanish, French, Italian), so the visual summary is readable. German lessons are next |
+
+## German lessons and quizzes (2026-10-23 to 2026-10-24)
+
+| Topic | Decision |
+|---|---|
+| Scope | The owner chose "labels + German first": all 196 lessons and the 1,102 topic quiz questions (topics A to W) are in German. Country pages, the 241 country quiz questions and How Stocks Are Made (25 questions) stay English for now; Spanish, French and Italian lessons come later |
+| Files | One Markdown file per lesson in content/i18n/de/lessons/<topic>/ with title, summary and translatedFrom (the English lastReviewed); one overlay per quiz file in content/i18n/de/quizzes/ keyed by question id. The validator checks that each translation has the same ## headings and figures as the English lesson and that quiz arrays keep their length |
+| Pages | A translated lesson has its own canonical URL, hreflang and sitemap entry; untranslated ones keep the English-only note. When the English lesson gets a newer lastReviewed, the German page says the original has changed |
+| Style | du-form with Austrian usage (Jänner, de-AT numbers such as 1.000 € and 27,5 %); Austrian legal terms as the BMF, FMA and the laws use them (KESt, Endbesteuerung, Regelbesteuerungsoption, Bezugsrecht, Nachweisstichtag, Übernahmekommission); callout kinds stay English in the source, their titles are German |
+| Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
+
+## Open items
+
+- Translations: German country pages, country quizzes and How Stocks Are Made; then Spanish, French and Italian lessons and quizzes.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
