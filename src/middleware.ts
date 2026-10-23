@@ -3,6 +3,7 @@ import { setLocale } from '@/i18n';
 import { localeFromPath } from '@/i18n/routes';
 import { localizeHtml } from '@/i18n/localize-html';
 import { injectAnimations } from '@/lib/animations-inline';
+import { localizeFigures } from '@/lib/figures-i18n';
 import { stripBase } from '@/lib/url';
 import '@/i18n/server';
 
@@ -17,7 +18,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   const response = await next();
   if (!response.headers.get('content-type')?.includes('text/html')) return response;
   const html = await response.text();
-  const out = injectAnimations(html);
+  const out = injectAnimations(html, locale);
   if (locale === 'en' && out === html) return new Response(html, { status: response.status, headers: response.headers });
-  return new Response(locale === 'en' ? out : localizeHtml(out, locale, base), { status: response.status, headers: response.headers });
+  return new Response(locale === 'en' ? out : localizeHtml(localizeFigures(out, locale, base), locale, base), { status: response.status, headers: response.headers });
 });

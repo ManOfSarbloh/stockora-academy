@@ -139,6 +139,10 @@ All artwork is original SVG; nothing is loaded from other sites.
 - **Animations:** `npm run build:animations` writes `src/animations/<name>.svg`. Embed one in a lesson with
   `> [!ANIMATION] name` followed by a caption line. They follow the scroll (forward and back), have a play/pause
   button, and show their final frame with reduced motion or without JavaScript.
+- **Translated figures:** after changing any diagram or animation, run `npm run build:figure-translations`. It writes
+  German, Spanish, French and Italian copies (public/figures/<locale>/, src/animations/<locale>/) using the word
+  dictionaries in `content/i18n/<locale>/figures.json` (numbers become {0}, {1} … and are formatted per language).
+  `npm run validate` fails if a figure text has no translation or a copy is out of date.
 - **Journey scene:** `src/components/JourneyScroller.astro`, the pinned scroll scene on How Stocks Are Made.
 
 

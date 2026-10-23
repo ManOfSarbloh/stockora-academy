@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 572" font-family="Inter, system-ui, sans-serif">
+<title>Une introduction en Bourse en huit étapes : préparation, choix des banques, due diligence et prospectus, approbation, présentation aux investisseurs et bookbuilding, prix et allocation, premier jour de cotation, stabilisation et lock-up</title>
+<rect width="560" height="572" rx="16" fill="#ffffff"/>
+<text x="28" y="38" font-size="13" font-weight="700" fill="#4D5470" letter-spacing="0.5">L’INTRODUCTION EN BOURSE</text>
+<line x1="48" y1="72" x2="48" y2="520" stroke="#DCD2E6" stroke-width="3"/>
+<circle cx="48" cy="72" r="13" fill="#0B132B"/><text x="48" y="76.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="76" y="70" font-size="15" font-weight="600" fill="#0B132B">Préparation</text>
+<text x="76" y="89" font-size="12.5" fill="#4D5470">Devenir une AG, normes comptables, gouvernance</text>
+<text x="536" y="70" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Des mois avant</text>
+<circle cx="48" cy="136" r="13" fill="#0B132B"/><text x="48" y="140.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="76" y="134" font-size="15" font-weight="600" fill="#0B132B">Choisir les banques</text>
+<text x="76" y="153" font-size="12.5" fill="#4D5470">Banques garantes et chef de file</text>
+<circle cx="48" cy="200" r="13" fill="#0B132B"/><text x="48" y="204.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="76" y="198" font-size="15" font-weight="600" fill="#0B132B">Due diligence et prospectus</text>
+<text x="76" y="217" font-size="12.5" fill="#4D5470">Examiner la société, rédiger le prospectus</text>
+<circle cx="48" cy="264" r="13" fill="#0B132B"/><text x="48" y="268.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+<text x="76" y="262" font-size="15" font-weight="600" fill="#0B132B">Approbation</text>
+<text x="76" y="281" font-size="12.5" fill="#4D5470">La FMA (Autriche) approuve le prospectus</text>
+<circle cx="48" cy="328" r="13" fill="#0B132B"/><text x="48" y="332.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+<text x="76" y="326" font-size="15" font-weight="600" fill="#0B132B">Présentation et bookbuilding</text>
+<text x="76" y="345" font-size="12.5" fill="#4D5470">Fourchette de prix, roadshow, ordres</text>
+<text x="536" y="326" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Période de souscription</text>
+<circle cx="48" cy="392" r="13" fill="#0B132B"/><text x="48" y="396.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+<text x="76" y="390" font-size="15" font-weight="600" fill="#0B132B">Prix et allocation</text>
+<text x="76" y="409" font-size="12.5" fill="#4D5470">Prix final fixé, actions allouées</text>
+<circle cx="48" cy="456" r="13" fill="#6A55A0"/><text x="48" y="460.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">7</text>
+<text x="76" y="454" font-size="15" font-weight="600" fill="#0B132B">Premier jour de cotation</text>
+<text x="76" y="473" font-size="12.5" fill="#4D5470">Les actions commencent à se négocier</text>
+<text x="536" y="454" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Jour de cotation</text>
+<circle cx="48" cy="520" r="13" fill="#0B132B"/><text x="48" y="524.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">8</text>
+<text x="76" y="518" font-size="15" font-weight="600" fill="#0B132B">Stabilisation et lock-up</text>
+<text x="76" y="537" font-size="12.5" fill="#4D5470">Jusqu’à 30 jours de stabilisation ; initiés bloqués</text>
+<text x="536" y="518" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Semaines et mois après</text>
+</svg>

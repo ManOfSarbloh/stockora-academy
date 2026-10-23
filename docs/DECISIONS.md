@@ -272,7 +272,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | What | My learning has "Download backup" (a JSON file with every `stockora-` key, as stored) and "Restore from file" (checked by src/lib/backup.ts, tested: right format and version, only `stockora-` keys with string values, at most 2 MB; asks before replacing). The file is made on the device and never uploaded, so the no-tracking promise holds; the Privacy Policy says so in every language |
 | Not done | Accounts with automatic sync would need a server, a database and a new privacy policy |
 
-## Open items
+## Translated figures (2026-10-23)
+
+| Topic | Decision |
+|---|---|
+| Approach | Instead of rewriting the generators, a post-processor translates the finished SVGs: every <text>, <title> and aria-label is looked up in content/i18n/<locale>/figures.json, with numbers lifted out as {0}, {1} … and re-formatted with Intl for the language (de-AT, es-ES, fr-FR, it-IT). Years, times and ratios stay as they are. 415 strings per language, 62 figures (51 lesson and Chart School images, 11 animations) |
+| On the page | The middleware swaps each lesson <img> (Astro's hashed /_astro/<name>.<hash>.svg) for /figures/<locale>/<name>.svg and uses the translated SVG title as alt text; animations are inlined from src/animations/<locale>/ |
+| Layout | Longer translations overflowed in places. A browser check measured every text box against the canvas, the box it sits in and the other labels, compared with English; all overflows were fixed by shorter wording (for example "Verbindl. 300", "Ø-Kosten je Anteil"). The check is not part of CI; re-run it after big wording changes |
+| Language of the page | Figures follow the page language even where the lesson text is still English (Spanish, French, Italian), so the visual summary is readable. German lessons are next |
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 572" font-family="Inter, system-ui, sans-serif">
+<title>Un'IPO in otto passi: preparazione, scelta delle banche, due diligence e prospetto, approvazione, presentazione agli investitori e bookbuilding, prezzo e assegnazione, primo giorno di quotazione, stabilizzazione e lock-up</title>
+<rect width="560" height="572" rx="16" fill="#ffffff"/>
+<text x="28" y="38" font-size="13" font-weight="700" fill="#4D5470" letter-spacing="0.5">LA QUOTAZIONE IN BORSA</text>
+<line x1="48" y1="72" x2="48" y2="520" stroke="#DCD2E6" stroke-width="3"/>
+<circle cx="48" cy="72" r="13" fill="#0B132B"/><text x="48" y="76.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="76" y="70" font-size="15" font-weight="600" fill="#0B132B">Preparazione</text>
+<text x="76" y="89" font-size="12.5" fill="#4D5470">Diventare una AG, principi contabili, governance</text>
+<text x="536" y="70" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Mesi prima</text>
+<circle cx="48" cy="136" r="13" fill="#0B132B"/><text x="48" y="140.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="76" y="134" font-size="15" font-weight="600" fill="#0B132B">Scegliere le banche</text>
+<text x="76" y="153" font-size="12.5" fill="#4D5470">Collocatori e bookrunner principale</text>
+<circle cx="48" cy="200" r="13" fill="#0B132B"/><text x="48" y="204.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="76" y="198" font-size="15" font-weight="600" fill="#0B132B">Due diligence e prospetto</text>
+<text x="76" y="217" font-size="12.5" fill="#4D5470">Verificare la società, scrivere il prospetto</text>
+<circle cx="48" cy="264" r="13" fill="#0B132B"/><text x="48" y="268.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+<text x="76" y="262" font-size="15" font-weight="600" fill="#0B132B">Approvazione</text>
+<text x="76" y="281" font-size="12.5" fill="#4D5470">La FMA (Austria) approva il prospetto</text>
+<circle cx="48" cy="328" r="13" fill="#0B132B"/><text x="48" y="332.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+<text x="76" y="326" font-size="15" font-weight="600" fill="#0B132B">Presentazione e bookbuilding</text>
+<text x="76" y="345" font-size="12.5" fill="#4D5470">Forchetta di prezzo, roadshow, ordini</text>
+<text x="536" y="326" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Periodo di sottoscrizione</text>
+<circle cx="48" cy="392" r="13" fill="#0B132B"/><text x="48" y="396.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+<text x="76" y="390" font-size="15" font-weight="600" fill="#0B132B">Prezzo e assegnazione</text>
+<text x="76" y="409" font-size="12.5" fill="#4D5470">Prezzo finale fissato, azioni assegnate</text>
+<circle cx="48" cy="456" r="13" fill="#6A55A0"/><text x="48" y="460.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">7</text>
+<text x="76" y="454" font-size="15" font-weight="600" fill="#0B132B">Primo giorno di quotazione</text>
+<text x="76" y="473" font-size="12.5" fill="#4D5470">Le azioni iniziano a essere scambiate</text>
+<text x="536" y="454" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Giorno di quotazione</text>
+<circle cx="48" cy="520" r="13" fill="#0B132B"/><text x="48" y="524.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">8</text>
+<text x="76" y="518" font-size="15" font-weight="600" fill="#0B132B">Stabilizzazione e lock-up</text>
+<text x="76" y="537" font-size="12.5" fill="#4D5470">Fino a 30 giorni di stabilizzazione; insider vincolati</text>
+<text x="536" y="518" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Settimane e mesi dopo</text>
+</svg>

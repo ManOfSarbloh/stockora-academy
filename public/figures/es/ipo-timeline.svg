@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 572" font-family="Inter, system-ui, sans-serif">
+<title>Una salida a bolsa en ocho pasos: preparación, elección de bancos, due diligence y folleto, aprobación, presentación a inversores y bookbuilding, precio y asignación, primer día de cotización, estabilización y lock-up</title>
+<rect width="560" height="572" rx="16" fill="#ffffff"/>
+<text x="28" y="38" font-size="13" font-weight="700" fill="#4D5470" letter-spacing="0.5">LA SALIDA A BOLSA</text>
+<line x1="48" y1="72" x2="48" y2="520" stroke="#DCD2E6" stroke-width="3"/>
+<circle cx="48" cy="72" r="13" fill="#0B132B"/><text x="48" y="76.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="76" y="70" font-size="15" font-weight="600" fill="#0B132B">Preparación</text>
+<text x="76" y="89" font-size="12.5" fill="#4D5470">Ser una AG, normas contables, gobierno corporativo</text>
+<text x="536" y="70" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Meses antes</text>
+<circle cx="48" cy="136" r="13" fill="#0B132B"/><text x="48" y="140.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="76" y="134" font-size="15" font-weight="600" fill="#0B132B">Elegir los bancos</text>
+<text x="76" y="153" font-size="12.5" fill="#4D5470">Colocadores y banco coordinador</text>
+<circle cx="48" cy="200" r="13" fill="#0B132B"/><text x="48" y="204.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="76" y="198" font-size="15" font-weight="600" fill="#0B132B">Due diligence y folleto</text>
+<text x="76" y="217" font-size="12.5" fill="#4D5470">Revisar la empresa, redactar el folleto</text>
+<circle cx="48" cy="264" r="13" fill="#0B132B"/><text x="48" y="268.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+<text x="76" y="262" font-size="15" font-weight="600" fill="#0B132B">Aprobación</text>
+<text x="76" y="281" font-size="12.5" fill="#4D5470">La FMA (Austria) aprueba el folleto</text>
+<circle cx="48" cy="328" r="13" fill="#0B132B"/><text x="48" y="332.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+<text x="76" y="326" font-size="15" font-weight="600" fill="#0B132B">Presentación y bookbuilding</text>
+<text x="76" y="345" font-size="12.5" fill="#4D5470">Rango de precios, roadshow, órdenes</text>
+<text x="536" y="326" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Periodo de suscripción</text>
+<circle cx="48" cy="392" r="13" fill="#0B132B"/><text x="48" y="396.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+<text x="76" y="390" font-size="15" font-weight="600" fill="#0B132B">Precio y asignación</text>
+<text x="76" y="409" font-size="12.5" fill="#4D5470">Precio final fijado, acciones asignadas</text>
+<circle cx="48" cy="456" r="13" fill="#6A55A0"/><text x="48" y="460.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">7</text>
+<text x="76" y="454" font-size="15" font-weight="600" fill="#0B132B">Primer día de cotización</text>
+<text x="76" y="473" font-size="12.5" fill="#4D5470">Las acciones empiezan a cotizar</text>
+<text x="536" y="454" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Día de salida</text>
+<circle cx="48" cy="520" r="13" fill="#0B132B"/><text x="48" y="524.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">8</text>
+<text x="76" y="518" font-size="15" font-weight="600" fill="#0B132B">Estabilización y lock-up</text>
+<text x="76" y="537" font-size="12.5" fill="#4D5470">Hasta 30 días de estabilización; insiders bloqueados</text>
+<text x="536" y="518" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Semanas y meses después</text>
+</svg>

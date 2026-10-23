@@ -7,6 +7,8 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse as parseYaml } from 'yaml';
+import { basename } from 'node:path';
+import { translateSvg } from './lib/figure-text.mjs';
 
 const CONTENT = 'content';
 const errors = [];
@@ -216,6 +218,27 @@ if (existsSync('content/i18n')) {
         for (const k of ['checks', 'afterSteps', 'links'])
           if ((data[k] ?? []).length !== scamShield[k].length) errors.push(`${where}: ${k} must have ${scamShield[k].length} entries, in the English order`);
         status.push('scam shield');
+      } else if (f === 'figures.json') {
+        // Every text in every figure must be translated, and the translated copies must be current.
+        const missing = new Set();
+        const svgs = [];
+        const walkSvg = (d) => {
+          for (const n of readdirSync(d, { withFileTypes: true })) {
+            const p = join(d, n.name);
+            if (n.isDirectory()) walkSvg(p);
+            else if (n.name.endsWith('.svg')) svgs.push([p, `public/figures/${loc}/${n.name}`]);
+          }
+        };
+        walkSvg('content/lessons');
+        for (const n of readdirSync('src/animations').filter((x) => x.endsWith('.svg'))) svgs.push([join('src/animations', n), `src/animations/${loc}/${n}`]);
+        let stale = 0;
+        for (const [src, copy] of svgs) {
+          const expected = translateSvg(readFileSync(src, 'utf8'), loc, data, missing);
+          if (!existsSync(copy) || readFileSync(copy, 'utf8') !== expected) stale++;
+        }
+        if (missing.size) errors.push(`${where}: ${missing.size} figure texts are not translated, e.g. "${[...missing][0]}"`);
+        if (stale) errors.push(`${where}: ${stale} translated figures are missing or out of date (run npm run build:figure-translations)`);
+        status.push(`figures ${svgs.length - stale}/${svgs.length}`);
       } else errors.push(`${where}: unknown translation file`);
     }
     translationStatus.push(`${loc}: ${status.join(', ') || 'no data files'}`);

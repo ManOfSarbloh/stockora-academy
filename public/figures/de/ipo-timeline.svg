@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 572" font-family="Inter, system-ui, sans-serif">
+<title>Ablauf eines Börsengangs in acht Schritten: Vorbereitung, Banken auswählen, Due Diligence und Prospekt, Billigung, Investorenansprache und Bookbuilding, Preisfestsetzung und Zuteilung, erster Handelstag, Stabilisierung und Lock-up</title>
+<rect width="560" height="572" rx="16" fill="#ffffff"/>
+<text x="28" y="38" font-size="13" font-weight="700" fill="#4D5470" letter-spacing="0.5">DER BÖRSENGANG</text>
+<line x1="48" y1="72" x2="48" y2="520" stroke="#DCD2E6" stroke-width="3"/>
+<circle cx="48" cy="72" r="13" fill="#0B132B"/><text x="48" y="76.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="76" y="70" font-size="15" font-weight="600" fill="#0B132B">Vorbereitung</text>
+<text x="76" y="89" font-size="12.5" fill="#4D5470">AG werden, Rechnungslegung, Corporate Governance</text>
+<text x="536" y="70" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Monate vorher</text>
+<circle cx="48" cy="136" r="13" fill="#0B132B"/><text x="48" y="140.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="76" y="134" font-size="15" font-weight="600" fill="#0B132B">Banken auswählen</text>
+<text x="76" y="153" font-size="12.5" fill="#4D5470">Emissionsbanken und Lead-Bookrunner</text>
+<circle cx="48" cy="200" r="13" fill="#0B132B"/><text x="48" y="204.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="76" y="198" font-size="15" font-weight="600" fill="#0B132B">Due Diligence und Prospekt</text>
+<text x="76" y="217" font-size="12.5" fill="#4D5470">Unternehmen prüfen, Angebotsdokument schreiben</text>
+<circle cx="48" cy="264" r="13" fill="#0B132B"/><text x="48" y="268.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">4</text>
+<text x="76" y="262" font-size="15" font-weight="600" fill="#0B132B">Billigung</text>
+<text x="76" y="281" font-size="12.5" fill="#4D5470">FMA (Österreich) billigt den Prospekt</text>
+<circle cx="48" cy="328" r="13" fill="#0B132B"/><text x="48" y="332.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">5</text>
+<text x="76" y="326" font-size="15" font-weight="600" fill="#0B132B">Investorenansprache und Bookbuilding</text>
+<text x="76" y="345" font-size="12.5" fill="#4D5470">Preisspanne, Roadshow, Anleger zeichnen</text>
+<text x="536" y="326" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Zeichnungsfrist</text>
+<circle cx="48" cy="392" r="13" fill="#0B132B"/><text x="48" y="396.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">6</text>
+<text x="76" y="390" font-size="15" font-weight="600" fill="#0B132B">Preisfestsetzung und Zuteilung</text>
+<text x="76" y="409" font-size="12.5" fill="#4D5470">Endpreis festgelegt, Aktien zugeteilt</text>
+<circle cx="48" cy="456" r="13" fill="#6A55A0"/><text x="48" y="460.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">7</text>
+<text x="76" y="454" font-size="15" font-weight="600" fill="#0B132B">Erster Handelstag</text>
+<text x="76" y="473" font-size="12.5" fill="#4D5470">Die Aktien werden an der Börse gehandelt</text>
+<text x="536" y="454" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Erstnotiz</text>
+<circle cx="48" cy="520" r="13" fill="#0B132B"/><text x="48" y="524.5" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">8</text>
+<text x="76" y="518" font-size="15" font-weight="600" fill="#0B132B">Stabilisierung und Lock-up</text>
+<text x="76" y="537" font-size="12.5" fill="#4D5470">Bis zu 30 Tage Stabilisierung; Insider gesperrt</text>
+<text x="536" y="518" text-anchor="end" font-size="11" font-weight="600" fill="#55418C">Wochen und Monate danach</text>
+</svg>

@@ -20,6 +20,7 @@
     "build:chart-images": "node scripts/build-chart-images.mjs",
     "build:lesson-images": "node scripts/build-lesson-images.mjs",
     "build:animations": "node scripts/build-animations.mjs",
+    "build:figure-translations": "node scripts/build-figure-translations.mjs",
     "check:videos:write": "node scripts/check-videos.js --write",
     "verify:full": "npm run verify && npm run check:videos && npm run check:sources",
     "build:og-image": "node scripts/build-og-image.mjs",
