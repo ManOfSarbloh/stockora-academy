@@ -421,7 +421,7 @@ export const de: Dictionary = {
   'tt.dst.note': "Viele andere Zeitzonen haben gar keine Sommerzeit (z. B. Tokio, Shanghai, Mumbai), und auf der Südhalbkugel (z. B. Sydney) gilt sie von Oktober bis April.",
   'tt.planned.title': "Kommt später",
   'tt.planned.body': "Die offiziellen Handelszeiten dieser Börsen konnten wir noch nicht überprüfen, daher sind sie noch nicht im Tool:",
-  'tt.learn': "Mehr dazu in Kategorie E: Handelszeiten & Sitzungen (auf Englisch)",
+  'tt.learn': "Mehr dazu in Kategorie E: Handelszeiten & Sitzungen",
   'tt.duration.min': "{m} Min.",
   'tt.duration.hmin': "{h} Std. {m} Min.",
   'tt.duration.days': "{d} Tage",
