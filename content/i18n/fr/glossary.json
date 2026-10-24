@@ -465,7 +465,7 @@
   "definition": "Le prix auquel quelqu'un est prêt à vendre, aussi appelé offre. Le prix vendeur le plus bas du carnet est la meilleure offre de vente."
  },
  "bid-ask-spread": {
-  "term": "Fourchette (écart acheteur-vendeur)",
+  "term": "Fourchette acheteur-vendeur (spread)",
   "definition": "L'écart entre le meilleur prix vendeur (le plus bas) et le meilleur prix acheteur (le plus haut). Une fourchette étroite indique généralement un titre liquide.",
   "example": "Meilleur acheteur 10,00 €, meilleur vendeur 10,02 € : la fourchette est de 0,02 €."
  },
