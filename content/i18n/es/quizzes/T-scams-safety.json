@@ -1,0 +1,191 @@
+{
+  "T-001": {
+    "question": "¿Cuántas denuncias de fraude de inversión recibió la FMA en 2025?",
+    "explanation": "La FMA recibió 843 denuncias en 2025, con unas pérdidas totales de 20 millones de euros."
+  },
+  "T-002": {
+    "question": "¿Qué pérdidas totales supusieron los casos de fraude de inversión denunciados a la FMA en 2025, en millones de euros?",
+    "explanation": "20 millones de euros, según la nota de prensa de la FMA del 30 de septiembre de 2026."
+  },
+  "T-003": {
+    "question": "¿Qué herramientas usan los estafadores para parecer creíbles, según la FMA? Selecciona todas las correctas.",
+    "explanation": "Los estafadores usan las redes sociales, los servicios de mensajería y los contenidos generados con IA; no tienen una autorización auténtica.",
+    "options": ["Las redes sociales", "Los grupos de chat de mensajería", "Imágenes, vídeos y voces generados con IA", "Una autorización oficial de la FMA"]
+  },
+  "T-004": {
+    "question": "Verdadero o falso: solo las personas con pocos estudios caen en el fraude de inversión.",
+    "explanation": "Falso. El fraude va a por todo el mundo; las comprobaciones fijas protegen más que la confianza en uno mismo."
+  },
+  "T-005": {
+    "question": "¿Cuáles de estas son señales de alarma de fraude de inversión que cita la FMA? Selecciona todas las correctas.",
+    "explanation": "Las rentabilidades altas o sin riesgo, las prisas y el contacto solo por mensajería son señales de alarma. Una autorización comprobada es una buena señal, aunque los datos de contacto deben coincidir.",
+    "options": ["Rentabilidades excepcionalmente altas o aparentemente sin riesgo", "Prisas", "Comunicación solo por servicios de mensajería", "Una empresa que figura en la base de datos de empresas de la FMA con datos de contacto coincidentes"]
+  },
+  "T-006": {
+    "question": "Verdadero o falso: un asesor de inversión legítimo puede pedirte que instales un programa de acceso remoto en tu ordenador.",
+    "explanation": "Falso. La FMA considera esas peticiones una clara señal de alarma."
+  },
+  "T-007": {
+    "question": "¿Cuál es una señal de alarma de un esquema Ponzi según Investor.gov?",
+    "explanation": "Las inversiones reales fluctúan; las rentabilidades regulares pase lo que pase en los mercados son sospechosas.",
+    "options": ["Rentabilidades demasiado constantes, sean cuales sean las condiciones del mercado", "Rentabilidades que suben y bajan con el mercado", "Un vendedor registrado y con licencia", "Una documentación clara y completa"]
+  },
+  "T-008": {
+    "question": "Verdadero o falso: la FMA ha descrito la «venta en frío» no solicitada de operaciones financieras como prohibida por la ley en Austria.",
+    "explanation": "Verdadero, en su advertencia de 2018 sobre los proveedores que fingen estar regulados."
+  },
+  "T-009": {
+    "question": "Un desconocido te escribe «¡Perdona, me he equivocado de número!» y luego te ofrece una plaza en un grupo VIP de trading con un 2 % de rentabilidad diaria. ¿Qué deberías hacer?",
+    "explanation": "Investor.gov aconseja ignorar los mensajes de remitentes desconocidos, bloquearlos y denunciarlos.",
+    "options": ["Ignorar, bloquear y denunciar el mensaje", "Entrar en el grupo para saber más", "Enviar un pequeño importe de prueba", "Compartir tus datos de acceso al banco para verificar tu identidad"]
+  },
+  "T-010": {
+    "question": "¿Dónde puedes comprobar si una empresa está autorizada por la FMA?",
+    "explanation": "Todas las advertencias de la FMA remiten a la base de datos de empresas para comprobar la autorización.",
+    "options": ["En la base de datos de empresas de la FMA (Unternehmensdatenbank)", "En la propia web de la empresa", "En las publicaciones de la empresa en redes sociales", "Preguntando al comercial de la empresa"]
+  },
+  "T-011": {
+    "question": "¿Qué significa una advertencia de la FMA sobre un proveedor?",
+    "explanation": "Las advertencias dan el nombre de proveedores sin la autorización necesaria.",
+    "options": ["Que el proveedor no está autorizado a ofrecer esos servicios en Austria; no hagas negocios con él", "Que el proveedor es un socio seguro", "Que el proveedor ha pagado una multa y ya no hay problema", "Nada importante"]
+  },
+  "T-012": {
+    "question": "¿Qué es I-SCAN?",
+    "explanation": "I-SCAN reúne las advertencias que envían supervisores de valores de todo el mundo.",
+    "options": ["La red de IOSCO, con buscador, de alertas para inversores de supervisores de todo el mundo", "Un formulario fiscal austriaco", "Una bolsa de Singapur", "Un tipo de fondo"]
+  },
+  "T-013": {
+    "question": "Verdadero o falso: IOSCO verifica por su cuenta cada alerta que se envía a I-SCAN.",
+    "explanation": "Falso. IOSCO indica que no verifica por su cuenta todo el contenido que envían sus miembros."
+  },
+  "T-014": {
+    "question": "Ordena de forma razonable las comprobaciones de Antifraude.",
+    "explanation": "Comprueba la autorización, las advertencias y las alertas internacionales, verifica por tu cuenta los datos de contacto y, si tienes dudas, pregunta al supervisor.",
+    "orderedItems": ["Buscar en la base de datos de empresas de la FMA", "Buscar en la lista de advertencias de la FMA", "Buscar alertas internacionales en I-SCAN", "Comparar los datos de contacto con el registro oficial", "Contactar directamente con el supervisor si sigues sin estar seguro"]
+  },
+  "T-015": {
+    "question": "Verdadero o falso: la FMA ofrece una app que da acceso a su base de datos de empresas y avisa de las nuevas advertencias.",
+    "explanation": "Verdadero. La app de la FMA es gratuita."
+  },
+  "T-016": {
+    "question": "¿Qué es una empresa clonada?",
+    "explanation": "La FMA describe los clones como un método de fraude habitual que usa indebidamente la identidad de empresas reales.",
+    "options": ["Un estafador que usa el nombre y los datos registrales de una empresa auténtica y autorizada", "Una filial de un banco", "Una empresa con dos oficinas", "Un ETF que copia un índice"]
+  },
+  "T-017": {
+    "question": "¿Qué resultó ser la falsa «FINSA», según la FMA?",
+    "explanation": "Un proveedor decía tener licencia de la FINSA, que no existe. El supervisor de Austria es la FMA.",
+    "options": ["Una autoridad de supervisión inventada que usaba un proveedor fraudulento", "El auténtico supervisor financiero de Austria", "Una directiva europea", "Un índice bursátil"]
+  },
+  "T-018": {
+    "question": "¿Cómo terminan las direcciones de correo auténticas de la FMA?",
+    "explanation": "La FMA advierte de que las direcciones auténticas de la FMA terminan solo en @fma.gv.at.",
+    "options": ["@fma.gv.at", "@fma-austria.com", "@fragency.net", "@gmail.com"]
+  },
+  "T-019": {
+    "question": "Verdadero o falso: para comprobar su identidad, deberías usar el número de teléfono que te da alguien que contacta contigo diciendo ser de un supervisor.",
+    "explanation": "Falso. Busca tú mismo los datos de contacto en la web o en el registro oficial."
+  },
+  "T-020": {
+    "question": "Verdadero o falso: según la FMA, el fraude de inversión a través de servicios de mensajería como WhatsApp y Telegram va en aumento.",
+    "explanation": "Verdadero, según informó la FMA en septiembre de 2026."
+  },
+  "T-021": {
+    "question": "Ordena las fases de un esquema pump and dump.",
+    "explanation": "Inflar con afirmaciones engañosas, vender las acciones y dejar con pérdidas a los que llegan tarde (Investor.gov).",
+    "orderedItems": ["Los promotores compran una acción barata", "Difunden afirmaciones falsas o engañosas para subir el precio", "Venden sus propias acciones al precio más alto", "El bombo se acaba y el precio cae"]
+  },
+  "T-022": {
+    "question": "En la UE y en Austria, ¿qué es difundir información falsa para subir el precio de una acción?",
+    "explanation": "El MAR y la ley austriaca castigan la manipulación mediante información falsa o engañosa (categoría R).",
+    "options": ["Manipulación del mercado, un delito castigado", "Marketing normal", "Asesoramiento de inversión legal", "Una deducción fiscal"]
+  },
+  "T-023": {
+    "question": "Verdadero o falso: los «otros inversores» que alaban los beneficios en un grupo de chat de inversión pueden ser cuentas falsas.",
+    "explanation": "Verdadero. Los estafadores crean identidades de aspecto creíble, también con IA."
+  },
+  "T-024": {
+    "question": "¿Qué recomienda la FMA comprobar antes de seguir el consejo de un finfluencer?",
+    "explanation": "La FMA aconseja comprobar la cualificación y los conflictos de intereses, como el marketing de afiliación.",
+    "options": ["Su cualificación y si gana dinero con los productos que recomienda", "Solo su número de seguidores", "El color de su logotipo", "Nada; los finfluencers tienen licencia"]
+  },
+  "T-025": {
+    "question": "Verdadero o falso: una app disponible en una tienda de apps conocida tiene que ser legítima.",
+    "explanation": "Falso. Investor.gov advierte de que estar en una tienda de apps no significa que la app o sus actividades sean legítimas."
+  },
+  "T-026": {
+    "question": "Tu app de trading muestra grandes beneficios, pero para retirarlos te dicen que primero pagues un «impuesto» del 20 %. ¿Qué es esto?",
+    "explanation": "Las peticiones de pagar comisiones o impuestos para liberar los fondos son un fraude de pago por adelantado clásico.",
+    "options": ["Un fraude de pago por adelantado; no pagues nunca", "Un trámite fiscal austriaco normal", "Una señal de que la inversión es segura", "Una comisión bancaria"]
+  },
+  "T-027": {
+    "question": "¿Cuánto tiempo suelen dedicar los estafadores sentimentales a ganarse la confianza antes de hablar de inversiones, según Investor.gov?",
+    "explanation": "Investor.gov lo llama una «estafa a largo plazo» de semanas o meses.",
+    "options": ["Semanas o meses", "Unos segundos", "Diez años", "Nunca hablan de inversiones"]
+  },
+  "T-028": {
+    "question": "¿Qué recomienda Investor.gov para protegerte de las estafas de inversión basadas en una relación? Selecciona todas las correctas.",
+    "explanation": "Protege tu información personal y no pagues nunca por liberar o recuperar fondos.",
+    "options": ["Ignorar y bloquear los mensajes de remitentes desconocidos", "Tomar las decisiones de inversión con independencia de los contactos en línea no solicitados", "No pagar nunca por recuperar una inversión", "Compartir tus documentos de identidad para demostrar que vas en serio"]
+  },
+  "T-029": {
+    "question": "Te das cuenta de que has enviado dinero a un estafador de inversiones. Ordena los primeros pasos que recomienda la FMA.",
+    "explanation": "La FMA recomienda contactar enseguida con tu banco y con la policía, y denunciar los perfiles en las plataformas.",
+    "orderedItems": ["Contactar de inmediato con tu propio banco", "Denunciar el caso a la policía", "Denunciar los perfiles de los estafadores en las plataformas"]
+  },
+  "T-030": {
+    "question": "Tras ser víctima de una estafa, contacta contigo una «agencia de recuperación de activos» que te pide una comisión por devolverte tu dinero. ¿Qué es lo más probable?",
+    "explanation": "Investor.gov advierte de que los estafadores van a por víctimas anteriores, a veces suplantando a supervisores, y exigen comisiones por adelantado.",
+    "options": ["Una estafa de recuperación (de recarga)", "Un servicio público auténtico", "El procedimiento normal de tu banco", "Un pago de un seguro"]
+  },
+  "T-031": {
+    "question": "Verdadero o falso: no deberías pagar nunca dinero por recuperar una inversión o liberar fondos.",
+    "explanation": "Verdadero. Es el consejo explícito de Investor.gov."
+  },
+  "T-032": {
+    "question": "Verdadero o falso: los estafadores pueden suplantar a supervisores públicos al contactar con víctimas de fraudes anteriores.",
+    "explanation": "Verdadero. Investor.gov describe la suplantación de supervisores en las estafas de recuperación."
+  },
+  "T-033": {
+    "question": "¿Cómo paga un esquema Ponzi a sus inversores?",
+    "explanation": "Investor.gov: paga a los inversores existentes con el dinero que recauda de los nuevos.",
+    "options": ["Con el dinero de los nuevos inversores", "Con los beneficios reales de un negocio", "Con subvenciones públicas", "Con los intereses del banco central"]
+  },
+  "T-034": {
+    "question": "¿Quién dio nombre al esquema Ponzi?",
+    "explanation": "Charles Ponzi montó un esquema de especulación con sellos de correos en los años veinte.",
+    "options": ["Charles Ponzi, que estafó a inversores en los años veinte", "Un banco italiano", "Un supervisor de EE. UU.", "Un índice bursátil"]
+  },
+  "T-035": {
+    "question": "¿Cuál es un rasgo típico de un esquema piramidal, según Investor.gov?",
+    "explanation": "Los esquemas piramidales se centran en la captación y pagan a los participantes anteriores con el dinero de los nuevos.",
+    "options": ["El énfasis en captar nuevos miembros en lugar de vender productos reales", "Cuentas auditadas con regularidad", "Rentabilidades bajas y regulares", "La autorización de la FMA"]
+  },
+  "T-036": {
+    "question": "Verdadero o falso: los esquemas Ponzi necesitan un flujo constante de dinero nuevo y se hunden cuando se detiene.",
+    "explanation": "Verdadero. Con pocos o ningún beneficio real, se hunden cuando se frena la captación o muchos inversores retiran su dinero."
+  },
+  "T-037": {
+    "question": "Un esquema promete un 10 % al mes sobre 100.000 € de depósitos sin beneficios reales. ¿Al cabo de cuántos meses se habría agotado el dinero original solo con pagar la rentabilidad prometida?",
+    "explanation": "El 10 % de 100.000 € son 10.000 € al mes; al cabo de 10 meses los 100.000 € han desaparecido, salvo que llegue dinero nuevo."
+  },
+  "T-038": {
+    "question": "¿Qué hace la FMA cuando tiene conocimiento de una empresa clonada? Selecciona todas las correctas.",
+    "explanation": "La FMA advierte, prohíbe y denuncia; no indemniza a las víctimas.",
+    "options": ["Publica una advertencia con el nombre del clon y sus datos de contacto", "Prohíbe sus actividades", "Denuncia el caso al fiscal", "Devuelve el dinero a las víctimas con su propio presupuesto"]
+  },
+  "T-039": {
+    "question": "¿Cómo llama Investor.gov a las estafas que se dirigen a víctimas de fraudes anteriores, por ejemplo haciéndose pasar por supervisores que pueden «recuperar» los fondos a cambio de una comisión?",
+    "explanation": "Los estafadores de recarga van a por víctimas anteriores y exigen comisiones por adelantado para «liberar» o «recuperar» los fondos. No pagues nunca por recuperar tu dinero.",
+    "options": ["Estafas de recarga (reload scams)", "Pump and dump", "Esquemas Ponzi", "Phishing solo de contraseñas"]
+  },
+  "T-040": {
+    "question": "Cuando las víctimas de una plataforma de trading falsa intentan retirar su dinero, ¿qué dice Investor.gov que suele pasar?",
+    "explanation": "La retirada se convierte en un fraude de pago por adelantado: cada nuevo pago solo aumenta la pérdida.",
+    "options": ["Las convencen de pagar «comisiones» que pueden superar lo que depositaron al principio", "Reciben su dinero menos una pequeña comisión", "La plataforma se denuncia a sí misma ante el supervisor", "Su banco bloquea automáticamente la plataforma"]
+  },
+  "T-041": {
+    "question": "En 2025, la FMA recibió 843 denuncias de fraude de inversión con unas pérdidas totales de 20 millones de euros. ¿Cuál fue la pérdida media por caso denunciado, en euros? (Redondea a la centena.)",
+    "explanation": "20.000.000 € ÷ 843 ≈ 23.725 €, es decir, unos 23.700 € por caso, y solo se cuentan los casos denunciados."
+  }
+}
