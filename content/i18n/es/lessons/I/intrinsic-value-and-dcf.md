@@ -86,7 +86,7 @@ En lugar de estimar un valor, puedes preguntarte qué hipótesis implica el **pr
 
 ## El margen de seguridad
 
-Como el valor intrínseco es solo una estimación, los inversores prudentes incorporan un colchón. En su carta de 1992, Warren Buffett escribió que Berkshire exige un **margen de seguridad** en el precio de compra: si el valor calculado de una acción es solo un poco superior a su precio, no les interesa. Llama a este principio, que Benjamin Graham subrayó con fuerza, la piedra angular del éxito inversor.
+Como el valor intrínseco es solo una estimación, los inversores prudentes incorporan un colchón. En su carta de 1992, Warren Buffett escribió que Berkshire exige un **margen de seguridad** en el precio al que compra: si el valor calculado de una acción es solo un poco superior a su precio, no les interesa. Llama a este principio, que Benjamin Graham subrayó con fuerza, la piedra angular del éxito inversor.
 
 > [!EXAMPLE] Un margen de seguridad en cifras
 > Valor estimado de 18,93 €. Quien exija un margen de seguridad del 25 % solo consideraría precios iguales o inferiores a 18,93 × 0,75 ≈ **14,20 €**.

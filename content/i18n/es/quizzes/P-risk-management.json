@@ -1,0 +1,192 @@
+{
+  "P-001": {
+    "question": "¿Cómo define Investor.gov el riesgo en finanzas?",
+    "explanation": "Investor.gov: el riesgo es el grado de incertidumbre y/o de posible pérdida económica inherente a una decisión de inversión.",
+    "options": ["El grado de incertidumbre y/o de posible pérdida económica de una decisión de inversión", "Solo la posibilidad de fraude", "El coste de una operación", "El impuesto sobre las ganancias"]
+  },
+  "P-002": {
+    "question": "Si se liquida una empresa, ¿quién es el último de la fila, según Investor.gov?",
+    "explanation": "Primero cobran los bonistas y después los accionistas preferentes; los accionistas ordinarios se quedan con lo que sobre, que puede ser nada.",
+    "options": ["Los accionistas ordinarios", "Los bonistas", "Los accionistas preferentes", "Los fondos de pensiones de los empleados"]
+  },
+  "P-003": {
+    "question": "¿Qué tipo de riesgo puede reducirse mucho teniendo muchas empresas distintas?",
+    "explanation": "La diversificación reduce el riesgo propio de cada empresa; los riesgos que afectan a casi todo a la vez se mantienen.",
+    "options": ["El riesgo propio de cada empresa", "El riesgo de todo el mercado (sistemático)", "El riesgo de inflación", "El riesgo de tipos de interés"]
+  },
+  "P-004": {
+    "question": "¿Qué es el riesgo de liquidez?",
+    "explanation": "Investor.gov: el riesgo de que los inversores no encuentren mercado para sus valores cuando quieran comprar o vender.",
+    "options": ["El riesgo de no poder vender cuando quieres, o solo a un mal precio", "El riesgo de inflación", "El riesgo de que una acción no pague dividendo", "El riesgo de un cambio de divisa"]
+  },
+  "P-005": {
+    "question": "¿Hasta qué importe cubre el sistema austriaco de indemnización a los inversores los derechos si un banco no puede entregar los valores de un cliente, en euros?",
+    "explanation": "Einlagensicherung AUSTRIA: hasta 20.000 € (el 90 % para las personas jurídicas, pero no más de 20.000 €)."
+  },
+  "P-006": {
+    "question": "Verdadero o falso: los valores de tu cuenta de custodia en un banco austriaco son tuyos, no del banco.",
+    "explanation": "Verdadero. Einlagensicherung AUSTRIA explica que son propiedad del cliente y que el banco solo los guarda en custodia."
+  },
+  "P-007": {
+    "question": "Verdadero o falso: tener todo tu dinero en efectivo significa no asumir ningún riesgo.",
+    "explanation": "Falso. Investor.gov cita la inflación como la principal preocupación del efectivo: erosiona el poder adquisitivo."
+  },
+  "P-008": {
+    "question": "¿Qué mide la desviación típica de la rentabilidad?",
+    "explanation": "Es la medida habitual de la volatilidad: una desviación típica mayor significa una mayor dispersión de los resultados.",
+    "options": ["Lo dispersa que está la rentabilidad en torno a su media", "La rentabilidad media", "El precio más alto de la historia", "La rentabilidad por dividendo"]
+  },
+  "P-009": {
+    "question": "En los datos de Damodaran de 1928 a 2025, ¿cuál fue la desviación típica de la rentabilidad anual del S&P 500, en porcentaje? (Un decimal.)",
+    "explanation": "Alrededor del 19,4 %, frente al 7,9 % de los bonos del Tesoro a 10 años (cálculo propio)."
+  },
+  "P-010": {
+    "question": "¿En qué escala califica los productos el indicador resumido de riesgo del KID?",
+    "explanation": "El 1 es el riesgo más bajo y el 7 el más alto; combina el riesgo de mercado y el riesgo de crédito del emisor (FMA)."
+  },
+  "P-011": {
+    "question": "Según el Reglamento Delegado (UE) 2017/653, ¿qué clase de riesgo de mercado corresponde a una volatilidad equivalente al VaR de más del 80 %?",
+    "explanation": "La clase 7 es más del 80 %; la clase 1, menos del 0,5 %."
+  },
+  "P-012": {
+    "question": "¿Qué clase de riesgo de mercado corresponde a una volatilidad equivalente al VaR de entre el 12 % y el 20 %?",
+    "explanation": "La tabla de los PRIIP: 1 (<0,5 %), 2 (0,5–5 %), 3 (5–12 %), 4 (12–20 %), 5 (20–30 %), 6 (30–80 %), 7 (>80 %)."
+  },
+  "P-013": {
+    "question": "Verdadero o falso: la volatilidad trata igual las subidas y las bajadas.",
+    "explanation": "Verdadero, y es uno de sus límites como medida del riesgo: a los inversores les asustan sobre todo las pérdidas."
+  },
+  "P-014": {
+    "question": "1.000 € suben un 50 % y luego caen un 50 %. ¿Cuánto valen ahora, en euros?",
+    "explanation": "1.000 × 1,5 × 0,5 = 750 €, una pérdida del 25 % aunque la media de +50 % y −50 % sea del 0 %."
+  },
+  "P-015": {
+    "question": "Tras una caída del 65 %, ¿qué ganancia en porcentaje hace falta para recuperarse? (Redondea al entero.)",
+    "explanation": "1 ÷ (1 − 0,65) − 1 ≈ 1,857, es decir, alrededor de un +186 %."
+  },
+  "P-016": {
+    "question": "¿Cuánto cayó el Dow Jones desde su pico de 1929 hasta su mínimo de 1932, en porcentaje?",
+    "explanation": "De 381,17 a 41,22: un 89 % (Federal Reserve History)."
+  },
+  "P-017": {
+    "question": "¿Qué es el «lastre de la volatilidad»?",
+    "explanation": "Las oscilaciones dejan la rentabilidad compuesta por debajo de la media aritmética; S&P 500 1928–2025: media del 11,9 % frente a un 10,0 % compuesto.",
+    "options": ["La brecha entre la rentabilidad media anual y la rentabilidad compuesta que se obtiene de verdad", "Una comisión que cobran los fondos volátiles", "El tiempo que tarda en abrir un mercado", "Un tipo de orden stop"]
+  },
+  "P-018": {
+    "question": "Con compuesta ≈ media − ½ × volatilidad², una media del 11,9 % y una volatilidad del 19,4 %, ¿qué rentabilidad compuesta resulta, en porcentaje? (Un decimal.)",
+    "explanation": "0,5 × 0,194² ≈ 0,019; 11,9 % − 1,9 % ≈ 10,0 %."
+  },
+  "P-019": {
+    "question": "El Nikkei 225 cayó de 38.915 yenes (finales de 1989) a 12.879 yenes (octubre de 1998). ¿Qué caída es, aproximadamente, en porcentaje? (Escribe un número entero negativo.)",
+    "explanation": "12.879 ÷ 38.915 − 1 ≈ −67 %."
+  },
+  "P-020": {
+    "question": "¿Qué significa una correlación de +1 entre dos inversiones?",
+    "explanation": "La correlación va de −1 a +1; +1 significa que se mueven juntas a la perfección.",
+    "options": ["Siempre se mueven juntas, así que combinarlas no aporta ninguna ventaja de diversificación", "Siempre se mueven en direcciones opuestas", "No tienen ninguna relación", "Tienen el mismo precio"]
+  },
+  "P-021": {
+    "question": "Las acciones tuvieron una volatilidad del 19,4 % y los bonos del 7,9 %. ¿Cuál es la volatilidad media ponderada de una combinación 60/40, en porcentaje? (Un decimal.)",
+    "explanation": "0,6 × 19,4 + 0,4 × 7,9 = 14,8 %. La volatilidad real de la combinación 60/40 fue solo de alrededor del 12,1 %, porque las dos apenas estaban correlacionadas."
+  },
+  "P-022": {
+    "question": "Verdadero o falso: si dos inversiones no están perfectamente correlacionadas, una combinación de ambas es menos volátil que la media ponderada de sus volatilidades.",
+    "explanation": "Verdadero. Es la base matemática de la diversificación."
+  },
+  "P-023": {
+    "question": "Verdadero o falso: la correlación entre las acciones y los bonos es fija y nunca cambia.",
+    "explanation": "Falso. En los datos de Damodaran fue de alrededor de +0,15 en 1928–1999 y de −0,36 en 2000–2025, y en 2022 los dos cayeron juntos."
+  },
+  "P-024": {
+    "question": "¿Por qué dice la SEC que la asignación de activos puede proteger de pérdidas significativas?",
+    "explanation": "Incluir categorías que reaccionan de forma distinta suaviza el conjunto del viaje.",
+    "options": ["La rentabilidad de las principales categorías de activos históricamente no ha subido y bajado a la vez", "Todas las categorías de activos siempre suben juntas", "Los bonos nunca pierden dinero", "El efectivo siempre bate a la inflación"]
+  },
+  "P-025": {
+    "question": "¿Qué mide el ratio de Sharpe?",
+    "explanation": "Sharpe lo describe como la rentabilidad diferencial por unidad de riesgo asociada a ella.",
+    "options": ["La rentabilidad extra por unidad de riesgo", "Solo la rentabilidad total", "El número de acciones de un fondo", "La antigüedad del fondo"]
+  },
+  "P-026": {
+    "question": "Un fondo rindió un 12 % con una volatilidad del 20 %; el tipo sin riesgo es del 3 %. ¿Cuál es su ratio de Sharpe? (Dos decimales.)",
+    "explanation": "(12 − 3) ÷ 20 = 0,45."
+  },
+  "P-027": {
+    "question": "Un fondo rindió un 9 % con una volatilidad del 10 %; el tipo sin riesgo es del 3 %. ¿Cuál es su ratio de Sharpe? (Dos decimales.)",
+    "explanation": "(9 − 3) ÷ 10 = 0,60, mejor que un fondo con un 12 % de rentabilidad y un 20 % de volatilidad."
+  },
+  "P-028": {
+    "question": "En el cálculo de la lección con los datos de Damodaran de 1928 a 2025, ¿cuál tuvo el ratio de Sharpe más alto?",
+    "explanation": "La combinación ganó menos que las acciones, pero algo más por unidad de riesgo gracias a la diversificación.",
+    "options": ["Una combinación 60/40 de acciones y bonos (alrededor de 0,46)", "Las acciones de EE. UU. solas (alrededor de 0,43)", "Los bonos del Tesoro a 10 años (alrededor de 0,18)", "Todos fueron iguales"]
+  },
+  "P-029": {
+    "question": "Verdadero o falso: una estrategia de venta de opciones puede mostrar una rentabilidad suave y un ratio de Sharpe alto hasta que llega una gran pérdida.",
+    "explanation": "Verdadero. El ratio de Sharpe usa la volatilidad y puede pasar por alto pérdidas extremas poco frecuentes."
+  },
+  "P-030": {
+    "question": "Cuenta de 20.000 €. Aceptas perder un 1 % en una idea, compras a 50 € y piensas salir a 45 €. ¿Cuántas acciones deberías comprar?",
+    "explanation": "Pérdida aceptada de 200 € ÷ riesgo de 5 € por acción = 40 acciones."
+  },
+  "P-031": {
+    "question": "Con un tope del 5 % por empresa y una cartera de 40.000 €, ¿cuál es el importe máximo en una acción, en euros?",
+    "explanation": "5 % × 40.000 € = 2.000 €. Una quiebra total de esa empresa cuesta un 5 % de la cartera."
+  },
+  "P-032": {
+    "question": "Verdadero o falso: una orden stop-loss garantiza que vendes al precio de stop.",
+    "explanation": "Falso. Investor.gov: el precio de stop es un activador, no un precio garantizado; tras un hueco, la venta puede ser mucho más baja."
+  },
+  "P-033": {
+    "question": "Tienes 40 acciones con un stop en 45 € (compradas a 50 €). La acción abre a 38 € tras una mala noticia y el stop vende ahí. ¿Cuál es tu pérdida, en euros?",
+    "explanation": "(50 − 38) × 40 = 480 €, en lugar de los 200 € previstos."
+  },
+  "P-034": {
+    "question": "¿Qué empresa del DAX 30 alemán se declaró insolvente en 2020 después de que 1.900 millones de euros de efectivo declarado resultaran no existir?",
+    "explanation": "La revisión inter pares de la ESMA describe el hundimiento de Wirecard; los límites por posición acotan el daño que puede hacer una quiebra así.",
+    "options": ["Wirecard", "Siemens", "Allianz", "SAP"]
+  },
+  "P-035": {
+    "question": "10.000 € suben un 20 % y luego caen un 20 %, sin aportaciones ni retiradas. ¿Cuánto valen, en euros?",
+    "explanation": "10.000 × 1,2 × 0,8 = 9.600 €, lo mismo en cualquier orden."
+  },
+  "P-036": {
+    "question": "Verdadero o falso: para quien retira dinero cada año, los años malos al principio hacen más daño que los mismos años malos más tarde.",
+    "explanation": "Verdadero. Las pérdidas tempranas obligan a vender a precios bajos, así que queda menos dinero para recuperarse."
+  },
+  "P-037": {
+    "question": "Empiezas con 100.000 € y retiras 10.000 € al principio de cada año; rentabilidades de −30 %, +10 % y +30 %. ¿Cuánto queda al cabo de tres años, en euros?",
+    "explanation": "(90.000 × 0,7) = 63.000; (53.000 × 1,1) = 58.300; (48.300 × 1,3) = 62.790 €. En orden inverso quedarían 75.390 €."
+  },
+  "P-038": {
+    "question": "¿Qué medida dice la SEC que toma la mayoría de quienes invierten para la jubilación a medida que esta se acerca?",
+    "explanation": "Reducir el riesgo cerca del objetivo también reduce el riesgo de secuencia.",
+    "options": ["Tener menos acciones y más bonos y efectivo", "Endeudarse para comprar más acciones", "Pasarlo todo a una sola empresa", "Dejar de diversificar"]
+  },
+  "P-039": {
+    "question": "¿Qué preguntas deben estar en una lista de comprobación antes de comprar una inversión? Selecciona todas las correctas.",
+    "explanation": "Entenderla, que el vendedor esté autorizado y el tamaño de la posición son clave. El movimiento del precio de la semana pasada dice poco del riesgo.",
+    "options": ["¿Entiendo cómo gana o pierde dinero?", "¿Está autorizado el vendedor?", "¿Qué tamaño tendrá esta posición en mi cartera?", "¿Subió la semana pasada?"]
+  },
+  "P-040": {
+    "question": "¿Cómo dice Investor.gov que se presentan muchos fraudes de inversión?",
+    "explanation": "Las cinco preguntas de Investor.gov advierten de que los fraudes suelen presentarse como alta rentabilidad con poco o ningún riesgo.",
+    "options": ["Como oportunidades de alta rentabilidad con poco o ningún riesgo", "Como productos de baja rentabilidad y alto riesgo", "Como bonos del Estado", "Como cuentas de ahorro"]
+  },
+  "P-041": {
+    "question": "Verdadero o falso: endeudarse para invertir es una señal de alarma en una revisión personal del riesgo.",
+    "explanation": "Verdadero. El apalancamiento amplía las pérdidas y puede obligar a vender en el peor momento (categoría N)."
+  },
+  "P-042": {
+    "question": "En Austria, ¿hasta cuántos euros cubre la indemnización a los inversores si no pueden entregarse los valores en custodia?",
+    "explanation": "Los valores de una cuenta de custodia siguen siendo tuyos; la indemnización a los inversores cubre hasta 20.000 € si no pueden entregarse (Einlagensicherung AUSTRIA)."
+  },
+  "P-043": {
+    "question": "Como prueba de caída, te preguntas qué supondría una caída como la de 2008 (−36,6 % en las acciones de EE. UU.) para 50.000 € en acciones. ¿Cuántos euros perderías?",
+    "explanation": "50.000 € × 36,6 % = 18.300 €. Pregúntate si podrías vivir con ello sin vender."
+  },
+  "P-044": {
+    "question": "Empiezas con 100.000 € y retiras 10.000 € al principio de cada año. Las rentabilidades anuales son +30 %, luego +10 % y luego −30 %. ¿Cuánto queda al cabo de tres años, en euros?",
+    "explanation": "(90.000 × 1,30) = 117.000; (107.000 × 1,10) = 117.700; (107.700 × 0,70) = 75.390. Con el año malo primero, las mismas rentabilidades dejan solo 62.790 €."
+  }
+}
