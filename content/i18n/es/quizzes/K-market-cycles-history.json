@@ -1,0 +1,260 @@
+{
+  "K-001": {
+    "question": "Según la definición general de Investor.gov, ¿qué es un mercado bajista?",
+    "explanation": "Investor.gov: en general, hay un mercado bajista cuando un índice amplio del mercado cae un 20 % o más durante al menos dos meses, con un ánimo pesimista.",
+    "options": ["Una caída del 20 % o más de un índice amplio durante al menos dos meses", "Cualquier día en que cae el mercado", "Una caída del 5 % de una sola acción", "Un periodo en que suben los tipos de interés"]
+  },
+  "K-002": {
+    "question": "Verdadero o falso: un mercado alcista es, en general, una subida del 20 % o más de un índice amplio durante al menos dos meses.",
+    "explanation": "Verdadero. Es la definición general de mercado alcista de Investor.gov."
+  },
+  "K-003": {
+    "question": "Una inversión pierde un 50 %. ¿Qué ganancia porcentual hace falta para volver al valor inicial?",
+    "explanation": "Tras una pérdida del 50 %, 100 € se convierten en 50 €. Hace falta duplicar (+100 %) para volver a 100 €."
+  },
+  "K-004": {
+    "question": "Una inversión pierde un 20 %. ¿Qué ganancia porcentual hace falta para recuperarse?",
+    "explanation": "100 € se convierten en 80 €; 80 × 1,25 = 100, así que hace falta un +25 %. Fórmula: 1 ÷ (1 − 0,20) − 1 = 25 %."
+  },
+  "K-005": {
+    "question": "Un índice marca un pico en 4.000 puntos y más tarde cae a 2.600. ¿Cuál es el drawdown, en porcentaje? (Escribe un número negativo.)",
+    "explanation": "(2.600 − 4.000) ÷ 4.000 = −35 %."
+  },
+  "K-006": {
+    "question": "En los datos del S&P 500 de Damodaran de 1928 a 2025 (dividendos incluidos), ¿con qué frecuencia aproximada terminó el índice el año en pérdidas?",
+    "explanation": "El índice terminó en negativo en 26 de 98 años: más o menos uno de cada cuatro.",
+    "options": ["Más o menos uno de cada cuatro años", "Más o menos uno de cada veinte años", "Más o menos uno de cada dos años", "Nunca desde 1945"]
+  },
+  "K-007": {
+    "question": "¿Qué año natural tuvo la peor rentabilidad total del S&P 500 en los datos de Damodaran de 1928 a 2025?",
+    "explanation": "1931 (−43,8 %) fue el peor, por delante de 2008 (−36,6 %) y 1937 (−35,3 %). 1987 y 2020 terminaron los dos con ganancias a pesar de sus cracs."
+  },
+  "K-008": {
+    "question": "Verdadero o falso: existe un porcentaje oficial, definido por ley, para una «corrección» del mercado.",
+    "explanation": "Falso. «Corrección» es jerga del mercado, que se usa a menudo para una caída de alrededor del 10 %."
+  },
+  "K-009": {
+    "question": "¿Cómo define el NBER una recesión?",
+    "explanation": "La definición del NBER subraya un descenso significativo de la actividad económica que se extiende por toda la economía y dura más de unos pocos meses (profundidad, difusión y duración).",
+    "options": ["Un descenso significativo de la actividad económica, extendido por toda la economía, que dura más de unos pocos meses", "Cualquier trimestre en que cae la bolsa", "Una subida de los tipos de interés por el banco central", "Una caída del 20 % de un índice bursátil amplio"]
+  },
+  "K-010": {
+    "question": "Verdadero o falso: el NBER anuncia el inicio y el final de una recesión el mismo día en que ocurren.",
+    "explanation": "Falso. Los picos y los valles se fechan a posteriori, cuando hay datos suficientes, a menudo muchos meses después."
+  },
+  "K-011": {
+    "question": "Verdadero o falso: en 2020, las acciones de EE. UU. tocaron su mínimo antes del valle de la recesión.",
+    "explanation": "Verdadero. Las acciones tocaron fondo el 23 de marzo de 2020 (Reserva Federal de Nueva York); el NBER fechó el valle de la recesión en abril de 2020."
+  },
+  "K-012": {
+    "question": "Ordena las fases del ciclo económico, empezando por una expansión.",
+    "explanation": "El crecimiento (expansión) llega a un punto máximo (pico), la actividad cae (recesión) y llega a un punto mínimo (valle), tras el que empieza la recuperación.",
+    "orderedItems": ["Expansión", "Pico", "Recesión", "Valle"]
+  },
+  "K-013": {
+    "question": "Según Federal Reserve History, ¿cuándo marcó su pico el S&P 500 antes de la Gran Recesión, que empezó en diciembre de 2007?",
+    "explanation": "El S&P 500 marcó su pico en octubre de 2007, antes de que empezara la recesión en diciembre de 2007, y tocó fondo en marzo de 2009, antes de que terminara en junio de 2009.",
+    "options": ["Octubre de 2007", "Junio de 2009", "Marzo de 2009", "Diciembre de 2008"]
+  },
+  "K-014": {
+    "question": "A finales de los años veinte, según Federal Reserve History, ¿qué porcentaje del precio de la acción solían pagar ellos mismos quienes compraban a margen?",
+    "explanation": "Los compradores solían poner alrededor del 10 % del precio y tomar prestado el resto, con las acciones como garantía."
+  },
+  "K-015": {
+    "question": "¿Cuáles de estos son ingredientes habituales de las burbujas? Selecciona todas las correctas.",
+    "explanation": "Las burbujas suelen combinar una historia emocionante, dinero fácil, inversores nuevos y valoraciones extremas; unas valoraciones normales son lo contrario de una burbuja.",
+    "options": ["Una historia nueva y convincente", "Crédito fácil y apalancamiento", "Muchos inversores nuevos sin experiencia", "Valoraciones cercanas a sus medias a largo plazo"]
+  },
+  "K-016": {
+    "question": "Según la Reserva Federal de Cleveland, ¿cuál era el PER ponderado por capitalización de las mayores tecnológicas de EE. UU. el 7 de marzo de 2000?",
+    "explanation": "La Reserva Federal de Cleveland cita un PER ponderado por capitalización de 125,9 para las 18 grandes tecnológicas que había entre las mayores empresas de EE. UU., muy por encima de las normas históricas.",
+    "options": ["Unos 126", "Unos 15", "Unos 40", "Unos 500"]
+  },
+  "K-017": {
+    "question": "¿Qué famosa afirmación se hizo después del pico de las acciones de EE. UU. en 1929?",
+    "explanation": "Federal Reserve History cita la afirmación del economista Irving Fisher sobre una «meseta permanentemente alta», hecha poco antes del crac.",
+    "options": ["Que los precios de las acciones habían alcanzado «lo que parece una meseta permanentemente alta»", "Que las acciones vivían una «exuberancia irracional»", "Que «la tendencia es tu amiga»", "Que «el efectivo es el rey»"]
+  },
+  "K-018": {
+    "question": "Verdadero o falso: si identificas correctamente una burbuja, puedes apostar sin peligro a que estallará pronto, porque los precios no pueden seguir subiendo mucho tiempo.",
+    "explanation": "Falso. Los precios pueden subir durante años antes de que estalle una burbuja. Acertar la dirección pero no el momento ha arruinado a muchos inversores, sobre todo con dinero prestado."
+  },
+  "K-019": {
+    "question": "Verdadero o falso: endeudarse para invertir hace que un mercado que sube suba más deprisa y que uno que cae caiga con más fuerza.",
+    "explanation": "Verdadero. El apalancamiento amplía las ganancias y las pérdidas, y la caída de los precios obliga a vender a quienes se han endeudado, como en 1929."
+  },
+  "K-020": {
+    "question": "¿En qué fecha tuvo lugar el crac de la Bolsa de Viena de 1873?",
+    "explanation": "La historia de la Wiener Börse fecha el crac el 9 de mayo de 1873. La Ley de la Bolsa llegó el 1 de abril de 1875.",
+    "options": ["El 9 de mayo de 1873", "El 24 de octubre de 1873", "El 1 de abril de 1875", "El 9 de mayo de 1867"]
+  },
+  "K-021": {
+    "question": "Según la historia de la Bolsa de Viena, ¿qué les pasó a las sociedades anónimas cotizadas tras el crac de 1873?",
+    "explanation": "Cerca de la mitad de las sociedades anónimas cotizadas desaparecieron de la negociación, y la bolsa tardó años en recuperarse.",
+    "options": ["Cerca de la mitad desaparecieron de la negociación", "Todas se recuperaron en un año", "Ninguna se vio afectada", "Todas se trasladaron a Londres"]
+  },
+  "K-022": {
+    "question": "Verdadero o falso: el crac de 1873 llevó a la Ley de la Bolsa austriaca de 1875, una de las primeras leyes bursátiles modernas de Europa.",
+    "explanation": "Verdadero. La historia de la Wiener Börse dice que el crac reveló la necesidad de un nuevo marco legal, creado con la Ley de la Bolsa del 1 de abril de 1875."
+  },
+  "K-023": {
+    "question": "¿Cómo se llamó el periodo de rápida creación de empresas en Austria-Hungría de 1867 a 1873?",
+    "explanation": "La historia de la Wiener Börse lo llama la «Gründerzeit», por las muchas empresas que se fundaron y salieron a bolsa en esa época.",
+    "options": ["Gründerzeit", "Biedermeier", "Wirtschaftswunder", "Belle Époque"]
+  },
+  "K-024": {
+    "question": "¿En unos cuántos yenes cerró 1989 el Nikkei 225, en máximos históricos? (Redondea al millar.)",
+    "explanation": "La historia de Nikkei Indexes dice que cerró 1989 en un récord de 38.915 yenes, que redondeado da 39.000."
+  },
+  "K-025": {
+    "question": "¿Cuándo cerró el Nikkei 225 por primera vez por encima de su máximo histórico de 1989?",
+    "explanation": "Nikkei Asia informó de que el índice cerró por encima de su máximo de diciembre de 1989 el 22 de febrero de 2024, más de 34 años después.",
+    "options": ["El 22 de febrero de 2024", "En diciembre de 1999", "En octubre de 2009", "En marzo de 1992"]
+  },
+  "K-026": {
+    "question": "Verdadero o falso: como el Nikkei 225 es un índice de precios, un inversor que reinvirtió los dividendos lo hizo algo mejor de lo que sugiere el nivel del índice.",
+    "explanation": "Verdadero. Los índices de precios dejan fuera los dividendos; la rentabilidad total es mayor, aunque los inversores japoneses esperaron aun así muchísimo tiempo."
+  },
+  "K-027": {
+    "question": "¿Aproximadamente cuánto cayó el Dow Jones desde su pico de septiembre de 1929 hasta su mínimo de julio de 1932?",
+    "explanation": "El Dow cayó de 381,17 a 41,22, un 89 % por debajo de su pico (Federal Reserve History)."
+  },
+  "K-028": {
+    "question": "En precio, ¿cuándo recuperó el Dow Jones por primera vez su pico de 1929?",
+    "explanation": "Federal Reserve History: el índice no volvió a alcanzar el máximo de 1929 hasta el 23 de noviembre de 1954.",
+    "options": ["En noviembre de 1954", "En 1936", "En 1945", "En 1932"]
+  },
+  "K-029": {
+    "question": "Compras acciones por 1.000 $, pones 100 $ y pides prestados 900 $. Las acciones caen un 10 %. ¿Cuántos dólares de tu propio dinero te quedan (sin contar intereses)?",
+    "explanation": "Las acciones valen 900 $, exactamente el préstamo. Tus 100 $ han desaparecido: una caída del 10 % se llevó el 100 % de tu propio dinero."
+  },
+  "K-030": {
+    "question": "¿Cuáles de estos acontecimientos formaron parte de la serie de crisis de la Gran Depresión, según Federal Reserve History? Selecciona todas las correctas.",
+    "explanation": "La Depresión incluyó el crac de 1929, pánicos bancarios en 1930–31 y crisis financieras de 1931 a 1933. 1987 llegó mucho después.",
+    "options": ["El crac bursátil de 1929", "Pánicos bancarios regionales en 1930 y 1931", "Crisis financieras nacionales e internacionales de 1931 a 1933", "El crac del lunes negro de 1987"]
+  },
+  "K-031": {
+    "question": "Verdadero o falso: en 2002, Ben Bernanke reconoció públicamente que los errores de la Reserva Federal contribuyeron a la Gran Depresión.",
+    "explanation": "Verdadero. Federal Reserve History lo cita: «En cuanto a la Gran Depresión... fuimos nosotros. Lo sentimos mucho... No volveremos a hacerlo»."
+  },
+  "K-032": {
+    "question": "Verdadero o falso: con los dividendos reinvertidos, los datos del S&P 500 de Damodaran muestran que el valor de finales de 1928 se recuperó a finales de 1936, antes que el índice de precios del Dow.",
+    "explanation": "Verdadero. Con dividendos, el valor de finales de 1928 se recuperó a finales de 1936, aunque en 1937 llegó una caída del 35 %."
+  },
+  "K-033": {
+    "question": "¿Cuánto cayó el Dow Jones el lunes negro, 19 de octubre de 1987, en porcentaje? (Un decimal.)",
+    "explanation": "El Dow cayó 508 puntos, un 22,6 %, la mayor caída en un solo día de su historia."
+  },
+  "K-034": {
+    "question": "¿Qué estrategia se considera que aceleró el crac de 1987 al vender automáticamente a medida que caían los precios?",
+    "explanation": "El seguro de carteras usaba opciones y futuros; las primeras pérdidas desencadenaron nuevas rondas de ventas.",
+    "options": ["El seguro de carteras (portfolio insurance)", "La inversión en dividendos", "Promediar el coste (aportaciones periódicas)", "Comprar y mantener"]
+  },
+  "K-035": {
+    "question": "Verdadero o falso: al crac de 1987 le siguieron una recesión profunda y una crisis bancaria.",
+    "explanation": "Falso. Federal Reserve History señala que no le siguió ni una recesión ni una crisis bancaria, y que los mercados de EE. UU. superaron sus máximos previos al crac en menos de dos años."
+  },
+  "K-036": {
+    "question": "¿Qué reforma se introdujo tras el lunes negro?",
+    "explanation": "Las bolsas introdujeron mecanismos de interrupción. Federal Reserve History cita las pausas actuales de la NYSE con caídas del S&P 500 del 7 %, el 13 % y el 20 %.",
+    "options": ["Mecanismos de interrupción que pausan la negociación tras caídas muy grandes", "La prohibición de negociar acciones extranjeras", "Precios fijos para las acciones", "La abolición de los mercados de opciones"]
+  },
+  "K-037": {
+    "question": "¿Qué umbrales de caída del S&P 500 activan las pausas de la negociación de todo el mercado en la NYSE, según las normas que cita Federal Reserve History? Selecciona todas las correctas.",
+    "explanation": "La NYSE detiene temporalmente la negociación cuando el S&P 500 cae un 7 %, un 13 % y un 20 %."
+  },
+  "K-038": {
+    "question": "¿Cuánto cayó el Nasdaq Composite desde su pico de marzo de 2000 hasta final de 2000, según el Comité Económico Conjunto, en porcentaje? (Un decimal.)",
+    "explanation": "El informe del Comité Económico Conjunto dice que el Nasdaq Composite se desplomó un 44,7 % desde su pico de marzo de 2000 hasta final de año."
+  },
+  "K-039": {
+    "question": "¿Qué recesión de EE. UU. siguió al final del auge tecnológico?",
+    "explanation": "La recesión de 2001 fue de marzo a noviembre, una de las más cortas registradas (Comité Económico Conjunto).",
+    "options": ["De marzo a noviembre de 2001", "De diciembre de 2007 a junio de 2009", "De febrero a abril de 2020", "De 1990 a 1999"]
+  },
+  "K-040": {
+    "question": "Verdadero o falso: el S&P 500 (con dividendos) tuvo rentabilidades negativas en 2000, en 2001 y en 2002.",
+    "explanation": "Verdadero. Los datos de Damodaran muestran un −9,0 %, un −11,9 % y un −22,0 %."
+  },
+  "K-041": {
+    "question": "Según la Reserva Federal de San Francisco, ¿qué cayó mucho más de lo habitual en la recesión de 2001?",
+    "explanation": "El auge inversor de finales de los noventa se había pasado de frenada, así que la inversión empresarial cayó mucho más que en una recesión media, mientras los consumidores seguían gastando.",
+    "options": ["La inversión empresarial", "El gasto de los hogares", "El gasto público", "Las exportaciones de alimentos"]
+  },
+  "K-042": {
+    "question": "Verdadero o falso: como internet cambió el mundo de verdad, comprar acciones de internet a cualquier precio en 2000 fue una buena inversión.",
+    "explanation": "Falso. Una gran tecnología no justifica cualquier precio. Las valoraciones de 2000 daban por hecho mucho más éxito del que la mayoría de las empresas podían lograr."
+  },
+  "K-043": {
+    "question": "¿Cuánto cayó el S&P 500 desde su pico de octubre de 2007 hasta su mínimo de marzo de 2009, según Federal Reserve History, en porcentaje?",
+    "explanation": "Federal Reserve History: el S&P 500 cayó un 57 % desde su pico de octubre de 2007 hasta su mínimo de marzo de 2009."
+  },
+  "K-044": {
+    "question": "Ordena estos acontecimientos de la crisis subprime.",
+    "explanation": "El crédito se amplió mientras subían los precios; cuando los precios tocaron techo, crecieron las pérdidas; New Century quebró en abril de 2007; Fannie Mae y Freddie Mac fueron intervenidas en el verano de 2008.",
+    "orderedItems": ["Se conceden hipotecas a más prestatarios de alto riesgo mientras suben los precios de la vivienda", "Los precios de la vivienda tocan techo y empiezan a crecer las pérdidas hipotecarias", "New Century Financial se declara en quiebra (abril de 2007)", "El Gobierno toma el control de Fannie Mae y Freddie Mac (verano de 2008)"]
+  },
+  "K-045": {
+    "question": "¿Qué es un bono de titulización hipotecaria?",
+    "explanation": "Los prestamistas agruparon hipotecas y las vendieron a inversores como valores; los inversores reciben los pagos de los prestatarios y soportan las pérdidas.",
+    "options": ["Un valor respaldado por un conjunto de préstamos hipotecarios", "Una acción de un banco", "Una garantía del Estado para los propietarios de vivienda", "Una cuenta de ahorro para la entrada de una casa"]
+  },
+  "K-046": {
+    "question": "¿Cuánto duró la Gran Recesión, según Federal Reserve History?",
+    "explanation": "Duró de diciembre de 2007 a junio de 2009, la recesión más larga de EE. UU. desde la Segunda Guerra Mundial. Octubre de 2007 y marzo de 2009 son el pico y el mínimo de la bolsa.",
+    "options": ["De diciembre de 2007 a junio de 2009", "De enero de 2008 a diciembre de 2008", "De 2007 a 2012", "De octubre de 2007 a marzo de 2009"]
+  },
+  "K-047": {
+    "question": "Verdadero o falso: en los datos de Damodaran, los bonos del Tesoro de EE. UU. a 10 años ganaron en 2008 mientras las acciones de EE. UU. perdían más de un tercio.",
+    "explanation": "Verdadero. Los bonos del Tesoro de EE. UU. rindieron un +20,1 % en 2008 mientras el S&P 500 perdía un 36,6 %."
+  },
+  "K-048": {
+    "question": "¿Qué es la «expansión cuantitativa» (quantitative easing)?",
+    "explanation": "Con su tipo oficial cerca de cero, la Fed compró grandes cantidades de valores a largo plazo (unos 1,75 billones de dólares con el QE1) para empujar a la baja los tipos a largo plazo.",
+    "options": ["Compras de bonos a gran escala por un banco central para bajar los tipos de interés a largo plazo", "Una rebaja de impuestos para los inversores", "Una norma que limita las caídas de las acciones", "Un préstamo del FMI"]
+  },
+  "K-049": {
+    "question": "El 23 de marzo de 2020, ¿cuánto habían caído las acciones de EE. UU. desde su máximo de febrero de 2020, según la Reserva Federal de Nueva York, en porcentaje?",
+    "explanation": "La Reserva Federal de Nueva York: el 23 de marzo, la bolsa había caído un 34 % desde su máximo de febrero de 2020."
+  },
+  "K-050": {
+    "question": "¿Cuántas veces detuvieron los mecanismos de interrupción de todo el mercado la negociación en EE. UU. en marzo de 2020?",
+    "explanation": "La Reserva Federal de Nueva York señala que la fuerte caída activó tres veces en marzo los mecanismos de interrupción de todo el mercado."
+  },
+  "K-051": {
+    "question": "¿Cómo fechó el NBER la recesión de EE. UU. de 2020?",
+    "explanation": "El NBER fechó el pico en febrero de 2020 y el valle en abril de 2020, y la consideró una recesión porque la caída fue muy profunda y generalizada.",
+    "options": ["Pico en febrero de 2020, valle en abril de 2020", "Pico en marzo de 2020, valle en diciembre de 2021", "No la consideró una recesión", "Pico en 2019, valle en 2022"]
+  },
+  "K-052": {
+    "question": "Verdadero o falso: a pesar del crac, el S&P 500 con dividendos terminó 2020 con ganancias.",
+    "explanation": "Verdadero. Los datos de Damodaran muestran un +18,0 % en 2020."
+  },
+  "K-053": {
+    "question": "Verdadero o falso: en 2022, tanto el S&P 500 como los bonos del Tesoro de EE. UU. a 10 años perdieron dinero, según los datos de Damodaran.",
+    "explanation": "Verdadero. Las acciones rindieron un −18,0 % y los bonos del Tesoro un −17,8 %: un recordatorio de que diversificar entre ambos no siempre protege."
+  },
+  "K-054": {
+    "question": "En los datos del S&P 500 de Damodaran (1928–2025, con dividendos), ¿cuántos de los 79 periodos posibles de 20 años tuvieron ganancias?",
+    "explanation": "Los 79 periodos de 20 años fueron positivos, aunque el peor solo dio una media de alrededor del 2,4 % anual antes de inflación.",
+    "options": ["Los 79", "Más o menos la mitad", "Más o menos tres cuartas partes", "Ninguno"]
+  },
+  "K-055": {
+    "question": "Verdadero o falso: en esos mismos datos, todos los periodos de 10 años fueron positivos.",
+    "explanation": "Falso. 84 de los 89 periodos de 10 años fueron positivos; el peor dio una media de alrededor de un −1,7 % anual."
+  },
+  "K-056": {
+    "question": "¿Cuál es el principal riesgo de sacar conclusiones solo de la historia de la bolsa de EE. UU.?",
+    "explanation": "Estudiar a los ganadores oculta los mercados y las empresas que fracasaron, como la mitad de las empresas cotizadas de Viena en 1873.",
+    "options": ["El sesgo de supervivencia: EE. UU. es un mercado que prosperó, mientras otros (como Japón tras 1989) no", "Los datos de EE. UU. son secretos", "Los mercados de EE. UU. nunca caen", "Los datos de EE. UU. no incluyen ningún crac"]
+  },
+  "K-057": {
+    "question": "¿Qué hábitos sugiere la historia de los mercados a los inversores corrientes? Selecciona todas las correctas.",
+    "explanation": "Planificar las caídas, evitar el apalancamiento y diversificar limitan los daños. Vender por pánico suele consolidar las pérdidas antes de las recuperaciones.",
+    "options": ["Contar con las caídas y mantener fuera de las acciones el dinero que vas a necesitar pronto", "Evitar endeudarse para invertir", "Diversificar entre empresas y países", "Venderlo todo cada vez que las noticias son malas"]
+  },
+  "K-058": {
+    "question": "En los datos anuales del S&P 500 de Damodaran (1928–2025, dividendos incluidos), ¿en cuántos de los 98 años terminó el índice el año en negativo?",
+    "explanation": "26 de 98 años fueron años de pérdidas: las pérdidas son una parte normal de tener acciones."
+  }
+}
