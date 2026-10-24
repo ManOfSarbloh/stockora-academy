@@ -1,0 +1,193 @@
+{
+  "G-001": {
+    "question": "Compras una acción a 80 € y la vendes a 100 €. Las comisiones suman 4 € por acción. ¿Cuál es tu beneficio por acción antes de impuestos, en euros?",
+    "explanation": "100 € − 80 € = 20 € de ganancia de precio, menos 4 € de comisiones = 16 € por acción."
+  },
+  "G-002": {
+    "question": "Compraste a 80 € y la acción vale ahora 100 €. ¿Cuál es tu ganancia en porcentaje?",
+    "explanation": "(100 € − 80 €) ÷ 80 € = 0,25 = 25 %."
+  },
+  "G-003": {
+    "question": "Si una acción cae un 50 %, ¿qué ganancia porcentual hace falta para volver al valor inicial?",
+    "explanation": "De 100 € a 50 € es un −50 %. Para volver de 50 € a 100 € necesitas +50 €, que es un +100 % de 50 €."
+  },
+  "G-004": {
+    "question": "¿Cuándo se «realiza» una ganancia?",
+    "explanation": "Una ganancia o pérdida no está realizada mientras mantienes la inversión y se realiza cuando vendes.",
+    "options": ["Cuando vendes la inversión", "Cuando sube el precio", "Al final de cada año", "Cuando recibes un extracto"]
+  },
+  "G-005": {
+    "question": "Verdadero o falso: una pérdida no realizada no es una pérdida real de valor.",
+    "explanation": "Falso. Tu inversión vale menos de lo que pagaste; no vender solo significa que sigues expuesto a nuevos cambios."
+  },
+  "G-006": {
+    "question": "Compras 50 acciones a 80 € y las vendes a 70 €, pagando 4 € de comisiones en total. ¿Cuál es tu pérdida total, en euros?",
+    "explanation": "50 × (80 € − 70 €) = 500 € de pérdida, más 4 € de comisiones = 504 €."
+  },
+  "G-007": {
+    "question": "¿Qué es la fecha ex-dividendo?",
+    "explanation": "El primer día en que la acción cotiza sin derecho al próximo dividendo.",
+    "options": ["El primer día en que la acción cotiza sin el dividendo", "El día en que se paga el dividendo", "El día de la junta general", "El último día del año"]
+  },
+  "G-008": {
+    "question": "¿Qué suele pasar con el precio de la acción en la fecha ex-dividendo?",
+    "explanation": "Suele ajustarse a la baja en torno al importe del dividendo (se indica con «eD» en las listas de precios de Viena).",
+    "options": ["Baja en torno al importe del dividendo", "Sube en el importe del dividendo", "Se queda exactamente igual", "Se suspende la negociación"]
+  },
+  "G-009": {
+    "question": "¿Qué fecha decide quién recibe el dividendo, según las posiciones en la cuenta de valores?",
+    "explanation": "La fecha de registro: las posiciones de ese día deciden a quién se paga.",
+    "options": ["La fecha de registro", "La fecha de pago", "La fecha de la junta general", "La fecha de la OPV"]
+  },
+  "G-010": {
+    "question": "Verdadero o falso: comprar una acción justo antes de la fecha ex-dividendo te da un dividendo gratis.",
+    "explanation": "Falso. El precio suele bajar en torno al dividendo en la fecha ex-dividendo, y el dividendo suele tributar."
+  },
+  "G-011": {
+    "question": "En EE. UU., ¿qué regla especial se aplica si un dividendo es del 25 % o más del valor de la acción?",
+    "explanation": "La fecha ex-dividendo se aplaza hasta un día hábil después del pago del dividendo.",
+    "options": ["La fecha ex-dividendo se fija un día hábil después del pago", "Se cancela el dividendo", "Se omite la fecha de registro", "La SEC fija el precio"]
+  },
+  "G-012": {
+    "question": "Según la Bolsa de Viena, ¿hasta cuándo tienes que haber comprado una acción para recibir el dividendo?",
+    "explanation": "Al menos dos días de negociación antes de la fecha de registro (como muy tarde el último día con derecho).",
+    "options": ["Al menos dos días de negociación antes de la fecha de registro", "En la fecha de pago", "En la propia fecha de registro", "Cualquier día del año del dividendo"]
+  },
+  "G-013": {
+    "question": "Una acción de 200 € paga 6 € de dividendos al año. ¿Cuál es la rentabilidad por dividendo, en porcentaje?",
+    "explanation": "6 € ÷ 200 € × 100 = 3 %."
+  },
+  "G-014": {
+    "question": "Una empresa gana 4,00 € por acción y paga 1,60 € por acción en dividendos. ¿Cuál es el ratio de reparto (payout), en porcentaje?",
+    "explanation": "1,60 € ÷ 4,00 € × 100 = 40 %."
+  },
+  "G-015": {
+    "question": "¿Por qué una rentabilidad por dividendo muy alta puede ser una señal de alarma?",
+    "explanation": "A menudo se debe a una fuerte caída del precio, y el dividendo puede recortarse si los beneficios están bajando.",
+    "options": ["Puede que el precio haya caído mucho y que se recorte el dividendo", "Las rentabilidades altas están siempre garantizadas", "Significa que la empresa no tiene deuda", "Significa que los impuestos son más bajos"]
+  },
+  "G-016": {
+    "question": "Verdadero o falso: una empresa puede pagar para siempre un dividendo superior al 100 % de su beneficio.",
+    "explanation": "Falso. Repartir más de lo que gana obliga a usar reservas o a endeudarse, y eso no puede continuar indefinidamente."
+  },
+  "G-017": {
+    "question": "El dividendo de una acción se mantiene en 2 €, pero el precio cae de 50 € a 20 €. ¿Cuál es la nueva rentabilidad por dividendo, en porcentaje?",
+    "explanation": "2 € ÷ 20 € × 100 = 10 % (antes de cualquier recorte del dividendo)."
+  },
+  "G-018": {
+    "question": "Compras una acción a 80 €. Un año después vale 86 € y has recibido un dividendo de 2 €. ¿Cuál es tu rentabilidad total, en porcentaje?",
+    "explanation": "(86 € − 80 € + 2 €) ÷ 80 € = 10 %."
+  },
+  "G-019": {
+    "question": "¿Qué incluye la rentabilidad total?",
+    "explanation": "El cambio de precio más los ingresos, como los dividendos.",
+    "options": ["El cambio de precio más los ingresos, como los dividendos", "Solo el cambio de precio", "Solo los dividendos", "Solo las comisiones"]
+  },
+  "G-020": {
+    "question": "¿Cuál es la diferencia entre un índice de precios y un índice de rentabilidad total?",
+    "explanation": "Un índice de rentabilidad total supone que los dividendos se reinvierten; un índice de precios solo sigue los precios.",
+    "options": ["Un índice de rentabilidad total incluye los dividendos reinvertidos", "Un índice de precios incluye los dividendos", "Son idénticos", "Un índice de rentabilidad total ignora los precios"]
+  },
+  "G-021": {
+    "question": "¿Qué es el interés compuesto?",
+    "explanation": "Interés que se paga sobre el capital inicial y sobre los intereses ya acumulados.",
+    "options": ["Interés sobre el capital y sobre los intereses anteriores", "Interés que se paga una sola vez", "Una comisión bancaria", "Interés sobre acciones prestadas"]
+  },
+  "G-022": {
+    "question": "10.000 € crecen un 5 % anual, con interés compuesto, durante 30 años. ¿Cuánto valen aproximadamente, en euros (redondeado al millar)?",
+    "explanation": "10.000 € × 1,05^30 ≈ 43.219 €."
+  },
+  "G-023": {
+    "question": "Con la regla del 72, ¿cuántos años tarda aproximadamente en duplicarse el dinero al 6 % anual?",
+    "explanation": "72 ÷ 6 = 12 años (la respuesta exacta es de unos 11,9)."
+  },
+  "G-024": {
+    "question": "¿Por qué importa tanto empezar a invertir pronto?",
+    "explanation": "El efecto compuesto necesita tiempo: el crecimiento se acelera cuanto más tiempo se reinvierte la rentabilidad.",
+    "options": ["El efecto compuesto necesita tiempo para funcionar", "Los que invierten pronto no pagan comisiones", "Los mercados solo suben los primeros años", "Los jóvenes pagan menos impuestos"]
+  },
+  "G-025": {
+    "question": "Verdadero o falso: el efecto compuesto solo juega a tu favor.",
+    "explanation": "Falso. Los costes y las deudas también se componen; una comisión anual o una deuda con intereses altos crecen de la misma manera."
+  },
+  "G-026": {
+    "question": "Crecimiento simple: 10.000 € ganan un 5 % anual durante 30 años, pero los intereses se retiran cada año. ¿Cuál es el total (importe inicial más todos los intereses), en euros?",
+    "explanation": "10.000 € + 30 × 500 € = 25.000 €."
+  },
+  "G-027": {
+    "question": "Tu inversión gana un 5 % y la inflación es del 3 %. Con la fórmula exacta, ¿cuál es la rentabilidad real, en porcentaje (dos decimales)?",
+    "explanation": "1,05 ÷ 1,03 − 1 ≈ 1,94 %."
+  },
+  "G-028": {
+    "question": "¿Cuál es el objetivo de inflación del BCE?",
+    "explanation": "El BCE busca una inflación del 2 % a medio plazo, medida con el IAPC, y considera igual de indeseables las desviaciones en cualquier sentido.",
+    "options": ["El 2 % a medio plazo", "El 0 %", "El 5 % cada año", "Lo que decida el gobierno"]
+  },
+  "G-029": {
+    "question": "¿Qué índice usa el BCE para medir la inflación de la zona del euro?",
+    "explanation": "El Índice Armonizado de Precios de Consumo (IAPC).",
+    "options": ["El IAPC", "El ATX", "El S&P 500", "Solo el deflactor del PIB"]
+  },
+  "G-030": {
+    "question": "Verdadero o falso: si el saldo de tu cuenta de ahorro no baja, no puedes perder poder adquisitivo.",
+    "explanation": "Falso. Si los precios suben más deprisa que tu interés, el mismo saldo compra menos."
+  },
+  "G-031": {
+    "question": "Guardas 10.000 € en efectivo durante 20 años al 0 % de interés mientras los precios suben un 2 % al año. ¿Cuánto valen en poder adquisitivo de hoy, en euros (redondeado a la decena)?",
+    "explanation": "Los precios se multiplican por 1,02^20 ≈ 1,486. 10.000 € ÷ 1,486 ≈ 6.730 €."
+  },
+  "G-032": {
+    "question": "¿Qué significa TER?",
+    "explanation": "Total expense ratio, o ratio de gastos totales: los costes anuales de un fondo en porcentaje de su patrimonio.",
+    "options": ["Total expense ratio (ratio de gastos totales)", "Tax exemption rate (tipo de exención fiscal)", "Trading execution rule (regla de ejecución)", "Total equity return (rentabilidad total de las acciones)"]
+  },
+  "G-033": {
+    "question": "¿Qué costes suelen incluirse en el TER de un fondo? Selecciona todas las correctas.",
+    "explanation": "Según la Wiener Börse, el TER incluye sobre todo la comisión de gestión, las comisiones de custodia y los costes de asesores y auditoría. La comisión de tu bróker por comprar el fondo no forma parte del TER.",
+    "options": ["Comisión de gestión", "Comisiones de custodia", "Costes de auditoría", "La comisión de tu bróker por comprar el fondo"]
+  },
+  "G-034": {
+    "question": "10.000 € crecen durante 30 años al 6 % antes de costes. El fondo A cobra un 0,2 % anual y el fondo B un 1,5 %. ¿Aproximadamente cuánto más acumula A?",
+    "explanation": "A: ≈ 54.300 €; B: ≈ 37.500 €. La diferencia es de unos 16.800 € porque los costes se componen.",
+    "options": ["Unos 16.800 €", "Unos 130 €", "Unos 1.300 €", "Ninguna diferencia"]
+  },
+  "G-035": {
+    "question": "Según MiFID II, ¿qué deben comunicarte las empresas sobre los costes?",
+    "explanation": "Todos los costes y gastos, agregados para que entiendas el coste total y su efecto acumulado sobre tu rentabilidad; con un desglose detallado si lo pides.",
+    "options": ["Todos los costes, agregados, incluido su efecto acumulado sobre la rentabilidad", "Nada, salvo que lo pidas por escrito", "Solo la comisión por operación", "Solo los impuestos"]
+  },
+  "G-036": {
+    "question": "Verdadero o falso: los costes son inciertos y la rentabilidad es segura.",
+    "explanation": "Falso. Es al revés: los costes son seguros y la rentabilidad no."
+  },
+  "G-037": {
+    "question": "Compras 100 acciones a 50,05 € con una comisión de 5 €. La comisión de venta también es de 5 €. ¿Cuál es tu precio de venta de equilibrio por acción, en euros?",
+    "explanation": "Pagado: 5.005 € + 5 € = 5.010 €. Necesitas 5.010 € + 5 € = 5.015 € de la venta: 5.015 € ÷ 100 = 50,15 €."
+  },
+  "G-038": {
+    "question": "Inviertes 200 € con 5 € de comisión al comprar y 5 € al vender. ¿Qué porcentaje del importe se llevan las comisiones?",
+    "explanation": "10 € ÷ 200 € = 5 %."
+  },
+  "G-039": {
+    "question": "Verdadero o falso: vender al mismo precio al que compraste significa que has quedado en equilibrio.",
+    "explanation": "Falso. Pagaste el diferencial y las comisiones en las dos direcciones, así que has tenido una pérdida."
+  },
+  "G-040": {
+    "question": "¿Qué precio tiene que alcanzar tu nivel de equilibrio para que puedas vender sin pérdida?",
+    "explanation": "Cuando vendes, recibes el precio de compra (bid), así que es ese precio el que debe alcanzar el punto de equilibrio.",
+    "options": ["El precio de compra (bid)", "El precio de venta (ask)", "El último precio negociado", "El precio de apertura"]
+  },
+  "G-041": {
+    "question": "Compras 200 acciones a un precio de venta (ask) de 20,00 € y pagas 10 € de comisión; vender costará otros 10 €. ¿Cuál es tu precio de venta de equilibrio por acción, en euros?",
+    "explanation": "Pagado: 200 × 20 € + 10 € = 4.010 €. Necesitas 4.010 € + 10 € = 4.020 € de la venta: 4.020 € ÷ 200 = 20,10 €."
+  },
+  "G-042": {
+    "question": "Una acción se mantiene en 50 € durante un año pero paga un dividendo de 2 €. ¿Cuál es su rentabilidad total en el año, en porcentaje?",
+    "explanation": "(50 € − 50 € + 2 €) ÷ 50 € = 4 %. Un precio plano no significa una rentabilidad nula."
+  },
+  "G-043": {
+    "question": "¿Por qué reinvertir los dividendos marca una gran diferencia a lo largo de muchos años?",
+    "explanation": "Los ingresos reinvertidos generan a su vez rentabilidad, así que el crecimiento se compone sobre una base cada vez mayor (efecto compuesto).",
+    "options": ["La rentabilidad futura se gana sobre un importe mayor: el efecto compuesto", "Los dividendos reinvertidos están libres de impuestos en todas partes", "Reinvertir garantiza que suba el precio de la acción", "No marca ninguna diferencia"]
+  }
+}
