@@ -1,0 +1,190 @@
+{
+  "U-001": {
+    "question": "En los datos de EE. UU. de Damodaran de 1928 a 2025, ¿qué clase de activos tuvo la mayor rentabilidad anual compuesta?",
+    "explanation": "Las acciones de pequeñas empresas rindieron alrededor de un 12,0 % anual, pero con las oscilaciones de lejos más grandes (37,9 % de volatilidad).",
+    "options": ["Las acciones de pequeñas empresas de EE. UU.", "Los bonos del Tesoro de EE. UU. a 10 años", "El oro", "Las letras del Tesoro a 3 meses"]
+  },
+  "U-002": {
+    "question": "Verdadero o falso: en los datos de EE. UU. de 1928 a 2025, las letras del Tesoro a 3 meses no tuvieron ni un año de pérdidas.",
+    "explanation": "Verdadero. Su peor año fue un +0,03 % (2014), pero su rentabilidad compuesta del 3,4 % anual fue la más baja de la tabla."
+  },
+  "U-003": {
+    "question": "¿Cuánto cayeron los bonos del Tesoro de EE. UU. a 10 años en 2022, en los datos de Damodaran? Escribe la pérdida como porcentaje positivo, con un decimal.",
+    "explanation": "Un −17,8 % en 2022, su peor año desde 1928, con una fuerte subida de los tipos de interés."
+  },
+  "U-004": {
+    "question": "Ordena estas clases de activos de EE. UU. por volatilidad en 1928–2025, de menor a mayor.",
+    "explanation": "Volatilidad: letras 3,0 %, inmuebles 6,2 %, bonos del Tesoro 7,9 %, S&P 500 19,4 %, oro 21,5 %, pequeñas empresas 37,9 %.",
+    "orderedItems": ["Letras del Tesoro a 3 meses", "Inmuebles en EE. UU.", "Bonos del Tesoro a 10 años", "Acciones de grandes empresas de EE. UU. (S&P 500)", "Oro", "Acciones de pequeñas empresas de EE. UU."]
+  },
+  "U-005": {
+    "question": "Según la guía para principiantes de la SEC, ¿cuál es la principal preocupación de las inversiones en efectivo?",
+    "explanation": "El efectivo es la más segura de las tres clases de activos principales, pero la inflación puede erosionar su poder adquisitivo.",
+    "options": ["La inflación", "Las oscilaciones diarias de los precios", "La quiebra de las empresas", "El riesgo de divisa"]
+  },
+  "U-006": {
+    "question": "¿Qué es un bono?",
+    "explanation": "Investor.gov describe un bono como un valor de deuda, parecido a un pagaré.",
+    "options": ["Un valor de deuda: prestas dinero al emisor a cambio de intereses y de la devolución", "Una participación en la propiedad de una empresa", "Un depósito bancario protegido hasta 100.000 €", "Un contrato para comprar una materia prima más adelante"]
+  },
+  "U-007": {
+    "question": "Un bono tiene un valor nominal de 1.000 € y un cupón del 3 %. ¿Cuántos intereses paga cada año, en euros?",
+    "explanation": "El 3 % de 1.000 € = 30 € al año."
+  },
+  "U-008": {
+    "question": "Verdadero o falso: cuando suben los tipos de interés del mercado, los precios de los bonos existentes con cupones más bajos tienden a caer.",
+    "explanation": "Verdadero. Investor.gov explica que para vender un bono antiguo con un tipo más bajo quizá tengas que venderlo con descuento."
+  },
+  "U-009": {
+    "question": "¿Cómo se comparan los bonos de alto rendimiento con los de grado de inversión?",
+    "explanation": "Los bonos de alto rendimiento pagan más porque sus emisores son más arriesgados.",
+    "options": ["Tienen calificaciones crediticias más bajas y más riesgo de crédito, así que pagan intereses más altos", "Tienen calificaciones más altas e intereses más bajos", "Están garantizados por el Estado", "Nunca incumplen"]
+  },
+  "U-010": {
+    "question": "¿Cuáles son riesgos de los bonos que enumera Investor.gov? Selecciona todas las correctas.",
+    "explanation": "Investor.gov enumera el riesgo de crédito, de tipos de interés, de inflación, de liquidez y de amortización anticipada.",
+    "options": ["El riesgo de crédito", "El riesgo de tipos de interés", "El riesgo de inflación", "El riesgo de amortización anticipada", "El riesgo de la garantía de depósitos"]
+  },
+  "U-011": {
+    "question": "¿Quién emite los bonos del Gobierno federal austriaco (Bundesanleihen)?",
+    "explanation": "El Gobierno federal emite los Bundesanleihen a través de la OeBFA.",
+    "options": ["La Agencia austriaca de Financiación Federal (OeBFA), en nombre de la República", "El Oesterreichische Nationalbank", "La FMA", "La Wiener Börse"]
+  },
+  "U-012": {
+    "question": "¿Qué es el Bundesschatz?",
+    "explanation": "El Bundesschatz son valores de la República que se compran directamente a la Agencia austriaca de Financiación Federal, con plazos de un mes a diez años.",
+    "options": ["Un producto de ahorro en línea de la República de Austria, disponible desde abril de 2024", "Una libreta de ahorro en el Nationalbank", "Una garantía federal de depósitos", "Un fondo de acciones del Estado"]
+  },
+  "U-013": {
+    "question": "¿A qué tipo tributan los intereses de los bonos que se tienen en un banco austriaco?",
+    "explanation": "Los intereses de los bonos tributan al 27,5 %; los de los depósitos bancarios, al 25 %."
+  },
+  "U-014": {
+    "question": "¿Hasta qué importe por persona y por banco están protegidos los depósitos en Austria, en euros?",
+    "explanation": "100.000 € por persona y banco, tengas las cuentas que tengas en él."
+  },
+  "U-015": {
+    "question": "Verdadero o falso: las acciones de tu cuenta de custodia están cubiertas por la garantía de depósitos de 100.000 €.",
+    "explanation": "Falso. Los valores no son depósitos, pero siguen siendo tuyos y pueden traspasarse a otro banco."
+  },
+  "U-016": {
+    "question": "¿Hasta qué importe cubre la indemnización austriaca a los inversores los valores que un banco no puede devolver incumpliendo sus obligaciones, en euros?",
+    "explanation": "Hasta 20.000 €."
+  },
+  "U-017": {
+    "question": "¿A qué tipo tributan los intereses de los depósitos bancarios en Austria?",
+    "explanation": "Los intereses de los depósitos tributan al 25 %, retenido como KESt.",
+    "options": ["25 %", "27,5 %", "10 %", "No tributan"]
+  },
+  "U-018": {
+    "question": "Una cuenta conjunta de dos personas tiene 200.000 €. Si quiebra el banco, ¿hasta cuánto puede reclamar cada titular, en euros?",
+    "explanation": "Cada titular legitimado está protegido hasta 100.000 €."
+  },
+  "U-019": {
+    "question": "En algunos casos, ¿hasta qué total pueden protegerse, previa solicitud, los saldos altos temporales (por ejemplo, de la venta de una vivienda de uso privado)?",
+    "explanation": "Los saldos altos temporales de los últimos 12 meses pueden protegerse hasta 500.000 € previa solicitud.",
+    "options": ["500.000 €", "200.000 €", "1 millón de euros", "No existe ninguna protección adicional"]
+  },
+  "U-020": {
+    "question": "Compras un piso de 300.000 € con 60.000 € de tu dinero y una hipoteca de 240.000 €. El precio baja un 10 %. ¿Qué pasa con tu capital propio?",
+    "explanation": "La pérdida de 30.000 € sale íntegramente de tus 60.000 €: el apalancamiento amplía la caída hasta un −50 %.",
+    "options": ["Cae un 50 %, hasta 30.000 €", "Cae un 10 %, hasta 54.000 €", "Se queda en 60.000 €", "Cae un 20 %"]
+  },
+  "U-021": {
+    "question": "Según el § 11 ImmoInvFG, ¿qué se aplica al reembolso de participaciones de un fondo inmobiliario austriaco? Selecciona todas las correctas.",
+    "explanation": "La ley fija un periodo de tenencia de 12 meses, un preaviso irrevocable con un plazo de 12 meses y fechas de reembolso como mínimo trimestrales.",
+    "options": ["Las participaciones deben haberse tenido al menos 12 meses", "Un plazo de preaviso de 12 meses", "Fechas de reembolso como mínimo trimestrales", "Reembolso diario en cualquier momento"]
+  },
+  "U-022": {
+    "question": "¿Qué es un REIT?",
+    "explanation": "Investor.gov: los REIT permiten a los particulares invertir en inmuebles a gran escala que generan ingresos.",
+    "options": ["Una empresa que posee y normalmente gestiona inmuebles que generan ingresos", "Un bono inmobiliario del Estado", "Una hipoteca de un banco", "Un fondo inmobiliario con un plazo de preaviso de 12 meses"]
+  },
+  "U-023": {
+    "question": "Verdadero o falso: Investor.gov advierte de que los REIT no cotizados pueden ser poco líquidos y difíciles de valorar.",
+    "explanation": "Verdadero. No se negocian en bolsa y a menudo tienen comisiones iniciales altas."
+  },
+  "U-024": {
+    "question": "Verdadero o falso: el oro paga intereses o dividendos.",
+    "explanation": "Falso. La FMA señala que el oro no genera ingresos corrientes; su rentabilidad procede solo de los cambios de su precio."
+  },
+  "U-025": {
+    "question": "¿Cuál es la principal advertencia de la FMA sobre el oro con descuento de «paga ahora, recibe después»?",
+    "explanation": "Tu dinero depende del proveedor; muchos de estos modelos no tienen una supervisión efectiva.",
+    "options": ["Si el proveedor se declara insolvente, a menudo no hay derecho a la entrega y es posible la pérdida total", "El oro siempre se entrega, solo que más tarde", "La FMA garantiza la entrega", "El precio del oro no puede caer"]
+  },
+  "U-026": {
+    "question": "Según la Wiener Börse, ¿qué es un Exchange Traded Commodity (ETC)?",
+    "explanation": "Como los ETC son valores de deuda, el emisor importa.",
+    "options": ["Un valor de deuda negociado en bolsa que refleja el valor de materias primas o metales preciosos", "Un fondo que debe tener acciones", "Un lingote de oro físico", "Un depósito bancario en oro"]
+  },
+  "U-027": {
+    "question": "En los datos de Damodaran, ¿cuál fue la volatilidad del oro de 1972 a 2025, en porcentaje (un decimal)?",
+    "explanation": "Un 27,3 %, más que el 17,0 % del S&P 500 en el mismo periodo."
+  },
+  "U-028": {
+    "question": "Según el BPI, ¿cuánto se negoció al día en los mercados mundiales de divisas en abril de 2025, en billones de dólares estadounidenses?",
+    "explanation": "9,6 billones de dólares al día, un 28 % más que los 7,5 billones de 2022."
+  },
+  "U-029": {
+    "question": "¿Qué divisa estaba en uno de los lados de alrededor del 89 % de todas las operaciones de divisas en 2025?",
+    "explanation": "El dólar estadounidense estaba en uno de los lados del 89,2 % de las operaciones; el euro, del 28,9 %.",
+    "options": ["El dólar estadounidense", "El euro", "El yen japonés", "El franco suizo"]
+  },
+  "U-030": {
+    "question": "El tipo de referencia del BCE para el dólar estadounidense es 1,10. ¿Qué significa?",
+    "explanation": "El BCE cotiza las divisas por cada euro.",
+    "options": ["1 euro compra 1,10 dólares estadounidenses", "1 dólar compra 1,10 euros", "El dólar subió un 1,10 %", "El euro vale 110 céntimos en Austria"]
+  },
+  "U-031": {
+    "question": "¿Cuál es el apalancamiento máximo de los CFD minoristas sobre pares de divisas principales según las normas de la UE introducidas en 2018?",
+    "explanation": "30:1 en los pares principales y 20:1 en los demás pares."
+  },
+  "U-032": {
+    "question": "¿Qué proporción de los clientes activos de forex y CFD perdió dinero en cuatro años en el estudio de 2014 de la AMF?",
+    "explanation": "Más del 89 % de 14.799 clientes perdieron dinero; la pérdida media fue de 10.887 €.",
+    "options": ["Más del 89 %", "Alrededor del 50 %", "Alrededor del 25 %", "Menos del 10 %"]
+  },
+  "U-033": {
+    "question": "Con un apalancamiento de 30:1, una posición en divisas de 30.000 € necesita 1.000 € de margen. ¿Qué parte de ese margen, en porcentaje, consume un movimiento adverso del 1 %?",
+    "explanation": "El 1 % de 30.000 € = 300 €, que es el 30 % de los 1.000 € de margen."
+  },
+  "U-034": {
+    "question": "Verdadero o falso: en 2022, las autoridades de supervisión de la UE advirtieron de que muchos criptoactivos son muy arriesgados y especulativos.",
+    "explanation": "Verdadero. Advirtieron de que los consumidores se enfrentan a la posibilidad muy real de perder todo el dinero invertido."
+  },
+  "U-035": {
+    "question": "Según el MiCAR, ¿qué es una ficha de dinero electrónico (EMT)?",
+    "explanation": "Las EMT están ligadas 1:1 a una sola moneda oficial y están pensadas para pagos.",
+    "options": ["Un token ligado 1:1 a una sola moneda oficial, como uno que vale siempre 1 €", "Un token ligado a una cesta de divisas y oro", "Bitcoin", "Un NFT"]
+  },
+  "U-036": {
+    "question": "Según el MiCAR, ¿a qué categoría pertenece bitcoin?",
+    "explanation": "Bitcoin no está ligado a un valor fijo, así que entra en «otros criptoactivos».",
+    "options": ["Otros criptoactivos", "Fichas de dinero electrónico", "Fichas referenciadas a activos", "Es un depósito bancario"]
+  },
+  "U-037": {
+    "question": "¿Qué actividades con criptoactivos describe la FMA como no reguladas? Selecciona todas las correctas.",
+    "explanation": "Gestionar una plataforma de negociación necesita autorización MiCAR; los préstamos DeFi, los servicios de staking y los NFT siguen sin regular.",
+    "options": ["Los préstamos DeFi", "El staking como servicio", "Los NFT", "Gestionar una plataforma de negociación de criptoactivos"]
+  },
+  "U-038": {
+    "question": "¿Qué riesgo destaca la FMA en las «plataformas mixtas» que ofrecen productos con criptoactivos regulados y no regulados uno al lado del otro?",
+    "explanation": "Los proveedores pueden usar su licencia para promocionar productos no regulados.",
+    "options": ["Los inversores pueden creer, equivocadamente, que el MiCAR protege todos los productos", "Siempre son ilegales", "Sus comisiones las fija la ley", "No pueden ofrecer bitcoin"]
+  },
+  "U-039": {
+    "question": "¿A qué tipo tributan en Austria los rendimientos de las criptomonedas adquiridas después del 28 de febrero de 2021?",
+    "explanation": "Desde el 1 de marzo de 2022, los rendimientos de las criptomonedas son rendimientos del capital que tributan al 27,5 %.",
+    "options": ["27,5 %", "25 %", "Solo el impuesto progresivo sobre la renta", "Exentos tras un año"]
+  },
+  "U-040": {
+    "question": "En los datos en dólares estadounidenses de Damodaran, ¿qué hizo el oro en 2008, cuando el S&P 500 perdió un 36,6 %?",
+    "explanation": "El oro subió un 4,3 % en 2008. En otros periodos cayó varios años seguidos (1988–1992), así que no es una cobertura fiable.",
+    "options": ["Ganó un 4,3 %", "Perdió un 32,6 %", "También perdió un 36,6 %", "No cambió"]
+  },
+  "U-041": {
+    "question": "Según el § 11 ImmoInvFG, ¿durante al menos cuántos meses tienes que haber tenido las participaciones de un fondo inmobiliario abierto austriaco antes de poder reembolsarlas?",
+    "explanation": "Al menos 12 meses de tenencia, más un preaviso irrevocable de 12 meses; los pagos pueden suspenderse en circunstancias excepcionales."
+  }
+}
