@@ -1,0 +1,14 @@
+{
+  "SE-001": {"question": "In welchem Jahr hatte die Stockholmer Börse ihren ersten Handelstag?", "explanation": "Am 4. Februar 1863."},
+  "SE-002": {"question": "Wie viele Unternehmen enthält der OMXS30?", "explanation": "Die 30 größten und am aktivsten gehandelten Aktien an der Stockholmer Börse."},
+  "SE-003": {"question": "Wie hoch ist der Basiswert des OMXS30?", "explanation": "Basiswert 125."},
+  "SE-004": {"question": "In welcher Währung werden Aktien an der Nasdaq Stockholm gehandelt?", "explanation": "In schwedischen Kronen, daher trägt ein Euro-Anleger ein Währungsrisiko.", "options": ["Schwedische Krone (SEK)", "Euro", "Dänische Krone", "Norwegische Krone"]},
+  "SE-005": {"question": "Wann werden Aktien des Hauptmarkts an der Nasdaq Stockholm gehandelt?", "explanation": "09:00–17:30, ohne Zusammenführung von Aufträgen in den letzten fünf Minuten vor der Schlussauktion."},
+  "SE-006": {"question": "Welche Behörde überwacht den schwedischen Finanzmarkt?", "explanation": "Die FI ist die Behörde, die mit der Überwachung des Finanzmarkts beauftragt ist.", "options": ["Finansinspektionen (FI)", "Riksbank", "Skatteverket", "Nasdaq"]},
+  "SE-007": {"question": "Bis zu welchem Betrag in schwedischen Kronen sind Einlagen seit 1. Jänner 2026 pro Person und Institut geschützt?", "explanation": "1.150.000 SEK, der Gegenwert von 100.000 € in Kronen."},
+  "SE-008": {"question": "Wie hoch ist der Grundsatz der schwedischen Quellensteuer (kupongskatt) auf Dividenden an ausländische Anleger, in Prozent?", "explanation": "30 %, nach einem Doppelbesteuerungsabkommen reduzierbar."},
+  "SE-009": {"question": "Richtig oder falsch: In einem schwedischen Investmentsparkonto (ISK) werden Dividenden und Gewinne besteuert, wenn sie anfallen.", "explanation": "Falsch. Stattdessen wird das Konto mit 30 % auf einen Pauschalertrag besteuert."},
+  "SE-010": {"question": "Welche Institution ist der schwedische Zentralverwahrer?", "explanation": "Euroclear Sweden.", "options": ["Euroclear Sweden", "Clearstream", "Iberclear", "KDPW"]},
+  "SE-011": {"question": "Welche dieser Unternehmen waren im Oktober 2026 Mitglieder des OMXS30? Wähle alle zutreffenden aus.", "explanation": "Nestlé ist ein Schweizer Unternehmen im SMI.", "options": ["Volvo", "Ericsson", "H&M", "Nestlé"]},
+  "SE-012": {"question": "Richtig oder falsch: Der OMXS30 kann Aktien mit Gattungsbezeichnungen wie „ser. A“ oder „ser. B“ enthalten.", "explanation": "Richtig: zum Beispiel Atlas Copco A und Volvo B."}
+}

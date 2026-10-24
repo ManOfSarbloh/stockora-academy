@@ -1,0 +1,14 @@
+{
+  "ES-001": {"question": "In welchem Jahr wurde die Madrider Börse gegründet?", "explanation": "1831, womit sie zu den ältesten Finanzinstitutionen Spaniens gehört."},
+  "ES-002": {"question": "Wie viele Unternehmen enthält der IBEX 35?", "explanation": "35 der größten in Spanien gehandelten Wertpapiere."},
+  "ES-003": {"question": "Wie hoch war der Basiswert des IBEX 35 am 29. Dezember 1989?", "explanation": "3.000 Punkte.", "options": ["3.000 Punkte", "1.000 Punkte", "1.500 Punkte", "100 Punkte"]},
+  "ES-004": {"question": "Welcher Gruppe gehört BME, der Betreiber der spanischen Börsen, seit 2020?", "explanation": "Der SIX, die auch die Schweizer Börse betreibt.", "options": ["SIX Group", "Euronext", "Deutsche Börse", "London Stock Exchange Group"]},
+  "ES-005": {"question": "Wann läuft der fortlaufende Handel im SIBE-System der spanischen Börse?", "explanation": "Eröffnungsauktion 08:30–09:00; Schlussauktion 17:30–17:35; Handel zum letzten Kurs bis 17:45."},
+  "ES-006": {"question": "Bis zu welchem Betrag garantiert der spanische FGD Einlagen pro Inhaber und Institut, in Euro?", "explanation": "100.000 €."},
+  "ES-007": {"question": "Wie hoch ist die spanische Finanztransaktionssteuer, in Prozent?", "explanation": "0,2 % auf den Kauf von Aktien spanischer Unternehmen mit einem Wert über 1 Mrd. €."},
+  "ES-008": {"question": "Mit welchem Satz besteuert Spanien Dividenden an nicht Ansässige ohne Betriebsstätte, vor Grenzen laut Abkommen, in Prozent?", "explanation": "19 %."},
+  "ES-009": {"question": "Wie hoch ist im spanischen Tarif 2025 der staatliche Spitzensatz auf Spareinkünfte über 300.000 €?", "explanation": "Der staatliche Teil reicht von 9,5 % bis 15 %; mit dem regionalen Teil (ebenfalls bis 15 %) beträgt der kombinierte Spitzensatz 30 %."},
+  "ES-010": {"question": "Welche Institution ist der spanische Zentralverwahrer?", "explanation": "Iberclear ist eine Tochter von BME.", "options": ["Iberclear", "Euroclear France", "Clearstream", "KDPW"]},
+  "ES-011": {"question": "Welche dieser Unternehmen waren im Dezember 2025 Mitglieder des IBEX 35? Wähle alle zutreffenden aus.", "explanation": "Ferrari ist italienisch und im FTSE MIB.", "options": ["Santander", "Inditex", "Iberdrola", "Ferrari"]},
+  "ES-012": {"question": "Richtig oder falsch: Spanien stellt am 11. Oktober 2027 mit dem Rest der EU auf die Abwicklung T+1 um.", "explanation": "Richtig."}
+}

@@ -1,0 +1,14 @@
+{
+  "US-001": {"question": "In welchem Jahr wurde das Buttonwood Agreement unterzeichnet, die offizielle Gründung der NYSE?", "explanation": "Am 17. Mai 1792 von 24 Börsenmaklern unterzeichnet."},
+  "US-002": {"question": "Wie viele Unternehmen enthält der S&P 500?", "explanation": "500 führende US-Unternehmen, die etwa 80 % der verfügbaren Marktkapitalisierung abdecken."},
+  "US-003": {"question": "Wie ist der Dow Jones Industrial Average gewichtet?", "explanation": "Er ist ein preisgewichtetes Maß aus 30 Unternehmen.", "options": ["Nach Aktienkurs", "Nach Marktkapitalisierung", "Gleich", "Nach Umsatz"]},
+  "US-004": {"question": "Seit wann werden die meisten US-Wertpapiergeschäfte an T+1 abgewickelt?", "explanation": "Die Regeländerung der SEC trat am 28. Mai 2024 in Kraft.", "options": ["28. Mai 2024", "1. Jänner 2020", "11. Oktober 2027", "Sie werden noch an T+3 abgewickelt"]},
+  "US-005": {"question": "Bis zu welchem Gesamtbetrag schützt die SIPC Wertpapiere und Bargeld eines Kunden, wenn ein Mitglieds-Brokerhaus scheitert?", "explanation": "Vor Marktverlusten schützt die SIPC nicht.", "options": ["500.000 $, davon 250.000 $ für Bargeld", "Insgesamt 250.000 $", "1 Mio. $", "Unbegrenzt"]},
+  "US-006": {"question": "Bis zu welchem Betrag sind Bankeinlagen bei jeder FDIC-versicherten Bank mindestens versichert, in US-Dollar?", "explanation": "Mindestens 250.000 $."},
+  "US-007": {"question": "Bei welchen Tagesverlusten des S&P 500 können marktweite Circuit Breaker den Handel anhalten? Wähle alle zutreffenden aus.", "explanation": "Stufe 1 (7 %), Stufe 2 (13 %) und Stufe 3 (20 %)."},
+  "US-008": {"question": "Wie hoch ist der Standardsatz der US-Quellensteuer auf Dividenden an nicht ansässige Ausländer, vor Ermäßigungen nach Abkommen, in Prozent?", "explanation": "30 %; ein Doppelbesteuerungsabkommen kann ihn senken."},
+  "US-009": {"question": "Richtig oder falsch: Für US-Steuerpflichtige ist ein Gewinn aus Aktien, die länger als ein Jahr gehalten wurden, ein langfristiger Kursgewinn.", "explanation": "Richtig; bei einer Haltedauer von einem Jahr oder weniger ist er kurzfristig und wird wie normales Einkommen besteuert."},
+  "US-010": {"question": "Welche Organisation beaufsichtigt US-Broker-Dealer als Selbstregulierungsorganisation unter Aufsicht der SEC?", "explanation": "Die FINRA betreibt auch BrokerCheck.", "options": ["FINRA", "FDIC", "Federal Reserve", "SIPC"]},
+  "US-011": {"question": "Wann läuft die vorbörsliche Sitzung der Nasdaq (New Yorker Zeit)?", "explanation": "Vorbörslich 04:00–09:30; nachbörslich 16:00–20:00.", "options": ["04:00–09:30", "07:00–09:00", "08:00–09:30", "Es gibt keine"]},
+  "US-012": {"question": "Wie groß war Ende 2025 ungefähr die Marktkapitalisierung der börsennotierten inländischen US-Unternehmen?", "explanation": "68,9 Billionen US-Dollar laut Daten von Weltbank/WFE.", "options": ["Etwa 69 Billionen $", "Etwa 7 Billionen $", "Etwa 210 Mrd. $", "Etwa 690 Billionen $"]}
+}

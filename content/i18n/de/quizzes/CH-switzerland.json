@@ -1,0 +1,15 @@
+{
+  "CH-001": {"question": "Wie viele Unternehmen enthält der SMI?", "explanation": "Die 20 größten und liquidesten Schweizer Aktien."},
+  "CH-002": {"question": "Auf welchen Stand wurde der SMI am 30. Juni 1988 normiert?", "explanation": "1.500 Punkte.", "options": ["1.500 Punkte", "1.000 Punkte", "100 Punkte", "10.000 Punkte"]},
+  "CH-003": {"question": "Auf welches Höchstgewicht werden SMI-Mitglieder jedes Quartal gekappt, in Prozent?", "explanation": "18 %, womit der SMI die EU-Regeln für OGAW erfüllt."},
+  "CH-004": {"question": "Welche Behörde beaufsichtigt den Schweizer Finanzmarkt?", "explanation": "Die FINMA ist die unabhängige Finanzmarktaufsicht der Schweiz.", "options": ["FINMA", "BaFin", "FCA", "FMA"]},
+  "CH-005": {"question": "Bis zu welchem Betrag sind Bankeinlagen in der Schweiz pro Kunde geschützt?", "explanation": "esisuisse schützt Einlagen bis 100.000 CHF pro Kunde und Bank.", "options": ["100.000 CHF", "20.000 CHF", "500.000 CHF", "Kein Schutz"]},
+  "CH-006": {"question": "Wie hoch ist die Schweizer Verrechnungssteuer auf Dividenden, in Prozent?", "explanation": "35 % (Verrechnungssteuer); Ansässige bekommen sie zurück, wenn sie die Einkünfte deklarieren."},
+  "CH-007": {"question": "Richtig oder falsch: In der Schweiz sind Gewinne aus dem Verkauf von Wertpapieren im Privatvermögen auf Bundes- und Kantonsebene steuerfrei.", "explanation": "Richtig, laut Eidgenössischer Steuerverwaltung."},
+  "CH-008": {"question": "Welche Umsatzabgabe fällt an, wenn beim Kauf ausländischer Wertpapiere ein Schweizer Effektenhändler beteiligt ist?", "explanation": "0,15 % bei Schweizer und 0,3 % bei ausländischen Wertpapieren.", "options": ["0,3 %", "0,15 %", "0,5 %", "Keine"]},
+  "CH-009": {"question": "An welchem Datum schlossen sich die Börsen von Basel, Genf und Zürich zur Schweizer Börse SWX zusammen?", "explanation": "Am 17. Mai 1995; der vollelektronische Handel folgte zwischen Dezember 1995 und August 1996.", "options": ["17. Mai 1995", "1. Juli 1988", "8. Dezember 1995", "1. Jänner 2000"]},
+  "CH-010": {"question": "Richtig oder falsch: Die Schweizer Börse war die erste der Welt, die Handel, Abwicklung und Verwahrung vollständig auf elektronische Systeme umstellte.", "explanation": "Richtig, zwischen 8. Dezember 1995 und 16. August 1996, laut SIX."},
+  "CH-011": {"question": "Welche Unternehmen wurden im September 2026 in den SMI aufgenommen? Wähle alle zutreffenden aus.", "explanation": "Galderma und Sandoz kamen dazu; Swisscom und Kühne+Nagel schieden aus.", "options": ["Galderma", "Sandoz", "Swisscom", "Kühne+Nagel"]},
+  "CH-012": {"question": "Wann stellt die Schweiz auf die Abwicklung T+1 um?", "explanation": "Die SIX koordiniert die Umstellung am 11. Oktober 2027.", "options": ["Am 11. Oktober 2027, gemeinsam mit der EU und dem Vereinigten Königreich", "Sie verwendet schon T+0", "2030", "Nie; sie bleibt bei T+3"]},
+  "CH-013": {"question": "Bis zu welcher Uhrzeit können Aktien an der SIX nach der Schlussauktion zum Schlusskurs gehandelt werden?", "explanation": "Der Handel zum Schlusskurs läuft bis 17:40."}
+}

@@ -1,0 +1,14 @@
+{
+  "FR-001": {"question": "Wie viele Unternehmen enthält der CAC 40?", "explanation": "Die 40 größten und am aktivsten gehandelten Aktien an der Euronext Paris."},
+  "FR-002": {"question": "Welche drei Börsen schlossen sich im Jahr 2000 zu Euronext zusammen?", "explanation": "Euronext begann im Jahr 2000 als Zusammenschluss von Amsterdam, Brüssel und Paris.", "options": ["Amsterdam, Brüssel und Paris", "Paris, Frankfurt und Mailand", "London, Paris und Madrid", "Paris, Lissabon und Oslo"]},
+  "FR-003": {"question": "Wie hoch war der Basiswert des CAC 40 am 31. Dezember 1987?", "explanation": "1.000 Punkte; der Index startete am 15. Juni 1988.", "options": ["1.000 Punkte", "1.500 Punkte", "100 Punkte", "500 Punkte"]},
+  "FR-004": {"question": "Welche Behörde beaufsichtigt die französischen Finanzmärkte?", "explanation": "Die AMF ist eine unabhängige öffentliche Behörde.", "options": ["Autorité des marchés financiers (AMF)", "BaFin", "FCA", "CONSOB"]},
+  "FR-005": {"question": "Bis zu welchem Betrag sind Einlagen in Frankreich pro Kunde und Bank garantiert, in Euro?", "explanation": "100.000 € (FGDR)."},
+  "FR-006": {"question": "Bis zu welchem Betrag deckt die französische Wertpapiersicherung Kunden einer gescheiterten Wertpapierfirma, in Euro?", "explanation": "70.000 € pro Kunde und Firma."},
+  "FR-007": {"question": "Wie hoch ist seit 1. Jänner 2026 die gesamte Pauschalabgabe auf Erträge aus Wertpapieren für in Frankreich Ansässige, in Prozent?", "explanation": "31,4 %: 12,8 % Einkommensteuer und 18,6 % Sozialabgaben."},
+  "FR-008": {"question": "Wie hoch ist die französische Quellensteuer auf Dividenden an im Ausland ansässige Privatpersonen (vor Ermäßigungen nach Abkommen), in Prozent?", "explanation": "12,8 %, der am 1. Jänner 2026 geltende Satz."},
+  "FR-009": {"question": "Wie hoch ist seit 1. April 2025 die französische Finanztransaktionssteuer auf den Kauf von Aktien großer französischer Unternehmen?", "explanation": "Durch das Budgetgesetz 2025 von 0,3 % auf 0,4 % angehoben."},
+  "FR-010": {"question": "Richtig oder falsch: Frankreich stellt am 11. Oktober 2027 mit dem Rest der EU auf die Abwicklung T+1 um.", "explanation": "Richtig; bis dahin werden Geschäfte an T+2 abgewickelt."},
+  "FR-011": {"question": "Welche Unternehmen gehörten Ende September 2026 zu den zehn größten CAC-40-Mitgliedern? Wähle alle zutreffenden aus.", "explanation": "Nestlé ist ein Schweizer Unternehmen und notiert in Zürich.", "options": ["TotalEnergies", "LVMH", "Schneider Electric", "Nestlé"]},
+  "FR-012": {"question": "Welche Gruppe betreibt den Zentralverwahrer für französische Aktien?", "explanation": "Euroclear France ist einer der ESES-Zentralverwahrer.", "options": ["Euroclear (Euroclear France)", "Clearstream", "DTCC", "SIX SIS"]}
+}

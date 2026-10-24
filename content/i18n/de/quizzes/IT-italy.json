@@ -1,0 +1,14 @@
+{
+  "IT-001": {"question": "In welchem Jahr wurde die Mailänder Warenbörse per Dekret gegründet?", "explanation": "Durch ein Dekret des Vizekönigs Eugène Napoléon vom 16. Jänner 1808."},
+  "IT-002": {"question": "Wie viele Unternehmen enthält der FTSE MIB?", "explanation": "Die 40 führenden Aktien an der Euronext Milan und der Euronext MIV Milan."},
+  "IT-003": {"question": "Wann läuft der fortlaufende Handel an der Euronext Milan?", "explanation": "Eröffnungsauktion 07:30–09:00, fortlaufend 09:00–17:30, Schlussauktion 17:30–17:35, Handel zum letzten Kurs bis 17:40."},
+  "IT-004": {"question": "Bis zu welchem Betrag garantiert der FITD Einlagen pro Einleger und Bank, in Euro?", "explanation": "100.000 €."},
+  "IT-005": {"question": "Wie hoch ist seit 1. Jänner 2026 Italiens Finanztransaktionssteuer auf Aktienübertragungen, vor der Ermäßigung für geregelte Märkte?", "explanation": "0,4 % (bis 2025 0,2 %); halbiert für Geschäfte an geregelten Märkten und MTFs."},
+  "IT-006": {"question": "Was kostet die italienische Transaktionssteuer 2026 beim Börsenkauf von Aktien eines großen italienischen Unternehmens?", "explanation": "Der Satz von 0,4 % wird für Geschäfte an geregelten Märkten oder MTFs auf 0,2 % halbiert.", "options": ["0,2 %", "0,4 %", "0,1 %", "Nichts"]},
+  "IT-007": {"question": "Richtig oder falsch: Aktien italienischer Unternehmen mit einem durchschnittlichen Marktwert unter 500 Mio. € (im vorangegangenen November) sind von der Transaktionssteuer ausgenommen.", "explanation": "Richtig."},
+  "IT-008": {"question": "Mit welchem Satz werden die meisten Kursgewinne aus Finanzinstrumenten für in Italien Ansässige besteuert, in Prozent?", "explanation": "Mit einer Ersatzsteuer von 26 %; für manche Kategorien gelten 20 %."},
+  "IT-009": {"question": "Innerhalb von wie vielen Monaten muss ein nicht Ansässiger nach einem Doppelbesteuerungsabkommen die Erstattung zu viel einbehaltener italienischer Quellensteuer beantragen?", "explanation": "48 Monate ab dem Tag des Steuerabzugs; der Satz laut Abkommen kann auch direkt von der Abzugsstelle angewendet werden.", "options": ["48 Monate", "12 Monate", "6 Monate", "10 Jahre"]},
+  "IT-010": {"question": "Welche dieser Unternehmen waren im Oktober 2026 Mitglieder des FTSE MIB? Wähle alle zutreffenden aus.", "explanation": "TotalEnergies ist französisch und im CAC 40.", "options": ["Ferrari", "Enel", "UniCredit", "TotalEnergies"]},
+  "IT-011": {"question": "Welche Behörde beaufsichtigt den italienischen Aktienmarkt?", "explanation": "Die CONSOB: Commissione Nazionale per le Società e la Borsa.", "options": ["CONSOB", "AMF", "CNMV", "FMA"]},
+  "IT-012": {"question": "Richtig oder falsch: Italien stellt am 11. Oktober 2027 mit dem Rest der EU auf die Abwicklung T+1 um.", "explanation": "Richtig."}
+}

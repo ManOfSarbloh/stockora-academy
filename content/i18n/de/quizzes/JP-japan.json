@@ -1,0 +1,12 @@
+{
+  "JP-001": {"question": "In welchem Jahr wurde die Tokyo Stock Exchange Co., Ltd. gegründet?", "explanation": "Am 15. Mai 1878."},
+  "JP-002": {"question": "In wie vielen Aktien werden Stammaktien japanischer börsennotierter Unternehmen gehandelt (die Handelseinheit)?", "explanation": "100 Aktien seit 1. Oktober 2018."},
+  "JP-003": {"question": "Eine Aktie schloss bei 1.000 ¥. In welcher Spanne kann sie nach den täglichen Kursgrenzen der TSE am nächsten Tag gehandelt werden?", "explanation": "Das Beispiel der JPX selbst.", "options": ["700–1.300 ¥", "900–1.100 ¥", "500–1.500 ¥", "Keine Grenze"]},
+  "JP-004": {"question": "Hat die Tokyo Stock Exchange eine Mittagspause?", "explanation": "Vormittag 09:00–11:30, Nachmittag 12:30–15:30.", "options": ["Ja, 11:30–12:30", "Nein", "Ja, 12:00–13:30", "Nur freitags"]},
+  "JP-005": {"question": "Welchen Basiswert und welches Datum verwendet der TOPIX?", "explanation": "Nach streubesitzbereinigter Marktkapitalisierung gewichtet, Basis 100 am 4. Jänner 1968.", "options": ["100 Punkte am 4. Jänner 1968", "1.000 Punkte am 4. Jänner 1968", "100 Punkte im Jahr 1989", "10.000 Punkte im Jahr 2000"]},
+  "JP-006": {"question": "Welcher Abwicklungszyklus gilt für japanische Aktien?", "explanation": "Zwei Geschäftstage nach dem Handelstag."},
+  "JP-007": {"question": "Wie hoch ist der gesamte Steuersatz für in Japan Ansässige auf Dividenden börsennotierter Aktien (national plus lokal), in Prozent?", "explanation": "15,315 % + 5 % lokale Steuer."},
+  "JP-008": {"question": "Wie hoch ist die lebenslange steuerfreie Bestandsgrenze im aktuellen NISA, in Millionen Yen?", "explanation": "18 Mio. ¥ (davon bis zu 12 Mio. ¥ im Wachstumsteil)."},
+  "JP-009": {"question": "Mit welchem Satz wird auf Dividenden börsennotierter Aktien an nicht Ansässige (mit unter 3 %) in der Regel Quellensteuer einbehalten?", "explanation": "15,315 %; 20,42 % für Inhaber von 3 % oder mehr; Abkommen können das senken."},
+  "JP-010": {"question": "In welchem Jahr schloss der Nikkei 225 erstmals wieder über seinem Rekordhoch von 1989?", "explanation": "Am 22. Februar 2024."}
+}

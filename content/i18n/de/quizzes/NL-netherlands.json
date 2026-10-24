@@ -1,0 +1,14 @@
+{
+  "NL-001": {"question": "Wie viele Unternehmen enthält der AEX (Stand 2026)?", "explanation": "Die 30 größten und am aktivsten gehandelten Aktien an der Euronext Amsterdam."},
+  "NL-002": {"question": "Welches Unternehmen ging 1602 als erstes an die Amsterdamer Börse?", "explanation": "Die VOC; Euronext nennt Amsterdam die älteste Börse der Welt.", "options": ["Die Niederländische Ostindien-Kompanie (VOC)", "Shell", "Philips", "Die Amsterdamer Wechselbank"]},
+  "NL-003": {"question": "Welches Unternehmen hatte Ende September 2026 das größte Gewicht im AEX?", "explanation": "ASML, mit etwa 16,9 %.", "options": ["ASML", "Shell", "Unilever", "ING Group"]},
+  "NL-004": {"question": "Welchen Anteil am AEX hatten seine zehn größten Mitglieder Ende September 2026 ungefähr, in Prozent (ganze Zahl)?", "explanation": "76,61 %, also etwa 77 %."},
+  "NL-005": {"question": "Welche Behörde beaufsichtigt das Verhalten im niederländischen Finanzsektor?", "explanation": "Die AFM, seit 1. März 2002; die DNB ist Zentralbank und Aufsicht über die Solvenz.", "options": ["AFM", "DNB", "EZB", "BaFin"]},
+  "NL-006": {"question": "Bis zu welchem Betrag ist Geld auf niederländischen Bankkonten pro Person und Bank geschützt, in Euro?", "explanation": "100.000 €; Aktien und Anleihen sind von der Einlagensicherung nicht gedeckt."},
+  "NL-007": {"question": "Wie hoch ist der allgemeine Satz der niederländischen Dividendensteuer, in Prozent?", "explanation": "15 %, vom zahlenden Unternehmen einbehalten."},
+  "NL-008": {"question": "Richtig oder falsch: Die niederländische Einlagensicherung deckt auch Aktien in einem Depot.", "explanation": "Falsch. Sie deckt Bankeinlagen, nicht Anlageprodukte wie Aktien und Anleihen."},
+  "NL-009": {"question": "In welchem Jahr schlossen sich die Börsen von Amsterdam, Brüssel und Paris zu Euronext zusammen?", "explanation": "Euronext begann im Jahr 2000."},
+  "NL-010": {"question": "Welcher Zentralverwahrer wickelt niederländische Aktien ab?", "explanation": "Euroclear Nederland ist einer der ESES-Zentralverwahrer von Euroclear.", "options": ["Euroclear Nederland", "Clearstream", "Monte Titoli", "Iberclear"]},
+  "NL-011": {"question": "Richtig oder falsch: Die Niederlande stellen am 11. Oktober 2027 mit dem Rest der EU auf die Abwicklung T+1 um.", "explanation": "Richtig; bis dahin werden Geschäfte an T+2 abgewickelt."},
+  "NL-012": {"question": "Welche dieser Unternehmen gehörten Ende September 2026 zu den zehn größten AEX-Mitgliedern? Wähle alle zutreffenden aus.", "explanation": "Siemens ist ein deutsches DAX-Unternehmen.", "options": ["ASML", "Unilever", "Adyen", "Siemens"]}
+}

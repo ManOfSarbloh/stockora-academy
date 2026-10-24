@@ -1,0 +1,15 @@
+{
+  "PL-001": {"question": "In welchem Jahr wurde die Warschauer Handelsbörse gegründet, der Beginn der polnischen Kapitalmarkttradition?", "explanation": "1817; die heutige Gesellschaft der Warschauer Börse wurde 1991 gegründet."},
+  "PL-002": {"question": "Wann wurde die heutige Gesellschaft der Warschauer Börse gegründet?", "explanation": "Vom Staatsschatzministerium am 12. April 1991, nach dem Fall des Kommunismus.", "options": ["12. April 1991", "9. November 1989", "1. Mai 2004", "16. April 1994"]},
+  "PL-003": {"question": "Wie viele Unternehmen enthält der WIG20?", "explanation": "20 große und besonders liquide Unternehmen der Hauptliste der Warschauer Börse."},
+  "PL-004": {"question": "Seit welchem Jahr wird der WIG20 berechnet?", "explanation": "Seit 16. April 1994."},
+  "PL-005": {"question": "In welchem Jahr stufte FTSE Russell Polen zum entwickelten Markt hoch?", "explanation": "Mit Wirkung zum 24. September 2018; 2008 stieg Polen von Secondary auf Advanced Emerging auf."},
+  "PL-006": {"question": "In welcher Währung werden Aktien an der Warschauer Börse gehandelt?", "explanation": "Polen ist in der EU, verwendet aber nicht den Euro.", "options": ["Polnischer Złoty (PLN)", "Euro", "Tschechische Krone", "US-Dollar"]},
+  "PL-007": {"question": "Welche Behörde beaufsichtigt den polnischen Finanzmarkt?", "explanation": "Die KNF.", "options": ["KNF (Polnische Finanzaufsichtsbehörde)", "FMA", "BaFin", "CNMV"]},
+  "PL-008": {"question": "Bis zu welchem Betrag deckt Polens Bankengarantiefonds berechtigte Einlagen pro Einleger und Institut?", "explanation": "100.000 € (in Złoty oder Fremdwährungen).", "options": ["100.000 €", "100.000 PLN", "20.000 €", "Unbegrenzt"]},
+  "PL-009": {"question": "Mit welchem Satz werden Einkünfte aus Aktienverkäufen für in Polen Ansässige besteuert, in Prozent?", "explanation": "19 %, angegeben im Formular PIT-38."},
+  "PL-010": {"question": "Richtig oder falsch: In Polen können Verluste aus Aktienverkäufen in den folgenden fünf Jahren in Grenzen mit Einkünften aus derselben Quelle verrechnet werden.", "explanation": "Richtig, wie in der Broschüre zum PIT-38 erklärt."},
+  "PL-011": {"question": "Welche Institution ist Polens Zentralverwahrer?", "explanation": "Die KDPW, Krajowy Depozyt Papierów Wartościowych.", "options": ["KDPW", "Euroclear Poland", "Clearstream", "GPW Benchmark"]},
+  "PL-012": {"question": "Welche dieser Unternehmen waren 2026 Mitglieder des WIG20? Wähle alle zutreffenden aus.", "explanation": "Volvo ist schwedisch und im OMXS30.", "options": ["PKO Bank Polski", "CD Projekt", "KGHM", "Volvo"]},
+  "PL-013": {"question": "Richtig oder falsch: Polen stellt als EU-Mitglied am 11. Oktober 2027 auf die Abwicklung T+1 um.", "explanation": "Richtig."}
+}

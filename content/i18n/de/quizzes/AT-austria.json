@@ -1,0 +1,14 @@
+{
+  "AT-001": {"question": "In welchem Jahr wurde die Wiener Börse gegründet?", "explanation": "Maria Theresia gründete sie 1771."},
+  "AT-002": {"question": "Welcher Index bildet das Blue-Chip-Segment der Wiener Börse ab?", "explanation": "Der ATX enthält rund 20 der liquidesten Aktien der Wiener Börse.", "options": ["ATX", "DAX", "SMI", "CAC 40"]},
+  "AT-003": {"question": "Mit wie vielen Punkten startete der ATX am 2. Jänner 1991?", "explanation": "Der Startwert wurde mit 1.000 Punkten festgelegt."},
+  "AT-004": {"question": "Wer ist Österreichs wichtigste Finanzmarktaufsicht?", "explanation": "Die FMA beaufsichtigt Banken, Versicherungen, Wertpapierfirmen und die Wertpapiermärkte.", "options": ["Die FMA (Finanzmarktaufsicht)", "Die EZB", "Statistik Austria", "Die Wiener Börse"]},
+  "AT-005": {"question": "Bis zu welchem Betrag pro Person und Bank sind Einlagen in Österreich geschützt, in Euro?", "explanation": "100.000 € pro Person und Bank (Einlagensicherung AUSTRIA)."},
+  "AT-006": {"question": "Wann stellt Österreich mit dem Rest der EU auf die Abwicklung T+1 um?", "explanation": "Die ESMA bestätigte die Umstellung der EU auf T+1 am 11. Oktober 2027; bis dahin werden Geschäfte an T+2 abgewickelt.", "options": ["11. Oktober 2027", "1. Jänner 2026", "28. Mai 2024", "Es wird schon an T+0 abgewickelt"]},
+  "AT-007": {"question": "Mit welchem Satz werden Dividenden und Kursgewinne aus Aktien in Österreich grundsätzlich besteuert?", "explanation": "Der besondere Steuersatz beträgt 27,5 % (KESt); Zinsen auf Bankeinlagen werden mit 25 % besteuert."},
+  "AT-008": {"question": "Richtig oder falsch: FTSE Russell stuft Österreich als entwickelten Markt ein.", "explanation": "Richtig, Stand 6. Oktober 2026."},
+  "AT-009": {"question": "Wann läuft der fortlaufende Handel für ATX-Aktien an der Wiener Börse normalerweise?", "explanation": "Der fortlaufende Handel läuft von 09:00 bis 17:30 (Wiener Zeit), mit Auktionen davor und danach."},
+  "AT-010": {"question": "Was passiert bei einer Volatilitätsunterbrechung an der Wiener Börse?", "explanation": "Würde der nächste Kurs außerhalb eines Korridors liegen, wird der Handel unterbrochen (z. B. 2 Minuten im fortlaufenden Handel), und es folgt eine Auktion.", "options": ["Der Handel wird kurz unterbrochen, und eine Auktion bestimmt den nächsten Kurs", "Die Aktie wird vom Handel genommen", "Alle Geschäfte des Tages werden storniert", "Die FMA legt den Kurs fest"]},
+  "AT-011": {"question": "Bis zu welchem Betrag deckt die Anlegerentschädigung Wertpapiere, die eine Bank pflichtwidrig nicht zurückgeben kann, in Euro?", "explanation": "Bis zu 20.000 €."},
+  "AT-012": {"question": "Welche dieser Unternehmen waren im Oktober 2026 im ATX? Wähle alle zutreffenden aus.", "explanation": "Siemens ist ein deutsches Unternehmen im DAX; die anderen drei waren ATX-Mitglieder.", "options": ["Erste Group Bank", "OMV", "Verbund", "Siemens"]}
+}

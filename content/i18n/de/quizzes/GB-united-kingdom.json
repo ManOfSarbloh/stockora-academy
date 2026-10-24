@@ -1,0 +1,16 @@
+{
+  "GB-001": {"question": "In welchem Jahr entstand in London die erste regulierte Börse?", "explanation": "Die LSEG datiert die moderne Stock Exchange auf 1801; Kurslisten reichen bis 1698 zurück."},
+  "GB-002": {"question": "Wo begann John Castaing 1698, Aktien- und Rohstoffkurse zu veröffentlichen?", "explanation": "Im Jonathan's Coffee House.", "options": ["Im Jonathan's Coffee House", "In der Royal Exchange", "Bei Lloyd's of London", "In der Bank of England"]},
+  "GB-003": {"question": "Was enthält der FTSE 100?", "explanation": "Er wird vierteljährlich überprüft.", "options": ["Die 100 größten britischen Unternehmen nach voller Marktkapitalisierung", "Die 100 ältesten britischen Unternehmen", "100 von der FCA ausgewählte Unternehmen", "Alle in London notierten Unternehmen"]},
+  "GB-004": {"question": "Mit wie vielen Punkten startete der FTSE 100 am 3. Jänner 1984?", "explanation": "1.000 Punkte."},
+  "GB-005": {"question": "Wie hoch ist der übliche Steuersatz beim elektronischen Kauf britischer Aktien (Stamp Duty Reserve Tax), in Prozent?", "explanation": "0,5 %; 1,5 % für Übertragungen in manche Programme für Hinterlegungsscheine oder Clearing-Dienste."},
+  "GB-006": {"question": "Bis zu welchem Betrag schützt das FSCS seit 1. Dezember 2025 Bankeinlagen pro Person und Bank?", "explanation": "120.000 £; Ansprüche aus Anlagen sind bis 85.000 £ gedeckt."},
+  "GB-007": {"question": "Welche Aufsicht überwacht im Vereinigten Königreich das Verhalten von Finanzfirmen und Märkten?", "explanation": "Die FCA beaufsichtigt das Verhalten von rund 35.500 Unternehmen.", "options": ["Financial Conduct Authority (FCA)", "BaFin", "SEC", "FINMA"]},
+  "GB-008": {"question": "Wie hoch ist der jährliche Freibetrag für die Kapitalertragsteuer für Privatpersonen im Steuerjahr 2026–27, in Pfund?", "explanation": "3.000 £."},
+  "GB-009": {"question": "Mit welchem Satz zahlen Steuerpflichtige im höheren Tarif ab 6. April 2026 Kapitalertragsteuer auf Aktien?", "explanation": "24 % über der Basis-Steuerstufe; 18 % innerhalb davon."},
+  "GB-010": {"question": "Wie viel kann eine im Vereinigten Königreich ansässige Person im Steuerjahr 2026–27 in ISAs sparen, in Pfund?", "explanation": "20.000 £ über alle ISA-Arten zusammen."},
+  "GB-011": {"question": "Richtig oder falsch: Laut HMRC bleiben britische Dividenden für die meisten nicht im Vereinigten Königreich Ansässigen steuerfrei.", "explanation": "Richtig, außer für Personen, die auch steuerpflichtiges britisches Einkommen haben."},
+  "GB-012": {"question": "Ein Londoner Aktienkurs wird mit 2.450 GBX angezeigt. Wie viel ist das in Pfund?", "explanation": "GBX bedeutet Pence: 2.450 Pence = 24,50 £."},
+  "GB-013": {"question": "Wie heißen der britische Zentralverwahrer und sein Abwicklungssystem?", "explanation": "Euroclear UK & International betreibt das System CREST.", "options": ["Euroclear UK & International, mit CREST", "Clearstream, mit Xetra", "DTC, mit NSCC", "SIX SIS, mit SECOM"]},
+  "GB-014": {"question": "Um wie viel fiel der FTSE 100 am 20. Oktober 1987, seinem schlechtesten Tag von 1984 bis 2023, in Prozent?", "explanation": "−12,22 %, laut FTSE Russell."}
+}
