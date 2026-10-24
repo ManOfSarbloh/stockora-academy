@@ -1,0 +1,199 @@
+{
+  "O-001": {
+    "question": "Según la FMA, ¿qué ha hallado la investigación en finanzas conductuales?",
+    "explanation": "La FMA: los inversores solo son en parte capaces de actuar racionalmente y a menudo cometen errores de juicio.",
+    "options": ["Los inversores solo son en parte capaces de actuar racionalmente", "Los inversores siempre actúan racionalmente", "Los mercados nunca se equivocan", "La psicología no influye en los precios"]
+  },
+  "O-002": {
+    "question": "¿Qué teoría formuló Daniel Kahneman junto con Amos Tversky?",
+    "explanation": "El comité del Nobel atribuye a Kahneman y Tversky la teoría de las perspectivas, que explica mejor el comportamiento observado.",
+    "options": ["La teoría de las perspectivas", "La hipótesis del mercado eficiente", "El mandato dual", "La teoría moderna de carteras"]
+  },
+  "O-003": {
+    "question": "¿Qué término acuñó Richard Thaler?",
+    "explanation": "Thaler acuñó «nudge» (empujoncito) y mostró cómo puede ayudar a las personas a ejercer un mejor autocontrol, por ejemplo al ahorrar para la pensión.",
+    "options": ["Nudge", "Mercado alcista", "Lunes negro", "Short squeeze"]
+  },
+  "O-004": {
+    "question": "En el estudio de Barber y Odean sobre 66.465 hogares, ¿qué rentabilidad anual obtenían los operadores más activos, en porcentaje? (Un decimal.)",
+    "explanation": "Los operadores más activos ganaban un 11,4 % anual, mientras el mercado rendía un 17,9 %."
+  },
+  "O-005": {
+    "question": "¿Cuáles de estas incluye la FMA entre las trampas psicológicas habituales de los inversores? Selecciona todas las correctas.",
+    "explanation": "La FMA enumera la aversión a las pérdidas, el comportamiento gregario, la heurística de disponibilidad, el efecto de recencia, el sesgo local y el efecto halo. El interés compuesto es un efecto matemático, no un sesgo.",
+    "options": ["La aversión a las pérdidas", "El comportamiento gregario", "El sesgo local", "El interés compuesto"]
+  },
+  "O-006": {
+    "question": "¿Qué es una heurística?",
+    "explanation": "Kahneman mostró cómo el juicio toma atajos heurísticos que se apartan sistemáticamente de las reglas de la probabilidad.",
+    "options": ["Un atajo mental que puede llevar a errores sistemáticos", "Un tipo de acción", "Una norma fiscal", "Una plataforma de trading"]
+  },
+  "O-007": {
+    "question": "Según la FMA, ¿qué significa la aversión a las pérdidas?",
+    "explanation": "La FMA: el valor subjetivo de una ganancia suele valorarse por debajo de una pérdida igual; las pérdidas se viven con mucha más intensidad.",
+    "options": ["Las pérdidas se sienten con más intensidad que unas ganancias del mismo tamaño", "Los inversores nunca aceptan pérdidas", "Las pérdidas no tributan", "Las ganancias se sienten con más fuerza que las pérdidas"]
+  },
+  "O-008": {
+    "question": "¿Qué es el efecto disposición?",
+    "explanation": "Odean puso a prueba esta tendencia con 10.000 cuentas de valores y halló una fuerte preferencia por realizar las ganancias.",
+    "options": ["Vender demasiado pronto lo que gana y mantener demasiado tiempo lo que pierde", "Comprar las acciones que salen en las noticias", "Preferir las acciones nacionales", "Operar con demasiada frecuencia"]
+  },
+  "O-009": {
+    "question": "Verdadero o falso: Odean halló que la preferencia de los inversores por vender lo que ganaba antes que lo que perdía estaba justificada por la rentabilidad posterior de las acciones.",
+    "explanation": "Falso. El comportamiento no estaba justificado por la rentabilidad posterior y redujo la rentabilidad después de impuestos en las cuentas sujetas a impuestos."
+  },
+  "O-010": {
+    "question": "¿Qué pregunta sugiere la FMA en lugar de fijarte en el precio al que compraste?",
+    "explanation": "La FMA dice que el precio al que compraste ayuda poco; plantéate si comprarías al precio actual.",
+    "options": ["¿Compraría esta acción al precio de hoy?", "¿Cuánto pagué por ella?", "¿Qué compró mi vecino?", "¿Cuánto ha caído esta semana?"]
+  },
+  "O-011": {
+    "question": "¿Qué es el efecto dotación?",
+    "explanation": "El comité del Nobel describe cómo Thaler mostró que la aversión a las pérdidas puede explicar por qué las personas valoran más un objeto cuando es suyo.",
+    "options": ["Valorar algo más porque es tuyo", "Una subida del precio de las acciones tras un dividendo", "Heredar acciones", "La comisión de gestión de un fondo"]
+  },
+  "O-012": {
+    "question": "Lanzar una moneda da 110 € con cara y quita 100 € con cruz. ¿Cuál es el resultado medio por lanzamiento, en euros?",
+    "explanation": "(110 − 100) ÷ 2 = 5 € de media. La aversión a las pérdidas hace que mucha gente dude de todos modos."
+  },
+  "O-013": {
+    "question": "En «Boys Will Be Boys», ¿cuánto más operaban los hombres que las mujeres, en porcentaje?",
+    "explanation": "Barber y Odean hallaron que los hombres operaban un 45 % más que las mujeres."
+  },
+  "O-014": {
+    "question": "¿Cuánto reducía al año la rentabilidad neta de los hombres operar, en ese estudio?",
+    "explanation": "Operar reducía la rentabilidad neta de los hombres en 2,65 puntos al año, frente a 1,72 puntos en las mujeres.",
+    "options": ["2,65 puntos porcentuales", "0,1 puntos porcentuales", "10 puntos porcentuales", "Nada en absoluto"]
+  },
+  "O-015": {
+    "question": "Verdadero o falso: Barber y Odean concluyen que el exceso de confianza puede explicar los altos niveles de negociación y la mala rentabilidad.",
+    "explanation": "Verdadero. Su mensaje central es que operar es peligroso para tu patrimonio."
+  },
+  "O-016": {
+    "question": "¿Qué halló el estudio de Odean «Do Investors Trade Too Much?» sobre las acciones que compraban los inversores frente a las que vendían?",
+    "explanation": "Las compras no solo no batían a las ventas lo suficiente para cubrir los costes; de media, rendían menos que las acciones vendidas.",
+    "options": ["De media, a las acciones compradas les iba peor que a las vendidas", "A las acciones compradas siempre les iba mejor", "No había ninguna diferencia", "Los inversores nunca vendían acciones"]
+  },
+  "O-017": {
+    "question": "¿Qué parte de su cartera rotaba cada año el hogar medio del estudio de Barber y Odean de 2000, en porcentaje?",
+    "explanation": "El hogar medio rotaba cada año el 75 % de su cartera de acciones."
+  },
+  "O-018": {
+    "question": "¿Cómo describe la FMA el comportamiento gregario?",
+    "explanation": "Bajo la psicología de masas, los inversores a menudo imitan a la mayoría, sobre todo en momentos de incertidumbre.",
+    "options": ["Los inversores imitan a la mayoría en lugar de decidir de forma racional", "Los inversores solo compran granjas de ganado", "Los inversores siguen un plan por escrito", "Los inversores diversifican internacionalmente"]
+  },
+  "O-019": {
+    "question": "Verdadero o falso: según la FMA, el comportamiento gregario puede provocar fuertes oscilaciones de precios porque muchos inversores actúan en la misma dirección.",
+    "explanation": "Verdadero. Un comportamiento en la misma dirección provoca fuertes oscilaciones de los precios y del valor."
+  },
+  "O-020": {
+    "question": "¿Qué significa FOMO?",
+    "explanation": "El FOMO es el impulso de comprar porque parece que los demás están ganando dinero, a menudo cerca del máximo.",
+    "options": ["Miedo a quedarse fuera (fear of missing out)", "Fondo de opciones gestionadas", "Primera orden con el mercado abierto", "Orden de mercado con opción a tipo fijo"]
+  },
+  "O-021": {
+    "question": "¿Qué comparación se usó para describir el pánico del lunes negro de 1987, según cita Federal Reserve History?",
+    "explanation": "El consejero delegado de Intel, Andrew Grove, comparó la unión psicológica del mercado con un teatro en el que alguien grita «¡fuego!».",
+    "options": ["Un teatro en el que alguien grita «¡fuego!»", "Un mar en calma", "Una biblioteca silenciosa", "Un tren lento"]
+  },
+  "O-022": {
+    "question": "¿Qué sugiere la FMA para contrarrestar el comportamiento gregario?",
+    "explanation": "Ser consciente de por qué prefieres una inversión puede llevar a mejores decisiones.",
+    "options": ["Preguntarte de forma crítica por qué prefieres una inversión concreta", "Comprar lo que esté más de moda", "Vender siempre que vendan los demás", "Ignorar toda la información"]
+  },
+  "O-023": {
+    "question": "¿Qué es la heurística de disponibilidad?",
+    "explanation": "La FMA: los inversores consideran más probables los escenarios basados en información fácil de recordar y subestiman los riesgos que llevan tiempo sin darse.",
+    "options": ["Juzgar la probabilidad por lo fácil que viene a la mente la información", "Comprar solo las acciones disponibles", "Tener siempre efectivo", "El horario de un bróker"]
+  },
+  "O-024": {
+    "question": "¿Qué es el efecto de recencia?",
+    "explanation": "La FMA lo explica por la capacidad limitada de la memoria a corto plazo.",
+    "options": ["Dar más peso a la información reciente que a la antigua", "Preferir las empresas nuevas", "Vender las compras recientes", "Reequilibrar cada mes"]
+  },
+  "O-025": {
+    "question": "Verdadero o falso: la FMA advierte de que algunos asesores mencionan los riesgos en medio de la conversación para que se noten menos.",
+    "explanation": "Verdadero. Las ventajas se destacan al principio y al final, aprovechando el efecto de recencia."
+  },
+  "O-026": {
+    "question": "Según «All That Glitters» (Barber y Odean, 2008), ¿de qué acciones son compradores netos los inversores particulares?",
+    "explanation": "Los particulares son compradores netos de las acciones que salen en las noticias, que tienen un volumen anormalmente alto o rentabilidades extremas en un día.",
+    "options": ["De las acciones que llaman la atención, como las que salen en las noticias", "Solo de las acciones con poco volumen", "Solo de bonos del Estado", "De acciones de las que nunca han oído hablar"]
+  },
+  "O-027": {
+    "question": "Verdadero o falso: Barber y Odean explican las compras impulsadas por la atención por la dificultad de buscar entre miles de acciones posibles.",
+    "explanation": "Verdadero. Muchos inversores solo se plantean comprar las acciones que primero les han llamado la atención."
+  },
+  "O-028": {
+    "question": "¿Qué es la contabilidad mental, tal como la describe el comité del Nobel en el caso de Richard Thaler?",
+    "explanation": "Las personas simplifican las decisiones con cuentas mentales separadas, fijándose en el efecto limitado de cada decisión y no en el efecto global.",
+    "options": ["Crear cuentas separadas en la mente y juzgar cada decisión de forma aislada", "Tener cuentas en varios bancos", "Calcular los impuestos de cabeza", "Usar un programa de contabilidad"]
+  },
+  "O-029": {
+    "question": "¿Qué es el sesgo local?",
+    "explanation": "La FMA describe la tendencia a preferir las inversiones del mercado de origen.",
+    "options": ["Preferir las inversiones de tu mercado de origen", "Invertir solo en inmuebles", "Trabajar desde casa", "Evitar por ley todas las divisas extranjeras"]
+  },
+  "O-030": {
+    "question": "Verdadero o falso: la FMA señala que las inversiones del mercado de origen tienden a estar más correlacionadas entre sí que las inversiones diversificadas internacionalmente.",
+    "explanation": "Verdadero, y por eso la diversificación internacional puede reducir el riesgo."
+  },
+  "O-031": {
+    "question": "¿Qué es el efecto halo?",
+    "explanation": "La FMA aconseja comprobar la fuente de una idea y buscar también información negativa.",
+    "options": ["Una característica positiva muy marcada tiñe el juicio sobre todo lo demás", "Una subida repentina del precio", "Un tipo de dividendo", "La calificación crediticia de un banco"]
+  },
+  "O-032": {
+    "question": "¿Qué aconseja comprobar la FMA antes de seguir el consejo de un finfluencer? Selecciona todas las correctas.",
+    "explanation": "La FMA aconseja comprobar la cualificación, los intereses económicos como el marketing de afiliación y la credibilidad de las promesas. El número de seguidores no dice nada de la calidad.",
+    "options": ["Su formación y su experiencia", "Si gana dinero con los productos que recomienda", "Qué credibilidad tienen sus promesas de beneficios", "Cuántos seguidores tiene, como prueba de calidad"]
+  },
+  "O-033": {
+    "question": "Verdadero o falso: «finfluencer» es un título protegido que solo pueden usar los asesores autorizados.",
+    "explanation": "Falso. La FMA señala que no es un título protegido y que entre los finfluencers hay estafadores."
+  },
+  "O-034": {
+    "question": "¿Qué es el marketing de afiliación en este contexto?",
+    "explanation": "La FMA cita el marketing de afiliación como ejemplo de interés económico en los productos que se recomiendan.",
+    "options": ["Cobrar una comisión cuando los seguidores se dan de alta o compran a través de un enlace", "Un tipo de fondo indexado", "Una subvención pública", "Un segmento de la bolsa"]
+  },
+  "O-035": {
+    "question": "Verdadero o falso: la SEC incluyó las menciones frecuentes en Reddit entre las características de GameStop en enero de 2021.",
+    "explanation": "Verdadero, junto con grandes movimientos del precio y del volumen, muchas posiciones cortas y una cobertura significativa en los medios."
+  },
+  "O-036": {
+    "question": "¿De qué trata el modelo «planificador-hacedor» de Thaler?",
+    "explanation": "El comité del Nobel lo describe como una forma de analizar los problemas de autocontrol, como no ahorrar para la vejez.",
+    "options": ["De la tensión entre la planificación a largo plazo y la tentación a corto plazo", "De planificar una jornada de trading", "De los papeles de los brókeres y las bolsas", "De cómo planifican la producción las empresas"]
+  },
+  "O-037": {
+    "question": "¿Qué hábitos te ayudan a protegerte de tus propios sesgos? Selecciona todas las correctas.",
+    "explanation": "La automatización, las listas de comprobación y los periodos de espera reducen las decisiones impulsivas; mirar los precios constantemente tiende a aumentarlas.",
+    "options": ["Automatizar un plan de ahorro mensual", "Usar una lista de comprobación antes de cada compra", "Esperar antes de las operaciones no planificadas", "Mirar los precios cada pocos minutos"]
+  },
+  "O-038": {
+    "question": "Verdadero o falso: invertir una cantidad fija a intervalos regulares significa comprar más participaciones cuando los precios están bajos.",
+    "explanation": "Verdadero (Investor.gov), y además evita tener que decidir cada mes."
+  },
+  "O-039": {
+    "question": "Ordena de forma razonable estos pasos ante una idea de operación no planificada.",
+    "explanation": "Apuntar primero el motivo, comprobarlo, esperar y luego registrar la decisión frena la acción impulsiva.",
+    "orderedItems": ["Apuntar el motivo de la operación", "Contrastar la idea con tu lista de comprobación y tu plan", "Esperar 48 horas", "Decidir y apuntar la decisión en tu diario"]
+  },
+  "O-040": {
+    "question": "Un presentador simpático y seguro de sí mismo hace que sus consejos de inversión parezcan más fiables. ¿Qué sesgo está actuando?",
+    "explanation": "La FMA describe el efecto halo: una característica muy marcada tiñe la percepción de todo lo demás.",
+    "options": ["El efecto halo", "El sesgo local", "La contabilidad mental", "La aversión a las pérdidas"]
+  },
+  "O-041": {
+    "question": "¿Qué economista acuñó el término «nudging» y recibió el Premio de Ciencias Económicas de 2017?",
+    "explanation": "El comité del Nobel atribuye a Richard Thaler el modelo planificador-hacedor y haber mostrado cómo los empujoncitos pueden ayudar a las personas a ejercer el autocontrol.",
+    "options": ["Richard Thaler", "Daniel Kahneman", "Robert Shiller", "Eugene Fama"]
+  },
+  "O-042": {
+    "question": "¿Qué motivos del sesgo local menciona la FMA? Selecciona todas las correctas.",
+    "explanation": "La FMA cita los costes, las lagunas de información y el riesgo de divisa, y señala que las inversiones del mercado de origen están más correlacionadas entre sí.",
+    "options": ["Los altos costes de las operaciones internacionales", "Las lagunas de información sobre los mercados extranjeros", "Evitar el riesgo de tipo de cambio", "Las acciones del mercado de origen están garantizadas por el Estado"]
+  }
+}
