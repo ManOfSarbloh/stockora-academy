@@ -1,0 +1,16 @@
+{
+  "GB-001": {"question": "¿En qué año nació en Londres la primera bolsa regulada?", "explanation": "LSEG data la Stock Exchange moderna en 1801; las listas de precios se remontan a 1698."},
+  "GB-002": {"question": "¿Dónde empezó John Castaing a publicar precios de acciones y materias primas en 1698?", "explanation": "En el café Jonathan's Coffee House.", "options": ["Jonathan's Coffee House", "La Royal Exchange", "Lloyd's of London", "El Banco de Inglaterra"]},
+  "GB-003": {"question": "¿Qué contiene el FTSE 100?", "explanation": "Se revisa cada trimestre.", "options": ["Las 100 mayores empresas británicas por capitalización bursátil total", "Las 100 empresas británicas más antiguas", "100 empresas elegidas por la FCA", "Todas las empresas que cotizan en Londres"]},
+  "GB-004": {"question": "¿Con cuántos puntos empezó el FTSE 100 el 3 de enero de 1984?", "explanation": "1.000 puntos."},
+  "GB-005": {"question": "¿Cuál es el tipo habitual del impuesto al comprar acciones británicas de forma electrónica (Stamp Duty Reserve Tax), en porcentaje?", "explanation": "0,5 %; 1,5 % en las transmisiones a ciertos programas de certificados de depósito o servicios de compensación."},
+  "GB-006": {"question": "Desde el 1 de diciembre de 2025, ¿hasta qué importe protege el FSCS los depósitos bancarios por persona y banco?", "explanation": "120.000 £; las reclamaciones por inversiones están cubiertas hasta 85.000 £."},
+  "GB-007": {"question": "¿Qué supervisor vigila la conducta de las empresas financieras y de los mercados en el Reino Unido?", "explanation": "La FCA regula la conducta de unas 35.500 empresas.", "options": ["Financial Conduct Authority (FCA)", "BaFin", "SEC", "FINMA"]},
+  "GB-008": {"question": "¿Cuál es el mínimo exento anual del impuesto sobre ganancias de capital para particulares en el ejercicio 2026-27, en libras?", "explanation": "3.000 £."},
+  "GB-009": {"question": "¿A qué tipo pagan el impuesto sobre ganancias de capital con acciones los contribuyentes del tipo alto desde el 6 de abril de 2026?", "explanation": "24 % por encima del tramo básico; 18 % dentro de él."},
+  "GB-010": {"question": "¿Cuánto puede ahorrar un residente en el Reino Unido en ISA en el ejercicio 2026-27, en libras?", "explanation": "20.000 £ entre todos los tipos de ISA."},
+  "GB-011": {"question": "Verdadero o falso: según HMRC, los dividendos británicos siguen sin tributar para la mayoría de los no residentes en el Reino Unido.", "explanation": "Verdadero, salvo para las personas que también tienen ingresos británicos sujetos a impuesto."},
+  "GB-012": {"question": "Un precio de una acción en Londres aparece como 2.450 GBX. ¿Cuánto es en libras?", "explanation": "GBX significa peniques: 2.450 peniques = 24,50 £."},
+  "GB-013": {"question": "¿Cuál es el depositario central de valores del Reino Unido y su sistema de liquidación?", "explanation": "Euroclear UK & International gestiona el sistema CREST.", "options": ["Euroclear UK & International, con CREST", "Clearstream, con Xetra", "DTC, con NSCC", "SIX SIS, con SECOM"]},
+  "GB-014": {"question": "¿Cuánto cayó el FTSE 100 el 20 de octubre de 1987, su peor día entre 1984 y 2023, en porcentaje?", "explanation": "−12,22 %, según FTSE Russell."}
+}

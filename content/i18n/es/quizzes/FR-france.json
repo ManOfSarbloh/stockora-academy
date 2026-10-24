@@ -1,0 +1,14 @@
+{
+  "FR-001": {"question": "¿Cuántas empresas contiene el CAC 40?", "explanation": "Las 40 acciones más grandes y más negociadas de Euronext Paris."},
+  "FR-002": {"question": "¿Qué tres bolsas se unieron para formar Euronext en 2000?", "explanation": "Euronext nació en 2000 como la unión de Ámsterdam, Bruselas y París.", "options": ["Ámsterdam, Bruselas y París", "París, Fráncfort y Milán", "Londres, París y Madrid", "París, Lisboa y Oslo"]},
+  "FR-003": {"question": "¿Cuál era el valor base del CAC 40 el 31 de diciembre de 1987?", "explanation": "1.000 puntos; el índice se lanzó el 15 de junio de 1988.", "options": ["1.000 puntos", "1.500 puntos", "100 puntos", "500 puntos"]},
+  "FR-004": {"question": "¿Qué autoridad regula los mercados financieros franceses?", "explanation": "La AMF es una autoridad pública independiente.", "options": ["Autorité des marchés financiers (AMF)", "BaFin", "FCA", "CONSOB"]},
+  "FR-005": {"question": "¿Hasta qué importe están garantizados los depósitos por cliente y banco en Francia, en euros?", "explanation": "100.000 € (FGDR)."},
+  "FR-006": {"question": "¿Hasta qué importe cubre la garantía de valores francesa a los clientes de una empresa de servicios de inversión quebrada, en euros?", "explanation": "70.000 € por cliente y empresa."},
+  "FR-007": {"question": "¿Cuál es el gravamen único total sobre los rendimientos de valores para los residentes en Francia desde el 1 de enero de 2026, en porcentaje?", "explanation": "31,4 %: 12,8 % de impuesto sobre la renta y 18,6 % de cotizaciones sociales."},
+  "FR-008": {"question": "¿Cuál es la retención francesa sobre los dividendos pagados a particulares residentes en el extranjero (antes de las reducciones por convenio), en porcentaje?", "explanation": "12,8 %, el tipo vigente el 1 de enero de 2026."},
+  "FR-009": {"question": "¿Cuál es el tipo del impuesto francés sobre transacciones financieras al comprar acciones de grandes empresas francesas desde el 1 de abril de 2025?", "explanation": "La ley de presupuestos de 2025 lo subió del 0,3 % al 0,4 %."},
+  "FR-010": {"question": "Verdadero o falso: Francia pasa a la liquidación T+1 el 11 de octubre de 2027, con el resto de la UE.", "explanation": "Verdadero; hasta entonces, las operaciones se liquidan en T+2."},
+  "FR-011": {"question": "¿Qué empresas estaban entre los diez mayores miembros del CAC 40 a finales de septiembre de 2026? Selecciona todas las correctas.", "explanation": "Nestlé es suiza y cotiza en Zúrich.", "options": ["TotalEnergies", "LVMH", "Schneider Electric", "Nestlé"]},
+  "FR-012": {"question": "¿Qué grupo gestiona el depositario central de valores de las acciones francesas?", "explanation": "Euroclear France es uno de los depositarios ESES.", "options": ["Euroclear (Euroclear France)", "Clearstream", "DTCC", "SIX SIS"]}
+}

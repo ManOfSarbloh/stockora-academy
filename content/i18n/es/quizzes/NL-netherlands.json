@@ -1,0 +1,14 @@
+{
+  "NL-001": {"question": "¿Cuántas empresas contiene el AEX (en 2026)?", "explanation": "Las 30 acciones más grandes y más negociadas de Euronext Amsterdam."},
+  "NL-002": {"question": "¿Qué empresa fue la primera en cotizar en la bolsa de Ámsterdam, en 1602?", "explanation": "La VOC; Euronext llama a Ámsterdam la bolsa más antigua del mundo.", "options": ["La Compañía Neerlandesa de las Indias Orientales (VOC)", "Shell", "Philips", "El Banco de Ámsterdam"]},
+  "NL-003": {"question": "¿Qué empresa tenía el mayor peso en el AEX a finales de septiembre de 2026?", "explanation": "ASML, con alrededor del 16,9 %.", "options": ["ASML", "Shell", "Unilever", "ING Group"]},
+  "NL-004": {"question": "¿Qué parte aproximada del AEX suponían sus diez mayores miembros a finales de septiembre de 2026, en porcentaje (número entero)?", "explanation": "76,61 %, es decir, alrededor del 77 %."},
+  "NL-005": {"question": "¿Qué autoridad supervisa la conducta del sector de los mercados financieros neerlandeses?", "explanation": "La AFM, desde el 1 de marzo de 2002; DNB es el banco central y el supervisor prudencial.", "options": ["AFM", "DNB", "BCE", "BaFin"]},
+  "NL-006": {"question": "¿Hasta qué importe está protegido el dinero de las cuentas bancarias neerlandesas por persona y banco, en euros?", "explanation": "100.000 €; las acciones y los bonos no están cubiertos por la garantía de depósitos."},
+  "NL-007": {"question": "¿Cuál es el tipo general del impuesto neerlandés sobre dividendos, en porcentaje?", "explanation": "15 %, retenido por la empresa que paga."},
+  "NL-008": {"question": "Verdadero o falso: la garantía de depósitos neerlandesa también cubre las acciones que se tienen en una cuenta de valores.", "explanation": "Falso. Cubre los depósitos bancarios, no los productos de inversión como las acciones y los bonos."},
+  "NL-009": {"question": "¿En qué año se unieron las bolsas de Ámsterdam, Bruselas y París para formar Euronext?", "explanation": "Euronext nació en 2000."},
+  "NL-010": {"question": "¿Qué depositario central de valores liquida las acciones neerlandesas?", "explanation": "Euroclear Nederland es uno de los depositarios ESES de Euroclear.", "options": ["Euroclear Nederland", "Clearstream", "Monte Titoli", "Iberclear"]},
+  "NL-011": {"question": "Verdadero o falso: los Países Bajos pasan a la liquidación T+1 el 11 de octubre de 2027, con el resto de la UE.", "explanation": "Verdadero; hasta entonces, las operaciones se liquidan en T+2."},
+  "NL-012": {"question": "¿Cuáles de estas empresas estaban entre los diez mayores miembros del AEX a finales de septiembre de 2026? Selecciona todas las correctas.", "explanation": "Siemens es una empresa alemana del DAX.", "options": ["ASML", "Unilever", "Adyen", "Siemens"]}
+}

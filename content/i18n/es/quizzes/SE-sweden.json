@@ -1,0 +1,14 @@
+{
+  "SE-001": {"question": "¿En qué año celebró la Bolsa de Estocolmo su primer día de negociación?", "explanation": "El 4 de febrero de 1863."},
+  "SE-002": {"question": "¿Cuántas empresas contiene el OMXS30?", "explanation": "Las 30 acciones más grandes y más negociadas de la Bolsa de Estocolmo."},
+  "SE-003": {"question": "¿Cuál es el valor base del OMXS30?", "explanation": "Valor base de 125."},
+  "SE-004": {"question": "¿En qué moneda se negocian las acciones en Nasdaq Stockholm?", "explanation": "En coronas suecas, así que un inversor en euros asume riesgo de divisa.", "options": ["Corona sueca (SEK)", "Euro", "Corona danesa", "Corona noruega"]},
+  "SE-005": {"question": "¿Cuándo se negocian las acciones del mercado principal en Nasdaq Stockholm?", "explanation": "De 09:00 a 17:30, sin casación de órdenes en los últimos cinco minutos antes de la subasta de cierre."},
+  "SE-006": {"question": "¿Qué autoridad vigila el mercado financiero sueco?", "explanation": "FI es la autoridad pública encargada de vigilar el mercado financiero.", "options": ["Finansinspektionen (FI)", "Riksbank", "Skatteverket", "Nasdaq"]},
+  "SE-007": {"question": "¿Hasta qué importe, en coronas suecas, están protegidos los depósitos por persona y entidad desde el 1 de enero de 2026?", "explanation": "1.150.000 SEK, el equivalente en coronas de 100.000 €."},
+  "SE-008": {"question": "¿Cuál es el tipo general de la retención sueca (kupongskatt) sobre los dividendos pagados a inversores extranjeros, en porcentaje?", "explanation": "30 %, que puede reducirse con un convenio fiscal."},
+  "SE-009": {"question": "Verdadero o falso: dentro de una cuenta sueca de ahorro para inversión (ISK), los dividendos y las ganancias tributan cuando se producen.", "explanation": "Falso. En su lugar, la cuenta tributa al 30 % de un rendimiento estándar."},
+  "SE-010": {"question": "¿Qué institución es el depositario central de valores sueco?", "explanation": "Euroclear Sweden.", "options": ["Euroclear Sweden", "Clearstream", "Iberclear", "KDPW"]},
+  "SE-011": {"question": "¿Cuáles de estas empresas eran miembros del OMXS30 en octubre de 2026? Selecciona todas las correctas.", "explanation": "Nestlé es suiza y está en el SMI.", "options": ["Volvo", "Ericsson", "H&M", "Nestlé"]},
+  "SE-012": {"question": "Verdadero o falso: el OMXS30 puede incluir más de una designación de clase de acciones, como «ser. A» o «ser. B».", "explanation": "Verdadero: por ejemplo, Atlas Copco A y Volvo B."}
+}

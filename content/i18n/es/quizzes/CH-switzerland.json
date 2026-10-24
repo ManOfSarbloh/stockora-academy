@@ -1,0 +1,15 @@
+{
+  "CH-001": {"question": "¿Cuántas empresas contiene el SMI?", "explanation": "Las 20 acciones suizas más grandes y líquidas."},
+  "CH-002": {"question": "¿En qué nivel se normalizó el SMI el 30 de junio de 1988?", "explanation": "1.500 puntos.", "options": ["1.500 puntos", "1.000 puntos", "100 puntos", "10.000 puntos"]},
+  "CH-003": {"question": "¿A qué peso máximo se limitan cada trimestre los componentes del SMI, en porcentaje?", "explanation": "18 %, lo que hace que el SMI cumpla las normas UCITS de la UE."},
+  "CH-004": {"question": "¿Qué autoridad supervisa el mercado financiero suizo?", "explanation": "La FINMA es el supervisor independiente del mercado financiero de Suiza.", "options": ["FINMA", "BaFin", "FCA", "FMA"]},
+  "CH-005": {"question": "¿Hasta qué importe están protegidos los depósitos bancarios por cliente en Suiza?", "explanation": "esisuisse protege los depósitos hasta 100.000 CHF por cliente y banco.", "options": ["100.000 CHF", "20.000 CHF", "500.000 CHF", "Sin protección"]},
+  "CH-006": {"question": "¿Cuál es el tipo de la retención suiza sobre los dividendos, en porcentaje?", "explanation": "35 % (Verrechnungssteuer); los residentes lo recuperan declarando los rendimientos."},
+  "CH-007": {"question": "Verdadero o falso: en Suiza, las ganancias por vender valores que forman parte del patrimonio privado están exentas a nivel federal y cantonal.", "explanation": "Verdadero, según la Administración Federal de Contribuciones suiza."},
+  "CH-008": {"question": "¿Qué impuesto de timbre sobre transacciones se aplica cuando un intermediario de valores suizo interviene en la compra de valores extranjeros?", "explanation": "0,15 % para los valores suizos y 0,3 % para los extranjeros.", "options": ["0,3 %", "0,15 %", "0,5 %", "Ninguno"]},
+  "CH-009": {"question": "¿En qué fecha se fusionaron las bolsas de Basilea, Ginebra y Zúrich en la Swiss Stock Exchange SWX?", "explanation": "El 17 de mayo de 1995; la negociación totalmente electrónica llegó entre diciembre de 1995 y agosto de 1996.", "options": ["17 de mayo de 1995", "1 de julio de 1988", "8 de diciembre de 1995", "1 de enero de 2000"]},
+  "CH-010": {"question": "Verdadero o falso: la bolsa suiza fue la primera del mundo en pasar la negociación, la liquidación y la custodia por completo a sistemas electrónicos.", "explanation": "Verdadero, entre el 8 de diciembre de 1995 y el 16 de agosto de 1996, según SIX."},
+  "CH-011": {"question": "¿Qué empresas entraron en el SMI en septiembre de 2026? Selecciona todas las correctas.", "explanation": "Entraron Galderma y Sandoz; salieron Swisscom y Kuehne+Nagel.", "options": ["Galderma", "Sandoz", "Swisscom", "Kuehne+Nagel"]},
+  "CH-012": {"question": "¿Cuándo pasa Suiza a la liquidación T+1?", "explanation": "SIX coordina la transición el 11 de octubre de 2027.", "options": ["El 11 de octubre de 2027, junto con la UE y el Reino Unido", "Ya usa T+0", "En 2030", "Nunca; mantiene T+3"]},
+  "CH-013": {"question": "¿Hasta qué hora pueden negociarse las acciones al precio de cierre en SIX tras la subasta de cierre?", "explanation": "La negociación al precio de cierre dura hasta las 17:40."}
+}

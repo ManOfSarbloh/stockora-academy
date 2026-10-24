@@ -1,0 +1,14 @@
+{
+  "IT-001": {"question": "¿En qué año se creó por decreto la Bolsa de Mercancías de Milán?", "explanation": "Por un decreto del 16 de enero de 1808 del virrey Eugène Napoléon."},
+  "IT-002": {"question": "¿Cuántas empresas contiene el FTSE MIB?", "explanation": "Las 40 acciones principales de Euronext Milan y Euronext MIV Milan."},
+  "IT-003": {"question": "¿Cuándo dura la negociación continua en Euronext Milan?", "explanation": "Subasta de apertura de 07:30 a 09:00, continua de 09:00 a 17:30, subasta de cierre de 17:30 a 17:35, negociación al último precio hasta las 17:40."},
+  "IT-004": {"question": "¿Hasta qué importe garantiza el FITD los depósitos por depositante y banco, en euros?", "explanation": "100.000 €."},
+  "IT-005": {"question": "¿Cuál es el tipo del impuesto italiano sobre transacciones financieras en las transmisiones de acciones desde el 1 de enero de 2026, antes de la reducción para los mercados regulados?", "explanation": "0,4 % (0,2 % hasta 2025); se reduce a la mitad en las operaciones en mercados regulados y SMN."},
+  "IT-006": {"question": "¿Cuánto cuesta en 2026 el impuesto italiano sobre transacciones en una compra en bolsa de acciones de una gran empresa italiana?", "explanation": "El tipo del 0,4 % se reduce a la mitad, al 0,2 %, en las operaciones en mercados regulados o SMN.", "options": ["0,2 %", "0,4 %", "0,1 %", "Nada"]},
+  "IT-007": {"question": "Verdadero o falso: las acciones de sociedades italianas con un valor de mercado medio inferior a 500 millones de euros (en el noviembre anterior) están exentas del impuesto sobre transacciones.", "explanation": "Verdadero."},
+  "IT-008": {"question": "¿A qué tipo tributan para los residentes en Italia la mayoría de las ganancias con instrumentos financieros, en porcentaje?", "explanation": "Un impuesto sustitutivo del 26 %; algunas categorías tributan al 20 %."},
+  "IT-009": {"question": "¿En cuántos meses debe reclamar un no residente la devolución del exceso de retención italiana con un convenio fiscal?", "explanation": "48 meses desde la fecha de la retención; el agente de retención también puede aplicar directamente el tipo del convenio.", "options": ["48 meses", "12 meses", "6 meses", "10 años"]},
+  "IT-010": {"question": "¿Cuáles de estas empresas eran miembros del FTSE MIB en octubre de 2026? Selecciona todas las correctas.", "explanation": "TotalEnergies es francesa y está en el CAC 40.", "options": ["Ferrari", "Enel", "UniCredit", "TotalEnergies"]},
+  "IT-011": {"question": "¿Qué autoridad regula el mercado bursátil italiano?", "explanation": "La CONSOB: Commissione Nazionale per le Società e la Borsa.", "options": ["CONSOB", "AMF", "CNMV", "FMA"]},
+  "IT-012": {"question": "Verdadero o falso: Italia pasa a la liquidación T+1 el 11 de octubre de 2027, con el resto de la UE.", "explanation": "Verdadero."}
+}

@@ -1,0 +1,14 @@
+{
+  "AT-001": {"question": "¿En qué año se fundó la Bolsa de Viena?", "explanation": "La fundó María Teresa en 1771."},
+  "AT-002": {"question": "¿Qué índice sigue al segmento de grandes valores de la Wiener Börse?", "explanation": "El ATX contiene unas 20 de las acciones más líquidas de la Wiener Börse.", "options": ["ATX", "DAX", "SMI", "CAC 40"]},
+  "AT-003": {"question": "¿Con cuántos puntos empezó el ATX el 2 de enero de 1991?", "explanation": "El valor inicial se fijó en 1.000 puntos."},
+  "AT-004": {"question": "¿Quién es el principal supervisor de los mercados financieros de Austria?", "explanation": "La FMA supervisa bancos, aseguradoras, empresas de servicios de inversión y los mercados de valores.", "options": ["La FMA (Finanzmarktaufsicht)", "El BCE", "Statistik Austria", "La Wiener Börse"]},
+  "AT-005": {"question": "¿Hasta qué importe por persona y banco están protegidos los depósitos en Austria, en euros?", "explanation": "100.000 € por persona y banco (Einlagensicherung AUSTRIA)."},
+  "AT-006": {"question": "¿Cuándo pasa Austria, con el resto de la UE, a la liquidación T+1?", "explanation": "ESMA confirmó el paso de la UE a T+1 el 11 de octubre de 2027; hasta entonces, las operaciones se liquidan en T+2.", "options": ["11 de octubre de 2027", "1 de enero de 2026", "28 de mayo de 2024", "Ya se liquida en T+0"]},
+  "AT-007": {"question": "¿A qué tipo tributan en general en Austria los dividendos y las ganancias de capital con acciones?", "explanation": "El tipo especial es del 27,5 % (KESt); los intereses de los depósitos bancarios tributan al 25 %."},
+  "AT-008": {"question": "Verdadero o falso: FTSE Russell clasifica a Austria como mercado desarrollado.", "explanation": "Verdadero, a fecha de 6 de octubre de 2026."},
+  "AT-009": {"question": "¿Cuándo suele durar la negociación continua de las acciones del ATX en la Wiener Börse?", "explanation": "La negociación continua va de 09:00 a 17:30 (hora de Viena), con subastas alrededor."},
+  "AT-010": {"question": "¿Qué ocurre en una interrupción por volatilidad en la Wiener Börse?", "explanation": "Si el siguiente precio quedara fuera de un corredor, la negociación se detiene (por ejemplo, 2 minutos en la negociación continua) y sigue una subasta.", "options": ["La negociación se detiene un momento y una subasta fija el siguiente precio", "La acción se excluye de cotización", "Se anulan todas las operaciones del día", "La FMA fija el precio"]},
+  "AT-011": {"question": "¿Hasta qué importe cubre la indemnización de los inversores los valores que un banco no puede devolver por incumplir sus obligaciones, en euros?", "explanation": "Hasta 20.000 €."},
+  "AT-012": {"question": "¿Cuáles de estas empresas estaban en el ATX en octubre de 2026? Selecciona todas las correctas.", "explanation": "Siemens es una empresa alemana del DAX; las otras tres eran miembros del ATX.", "options": ["Erste Group Bank", "OMV", "Verbund", "Siemens"]}
+}
