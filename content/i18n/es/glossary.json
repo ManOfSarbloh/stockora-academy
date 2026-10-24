@@ -514,7 +514,7 @@
   "definition": "Una empresa de servicios de inversión de la UE que negocia por cuenta propia frente a las órdenes de sus clientes, fuera de un centro de negociación, de forma frecuente y sustancial."
  },
  "clearing": {
-  "term": "Compensación (clearing)",
+  "term": "Compensación de operaciones (clearing)",
   "definition": "Todo lo que ocurre entre una operación y su liquidación final: confirmar los detalles, calcular las obligaciones y gestionar el riesgo de que una parte incumpla."
  },
  "settlement": {
@@ -646,7 +646,7 @@
   "definition": "La exigencia de un bróker de aportar más dinero o valores a una cuenta de margen tras una caída de precios. El bróker también puede vender tus valores, posiblemente sin aviso."
  },
  "isa": {
-  "term": "ISA (Reino Unido)",
+  "term": "ISA (cuenta de ahorro británica)",
   "definition": "Individual Savings Account: una cuenta británica en la que los ahorros y las inversiones crecen libres de impuestos del Reino Unido, hasta un límite anual (20.000 £ en el ejercicio fiscal 2026/27)."
  },
  "ira": {
