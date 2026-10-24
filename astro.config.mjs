@@ -49,7 +49,7 @@ for (const loc of ['de', 'es', 'fr', 'it']) {
     const x = tr[g.id];
     const m = x?.term.match(/^(.*?)\s+\(([^)]+)\)\s*$/);
     const main = (m ? m[1] : x?.term ?? '').split(/\s+\/\s+/);
-    const extra = m ? m[2].split(/\s*[,/]\s*/).filter((/** @type {string} */ p) => (p.match(/[A-ZÄÖÜ]/g) ?? []).length >= 2 || /^[A-ZÄÖÜ]\S*[\s-]\S/.test(p)) : [];
+    const extra = m ? m[2].split(/\s*,\s*|\s+\/\s+/).filter((/** @type {string} */ p) => (p.match(/[A-ZÄÖÜ]/g) ?? []).length >= 2 || /^[A-ZÄÖÜ]\S*[\s-]\S/.test(p)) : [];
     return { main, extra };
   };
   const owner = new Map();

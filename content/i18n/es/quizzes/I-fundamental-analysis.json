@@ -1,0 +1,303 @@
+{
+  "I-001": {
+    "question": "¿Qué estado financiero muestra lo que una empresa posee y lo que debe en un momento concreto?",
+    "explanation": "El balance es una foto de los activos, los pasivos y el patrimonio neto en una fecha. La cuenta de resultados y el estado de flujos de efectivo cubren un periodo.",
+    "options": ["El balance", "La cuenta de resultados", "El estado de flujos de efectivo", "El estado de cambios en el patrimonio neto"]
+  },
+  "I-002": {
+    "question": "¿Hasta cuándo tiene una empresa cotizada en un mercado regulado de Austria para publicar su informe financiero anual?",
+    "explanation": "El § 124 BörseG 2018 exige publicarlo como muy tarde cuatro meses después del cierre de cada ejercicio, y el informe debe seguir a disposición del público durante al menos diez años.",
+    "options": ["Como muy tarde cuatro meses después del cierre del ejercicio", "En el mes siguiente al cierre del ejercicio", "En los doce meses siguientes al cierre del ejercicio", "Solo cuando lo pida un accionista"]
+  },
+  "I-003": {
+    "question": "¿Durante cuántos años, como mínimo, debe un emisor austriaco mantener su informe financiero anual a disposición del público?",
+    "explanation": "§ 124 BörseG 2018: el informe financiero anual debe seguir siendo accesible al público durante al menos diez años."
+  },
+  "I-004": {
+    "question": "Verdadero o falso: la ley austriaca obliga actualmente a todas las empresas cotizadas a publicar un informe financiero completo cada trimestre.",
+    "explanation": "Falso. La FMA explica que la obligación de publicar informes trimestrales se suprimió el 26 de noviembre de 2015. Los informes financieros anuales y semestrales siguen siendo obligatorios."
+  },
+  "I-005": {
+    "question": "¿Qué normas contables debe usar en sus cuentas consolidadas (de grupo) una empresa de la UE con acciones en un mercado regulado?",
+    "explanation": "Según el Reglamento (CE) n.º 1606/2002, esas empresas deben preparar sus cuentas consolidadas con las normas internacionales de contabilidad (NIIF) adoptadas en la UE, para los ejercicios que empiezan el 1 de enero de 2005 o después.",
+    "options": ["Las NIIF adoptadas por la UE", "US GAAP", "Solo el código de comercio nacional", "Cualquier norma que elija"]
+  },
+  "I-006": {
+    "question": "En un Form 10-K de EE. UU., ¿qué sección describe los riesgos significativos a los que se enfrenta una empresa, en general por orden de importancia?",
+    "explanation": "Investor.gov explica que la sección Risk Factors incluye información sobre los riesgos significativos, en general ordenados por importancia.",
+    "options": ["Risk Factors", "Business", "Selected Financial Data", "Exhibits"]
+  },
+  "I-007": {
+    "question": "¿Cuáles de estos elementos forman parte de un informe financiero anual según el § 124 BörseG 2018? Selecciona todas las correctas.",
+    "explanation": "El informe financiero anual contiene los estados financieros auditados, el informe de gestión y las declaraciones de responsabilidad. Los precios objetivo de los analistas no forman parte de él.",
+    "options": ["Los estados financieros auditados", "El informe de gestión (Lagebericht)", "Las declaraciones de responsabilidad de los representantes legales de la empresa", "Los precios objetivo de los analistas"]
+  },
+  "I-008": {
+    "question": "La NIIF 18, aplicable según la norma del IASB a los ejercicios anuales que empiecen el 1 de enero de 2027 o después, ¿qué norma sustituye?",
+    "explanation": "La NIIF 18 sustituye a la NIC 1. Añade subtotales definidos, como el resultado de explotación, a la cuenta de resultados y exige información sobre las medidas del rendimiento definidas por la dirección.",
+    "options": ["La NIC 1, Presentación de estados financieros", "La NIC 7, Estado de flujos de efectivo", "La NIC 36, Deterioro del valor de los activos", "La NIIF 16, Arrendamientos"]
+  },
+  "I-009": {
+    "question": "Verdadero o falso: las notas de los estados financieros son sobre todo texto estándar y se pueden saltar sin problema.",
+    "explanation": "Falso. La guía de la SEC insiste en leer las notas: explican las políticas contables que exigen los juicios más difíciles de la dirección y contienen detalles importantes."
+  },
+  "I-010": {
+    "question": "¿Qué ecuación sigue todo balance?",
+    "explanation": "Los activos de una empresa deben ser iguales, es decir, cuadrar, con la suma de sus pasivos y su patrimonio neto.",
+    "options": ["Activos = Pasivos + Patrimonio neto", "Activos = Ingresos − Gastos", "Patrimonio neto = Activos + Pasivos", "Pasivos = Activos + Patrimonio neto"]
+  },
+  "I-011": {
+    "question": "Una empresa tiene un activo total de 800 millones de euros y un pasivo total de 500 millones. ¿Cuál es su patrimonio neto, en millones de euros?",
+    "explanation": "Patrimonio neto = activos − pasivos = 800 − 500 = 300 millones de euros."
+  },
+  "I-012": {
+    "question": "El activo corriente es de 150 millones de euros y el pasivo corriente de 100 millones. ¿Cuál es el fondo de maniobra, en millones de euros?",
+    "explanation": "Fondo de maniobra = activo corriente − pasivo corriente = 150 − 100 = 50 millones de euros."
+  },
+  "I-013": {
+    "question": "El activo corriente es de 150 millones de euros y el pasivo corriente de 100 millones. ¿Cuál es el ratio de liquidez corriente?",
+    "explanation": "Ratio de liquidez corriente = activo corriente ÷ pasivo corriente = 150 ÷ 100 = 1,5."
+  },
+  "I-014": {
+    "question": "El patrimonio neto es de 200 millones de euros y hay 20 millones de acciones. ¿Cuál es el valor contable por acción, en euros?",
+    "explanation": "Valor contable por acción = 200 M€ ÷ 20 millones de acciones = 10 €."
+  },
+  "I-015": {
+    "question": "Verdadero o falso: según las NIIF, una marca famosa que una empresa ha construido ella misma durante décadas aparece en su balance como activo intangible.",
+    "explanation": "Falso. La NIC 38 dice que las marcas, las cabeceras, las listas de clientes y elementos parecidos generados internamente no se reconocen como activos intangibles. Las marcas compradas sí pueden reconocerse."
+  },
+  "I-016": {
+    "question": "¿Cuándo surge un fondo de comercio en un balance?",
+    "explanation": "Según la NIIF 3, el comprador asigna el precio de compra a los activos y pasivos identificables a su valor razonable; el resto es fondo de comercio. Después se somete a pruebas de deterioro según la NIC 36.",
+    "options": ["Cuando una empresa compra otra por más del valor razonable de sus activos netos identificables", "Cuando la marca propia de la empresa se hace conocida", "Cuando el precio de la acción supera el valor contable", "Cuando los clientes están muy satisfechos"]
+  },
+  "I-017": {
+    "question": "Ordena estas partidas de la cuenta de resultados de arriba abajo.",
+    "explanation": "Empiezas por los ingresos, restas el coste de las ventas (beneficio bruto), luego los gastos operativos (beneficio operativo), después los intereses (beneficio antes de impuestos) y por último los impuestos (beneficio neto).",
+    "orderedItems": ["Ingresos", "Beneficio bruto", "Beneficio operativo", "Beneficio antes de impuestos", "Beneficio neto"]
+  },
+  "I-018": {
+    "question": "Los ingresos son de 400 millones de euros y el coste de las ventas de 240 millones. ¿Cuál es el margen bruto, en porcentaje?",
+    "explanation": "Beneficio bruto = 400 − 240 = 160 M€. Margen bruto = 160 ÷ 400 = 40 %."
+  },
+  "I-019": {
+    "question": "El beneficio operativo es de 30 millones de euros sobre unos ingresos de 250 millones. ¿Cuál es el margen operativo, en porcentaje?",
+    "explanation": "La guía de la SEC define el margen operativo como el resultado de explotación ÷ los ingresos netos: 30 ÷ 250 = 12 %."
+  },
+  "I-020": {
+    "question": "Una empresa publica un EBIT de 50 millones de euros y unas amortizaciones de 30 millones. ¿Cuál es su EBITDA, en millones de euros?",
+    "explanation": "El EBITDA suma de nuevo las amortizaciones al EBIT: 50 + 30 = 80 millones de euros."
+  },
+  "I-021": {
+    "question": "El beneficio neto es de 12 millones de euros y hay 8 millones de acciones. ¿Cuál es el beneficio por acción, en euros?",
+    "explanation": "BPA = beneficio neto ÷ número de acciones = 12 ÷ 8 = 1,50 €."
+  },
+  "I-022": {
+    "question": "¿Por qué el BPA diluido puede ser menor que el BPA básico?",
+    "explanation": "La NIC 33 define la dilución como la posible reducción del BPA al suponer que se convierten los instrumentos convertibles, se ejercen las opciones o warrants o se emiten acciones bajo ciertas condiciones.",
+    "options": ["Supone que las opciones y los instrumentos convertibles se convierten en acciones", "Deja fuera las ganancias extraordinarias", "Usa el beneficio previsto para el año que viene", "Se calcula después de pagar los dividendos"]
+  },
+  "I-023": {
+    "question": "Verdadero o falso: las NIIF definen el EBITDA, así que todas las empresas lo calculan igual.",
+    "explanation": "Falso. La ESMA cita el EBITDA como ejemplo de medida alternativa del rendimiento: una cifra que el marco contable no define. Las definiciones varían entre empresas."
+  },
+  "I-024": {
+    "question": "Verdadero o falso: la empresa A tiene un BPA de 5 € y la empresa B de 1 €, así que A tiene que ser la empresa más rentable.",
+    "explanation": "Falso. El BPA depende de cuántas acciones haya emitido una empresa, lo que es arbitrario. Compara el BPA de una misma empresa en el tiempo, o usa ratios como los márgenes y la rentabilidad para comparar empresas."
+  },
+  "I-025": {
+    "question": "Una empresa compra una máquina nueva al contado. ¿En qué sección del estado de flujos de efectivo aparece?",
+    "explanation": "Las compras de activos a largo plazo, como la maquinaria, son salidas de efectivo de las actividades de inversión.",
+    "options": ["Actividades de inversión", "Actividades de explotación", "Actividades de financiación", "No aparece en el estado de flujos de efectivo"]
+  },
+  "I-026": {
+    "question": "Una empresa devuelve un préstamo bancario. ¿En qué sección del estado de flujos de efectivo aparece?",
+    "explanation": "Pedir prestado a los bancos y devolverles el dinero son actividades de financiación.",
+    "options": ["Actividades de financiación", "Actividades de inversión", "Actividades de explotación", "Solo en la cuenta de resultados"]
+  },
+  "I-027": {
+    "question": "El flujo de caja operativo es de 50 millones de euros y el capex de 35 millones. Con la definición sencilla, ¿cuál es el flujo de caja libre, en millones de euros?",
+    "explanation": "Flujo de caja libre = flujo de caja operativo − capex = 50 − 35 = 15 millones de euros. Las definiciones varían, así que comprueba cómo lo calcula cada empresa."
+  },
+  "I-028": {
+    "question": "El beneficio neto es de 20 M€, la amortización de 10 M€, las existencias aumentaron 8 M€ y las cuentas por pagar 3 M€. ¿Cuál es el flujo de caja operativo, en millones de euros (método indirecto)?",
+    "explanation": "20 + 10 (amortización, que no es salida de efectivo) − 8 (efectivo inmovilizado en existencias) + 3 (pagar más tarde a los proveedores) = 25 millones de euros."
+  },
+  "I-029": {
+    "question": "Verdadero o falso: una empresa puede tener beneficios y aun así un flujo de caja de explotación negativo.",
+    "explanation": "Verdadero. El beneficio incluye ventas que los clientes aún no han pagado y se reduce por costes que no son salida de efectivo. Si las cuentas por cobrar o las existencias crecen mucho, el flujo de caja operativo puede ser negativo a pesar del beneficio."
+  },
+  "I-030": {
+    "question": "¿Cuáles de estos factores dejan el flujo de caja operativo POR DEBAJO del beneficio neto? Selecciona todas las correctas.",
+    "explanation": "Las cuentas por cobrar y las existencias que crecen inmovilizan efectivo. La amortización se suma de nuevo (sube el flujo de caja operativo respecto al beneficio neto), y pagar más tarde a los proveedores también lo sube.",
+    "options": ["Las cuentas por cobrar crecen con fuerza", "Se acumulan existencias", "Un gran cargo por amortización", "La empresa paga a sus proveedores más tarde que antes"]
+  },
+  "I-031": {
+    "question": "El beneficio neto es de 18 millones de euros y el patrimonio neto de 120 millones. ¿Cuál es la rentabilidad sobre recursos propios, en porcentaje?",
+    "explanation": "ROE = beneficio neto ÷ patrimonio neto = 18 ÷ 120 = 15 %."
+  },
+  "I-032": {
+    "question": "El beneficio neto es de 18 millones de euros y el activo total de 300 millones. ¿Cuál es la rentabilidad sobre activos, en porcentaje?",
+    "explanation": "ROA = beneficio neto ÷ activo total = 18 ÷ 300 = 6 %."
+  },
+  "I-033": {
+    "question": "El EBIT es de 40 M€, el tipo impositivo del 25 %, la deuda de 100 M€, el patrimonio neto de 150 M€ y el efectivo de 50 M€. ¿Cuál es el ROIC, en porcentaje, con EBIT × (1 − impuestos) ÷ (deuda + patrimonio neto − efectivo)?",
+    "explanation": "Beneficio operativo después de impuestos = 40 × 0,75 = 30 M€. Capital invertido = 100 + 150 − 50 = 200 M€. ROIC = 30 ÷ 200 = 15 %."
+  },
+  "I-034": {
+    "question": "Con el desglose DuPont: margen neto del 5 %, rotación de activos de 1,2 y apalancamiento financiero (activos ÷ patrimonio neto) de 3. ¿Cuál es el ROE?",
+    "explanation": "ROE = margen neto × rotación de activos × apalancamiento = 5 % × 1,2 × 3 = 18 %."
+  },
+  "I-035": {
+    "question": "Verdadero o falso: una empresa puede subir su rentabilidad sobre recursos propios sustituyendo patrimonio neto por deuda, aunque el negocio en sí no mejore.",
+    "explanation": "Verdadero. Menos patrimonio neto significa un factor de apalancamiento más alto en el desglose DuPont, así que el ROE sube mientras la empresa se vuelve más arriesgada."
+  },
+  "I-036": {
+    "question": "Una empresa reparte el 30 % de su beneficio como dividendo y tiene un ROE del 20 %. Con crecimiento ≈ ratio de retención × ROE, ¿qué crecimiento, en porcentaje, sugiere?",
+    "explanation": "Ratio de retención = 1 − 0,30 = 0,70. Crecimiento ≈ 0,70 × 20 % = 14 %, si la empresa puede seguir obteniendo un 20 % sobre el dinero reinvertido."
+  },
+  "I-037": {
+    "question": "El pasivo total es de 300 millones de euros y el patrimonio neto de 150 millones. Con la definición de la guía de la SEC, ¿cuál es el ratio de endeudamiento?",
+    "explanation": "La guía de la SEC define el ratio de endeudamiento como pasivo total ÷ patrimonio neto: 300 ÷ 150 = 2."
+  },
+  "I-038": {
+    "question": "La deuda neta es de 240 millones de euros y el EBITDA de 80 millones. ¿Cuál es la deuda neta sobre EBITDA?",
+    "explanation": "240 ÷ 80 = 3: harían falta unos tres años de EBITDA para devolver la deuda neta."
+  },
+  "I-039": {
+    "question": "El EBIT es de 60 millones de euros y el gasto por intereses de 12 millones. ¿Cuál es la cobertura de intereses (EBIT ÷ intereses)?",
+    "explanation": "60 ÷ 12 = 5: el beneficio operativo cubre cinco veces la factura de intereses."
+  },
+  "I-040": {
+    "question": "¿Qué partida deja fuera del activo corriente la prueba ácida (quick ratio)?",
+    "explanation": "Prueba ácida = (activo corriente − existencias) ÷ pasivo corriente, porque las existencias pueden ser difíciles de vender deprisa. La deuda a corto plazo es un pasivo, no un activo corriente.",
+    "options": ["Las existencias", "El efectivo", "Las cuentas por cobrar", "La deuda a corto plazo"]
+  },
+  "I-041": {
+    "question": "Según la NIIF 16, ¿cómo muestra en general una empresa un arrendamiento de más de 12 meses (que no sea de un activo de escaso valor)?",
+    "explanation": "La NIIF 16 obliga a los arrendatarios a reconocer activos y pasivos por todos los arrendamientos de más de 12 meses, salvo que el activo subyacente sea de escaso valor.",
+    "options": ["Como un activo por derecho de uso y un pasivo por arrendamiento en el balance", "Solo en las notas", "Solo como gasto de alquiler en la cuenta de resultados", "Como parte del patrimonio neto"]
+  },
+  "I-042": {
+    "question": "¿Cuáles de estas situaciones aumentan el riesgo de que la deuda cause problemas? Selecciona todas las correctas.",
+    "explanation": "Las necesidades de refinanciación, la subida de los tipos variables y el incumplimiento de cláusulas financieras pueden convertir la deuda en una crisis. Los vencimientos largos a tipo fijo reducen estos riesgos.",
+    "options": ["Un gran bono vence el año que viene", "La mayor parte de la deuda es a tipo variable y los tipos están subiendo", "La empresa está a punto de incumplir una cláusula de un préstamo", "Toda la deuda tiene vencimientos largos a tipo fijo"]
+  },
+  "I-043": {
+    "question": "Una acción cuesta 20 € y el beneficio por acción es de 2 €. ¿Cuál es el PER?",
+    "explanation": "PER = precio ÷ BPA = 20 ÷ 2 = 10. La guía de la SEC usa el mismo ejemplo."
+  },
+  "I-044": {
+    "question": "Una empresa tiene 50 millones de acciones a 30 € cada una. ¿Cuál es su capitalización bursátil, en millones de euros?",
+    "explanation": "Capitalización bursátil = precio de la acción × acciones en circulación = 30 × 50 millones = 1.500 millones de euros."
+  },
+  "I-045": {
+    "question": "La capitalización bursátil es de 480 millones de euros, la deuda de 160 millones y el efectivo de 40 millones. ¿Cuál es el valor de empresa, en millones de euros?",
+    "explanation": "EV = valor de mercado del patrimonio + deuda − efectivo = 480 + 160 − 40 = 600 millones de euros."
+  },
+  "I-046": {
+    "question": "Una acción tiene un PER de 18 y un crecimiento esperado del beneficio del 9 % anual. ¿Cuál es el ratio PEG?",
+    "explanation": "PEG = PER ÷ crecimiento en porcentaje = 18 ÷ 9 = 2."
+  },
+  "I-047": {
+    "question": "Una acción cuesta 25 € y el BPA es de 2 €. ¿Cuál es la rentabilidad del beneficio (earnings yield), en porcentaje?",
+    "explanation": "Rentabilidad del beneficio = BPA ÷ precio = 2 ÷ 25 = 8 %, el PER (12,5) dado la vuelta."
+  },
+  "I-048": {
+    "question": "El valor de empresa corresponde a accionistas y prestamistas a la vez. ¿Entre qué cifra es coherente dividirlo?",
+    "explanation": "El EBITDA (como el EBIT) se obtiene antes de intereses, así que corresponde a accionistas y prestamistas juntos, igual que el EV. Las cifras del patrimonio por acción van con el precio de la acción.",
+    "options": ["El EBITDA", "El beneficio por acción", "El dividendo por acción", "El valor contable por acción"]
+  },
+  "I-049": {
+    "question": "Verdadero o falso: un PER bajo siempre significa que una acción tiene buena relación calidad-precio.",
+    "explanation": "Falso. Un PER bajo puede reflejar un negocio que se encoge o beneficios que caen (una trampa de valor). Hasta el léxico de la Wiener Börse pone «más barata» entre comillas al explicar un KGV bajo."
+  },
+  "I-050": {
+    "question": "¿En qué tipo de empresa suele ser más informativo el ratio precio/valor contable?",
+    "explanation": "El P/VC funciona mejor cuando los valores contables están cerca de los de mercado, como ocurre con los activos financieros. El léxico de la Wiener Börse señala que el KBV varía mucho según el sector y el modelo de negocio.",
+    "options": ["Bancos y aseguradoras, cuyos activos son sobre todo financieros", "Empresas de software con pocos activos físicos", "Empresas jóvenes con patrimonio neto negativo", "Empresas de marcas cuyas marcas no están en el balance"]
+  },
+  "I-051": {
+    "question": "¿Cuánto valen hoy 110 € que se recibirán dentro de un año, con una tasa de descuento del 10 %?",
+    "explanation": "Valor actual = 110 ÷ 1,10 = 100 €."
+  },
+  "I-052": {
+    "question": "El flujo de caja por acción del próximo año es de 3 €, y se espera que crezca un 4 % anual para siempre. Con una tasa de descuento del 10 %, ¿cuál es el valor por acción con la fórmula de la perpetuidad creciente?",
+    "explanation": "Valor = flujo de caja ÷ (tasa de descuento − crecimiento) = 3 ÷ (0,10 − 0,04) = 50 €."
+  },
+  "I-053": {
+    "question": "Una acción cuesta 40 €. El flujo de caja por acción del próximo año es de 2 € y los inversores exigen un 8 %. Con una perpetuidad creciente sencilla, ¿qué crecimiento, en porcentaje, implica el precio?",
+    "explanation": "Crecimiento = tasa de descuento − flujo de caja ÷ precio = 8 % − 2 ÷ 40 = 8 % − 5 % = 3 % anual, para siempre."
+  },
+  "I-054": {
+    "question": "¿Cómo define el valor intrínseco el Owner's Manual de Berkshire Hathaway?",
+    "explanation": "El Owner's Manual define el valor intrínseco como el valor descontado del efectivo que puede sacarse de un negocio durante el resto de su vida, e insiste en que es una estimación.",
+    "options": ["El valor descontado del efectivo que puede sacarse de un negocio durante el resto de su vida", "El valor contable del patrimonio en el balance", "La capitalización bursátil actual", "El total de dividendos que ha pagado la empresa hasta ahora"]
+  },
+  "I-055": {
+    "question": "En una valoración DCF, ¿qué le pasa al valor estimado si subes la tasa de descuento y no cambias nada más?",
+    "explanation": "Los flujos de caja futuros se dividen entre un número mayor, así que su valor actual baja. Más riesgo o tipos de interés más altos significan un valor más bajo hoy.",
+    "options": ["Baja", "Sube", "Se queda igual", "Se duplica"]
+  },
+  "I-056": {
+    "question": "Estimas el valor intrínseco de una acción en 40 € y quieres un margen de seguridad del 25 %. ¿Cuál es el precio más alto que cumple ese margen, en euros?",
+    "explanation": "40 × (1 − 0,25) = 30 €. La carta de Buffett de 1992 describe el principio del margen de seguridad, en el que insistió Benjamin Graham."
+  },
+  "I-057": {
+    "question": "En su carta a los accionistas de 2007, ¿qué barreras puso Warren Buffett como ejemplos de un «foso» duradero?",
+    "explanation": "Buffett citó ser el productor de menor coste o poseer una marca mundial poderosa. Dijo que su criterio de «duradero» descarta los negocios cuyo éxito depende de tener un gran gestor.",
+    "options": ["Ser el productor de menor coste o poseer una marca mundial poderosa", "Tener más deuda que los competidores", "Hacer adquisiciones frecuentes", "Depender de un único consejero delegado brillante"]
+  },
+  "I-058": {
+    "question": "¿Cuáles de estas están entre las cinco fuerzas competitivas de Michael Porter? Selecciona todas las correctas.",
+    "explanation": "Las cinco fuerzas son la rivalidad, los clientes, los proveedores, los posibles nuevos competidores y los productos sustitutivos. El precio de la acción no es una de ellas.",
+    "options": ["La rivalidad entre los competidores existentes", "El poder de negociación de los proveedores", "La amenaza de productos sustitutivos", "El precio actual de la acción de la empresa"]
+  },
+  "I-059": {
+    "question": "Verdadero o falso: una sociedad anónima austriaca cuyas acciones están admitidas en un mercado regulado debe preparar un informe de gobierno corporativo que indique el código que sigue.",
+    "explanation": "Verdadero. El § 243c UGB obliga a esas empresas a preparar un informe de gobierno corporativo que indique un código de gobierno corporativo generalmente reconocido."
+  },
+  "I-060": {
+    "question": "¿Cuál es la mejor prueba de que una empresa tiene de verdad una ventaja competitiva duradera?",
+    "explanation": "Un foso real debería verse en las cifras: una rentabilidad que se mantiene alta durante muchos años a pesar de la competencia.",
+    "options": ["Márgenes y rentabilidad sobre el capital altos y estables durante muchos años", "Lo dice el consejero delegado en el informe anual", "El precio de la acción subió con fuerza el mes pasado", "La empresa gasta mucho en publicidad"]
+  },
+  "I-061": {
+    "question": "Verdadero o falso: para las empresas del prime market de la Bolsa de Viena, cumplir un código de gobierno corporativo es una obligación de cotización.",
+    "explanation": "Verdadero. Las normas del prime market de la Wiener Börse establecen que el emisor está obligado a cumplir un código de gobierno corporativo."
+  },
+  "I-062": {
+    "question": "¿Cuál de estas es una medida alternativa del rendimiento (APM, por sus siglas en inglés) en el sentido de la ESMA?",
+    "explanation": "Las directrices de la ESMA citan el EBITDA como ejemplo de APM. Los ingresos, el resultado y el BPA los define el marco contable, así que no son APM.",
+    "options": ["El EBITDA", "Los ingresos", "El resultado (beneficio o pérdida)", "El beneficio por acción"]
+  },
+  "I-063": {
+    "question": "¿Qué espera la ESMA de las empresas que publican APM? Selecciona todas las correctas.",
+    "explanation": "La ESMA espera definiciones, conciliaciones, que no tengan más relevancia que las cifras de los estados, comparativas y coherencia en el tiempo, lo que descarta mostrarlas solo en los años buenos.",
+    "options": ["Definirlas y explicar cómo se calculan", "Conciliarlas con la cifra más cercana de los estados financieros", "No mostrarlas con más relevancia que las cifras de los estados financieros", "Publicarlas solo en los años con buenos resultados"]
+  },
+  "I-064": {
+    "question": "Verdadero o falso: los costes de reestructuración que una empresa publica casi todos los años pueden calificarse correctamente de «no recurrentes».",
+    "explanation": "Falso. La ESMA dice que las partidas que afectaron a periodos pasados y afectarán a periodos futuros, como los costes de reestructuración o las pérdidas por deterioro, rara vez serán no recurrentes."
+  },
+  "I-065": {
+    "question": "¿Qué anunció Wirecard el 22 de junio de 2020?",
+    "explanation": "La revisión inter pares de la ESMA recoge que Wirecard anunció que los 1.900 millones de euros no existían en realidad; se declaró insolvente la semana siguiente.",
+    "options": ["Que 1.900 millones de euros que decía tener en cuentas de depósito en garantía no existían", "Una fusión con un banco más grande", "Beneficios récord y un dividendo extraordinario", "Su entrada en el índice DAX 30"]
+  },
+  "I-066": {
+    "question": "¿Cuáles de estas son señales de alarma contables que merece la pena investigar? Selecciona todas las correctas.",
+    "explanation": "Los beneficios sin efectivo, las cuentas por cobrar que crecen deprisa y los informes tardíos son señales de alarma clásicas. Un dividendo cubierto por el flujo de caja libre es una señal de salud, no de alarma.",
+    "options": ["Los beneficios suben cada año, pero el flujo de caja operativo no", "Las cuentas por cobrar crecen mucho más deprisa que los ingresos", "El informe anual se publica tarde", "El dividendo está holgadamente cubierto por el flujo de caja libre"]
+  },
+  "I-067": {
+    "question": "¿Qué es un aviso de beneficios (Gewinnwarnung)?",
+    "explanation": "El léxico de la Wiener Börse describe el aviso de beneficios como un anuncio ad hoc de la empresa de que el beneficio será menor, o la pérdida mayor, de lo previsto.",
+    "options": ["Un anuncio de que el beneficio será menor, o la pérdida mayor, de lo previsto", "Una advertencia de Hacienda", "Una nota del informe de auditoría sobre unos beneficios altos", "La queja de un inversor en la junta general"]
+  },
+  "I-068": {
+    "question": "¿Quién revisa los informes financieros de las empresas cotizadas en un mercado regulado cuyo Estado miembro de origen es Austria?",
+    "explanation": "Según la Ley de Control de la Información Financiera (RL-KG), vigente desde el 1 de julio de 2013, el OePR lleva a cabo las revisiones y la FMA actúa como autoridad.",
+    "options": ["El Panel Austriaco de Control de la Información Financiera (OePR), con la FMA como autoridad", "Solo la Bolsa de Viena", "La oficina de Hacienda local", "Nadie, una vez que ha firmado el auditor"]
+  }
+}

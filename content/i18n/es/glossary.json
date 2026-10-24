@@ -36,7 +36,7 @@
   "definition": "Repartir tu dinero entre muchas inversiones distintas (por ejemplo, muchas empresas, sectores y países) para que un problema en una de ellas haga menos daño al conjunto."
  },
  "bond": {
-  "term": "Bono / obligación",
+  "term": "Bono (obligación)",
   "definition": "Un valor de deuda: un préstamo de un inversor a una empresa o a un Estado. El emisor paga intereses durante la vida del bono y devuelve el valor nominal al vencimiento.",
   "example": "Compras un bono a 5 años por 1.000 € que paga un 4 % anual: recibes 40 € de intereses cada año y 1.000 € al cabo de 5 años, si el emisor puede pagar."
  },
