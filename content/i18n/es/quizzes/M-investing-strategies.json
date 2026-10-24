@@ -1,0 +1,226 @@
+{
+  "M-001": {
+    "question": "Según FINRA, ¿cuál es el primer paso antes de abrir una cuenta de inversión?",
+    "explanation": "Los consejos de FINRA para nuevos inversores dicen que el primer paso es definir tus objetivos.",
+    "options": ["Definir tus objetivos", "Elegir el bróker más barato", "Comprar una acción popular", "Abrir una tarjeta de crédito"]
+  },
+  "M-002": {
+    "question": "¿De qué tamaño recomiendan a menudo los planificadores financieros el fondo de emergencia, según FINRA?",
+    "explanation": "FINRA: los planificadores suelen recomendar de tres a seis meses de gastos, y más con ingresos variables.",
+    "options": ["De tres a seis meses de gastos", "Una semana de gastos", "Diez años de ingresos", "Nada, si tienes acciones"]
+  },
+  "M-003": {
+    "question": "Verdadero o falso: un fondo de emergencia te ayuda a no tener que vender inversiones en un mal momento cuando surge un gasto inesperado.",
+    "explanation": "Verdadero. FINRA explica que te permite afrontar imprevistos sin endeudarte ni liquidar inversiones."
+  },
+  "M-004": {
+    "question": "Debes 3.000 € en un descubierto al 12 % anual. ¿Cuántos euros de intereses te ahorras en un año si lo pagas?",
+    "explanation": "3.000 × 12 % = 360 € al año, una «rentabilidad» garantizada que ninguna inversión en acciones puede prometer."
+  },
+  "M-005": {
+    "question": "¿Qué es el «horizonte temporal»?",
+    "explanation": "Investor.gov: el número de meses, años o décadas que necesitas invertir para alcanzar tu objetivo.",
+    "options": ["Cuánto tiempo piensas invertir antes de necesitar el dinero para un objetivo", "El horario de apertura de la bolsa", "La duración del periodo de cupón de un bono", "El tiempo que tarda en liquidarse una operación"]
+  },
+  "M-006": {
+    "question": "Verdadero o falso: la SEC considera inadecuada una cartera muy cargada de acciones para un objetivo a corto plazo, como unas vacaciones en familia.",
+    "explanation": "Verdadero. La guía de la SEC usa exactamente este ejemplo."
+  },
+  "M-007": {
+    "question": "Verdadero o falso: FINRA sugiere pagar las deudas con intereses altos, como los saldos de las tarjetas de crédito, antes de invertir.",
+    "explanation": "Verdadero. El interés de esas deudas suele ser mayor que la posible rentabilidad de una inversión."
+  },
+  "M-008": {
+    "question": "Investor.gov define la tolerancia al riesgo como la… de un inversor",
+    "explanation": "La tolerancia al riesgo combina la capacidad (¿puedes permitirte las pérdidas?) y la disposición (¿puedes aguantarlas?).",
+    "options": ["Capacidad y disposición a perder una parte o la totalidad de una inversión a cambio de una mayor rentabilidad potencial", "Derecho legal a demandar a un bróker", "Rentabilidad mínima exigida", "Tipo impositivo sobre las ganancias"]
+  },
+  "M-009": {
+    "question": "Tienes 50.000 € íntegramente en acciones y llega un año como 2008 (−36,6 %). ¿Cuánto te queda, en euros? (Redondea a la centena.)",
+    "explanation": "50.000 × (1 − 0,366) ≈ 31.700 €."
+  },
+  "M-010": {
+    "question": "Verdadero o falso: cuando da asesoramiento de inversión en la UE, una empresa debe evaluar si sus recomendaciones son idóneas para el cliente.",
+    "explanation": "Verdadero. El artículo 25 de MiFID II exige una evaluación de idoneidad para el asesoramiento de inversión y la gestión de carteras."
+  },
+  "M-011": {
+    "question": "¿De qué advierte la SEC sobre los cuestionarios de riesgo en línea?",
+    "explanation": "La guía de la SEC dice que estos cuestionarios pueden ser un punto de partida útil, pero que sus resultados pueden estar sesgados hacia los productos de quien los ofrece.",
+    "options": ["Sus resultados pueden estar sesgados hacia los productos que venden las empresas que los ofrecen", "Siempre son jurídicamente vinculantes", "Sustituyen a un folleto", "Están prohibidos en la UE"]
+  },
+  "M-012": {
+    "question": "Verdadero o falso: vender presa del pánico tras una gran caída convierte una pérdida temporal en una permanente.",
+    "explanation": "Verdadero. Una vez que vendes, ya no te beneficias si los precios se recuperan."
+  },
+  "M-013": {
+    "question": "¿Qué es la asignación de activos?",
+    "explanation": "La SEC define la asignación de activos como el reparto de una cartera entre distintas categorías de activos.",
+    "options": ["Repartir una cartera entre categorías de activos como acciones, bonos y efectivo", "Elegir la mejor acción", "Elegir un bróker", "Pagar impuestos por los rendimientos de la inversión"]
+  },
+  "M-014": {
+    "question": "¿Qué categoría de activos describe la SEC como la de mayor riesgo y mayor rentabilidad históricamente?",
+    "explanation": "Las acciones han tenido históricamente el mayor riesgo y la mayor rentabilidad de las tres categorías principales.",
+    "options": ["Las acciones", "Los bonos", "Los equivalentes de efectivo", "Las cuentas de ahorro"]
+  },
+  "M-015": {
+    "question": "Según la SEC, ¿cuál es el principal riesgo del efectivo y sus equivalentes?",
+    "explanation": "El efectivo es la categoría más segura, pero la principal preocupación es el riesgo de inflación.",
+    "options": ["Que la inflación se coma la rentabilidad", "Desplomes diarios de los precios", "La quiebra de la bolsa", "Los controles de capitales"]
+  },
+  "M-016": {
+    "question": "En el cálculo de la lección con los datos de Damodaran (1928–2025), ¿cuál fue la rentabilidad media anual de una cartera 60/40 de acciones y bonos reequilibrada cada año, en porcentaje? (Un decimal.)",
+    "explanation": "Alrededor de un 8,3 % anual, frente a alrededor de un 10,0 % con un 100 % de acciones, pero con una peor caída mucho menor (−40 % frente a −65 % con valores de final de año)."
+  },
+  "M-017": {
+    "question": "Verdadero o falso: en 2022, una combinación de acciones de EE. UU. y bonos del Tesoro a 10 años protegió a los inversores porque se movieron en sentidos opuestos.",
+    "explanation": "Falso. Los dos cayeron alrededor de un 18 % en 2022, así que todas las combinaciones perdieron más o menos eso."
+  },
+  "M-018": {
+    "question": "Verdadero o falso: según la SEC, los inversores avezados suelen aumentar su proporción de acciones cuando la bolsa está al rojo vivo.",
+    "explanation": "Falso. La SEC dice que no cambian su asignación según la rentabilidad reciente; en lugar de eso, reequilibran."
+  },
+  "M-019": {
+    "question": "¿Qué ejemplo usa la SEC para explicar la diversificación?",
+    "explanation": "El vendedor reduce el riesgo de tener un mal día vendiendo productos que se venden con tiempos distintos.",
+    "options": ["Un vendedor callejero que vende a la vez paraguas y gafas de sol", "Un agricultor que siembra un solo cultivo", "Un banco que presta a una sola empresa", "Un jugador que apuesta a un solo caballo"]
+  },
+  "M-020": {
+    "question": "¿En qué dos niveles dice la SEC que debe diversificarse una cartera? Selecciona todas las correctas.",
+    "explanation": "Diversifica entre categorías (acciones, bonos, efectivo) y dentro de ellas (empresas, sectores, países).",
+    "options": ["Entre categorías de activos", "Dentro de las categorías de activos", "Solo entre brókeres", "Entre días de negociación"]
+  },
+  "M-021": {
+    "question": "Verdadero o falso: según la SEC, tener cuatro o cinco acciones individuales hace que una cartera de acciones esté bien diversificada.",
+    "explanation": "Falso. La SEC dice que hace falta al menos una docena de acciones bien elegidas; los fondos pueden tener miles."
+  },
+  "M-022": {
+    "question": "Tienes 5 acciones con 4.000 € en cada una. Una empresa quiebra. ¿Qué porcentaje de tus 20.000 € pierdes?",
+    "explanation": "4.000 € ÷ 20.000 € = 20 %. En un fondo de 500 posiciones iguales, el mismo fracaso costaría un 0,2 %."
+  },
+  "M-023": {
+    "question": "Verdadero o falso: diversificar entre muchas acciones te protege por completo de un crac de todo el mercado.",
+    "explanation": "Falso. La diversificación reduce el riesgo propio de cada empresa, pero una caída general del mercado sigue golpeando a una cartera de acciones diversificada."
+  },
+  "M-024": {
+    "question": "¿Qué es el «sesgo local» (home bias)?",
+    "explanation": "El sesgo local reduce la diversificación y ata tus ahorros a una sola economía.",
+    "options": ["Tener sobre todo inversiones de tu propio país", "Preferir invertir desde casa en lugar de en un banco", "Comprar solo inmuebles", "Una ventaja fiscal para las acciones nacionales"]
+  },
+  "M-025": {
+    "question": "¿Qué significa reequilibrar?",
+    "explanation": "Investor.gov: reequilibrar devuelve una cartera a su combinación de asignación original.",
+    "options": ["Devolver una cartera a su asignación de activos original", "Venderlo todo una vez al año", "Comprar lo que mejor lo hizo el año pasado", "Cambiar de bróker"]
+  },
+  "M-026": {
+    "question": "Tu cartera 60/40 de 100.000 € pasa a tener 75.000 € en acciones y 40.000 € en bonos. ¿Cuántos euros de acciones tienes que vender para volver al 60/40?",
+    "explanation": "Total de 115.000 €; acciones objetivo 0,6 × 115.000 = 69.000 €. Vende 75.000 − 69.000 = 6.000 € y compra bonos."
+  },
+  "M-027": {
+    "question": "¿Qué métodos de reequilibrio describe la SEC? Selecciona todas las correctas.",
+    "explanation": "La SEC describe vender, comprar con dinero nuevo y dirigir las aportaciones.",
+    "options": ["Vender las categorías sobreponderadas y comprar las infraponderadas", "Comprar más de la categoría infraponderada con dinero nuevo", "Dirigir las aportaciones periódicas a la categoría infraponderada", "Pedir dinero prestado para comprar más de lo que mejor va"]
+  },
+  "M-028": {
+    "question": "Verdadero o falso: la SEC dice que reequilibrar suele funcionar mejor si se hace con relativa poca frecuencia.",
+    "explanation": "Verdadero. Los enfoques habituales son cada seis o doce meses, o cuando una categoría se desvía una cantidad fijada."
+  },
+  "M-029": {
+    "question": "¿Por qué dice la SEC que reequilibrar te obliga a «comprar barato y vender caro»?",
+    "explanation": "Reequilibrar recorta las categorías que han subido y añade a las que han caído.",
+    "options": ["Recortas a los ganadores recientes y añades a los perdedores recientes", "Solo compras después de que suban los precios", "Siempre vendes en un crac", "Evitas todos los costes"]
+  },
+  "M-030": {
+    "question": "Verdadero o falso: en Austria, vender acciones o fondos del patrimonio privado para reequilibrar puede generar impuestos sobre las plusvalías.",
+    "explanation": "Verdadero. Las ganancias realizadas tributan en general al tipo especial del 27,5 % según el § 27a EStG; la categoría Q trata los detalles."
+  },
+  "M-031": {
+    "question": "Según el informe de 2024 de la ESMA, ¿cuáles fueron los costes corrientes medios de los UCITS activos de renta variable en 2023 (horizonte de un año), en porcentaje?",
+    "explanation": "Los fondos activos de renta variable costaban alrededor de un 1,30 % anual, los pasivos no ETF un 0,37 % y los ETF un 0,22 %."
+  },
+  "M-032": {
+    "question": "¿Qué halló la ESMA sobre la rentabilidad de los fondos activos de renta variable después de comisiones?",
+    "explanation": "Informe de 2024 de la ESMA: a pesar de la bajada de los costes, los fondos activos de renta variable siguieron rindiendo menos que los fondos pasivos y los ETF después de comisiones.",
+    "options": ["Siguieron rindiendo menos que los fondos pasivos de renta variable y los ETF", "Batieron a todos los fondos pasivos todos los años", "No tenían costes", "La ESMA no los comparó"]
+  },
+  "M-033": {
+    "question": "Según la ESMA, ¿cuánto más baratos que los fondos activos son de media los pasivos?",
+    "explanation": "La ESMA resume que los fondos pasivos son de media entre un 60 % y un 80 % más baratos que los activos.",
+    "options": ["Entre un 60 % y un 80 %", "Alrededor de un 5 %", "Cuestan lo mismo", "Alrededor de un 200 %"]
+  },
+  "M-034": {
+    "question": "10.000 € crecen durante 30 años al 5 % en lugar de al 6 % anual por 1 punto porcentual de costes extra. ¿Aproximadamente cuántos euros menos es el importe final? (Redondea al millar.)",
+    "explanation": "10.000 × 1,06³⁰ ≈ 57.435 € frente a 10.000 × 1,05³⁰ ≈ 43.219 €: unos 14.000 € menos."
+  },
+  "M-035": {
+    "question": "Verdadero o falso: un fondo indexado pasivo no puede perder dinero porque sigue al mercado.",
+    "explanation": "Falso. Los fondos pasivos eliminan el riesgo del gestor, no el riesgo de mercado; caen cuando cae el mercado."
+  },
+  "M-036": {
+    "question": "¿Qué es el dollar-cost averaging (un plan de ahorro)?",
+    "explanation": "Investor.gov: invertir importes iguales a intervalos regulares, comprando más cuando los precios están bajos.",
+    "options": ["Invertir importes iguales a intervalos regulares, sean cuales sean los altibajos del mercado", "Comprar solo cuando los precios suben", "Invertirlo todo en un solo día", "Cambiar euros por dólares"]
+  },
+  "M-037": {
+    "question": "Inviertes 100 € al mes a precios de 50 €, 40 €, 25 € y 50 €. ¿Cuál es tu coste medio por participación, en euros? (Dos decimales.)",
+    "explanation": "Compras 2 + 2,5 + 4 + 2 = 10,5 participaciones por 400 €: 400 ÷ 10,5 ≈ 38,10 €."
+  },
+  "M-038": {
+    "question": "Verdadero o falso: un plan de ahorro garantiza un beneficio.",
+    "explanation": "Falso. Reduce el coste medio cuando los precios oscilan, pero si los precios caen y se quedan bajos, el plan pierde dinero."
+  },
+  "M-039": {
+    "question": "¿Qué dice el léxico de la Wiener Börse que hace el efecto del coste medio cuando los precios oscilan?",
+    "explanation": "Invertir con regularidad un importe constante reduce el coste medio por participación cuando los precios oscilan.",
+    "options": ["Reduce el coste medio por participación", "Aumenta el coste medio por participación", "Elimina todo el riesgo", "Duplica el dividendo"]
+  },
+  "M-040": {
+    "question": "Verdadero o falso: parar un plan de ahorro durante un crac y retomarlo tras la recuperación socava el efecto del coste medio.",
+    "explanation": "Verdadero. El efecto depende de comprar más participaciones cuando los precios están bajos."
+  },
+  "M-041": {
+    "question": "¿Qué hace un fondo de fecha objetivo (de ciclo de vida)?",
+    "explanation": "Investor.gov: se desplaza automáticamente hacia una combinación más conservadora a medida que se acerca la fecha objetivo.",
+    "options": ["Se desplaza automáticamente hacia una combinación más conservadora a medida que se acerca su fecha objetivo", "Garantiza una rentabilidad fija en la fecha objetivo", "Invierte solo en acciones para siempre", "Reparte todo el dinero en una fecha fija cada año"]
+  },
+  "M-042": {
+    "question": "Según la SEC, ¿cuál es el motivo más habitual para cambiar la asignación de activos?",
+    "explanation": "A medida que te acercas a un objetivo, probablemente tendrás que cambiar tu combinación.",
+    "options": ["Un cambio en tu horizonte temporal", "La rentabilidad del mercado del mes pasado", "Un titular de las noticias", "Una nueva app de un bróker"]
+  },
+  "M-043": {
+    "question": "200.000 € se invierten un 30 % en acciones y un 70 % en bonos. Las acciones caen un 36,6 % y los bonos suben un 20,1 % (como en 2008). ¿Cuánto vale la cartera, en euros? (Redondea a la centena.)",
+    "explanation": "60.000 × 0,634 + 140.000 × 1,201 ≈ 38.040 + 168.140 ≈ 206.200 €."
+  },
+  "M-044": {
+    "question": "Verdadero o falso: dos fondos de fecha objetivo con el mismo año objetivo siempre tienen la misma combinación.",
+    "explanation": "Falso. Las sendas varían mucho, así que comprueba la combinación actual, la senda y los costes."
+  },
+  "M-045": {
+    "question": "Ordena estos pasos de planificación de forma razonable.",
+    "explanation": "Primero van los objetivos, luego la seguridad, después la combinación, luego los productos y, por último, las revisiones periódicas.",
+    "orderedItems": ["Definir los objetivos y los horizontes temporales", "Crear un fondo de emergencia y pagar las deudas caras", "Decidir la combinación objetivo de activos", "Elegir los productos y poner en marcha un plan de ahorro", "Revisar el plan con regularidad"]
+  },
+  "M-046": {
+    "question": "¿Qué regla práctica cita Investor.gov en sus cinco preguntas que hacerse antes de invertir?",
+    "explanation": "La pregunta 4 dice: ¿entiendes la inversión? Muchos inversores de éxito nunca invierten en algo que no entienden.",
+    "options": ["No inviertas nunca en algo que no entiendes", "Sigue siempre a la multitud", "Compra lo que más subió el año pasado", "Invierte primero dinero prestado"]
+  },
+  "M-047": {
+    "question": "¿Cuáles de estos elementos deben estar en un plan de inversión por escrito? Selecciona todas las correctas.",
+    "explanation": "Un plan establece objetivos, combinación, reglas y comportamiento en un crac. Nadie puede prever los precios de mañana.",
+    "options": ["Objetivos y horizontes temporales", "Combinación objetivo de activos y regla de reequilibrio", "Qué harás en un crac del mercado", "La previsión del precio de la acción de mañana"]
+  },
+  "M-048": {
+    "question": "En una cartera 60/40, las acciones caen un 30 % mientras los bonos no se mueven. ¿Qué parte de la cartera está ahora en acciones, en porcentaje? (Redondea al entero.)",
+    "explanation": "Acciones de 60 a 42, bonos 40: 42 ÷ 82 ≈ 51 %. Una regla de reequilibrio de 5 puntos diría ahora: compra acciones."
+  },
+  "M-049": {
+    "question": "¿Cuáles de estas están entre las «cinco preguntas que hacerse antes de invertir» de Investor.gov? Selecciona todas las correctas.",
+    "explanation": "Las cinco preguntas: vendedor autorizado, inversión registrada, riesgos frente a recompensas, entender la inversión y a quién acudir para pedir ayuda.",
+    "options": ["¿Está autorizado el vendedor?", "¿Está registrada la inversión?", "¿Entiendes la inversión?", "¿A quién puedes acudir para pedir ayuda?", "¿A cuánta gente le gustó la oferta en internet?"]
+  },
+  "M-050": {
+    "question": "Verdadero o falso: en 2022, una combinación de un 30 % de acciones y un 70 % de bonos también habría perdido dinero, porque las acciones y los bonos cayeron juntos.",
+    "explanation": "Verdadero: en los datos de EE. UU. de Damodaran, los dos cayeron en 2022, así que ese ahorrador habría perdido alrededor de un 18 %. Reducir la exposición a acciones baja el riesgo; no lo elimina."
+  }
+}
