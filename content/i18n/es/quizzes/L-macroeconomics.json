@@ -1,0 +1,218 @@
+{
+  "L-001": {
+    "question": "Según el BCE, ¿a través de cuál de estos elementos puede afectar a la economía un cambio en sus tipos de interés oficiales?",
+    "explanation": "La descripción del mecanismo de transmisión del BCE incluye efectos sobre los precios de los activos, como los precios en bolsa, y sobre el tipo de cambio.",
+    "options": ["Los precios de los activos, como los precios en bolsa, y el tipo de cambio", "Solo el precio del oro", "Solo el gasto público", "Nada hasta que pasa un año"]
+  },
+  "L-002": {
+    "question": "¿Cuánto valen hoy 100 € que se recibirán dentro de 20 años, con una tasa de descuento del 6 %? (Redondea a euros enteros.)",
+    "explanation": "100 ÷ 1,06²⁰ ≈ 31,18 €. Al 4 % valdrían unos 45,64 €, así que una subida de los tipos de 2 puntos reduce su valor en alrededor de un tercio."
+  },
+  "L-003": {
+    "question": "Verdadero o falso: una subida de los tipos de interés suele reducir el valor actual de los flujos de caja lejanos más que el de los cercanos.",
+    "explanation": "Verdadero. El descuento se compone a lo largo de los años, así que el efectivo que se espera muy lejos en el futuro es el más castigado. Por eso las acciones de crecimiento suelen ser más sensibles a los tipos."
+  },
+  "L-004": {
+    "question": "Una acción tiene un PER de 20. ¿Cuál es su rentabilidad del beneficio, en porcentaje?",
+    "explanation": "Rentabilidad del beneficio = 1 ÷ PER = 1 ÷ 20 = 5 %. Los inversores suelen compararla, de forma aproximada, con la rentabilidad de los bonos."
+  },
+  "L-005": {
+    "question": "Verdadero o falso: en los datos de EE. UU. de Damodaran, tanto el S&P 500 como los bonos del Tesoro a 10 años perdieron dinero en 2022.",
+    "explanation": "Verdadero: −18,0 % las acciones y −17,8 % los bonos del Tesoro a 10 años, en un año de fuertes subidas de los tipos de interés."
+  },
+  "L-006": {
+    "question": "Entre septiembre de 2007 y diciembre de 2008, la Fed bajó su tipo oficial del 5,25 % al 0–0,25 %. ¿Qué pasó con los precios de las acciones de EE. UU.?",
+    "explanation": "El S&P 500 cayó un 57 % de octubre de 2007 a marzo de 2009 a pesar de las bajadas de tipos, porque los beneficios y la economía se estaban hundiendo (Federal Reserve History).",
+    "options": ["Siguieron cayendo hasta marzo de 2009", "Subieron sin parar durante todo el periodo", "No se vieron afectados", "La negociación se suspendió durante un año"]
+  },
+  "L-007": {
+    "question": "¿Quién fija los tipos de interés oficiales para Austria?",
+    "explanation": "Austria usa el euro, así que sus tipos oficiales los fija el Consejo de Gobierno del BCE. El gobernador del OeNB es el representante de Austria en él.",
+    "options": ["El Consejo de Gobierno del BCE, para toda la zona del euro", "El Ministerio de Finanzas austriaco", "La Bolsa de Viena", "Cada banco austriaco por su cuenta"]
+  },
+  "L-008": {
+    "question": "¿Qué tasa de inflación busca el BCE a medio plazo, en porcentaje?",
+    "explanation": "La estrategia del BCE: la estabilidad de precios se mantiene mejor buscando una inflación del 2 % a medio plazo, medida con el IAPC."
+  },
+  "L-009": {
+    "question": "Verdadero o falso: el objetivo del 2 % del BCE es simétrico, así que una inflación por debajo del objetivo se considera tan indeseable como una por encima.",
+    "explanation": "Verdadero. El Consejo de Gobierno considera igual de indeseables las desviaciones negativas y positivas respecto al objetivo."
+  },
+  "L-010": {
+    "question": "¿Con qué tipo de interés orienta el BCE su política monetaria desde marzo de 2024?",
+    "explanation": "La página de tipos de interés oficiales del BCE dice que el Consejo de Gobierno decidió en marzo de 2024 seguir orientando la política monetaria a través del tipo de la facilidad de depósito.",
+    "options": ["El tipo de la facilidad de depósito", "El tipo de la facilidad marginal de crédito", "La rentabilidad del bono del Estado a 10 años", "El tipo de las cuentas de ahorro"]
+  },
+  "L-011": {
+    "question": "Ordena los tres tipos de interés oficiales del BCE de menor a mayor.",
+    "explanation": "El tipo de las operaciones principales de financiación se fija por encima del de la facilidad de depósito, y el de la facilidad marginal de crédito por encima del de las operaciones principales de financiación.",
+    "orderedItems": ["Tipo de la facilidad de depósito", "Tipo de las operaciones principales de financiación", "Tipo de la facilidad marginal de crédito"]
+  },
+  "L-012": {
+    "question": "¿Cuáles son los dos objetivos del «mandato dual» de la Reserva Federal de EE. UU.?",
+    "explanation": "El Congreso encomendó a la Fed los objetivos de máximo empleo y precios estables; el FOMC considera que una inflación PCE del 2 % es coherente con la estabilidad de precios.",
+    "options": ["Máximo empleo y precios estables", "Tipos de cambio estables y precios altos de las acciones", "Impuestos bajos y presupuestos equilibrados", "Beneficios bancarios y crecimiento de la vivienda"]
+  },
+  "L-013": {
+    "question": "¿En qué mes pasó a ser negativo por primera vez el tipo de la facilidad de depósito del BCE?",
+    "explanation": "La tabla del BCE muestra un −0,10 % con efecto desde el 11 de junio de 2014. Llegó al −0,50 % en septiembre de 2019.",
+    "options": ["Junio de 2014", "Julio de 2012", "Septiembre de 2019", "Marzo de 2024"]
+  },
+  "L-014": {
+    "question": "De julio de 2022 a septiembre de 2023, el BCE subió su tipo de la facilidad de depósito del −0,50 % a qué nivel, en porcentaje?",
+    "explanation": "Diez subidas lo llevaron al 4,00 % (con efecto desde el 20 de septiembre de 2023)."
+  },
+  "L-015": {
+    "question": "Ordena estos pasos de la transmisión de la política monetaria, tal como los describe el BCE.",
+    "explanation": "Los tipos oficiales mueven los tipos del mercado monetario y los bancarios; estos cambian las decisiones de gasto e inversión, que a su vez afectan a la demanda y a los precios.",
+    "orderedItems": ["El banco central cambia sus tipos de interés oficiales", "Cambian los tipos del mercado monetario y los tipos de los préstamos y depósitos bancarios", "Cambian las decisiones de ahorro, gasto e inversión", "Cambia la demanda y, con el tiempo, los precios"]
+  },
+  "L-016": {
+    "question": "Verdadero o falso: según el BCE, la política monetaria afecta a la economía con retrasos largos, variables e inciertos.",
+    "explanation": "Verdadero. Por eso el BCE apunta a la inflación a medio plazo."
+  },
+  "L-017": {
+    "question": "¿Qué es un «efecto riqueza» en la descripción de la transmisión del BCE?",
+    "explanation": "El BCE explica que, cuando suben los precios de las acciones, los hogares que las tienen se vuelven más ricos y pueden aumentar su consumo, y al revés.",
+    "options": ["Los hogares que tienen acciones gastan más cuando suben los precios de las acciones, y menos cuando bajan", "Los bancos se enriquecen cuando suben los tipos", "Los gobiernos gravan más a los ricos", "Los tipos de cambio siguen a los precios de la vivienda"]
+  },
+  "L-018": {
+    "question": "¿Cuándo empezó el programa de compras de activos (APP) del BCE, según el BCE?",
+    "explanation": "El BCE dice que el APP empezó como parte de un paquete de medidas no convencionales iniciado a mediados de 2014.",
+    "options": ["Como parte de un paquete iniciado a mediados de 2014", "En 1999, con el euro", "En marzo de 2020", "En 2008, antes de Lehman Brothers"]
+  },
+  "L-019": {
+    "question": "Verdadero o falso: los mercados pueden moverse con una reunión de un banco central aunque los tipos de interés no cambien.",
+    "explanation": "Verdadero. Las expectativas sobre los tipos futuros afectan a los tipos a más largo plazo y a los precios de los activos, así que un cambio en la orientación puede mover los mercados sin cambiar los tipos."
+  },
+  "L-020": {
+    "question": "¿A qué índice se refiere el objetivo de inflación del 2 % del BCE?",
+    "explanation": "El BCE mide la inflación con el IAPC del conjunto de la zona del euro.",
+    "options": ["El Índice Armonizado de Precios de Consumo (IAPC) de la zona del euro", "El VPI de Austria", "El ATX", "El índice de precios de consumo de EE. UU."]
+  },
+  "L-021": {
+    "question": "Según Statistik Austria, ¿cuál fue la tasa de inflación (VPI) de Austria en 2025, en porcentaje?",
+    "explanation": "Statistik Austria: un 3,6 % en 2025, tras un 2,9 % en 2024 y un 7,8 % en 2023."
+  },
+  "L-022": {
+    "question": "Según Statistik Austria, ¿cuál fue la tasa de inflación (VPI) de Austria en 2023, en porcentaje?",
+    "explanation": "Statistik Austria publicó un 7,8 % para 2023; describe de 2022 a 2024 como una fase de inflación alta."
+  },
+  "L-023": {
+    "question": "Una empresa tiene unos ingresos de 100 M€ y unos costes de 90 M€. Los costes suben un 10 %, pero solo puede subir los precios un 3 %. ¿Cuál es su nuevo beneficio, en millones de euros?",
+    "explanation": "Ingresos de 103 − costes de 99 = 4 M€, frente a 10 M€ antes: una caída del 60 %. El poder de fijación de precios importa."
+  },
+  "L-024": {
+    "question": "Verdadero o falso: la deflación (la bajada de los precios) es buena para la economía porque todo se abarata.",
+    "explanation": "Falso. Federal Reserve History describe cómo la deflación de la Gran Depresión aumentó la carga de las deudas, redujo el consumo y provocó quiebras. Por eso el objetivo del BCE es simétrico."
+  },
+  "L-025": {
+    "question": "¿Por qué una inflación inesperadamente alta suele perjudicar a los precios de las acciones a corto plazo? Selecciona todas las correctas.",
+    "explanation": "Las subidas de tipos, la presión de los costes y la incertidumbre pesan sobre los precios de las acciones. Las deudas no desaparecen.",
+    "options": ["Los bancos centrales suben los tipos de interés", "Suben los costes de las empresas", "Aumenta la incertidumbre sobre los beneficios futuros", "Las deudas de las empresas desaparecen"]
+  },
+  "L-026": {
+    "question": "¿Por qué los precios de las acciones suelen moverse cuando se publica una cifra económica?",
+    "explanation": "Los mercados descuentan antes las expectativas y se mueven por la sorpresa: la diferencia entre las cifras reales y las esperadas.",
+    "options": ["Porque la cifra difiere de lo que se esperaba", "Porque cada publicación es una mala noticia", "Porque las bolsas cierran durante las publicaciones", "Porque todas las cifras son secretas hasta entonces y nunca se prevén"]
+  },
+  "L-027": {
+    "question": "La estimación adelantada de Statistik Austria para la inflación de julio de 2026 fue del 2,7 %. ¿Cuál fue la cifra definitiva, en porcentaje?",
+    "explanation": "La cifra definitiva, publicada el 19 de agosto de 2026, fue del 2,8 %, 0,1 puntos porcentuales más que la estimación adelantada."
+  },
+  "L-028": {
+    "question": "Verdadero o falso: una inflación mayor de lo esperado puede hacer caer los precios de las acciones aunque nada haya cambiado en las propias empresas.",
+    "explanation": "Verdadero. Los inversores pueden esperar tipos de interés más altos durante más tiempo, lo que eleva las tasas de descuento y la rentabilidad de los bonos."
+  },
+  "L-029": {
+    "question": "¿Qué mide el PIB?",
+    "explanation": "El producto interior bruto mide la producción económica; su tasa de crecimiento es la principal medida del crecimiento económico.",
+    "options": ["El valor de todos los bienes y servicios producidos en una economía en un periodo", "El nivel de la bolsa", "La deuda del Estado", "El número de personas con empleo"]
+  },
+  "L-030": {
+    "question": "Verdadero o falso: las estadísticas económicas oficiales se suelen publicar en fechas anunciadas de antemano.",
+    "explanation": "Verdadero. Eurostat y las oficinas nacionales de estadística publican calendarios de publicación."
+  },
+  "L-031": {
+    "question": "El BCE publica un tipo de referencia de USD 1,10. ¿Qué significa?",
+    "explanation": "El BCE cotiza todas las divisas frente al euro como divisa base: unidades de divisa extranjera por cada euro.",
+    "options": ["1 euro = 1,10 dólares estadounidenses", "1 dólar estadounidense = 1,10 euros", "El dólar subió hoy un 1,10 %", "El euro vale 110 céntimos en Austria"]
+  },
+  "L-032": {
+    "question": "Inviertes 10.000 € en una acción de EE. UU. con el EUR/USD en 1,10 (11.000 $). Un año después la acción vale 12.100 $ y el EUR/USD está en 1,21. ¿Cuál es tu rentabilidad en euros, en porcentaje?",
+    "explanation": "12.100 $ ÷ 1,21 = 10.000 €. La acción ganó un 10 % en dólares, pero el euro más fuerte se lo comió."
+  },
+  "L-033": {
+    "question": "Tienes acciones de EE. UU. por valor de 11.000 $; su precio no cambia. El EUR/USD baja de 1,10 a 1,00. ¿Cuál es tu rentabilidad en euros, en porcentaje?",
+    "explanation": "Antes: 11.000 ÷ 1,10 = 10.000 €. Después: 11.000 ÷ 1,00 = 11.000 €, una rentabilidad del +10 % solo por la divisa."
+  },
+  "L-034": {
+    "question": "Verdadero o falso: si el EUR/USD sube de 1,10 a 1,20, las inversiones en dólares valen más en euros.",
+    "explanation": "Falso. Un EUR/USD que sube significa que el euro se ha apreciado; las inversiones en dólares valen menos euros."
+  },
+  "L-035": {
+    "question": "Verdadero o falso: un ETF de acciones de EE. UU. que cotiza en euros en una bolsa europea no tiene exposición al dólar estadounidense.",
+    "explanation": "Falso. La divisa de negociación no es la exposición: el fondo tiene activos en dólares, así que su precio en euros se mueve con el dólar salvo que tenga cobertura de divisa."
+  },
+  "L-036": {
+    "question": "¿Qué hace una clase de participaciones de un fondo con cobertura de divisa?",
+    "explanation": "La cobertura reduce las oscilaciones por divisa, pero cuesta dinero y también elimina las ganancias por divisa.",
+    "options": ["Usa derivados para compensar la mayor parte del efecto de los cambios en el tipo de cambio", "Garantiza un beneficio en euros", "Invierte solo en acciones de la zona del euro", "Convierte todas las posiciones en oro"]
+  },
+  "L-037": {
+    "question": "El BCE dice que sus tipos de cambio de referencia del euro se publican solo a título informativo. ¿Qué dice sobre usarlos para operaciones?",
+    "explanation": "El BCE indica que desaconseja expresamente usar los tipos de referencia para operaciones; los bancos usan sus propios tipos.",
+    "options": ["Lo desaconseja expresamente", "Obliga a los bancos a usarlos", "Son tipos de negociación garantizados", "Solo se aplican al efectivo"]
+  },
+  "L-038": {
+    "question": "Un bono paga 103 € dentro de un año. ¿Cuál es su precio si los inversores exigen un 5 %? (Dos decimales.)",
+    "explanation": "103 ÷ 1,05 ≈ 98,10 €. Al 3 % costaría 100 €: una rentabilidad más alta significa un precio más bajo."
+  },
+  "L-039": {
+    "question": "¿Qué significa una curva de tipos «invertida»?",
+    "explanation": "Normalmente, la rentabilidad a largo plazo es mayor. En una curva invertida, la rentabilidad a corto plazo está por encima de la de largo plazo.",
+    "options": ["La rentabilidad a corto plazo es mayor que la de largo plazo", "La rentabilidad a largo plazo es mucho mayor que la de corto plazo", "Todas las rentabilidades son cero", "Los precios de los bonos están subiendo"]
+  },
+  "L-040": {
+    "question": "Verdadero o falso: según Liberty Street Economics, de la Reserva Federal de Nueva York (2025), el diferencial de EE. UU. entre los 10 años y el año se volvió negativo antes de todas las recesiones de EE. UU. desde los años cincuenta.",
+    "explanation": "Verdadero. La entrada señala que este diferencial de plazos baja de cero antes de todas las recesiones y solo rara vez lo hace sin que llegue después una recesión."
+  },
+  "L-041": {
+    "question": "Verdadero o falso: una curva de tipos invertida te dice con precisión cuándo caerán los precios de las acciones.",
+    "explanation": "Falso. Es una advertencia sobre la economía con un momento impreciso, y las estimaciones de los modelos son inciertas. Una nota de la Fed de 2018 defendía además otra medida del diferencial."
+  },
+  "L-042": {
+    "question": "Según el BCE, ¿de qué dependen en parte los tipos de interés a más largo plazo?",
+    "explanation": "El BCE explica que los tipos a más largo plazo dependen en parte de las expectativas sobre los futuros tipos a corto plazo, y por eso una curva invertida suele indicar que se esperan bajadas de tipos.",
+    "options": ["De lo que espera el mercado sobre la evolución futura de los tipos a corto plazo", "Solo del nivel de la bolsa", "Del tiempo que haga", "Solo del número de bonos en circulación"]
+  },
+  "L-043": {
+    "question": "¿En qué año empezó la crisis de deuda de la zona del euro, según el MEDE?",
+    "explanation": "El MEDE dice que en 2010 estalló en Europa una nueva crisis de cosecha propia, tras la crisis subprime de EE. UU."
+  },
+  "L-044": {
+    "question": "¿Qué país fue el primero en pedir ayuda en la crisis de deuda de la zona del euro?",
+    "explanation": "La historia del MEDE dice que Grecia fue la primera en pedirla y recibió préstamos bilaterales de otros países de la zona del euro.",
+    "options": ["Grecia", "Austria", "Alemania", "Finlandia"]
+  },
+  "L-045": {
+    "question": "Ordena estos acontecimientos de la crisis del euro.",
+    "explanation": "La FEEF, en junio de 2010; las palabras de Draghi en Londres, el 26 de julio de 2012; los detalles de las OMT, el 6 de septiembre de 2012; el MEDE, el 8 de octubre de 2012.",
+    "orderedItems": ["Se crea la FEEF (junio de 2010)", "Draghi pronuncia su «lo que sea necesario» (26 de julio de 2012)", "El BCE anuncia las características técnicas de las OMT (6 de septiembre de 2012)", "Se constituye el MEDE (8 de octubre de 2012)"]
+  },
+  "L-046": {
+    "question": "¿Qué dijo Mario Draghi el 26 de julio de 2012?",
+    "explanation": "Sus palabras: «En el marco de nuestro mandato, el BCE está dispuesto a hacer lo que sea necesario para preservar el euro. Y créanme, será suficiente».",
+    "options": ["Que, en el marco de su mandato, el BCE estaba dispuesto a hacer lo que fuera necesario para preservar el euro", "Que el euro se iba a abolir", "Que los tipos de interés subirían al 10 %", "Que Grecia debía salir del euro"]
+  },
+  "L-047": {
+    "question": "¿Cuál es una condición necesaria para las Operaciones Monetarias de Compraventa (OMT) del BCE?",
+    "explanation": "El comunicado del BCE del 6 de septiembre de 2012 establece como condición necesaria un programa de la FEEF o del MEDE con una condicionalidad estricta.",
+    "options": ["Una condicionalidad estricta y efectiva ligada a un programa adecuado de la FEEF o del MEDE", "Una calificación crediticia mínima de AAA", "Una votación de todos los ciudadanos de la UE", "Que el país salga del euro"]
+  },
+  "L-048": {
+    "question": "Según el MEDE, ¿por qué empezaron los mercados a desconfiar de algunos países de la zona del euro en 2010? Selecciona todas las correctas.",
+    "explanation": "El MEDE cita los déficits disparados, la pérdida de competitividad y la supervisión laxa de los bancos.",
+    "options": ["Sus gobiernos habían dejado que los déficits se dispararan", "Habían perdido competitividad", "Habían permitido una supervisión laxa de los bancos", "Tenían demasiada poca deuda"]
+  }
+}
