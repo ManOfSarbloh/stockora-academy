@@ -823,7 +823,7 @@ export const es: Dictionary = {
   'quiz.passed': "¡Aprobado! Has alcanzado la nota de corte del {pass} %.",
   'quiz.notPassed': "Aún no aprobado: la nota de corte es el {pass} %. Repasa tus temas más flojos y vuelve a intentarlo.",
   'qh.title': "Cuestionarios",
-  'qh.lead': "Comprueba lo que has aprendido: cuestionarios de cada tema y país, un cuestionario diario, el Megacuestionario y un Examen final solo por diversión. Todo se queda en tu navegador. Los cuestionarios de los temas están en español; los de los países siguen en inglés.",
+  'qh.lead': "Comprueba lo que has aprendido: cuestionarios de cada tema y país, un cuestionario diario, el Megacuestionario y un Examen final solo por diversión. Todo se queda en tu navegador.",
   'qh.count': "Preguntas en total: {n}",
   'qh.daily.title': "Cuestionario diario",
   'qh.daily.lead': "Cinco preguntas, las mismas hoy para todos. Mantén tu racha.",

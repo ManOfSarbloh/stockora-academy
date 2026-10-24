@@ -296,14 +296,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 
 | Topic | Decision |
 |---|---|
-| Scope | After German, the owner asked to start the Spanish lessons. All 196 lessons and the 1,102 topic quiz questions (topics A to W) are in Spanish, in the same files and with the same checks as German (content/i18n/es/lessons, content/i18n/es/quizzes). Country pages, their quizzes and How Stocks Are Made stay English for now |
+| Scope | After German, the owner asked to start the Spanish lessons. All 196 lessons and the 1,102 topic quiz questions (topics A to W) are in Spanish, in the same files and with the same checks as German (content/i18n/es/lessons, content/i18n/es/quizzes). The same day the 20 country pages (with the World Markets overview and comparison), their 241 quiz questions and How Stocks Are Made (9 steps, 5 case studies, 25 questions) followed, so Spanish is complete like German |
 | Style | tú-form; es-ES numbers (1.000 €, 2,5 %, 2.000 millones de euros, M€); takeaways heading "Ideas clave"; Spanish market terms (OPV, SMN, orden limitada, cuenta de valores, diferencial) and Austrian legal names kept as the BMF, FMA and the laws use them (KESt, Endbesteuerung, Bezugsrecht, Übernahmekommission), with a Spanish explanation the first time |
 | Glossary links | After each topic, the glossary links in the built Spanish pages were listed and every everyday-word match removed, either by rewording the lesson or by making the Spanish glossary term more specific (for example "Bono (obligación)", "Vencimiento de un bono", "Opción financiera (derivado)", "Toma de control (adquisición)"). A bracketed abbreviation such as "P/VC" or "P/E" now stays one alias instead of being split at the slash (astro.config.mjs) |
 | Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
 
 ## Open items
 
-- Translations: Spanish country pages and How Stocks Are Made; French and Italian lessons, quizzes, country pages and How Stocks Are Made.
+- Translations: French and Italian lessons, quizzes, country pages and How Stocks Are Made.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
