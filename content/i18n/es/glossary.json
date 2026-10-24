@@ -74,7 +74,7 @@
   "definition": "Un tipo de acción que normalmente no tiene derecho a voto, pero cobra dividendos antes que las acciones ordinarias y tiene prioridad sobre ellas si la empresa se liquida."
  },
  "security": {
-  "term": "Valor (mobiliario)",
+  "term": "Valor mobiliario",
   "definition": "Un instrumento de inversión negociable, como una acción o un bono."
  },
  "ticker": {
@@ -245,7 +245,7 @@
   "definition": "El documento oficial de una oferta pública de valores, que describe la empresa, su negocio, sus finanzas, sus riesgos y las condiciones de la oferta. En Austria debe aprobarlo la FMA."
  },
  "underwriter": {
-  "term": "Entidad colocadora / aseguradora",
+  "term": "Entidad colocadora (aseguradora de la emisión)",
   "definition": "Un banco de inversión que gestiona y vende una emisión de valores, como una OPV, para la empresa emisora. El banco principal suele llamarse coordinador global (bookrunner)."
  },
  "bookbuilding": {
