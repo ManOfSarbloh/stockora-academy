@@ -1,0 +1,209 @@
+{
+  "V-001": {
+    "question": "¿Qué operación corporativa suele exigir que decidas antes de un plazo?",
+    "explanation": "En una ampliación con derechos puedes suscribir, vender los derechos o dejarlos caducar; los splits y los dividendos se aplican automáticamente.",
+    "options": ["Una ampliación con derechos", "Un split", "Un dividendo en efectivo", "Un contrasplit"]
+  },
+  "V-002": {
+    "question": "Verdadero o falso: cuando se suspende la negociación de una acción en la Wiener Börse, se borran automáticamente todas las órdenes del libro de órdenes.",
+    "explanation": "Verdadero. Revisa tus órdenes limitadas y stop abiertas tras una suspensión."
+  },
+  "V-003": {
+    "question": "¿Qué afirmaciones sobre las ofertas públicas de adquisición son ciertas, según Investor.gov? Selecciona todas las correctas.",
+    "explanation": "Cada accionista decide individualmente; nadie está obligado a aceptar una oferta pública.",
+    "options": ["Están abiertas durante un periodo limitado", "Cada accionista decide si vende", "Las condiciones, como el precio, son fijas", "Los accionistas tienen que aceptarlas"]
+  },
+  "V-004": {
+    "question": "En una ampliación de capital dineraria, ¿cómo se ofrecen las acciones nuevas a los accionistas existentes?",
+    "explanation": "La Wiener Börse: a los accionistas existentes se les ofrecen acciones nuevas mediante derechos de suscripción en una proporción fijada.",
+    "options": ["Mediante derechos de suscripción, en proporción a sus posiciones", "Por sorteo", "Solo al mayor accionista", "No se ofrecen a los accionistas existentes"]
+  },
+  "V-005": {
+    "question": "Tienes 100 acciones a 100 €. Tras un split de 2 por 1, ¿cuántas acciones tienes?",
+    "explanation": "El doble de acciones, cada una a la mitad de precio: 200 × 50 € = 10.000 €."
+  },
+  "V-006": {
+    "question": "¿Qué le pasa al valor total de tu posición en un split?",
+    "explanation": "La Wiener Börse: el capital social y el valor total de las acciones no cambian.",
+    "options": ["Se mantiene", "Se duplica", "Se reduce a la mitad", "Depende del dividendo"]
+  },
+  "V-007": {
+    "question": "Verdadero o falso: según Investor.gov, un split diluye a los accionistas existentes igual que la emisión de acciones nuevas.",
+    "explanation": "Falso. A diferencia de la emisión de acciones nuevas, un split no diluye a los accionistas existentes."
+  },
+  "V-008": {
+    "question": "Tras un contrasplit de 1 por 10, 1.000 acciones a 0,80 € pasan a ser…",
+    "explanation": "Menos acciones a un precio más alto; el total sigue siendo de 800 €.",
+    "options": ["100 acciones a 8 €", "10.000 acciones a 0,08 €", "100 acciones a 0,80 €", "1.000 acciones a 8 €"]
+  },
+  "V-009": {
+    "question": "¿Por qué advierte la SEC de los contrasplits «gigantescos», como los de 1 por 20.000?",
+    "explanation": "Un contrasplit moderado puede hacerse para cumplir las normas de precio mínimo; las proporciones extremas son una señal de alarma.",
+    "options": ["Pueden formar parte de esquemas de fraude con sociedades pantalla inactivas", "Son ilegales en EE. UU.", "Siempre aumentan el valor de una empresa", "Duplican el número de acciones"]
+  },
+  "V-010": {
+    "question": "Verdadero o falso: la Wiener Börse califica de engañoso el término «acciones gratuitas» para las acciones liberadas con cargo a reservas.",
+    "explanation": "Verdadero. Los accionistas ya eran dueños de las reservas, y el precio de la acción baja en proporción."
+  },
+  "V-011": {
+    "question": "Según el § 8 AktG, ¿cuál es el importe mínimo de capital social por acción en Austria, en euros?",
+    "explanation": "Las acciones con valor nominal deben tener al menos 1 €, y en las acciones sin valor nominal la parte por acción debe ser de al menos 1 €."
+  },
+  "V-012": {
+    "question": "Según el § 153 AktG, ¿cuánto debe durar como mínimo el plazo para ejercer los derechos de suscripción?",
+    "explanation": "Al menos dos semanas; el precio de emisión y el plazo deben publicarse.",
+    "options": ["Dos semanas", "Dos días", "Un mes", "Tres meses"]
+  },
+  "V-013": {
+    "question": "¿Qué mayoría necesita una ampliación de capital mediante la emisión de acciones nuevas según el § 149 AktG?",
+    "explanation": "Al menos tres cuartas partes del capital representado, salvo que los estatutos fijen otra mayoría de capital.",
+    "options": ["Al menos tres cuartas partes del capital social representado", "Una mayoría simple", "Unanimidad", "Dos tercios de todas las acciones emitidas"]
+  },
+  "V-014": {
+    "question": "10 millones de acciones cotizan a 20 €. Una ampliación con derechos de 1 por 4 ofrece acciones nuevas a 16 €. ¿Cuál es el precio teórico de la acción tras la emisión, en euros?",
+    "explanation": "(200 M€ + 2,5 millones × 16 €) ÷ 12,5 millones de acciones = 240 M€ ÷ 12,5 millones = 19,20 €."
+  },
+  "V-015": {
+    "question": "En esa misma ampliación (precio antiguo de 20 €, precio teórico posterior de 19,20 €, un derecho por cada acción antigua), ¿cuál es el valor teórico de un derecho, en euros?",
+    "explanation": "20 € − 19,20 € = 0,80 €; cuatro derechos más 16 € compran una acción nueva que vale 19,20 €."
+  },
+  "V-016": {
+    "question": "En una ampliación con derechos, ¿qué opción mantiene sin cambios tu porcentaje de la empresa?",
+    "explanation": "Solo suscribir mantiene tu porcentaje; vender los derechos conserva el valor, pero no el porcentaje.",
+    "options": ["Suscribir las acciones nuevas", "Vender los derechos", "No hacer nada", "Vender la mitad de tus acciones"]
+  },
+  "V-017": {
+    "question": "Verdadero o falso: si no usas ni vendes tus derechos de suscripción, pierdes valor porque el precio de la acción baja tras la emisión.",
+    "explanation": "Verdadero. Los derechos solo compensan el precio más bajo si los usas o los vendes."
+  },
+  "V-018": {
+    "question": "¿Qué exige excluir los derechos de suscripción de los accionistas según el § 153 AktG? Selecciona todas las correctas.",
+    "explanation": "No hace falta la aprobación de la FMA, pero sí la mayoría, el anuncio en el orden del día y el informe.",
+    "options": ["Un acuerdo con una mayoría de capital de al menos tres cuartas partes", "Que se anuncie expresamente en el orden del día", "Un informe escrito del consejo de administración sobre los motivos y el precio de emisión", "La aprobación de la FMA"]
+  },
+  "V-019": {
+    "question": "¿Qué es una operación acordeón (Kapitalschnitt)?",
+    "explanation": "En una reestructuración, los accionistas aportan dinero nuevo después de absorber las pérdidas.",
+    "options": ["Una reducción de capital seguida de una ampliación, a menudo en una reestructuración", "Un split", "Un recorte del dividendo", "Un programa de recompra"]
+  },
+  "V-020": {
+    "question": "Según el § 65 AktG, ¿qué porcentaje de su capital social no pueden superar las acciones propias adquiridas por una empresa cotizada?",
+    "explanation": "Junto con las demás acciones propias que tenga, como máximo el 10 % del capital social."
+  },
+  "V-021": {
+    "question": "¿Durante cuántos meses como máximo puede una junta general autorizar a una empresa cotizada austriaca a recomprar acciones?",
+    "explanation": "La autorización puede valer como máximo 30 meses."
+  },
+  "V-022": {
+    "question": "Verdadero o falso: una empresa cobra dividendos y vota con sus propias acciones.",
+    "explanation": "Falso. Según el § 65, apartado 5, AktG, la empresa no tiene derechos por sus propias acciones."
+  },
+  "V-023": {
+    "question": "Una empresa gana 50 millones de euros con 10 millones de acciones y luego recompra y amortiza 500.000 acciones. Con el mismo beneficio, ¿cuál es el nuevo BPA, en euros (dos decimales)?",
+    "explanation": "50 M€ ÷ 9,5 millones = 5,26 €, frente a 5,00 € antes."
+  },
+  "V-024": {
+    "question": "¿Quién debe aprobar una recompra de acciones en Austria, según la Wiener Börse?",
+    "explanation": "Una recompra exige una autorización de la junta general.",
+    "options": ["La junta general", "La FMA", "La bolsa", "El auditor"]
+  },
+  "V-025": {
+    "question": "Verdadero o falso: en Austria se permite como finalidad de una recompra negociar con las acciones propias.",
+    "explanation": "Falso. El § 65 AktG excluye como finalidad la negociación con las acciones propias."
+  },
+  "V-026": {
+    "question": "¿Por qué el precio de una oferta pública suele estar por encima del precio de mercado actual?",
+    "explanation": "Investor.gov: la prima busca animar a los accionistas a acudir a la oferta.",
+    "options": ["Para animar a los accionistas a vender", "Porque la ley prohíbe en todos los casos los precios más bajos", "Para pagar las comisiones del banco", "Porque se va a hacer un split de las acciones"]
+  },
+  "V-027": {
+    "question": "Un oferente ofrece 0,5 de sus propias acciones por cada acción de la empresa objetivo. La acción del oferente cotiza a 60 €. ¿Cuánto vale la oferta por acción objetivo, en euros?",
+    "explanation": "0,5 × 60 € = 30 €; si cambia el precio del oferente, cambia también el valor de la oferta."
+  },
+  "V-028": {
+    "question": "¿Por qué la acción de una empresa objetivo puede cotizar algo por debajo del precio de una oferta en efectivo?",
+    "explanation": "La diferencia refleja el tiempo y el riesgo de la operación, como que no se cumplan las condiciones.",
+    "options": ["Por el tiempo hasta el pago y el riesgo de que la operación fracase", "Porque el precio de la oferta incluye impuestos", "Porque la bolsa cobra una comisión", "Nunca ocurre"]
+  },
+  "V-029": {
+    "question": "Verdadero o falso: en Austria, el consejo de administración y el consejo de supervisión de la empresa objetivo deben publicar informes motivados sobre una oferta de adquisición.",
+    "explanation": "Verdadero, según el § 14 ÜbG, incluido si el precio es adecuado."
+  },
+  "V-030": {
+    "question": "¿Qué ocurre en una escisión?",
+    "explanation": "La filial se convierte en una empresa separada e independiente; las acciones suelen repartirse a prorrata.",
+    "options": ["Una sociedad matriz reparte acciones de una filial entre sus propios accionistas", "Dos empresas se fusionan", "Una empresa recompra acciones", "Una empresa sale de la bolsa"]
+  },
+  "V-031": {
+    "question": "Verdadero o falso: la SEC evalúa si las acciones de una escisión son una buena inversión.",
+    "explanation": "Falso. La SEC no evalúa la conveniencia de una escisión."
+  },
+  "V-032": {
+    "question": "Una escisión da 1 acción nueva por cada 4 acciones que tienes. Tienes 100 acciones. ¿Cuántas acciones nuevas recibes?",
+    "explanation": "100 ÷ 4 = 25."
+  },
+  "V-033": {
+    "question": "¿Qué es una exclusión de cotización?",
+    "explanation": "Wiener Börse: la exclusión de cotización es la retirada de la bolsa de un valor cotizado.",
+    "options": ["La retirada de la cotización de un valor en la bolsa", "Un split", "Una ampliación de capital", "Un recorte del dividendo"]
+  },
+  "V-034": {
+    "question": "Según el § 27e ÜbG, el precio de una oferta de exclusión de cotización debe ser como mínimo el precio medio de bolsa ponderado por volumen de qué periodo anterior al anuncio de la intención de excluir la acción?",
+    "explanation": "Las cinco sesiones, además de las normas de precio mínimo del § 26 ÜbG; y adecuado si está claramente por debajo del valor de la empresa.",
+    "options": ["Las cinco últimas sesiones", "Los últimos 12 meses", "La última sesión", "Los últimos 30 días"]
+  },
+  "V-035": {
+    "question": "Verdadero o falso: según Investor.gov, en una reorganización del capítulo 11, los accionistas ordinarios son a menudo sustituidos por nuevos accionistas.",
+    "explanation": "Verdadero. Los acreedores van antes que los accionistas."
+  },
+  "V-036": {
+    "question": "¿Con al menos cuántos días de antelación debe publicar una empresa austriaca la convocatoria de una junta general ordinaria?",
+    "explanation": "Al menos 28 días para una junta general ordinaria; 21 días para las demás juntas (§ 107 AktG)."
+  },
+  "V-037": {
+    "question": "En las acciones al portador de una empresa cotizada austriaca, ¿qué posición decide quién puede asistir a la junta general?",
+    "explanation": "La fecha de registro (Nachweisstichtag) según el § 111 AktG.",
+    "options": ["La posición al final del décimo día anterior a la junta", "La posición el día de la junta", "La posición en la fecha de pago del dividendo", "La posición al final del último ejercicio"]
+  },
+  "V-038": {
+    "question": "¿Qué derechos tienen los accionistas en la junta general? Selecciona todas las correctas.",
+    "explanation": "Los dividendos los decide la junta en su conjunto, no cada accionista.",
+    "options": ["El derecho de voto", "El derecho de información sobre los puntos del orden del día", "El derecho a hacer propuestas", "El derecho a fijar por sí solo el dividendo"]
+  },
+  "V-039": {
+    "question": "Verdadero o falso: según el § 118 AktG, una empresa puede negarse a dar información cuya difusión la perjudicaría gravemente.",
+    "explanation": "Verdadero, con un criterio empresarial razonable; también si su difusión fuera delito."
+  },
+  "V-040": {
+    "question": "Ordena los pasos para asistir a una junta general austriaca con acciones al portador depositadas en un banco.",
+    "explanation": "Convocatoria (§ 107), fecha de registro diez días antes (§ 111, apartado 1), confirmación de depósito como muy tarde el tercer día hábil anterior (§ 111, apartado 2) y luego la junta.",
+    "orderedItems": ["Se publica la convocatoria al menos 28 días antes", "Tu posición queda fijada al final de la fecha de registro", "La confirmación de depósito de tu banco llega a la empresa", "Se celebra la junta general"]
+  },
+  "V-041": {
+    "question": "Según el § 27e ÜbG, ¿qué debe indicar el documento de una oferta de exclusión de cotización en Austria?",
+    "explanation": "El documento debe indicar la exclusión de cotización que se pretende; la oferta debe abarcar todas las acciones y cumplir las normas de precio mínimo.",
+    "options": ["Que se pretende una exclusión de cotización", "Nada: las ofertas de exclusión no necesitan documento", "Solo la dirección del oferente", "Una garantía de que subirá el precio de la acción"]
+  },
+  "V-042": {
+    "question": "Según el § 27e ÜbG, ¿qué se aplica si el precio mínimo de una oferta de exclusión de cotización está claramente por debajo del valor real de la empresa?",
+    "explanation": "Además de la norma del precio medio de cinco sesiones, la ley exige un precio adecuado si el mínimo está claramente por debajo del valor real.",
+    "options": ["El precio debe fijarse de forma adecuada", "La oferta sigue siendo válida al precio bajo", "Los accionistas deben pagar la diferencia", "La exclusión se cancela automáticamente"]
+  },
+  "V-043": {
+    "question": "Una escisión da 1 acción nueva por cada 4 acciones que tienes. Tienes 102 acciones. ¿A cuántas acciones nuevas tienes derecho, antes de cualquier redondeo?",
+    "explanation": "102 ÷ 4 = 25,5. Cómo se tratan las fracciones (efectivo, redondeo, venta) depende de las condiciones; revisa la comunicación de tu banco."
+  },
+  "V-044": {
+    "question": "En la fecha de corte de una escisión, el precio de la acción de la matriz baja. ¿Por qué?",
+    "explanation": "El valor se reparte entre la matriz y la filial: una caída del precio en la fecha de corte no es en sí misma una pérdida.",
+    "options": ["Una parte de la empresa cotiza ahora por separado, así que el precio de la matriz ya no la incluye", "La empresa tuvo pérdidas ese día", "La bolsa cobra una comisión por la escisión", "Nunca baja"]
+  },
+  "V-045": {
+    "question": "Tras anunciarse una oferta en efectivo de 30 €, la empresa objetivo cotiza a 29,40 €. ¿Qué tamaño tiene la diferencia que queda, en porcentaje del precio de mercado? (Dos decimales.)",
+    "explanation": "(30 € − 29,40 €) ÷ 29,40 € ≈ 2,04 %. La diferencia refleja el tiempo hasta el pago y el riesgo de que la oferta fracase."
+  },
+  "V-046": {
+    "question": "Según el § 153 AktG, ¿de cuántas semanas debe ser como mínimo el plazo de suscripción de las acciones nuevas?",
+    "explanation": "De al menos dos semanas. Los bancos pueden fijar plazos internos anteriores, y los derechos que no se ejercen ni se venden pueden caducar."
+  }
+}
