@@ -1,0 +1,150 @@
+{
+  "W-001": {
+    "question": "En una tabla de cotizaciones de la Wiener Börse, ¿qué significa «H/L/C»?",
+    "explanation": "Los precios más alto, más bajo y de cierre del día (high, low, close).",
+    "options": ["Máximo, mínimo y cierre del día", "Tenencia, pérdida y coste", "Volumen más alto, volumen más bajo y variación", "Cubierto, apalancado y divisa"]
+  },
+  "W-002": {
+    "question": "¿Cómo se calcula el efectivo negociado en euros según la explicación de la Wiener Börse?",
+    "explanation": "Efectivo negociado = volumen (acciones) × precio de cierre.",
+    "options": ["Número de acciones negociadas × precio de cierre", "Capitalización bursátil ÷ acciones", "Precio más alto − precio más bajo", "Dividendo × acciones"]
+  },
+  "W-003": {
+    "question": "Verdadero o falso: la web de la Wiener Börse muestra los precios de las acciones con 15 minutos de retraso.",
+    "explanation": "Verdadero; el ATX y las indicaciones de precio de terceros se muestran en tiempo real."
+  },
+  "W-004": {
+    "question": "¿Qué significa el código «eD» junto al precio de una acción austriaca?",
+    "explanation": "En la fecha ex-dividendo se hace un descuento en el precio igual al dividendo.",
+    "options": ["Ex dividendo: ese día el precio se redujo en el dividendo", "Beneficios a la baja", "Fin del día", "Entrega electrónica"]
+  },
+  "W-005": {
+    "question": "¿Qué significa «eB» junto al precio de una acción?",
+    "explanation": "Una vez que empieza una ampliación con derechos, el precio ya no incluye el derecho de suscripción.",
+    "options": ["Ex Bezugsrecht: se ha descontado el valor del derecho de suscripción", "Beneficio antes de impuestos", "Precio de compra de la bolsa", "Basado en euros"]
+  },
+  "W-006": {
+    "question": "Se negociaron 182.000 acciones y el precio de cierre fue de 30,20 €. ¿Cuál fue el efectivo negociado, en millones de euros (un decimal)?",
+    "explanation": "182.000 × 30,20 € = 5.496.400 €, unos 5,5 millones de euros."
+  },
+  "W-007": {
+    "question": "¿Por qué la misma acción puede mostrar precios distintos en webs distintas? Selecciona todas las correctas.",
+    "explanation": "El ISIN identifica el valor y no cambia; el centro de negociación, la divisa y el retraso sí pueden diferir.",
+    "options": ["Centros de negociación distintos", "Divisas distintas", "Datos con retraso frente a datos en tiempo real", "El ISIN cambia cada día"]
+  },
+  "W-008": {
+    "question": "¿Qué institución actúa como mecanismo oficialmente designado (OAM) de Austria para la información regulada de los emisores cotizados?",
+    "explanation": "El OeKB recibe como OAM la información regulada de los emisores cotizados.",
+    "options": ["El OeKB", "La FMA", "Statistik Austria", "El BCE"]
+  },
+  "W-009": {
+    "question": "¿Dónde puedes buscar gratis los documentos de las empresas de EE. UU., como los informes anuales en el Form 10-K?",
+    "explanation": "EDGAR es la base de datos de la SEC con los documentos de las empresas.",
+    "options": ["En la base de datos EDGAR de la SEC", "En la lista de advertencias de la FMA", "En Eurostat", "En el Firmenbuch austriaco"]
+  },
+  "W-010": {
+    "question": "Verdadero o falso: la base de datos de empresas de la FMA muestra qué empresas tienen licencia austriaca.",
+    "explanation": "Verdadero. Úsala junto con la lista de advertencias de la FMA antes de tratar con una empresa desconocida."
+  },
+  "W-011": {
+    "question": "¿Cuándo deben publicar la información privilegiada los emisores cotizados?",
+    "explanation": "Las comunicaciones ad hoc deben publicarse sin demora (categoría R).",
+    "options": ["Sin demora", "En el plazo de un año", "Solo en el informe anual", "Solo si lo piden los accionistas"]
+  },
+  "W-012": {
+    "question": "¿Dónde puedes ver de antemano cuándo se publicarán las estadísticas de la zona del euro?",
+    "explanation": "Eurostat publica un calendario de publicaciones de sus estadísticas.",
+    "options": ["En el calendario de publicaciones de Eurostat", "En el informe anual de una empresa", "En la lista de advertencias de la FMA", "En EDGAR"]
+  },
+  "W-013": {
+    "question": "Según el § 26 Mediengesetz, ¿qué etiquetas pueden identificar el contenido pagado en los medios periódicos austriacos? Selecciona todas las correctas.",
+    "explanation": "Las contribuciones pagadas deben identificarse como «Anzeige», «entgeltliche Einschaltung» o «Werbung», salvo que su diseño elimine cualquier duda.",
+    "options": ["Anzeige", "entgeltliche Einschaltung", "Werbung", "Exklusiv"]
+  },
+  "W-014": {
+    "question": "Verdadero o falso: según el § 49 WAG 2018, las comunicaciones comerciales de las empresas de inversión deben poder identificarse claramente como tales.",
+    "explanation": "Verdadero. Además, toda la información debe ser imparcial, clara y no engañosa."
+  },
+  "W-015": {
+    "question": "¿Qué frase es más probablemente una opinión y no una noticia?",
+    "explanation": "Las previsiones y los puntos de vista son opiniones; los hechos que se cuentan pueden comprobarse.",
+    "options": ["«En nuestra opinión, la acción podría subir un 30 %».", "«Las ventas subieron un 4 % en el primer semestre, según el informe semestral».", "«La junta general es el 24 de abril».", "«El dividendo es de 1,10 € por acción»."]
+  },
+  "W-016": {
+    "question": "Según la FMA, ¿qué pregunta deberías hacerte sobre la recomendación de un finfluencer?",
+    "explanation": "La FMA aconseja comprobar quién está detrás de una recomendación, su interés económico y la credibilidad de las promesas.",
+    "options": ["¿Tiene un interés económico, por ejemplo mediante el marketing de afiliación?", "¿Cuántos seguidores tiene?", "¿Con qué frecuencia publica?", "¿Usa un equipo de vídeo profesional?"]
+  },
+  "W-017": {
+    "question": "Verdadero o falso: una publicación en redes sociales puede ser promoción pagada aunque no lleve ninguna etiqueta.",
+    "explanation": "Verdadero. Las normas de identificación no llegan a todo el mundo; pregúntate siempre a quién beneficia."
+  },
+  "W-018": {
+    "question": "Un índice en 4.000 puntos cae 80 puntos. ¿Cuál es la caída en porcentaje?",
+    "explanation": "80 ÷ 4.000 = 2 %."
+  },
+  "W-019": {
+    "question": "Un índice en 40.000 puntos cae 80 puntos. ¿Cuál es la caída en porcentaje?",
+    "explanation": "80 ÷ 40.000 = 0,2 %."
+  },
+  "W-020": {
+    "question": "Una acción cae un 50 % y después sube un 50 %. ¿Cuánto está por debajo de su precio inicial, en porcentaje?",
+    "explanation": "0,5 × 1,5 = 0,75, así que un 25 % por debajo del inicio."
+  },
+  "W-021": {
+    "question": "En los datos de EE. UU. de Damodaran de 1928 a 2025, ¿en cuántos de los 98 años cayó el S&P 500?",
+    "explanation": "26 años de pérdidas y, aun así, alrededor de un 10 % anual de media en el periodo."
+  },
+  "W-022": {
+    "question": "Verdadero o falso: las explicaciones de las crónicas diarias del mercado («las acciones cayeron porque…») son siempre causas demostradas.",
+    "explanation": "Falso. Suelen elegirse después del movimiento y deberían leerse como historias verosímiles."
+  },
+  "W-023": {
+    "question": "¿Qué hace un screener de acciones?",
+    "explanation": "Reduce una lista según criterios como el PER o la rentabilidad por dividendo; no juzga la calidad.",
+    "options": ["Filtra valores según los criterios que elijas", "Garantiza qué acciones subirán", "Ejecuta órdenes en la bolsa", "Comprueba la licencia de una empresa"]
+  },
+  "W-024": {
+    "question": "¿Qué identificador confirma mejor que unos datos corresponden al valor correcto?",
+    "explanation": "Los tickers cambian de una bolsa a otra; el ISIN identifica un valor de forma única.",
+    "options": ["El ISIN", "El logotipo de la empresa", "El ticker en cualquier bolsa", "El precio de la acción"]
+  },
+  "W-025": {
+    "question": "¿Por qué una base de datos que solo recoge las empresas de hoy puede hacer que una estrategia parezca mejor de lo que fue?",
+    "explanation": "El sesgo de supervivencia elimina los fracasos del historial.",
+    "options": ["Faltan las empresas que quebraron o fueron adquiridas (sesgo de supervivencia)", "Porque los precios van con retraso", "Por el cambio de divisa", "Porque se excluyen los dividendos"]
+  },
+  "W-026": {
+    "question": "¿Qué comprobaciones deben estar en una lista para las cifras de las que te fías? Selecciona todas las correctas.",
+    "explanation": "La fuente, la fecha, la definición, la divisa y las unidades, y un contraste con el informe de la empresa.",
+    "options": ["La fuente original", "La fecha de la cifra", "La definición usada", "La divisa y las unidades", "El número de me gusta en las redes sociales"]
+  },
+  "W-027": {
+    "question": "Verdadero o falso: una acción que pasa los filtros de un screener es automáticamente una buena inversión.",
+    "explanation": "Falso. Un filtro encuentra cifras, no gangas; lee los informes que hay detrás."
+  },
+  "W-028": {
+    "question": "Ordena de forma razonable estos pasos para comprobar una oferta de inversión no solicitada.",
+    "explanation": "Empieza por quién la ofrece, luego qué es, después la fuente original, luego tu plan, y no dejes que la urgencia te meta prisa.",
+    "orderedItems": ["Comprobar al proveedor en la base de datos y en la lista de advertencias de la FMA", "Identificar el producto exacto y su ISIN", "Leer los documentos originales", "Compararlo con tu propio plan", "Esperar un día antes de decidir"]
+  },
+  "W-029": {
+    "question": "¿Para qué sirve un diario de decisiones?",
+    "explanation": "Protege del sesgo retrospectivo y de la atribución interesada, y ayuda a llevar un registro.",
+    "options": ["Para apuntar por qué tomaste una decisión y qué esperabas", "Para seguir los movimientos diarios de los precios", "Para guardar contraseñas", "Para copiar las operaciones de otros inversores"]
+  },
+  "W-030": {
+    "question": "Verdadero o falso: la urgencia («solo hoy», «plazas limitadas») es una señal de alarma cuando recibes una oferta de inversión.",
+    "explanation": "Verdadero. La presión para actuar deprisa es una señal de alarma clásica (categoría T)."
+  },
+  "W-031": {
+    "question": "¿Dónde puedes comprobar si un proveedor tiene una autorización de la FMA austriaca?",
+    "explanation": "La base de datos de empresas de la FMA muestra las autorizaciones; la lista de advertencias de la FMA, las empresas que actúan sin ella.",
+    "options": ["En la base de datos de empresas de la FMA (Unternehmensdatenbank)", "En la propia web del proveedor", "En los comentarios de un finfluencer", "En la lista de precios de la Bolsa de Viena"]
+  },
+  "W-032": {
+    "question": "¿Qué página de Eurostat te dice de antemano cuándo se publican las estadísticas de la UE, como las cifras de inflación?",
+    "explanation": "Eurostat publica un calendario de publicaciones con las fechas de sus publicaciones estadísticas.",
+    "options": ["El calendario de publicaciones", "La lista de advertencias de la FMA", "La base de datos de fondos del OeKB", "La lista de festivos de la Wiener Börse"]
+  }
+}
