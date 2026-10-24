@@ -818,6 +818,7 @@ export const en = {
   'hsm.scene.bank': "Bank",
   'hsm.scene.broker': "Broker",
   'hsm.scene.you': "You",
+  'hsm.scene.bookEntry': "Shares live as electronic book entries, passed down a chain of accounts.",
   // ---- Quiz hub (Phase 9) ----
   'quiz.hint': 'Hint',
   'quiz.hintEliminated': 'One wrong answer has been removed.',

@@ -790,6 +790,7 @@ export const fr: Dictionary = {
   'hsm.scene.bank': "Banque",
   'hsm.scene.broker': "Courtier",
   'hsm.scene.you': "Vous",
+  'hsm.scene.bookEntry': "Les actions sont des écritures électroniques sur une chaîne de comptes.",
   'quiz.hint': "Indice",
   'quiz.hintEliminated': "Une mauvaise réponse a été retirée.",
   'quiz.hintCount': "Choisissez exactement {n} réponses.",

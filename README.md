@@ -23,9 +23,9 @@ Full requirements: [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) · Decisions a
 | Search | `/search` | Pagefind full-text search plus instant answers: questions like “What is a dividend?” (in any of the five languages) show the glossary definition, with quick links to tools, countries and topics, filters by page type and a `/` shortcut |
 
 The site is also available in German (`/de/`), Spanish (`/es/`), French (`/fr/`) and Italian (`/it/`): the interface,
-home page, tools, glossary, Scam Shield and information pages are translated. In German, all 196 lessons and the topic
-quizzes are translated too; country pages, the country quizzes and How Stocks Are Made stay in English and say so, as do
-the lessons and quizzes in the other languages.
+home page, tools, glossary, Scam Shield and information pages are translated. In German, everything else is translated too: all 196
+lessons, every quiz question, the 20 country pages and How Stocks Are Made. In Spanish, French and Italian, lessons,
+quizzes, country pages and How Stocks Are Made are still English and say so.
 
 Progress, bookmarks, quiz scores and settings stay in the visitor's browser (`localStorage`). There is no account, no
 analytics and no cookie.
@@ -160,14 +160,17 @@ placeholder is missing.
 | Scam Shield texts | `content/scam-shield.json` | `content/i18n/<locale>/scam-shield.json` |
 | About, Disclaimer, Privacy, Sources, Corrections, Impressum | `content/pages/en/*.md` | `content/pages/<locale>/*.md` |
 | Lessons | `content/lessons/<topic>/<slug>.md` | `content/i18n/<locale>/lessons/<topic>/<slug>.md` (front matter `title`, `summary`, `translatedFrom` = the English `lastReviewed`; same `##` headings and figures) |
+| Country pages | `content/countries/<code>.json` | `content/i18n/<locale>/countries/<code>.json` (texts only, in the same shape: same keys, arrays in the English order; codes, dates, links and sources stay in the English file; `translatedFrom` = the English `lastReviewed`) |
+| How Stocks Are Made | `content/how-stocks-are-made/{steps,cases}/<file>.md` | `content/i18n/<locale>/how-stocks-are-made/{steps,cases}/<file>.md` (front matter `title`, `summary`, `short` for steps, `place` for cases, `translatedFrom`; same headings and callouts) |
 | Quiz questions | `content/quizzes/<file>.json` | `content/i18n/<locale>/quizzes/<file>.json` (keyed by question id: `question`, `explanation`, and `options`, `pairs` or `orderedItems` in the English order) |
 
 How it works: pages live under `src/pages/[...locale]/`; English stays at the root, the others get a `/<locale>/`
 prefix. `src/middleware.ts` sets the language per page and rewrites internal links so visitors stay in their language.
 Topic pages, country pages, history, videos, the chart lab and most quiz pages are English-only routes
 (`src/i18n/routes.ts`): their translated versions show a translated interface with a notice, point their canonical URL
-to the English page and are left out of the sitemap. A lesson with a translation file is the exception: it gets its own
-canonical URL, hreflang links and a sitemap entry. If the English lesson is reviewed again (a newer `lastReviewed`
+to the English page and are left out of the sitemap. A lesson or country page with a translation file is the exception: it gets
+its own canonical URL, hreflang links and a sitemap entry, and so do the World Markets overview and comparison once
+every country is translated, and How Stocks Are Made once every step and case study is. If the English lesson is reviewed again (a newer `lastReviewed`
 than the translation's `translatedFrom`), the translated page shows a note that the original has changed. When you change English text, update the translations too, or
 the translated page keeps the old wording; `npm run validate` shows how many topics and glossary terms each language covers and rejects unknown ids.
 

@@ -790,6 +790,7 @@ export const ru: Dictionary = {
   'hsm.scene.bank': "Банк",
   'hsm.scene.broker': "Брокер",
   'hsm.scene.you': "Вы",
+  'hsm.scene.bookEntry': "Акции — это электронные записи в цепочке счетов.",
   'quiz.hint': "Подсказка",
   'quiz.hintEliminated': "Один неверный ответ убран.",
   'quiz.hintCount': "Выберите ровно столько ответов: {n}.",

@@ -290,10 +290,11 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Pages | A translated lesson has its own canonical URL, hreflang and sitemap entry; untranslated ones keep the English-only note. When the English lesson gets a newer lastReviewed, the German page says the original has changed |
 | Style | du-form with Austrian usage (Jänner, de-AT numbers such as 1.000 € and 27,5 %); Austrian legal terms as the BMF, FMA and the laws use them (KESt, Endbesteuerung, Regelbesteuerungsoption, Bezugsrecht, Nachweisstichtag, Übernahmekommission); callout kinds stay English in the source, their titles are German |
 | Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
+| Countries and How Stocks Are Made (2026-10-24) | Then the owner asked for the remaining German pages. Country texts are overlays in the English shape (content/i18n/<locale>/countries/<code>.json): only text fields, so codes, dates, links and sources cannot drift; the validator rejects any other field and checks array lengths. Steps and case studies are one Markdown file each, checked for the same headings and callouts. The country, comparison and How Stocks Are Made pages lost their last hard-coded English (FTSE groups, table labels, scene labels), now in all dictionaries. German is complete: 196 lessons, 1,368 quiz questions, 20 countries, 14 journey sections |
 
 ## Open items
 
-- Translations: German country pages, country quizzes and How Stocks Are Made; then Spanish, French and Italian lessons and quizzes.
+- Translations: Spanish, French and Italian lessons, quizzes, country pages and How Stocks Are Made.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
