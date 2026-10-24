@@ -27,14 +27,14 @@ const GAP = 4;
 const gx = 52;
 const gy = 116;
 const rows = [
-  { from: 2, fill: 'var(--teal)', label: 'Founders' },
+  { from: 2, fill: 'var(--teal)', label: t('hsm.scene.founders') },
   { from: 2, fill: 'var(--teal)' },
   { from: 2, fill: 'var(--series-1)' },
   { from: 2, fill: 'var(--series-1)' },
-  { from: 3, fill: 'var(--series-4)', label: 'Investors' },
-  { from: 5, fill: 'var(--series-7)', label: 'Public' },
+  { from: 3, fill: 'var(--series-4)', label: t('hsm.scene.investors') },
+  { from: 5, fill: 'var(--series-7)', label: t('hsm.scene.public') },
 ];
-const chain = ['CSD', 'Bank', 'Broker', 'You'];
+const chain = [t('hsm.scene.csd'), t('hsm.scene.bank'), t('hsm.scene.broker'), t('hsm.scene.you')];
 const nested = (name: keyof typeof ICONS, x: number, y: number, size: number) =>
   `<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="0 0 48 48" fill="none" stroke="var(--text)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">${ICONS[name]}</svg>`;
 ---
@@ -59,12 +59,12 @@ const nested = (name: keyof typeof ICONS, x: number, y: number, size: number) =>
           {/* the company */}
           <g data-on="1-9">
             <rect x="30" y="74" width="220" height="210" rx="16" fill="var(--surface-2)" stroke="var(--border)" stroke-width="2"></rect>
-            <text x="46" y="100" font-size="14" font-weight="700" fill="var(--text)">Company</text>
+            <text x="46" y="100" font-size="14" font-weight="700" fill="var(--text)">{t('hsm.scene.company')}</text>
           </g>
           <g data-on="1-1" set:html={nested('sprout', 90, 120, 100)} />
           <g data-on="5-8">
             <rect x="176" y="84" width="62" height="22" rx="11" fill="var(--teal)"></rect>
-            <text x="207" y="99" font-size="11.5" font-weight="700" fill="var(--bg)" text-anchor="middle">Listed</text>
+            <text x="207" y="99" font-size="11.5" font-weight="700" fill="var(--bg)" text-anchor="middle">{t('hsm.scene.listed')}</text>
           </g>
 
           {/* shares: the share capital split into shares, new rows dilute the earlier owners */}
@@ -95,14 +95,14 @@ const nested = (name: keyof typeof ICONS, x: number, y: number, size: number) =>
           {/* going public: the exchange */}
           <g data-on="4-9" data-dim="9">
             <g set:html={nested('exchange', 322, 80, 96)} />
-            <text x="370" y="194" font-size="13" font-weight="700" fill="var(--text)" text-anchor="middle">Stock exchange</text>
+            <text x="370" y="194" font-size="13" font-weight="700" fill="var(--text)" text-anchor="middle">{t('hsm.scene.exchange')}</text>
           </g>
           <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="var(--muted)" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" data-on="4-4"></path>
           <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="var(--teal)" stroke-width="3" stroke-linecap="round" data-on="5-8"></path>
           <path d="M254 150 C280 140 290 130 312 128" fill="none" stroke="#c8352f" stroke-width="2.5" stroke-dasharray="6 6" stroke-linecap="round" data-on="9-9"></path>
           <g data-on="9-9">
             <rect x="318" y="118" width="104" height="30" rx="6" fill="none" stroke="#c8352f" stroke-width="2.5" transform="rotate(-8 370 133)"></rect>
-            <text x="370" y="139" font-size="14" font-weight="800" fill="#c8352f" text-anchor="middle" transform="rotate(-8 370 133)">DELISTED</text>
+            <text x="370" y="139" font-size="14" font-weight="800" fill="#c8352f" text-anchor="middle" transform="rotate(-8 370 133)">{t('hsm.scene.delisted')}</text>
           </g>
 
           {/* trading: a price line on the exchange */}

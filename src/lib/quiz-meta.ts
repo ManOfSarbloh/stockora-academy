@@ -3,6 +3,7 @@
  * topic and country order, and question counts. Server-side only (uses astro:content).
  */
 import { getCollection } from 'astro:content';
+import { t } from '@/i18n';
 import { getCategories } from './categories';
 import { countryHref, getCountries } from './countries';
 import { GLOSSARY_CATEGORY, JOURNEY_CATEGORY, glossaryQuestions } from './quiz-sets';
@@ -26,7 +27,7 @@ export async function getQuizMeta(): Promise<QuizMeta> {
     getCollection('quizzes'),
     getCollection('glossary'),
   ]);
-  const names: Record<string, string> = { [GLOSSARY_CATEGORY]: 'Glossary', [JOURNEY_CATEGORY]: 'How Stocks Are Made' };
+  const names: Record<string, string> = { [GLOSSARY_CATEGORY]: t('nav.glossary'), [JOURNEY_CATEGORY]: t('hsm.title') };
   const hrefs: Record<string, string> = { [GLOSSARY_CATEGORY]: '/glossary', [JOURNEY_CATEGORY]: '/how-stocks-are-made' };
   for (const c of categories) {
     names[c.id] = c.title;

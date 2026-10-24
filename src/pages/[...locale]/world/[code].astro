@@ -11,6 +11,8 @@ import QuizSection from '@/components/quiz/QuizSection.astro';
 import VideoList from '@/components/VideoList.astro';
 import WorldMap from '@/components/world/WorldMap.astro';
 import {
+  countryLanguages,
+  ftseLabel,
   getCountries,
   marketSize,
   marketSizeSource,
@@ -21,7 +23,8 @@ import { reportMistakeHref } from '@/lib/report';
 import { t } from '@/i18n';
 import type { UiKey } from '@/i18n/en';
 import { absoluteUrl, url } from '@/lib/url';
-import { int } from '@/lib/format';
+import { int, pct } from '@/lib/format';
+import { getLessonSequence } from '@/lib/lessons';
 import * as seo from '@/lib/seo';
 
 export async function getStaticPaths() {
@@ -34,18 +37,15 @@ interface Props {
   countries: Country[];
 }
 
-const { country: c, countries } = Astro.props;
+// The props were built before the page language was set: take this language's version of the data.
+const countries = await getCountries();
+const c = countries.find((x) => x.code === Astro.props.country.code) ?? Astro.props.country;
 const size = marketSize(c.code);
-const lessons = await getCollection('lessons');
-const categories = await getCollection('categories');
-const slugByLetter = Object.fromEntries(categories.map((x) => [x.data.id, x.data.slug]));
-const related = c.lessons
-  .map((key) => {
-    const [slug, file] = key.split('/');
-    const entry = lessons.find((l) => slugByLetter[l.data.category] === slug && l.id.endsWith(`/${file}`));
-    return entry ? { href: `/learn/${key}`, title: entry.data.title } : null;
-  })
-  .filter(Boolean) as { href: string; title: string }[];
+const lessonsByKey = new Map((await getLessonSequence()).map((l) => [l.key, l]));
+const related = c.lessons.flatMap((key) => {
+  const l = lessonsByKey.get(key);
+  return l ? [{ href: l.href, title: l.title }] : [];
+});
 const hasQuiz = (await getCollection('quizzes', (q) => q.data.category === c.code)).length > 0;
 const pageUrl = new URL(Astro.url.pathname, Astro.site).toString();
 const allSources = [
@@ -75,8 +75,9 @@ const toc = [
 ---
 
 <BaseLayout
-  title={`${c.name}: stock market`}
+  title={t('wm.pageTitle', { name: c.name })}
   description={c.summary}
+  availableIn={countryLanguages(c.code)}
   jsonLd={seo.breadcrumbs([
     { name: t('wm.title'), url: absoluteUrl('/world', Astro.site) },
     { name: c.name, url: new URL(Astro.url.pathname, Astro.site).href },
@@ -97,7 +98,7 @@ const toc = [
         <div class="mt-4 flex flex-wrap items-center gap-x-4 gap-y-2 text-sm text-muted">
           {c.home && <span class="rounded-full bg-surface-2 px-2.5 py-0.5 font-medium text-link">{t('wm.home')}</span>}
           <span>{c.currency.code}</span>
-          <span>{t('wm.classification')}: {c.classification.ftse}</span>
+          <span>{t('wm.classification')}: {ftseLabel(c.classification.ftse)}</span>
           <span>{t('learn.lastReviewed')}: <time datetime={c.lastReviewed}>{c.lastReviewed}</time></span>
         </div>
       </div>
@@ -124,12 +125,12 @@ const toc = [
           </div>
           <div class="card p-4">
             <dt class="text-sm text-muted">{t('wm.marketCapGdp')}</dt>
-            <dd class="mt-1 text-xl font-bold tabular-nums">{size.marketCapPctGdp ? `${Math.round(size.marketCapPctGdp.value)}%` : '–'}</dd>
+            <dd class="mt-1 text-xl font-bold tabular-nums">{size.marketCapPctGdp ? pct(size.marketCapPctGdp.value / 100, 0) : '–'}</dd>
             <dd class="text-xs text-muted">{size.marketCapPctGdp ? `${size.marketCapPctGdp.year}` : t('wm.noFigure')}</dd>
           </div>
         </dl>
         <p class="mt-2 text-xs text-muted">
-          End-of-year figures for listed domestic companies: <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>.
+          {t('wm.marketSizeSource')} <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>.
         </p>
         {
           c.marketSize.length > 0 && (
@@ -143,7 +144,7 @@ const toc = [
           )
         }
         <p class="mt-4 text-sm">
-          {t('wm.classification')}: <strong>{c.classification.ftse}</strong>
+          {t('wm.classification')}: <strong>{ftseLabel(c.classification.ftse)}</strong>
           <span class="text-muted">
             ({t('wm.asOf', { date: c.classification.asOf })}; <a href={url('/learn/world-markets/market-classifications')}>{t('wm.classificationHelp')}</a>)
           </span>
@@ -233,7 +234,7 @@ const toc = [
           {c.currency.note}
         </p>
         <p class="mt-2 text-sm">
-          <a href={url('/learn/macroeconomics/currencies-and-your-investments')}>How exchange rates change your returns →</a>
+          <a href={url('/learn/macroeconomics/currencies-and-your-investments')}>{t('wm.currencyLesson')} →</a>
         </p>
       </section>
 
@@ -263,7 +264,7 @@ const toc = [
                       <>
                         {' '}
                         <a href={r.source.url} rel="noopener" class="text-sm">
-                          (source)
+                          ({t('wm.source')})
                         </a>
                       </>
                     )}
@@ -278,7 +279,7 @@ const toc = [
       <section id="taxes" class="scroll-mt-24">
         <h2 class="text-2xl font-bold">{t('wm.taxes')}</h2>
         <div class="mt-4">
-          <Callout kind="verify" title={`Verify · ${t('wm.asOf', { date: c.taxes.asOf })}`}>
+          <Callout kind="verify" title={`${t('verify.title')} · ${t('wm.asOf', { date: c.taxes.asOf })}`}>
             <p>{t('wm.taxes.verify')}</p>
           </Callout>
         </div>
@@ -385,7 +386,7 @@ const toc = [
           }
         </ul>
         <p class="mt-4">
-          <a href={reportMistakeHref(`${c.name} (World Markets)`, pageUrl)} class="text-muted">{t('lesson.reportMistake')}</a>
+          <a href={reportMistakeHref(`${c.name} (${t('wm.title')})`, pageUrl)} class="text-muted">{t('lesson.reportMistake')}</a>
         </p>
       </section>
     </div>

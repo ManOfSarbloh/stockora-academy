@@ -3,7 +3,8 @@
  * All data is passed in at build time from the country files; nothing is fetched.
  */
 import { useMemo, useState } from 'react';
-import { int } from '@/lib/format';
+import { t } from '@/i18n';
+import { int, num, pct } from '@/lib/format';
 
 export interface CompareRow {
   code: string;
@@ -13,6 +14,8 @@ export interface CompareRow {
   regionLabel: string;
   currency: string;
   ftse: string;
+  /** The FTSE Russell group in the page's language. */
+  ftseLabel: string;
   listedCompanies: number | null;
   listedYear: number | null;
   marketCapUsd: number | null;
@@ -36,7 +39,7 @@ const FTSE_RANK: Record<string, number> = { Developed: 0, 'Advanced Emerging': 1
 
 function usd(v: number | null) {
   if (v === null) return '–';
-  return v >= 1e12 ? `$${(v / 1e12).toFixed(2)} tn` : `$${Math.round(v / 1e9)} bn`;
+  return v >= 1e12 ? t('fmt.usdTrillion', { n: num(v / 1e12, 2) }) : t('fmt.usdBillion', { n: int(Math.round(v / 1e9)) });
 }
 
 export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base: string }) {
@@ -90,27 +93,27 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
   const ca = rows.find((r) => r.code === a);
   const cb = rows.find((r) => r.code === b);
   const facts: [string, (r: CompareRow) => string][] = [
-    ['Region', (r) => r.regionLabel],
-    ['Currency', (r) => r.currency],
-    ['FTSE Russell classification', (r) => r.ftse],
-    ['Listed domestic companies', (r) => (r.listedCompanies === null ? '–' : `${int(r.listedCompanies)} (${r.listedYear})`)],
-    ['Market capitalisation', (r) => (r.marketCapUsd === null ? '–' : `${usd(r.marketCapUsd)} (${r.marketCapYear})`)],
-    ['Main index', (r) => `${r.index}${r.indexConstituents ? ` (${r.indexConstituents})` : ''}`],
-    ['Main exchange hours', (r) => `${r.exchanges[0].hours} (${r.exchanges[0].timeZone})`],
-    ['Settlement', (r) => r.settlement],
-    ['Regulators', (r) => r.regulators],
-    ['Taxes at a glance', (r) => r.taxGlance],
+    [t('wm.cmp.region'), (r) => r.regionLabel],
+    [t('wm.currency'), (r) => r.currency],
+    [t('wm.classification'), (r) => r.ftseLabel],
+    [t('wm.listedCompanies'), (r) => (r.listedCompanies === null ? '–' : `${int(r.listedCompanies)} (${r.listedYear})`)],
+    [t('wm.marketCap'), (r) => (r.marketCapUsd === null ? '–' : `${usd(r.marketCapUsd)} (${r.marketCapYear})`)],
+    [t('wm.cmp.mainIndex'), (r) => `${r.index}${r.indexConstituents ? ` (${r.indexConstituents})` : ''}`],
+    [t('wm.cmp.mainHours'), (r) => `${r.exchanges[0].hours} (${r.exchanges[0].timeZone})`],
+    [t('wm.settlement'), (r) => r.settlement],
+    [t('wm.cmp.regulators'), (r) => r.regulators],
+    [t('wm.taxes'), (r) => r.taxGlance],
   ];
 
   return (
     <div>
       <section aria-labelledby="two-title" className="card p-5">
         <h2 id="two-title" className="text-xl font-bold">
-          Compare two countries
+          {t('wm.cmp.two')}
         </h2>
         <div className="mt-4 flex flex-wrap items-center gap-3">
           <label className="text-sm">
-            <span className="sr-only">First country</span>
+            <span className="sr-only">{t('wm.cmp.first')}</span>
             <select value={a} onChange={(e) => setA(e.target.value)} className="rounded-md border border-border bg-surface px-3 py-2">
               {rows.map((r) => (
                 <option key={r.code} value={r.code}>
@@ -119,9 +122,9 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
               ))}
             </select>
           </label>
-          <span className="text-muted">vs</span>
+          <span className="text-muted">{t('wm.vs')}</span>
           <label className="text-sm">
-            <span className="sr-only">Second country</span>
+            <span className="sr-only">{t('wm.cmp.second')}</span>
             <select value={b} onChange={(e) => setB(e.target.value)} className="rounded-md border border-border bg-surface px-3 py-2">
               {rows.map((r) => (
                 <option key={r.code} value={r.code}>
@@ -163,16 +166,16 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
 
       <section aria-labelledby="tables-title" className="mt-12">
         <h2 id="tables-title" className="text-xl font-bold">
-          Comparison tables
+          {t('wm.cmp.tables')}
         </h2>
         <div className="mt-4 flex flex-wrap items-center gap-2">
-          <div className="flex flex-wrap gap-2" role="group" aria-label="Table">
+          <div className="flex flex-wrap gap-2" role="group" aria-label={t('wm.cmp.table')}>
           {(
             [
-              ['overview', 'Overview'],
-              ['hours', 'Trading hours'],
-              ['taxes', 'Taxes'],
-              ['rules', 'Market rules'],
+              ['overview', t('wm.overview')],
+              ['hours', t('wm.cmp.tHours')],
+              ['taxes', t('wm.cmp.tTaxes')],
+              ['rules', t('wm.cmp.tRules')],
             ] as [Table, string][]
           ).map(([id, label]) => (
             <button
@@ -187,9 +190,9 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
           ))}
           </div>
           <label className="ml-auto text-sm">
-            <span className="mr-2 text-muted">Region</span>
+            <span className="mr-2 text-muted">{t('wm.cmp.region')}</span>
             <select value={region} onChange={(e) => setRegion(e.target.value)} className="rounded-md border border-border bg-surface px-2 py-1.5">
-              <option value="all">All</option>
+              <option value="all">{t('wm.cmp.all')}</option>
               {regions.map(([id, label]) => (
                 <option key={id} value={id}>
                   {label}
@@ -204,14 +207,14 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
             <table className="w-full min-w-[48rem] text-sm tabular-nums">
               <thead>
                 <tr className="border-b border-border text-left text-muted">
-                  {th('name', 'Country')}
-                  {th('ftse', 'FTSE class')}
-                  {th('listedCompanies', 'Listed companies', true)}
-                  {th('marketCapUsd', 'Market cap', true)}
-                  {th('marketCapPctGdp', '% of GDP', true)}
-                  {th('settlement', 'Settlement')}
+                  {th('name', t('wm.cmp.country'))}
+                  {th('ftse', t('wm.cmp.ftseShort'))}
+                  {th('listedCompanies', t('wm.cmp.listedShort'), true)}
+                  {th('marketCapUsd', t('wm.cmp.capShort'), true)}
+                  {th('marketCapPctGdp', t('wm.cmp.gdp'), true)}
+                  {th('settlement', t('wm.settlement'))}
                   <th scope="col" className="py-2">
-                    Main index
+                    {t('wm.cmp.mainIndex')}
                   </th>
                 </tr>
               </thead>
@@ -219,13 +222,13 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
                 {shown.map((r) => (
                   <tr key={r.code} className="border-b border-border/60">
                     <td className="py-2 pr-3">{link(r)}</td>
-                    <td className="py-2 pr-3">{r.ftse}</td>
+                    <td className="py-2 pr-3">{r.ftseLabel}</td>
                     <td className="py-2 pr-3 text-right">
                       {r.listedCompanies === null ? '–' : int(r.listedCompanies)}
                       {r.listedYear !== null && <span className="ml-1 text-xs text-muted">{r.listedYear}</span>}
                     </td>
                     <td className="py-2 pr-3 text-right">{usd(r.marketCapUsd)}</td>
-                    <td className="py-2 pr-3 text-right">{r.marketCapPctGdp === null ? '–' : `${Math.round(r.marketCapPctGdp)}%`}</td>
+                    <td className="py-2 pr-3 text-right">{r.marketCapPctGdp === null ? '–' : pct(r.marketCapPctGdp / 100, 0)}</td>
                     <td className="py-2 pr-3">{r.settlement}</td>
                     <td className="py-2">{r.index}</td>
                   </tr>
@@ -237,15 +240,15 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
             <table className="w-full min-w-[44rem] text-sm">
               <thead>
                 <tr className="border-b border-border text-left text-muted">
-                  {th('name', 'Country')}
+                  {th('name', t('wm.cmp.country'))}
                   <th scope="col" className="py-2 pr-3">
-                    Exchange
+                    {t('wm.cmp.exchange')}
                   </th>
                   <th scope="col" className="py-2 pr-3">
-                    Regular hours (local time)
+                    {t('wm.cmp.regularHours')}
                   </th>
                   <th scope="col" className="py-2">
-                    Time zone
+                    {t('wm.timeZone')}
                   </th>
                 </tr>
               </thead>
@@ -271,12 +274,12 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
             <table className="w-full min-w-[40rem] text-sm">
               <thead>
                 <tr className="border-b border-border text-left text-muted">
-                  {th('name', 'Country')}
+                  {th('name', t('wm.cmp.country'))}
                   <th scope="col" className="py-2 pr-3">
-                    At a glance
+                    {t('wm.cmp.glance')}
                   </th>
                   <th scope="col" className="py-2">
-                    As of
+                    {t('wm.cmp.asOf')}
                   </th>
                 </tr>
               </thead>
@@ -295,9 +298,9 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
             <table className="w-full min-w-[40rem] text-sm">
               <thead>
                 <tr className="border-b border-border text-left text-muted">
-                  {th('name', 'Country')}
+                  {th('name', t('wm.cmp.country'))}
                   <th scope="col" className="py-2">
-                    Rules that differ (details on each country page)
+                    {t('wm.cmp.rulesCol')}
                   </th>
                 </tr>
               </thead>

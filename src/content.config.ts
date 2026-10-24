@@ -66,6 +66,20 @@ const lessonTranslations = defineCollection({
   }),
 });
 
+/** Translated How Stocks Are Made steps and case studies: content/i18n/<locale>/how-stocks-are-made/{steps,cases}/<file>.md. */
+const journeyTranslations = defineCollection({
+  loader: glob({ pattern: '*/how-stocks-are-made/**/[^_]*.md', base: './content/i18n' }),
+  schema: z.object({
+    title: z.string(),
+    /** Steps only: short label for the pipeline diagram. */
+    short: z.string().optional(),
+    summary: z.string(),
+    /** Case studies only. */
+    place: z.string().optional(),
+    translatedFrom: reviewDate,
+  }),
+});
+
 const glossary = defineCollection({
   loader: file('content/glossary.json'),
   schema: z.object({
@@ -316,4 +330,4 @@ const pages = defineCollection({
   }),
 });
 
-export const collections = { categories, lessons, lessonTranslations, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history, pages };
+export const collections = { categories, lessons, lessonTranslations, journeyTranslations, glossary, videos, exchanges, countries, quizzes, journeySteps, caseStudies, history, pages };

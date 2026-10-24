@@ -199,7 +199,7 @@ if (existsSync('content/i18n')) {
     }
     const status = [];
     for (const d of readdirSync(`content/i18n/${loc}`, { withFileTypes: true })) {
-      if (d.isDirectory() && d.name !== 'lessons' && d.name !== 'quizzes') errors.push(`content/i18n/${loc}/${d.name}: unknown translation folder`);
+      if (d.isDirectory() && !['lessons', 'quizzes', 'countries', 'how-stocks-are-made'].includes(d.name)) errors.push(`content/i18n/${loc}/${d.name}: unknown translation folder`);
     }
     const lessonDir = `content/i18n/${loc}/lessons`;
     if (existsSync(lessonDir)) {
@@ -257,6 +257,81 @@ if (existsSync('content/i18n')) {
         }
       }
       status.push(`quiz questions ${n}/${qById.size}`);
+    }
+    // Country pages: texts only, in the English shape (same keys, same array lengths and order).
+    const countryDir = `content/i18n/${loc}/countries`;
+    if (existsSync(countryDir)) {
+      const NOT_TEXT = new Set(['code', 'region', 'home', 'asOf', 'url', 'website', 'hoursSource', 'holidaysSource', 'tradingTimesId', 'timeZone', 'lastReviewed', 'lessons', 'sources', 'source', 'ftse']);
+      let n = 0;
+      let outdated = 0;
+      for (const f of jsonFiles(countryDir)) {
+        const where = `${countryDir}/${f}`;
+        if (!existsSync(join(countriesDir, f))) {
+          errors.push(`${where}: there is no English country file content/countries/${f}`);
+          continue;
+        }
+        n++;
+        const en = readJSON(join(countriesDir, f));
+        const { translatedFrom, ...tr } = readJSON(where);
+        if (!translatedFrom) errors.push(`${where}: needs translatedFrom (the English lastReviewed)`);
+        else if (String(translatedFrom) > String(en.lastReviewed)) errors.push(`${where}: translatedFrom is later than the English lastReviewed`);
+        else if (String(translatedFrom) < String(en.lastReviewed)) outdated++;
+        const walk = (a, b, path) => {
+          if (typeof b === 'string') {
+            if (typeof a !== 'string') errors.push(`${where} ${path}: the English value is not text`);
+          } else if (Array.isArray(b)) {
+            if (!Array.isArray(a) || a.length !== b.length) errors.push(`${where} ${path}: must have ${Array.isArray(a) ? a.length : 0} entries, in the English order`);
+            else b.forEach((x, i) => walk(a[i], x, `${path}[${i}]`));
+          } else if (b && typeof b === 'object') {
+            if (!a || typeof a !== 'object' || Array.isArray(a)) errors.push(`${where} ${path}: the English value is not an object`);
+            else
+              for (const [k, v] of Object.entries(b)) {
+                if (NOT_TEXT.has(k)) errors.push(`${where} ${path}.${k}: not translatable (codes, dates, links and sources stay in the English file)`);
+                else if (!(k in a)) errors.push(`${where} ${path}.${k}: unknown field`);
+                else walk(a[k], v, `${path}.${k}`);
+              }
+          } else errors.push(`${where} ${path}: only text can be translated`);
+        };
+        walk(en, tr, en.code);
+        if (!tr.name || !tr.summary) errors.push(`${where}: needs at least name and summary`);
+      }
+      status.push(`countries ${n}/${countryCodes.size}${outdated ? ` (${outdated} outdated)` : ''}`);
+    }
+    // How Stocks Are Made: one file per step and case study, with the same headings and callouts as the English one.
+    const journeyDir = `content/i18n/${loc}/how-stocks-are-made`;
+    if (existsSync(journeyDir)) {
+      let n = 0;
+      let total = 0;
+      for (const kind of ['steps', 'cases']) {
+        const enDir = join(CONTENT, 'how-stocks-are-made', kind);
+        total += readdirSync(enDir).filter((x) => x.endsWith('.md') && !x.startsWith('_')).length;
+        const dir = join(journeyDir, kind);
+        if (!existsSync(dir)) continue;
+        for (const f of readdirSync(dir).filter((x) => x.endsWith('.md') && !x.startsWith('_'))) {
+          const where = `${dir}/${f}`;
+          if (!existsSync(join(enDir, f))) {
+            errors.push(`${where}: there is no English file content/how-stocks-are-made/${kind}/${f}`);
+            continue;
+          }
+          n++;
+          const text = readFileSync(where, 'utf8');
+          const en = readFileSync(join(enDir, f), 'utf8');
+          let fm;
+          try {
+            fm = parseYaml(text.split(/^---$/m)[1] ?? '') ?? {};
+          } catch (e) {
+            errors.push(`${where}: invalid front matter (${e.message.split('\n')[0]})`);
+            continue;
+          }
+          const enFm = parseYaml(en.split(/^---$/m)[1] ?? '') ?? {};
+          const needsShort = kind === 'steps';
+          if (!fm.title || !fm.summary || !fm.translatedFrom || (needsShort && !fm.short)) errors.push(`${where}: needs title, summary, translatedFrom${needsShort ? ' and short' : ''}`);
+          if (String(fm.translatedFrom) > String(enFm.lastReviewed)) errors.push(`${where}: translatedFrom is later than the English lastReviewed`);
+          const shape = (md) => (md.match(/^(#{2,4} |> \[![A-Z]+\])/gm) ?? []).map((x) => x.trim()).join('|');
+          if (shape(text) !== shape(en)) errors.push(`${where}: headings and callouts must match the English file`);
+        }
+      }
+      status.push(`how stocks are made ${n}/${total}`);
     }
     for (const f of readdirSync(`content/i18n/${loc}`).filter((n) => n.endsWith('.json'))) {
       const where = `content/i18n/${loc}/${f}`;

@@ -28,6 +28,7 @@ const ms = marketSizeData as {
 export const marketSizeSource = ms.source;
 export const marketSizeAsOf = ms.asOf;
 export const marketSizeNote = ms.note;
+export const marketSizeMinYear = ms.minYear;
 
 /** World Bank figures for a country, leaving out values older than `minYear` (too old to compare). */
 export function marketSize(code: string): MarketSize {

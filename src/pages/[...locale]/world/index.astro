@@ -8,7 +8,7 @@ export const getStaticPaths = () => localeParams();
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import WorldMap from '@/components/world/WorldMap.astro';
-import { getCountries, countryHref, marketSize, REGION_ORDER } from '@/lib/countries';
+import { getCountries, countryHref, marketSize, REGION_ORDER, worldLanguages } from '@/lib/countries';
 import { t } from '@/i18n';
 import { int } from '@/lib/format';
 import type { UiKey } from '@/i18n/en';
@@ -18,7 +18,7 @@ const countries = await getCountries();
 const regions = REGION_ORDER.filter((r) => countries.some((c) => c.region === r));
 ---
 
-<BaseLayout title={t('wm.title')} description={t('wm.lead')}>
+<BaseLayout title={t('wm.title')} description={t('wm.lead')} availableIn={worldLanguages()}>
   <PageHeader art="globe" title={t('wm.title')} lead={t('wm.lead')} eyebrow={t('wm.eyebrow')}>
     <p class="mt-4 flex flex-wrap gap-3 text-sm">
       <a href={url('/world/compare')} class="btn btn-primary">{t('wm.compare')}</a>

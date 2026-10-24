@@ -10,7 +10,8 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import Callout from '@/components/Callout.astro';
 import CompareWorld, { type CompareRow } from '@/components/world/CompareWorld';
-import { getCountries, countryHref, marketSize, marketSizeSource, marketSizeAsOf, marketSizeNote } from '@/lib/countries';
+import { getCountries, countryHref, ftseLabel, marketSize, marketSizeSource, marketSizeAsOf, marketSizeMinYear, worldLanguages } from '@/lib/countries';
+import { getLessonSequence } from '@/lib/lessons';
 import { t } from '@/i18n';
 import type { UiKey } from '@/i18n/en';
 import { url } from '@/lib/url';
@@ -26,6 +27,7 @@ const rows: CompareRow[] = countries.map((c) => {
     regionLabel: t(`tt.region.${c.region}` as UiKey),
     currency: c.currency.code,
     ftse: c.classification.ftse,
+    ftseLabel: ftseLabel(c.classification.ftse),
     listedCompanies: s.listedCompanies?.value ?? null,
     listedYear: s.listedCompanies?.year ?? null,
     marketCapUsd: s.marketCapUsd?.value ?? null,
@@ -44,9 +46,10 @@ const rows: CompareRow[] = countries.map((c) => {
 });
 const classificationAsOf = countries.map((c) => c.classification.asOf).sort()[0];
 const classificationSource = countries[0]?.classification.source;
+const classificationLesson = (await getLessonSequence()).find((l) => l.key === 'world-markets/market-classifications');
 ---
 
-<BaseLayout title={t('wm.compare')} description={t('wm.compare.lead')}>
+<BaseLayout title={t('wm.compare')} description={t('wm.compare.lead')} availableIn={worldLanguages()}>
   <PageHeader art="compare" title={t('wm.compare')} lead={t('wm.compare.lead')} eyebrow={t('wm.title')}>
     <p class="mt-4 text-sm"><a href={url('/world')}>← {t('wm.allCountries')}</a> · <a href={url('/times')}>{t('nav.times')} →</a></p>
   </PageHeader>
@@ -58,23 +61,23 @@ const classificationSource = countries[0]?.classification.source;
     </noscript>
 
     <div class="mt-12 max-w-3xl space-y-4 text-sm">
-      <Callout kind="verify" title="Verify before you rely on it">
-        <p>{t('wm.taxes.verify')} Hours, settlement cycles and classifications change too; each country page links to the official source.</p>
+      <Callout kind="verify" title={t('verify.title')}>
+        <p>{t('wm.taxes.verify')} {t('wm.cmp.verifyExtra')}</p>
       </Callout>
       <p class="text-muted">
-        <strong>Market size:</strong> {marketSizeNote} Figures older than 2022 are not shown. Source: <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>, data updated {marketSizeAsOf}.
+        <strong>{t('wm.marketSize')}:</strong> {t('wm.cmp.note')} {t('wm.cmp.minYear', { year: marketSizeMinYear })} {t('wm.cmp.source')} <a href={marketSizeSource.url} rel="noopener">{marketSizeSource.title}</a>, {t('wm.cmp.updated', { date: marketSizeAsOf })}.
       </p>
       {
         classificationSource && (
           <p class="text-muted">
-            <strong>Classification:</strong> FTSE Russell, as of {classificationAsOf}: <a href={classificationSource.url} rel="noopener">{classificationSource.title}</a>. MSCI publishes its own, sometimes different, list:{' '}
-            <a href="https://www.msci.com/indexes/index-resources/market-classification" rel="noopener">MSCI Market Classification</a>. See{' '}
-            <a href={url('/learn/world-markets/market-classifications')}>Developed, emerging and frontier markets</a>.
+            <strong>{t('wm.cmp.classLabel')}:</strong> {t('wm.cmp.classAsOf', { date: classificationAsOf })} <a href={classificationSource.url} rel="noopener">{classificationSource.title}</a>. {t('wm.cmp.msci')}{' '}
+            <a href="https://www.msci.com/indexes/index-resources/market-classification" rel="noopener">MSCI Market Classification</a>. {t('wm.cmp.see')}{' '}
+            <a href={url('/learn/world-markets/market-classifications')}>{classificationLesson?.title}</a>.
           </p>
         )
       }
       <p class="text-muted">
-        <strong>Trading hours in your time zone:</strong> the <a href={url('/times')}>Trading Times</a> tool converts exchange hours to your local time and shows holidays.
+        <strong>{t('wm.cmp.hoursLabel')}:</strong> <a href={url('/times')}>{t('nav.times')}</a> {t('wm.cmp.hoursText')}
       </p>
     </div>
   </div>
