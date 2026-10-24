@@ -1979,7 +1979,7 @@
   "definition": "El interés que paga un bono, expresado como porcentaje de su valor nominal. Un cupón del 3 % en un bono de 1.000 € paga 30 € al año."
  },
  "maturity": {
-  "term": "Vencimiento",
+  "term": "Vencimiento de un bono",
   "definition": "La fecha en que termina un bono y el emisor devuelve su valor nominal. Los bonos con vencimientos más largos reaccionan con más fuerza a los cambios de tipos."
  },
  "face-value": {

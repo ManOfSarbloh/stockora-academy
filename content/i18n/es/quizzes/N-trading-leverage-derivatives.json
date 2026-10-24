@@ -1,0 +1,260 @@
+{
+  "N-001": {
+    "question": "¿Cómo describe Investor.gov el day trading?",
+    "explanation": "Investor.gov: el day trading es extremadamente arriesgado y puede provocar pérdidas económicas sustanciales en muy poco tiempo.",
+    "options": ["Extremadamente arriesgado, con posibles pérdidas sustanciales en muy poco tiempo", "Una forma segura de obtener ingresos regulares", "Adecuado para todos los principiantes", "Ilegal en Estados Unidos"]
+  },
+  "N-002": {
+    "question": "Ordena estos estilos del periodo de tenencia típico más corto al más largo.",
+    "explanation": "Las operaciones intradía se cierran el mismo día; las de swing duran de días a semanas; las de posición, de semanas a meses; la inversión de comprar y mantener, años.",
+    "orderedItems": ["Day trading", "Swing trading", "Trading de posición", "Inversión de comprar y mantener"]
+  },
+  "N-003": {
+    "question": "Un operador paga 5 € de costes por cada operación de ida y vuelta y hace 10 al día durante 220 sesiones. ¿Cuáles son sus costes anuales, en euros?",
+    "explanation": "5 € × 10 × 220 = 11.000 €, que tiene que ganar con los movimientos del precio solo para quedar en tablas."
+  },
+  "N-004": {
+    "question": "Verdadero o falso: la FMA advierte de que los retos de prop trading de pago pueden parecerse a la relación entre un jugador y un casino.",
+    "explanation": "Verdadero. La FMA señala que la empresa fija las reglas, que no tienen por qué ser equilibradas, y que el negocio suele vivir sobre todo de las cuotas de los retos."
+  },
+  "N-005": {
+    "question": "Según la FMA, ¿de qué informaban a menudo los operadores que perdieron dinero con plataformas de prop trading?",
+    "explanation": "Los operadores informaron de diferenciales muy inflados, así que las posiciones empezaban en pérdidas antes de que se moviera el mercado.",
+    "options": ["Diferenciales mucho más amplios que en los brókeres reales", "Beneficios garantizados", "Cuentas gratuitas con dinero real", "Ninguna comisión"]
+  },
+  "N-006": {
+    "question": "¿A qué tipo especial tributan en general en Austria las ganancias realizadas con acciones del patrimonio privado, en porcentaje?",
+    "explanation": "El § 27a EStG fija el tipo especial del 27,5 % para los rendimientos de activos de capital, como las ganancias con acciones."
+  },
+  "N-007": {
+    "question": "En el estudio de 2014 de la AMF sobre 14.799 clientes activos de forex y CFD en Francia, ¿más de qué porcentaje perdió dinero en cuatro años?",
+    "explanation": "La AMF halló una proporción de clientes con pérdidas de más del 89 %."
+  },
+  "N-008": {
+    "question": "¿Cuál fue la pérdida media por cliente en el estudio de la AMF, en euros?",
+    "explanation": "El resultado medio fue una pérdida de 10.887 € por cliente; la pérdida mediana, de 1.843 €."
+  },
+  "N-009": {
+    "question": "Según los análisis de los supervisores nacionales que citó la ESMA en 2018, ¿qué proporción de las cuentas minoristas de CFD suele perder dinero?",
+    "explanation": "ESMA: entre el 74 % y el 89 % de las cuentas minoristas suelen perder dinero con los CFD, con pérdidas medias de 1.600 € a 29.000 € por cliente.",
+    "options": ["Entre el 74 % y el 89 %", "Entre el 10 % y el 20 %", "Alrededor del 50 %", "Menos del 5 %"]
+  },
+  "N-010": {
+    "question": "Verdadero o falso: en el estudio de Taiwán sobre el day trading, los day traders más activos obtuvieron beneficios antes de costes, pero no lo bastante para cubrir los costes de transacción.",
+    "explanation": "Verdadero. Barber, Lee, Liu y Odean hallaron que los beneficios brutos de los day traders más activos no bastaban para cubrir los costes de transacción."
+  },
+  "N-011": {
+    "question": "¿Qué halló la AMF sobre los clientes que más operaban?",
+    "explanation": "La AMF halló que los operadores más activos fueron los que más perdieron, y que quienes siguieron operando no aprendieron a hacerlo mejor.",
+    "options": ["Fueron los que más perdieron, y no hubo efecto de aprendizaje con el tiempo", "Fueron los que más ganaron", "No pagaron costes", "Todos se pasaron a comprar y mantener"]
+  },
+  "N-012": {
+    "question": "En el estudio de Taiwán, en un periodo típico de seis meses, ¿qué proporción de day traders perdió dinero?",
+    "explanation": "Más de ocho de cada diez day traders perdieron dinero en el periodo típico de seis meses.",
+    "options": ["Más de ocho de cada diez", "Alrededor de la mitad", "Menos de uno de cada diez", "Exactamente un tercio"]
+  },
+  "N-013": {
+    "question": "Con un apalancamiento de 5:1, un precio sube un 10 %. ¿Aproximadamente qué ganancia porcentual supone sobre tu propio dinero (antes de costes)?",
+    "explanation": "Resultado en % ≈ movimiento del precio en % × apalancamiento = 10 % × 5 = 50 %."
+  },
+  "N-014": {
+    "question": "Con un apalancamiento de 5:1, ¿qué caída del precio (en porcentaje) se lleva toda tu aportación?",
+    "explanation": "Una caída del 20 % × 5 = el 100 % de tu propio dinero."
+  },
+  "N-015": {
+    "question": "Verdadero o falso: según Investor.gov, en una llamada de margen tu bróker puede vender tus valores sin avisarte antes.",
+    "explanation": "Verdadero. El bróker puede exigir más dinero o vender valores sin avisar, y decide cuáles vende."
+  },
+  "N-016": {
+    "question": "Compras 10.000 € de acciones con 5.000 € de tu dinero. Las acciones caen un 30 % y se venden. ¿Cuánto te queda de tu propio dinero, en euros?",
+    "explanation": "Las acciones valen 7.000 €; tras devolver el préstamo de 5.000 €, quedan 2.000 €: una pérdida del 60 % por una caída del 30 %."
+  },
+  "N-017": {
+    "question": "Según el léxico de la Wiener Börse, ¿qué hace el margen de variación en la negociación de futuros?",
+    "explanation": "El margen de variación es la liquidación diaria de las ganancias y las pérdidas; el margen inicial se deposita para abrir la posición.",
+    "options": ["Liquida cada día las ganancias y las pérdidas", "Paga el dividendo", "Sustituye al margen inicial", "Fija el precio del futuro"]
+  },
+  "N-018": {
+    "question": "Verdadero o falso: a finales de los años veinte, quienes compraban acciones a margen solían pagar ellos mismos alrededor del 10 % del precio.",
+    "explanation": "Verdadero, según Federal Reserve History; el dinero prestado alimentó el auge y agravó el crac."
+  },
+  "N-019": {
+    "question": "¿Qué hace un vendedor en corto?",
+    "explanation": "Los vendedores en corto toman prestadas acciones y las venden; después las recompran y las devuelven, y ganan si el precio ha caído.",
+    "options": ["Vende acciones prestadas con la esperanza de recomprarlas más baratas", "Compra acciones solo durante muy poco tiempo", "Vende acciones que tiene desde hace años", "Compra opciones que ganan si los precios suben"]
+  },
+  "N-020": {
+    "question": "Vendes en corto 100 acciones prestadas a 50 € y las recompras a 80 €. ¿Cuál es tu pérdida, en euros (antes de comisiones)?",
+    "explanation": "Vendidas por 5.000 €, recompradas por 8.000 €: una pérdida de 3.000 €."
+  },
+  "N-021": {
+    "question": "Verdadero o falso: la posible pérdida de una venta en corto se limita al importe recibido al vender.",
+    "explanation": "Falso. El precio de una acción no tiene techo, así que las pérdidas en corto son, en teoría, ilimitadas."
+  },
+  "N-022": {
+    "question": "Según el Reglamento de la UE sobre ventas en corto, ¿a partir de qué porcentaje del capital social emitido debe publicarse una posición corta neta?",
+    "explanation": "Las posiciones deben comunicarse al supervisor desde el 0,1 % y publicarse desde el 0,5 %, y en cada 0,1 % adicional."
+  },
+  "N-023": {
+    "question": "Verdadero o falso: las ventas en corto descubiertas («al desnudo») de acciones están prohibidas en la UE.",
+    "explanation": "Verdadero. ESMA: todas las ventas en corto de acciones deben estar cubiertas."
+  },
+  "N-024": {
+    "question": "¿Qué es un short squeeze?",
+    "explanation": "Las compras para cerrar posiciones cortas añaden demanda, lo que puede empujar el precio todavía más arriba.",
+    "options": ["Una subida que obliga a los vendedores en corto a recomprar, lo que empuja los precios aún más arriba", "Una prohibición de las ventas en corto", "Una caída provocada por los vendedores en corto", "Una comisión por tomar prestadas acciones"]
+  },
+  "N-025": {
+    "question": "¿Qué le da una opción call a su comprador?",
+    "explanation": "Una call es el derecho a comprar; una put, el derecho a vender (Investor.gov, Wiener Börse).",
+    "options": ["El derecho, pero no la obligación, de comprar el subyacente al precio de ejercicio", "La obligación de comprar el subyacente", "El derecho a vender el subyacente", "Un dividendo garantizado"]
+  },
+  "N-026": {
+    "question": "Compras una call con precio de ejercicio de 100 € por una prima de 5 €. ¿A partir de qué precio de la acción al vencimiento empiezas a ganar, en euros?",
+    "explanation": "Punto de equilibrio = precio de ejercicio + prima = 105 €."
+  },
+  "N-027": {
+    "question": "La misma call (precio de ejercicio de 100 €, prima de 5 €). Al vencimiento la acción está en 120 €. ¿Cuál es tu beneficio por acción, en euros?",
+    "explanation": "La call vale 20 €; menos la prima de 5 € = 15 €, una rentabilidad del 300 % sobre la prima."
+  },
+  "N-028": {
+    "question": "¿Qué le pasa a una opción call que no se ejerce antes del vencimiento?",
+    "explanation": "El léxico de la Wiener Börse: si una call no se ejerce, vence sin valor.",
+    "options": ["Vence sin valor", "Se convierte en una acción", "Se devuelve la prima", "Se convierte en un bono"]
+  },
+  "N-029": {
+    "question": "¿Quién es el «Stillhalter» (emisor) de una opción?",
+    "explanation": "El emisor tiene una posición vendida y debe entregar (call) o comprar (put) el subyacente si el comprador ejerce.",
+    "options": ["El vendedor, que recibe la prima y debe cumplir el contrato si se ejerce", "El comprador de la opción", "La bolsa", "Solo la cámara de compensación"]
+  },
+  "N-030": {
+    "question": "Verdadero o falso: el emisor de una call descubierta puede sufrir, en teoría, pérdidas ilimitadas.",
+    "explanation": "Verdadero. Si el precio de la acción se dispara, el emisor tiene que entregar al precio de ejercicio acciones que no tiene."
+  },
+  "N-031": {
+    "question": "¿Qué describe el «apalancamiento» (Hebel) de una opción, según el léxico de la Wiener Börse?",
+    "explanation": "Los precios de las opciones se mueven desproporcionadamente más que el subyacente, así que hace falta menos capital para participar de un movimiento.",
+    "options": ["Cuánto más cambia en porcentaje el precio de la opción que el del subyacente", "El tipo de interés de la opción", "El número de acciones por contrato", "La comisión de la bolsa"]
+  },
+  "N-032": {
+    "question": "Para el comprador, ¿cuál es la principal diferencia entre un futuro y una opción?",
+    "explanation": "El léxico de la Wiener Börse llama a los futuros operaciones a plazo incondicionales: las dos partes están obligadas.",
+    "options": ["Un futuro es una obligación; una opción, un derecho", "Un futuro nunca puede perder dinero", "Una opción no tiene precio", "Un futuro es solo para divisas"]
+  },
+  "N-033": {
+    "question": "Verdadero o falso: los futuros están normalizados y por eso pueden negociarse en bolsa.",
+    "explanation": "Verdadero. Las especificaciones de los contratos están normalizadas; sus equivalentes fuera de bolsa son los contratos a plazo (forwards)."
+  },
+  "N-034": {
+    "question": "Depositas 8.000 € de margen inicial en un futuro sobre un índice con un valor de 100.000 €. El índice cae un 3 % el día 1 y otro 3 % el día 2. ¿Aproximadamente qué porcentaje de tu margen se pierde? (Redondea al entero.)",
+    "explanation": "Pérdidas: 3.000 € + 2.910 € = 5.910 €, alrededor del 74 % de 8.000 €, mientras el índice solo cayó alrededor de un 6 %."
+  },
+  "N-035": {
+    "question": "Verdadero o falso: las pérdidas de una posición en futuros se limitan al margen inicial depositado.",
+    "explanation": "Falso. Las dos partes están obligadas por el contrato, así que las pérdidas pueden superar el margen."
+  },
+  "N-036": {
+    "question": "Aparte de la especulación, ¿cuál es un uso típico de los futuros?",
+    "explanation": "Productores, consumidores y fondos usan los futuros para fijar precios o ajustar su exposición.",
+    "options": ["La cobertura, por ejemplo fijar un precio de antemano", "Cobrar dividendos", "Votar en la junta general", "Evitar cualquier riesgo"]
+  },
+  "N-037": {
+    "question": "¿Qué elementos forman parte de las normas de la UE y de Austria para los CFD minoristas? Selecciona todas las correctas.",
+    "explanation": "Las normas incluyen límites de apalancamiento, una regla de cierre por margen, protección frente a saldo negativo, la prohibición de incentivos y una advertencia de riesgo. La rentabilidad nunca está garantizada.",
+    "options": ["Límites de apalancamiento", "Protección frente a saldo negativo", "Una advertencia de riesgo normalizada", "Rentabilidades mínimas garantizadas"]
+  },
+  "N-038": {
+    "question": "¿Cuál es el apalancamiento máximo de un CFD minorista sobre un par de divisas principal según las normas de la ESMA?",
+    "explanation": "30:1 para los pares de divisas principales, 20:1 para el oro y los índices principales, 10:1 para otras materias primas e índices, 5:1 para las acciones y 2:1 para las criptomonedas."
+  },
+  "N-039": {
+    "question": "¿Qué margen inicial mínimo, en porcentaje, exige el FMA-PIV austriaco para un CFD sobre una acción individual?",
+    "explanation": "El FMA-PIV exige un 20 % para las acciones (apalancamiento de 5:1) y un 50 % para las monedas virtuales."
+  },
+  "N-040": {
+    "question": "¿A qué porcentaje del margen mínimo exigido debe cerrar un proveedor las posiciones de CFD de un cliente minorista?",
+    "explanation": "La regla de cierre por margen está fijada en el 50 % del margen mínimo exigido."
+  },
+  "N-041": {
+    "question": "¿Desde cuándo está en vigor el Reglamento de Intervención de Productos de la FMA austriaca (FMA-PIV)?",
+    "explanation": "El FMA-PIV entró en vigor el 15 de mayo de 2019, lo que hizo permanentes en Austria las medidas de la ESMA.",
+    "options": ["Desde el 15 de mayo de 2019", "Desde el 1 de enero de 2008", "Desde el 1 de agosto de 2025", "No existe"]
+  },
+  "N-042": {
+    "question": "Verdadero o falso: en Austria no se pueden comercializar, distribuir ni vender opciones binarias a clientes particulares.",
+    "explanation": "Verdadero. El FMA-PIV lo prohíbe."
+  },
+  "N-043": {
+    "question": "Verdadero o falso: la protección frente a saldo negativo significa que un cliente minorista nunca puede perder dinero con los CFD.",
+    "explanation": "Falso. Significa que un cliente minorista no puede perder más que el dinero que tiene en la cuenta de CFD. La mayoría de las cuentas minoristas siguen perdiendo dinero."
+  },
+  "N-044": {
+    "question": "¿A qué precio cerró GameStop el 27 de enero de 2021, según el informe del personal de la SEC? (Dos decimales.)",
+    "explanation": "Cerró en 347,51 $, más de un 1.600 % por encima de su cierre del 11 de enero."
+  },
+  "N-045": {
+    "question": "¿Qué concluyó el personal de la SEC que sostuvo durante semanas la subida del precio de GameStop?",
+    "explanation": "El personal halló que el cierre de cortos fue una pequeña parte de las compras; fue el ánimo positivo lo que sostuvo la subida.",
+    "options": ["El ánimo positivo, no las compras de los vendedores en corto para cerrar sus posiciones", "Solo el cierre de posiciones cortas", "Una oferta de adquisición", "Un aumento del 1.600 % en los beneficios de la empresa"]
+  },
+  "N-046": {
+    "question": "Verdadero o falso: algunos brókeres restringieron la negociación de GameStop el 28 de enero de 2021.",
+    "explanation": "Verdadero. El informe del personal de la SEC relaciona las restricciones con la volatilidad unida al riesgo de liquidación."
+  },
+  "N-047": {
+    "question": "¿En torno a qué nivel habían rondado las posiciones cortas en GameStop durante la mayor parte de 2020, en relación con su capital flotante?",
+    "explanation": "Alrededor del 100 %, con un máximo del 109,26 % el 31 de diciembre de 2020.",
+    "options": ["Alrededor del 100 %", "Alrededor del 5 %", "Alrededor del 25 %", "Exactamente el 0 %"]
+  },
+  "N-048": {
+    "question": "¿Qué ámbitos identificó el personal de la SEC para estudiarlos más a fondo tras el episodio de las acciones meme? Selecciona todas las correctas.",
+    "explanation": "La nota de prensa los cita, junto con la negociación en dark pools y por parte de los mayoristas.",
+    "options": ["Las fuerzas que pueden llevar a un bróker a restringir la negociación", "Las prácticas de interacción digital y el pago por el flujo de órdenes", "La dinámica de mercado de las ventas en corto", "Prohibir toda la negociación minorista"]
+  },
+  "N-049": {
+    "question": "¿En qué se diferencian los warrants (Optionsscheine) de las opciones negociadas en bolsa, según el léxico de la Wiener Börse?",
+    "explanation": "Los dos dan derechos parecidos a los de una opción, pero los warrants los emiten distintos emisores con características distintas.",
+    "options": ["Las opciones están estrictamente normalizadas; los warrants de distintos emisores tienen características distintas", "Los warrants nunca vencen", "Los warrants son acciones", "Las opciones solo las emiten los bancos"]
+  },
+  "N-050": {
+    "question": "Verdadero o falso: un certificado es jurídicamente un bono al portador, así que prestas dinero al emisor y asumes su riesgo de crédito.",
+    "explanation": "Verdadero. La Zertifikate-Lupe de la FMA explica que comprar un certificado significa prestar dinero al emisor."
+  },
+  "N-051": {
+    "question": "¿En qué escala califica los productos el indicador de riesgo del KID?",
+    "explanation": "La FMA explica el indicador resumido de riesgo del 1 (riesgo más bajo) al 7 (riesgo muy alto), incluido el riesgo de crédito del emisor.",
+    "options": ["Del 1 al 7, donde 7 es un riesgo muy alto", "De la A a la F", "Del 0 al 100", "Solo bajo o alto"]
+  },
+  "N-052": {
+    "question": "Verdadero o falso: los productos apalancados como los warrants están entre los instrumentos no complejos para los que las empresas nunca tienen que comprobar la conveniencia.",
+    "explanation": "Falso. Los derivados no están entre los instrumentos no complejos que enumera el artículo 25, apartado 4, de MiFID II, así que las empresas evalúan en general la conveniencia."
+  },
+  "N-053": {
+    "question": "¿Qué reglas ayudan a limitar los daños si decides probar el trading? Selecciona todas las correctas.",
+    "explanation": "Un presupuesto aparte, proveedores regulados y límites por escrito ayudan. Doblar tras las pérdidas es la forma de vaciar una cuenta.",
+    "options": ["Un presupuesto pequeño y fijo, separado de los ahorros a largo plazo", "Usar solo proveedores regulados", "Escribir una regla para dejar todo el experimento", "Doblar la apuesta tras cada pérdida"]
+  },
+  "N-054": {
+    "question": "Verdadero o falso: un proveedor que ofrece a un cliente particular en Austria un apalancamiento en CFD de 100:1 sobre un par de divisas principal es una señal de alarma.",
+    "explanation": "Verdadero. El FMA-PIV limita el apalancamiento minorista sobre los pares de divisas principales a 30:1 (margen del 3,33 %)."
+  },
+  "N-055": {
+    "question": "¿Por qué es útil llevar un registro honesto de cada operación?",
+    "explanation": "La AMF no halló ningún efecto de aprendizaje con el tiempo entre los clientes de CFD y forex; un registro evita que recuerdes solo las ganancias.",
+    "options": ["Muestra los resultados reales después de costes, que pueden compararse con una inversión sencilla en un índice", "Evita los impuestos", "Garantiza beneficios", "Es obligatorio para abrir cualquier cuenta"]
+  },
+  "N-056": {
+    "question": "Según las normas de la UE y de Austria para las cuentas minoristas de CFD, ¿a qué porcentaje del margen exigido debe cerrar las posiciones el proveedor?",
+    "explanation": "Cierre por margen al 50 % del margen exigido, junto con la protección frente a saldo negativo y los límites de apalancamiento."
+  },
+  "N-057": {
+    "question": "¿Qué cifra deben mostrar los proveedores de CFD a los clientes minoristas en su advertencia de riesgo normalizada?",
+    "explanation": "La advertencia de riesgo debe indicar el porcentaje de cuentas minoristas del proveedor que pierden dinero.",
+    "options": ["La proporción de sus cuentas minoristas que pierden dinero", "El beneficio anual del propio proveedor", "Una rentabilidad mínima garantizada", "El número de seguidores en redes sociales"]
+  },
+  "N-058": {
+    "question": "¿Qué riesgos tiene en cuenta el indicador de riesgo del KID (escala del 1 al 7) de un certificado?",
+    "explanation": "La Zertifikate-Lupe de la FMA explica que el indicador incluye tanto el riesgo de mercado como el riesgo de crédito, porque un certificado es un bono del emisor.",
+    "options": ["Tanto el riesgo de mercado como el riesgo de crédito del emisor", "Solo el riesgo de mercado del subyacente", "Solo la calificación crediticia del emisor", "Solo los costes del producto"]
+  }
+}
