@@ -1,0 +1,86 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Taiwan",
+  "summary": "Die Taiwan Stock Exchange (TWSE) eröffnete 1962. Zu ihren börsennotierten Unternehmen gehören der Chiphersteller TSMC und Elektronikkonzerne wie Hon Hai (Foxconn). Der TAIEX bildet alle börsennotierten Aktien ab. Die Handelszeit ist kurz (09:00–13:30), Aktien werden in Losen von 1.000 Stück mit einer täglichen Grenze von ±10 % gehandelt, und Privatpersonen zahlen keine Kapitalertragsteuer, nur eine Transaktionssteuer von 0,3 % beim Verkauf. FTSE Russell stuft Taiwan als fortgeschrittenes Schwellenland ein.",
+  "currency": {
+    "name": "Neuer Taiwan-Dollar",
+    "note": "Taiwanesische Aktien lauten auf Neue Taiwan-Dollar, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des Taiwan-Dollars gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Taiwan Stock Exchange (TWSE)",
+      "city": "Taipeh",
+      "founded": "23. Oktober 1961; Geschäftsbetrieb ab 9. Februar 1962",
+      "hours": "Eröffnungsauktion 08:30–09:00, fortlaufender Handel 09:00–13:25, Schlussauktion 13:25–13:30. Nachbörslicher Handel zum Festpreis 14:00–14:30.",
+      "note": "Kleinere Unternehmen werden an der Taipei Exchange (TPEx) gehandelt. Taiwan hat keine Sommerzeit."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TAIEX (TWSE Capitalization Weighted Stock Index)",
+      "description": "Maßstab für die gemeinsame Entwicklung der an der TWSE notierten Aktien, gewichtet nach Marktwert. Basiswert 100 = Jahresdurchschnitt 1966. Zusammengestellt von der TWSE."
+    },
+    {
+      "name": "FTSE TWSE Taiwan 50",
+      "constituents": "50 Unternehmen",
+      "description": "Von der TWSE gemeinsam mit FTSE zusammengestellt. Taiwans erster ETF, 2003 aufgelegt, beruhte auf ihm."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Supervisory Commission (FSC)",
+      "role": "Reguliert und beaufsichtigt Banken, Wertpapiere, Termingeschäfte und Versicherungen in Taiwan."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (CDIC)",
+      "text": "Einlagen in Neuen Taiwan-Dollar oder Fremdwährung sind bis 3 Mio. NT$ pro Einleger und Bank gedeckt, einschließlich Zinsen. Konten bei Wertpapierfirmen sind von der Einlagensicherung nicht erfasst."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage)",
+    "csd": "Taiwan Depository & Clearing Corporation (TDCC); die TWSE selbst ist das Clearinghaus für Börsengeschäfte",
+    "note": "Ausländische Anleger wickeln über ihre lokale Verwahrbank ab. Die Abwicklung T+2 Lieferung gegen Zahlung wurde 2009 eingeführt."
+  },
+  "rules": [
+    {
+      "title": "Lose von 1.000 Aktien, Odd Lots getrennt",
+      "text": "Eine Handelseinheit umfasst 1.000 Aktien. Kleinere Aufträge sind Odd-Lot-Aufträge; seit 26. Oktober 2020 können Odd Lots auch während der regulären Sitzung gehandelt werden."
+    },
+    {
+      "title": "Tägliche Kursgrenze von ±10 %",
+      "text": "Aktien, inländische ETFs und ähnliche Produkte dürfen sich pro Tag höchstens um 10 % vom Referenzkurs bewegen (am 1. Juni 2015 von 7 % angehoben). Neu notierte Aktien sind an ihren ersten fünf Handelstagen ausgenommen."
+    },
+    {
+      "title": "Registrierung für ausländische Anleger",
+      "text": "Ausländische private und institutionelle Anleger müssen eine lokale Verwahrbank bestellen, die sie bei der TWSE registriert, bevor ein Broker ein Handelskonto eröffnen kann."
+    }
+  ],
+  "taxes": {
+    "glance": "Wertpapiertransaktionssteuer von 0,3 % auf Aktienverkäufe (nur der Verkäufer). Keine Kapitalertragsteuer für Privatpersonen. Dividenden an nicht Ansässige: 21 % Quellensteuer.",
+    "items": [
+      { "title": "Wertpapiertransaktionssteuer", "text": "0,3 % des Werts eines Aktienverkaufs, vom Verkäufer bezahlt (0,15 % für glattgestellte Daytrading-Geschäfte bis Ende 2027). ETFs: 0,1 %." },
+      { "title": "Kursgewinne", "text": "Für Privatpersonen steuerfrei." },
+      { "title": "Dividenden", "text": "Nicht Ansässige: 21 % Quellensteuer. Ansässige wählen, ob sie Dividenden zum steuerpflichtigen Einkommen hinzurechnen (mit einer Gutschrift von 8,5 % bis 80.000 NT$) oder pauschal getrennt 28 % zahlen." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer nur bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q). Ob ein Teil der 21 % in Taiwan zurückgefordert werden kann, hängt von den Abkommensregeln ab; frag deine Bank oder eine Steuerberatung." }
+    ]
+  },
+  "access": [
+    "Manche österreichischen Banken und Broker bieten den Handel an der Taiwan Stock Exchange an; das Los von 1.000 Aktien kann eine einzelne volle Handelseinheit teuer machen.",
+    "Manche großen taiwanesischen Unternehmen haben auch in den USA notierte Hinterlegungsscheine.",
+    "Indirekt über Fonds oder ETFs auf taiwanesische, asiatische oder Schwellenländer-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Taiwans erste regulierte Börse, die Taiwan Stock Exchange, wird am 23. Oktober gegründet." },
+    { "text": "Die TWSE nimmt am 9. Februar den Geschäftsbetrieb auf." },
+    { "text": "Börsennotierte Aktien wechseln am 2. August auf das vollautomatische Handelssystem FAST (Fully Automated Securities Trading)." },
+    { "text": "Taiwans erster ETF entsteht, auf Basis des Taiwan 50 Index." },
+    { "text": "Die tägliche Kursgrenze wird am 1. Juni von 7 % auf 10 % erweitert." },
+    { "text": "Der fortlaufende Handel ersetzt während der Sitzung die periodischen Auktionen (23. März); der Odd-Lot-Handel während des Tages beginnt (26. Oktober)." }
+  ],
+  "funFacts": [
+    "Vor dem 23. März 2020 bot die TWSE während der Sitzung keinen fortlaufenden Handel: Aufträge wurden in wiederholten Auktionen zusammengeführt.",
+    "Im ersten Halbjahr 2025 entfiel etwa die Hälfte des gesamten Handels an der TWSE auf Privatanleger, 37 % auf ausländische Institutionen."
+  ]
+}

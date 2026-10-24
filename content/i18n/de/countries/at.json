@@ -1,0 +1,85 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Österreich",
+  "summary": "Ein kleiner, aber traditionsreicher Markt: Die Wiener Börse wurde 1771 gegründet, und der ATX bildet rund 20 ihrer liquidesten Aktien ab, darunter viele Banken, Versicherungen, Energie- und Industrieunternehmen. Österreich ist das Heimatbeispiel dieser Website.",
+  "currency": {
+    "name": "Euro",
+    "note": "Für einen Anleger, dessen Geld in Euro liegt, haben österreichische Aktien kein Währungsrisiko. Viele ATX-Unternehmen erzielen aber einen Teil ihres Umsatzes in anderen Währungen, besonders in Mittel- und Osteuropa, daher können Währungsschwankungen trotzdem ihre Gewinne beeinflussen."
+  },
+  "exchanges": [
+    {
+      "name": "Wiener Börse",
+      "city": "Wien",
+      "founded": "1771, durch Maria Theresia",
+      "hours": "Fortlaufender Handel 09:00–17:30 für ATX-Aktien, mit Eröffnungsauktion ab 08:55, einer kurzen Mittagsauktion 12:00–12:03 und einer Schlussauktion 17:30–17:35. Weniger liquide Aktien werden eventuell nur in Auktionen gehandelt.",
+      "note": "Die Börse handelt an mehreren österreichischen Feiertagen, etwa an Heilige Drei Könige, Christi Himmelfahrt, Pfingstmontag und Fronleichnam."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "ATX (Austrian Traded Index)",
+      "constituents": "Rund 20 Aktien (20 im Oktober 2026)",
+      "description": "Kursindex des Blue-Chip-Segments, von der Wiener Börse in Echtzeit berechnet. Die Aktien sind nach ihrem Marktwert gewichtet. Er startete am 2. Jänner 1991 mit 1.000 Punkten."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finanzmarktaufsicht (FMA)",
+      "role": "Integrierte Aufsicht über Banken, Versicherungen, Wertpapierfirmen, Fonds und die Wertpapiermärkte, einschließlich Marktmissbrauch und Veröffentlichungspflichten der Emittenten."
+    },
+    {
+      "name": "Übernahmekommission",
+      "role": "Unabhängige Behörde bei der Wiener Börse, die Übernahmeangebote überwacht (Kategorie R)."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (Einlagensicherung AUSTRIA)",
+      "text": "Bankeinlagen sind bis 100.000 € pro Person und Bank geschützt."
+    },
+    {
+      "name": "Anlegerentschädigung",
+      "text": "Kann eine Bank für dich verwahrte Wertpapiere pflichtwidrig nicht zurückgeben, deckt die Anlegerentschädigung bis zu 20.000 €. Wertpapiere im Depot bleiben dein Eigentum."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "OeKB CSD",
+    "note": "Wie der Rest der EU stellt Österreich am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag (T+1) um."
+  },
+  "rules": [
+    {
+      "title": "Volatilitätsunterbrechungen",
+      "text": "Würde der nächste Kurs außerhalb eines festgelegten Korridors liegen, wird der Handel unterbrochen (zum Beispiel 2 Minuten im fortlaufenden Handel), und eine Auktion bestimmt den Kurs. Das ist die Wiener Form eines Circuit Breakers."
+    },
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: 27,5 % auf Dividenden und Kursgewinne (KESt, von österreichischen Banken einbehalten); 25 % auf Bankzinsen.",
+    "items": [
+      { "title": "Kursgewinne und Dividenden", "text": "Mit einem besonderen Steuersatz von 27,5 % besteuert (Kapitalertragsteuer, KESt). Eine österreichische Bank oder ein österreichischer Broker behält sie ein, womit die Steuer meist abgegolten ist." },
+      { "title": "Bankzinsen", "text": "Zinsen auf Bankeinlagen werden mit 25 % besteuert." },
+      { "title": "Ausländische Dividenden", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen." },
+      { "title": "Ausländischer Broker", "text": "Mit einem Depot im Ausland wird keine KESt einbehalten; du gibst die Einkünfte selbst in deiner österreichischen Steuererklärung an." },
+      { "title": "Kryptowährungen", "text": "Seit 1. März 2022 mit 27,5 % Teil der Kapitalerträge, für nach dem 28. Februar 2021 angeschaffte Werte." }
+    ]
+  },
+  "access": [
+    "Über eine österreichische Bank oder einen österreichischen Broker, die die österreichische Steuer automatisch einbehalten.",
+    "Über einen ausländischen Broker; dann gibst du die Einkünfte selbst an (Kategorie Q).",
+    "Indirekt über Fonds oder ETFs, die österreichische Aktien halten (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Maria Theresia gründet die Wiener Börse." },
+    { "text": "Der Börsenkrach vom 9. Mai 1873 beendet den Gründerzeit-Boom; etwa die Hälfte der börsennotierten Unternehmen verschwindet (Kategorie K)." },
+    { "text": "Der ATX startet am 2. Jänner mit 1.000 Punkten." },
+    { "text": "Die Wiener Börse feiert ihr 250-jähriges Bestehen." }
+  ],
+  "funFacts": [
+    "Die Wiener Börse beschreibt sich als eine der ältesten Börsen der Welt.",
+    "Im Oktober 2026 waren alle 20 ATX-Aktien österreichische Unternehmen."
+  ]
+}

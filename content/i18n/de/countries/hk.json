@@ -1,0 +1,90 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Hongkong",
+  "summary": "Hongkong ist eine Sonderverwaltungszone Chinas mit eigener Währung, eigenen Gesetzen und eigener Börse. Die HKEX ist das Tor zwischen Festland-China und internationalen Anlegern: Viele große Festlandunternehmen notieren hier, und Stock Connect verbindet sie mit Shanghai und Shenzhen. Der Hang Seng Index ist der wichtigste Maßstab. Hongkong erhebt keine Steuer auf Dividenden, aber auf jedes Aktiengeschäft fällt Stempelsteuer an.",
+  "currency": {
+    "name": "Hongkong-Dollar",
+    "note": "Der Hongkong-Dollar ist seit 17. Oktober 1983 an den US-Dollar gekoppelt, innerhalb einer Spanne von 7,75–7,85 HK$ je US-Dollar. Für einen Euro-Anleger bewegt er sich gegenüber dem Euro daher ungefähr wie der US-Dollar (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "The Stock Exchange of Hong Kong (Teil von Hong Kong Exchanges and Clearing, HKEX)",
+      "city": "Hongkong",
+      "founded": "1980 (SEHK gegründet, Zusammenschluss von vier Börsen); Holding HKEX 2000",
+      "hours": "Vorbörsliche Auktion 09:00–09:30, Vormittagssitzung 09:30–12:00, Mittagspause 12:00–13:00, Nachmittagssitzung 13:00–16:00, danach eine Schlussauktion, die zu einem zufälligen Zeitpunkt zwischen 16:08 und 16:10 endet.",
+      "note": "Seit September 2024 bleibt der Markt auch bei Taifunen und schwerem Regensturm geöffnet (Severe Weather Trading). Hongkong hat keine Sommerzeit."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Hang Seng Index (HSI)",
+      "constituents": "95 Unternehmen (Oktober 2026)",
+      "description": "Einer der ältesten Aktienindizes Hongkongs, öffentlich gestartet am 24. November 1969, und der am häufigsten zitierte Gradmesser des Marktes. Seine Mitglieder sind in vier Teilindizes gruppiert: Finanzen, Versorger, Immobilien sowie Handel und Industrie. Berechnet von Hang Seng Indexes Company."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Futures Commission (SFC)",
+      "role": "Hongkongs unabhängige Aufsicht über die Wertpapier- und Terminmärkte."
+    },
+    {
+      "name": "Hong Kong Monetary Authority (HKMA)",
+      "role": "Zentralbankinstitution: betreibt das System der Wechselkursbindung und beaufsichtigt die Banken."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Investor Compensation Fund",
+      "text": "Fällt ein zugelassener Broker aus, können Anleger für Verluste bei Wertpapieren mit bis zu 500.000 HK$ pro Person entschädigt werden (und getrennt davon mit bis zu 500.000 HK$ bei Termingeschäften)."
+    },
+    {
+      "name": "Deposit Protection Scheme",
+      "text": "Bankeinlagen sind bis 800.000 HK$ pro Einleger und Bank geschützt. Aktien, Anleihen und Fonds sind nicht gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage)",
+    "csd": "CCASS, das Central Clearing and Settlement System der Hong Kong Securities Clearing Company (HKSCC, Teil der HKEX)"
+  },
+  "rules": [
+    {
+      "title": "Keine täglichen Kursgrenzen, aber eine Volatilitätskontrolle",
+      "text": "Anders als Festland-China hat Hongkong keine festen täglichen Kursgrenzen. Stattdessen gilt für größere Aktien und manche ETFs ein Volatility Control Mechanism: Würde ein Geschäft den Kurs um mehr als eine festgelegte Schwelle (zwischen ±5 % und ±50 %) von seinem Stand fünf Minuten zuvor entfernen, beginnt eine fünfminütige Abkühlphase mit einem Kursband."
+    },
+    {
+      "title": "Board Lots und Odd Lots",
+      "text": "Aktien werden in Handelseinheiten (Board Lots) gehandelt. Aufträge kleiner als eine Handelseinheit sind Odd-Lot-Geschäfte, die getrennt von Board-Lot-Aufträgen abgewickelt werden und einen ungünstigeren Kurs bekommen können."
+    },
+    {
+      "title": "Stempelsteuer auf jedes Geschäft",
+      "text": "Käufer und Verkäufer zahlen je 0,1 % Stempelsteuer auf den Wert eines Hongkonger Aktiengeschäfts (seit 17. November 2023, vorher 0,13 %)."
+    }
+  ],
+  "taxes": {
+    "glance": "Keine Quellensteuer auf Dividenden und keine Steuer auf erhaltene Dividenden. Hongkong besteuert nur Unternehmensgewinne, Gehälter und Mieteinkünfte aus Immobilien; Gewinne aus dem Verkauf von Kapitalvermögen gehören nicht zu den steuerpflichtigen Gewinnen. Stempelsteuer von 0,1 % auf jeder Seite eines Aktiengeschäfts.",
+    "items": [
+      { "title": "Dividenden", "text": "Auf von Unternehmen gezahlte Dividenden gibt es keine Quellensteuer, und von Unternehmen erhaltene Dividenden sind steuerfrei." },
+      { "title": "Gewinne", "text": "Hongkong besteuert drei Einkommensquellen: Unternehmensgewinne, Gehälter und Mieteinkünfte aus Immobilien. Gewinne aus dem Verkauf von Kapitalvermögen sind von den steuerpflichtigen Gewinnen ausgenommen; wer Aktien gewerblich handelt, kann auf die Gewinne besteuert werden." },
+      { "title": "Stempelsteuer", "text": "0,1 % des Geschäftswerts, von Käufer und Verkäufer bezahlt." },
+      { "title": "Für österreichische Anleger", "text": "Auf Dividenden und Gewinne fällt wie üblich österreichische Steuer (KESt) an (Kategorie Q); da es keine Hongkonger Quellensteuer gibt, ist nichts anzurechnen oder zurückzufordern." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Hongkonger Börse an; prüfe die Kosten für den Umtausch von Euro in Hongkong-Dollar und die Stempelsteuer.",
+    "Hongkong ist auch der Weg zu A-Aktien vom Festland über Stock Connect, bei Brokern, die das unterstützen (siehe China).",
+    "Indirekt über Fonds oder ETFs auf den Hang Seng Index, chinesische oder asiatische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Der Hang Seng Index wird am 24. November öffentlich gestartet." },
+    { "text": "The Stock Exchange of Hong Kong wird gegründet und vereint vier Börsen: die Hong Kong, Far East, Kam Ngan und Kowloon Stock Exchange." },
+    { "text": "Der Hongkong-Dollar wird am 17. Oktober an den US-Dollar gekoppelt." },
+    { "text": "Der Handel zieht in einen neuen Saal am Exchange Square, in dem zu Spitzenzeiten über 1.200 Parketthändler arbeiteten." },
+    { "text": "Börse, Terminbörse und Clearinghaus werden Tochtergesellschaften der HKEX (6. März); die HKEX notiert am 27. Juni ihre eigenen Aktien." },
+    { "text": "Shanghai-Hong Kong Stock Connect startet am 17. November." },
+    { "text": "Im September beginnt das Severe Weather Trading: Der Markt bleibt bei Taifunen geöffnet." }
+  ],
+  "funFacts": [
+    "Die HKEX war 2000 eine der ersten Börsen der Welt, die ihre eigenen Aktien notierte (Aktienkürzel 388).",
+    "Der erste in Hongkong notierte ETF, der Tracker Fund of Hong Kong (1999), sammelte 33,3 Mrd. HK$ ein, damals der größte Börsengang Asiens außerhalb Japans."
+  ]
+}

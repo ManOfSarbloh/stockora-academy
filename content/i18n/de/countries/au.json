@@ -1,0 +1,86 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Australien",
+  "summary": "Australiens nationale Börse ASX entstand 1987 aus sechs Börsen der Bundesstaaten; die Sydney Stock Exchange geht auf 1871 zurück. Zu den frühen Notierungen gehörten die Bank of NSW (heute Westpac) und ab 1885 der Bergbaukonzern BHP. Durch Australiens Franking-System sind viele Dividenden schon vom Unternehmen versteuert, und auf voll gefrankte Dividenden an ausländische Anleger fällt keine Quellensteuer an. Sydney stellt in der entgegengesetzten Jahreszeit zu Europa auf Sommerzeit um.",
+  "currency": {
+    "name": "Australischer Dollar",
+    "note": "Australische Aktien lauten auf australische Dollar, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des australischen Dollars gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Australian Securities Exchange (ASX)",
+      "city": "Sydney",
+      "founded": "1. April 1987 (Zusammenschluss von sechs Börsen der Bundesstaaten); Sydney Stock Exchange 1871",
+      "hours": "Eröffnungsauktion um etwa 09:59 (zufällig gestaffelt), normaler Handel bis 16:00, eine Vorschlussphase 16:00–16:10 und die Schlussauktion um etwa 16:10.",
+      "note": "Sydney hat von Oktober bis April Sommerzeit, in der entgegengesetzten Jahreszeit zu Europa, daher ändert sich die Zeitverschiebung zu Wien zweimal im Jahr um unterschiedliche Beträge. Seit 2010 hat die ASX Konkurrenz durch andere Handelsplätze."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/ASX 200",
+      "constituents": "200 Unternehmen",
+      "description": "Der investierbare Maßstab für den australischen Aktienmarkt: der S&P/ASX 100 plus weitere 100 Aktien, gewichtet nach der streubesitzbereinigten Marktkapitalisierung. Berechnet von S&P Dow Jones Indices."
+    },
+    {
+      "name": "All Ordinaries",
+      "constituents": "500 Unternehmen",
+      "description": "Die 500 größten an der ASX notierten Unternehmen nach Marktkapitalisierung; Liquidität ist kein Kriterium (außer bei Unternehmen mit Sitz im Ausland)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Australian Securities and Investments Commission (ASIC)",
+      "role": "Beaufsichtigt Unternehmen, Finanzdienstleistungen und Märkte; sie übernahm 2010 die Echtzeit-Marktüberwachung von der ASX."
+    },
+    {
+      "name": "Australian Prudential Regulation Authority (APRA)",
+      "role": "Beaufsichtigt Banken, Versicherungen und Pensionsfonds (Superannuation) und betreibt das Financial Claims Scheme."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Claims Scheme",
+      "text": "Einlagen sind bis 250.000 A$ pro Kontoinhaber bei jeder Bank, Bausparkasse und Kreditgenossenschaft geschützt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage)",
+    "csd": "CHESS (Clearing House Electronic Subregister System), betrieben von ASX Settlement",
+    "note": "Australien stellte für Geschäfte ab 7. März 2016 von T+3 auf T+2 um. Die ASX hat eine Umstellung auf T+1 geprüft, aber noch keinen Termin festgelegt."
+  },
+  "rules": [
+    {
+      "title": "Gefrankte Dividenden",
+      "text": "Australische Unternehmen können Franking Credits für bereits bezahlte Körperschaftsteuer beifügen. Für ausländische Anleger wird von voll gefrankten Dividenden (oder Conduit Foreign Income) keine Quellensteuer abgezogen; nur der ungefrankte Teil unterliegt der Quellensteuer."
+    },
+    {
+      "title": "Elektronisches Eigentum seit 1998",
+      "text": "Papierne Aktienzertifikate wurden am 31. Dezember 1998 vollständig durch elektronische Registrierung ersetzt. Aktien werden entweder im CHESS-Unterregister (über einen Broker) oder in einem vom Emittenten geführten Unterregister gehalten."
+    }
+  ],
+  "taxes": {
+    "glance": "Im Ausland Ansässige: keine Quellensteuer auf voll gefrankte Dividenden; ungefrankte Dividenden 30 %, nach den meisten Doppelbesteuerungsabkommen auf 15 % reduziert. Kursgewinne aus gewöhnlichen Aktienbeständen werden für im Ausland Ansässige in Australien in der Regel nicht besteuert (Ausnahmen für Beteiligungen von 10 % oder mehr an grundbesitzreichen Unternehmen).",
+    "items": [
+      { "title": "Ungefrankte Dividenden", "text": "Quellensteuer von 30 % für Länder ohne Abkommen; die meisten Doppelbesteuerungsabkommen senken sie auf 15 %. Für im Ausland Ansässige ist das eine Abgeltungssteuer." },
+      { "title": "Gefrankte Dividenden", "text": "Voll gefrankte Dividenden sind quellensteuerfrei; bei teilweise gefrankten Dividenden wird nur der ungefrankte Teil besteuert. Im Ausland Ansässige können die Franking Credits nicht geltend machen." },
+      { "title": "Kursgewinne", "text": "Im Ausland Ansässige zahlen australische Kapitalertragsteuer nur auf „taxable Australian property“. Aktien zählen nur in Sonderfällen dazu, zum Beispiel bei einer Beteiligung von 10 % oder mehr an einem Unternehmen, dessen Vermögen vor allem aus australischen Immobilien besteht." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q)." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der ASX an; prüfe den Umtausch in australische Dollar. Wegen der Zeitverschiebung handelt die ASX, während Europa schläft.",
+    "Indirekt über Fonds oder ETFs auf den S&P/ASX 200, Pazifik- oder Industrieländer-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Sydney Stock Exchange wird gegründet; zu den frühen Notierungen gehören AGL und die Bank of NSW (heute Westpac)." },
+    { "text": "BHP (Broken Hill Proprietary) geht an die Börse." },
+    { "text": "Am 1. April entsteht aus sechs Börsen der Bundesstaaten die Australian Stock Exchange; das elektronische Handelssystem SEATS wird eingeführt." },
+    { "text": "Die ASX wandelt sich als erste Börse der Welt in eine Aktiengesellschaft um und notiert an ihrem eigenen Markt (14. Oktober)." },
+    { "text": "Die ASX fusioniert mit der Sydney Futures Exchange." },
+    { "text": "Die Abwicklung wird von T+3 auf T+2 umgestellt (7. März)." }
+  ],
+  "funFacts": [
+    "Die ersten Geschäftsregeln der Sydney Stock Exchange umfassten 17 Regeln auf 6 Seiten; die Handelsregeln der ASX haben heute etwa 500 Seiten.",
+    "Die Cricket-Legende Don Bradman wurde 1943 Mitglied der Börse von Adelaide."
+  ]
+}

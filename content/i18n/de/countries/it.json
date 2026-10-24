@@ -1,0 +1,72 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Italien",
+  "summary": "Die Mailänder Börse wurde 1808 per napoleonischem Dekret gegründet und ist heute die Euronext Milan, betrieben von der Borsa Italiana innerhalb der Euronext-Gruppe. Der FTSE MIB bildet 40 führende italienische Unternehmen ab, mit einem starken Gewicht von Banken, Energie und Luxusmarken. Beim Kauf italienischer Aktien fällt eine Finanztransaktionssteuer an.",
+  "currency": {
+    "name": "Euro",
+    "note": "Dieselbe Währung wie in Österreich, also kein Wechselkursrisiko für einen Euro-Anleger."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Milan (Borsa Italiana)",
+      "city": "Mailand",
+      "founded": "1808 (Mailänder Warenbörse, gegründet per Dekret vom 16. Jänner 1808)",
+      "hours": "Eröffnungsauktion 07:30–09:00, fortlaufender Handel 09:00–17:30, Schlussauktion 17:30–17:35, danach Handel zum Schlusskurs bis 17:40.",
+      "note": "Mailand schließt an manchen Tagen, an denen andere Euronext-Märkte handeln, zum Beispiel am 24. und 31. Dezember 2026."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE MIB",
+      "constituents": "40 Unternehmen",
+      "description": "Die 40 führenden Aktien an der Euronext Milan und der Euronext MIV Milan, ausgewählt nach Liquidität und Marktkapitalisierung. Berechnet von FTSE Russell gemeinsam mit der Borsa Italiana."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CONSOB (Commissione Nazionale per le Società e la Borsa)",
+      "role": "Italiens nationale Kommission für Gesellschaften und die Börse: die Aufsicht über den Wertpapiermarkt."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FITD (Interbankenfonds zur Einlagensicherung)",
+      "text": "Einlagen bei Mitgliedsbanken sind bis 100.000 € pro Einleger und Bank garantiert. Genossenschafts- und ländliche Banken gehören einem eigenen Sicherungsfonds an."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Euronext Securities Milan (der Zentralverwahrer von Euronext in Mailand)",
+    "note": "Wie der Rest der EU stellt Italien am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Finanztransaktionssteuer",
+      "text": "Übertragungen von Aktien italienischer Unternehmen werden seit 1. Jänner 2026 mit 0,4 % des Werts besteuert (bis Ende 2025 0,2 %). Für Geschäfte an geregelten Märkten oder multilateralen Handelssystemen halbiert sich der Satz, Käufe an der Börse kosten also 0,2 %. Aktien von Unternehmen mit einem durchschnittlichen Marktwert unter 500 Mio. € (im vorangegangenen November) sind ausgenommen."
+    },
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: 26 % Ersatzsteuer auf die meisten Kursgewinne aus Finanzinstrumenten. Nicht Ansässige: Italien behält Steuer auf Dividenden ein; der Satz laut Abkommen kann direkt von der Zahlstelle angewendet oder innerhalb von 48 Monaten zurückgefordert werden. FTT 0,2 % auf Börsenkäufe größerer italienischer Unternehmen (2026).",
+    "items": [
+      { "title": "Kursgewinne (Ansässige)", "text": "Gewinne aus Finanzinstrumenten unterliegen in der Regel einer Ersatzsteuer von 26 %; für manche Kategorien gilt ein Satz von 20 %." },
+      { "title": "Dividenden für ausländische Anleger", "text": "Italien behält auf Dividenden an nicht Ansässige Steuer ein. Ein nicht Ansässiger kann die italienische Abzugsstelle bitten, den Satz des Doppelbesteuerungsabkommens direkt anzuwenden, oder den Überschuss innerhalb von 48 Monaten bei der Agenzia delle Entrate (Centro Operativo di Pescara) zurückfordern." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere italienische Quellensteuer musst du in Italien zurückfordern." },
+      { "title": "Transaktionssteuer", "text": "Siehe Marktregeln oben: seit 2026 0,4 %, oder 0,2 % für Geschäfte an geregelten Märkten." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Euronext Milan in Euro an; prüfe, ob die italienische Transaktionssteuer aufgeschlagen wird.",
+    "Indirekt über Fonds oder ETFs auf den FTSE MIB oder breitere europäische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Ein Dekret des Vizekönigs Eugène Napoléon vom 16. Jänner gründet die Mailänder Warenbörse; ein zweites Dekret vom 6. Februar legt ihre ersten Regeln fest." },
+    { "text": "Italien verdoppelt ab 1. Jänner seine Finanztransaktionssteuer auf Aktien auf 0,4 % (0,2 % an geregelten Märkten)." }
+  ],
+  "funFacts": [
+    "Laut Borsa Italiana wollten die französischen Behörden die Mailänder Börse unter anderem als organisierten Markt für den Verkauf von Staatsschulden, in Konkurrenz zu London."
+  ]
+}

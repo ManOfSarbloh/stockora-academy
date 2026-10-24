@@ -1,0 +1,99 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Indien",
+  "summary": "Indien hat zwei landesweite Börsen in Mumbai: die BSE, 1875 gegründet und die älteste Börse Asiens, und die National Stock Exchange (NSE), die 1994 den Bildschirmhandel einführte. Nifty 50 und Sensex sind die wichtigsten Indizes. Indien schloss die Umstellung auf die Abwicklung am nächsten Geschäftstag (T+1) im Jänner 2023 ab, mehr als ein Jahr vor den USA. Für ausländische Privatanleger ist der direkte Zugang begrenzt, daher investieren die meisten über Fonds.",
+  "currency": {
+    "name": "Indische Rupie",
+    "note": "Indische Aktien lauten auf Rupien, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen der Rupie gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "National Stock Exchange of India (NSE)",
+      "city": "Mumbai",
+      "founded": "Nahm 1994 als erste Bildschirmbörse Indiens den Betrieb auf",
+      "hours": "Vorbörsliche Sitzung 09:00–09:15, fortlaufender Handel 09:15–15:30, Zusammenführung in der Schlussauktion 15:30–15:35 und eine Schlusssitzung 15:50–16:00.",
+      "note": "Die India Standard Time ist UTC+5:30, eine halbstündige Verschiebung, und Indien hat keine Sommerzeit."
+    },
+    {
+      "name": "BSE (früher Bombay Stock Exchange)",
+      "city": "Mumbai",
+      "founded": "1875",
+      "hours": "Vorbörsliche Auktion 09:00–09:15, fortlaufender Handel 09:15–15:30.",
+      "note": "Die BSE beschreibt sich als älteste Börse Asiens und als größte der Welt nach Zahl der börsennotierten Unternehmen."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Nifty 50",
+      "constituents": "50 Unternehmen",
+      "description": "Ein nach Marktkapitalisierung im Streubesitz gewichteter Index großer an der NSE notierter Unternehmen. Basiswert 1.000 am 3. November 1995, ein Jahr nach dem Start des Aktienmarkts der NSE. Im März 2026 deckte er etwa 54 % des Marktwerts im Streubesitz der an der NSE notierten Aktien ab. Berechnet von NSE Indices."
+    },
+    {
+      "name": "BSE Sensex",
+      "constituents": "30 Unternehmen",
+      "description": "Indiens erster Aktienindex, gestartet am 2. Jänner 1986. Misst die 30 größten und liquidesten an der BSE notierten Unternehmen aus wichtigen Branchen. Basiswert 100 (Basistag 3. April 1979)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Board of India (SEBI)",
+      "role": "Indiens Wertpapieraufsicht: 1988 gegründet und seit Inkrafttreten des SEBI Act am 30. Jänner 1992 eine gesetzliche Behörde."
+    },
+    {
+      "name": "Reserve Bank of India (RBI)",
+      "role": "Zentralbank; beaufsichtigt Banken und den Devisenverkehr."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (DICGC)",
+      "text": "Bankeinlagen sind bis 5 Lakh ₹ (500.000 ₹) pro Einleger und Bank versichert, Kapital und Zinsen zusammen. Unverändert seit 4. Februar 2020."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (nächster Geschäftstag); für ausgewählte Aktien wahlweise am selben Tag (T+0)",
+    "csd": "Zwei Zentralverwahrer: NSDL (National Securities Depository) und CDSL (Central Depository Services)",
+    "note": "Indien stellte ab 2021 schrittweise von T+2 auf T+1 um, abgeschlossen im Jänner 2023. Ein wahlweiser Abwicklungszyklus T+0 begann am 28. März 2024 für eine begrenzte Auswahl von Aktien."
+  },
+  "rules": [
+    {
+      "title": "Wertpapiertransaktionssteuer (STT)",
+      "text": "Käufe und Verkäufe von Aktien mit Lieferung an einer indischen Börse zahlen jeweils 0,1 % STT (der Käufer beim Kauf, der Verkäufer beim Verkauf). Intraday-Geschäfte zahlen auf der Verkaufsseite einen niedrigeren Satz."
+    },
+    {
+      "title": "Aktien liegen in elektronischen (Demat-)Depots",
+      "text": "Anleger halten indische Aktien in einem Demat-Depot bei einem Depository Participant von NSDL oder CDSL."
+    },
+    {
+      "title": "Begrenzter direkter Zugang für Ausländer",
+      "text": "Ausländische Anleger investieren in börsennotierte indische Aktien in der Regel nach den Regeln der SEBI für Foreign Portfolio Investors (FPI), die eine Registrierung über einen designierten Depository Participant verlangen. Privatanleger im Ausland nutzen daher meist stattdessen Fonds oder Hinterlegungsscheine."
+    }
+  ],
+  "taxes": {
+    "glance": "Börsennotierte Aktien (STT bezahlt): langfristige Gewinne (Haltedauer über 12 Monate) über 1,25 Lakh ₹ mit 12,5 % besteuert; kurzfristige Gewinne 20 % (Sätze seit 23. Juli 2024). Dividenden an nicht Ansässige: 20 % Steuerabzug an der Quelle, nach Abkommen reduzierbar. STT 0,1 % auf Geschäfte mit Lieferung. Ab 1. April 2026 gilt ein neuer Income-tax Act, 2025.",
+    "items": [
+      { "title": "Langfristige Kursgewinne", "text": "Gewinne aus börsennotierten Aktien, die länger als 12 Monate gehalten wurden und auf die STT bezahlt wurde, werden mit 12,5 % auf den Betrag über 1,25 Lakh ₹ im Jahr besteuert (10 % über 1 Lakh ₹ bei Verkäufen vor dem 23. Juli 2024)." },
+      { "title": "Kurzfristige Kursgewinne", "text": "Gewinne aus börsennotierten Aktien, die 12 Monate oder kürzer gehalten und mit bezahlter STT an einer Börse verkauft wurden, werden mit 20 % besteuert (15 % bei Verkäufen vor dem 23. Juli 2024)." },
+      { "title": "Dividenden für nicht Ansässige", "text": "Auf Dividenden an nicht Ansässige werden 20 % Steuer an der Quelle abgezogen. Ein Doppelbesteuerungsabkommen kann einen niedrigeren Satz erlauben." },
+      { "title": "Neues Gesetz", "text": "Der Income-tax Act, 2025 ersetzt ab 1. April 2026 das Gesetz von 1961, mit neuen Paragrafennummern. Prüfe die aktuellen Sätze beim Income Tax Department." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere indische Steuer musst du nach dem Abkommen reduzieren lassen oder in Indien zurückfordern." }
+    ]
+  },
+  "access": [
+    "Indirekt über Fonds oder ETFs auf indische Indizes wie den Nifty 50 oder auf Schwellenländer-Indizes (Kategorie H). Das ist der übliche Weg für Privatanleger in Österreich.",
+    "Manche großen indischen Unternehmen haben in den USA notierte Hinterlegungsscheine; prüfe, welche über deine Bank oder deinen Broker verfügbar sind.",
+    "Direkter Handel an NSE oder BSE erfordert eine Registrierung nach den Regeln der SEBI für ausländische Anleger und wird Privatanlegern im Ausland selten angeboten."
+  ],
+  "history": [
+    { "text": "Die BSE wird in Bombay (Mumbai) gegründet." },
+    { "text": "Der Sensex, Indiens erster Aktienindex, startet am 2. Jänner." },
+    { "text": "Der SEBI Act tritt am 30. Jänner in Kraft und macht die SEBI zu einer gesetzlichen Aufsicht." },
+    { "text": "Die NSE nimmt als erste Bildschirmbörse Indiens den Betrieb auf." },
+    { "text": "Indien schließt im Jänner die Umstellung auf die Abwicklung T+1 ab." },
+    { "text": "Die wahlweise Abwicklung am selben Tag (T+0) beginnt am 28. März für eine begrenzte Auswahl von Aktien." }
+  ],
+  "funFacts": [
+    "Jedes Jahr hält die NSE zu Diwali, dem Lichterfest, eine besondere „Muhurat“-Handelssitzung ab; 2026 ist sie am Sonntag, 8. November.",
+    "Indiens Uhr geht 5½ Stunden vor der UTC, daher liegt Wien im Sommer 3½ und im Winter 4½ Stunden hinter Mumbai."
+  ]
+}

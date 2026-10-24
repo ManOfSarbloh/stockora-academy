@@ -1,0 +1,80 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Kanada",
+  "summary": "Kanadas wichtigste Börse, die Toronto Stock Exchange (TSX), geht auf das Jahr 1852 zurück und gehört zur TMX Group. Toronto war Vorreiter beim computergestützten Handel (1977) und brachte den ersten ETF der Welt heraus (1990). Kanada stellte am 27. Mai 2024 auf die Abwicklung am nächsten Geschäftstag (T+1) um, einen Tag vor den USA.",
+  "currency": {
+    "name": "Kanadischer Dollar",
+    "note": "Kanadische Aktien lauten auf kanadische Dollar, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des kanadischen Dollars gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Toronto Stock Exchange (TSX, Teil der TMX Group)",
+      "city": "Toronto",
+      "founded": "1852 (Maklervereinigung am 24. Oktober 1852 gegründet); offiziell 1861 errichtet",
+      "hours": "Eröffnung um 09:30 ET, fortlaufender Handel bis 16:00 mit der Market-on-Close-Funktion ab 15:50, dazu eine verlängerte Sitzung 16:15–17:00 nur zum letzten Kurs.",
+      "note": "Die TSX Venture Exchange ist der Markt der TMX für junge Unternehmen. Toronto verwendet dieselben Sommerzeitregeln wie New York."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/TSX Composite Index",
+      "description": "Kanadas breiter Maßstab für in Toronto notierte Aktien. 1977 als TSE 300 Composite Index gestartet; S&P Dow Jones Indices übernahm 2002 die Verwaltung, und er wurde umbenannt."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Wertpapieraufsichten der Provinzen (zum Beispiel die Ontario Securities Commission)",
+      "role": "Die Wertpapieraufsicht ist in Kanada Sache der Provinzen; die Aufsichten stimmen sich über die Canadian Securities Administrators (CSA) ab."
+    },
+    {
+      "name": "Canadian Investment Regulatory Organization (CIRO)",
+      "role": "Landesweite Selbstregulierungsorganisation für Wertpapierhändler und Fondshändler sowie für den Handel an kanadischen Handelsplätzen."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Canadian Investor Protection Fund (CIPF)",
+      "text": "Wird eine CIRO-Mitgliedsfirma zahlungsunfähig, schützt der CIPF das Vermögen einer Person in der Regel bis 1 Mio. C$ für alle allgemeinen Konten zusammen, plus je 1 Mio. C$ für Altersvorsorgekonten und Bildungssparpläne."
+    },
+    {
+      "name": "Canada Deposit Insurance Corporation (CDIC)",
+      "text": "Berechtigte Einlagen bei Mitgliedsinstituten sind bis 100.000 C$ pro versicherter Kategorie versichert, Kapital und Zinsen zusammen."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (nächster Geschäftstag) seit 27. Mai 2024",
+    "csd": "CDS Clearing and Depository Services (Teil der TMX Group)",
+    "note": "Kanada stellte wegen eines US-Feiertags einen Tag vor den USA (28. Mai 2024) um."
+  },
+  "rules": [
+    {
+      "title": "Aufsicht auf Provinzebene",
+      "text": "Kanada hat keine einheitliche nationale Wertpapieraufsicht: Jede Provinz und jedes Territorium hat eine eigene, abgestimmt über die Canadian Securities Administrators (CSA). Händler werden von der Selbstregulierungsorganisation CIRO beaufsichtigt."
+    }
+  ],
+  "taxes": {
+    "glance": "Nicht Ansässige: 25 % kanadische Steuer auf Dividenden (Part XIII), nach einem Doppelbesteuerungsabkommen reduzierbar, meist indem man der Zahlstelle das Formular NR301 gibt. Gewinne aus börsennotierten Aktien werden für nicht Ansässige in Kanada in der Regel nicht besteuert, außer sie sind „taxable Canadian property“ (Beteiligungen von 25 % oder mehr an immobilienreichen Unternehmen).",
+    "items": [
+      { "title": "Dividenden für nicht Ansässige", "text": "Nicht Ansässige zahlen 25 % Steuer auf Dividenden und andere nach Part XIII steuerpflichtige Beträge. Ein Doppelbesteuerungsabkommen kann den Satz senken; die Zahlstelle braucht dafür meist das Formular NR301 (Erklärung über die Berechtigung zu Abkommensvorteilen)." },
+      { "title": "Kursgewinne für nicht Ansässige", "text": "Nicht Ansässige werden in Kanada auf Gewinne aus „taxable Canadian property“ besteuert. Börsennotierte Aktien zählen nur, wenn der Anleger (mit nahestehenden Personen) in den letzten 60 Monaten 25 % oder mehr einer Gattung hielt und mehr als 50 % des Aktienwerts aus kanadischen Immobilien oder Rohstoffen stammte." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere kanadische Steuer musst du nach dem Abkommen reduzieren lassen oder in Kanada zurückfordern." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Toronto Stock Exchange an; prüfe die Kosten für den Umtausch von Euro in kanadische Dollar.",
+    "Manche großen kanadischen Unternehmen notieren auch in den USA und können dort in US-Dollar gekauft werden.",
+    "Indirekt über Fonds oder ETFs auf kanadische, nordamerikanische oder Industrieländer-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Geschäftsleute in Toronto gründen am 24. Oktober eine „Maklervereinigung“, den Rahmen für die Toronto Stock Exchange." },
+    { "text": "Die Vereinigung errichtet offiziell die Toronto Stock Exchange; gehandelt wird in täglichen halbstündigen Sitzungen mit 18 Wertpapieren." },
+    { "text": "Toronto startet das weltweit erste computergestützte Handelssystem (CATS) und den TSE 300 Composite Index." },
+    { "text": "Der erste ETF der Welt, der Toronto 35 Index Participation Fund, entsteht." },
+    { "text": "Toronto führt als erste Börse Nordamerikas den Handel in Dezimalstellen ein und schließt als größte Börse Nordamerikas ihr Parkett und handelt vollelektronisch." },
+    { "text": "Kanada stellt am 27. Mai auf die Abwicklung T+1 um." }
+  ],
+  "funFacts": [
+    "In ihren ersten Jahren sah die Toronto Stock Exchange nur zwei oder drei Geschäfte am Tag.",
+    "Als der Erste Weltkrieg ausbrach, schloss die Toronto Stock Exchange aus Angst vor einer Finanzpanik für drei Monate."
+  ]
+}

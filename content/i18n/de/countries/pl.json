@@ -1,0 +1,70 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Polen",
+  "summary": "Die Warschauer Börsentradition reicht bis 1817 zurück, aber die heutige Warschauer Börse (GPW) wurde 1991 nach dem Ende des Kommunismus neu gegründet. 2018 stufte FTSE Russell Polen zum entwickelten Markt hoch. Der WIG20 bildet 20 große Unternehmen ab, angeführt von Banken, Energie und Handel. Aktien werden in polnischen Złoty gehandelt.",
+  "currency": {
+    "name": "Polnischer Złoty",
+    "note": "Polen ist in der EU, aber nicht im Euroraum, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des Złoty gegenüber dem Euro verändern den Wert polnischer Aktien in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Warschauer Börse (Giełda Papierów Wartościowych, GPW)",
+      "city": "Warschau",
+      "founded": "1991 (Gesellschaft gegründet am 12. April 1991); Markttradition seit 1817",
+      "hours": "Für Aktien im fortlaufenden Handel: Aufträge für die Eröffnungsauktion ab 08:30, Eröffnungskurs um 09:00, fortlaufender Handel 09:00–16:50, Schlussauktion 16:50–17:00, danach Handel zum Schlusskurs bis 17:05. Weniger liquide Aktien werden stattdessen in Einheitskursauktionen gehandelt.",
+      "note": "Die GPW betreibt auch NewConnect, einen Markt für kleinere Unternehmen, und den Anleihemarkt Catalyst."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "WIG20",
+      "constituents": "20 Unternehmen",
+      "description": "Seit 16. April 1994 aus 20 großen und besonders liquiden Unternehmen der Hauptliste der Warschauer Börse berechnet. Berechnet von GPW Benchmark."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Polnische Finanzaufsichtsbehörde (KNF)",
+      "role": "Beaufsichtigt den polnischen Finanzmarkt, einschließlich Banken, Versicherungen, Wertpapierfirmen und Kapitalmarkt."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Bankengarantiefonds (BFG)",
+      "text": "Berechtigte Einlagen bei Banken und genossenschaftlichen Kreditkassen, in Złoty oder Fremdwährungen, sind bis 100.000 € pro Einleger und Institut gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "KDPW (Krajowy Depozyt Papierów Wartościowych), der Zentralverwahrer",
+    "note": "Als EU-Mitglied stellt Polen am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: 19 % Pauschalsteuer auf Gewinne aus Aktienverkäufen (angegeben im Formular PIT-38) und auf Dividenden. Nicht Ansässige können unter Bedingungen den Satz eines Doppelbesteuerungsabkommens anwenden.",
+    "items": [
+      { "title": "Kursgewinne (Ansässige)", "text": "Einkünfte aus dem Verkauf von Aktien und anderen Wertpapieren werden mit 19 % besteuert und im Formular PIT-38 angegeben. Verluste können in den folgenden fünf Jahren in Grenzen mit Einkünften aus derselben Quelle verrechnet werden." },
+      { "title": "Dividenden", "text": "Dividenden und andere Gewinnanteile unterliegen einer Pauschalsteuer von 19 %." },
+      { "title": "Nicht Ansässige", "text": "Personen mit beschränkter Steuerpflicht in Polen können den Satz eines Doppelbesteuerungsabkommens anwenden, unter den Bedingungen des polnischen Rechts." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q)." }
+    ]
+  },
+  "access": [
+    "Manche österreichischen Banken und Broker bieten den Handel an der Warschauer Börse an; prüfe den Umtausch in Złoty.",
+    "Indirekt über Fonds oder ETFs auf polnische oder Schwellenländer- und osteuropäische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Warschauer Handelsbörse wird gegründet." },
+    { "text": "Nach dem Fall des Kommunismus gründet das Staatsschatzministerium am 12. April die Gesellschaft der Warschauer Börse." },
+    { "text": "Der WIG20 wird am 16. April erstmals berechnet." },
+    { "text": "FTSE Russell stuft Polen zum entwickelten Markt hoch (mit Wirkung zum 24. September 2018)." }
+  ],
+  "funFacts": [
+    "Polen wurde von FTSE Russell schrittweise hochgestuft: 2008 von Secondary Emerging auf Advanced Emerging und 2018 auf Developed."
+  ]
+}

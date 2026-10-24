@@ -1,0 +1,77 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Deutschland",
+  "summary": "Die größte Volkswirtschaft Europas hat in Frankfurt eine traditionsreiche Börse, die bis 1585 zurückreicht, und den DAX mit 40 großen Unternehmen. Der Großteil des Handels mit deutschen Aktien läuft über das vollelektronische Xetra-System der Deutschen Börse.",
+  "currency": {
+    "name": "Euro",
+    "note": "Dieselbe Währung wie in Österreich, also kein Wechselkursrisiko für einen Euro-Anleger. Viele DAX-Unternehmen erzielen aber einen großen Teil ihres Umsatzes im Ausland, daher können Währungsschwankungen trotzdem ihre Gewinne beeinflussen."
+  },
+  "exchanges": [
+    {
+      "name": "Frankfurter Wertpapierbörse (Xetra und Börse Frankfurt), betrieben von der Deutschen Börse",
+      "city": "Frankfurt am Main",
+      "founded": "1585 (erstmals einheitliche Wechselkurse am 9. September 1585)",
+      "hours": "Fortlaufender Handel auf Xetra 09:00–17:30, mit Eröffnungs- und Schlussauktion. Der Handelsplatz Börse Frankfurt handelt in der Regel 08:00–22:00.",
+      "note": "Xetra, 1997 gestartet, ist das vollelektronische Handelssystem der Deutschen Börse, auf dem der Großteil des Handels mit DAX-Aktien stattfindet."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "DAX",
+      "constituents": "40 Unternehmen",
+      "description": "Die 40 größten Unternehmen im Regulierten Markt der Frankfurter Wertpapierbörse, die Mindestanforderungen an Qualität und Profitabilität erfüllen, gewichtet nach der Marktkapitalisierung im Streubesitz und auf 15 % gekappt. Basiswert 1.000 am 30. Dezember 1987. Berechnet von STOXX (Gruppe Deutsche Börse)."
+    },
+    {
+      "name": "MDAX und SDAX",
+      "constituents": "50 und 70 Unternehmen",
+      "description": "Der MDAX umfasst die 50 Unternehmen, die nach Marktwert auf den DAX folgen; der SDAX die 70, die auf den MDAX folgen. Zusammen mit dem DAX decken sie große, mittlere und kleine deutsche Unternehmen ab."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht)",
+      "role": "Beaufsichtigt Banken, Versicherungen und Wertpapiermärkte mit Schwerpunkt auf Transparenz, Marktintegrität und Verbraucherschutz; zugleich Deutschlands nationale Abwicklungsbehörde."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Gesetzliche Einlagensicherung",
+      "text": "Guthaben bis 100.000 € pro Kunde und Bank sind geschützt; höhere Beträge sind oft über freiwillige Sicherungseinrichtungen der Bankenverbände gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Clearstream (Gruppe Deutsche Börse), zu der der deutsche Zentralverwahrer gehört",
+    "note": "Wie der Rest der EU stellt Deutschland am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: 25 % Abgeltungsteuer auf Kapitalerträge plus 5,5 % Solidaritätszuschlag auf diese Steuer (und gegebenenfalls Kirchensteuer); 1.000 € Sparerpauschbetrag im Jahr. Nicht Ansässige: 25 % Abzug plus Zuschlag auf deutsche Dividenden, nach Doppelbesteuerungsabkommen teilweise erstattungsfähig.",
+    "items": [
+      { "title": "Ansässige: Abgeltungsteuer", "text": "Kapitalerträge einschließlich Dividenden und Kursgewinnen aus Aktien werden mit 25 % besteuert (Abgeltungsteuer), plus 5,5 % Solidaritätszuschlag auf diese Steuer und Kirchensteuer für Kirchenmitglieder. Banken behalten sie in der Regel ein." },
+      { "title": "Sparerpauschbetrag", "text": "Die ersten 1.000 € an Kapitalerträgen im Jahr sind steuerfrei (2.000 € für zusammen veranlagte Ehepaare)." },
+      { "title": "Dividenden an ausländische Anleger", "text": "Deutsche Unternehmen behalten auf Dividenden 25 % Kapitalertragsteuer plus Zuschlag ein, egal wo der Aktionär lebt. Im Ausland Ansässige können beim Bundeszentralamt für Steuern (BZSt) eine Entlastung nach einem Doppelbesteuerungsabkommen beantragen; es weist darauf hin, dass Erstattungen mehr als 20 Monate dauern können." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer nur bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q). Den Überschuss musst du in Deutschland zurückfordern." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel auf Xetra und anderen deutschen Handelsplätzen an.",
+    "Deutsche Aktien werden unter derselben ISIN auch an anderen europäischen Handelsplätzen gehandelt (Kategorien A und D).",
+    "Indirekt über Fonds oder ETFs auf den DAX oder breitere Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Kaufleute auf der Frankfurter Messe legen am 9. September erstmals einheitliche Wechselkurse für Münzen fest; das gilt als Geburtsstunde der Frankfurter Börse." },
+    { "text": "Die erste in Frankfurt gehandelte Aktie ist ein Anteilschein der Oesterreichischen Nationalbank." },
+    { "text": "Basistag des DAX: 1.000 Punkte am 30. Dezember 1987." },
+    { "text": "Die Deutsche Börse startet das vollelektronische Handelssystem Xetra." }
+  ],
+  "funFacts": [
+    "Die allererste in Frankfurt gehandelte Aktie kam aus Österreich: ein Anteilschein der Oesterreichischen Nationalbank, 1820.",
+    "Die zehn größten DAX-Mitglieder machten Ende September 2026 etwa 65 % des Indexgewichts aus."
+  ]
+}

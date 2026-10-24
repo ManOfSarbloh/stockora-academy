@@ -1,0 +1,101 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "China (Festland)",
+  "summary": "Die beiden Börsen Festland-Chinas in Shanghai und Shenzhen eröffneten beide im Dezember 1990. Zusammen bilden sie einen der wertmäßig größten Aktienmärkte der Welt. Inländische Aktien (A-Aktien) werden in Renminbi nach besonderen Regeln gehandelt: tägliche Kursgrenzen, Kauflose von 100 Aktien und kein Verkauf am Kauftag. Ausländische Privatanleger erreichen sie meist über Stock Connect in Hongkong.",
+  "currency": {
+    "name": "Chinesischer Yuan (Renminbi)",
+    "note": "A-Aktien lauten auf Yuan, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des Yuan gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Shanghai Stock Exchange (SSE)",
+      "city": "Shanghai",
+      "founded": "26. November 1990 (offizieller Betrieb ab 19. Dezember 1990)",
+      "hours": "Eröffnungsauktion 09:15–09:25, fortlaufender Handel 09:30–11:30 und 13:00–14:57, Schlussauktion 14:57–15:00. Mittagspause 11:30–13:00.",
+      "note": "Heimat des Main Board und seit 2019 des STAR Market für Wissenschafts- und Technologieunternehmen."
+    },
+    {
+      "name": "Shenzhen Stock Exchange (SZSE)",
+      "city": "Shenzhen",
+      "founded": "1. Dezember 1990",
+      "hours": "Wie in Shanghai: Eröffnungsauktion 09:15–09:25, fortlaufender Handel 09:30–11:30 und 13:00–14:57, Schlussauktion 14:57–15:00.",
+      "note": "Betreibt das Main Board und den Markt ChiNext (gestartet im Oktober 2009) für Wachstumsunternehmen."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CSI 300",
+      "constituents": "300 Wertpapiere",
+      "description": "Die 300 größten und liquidesten A-Aktien aus Shanghai und Shenzhen. Basis 1.000 Punkte am 31. Dezember 2004, veröffentlicht seit 8. April 2005; zweimal im Jahr überprüft. Berechnet von China Securities Index Co."
+    },
+    {
+      "name": "SSE Composite Index",
+      "description": "Alle zulässigen in Shanghai notierten Aktien und Hinterlegungsscheine. Basis 100 Punkte am 19. Dezember 1990, dem ersten Handelstag der Börse; veröffentlicht seit 15. Juli 1991."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "China Securities Regulatory Commission (CSRC)",
+      "role": "Beaufsichtigt die Wertpapier- und Terminmärkte, einschließlich beider Börsen, die selbstregulierte juristische Personen unter ihrer Aufsicht sind."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (People's Bank of China)",
+      "text": "Bankeinlagen sind bis 500.000 RMB pro Einleger und Bank geschützt, nach der seit 1. Mai 2015 geltenden Einlagensicherungsverordnung."
+    },
+    {
+      "name": "Hong Kong Investor Compensation Fund (für Stock Connect)",
+      "text": "Seit 1. Jänner 2020 deckt der Hong Kong Investor Compensation Fund auch den Northbound-Handel über Stock Connect ab, etwa wenn ein Hongkonger Broker ausfällt."
+    }
+  ],
+  "settlement": {
+    "cycle": "Aktien werden am Handelstag (T) abgewickelt, Geld an T oder T+1",
+    "csd": "China Securities Depository and Clearing Corporation (ChinaClear / CSDC)",
+    "note": "An einem Tag gekaufte Aktien können erst ab dem nächsten Handelstag verkauft werden (kein Daytrading), auch für Anleger über Stock Connect."
+  },
+  "rules": [
+    {
+      "title": "Tägliche Kursgrenzen",
+      "text": "A-Aktien dürfen nur innerhalb einer Spanne um den Vortagesschluss gehandelt werden: ±10 % an den Main Boards, ±20 % am STAR Market und an ChiNext und 5 % für Aktien mit Risikowarnung. Aufträge außerhalb der Spanne werden abgelehnt."
+    },
+    {
+      "title": "Kauf in Losen von 100, Verkauf ab dem nächsten Tag",
+      "text": "Kaufaufträge müssen auf Vielfache von 100 Aktien lauten (STAR Market: mindestens 200 Aktien). Am Handelstag T gekaufte Aktien können erst ab T+1 verkauft werden."
+    },
+    {
+      "title": "Grenzen für ausländisches Eigentum",
+      "text": "Ein einzelner ausländischer Anleger darf höchstens 10 % der Aktien eines börsennotierten Unternehmens halten, alle ausländischen Anleger zusammen höchstens 30 % seiner A-Aktien, über alle Zugangswege hinweg."
+    },
+    {
+      "title": "Tageskontingent von Stock Connect",
+      "text": "Northbound-Käufe über Stock Connect sind durch ein tägliches Netto-Kaufkontingent von je 52 Mrd. RMB für Shanghai und Shenzhen begrenzt. Es wird jeden Tag zurückgesetzt."
+    }
+  ],
+  "taxes": {
+    "glance": "Über Stock Connect: 10 % chinesische Steuer auf Dividenden einbehalten (Erstattung nach Abkommen möglich); keine chinesische Kapitalertragsteuer; seit 28. August 2023 0,05 % Stempelsteuer für den Verkäufer.",
+    "items": [
+      { "title": "Dividenden (Stock Connect)", "text": "Hongkonger und ausländische Anleger zahlen 10 % Steuer auf Bardividenden und Gratisaktien, die das börsennotierte Unternehmen einbehält. Anleger aus einem Abkommensland mit niedrigerem Satz können bei der chinesischen Steuerbehörde die Erstattung der Differenz beantragen." },
+      { "title": "Kursgewinne (Stock Connect)", "text": "Hongkonger und ausländische Anleger sind bei über Stock Connect gehandelten A-Aktien von Kapitalertragsteuer und Geschäftssteuer befreit (Mitteilung von Finanzministerium, staatlicher Steuerverwaltung und CSRC vom 14. November 2014)." },
+      { "title": "Stempelsteuer", "text": "0,05 % des Werts jedes A-Aktien-Geschäfts, nur vom Verkäufer bezahlt. Sie wurde am 28. August 2023 von 0,1 % halbiert." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q), daher lässt sich die chinesische Steuer von 10 % meist vollständig anrechnen." }
+    ]
+  },
+  "access": [
+    "Stock Connect: Broker mit Zugang zur Hongkonger Börse können Aufträge für zulässige Aktien aus Shanghai und Shenzhen weiterleiten (Northbound-Handel). Nicht jede österreichische Bank und nicht jeder Broker bietet das an.",
+    "Viele große chinesische Unternehmen notieren auch H-Aktien in Hongkong (in Hongkong-Dollar), und manche haben Hinterlegungsscheine in den USA.",
+    "Indirekt über Fonds oder ETFs auf chinesische, asiatische oder Schwellenländer-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Shanghai Stock Exchange wird am 26. November gegründet und nimmt am 19. Dezember den Betrieb auf; die Shenzhen Stock Exchange wird am 1. Dezember gegründet." },
+    { "text": "Shenzhen startet den Markt ChiNext für Wachstumsunternehmen (Oktober)." },
+    { "text": "Shanghai Connect startet am 17. November und verbindet Hongkong mit Shanghai." },
+    { "text": "Shenzhen Connect folgt am 5. Dezember." },
+    { "text": "Shanghais STAR Market startet; die ersten 25 Unternehmen werden am 22. Juli gehandelt." },
+    { "text": "Die Stempelsteuer auf A-Aktien-Geschäfte wird ab 28. August auf 0,05 % halbiert." }
+  ],
+  "funFacts": [
+    "Der erste Sitz der Shanghai Stock Exchange war das Astor House Hotel an der alten Finanzstraße nahe dem Bund.",
+    "Ganz Festland-China hat eine einzige Zeitzone (UTC+8) und keine Sommerzeit, daher haben beide Börsen das ganze Jahr dieselben Handelszeiten."
+  ]
+}

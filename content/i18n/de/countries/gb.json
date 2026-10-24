@@ -1,0 +1,89 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Vereinigtes Königreich",
+  "summary": "London ist einer der ältesten und internationalsten Märkte der Welt: Seine Geschichte reicht bis zu Kurslisten in einem Kaffeehaus im Jahr 1698 zurück. Der FTSE 100 bildet die größten im Vereinigten Königreich notierten Unternehmen ab. Aktien werden in Pfund gehandelt, und beim Kauf britischer Aktien fallen meist 0,5 % Stempelsteuer an.",
+  "currency": {
+    "name": "Pfund Sterling",
+    "note": "Viele britische Aktienkurse werden in Pence (GBX) notiert, wobei 100 Pence ein Pfund ergeben. Für einen Euro-Anleger verändern Bewegungen des Pfunds gegenüber dem Euro den Wert britischer Aktien (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "London Stock Exchange (LSE)",
+      "city": "London",
+      "founded": "1801 (erste regulierte Börse); Kurslisten seit 1698",
+      "hours": "Für SETS, das Orderbuch der liquidesten Aktien: Eröffnungsauktion 07:50–08:00, fortlaufender Handel 08:00–16:30, Schlussauktion 16:30–16:35. An halben Handelstagen endet der fortlaufende Handel um 12:30.",
+      "note": "Die Börse betreibt auch AIM, einen 1995 gegründeten Markt für kleinere und wachsende Unternehmen."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE 100",
+      "constituents": "100 Unternehmen",
+      "description": "Die 100 größten britischen Unternehmen nach voller Marktkapitalisierung, vierteljährlich überprüft. Gestartet am 3. Jänner 1984 mit 1.000 Punkten. Berechnet von FTSE Russell (LSEG)."
+    },
+    {
+      "name": "FTSE 250",
+      "constituents": "250 Unternehmen",
+      "description": "Die nächsten 250 Unternehmen nach dem FTSE 100: die britischen Nebenwerte mittlerer Größe. Zusammen bilden beide den FTSE 350."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Conduct Authority (FCA)",
+      "role": "Beaufsichtigt das Verhalten von rund 35.500 Unternehmen, damit die Finanzmärkte gut funktionieren, einschließlich Zulassungsregeln und Marktmissbrauch."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Services Compensation Scheme (FSCS): Einlagen",
+      "text": "Seit 1. Dezember 2025 sind Einlagen bis 120.000 £ pro berechtigter Person und Bank geschützt."
+    },
+    {
+      "name": "FSCS: Anlagen",
+      "text": "Scheitert eine Wertpapierfirma, sind berechtigte Ansprüche bis 85.000 £ pro Person und Firma gedeckt (für Fälle nach dem 1. April 2019). Marktverluste sind nicht gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 ab 11. Oktober 2027",
+    "csd": "Euroclear UK & International (System CREST)",
+    "note": "Das Vereinigte Königreich stellt am selben Tag wie die EU und die Schweiz auf T+1 um."
+  },
+  "rules": [
+    {
+      "title": "Stempelsteuer auf Käufe",
+      "text": "Der Kauf britischer Aktien kostet meist 0,5 %: Stamp Duty Reserve Tax bei elektronischen Käufen oder Stamp Duty bei papierhaften Übertragungen über 1.000 £. Für Übertragungen in manche Programme für Hinterlegungsscheine oder Clearing-Dienste gilt ein Satz von 1,5 %."
+    },
+    {
+      "title": "Kurse in Pence",
+      "text": "Die London Stock Exchange notiert viele Aktien in GBX, also in Pence: Ein Kurs von 2.450 GBX sind 24,50 £. Handelswerte werden in Pfund angezeigt."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige (2026–27): Kapitalertragsteuer 18 % oder 24 % über einem Freibetrag von 3.000 £; Dividenden 10,75 %/35,75 %/39,35 % über einem Freibetrag von 500 £; ISA-Freibetrag von 20.000 £. Auf gewöhnliche Dividenden an die meisten nicht Ansässigen wird keine britische Steuer abgezogen. 0,5 % Stempelsteuer auf Aktienkäufe.",
+    "items": [
+      { "title": "Kursgewinne (Ansässige)", "text": "Ab 6. April 2026 werden Gewinne aus Aktien innerhalb der Basis-Steuerstufe mit 18 % und darüber mit 24 % besteuert, nach einem jährlichen Freibetrag von 3.000 £." },
+      { "title": "Dividenden (Ansässige)", "text": "Ein Dividendenfreibetrag von 500 £; darüber 10,75 % (Basissatz), 35,75 % (höherer Satz) oder 39,35 % (Spitzensatz) im Steuerjahr 2026–27." },
+      { "title": "ISAs", "text": "Im Vereinigten Königreich Ansässige können bis zu 20.000 £ im Jahr in ISAs sparen, auch in Aktien-ISAs, in denen Gewinne und Erträge steuerfrei sind." },
+      { "title": "Dividenden für nicht Ansässige", "text": "Laut HMRC bleiben britische Dividenden für die meisten nicht im Vereinigten Königreich Ansässigen steuerfrei, und von gewöhnlichen Dividenden wird keine britische Steuer abgezogen. Ein österreichischer Anleger zahlt darauf österreichische Steuer (Kategorie Q)." },
+      { "title": "Stempelsteuer", "text": "Meist 0,5 % beim Kauf von Aktien (siehe Marktregeln oben)." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der London Stock Exchange an; prüfe die Kosten für den Umtausch in Pfund und die Stempelsteuer.",
+    "Manche im Vereinigten Königreich notierte Unternehmen haben auch Aktien oder Hinterlegungsscheine, die anderswo gehandelt werden (Kategorie C).",
+    "Indirekt über Fonds oder ETFs auf den FTSE 100 oder breitere britische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Im Jonathan's Coffee House beginnt John Castaing, eine Liste mit Aktien- und Rohstoffkursen zu veröffentlichen." },
+    { "text": "In London entsteht die erste regulierte Börse: Die moderne Stock Exchange ist geboren." },
+    { "text": "Der FTSE 100 startet am 3. Jänner mit 1.000 Punkten." },
+    { "text": "Der „Big Bang“ dereguliert den britischen Markt." },
+    { "text": "Am 20. Oktober fällt der FTSE 100 um 12,22 %, sein schlechtester Tag von 1984 bis 2023 (Kategorie K)." },
+    { "text": "AIM, der Markt für kleinere wachsende Unternehmen, wird gegründet." }
+  ],
+  "funFacts": [
+    "Von den 100 ursprünglichen FTSE-100-Mitgliedern von 1984 waren Ende 2023 noch 26 im Index, 12 davon unter neuem Namen.",
+    "100 £, die beim Start des FTSE 100 in Reed International (heute Relx) angelegt wurden, wären laut FTSE Russell bis Ende 2023 mit wiederangelegten Dividenden auf 35.393 £ gewachsen.",
+    "Die oben genannten börsennotierten Unternehmen sind ursprüngliche FTSE-100-Mitglieder von 1984 (oder ihre Nachfolger), die Ende 2023 noch im Index waren."
+  ]
+}

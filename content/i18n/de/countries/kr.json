@@ -1,0 +1,88 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Südkorea",
+  "summary": "Südkoreas Aktienmarkt eröffnete 1956 und wird von der Korea Exchange (KRX) betrieben, die 2005 aus Aktien-, KOSDAQ- und Terminbörse entstand. Am KOSPI-Markt notieren globale Konzerne wie Samsung Electronics, Hyundai Motor, POSCO und LG Electronics. Aktien werden einzeln gehandelt (ohne Lose), innerhalb einer täglichen Grenze von ±30 %. FTSE Russell stuft Korea als entwickelten Markt ein.",
+  "currency": {
+    "name": "Südkoreanischer Won",
+    "note": "Koreanische Aktien lauten auf Won, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des Won gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Korea Exchange (KRX)",
+      "city": "Seoul",
+      "founded": "1956 (Daehan Stock Exchange, gegründet am 3. März 1956); KRX entstand am 27. Jänner 2005",
+      "hours": "Reguläre Sitzung 09:00–15:30, mit fortlaufendem Handel bis 15:20 und einer Schlussauktion bis 15:30. Sitzungen außerhalb der Handelszeit: vorbörslich 07:30–09:00 und nachbörslich 15:40–18:00.",
+      "note": "Die KRX betreibt den Hauptmarkt KOSPI und den Markt KOSDAQ für Wachstumsunternehmen. Die Märkte schließen am Tag der Arbeit (1. Mai) und am letzten Handelstag des Jahres. Korea hat keine Sommerzeit."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "KOSPI (Korea Composite Stock Price Index)",
+      "description": "Alle Stammaktien am KOSPI-Markt, gewichtet nach Marktkapitalisierung. Basis 100 am 4. Jänner 1980."
+    },
+    {
+      "name": "KOSPI 200",
+      "constituents": "200 Unternehmen",
+      "description": "200 große KOSPI-Aktien; der Basiswert für Koreas wichtigste Futures und Optionen. Veröffentlicht seit 15. Juni 1994 (Basis 100 am 3. Jänner 1990)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Services Commission (FSC)",
+      "role": "Legt die Finanzpolitik fest und beaufsichtigt die Finanz- und Kapitalmärkte."
+    },
+    {
+      "name": "Financial Supervisory Service (FSS)",
+      "role": "Führt unter der FSC die Prüfung und Aufsicht der Finanzunternehmen durch."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (KDIC)",
+      "text": "Seit 1. September 2025 sind Einlagen bis 100 Mio. KRW pro Einleger und Institut geschützt (vorher 50 Mio. KRW). Anlageprodukte wie Fonds sind nicht gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage)",
+    "csd": "Korea Securities Depository (KSD, gegründet 1974)"
+  },
+  "rules": [
+    {
+      "title": "Tägliche Kursgrenze von ±30 %",
+      "text": "Eine Aktie darf sich an einem Tag höchstens um 30 % über oder unter ihren Basiskurs bewegen. Aktien, ETFs und ETNs werden in Einheiten von einer Aktie gehandelt."
+    },
+    {
+      "title": "Circuit Breaker bei −8 %, −15 % und −20 %",
+      "text": "Fällt der KOSPI oder KOSDAQ um 8 % oder mehr gegenüber dem Vortag (eine Minute lang), steht der gesamte Markt 20 Minuten still; weitere Stufen folgen bei 15 % und 20 %."
+    },
+    {
+      "title": "Leerverkäufe: 2023–2025 verboten, jetzt mit strengeren Regeln",
+      "text": "Leerverkäufe aller Aktien waren ab 6. November 2023 verboten und wurden am 31. März 2025 vollständig wieder erlaubt, mit vorgeschriebenen Computersystemen gegen ungedeckte Leerverkäufe und gleichen Bedingungen für die Aktienleihe für institutionelle und private Anleger."
+    }
+  ],
+  "taxes": {
+    "glance": "Wertpapiertransaktionssteuer auf Aktienverkäufe ab Jänner 2026: KOSPI 0,05 % plus 0,15 % Sondersteuer für ländliche Entwicklung (insgesamt 0,20 %); KOSDAQ 0,20 %. Auf Dividenden an nicht Ansässige wird koreanische Steuer einbehalten; ein ermäßigter Satz laut Abkommen erfordert einen Antrag.",
+    "items": [
+      { "title": "Wertpapiertransaktionssteuer", "text": "Die Steuerreform 2025 setzte die Transaktionssteuer ab Jänner 2026 wieder auf das Niveau von 2023: 0,05 % auf KOSPI-Aktien (plus die unveränderte Sondersteuer für ländliche Entwicklung von 0,15 %) und 0,20 % auf KOSDAQ-Aktien. 2025 hatten die Sätze 0 % (plus 0,15 %) und 0,15 % betragen." },
+      { "title": "Dividenden für nicht Ansässige", "text": "Auf Dividenden an nicht Ansässige wird koreanische Steuer einbehalten. Um einen ermäßigten Satz nach einem Doppelbesteuerungsabkommen zu bekommen, reicht der Anleger bei der Abzugsstelle einen Antrag auf ermäßigten Steuersatz für inländische Einkünfte ein (Application for Entitlement to Reduced Tax Rate on Domestic Source Income)." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere koreanische Steuer musst du nach dem Abkommen reduzieren lassen oder in Korea zurückfordern." }
+    ]
+  },
+  "access": [
+    "Manche österreichischen Banken und Broker bieten den Handel an der Korea Exchange an; prüfe den Umtausch in Won und die Auftragsarten.",
+    "Indirekt über Fonds oder ETFs auf koreanische, asiatische, Industrieländer- oder Schwellenländer-Indizes (Kategorie H). Ob Korea enthalten ist, hängt davon ab, wie der Indexanbieter es einstuft."
+  ],
+  "history": [
+    { "text": "Die Daehan Stock Exchange, Vorgängerin der Korea Stock Exchange, wird am 3. März mit 12 börsennotierten Unternehmen gegründet." },
+    { "text": "Der fortlaufende Handel wird eingeführt." },
+    { "text": "Ab 3. Jänner dürfen ausländische Anleger koreanische börsennotierte Aktien direkt kaufen." },
+    { "text": "Das Handelssystem wird vollständig automatisiert, und das Parkett schließt." },
+    { "text": "Aktien-, KOSDAQ- und Terminbörse werden am 27. Jänner zur heutigen Korea Exchange zusammengelegt." },
+    { "text": "FTSE stuft Korea in seine Gruppe der entwickelten Märkte ein (September)." },
+    { "text": "Leerverkäufe sind ab 31. März wieder vollständig erlaubt; die Grenze der Einlagensicherung verdoppelt sich am 1. September auf 100 Mio. KRW." }
+  ],
+  "funFacts": [
+    "In seinen ersten Jahren war der koreanische Aktienmarkt vor allem ein Markt für Staatsanleihen; der Aktienhandel war klein.",
+    "Koreas Derivatemarkt startete im Mai 1996 mit KOSPI-200-Futures und 1997 mit Optionen; laut KRX wurden 2005 im Schnitt 18 Billionen KRW am Tag gehandelt."
+  ]
+}

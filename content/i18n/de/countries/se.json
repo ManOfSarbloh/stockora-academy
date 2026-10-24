@@ -1,0 +1,72 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Schweden",
+  "summary": "An der Stockholmer Börse wird seit 4. Februar 1863 gehandelt; heute ist sie Nasdaq Stockholm, Teil der nordischen Märkte von Nasdaq. Der OMXS30 enthält 30 große schwedische Unternehmen, viele davon Industriekonzerne, und viele schwedische Unternehmen notieren getrennte A- und B-Aktiengattungen. Aktien werden in schwedischen Kronen gehandelt.",
+  "currency": {
+    "name": "Schwedische Krone",
+    "note": "Für einen Euro-Anleger haben schwedische Aktien ein Währungsrisiko: Bewegungen der Krone gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Nasdaq Stockholm",
+      "city": "Stockholm",
+      "founded": "1863 (erster Handelstag am 4. Februar 1863)",
+      "hours": "Aktien des Hauptmarkts 09:00–17:30. In den letzten fünf Minuten werden keine Aufträge zusammengeführt; der Schlusskurs wird in einer Schlussauktion festgestellt, die zu einem zufälligen Zeitpunkt in den letzten 30 Sekunden endet.",
+      "note": "Nasdaq betreibt auch die Börsen in Kopenhagen, Helsinki und Island, mit anderen Handelszeiten."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "OMX Stockholm 30 (OMXS30)",
+      "constituents": "30 Unternehmen",
+      "description": "Die 30 größten und am aktivsten gehandelten Aktien an der Stockholmer Börse; Basiswert 125. Berechnet von Nasdaq."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finansinspektionen (FI)",
+      "role": "Die schwedische Behörde, die den Finanzmarkt überwacht, einschließlich Banken, Versicherungen und Wertpapiermärkten."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (Riksgälden, schwedisches Schuldenamt)",
+      "text": "Seit 1. Jänner 2026 sind Einlagen bis 1.150.000 SEK pro Person und Institut geschützt (der Gegenwert von 100.000 € in Kronen, alle fünf Jahre angepasst)."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Euroclear Sweden, der schwedische Zentralverwahrer",
+    "note": "Wie der Rest der EU stellt Schweden am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "A- und B-Aktiengattungen",
+      "text": "Viele schwedische Unternehmen haben mehr als eine Aktiengattung, meist mit unterschiedlichen Stimmrechten. Der OMXS30 selbst enthält zum Beispiel Atlas Copco A, Volvo B und Investor B (Kategorie C)."
+    },
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Nicht Ansässige: 30 % schwedische Quellensteuer (kupongskatt) auf Dividenden, nach einem Doppelbesteuerungsabkommen bei der Auszahlung oder per Erstattung reduzierbar. Ansässige: Investmentsparkonten (ISK) werden mit 30 % auf einen Pauschalertrag besteuert statt auf tatsächliche Gewinne und Dividenden.",
+    "items": [
+      { "title": "Dividenden für ausländische Anleger", "text": "Grundsätzlich werden von Dividenden 30 % Quellensteuer (kupongskatt) abgezogen. Lebt der Empfänger in einem Land mit Doppelbesteuerungsabkommen mit Schweden, kann sie niedriger sein, entweder direkt bei der Auszahlung oder per späterer Erstattung." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer nur bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere schwedische Steuer musst du in Schweden reduzieren lassen oder zurückfordern." },
+      { "title": "Ansässige: Investmentsparkonto (ISK)", "text": "In einem ISK werden Gewinne, Dividenden und Zinsen nicht besteuert. Stattdessen wird das Konto jedes Jahr mit 30 % auf einen Pauschalertrag (schablonintäkt) besteuert, der aus seinem Wert berechnet wird." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Nasdaq Stockholm an; prüfe die Kosten für den Umtausch von Euro in Kronen.",
+    "Indirekt über Fonds oder ETFs auf schwedische oder nordische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Stockholmer Börse hat am 4. Februar ihren ersten Handelstag." },
+    { "text": "Nasdaq Stockholm feiert ihr 160-jähriges Bestehen." },
+    { "text": "Die Grenze der Einlagensicherung steigt am 1. Jänner auf 1.150.000 SEK." }
+  ],
+  "funFacts": [
+    "Der OMXS30 enthält auch Unternehmen mit Sitz außerhalb Schwedens, etwa ABB, AstraZeneca und Nordea, die in Stockholm notieren."
+  ]
+}

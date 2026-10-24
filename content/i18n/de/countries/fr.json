@@ -1,0 +1,79 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Frankreich",
+  "summary": "Paris ist einer der Märkte von Euronext, der Gruppe, die im Jahr 2000 aus den Börsen von Amsterdam, Brüssel und Paris entstand. Der CAC 40 bildet 40 große französische Unternehmen ab, von Luxusgütern bis zur Luftfahrt. Beim Kauf von Aktien großer französischer Unternehmen fällt eine Finanztransaktionssteuer von 0,4 % an.",
+  "currency": {
+    "name": "Euro",
+    "note": "Dieselbe Währung wie in Österreich, also kein Wechselkursrisiko für einen Euro-Anleger. Viele CAC-40-Unternehmen erzielen einen großen Teil ihres Umsatzes außerhalb des Euroraums."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Paris",
+      "city": "Paris",
+      "founded": "Seit 2000 Teil von Euronext, als die Märkte von Amsterdam, Brüssel und Paris zusammengelegt wurden",
+      "hours": "Für CAC-40-Aktien: Eröffnungsauktion, fortlaufender Handel 09:00–17:30, Schlussauktion bis 17:35, danach Handel zum Schlusskurs bis 17:40.",
+      "note": "Euronext betreibt sieben geregelte Märkte: Amsterdam, Brüssel, Dublin, Lissabon, Mailand, Oslo und Paris."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CAC 40",
+      "constituents": "40 Unternehmen",
+      "description": "Die 40 größten und am aktivsten gehandelten Aktien an der Euronext Paris, gewichtet nach der Marktkapitalisierung im Streubesitz. Basiswert 1.000 am 31. Dezember 1987; offiziell gestartet am 15. Juni 1988."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité des marchés financiers (AMF)",
+      "role": "Unabhängige öffentliche Behörde, die die französischen Finanzmärkte, ihre Teilnehmer und Anlageprodukte beaufsichtigt und dafür sorgt, dass Anleger richtig informiert werden."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung des FGDR",
+      "text": "Einlagen sind bis 100.000 € pro Kunde und Bank garantiert."
+    },
+    {
+      "name": "Wertpapiersicherung des FGDR",
+      "text": "Scheitert eine Wertpapierfirma und kann sie Aktien, Anleihen oder Fondsanteile der Kunden nicht zurückgeben, sind diese bis 70.000 € pro Kunde und Firma gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Euroclear France (Teil der ESES-Zentralverwahrer der Euroclear-Gruppe mit Euroclear Belgium und Euroclear Nederland)",
+    "note": "Wie der Rest der EU stellt Frankreich am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Finanztransaktionssteuer",
+      "text": "Der Erwerb von Aktien französischer Unternehmen mit einer Marktkapitalisierung über 1 Mrd. € wird seit 1. April 2025 mit 0,4 % besteuert (vorher 0,3 %). Die Liste der Unternehmen wird jeweils am 1. Dezember für das Folgejahr festgelegt."
+    },
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: seit 1. Jänner 2026 pauschal 31,4 % auf Dividenden und Gewinne (12,8 % Einkommensteuer + 18,6 % Sozialabgaben). Nicht ansässige Privatpersonen: 12,8 % Quellensteuer auf französische Dividenden oder ein niedrigerer Satz laut Abkommen. 0,4 % Transaktionssteuer auf große französische Aktien.",
+    "items": [
+      { "title": "Ansässige: Pauschalsteuer", "text": "Erträge aus Wertpapieren unterliegen einer Gesamtabgabe von 31,4 %: 12,8 % Einkommensteuer und 18,6 % Sozialabgaben. Steuerpflichtige können stattdessen den progressiven Einkommensteuertarif wählen." },
+      { "title": "Dividenden für nicht Ansässige", "text": "Französische Dividenden an im Ausland ansässige Privatpersonen unterliegen 12,8 % Quellensteuer (Satz am 1. Jänner 2026), außer ein Doppelbesteuerungsabkommen sieht einen günstigeren Satz vor." },
+      { "title": "Transaktionssteuer", "text": "0,4 % auf den Kauf von Aktien großer französischer Unternehmen (siehe Marktregeln oben)." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q)." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Euronext Paris in Euro an; prüfe, ob beim Kauf die Transaktionssteuer von 0,4 % aufgeschlagen wird.",
+    "Indirekt über Fonds oder ETFs auf den CAC 40 oder breitere europäische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Basistag des CAC 40: 1.000 Punkte am 31. Dezember 1987." },
+    { "text": "Der CAC 40 startet offiziell am 15. Juni." },
+    { "text": "Die Börsen von Amsterdam, Brüssel und Paris schließen sich zu Euronext zusammen." },
+    { "text": "Die Finanztransaktionssteuer steigt von 0,3 % auf 0,4 % (ab 1. April)." }
+  ],
+  "funFacts": [
+    "Die zehn größten CAC-40-Mitglieder machten Ende September 2026 etwa 62 % des Index aus.",
+    "Airbus notiert in Paris und gehörte 2026 auch zu den zehn größten DAX-Mitgliedern."
+  ]
+}

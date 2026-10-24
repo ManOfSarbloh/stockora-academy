@@ -1,0 +1,79 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Singapur",
+  "summary": "Die Singapore Exchange (SGX) entstand am 1. Dezember 1999 aus dem Zusammenschluss von Aktienbörse, Terminbörse und einer Clearinggesellschaft. Sie ist ein kleiner, aber sehr internationaler Markt: Etwa 40 % ihrer börsennotierten Unternehmen kommen nicht aus Singapur. Der Straits Times Index bildet ihre größten und liquidesten Unternehmen ab. Singapur besteuert weder Dividenden noch in der Regel Gewinne aus Aktienanlagen.",
+  "currency": {
+    "name": "Singapur-Dollar",
+    "note": "Singapurer Aktien lauten auf Singapur-Dollar, daher trägt ein Euro-Anleger ein Währungsrisiko: Bewegungen des Singapur-Dollars gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Singapore Exchange (SGX)",
+      "city": "Singapur",
+      "founded": "1. Dezember 1999 (Zusammenschluss von Stock Exchange of Singapore, SIMEX und Securities Clearing and Computer Services)",
+      "hours": "Eröffnungsphase 08:30–09:00, Handel 09:00–12:00, Mittagspause 12:00–13:00, Handel 13:00–17:00, Schlussphase bis 17:06 und Handel zum Schlusskurs bis 17:16.",
+      "note": "Singapur hat keine Sommerzeit."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Straits Times Index (STI)",
+      "description": "Bildet die 30 größten und liquidesten an der SGX notierten Unternehmen ab. Erstmals 1966 berechnet und am 10. Jänner 2008 nach der Methodik von FTSE neu aufgelegt; berechnet von FTSE Russell mit SPH Media Trust (Herausgeber der Straits Times) und der SGX, vierteljährlich überprüft."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Monetary Authority of Singapore (MAS)",
+      "role": "Singapurs Zentralbank und integrierte Finanzaufsicht, einschließlich der Wertpapiermärkte."
+    },
+    {
+      "name": "Singapore Exchange Regulation (SGX RegCo)",
+      "role": "Die Aufsichtstochter der SGX, die börsennotierte Unternehmen und die Marktregeln überwacht."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (SDIC)",
+      "text": "Einlagen bei Mitgliedsbanken und Finanzierungsgesellschaften sind bis 100.000 S$ pro Einleger und Mitglied versichert."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Markttage); bis Dezember 2018 T+3",
+    "csd": "The Central Depository (CDP), Teil der SGX",
+    "note": "Anleger können Aktien direkt in einem eigenen CDP-Konto halten oder, immer häufiger, über das Verwahrkonto eines Brokers."
+  },
+  "rules": [
+    {
+      "title": "Kleinere Handelseinheiten ab Oktober 2026",
+      "text": "Die Standard-Handelseinheit beträgt 100 Aktien (seit Jänner 2015; vorher 1.000). Ab 5. Oktober 2026 sinkt sie für Instrumente mit einem Kurs über 10 S$ auf 10 Aktien und über 100 S$ auf 1 Aktie, beginnend mit 11 Aktien. Die SGX überprüft das jedes Quartal."
+    },
+    {
+      "title": "Internationale Notierungen",
+      "text": "Etwa 40 % der an der SGX notierten Unternehmen und über 80 % der notierten Anleihen kommen nicht aus Singapur."
+    }
+  ],
+  "taxes": {
+    "glance": "Dividenden von Singapurer Unternehmen werden nicht besteuert (einstufiges System). Gewinne aus dem Kauf und Verkauf von Aktien gelten in der Regel als private Anlage und werden nicht besteuert. Österreich besteuert beides wie üblich.",
+    "items": [
+      { "title": "Dividenden", "text": "Dividenden von in Singapur ansässigen Unternehmen im einstufigen Körperschaftsteuersystem sind für Aktionäre in der Regel nicht steuerpflichtig, weil die vom Unternehmen bezahlte Steuer endgültig ist." },
+      { "title": "Gewinne", "text": "Gewinne oder Verluste aus dem Kauf und Verkauf von Aktien oder anderen Finanzinstrumenten gelten in der Regel als private Anlagen und werden nicht besteuert. Gewinne aus gewerblichem Handel können steuerpflichtig sein." },
+      { "title": "Für österreichische Anleger", "text": "Da Singapur keine Quellensteuer auf Dividenden erhebt, ist nichts anzurechnen; auf Dividenden und Gewinne fällt wie üblich österreichische KESt an (Kategorie Q)." }
+    ]
+  },
+  "access": [
+    "Manche österreichischen Banken und Broker bieten den Handel an der SGX an; prüfe die Kosten für den Umtausch von Euro in Singapur-Dollar.",
+    "Indirekt über Fonds oder ETFs auf den STI, asiatische oder pazifische Industrieländer-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Geschichte des Straits Times Index beginnt (erstmals 1966 berechnet)." },
+    { "text": "Die SGX entsteht am 1. Dezember aus dem Zusammenschluss von Stock Exchange of Singapore, Singapore International Monetary Exchange und einer Clearinggesellschaft." },
+    { "text": "Der STI wird am 10. Jänner nach der Methodik von FTSE neu aufgelegt." },
+    { "text": "Die Standard-Handelseinheit sinkt von 1.000 auf 100 Aktien (19. Jänner)." },
+    { "text": "Die Abwicklung wird für Geschäfte ab 10. Dezember von T+3 auf T+2 umgestellt." },
+    { "text": "Ab 5. Oktober schrumpfen die Handelseinheiten für höherpreisige Aktien auf 10 oder 1 Aktie." }
+  ],
+  "funFacts": [
+    "Singapurs wichtigster Index ist nach einer Zeitung benannt: Er wird gemeinsam von FTSE Russell, der SGX und SPH Media Trust berechnet, dem Herausgeber der Straits Times.",
+    "Die SGX beschreibt sich als liquidester internationaler Markt der Welt für die Leitindizes von China, Indien, Japan und ASEAN (über ihre Futures)."
+  ]
+}

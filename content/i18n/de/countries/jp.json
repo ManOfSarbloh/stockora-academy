@@ -1,0 +1,79 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Japan",
+  "summary": "Asiens ältester großer Markt: Die Tokyo Stock Exchange geht auf das Jahr 1878 zurück und gehört heute zur Japan Exchange Group (JPX). Aktien werden in festen Losen von 100 Stück gehandelt, mit Mittagspause und täglichen Kursgrenzen. TOPIX und Nikkei 225 sind die bekanntesten Indizes.",
+  "currency": {
+    "name": "Japanischer Yen",
+    "note": "Für einen Euro-Anleger haben japanische Aktien ein Währungsrisiko: Bewegungen des Yen gegenüber dem Euro verändern den Wert der Bestände in Euro (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Tokyo Stock Exchange (Japan Exchange Group)",
+      "city": "Tokio",
+      "founded": "15. Mai 1878 (Tokyo Stock Exchange Co., Ltd.); heutige Form seit 1949",
+      "hours": "Vormittagssitzung 09:00–11:30, Nachmittagssitzung 12:30–15:30 (der Handelsschluss wurde im November 2024 von 15:00 auf 15:30 verschoben).",
+      "note": "Japan hat keine Sommerzeit."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TOPIX (Tokyo Stock Price Index)",
+      "description": "Ein nach streubesitzbereinigter Marktkapitalisierung gewichteter Index, der einen großen Teil des japanischen Marktes abdeckt. Basis: 100 Punkte am 4. Jänner 1968. Berechnet von der JPX."
+    },
+    {
+      "name": "Nikkei 225",
+      "constituents": "225 Unternehmen",
+      "description": "Ein Kursindex aus 225 Aktien im Prime Market der Tokyo Stock Exchange, berechnet von Nikkei Inc. Er schloss 1989 auf dem Rekord von 38.915 und erst am 22. Februar 2024 wieder darüber (Kategorie K)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Services Agency (FSA)",
+      "role": "Japans Finanzaufsicht, die auch den Rahmen der steuerfreien NISA-Anlagekonten verantwortet."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Einlagensicherung (DICJ)",
+      "text": "Gewöhnliche Einlagen sind bis 10 Mio. ¥ Kapital pro Einleger und Bank plus Zinsen geschützt; unverzinste Zahlungsverkehrseinlagen sind vollständig geschützt. Fremdwährungseinlagen sind nicht gedeckt."
+    },
+    {
+      "name": "Japan Investor Protection Fund (JIPF)",
+      "text": "Wertpapierfirmen müssen Kundenvermögen getrennt vom eigenen halten. Kann eine gescheiterte Firma es nicht zurückgeben, zahlt der JIPF bis zu 10 Mio. ¥ pro Kunde. Verluste durch fallende Kurse deckt er nie."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage)",
+    "csd": "JASDEC (Japan Securities Depository Center)",
+    "note": "Geschäfte vom Montag werden am Mittwoch abgewickelt; Geschäfte vom Freitag am folgenden Dienstag."
+  },
+  "rules": [
+    {
+      "title": "Handelseinheit von 100 Aktien",
+      "text": "Alle Stammaktien börsennotierter inländischer Unternehmen werden seit 1. Oktober 2018 in Einheiten von 100 Aktien gehandelt, der Mindestkauf beträgt also 100 × den Aktienkurs."
+    },
+    {
+      "title": "Tägliche Kursgrenzen",
+      "text": "Jede Aktie darf sich an einem Tag nur innerhalb einer festgelegten Spanne um den Vortagesschluss bewegen; bei einem Schlusskurs von 1.000 ¥ liegen die Grenzen zum Beispiel bei 700 ¥ und 1.300 ¥. Nach zwei Tagen an der Grenze können die Grenzen erweitert werden."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: 20,315 % auf Dividenden und Gewinne aus börsennotierten Aktien (15,315 % national + 5 % lokal); NISA-Konten steuerfrei. Nicht Ansässige: 15,315 % Quellensteuer auf Dividenden börsennotierter Aktien (20,42 % ab 3 % Beteiligung), nach Abkommen reduzierbar.",
+    "items": [
+      { "title": "Ansässige", "text": "Dividenden aus börsennotierten Aktien werden mit 15,315 % (Einkommensteuer einschließlich Wiederaufbauzuschlag) plus 5 % lokaler Steuer besteuert; Gewinne aus börsennotierten Aktien ebenso." },
+      { "title": "NISA", "text": "Ansässige ab 18 Jahren können steuerfrei bis 1,2 Mio. ¥ im Jahr (tsumitate) und 2,4 Mio. ¥ (Wachstum) anlegen, mit einer Lebensgrenze von 18 Mio. ¥." },
+      { "title": "Nicht Ansässige", "text": "Dividenden aus börsennotierten Aktien an nicht Ansässige unterliegen in der Regel 15,315 % Quellensteuer; für Inhaber von 3 % oder mehr gelten 20,42 %. Ein Doppelbesteuerungsabkommen kann das reduzieren." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q)." }
+    ]
+  },
+  "access": [
+    "Manche österreichischen Banken und Broker bieten den Handel an der Tokyo Stock Exchange an; beachte das Mindestlos von 100 Aktien und den Umtausch in Yen.",
+    "Indirekt über Fonds oder ETFs auf den TOPIX, den Nikkei 225 oder asiatische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Am 15. Mai wird die Tokyo Stock Exchange Co., Ltd. gegründet." },
+    { "text": "Die Tokyo Stock Exchange in ihrer heutigen Form wird gegründet (eröffnet am 16. Mai)." },
+    { "text": "Der Nikkei 225 schließt das Jahr auf dem Rekord von 38.915 (Kategorie K)." },
+    { "text": "Der Nikkei 225 schließt endlich über seinem Hoch von 1989 (22. Februar); der Nachmittagsschluss der TSE wird auf 15:30 verschoben (November)." }
+  ]
+}

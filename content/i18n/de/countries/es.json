@@ -1,0 +1,74 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Spanien",
+  "summary": "Spaniens wichtigste Börse, die Bolsa de Madrid, stammt aus dem Jahr 1831. Ihr Betreiber BME gehört seit 2020 zur Schweizer SIX Group. Der IBEX 35 wird von Banken, Versorgern und dem Modekonzern Inditex dominiert, und auf Käufe großer spanischer Aktien fällt eine Transaktionssteuer von 0,2 % an.",
+  "currency": {
+    "name": "Euro",
+    "note": "Dieselbe Währung wie in Österreich, also kein Wechselkursrisiko für einen Euro-Anleger."
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Madrid (BME Exchange)",
+      "city": "Madrid",
+      "founded": "1831",
+      "hours": "Im elektronischen Verbundsystem (SIBE): Eröffnungsauktion 08:30–09:00, fortlaufender Handel 09:00–17:30, Schlussauktion 17:30–17:35, Handel zum letzten Kurs 17:35–17:45.",
+      "note": "BME betreibt die spanischen Börsen und Finanzmärkte und gehört seit 2020 zur SIX Group."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "IBEX 35",
+      "constituents": "35 Unternehmen",
+      "description": "Soll die größten am spanischen Aktienmarkt gehandelten Wertpapiere abbilden, gewichtet nach der Marktkapitalisierung im Streubesitz. Basis 3.000 Punkte am 29. Dezember 1989. Berechnet von BME."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CNMV (Comisión Nacional del Mercado de Valores)",
+      "role": "Spaniens nationale Wertpapiermarktkommission: beaufsichtigt Emittenten, Wertpapierfirmen, Fonds und Marktinfrastrukturen und veröffentlicht Warnungen vor nicht zugelassenen Firmen."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGD (Einlagensicherungsfonds der Kreditinstitute)",
+      "text": "Einlagen sind bis 100.000 € pro Inhaber und Institut garantiert."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Iberclear, der spanische Zentralverwahrer (Teil von BME)",
+    "note": "Wie der Rest der EU stellt Spanien am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Finanztransaktionssteuer",
+      "text": "Käufe von Aktien spanischer Unternehmen mit einer Marktkapitalisierung über 1 Mrd. € (gemessen am 1. Dezember des Vorjahres) werden mit 0,2 % besteuert."
+    },
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Ansässige: Spareinkünfte (Dividenden, Gewinne) mit 19 % bis 30 % besteuert (staatlicher und regionaler Teil von je 9,5 %–15 %, Tarif 2025). Nicht Ansässige ohne Betriebsstätte: 19 % auf spanische Dividenden (oder der Satz laut Abkommen). 0,2 % Transaktionssteuer auf große spanische Aktien.",
+    "items": [
+      { "title": "Ansässige: Spareinkünfte", "text": "Dividenden und Kursgewinne bilden die Bemessungsgrundlage für Spareinkünfte und werden progressiv besteuert. 2025 reicht der staatliche Teil von 9,5 % bis 15 % und der regionale Teil ebenfalls von 9,5 % bis 15 %, insgesamt also 19 % bis 30 %." },
+      { "title": "Dividenden für nicht Ansässige", "text": "Nicht Ansässige ohne Betriebsstätte in Spanien zahlen 19 % auf spanische Dividenden; ein Doppelbesteuerungsabkommen kann eine niedrigere Grenze festlegen." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q); eine höhere spanische Quellensteuer musst du in Spanien zurückfordern." },
+      { "title": "Transaktionssteuer", "text": "0,2 % auf den Kauf von Aktien großer spanischer Unternehmen (siehe Marktregeln oben)." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der spanischen Börse in Euro an; prüfe, ob die Transaktionssteuer von 0,2 % aufgeschlagen wird.",
+    "Indirekt über Fonds oder ETFs auf den IBEX 35 oder breitere europäische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Madrider Börse wird gegründet." },
+    { "text": "Basistag des IBEX 35: 3.000 Punkte am 29. Dezember." },
+    { "text": "Spaniens Gesetz über die Finanztransaktionssteuer (Ley 5/2020) wird beschlossen, und die SIX Group übernimmt BME (Juni)." }
+  ],
+  "funFacts": [
+    "Die vier größten IBEX-35-Mitglieder (Santander, Iberdrola, BBVA und Inditex) machten im Dezember 2025 mehr als die Hälfte des Index aus.",
+    "Seit 2020 gehören die spanische und die Schweizer Börse zur selben Gruppe, SIX."
+  ]
+}

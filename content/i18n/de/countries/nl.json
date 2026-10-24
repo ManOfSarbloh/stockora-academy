@@ -1,0 +1,77 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Niederlande",
+  "summary": "Amsterdam nimmt die älteste Börse der Welt für sich in Anspruch: Die Niederländische Ostindien-Kompanie (VOC) war 1602 das erste Unternehmen dort. Heute bildet der AEX der Euronext Amsterdam 30 große Unternehmen ab, angeführt von einigen globalen Namen aus Halbleitern, Energie, Konsumgütern und Finanzen.",
+  "currency": {
+    "name": "Euro",
+    "note": "Dieselbe Währung wie in Österreich, also kein Wechselkursrisiko für einen Euro-Anleger. Mehrere AEX-Unternehmen berichten in anderen Währungen oder erzielen den Großteil ihres Umsatzes im Ausland."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Amsterdam",
+      "city": "Amsterdam",
+      "founded": "1602 (Euronext nennt sie die älteste Börse der Welt); seit 2000 Teil von Euronext",
+      "hours": "Für AEX-Aktien: Eröffnungsauktion um 09:00, fortlaufender Handel 09:00–17:30, Schlussauktion bis 17:35, danach Handel zum Schlusskurs bis 17:40. Weniger liquide Aktien werden stattdessen in zwei täglichen Auktionen gehandelt (11:30 und 16:30).",
+      "note": "Amsterdam folgt dem Feiertagskalender von Euronext; 2026 wird an Christi Himmelfahrt und Pfingstmontag gehandelt."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "AEX",
+      "constituents": "30 Unternehmen",
+      "description": "Die 30 größten und am aktivsten gehandelten Aktien an der Euronext Amsterdam, gewichtet nach der Marktkapitalisierung im Streubesitz. Indexhistorie seit 1. März 1983. Die zehn größten Mitglieder machten Ende September 2026 etwa 77 % des Index aus."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autoriteit Financiële Markten (AFM)",
+      "role": "Beaufsichtigt seit 1. März 2002 das Verhalten des gesamten Finanzsektors, einschließlich Kapitalmärkten, Wertpapierfirmen und Finanzberichterstattung."
+    },
+    {
+      "name": "De Nederlandsche Bank (DNB)",
+      "role": "Zentralbank und Aufsicht über die Solvenz der Institute; sie verwaltet die niederländische Einlagensicherung."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Niederländische Einlagensicherung",
+      "text": "Geld auf Bankkonten ist automatisch bis 100.000 € pro Person und Bank geschützt. Anlageprodukte wie Aktien und Anleihen sind davon nicht gedeckt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (zwei Geschäftstage); T+1 ab 11. Oktober 2027",
+    "csd": "Euroclear Nederland (einer der ESES-Zentralverwahrer von Euroclear)",
+    "note": "Wie der Rest der EU stellen die Niederlande am 11. Oktober 2027 auf die Abwicklung am nächsten Geschäftstag um."
+  },
+  "rules": [
+    {
+      "title": "Leerverkäufe (EU-Regeln)",
+      "text": "Netto-Leerverkaufspositionen in Aktien müssen ab 0,1 % des ausgegebenen Aktienkapitals der Aufsicht gemeldet und ab 0,5 % veröffentlicht werden (Kategorie N)."
+    },
+    {
+      "title": "Hohe Konzentration",
+      "text": "Der AEX wird von einer Handvoll Unternehmen dominiert: Ende September 2026 hatte das größte Mitglied allein ein Gewicht von etwa 17 %."
+    }
+  ],
+  "taxes": {
+    "glance": "15 % niederländische Dividendensteuer, vom zahlenden Unternehmen einbehalten; ausländische Anleger können nach einem Doppelbesteuerungsabkommen eine Entlastung beantragen. In den Niederlanden Ansässige werden nach ihrem eigenen Einkommensteuersystem besteuert (hier nicht behandelt).",
+    "items": [
+      { "title": "Dividendensteuer", "text": "Der allgemeine Satz der niederländischen Dividendensteuer beträgt 15 % und wird vom Unternehmen einbehalten, das die Dividende zahlt." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer bis zu 15 % der Dividende auf die österreichische KESt anrechnen (Kategorie Q), was dem niederländischen Satz entspricht." },
+      { "title": "Ansässige", "text": "In den Niederlanden Ansässige werden auf Ersparnisse und Anlagen nach dem niederländischen Einkommensteuersystem besteuert, das komplex ist und reformiert wird; Auskunft gibt die niederländische Steuer- und Zollverwaltung." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der Euronext Amsterdam in Euro an.",
+    "Indirekt über Fonds oder ETFs auf den AEX oder breitere europäische Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Die Niederländische Ostindien-Kompanie (VOC) ist das erste Unternehmen an der Amsterdamer Börse." },
+    { "text": "Beginn der Indexhistorie des AEX (1. März)." },
+    { "text": "Die Börsen von Amsterdam, Brüssel und Paris schließen sich zu Euronext zusammen." },
+    { "text": "Die Amsterdamer Börse feiert ihr 417-jähriges Bestehen." }
+  ],
+  "funFacts": [
+    "Ende September 2026 machten die zehn größten AEX-Mitglieder etwa 77 % des Index aus, mehr als im DAX (etwa 65 %) oder im CAC 40 (etwa 62 %)."
+  ]
+}

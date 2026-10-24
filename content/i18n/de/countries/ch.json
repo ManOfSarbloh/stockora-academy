@@ -1,0 +1,81 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Schweiz",
+  "summary": "Ein Finanzplatz mit einem Markt, der von wenigen globalen Riesen aus Nahrungsmitteln, Pharma und Finanzen dominiert wird. Die SIX Swiss Exchange in Zürich war die erste Börse der Welt, die Handel, Abwicklung und Verwahrung vollelektronisch betrieb. Die Kurse lauten auf Schweizer Franken.",
+  "currency": {
+    "name": "Schweizer Franken",
+    "note": "Für einen Euro-Anleger haben Schweizer Aktien ein Währungsrisiko: Wertet der Franken gegenüber dem Euro auf, sind die Bestände in Euro mehr wert, und umgekehrt (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "SIX Swiss Exchange",
+      "city": "Zürich",
+      "founded": "17. Mai 1995, als sich die Börsen von Basel, Genf und Zürich zur Schweizer Börse SWX zusammenschlossen",
+      "hours": "Eröffnungsauktion um 09:00, fortlaufender Handel bis 17:20, Schlussauktion 17:20–17:30, danach Handel zum Schlusskurs bis 17:40 für Blue Chips sowie mittlere und kleine Unternehmen.",
+      "note": "Der vollelektronische Handel wurde zwischen 8. Dezember 1995 und 16. August 1996 eingeführt."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "SMI (Swiss Market Index)",
+      "constituents": "20 Unternehmen",
+      "description": "Die 20 größten und liquidesten Schweizer Aktien, ausgewählt nach Marktkapitalisierung im Streubesitz und Umsatz. Die Gewichte sind auf 18 % gekappt; die Zusammensetzung wird jeden September überprüft. Normiert auf 1.500 Punkte am 30. Juni 1988."
+    },
+    {
+      "name": "SPI (Swiss Performance Index)",
+      "description": "Der breite Schweizer Index der SIX, aus dem die größten und liquidesten Aktien des SMI stammen."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "FINMA (Eidgenössische Finanzmarktaufsicht)",
+      "role": "Unabhängige Aufsicht über den Schweizer Finanzmarkt: Banken, Wertpapierhäuser, Versicherungen, Vermögensverwalter und Finanzmarktinfrastrukturen."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "esisuisse (Einlagensicherung)",
+      "text": "Scheitert eine Bank, sind Einlagen bis 100.000 CHF pro Kunde und Bank geschützt."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 ab 11. Oktober 2027",
+    "csd": "SIX SIS, der nationale Zentralverwahrer",
+    "note": "Die Schweiz stellt am selben Tag wie die EU und das Vereinigte Königreich auf T+1 um."
+  },
+  "rules": [
+    {
+      "title": "Handel zum Schlusskurs",
+      "text": "Nach der Schlussauktion bietet die SIX eine kurze Phase, in der Aktien nur zum Schlusskurs gehandelt werden (bis 17:40)."
+    },
+    {
+      "title": "Umsatzabgabe (Stempelsteuer)",
+      "text": "Ist ein Schweizer Effektenhändler beteiligt, fällt auf Käufe und Verkäufe eine eidgenössische Umsatzabgabe an: 0,15 % bei Schweizer und 0,3 % bei ausländischen Wertpapieren, auf den bezahlten Preis."
+    }
+  ],
+  "taxes": {
+    "glance": "35 % Verrechnungssteuer auf Schweizer Dividenden (für Ansässige, die sie deklarieren, erstattungsfähig; nach Doppelbesteuerungsabkommen teilweise zurückforderbar); private Kapitalgewinne aus Wertpapieren steuerfrei; 0,15 %/0,3 % Umsatzabgabe über Schweizer Händler.",
+    "items": [
+      { "title": "Verrechnungssteuer auf Dividenden", "text": "Schweizer Unternehmen ziehen von Dividenden 35 % Verrechnungssteuer ab. In der Schweiz Ansässige, die die Einkünfte deklarieren, bekommen sie über die Steuererklärung zurück; ausländische Anleger können einen Teil nach einem Doppelbesteuerungsabkommen zurückfordern." },
+      { "title": "Kapitalgewinne von Privatanlegern", "text": "Gewinne aus dem Verkauf von beweglichem Privatvermögen wie Wertpapieren sind auf Bundes- und Kantonsebene steuerfrei." },
+      { "title": "Umsatzabgabe", "text": "0,15 % bei Schweizer und 0,3 % bei ausländischen Wertpapieren, wenn ein Schweizer Effektenhändler beteiligt ist." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer nur bis zu 15 % der Dividende anrechnen (Kategorie Q); den Rest der 35 % musst du, soweit möglich, nach dem Doppelbesteuerungsabkommen in der Schweiz zurückfordern." }
+    ]
+  },
+  "access": [
+    "Viele österreichische Banken und Broker bieten den Handel an der SIX Swiss Exchange an; prüfe die Kosten für den Umtausch in Franken.",
+    "Manche Schweizer Blue Chips werden auch an anderen europäischen Handelsplätzen gehandelt.",
+    "Indirekt über Fonds oder ETFs auf den SMI oder breitere Schweizer Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "Der SMI wird mit einer Basis von 1.500 Punkten eingeführt (30. Juni)." },
+    { "text": "Am 17. Mai schließen sich die Börsen von Basel, Genf und Zürich zur Schweizer Börse SWX zusammen, der heutigen SIX Swiss Exchange." },
+    { "text": "Die Schweiz stellt als erstes Land Handel, Abwicklung und Verwahrung vollständig auf elektronische Systeme um (8. Dezember 1995 bis 16. August 1996)." },
+    { "text": "Ciba-Geigy und Sandoz kündigen ihre Fusion zu Novartis an (7. März), womit einer der schwersten Werte des SMI entsteht." },
+    { "text": "Galderma und Sandoz ersetzen mit Wirkung zum 21. September Swisscom und Kühne+Nagel im SMI." }
+  ],
+  "funFacts": [
+    "Bis 1995 wurde der SMI aus Kursen von drei getrennten Börsen berechnet: Basel, Genf und Zürich.",
+    "Nestlé, Novartis, Roche und ABB waren 2026 so groß, dass sie im breiteren SLI-Index der SIX auf je 9 % gekappt wurden."
+  ]
+}

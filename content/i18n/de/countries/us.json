@@ -1,0 +1,99 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Vereinigte Staaten",
+  "summary": "Mit Abstand der größte Aktienmarkt der Welt: Börsennotierte US-Unternehmen waren Ende 2025 fast 69 Billionen US-Dollar wert. Aktien werden vor allem an der NYSE und an der Nasdaq gehandelt. Der S&P 500 ist der Maßstab, dem die meisten Anleger folgen, und US-Geschäfte werden bereits am nächsten Geschäftstag abgewickelt (T+1).",
+  "currency": {
+    "name": "US-Dollar",
+    "note": "Für einen Euro-Anleger haben US-Aktien ein Währungsrisiko: Ein stärkerer Euro verringert den Euro-Wert von Dollar-Beständen, ein schwächerer Euro erhöht ihn (Kategorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "New York Stock Exchange (NYSE)",
+      "city": "New York",
+      "founded": "1792 (Buttonwood Agreement, am 17. Mai von 24 Börsenmaklern unterzeichnet)",
+      "hours": "Hauptsitzung 09:30–16:00 New Yorker Zeit, mit Eröffnungs- und Schlussauktion. NYSE Arca bietet außerdem frühe (04:00–09:30) und späte (16:00–20:00) Sitzungen; andere Handelsplätze und Broker haben andere erweiterte Handelszeiten.",
+      "note": "Die Nasdaq veröffentlicht dieselben Feiertage und verkürzten Handelstage für 2026."
+    },
+    {
+      "name": "Nasdaq",
+      "city": "New York",
+      "hours": "Regulärer Handel 09:30–16:00 New Yorker Zeit; vorbörslich 04:00–09:30 und nachbörslich 16:00–20:00."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P 500",
+      "constituents": "500 Unternehmen",
+      "description": "500 führende US-Unternehmen, die etwa 80 % der verfügbaren Marktkapitalisierung abdecken. Berechnet von S&P Dow Jones Indices."
+    },
+    {
+      "name": "Dow Jones Industrial Average (der Dow)",
+      "constituents": "30 Unternehmen",
+      "description": "Ein preisgewichteter Index aus 30 bekannten US-Unternehmen: Aktien mit höheren Kursen haben mehr Gewicht (Kategorie H)."
+    },
+    {
+      "name": "Nasdaq-100",
+      "constituents": "Rund 100 Unternehmen",
+      "description": "Große an der Nasdaq notierte Unternehmen ohne Finanzunternehmen, daher dominieren Technologie und andere Wachstumsbranchen."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "role": "Bundesaufsicht über die Wertpapiermärkte, die Offenlegung börsennotierter Unternehmen, Börsen und Broker."
+    },
+    {
+      "name": "FINRA",
+      "role": "Selbstregulierungsorganisation für ihre Mitglieds-Broker-Dealer, die sie unter Aufsicht der SEC überwacht; sie betreibt auch BrokerCheck, wo du die Registrierung eines Brokers nachschlagen kannst."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "SIPC",
+      "text": "Scheitert ein Mitglieds-Brokerhaus, schützt die SIPC Wertpapiere und Bargeld der Kunden bis 500.000 $, davon bis 250.000 $ für Bargeld. Marktverluste deckt sie nicht."
+    },
+    {
+      "name": "FDIC-Einlagensicherung",
+      "text": "Bankeinlagen sind bei jeder FDIC-versicherten Bank bis mindestens 250.000 $ versichert."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (ein Geschäftstag) seit 28. Mai 2024",
+    "csd": "The Depository Trust Company (DTC), Teil der DTCC",
+    "note": "Die SEC beschloss die Umstellung von T+2 auf T+1 am 15. Februar 2023."
+  },
+  "rules": [
+    {
+      "title": "Marktweite Circuit Breaker",
+      "text": "Der Handel an allen US-Börsen kann angehalten werden, wenn der S&P 500 an einem Tag um 7 % (Stufe 1), 13 % (Stufe 2) oder 20 % (Stufe 3) fällt (Kategorie D)."
+    },
+    {
+      "title": "Erweiterte Handelszeiten",
+      "text": "Viele US-Handelsplätze und Broker bieten Handel vor 09:30 und nach 16:00 New Yorker Zeit an, mit geringerer Liquidität und größeren Spreads (Kategorie E)."
+    }
+  ],
+  "taxes": {
+    "glance": "Nicht Ansässige: 30 % US-Quellensteuer auf Dividenden, nach einem Doppelbesteuerungsabkommen reduziert. Ansässige: langfristige Gewinne (Haltedauer über ein Jahr) je nach Einkommen mit 0 %, 15 % oder 20 % besteuert; kurzfristige Gewinne zum normalen Einkommensteuersatz.",
+    "items": [
+      { "title": "Dividenden an ausländische Anleger", "text": "US-Zahlstellen behalten auf Dividenden an nicht ansässige Ausländer in der Regel 30 % ein. Nach einem Doppelbesteuerungsabkommen zwischen dem Land des Anlegers und den USA kann ein niedrigerer Satz gelten." },
+      { "title": "Für österreichische Anleger", "text": "Eine österreichische Bank kann ausländische Quellensteuer nur bis zu 15 % der Dividende anrechnen (Kategorie Q). Frag deine Bank, wie sie den Satz des US-Abkommens anwendet." },
+      { "title": "Kursgewinne (US-Ansässige)", "text": "Vermögenswerte, die länger als ein Jahr gehalten werden, ergeben langfristige Gewinne, die je nach steuerpflichtigem Einkommen mit 0 %, 15 % oder 20 % besteuert werden; Vermögenswerte, die ein Jahr oder kürzer gehalten werden, ergeben kurzfristige Gewinne, die wie normales Einkommen besteuert werden." }
+    ]
+  },
+  "access": [
+    "Die meisten österreichischen Banken und Broker bieten den Handel mit US-Aktien an, meist mit Währungsumtausch in Dollar.",
+    "Manche US-Aktien werden auch an europäischen Handelsplätzen in Euro gehandelt (Kategorie D).",
+    "Indirekt über Fonds oder ETFs auf den S&P 500 oder andere US-Indizes (Kategorie H)."
+  ],
+  "history": [
+    { "text": "24 Börsenmakler unterzeichnen am 17. Mai das Buttonwood Agreement, die offizielle Gründung der NYSE." },
+    { "text": "Der Börsenkrach leitet die Zeit der Großen Depression ein (Kategorie K)." },
+    { "text": "Schwarzer Montag, 19. Oktober: der größte prozentuale Tagesverlust in der Geschichte des Dow (Kategorie K)." },
+    { "text": "Die USA stellen am 28. Mai auf die Abwicklung T+1 um." },
+    { "text": "Alphabet wird als neues Mitglied des Dow Jones Industrial Average angekündigt (Juni)." }
+  ],
+  "funFacts": [
+    "Die NYSE geht auf eine Finanzpanik zurück: Das Buttonwood Agreement von 1792 war eine Antwort auf die erste Finanzpanik der jungen Nation.",
+    "Börsennotierte US-Unternehmen waren Ende 2025 etwa 224 % des US-BIP wert (Weltbank/WFE)."
+  ]
+}
