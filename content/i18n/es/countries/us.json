@@ -1,0 +1,118 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Estados Unidos",
+  "summary": "El mayor mercado bursátil del mundo con diferencia: las empresas cotizadas estadounidenses valían casi 69 billones de dólares a finales de 2025. Las acciones se negocian sobre todo en la NYSE y en Nasdaq. El S&P 500 es el índice de referencia que sigue la mayoría de los inversores, y las operaciones en EE. UU. ya se liquidan al día hábil siguiente (T+1).",
+  "currency": {
+    "name": "Dólar estadounidense",
+    "note": "Para un inversor en euros, las acciones estadounidenses tienen riesgo de divisa: un euro más fuerte reduce el valor en euros de las posiciones en dólares, y un euro más débil lo aumenta (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "New York Stock Exchange (NYSE)",
+      "city": "Nueva York",
+      "founded": "1792 (Acuerdo de Buttonwood, firmado por 24 corredores de bolsa el 17 de mayo)",
+      "hours": "Sesión principal de 09:30 a 16:00, hora de Nueva York, con subastas de apertura y de cierre. NYSE Arca también ofrece sesiones tempranas (04:00 a 09:30) y tardías (16:00 a 20:00); otros centros y brókers tienen otros horarios ampliados.",
+      "note": "Nasdaq publica los mismos festivos y cierres anticipados de 2026."
+    },
+    {
+      "name": "Nasdaq",
+      "city": "Nueva York",
+      "hours": "Mercado regular de 09:30 a 16:00, hora de Nueva York; antes de la apertura de 04:00 a 09:30 y después del cierre de 16:00 a 20:00."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P 500",
+      "constituents": "500 empresas",
+      "description": "500 empresas estadounidenses destacadas, que cubren alrededor del 80 % de la capitalización bursátil disponible. Lo calcula S&P Dow Jones Indices."
+    },
+    {
+      "name": "Dow Jones Industrial Average (el Dow)",
+      "constituents": "30 empresas",
+      "description": "Un índice ponderado por precio de 30 empresas estadounidenses conocidas: las acciones de precio más alto pesan más (categoría H)."
+    },
+    {
+      "name": "Nasdaq-100",
+      "constituents": "Unas 100 empresas",
+      "description": "Grandes empresas que cotizan en Nasdaq, sin las financieras, así que dominan la tecnología y otros sectores de crecimiento."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "role": "Supervisor federal de los mercados de valores, de la información de las empresas cotizadas, de las bolsas y de los brókers."
+    },
+    {
+      "name": "FINRA",
+      "role": "Organismo de autorregulación de los intermediarios miembros (broker-dealers), a los que supervisa bajo la vigilancia de la SEC; también gestiona BrokerCheck, donde puedes consultar el registro de un bróker."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "SIPC",
+      "text": "Si una sociedad de valores miembro quiebra, la SIPC protege los valores y el efectivo de los clientes hasta 500.000 $, de ellos hasta 250.000 $ en efectivo. No cubre las pérdidas de mercado."
+    },
+    {
+      "name": "Garantía de depósitos de la FDIC",
+      "text": "Los depósitos bancarios están asegurados hasta al menos 250.000 $ en cada banco asegurado por la FDIC."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (un día hábil) desde el 28 de mayo de 2024",
+    "csd": "The Depository Trust Company (DTC), parte de DTCC",
+    "note": "La SEC aprobó el cambio de T+2 a T+1 el 15 de febrero de 2023."
+  },
+  "rules": [
+    {
+      "title": "Cortacircuitos para todo el mercado",
+      "text": "La negociación en todas las bolsas de EE. UU. puede detenerse si el S&P 500 cae un 7 % (nivel 1), un 13 % (nivel 2) o un 20 % (nivel 3) en un día (categoría D)."
+    },
+    {
+      "title": "Horario ampliado",
+      "text": "Muchos centros y brókers de EE. UU. permiten operar antes de las 09:30 y después de las 16:00, hora de Nueva York, con menos liquidez y horquillas más amplias (categoría E)."
+    }
+  ],
+  "taxes": {
+    "glance": "No residentes: retención estadounidense del 30 % sobre los dividendos, reducida con un convenio fiscal. Residentes: las ganancias a largo plazo (activos mantenidos más de un año) tributan al 0 %, 15 % o 20 % según los ingresos; las de corto plazo, a los tipos normales del impuesto sobre la renta.",
+    "items": [
+      {
+        "title": "Dividendos pagados a inversores extranjeros",
+        "text": "Los pagadores estadounidenses suelen retener un 30 % sobre los dividendos pagados a extranjeros no residentes. Puede aplicarse un tipo reducido con un convenio fiscal entre el país del inversor y Estados Unidos."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco solo puede descontar la retención extranjera hasta el 15 % del dividendo (categoría Q). Pregunta a tu banco cómo aplica el tipo del convenio con EE. UU."
+      },
+      {
+        "title": "Ganancias de capital (residentes en EE. UU.)",
+        "text": "Los activos mantenidos más de un año generan ganancias a largo plazo, que tributan al 0 %, 15 % o 20 % según la renta imponible; los mantenidos un año o menos generan ganancias a corto plazo, que tributan como renta ordinaria."
+      }
+    ]
+  },
+  "access": [
+    "La mayoría de los bancos y brókers austriacos permiten operar con acciones estadounidenses, normalmente con cambio de divisa a dólares.",
+    "Algunas acciones estadounidenses también se negocian en euros en centros europeos (categoría D).",
+    "De forma indirecta, con fondos o ETF sobre el S&P 500 u otros índices estadounidenses (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "El 17 de mayo, 24 corredores de bolsa firman el Acuerdo de Buttonwood, la fundación oficial de la NYSE."
+    },
+    {
+      "text": "El crac bursátil abre la época de la Gran Depresión (categoría K)."
+    },
+    {
+      "text": "Lunes Negro, 19 de octubre: la mayor caída porcentual en un día de la historia del Dow (categoría K)."
+    },
+    {
+      "text": "EE. UU. pasa a la liquidación T+1 el 28 de mayo."
+    },
+    {
+      "text": "Se anuncia la entrada de Alphabet en el Dow Jones Industrial Average (junio)."
+    }
+  ],
+  "funFacts": [
+    "La NYSE tiene su origen en un pánico financiero: el Acuerdo de Buttonwood de 1792 fue la respuesta al primer pánico financiero de la joven nación.",
+    "Las empresas cotizadas estadounidenses valían alrededor del 224 % del PIB de EE. UU. a finales de 2025 (Banco Mundial/WFE)."
+  ]
+}

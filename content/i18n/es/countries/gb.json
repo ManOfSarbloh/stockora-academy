@@ -1,0 +1,116 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Reino Unido",
+  "summary": "Londres es uno de los mercados más antiguos e internacionales del mundo: su historia se remonta a las listas de precios de un café en 1698. El FTSE 100 sigue a las mayores empresas que cotizan en el Reino Unido. Las acciones se negocian en libras, y comprar acciones británicas suele costar un 0,5 % de impuesto de timbre.",
+  "currency": {
+    "name": "Libra esterlina",
+    "note": "Muchas acciones británicas cotizan en peniques (GBX), y 100 peniques son una libra. Para un inversor en euros, los movimientos de la libra frente al euro cambian el valor de las acciones británicas (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "London Stock Exchange (LSE)",
+      "city": "Londres",
+      "founded": "1801 (primera bolsa regulada); listas de precios desde 1698",
+      "hours": "En SETS, el libro de órdenes de las acciones más líquidas: subasta de apertura de 07:50 a 08:00, negociación continua de 08:00 a 16:30, subasta de cierre de 16:30 a 16:35. En las medias jornadas, la negociación continua termina a las 12:30.",
+      "note": "La bolsa también gestiona AIM, un mercado para empresas más pequeñas y en crecimiento, fundado en 1995."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE 100",
+      "constituents": "100 empresas",
+      "description": "Las 100 mayores empresas británicas por capitalización bursátil total, revisadas cada trimestre. Lanzado el 3 de enero de 1984 con 1.000 puntos. Lo calcula FTSE Russell (LSEG)."
+    },
+    {
+      "name": "FTSE 250",
+      "constituents": "250 empresas",
+      "description": "Las 250 empresas que siguen a las del FTSE 100: las empresas medianas del Reino Unido. Juntos, los dos forman el FTSE 350."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Conduct Authority (FCA)",
+      "role": "Regula la conducta de unas 35.500 empresas para que los mercados financieros funcionen bien, incluidas las normas de admisión a cotización y el abuso de mercado."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Services Compensation Scheme (FSCS): depósitos",
+      "text": "Desde el 1 de diciembre de 2025, los depósitos están protegidos hasta 120.000 £ por persona con derecho y banco."
+    },
+    {
+      "name": "FSCS: inversiones",
+      "text": "Si una empresa de servicios de inversión quiebra, las reclamaciones admisibles están cubiertas hasta 85.000 £ por persona y empresa (para quiebras posteriores al 1 de abril de 2019). Las pérdidas de mercado no están cubiertas."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 desde el 11 de octubre de 2027",
+    "csd": "Euroclear UK & International (sistema CREST)",
+    "note": "El Reino Unido pasa a T+1 en la misma fecha que la UE y Suiza."
+  },
+  "rules": [
+    {
+      "title": "Impuesto de timbre sobre las compras",
+      "text": "Comprar acciones británicas suele costar un 0,5 %: el Stamp Duty Reserve Tax en las compras electrónicas, o el Stamp Duty en las transmisiones en papel de más de 1.000 £. Se aplica un 1,5 % a las transmisiones a ciertos programas de certificados de depósito o servicios de compensación."
+    },
+    {
+      "title": "Precios en peniques",
+      "text": "La London Stock Exchange cotiza muchas acciones en GBX, es decir, en peniques: un precio de 2.450 GBX son 24,50 £. Los importes de las operaciones se muestran en libras."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes (2026-27): impuesto sobre ganancias de capital del 18 % o 24 % por encima de un mínimo exento de 3.000 £; dividendos al 10,75 %/35,75 %/39,35 % por encima de 500 £ exentos; límite anual de 20.000 £ en ISA. A la mayoría de los no residentes no se les retiene impuesto británico sobre los dividendos ordinarios. Impuesto de timbre del 0,5 % sobre la compra de acciones.",
+    "items": [
+      {
+        "title": "Ganancias de capital (residentes)",
+        "text": "Desde el 6 de abril de 2026, las ganancias con acciones tributan al 18 % dentro del tramo básico y al 24 % por encima, tras un mínimo exento anual de 3.000 £."
+      },
+      {
+        "title": "Dividendos (residentes)",
+        "text": "500 £ de dividendos exentos; por encima, 10,75 % (tipo básico), 35,75 % (tipo alto) o 39,35 % (tipo adicional) en el ejercicio fiscal 2026-27."
+      },
+      {
+        "title": "ISA",
+        "text": "Los residentes en el Reino Unido pueden ahorrar hasta 20.000 £ al año en ISA, incluidas las ISA de acciones (stocks and shares ISA), donde las ganancias y los rendimientos están exentos."
+      },
+      {
+        "title": "Dividendos de no residentes",
+        "text": "Según HMRC, los dividendos británicos siguen sin tributar para la mayoría de los no residentes en el Reino Unido, y no se retiene impuesto británico sobre los dividendos ordinarios. Un inversor en Austria paga por ellos el impuesto austriaco (categoría Q)."
+      },
+      {
+        "title": "Impuesto de timbre",
+        "text": "Normalmente, un 0,5 % al comprar acciones (ver las normas del mercado más arriba)."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en la London Stock Exchange; revisa los costes del cambio a libras y el impuesto de timbre.",
+    "Algunas empresas que cotizan en el Reino Unido también tienen acciones o certificados de depósito que se negocian en otros mercados (categoría C).",
+    "De forma indirecta, con fondos o ETF sobre el FTSE 100 o sobre índices británicos más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "En el café Jonathan's Coffee House, John Castaing empieza a publicar una lista de precios de acciones y materias primas."
+    },
+    {
+      "text": "Nace en Londres la primera bolsa regulada: es el origen de la Stock Exchange moderna."
+    },
+    {
+      "text": "El FTSE 100 se lanza el 3 de enero con 1.000 puntos."
+    },
+    {
+      "text": "El «Big Bang» liberaliza el mercado británico."
+    },
+    {
+      "text": "El 20 de octubre, el FTSE 100 cae un 12,22 %, su peor día entre 1984 y 2023 (categoría K)."
+    },
+    {
+      "text": "Se funda AIM, el mercado para empresas en crecimiento más pequeñas."
+    }
+  ],
+  "funFacts": [
+    "De los 100 miembros originales del FTSE 100 en 1984, 26 seguían en el índice a finales de 2023, 12 de ellos con otro nombre.",
+    "100 £ invertidas en Reed International (hoy Relx) al lanzarse el FTSE 100 se habrían convertido en 35.393 £ a finales de 2023, reinvirtiendo los dividendos, según FTSE Russell.",
+    "Las empresas de la lista de arriba son miembros originales del FTSE 100 de 1984 (o sus sucesoras) que seguían en el índice a finales de 2023."
+  ]
+}

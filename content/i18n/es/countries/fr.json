@@ -1,0 +1,99 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Francia",
+  "summary": "París es uno de los mercados de Euronext, el grupo formado en 2000 por las bolsas de Ámsterdam, Bruselas y París. El CAC 40 sigue a 40 grandes empresas francesas, desde el lujo hasta la industria aeroespacial. Comprar acciones de grandes empresas francesas paga un impuesto sobre transacciones financieras del 0,4 %.",
+  "currency": {
+    "name": "Euro",
+    "note": "La misma moneda que Austria, así que no hay riesgo de tipo de cambio para un inversor en euros. Muchas empresas del CAC 40 obtienen gran parte de sus ingresos fuera de la zona del euro."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Paris",
+      "city": "París",
+      "founded": "Parte de Euronext desde 2000, cuando se unieron los mercados de Ámsterdam, Bruselas y París",
+      "hours": "Para las acciones del CAC 40: subasta de apertura, negociación continua de 09:00 a 17:30, subasta de cierre hasta las 17:35 y después negociación al precio de cierre hasta las 17:40.",
+      "note": "Euronext gestiona siete mercados regulados: Ámsterdam, Bruselas, Dublín, Lisboa, Milán, Oslo y París."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CAC 40",
+      "constituents": "40 empresas",
+      "description": "Las 40 acciones más grandes y más negociadas de Euronext Paris, ponderadas por capitalización bursátil del capital flotante. Valor base de 1.000 el 31 de diciembre de 1987; lanzado oficialmente el 15 de junio de 1988."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité des marchés financiers (AMF)",
+      "role": "Autoridad pública independiente que regula los mercados financieros franceses, a sus participantes y los productos de inversión, y vela por que los inversores estén bien informados."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantía de depósitos del FGDR",
+      "text": "Los depósitos están garantizados hasta 100.000 € por cliente y banco."
+    },
+    {
+      "name": "Garantía de valores del FGDR",
+      "text": "Si una empresa de servicios de inversión quiebra y no puede devolver las acciones, los bonos o las participaciones en fondos de sus clientes, estos están cubiertos hasta 70.000 € por cliente y empresa."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "Euroclear France (parte de los depositarios ESES del grupo Euroclear, con Euroclear Belgium y Euroclear Nederland)",
+    "note": "Como el resto de la UE, Francia pasa a la liquidación al día siguiente el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Impuesto sobre transacciones financieras",
+      "text": "La adquisición de acciones de sociedades francesas con una capitalización bursátil superior a 1.000 millones de euros tributa al 0,4 % desde el 1 de abril de 2025 (antes, 0,3 %). La lista de sociedades se fija cada 1 de diciembre para el año siguiente."
+    },
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes: gravamen único del 31,4 % sobre dividendos y ganancias desde el 1 de enero de 2026 (12,8 % de impuesto sobre la renta + 18,6 % de cargas sociales). Particulares no residentes: retención del 12,8 % sobre los dividendos franceses, o un tipo de convenio más bajo. Impuesto del 0,4 % sobre las transacciones con acciones francesas grandes.",
+    "items": [
+      {
+        "title": "Residentes: gravamen único",
+        "text": "Los rendimientos de valores están sujetos a un gravamen total del 31,4 %: 12,8 % de impuesto sobre la renta y 18,6 % de cotizaciones sociales. En su lugar, se puede optar por la escala progresiva del impuesto sobre la renta."
+      },
+      {
+        "title": "Dividendos de no residentes",
+        "text": "Los dividendos franceses pagados a particulares residentes en el extranjero tienen una retención del 12,8 % (tipo vigente el 1 de enero de 2026), salvo que un convenio fiscal prevea un tipo más favorable."
+      },
+      {
+        "title": "Impuesto sobre transacciones",
+        "text": "0,4 % sobre la compra de acciones de grandes sociedades francesas (ver las normas del mercado más arriba)."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q)."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en Euronext Paris en euros; comprueba si a la compra se añade el impuesto sobre transacciones del 0,4 %.",
+    "De forma indirecta, con fondos o ETF sobre el CAC 40 o sobre índices europeos más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "Fecha base del CAC 40: 1.000 puntos el 31 de diciembre de 1987."
+    },
+    {
+      "text": "El CAC 40 se lanza oficialmente el 15 de junio."
+    },
+    {
+      "text": "Las bolsas de Ámsterdam, Bruselas y París se unen para formar Euronext."
+    },
+    {
+      "text": "El impuesto sobre transacciones financieras sube del 0,3 % al 0,4 % (desde el 1 de abril)."
+    }
+  ],
+  "funFacts": [
+    "Los diez mayores miembros del CAC 40 suponían alrededor del 62 % del índice a finales de septiembre de 2026.",
+    "Airbus cotiza en París y en 2026 también estaba entre los diez mayores miembros del DAX."
+  ]
+}

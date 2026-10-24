@@ -1,0 +1,101 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Canadá",
+  "summary": "La principal bolsa de Canadá, la Toronto Stock Exchange (TSX), tiene sus raíces en 1852 y forma parte de TMX Group. Toronto fue pionera en la negociación asistida por ordenador (1977) y lanzó el primer ETF del mundo (1990). Canadá pasó a la liquidación al día siguiente (T+1) el 27 de mayo de 2024, un día antes que EE. UU.",
+  "currency": {
+    "name": "Dólar canadiense",
+    "note": "Las acciones canadienses cotizan en dólares canadienses, así que un inversor en euros asume riesgo de divisa: los movimientos del dólar canadiense frente al euro cambian el valor de sus posiciones en euros (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "Toronto Stock Exchange (TSX, parte de TMX Group)",
+      "city": "Toronto",
+      "founded": "1852 (la Association of Brokers se forma el 24 de octubre de 1852); creada formalmente en 1861",
+      "hours": "Apertura a las 09:30 ET, negociación continua hasta las 16:00 con el sistema Market on Close desde las 15:50, y una sesión ampliada de 16:15 a 17:00 solo al último precio negociado.",
+      "note": "TSX Venture Exchange es el mercado de TMX para empresas en fase inicial. Toronto sigue las mismas reglas de horario de verano que Nueva York."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/TSX Composite Index",
+      "description": "El índice de referencia amplio de Canadá para las acciones que cotizan en Toronto. Nació en 1977 como TSE 300 Composite Index; S&P Dow Jones Indices asumió su gestión en 2002 y cambió de nombre."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Comisiones de valores provinciales (por ejemplo, la Ontario Securities Commission)",
+      "role": "En Canadá, la regulación de valores es provincial; las comisiones se coordinan a través de los Canadian Securities Administrators (CSA)."
+    },
+    {
+      "name": "Canadian Investment Regulatory Organization (CIRO)",
+      "role": "Organismo de autorregulación nacional para los intermediarios de inversión y los distribuidores de fondos, y para la negociación en los mercados canadienses."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Canadian Investor Protection Fund (CIPF)",
+      "text": "Si una entidad miembro de CIRO se declara insolvente, el CIPF suele proteger los bienes de un particular hasta 1 millón de C$ por todas sus cuentas generales juntas, más 1 millón de C$ por las cuentas de jubilación y otro tanto por los planes de ahorro para estudios."
+    },
+    {
+      "name": "Canada Deposit Insurance Corporation (CDIC)",
+      "text": "Los depósitos admisibles en las entidades miembros están asegurados hasta 100.000 C$ por categoría asegurada, incluidos principal e intereses."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (siguiente día hábil), desde el 27 de mayo de 2024",
+    "csd": "CDS Clearing and Depository Services (parte de TMX Group)",
+    "note": "Canadá hizo el cambio un día antes que EE. UU. (28 de mayo de 2024) por un festivo estadounidense."
+  },
+  "rules": [
+    {
+      "title": "La regulación es provincial",
+      "text": "Canadá no tiene un único supervisor de valores nacional: cada provincia y territorio tiene el suyo, coordinados a través de los Canadian Securities Administrators (CSA). A los intermediarios los vigila el organismo de autorregulación CIRO."
+    }
+  ],
+  "taxes": {
+    "glance": "No residentes: 25 % de impuesto canadiense sobre los dividendos (Part XIII), reducible con un convenio fiscal, normalmente entregando al pagador el formulario NR301. Las ganancias con acciones cotizadas no suelen tributar en Canadá para los no residentes, salvo que sean «bienes canadienses sujetos a impuesto» (participaciones del 25 % o más en sociedades con mucho patrimonio inmobiliario).",
+    "items": [
+      {
+        "title": "Dividendos de no residentes",
+        "text": "Los no residentes pagan un 25 % sobre los dividendos y otras cantidades sujetas a la Part XIII. Un convenio fiscal puede reducir el tipo; para aplicarlo, el pagador suele necesitar el formulario NR301 (declaración de derecho a los beneficios del convenio)."
+      },
+      {
+        "title": "Ganancias de capital de no residentes",
+        "text": "Los no residentes tributan en Canadá por las ganancias con «bienes canadienses sujetos a impuesto» (taxable Canadian property). Las acciones cotizadas solo cuentan si, en los 60 meses anteriores, el inversor (junto con personas vinculadas) tuvo el 25 % o más de una clase y más del 50 % del valor de la acción procedía de inmuebles o recursos naturales canadienses."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); el impuesto canadiense que supere esa cifra debe reducirse con el convenio o reclamarse en Canadá."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en la Toronto Stock Exchange; revisa los costes de cambiar euros a dólares canadienses.",
+    "Algunas grandes empresas canadienses también cotizan en EE. UU. y pueden comprarse allí en dólares estadounidenses.",
+    "De forma indirecta, con fondos o ETF sobre índices de Canadá, de Norteamérica o de mercados desarrollados (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "El 24 de octubre, unos empresarios de Toronto forman una «Association of Brokers», la base de la Toronto Stock Exchange."
+    },
+    {
+      "text": "La asociación crea formalmente la Toronto Stock Exchange; la negociación se limita a sesiones diarias de media hora con 18 valores."
+    },
+    {
+      "text": "Toronto pone en marcha el primer sistema de negociación asistida por ordenador del mundo (CATS) y el TSE 300 Composite Index."
+    },
+    {
+      "text": "Se crea el primer ETF del mundo, el Toronto 35 Index Participation Fund."
+    },
+    {
+      "text": "Toronto se convierte en la primera bolsa de Norteamérica en cotizar con decimales, y en la mayor de Norteamérica en cerrar su parqué y pasar a ser totalmente electrónica."
+    },
+    {
+      "text": "Canadá pasa a la liquidación T+1 el 27 de mayo."
+    }
+  ],
+  "funFacts": [
+    "En sus primeros años, la Toronto Stock Exchange registraba solo dos o tres operaciones al día.",
+    "Al estallar la Primera Guerra Mundial, la Toronto Stock Exchange cerró tres meses por miedo a un pánico financiero."
+  ]
+}

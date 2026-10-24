@@ -1,0 +1,92 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "España",
+  "summary": "La principal bolsa de España, la Bolsa de Madrid, data de 1831. Su gestora, BME, pertenece al grupo suizo SIX desde 2020. En el IBEX 35 dominan los bancos, las eléctricas y el grupo de moda Inditex, y la compra de acciones españolas grandes paga un impuesto sobre transacciones del 0,2 %.",
+  "currency": {
+    "name": "Euro",
+    "note": "La misma moneda que Austria, así que no hay riesgo de tipo de cambio para un inversor en euros."
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Madrid (BME Exchange)",
+      "city": "Madrid",
+      "founded": "1831",
+      "hours": "En el Sistema de Interconexión Bursátil (SIBE): subasta de apertura de 08:30 a 09:00, negociación continua de 09:00 a 17:30, subasta de cierre de 17:30 a 17:35 y negociación al último precio de 17:35 a 17:45.",
+      "note": "BME (Bolsas y Mercados Españoles) gestiona las bolsas y los mercados financieros españoles y forma parte de SIX Group desde 2020."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "IBEX 35",
+      "constituents": "35 empresas",
+      "description": "Pensado para representar los mayores valores negociados en la bolsa española, ponderados por capitalización bursátil del capital flotante. Nivel base de 3.000 el 29 de diciembre de 1989. Lo calcula BME."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CNMV (Comisión Nacional del Mercado de Valores)",
+      "role": "El supervisor nacional de los mercados de valores de España: vigila a los emisores, las empresas de servicios de inversión, los fondos y las infraestructuras de mercado, y publica advertencias sobre entidades no autorizadas."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGD (Fondo de Garantía de Depósitos de Entidades de Crédito)",
+      "text": "Los depósitos están garantizados hasta 100.000 € por titular y entidad."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "Iberclear, el depositario central de valores español (parte de BME)",
+    "note": "Como el resto de la UE, España pasa a la liquidación al día siguiente el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Impuesto sobre las Transacciones Financieras",
+      "text": "La compra de acciones de sociedades españolas con una capitalización bursátil superior a 1.000 millones de euros (medida el 1 de diciembre del año anterior) tributa al 0,2 %."
+    },
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes: los rendimientos del ahorro (dividendos, ganancias) tributan del 19 % al 30 % (partes estatal y autonómica del 9,5 % al 15 % cada una, escala de 2025). No residentes sin establecimiento permanente: 19 % sobre los dividendos españoles (o el tipo del convenio). Impuesto del 0,2 % sobre las transacciones con acciones españolas grandes.",
+    "items": [
+      {
+        "title": "Residentes: rendimientos del ahorro",
+        "text": "Los dividendos y las ganancias de capital forman la base imponible del ahorro, que tributa de forma progresiva. En 2025, la parte estatal va del 9,5 % al 15 % y la autonómica también del 9,5 % al 15 %, es decir, del 19 % al 30 % en total."
+      },
+      {
+        "title": "Dividendos de no residentes",
+        "text": "Los no residentes sin establecimiento permanente en España pagan un 19 % sobre los dividendos españoles; un convenio fiscal puede fijar un límite más bajo."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); la retención española que supere esa cifra debe reclamarse en España."
+      },
+      {
+        "title": "Impuesto sobre transacciones",
+        "text": "0,2 % sobre la compra de acciones de grandes sociedades españolas (ver las normas del mercado más arriba)."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en la bolsa española en euros; comprueba si se añade el impuesto sobre transacciones del 0,2 %.",
+    "De forma indirecta, con fondos o ETF sobre el IBEX 35 o sobre índices europeos más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "Se crea la Bolsa de Madrid."
+    },
+    {
+      "text": "Fecha base del IBEX 35: 3.000 puntos el 29 de diciembre."
+    },
+    {
+      "text": "Se aprueba la ley española del Impuesto sobre las Transacciones Financieras (Ley 5/2020), y SIX Group se hace con BME (junio)."
+    }
+  ],
+  "funFacts": [
+    "Los cuatro mayores miembros del IBEX 35 (Santander, Iberdrola, BBVA e Inditex) suponían más de la mitad del índice en diciembre de 2025.",
+    "Desde 2020, las bolsas española y suiza pertenecen al mismo grupo, SIX."
+  ]
+}

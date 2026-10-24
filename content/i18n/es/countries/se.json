@@ -1,0 +1,87 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Suecia",
+  "summary": "La bolsa de Estocolmo negocia desde el 4 de febrero de 1863 y hoy es Nasdaq Stockholm, parte de los mercados nórdicos de Nasdaq. El OMXS30 reúne a 30 grandes empresas suecas, muchas de ellas grupos industriales, y muchas empresas suecas cotizan con clases de acciones A y B separadas. Las acciones cotizan en coronas suecas.",
+  "currency": {
+    "name": "Corona sueca",
+    "note": "Para un inversor en euros, las acciones suecas tienen riesgo de divisa: los movimientos de la corona frente al euro cambian el valor de las posiciones en euros (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "Nasdaq Stockholm",
+      "city": "Estocolmo",
+      "founded": "1863 (primer día de negociación, 4 de febrero de 1863)",
+      "hours": "Acciones del mercado principal de 09:00 a 17:30. En los últimos cinco minutos no se casan órdenes; el precio de cierre se fija en una subasta de cierre que termina en un momento aleatorio de los últimos 30 segundos.",
+      "note": "Nasdaq también gestiona las bolsas de Copenhague, Helsinki e Islandia, con otros horarios."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "OMX Stockholm 30 (OMXS30)",
+      "constituents": "30 empresas",
+      "description": "Las 30 acciones más grandes y más negociadas de la Bolsa de Estocolmo; valor base de 125. Lo calcula Nasdaq."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finansinspektionen (FI)",
+      "role": "La autoridad pública sueca que vigila el mercado financiero, incluidos los bancos, las aseguradoras y los mercados de valores."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantía de depósitos (Riksgälden, Oficina Nacional de la Deuda de Suecia)",
+      "text": "Desde el 1 de enero de 2026, los depósitos están protegidos hasta 1.150.000 SEK por persona y entidad (el equivalente en coronas de 100.000 €, que se ajusta cada cinco años)."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "Euroclear Sweden, el depositario central de valores sueco",
+    "note": "Como el resto de la UE, Suecia pasa a la liquidación al día siguiente el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Clases de acciones A y B",
+      "text": "Muchas empresas suecas tienen más de una clase de acciones, normalmente con distintos derechos de voto. El propio OMXS30 incluye, por ejemplo, Atlas Copco A, Volvo B e Investor B (categoría C)."
+    },
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "No residentes: retención sueca del 30 % (kupongskatt) sobre los dividendos, reducible con un convenio fiscal en el pago o mediante devolución. Residentes: las cuentas de ahorro para inversión (ISK) tributan al 30 % de un rendimiento estándar, en lugar de por las ganancias y los dividendos reales.",
+    "items": [
+      {
+        "title": "Dividendos de inversores extranjeros",
+        "text": "La regla general es que se retiene un 30 % de los dividendos (kupongskatt). Puede ser menos si el perceptor vive en un país con convenio fiscal con Suecia, ya sea directamente en el pago o mediante una devolución posterior."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco solo puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); el impuesto sueco que supere esa cifra debe reducirse o reclamarse en Suecia."
+      },
+      {
+        "title": "Residentes: cuenta de ahorro para inversión (ISK)",
+        "text": "En una ISK, las ganancias, los dividendos y los intereses no tributan. En su lugar, la cuenta tributa cada año al 30 % de un rendimiento estándar (schablonintäkt) calculado a partir de su valor."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en Nasdaq Stockholm; revisa los costes de cambiar euros a coronas.",
+    "De forma indirecta, con fondos o ETF sobre índices de Suecia o de los países nórdicos (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "La Bolsa de Estocolmo celebra su primer día de negociación el 4 de febrero."
+    },
+    {
+      "text": "Nasdaq Stockholm celebra su 160 aniversario."
+    },
+    {
+      "text": "El 1 de enero, el límite de la garantía de depósitos sube a 1.150.000 SEK."
+    }
+  ],
+  "funFacts": [
+    "El OMXS30 también incluye empresas con sede fuera de Suecia, como ABB, AstraZeneca y Nordea, que cotizan en Estocolmo."
+  ]
+}

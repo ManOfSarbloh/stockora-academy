@@ -1,0 +1,88 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Italia",
+  "summary": "La bolsa de Milán se creó por decreto napoleónico en 1808 y hoy es Euronext Milan, gestionada por Borsa Italiana dentro del grupo Euronext. El FTSE MIB sigue a 40 empresas italianas destacadas, con mucho peso de bancos, energía y marcas de lujo. Comprar acciones italianas paga un impuesto sobre transacciones financieras.",
+  "currency": {
+    "name": "Euro",
+    "note": "La misma moneda que Austria, así que no hay riesgo de tipo de cambio para un inversor en euros."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Milan (Borsa Italiana)",
+      "city": "Milán",
+      "founded": "1808 (Bolsa de Mercancías de Milán, creada por decreto del 16 de enero de 1808)",
+      "hours": "Subasta de apertura de 07:30 a 09:00, negociación continua de 09:00 a 17:30, subasta de cierre de 17:30 a 17:35 y después negociación al precio de cierre hasta las 17:40.",
+      "note": "Milán cierra algunos días en los que otros mercados de Euronext negocian, por ejemplo el 24 y el 31 de diciembre de 2026."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE MIB",
+      "constituents": "40 empresas",
+      "description": "Las 40 acciones principales de Euronext Milan y Euronext MIV Milan, seleccionadas por liquidez y capitalización bursátil. Lo calcula FTSE Russell con Borsa Italiana."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CONSOB (Commissione Nazionale per le Società e la Borsa)",
+      "role": "La comisión nacional italiana para las sociedades y la bolsa: el supervisor del mercado de valores."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FITD (Fondo Interbancario di Tutela dei Depositi)",
+      "text": "Los depósitos en los bancos miembros están garantizados hasta 100.000 € por depositante y banco. Las cajas cooperativas y rurales pertenecen a un fondo de garantía distinto."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "Euronext Securities Milan (el depositario central de Euronext en Milán)",
+    "note": "Como el resto de la UE, Italia pasa a la liquidación al día siguiente el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Impuesto sobre transacciones financieras",
+      "text": "Las transmisiones de acciones de sociedades italianas tributan al 0,4 % del valor desde el 1 de enero de 2026 (0,2 % hasta finales de 2025). El tipo se reduce a la mitad en las operaciones en mercados regulados o sistemas multilaterales de negociación, así que las compras en bolsa cuestan un 0,2 %. Están exentas las acciones de sociedades con un valor de mercado medio inferior a 500 millones de euros (en el noviembre anterior)."
+    },
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes: impuesto sustitutivo del 26 % sobre la mayoría de las ganancias con instrumentos financieros. No residentes: Italia retiene impuesto sobre los dividendos; el pagador puede aplicar directamente el tipo del convenio, o se puede pedir la devolución en un plazo de 48 meses. Impuesto sobre transacciones del 0,2 % en las compras en bolsa de las sociedades italianas más grandes (2026).",
+    "items": [
+      {
+        "title": "Ganancias de capital (residentes)",
+        "text": "Las ganancias con instrumentos financieros suelen estar sujetas a un impuesto sustitutivo del 26 %; algunas categorías tributan al 20 %."
+      },
+      {
+        "title": "Dividendos de inversores extranjeros",
+        "text": "Italia retiene impuesto sobre los dividendos pagados a no residentes. Un no residente puede pedir al agente de retención italiano que aplique directamente el tipo del convenio fiscal, o reclamar el exceso a la Agenzia delle Entrate (Centro Operativo di Pescara) en un plazo de 48 meses."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); la retención italiana que supere esa cifra debe reclamarse en Italia."
+      },
+      {
+        "title": "Impuesto sobre transacciones",
+        "text": "Ver las normas del mercado más arriba: 0,4 %, o 0,2 % en las operaciones en mercados regulados, desde 2026."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en Euronext Milan en euros; comprueba si se añade el impuesto italiano sobre transacciones.",
+    "De forma indirecta, con fondos o ETF sobre el FTSE MIB o sobre índices europeos más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "Un decreto del 16 de enero del virrey Eugène Napoléon crea la Bolsa de Mercancías de Milán; un segundo decreto, del 6 de febrero, fija sus primeras normas."
+    },
+    {
+      "text": "Italia duplica su impuesto sobre transacciones financieras con acciones, al 0,4 % (0,2 % en mercados regulados), desde el 1 de enero."
+    }
+  ],
+  "funFacts": [
+    "Según Borsa Italiana, las autoridades francesas querían la bolsa de Milán en parte como mercado organizado para vender deuda pública, en competencia con Londres."
+  ]
+}

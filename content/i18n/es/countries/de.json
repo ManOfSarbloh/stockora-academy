@@ -1,0 +1,97 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Alemania",
+  "summary": "La mayor economía de Europa tiene una bolsa con hondas raíces en Fráncfort, que se remonta a 1585, y el DAX, con 40 grandes empresas. La mayor parte de la negociación de acciones alemanas pasa por Xetra, el sistema totalmente electrónico de Deutsche Börse.",
+  "currency": {
+    "name": "Euro",
+    "note": "La misma moneda que Austria, así que no hay riesgo de tipo de cambio para un inversor en euros. Pero muchas empresas del DAX obtienen gran parte de sus ingresos en el extranjero, así que los movimientos de las divisas pueden afectar igualmente a sus beneficios."
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Fráncfort (Xetra y Börse Frankfurt), gestionada por Deutsche Börse",
+      "city": "Fráncfort del Meno",
+      "founded": "1585 (el 9 de septiembre de 1585 se fijaron por primera vez tipos de cambio uniformes)",
+      "hours": "Negociación continua en Xetra de 09:00 a 17:30, con subastas de apertura y de cierre. El centro Börse Frankfurt suele negociar de 08:00 a 22:00.",
+      "note": "Xetra, lanzado en 1997, es el sistema de negociación totalmente electrónico de Deutsche Börse y donde se concentra la mayor parte de la negociación de las acciones del DAX."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "DAX",
+      "constituents": "40 empresas",
+      "description": "Las 40 mayores empresas del mercado regulado de la Bolsa de Fráncfort que cumplen requisitos mínimos de calidad y rentabilidad, ponderadas por capitalización bursátil del capital flotante y con un tope del 15 %. Valor base de 1.000 el 30 de diciembre de 1987. Lo calcula STOXX (Deutsche Börse Group)."
+    },
+    {
+      "name": "MDAX y SDAX",
+      "constituents": "50 y 70 empresas",
+      "description": "El MDAX reúne las 50 empresas que siguen al DAX por valor de mercado; el SDAX, las 70 que siguen al MDAX. Junto con el DAX cubren las empresas alemanas grandes, medianas y pequeñas."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "BaFin (Autoridad Federal de Supervisión Financiera)",
+      "role": "Supervisa bancos, aseguradoras y mercados de valores, con el foco en la transparencia, la integridad del mercado y la protección del consumidor; también es la autoridad nacional de resolución de Alemania."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantía legal de depósitos",
+      "text": "Los saldos de hasta 100.000 € por cliente y banco están protegidos; las cantidades superiores suelen estar cubiertas por los sistemas voluntarios de las asociaciones bancarias."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "Clearstream (Deutsche Börse Group), que incluye el depositario central de valores alemán",
+    "note": "Como el resto de la UE, Alemania pasa a la liquidación al día siguiente el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes: impuesto único del 25 % sobre los rendimientos del capital, más un recargo de solidaridad del 5,5 % sobre ese impuesto (y el impuesto eclesiástico, si procede); mínimo exento anual de 1.000 €. No residentes: retención del 25 % más el recargo sobre los dividendos alemanes, en parte recuperable con los convenios fiscales.",
+    "items": [
+      {
+        "title": "Residentes: impuesto único",
+        "text": "Los rendimientos del capital, incluidos los dividendos y las ganancias con acciones, tributan al 25 % (Abgeltungsteuer), más un recargo de solidaridad del 5,5 % de ese impuesto y el impuesto eclesiástico para los miembros de una iglesia. Normalmente lo retienen los bancos."
+      },
+      {
+        "title": "Mínimo exento del ahorrador",
+        "text": "Los primeros 1.000 € de rendimientos del capital al año están exentos (2.000 € para los cónyuges que tributan conjuntamente)."
+      },
+      {
+        "title": "Dividendos pagados a inversores extranjeros",
+        "text": "Las empresas alemanas retienen sobre los dividendos un 25 % de impuesto sobre los rendimientos del capital más el recargo, viva donde viva el accionista. Los no residentes pueden pedir una reducción a la Oficina Central Federal de Impuestos (BZSt) con un convenio para evitar la doble imposición; la propia oficina avisa de que las devoluciones pueden tardar más de 20 meses."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco solo puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q). Lo que supere esa cifra debe reclamarse en Alemania."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en Xetra y en otros centros alemanes.",
+    "Las acciones alemanas también se negocian en otros centros europeos con el mismo ISIN (categorías A y D).",
+    "De forma indirecta, con fondos o ETF sobre el DAX o sobre índices más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "El 9 de septiembre, los comerciantes de la feria de Fráncfort fijan por primera vez tipos de cambio uniformes para las monedas; se considera el nacimiento de la bolsa de Fráncfort."
+    },
+    {
+      "text": "La primera acción negociada en Fráncfort es un certificado de participación del banco nacional de Austria (Oesterreichische Nationalbank)."
+    },
+    {
+      "text": "Fecha base del DAX: 1.000 puntos el 30 de diciembre de 1987."
+    },
+    {
+      "text": "Deutsche Börse lanza el sistema de negociación totalmente electrónico Xetra."
+    }
+  ],
+  "funFacts": [
+    "La primera acción negociada en Fráncfort venía de Austria: un certificado de la Oesterreichische Nationalbank, en 1820.",
+    "Los diez mayores miembros del DAX suponían alrededor del 65 % del peso del índice a finales de septiembre de 2026."
+  ]
+}

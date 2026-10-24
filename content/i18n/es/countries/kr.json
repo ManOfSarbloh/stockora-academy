@@ -1,0 +1,111 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Corea del Sur",
+  "summary": "La bolsa de Corea del Sur abrió en 1956 y la gestiona Korea Exchange (KRX), formada en 2005 a partir de las bolsas de acciones, KOSDAQ y futuros. En el mercado KOSPI cotizan grupos mundiales como Samsung Electronics, Hyundai Motor, POSCO y LG Electronics. Las acciones se negocian de una en una (sin lotes), con un límite diario de ±30 %. FTSE Russell clasifica a Corea como mercado desarrollado.",
+  "currency": {
+    "name": "Won surcoreano",
+    "note": "Las acciones coreanas cotizan en wones, así que un inversor en euros asume riesgo de divisa: los movimientos del won frente al euro cambian el valor de sus posiciones en euros (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "Korea Exchange (KRX)",
+      "city": "Seúl",
+      "founded": "1956 (Daehan Stock Exchange, creada el 3 de marzo de 1956); KRX se forma el 27 de enero de 2005",
+      "hours": "Sesión regular de 09:00 a 15:30, con negociación continua hasta las 15:20 y una subasta de cierre hasta las 15:30. Sesiones fuera de horario: antes de la apertura de 07:30 a 09:00 y después del cierre de 15:40 a 18:00.",
+      "note": "KRX gestiona el mercado principal KOSPI y el mercado KOSDAQ para empresas de crecimiento. Los mercados cierran el Día del Trabajo (1 de mayo) y el último día hábil del año. Corea no tiene horario de verano."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "KOSPI (Korea Composite Stock Price Index)",
+      "description": "Todas las acciones ordinarias del mercado KOSPI, ponderadas por capitalización bursátil. Base de 100 el 4 de enero de 1980."
+    },
+    {
+      "name": "KOSPI 200",
+      "constituents": "200 empresas",
+      "description": "200 grandes acciones del KOSPI; el índice subyacente de los principales futuros y opciones de Corea. Publicado desde el 15 de junio de 1994 (base de 100 el 3 de enero de 1990)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Services Commission (FSC)",
+      "role": "Define la política financiera y supervisa los mercados financieros y de capitales."
+    },
+    {
+      "name": "Financial Supervisory Service (FSS)",
+      "role": "Lleva a cabo la inspección y supervisión de las entidades financieras bajo la FSC."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantía de depósitos (KDIC)",
+      "text": "Desde el 1 de septiembre de 2025, los depósitos están protegidos hasta 100 millones de KRW por depositante y entidad (antes, 50 millones de KRW). Los productos de inversión, como los fondos, no están cubiertos."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles)",
+    "csd": "Korea Securities Depository (KSD, creado en 1974)"
+  },
+  "rules": [
+    {
+      "title": "Límite diario de precio de ±30 %",
+      "text": "Una acción puede subir o bajar como máximo un 30 % respecto a su precio base en un día. Las acciones, los ETF y los ETN se negocian en unidades de una acción."
+    },
+    {
+      "title": "Cortacircuitos al −8 %, −15 % y −20 %",
+      "text": "Si el KOSPI o el KOSDAQ cae un 8 % o más respecto al día anterior (durante un minuto), todo el mercado se detiene 20 minutos; siguen otras fases al 15 % y al 20 %."
+    },
+    {
+      "title": "Ventas en corto: prohibidas en 2023-2025, ahora con normas más estrictas",
+      "text": "Las ventas en corto de todas las acciones se prohibieron desde el 6 de noviembre de 2023 y se reanudaron por completo el 31 de marzo de 2025, con sistemas informáticos obligatorios para impedir las ventas en corto al descubierto y con las mismas condiciones de préstamo de acciones para inversores institucionales y particulares."
+    }
+  ],
+  "taxes": {
+    "glance": "Impuesto sobre transacciones con valores en las ventas de acciones desde enero de 2026: KOSPI, 0,05 % más un 0,15 % de impuesto especial de desarrollo rural (0,20 % en total); KOSDAQ, 0,20 %. Sobre los dividendos pagados a no residentes se retiene impuesto coreano; para un tipo reducido por convenio hay que presentar una solicitud.",
+    "items": [
+      {
+        "title": "Impuesto sobre transacciones con valores",
+        "text": "La reforma fiscal de 2025 devolvió el impuesto sobre transacciones a su nivel de 2023 desde enero de 2026: 0,05 % en las acciones del KOSPI (más el 0,15 % de impuesto especial de desarrollo rural, que no cambió) y 0,20 % en las del KOSDAQ. En 2025, los tipos habían sido del 0 % (más el 0,15 %) y del 0,15 %."
+      },
+      {
+        "title": "Dividendos de no residentes",
+        "text": "Sobre los dividendos pagados a no residentes se retiene impuesto coreano. Para obtener un tipo reducido con un convenio fiscal, el inversor presenta al agente de retención una «Application for Entitlement to Reduced Tax Rate on Domestic Source Income»."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); el impuesto coreano que supere esa cifra debe reducirse con el convenio o reclamarse en Corea."
+      }
+    ]
+  },
+  "access": [
+    "Algunos bancos y brókers austriacos permiten operar en Korea Exchange; revisa el cambio a wones y los tipos de orden.",
+    "De forma indirecta, con fondos o ETF sobre índices de Corea, de Asia, de mercados desarrollados o de mercados emergentes (categoría H). Que Corea esté incluida depende de cómo la clasifique el proveedor del índice."
+  ],
+  "history": [
+    {
+      "text": "El 3 de marzo se crea la Daehan Stock Exchange, predecesora de la Korea Stock Exchange, con 12 empresas cotizadas."
+    },
+    {
+      "text": "Se introduce la negociación continua."
+    },
+    {
+      "text": "Desde el 3 de enero, los inversores extranjeros pueden comprar directamente acciones coreanas cotizadas."
+    },
+    {
+      "text": "El sistema de negociación se automatiza por completo y se cierra el parqué."
+    },
+    {
+      "text": "El 27 de enero, las bolsas de acciones, KOSDAQ y futuros se unen en lo que hoy es Korea Exchange."
+    },
+    {
+      "text": "FTSE reclasifica a Corea en su grupo de índices de mercados desarrollados (septiembre)."
+    },
+    {
+      "text": "Las ventas en corto se reanudan por completo el 31 de marzo; el límite de la garantía de depósitos se duplica hasta 100 millones de KRW el 1 de septiembre."
+    }
+  ],
+  "funFacts": [
+    "En sus primeros años, la bolsa coreana era sobre todo un mercado de deuda pública; la negociación de acciones era pequeña.",
+    "El mercado de derivados de Corea empezó con los futuros sobre el KOSPI 200 en mayo de 1996 y las opciones en 1997; en 2005 movía de media 18 billones de KRW al día, según KRX."
+  ]
+}

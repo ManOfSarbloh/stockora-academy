@@ -1,0 +1,103 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Suiza",
+  "summary": "Un centro financiero con un mercado dominado por unos pocos gigantes mundiales de la alimentación, la farmacia y las finanzas. SIX Swiss Exchange, en Zúrich, fue la primera bolsa del mundo en llevar la negociación, la liquidación y la custodia de forma totalmente electrónica. Los precios están en francos suizos.",
+  "currency": {
+    "name": "Franco suizo",
+    "note": "Para un inversor en euros, las acciones suizas tienen riesgo de divisa: si el franco se aprecia frente al euro, las posiciones valen más en euros, y al revés (categoría L)."
+  },
+  "exchanges": [
+    {
+      "name": "SIX Swiss Exchange",
+      "city": "Zúrich",
+      "founded": "17 de mayo de 1995, cuando las bolsas de Basilea, Ginebra y Zúrich se fusionaron en la Swiss Stock Exchange SWX",
+      "hours": "Subasta de apertura a las 09:00, negociación continua hasta las 17:20, subasta de cierre de 17:20 a 17:30 y después negociación al precio de cierre hasta las 17:40 para los grandes valores y las empresas medianas y pequeñas.",
+      "note": "La negociación totalmente electrónica se introdujo entre el 8 de diciembre de 1995 y el 16 de agosto de 1996."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "SMI (Swiss Market Index)",
+      "constituents": "20 empresas",
+      "description": "Las 20 acciones suizas más grandes y líquidas, seleccionadas por capitalización bursátil del capital flotante y por volumen de negociación. Las ponderaciones tienen un tope del 18 %; la composición se revisa cada septiembre. Normalizado en 1.500 puntos el 30 de junio de 1988."
+    },
+    {
+      "name": "SPI (Swiss Performance Index)",
+      "description": "El índice suizo amplio de SIX, del que salen las acciones más grandes y líquidas del SMI."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "FINMA (Autoridad Federal de Supervisión de los Mercados Financieros)",
+      "role": "Supervisor independiente del mercado financiero suizo: bancos, sociedades de valores, aseguradoras, gestoras de activos e infraestructuras del mercado financiero."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "esisuisse (garantía de depósitos)",
+      "text": "Si un banco quiebra, los depósitos están protegidos hasta 100.000 CHF por cliente y banco."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 desde el 11 de octubre de 2027",
+    "csd": "SIX SIS, el depositario central de valores nacional",
+    "note": "Suiza pasa a T+1 en la misma fecha que la UE y el Reino Unido."
+  },
+  "rules": [
+    {
+      "title": "Negociación al precio de cierre",
+      "text": "Tras la subasta de cierre, SIX ofrece una fase corta en la que las acciones se negocian solo al precio de cierre (hasta las 17:40)."
+    },
+    {
+      "title": "Impuesto de timbre sobre la transmisión de valores",
+      "text": "Cuando interviene un intermediario de valores suizo, las compras y ventas pagan un impuesto federal sobre transacciones: 0,15 % para valores suizos y 0,3 % para valores extranjeros, sobre el precio pagado."
+    }
+  ],
+  "taxes": {
+    "glance": "Retención del 35 % sobre los dividendos suizos (recuperable para los residentes que los declaran; en parte reclamable con los convenios fiscales); ganancias de capital privadas con valores, exentas; impuesto de timbre del 0,15 %/0,3 % a través de intermediarios suizos.",
+    "items": [
+      {
+        "title": "Retención sobre dividendos",
+        "text": "Las empresas suizas retienen un 35 % de los dividendos (Verrechnungssteuer). Los residentes en Suiza que declaran los rendimientos lo recuperan en su declaración de la renta; los inversores extranjeros pueden reclamar una parte con un convenio para evitar la doble imposición."
+      },
+      {
+        "title": "Ganancias de capital de los inversores particulares",
+        "text": "Las ganancias por vender bienes muebles privados, como valores, están exentas tanto a nivel federal como cantonal."
+      },
+      {
+        "title": "Impuesto de timbre sobre transacciones",
+        "text": "0,15 % sobre valores suizos y 0,3 % sobre valores extranjeros cuando interviene un intermediario de valores suizo."
+      },
+      {
+        "title": "Para un inversor en Austria",
+        "text": "Un banco austriaco solo puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo (categoría Q); el resto del 35 % debe reclamarse en Suiza con el convenio fiscal, si es posible."
+      }
+    ]
+  },
+  "access": [
+    "Muchos bancos y brókers austriacos permiten operar en SIX Swiss Exchange; revisa los costes de cambiar a francos.",
+    "Algunos grandes valores suizos también se negocian en otros centros europeos.",
+    "De forma indirecta, con fondos o ETF sobre el SMI o sobre índices suizos más amplios (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "Se introduce el SMI con una base de 1.500 puntos (30 de junio)."
+    },
+    {
+      "text": "El 17 de mayo, las bolsas de Basilea, Ginebra y Zúrich se fusionan en la Swiss Stock Exchange SWX, hoy SIX Swiss Exchange."
+    },
+    {
+      "text": "Suiza se convierte en el primer país en pasar la negociación, la liquidación y la custodia por completo a sistemas electrónicos (del 8 de diciembre de 1995 al 16 de agosto de 1996)."
+    },
+    {
+      "text": "Ciba-Geigy y Sandoz anuncian su fusión para formar Novartis (7 de marzo), que se convierte en uno de los valores de más peso del SMI."
+    },
+    {
+      "text": "Galderma y Sandoz entran en el SMI en sustitución de Swisscom y Kuehne+Nagel, con efecto el 21 de septiembre."
+    }
+  ],
+  "funFacts": [
+    "Hasta 1995, el SMI se calculaba con precios de tres bolsas distintas: Basilea, Ginebra y Zúrich.",
+    "En 2026, Nestlé, Novartis, Roche y ABB eran tan grandes que su peso se limitaba al 9 % cada una en el índice SLI, más amplio, de SIX."
+  ]
+}

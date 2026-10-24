@@ -1,0 +1,108 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Austria",
+  "summary": "Un mercado pequeño pero con mucha tradición: la Wiener Börse se fundó en 1771, y el ATX sigue a unas 20 de sus acciones más líquidas, muchas de ellas bancos, aseguradoras y empresas energéticas e industriales. Austria es el ejemplo de referencia de este sitio.",
+  "currency": {
+    "name": "Euro",
+    "note": "Para un inversor cuyo dinero está en euros, las acciones austriacas no tienen riesgo de divisa. Pero muchas empresas del ATX obtienen parte de sus ingresos en otras monedas, sobre todo en Europa Central y del Este, así que los movimientos de las divisas pueden afectar igualmente a sus beneficios."
+  },
+  "exchanges": [
+    {
+      "name": "Wiener Börse (Bolsa de Viena)",
+      "city": "Viena",
+      "founded": "1771, por María Teresa",
+      "hours": "Negociación continua de 09:00 a 17:30 para las acciones del ATX, con subasta de apertura desde las 08:55, una breve subasta de mediodía de 12:00 a 12:03 y una subasta de cierre de 17:30 a 17:35. Las acciones menos líquidas pueden negociarse solo en subastas.",
+      "note": "La bolsa abre en varios festivos austriacos, como la Epifanía, la Ascensión, el lunes de Pentecostés y el Corpus Christi."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "ATX (Austrian Traded Index)",
+      "constituents": "Unas 20 acciones (20 en octubre de 2026)",
+      "description": "Índice de precios del segmento de grandes valores, calculado en tiempo real por la Wiener Börse. Las acciones se ponderan por su valor de mercado. Empezó el 2 de enero de 1991 con 1.000 puntos."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finanzmarktaufsicht (FMA)",
+      "role": "Supervisor integrado de bancos, aseguradoras, empresas de servicios de inversión, fondos y mercados de valores, incluidos el abuso de mercado y la información que deben publicar los emisores."
+    },
+    {
+      "name": "Übernahmekommission (Comisión de Adquisiciones)",
+      "role": "Autoridad independiente adscrita a la Bolsa de Viena que supervisa las ofertas de adquisición (categoría R)."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantía de depósitos (Einlagensicherung AUSTRIA)",
+      "text": "Los depósitos bancarios están protegidos hasta 100.000 € por persona y banco."
+    },
+    {
+      "name": "Indemnización de los inversores",
+      "text": "Si un banco incumple sus obligaciones y no puede devolverte los valores que custodia para ti, la indemnización de los inversores cubre hasta 20.000 €. Los valores en custodia siguen siendo de tu propiedad."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (dos días hábiles); T+1 desde el 11 de octubre de 2027",
+    "csd": "OeKB CSD",
+    "note": "Como el resto de la UE, Austria pasa a la liquidación al día hábil siguiente (T+1) el 11 de octubre de 2027."
+  },
+  "rules": [
+    {
+      "title": "Interrupciones por volatilidad",
+      "text": "Si el siguiente precio quedara fuera de un corredor fijado, la negociación se detiene (por ejemplo, 2 minutos en la negociación continua) y una subasta determina el precio. Es la versión vienesa de un cortacircuitos."
+    },
+    {
+      "title": "Ventas en corto (normas de la UE)",
+      "text": "Las posiciones cortas netas en acciones deben comunicarse al supervisor a partir del 0,1 % del capital emitido y publicarse a partir del 0,5 % (categoría N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residentes: 27,5 % sobre dividendos y ganancias de capital (KESt, retenida por los bancos austriacos); 25 % sobre los intereses bancarios.",
+    "items": [
+      {
+        "title": "Ganancias de capital y dividendos",
+        "text": "Tributan a un tipo especial del 27,5 % (Kapitalertragsteuer, KESt). Un banco o bróker austriaco lo retiene, y con eso el impuesto suele quedar liquidado."
+      },
+      {
+        "title": "Intereses bancarios",
+        "text": "Los intereses de los depósitos bancarios tributan al 25 %."
+      },
+      {
+        "title": "Dividendos extranjeros",
+        "text": "Un banco austriaco puede descontar de la KESt austriaca la retención extranjera hasta el 15 % del dividendo."
+      },
+      {
+        "title": "Bróker extranjero",
+        "text": "Con una cuenta en el extranjero no se retiene KESt; declaras tú mismo los rendimientos en tu declaración de la renta austriaca."
+      },
+      {
+        "title": "Criptomonedas",
+        "text": "Desde el 1 de marzo de 2022 forman parte de los rendimientos del capital al 27,5 %, para activos adquiridos después del 28 de febrero de 2021."
+      }
+    ]
+  },
+  "access": [
+    "A través de un banco o bróker austriaco, que retiene automáticamente el impuesto austriaco.",
+    "A través de un bróker extranjero; en ese caso declaras tú mismo los rendimientos (categoría Q).",
+    "De forma indirecta, con fondos o ETF que tengan acciones austriacas (categoría H)."
+  ],
+  "history": [
+    {
+      "text": "María Teresa funda la Bolsa de Viena."
+    },
+    {
+      "text": "El crac del 9 de mayo de 1873 pone fin al auge de la Gründerzeit; desaparece aproximadamente la mitad de las empresas cotizadas (categoría K)."
+    },
+    {
+      "text": "El ATX nace el 2 de enero con 1.000 puntos."
+    },
+    {
+      "text": "La Wiener Börse celebra su 250 aniversario."
+    }
+  ],
+  "funFacts": [
+    "La Wiener Börse se describe como una de las bolsas más antiguas del mundo.",
+    "En octubre de 2026, las 20 acciones del ATX eran de empresas austriacas."
+  ]
+}
