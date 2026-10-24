@@ -12,7 +12,7 @@ La mayoría de las empresas no consiguen de golpe todo el dinero que van a neces
 2. **Amigos y familia:** pequeñas cantidades de personas que conocen a los fundadores.
 3. **Business angels:** particulares con patrimonio que invierten su propio dinero directamente en empresas jóvenes, a menudo con experiencia como antiguos emprendedores.
 4. **Ronda semilla (seed):** normalmente la primera ronda formal de una empresa, de amigos y familia, business angels o fondos de primeras etapas, a menudo usada para desarrollar el producto y estudiar el mercado. El dinero semilla se consigue a menudo con un **préstamo convertible** o un **SAFE** (simple agreement for future equity): instrumentos que se convierten en acciones más adelante, lo que evita tener que acordar una valoración demasiado pronto.
-5. **Serie A, B, C, etc.:** rondas posteriores, nombradas por orden, normalmente lideradas por **fondos de capital riesgo (venture capital)**. Son fondos privados que invierten en empresas de rápido crecimiento a cambio de capital, normalmente acciones preferentes, y a menudo ocupan un puesto en el consejo.
+5. **Serie A, B, C y siguientes:** rondas posteriores, nombradas por orden, normalmente lideradas por **fondos de capital riesgo (venture capital)**. Son fondos privados que invierten en empresas de rápido crecimiento a cambio de capital, normalmente acciones preferentes, y a menudo ocupan un puesto en el consejo.
 6. Después pueden llegar inversores de **capital privado**, la venta de la empresa o una **OPV** (salida a bolsa).
 
 > [!NOTE]

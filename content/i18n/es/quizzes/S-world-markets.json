@@ -1,0 +1,142 @@
+{
+  "S-001": {
+    "question": "¿En qué categorías clasifica MSCI los mercados de acciones? Selecciona todas las correctas.",
+    "explanation": "MSCI usa las categorías desarrollados, emergentes, frontera e independientes.",
+    "options": ["Desarrollados", "Emergentes", "Frontera", "Independientes (standalone)"]
+  },
+  "S-002": {
+    "question": "¿En qué mes anuncia MSCI los resultados de su revisión anual de la clasificación de mercados?",
+    "explanation": "MSCI anuncia sus revisiones de accesibilidad y de clasificación cada junio; FTSE Russell, en septiembre.",
+    "options": ["Junio", "Septiembre", "Enero", "Diciembre"]
+  },
+  "S-003": {
+    "question": "¿Qué cuatro grupos usa FTSE Russell?",
+    "explanation": "FTSE clasifica los mercados como desarrollados, emergentes avanzados, emergentes secundarios o frontera.",
+    "options": ["Desarrollados, emergentes avanzados, emergentes secundarios y frontera", "Ricos, intermedios, pobres y cerrados", "Desarrollados, emergentes, independientes y excluidos", "Grandes, medianos, pequeños y micro"]
+  },
+  "S-004": {
+    "question": "Verdadero o falso: en los criterios de calidad de los mercados de FTSE Russell a septiembre de 2026, Austria está clasificada como mercado desarrollado.",
+    "explanation": "Verdadero. Austria figura entre los mercados desarrollados de Europa."
+  },
+  "S-005": {
+    "question": "¿Qué país subió FTSE Russell de emergente avanzado a desarrollado, con efecto desde la revisión de septiembre de 2026?",
+    "explanation": "FTSE Russell reclasificó a Grecia como desarrollado con efecto desde la revisión semestral de septiembre de 2026.",
+    "options": ["Grecia", "Austria", "Turquía", "Rumanía"]
+  },
+  "S-006": {
+    "question": "¿Qué criterios figuran en la matriz de calidad de los mercados de FTSE Russell? Selecciona todas las correctas.",
+    "explanation": "La matriz comprueba, entre otras cosas, la regulación, los derechos de los minoritarios, la propiedad extranjera y los flujos de capital.",
+    "options": ["Un trato justo a los accionistas minoritarios", "Las restricciones a la propiedad extranjera", "Las restricciones para repatriar el capital", "La clasificación del país en el fútbol"]
+  },
+  "S-007": {
+    "question": "¿Por qué le importan las clasificaciones de mercados a un inversor corriente en fondos?",
+    "explanation": "Los fondos indexados siguen las listas de países del proveedor.",
+    "options": ["Deciden qué países tiene un fondo «World» o «Emerging Markets»", "Fijan los tipos de interés", "Deciden los tipos impositivos", "Determinan los horarios de negociación"]
+  },
+  "S-008": {
+    "question": "Verdadero o falso: MSCI y FTSE Russell siempre clasifican todos los países de la misma forma.",
+    "explanation": "Falso. Usan criterios y calendarios distintos, así que las clasificaciones pueden diferir."
+  },
+  "S-009": {
+    "question": "¿Cuál de los tres criterios de clasificación de MSCI se usa solo para determinar la condición de mercado desarrollado?",
+    "explanation": "MSCI: el desarrollo económico solo se usa para determinar la clasificación de los mercados desarrollados.",
+    "options": ["El desarrollo económico", "El tamaño y la liquidez", "La accesibilidad del mercado", "El horario de negociación"]
+  },
+  "S-010": {
+    "question": "¿En cuántos criterios de accesibilidad se basa la evaluación de la accesibilidad de los mercados de MSCI?",
+    "explanation": "El criterio de accesibilidad de MSCI pretende reflejar la experiencia de los inversores institucionales a partir de cinco criterios de accesibilidad."
+  },
+  "S-011": {
+    "question": "¿Qué negocia el segmento «global market» de la Bolsa de Viena?",
+    "explanation": "El global market negocia acciones que están en el SMN de Viena y cotizan al menos en otra bolsa, con obligaciones de creación de mercado.",
+    "options": ["Acciones que cotizan al menos en otra bolsa, con creadores de mercado", "Solo bonos del Estado austriaco", "Solo empresas del ATX", "Criptomonedas"]
+  },
+  "S-012": {
+    "question": "¿A través de qué programa pueden negociar los inversores internacionales las acciones A admisibles de China continental vía Hong Kong?",
+    "explanation": "HKEX gestiona Stock Connect con Shanghái y Shenzhen.",
+    "options": ["Stock Connect", "Global market", "Eurosistema", "EDGAR"]
+  },
+  "S-013": {
+    "question": "¿Qué cambia cuando inviertes en acciones extranjeras? Selecciona todas las correctas.",
+    "explanation": "Pueden cambiar la divisa, el horario, los costes, los impuestos y la protección del inversor.",
+    "options": ["El riesgo de divisa", "El horario de negociación", "La retención sobre los dividendos", "Nada en absoluto"]
+  },
+  "S-014": {
+    "question": "¿Hasta qué porcentaje de un dividendo extranjero puede imputar un banco austriaco la retención extranjera?",
+    "explanation": "El BMF: la imputación tiene un tope del 15 % del dividendo (categoría Q)."
+  },
+  "S-015": {
+    "question": "Verdadero o falso: un fondo internacional amplio es una forma sencilla de invertir en muchos países a la vez.",
+    "explanation": "Verdadero. Los fondos pueden tener cientos o miles de acciones extranjeras (categoría H)."
+  },
+  "S-016": {
+    "question": "¿Cuál es un riesgo típico de invertir en mercados emergentes?",
+    "explanation": "Las restricciones para repatriar el capital son uno de los criterios que comprueban los proveedores de índices.",
+    "options": ["Controles de capitales que restringen la salida del dinero", "Rentabilidades garantizadas", "Ningún cambio de divisa", "Una protección de depósitos ilimitada"]
+  },
+  "S-017": {
+    "question": "Verdadero o falso: un crecimiento económico rápido en un país garantiza una alta rentabilidad a los accionistas.",
+    "explanation": "Falso. Puede que los precios ya reflejen el crecimiento, que los beneficios vayan a empresas no cotizadas y que las nuevas emisiones diluyan a los accionistas."
+  },
+  "S-018": {
+    "question": "¿Por qué podría MSCI pasar un mercado a la categoría de «independiente» (standalone)?",
+    "explanation": "MSCI señala que la reclasificación como independiente puede seguir a un grave deterioro de la accesibilidad o del tamaño y la liquidez.",
+    "options": ["Por un grave deterioro de la accesibilidad o del tamaño y la liquidez", "Por un fuerte crecimiento económico", "Por un nuevo edificio de la bolsa", "Por un cambio de gobierno"]
+  },
+  "S-019": {
+    "question": "¿Cuánto tardó el Nikkei 225 japonés en recuperar su máximo de 1989?",
+    "explanation": "No cerró por encima de su máximo de 1989 hasta febrero de 2024, un recordatorio de que un mercado concreto puede decepcionar durante décadas.",
+    "options": ["Más de 34 años", "Unos 3 años", "Unos 10 años", "Nunca cayó"]
+  },
+  "S-020": {
+    "question": "Verdadero o falso: el índice MSCI World incluye mercados emergentes como China y la India.",
+    "explanation": "Falso. El MSCI World cubre solo mercados desarrollados; los índices de todo el mundo añaden los emergentes."
+  },
+  "S-021": {
+    "question": "¿Qué combina el índice FTSE All-World, según FTSE Russell?",
+    "explanation": "FTSE Russell describe cómo combinó el índice World con los mercados emergentes en el índice FTSE All-World.",
+    "options": ["Mercados desarrollados, emergentes avanzados y emergentes, empresas grandes y medianas", "Solo pequeñas empresas europeas", "Solo empresas tecnológicas de EE. UU.", "Bonos del Estado de todo el mundo"]
+  },
+  "S-022": {
+    "question": "¿Dónde puedes comprobar los pesos por país de un fondo?",
+    "explanation": "Las fichas publican los pesos por país y por sector.",
+    "options": ["En la ficha del fondo o del proveedor del índice", "Solo llamando a la bolsa", "En ningún sitio; son secretos", "En la sección del tiempo del periódico"]
+  },
+  "S-023": {
+    "question": "Verdadero o falso: en un índice global ponderado por capitalización, los países con grandes bolsas tienen pesos grandes, sea cual sea su población.",
+    "explanation": "Verdadero. Los pesos siguen el valor de mercado de las empresas cotizadas (categoría H)."
+  },
+  "S-024": {
+    "question": "¿Cuáles son segmentos del mercado de acciones de la Bolsa de Viena? Selecciona todas las correctas.",
+    "explanation": "El mercado de acciones se compone de prime market, standard market, direct market plus, direct market y global market.",
+    "options": ["prime market", "standard market", "global market", "mercado nocturno (night market)"]
+  },
+  "S-025": {
+    "question": "¿Qué bolsa está conectada con las bolsas de Shanghái y Shenzhen a través de Stock Connect?",
+    "explanation": "HKEX gestiona Stock Connect con las bolsas continentales.",
+    "options": ["Hong Kong Exchanges and Clearing (HKEX)", "La Bolsa de Viena", "La Bolsa de Toronto", "B3"]
+  },
+  "S-026": {
+    "question": "Verdadero o falso: todas las bolsas del mundo tienen el mismo horario de apertura.",
+    "explanation": "Falso. Los horarios, las pausas y los festivos difieren; la herramienta Horarios los muestra en tu huso horario (categoría E)."
+  },
+  "S-027": {
+    "question": "¿Cuáles de estos aspectos comprueba la matriz de calidad de los mercados de FTSE Russell? Selecciona todas las correctas.",
+    "explanation": "Los criterios son, en la práctica, una lista de los riesgos que separan los mercados desarrollados de los emergentes.",
+    "options": ["Si los supervisores vigilan activamente el mercado", "Un trato justo a los accionistas minoritarios", "Las restricciones a la propiedad extranjera", "Las restricciones para invertir y repatriar el capital", "Lo popular que es el país entre los turistas"]
+  },
+  "S-028": {
+    "question": "Verdadero o falso: MSCI y FTSE Russell pueden colocar un mismo país en grupos distintos (por ejemplo, desarrollado o emergente).",
+    "explanation": "Verdadero: cada proveedor tiene su propio proceso y sus propios criterios de clasificación, así que la condición de un país puede diferir entre ellos."
+  },
+  "S-029": {
+    "question": "Desde enero de 2026, ¿qué días negocia la Bolsa de Tel Aviv?",
+    "explanation": "La TASE pasó en enero de 2026 de una semana de negociación de domingo a jueves a otra de lunes a viernes.",
+    "options": ["De lunes a viernes, con sesiones más cortas los viernes", "De domingo a jueves", "Solo de lunes a miércoles", "Todos los días de la semana"]
+  },
+  "S-030": {
+    "question": "¿Qué bolsas de China continental están conectadas con Hong Kong a través de Stock Connect? Selecciona todas las correctas.",
+    "explanation": "Stock Connect conecta HKEX con las bolsas de Shanghái y Shenzhen.",
+    "options": ["La Bolsa de Shanghái", "La Bolsa de Shenzhen", "La Bolsa de Taiwán", "La Singapore Exchange"]
+  }
+}
