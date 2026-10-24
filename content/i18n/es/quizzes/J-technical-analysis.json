@@ -1,0 +1,277 @@
+{
+  "J-001": {
+    "question": "¿Qué tipo de gráfico une solo los precios de cierre?",
+    "explanation": "Un gráfico de líneas une los precios de cierre; los de barras y velas muestran apertura, máximo, mínimo y cierre.",
+    "options": ["Gráfico de líneas", "Gráfico de barras", "Gráfico de velas", "Gráfico Heikin Ashi"]
+  },
+  "J-002": {
+    "question": "Verdadero o falso: la apertura y el cierre de una vela Heikin Ashi son precios que se negociaron de verdad.",
+    "explanation": "Falso. Las velas Heikin Ashi se construyen con promedios, así que su apertura y su cierre no son precios negociados reales."
+  },
+  "J-003": {
+    "question": "En una escala de precios logarítmica, ¿qué movimiento ocupa el mismo espacio vertical que una subida de 10 a 20?",
+    "explanation": "En una escala logarítmica, distancias iguales significan cambios porcentuales iguales: de 10 a 20 y de 100 a 200 son ambos un +100 %.",
+    "options": ["De 100 a 200", "De 100 a 110", "De 20 a 30", "De 50 a 60"]
+  },
+  "J-004": {
+    "question": "Tras un split de 2 por 1, un gráfico sin ajustar muestra que el precio cae de 100 € a 50 €. ¿Qué le ha pasado a la posición de un accionista?",
+    "explanation": "Un split duplica el número de acciones y reduce el precio a la mitad; el valor de la posición no cambia. Los gráficos suelen ajustar los precios antiguos para que no aparezca un falso desplome.",
+    "options": ["Su valor no ha cambiado: tiene el doble de acciones a la mitad de precio", "Ha perdido la mitad de su dinero", "Ha ganado un 100 %", "La empresa emitió acciones nuevas para nuevos inversores"]
+  },
+  "J-005": {
+    "question": "Un mercado cotiza 390 minutos por sesión. ¿Cuántas velas genera una sesión en un gráfico de 1 hora (contando una última barra más corta)?",
+    "explanation": "390 minutos = 6 horas completas (360 minutos) más una última barra de 30 minutos: 7 velas."
+  },
+  "J-006": {
+    "question": "Verdadero o falso: los datos de los gráficos gratuitos pueden ir con retraso porque muchas bolsas cobran por los datos en tiempo real.",
+    "explanation": "Verdadero. La mayoría de las bolsas de acciones y de futuros cobran por los datos en tiempo real, así que los gráficos gratuitos suelen ir con retraso."
+  },
+  "J-007": {
+    "question": "Una vela tiene apertura 100, máximo 106, mínimo 98 y cierre 104. ¿Cuánto mide su cuerpo?",
+    "explanation": "El cuerpo va de la apertura (100) al cierre (104): 4."
+  },
+  "J-008": {
+    "question": "La misma vela: apertura 100, máximo 106, mínimo 98, cierre 104. ¿Cuánto mide su rango total (máximo menos mínimo)?",
+    "explanation": "106 − 98 = 8."
+  },
+  "J-009": {
+    "question": "¿Qué muestra el extremo de la mecha superior?",
+    "explanation": "Las mechas llegan al máximo y al mínimo del periodo.",
+    "options": ["El precio más alto del periodo", "El precio de cierre", "El precio de apertura", "El precio medio"]
+  },
+  "J-010": {
+    "question": "Una vela tiene una mecha superior larga y un cuerpo pequeño cerca de su mínimo. ¿Qué sugiere tradicionalmente?",
+    "explanation": "Una mecha superior larga significa que el precio subió durante el periodo, pero los vendedores lo empujaron de vuelta hacia abajo: rechazo de los precios más altos.",
+    "options": ["Se alcanzaron precios más altos, pero fueron empujados de vuelta hacia abajo durante el periodo", "Los compradores tuvieron el control hasta el cierre", "El mercado estaba cerrado", "El volumen fue bajo"]
+  },
+  "J-011": {
+    "question": "Verdadero o falso: en el mercado de valores chino, el rojo se usa habitualmente para los precios que suben.",
+    "explanation": "Verdadero. En el mercado de valores chino, el rojo significa subida y el verde bajada, al revés que en la mayoría de las plataformas occidentales."
+  },
+  "J-012": {
+    "question": "Verdadero o falso: una vela verde siempre significa que el precio cerró por encima del cierre del periodo anterior.",
+    "explanation": "Falso. Una vela verde significa que el cierre quedó por encima de la apertura de ese periodo. Tras un hueco a la baja, una vela verde puede cerrar por debajo del cierre de ayer."
+  },
+  "J-013": {
+    "question": "¿Qué es un doji?",
+    "explanation": "Un doji tiene la apertura y el cierre (casi) iguales, así que su cuerpo es una línea fina: indecisión.",
+    "options": ["Una vela cuya apertura y cierre son casi iguales", "Una vela sin mechas", "Tres velas alcistas seguidas", "Un hueco entre dos velas"]
+  },
+  "J-014": {
+    "question": "Tras una caída aparece una vela con un cuerpo pequeño arriba y una mecha inferior larga. ¿Cómo se llama tradicionalmente?",
+    "explanation": "Tras una caída, esta forma es un martillo; tras una subida, la misma forma es un hombre colgado.",
+    "options": ["Martillo", "Hombre colgado", "Estrella fugaz", "Marubozu"]
+  },
+  "J-015": {
+    "question": "El martillo y el hombre colgado tienen la misma forma. ¿Qué los distingue?",
+    "explanation": "Solo cambia el contexto: un martillo aparece tras una caída y un hombre colgado tras una subida.",
+    "options": ["La tendencia previa a la vela", "El color del cuerpo", "El volumen negociado", "El marco temporal"]
+  },
+  "J-016": {
+    "question": "¿Qué es un marubozu?",
+    "explanation": "Un marubozu abre en un extremo y cierra en el otro: un bando tuvo el control de principio a fin.",
+    "options": ["Una vela con un cuerpo largo y sin mechas o con mechas diminutas", "Una vela con un cuerpo diminuto y mechas largas a ambos lados", "Una vela que abre por encima del máximo anterior", "Un patrón de giro de dos velas"]
+  },
+  "J-017": {
+    "question": "Verdadero o falso: en las pruebas de Thomas Bulkowski con acciones de EE. UU., al hombre colgado le siguió con más frecuencia una subida continuada que una caída.",
+    "explanation": "Verdadero. Aunque tradicionalmente es bajista, en sus pruebas le siguió una continuación alcista el 59 % de las veces (solo dirección, no beneficio)."
+  },
+  "J-018": {
+    "question": "¿Qué suelen esperar los operadores tras detectar un martillo?",
+    "explanation": "Una sola vela muestra un rechazo durante un periodo. Los operadores suelen esperar una confirmación y deciden de antemano dónde la idea es errónea.",
+    "options": ["Una confirmación, como que la vela siguiente cierre más arriba", "Nada: un martillo garantiza una subida", "Un nuevo mínimo por debajo del martillo", "Un anuncio de dividendo"]
+  },
+  "J-019": {
+    "question": "En un patrón envolvente alcista, ¿qué hace la segunda vela?",
+    "explanation": "El segundo cuerpo (alcista) envuelve al primero (bajista): los compradores tomaron el control con decisión.",
+    "options": ["Su cuerpo alcista cubre por completo el primer cuerpo, bajista", "Abre y cierra dentro del primer cuerpo", "Tiene el mismo máximo que la primera vela", "Es un doji"]
+  },
+  "J-020": {
+    "question": "¿Qué significa «harami» en japonés?",
+    "explanation": "Harami significa embarazada: un cuerpo pequeño queda dentro del gran cuerpo anterior.",
+    "options": ["Embarazada", "Martillo", "Estrella", "Ventana"]
+  },
+  "J-021": {
+    "question": "Ordena las tres velas de una estrella de la mañana.",
+    "explanation": "Una estrella de la mañana se forma tras una caída: ventas, luego vacilación y después compras fuertes.",
+    "orderedItems": ["Una vela bajista larga", "Una pequeña vela «estrella» más abajo", "Una vela alcista larga que cierra bien dentro del primer cuerpo"]
+  },
+  "J-022": {
+    "question": "¿Dónde debe cerrar la segunda vela de una línea penetrante?",
+    "explanation": "La segunda vela abre por debajo del mínimo de la primera y cierra por encima de la mitad de su cuerpo.",
+    "options": ["Por encima de la mitad del cuerpo de la primera vela", "Por debajo del mínimo de la primera vela", "Exactamente en la apertura de la primera vela", "Dentro de la mecha inferior de la primera vela"]
+  },
+  "J-023": {
+    "question": "¿Cuáles de estos patrones se leen tradicionalmente como bajistas? Selecciona todas las correctas.",
+    "explanation": "La estrella vespertina, los tres cuervos negros y la cubierta de nube oscura son patrones bajistas; la estrella de la mañana es alcista.",
+    "options": ["Estrella vespertina", "Tres cuervos negros", "Cubierta de nube oscura", "Estrella de la mañana"]
+  },
+  "J-024": {
+    "question": "¿Qué es una inside bar?",
+    "explanation": "Una inside bar muestra un rango que se contrae; los operadores vigilan qué lado se rompe primero.",
+    "options": ["Una vela cuyo máximo y mínimo quedan dentro del rango de la vela anterior", "Una vela que abre dentro de un hueco", "Una vela que cierra dentro del horario de negociación", "Una vela dentro de un canal de tendencia"]
+  },
+  "J-025": {
+    "question": "Según las estadísticas de Bulkowski, ¿qué tipo de hueco suele cerrarse poco después?",
+    "explanation": "En sus estadísticas de mercados alcistas, la mayoría de los huecos comunes se cerraron en una semana, mientras que los huecos de escape rara vez lo hicieron.",
+    "options": ["El hueco común", "El hueco de escape", "El hueco de continuación", "Todos los huecos se cierran siempre"]
+  },
+  "J-026": {
+    "question": "Park e Irwin (2007) revisaron 95 estudios modernos sobre estrategias de trading técnico. ¿Cuántos hallaron resultados positivos?",
+    "explanation": "56 positivos, 20 negativos y 19 mixtos, pero la mayoría de los estudios tenían problemas como el data snooping y costes difíciles de estimar."
+  },
+  "J-027": {
+    "question": "¿Qué problema citaron Park e Irwin como frecuente en los estudios sobre análisis técnico?",
+    "explanation": "Citaron el data snooping, la selección de reglas a posteriori y las dificultades para estimar el riesgo y los costes de transacción.",
+    "options": ["El data snooping y elegir las reglas después de ver los resultados", "Usar muy poca potencia de cálculo", "Probar solo mercados de bonos", "Ignorar los colores de las velas"]
+  },
+  "J-028": {
+    "question": "Verdadero o falso: el estudio de Marshall sobre estrategias con velas en acciones del Dow Jones (1992–2002) halló pruebas sólidas de que batían al mercado.",
+    "explanation": "Falso. No encontró ninguna prueba de que un operador que siguiera el análisis técnico con velas hubiera batido al mercado."
+  },
+  "J-029": {
+    "question": "¿Por qué los patrones parecen más fiables en gráficos antiguos que en tiempo real?",
+    "explanation": "En un gráfico terminado destacan los patrones que funcionaron; en el borde derecho no sabes cuáles funcionarán.",
+    "options": ["Sesgo retrospectivo: ya sabes lo que pasó después", "Los gráficos antiguos usan mejores datos", "Los patrones han dejado de funcionar hace poco", "Los gráficos cambian de color con el tiempo"]
+  },
+  "J-030": {
+    "question": "Según el resumen del comité del Nobel de 2013, ¿en qué coinciden los investigadores sobre la predicción a corto plazo?",
+    "explanation": "La rentabilidad a corto plazo es difícil de predecir con los precios pasados, mientras que la evolución general a tres o cinco años puede predecirse en cierta medida.",
+    "options": ["Los precios pasados sirven de muy poco para predecir la rentabilidad en el futuro inmediato", "La rentabilidad a corto plazo es fácil de predecir con gráficos", "Los precios nunca reflejan la información", "Los precios a largo plazo son completamente aleatorios"]
+  },
+  "J-031": {
+    "question": "Verdadero o falso: Lo, Mamaysky y Wang (2000) concluyeron que varios indicadores técnicos aportan información adicional en acciones de EE. UU.",
+    "explanation": "Verdadero. Hallaron información adicional y quizá cierto valor práctico, lo que no es lo mismo que una estrategia fiable y rentable."
+  },
+  "J-032": {
+    "question": "¿Qué define una tendencia alcista?",
+    "explanation": "Una tendencia alcista es una sucesión de máximos crecientes y mínimos crecientes.",
+    "options": ["Máximos crecientes y mínimos crecientes", "Máximos decrecientes y mínimos decrecientes", "Máximos y mínimos iguales", "Una sola gran vela alcista"]
+  },
+  "J-033": {
+    "question": "¿Qué es una resistencia?",
+    "explanation": "Una resistencia es una zona por encima del precio donde las subidas ya se frenaron antes.",
+    "options": ["Una zona de precios donde un precio que sube ha tendido a detenerse o a girar a la baja", "El precio más bajo del año", "Una norma que limita la negociación", "El precio de cierre"]
+  },
+  "J-034": {
+    "question": "Verdadero o falso: lo mejor es tratar los soportes y las resistencias como líneas exactas que el precio no puede cruzar.",
+    "explanation": "Falso. Son zonas, y los precios las atraviesan a menudo; cualquier noticia puede romperlas."
+  },
+  "J-035": {
+    "question": "Una resistencia en 50 € se rompe con claridad. Más tarde el precio vuelve a bajar a 50 € y rebota. ¿Cómo se llama esto?",
+    "explanation": "Una resistencia rota suele actuar como soporte en un retroceso posterior: cambio de papel y retest.",
+    "options": ["Un retest, con la antigua resistencia actuando como soporte", "Un doble techo", "Un cruce de la muerte", "Un hueco"]
+  },
+  "J-036": {
+    "question": "¿Qué es una ruptura falsa?",
+    "explanation": "Las rupturas falsas son frecuentes, sobre todo en marcos temporales cortos y con poco volumen.",
+    "options": ["Un movimiento más allá de un nivel que enseguida vuelve a meterse dentro", "Una ruptura con mucho volumen", "Una ruptura que continúa durante semanas", "Una suspensión de la negociación"]
+  },
+  "J-037": {
+    "question": "En un hombro-cabeza-hombro, ¿qué indica tradicionalmente el giro?",
+    "explanation": "La línea clavicular une los mínimos entre los hombros y la cabeza; su ruptura a la baja es la señal tradicional.",
+    "options": ["La ruptura por debajo de la línea clavicular", "La formación del hombro izquierdo", "Cualquier nuevo máximo", "Un doji en la cabeza"]
+  },
+  "J-038": {
+    "question": "¿Cómo se lee tradicionalmente un triángulo ascendente?",
+    "explanation": "Máximos planos y mínimos crecientes: tradicionalmente se lee como alcista. Los triángulos descendentes se leen como bajistas; los simétricos pueden romper hacia cualquier lado.",
+    "options": ["Como alcista", "Como bajista", "Como neutral, sin lectura", "Como señal de un split"]
+  },
+  "J-039": {
+    "question": "Verdadero o falso: un doble techo queda confirmado en cuanto el precio marca un segundo máximo al mismo nivel.",
+    "explanation": "Falso. Los operadores suelen esperar a que se rompa el mínimo entre los dos techos; hasta entonces puede ser solo una pausa."
+  },
+  "J-040": {
+    "question": "Los precios de cierre fueron 45,50, 45,25 y 46,10. ¿Cuál es la media móvil simple de 3 periodos? (Dos decimales.)",
+    "explanation": "(45,50 + 45,25 + 46,10) ÷ 3 = 136,85 ÷ 3 = 45,62."
+  },
+  "J-041": {
+    "question": "¿Cuál es el multiplicador de una media móvil exponencial de 14 periodos? (Tres decimales.)",
+    "explanation": "Multiplicador = 2 ÷ (14 + 1) = 0,133."
+  },
+  "J-042": {
+    "question": "¿Qué lectura del RSI se llama convencionalmente «sobrecompra»?",
+    "explanation": "El RSI va de 0 a 100; por encima de 70 es convencionalmente sobrecompra, por debajo de 30, sobreventa.",
+    "options": ["Por encima de 70", "Por debajo de 30", "Exactamente 50", "Por debajo de 0"]
+  },
+  "J-043": {
+    "question": "Verdadero o falso: cuando el RSI está por encima de 70, el precio tiene que caer pronto.",
+    "explanation": "Falso. En tendencias fuertes, el RSI puede quedarse mucho tiempo por encima de 70 mientras el precio sigue subiendo."
+  },
+  "J-044": {
+    "question": "¿Cómo se calcula la línea MACD (configuración estándar)?",
+    "explanation": "Línea MACD = EMA de 12 − EMA de 26; la línea de señal es una EMA de 9 periodos de ella.",
+    "options": ["EMA de 12 periodos menos EMA de 26 periodos", "SMA de 26 periodos menos SMA de 12 periodos", "RSI menos 50", "Precio menos VWAP"]
+  },
+  "J-045": {
+    "question": "¿Cuál es la configuración por defecto de John Bollinger para las bandas de Bollinger?",
+    "explanation": "Una media móvil de 20 periodos con bandas dos desviaciones típicas por encima y por debajo.",
+    "options": ["20 periodos, 2 desviaciones típicas", "14 periodos, niveles 70/30", "50 y 200 periodos", "12, 26 y 9 periodos"]
+  },
+  "J-046": {
+    "question": "Una acción subió de 80 € a 100 €. ¿Dónde está el retroceso de Fibonacci del 61,8 % de ese movimiento, en euros? (Dos decimales.)",
+    "explanation": "El movimiento es de 20 €; el 61,8 % es 12,36 €; 100 € − 12,36 € = 87,64 €."
+  },
+  "J-047": {
+    "question": "¿Qué mide el ATR (rango verdadero medio)?",
+    "explanation": "El ATR promedia el tamaño del rango de cada periodo, incluidos los huecos; no dice nada de la dirección.",
+    "options": ["La volatilidad, no la dirección", "La dirección de la tendencia", "Los niveles de sobrecompra y sobreventa", "El volumen negociado"]
+  },
+  "J-048": {
+    "question": "En el análisis de arriba abajo, ¿en qué orden miras los marcos temporales?",
+    "explanation": "Empieza por el marco temporal más largo para el contexto y pasa luego a los más cortos para el detalle.",
+    "orderedItems": ["Semanal", "Diario", "Horario"]
+  },
+  "J-049": {
+    "question": "¿Qué es el sobreajuste en el backtesting?",
+    "explanation": "Las reglas sobreajustadas capturan el ruido del pasado y suelen fallar con datos nuevos.",
+    "options": ["Ajustar las reglas hasta que encajan tan bien con los datos pasados que fallan con datos nuevos", "Probar con demasiados años de datos", "Incluir los costes de negociación", "Usar una escala logarítmica"]
+  },
+  "J-050": {
+    "question": "Un backtest usa solo empresas que siguen existiendo hoy. ¿Qué sesgo crea esto?",
+    "explanation": "Ignorar las empresas que quebraron o dejaron de cotizar hace que los resultados parezcan mejores de lo que fueron.",
+    "options": ["Sesgo de supervivencia", "Sesgo retrospectivo", "Anclaje", "Sesgo local"]
+  },
+  "J-051": {
+    "question": "Verdadero o falso: «no operar» es un resultado válido al leer un gráfico.",
+    "explanation": "Verdadero. La mayor parte del tiempo un gráfico no ofrece una imagen clara, y esperar es una decisión legítima."
+  },
+  "J-052": {
+    "question": "¿Qué es Pine Script?",
+    "explanation": "Pine Script es el lenguaje propio de la plataforma para escribir indicadores y estrategias.",
+    "options": ["El lenguaje de programación de TradingView para indicadores y estrategias personalizados", "Un tipo de patrón de velas", "Una bolsa de valores", "Un tipo de orden de un bróker"]
+  },
+  "J-053": {
+    "question": "¿Qué hace el replay de barras?",
+    "explanation": "El replay te permite practicar la lectura de gráficos sin saber qué viene después.",
+    "options": ["Reproduce velas pasadas una a una desde un punto de partida elegido", "Da órdenes reales automáticamente", "Muestra solo datos en tiempo real", "Borra las velas antiguas"]
+  },
+  "J-054": {
+    "question": "¿Qué te dice el prefijo de un símbolo como NASDAQ:AAPL?",
+    "explanation": "El prefijo indica la bolsa; la misma empresa puede cotizar en varias bolsas.",
+    "options": ["La bolsa de esa cotización", "La divisa de la empresa", "La calificación del analista", "El tipo de gráfico"]
+  },
+  "J-055": {
+    "question": "Verdadero o falso: una «idea» popular de la comunidad en una plataforma de gráficos ha sido comprobada.",
+    "explanation": "Falso. Las ideas son opiniones de usuarios; la popularidad no es acierto, y los feeds sociales también se usan para hype y estafas."
+  },
+  "J-056": {
+    "question": "En un doble suelo, ¿qué movimiento esperan tradicionalmente los operadores antes de tomarlo como señal de giro?",
+    "explanation": "Hasta que el precio rompe el máximo entre los dos mínimos, la forma es solo «mínimo, subida, mínimo».",
+    "options": ["La ruptura por encima del máximo entre los dos suelos", "El propio segundo mínimo", "Cualquier vela verde", "La ruptura por debajo del segundo mínimo"]
+  },
+  "J-057": {
+    "question": "¿Qué hicieron Lo, Mamaysky y Wang (2000) con las figuras chartistas?",
+    "explanation": "Automatizaron el reconocimiento de figuras porque las formas suelen estar «en los ojos de quien mira». Una información adicional no es lo mismo que una señal de trading fiable.",
+    "options": ["Crearon un método informático para identificar figuras de forma objetiva y hallaron que algunas aportaban información adicional en acciones de EE. UU.", "Demostraron que el hombro-cabeza-hombro siempre funciona", "Mostraron que las figuras chartistas nunca pueden contener información", "Inventaron los gráficos de velas"]
+  },
+  "J-058": {
+    "question": "Verdadero o falso: en TradingView, los planes de pago ya incluyen las tarifas de las bolsas por los datos de acciones en tiempo real.",
+    "explanation": "Falso. La mayoría de las bolsas de acciones cobran por los datos en tiempo real; TradingView dice que sus planes no cubren esas tarifas, así que los datos suelen ir con retraso salvo que compres un paquete de datos."
+  },
+  "J-059": {
+    "question": "¿Qué problemas citan Park e Irwin (2007) en la investigación sobre reglas de trading técnico?",
+    "explanation": "Probar muchas reglas y quedarse con la mejor hace que los backtests parezcan mejores que la realidad.",
+    "options": ["El data snooping y elegir las reglas después de ver los resultados", "Demasiados pocos datos históricos en todos los mercados", "Gráficos dibujados con los colores equivocados", "Bolsas que se niegan a publicar precios"]
+  }
+}

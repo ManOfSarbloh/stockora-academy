@@ -233,7 +233,7 @@
   "definition": "El derecho, pero no la obligación, de comprar un número determinado de acciones de la empresa a un precio fijo (el precio de ejercicio), normalmente tras un periodo de consolidación."
  },
  "vesting": {
-  "term": "Consolidación (vesting)",
+  "term": "Periodo de consolidación (vesting)",
   "definition": "El proceso por el que un empleado va adquiriendo poco a poco el derecho a opciones o acciones, por ejemplo por permanecer en la empresa un tiempo determinado."
  },
  "crowdfunding": {
@@ -1062,7 +1062,7 @@
   "definition": "Un espacio vacío en un gráfico cuando un periodo abre muy por encima o por debajo del rango del anterior, a menudo tras una noticia. Tipos: de área, de ruptura, de continuación y de agotamiento."
  },
  "uptrend": {
-  "term": "Tendencia alcista / bajista",
+  "term": "Tendencia alcista / tendencia bajista",
   "definition": "Una serie de máximos y mínimos crecientes (tendencia alcista) o de máximos y mínimos decrecientes (tendencia bajista)."
  },
  "trendline": {
