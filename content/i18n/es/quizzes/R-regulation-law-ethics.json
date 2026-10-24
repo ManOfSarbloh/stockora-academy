@@ -1,0 +1,221 @@
+{
+  "R-001": {
+    "question": "¿Qué autoridad supervisa en Austria a los bancos, las aseguradoras y los mercados de valores?",
+    "explanation": "La FMA ejerce la supervisión bancaria, de seguros, de fondos de pensiones y de valores.",
+    "options": ["La Autoridad de los Mercados Financieros (FMA)", "La Bolsa de Viena", "El Ministerio de Finanzas", "Solo el BCE"]
+  },
+  "R-002": {
+    "question": "Verdadero o falso: la FMA está sujeta a instrucciones del Gobierno en el ejercicio de sus funciones.",
+    "explanation": "Falso. La FMA indica que no está sujeta a instrucciones en el ejercicio de su cargo."
+  },
+  "R-003": {
+    "question": "¿Qué dos grandes enfoques usa la FMA en su supervisión? Selecciona todas las correctas.",
+    "explanation": "La supervisión de la solvencia garantiza que las empresas puedan pagar; la supervisión del mercado y de la conducta garantiza mercados justos y transparentes y un trato adecuado a los clientes.",
+    "options": ["La supervisión de la solvencia", "La supervisión del mercado y de la conducta", "Fijar los tipos de interés", "Gestionar la bolsa"]
+  },
+  "R-004": {
+    "question": "Verdadero o falso: la FMA es también la autoridad nacional de resolución de Austria para los bancos en crisis.",
+    "explanation": "Verdadero, según la descripción de sus funciones que hace la FMA."
+  },
+  "R-005": {
+    "question": "¿Qué deberías hacer antes de dar dinero a una empresa financiera?",
+    "explanation": "La autorización puede comprobarse con el supervisor; la categoría T explica cómo.",
+    "options": ["Comprobar que está autorizada para el servicio, por ejemplo en la base de datos de empresas de la FMA", "Fiarte de su publicidad", "Mirar cuántos seguidores tiene", "Pedirle que te envíe un certificado por correo electrónico"]
+  },
+  "R-006": {
+    "question": "Según el artículo 17 del MAR, ¿con qué rapidez deben publicar los emisores la información privilegiada que les afecta directamente?",
+    "explanation": "Los emisores deben hacer pública esa información privilegiada sin demora.",
+    "options": ["Sin demora", "En el plazo de un año", "Solo en el informe anual", "Cuando quieran"]
+  },
+  "R-007": {
+    "question": "¿Qué características definen la información privilegiada según el MAR? Selecciona todas las correctas.",
+    "explanation": "La información privilegiada es concreta, no pública y probablemente movería el precio de forma significativa; la información publicada deja de ser privilegiada.",
+    "options": ["Es concreta", "No es pública", "Probablemente tendría un efecto significativo sobre el precio si se hiciera pública", "Se ha publicado en un periódico"]
+  },
+  "R-008": {
+    "question": "¿Cuál de estos NO es uno de los umbrales austriacos de participaciones significativas?",
+    "explanation": "Los umbrales son el 4, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75 y 90 % (§ 130 BörseG 2018)."
+  },
+  "R-009": {
+    "question": "¿En cuántos días de negociación como máximo debe enviarse una comunicación de participaciones significativas?",
+    "explanation": "Sin demora, como muy tarde al cabo de dos días de negociación."
+  },
+  "R-010": {
+    "question": "¿Por encima de qué total anual (en euros) deben comunicar los directivos sus propias operaciones con acciones de su empresa según el artículo 19 del MAR?",
+    "explanation": "La obligación se aplica al alcanzar 20.000 € en un año natural, sumados sin compensar."
+  },
+  "R-011": {
+    "question": "¿En cuántos días hábiles después de una operación deben comunicarse como máximo las operaciones de los directivos?",
+    "explanation": "Sin demora y como muy tarde tres días hábiles después de la operación."
+  },
+  "R-012": {
+    "question": "¿Cuál de estas es una operación con información privilegiada?",
+    "explanation": "Usar información no pública que puede mover el precio para operar es operar con información privilegiada.",
+    "options": ["Un consejero compra acciones tras enterarse de una oferta de adquisición aún no anunciada", "Un inversor compra después de leer el informe anual", "Un fondo reequilibra su cartera", "Un ahorrador compra un ETF cada mes"]
+  },
+  "R-013": {
+    "question": "¿Desde cuándo se aplica el Reglamento de la UE sobre abuso de mercado?",
+    "explanation": "El MAR entró en vigor el 3 de julio de 2014 y se aplica desde el 3 de julio de 2016.",
+    "options": ["Desde el 3 de julio de 2016", "Desde el 1 de enero de 2005", "Desde el 3 de julio de 2014, el día en que se aplicó plenamente", "Desde el 1 de enero de 2026"]
+  },
+  "R-014": {
+    "question": "Verdadero o falso: comunicar información privilegiada a un amigo que luego opera puede ser en sí mismo un delito.",
+    "explanation": "Verdadero. El delito abarca recomendar o comunicar información privilegiada, no solo operar."
+  },
+  "R-015": {
+    "question": "¿Quién es un «iniciado secundario» según la ley austriaca?",
+    "explanation": "Los iniciados primarios tienen acceso por su cargo, su profesión o su participación; cualquier otra persona con información privilegiada es un iniciado secundario.",
+    "options": ["Cualquiera con información privilegiada que no sea iniciado primario, por ejemplo la pareja de un consejero", "Solo el consejero delegado", "Solo los auditores", "Solo la bolsa"]
+  },
+  "R-016": {
+    "question": "¿Cuál es la pena máxima de prisión por operar con información privilegiada en los procedimientos penales austriacos, en años?",
+    "explanation": "De 6 meses a 5 años, según la FMA."
+  },
+  "R-017": {
+    "question": "¿Hasta qué importe puede multar la FMA a una persona por operar con información privilegiada en los procedimientos administrativos, en millones de euros (o, alternativamente, tres veces el beneficio)?",
+    "explanation": "Hasta 5 millones de euros o hasta tres veces el beneficio obtenido o la pérdida evitada."
+  },
+  "R-018": {
+    "question": "¿Cuál de estas es manipulación del mercado?",
+    "explanation": "Difundir información que transmite señales falsas o engañosas es manipulación según el MAR.",
+    "options": ["Difundir rumores falsos para mover el precio de una acción", "Publicar un informe anual correcto", "Comprar acciones mediante un plan de ahorro", "Votar en la junta general"]
+  },
+  "R-019": {
+    "question": "Verdadero o falso: operar al cierre del mercado para engañar a los inversores que se basan en el precio de cierre figura como práctica manipuladora.",
+    "explanation": "Verdadero. La FMA la incluye entre las prácticas que cuentan como manipulación."
+  },
+  "R-020": {
+    "question": "¿Qué es un «pump and dump»?",
+    "explanation": "Combina una promoción engañosa con ventas aprovechando la subida, y deja a los demás con pérdidas.",
+    "options": ["Unos promotores dan bombo a una acción barata y luego venden sus propias acciones en el máximo", "Un tipo de dividendo", "Una estrategia legal de creación de mercado", "Una subasta de bonos del Estado"]
+  },
+  "R-021": {
+    "question": "Verdadero o falso: en Austria también pueden multarse a las empresas por manipular el mercado.",
+    "explanation": "Verdadero. A las personas jurídicas se les pueden imponer multas de hasta 15 millones de euros o el 15 % del volumen de negocio neto anual."
+  },
+  "R-022": {
+    "question": "¿Por encima de qué porcentaje de los derechos de voto cuenta una participación como de control, lo que obliga a hacer una oferta en Austria?",
+    "explanation": "§ 22 ÜbG: más del 30 % de los derechos de voto de las acciones con voto permanente."
+  },
+  "R-023": {
+    "question": "¿En cuántos días de negociación desde la toma de control debe anunciarse la oferta obligatoria?",
+    "explanation": "§ 22 ÜbG: en los 20 días de negociación siguientes a la toma de control."
+  },
+  "R-024": {
+    "question": "Según el § 26 ÜbG, el precio de una oferta obligatoria debe ser como mínimo… Selecciona todas las correctas.",
+    "explanation": "Se aplican las dos normas de precio mínimo; el valor contable y el precio de la OPV no forman parte de la norma.",
+    "options": ["El precio más alto que pagó el oferente por esas acciones en los últimos 12 meses", "El precio medio de bolsa ponderado por volumen de los últimos 6 meses", "El valor contable por acción de la empresa", "El precio de la OPV de la empresa"]
+  },
+  "R-025": {
+    "question": "¿Qué autoridad supervisa las ofertas de adquisición en Austria?",
+    "explanation": "Una autoridad independiente creada en la Bolsa de Viena por la Ley de Adquisiciones.",
+    "options": ["La Übernahmekommission (Comisión de Adquisiciones)", "El Ministerio de Finanzas", "El OeNB", "Hacienda"]
+  },
+  "R-026": {
+    "question": "¿A partir de qué parte del capital puede un accionista principal excluir a los demás accionistas según la Ley austriaca de Exclusión de Socios, en porcentaje?",
+    "explanation": "Al menos nueve décimas partes del capital, a cambio de una compensación en efectivo adecuada."
+  },
+  "R-027": {
+    "question": "Verdadero o falso: el consejo de administración y el consejo de supervisión de la sociedad objetivo deben publicar informes motivados sobre una oferta de adquisición.",
+    "explanation": "Verdadero (§ 14 ÜbG), incluido si el precio es adecuado para todos los accionistas."
+  },
+  "R-028": {
+    "question": "¿Qué órgano dirige en el día a día una sociedad anónima austriaca?",
+    "explanation": "Según el § 70 AktG, el consejo de administración dirige la empresa bajo su propia responsabilidad.",
+    "options": ["El consejo de administración (Vorstand)", "El consejo de supervisión (Aufsichtsrat)", "La bolsa", "La FMA"]
+  },
+  "R-029": {
+    "question": "¿Cuál es la función principal del consejo de supervisión (Aufsichtsrat)?",
+    "explanation": "§ 95 AktG: el consejo de supervisión debe supervisar la gestión.",
+    "options": ["Supervisar la gestión", "Llevar la actividad diaria", "Fijar los tipos de interés", "Aprobar las declaraciones de impuestos"]
+  },
+  "R-030": {
+    "question": "¿Qué intereses debe tener en cuenta el consejo de administración según el § 70 AktG? Selecciona todas las correctas.",
+    "explanation": "La ley cita a los accionistas, a los empleados y el interés público.",
+    "options": ["Los de los accionistas", "Los de los empleados", "El interés público", "Solo los de los operadores a corto plazo"]
+  },
+  "R-031": {
+    "question": "Verdadero o falso: las empresas austriacas con acciones en un mercado regulado deben preparar un informe de gobierno corporativo que indique el código que siguen.",
+    "explanation": "Verdadero (§ 243c UGB)."
+  },
+  "R-032": {
+    "question": "Según las normas de resolución de la UE, ¿quién debe soportar primero las pérdidas de un banco en crisis?",
+    "explanation": "La JUR: primero pierden los accionistas, y después los acreedores en el orden de sus créditos.",
+    "options": ["Los accionistas", "Los contribuyentes", "Los depositantes con menos de 100.000 €", "El banco central"]
+  },
+  "R-033": {
+    "question": "¿Qué es una recapitalización interna (bail-in)?",
+    "explanation": "La recapitalización interna reproduce cómo perderían los acreedores en una quiebra y protege a los contribuyentes.",
+    "options": ["Amortizar los créditos de los acreedores o convertirlos en acciones para absorber las pérdidas de un banco", "Que un gobierno inyecte dinero para rescatar a un banco", "Que un banco recompre sus propias acciones", "Un pago de la garantía de depósitos"]
+  },
+  "R-034": {
+    "question": "¿Hasta qué importe por persona y banco están protegidos los depósitos en los bancos austriacos, en euros?",
+    "explanation": "Einlagensicherung AUSTRIA: hasta 100.000 € por persona y banco."
+  },
+  "R-035": {
+    "question": "Verdadero o falso: las acciones de un banco pueden quedar a cero en una resolución.",
+    "explanation": "Verdadero. Los accionistas soportan primero las pérdidas."
+  },
+  "R-036": {
+    "question": "Ordena de forma razonable estos pasos para reclamar contra un banco austriaco.",
+    "explanation": "La conciliación exige haberlo intentado antes con el banco; los tribunales son el último recurso para las reclamaciones de indemnización.",
+    "orderedItems": ["Reclamar por escrito al banco", "Acudir a la conciliación bancaria (Bankenschlichtung)", "Plantearse el asesoramiento jurídico o una demanda"]
+  },
+  "R-037": {
+    "question": "Verdadero o falso: el procedimiento de conciliación bancaria austriaco es gratuito.",
+    "explanation": "Verdadero. Es voluntario y gratuito para las dos partes."
+  },
+  "R-038": {
+    "question": "¿Qué dice la FMA sobre sus direcciones de correo electrónico auténticas?",
+    "explanation": "La FMA advierte de los estafadores que usan direcciones falsas de la FMA; las auténticas terminan solo en @fma.gv.at.",
+    "options": ["Solo terminan en @fma.gv.at", "Pueden terminar en cualquier dominio", "La FMA nunca usa el correo electrónico", "Terminan en @fma.com"]
+  },
+  "R-039": {
+    "question": "Verdadero o falso: la FMA decide sobre las reclamaciones individuales de indemnización como un tribunal.",
+    "explanation": "Falso. La FMA admite reclamaciones contra las empresas supervisadas y comprueba el cumplimiento, pero no es un tribunal."
+  },
+  "R-040": {
+    "question": "¿Qué significa ESG?",
+    "explanation": "ESG abarca los factores ambientales, sociales y de gobernanza.",
+    "options": ["Ambiental, social y de gobernanza", "Renta variable, ahorro y crecimiento", "Garantía europea de valores", "Beneficios, ventas y ganancias"]
+  },
+  "R-041": {
+    "question": "Verdadero o falso: el SFDR obliga a las gestoras a invertir solo en empresas ecológicas.",
+    "explanation": "Falso. La Comisión indica que el SFDR no obliga a aplicar criterios ecológicos; exige a las empresas justificar las afirmaciones de sostenibilidad que hacen."
+  },
+  "R-042": {
+    "question": "¿Qué es el greenwashing?",
+    "explanation": "La ESMA ha convertido la lucha contra el greenwashing en una prioridad.",
+    "options": ["Presentar un producto como más sostenible de lo que es", "Invertir solo en empresas de agua", "Una comisión de limpieza que cobran los bancos", "Un tipo de bono verde"]
+  },
+  "R-043": {
+    "question": "Según el informe de 2024 de la ESMA, ¿cómo rindieron en 2023 los fondos ESG de renta variable frente a los fondos no ESG comparables?",
+    "explanation": "Los fondos ESG de renta variable rindieron más en 2023, mientras que los ESG de renta fija y mixtos rindieron menos. Un solo año demuestra poco.",
+    "options": ["Rindieron más", "Rindieron menos", "Rindieron exactamente lo mismo", "La ESMA no los comparó"]
+  },
+  "R-044": {
+    "question": "Según los principios de resolución de la JUR, ¿quién soporta las pérdidas de un banco en crisis después de los accionistas?",
+    "explanation": "Primero pierden los accionistas; después, los acreedores en el orden de la insolvencia. Los depósitos cubiertos están protegidos por la garantía de depósitos.",
+    "options": ["Los acreedores, en el orden de sus créditos en una insolvencia normal", "Los contribuyentes, antes que nadie", "Primero los depositantes por debajo de 100.000 €", "Nadie: las pérdidas se detienen en los accionistas"]
+  },
+  "R-045": {
+    "question": "¿En qué idiomas se tramita el procedimiento de conciliación bancaria austriaco (Bankenschlichtung)?",
+    "explanation": "Según su web, el procedimiento es en alemán, y en inglés en los casos transfronterizos. Es voluntario y gratuito.",
+    "options": ["En alemán, y en inglés en los casos transfronterizos", "Solo en inglés", "En cualquier lengua de la UE", "Solo en alemán, sin excepción"]
+  },
+  "R-046": {
+    "question": "¿Cuándo se presentó por primera vez el Código Austriaco de Gobierno Corporativo?",
+    "explanation": "El código se presentó por primera vez el 1 de octubre de 2002 y fija estándares voluntarios además de la ley.",
+    "options": ["El 1 de octubre de 2002", "El 1 de enero de 1999", "El 15 de marzo de 2010", "Todavía no se ha publicado"]
+  },
+  "R-047": {
+    "question": "¿Qué artículo del Reglamento de la UE sobre abuso de mercado (MAR) define la manipulación del mercado, según explica la FMA?",
+    "explanation": "El artículo 12 del MAR, con ejemplos en el anexo I y en el Reglamento Delegado (UE) 2016/522.",
+    "options": ["El artículo 12", "El artículo 4", "El artículo 25", "El artículo 99"]
+  },
+  "R-048": {
+    "question": "El SFDR pide a las empresas que informen sobre sostenibilidad en dos direcciones. ¿Qué describe la visión «de dentro hacia fuera»?",
+    "explanation": "De fuera hacia dentro: los riesgos de sostenibilidad que afectan al valor. De dentro hacia fuera: las incidencias adversas de las inversiones sobre el medio ambiente y la sociedad.",
+    "options": ["Las incidencias adversas de las inversiones sobre el medio ambiente y la sociedad", "Los riesgos de sostenibilidad que pueden afectar al valor de las inversiones", "Solo el consumo de energía de las oficinas de la empresa", "La rentabilidad pasada del fondo"]
+  }
+}

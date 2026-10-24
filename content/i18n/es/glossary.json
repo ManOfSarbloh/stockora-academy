@@ -1819,7 +1819,7 @@
   "definition": "Un tratado entre dos países que limita que ambos graven la misma renta, por ejemplo permitiendo deducir el impuesto extranjero."
  },
  "moving-average-price": {
-  "term": "Precio medio ponderado (Austria)",
+  "term": "Precio medio móvil (Austria)",
   "definition": "En Austria, el coste de adquisición usado para compras repetidas del mismo valor en una cuenta: coste total dividido por unidades totales, recalculado tras cada compra."
  },
  "altbestand": {
