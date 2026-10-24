@@ -341,7 +341,7 @@
   "definition": "Cuando las acciones de una empresa dejan de cotizar en una bolsa. Las acciones siguen existiendo, pero son mucho más difíciles de negociar."
  },
  "takeover": {
-  "term": "Adquisición / toma de control",
+  "term": "Toma de control (adquisición)",
   "definition": "Cuando una empresa o un inversor se hace con el control de otra empresa, normalmente comprando la mayoría o la totalidad de sus acciones."
  },
  "common-stock": {
@@ -1599,7 +1599,7 @@
   "definition": "Un instrumento financiero cuyo valor deriva de un activo, valor o índice subyacente, como una opción, un futuro o un CFD."
  },
  "option": {
-  "term": "Opción (derivado)",
+  "term": "Opción financiera (derivado)",
   "definition": "Un contrato que da al comprador el derecho, pero no la obligación, de comprar (call) o vender (put) un subyacente a un precio fijo dentro de un plazo o al final de él, a cambio de una prima."
  },
  "strike-price": {

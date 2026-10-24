@@ -1,0 +1,197 @@
+{
+  "Q-001": {
+    "question": "¿Cuándo pasa a tributar, en general, la ganancia de una acción?",
+    "explanation": "La ganancia imponible es la diferencia entre el importe de la venta y el coste de adquisición, y surge cuando vendes (BMF).",
+    "options": ["Cuando se realiza, es decir, cuando vendes", "Cada día que sube el precio", "Solo cuando sacas el efectivo de tu cuenta", "Nunca, si la mantienes un año"]
+  },
+  "Q-002": {
+    "question": "Verdadero o falso: vender una acción y dejar el dinero en tu cuenta de valores significa que todavía no se ha realizado ninguna ganancia.",
+    "explanation": "Falso. La venta realiza la ganancia; da igual que retires el efectivo más tarde."
+  },
+  "Q-003": {
+    "question": "¿Para qué sirve un convenio para evitar la doble imposición?",
+    "explanation": "El BMF explica que el impuesto extranjero puede imputarse al impuesto austriaco según el CDI aplicable.",
+    "options": ["Para limitar que dos países graven los mismos rendimientos", "Para duplicar el impuesto sobre los rendimientos extranjeros", "Para evitar todos los impuestos", "Para fijar los tipos de cambio"]
+  },
+  "Q-004": {
+    "question": "Verdadero o falso: en Austria, las comisiones de custodia pueden deducirse de los rendimientos del capital que tributan al tipo especial.",
+    "explanation": "Falso. El BMF indica que gastos como los costes de financiación, los costes de transacción y las comisiones de custodia no pueden deducirse."
+  },
+  "Q-005": {
+    "question": "¿Qué es la retención en origen?",
+    "explanation": "En Austria, el KESt lo retiene en origen un banco o una empresa nacional.",
+    "options": ["Un impuesto que se descuenta en origen antes de que te paguen los rendimientos", "Una sanción por presentar tarde la declaración", "Una comisión que cobra una bolsa", "Un impuesto solo sobre los depósitos bancarios"]
+  },
+  "Q-006": {
+    "question": "¿Qué tipo especial se aplica en Austria a la mayoría de los rendimientos del capital, como los dividendos y las ganancias con acciones, en porcentaje?",
+    "explanation": "§ 27a EStG: el 27,5 %, salvo los intereses de los depósitos bancarios (25 %)."
+  },
+  "Q-007": {
+    "question": "¿Qué tipo especial se aplica en Austria a los intereses de las cuentas de ahorro y las cuentas corrientes, en porcentaje?",
+    "explanation": "El BMF: el 25 % para los intereses de las libretas de ahorro y las cuentas corrientes."
+  },
+  "Q-008": {
+    "question": "Una empresa austriaca te paga un dividendo bruto de 100 €. ¿Cuánto te pagan después del KESt, en euros?",
+    "explanation": "Se retienen 27,50 € de KESt (27,5 %); se pagan 72,50 €."
+  },
+  "Q-009": {
+    "question": "¿Qué significa «Endbesteuerung»?",
+    "explanation": "Con el KESt retenido por un banco o una empresa nacional, el impuesto sobre la renta de esos rendimientos queda en general liquidado.",
+    "options": ["El KESt retenido liquida el impuesto sobre la renta, así que no hace falta declarar esos rendimientos", "Todos los impuestos terminan a los 65 años", "El impuesto se paga a final de año", "Solo tributa la venta final de una acción"]
+  },
+  "Q-010": {
+    "question": "Verdadero o falso: los rendimientos del capital que tributan al tipo especial suben el tipo progresivo del impuesto sobre la renta de tu salario.",
+    "explanation": "Falso. El BMF explica que tributan aparte y no aumentan la progresividad de los demás ingresos."
+  },
+  "Q-011": {
+    "question": "¿Qué es la Regelbesteuerungsoption?",
+    "explanation": "Se aplica solo a todos los rendimientos del capital juntos (§ 27a, apartado 5, EStG).",
+    "options": ["Solicitar que todos los rendimientos del capital tributen al tipo progresivo normal, útil con ingresos totales bajos", "Una forma de evitar el KESt en las acciones extranjeras", "Una opción para pagar el impuesto a plazos", "Una oferta de un banco para gestionar tus impuestos"]
+  },
+  "Q-012": {
+    "question": "¿En qué casos deben incluirse en general los rendimientos del capital en la declaración de la renta, según el BMF? Selecciona todas las correctas.",
+    "explanation": "Cuando no puede retenerse KESt, los rendimientos deben declararse. Los dividendos austriacos con KESt retenido quedan en general liquidados.",
+    "options": ["Las ganancias de inversiones en una cuenta de valores extranjera", "Los intereses del ahorro en un banco extranjero", "La venta de una participación en una GmbH", "Los dividendos de una empresa austriaca con KESt retenido"]
+  },
+  "Q-013": {
+    "question": "A compra acciones por 1.000 € más 5 € de comisiones, paga 20 € de custodia y vende por 1.200 €. ¿Cuál es la ganancia imponible, en euros?",
+    "explanation": "El propio ejemplo del BMF: 1.200 − 1.000 = 200 €. Las comisiones y los costes de custodia no cuentan."
+  },
+  "Q-014": {
+    "question": "Compras 10 participaciones a 100 €, 10 a 80 € y 20 a 110 € en la misma cuenta. ¿Cuál es el precio medio móvil por participación, en euros?",
+    "explanation": "4.000 € en total por 40 participaciones = 100 € (§ 27a, apartado 4, número 3, EStG)."
+  },
+  "Q-015": {
+    "question": "¿Hasta qué fecha de compra son en general «posiciones antiguas», exentas del impuesto sobre las ganancias en Austria, las acciones?",
+    "explanation": "El BMF: los activos de capital adquiridos hasta el 31 de diciembre de 2010 son en principio Altbestand (excepción: participaciones del 1 % o más).",
+    "options": ["El 31 de diciembre de 2010", "El 31 de diciembre de 2015", "El 1 de marzo de 2022", "El 31 de marzo de 2020"]
+  },
+  "Q-016": {
+    "question": "Verdadero o falso: heredar posiciones antiguas a partir de 2011 las convierte en posiciones nuevas que tributan.",
+    "explanation": "Falso. Las transmisiones gratuitas, como las herencias, no convierten las posiciones antiguas en nuevas; se aplican la fecha y los costes del propietario anterior."
+  },
+  "Q-017": {
+    "question": "¿Cómo trata el BMF el traslado de residencia al extranjero (Wegzug) en los activos de capital?",
+    "explanation": "Austria suele perder el derecho a gravar las ganancias posteriores, así que mudarse al extranjero cuenta como una venta; en los traslados dentro de la UE o el EEE puede solicitarse el aplazamiento.",
+    "options": ["Como una venta ficticia a valor de mercado, con aplazamiento posible en los traslados dentro de la UE o el EEE", "Como exento de impuestos en todos los casos", "Como una donación", "Como una pérdida"]
+  },
+  "Q-018": {
+    "question": "Si los costes de adquisición no se transmiten a un banco nuevo, ¿en qué porcentaje por mes desde la compra se reduce el valor de mercado para estimarlos?",
+    "explanation": "El BMF: el valor de mercado en el traspaso menos un 0,5 % por mes desde la compra, pero no por debajo de la mitad del valor de mercado."
+  },
+  "Q-019": {
+    "question": "¿Hasta qué porcentaje de un dividendo extranjero puede imputar un banco austriaco la retención extranjera al KESt?",
+    "explanation": "El BMF: la imputación no puede superar el 15 % del dividendo, diga lo que diga el CDI."
+  },
+  "Q-020": {
+    "question": "Un dividendo extranjero de 100 € tiene una retención extranjera de 15 €. ¿Cuánto KESt austriaco retiene el banco, en euros?",
+    "explanation": "27,50 − 15 de imputación = 12,50 €; impuesto total de 27,50 €."
+  },
+  "Q-021": {
+    "question": "Un dividendo extranjero de 100 € tiene una retención extranjera de 25 € y se cobra a través de un banco austriaco. ¿Cuál es el impuesto total, en euros?",
+    "explanation": "Solo pueden imputarse 15 €: KESt de 12,50 + impuesto extranjero de 25 = 37,50 €, salvo que el exceso se recupere en el extranjero."
+  },
+  "Q-022": {
+    "question": "Verdadero o falso: los dividendos extranjeros que paga un bróker extranjero sin KESt deben incluirse en la declaración de la renta austriaca.",
+    "explanation": "Verdadero. Tributan al 27,5 % en la declaración, imputando el impuesto extranjero según el CDI."
+  },
+  "Q-023": {
+    "question": "¿Hasta cuándo deben facilitar los bancos austriacos el informe fiscal (si se solicita) de un año natural, para los rendimientos cobrados desde 2025?",
+    "explanation": "El BMF: el informe fiscal debe estar disponible como muy tarde el 31 de marzo del año siguiente.",
+    "options": ["Hasta el 31 de marzo del año siguiente", "Hasta el 31 de diciembre del mismo año", "Hasta el 30 de junio dos años después", "Nunca lo facilitan"]
+  },
+  "Q-024": {
+    "question": "¿Con qué pueden compensarse en Austria las pérdidas por la venta de acciones?",
+    "explanation": "El BMF: solo con rendimientos del capital que tributan de la misma forma, en el mismo año; no con los intereses bancarios ni con otros tipos de ingresos.",
+    "options": ["Con rendimientos del capital que tributan de la misma forma, en el mismo año", "Con tu salario", "Con los intereses de las cuentas de ahorro", "Con los ingresos por alquiler"]
+  },
+  "Q-025": {
+    "question": "En un mismo banco austriaco realizas en el mismo año una ganancia de 1.000 € y una pérdida de 600 €. ¿Cuánto KESt se paga por el resultado neto, en euros?",
+    "explanation": "400 € netos × 27,5 % = 110 €."
+  },
+  "Q-026": {
+    "question": "Verdadero o falso: una pérdida con acciones puede reducir el impuesto del 25 % sobre los intereses de una cuenta de ahorro.",
+    "explanation": "Falso. Las pérdidas no pueden compensarse con los intereses de los depósitos bancarios."
+  },
+  "Q-027": {
+    "question": "Verdadero o falso: los bancos austriacos compensan automáticamente las pérdidas entre todos los bancos en los que tienes cuentas.",
+    "explanation": "Falso. La compensación automática funciona dentro de un mismo banco; entre bancos se usa la opción de compensación de pérdidas en la declaración de la renta."
+  },
+  "Q-028": {
+    "question": "¿Cómo puedes compensar una pérdida en el banco 2 con las ganancias del banco 1 que ya pagaron KESt?",
+    "explanation": "La Verlustausgleichsoption de la declaración de la renta permite compensar entre bancos y con rendimientos extranjeros.",
+    "options": ["Con la opción de compensación de pérdidas en la declaración del impuesto sobre la renta (§ 97, apartado 2, EStG)", "Pidiendo al banco 1 que llame al banco 2", "No es posible en absoluto", "Volviendo a vender las acciones"]
+  },
+  "Q-029": {
+    "question": "Verdadero o falso: los bancos compensan automáticamente las pérdidas con criptomonedas con las pérdidas o ganancias con acciones.",
+    "explanation": "Falso. El BMF indica que esa compensación solo es posible en la declaración de la renta."
+  },
+  "Q-030": {
+    "question": "Si tu bróker está en el extranjero y no retiene impuesto austriaco, ¿qué tienes que hacer?",
+    "explanation": "Los rendimientos sobre los que no se retuvo KESt deben declararse, igualmente al tipo especial.",
+    "options": ["Declarar los rendimientos del capital en tu declaración de la renta austriaca", "Nada; las cuentas extranjeras están exentas", "Pagar impuestos solo cuando traigas el dinero a Austria", "Pagar solo el impuesto extranjero"]
+  },
+  "Q-031": {
+    "question": "En un bróker extranjero: ganancias de 1.500 €, pérdidas de 400 €, dividendos de 200 € con 30 € de impuesto extranjero imputable. ¿Cuánto impuesto austriaco hay que pagar, en euros? (Dos decimales.)",
+    "explanation": "1.300 € netos × 27,5 % = 357,50 €, menos 30 € de imputación = 327,50 €."
+  },
+  "Q-032": {
+    "question": "¿En qué plazo tienes que comunicar a Hacienda un traspaso de una cuenta de valores extranjera a otra?",
+    "explanation": "El BMF: el titular de la cuenta debe comunicarlo a Hacienda en el plazo de un mes.",
+    "options": ["Un mes", "Un año", "Diez días", "Nunca hace falta comunicarlo"]
+  },
+  "Q-033": {
+    "question": "¿Desde cuándo intercambian automáticamente cada año las autoridades fiscales la información de las cuentas financieras según el estándar de la OCDE y el G20, según el BMF?",
+    "explanation": "El estándar se acordó el 29 de octubre de 2014, y el intercambio automático anual empezó en 2017.",
+    "options": ["Desde 2017", "Desde 1995", "Desde 2025", "No se intercambia"]
+  },
+  "Q-034": {
+    "question": "Según el § 186 InvFG, ¿qué porcentaje del saldo positivo de las ganancias realizadas de un fondo cuenta como ingresos asimilados a distribuidos?",
+    "explanation": "Se consideran repartidos los intereses y dividendos retenidos más el 60 % del saldo positivo de las ganancias realizadas."
+  },
+  "Q-035": {
+    "question": "Verdadero o falso: los ETF de acumulación nunca generan una factura fiscal hasta que vendes.",
+    "explanation": "Falso. Los ingresos asimilados a distribuidos tributan cada año, aunque no haya reparto."
+  },
+  "Q-036": {
+    "question": "¿Desde cuándo tributan en Austria los rendimientos de las criptomonedas como rendimientos del capital al 27,5 %?",
+    "explanation": "El BMF: las nuevas normas entraron en vigor el 1 de marzo de 2022, para las criptomonedas adquiridas después del 28 de febrero de 2021.",
+    "options": ["Desde el 1 de marzo de 2022", "Desde el 1 de enero de 2011", "Desde el 1 de abril de 2012", "Desde el 1 de enero de 2026"]
+  },
+  "Q-037": {
+    "question": "Verdadero o falso: los NFT están incluidos en la definición legal austriaca de criptomoneda a efectos de la tributación de los rendimientos del capital.",
+    "explanation": "Falso. El BMF indica que los NFT y los tokens de activos no están incluidos, porque no tienen carácter de medio de intercambio."
+  },
+  "Q-038": {
+    "question": "Verdadero o falso: los ingresos asimilados a distribuidos que ya tributaron aumentan el coste de adquisición de las participaciones del fondo.",
+    "explanation": "Verdadero (§ 186, apartado 3, InvFG), así que no vuelven a tributar al vender."
+  },
+  "Q-039": {
+    "question": "¿Qué formulario complementario se usa para declarar los rendimientos del capital en la declaración de la renta austriaca?",
+    "explanation": "Los rendimientos del capital van en el formulario complementario E 1kv, que normalmente se presenta a través de FinanzOnline."
+  },
+  "Q-040": {
+    "question": "¿De cuántos años naturales anteriores pueden emitir los bancos austriacos el informe fiscal si se solicita?",
+    "explanation": "El BMF: si se solicita, de los cinco años naturales anteriores, pero como pronto de 2025.",
+    "options": ["De cinco (pero no anteriores a 2025)", "De uno", "De diez", "De veinte"]
+  },
+  "Q-041": {
+    "question": "Verdadero o falso: si un banco retuvo demasiado KESt porque usó costes de adquisición a tanto alzado, puedes recuperarlo en tu declaración de la renta.",
+    "explanation": "Verdadero. El BMF describe cómo indicar en el formulario E 1kv las ganancias reales y el KESt retenido; Hacienda puede pedir pruebas."
+  },
+  "Q-042": {
+    "question": "¿Qué documentos deberían guardar los inversores? Selecciona todas las correctas.",
+    "explanation": "Estos documentos prueban los costes, los rendimientos y el impuesto extranjero; los folletos no son documentación fiscal.",
+    "options": ["Las confirmaciones de compra y de venta", "Los extractos anuales y los informes fiscales", "Los certificados de retención extranjera", "Los folletos publicitarios de los brókeres"]
+  },
+  "Q-043": {
+    "question": "Para los rendimientos cobrados desde 2025, ¿hasta cuándo debe facilitarte un banco austriaco el informe fiscal (Steuerreporting) que solicites de un año?",
+    "explanation": "Los bancos y los proveedores de servicios de criptomonedas deben facilitar el informe fiscal, si se solicita, como muy tarde el 31 de marzo del año siguiente.",
+    "options": ["Hasta el 31 de marzo del año siguiente", "Hasta el 31 de diciembre del mismo año", "En una semana desde la solicitud, en cualquier momento", "Solo al cabo de cinco años"]
+  },
+  "Q-044": {
+    "question": "Las ganancias con acciones en un bróker extranjero que no retiene impuesto austriaco se declaran en tu declaración austriaca. ¿Qué tipo se aplica?",
+    "explanation": "Se aplica el tipo especial del 27,5 % (el 25 % a los intereses de los depósitos bancarios) se retenga o no el impuesto; para las rentas bajas existe la opción de usar el tipo normal.",
+    "options": ["El tipo especial del 27,5 %, separado de tus demás ingresos", "Siempre tu tipo progresivo normal del impuesto sobre la renta", "El 0 %: las ganancias extranjeras están exentas en Austria", "El tipo del país extranjero"]
+  }
+}
