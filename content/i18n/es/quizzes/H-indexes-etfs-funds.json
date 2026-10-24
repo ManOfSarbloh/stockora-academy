@@ -1,0 +1,246 @@
+{
+  "H-001": {
+    "question": "¿Qué es un índice bursátil?",
+    "explanation": "Un índice bursátil sigue en una sola cifra los precios de un grupo seleccionado de acciones, como el ATX de Austria.",
+    "options": ["Una cifra que sigue los precios de un grupo seleccionado de acciones", "El precio de la acción de la mayor empresa de una bolsa", "Una lista de brókeres autorizados", "El tipo de interés que fija el banco central"]
+  },
+  "H-002": {
+    "question": "En un índice ponderado por capitalización bursátil, ¿qué miembros cuentan más?",
+    "explanation": "En un índice ponderado por capitalización, el peso de cada miembro es su valor de mercado dividido entre el total de todos los miembros, así que las empresas más grandes cuentan más.",
+    "options": ["Las empresas con mayor valor de mercado", "Las acciones con el precio por acción más alto", "Todos los miembros cuentan lo mismo", "Las empresas que entraron más recientemente"]
+  },
+  "H-003": {
+    "question": "Un índice tiene dos miembros: Grande AG, con un valor de mercado de 180 M€, y Pequeña AG, con 20 M€. En un índice ponderado por capitalización, ¿cuál es el peso de Pequeña AG, en porcentaje?",
+    "explanation": "20 M€ ÷ (180 M€ + 20 M€) = 10 %."
+  },
+  "H-004": {
+    "question": "¿Cuál de estos índices está ponderado por precio?",
+    "explanation": "El Dow Jones Industrial Average (y el Nikkei 225 japonés) ponderan a sus miembros por el precio de la acción, no por el tamaño de la empresa.",
+    "options": ["Dow Jones Industrial Average", "S&P 500", "DAX", "ATX"]
+  },
+  "H-005": {
+    "question": "Un índice equiponderado tiene dos miembros. Uno sube un 10 % y el otro no cambia. ¿Cuántos puntos porcentuales sube el índice?",
+    "explanation": "Cada miembro cuenta un 50 %: 50 % × 10 % + 50 % × 0 % = 5 %."
+  },
+  "H-006": {
+    "question": "Verdadero o falso: un índice ajustado por free float cuenta todas las acciones de una empresa, incluidos los grandes paquetes en manos de fundadores o gobiernos.",
+    "explanation": "Falso. El ajuste por free float significa que solo cuentan las acciones realmente disponibles para negociar; los paquetes estratégicos se dejan fuera."
+  },
+  "H-007": {
+    "question": "Un índice ponderado por precio tiene dos miembros: Grande AG a 20 € y Pequeña AG a 200 €. Pequeña AG sube un 10 % y Grande AG no cambia. ¿Aproximadamente qué porcentaje sube el índice? (Un decimal.)",
+    "explanation": "Suma de precios antes: 20 € + 200 € = 220 €. Después: 20 € + 220 € = 240 €. 240 € ÷ 220 € − 1 ≈ 9,1 %. La acción cara domina, aunque sea la empresa más pequeña."
+  },
+  "H-008": {
+    "question": "¿Cuál es el índice de referencia de la Bolsa de Viena?",
+    "explanation": "El ATX es el índice de referencia de la Bolsa de Viena, con unas 20 de las acciones austriacas más líquidas.",
+    "options": ["ATX", "DAX", "Nikkei 225", "S&P 500"]
+  },
+  "H-009": {
+    "question": "¿Cuántas empresas contiene el DAX alemán?",
+    "explanation": "El DAX contiene las 40 acciones alemanas más grandes y con más volumen del mercado regulado de la Bolsa de Fráncfort."
+  },
+  "H-010": {
+    "question": "Verdadero o falso: el MSCI World incluye mercados emergentes como China y la India.",
+    "explanation": "Falso. El MSCI World cubre solo mercados desarrollados. Índices como el FTSE All-World incluyen también los emergentes."
+  },
+  "H-011": {
+    "question": "¿Cuál de estos índices cubre tanto mercados desarrollados como emergentes?",
+    "explanation": "El FTSE All-World incluye empresas grandes y medianas de mercados desarrollados y emergentes. El MSCI World es solo de mercados desarrollados; el S&P 500 y el Dow son solo de EE. UU.",
+    "options": ["FTSE All-World", "MSCI World", "S&P 500", "Dow Jones Industrial Average"]
+  },
+  "H-012": {
+    "question": "¿Cuántas empresas contiene el Dow Jones Industrial Average?",
+    "explanation": "El Dow Jones Industrial Average es un índice ponderado por precio de 30 grandes valores de EE. UU."
+  },
+  "H-013": {
+    "question": "Un fondo tiene activos por valor de 10.000.000 €, 50.000 € de pasivos y 1.000.000 de participaciones en circulación. ¿Cuál es el valor liquidativo por participación, en euros?",
+    "explanation": "(10.000.000 € − 50.000 €) ÷ 1.000.000 = 9,95 €."
+  },
+  "H-014": {
+    "question": "¿Qué intenta hacer un fondo pasivo (indexado)?",
+    "explanation": "Un fondo pasivo sigue las reglas de un índice en lugar de intentar batirlo.",
+    "options": ["Seguir un índice lo más fielmente posible", "Batir al índice eligiendo las mejores acciones", "Evitar cualquier pérdida", "Acertar el momento del mercado entrando y saliendo de las acciones"]
+  },
+  "H-015": {
+    "question": "Verdadero o falso: como un fondo es UCITS, no puede perder mucho dinero.",
+    "explanation": "Falso. UCITS significa que el fondo sigue un conjunto común de normas de la UE sobre fondos. Su valor puede seguir cayendo con fuerza si caen sus inversiones."
+  },
+  "H-016": {
+    "question": "¿Por qué los fondos indexados suelen ser más baratos que los de gestión activa?",
+    "explanation": "Los fondos activos cobran por el trabajo de gestores y analistas, y eso se nota en un TER más alto. Los fondos indexados solo siguen las reglas.",
+    "options": ["Siguen las reglas del índice en lugar de pagar a gestores y analistas para elegir inversiones", "Están garantizados por el Estado", "No pagan impuestos", "Nunca compran ni venden nada"]
+  },
+  "H-017": {
+    "question": "Un fondo tiene 52.000.000 € de activos, 2.000.000 € de pasivos y 2.000.000 de participaciones. ¿Cuál es el valor liquidativo por participación, en euros?",
+    "explanation": "(52.000.000 € − 2.000.000 €) ÷ 2.000.000 = 25 €."
+  },
+  "H-018": {
+    "question": "¿Cómo compran normalmente los inversores particulares participaciones de un ETF?",
+    "explanation": "Los inversores particulares negocian las participaciones del ETF en la bolsa (el mercado secundario) a través de su bróker, como las acciones.",
+    "options": ["En una bolsa, a través de un bróker", "Directamente a los participantes autorizados", "Solo a la gestora del fondo, una vez al día", "Solo en una oficina de correos"]
+  },
+  "H-019": {
+    "question": "¿Quién puede crear y reembolsar participaciones de un ETF directamente con el fondo?",
+    "explanation": "Solo los participantes autorizados, normalmente grandes intermediarios, crean y reembolsan participaciones con el fondo, en bloques grandes.",
+    "options": ["Los participantes autorizados", "Cualquier inversor minorista", "La bolsa", "El supervisor financiero"]
+  },
+  "H-020": {
+    "question": "Lo que tiene un ETF en cartera vale 50,00 € por participación, pero en la bolsa cotiza a 49,80 €. ¿Cómo se llama esto?",
+    "explanation": "Cuando el precio de mercado está por debajo del valor de la cartera, el ETF cotiza con descuento.",
+    "options": ["Un descuento", "Una prima", "Una diferencia de seguimiento", "Un dividendo"]
+  },
+  "H-021": {
+    "question": "Un ETF cotiza con descuento respecto al valor de su cartera. ¿Qué puede hacer un participante autorizado que tiende a empujar el precio de vuelta hacia arriba?",
+    "explanation": "Comprar participaciones baratas y reembolsarlas a cambio de valores que valen más es rentable, y esas compras empujan el precio del ETF de vuelta hacia el valor de su cartera.",
+    "options": ["Comprar participaciones del ETF en la bolsa y reembolsarlas con el fondo a cambio de los valores subyacentes", "Crear nuevas participaciones del ETF y venderlas en la bolsa", "Pedir a la bolsa que cambie el precio", "Nada; los descuentos no se pueden corregir"]
+  },
+  "H-022": {
+    "question": "Verdadero o falso: cuando compras una participación de un ETF, te conviertes en accionista de la empresa que gestiona el ETF.",
+    "explanation": "Falso. Un ETF es un fondo; una participación te da un trocito de toda la cesta del fondo, no acciones de la gestora del ETF."
+  },
+  "H-023": {
+    "question": "¿Qué situaciones pueden encarecer la negociación de un ETF o hacer que su precio se aleje más del valor de su cartera? Selecciona todas las correctas.",
+    "explanation": "Los ETF de nicho y negociar cuando el mercado subyacente está cerrado pueden implicar diferenciales más amplios, y en mercados tensos las primas y los descuentos pueden ampliarse. Los ETF líquidos, en el horario del mercado subyacente, suelen negociarse con diferenciales estrechos.",
+    "options": ["El ETF sigue un mercado de nicho, menos líquido", "El mercado subyacente está cerrado mientras negocias", "Los mercados están tensos", "El ETF sigue un gran índice muy líquido durante el horario del mercado subyacente"]
+  },
+  "H-024": {
+    "question": "¿Cómo se llama un ETF que reinvierte los dividendos que recibe en lugar de repartirlos?",
+    "explanation": "Los ETF de acumulación («Thesaurierer») reinvierten los ingresos dentro del fondo; los de distribución los reparten.",
+    "options": ["De acumulación", "De distribución", "Sintético", "Apalancado"]
+  },
+  "H-025": {
+    "question": "¿Qué riesgo es propio de un ETF sintético (basado en un swap)?",
+    "explanation": "Un ETF sintético depende de un swap con un banco. Si el banco no puede pagar, el ETF depende de la cesta y de las garantías que tiene.",
+    "options": ["El riesgo de contraparte: que el banco del swap no pague", "El riesgo de que se deje de calcular el índice", "El riesgo de pagar un impuesto de timbre", "No hay ningún riesgo adicional"]
+  },
+  "H-026": {
+    "question": "¿Qué significa «muestreo» (réplica optimizada)?",
+    "explanation": "En índices muy grandes, un ETF físico puede tener una selección representativa, lo que puede provocar desviaciones algo mayores respecto al índice.",
+    "options": ["Tener una selección representativa de los miembros del índice", "Tener todos los miembros del índice con su peso", "Usar un swap para obtener la rentabilidad del índice", "Tener solo efectivo"]
+  },
+  "H-027": {
+    "question": "Verdadero o falso: un ETF de distribución reparte entre sus inversores los dividendos que recibe.",
+    "explanation": "Verdadero. Los ETF de distribución reparten los ingresos, normalmente varias veces al año."
+  },
+  "H-028": {
+    "question": "Verdadero o falso: en Austria, elegir un fondo de acumulación significa que no pagas impuestos por sus ingresos hasta que vendes.",
+    "explanation": "Falso. En los fondos declarantes, los ingresos reinvertidos (asimilados a distribuidos) tributan cada año, aunque no recibas efectivo."
+  },
+  "H-029": {
+    "question": "Un índice rinde un +8,0 % en un año y el ETF que lo sigue un +7,8 %. ¿Cuántos puntos porcentuales se quedó el ETF por detrás del índice?",
+    "explanation": "7,8 % − 8,0 % = −0,2 puntos porcentuales: una diferencia de seguimiento de −0,2."
+  },
+  "H-030": {
+    "question": "En sentido estricto, ¿qué mide el error de seguimiento?",
+    "explanation": "En sentido estricto, el error de seguimiento mide lo constante que es la desviación. La diferencia de seguimiento mide la brecha en sí. Algunos materiales usan «error de seguimiento» de forma imprecisa para cualquier desviación.",
+    "options": ["Cuánto fluctúa con el tiempo la desviación de un fondo respecto a su índice", "Los costes anuales del fondo", "El diferencial entre compra y venta en la bolsa", "La rentabilidad total del fondo"]
+  },
+  "H-031": {
+    "question": "¿Cuáles de estos factores pueden hacer que la rentabilidad de un fondo indexado difiera de la de su índice? Selecciona todas las correctas.",
+    "explanation": "Los costes, la negociación y el efectivo provocan desviaciones. Un índice es solo un cálculo; no paga comisiones.",
+    "options": ["Los costes corrientes del fondo (TER)", "Los costes de negociación cuando cambian los miembros del índice", "Dividendos que se quedan un tiempo en efectivo", "Comisiones que el propio índice se cobra por su cálculo"]
+  },
+  "H-032": {
+    "question": "Dos ETF siguen el mismo índice y tienen el mismo TER. ¿Qué suele decirte más sobre sus costes reales?",
+    "explanation": "La diferencia de seguimiento durante varios años recoge costes que van más allá del TER, como los de negociación, los ingresos por préstamo y el tratamiento fiscal.",
+    "options": ["Su diferencia de seguimiento durante varios años", "La rentabilidad del mes pasado", "Cuál tiene el nombre más largo", "En cuántas bolsas cotizan"]
+  },
+  "H-033": {
+    "question": "Verdadero o falso: los ingresos por préstamo de valores pueden compensar en parte los costes de un fondo.",
+    "explanation": "Verdadero. Prestar valores a cambio de una comisión aporta ingresos extra que pueden compensar en parte los costes, aunque añade algo de riesgo."
+  },
+  "H-034": {
+    "question": "¿Cuál de estos es un ejemplo de «factor» usado por los índices smart beta?",
+    "explanation": "Entre los factores están el valor, el momentum, la baja volatilidad, la calidad y los dividendos.",
+    "options": ["Valor", "ISIN", "Símbolo bursátil (ticker)", "Domicilio del fondo"]
+  },
+  "H-035": {
+    "question": "¿Qué riesgos destaca FINRA en los productos smart beta? Selecciona todas las correctas.",
+    "explanation": "FINRA advierte de rentabilidades distintas, riesgo de concentración y una posible escasa negociación con diferenciales amplios. Batir al mercado no está garantizado.",
+    "options": ["Su rentabilidad puede ser muy distinta de la de los índices ponderados por capitalización", "Riesgo de concentración", "Escasa negociación y diferenciales amplios", "Rentabilidad superior garantizada"]
+  },
+  "H-036": {
+    "question": "Verdadero o falso: la rentabilidad obtenida con backtesting predice de forma fiable la rentabilidad futura de una estrategia.",
+    "explanation": "Falso. FINRA señala que el backtesting ni predice la rentabilidad futura ni reproduce perfectamente la pasada."
+  },
+  "H-037": {
+    "question": "¿Cuál es el principal inconveniente de un ETF sectorial frente a un ETF de un índice amplio?",
+    "explanation": "Un ETF sectorial tiene empresas de un solo sector, así que un mal acontecimiento para ese sector golpea a todo el fondo.",
+    "options": ["Está mucho menos diversificado", "No se puede vender en una bolsa", "No está permitido en la UE", "Nunca paga dividendos"]
+  },
+  "H-038": {
+    "question": "Tienes un ETF sobre un índice mundial y añades un ETF temático de tecnología. ¿Cuál es un efecto probable?",
+    "explanation": "Muchas de las mayores empresas de un ETF temático de tecnología están también entre las mayores de un índice mundial, así que el solapamiento aumenta la concentración.",
+    "options": ["Tu cartera se concentra más en las mismas grandes empresas", "Tu diversificación se duplica automáticamente", "Tu riesgo total tiene que bajar", "Tu diferencia de seguimiento desaparece"]
+  },
+  "H-039": {
+    "question": "¿Qué intenta ofrecer un ETF apalancado 2×?",
+    "explanation": "Los ETF apalancados buscan un múltiplo de la rentabilidad diaria del índice. La SEC advierte de que los resultados en periodos más largos pueden diferir significativamente.",
+    "options": ["El doble de la rentabilidad del índice en cada día por separado", "El doble de la rentabilidad anual del índice, garantizado", "La mitad de la rentabilidad del índice", "El doble de los dividendos del índice"]
+  },
+  "H-040": {
+    "question": "Un índice sube un 10 % el día 1 y cae un 10 % el día 2. Un ETF apalancado 2× empieza en 100. ¿Qué porcentaje ha perdido tras el día 2?",
+    "explanation": "Día 1: +20 % → 120. Día 2: −20 % → 96. Es una pérdida del 4 %, mientras que el índice solo perdió un 1 %."
+  },
+  "H-041": {
+    "question": "Mismo camino: el índice sube un 10 % y luego cae un 10 %. Un ETF inverso (−1×) empieza en 100. ¿Qué porcentaje ha perdido tras el día 2?",
+    "explanation": "Día 1: −10 % → 90. Día 2: +10 % → 99. El producto inverso perdió un 1 %, aunque el índice también cayó."
+  },
+  "H-042": {
+    "question": "Verdadero o falso: en un año, un ETF apalancado 2× siempre rinde exactamente el doble de la rentabilidad anual del índice.",
+    "explanation": "Falso. Como se reinicia cada día, su resultado en periodos más largos puede diferir significativamente del doble de la rentabilidad del índice, sobre todo en mercados volátiles."
+  },
+  "H-043": {
+    "question": "Un producto apalancado 3× sigue un índice que cae un 33 % en un día. ¿Aproximadamente qué porcentaje cae el producto ese día?",
+    "explanation": "3 × 33 % = 99 %. Se pierde casi toda la inversión en un solo día."
+  },
+  "H-044": {
+    "question": "¿Qué documento breve y normalizado de la UE describe los objetivos, los riesgos y los costes de un fondo?",
+    "explanation": "El KID es el documento breve y normalizado para los inversores minoristas de la UE. El folleto es la descripción jurídica completa.",
+    "options": ["El documento de datos fundamentales (KID)", "El informe anual", "La ficha mensual", "Tu declaración de la renta"]
+  },
+  "H-045": {
+    "question": "Verdadero o falso: dos ETF con «World» en el nombre tienen necesariamente las mismas empresas.",
+    "explanation": "Falso. Uno puede seguir un índice solo de mercados desarrollados, como el MSCI World, y otro uno que incluye los emergentes, como el FTSE All-World. Consulta la ficha mensual."
+  },
+  "H-046": {
+    "question": "Un ETF con acciones de EE. UU. cotiza en euros en una bolsa europea. ¿Qué es cierto sobre su riesgo de divisa?",
+    "explanation": "La divisa de negociación no es lo mismo que el riesgo de divisa: las acciones subyacentes se valoran en dólares.",
+    "options": ["Sigues expuesto al dólar estadounidense", "No hay riesgo de divisa porque cotiza en euros", "Solo estás expuesto al riesgo del euro", "El riesgo de divisa solo afecta a los ETF de distribución"]
+  },
+  "H-047": {
+    "question": "¿Cuál es el tipo especial en Austria para los repartos de los fondos y los ingresos asimilados a distribuidos, en porcentaje?",
+    "explanation": "Según el § 27a EStG, se aplica el tipo especial del 27,5 %, también a los repartos reales y asimilados de los fondos."
+  },
+  "H-048": {
+    "question": "Tu fondo declarante de acumulación tiene 200 € de ingresos asimilados a distribuidos en el año. ¿Cuánto impuesto se paga al 27,5 %, en euros?",
+    "explanation": "200 € × 27,5 % = 55 €, a pagar aunque no se haya repartido efectivo."
+  },
+  "H-049": {
+    "question": "Compraste participaciones de un fondo por 10.000 €. Ya han tributado 200 € de ingresos asimilados a distribuidos. Vendes por 12.000 €. ¿Cuál es la ganancia imponible de la venta, en euros?",
+    "explanation": "Los ingresos asimilados que ya tributaron aumentan el coste de adquisición a 10.200 €. 12.000 € − 10.200 € = 1.800 €."
+  },
+  "H-050": {
+    "question": "El precio de reembolso de un fondo no declarante es de 100 € a principios de año y de 101 € al final. Con la regla a tanto alzado, ¿qué ingreso asimilado por participación se supone, en euros?",
+    "explanation": "El 90 % de la diferencia de 1 € es 0,90 €, pero el mínimo es el 10 % del precio de final de año: 10 % × 101 € = 10,10 €. Se aplica la cifra más alta."
+  },
+  "H-051": {
+    "question": "¿Qué es un fondo declarante («Meldefonds») en Austria?",
+    "explanation": "Los fondos declarantes envían sus datos fiscales al OeKB, la oficina oficial de notificación, que publica los datos que usan los bancos para calcular el KESt.",
+    "options": ["Un fondo que comunica sus datos fiscales al OeKB", "Un fondo que cotiza en la Bolsa de Viena", "Un fondo que debe repartir todos sus ingresos", "Un fondo libre de impuestos"]
+  },
+  "H-052": {
+    "question": "Verdadero o falso: en las participaciones de fondos en patrimonio privado, los ingresos asimilados a distribuidos en Austria incluyen el 60 % del saldo positivo de las ganancias realizadas del fondo.",
+    "explanation": "Verdadero. El § 186, apartado 2, InvFG considera asimilados a distribuidos los intereses y dividendos retenidos más el 60 % del saldo positivo de las ganancias realizadas."
+  },
+  "H-053": {
+    "question": "¿Qué costes incluye principalmente el TER (ratio de gastos totales) de un fondo?",
+    "explanation": "El TER cubre los costes cargados al propio fondo; los costes de negociación y los diferenciales al comprar y vender van aparte.",
+    "options": ["Los costes corrientes cargados al fondo, como la comisión de gestión y los costes de custodia, asesores y auditoría", "La comisión de tu bróker al comprar el ETF", "El diferencial entre compra y venta en la bolsa", "El impuesto austriaco sobre las plusvalías"]
+  },
+  "H-054": {
+    "question": "El fondo A sigue el MSCI World y el fondo B el FTSE All-World. ¿Cuál es la diferencia clave entre los dos índices?",
+    "explanation": "La misma palabra, «World», pero distinta cobertura: comprueba siempre el índice que hay detrás de un fondo.",
+    "options": ["El FTSE All-World incluye también los mercados emergentes; el MSCI World cubre solo los desarrollados", "Ninguna: los dos tienen exactamente las mismas empresas", "El MSCI World incluye los mercados emergentes y el FTSE All-World no", "El FTSE All-World solo tiene empresas de EE. UU."]
+  }
+}
