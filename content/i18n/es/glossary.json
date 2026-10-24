@@ -518,7 +518,7 @@
   "definition": "Todo lo que ocurre entre una operación y su liquidación final: confirmar los detalles, calcular las obligaciones y gestionar el riesgo de que una parte incumpla."
  },
  "settlement": {
-  "term": "Liquidación",
+  "term": "Liquidación de operaciones",
   "definition": "El intercambio final de una operación: los valores pasan al comprador y el dinero al vendedor, normalmente en un depositario central de valores."
  },
  "ccp": {
