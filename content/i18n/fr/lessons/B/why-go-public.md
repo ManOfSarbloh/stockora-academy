@@ -1,6 +1,6 @@
 ---
 title: "Pourquoi les entreprises entrent en Bourse, et les autres voies"
-summary: "Une introduction en Bourse apporte de l'argent et de la visibilité, mais aussi des coûts et des obligations. Les cotations directes, les SPAC et les fusions inversées sont d'autres voies vers la Bourse."
+summary: "Une introduction en Bourse apporte de l'argent et de la visibilité, mais aussi des coûts et des contraintes. Les cotations directes, les SPAC et les fusions inversées sont d'autres voies vers la Bourse."
 translatedFrom: 2026-10-11
 ---
 

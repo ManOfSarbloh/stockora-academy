@@ -670,7 +670,7 @@
   "definition": "Un ordre d'acheter à un prix fixé ou en dessous, ou de vendre à un prix fixé ou au-dessus. Il garantit le prix (ou mieux), mais pas l'exécution."
  },
  "slippage": {
-  "term": "Glissement (slippage)",
+  "term": "Glissement de prix (slippage)",
   "definition": "L'écart entre le prix attendu au moment de passer un ordre et le prix auquel il a réellement été exécuté."
  },
  "partial-fill": {
@@ -1042,7 +1042,7 @@
   "definition": "Une figure de deux chandeliers après une baisse : un chandelier baissier, puis un haussier qui ouvre sous son plus bas et clôture au-dessus du milieu de son corps. Son pendant baissier s'appelle couverture en nuage noir."
  },
  "morning-star": {
-  "term": "Étoile du matin / du soir",
+  "term": "Étoile du matin / étoile du soir",
   "definition": "Une figure de trois chandeliers après une baisse : un long chandelier baissier, une petite « étoile », puis un long chandelier haussier. L'étoile du soir est son pendant baissier après une hausse."
  },
  "three-white-soldiers": {
@@ -1062,7 +1062,7 @@
   "definition": "Un espace vide sur un graphique lorsqu'une période ouvre bien au-dessus ou en dessous de l'amplitude de la précédente, souvent après une nouvelle. Types : gap commun, de rupture, de continuation et d'épuisement."
  },
  "uptrend": {
-  "term": "Tendance haussière / baissière",
+  "term": "Tendance haussière / tendance baissière",
   "definition": "Une suite de sommets et de creux de plus en plus hauts (tendance haussière) ou de plus en plus bas (tendance baissière)."
  },
  "trendline": {

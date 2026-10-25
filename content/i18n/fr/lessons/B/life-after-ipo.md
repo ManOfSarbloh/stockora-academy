@@ -1,12 +1,12 @@
 ---
 title: "La vie d'une société cotée, et comment les actions disparaissent"
-summary: "Après l'introduction en Bourse, une entreprise a des obligations permanentes et peut émettre ou racheter des actions. Les actions peuvent aussi disparaître : rachats, retraits obligatoires, radiations de la cote ou faillites."
+summary: "Après l'introduction en Bourse, une entreprise a des devoirs permanents et peut émettre ou racheter des actions. Les actions peuvent aussi disparaître : rachats, retraits obligatoires, radiations de la cote ou faillites."
 translatedFrom: 2026-10-11
 ---
 
 L'introduction en Bourse n'est pas la fin de l'histoire. Une société cotée vit sous les projecteurs, voit son nombre d'actions changer au fil du temps, et un jour ses actions peuvent disparaître de la Bourse.
 
-## Des obligations permanentes
+## Des devoirs permanents
 
 Une société cotée doit tenir les investisseurs informés. Dans l'UE, cela comprend des rapports financiers annuels et semestriels et la publication rapide des informations susceptibles d'influencer le cours (communications ad hoc). Elle tient aussi une assemblée générale chaque année. La catégorie R détaille ces règles.
 
