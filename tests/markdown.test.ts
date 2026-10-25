@@ -15,6 +15,7 @@ const terms: GlossaryTerm[] = [
   { id: 'pe', term: 'P/E', aliases: ['P/E ratio'], definition: 'Price divided by earnings per share.' },
   { id: 't-plus-1', term: 'T+1', definition: 'Settlement one business day after the trade.' },
   { id: 'mar', term: 'MAR', definition: 'Market Abuse Regulation.' },
+  { id: 'order-book', term: "Carnet d'ordres", definition: 'The list of waiting orders.' },
 ];
 
 async function md(src: string, base = '/') {
@@ -83,6 +84,10 @@ describe('glossary matcher', () => {
     expect(m.idFor('mar')).toBeUndefined();
     expect(m.idFor('Mar')).toBeUndefined();
     expect(m.idFor('stock')?.id).toBe('stock');
+  });
+  it('matches a straight apostrophe in a term to the typographic one', () => {
+    expect(found('Le carnet d’ordres est vide')).toEqual(['carnet d’ordres']);
+    expect(m.idFor('carnet d’ordres')?.id).toBe('order-book');
   });
   it('handles terms with symbols', () => {
     expect(found('The P/E ratio is 20. T+1 settlement.')).toEqual(['P/E ratio', 'T+1']);

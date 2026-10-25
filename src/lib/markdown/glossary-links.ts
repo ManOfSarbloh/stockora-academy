@@ -5,6 +5,7 @@
  * Matching rules:
  *  - the term or any of its aliases, case-insensitive, with an optional plural "s"/"es"; an all-capital
  *    abbreviation ("MAR", "ETC") only matches in capitals, so French "mars" or Spanish "etc." stay plain text
+ *  - a straight apostrophe in a term also matches the typographic one (’) used on rendered pages
  *  - whole words only (letters/digits must not touch the match), so "ETF" does not match inside "ETFs"
  *    except as the plural, and "share" does not match inside "shareholder"
  *  - longer phrases win ("market order" before "market")
@@ -22,6 +23,7 @@ export interface GlossaryTerm {
 const SKIP_TAGS = new Set(['a', 'code', 'pre', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'button', 'script', 'style', 'svg', 'abbr']);
 
 const escapeRegex = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+const normApostrophe = (s: string) => s.replace(/’/g, "'");
 
 export interface Matcher {
   regex: RegExp;
@@ -36,17 +38,17 @@ export function buildMatcher(terms: GlossaryTerm[], suffix = PLURAL_SUFFIX.en): 
   const capitalsOnly = new Set<string>();
   for (const t of terms) {
     for (const p of [t.term, ...(t.aliases ?? [])]) {
-      const key = p.trim().toLowerCase();
+      const key = normApostrophe(p.trim().toLowerCase());
       if (!key || byPhrase.has(key)) continue;
       byPhrase.set(key, t);
       if (!/\p{Ll}/u.test(p) && (p.match(/\p{Lu}/gu) ?? []).length >= 2) capitalsOnly.add(key);
     }
   }
   if (byPhrase.size === 0) return null;
-  const phrases = [...byPhrase.keys()].sort((a, b) => b.length - a.length).map(escapeRegex);
+  const phrases = [...byPhrase.keys()].sort((a, b) => b.length - a.length).map((p) => escapeRegex(p).replace(/'/g, "['’]"));
   const regex = new RegExp(`(?<![\\p{L}\\p{N}])(${phrases.join('|')})${suffix}(?![\\p{L}\\p{N}])`, 'giu');
   const idFor = (phrase: string) => {
-    const key = phrase.toLowerCase();
+    const key = normApostrophe(phrase.toLowerCase());
     return capitalsOnly.has(key) && phrase !== phrase.toUpperCase() ? undefined : byPhrase.get(key);
   };
   return { regex, idFor };
