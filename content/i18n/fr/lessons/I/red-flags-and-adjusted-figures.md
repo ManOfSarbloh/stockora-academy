@@ -57,7 +57,7 @@ Wirecard était une entreprise allemande de paiements qui avait accédé à l'in
 
 - Au fil des années, des accusations d'irrégularités comptables ont été formulées à plusieurs reprises, notamment par les médias et des vendeurs à découvert, pendant que l'entreprise grandissait rapidement. L'entreprise les a **systématiquement rejetées**.
 - Le **22 juin 2020**, Wirecard a annoncé que **1,9 milliard d'euros** qu'elle prétendait détenir sur des comptes séquestres aux Philippines **n'existaient pas**. Ses commissaires aux comptes n'avaient pas finalisé leur rapport d'audit avant la date limite du rapport financier annuel.
-- Wirecard a **déposé le bilan** la semaine suivante. Les actionnaires ont subi des pertes énormes.
+- Wirecard a **fait faillite** la semaine suivante. Les actionnaires ont subi des pertes énormes.
 - L'examen de l'AEMF a relevé des **défaillances** dans la façon dont les autorités allemandes de contrôle, la BaFin et le Financial Reporting Enforcement Panel (FREP), avaient examiné l'information financière de Wirecard.
 
 Les leçons pour les investisseurs :
