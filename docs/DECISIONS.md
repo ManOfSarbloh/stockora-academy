@@ -301,9 +301,18 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Glossary links | After each topic, the glossary links in the built Spanish pages were listed and every everyday-word match removed, either by rewording the lesson or by making the Spanish glossary term more specific (for example "Bono (obligación)", "Vencimiento de un bono", "Opción financiera (derivado)", "Toma de control (adquisición)"). A bracketed abbreviation such as "P/VC" or "P/E" now stays one alias instead of being split at the slash (astro.config.mjs) |
 | Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
 
+## French lessons and quizzes (2026-10-25)
+
+| Topic | Decision |
+|---|---|
+| Scope | After Spanish, the owner asked to continue with French. All 196 lessons and the 1,102 topic quiz questions (topics A to W) are in French, in the same files and with the same checks as German and Spanish (content/i18n/fr/lessons, content/i18n/fr/quizzes). Country pages, their quizzes and How Stocks Are Made stay English for now |
+| Style | vous-form; fr numbers with spaces (1 000 €, 2,5 %, 9 600 milliards de dollars); « » quotes with a space before : ; ? !; takeaways heading "À retenir"; French market terms (courtier, compte-titres, ordre à cours limité, fourchette acheteur-vendeur, frais courants, OPCVM, DIC, BPA, PER) and Austrian legal names kept as the BMF, FMA and the laws use them, with a French explanation the first time |
+| Glossary links | After each topic, the glossary links in the built French pages were listed and every everyday-word match removed by rewording or by renaming the French glossary term (for example "Liquidité de marché", "Fourchette acheteur-vendeur (spread)", "Glissement de prix (slippage)"). English terms also match on French pages, so words such as "option" (choice), "obligation" (duty), "compensation" or "résultat net" are avoided outside their glossary sense. Two matcher fixes apply to every language: an all-capital abbreviation only matches in capitals ("MAR", not "mars"), and a straight apostrophe in a term also matches the typographic one (src/lib/markdown/glossary-links.ts, with tests) |
+| Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
+
 ## Open items
 
-- Translations: French and Italian lessons, quizzes, country pages and How Stocks Are Made.
+- Translations: French country pages, their quizzes and How Stocks Are Made; Italian lessons, quizzes, country pages and How Stocks Are Made.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
