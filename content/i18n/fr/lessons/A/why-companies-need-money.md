@@ -44,7 +44,7 @@ Seulement lorsqu'elle **émet de nouvelles actions** : quand les fondateurs appo
 Ensuite, les actions changent de mains entre investisseurs sur le **marché secondaire**, par exemple en Bourse. L'entreprise ne participe pas à ces transactions et n'en reçoit rien.
 
 > [!MISTAKE] « Quand j'achète une action en Bourse, mon argent va à l'entreprise »
-> Presque jamais. Quand vous achetez une action existante en Bourse, votre argent va à **l'investisseur qui vous l'a vendue**. L'entreprise ne reçoit de l'argent que lorsqu'elle émet de nouvelles actions. Une hausse du cours compte quand même pour l'entreprise (par exemple, elle facilite une future levée de fonds), mais elle ne met pas d'argent sur le compte bancaire de l'entreprise.
+> Presque jamais. Quand vous achetez une action existante en Bourse, votre argent va à **l'investisseur qui vous l'a vendue**. L'entreprise ne reçoit de l'argent que lorsqu'elle émet de nouvelles actions. Une hausse du cours compte quand même pour l'entreprise (par exemple, elle facilite une prochaine levée de fonds), mais elle ne met pas d'argent sur le compte bancaire de l'entreprise.
 
 ## À retenir
 

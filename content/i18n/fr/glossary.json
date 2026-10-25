@@ -646,7 +646,7 @@
   "definition": "La demande d'un courtier d'ajouter de l'argent ou des titres sur un compte sur marge après une baisse des cours. Le courtier peut aussi vendre vos titres, éventuellement sans préavis."
  },
  "isa": {
-  "term": "ISA (Royaume-Uni)",
+  "term": "ISA (compte d'épargne britannique)",
   "definition": "Individual Savings Account : un compte britannique sur lequel l'épargne et les placements croissent sans impôt britannique, jusqu'à un plafond annuel (20 000 £ pour l'exercice fiscal 2026/27)."
  },
  "ira": {
@@ -1235,7 +1235,7 @@
   "definition": "Répartir le coût des actifs durables sur les années de leur utilisation : amortissement des actifs corporels comme les machines et des actifs incorporels. Une charge au compte de résultat qui ne consomme pas de trésorerie cette année-là."
  },
  "capex": {
-  "term": "Investissements (capex)",
+  "term": "Dépenses d'investissement (capex)",
   "definition": "La trésorerie dépensée en actifs à long terme comme les bâtiments, les machines et les logiciels. Figure dans les activités d'investissement du tableau des flux de trésorerie."
  },
  "operating-cash-flow": {

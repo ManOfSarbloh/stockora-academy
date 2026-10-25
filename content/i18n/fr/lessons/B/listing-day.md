@@ -41,7 +41,7 @@ Quand les actions bondissent régulièrement le premier jour, cela suggère que 
 
 ## Le flipping
 
-On dit des investisseurs qui reçoivent des actions lors d'une introduction et les revendent immédiatement qu'ils font du **flipping**. Selon la SEC, les établissements chargés du placement peuvent le décourager, par exemple en attribuant moins d'actions lors de futures introductions aux clients qui pratiquent le flipping.
+On dit des investisseurs qui reçoivent des actions lors d'une introduction et les revendent immédiatement qu'ils font du **flipping**. Selon la SEC, les établissements chargés du placement peuvent le décourager, par exemple en attribuant moins d'actions lors des prochaines introductions aux clients qui pratiquent le flipping.
 
 ## Après le premier jour
 
