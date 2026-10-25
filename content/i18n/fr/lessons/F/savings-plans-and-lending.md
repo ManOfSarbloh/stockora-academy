@@ -14,9 +14,9 @@ Les avantages :
 - **De petits montants :** vous pouvez commencer avec peu d'argent.
 - **Pas besoin de « choisir le bon moment » :** vous achetez régulièrement, quel que soit le cours.
 
-## L'effet de moyenne des coûts
+## L'effet de lissage
 
-Comme vous investissez **le même montant** à chaque fois, vous achetez automatiquement **plus de parts quand les cours sont bas** et **moins quand ils sont hauts**. La Bourse de Vienne appelle cela l'**effet de moyenne des coûts** (Durchschnittskosteneffekt, ou cost averaging).
+Comme vous investissez **le même montant** à chaque fois, vous achetez automatiquement **plus de parts quand les cours sont bas** et **moins quand ils sont hauts**. La Bourse de Vienne appelle cela l'**effet de lissage** (Durchschnittskosteneffekt, en anglais cost averaging).
 
 > [!EXAMPLE]
 > Vous investissez **100 €** par mois dans un ETF :
@@ -30,7 +30,7 @@ Comme vous investissez **le même montant** à chaque fois, vous achetez automat
 > Vous avez investi 300 € et possédez 6,5 parts. Votre coût moyen est de 300 € ÷ 6,5 ≈ **46,15 €** par part, inférieur au cours moyen des trois mois (46,67 €).
 
 > [!NOTE]
-> L'effet de moyenne des coûts est réel, mais il ne garantit pas de gains. Si les cours montent simplement mois après mois, investir toute la somme au départ aurait permis d'acheter moins cher. La catégorie M compare l'investissement régulier et l'investissement en une fois. Pour beaucoup de gens, le plus grand avantage d'un plan d'épargne est simplement qu'ils continuent d'investir.
+> L'effet de lissage est réel, mais il ne garantit pas de gains. Si les cours montent simplement mois après mois, investir toute la somme au départ aurait permis d'acheter moins cher. La catégorie M compare l'investissement régulier et l'investissement en une fois. Pour beaucoup de gens, le plus grand avantage d'un plan d'épargne est simplement qu'ils continuent d'investir.
 
 **Les coûts comptent :** les frais par exécution d'un plan d'épargne peuvent représenter un pourcentage élevé de petits montants. Des frais de 1,50 € sur un achat mensuel de 25 €, c'est 6 % de chaque versement.
 
@@ -52,6 +52,6 @@ Certains courtiers et fonds prêtent les titres détenus pour leurs clients et e
 
 > [!TAKEAWAYS]
 > - Un plan d'épargne investit automatiquement un montant fixe à intervalles réguliers.
-> - L'effet de moyenne des coûts signifie que vous achetez davantage quand les cours sont bas et moins quand ils sont hauts.
+> - L'effet de lissage signifie que vous achetez davantage quand les cours sont bas et moins quand ils sont hauts.
 > - Les frais fixes peuvent coûter cher sur de petits montants mensuels.
 > - Le prêt de titres prête des actions à d'autres contre une garantie et une rémunération ; vérifiez si et comment votre courtier le pratique.
