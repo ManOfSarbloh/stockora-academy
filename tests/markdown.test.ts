@@ -14,6 +14,7 @@ const terms: GlossaryTerm[] = [
   { id: 'market', term: 'Market', definition: 'A place where things are traded.' },
   { id: 'pe', term: 'P/E', aliases: ['P/E ratio'], definition: 'Price divided by earnings per share.' },
   { id: 't-plus-1', term: 'T+1', definition: 'Settlement one business day after the trade.' },
+  { id: 'mar', term: 'MAR', definition: 'Market Abuse Regulation.' },
 ];
 
 async function md(src: string, base = '/') {
@@ -76,6 +77,12 @@ describe('glossary matcher', () => {
   });
   it('prefers the longest phrase', () => {
     expect(found('Use a market order')).toEqual(['market order']);
+  });
+  it('matches all-capital abbreviations only in capitals', () => {
+    expect(m.idFor('MAR')?.id).toBe('mar');
+    expect(m.idFor('mar')).toBeUndefined();
+    expect(m.idFor('Mar')).toBeUndefined();
+    expect(m.idFor('stock')?.id).toBe('stock');
   });
   it('handles terms with symbols', () => {
     expect(found('The P/E ratio is 20. T+1 settlement.')).toEqual(['P/E ratio', 'T+1']);

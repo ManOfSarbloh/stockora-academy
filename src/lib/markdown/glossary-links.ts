@@ -3,7 +3,8 @@
  * The short definition is stored on the link (data-def) so a tooltip can show it without extra requests.
  *
  * Matching rules:
- *  - the term or any of its aliases, case-insensitive, with an optional plural "s"/"es"
+ *  - the term or any of its aliases, case-insensitive, with an optional plural "s"/"es"; an all-capital
+ *    abbreviation ("MAR", "ETC") only matches in capitals, so French "mars" or Spanish "etc." stay plain text
  *  - whole words only (letters/digits must not touch the match), so "ETF" does not match inside "ETFs"
  *    except as the plural, and "share" does not match inside "shareholder"
  *  - longer phrases win ("market order" before "market")
@@ -32,16 +33,23 @@ export const PLURAL_SUFFIX: Record<string, string> = { en: '(?:e?s)?', de: '(?:e
 
 export function buildMatcher(terms: GlossaryTerm[], suffix = PLURAL_SUFFIX.en): Matcher | null {
   const byPhrase = new Map<string, GlossaryTerm>();
+  const capitalsOnly = new Set<string>();
   for (const t of terms) {
     for (const p of [t.term, ...(t.aliases ?? [])]) {
       const key = p.trim().toLowerCase();
-      if (key && !byPhrase.has(key)) byPhrase.set(key, t);
+      if (!key || byPhrase.has(key)) continue;
+      byPhrase.set(key, t);
+      if (!/\p{Ll}/u.test(p) && (p.match(/\p{Lu}/gu) ?? []).length >= 2) capitalsOnly.add(key);
     }
   }
   if (byPhrase.size === 0) return null;
   const phrases = [...byPhrase.keys()].sort((a, b) => b.length - a.length).map(escapeRegex);
   const regex = new RegExp(`(?<![\\p{L}\\p{N}])(${phrases.join('|')})${suffix}(?![\\p{L}\\p{N}])`, 'giu');
-  return { regex, idFor: (phrase) => byPhrase.get(phrase.toLowerCase()) };
+  const idFor = (phrase: string) => {
+    const key = phrase.toLowerCase();
+    return capitalsOnly.has(key) && phrase !== phrase.toUpperCase() ? undefined : byPhrase.get(key);
+  };
+  return { regex, idFor };
 }
 
 function hasClass(el: Element, cls: string): boolean {
