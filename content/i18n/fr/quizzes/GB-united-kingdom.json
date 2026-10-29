@@ -1,0 +1,16 @@
+{
+  "GB-001": {"question":"En quelle année la première bourse réglementée a-t-elle vu le jour à Londres ?","explanation":"LSEG fait remonter la Bourse moderne à 1801 ; les listes de cours remontent à 1698."},
+  "GB-002": {"question":"Où John Castaing a-t-il commencé à publier les cours des actions et des marchandises en 1698 ?","explanation":"Au Jonathan's Coffee House.","options":["Au Jonathan's Coffee House","Au Royal Exchange","Chez Lloyd's of London","À la Banque d'Angleterre"]},
+  "GB-003": {"question":"Que contient le FTSE 100 ?","explanation":"Il est revu chaque trimestre.","options":["Les 100 plus grandes entreprises britanniques selon la capitalisation boursière totale","Les 100 plus anciennes entreprises britanniques","100 entreprises choisies par la FCA","Toutes les entreprises cotées à Londres"]},
+  "GB-004": {"question":"À combien de points le FTSE 100 a-t-il démarré le 3 janvier 1984 ?","explanation":"1 000 points."},
+  "GB-005": {"question":"Quel est le taux habituel de la taxe à l'achat électronique d'actions britanniques (Stamp Duty Reserve Tax), en pourcentage ?","explanation":"0,5 % ; 1,5 % pour les transferts vers certains programmes de certificats de dépôt ou services de compensation."},
+  "GB-006": {"question":"Depuis le 1er décembre 2025, jusqu'à quel montant le FSCS protège-t-il les dépôts bancaires par personne et par banque ?","explanation":"120 000 livres ; les créances sur placements sont couvertes jusqu'à 85 000 livres."},
+  "GB-007": {"question":"Quel régulateur surveille le comportement des entreprises et des marchés financiers au Royaume-Uni ?","explanation":"La FCA régule le comportement d'environ 35 500 entreprises.","options":["Financial Conduct Authority (FCA)","BaFin","SEC","FINMA"]},
+  "GB-008": {"question":"Quel est l'abattement annuel de l'impôt sur les plus-values pour les particuliers pour l'année fiscale 2026–27, en livres ?","explanation":"3 000 livres."},
+  "GB-009": {"question":"À quel taux les contribuables de la tranche supérieure paient-ils l'impôt sur les plus-values sur actions à partir du 6 avril 2026 ?","explanation":"24 % au-delà de la tranche de base ; 18 % dans celle-ci."},
+  "GB-010": {"question":"Combien un résident britannique peut-il épargner dans des ISA pour l'année fiscale 2026–27, en livres ?","explanation":"20 000 livres, tous types d'ISA confondus."},
+  "GB-011": {"question":"Vrai ou faux : selon le HMRC, les dividendes britanniques restent non imposables pour la plupart des non-résidents.","explanation":"Vrai, sauf pour les personnes qui ont aussi des revenus imposables au Royaume-Uni."},
+  "GB-012": {"question":"Un cours londonien est affiché à 2 450 GBX. Combien cela fait-il en livres ?","explanation":"GBX désigne des pence : 2 450 pence = 24,50 livres."},
+  "GB-013": {"question":"Quel est le dépositaire central de titres britannique et son système de règlement ?","explanation":"Euroclear UK & International gère le système CREST.","options":["Euroclear UK & International, avec CREST","Clearstream, avec Xetra","DTC, avec NSCC","SIX SIS, avec SECOM"]},
+  "GB-014": {"question":"De combien le FTSE 100 a-t-il chuté le 20 octobre 1987, sa pire journée de 1984 à 2023, en pourcentage ?","explanation":"−12,22 %, selon FTSE Russell."}
+}

@@ -1,0 +1,15 @@
+{
+  "PL-001": {"question":"En quelle année la Bourse marchande de Varsovie, point de départ des traditions du marché des capitaux polonais, a-t-elle été créée ?","explanation":"En 1817 ; la société actuelle de la Bourse de Varsovie a été fondée en 1991."},
+  "PL-002": {"question":"Quand la société actuelle de la Bourse de Varsovie a-t-elle été fondée ?","explanation":"Par le Trésor public le 12 avril 1991, après la chute du communisme.","options":["12 avril 1991","9 novembre 1989","1er mai 2004","16 avril 1994"]},
+  "PL-003": {"question":"Combien d'entreprises compte le WIG20 ?","explanation":"20 grandes entreprises parmi les plus liquides de la liste principale de la Bourse de Varsovie."},
+  "PL-004": {"question":"Depuis quelle année le WIG20 est-il calculé ?","explanation":"Depuis le 16 avril 1994."},
+  "PL-005": {"question":"En quelle année FTSE Russell a-t-il promu la Pologne au rang de marché développé ?","explanation":"Avec effet au 24 septembre 2018 ; en 2008, la Pologne était passée de Secondary à Advanced Emerging."},
+  "PL-006": {"question":"Dans quelle devise les actions se négocient-elles à la Bourse de Varsovie ?","explanation":"La Pologne fait partie de l'UE mais n'utilise pas l'euro.","options":["Le zloty polonais (PLN)","L'euro","La couronne tchèque","Le dollar américain"]},
+  "PL-007": {"question":"Quelle autorité surveille le marché financier polonais ?","explanation":"La KNF.","options":["KNF (Autorité polonaise de surveillance financière)","FMA","BaFin","CNMV"]},
+  "PL-008": {"question":"Jusqu'à quel montant le Fonds de garantie bancaire polonais couvre-t-il les dépôts admissibles par déposant et par établissement ?","explanation":"100 000 € (en zlotys ou en devises).","options":["100 000 €","100 000 PLN","20 000 €","Sans limite"]},
+  "PL-009": {"question":"À quel taux les revenus de la vente d'actions sont-ils imposés pour les résidents polonais, en pourcentage ?","explanation":"19 %, déclarés sur le formulaire PIT-38."},
+  "PL-010": {"question":"Vrai ou faux : en Pologne, les pertes de cession d'actions peuvent être imputées sur les revenus de même source des cinq années suivantes, dans certaines limites.","explanation":"Vrai, comme l'explique la brochure du PIT-38."},
+  "PL-011": {"question":"Quelle institution est le dépositaire central de titres polonais ?","explanation":"Le KDPW, Krajowy Depozyt Papierów Wartościowych.","options":["KDPW","Euroclear Poland","Clearstream","GPW Benchmark"]},
+  "PL-012": {"question":"Lesquelles de ces entreprises étaient membres du WIG20 en 2026 ? Sélectionnez toutes les bonnes réponses.","explanation":"Volvo est suédoise et figure dans l'OMXS30.","options":["PKO Bank Polski","CD Projekt","KGHM","Volvo"]},
+  "PL-013": {"question":"Vrai ou faux : en tant que membre de l'UE, la Pologne passe au règlement T+1 le 11 octobre 2027.","explanation":"Vrai."}
+}

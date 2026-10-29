@@ -1,0 +1,14 @@
+{
+  "ES-001": {"question":"En quelle année la Bourse de Madrid a-t-elle été créée ?","explanation":"En 1831, ce qui en fait l'une des plus anciennes institutions financières d'Espagne."},
+  "ES-002": {"question":"Combien d'entreprises compte l'IBEX 35 ?","explanation":"35 des plus grands titres négociés en Espagne."},
+  "ES-003": {"question":"Quel était le niveau de base de l'IBEX 35 au 29 décembre 1989 ?","explanation":"3 000 points.","options":["3 000 points","1 000 points","1 500 points","100 points"]},
+  "ES-004": {"question":"Quel groupe détient BME, l'exploitant des bourses espagnoles, depuis 2020 ?","explanation":"SIX, qui gère aussi la bourse suisse.","options":["Le groupe SIX","Euronext","Deutsche Börse","London Stock Exchange Group"]},
+  "ES-005": {"question":"Quand se déroule la négociation en continu sur le système SIBE de la bourse espagnole ?","explanation":"Enchère d'ouverture de 08:30 à 09:00 ; enchère de clôture de 17:30 à 17:35 ; négociation au dernier cours jusqu'à 17:45."},
+  "ES-006": {"question":"Jusqu'à quel montant le FGD espagnol garantit-il les dépôts par titulaire et par établissement, en euros ?","explanation":"100 000 €."},
+  "ES-007": {"question":"Quel est le taux de la taxe espagnole sur les transactions financières, en pourcentage ?","explanation":"0,2 % sur les achats d'actions de sociétés espagnoles valant plus d'un milliard d'euros."},
+  "ES-008": {"question":"À quel taux l'Espagne impose-t-elle les dividendes versés aux non-résidents sans établissement stable, avant les limites conventionnelles, en pourcentage ?","explanation":"19 %."},
+  "ES-009": {"question":"Dans le barème espagnol de 2025, quel est le taux national le plus élevé sur les revenus de l'épargne au-delà de 300 000 € ?","explanation":"La part nationale va de 9,5 % à 15 % ; avec la part régionale (elle aussi jusqu'à 15 %), le taux combiné le plus élevé est de 30 %."},
+  "ES-010": {"question":"Quelle institution est le dépositaire central de titres espagnol ?","explanation":"Iberclear est une filiale de BME.","options":["Iberclear","Euroclear France","Clearstream","KDPW"]},
+  "ES-011": {"question":"Lesquelles de ces entreprises étaient membres de l'IBEX 35 en décembre 2025 ? Sélectionnez toutes les bonnes réponses.","explanation":"Ferrari est italienne et figure dans le FTSE MIB.","options":["Santander","Inditex","Iberdrola","Ferrari"]},
+  "ES-012": {"question":"Vrai ou faux : l'Espagne passe au règlement T+1 le 11 octobre 2027, avec le reste de l'UE.","explanation":"Vrai."}
+}

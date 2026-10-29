@@ -1,0 +1,14 @@
+{
+  "IT-001": {"question":"En quelle année la Bourse des marchandises de Milan a-t-elle été créée par décret ?","explanation":"Par un décret du 16 janvier 1808 du vice-roi Eugène de Beauharnais."},
+  "IT-002": {"question":"Combien d'entreprises compte le FTSE MIB ?","explanation":"Les 40 principales actions d'Euronext Milan et d'Euronext MIV Milan."},
+  "IT-003": {"question":"Quand se déroule la négociation en continu sur Euronext Milan ?","explanation":"Enchère d'ouverture de 07:30 à 09:00, négociation en continu de 09:00 à 17:30, enchère de clôture de 17:30 à 17:35, négociation au dernier cours jusqu'à 17:40."},
+  "IT-004": {"question":"Jusqu'à quel montant le FITD garantit-il les dépôts par déposant et par banque, en euros ?","explanation":"100 000 €."},
+  "IT-005": {"question":"Quel est le taux de la taxe italienne sur les transactions financières sur les transferts d'actions depuis le 1er janvier 2026, avant la réduction pour les marchés réglementés ?","explanation":"0,4 % (0,2 % jusqu'en 2025) ; réduit de moitié pour les transactions sur les marchés réglementés et les MTF."},
+  "IT-006": {"question":"Combien coûte la taxe italienne sur les transactions pour un achat en bourse d'actions d'une grande société italienne en 2026 ?","explanation":"Le taux de 0,4 % est réduit de moitié, à 0,2 %, pour les transactions sur les marchés réglementés ou les MTF.","options":["0,2 %","0,4 %","0,1 %","Rien"]},
+  "IT-007": {"question":"Vrai ou faux : les actions des sociétés italiennes dont la valeur de marché moyenne (en novembre de l'année précédente) est inférieure à 500 millions d'euros sont exonérées de la taxe sur les transactions.","explanation":"Vrai."},
+  "IT-008": {"question":"À quel taux la plupart des plus-values sur instruments financiers sont-elles imposées pour les résidents italiens, en pourcentage ?","explanation":"Un impôt de substitution de 26 % ; certaines catégories relèvent de 20 %."},
+  "IT-009": {"question":"Dans quel délai un non-résident doit-il demander le remboursement de l'excédent de retenue à la source italienne en vertu d'une convention fiscale ?","explanation":"48 mois à compter de la retenue ; le taux conventionnel peut aussi être appliqué directement par l'agent payeur.","options":["48 mois","12 mois","6 mois","10 ans"]},
+  "IT-010": {"question":"Lesquelles de ces entreprises étaient membres du FTSE MIB en octobre 2026 ? Sélectionnez toutes les bonnes réponses.","explanation":"TotalEnergies est française et figure dans le CAC 40.","options":["Ferrari","Enel","UniCredit","TotalEnergies"]},
+  "IT-011": {"question":"Quelle autorité régule la bourse italienne ?","explanation":"La CONSOB : Commissione Nazionale per le Società e la Borsa.","options":["CONSOB","AMF","CNMV","FMA"]},
+  "IT-012": {"question":"Vrai ou faux : l'Italie passe au règlement T+1 le 11 octobre 2027, avec le reste de l'UE.","explanation":"Vrai."}
+}

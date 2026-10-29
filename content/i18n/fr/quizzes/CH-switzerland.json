@@ -1,0 +1,15 @@
+{
+  "CH-001": {"question":"Combien d'entreprises compte le SMI ?","explanation":"Les 20 actions suisses les plus grandes et les plus liquides."},
+  "CH-002": {"question":"À quel niveau le SMI a-t-il été normalisé le 30 juin 1988 ?","explanation":"1 500 points.","options":["1 500 points","1 000 points","100 points","10 000 points"]},
+  "CH-003": {"question":"À quel poids maximal les composantes du SMI sont-elles plafonnées chaque trimestre, en pourcentage ?","explanation":"18 %, ce qui rend le SMI conforme aux règles OPCVM de l'UE."},
+  "CH-004": {"question":"Quelle autorité surveille le marché financier suisse ?","explanation":"La FINMA est l'autorité indépendante de surveillance des marchés financiers en Suisse.","options":["La FINMA","La BaFin","La FCA","La FMA"]},
+  "CH-005": {"question":"Jusqu'à quel montant les dépôts bancaires sont-ils protégés par client en Suisse ?","explanation":"esisuisse protège les dépôts jusqu'à 100 000 CHF par client et par banque.","options":["100 000 CHF","20 000 CHF","500 000 CHF","Aucune protection"]},
+  "CH-006": {"question":"Quel est le taux de l'impôt anticipé suisse sur les dividendes, en pourcentage ?","explanation":"35 % (Verrechnungssteuer) ; les résidents le récupèrent en déclarant les revenus."},
+  "CH-007": {"question":"Vrai ou faux : en Suisse, les gains tirés de la vente de titres détenus dans le patrimoine privé sont exonérés aux niveaux fédéral et cantonal.","explanation":"Vrai, selon l'Administration fédérale des contributions."},
+  "CH-008": {"question":"Quel droit de timbre de négociation s'applique lorsqu'un négociant en valeurs mobilières suisse intervient dans l'achat de titres étrangers ?","explanation":"0,15 % pour les titres suisses et 0,3 % pour les titres étrangers.","options":["0,3 %","0,15 %","0,5 %","Aucun"]},
+  "CH-009": {"question":"À quelle date les bourses de Bâle, Genève et Zurich ont-elles fusionné pour former la Bourse suisse SWX ?","explanation":"Le 17 mai 1995 ; la négociation entièrement électronique a suivi entre décembre 1995 et août 1996.","options":["17 mai 1995","1er juillet 1988","8 décembre 1995","1er janvier 2000"]},
+  "CH-010": {"question":"Vrai ou faux : la bourse suisse a été la première au monde à faire passer entièrement la négociation, le règlement et la conservation à l'électronique.","explanation":"Vrai, entre le 8 décembre 1995 et le 16 août 1996, selon SIX."},
+  "CH-011": {"question":"Quelles entreprises sont entrées dans le SMI en septembre 2026 ? Sélectionnez toutes les bonnes réponses.","explanation":"Galderma et Sandoz sont entrées ; Swisscom et Kuehne+Nagel sont sorties.","options":["Galderma","Sandoz","Swisscom","Kuehne+Nagel"]},
+  "CH-012": {"question":"Quand la Suisse passe-t-elle au règlement T+1 ?","explanation":"SIX coordonne la transition le 11 octobre 2027.","options":["Le 11 octobre 2027, avec l'UE et le Royaume-Uni","Elle utilise déjà T+0","En 2030","Jamais ; elle garde T+3"]},
+  "CH-013": {"question":"Jusqu'à quelle heure les actions peuvent-elles se négocier au cours de clôture sur SIX après l'enchère de clôture ?","explanation":"La négociation au cours de clôture se poursuit jusqu'à 17:40."}
+}

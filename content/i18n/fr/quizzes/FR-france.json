@@ -1,0 +1,14 @@
+{
+  "FR-001": {"question":"Combien d'entreprises compte le CAC 40 ?","explanation":"Les 40 actions les plus grandes et les plus échangées d'Euronext Paris."},
+  "FR-002": {"question":"Quelles trois bourses se sont unies pour former Euronext en 2000 ?","explanation":"Euronext est née en 2000 du regroupement d'Amsterdam, de Bruxelles et de Paris.","options":["Amsterdam, Bruxelles et Paris","Paris, Francfort et Milan","Londres, Paris et Madrid","Paris, Lisbonne et Oslo"]},
+  "FR-003": {"question":"Quelle était la valeur de base du CAC 40 au 31 décembre 1987 ?","explanation":"1 000 points ; l'indice a été lancé le 15 juin 1988.","options":["1 000 points","1 500 points","100 points","500 points"]},
+  "FR-004": {"question":"Quelle autorité régule les marchés financiers français ?","explanation":"L'AMF est une autorité publique indépendante.","options":["Autorité des marchés financiers (AMF)","BaFin","FCA","CONSOB"]},
+  "FR-005": {"question":"Jusqu'à quel montant les dépôts sont-ils garantis par client et par banque en France, en euros ?","explanation":"100 000 € (FGDR)."},
+  "FR-006": {"question":"Jusqu'à quel montant la garantie des titres française couvre-t-elle les clients d'une entreprise d'investissement défaillante, en euros ?","explanation":"70 000 € par client et par établissement."},
+  "FR-007": {"question":"Quel est le prélèvement forfaitaire total sur les revenus de valeurs mobilières pour les résidents français depuis le 1er janvier 2026, en pourcentage ?","explanation":"31,4 % : 12,8 % d'impôt sur le revenu et 18,6 % de prélèvements sociaux."},
+  "FR-008": {"question":"Quel est le taux de la retenue à la source française sur les dividendes versés aux particuliers résidant à l'étranger (avant réductions conventionnelles), en pourcentage ?","explanation":"12,8 %, le taux en vigueur au 1er janvier 2026."},
+  "FR-009": {"question":"Quel est le taux de la taxe française sur les transactions financières à l'achat d'actions de grandes sociétés françaises depuis le 1er avril 2025 ?","explanation":"Relevé de 0,3 % à 0,4 % par la loi de finances pour 2025."},
+  "FR-010": {"question":"Vrai ou faux : la France passe au règlement T+1 le 11 octobre 2027, avec le reste de l'UE.","explanation":"Vrai ; d'ici là, les transactions se règlent à T+2."},
+  "FR-011": {"question":"Quelles entreprises figuraient parmi les dix plus grands membres du CAC 40 fin septembre 2026 ? Sélectionnez toutes les bonnes réponses.","explanation":"Nestlé est suisse et cotée à Zurich.","options":["TotalEnergies","LVMH","Schneider Electric","Nestlé"]},
+  "FR-012": {"question":"Quel groupe gère le dépositaire central de titres des actions françaises ?","explanation":"Euroclear France est l'un des dépositaires ESES.","options":["Euroclear (Euroclear France)","Clearstream","DTCC","SIX SIS"]}
+}
