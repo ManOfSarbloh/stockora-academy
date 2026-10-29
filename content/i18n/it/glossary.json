@@ -9,7 +9,7 @@
   "definition": "Una persona o un'organizzazione che possiede azioni di una società. Gli azionisti ordinari di solito possono votare in assemblea e possono ricevere dividendi."
  },
  "equity": {
-  "term": "Capitale proprio / azionario",
+  "term": "Capitale proprio (capitale azionario)",
   "definition": "La proprietà di una società. Negli investimenti, «equities» è il termine inglese formale per le azioni. In bilancio, il patrimonio netto è ciò che spetta ai proprietari: attività meno passività."
  },
  "dividend": {
@@ -478,7 +478,7 @@
   "definition": "Il sistema informatico della Borsa che abbina gli ordini di acquisto e vendita secondo le sue regole."
  },
  "liquidity": {
-  "term": "Liquidità",
+  "term": "Liquidità di mercato",
   "definition": "Con quanta rapidità e facilità un titolo può essere comprato o venduto senza muoverne molto il prezzo."
  },
  "price-discovery": {
@@ -514,11 +514,11 @@
   "definition": "Un'impresa di investimento dell'UE che negozia in conto proprio contro gli ordini dei clienti, fuori da una sede di negoziazione, in modo frequente e sostanziale."
  },
  "clearing": {
-  "term": "Compensazione (clearing)",
+  "term": "Compensazione e garanzia (clearing)",
   "definition": "Tutto ciò che sta tra un'operazione e il suo regolamento finale: confermare i dettagli, calcolare le obbligazioni e gestire il rischio che una parte sia inadempiente."
  },
  "settlement": {
-  "term": "Regolamento (settlement)",
+  "term": "Regolamento delle operazioni (settlement)",
   "definition": "Lo scambio finale di un'operazione: i titoli passano al compratore e il denaro al venditore, di solito presso un depositario centrale."
  },
  "ccp": {
@@ -1599,7 +1599,7 @@
   "definition": "Uno strumento finanziario il cui valore deriva da un'attività, un titolo o un indice sottostante, come un'opzione, un future o un CFD."
  },
  "option": {
-  "term": "Opzione (derivato)",
+  "term": "Opzione finanziaria (derivato)",
   "definition": "Un contratto che dà all'acquirente il diritto, ma non l'obbligo, di comprare (call) o vendere (put) un sottostante a un prezzo fisso entro o alla fine di un periodo stabilito, in cambio di un premio."
  },
  "strike-price": {
@@ -1979,7 +1979,7 @@
   "definition": "Gli interessi pagati da un'obbligazione, espressi in percentuale del valore nominale. Una cedola del 3% su un'obbligazione da 1.000 € paga 30 € all'anno."
  },
  "maturity": {
-  "term": "Scadenza",
+  "term": "Scadenza di un'obbligazione",
   "definition": "La data in cui un'obbligazione termina e l'emittente rimborsa il valore nominale. Le obbligazioni con scadenze più lunghe reagiscono più fortemente alle variazioni dei tassi."
  },
  "face-value": {
