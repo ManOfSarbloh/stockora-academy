@@ -1,0 +1,100 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Singapour",
+  "summary": "Singapore Exchange (SGX) est née le 1er décembre 1999 de la fusion de la bourse des actions, de la bourse des contrats à terme et d'une société de compensation. C'est un marché petit mais très international : environ 40 % de ses sociétés cotées viennent de l'extérieur de Singapour. Le Straits Times Index suit ses entreprises les plus grandes et les plus liquides. Singapour n'impose pas les dividendes ni, en général, les gains tirés de placements en actions.",
+  "currency": {
+    "name": "Dollar de Singapour",
+    "note": "Les actions de Singapour sont cotées en dollars de Singapour : un investisseur en euros supporte donc un risque de change, car les variations du dollar de Singapour face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Singapore Exchange (SGX)",
+      "city": "Singapour",
+      "founded": "1er décembre 1999 (fusion du Stock Exchange of Singapore, du SIMEX et de Securities Clearing and Computer Services)",
+      "hours": "Phase d'ouverture de 08:30 à 09:00, négociation de 09:00 à 12:00, pause de midi de 12:00 à 13:00, négociation de 13:00 à 17:00, phase de clôture jusqu'à 17:06 et négociation au cours de clôture jusqu'à 17:16.",
+      "note": "Singapour n'applique pas l'heure d'été."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Straits Times Index (STI)",
+      "description": "Suit les 30 entreprises les plus grandes et les plus liquides cotées sur SGX. Calculé pour la première fois en 1966 et relancé selon la méthode de FTSE le 10 janvier 2008 ; calculé par FTSE Russell avec SPH Media Trust (éditeur du Straits Times) et SGX, et revu chaque trimestre."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Monetary Authority of Singapore (MAS)",
+      "role": "La banque centrale de Singapour et son autorité intégrée de régulation financière, y compris pour les marchés de titres."
+    },
+    {
+      "name": "Singapore Exchange Regulation (SGX RegCo)",
+      "role": "La filiale de régulation de SGX, qui surveille les sociétés cotées et les règles de marché."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assurance des dépôts (SDIC)",
+      "text": "Les dépôts auprès des banques et sociétés financières membres sont assurés jusqu'à 100 000 dollars de Singapour par déposant et par membre."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours de marché) ; T+3 jusqu'en décembre 2018",
+    "csd": "The Central Depository (CDP), qui fait partie de SGX",
+    "note": "Les investisseurs peuvent détenir leurs actions directement sur leur propre compte CDP ou, de plus en plus, via le compte de conservation d'un courtier."
+  },
+  "rules": [
+    {
+      "title": "Des lots plus petits à partir d'octobre 2026",
+      "text": "Le lot standard est de 100 actions (depuis janvier 2015 ; 1 000 auparavant). À partir du 5 octobre 2026, il passe à 10 actions pour les instruments cotés plus de 10 dollars de Singapour et à 1 action au-delà de 100 dollars de Singapour, en commençant par 11 actions. SGX revoit ce dispositif chaque trimestre."
+    },
+    {
+      "title": "Des cotations internationales",
+      "text": "Environ 40 % des sociétés cotées sur SGX et plus de 80 % des obligations cotées viennent de l'extérieur de Singapour."
+    }
+  ],
+  "taxes": {
+    "glance": "Les dividendes des sociétés singapouriennes ne sont pas imposés (système à un seul niveau). Les gains tirés de l'achat et de la vente d'actions sont en général considérés comme des placements personnels et ne sont pas imposés. L'Autriche impose les deux comme d'habitude.",
+    "items": [
+      {
+        "title": "Dividendes",
+        "text": "Les dividendes versés par les sociétés résidentes de Singapour dans le cadre du système d'impôt sur les sociétés à un seul niveau ne sont en général pas imposables pour les actionnaires, car l'impôt payé par la société est définitif."
+      },
+      {
+        "title": "Plus-values",
+        "text": "Les gains ou pertes tirés de l'achat et de la vente d'actions ou d'autres instruments financiers sont en général considérés comme des placements personnels et ne sont pas imposés. Les gains d'une activité de négoce professionnelle peuvent être imposables."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "En l'absence de retenue à la source singapourienne sur les dividendes, il n'y a rien à imputer ; la KESt autrichienne s'applique comme d'habitude aux dividendes et aux plus-values (catégorie Q)."
+      }
+    ]
+  },
+  "access": [
+    "Certaines banques et certains courtiers autrichiens proposent la négociation sur SGX ; vérifiez les frais de conversion des euros en dollars de Singapour.",
+    "Indirectement, par des fonds ou des ETF sur le STI ou sur des indices asiatiques ou Pacifique des marchés développés (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Début de l'historique du Straits Times Index (premier calcul en 1966)."
+    },
+    {
+      "text": "Création de SGX le 1er décembre, par la fusion du Stock Exchange of Singapore, du Singapore International Monetary Exchange et d'une société de compensation."
+    },
+    {
+      "text": "Le STI est relancé le 10 janvier selon la méthode de FTSE."
+    },
+    {
+      "text": "Le lot standard passe de 1 000 à 100 actions (19 janvier)."
+    },
+    {
+      "text": "Le règlement passe de T+3 à T+2 pour les transactions à partir du 10 décembre."
+    },
+    {
+      "text": "Les lots passent à 10 actions ou 1 action pour les titres les plus chers à partir du 5 octobre."
+    }
+  ],
+  "funFacts": [
+    "Le principal indice de Singapour porte le nom d'un journal : il est calculé conjointement par FTSE Russell, SGX et SPH Media Trust, éditeur du Straits Times.",
+    "SGX se présente comme le marché international le plus liquide au monde pour les indices actions de référence de la Chine, de l'Inde, du Japon et de l'ASEAN (via ses contrats à terme)."
+  ]
+}

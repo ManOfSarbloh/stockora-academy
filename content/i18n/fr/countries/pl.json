@@ -1,0 +1,90 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Pologne",
+  "summary": "La tradition boursière de Varsovie remonte à 1817, mais l'actuelle Bourse de Varsovie (GPW) a été refondée en 1991, après la fin du communisme. En 2018, FTSE Russell a promu la Pologne au rang de marché développé. Le WIG20 suit 20 grandes entreprises, menées par les banques, l'énergie et la distribution. Les actions se négocient en zlotys polonais.",
+  "currency": {
+    "name": "Zloty polonais",
+    "note": "La Pologne fait partie de l'UE mais pas de la zone euro : un investisseur en euros supporte donc un risque de change, car les variations du zloty face à l'euro modifient la valeur des actions polonaises en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Bourse de Varsovie (Giełda Papierów Wartościowych, GPW)",
+      "city": "Varsovie",
+      "founded": "1991 (société fondée le 12 avril 1991) ; traditions boursières depuis 1817",
+      "hours": "Pour les actions négociées en continu : ordres pour l'enchère d'ouverture à partir de 08:30, cours d'ouverture à 09:00, négociation en continu de 09:00 à 16:50, enchère de clôture de 16:50 à 17:00, puis négociation au cours de clôture jusqu'à 17:05. Les actions moins liquides se négocient à la place lors d'enchères à prix unique.",
+      "note": "La GPW gère aussi NewConnect, un marché pour les petites entreprises, et le marché obligataire Catalyst."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "WIG20",
+      "constituents": "20 entreprises",
+      "description": "Calculé depuis le 16 avril 1994 à partir de 20 grandes entreprises parmi les plus liquides de la liste principale de la Bourse de Varsovie. Calculé par GPW Benchmark."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité polonaise de surveillance financière (KNF)",
+      "role": "Surveille le marché financier polonais, y compris les banques, les assureurs, les entreprises d'investissement et le marché des capitaux."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Fonds de garantie bancaire (BFG)",
+      "text": "Les dépôts admissibles dans les banques et les coopératives d'épargne et de crédit, en zlotys ou en devises, sont couverts jusqu'à 100 000 € par déposant et par établissement."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "KDPW (Krajowy Depozyt Papierów Wartościowych), le dépositaire central de titres",
+    "note": "En tant que membre de l'UE, la Pologne passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Résidents : impôt forfaitaire de 19 % sur les gains de cession d'actions (déclarés sur le formulaire PIT-38) et sur les dividendes. Les non-résidents peuvent appliquer, sous conditions, le taux d'une convention de double imposition.",
+    "items": [
+      {
+        "title": "Plus-values (résidents)",
+        "text": "Les revenus de la vente d'actions et d'autres titres sont imposés à 19 % et déclarés sur le formulaire PIT-38. Les pertes peuvent être imputées sur les revenus de même source des cinq années suivantes, dans certaines limites."
+      },
+      {
+        "title": "Dividendes",
+        "text": "Les dividendes et autres participations aux bénéfices sont soumis à un impôt forfaitaire de 19 %."
+      },
+      {
+        "title": "Non-résidents",
+        "text": "Les personnes soumises à une obligation fiscale limitée en Pologne peuvent appliquer le taux d'une convention de double imposition, aux conditions fixées par le droit polonais."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q)."
+      }
+    ]
+  },
+  "access": [
+    "Certaines banques et certains courtiers autrichiens proposent la négociation à la Bourse de Varsovie ; vérifiez la conversion en zlotys.",
+    "Indirectement, par des fonds ou des ETF sur des indices polonais ou des marchés émergents et d'Europe de l'Est (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Création de la Bourse marchande de Varsovie."
+    },
+    {
+      "text": "Après la chute du communisme, la société de la Bourse de Varsovie est fondée le 12 avril par le Trésor public."
+    },
+    {
+      "text": "L'indice WIG20 est calculé pour la première fois, le 16 avril."
+    },
+    {
+      "text": "FTSE Russell promeut la Pologne au rang de marché développé (avec effet au 24 septembre 2018)."
+    }
+  ],
+  "funFacts": [
+    "FTSE Russell a promu la Pologne par étapes : de Secondary Emerging à Advanced Emerging en 2008, puis à Developed en 2018."
+  ]
+}

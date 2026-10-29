@@ -1,0 +1,97 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Allemagne",
+  "summary": "La plus grande économie d'Europe possède une bourse ancienne à Francfort, dont les origines remontent à 1585, et le DAX de 40 grandes entreprises. L'essentiel de la négociation des actions allemandes passe par le système entièrement électronique Xetra, exploité par Deutsche Börse.",
+  "currency": {
+    "name": "Euro",
+    "note": "Même devise que l'Autriche, donc pas de risque de change pour un investisseur en euros. Mais de nombreuses entreprises du DAX réalisent une grande partie de leur chiffre d'affaires à l'étranger : les variations de change peuvent donc quand même influer sur leurs bénéfices."
+  },
+  "exchanges": [
+    {
+      "name": "Bourse de Francfort (Xetra et Börse Frankfurt), exploitée par Deutsche Börse",
+      "city": "Francfort-sur-le-Main",
+      "founded": "1585 (premiers cours de change uniformes fixés le 9 septembre 1585)",
+      "hours": "Négociation en continu sur Xetra de 09:00 à 17:30, avec enchères d'ouverture et de clôture. La plateforme Börse Frankfurt négocie généralement de 08:00 à 22:00.",
+      "note": "Xetra, lancé en 1997, est le système de négociation entièrement électronique de Deutsche Börse, où se fait l'essentiel des échanges sur les actions du DAX."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "DAX",
+      "constituents": "40 entreprises",
+      "description": "Les 40 plus grandes entreprises du marché réglementé de la Bourse de Francfort qui respectent des exigences minimales de qualité et de rentabilité, pondérées selon la capitalisation boursière du flottant et plafonnées à 15 %. Valeur de base de 1 000 au 30 décembre 1987. Calculé par STOXX (groupe Deutsche Börse)."
+    },
+    {
+      "name": "MDAX et SDAX",
+      "constituents": "50 et 70 entreprises",
+      "description": "Le MDAX regroupe les 50 entreprises qui suivent le DAX en valeur de marché ; le SDAX les 70 qui suivent le MDAX. Avec le DAX, ils couvrent les grandes, moyennes et petites capitalisations allemandes."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "BaFin (Autorité fédérale de surveillance financière)",
+      "role": "Surveille les banques, les assureurs et les marchés de titres, en mettant l'accent sur la transparence, l'intégrité des marchés et la protection des consommateurs ; c'est aussi l'autorité nationale de résolution allemande."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantie légale des dépôts",
+      "text": "Les avoirs sont protégés jusqu'à 100 000 € par client et par banque ; les montants supérieurs sont souvent couverts par les systèmes volontaires des associations bancaires."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Clearstream (groupe Deutsche Börse), qui comprend le dépositaire central de titres allemand",
+    "note": "Comme le reste de l'UE, l'Allemagne passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Résidents : impôt forfaitaire de 25 % sur les revenus de capitaux, plus une contribution de solidarité de 5,5 % de cet impôt (et l'impôt d'Église le cas échéant) ; abattement annuel de 1 000 €. Non-résidents : retenue de 25 % plus la contribution sur les dividendes allemands, partiellement remboursable en vertu des conventions fiscales.",
+    "items": [
+      {
+        "title": "Résidents : impôt forfaitaire",
+        "text": "Les revenus de capitaux, y compris les dividendes et les plus-values sur actions, sont imposés à 25 % (Abgeltungsteuer), plus une contribution de solidarité de 5,5 % de cet impôt, et l'impôt d'Église pour les membres d'une Église. Les banques le retiennent normalement."
+      },
+      {
+        "title": "Abattement de l'épargnant",
+        "text": "Les 1 000 premiers euros de revenus de capitaux par an sont exonérés (2 000 € pour les époux imposés conjointement)."
+      },
+      {
+        "title": "Dividendes versés aux investisseurs étrangers",
+        "text": "Les entreprises allemandes retiennent sur les dividendes l'impôt sur les revenus du capital de 25 % plus la contribution, quel que soit le lieu de résidence de l'actionnaire. Les non-résidents peuvent demander un allègement à l'Office fédéral central des impôts (BZSt) en vertu d'une convention de double imposition ; celui-ci prévient que les remboursements peuvent prendre plus de 20 mois."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne ne peut imputer la retenue à la source étrangère sur la KESt autrichienne que jusqu'à 15 % du dividende (catégorie Q). L'excédent doit être récupéré en Allemagne."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation sur Xetra et d'autres plateformes allemandes.",
+    "Les actions allemandes se négocient aussi sur d'autres plateformes européennes sous le même ISIN (catégories A et D).",
+    "Indirectement, par des fonds ou des ETF sur le DAX ou des indices plus larges (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Les marchands de la foire de Francfort fixent pour la première fois, le 9 septembre, des cours de change uniformes pour les monnaies ; on y voit la naissance de la Bourse de Francfort."
+    },
+    {
+      "text": "La première action négociée à Francfort est un certificat de participation de la Banque nationale autrichienne (Oesterreichische Nationalbank)."
+    },
+    {
+      "text": "Date de base du DAX : 1 000 points au 30 décembre 1987."
+    },
+    {
+      "text": "Deutsche Börse lance le système de négociation entièrement électronique Xetra."
+    }
+  ],
+  "funFacts": [
+    "La toute première action négociée à Francfort venait d'Autriche : un certificat de l'Oesterreichische Nationalbank, en 1820.",
+    "Les dix plus grands membres du DAX représentaient environ 65 % du poids de l'indice fin septembre 2026."
+  ]
+}

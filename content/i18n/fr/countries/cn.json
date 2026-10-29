@@ -1,0 +1,125 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Chine (continentale)",
+  "summary": "Les deux bourses de Chine continentale, à Shanghai et à Shenzhen, ont ouvert en décembre 1990. Ensemble, elles forment l'un des plus grands marchés boursiers du monde en valeur. Les actions locales (actions A) se négocient en renminbi selon des règles particulières : limites de variation quotidiennes, lots d'achat de 100 actions et interdiction de revendre le jour de l'achat. Les investisseurs privés étrangers y accèdent généralement via Stock Connect à Hong Kong.",
+  "currency": {
+    "name": "Yuan chinois (renminbi)",
+    "note": "Les actions A sont cotées en yuans : un investisseur en euros supporte donc un risque de change, car les variations du yuan face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Bourse de Shanghai (SSE)",
+      "city": "Shanghai",
+      "founded": "26 novembre 1990 (activité officielle à partir du 19 décembre 1990)",
+      "hours": "Enchère d'ouverture de 09:15 à 09:25, négociation en continu de 09:30 à 11:30 et de 13:00 à 14:57, enchère de clôture de 14:57 à 15:00. Pause de midi de 11:30 à 13:00.",
+      "note": "Siège du Main Board et, depuis 2019, du STAR Market destiné aux entreprises scientifiques et technologiques."
+    },
+    {
+      "name": "Bourse de Shenzhen (SZSE)",
+      "city": "Shenzhen",
+      "founded": "1er décembre 1990",
+      "hours": "Comme à Shanghai : enchère d'ouverture de 09:15 à 09:25, négociation en continu de 09:30 à 11:30 et de 13:00 à 14:57, enchère de clôture de 14:57 à 15:00.",
+      "note": "Gère le Main Board et le marché ChiNext (lancé en octobre 2009) pour les entreprises de croissance."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CSI 300",
+      "constituents": "300 titres",
+      "description": "Les 300 actions A les plus grandes et les plus liquides de Shanghai et de Shenzhen. Base de 1 000 points au 31 décembre 2004, publié depuis le 8 avril 2005 ; revu deux fois par an. Calculé par China Securities Index Co."
+    },
+    {
+      "name": "SSE Composite Index",
+      "description": "Toutes les actions et tous les certificats de dépôt éligibles cotés à Shanghai. Base de 100 points au 19 décembre 1990, premier jour de bourse ; publié depuis le 15 juillet 1991."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "China Securities Regulatory Commission (CSRC)",
+      "role": "Surveille les marchés de titres et de contrats à terme, y compris les deux bourses, qui sont des entités juridiques autoréglementées placées sous sa surveillance."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantie des dépôts (Banque populaire de Chine)",
+      "text": "Les dépôts bancaires sont protégés jusqu'à 500 000 yuans par déposant et par banque, selon le règlement sur la garantie des dépôts en vigueur depuis le 1er mai 2015."
+    },
+    {
+      "name": "Fonds d'indemnisation des investisseurs de Hong Kong (pour Stock Connect)",
+      "text": "Depuis le 1er janvier 2020, le fonds d'indemnisation des investisseurs de Hong Kong couvre aussi la négociation Northbound via Stock Connect, par exemple en cas de défaillance d'un courtier de Hong Kong."
+    }
+  ],
+  "settlement": {
+    "cycle": "Les actions sont réglées le jour de la transaction (T) ; les espèces à T ou T+1",
+    "csd": "China Securities Depository and Clearing Corporation (ChinaClear / CSDC)",
+    "note": "Les actions achetées un jour ne peuvent être revendues qu'à partir du jour de bourse suivant (pas de négociation intrajournalière), y compris pour les investisseurs Stock Connect."
+  },
+  "rules": [
+    {
+      "title": "Limites de variation quotidiennes",
+      "text": "Les actions A ne peuvent se négocier que dans une fourchette autour de la clôture précédente : ±10 % sur les Main Boards, ±20 % sur le STAR Market et ChiNext, et 5 % pour les actions faisant l'objet d'un avertissement de risque. Les ordres hors de la fourchette sont rejetés."
+    },
+    {
+      "title": "Achat par lots de 100, vente dès le lendemain",
+      "text": "Les ordres d'achat doivent porter sur des multiples de 100 actions (STAR Market : au moins 200 actions). Les actions achetées le jour T ne peuvent être revendues qu'à partir de T+1."
+    },
+    {
+      "title": "Limites à la détention étrangère",
+      "text": "Un investisseur étranger ne peut détenir au plus que 10 % des actions d'une société cotée, et l'ensemble des investisseurs étrangers au plus 30 % de ses actions A, tous canaux d'accès confondus."
+    },
+    {
+      "title": "Quota quotidien de Stock Connect",
+      "text": "Les achats Northbound via Stock Connect sont plafonnés par un quota quotidien d'achats nets de 52 milliards de yuans pour Shanghai et autant pour Shenzhen. Il est remis à zéro chaque jour."
+    }
+  ],
+  "taxes": {
+    "glance": "Via Stock Connect : impôt chinois de 10 % retenu sur les dividendes (remboursement conventionnel possible) ; pas d'impôt chinois sur les plus-values ; droit de timbre de 0,05 % à la charge du vendeur depuis le 28 août 2023.",
+    "items": [
+      {
+        "title": "Dividendes (Stock Connect)",
+        "text": "Les investisseurs de Hong Kong et étrangers paient un impôt de 10 % sur les dividendes en espèces et les actions gratuites, retenu par la société cotée. Les investisseurs d'un pays ayant une convention prévoyant un taux plus bas peuvent demander à l'administration fiscale chinoise le remboursement de la différence."
+      },
+      {
+        "title": "Plus-values (Stock Connect)",
+        "text": "Les investisseurs de Hong Kong et étrangers sont exonérés d'impôt sur les plus-values et de taxe professionnelle sur les actions A négociées via Stock Connect (avis du ministère des Finances, de l'administration fiscale de l'État et de la CSRC, 14 novembre 2014)."
+      },
+      {
+        "title": "Droit de timbre",
+        "text": "0,05 % de la valeur de chaque transaction sur actions A, payé par le seul vendeur. Il a été réduit de moitié, depuis 0,1 %, le 28 août 2023."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q) : l'impôt chinois de 10 % peut donc généralement être imputé en totalité."
+      }
+    ]
+  },
+  "access": [
+    "Stock Connect : les courtiers ayant accès à la bourse de Hong Kong peuvent transmettre des ordres sur les actions éligibles de Shanghai et de Shenzhen (négociation Northbound). Toutes les banques et tous les courtiers autrichiens ne le proposent pas.",
+    "De nombreuses grandes entreprises chinoises cotent aussi des actions H à Hong Kong (en dollars de Hong Kong), et certaines ont des certificats de dépôt aux États-Unis.",
+    "Indirectement, par des fonds ou des ETF sur des indices chinois, asiatiques ou des marchés émergents (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "La Bourse de Shanghai est créée le 26 novembre et commence ses activités le 19 décembre ; la Bourse de Shenzhen est créée le 1er décembre."
+    },
+    {
+      "text": "Shenzhen lance le marché ChiNext pour les entreprises de croissance (octobre)."
+    },
+    {
+      "text": "Shanghai Connect est lancé le 17 novembre, reliant Hong Kong et Shanghai."
+    },
+    {
+      "text": "Shenzhen Connect suit le 5 décembre."
+    },
+    {
+      "text": "Le STAR Market de Shanghai démarre ; les 25 premières entreprises commencent à se négocier le 22 juillet."
+    },
+    {
+      "text": "Le droit de timbre sur les transactions en actions A est réduit de moitié, à 0,05 %, à partir du 28 août."
+    }
+  ],
+  "funFacts": [
+    "Le premier siège de la Bourse de Shanghai était l'hôtel Astor House, dans l'ancienne rue financière près du Bund.",
+    "Toute la Chine continentale utilise un seul fuseau horaire (UTC+8) et n'a pas d'heure d'été : les deux bourses gardent donc les mêmes horaires toute l'année."
+  ]
+}

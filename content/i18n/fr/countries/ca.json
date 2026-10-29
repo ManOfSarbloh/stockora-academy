@@ -1,0 +1,101 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Canada",
+  "summary": "La principale bourse canadienne, la Bourse de Toronto (TSX), remonte à 1852 et fait partie du groupe TMX. Toronto a été pionnière de la négociation assistée par ordinateur (1977) et a lancé le premier ETF au monde (1990). Le Canada est passé au règlement le lendemain (T+1) le 27 mai 2024, un jour avant les États-Unis.",
+  "currency": {
+    "name": "Dollar canadien",
+    "note": "Les actions canadiennes sont cotées en dollars canadiens : un investisseur en euros supporte donc un risque de change, car les variations du dollar canadien face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Bourse de Toronto (TSX, groupe TMX)",
+      "city": "Toronto",
+      "founded": "1852 (association de courtiers formée le 24 octobre 1852) ; créée officiellement en 1861",
+      "hours": "Ouverture à 09:30 (heure de l'Est), négociation en continu jusqu'à 16:00 avec le mécanisme Market on Close à partir de 15:50, et une séance prolongée de 16:15 à 17:00 au seul dernier cours.",
+      "note": "La Bourse de croissance TSX (TSX Venture Exchange) est le marché de TMX pour les jeunes entreprises. Toronto applique les mêmes règles d'heure d'été que New York."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Indice composé S&P/TSX",
+      "description": "L'indice de référence large du Canada pour les actions cotées à Toronto. Lancé en 1977 sous le nom de TSE 300 Composite Index ; S&P Dow Jones Indices en a repris la gestion en 2002 et il a été renommé."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Commissions provinciales des valeurs mobilières (par exemple la Commission des valeurs mobilières de l'Ontario)",
+      "role": "La réglementation des valeurs mobilières est provinciale au Canada ; les commissions se coordonnent au sein des Autorités canadiennes en valeurs mobilières (ACVM)."
+    },
+    {
+      "name": "Organisme canadien de réglementation des investissements (OCRI)",
+      "role": "Organisme d'autoréglementation national des courtiers en placement et des courtiers en fonds communs de placement, ainsi que de la négociation sur les marchés canadiens."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Fonds canadien de protection des investisseurs (FCPI)",
+      "text": "Si une société membre de l'OCRI devient insolvable, le FCPI protège en général les biens d'un particulier jusqu'à 1 million de dollars canadiens pour l'ensemble de ses comptes généraux, plus 1 million chacun pour les comptes de retraite et les régimes d'épargne-études."
+    },
+    {
+      "name": "Société d'assurance-dépôts du Canada (SADC)",
+      "text": "Les dépôts admissibles auprès des institutions membres sont assurés jusqu'à 100 000 dollars canadiens par catégorie assurée, capital et intérêts compris."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (jour ouvrable suivant), depuis le 27 mai 2024",
+    "csd": "Services de dépôt et de compensation CDS (groupe TMX)",
+    "note": "Le Canada a basculé un jour avant les États-Unis (28 mai 2024) en raison d'un jour férié américain."
+  },
+  "rules": [
+    {
+      "title": "Une réglementation provinciale",
+      "text": "Le Canada n'a pas de régulateur national unique des valeurs mobilières : chaque province et territoire a le sien, coordonnés au sein des Autorités canadiennes en valeurs mobilières (ACVM). Les courtiers sont surveillés par l'organisme d'autoréglementation OCRI."
+    }
+  ],
+  "taxes": {
+    "glance": "Non-résidents : impôt canadien de 25 % sur les dividendes (partie XIII), réductible en vertu d'une convention fiscale, généralement en remettant au payeur le formulaire NR301. Les plus-values sur actions cotées ne sont en général pas imposées au Canada pour les non-résidents, sauf s'il s'agit de « biens canadiens imposables » (participations de 25 % ou plus dans des sociétés à forte composante immobilière).",
+    "items": [
+      {
+        "title": "Dividendes des non-résidents",
+        "text": "Les non-résidents paient un impôt de 25 % sur les dividendes et autres montants imposables en vertu de la partie XIII. Une convention fiscale peut réduire ce taux ; le payeur a généralement besoin du formulaire NR301 (déclaration d'admissibilité aux avantages d'une convention) pour l'appliquer."
+      },
+      {
+        "title": "Plus-values des non-résidents",
+        "text": "Les non-résidents sont imposés au Canada sur les gains tirés de « biens canadiens imposables ». Les actions cotées n'en font partie que si, au cours des 60 mois précédents, l'investisseur (avec les personnes liées) détenait 25 % ou plus d'une catégorie d'actions et si plus de 50 % de la valeur des actions provenait de biens immobiliers ou de ressources au Canada."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q) ; tout impôt canadien supérieur doit être réduit en vertu de la convention ou récupéré au Canada."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation à la Bourse de Toronto ; vérifiez les frais de conversion des euros en dollars canadiens.",
+    "Certaines grandes entreprises canadiennes sont aussi cotées aux États-Unis et peuvent y être achetées en dollars américains.",
+    "Indirectement, par des fonds ou des ETF sur des indices canadiens, nord-américains ou des marchés développés (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Des hommes d'affaires de Toronto forment le 24 octobre une « association de courtiers », cadre de la future Bourse de Toronto."
+    },
+    {
+      "text": "L'association crée officiellement la Bourse de Toronto ; la négociation se limite à des séances quotidiennes d'une demi-heure sur 18 titres."
+    },
+    {
+      "text": "Toronto lance le premier système de négociation assistée par ordinateur au monde (CATS) et l'indice TSE 300 Composite."
+    },
+    {
+      "text": "Création du premier ETF au monde, le Toronto 35 Index Participation Fund."
+    },
+    {
+      "text": "Toronto devient la première bourse d'Amérique du Nord à introduire la cotation en décimales, et la plus grande d'Amérique du Nord à fermer sa corbeille pour passer entièrement à l'électronique."
+    },
+    {
+      "text": "Le Canada passe au règlement T+1 le 27 mai."
+    }
+  ],
+  "funFacts": [
+    "À ses débuts, la Bourse de Toronto n'enregistrait que deux ou trois transactions par jour.",
+    "Au déclenchement de la Première Guerre mondiale, la Bourse de Toronto a fermé trois mois par crainte d'une panique financière."
+  ]
+}

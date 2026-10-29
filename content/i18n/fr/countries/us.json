@@ -1,0 +1,118 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "États-Unis",
+  "summary": "De loin le plus grand marché boursier du monde : les sociétés américaines cotées valaient près de 69 000 milliards de dollars fin 2025. Les actions se négocient surtout au NYSE et au Nasdaq. Le S&P 500 est l'indice de référence que suivent la plupart des investisseurs, et les transactions américaines se règlent déjà le jour ouvrable suivant (T+1).",
+  "currency": {
+    "name": "Dollar américain",
+    "note": "Pour un investisseur en euros, les actions américaines présentent un risque de change : un euro plus fort réduit la valeur en euros des positions en dollars, un euro plus faible l'augmente (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "New York Stock Exchange (NYSE)",
+      "city": "New York",
+      "founded": "1792 (accord de Buttonwood, signé par 24 agents de change le 17 mai)",
+      "hours": "Séance principale de 09:30 à 16:00, heure de New York, avec enchères d'ouverture et de clôture. NYSE Arca propose aussi des séances matinale (04:00–09:30) et tardive (16:00–20:00) ; d'autres plateformes et courtiers utilisent d'autres horaires étendus.",
+      "note": "Le Nasdaq publie les mêmes jours fériés et fermetures anticipées pour 2026."
+    },
+    {
+      "name": "Nasdaq",
+      "city": "New York",
+      "hours": "Séance normale de 09:30 à 16:00, heure de New York ; pré-ouverture de 04:00 à 09:30 et après-clôture de 16:00 à 20:00."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P 500",
+      "constituents": "500 entreprises",
+      "description": "500 grandes entreprises américaines, couvrant environ 80 % de la capitalisation boursière disponible. Calculé par S&P Dow Jones Indices."
+    },
+    {
+      "name": "Dow Jones Industrial Average (le Dow)",
+      "constituents": "30 entreprises",
+      "description": "Un indice pondéré par les prix de 30 grandes entreprises américaines : les actions au cours le plus élevé pèsent le plus (catégorie H)."
+    },
+    {
+      "name": "Nasdaq-100",
+      "constituents": "Une centaine d'entreprises",
+      "description": "De grandes entreprises cotées au Nasdaq, hors sociétés financières, si bien que la technologie et d'autres secteurs de croissance dominent."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "role": "Régulateur fédéral des marchés de titres, de l'information publiée par les sociétés cotées, des bourses et des courtiers."
+    },
+    {
+      "name": "FINRA",
+      "role": "Organisme d'autoréglementation des courtiers membres, qu'il surveille sous le contrôle de la SEC ; il gère aussi BrokerCheck, où l'on peut vérifier l'enregistrement d'un courtier."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "SIPC",
+      "text": "Si une société de courtage membre fait faillite, la SIPC protège les titres et les espèces des clients jusqu'à 500 000 dollars, dont 250 000 dollars pour les espèces. Elle ne couvre pas les pertes de marché."
+    },
+    {
+      "name": "Assurance des dépôts FDIC",
+      "text": "Les dépôts bancaires sont assurés à hauteur d'au moins 250 000 dollars dans chaque banque assurée par la FDIC."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (un jour ouvrable) depuis le 28 mai 2024",
+    "csd": "The Depository Trust Company (DTC), qui fait partie de DTCC",
+    "note": "La SEC a adopté le passage de T+2 à T+1 le 15 février 2023."
+  },
+  "rules": [
+    {
+      "title": "Coupe-circuits à l'échelle du marché",
+      "text": "La négociation sur toutes les bourses américaines peut être interrompue si le S&P 500 baisse de 7 % (niveau 1), 13 % (niveau 2) ou 20 % (niveau 3) en une journée (catégorie D)."
+    },
+    {
+      "title": "Horaires de négociation étendus",
+      "text": "De nombreuses plateformes et courtiers américains proposent la négociation avant 09:30 et après 16:00, heure de New York, avec une liquidité plus faible et des fourchettes plus larges (catégorie E)."
+    }
+  ],
+  "taxes": {
+    "glance": "Non-résidents : retenue américaine de 30 % sur les dividendes, réduite en vertu d'une convention fiscale. Résidents : plus-values à long terme (actifs détenus plus d'un an) imposées à 0 %, 15 % ou 20 % selon le revenu ; plus-values à court terme au barème ordinaire de l'impôt sur le revenu.",
+    "items": [
+      {
+        "title": "Dividendes versés aux investisseurs étrangers",
+        "text": "Les payeurs américains retiennent généralement 30 % sur les dividendes versés aux étrangers non résidents. Un taux réduit peut s'appliquer en vertu d'une convention fiscale entre le pays de l'investisseur et les États-Unis."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne ne peut imputer la retenue à la source étrangère que jusqu'à 15 % du dividende (catégorie Q). Demandez à votre banque comment elle applique le taux de la convention avec les États-Unis."
+      },
+      {
+        "title": "Plus-values (résidents américains)",
+        "text": "Les actifs détenus plus d'un an produisent des plus-values à long terme, imposées à 0 %, 15 % ou 20 % selon le revenu imposable ; les actifs détenus un an ou moins produisent des plus-values à court terme, imposées comme un revenu ordinaire."
+      }
+    ]
+  },
+  "access": [
+    "La plupart des banques et courtiers autrichiens proposent la négociation d'actions américaines, généralement avec une conversion en dollars.",
+    "Certaines actions américaines se négocient aussi en euros sur des plateformes européennes (catégorie D).",
+    "Indirectement, par des fonds ou des ETF sur le S&P 500 ou d'autres indices américains (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "24 agents de change signent l'accord de Buttonwood le 17 mai, fondation officielle du NYSE."
+    },
+    {
+      "text": "Le krach boursier ouvre l'ère de la Grande Dépression (catégorie K)."
+    },
+    {
+      "text": "Lundi noir, 19 octobre : la plus forte baisse en pourcentage sur une journée de l'histoire du Dow (catégorie K)."
+    },
+    {
+      "text": "Les États-Unis passent au règlement T+1 le 28 mai."
+    },
+    {
+      "text": "Alphabet est annoncée comme nouveau membre du Dow Jones Industrial Average (juin)."
+    }
+  ],
+  "funFacts": [
+    "Le NYSE trouve ses racines dans une panique financière : l'accord de Buttonwood de 1792 a été une réponse à la première panique financière de la jeune nation.",
+    "Les sociétés américaines cotées valaient environ 224 % du PIB américain fin 2025 (Banque mondiale/WFE)."
+  ]
+}

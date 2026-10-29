@@ -1,0 +1,126 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Inde",
+  "summary": "L'Inde compte deux bourses nationales à Mumbai : BSE, fondée en 1875 et plus ancienne bourse d'Asie, et la National Stock Exchange (NSE), qui a introduit la négociation sur écran en 1994. Le Nifty 50 et le Sensex sont les indices phares. L'Inde a achevé son passage au règlement le lendemain (T+1) en janvier 2023, plus d'un an avant les États-Unis. Pour les investisseurs privés étrangers, l'accès direct est limité : la plupart investissent via des fonds.",
+  "currency": {
+    "name": "Roupie indienne",
+    "note": "Les actions indiennes sont cotées en roupies : un investisseur en euros supporte donc un risque de change, car les variations de la roupie face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "National Stock Exchange of India (NSE)",
+      "city": "Mumbai",
+      "founded": "Début des activités en 1994, première bourse indienne de négociation sur écran",
+      "hours": "Séance de pré-ouverture de 09:00 à 09:15, négociation en continu de 09:15 à 15:30, appariement de l'enchère de clôture de 15:30 à 15:35, et une séance de clôture de 15:50 à 16:00.",
+      "note": "L'heure normale de l'Inde est UTC+5:30, avec un décalage d'une demi-heure, et l'Inde n'applique pas l'heure d'été."
+    },
+    {
+      "name": "BSE (anciennement Bombay Stock Exchange)",
+      "city": "Mumbai",
+      "founded": "1875",
+      "hours": "Enchère de pré-ouverture de 09:00 à 09:15, négociation en continu de 09:15 à 15:30.",
+      "note": "BSE se décrit comme la plus ancienne bourse d'Asie et la plus grande du monde par le nombre de sociétés cotées."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Nifty 50",
+      "constituents": "50 entreprises",
+      "description": "Un indice de grandes entreprises cotées à la NSE, pondéré selon la capitalisation boursière du flottant. Valeur de base de 1 000 au 3 novembre 1995, un an après le démarrage du marché des actions de la NSE. Il couvrait environ 54 % de la valeur de marché flottante des actions cotées à la NSE en mars 2026. Calculé par NSE Indices."
+    },
+    {
+      "name": "BSE Sensex",
+      "constituents": "30 entreprises",
+      "description": "Le premier indice boursier indien, lancé le 2 janvier 1986. Il mesure les 30 entreprises les plus grandes et les plus liquides cotées à BSE, dans les principaux secteurs. Valeur de base de 100 (date de base : 3 avril 1979)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Board of India (SEBI)",
+      "role": "Le régulateur indien des marchés de titres : créé en 1988, organisme légal depuis l'entrée en vigueur de la loi SEBI le 30 janvier 1992."
+    },
+    {
+      "name": "Reserve Bank of India (RBI)",
+      "role": "Banque centrale ; elle régule les banques et le change."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assurance des dépôts (DICGC)",
+      "text": "Les dépôts bancaires sont assurés jusqu'à 5 lakhs de roupies (500 000 roupies) par déposant et par banque, capital et intérêts compris. Montant inchangé depuis le 4 février 2020."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (jour ouvrable suivant) ; règlement le jour même (T+0) facultatif pour certaines actions",
+    "csd": "Deux dépositaires : NSDL (National Securities Depository) et CDSL (Central Depository Services)",
+    "note": "L'Inde est passée de T+2 à T+1 par étapes à partir de 2021, jusqu'à janvier 2023. Un cycle de règlement facultatif T+0 a démarré le 28 mars 2024 pour un nombre limité d'actions."
+  },
+  "rules": [
+    {
+      "title": "Taxe sur les transactions de titres (STT)",
+      "text": "Les achats et les ventes d'actions avec livraison sur une bourse indienne paient chacun 0,1 % de STT (l'acheteur à l'achat, le vendeur à la vente). Les opérations intrajournalières paient un taux plus bas à la vente."
+    },
+    {
+      "title": "Actions détenues sur des comptes électroniques (demat)",
+      "text": "Les investisseurs détiennent les actions indiennes sur un compte demat auprès d'un participant dépositaire de NSDL ou de CDSL."
+    },
+    {
+      "title": "Un accès direct limité pour les étrangers",
+      "text": "Les investisseurs étrangers investissent généralement dans les actions indiennes cotées selon les règles de la SEBI sur les investisseurs de portefeuille étrangers (FPI), qui exigent un enregistrement auprès d'un participant dépositaire désigné. Les investisseurs privés étrangers passent donc généralement par des fonds ou des certificats de dépôt."
+    }
+  ],
+  "taxes": {
+    "glance": "Actions cotées (STT payée) : plus-values à long terme (détention de plus de 12 mois) imposées à 12,5 % au-delà de 1,25 lakh de roupies ; plus-values à court terme à 20 % (taux en vigueur depuis le 23 juillet 2024). Dividendes versés aux non-résidents : 20 % d'impôt prélevé à la source, réductible par convention. STT de 0,1 % sur les transactions avec livraison. Une nouvelle loi de l'impôt sur le revenu de 2025 s'applique depuis le 1er avril 2026.",
+    "items": [
+      {
+        "title": "Plus-values à long terme",
+        "text": "Les gains sur actions cotées détenues plus de 12 mois, avec STT payée, sont imposés à 12,5 % sur la part qui dépasse 1,25 lakh de roupies par an (10 % au-delà de 1 lakh pour les ventes antérieures au 23 juillet 2024)."
+      },
+      {
+        "title": "Plus-values à court terme",
+        "text": "Les gains sur actions cotées détenues 12 mois ou moins, vendues en bourse avec STT payée, sont imposés à 20 % (15 % pour les ventes antérieures au 23 juillet 2024)."
+      },
+      {
+        "title": "Dividendes des non-résidents",
+        "text": "Un impôt de 20 % est prélevé à la source sur les dividendes versés aux non-résidents. Une convention fiscale peut prévoir un taux plus bas."
+      },
+      {
+        "title": "Nouvelle loi",
+        "text": "L'Income-tax Act de 2025 remplace la loi de 1961 à partir du 1er avril 2026, avec de nouveaux numéros d'articles. Vérifiez les taux en vigueur auprès de l'administration fiscale indienne."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q) ; un impôt indien plus élevé doit être réduit en vertu de la convention ou récupéré en Inde."
+      }
+    ]
+  },
+  "access": [
+    "Indirectement, par des fonds ou des ETF sur des indices indiens comme le Nifty 50, ou sur des indices des marchés émergents (catégorie H). C'est la voie habituelle pour les investisseurs privés en Autriche.",
+    "Certaines grandes entreprises indiennes ont des certificats de dépôt cotés aux États-Unis ; vérifiez lesquels sont disponibles auprès de votre banque ou de votre courtier.",
+    "La négociation directe à la NSE ou à BSE exige un enregistrement selon les règles de la SEBI pour les investisseurs étrangers et n'est que rarement proposée aux investisseurs privés étrangers."
+  ],
+  "history": [
+    {
+      "text": "Fondation de BSE à Bombay (Mumbai)."
+    },
+    {
+      "text": "Le Sensex, premier indice boursier indien, est lancé le 2 janvier."
+    },
+    {
+      "text": "La loi SEBI entre en vigueur le 30 janvier et fait de la SEBI un régulateur légal."
+    },
+    {
+      "text": "La NSE démarre ses activités, première bourse indienne de négociation sur écran."
+    },
+    {
+      "text": "L'Inde achève son passage au règlement T+1 en janvier."
+    },
+    {
+      "text": "Le règlement facultatif le jour même (T+0) démarre le 28 mars pour un nombre limité d'actions."
+    }
+  ],
+  "funFacts": [
+    "Chaque année, la NSE organise pour Diwali, la fête des lumières, une séance de négociation spéciale appelée « Muhurat » ; en 2026, elle a lieu le dimanche 8 novembre.",
+    "L'horloge indienne a 5 heures et demie d'avance sur l'UTC : Vienne a donc 3 heures et demie de retard sur Mumbai en été et 4 heures et demie en hiver."
+  ]
+}

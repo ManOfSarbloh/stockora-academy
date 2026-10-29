@@ -1,0 +1,88 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Italie",
+  "summary": "La bourse de Milan a été créée par un décret napoléonien en 1808 ; c'est aujourd'hui Euronext Milan, gérée par Borsa Italiana au sein du groupe Euronext. Le FTSE MIB suit 40 grandes entreprises italiennes, où dominent les banques, l'énergie et les marques de luxe. L'achat d'actions italiennes supporte une taxe sur les transactions financières.",
+  "currency": {
+    "name": "Euro",
+    "note": "Même devise que l'Autriche, donc pas de risque de change pour un investisseur en euros."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Milan (Borsa Italiana)",
+      "city": "Milan",
+      "founded": "1808 (Bourse des marchandises de Milan, créée par décret du 16 janvier 1808)",
+      "hours": "Enchère d'ouverture de 07:30 à 09:00, négociation en continu de 09:00 à 17:30, enchère de clôture de 17:30 à 17:35, puis négociation au cours de clôture jusqu'à 17:40.",
+      "note": "Milan est fermée certains jours où les autres marchés d'Euronext sont ouverts, par exemple les 24 et 31 décembre 2026."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE MIB",
+      "constituents": "40 entreprises",
+      "description": "Les 40 principales actions d'Euronext Milan et d'Euronext MIV Milan, sélectionnées selon la liquidité et la capitalisation boursière. Calculé par FTSE Russell avec Borsa Italiana."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CONSOB (Commissione Nazionale per le Società e la Borsa)",
+      "role": "La commission nationale italienne des sociétés et de la bourse : le régulateur du marché des titres."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FITD (Fonds interbancaire de protection des dépôts)",
+      "text": "Les dépôts auprès des banques membres sont garantis jusqu'à 100 000 € par déposant et par banque. Les banques coopératives et rurales relèvent d'un fonds de garantie distinct."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Euronext Securities Milan (le dépositaire central d'Euronext à Milan)",
+    "note": "Comme le reste de l'UE, l'Italie passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Taxe sur les transactions financières",
+      "text": "Les transferts d'actions de sociétés italiennes sont taxés à 0,4 % de leur valeur depuis le 1er janvier 2026 (0,2 % jusqu'à fin 2025). Le taux est réduit de moitié pour les transactions sur les marchés réglementés ou les systèmes multilatéraux de négociation : un achat en bourse coûte donc 0,2 %. Les actions des sociétés dont la valeur de marché moyenne (en novembre de l'année précédente) est inférieure à 500 millions d'euros en sont exonérées."
+    },
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Résidents : impôt de substitution de 26 % sur la plupart des plus-values sur instruments financiers. Non-résidents : impôt italien retenu sur les dividendes ; le taux conventionnel peut être appliqué directement par le payeur, ou un remboursement demandé dans les 48 mois. Taxe sur les transactions de 0,2 % sur les achats en bourse d'actions de grandes sociétés italiennes (2026).",
+    "items": [
+      {
+        "title": "Plus-values (résidents)",
+        "text": "Les plus-values sur instruments financiers sont en général soumises à un impôt de substitution de 26 % ; certaines catégories relèvent d'un taux de 20 %."
+      },
+      {
+        "title": "Dividendes des investisseurs étrangers",
+        "text": "L'Italie retient un impôt sur les dividendes versés aux non-résidents. Un non-résident peut demander à l'agent payeur italien d'appliquer directement le taux de la convention fiscale, ou réclamer le remboursement de l'excédent à l'Agenzia delle Entrate (Centro Operativo di Pescara) dans un délai de 48 mois."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q) ; toute retenue italienne supérieure doit être récupérée en Italie."
+      },
+      {
+        "title": "Taxe sur les transactions",
+        "text": "Voir les règles de marché ci-dessus : 0,4 %, ou 0,2 % pour les transactions sur les marchés réglementés, depuis 2026."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation sur Euronext Milan en euros ; vérifiez si la taxe italienne sur les transactions est ajoutée.",
+    "Indirectement, par des fonds ou des ETF sur le FTSE MIB ou des indices européens plus larges (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Un décret du 16 janvier du vice-roi Eugène de Beauharnais crée la Bourse des marchandises de Milan ; un second décret du 6 février fixe ses premières règles."
+    },
+    {
+      "text": "L'Italie double sa taxe sur les transactions financières sur actions, à 0,4 % (0,2 % sur les marchés réglementés), à partir du 1er janvier."
+    }
+  ],
+  "funFacts": [
+    "Selon Borsa Italiana, les autorités françaises voulaient faire de la bourse de Milan en partie un marché organisé pour vendre la dette publique, en concurrence avec Londres."
+  ]
+}

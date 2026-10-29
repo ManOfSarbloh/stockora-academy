@@ -1,0 +1,92 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Espagne",
+  "summary": "La principale bourse espagnole, la Bolsa de Madrid, date de 1831. Son exploitant BME appartient au groupe suisse SIX depuis 2020. L'IBEX 35 est dominé par les banques, les services aux collectivités et le groupe de mode Inditex, et les achats de grandes actions espagnoles supportent une taxe sur les transactions de 0,2 %.",
+  "currency": {
+    "name": "Euro",
+    "note": "Même devise que l'Autriche, donc pas de risque de change pour un investisseur en euros."
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Madrid (BME Exchange)",
+      "city": "Madrid",
+      "founded": "1831",
+      "hours": "Sur le système d'interconnexion électronique (SIBE) : enchère d'ouverture de 08:30 à 09:00, négociation en continu de 09:00 à 17:30, enchère de clôture de 17:30 à 17:35, négociation au dernier cours de 17:35 à 17:45.",
+      "note": "BME exploite les bourses et marchés financiers espagnols et fait partie du groupe SIX depuis 2020."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "IBEX 35",
+      "constituents": "35 entreprises",
+      "description": "Conçu pour représenter les plus grands titres négociés sur le marché boursier espagnol, pondérés selon la capitalisation boursière du flottant. Niveau de base de 3 000 au 29 décembre 1989. Calculé par BME."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CNMV (Comisión Nacional del Mercado de Valores)",
+      "role": "La commission nationale espagnole des marchés de valeurs : elle surveille les émetteurs, les entreprises d'investissement, les fonds et les infrastructures de marché, et publie des mises en garde contre les sociétés non agréées."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGD (Fonds de garantie des dépôts des établissements de crédit)",
+      "text": "Les dépôts sont garantis jusqu'à 100 000 € par titulaire et par établissement."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Iberclear, le dépositaire central de titres espagnol (groupe BME)",
+    "note": "Comme le reste de l'UE, l'Espagne passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Taxe sur les transactions financières",
+      "text": "Les achats d'actions de sociétés espagnoles dont la capitalisation boursière dépasse 1 milliard d'euros (mesurée au 1er décembre de l'année précédente) sont taxés à 0,2 %."
+    },
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Résidents : revenus de l'épargne (dividendes, plus-values) imposés de 19 % à 30 % (parts nationale et régionale de 9,5 % à 15 % chacune, barème 2025). Non-résidents sans établissement stable : 19 % sur les dividendes espagnols (ou le taux conventionnel). Taxe sur les transactions de 0,2 % sur les grandes actions espagnoles.",
+    "items": [
+      {
+        "title": "Résidents : revenus de l'épargne",
+        "text": "Les dividendes et les plus-values forment la base imposable de l'épargne, imposée de manière progressive. En 2025, la part nationale va de 9,5 % à 15 % et la part régionale aussi de 9,5 % à 15 %, soit 19 % à 30 % au total."
+      },
+      {
+        "title": "Dividendes des non-résidents",
+        "text": "Les non-résidents sans établissement stable en Espagne paient 19 % sur les dividendes espagnols ; une convention fiscale peut fixer une limite plus basse."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q) ; toute retenue espagnole supérieure doit être récupérée en Espagne."
+      },
+      {
+        "title": "Taxe sur les transactions",
+        "text": "0,2 % sur les achats d'actions de grandes sociétés espagnoles (voir les règles de marché ci-dessus)."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation à la bourse espagnole en euros ; vérifiez si la taxe sur les transactions de 0,2 % est ajoutée.",
+    "Indirectement, par des fonds ou des ETF sur l'IBEX 35 ou des indices européens plus larges (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Création de la Bourse de Madrid."
+    },
+    {
+      "text": "Date de base de l'IBEX 35 : 3 000 points au 29 décembre."
+    },
+    {
+      "text": "Adoption de la loi espagnole sur la taxe sur les transactions financières (Ley 5/2020), et rachat de BME par le groupe SIX (juin)."
+    }
+  ],
+  "funFacts": [
+    "Les quatre plus grands membres de l'IBEX 35 (Santander, Iberdrola, BBVA et Inditex) représentaient plus de la moitié de l'indice en décembre 2025.",
+    "Depuis 2020, les bourses espagnole et suisse appartiennent au même groupe, SIX."
+  ]
+}

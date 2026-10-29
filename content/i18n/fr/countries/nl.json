@@ -1,0 +1,94 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Pays-Bas",
+  "summary": "Amsterdam revendique la plus ancienne bourse du monde : la Compagnie néerlandaise des Indes orientales (VOC) y a été la première société, en 1602. Aujourd'hui, l'AEX d'Euronext Amsterdam suit 30 grandes entreprises, menées par quelques noms mondiaux des semi-conducteurs, de l'énergie, des biens de consommation et de la finance.",
+  "currency": {
+    "name": "Euro",
+    "note": "Même devise que l'Autriche, donc pas de risque de change pour un investisseur en euros. Plusieurs entreprises de l'AEX publient leurs comptes dans d'autres devises ou réalisent l'essentiel de leur chiffre d'affaires à l'étranger."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Amsterdam",
+      "city": "Amsterdam",
+      "founded": "1602 (Euronext la présente comme la plus ancienne bourse du monde) ; intégrée à Euronext depuis 2000",
+      "hours": "Pour les actions de l'AEX : enchère d'ouverture à 09:00, négociation en continu de 09:00 à 17:30, enchère de clôture jusqu'à 17:35, puis négociation au cours de clôture jusqu'à 17:40. Les actions moins liquides se négocient à la place lors de deux enchères quotidiennes (11:30 et 16:30).",
+      "note": "Amsterdam suit le calendrier des jours fériés d'Euronext ; en 2026, elle est ouverte le jour de l'Ascension et le lundi de Pentecôte."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "AEX",
+      "constituents": "30 entreprises",
+      "description": "Les 30 actions les plus grandes et les plus échangées d'Euronext Amsterdam, pondérées selon la capitalisation boursière du flottant. Historique depuis le 1er mars 1983. Les dix plus grands membres représentaient environ 77 % de l'indice fin septembre 2026."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité néerlandaise des marchés financiers (AFM)",
+      "role": "Surveille le comportement de l'ensemble du secteur des marchés financiers depuis le 1er mars 2002, y compris les marchés de capitaux, les entreprises d'investissement et l'information financière."
+    },
+    {
+      "name": "De Nederlandsche Bank (DNB)",
+      "role": "Banque centrale et autorité de surveillance prudentielle ; elle gère la garantie des dépôts néerlandaise."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantie des dépôts néerlandaise",
+      "text": "L'argent placé sur des comptes bancaires est automatiquement protégé jusqu'à 100 000 € par personne et par banque. Les produits d'investissement comme les actions et les obligations ne sont pas couverts."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Euroclear Nederland (l'un des dépositaires ESES d'Euroclear)",
+    "note": "Comme le reste de l'UE, les Pays-Bas passent au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    },
+    {
+      "title": "Une forte concentration",
+      "text": "L'AEX est dominé par une poignée d'entreprises : fin septembre 2026, le plus grand membre pesait à lui seul environ 17 %."
+    }
+  ],
+  "taxes": {
+    "glance": "Impôt néerlandais sur les dividendes de 15 % retenu par la société qui paie ; les investisseurs étrangers peuvent demander un allègement en vertu d'une convention fiscale. Les résidents néerlandais sont imposés selon leur propre système d'impôt sur le revenu (non traité ici).",
+    "items": [
+      {
+        "title": "Impôt sur les dividendes",
+        "text": "Le taux général de l'impôt néerlandais sur les dividendes est de 15 %, retenu par la société qui verse le dividende."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q), ce qui correspond au taux néerlandais."
+      },
+      {
+        "title": "Résidents",
+        "text": "Les résidents néerlandais sont imposés sur leur épargne et leurs placements selon le système néerlandais d'impôt sur le revenu, complexe et en cours de réforme ; consultez l'administration fiscale et douanière néerlandaise."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation sur Euronext Amsterdam en euros.",
+    "Indirectement, par des fonds ou des ETF sur l'AEX ou des indices européens plus larges (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "La Compagnie néerlandaise des Indes orientales (VOC) est la première société de la bourse d'Amsterdam."
+    },
+    {
+      "text": "Début de l'historique de l'indice AEX (1er mars)."
+    },
+    {
+      "text": "Les bourses d'Amsterdam, de Bruxelles et de Paris s'unissent pour former Euronext."
+    },
+    {
+      "text": "La bourse d'Amsterdam fête son 417e anniversaire."
+    }
+  ],
+  "funFacts": [
+    "Fin septembre 2026, les dix plus grands membres de l'AEX représentaient environ 77 % de l'indice, plus que dans le DAX (environ 65 %) ou le CAC 40 (environ 62 %)."
+  ]
+}

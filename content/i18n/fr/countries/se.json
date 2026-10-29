@@ -1,0 +1,87 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Suède",
+  "summary": "La bourse de Stockholm est active depuis le 4 février 1863 ; c'est aujourd'hui Nasdaq Stockholm, qui fait partie des marchés nordiques de Nasdaq. L'OMXS30 regroupe 30 grandes entreprises suédoises, dont beaucoup de groupes industriels, et de nombreuses sociétés suédoises cotent des catégories d'actions A et B distinctes. Les actions se négocient en couronnes suédoises.",
+  "currency": {
+    "name": "Couronne suédoise",
+    "note": "Pour un investisseur en euros, les actions suédoises présentent un risque de change : les variations de la couronne face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Nasdaq Stockholm",
+      "city": "Stockholm",
+      "founded": "1863 (premier jour de bourse le 4 février 1863)",
+      "hours": "Actions du marché principal de 09:00 à 17:30. Pendant les cinq dernières minutes, il n'y a pas d'appariement des ordres ; le cours de clôture est fixé par une enchère de clôture qui se termine à un moment aléatoire dans les 30 dernières secondes.",
+      "note": "Nasdaq gère aussi les bourses de Copenhague, d'Helsinki et d'Islande, avec des horaires différents."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "OMX Stockholm 30 (OMXS30)",
+      "constituents": "30 entreprises",
+      "description": "Les 30 actions les plus grandes et les plus échangées de la Bourse de Stockholm ; valeur de base de 125. Calculé par Nasdaq."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finansinspektionen (FI)",
+      "role": "L'autorité publique suédoise qui surveille le marché financier, y compris les banques, les assureurs et les marchés de titres."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantie des dépôts (Riksgälden, Office national suédois de la dette)",
+      "text": "Depuis le 1er janvier 2026, les dépôts sont protégés jusqu'à 1 150 000 couronnes par personne et par établissement (l'équivalent en couronnes de 100 000 €, ajusté tous les cinq ans)."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Euroclear Sweden, le dépositaire central de titres suédois",
+    "note": "Comme le reste de l'UE, la Suède passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Catégories d'actions A et B",
+      "text": "De nombreuses entreprises suédoises ont plusieurs catégories d'actions, généralement avec des droits de vote différents. L'OMXS30 comprend lui-même, par exemple, Atlas Copco A, Volvo B et Investor B (catégorie C)."
+    },
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Non-résidents : retenue à la source suédoise de 30 % (kupongskatt) sur les dividendes, réductible en vertu d'une convention fiscale au moment du paiement ou par remboursement. Résidents : les comptes d'épargne-investissement (ISK) sont imposés à 30 % d'un rendement forfaitaire au lieu des gains et dividendes réels.",
+    "items": [
+      {
+        "title": "Dividendes des investisseurs étrangers",
+        "text": "La règle principale est une retenue à la source de 30 % (kupongskatt) sur les dividendes. Elle peut être plus faible si le bénéficiaire vit dans un pays lié à la Suède par une convention fiscale, soit directement au moment du paiement, soit par remboursement ultérieur."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne ne peut imputer la retenue à la source étrangère sur la KESt autrichienne que jusqu'à 15 % du dividende (catégorie Q) ; tout impôt suédois supérieur doit être réduit ou récupéré en Suède."
+      },
+      {
+        "title": "Résidents : compte d'épargne-investissement (ISK)",
+        "text": "Dans un ISK, les plus-values, dividendes et intérêts ne sont pas imposés. Le compte est en revanche imposé chaque année à 30 % d'un rendement forfaitaire (schablonintäkt) calculé à partir de sa valeur."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation sur Nasdaq Stockholm ; vérifiez les frais de conversion des euros en couronnes.",
+    "Indirectement, par des fonds ou des ETF sur des indices suédois ou nordiques (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "La Bourse de Stockholm tient son premier jour de bourse le 4 février."
+    },
+    {
+      "text": "Nasdaq Stockholm fête son 160e anniversaire."
+    },
+    {
+      "text": "Le plafond de garantie des dépôts passe à 1 150 000 couronnes le 1er janvier."
+    }
+  ],
+  "funFacts": [
+    "L'OMXS30 comprend aussi des entreprises dont le siège est hors de Suède, comme ABB, AstraZeneca et Nordea, qui sont cotées à Stockholm."
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "France",
+  "summary": "Paris est l'un des marchés d'Euronext, le groupe formé en 2000 à partir des bourses d'Amsterdam, de Bruxelles et de Paris. Le CAC 40 suit 40 grandes entreprises françaises, du luxe à l'aéronautique. L'achat d'actions de grandes entreprises françaises supporte une taxe sur les transactions financières de 0,4 %.",
+  "currency": {
+    "name": "Euro",
+    "note": "Même devise que l'Autriche, donc pas de risque de change pour un investisseur en euros. De nombreuses entreprises du CAC 40 réalisent une grande partie de leur chiffre d'affaires hors de la zone euro."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Paris",
+      "city": "Paris",
+      "founded": "Intégrée à Euronext depuis 2000, quand les marchés d'Amsterdam, de Bruxelles et de Paris ont été réunis",
+      "hours": "Pour les actions du CAC 40 : enchère d'ouverture, négociation en continu de 09:00 à 17:30, enchère de clôture jusqu'à 17:35, puis négociation au cours de clôture jusqu'à 17:40.",
+      "note": "Euronext exploite sept marchés réglementés : Amsterdam, Bruxelles, Dublin, Lisbonne, Milan, Oslo et Paris."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "CAC 40",
+      "constituents": "40 entreprises",
+      "description": "Les 40 actions les plus grandes et les plus échangées d'Euronext Paris, pondérées selon la capitalisation boursière du flottant. Valeur de base de 1 000 au 31 décembre 1987 ; lancé officiellement le 15 juin 1988."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorité des marchés financiers (AMF)",
+      "role": "Autorité publique indépendante qui régule les marchés financiers français, leurs acteurs et les produits d'investissement, et veille à la bonne information des investisseurs."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garantie des dépôts du FGDR",
+      "text": "Les dépôts sont garantis jusqu'à 100 000 € par client et par banque."
+    },
+    {
+      "name": "Garantie des titres du FGDR",
+      "text": "Si une entreprise d'investissement fait faillite et ne peut pas restituer les actions, obligations ou parts de fonds de ses clients, celles-ci sont couvertes jusqu'à 70 000 € par client et par établissement."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables) ; T+1 à partir du 11 octobre 2027",
+    "csd": "Euroclear France (qui fait partie, avec Euroclear Belgium et Euroclear Nederland, des dépositaires ESES du groupe Euroclear)",
+    "note": "Comme le reste de l'UE, la France passe au règlement le lendemain le 11 octobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Taxe sur les transactions financières",
+      "text": "Les acquisitions d'actions de sociétés françaises dont la capitalisation boursière dépasse 1 milliard d'euros sont taxées à 0,4 % depuis le 1er avril 2025 (0,3 % auparavant). La liste des sociétés est arrêtée chaque 1er décembre pour l'année suivante."
+    },
+    {
+      "title": "Vente à découvert (règles de l'UE)",
+      "text": "Les positions courtes nettes sur actions doivent être déclarées au régulateur dès 0,1 % du capital émis et publiées dès 0,5 % (catégorie N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Résidents : prélèvement forfaitaire de 31,4 % sur les dividendes et les plus-values depuis le 1er janvier 2026 (12,8 % d'impôt sur le revenu + 18,6 % de prélèvements sociaux). Particuliers non-résidents : retenue de 12,8 % sur les dividendes français, ou un taux conventionnel plus bas. Taxe sur les transactions de 0,4 % sur les grandes actions françaises.",
+    "items": [
+      {
+        "title": "Résidents : prélèvement forfaitaire",
+        "text": "Les revenus de valeurs mobilières supportent un prélèvement total de 31,4 % : 12,8 % d'impôt sur le revenu et 18,6 % de prélèvements sociaux. Les contribuables peuvent opter à la place pour le barème progressif de l'impôt sur le revenu."
+      },
+      {
+        "title": "Dividendes des non-résidents",
+        "text": "Les dividendes français versés à des particuliers résidant à l'étranger supportent une retenue à la source de 12,8 % (taux en vigueur au 1er janvier 2026), sauf si une convention fiscale prévoit un taux plus favorable."
+      },
+      {
+        "title": "Taxe sur les transactions",
+        "text": "0,4 % sur les achats d'actions de grandes sociétés françaises (voir les règles de marché ci-dessus)."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne peut imputer la retenue à la source étrangère sur la KESt autrichienne, jusqu'à 15 % du dividende (catégorie Q)."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation sur Euronext Paris en euros ; vérifiez si la taxe sur les transactions de 0,4 % s'ajoute à l'achat.",
+    "Indirectement, par des fonds ou des ETF sur le CAC 40 ou des indices européens plus larges (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "Date de base du CAC 40 : 1 000 points au 31 décembre 1987."
+    },
+    {
+      "text": "Le CAC 40 est lancé officiellement le 15 juin."
+    },
+    {
+      "text": "Les bourses d'Amsterdam, de Bruxelles et de Paris s'unissent pour former Euronext."
+    },
+    {
+      "text": "La taxe sur les transactions financières passe de 0,3 % à 0,4 % (à partir du 1er avril)."
+    }
+  ],
+  "funFacts": [
+    "Les dix plus grands membres du CAC 40 représentaient environ 62 % de l'indice fin septembre 2026.",
+    "Airbus est cotée à Paris et figurait aussi parmi les dix plus grands membres du DAX en 2026."
+  ]
+}

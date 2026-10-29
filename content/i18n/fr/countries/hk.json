@@ -1,0 +1,116 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Hong Kong",
+  "summary": "Hong Kong est une région administrative spéciale de la Chine, avec sa propre monnaie, ses propres lois et sa propre bourse. HKEX est la passerelle entre la Chine continentale et les investisseurs internationaux : de nombreuses grandes entreprises du continent y sont cotées, et Stock Connect la relie à Shanghai et à Shenzhen. L'indice Hang Seng est la référence phare. Hong Kong n'impose pas les dividendes, mais un droit de timbre s'applique à chaque transaction sur actions.",
+  "currency": {
+    "name": "Dollar de Hong Kong",
+    "note": "Le dollar de Hong Kong est arrimé au dollar américain depuis le 17 octobre 1983, dans une fourchette de 7,75 à 7,85 dollars de Hong Kong pour un dollar américain. Pour un investisseur en euros, il évolue donc à peu près comme le dollar américain face à l'euro (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "The Stock Exchange of Hong Kong (groupe Hong Kong Exchanges and Clearing, HKEX)",
+      "city": "Hong Kong",
+      "founded": "1980 (constitution de la SEHK, qui réunit quatre bourses) ; société holding HKEX en 2000",
+      "hours": "Enchère de pré-ouverture de 09:00 à 09:30, séance du matin de 09:30 à 12:00, pause de midi de 12:00 à 13:00, séance de l'après-midi de 13:00 à 16:00, puis une enchère de clôture qui se termine à une heure aléatoire entre 16:08 et 16:10.",
+      "note": "Depuis septembre 2024, le marché reste aussi ouvert pendant les typhons et les tempêtes de pluie noire (Severe Weather Trading). Hong Kong n'applique pas l'heure d'été."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "Indice Hang Seng (HSI)",
+      "constituents": "95 entreprises (octobre 2026)",
+      "description": "L'un des plus anciens indices boursiers de Hong Kong, lancé publiquement le 24 novembre 1969, et l'indicateur du marché le plus cité. Ses composantes sont réparties en quatre sous-indices : Finance, Services aux collectivités, Immobilier, et Commerce et industrie. Calculé par Hang Seng Indexes Company."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Futures Commission (SFC)",
+      "role": "Le régulateur indépendant des marchés de titres et de contrats à terme de Hong Kong."
+    },
+    {
+      "name": "Hong Kong Monetary Authority (HKMA)",
+      "role": "Institution de banque centrale : elle gère le système de change arrimé et surveille les banques."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Investor Compensation Fund",
+      "text": "En cas de défaillance d'un courtier agréé, les investisseurs peuvent être indemnisés jusqu'à 500 000 dollars de Hong Kong par personne pour les pertes sur titres (et séparément jusqu'à 500 000 dollars de Hong Kong pour les contrats à terme)."
+    },
+    {
+      "name": "Deposit Protection Scheme",
+      "text": "Les dépôts bancaires sont protégés jusqu'à 800 000 dollars de Hong Kong par déposant et par banque. Les actions, obligations et fonds ne sont pas couverts."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables)",
+    "csd": "CCASS, le système central de compensation et de règlement géré par Hong Kong Securities Clearing Company (HKSCC, groupe HKEX)"
+  },
+  "rules": [
+    {
+      "title": "Pas de limites quotidiennes, mais un contrôle de la volatilité",
+      "text": "Contrairement à la Chine continentale, Hong Kong n'a pas de limites de variation quotidiennes fixes. Un mécanisme de contrôle de la volatilité couvre les plus grandes actions et certains ETF : si une transaction éloignait le cours de plus d'un seuil fixé (entre ±5 % et ±50 %) de son niveau cinq minutes plus tôt, une période de refroidissement de cinq minutes avec une fourchette de prix commence."
+    },
+    {
+      "title": "Lots standard et rompus",
+      "text": "Les actions se négocient par lots standard (board lots). Les ordres inférieurs à un lot sont des transactions sur rompus, traitées séparément des ordres par lots et parfois à un prix moins favorable."
+    },
+    {
+      "title": "Droit de timbre sur chaque transaction",
+      "text": "L'acheteur et le vendeur paient chacun un droit de timbre de 0,1 % sur la valeur d'une transaction sur actions de Hong Kong (depuis le 17 novembre 2023, contre 0,13 % auparavant)."
+    }
+  ],
+  "taxes": {
+    "glance": "Pas de retenue à la source sur les dividendes et pas d'impôt sur les dividendes reçus. Hong Kong n'impose que les bénéfices commerciaux, les salaires et les revenus locatifs ; les gains tirés de la vente de biens de capital ne font pas partie des bénéfices imposables. Droit de timbre de 0,1 % pour chaque partie à une transaction sur actions.",
+    "items": [
+      {
+        "title": "Dividendes",
+        "text": "Il n'y a pas de retenue à la source sur les dividendes versés par les sociétés, et les dividendes reçus de sociétés sont exonérés d'impôt."
+      },
+      {
+        "title": "Plus-values",
+        "text": "Hong Kong impose trois sources de revenus : les bénéfices commerciaux, les salaires et les revenus locatifs. Les gains tirés de la vente de biens de capital sont exclus des bénéfices imposables ; une personne qui négocie des actions à titre professionnel peut être imposée sur ses gains."
+      },
+      {
+        "title": "Droit de timbre",
+        "text": "0,1 % de la valeur de la transaction, payé à la fois par l'acheteur et par le vendeur."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "L'impôt autrichien (KESt) s'applique comme d'habitude aux dividendes et aux plus-values (catégorie Q) ; en l'absence de retenue à la source à Hong Kong, il n'y a rien à imputer ni à récupérer."
+      }
+    ]
+  },
+  "access": [
+    "De nombreuses banques et courtiers autrichiens proposent la négociation à la bourse de Hong Kong ; vérifiez les frais de conversion des euros en dollars de Hong Kong et le droit de timbre.",
+    "Hong Kong est aussi la voie d'accès aux actions A du continent via Stock Connect, pour les courtiers qui le proposent (voir Chine).",
+    "Indirectement, par des fonds ou des ETF sur l'indice Hang Seng ou des indices chinois ou asiatiques (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "L'indice Hang Seng est lancé publiquement le 24 novembre."
+    },
+    {
+      "text": "Constitution de The Stock Exchange of Hong Kong, qui réunit quatre bourses : celles de Hong Kong, Far East, Kam Ngan et Kowloon."
+    },
+    {
+      "text": "Le dollar de Hong Kong est arrimé au dollar américain le 17 octobre."
+    },
+    {
+      "text": "La négociation déménage dans une nouvelle salle à Exchange Square, qui a accueilli à son apogée plus de 1 200 négociateurs."
+    },
+    {
+      "text": "La bourse, la bourse de contrats à terme et la chambre de compensation deviennent des filiales de HKEX (6 mars) ; HKEX cote ses propres actions le 27 juin."
+    },
+    {
+      "text": "Shanghai-Hong Kong Stock Connect est lancé le 17 novembre."
+    },
+    {
+      "text": "Le Severe Weather Trading démarre en septembre : le marché reste ouvert pendant les typhons."
+    }
+  ],
+  "funFacts": [
+    "HKEX a été l'une des premières bourses au monde à coter ses propres actions, en 2000 (code 388).",
+    "Le premier ETF coté à Hong Kong, le Tracker Fund of Hong Kong (1999), a levé 33,3 milliards de dollars de Hong Kong, alors la plus grande introduction en bourse d'Asie hors Japon."
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Taïwan",
+  "summary": "La Bourse de Taïwan (TWSE) a ouvert en 1962. Parmi ses sociétés cotées figurent le fabricant de puces TSMC et des groupes d'électronique comme Hon Hai (Foxconn). Le TAIEX suit toutes les actions cotées. La séance est courte (09:00–13:30), les actions se négocient par lots de 1 000 avec une limite quotidienne de ±10 %, et les particuliers ne paient pas d'impôt sur les plus-values, seulement une taxe sur les transactions de 0,3 % à la vente. FTSE Russell classe Taïwan parmi les marchés émergents avancés.",
+  "currency": {
+    "name": "Nouveau dollar de Taïwan",
+    "note": "Les actions taïwanaises sont cotées en nouveaux dollars de Taïwan : un investisseur en euros supporte donc un risque de change, car les variations du dollar de Taïwan face à l'euro modifient la valeur des positions en euros (catégorie L)."
+  },
+  "exchanges": [
+    {
+      "name": "Bourse de Taïwan (TWSE)",
+      "city": "Taipei",
+      "founded": "23 octobre 1961 ; ouverture le 9 février 1962",
+      "hours": "Enchère d'ouverture de 08:30 à 09:00, négociation en continu de 09:00 à 13:25, enchère de clôture de 13:25 à 13:30. Négociation à prix fixe après la séance de 14:00 à 14:30.",
+      "note": "Les petites entreprises se négocient sur le Taipei Exchange (TPEx). Taïwan n'applique pas l'heure d'été."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TAIEX (TWSE Capitalization Weighted Stock Index)",
+      "description": "Indice de référence de la performance globale des actions cotées à la TWSE, pondéré selon la valeur de marché. Valeur de base de 100 = la moyenne annuelle de 1966. Établi par la TWSE."
+    },
+    {
+      "name": "FTSE TWSE Taiwan 50",
+      "constituents": "50 entreprises",
+      "description": "Établi par la TWSE avec FTSE. Le premier ETF de Taïwan, lancé en 2003, reposait sur cet indice."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Supervisory Commission (FSC)",
+      "role": "Régule et surveille la banque, les titres, les contrats à terme et l'assurance à Taïwan."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assurance des dépôts (CDIC)",
+      "text": "Les dépôts en nouveaux dollars de Taïwan ou en devises sont couverts jusqu'à 3 millions de dollars de Taïwan par déposant et par banque, intérêts compris. Les comptes auprès des sociétés de bourse ne sont pas couverts par l'assurance des dépôts."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (deux jours ouvrables)",
+    "csd": "Taiwan Depository & Clearing Corporation (TDCC) ; la TWSE est elle-même la chambre de compensation des transactions en bourse",
+    "note": "Les investisseurs étrangers règlent via leur banque dépositaire locale. Le règlement-livraison T+2 a été adopté en 2009."
+  },
+  "rules": [
+    {
+      "title": "Lots de 1 000 actions, rompus à part",
+      "text": "Une unité de négociation compte 1 000 actions. Les ordres plus petits sont des ordres sur rompus ; depuis le 26 octobre 2020, les rompus peuvent aussi se négocier pendant la séance normale."
+    },
+    {
+      "title": "Limite de variation quotidienne de ±10 %",
+      "text": "Les actions, les ETF nationaux et les produits similaires peuvent évoluer au plus de 10 % par rapport au cours de référence par jour (contre 7 % avant le 1er juin 2015). Les actions nouvellement cotées en sont exemptées pendant leurs cinq premiers jours de bourse."
+    },
+    {
+      "title": "Enregistrement des investisseurs étrangers",
+      "text": "Les investisseurs étrangers, particuliers comme institutionnels, doivent désigner une banque dépositaire locale, qui les enregistre auprès de la TWSE avant qu'un courtier puisse leur ouvrir un compte de négociation."
+    }
+  ],
+  "taxes": {
+    "glance": "Taxe sur les transactions de titres de 0,3 % sur les ventes d'actions (à la charge du vendeur). Pas d'impôt sur les plus-values pour les particuliers. Dividendes versés aux non-résidents : retenue à la source de 21 %.",
+    "items": [
+      {
+        "title": "Taxe sur les transactions de titres",
+        "text": "0,3 % de la valeur d'une vente d'actions, payée par le vendeur (0,15 % pour les opérations intrajournalières dénouées le jour même, jusqu'à fin 2027). ETF : 0,1 %."
+      },
+      {
+        "title": "Plus-values",
+        "text": "Exonérées pour les particuliers."
+      },
+      {
+        "title": "Dividendes",
+        "text": "Non-résidents : retenue à la source de 21 %. Les résidents choisissent entre ajouter les dividendes à leur revenu imposable (avec un crédit de 8,5 % plafonné à 80 000 dollars de Taïwan) et un impôt forfaitaire distinct de 28 %."
+      },
+      {
+        "title": "Pour un investisseur autrichien",
+        "text": "Une banque autrichienne ne peut imputer la retenue à la source étrangère sur la KESt autrichienne que jusqu'à 15 % du dividende (catégorie Q). La possibilité de récupérer une partie des 21 % à Taïwan dépend des règles conventionnelles ; renseignez-vous auprès de votre banque ou d'un conseiller fiscal."
+      }
+    ]
+  },
+  "access": [
+    "Certaines banques et certains courtiers autrichiens proposent la négociation à la Bourse de Taïwan ; le lot de 1 000 actions peut rendre un lot entier coûteux.",
+    "Certaines grandes entreprises taïwanaises ont aussi des certificats de dépôt cotés aux États-Unis.",
+    "Indirectement, par des fonds ou des ETF sur des indices taïwanais, asiatiques ou des marchés émergents (catégorie H)."
+  ],
+  "history": [
+    {
+      "text": "La première bourse réglementée de Taïwan, la Bourse de Taïwan, est fondée le 23 octobre."
+    },
+    {
+      "text": "La TWSE ouvre le 9 février."
+    },
+    {
+      "text": "Les actions cotées passent au système de négociation entièrement automatisé (FAST) le 2 août."
+    },
+    {
+      "text": "Création du premier ETF de Taïwan, sur l'indice Taiwan 50."
+    },
+    {
+      "text": "La limite de variation quotidienne passe de 7 % à 10 % le 1er juin."
+    },
+    {
+      "text": "La négociation en continu remplace les enchères périodiques pendant la séance (23 mars) ; la négociation des rompus en cours de séance démarre (26 octobre)."
+    }
+  ],
+  "funFacts": [
+    "Avant le 23 mars 2020, la TWSE ne proposait pas de négociation en continu pendant la séance : les ordres étaient appariés lors d'enchères répétées.",
+    "Au premier semestre 2025, les particuliers représentaient environ la moitié de tous les échanges à la TWSE, et les institutions étrangères 37 %."
+  ]
+}
