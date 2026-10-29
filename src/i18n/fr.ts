@@ -823,7 +823,7 @@ export const fr: Dictionary = {
   'quiz.passed': "Réussi ! Vous avez atteint le seuil de {pass} %.",
   'quiz.notPassed': "Pas encore réussi : le seuil est de {pass} %. Révisez vos thèmes les plus faibles et réessayez.",
   'qh.title': "Quiz",
-  'qh.lead': "Testez ce que vous avez appris : des quiz pour chaque thème et chaque pays, un quiz du jour, le Méga-quiz et un Examen final juste pour le plaisir. Tout reste dans votre navigateur. Les quiz des thèmes sont en français ; ceux des pays sont encore en anglais.",
+  'qh.lead': "Testez ce que vous avez appris : des quiz pour chaque thème et chaque pays, un quiz du jour, le Méga-quiz et un Examen final juste pour le plaisir. Tout reste dans votre navigateur.",
   'qh.count': "Questions au total : {n}",
   'qh.daily.title': "Quiz du jour",
   'qh.daily.lead': "Cinq questions, les mêmes pour tout le monde aujourd'hui. Gardez votre série.",
