@@ -6,31 +6,54 @@
 
 /*
  * Brand palette (November 2026): Sky Blue #0099FF, Cloudy White #FDFDFE and Amber Red #FA2406.
- * Two quiet colours (white, blue) carry the page; the loud red is kept for calls to action and the logo.
- * Dark mode uses the same three colours on a darker scale of the blue (#04121F background).
+ * Two quiet colours carry the page: full Sky Blue sections (.band-sky, below) alternate with Cloudy White
+ * ones and blend into each other. The loud colour (red in light mode, burgundy in dark) is kept for the
+ * main call to action and the logo. Dark mode: near-black page (#070B11), deep blue sections (#0A3560),
+ * burgundy buttons (#8C1C2E).
  * The variable names --navy and --teal are historical: --navy is the deep blue, --teal the Sky Blue accent.
- * Contrast (WCAG AA needs 4.5:1 for text), light / dark:
- *   text on bg 16.4 / 18.6, muted on surface-2 6.2 / 7.5, link on surface-2 4.7 / 6.7,
- *   white on the red button 4.8 / 5.4. Sky Blue itself is 2.95:1 on white, so it is used for
- *   fills and large shapes, and a darker blue (#0070C0) for link text in light mode.
+ * Contrast (WCAG AA: 4.5:1 for text, 3:1 for large text), light / dark:
+ *   text on bg 16.4 / 19.4, muted on surface-2 6.2 / 7.9, link on bg 5.1 / 9.0,
+ *   white on the main button 4.8 / 9.1.
+ * On a blue section: white headings 3.0 (h1/h2 are large text, so only they are white) / 12.2,
+ *   navy body text 5.6, muted 4.8, links 4.8 (underlined) / muted 8.2, links 8.5.
+ * Sky Blue is 3.0:1 on white, so it is never used for small text on white; links there use #0070C0.
  */
 :root {
-  --bg: #fdfdfe;
-  --surface: #ffffff;
-  --surface-2: #eaf5ff;
-  --text: #0a1f33;
-  --muted: #4a5c71;
-  --border: #d4e5f5;
+  --c-bg: #fdfdfe;
+  --c-surface: #ffffff;
+  --c-surface-2: #eaf5ff;
+  --c-text: #0a1f33;
+  --c-muted: #4a5c71;
+  --c-border: #d4e5f5;
+  --c-link: #0070c0;
+  --c-focus: #0077cc;
+  --bg: var(--c-bg);
+  --surface: var(--c-surface);
+  --surface-2: var(--c-surface-2);
+  --text: var(--c-text);
+  --muted: var(--c-muted);
+  --border: var(--c-border);
+  --link: var(--c-link);
+  --focus: var(--c-focus);
   --navy: #003a66;
   --teal: #0099ff;
-  --link: #0070c0;
+  --sky-accent: #0099ff;
   --on-navy: #ffffff;
   --red: #fa2406;
   --cta: #e0230a;
+  --cta-ring: transparent;
   --on-cta: #ffffff;
   --warn-bg: #fff7e6;
   --warn-border: #f0b44c;
-  --focus: #0077cc;
+  /* Blue sections (.band-sky): background, and the tokens that change on it. */
+  --sky: #0099ff;
+  --band-heading: #ffffff;
+  --band-muted: #082a4d;
+  --band-link: #002b52;
+  --band-border: rgb(255 255 255 / 0.45);
+  --band-tint: rgb(255 255 255 / 0.25);
+  --band-focus: #0a1f33;
+  --band-accent: #ffffff;
   /* Chart series (categorical, fixed order; validated with the dataviz palette checker on --surface). */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -54,22 +77,31 @@
 }
 
 .dark {
-  --bg: #04121f;
-  --surface: #0a1e33;
-  --surface-2: #102a47;
-  --text: #fdfdfe;
-  --muted: #a6bdd6;
-  --border: #1d3a5a;
+  --c-bg: #070b11;
+  --c-surface: #0d141d;
+  --c-surface-2: #141e2b;
+  --c-text: #fdfdfe;
+  --c-muted: #a3b3c6;
+  --c-border: #1f2c3b;
+  --c-link: #4db8ff;
+  --c-focus: #4db8ff;
   --navy: #021626;
   --teal: #0099ff;
-  --link: #4db8ff;
   --on-navy: #ffffff;
   --red: #fa2406;
-  --cta: #c81d04;
+  --cta: #8c1c2e;
+  --cta-ring: rgb(255 150 170 / 0.35);
   --on-cta: #ffffff;
   --warn-bg: #2b2210;
   --warn-border: #b7862e;
-  --focus: #4db8ff;
+  --sky: #0a3560;
+  --band-heading: #fdfdfe;
+  --band-muted: #c2d4e8;
+  --band-link: #a8dcff;
+  --band-border: rgb(255 255 255 / 0.18);
+  --band-tint: rgb(255 255 255 / 0.1);
+  --band-focus: #a8dcff;
+  --band-accent: #4db8ff;
   color-scheme: dark;
   --series-1: #3987e5;
   --series-2: #d95926;
@@ -87,7 +119,7 @@
   --series-6-ink: #ffffff;
   --series-7-ink: #111111;
   --series-8-ink: #111111;
-  --chart-grid: #1d3a5a;
+  --chart-grid: #1f2c3b;
 }
 
 @theme inline {
@@ -159,6 +191,60 @@
       padding-inline: 1.5rem;
     }
   }
+  /* ---- Blue sections ----
+   * .on-sky swaps the tokens that change on a blue background; the band-* classes add the background:
+   *   band-sky   solid blue                         (header)
+   *   band-hero  solid blue fading into the page    (top of a page; keep ~5rem bottom padding)
+   *   band-blend page → blue → page                 (a section between white ones; keep ≥4rem padding)
+   *   band-foot  page → blue                        (footer)
+ * Inside a band, give any box with its own light background the class .on-surface (cards and callouts have it built in).
+   * Only h1/h2 turn white (large text); everything inside cards, callouts and form fields keeps the page tokens.
+   */
+  .on-sky,
+  .band-sky,
+  .band-hero,
+  .band-blend,
+  .band-foot {
+    --muted: var(--band-muted);
+    --link: var(--band-link);
+    --border: var(--band-border);
+    --surface-2: var(--band-tint);
+    --focus: var(--band-focus);
+    --teal: var(--band-accent);
+    color: var(--text);
+  }
+  .band-sky {
+    background: var(--sky);
+  }
+  .band-hero {
+    background: linear-gradient(to bottom, var(--sky) 0, var(--sky) calc(100% - 5rem), var(--bg) 100%);
+  }
+  .band-blend {
+    background: linear-gradient(to bottom, var(--bg) 0, var(--sky) 4rem, var(--sky) calc(100% - 4rem), var(--bg) 100%);
+  }
+  .band-foot {
+    background: linear-gradient(to bottom, var(--bg) 0, var(--sky) 5rem, var(--sky) 100%);
+  }
+  /* Sticky header: the same blue, slightly see-through over the page when scrolled. */
+  .header-sky {
+    background: color-mix(in srgb, var(--sky) 94%, transparent);
+    backdrop-filter: blur(10px);
+  }
+  :is(.on-sky, .band-sky, .band-hero, .band-blend, .band-foot) :is(h1, h2) {
+    color: var(--band-heading);
+  }
+  :is(.on-sky, .band-sky, .band-hero, .band-blend, .band-foot) :is(.card, .callout, .gloss-tip, .on-surface, input, select, textarea) {
+    --muted: var(--c-muted);
+    --link: var(--c-link);
+    --border: var(--c-border);
+    --surface-2: var(--c-surface-2);
+    --focus: var(--c-focus);
+    --teal: var(--sky-accent);
+    color: var(--text);
+  }
+  :is(.on-sky, .band-sky, .band-hero, .band-blend, .band-foot) :is(.card, .on-surface) :is(h1, h2) {
+    color: var(--text);
+  }
   .card {
     background: var(--surface);
     border: 1px solid var(--border);
@@ -177,6 +263,7 @@
   .btn-primary {
     background: var(--cta);
     color: var(--on-cta);
+    box-shadow: 0 0 0 1px var(--cta-ring);
   }
   .btn-primary:hover {
     filter: brightness(1.08);
@@ -368,26 +455,50 @@
 }
 
 /* ---- Light/dark switch animation (Header.astro) ----
- * With the View Transitions API, the new theme grows as a circle from the toggle button
- * (the clip-path animation is started from JavaScript). Browsers without it fade the colours instead.
- * Both are skipped when the visitor prefers reduced motion.
+ * A sun (to light) or moon (to dark) pops out of the toggle button, and light or shadow spreads from it
+ * across the page; the theme changes while the page is covered, then the light or shadow fades away.
+ * Drawn in a fixed, click-through overlay (.theme-fx) that the script adds and removes.
+ * Skipped when the visitor prefers reduced motion.
  */
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation: none;
-  mix-blend-mode: normal;
+.theme-fx {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  pointer-events: none;
+  overflow: hidden;
 }
-::view-transition-old(root) {
-  z-index: 1;
+.theme-fx-wash {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
 }
-::view-transition-new(root) {
-  z-index: 2;
+.theme-fx-orb {
+  position: absolute;
+  width: 96px;
+  height: 96px;
+  margin: -48px 0 0 -48px;
+  opacity: 0;
+}
+.theme-fx-orb svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+.theme-fx-star {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #fdfdfe;
+  box-shadow: 0 0 6px 1px rgb(253 253 254 / 0.8);
+  opacity: 0;
 }
 html.theme-fade,
 html.theme-fade *,
 html.theme-fade *::before,
 html.theme-fade *::after {
-  transition: background-color 0.45s ease, border-color 0.45s ease, color 0.45s ease, fill 0.45s ease, stroke 0.45s ease !important;
+  transition: background-color 0.35s ease, border-color 0.35s ease, color 0.35s ease, fill 0.35s ease, stroke 0.35s ease !important;
 }
 html.theme-switching #theme-toggle svg {
   animation: theme-icon-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);

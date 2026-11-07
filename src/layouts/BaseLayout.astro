@@ -72,7 +72,7 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
     <meta property="og:image:alt" content={t('site.ogImageAlt')} />
     {ogType === 'article' && modified && <meta property="article:modified_time" content={modified} />}
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="theme-color" content="#fdfdfe" />
+    <meta name="theme-color" content="#0099ff" />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
     <link rel="sitemap" href={url('/sitemap-index.xml')} />
     {jsonLd && <script type="application/ld+json" set:html={toScript(jsonLd)} />}
@@ -83,7 +83,7 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
         try { pref = localStorage.getItem('stockora-theme'); } catch (e) {}
         var dark = pref ? pref === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.documentElement.classList.toggle('dark', dark);
-        if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#04121f');
+        if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0a3560');
       })();
     </script>
   </head>

@@ -45,8 +45,8 @@ const widgetExchanges = (await getCollection('exchanges'))
     searchUrl: absoluteUrl('/search', Astro.site),
   })}
 >
-  <section class="border-b border-border bg-surface">
-    <div class="container-page grid items-center gap-10 py-12 sm:py-16 lg:grid-cols-[1.25fr_1fr]">
+  <section class="band-hero">
+    <div class="container-page grid items-center gap-10 pt-12 pb-24 sm:pt-16 sm:pb-28 lg:grid-cols-[1.25fr_1fr]">
       <div>
         <h1 class="text-4xl font-bold tracking-tight text-balance sm:text-5xl">{t('home.hero.title')}</h1>
         <p class="mt-4 max-w-xl text-lg text-muted">{t('home.hero.lead')}</p>
@@ -102,16 +102,18 @@ const widgetExchanges = (await getCollection('exchanges'))
     }
   </section>
 
-  <section class="container-page" aria-labelledby="widgets-title">
+  <section class="band-blend mt-12 py-20" aria-labelledby="widgets-title">
+    <div class="container-page">
     <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
     <ul class="mt-5 grid gap-4 sm:grid-cols-3">
       <li><HomeProgress /></li>
       <li><MarketWidget client:only="react" exchanges={widgetExchanges} href={url('/times')}><div slot="fallback" class="island-fallback h-[250px]"></div></MarketWidget></li>
       <li><DailyQuizWidget /></li>
     </ul>
+    </div>
   </section>
 
-  <section class="container-page mt-12" aria-labelledby="trust-title">
+  <section class="container-page mt-4" aria-labelledby="trust-title">
     <div class="card grid gap-6 p-6 sm:grid-cols-2">
       <h2 id="trust-title" class="text-xl font-bold sm:col-span-2">{t('home.trust.title')}</h2>
       <p class="flex gap-3">

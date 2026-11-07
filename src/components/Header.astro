@@ -20,7 +20,7 @@ const lgOverflow = primaryNav.slice(LG_PRIMARY);
 const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
 ---
 
-<header class="sticky top-0 z-40 border-b border-border bg-bg/90 backdrop-blur supports-[backdrop-filter]:bg-bg/75">
+<header class="on-sky header-sky sticky top-0 z-40">
   <div class="container-page flex h-16 items-center gap-4">
     <a href={url('/')} class="flex shrink-0 items-center gap-2.5 no-underline" aria-label={t('a11y.home')}>
       <LogoMark size={30} />
@@ -154,7 +154,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
     </div>
   </div>
 
-  <nav id="mobile-menu" aria-label={t('a11y.mainNav')} class="hidden border-t border-border bg-bg lg:hidden">
+  <nav id="mobile-menu" aria-label={t('a11y.mainNav')} class="band-sky hidden border-t border-border lg:hidden">
     <ul class="container-page grid gap-0.5 py-3 sm:grid-cols-2">
       {
         [...primaryNav, ...secondaryNav].map((item) => (
@@ -191,10 +191,13 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
 
   const themeBtn = document.getElementById('theme-toggle');
 
+  // Browser UI colour (address bar on mobile): the header's blue.
+  const THEME_COLOR = { light: '#0099ff', dark: '#0a3560' };
+
   function applyTheme() {
     const root = document.documentElement;
     const dark = root.classList.toggle('dark');
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? '#04121f' : '#fdfdfe');
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', dark ? THEME_COLOR.dark : THEME_COLOR.light);
     // The pre-paint script in BaseLayout reads this raw string (not JSON).
     try {
       localStorage.setItem(`${STORAGE_PREFIX}theme`, dark ? 'dark' : 'light');
@@ -203,39 +206,105 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
     }
   }
 
-  themeBtn?.addEventListener('click', () => {
+  const RAYS = Array.from({ length: 8 }, (_, i) => {
+    const a = (i * Math.PI) / 4;
+    const p = (r: number) => `${(Math.cos(a) * r).toFixed(1)} ${(Math.sin(a) * r).toFixed(1)}`;
+    return `<path d="M${p(27)}L${p(38)}"/>`;
+  }).join('');
+  const SUN = `<svg viewBox="-50 -50 100 100"><defs><radialGradient id="tfx-halo"><stop offset="0" stop-color="#ffe9a0" stop-opacity=".9"/><stop offset="1" stop-color="#ffe9a0" stop-opacity="0"/></radialGradient><radialGradient id="tfx-sun"><stop offset="0" stop-color="#fff7d1"/><stop offset=".55" stop-color="#ffd447"/><stop offset="1" stop-color="#ffb300"/></radialGradient></defs><circle r="50" fill="url(#tfx-halo)"/><g stroke="#ffc22e" stroke-width="5" stroke-linecap="round">${RAYS}</g><circle r="20" fill="url(#tfx-sun)"/></svg>`;
+  const MOON = `<svg viewBox="-50 -50 100 100"><defs><radialGradient id="tfx-glow"><stop offset="0" stop-color="#b8d4ff" stop-opacity=".45"/><stop offset="1" stop-color="#b8d4ff" stop-opacity="0"/></radialGradient><mask id="tfx-cut"><rect x="-50" y="-50" width="100" height="100" fill="#fff"/><circle cx="11" cy="-9" r="19" fill="#000"/></mask></defs><circle r="46" fill="url(#tfx-glow)"/><circle r="22" fill="#f4f1e6" mask="url(#tfx-cut)"/></svg>`;
+
+  let switching = false;
+
+  function animateSwitch(btn: HTMLElement) {
     const root = document.documentElement;
-    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      applyTheme();
-      return;
-    }
-    root.classList.add('theme-switching');
-    setTimeout(() => root.classList.remove('theme-switching'), 600);
-
-    // Without the View Transitions API: cross-fade the colours.
-    if (!document.startViewTransition) {
-      root.classList.add('theme-fade');
-      applyTheme();
-      setTimeout(() => root.classList.remove('theme-fade'), 500);
-      return;
-    }
-
-    // With it: the new theme grows as a circle from the button until it covers the page.
-    const box = themeBtn.getBoundingClientRect();
+    const toDark = !root.classList.contains('dark');
+    const box = btn.getBoundingClientRect();
     const x = box.left + box.width / 2;
     const y = box.top + box.height / 2;
-    const radius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
-    const transition = document.startViewTransition(applyTheme);
-    transition.ready
-      .then(() => {
-        root.animate(
-          { clipPath: [`circle(0px at ${x}px ${y}px)`, `circle(${radius}px at ${x}px ${y}px)`] },
-          { duration: 600, easing: 'cubic-bezier(0.4, 0, 0.2, 1)', pseudoElement: '::view-transition-new(root)' },
-        );
-      })
-      .catch(() => {
-        /* transition skipped: the theme is already applied */
+    const radius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y)) * 1.1;
+    const at = `${x}px ${y}px`;
+
+    const fx = document.createElement('div');
+    fx.className = 'theme-fx';
+    fx.setAttribute('aria-hidden', 'true');
+    const wash = document.createElement('div');
+    wash.className = 'theme-fx-wash';
+    // Sunlight: warm white spreading out; night: deep blue fading to near-black.
+    wash.style.background = toDark
+      ? `radial-gradient(circle at ${at}, rgb(10 53 96 / 0.96) 0, rgb(7 11 17 / 0.97) 45%)`
+      : `radial-gradient(circle at ${at}, rgb(255 250 225 / 0.98) 0, rgb(255 241 190 / 0.95) 30%, rgb(253 253 254 / 0.94) 65%)`;
+    const orb = document.createElement('div');
+    orb.className = 'theme-fx-orb';
+    orb.style.left = `${x}px`;
+    orb.style.top = `${y}px`;
+    orb.style.filter = toDark ? 'drop-shadow(0 0 10px rgb(184 212 255 / 0.6))' : 'drop-shadow(0 0 16px rgb(255 196 46 / 0.9))';
+    orb.innerHTML = toDark ? MOON : SUN;
+    fx.append(wash, orb);
+
+    const stars: HTMLElement[] = [];
+    if (toDark) {
+      for (let i = 0; i < 18; i++) {
+        const star = document.createElement('span');
+        star.className = 'theme-fx-star';
+        star.style.left = `${Math.random() * 100}%`;
+        star.style.top = `${Math.random() * 70}%`;
+        fx.append(star);
+        stars.push(star);
+      }
+    }
+    document.body.append(fx);
+
+    const DURATION = 1300;
+    const DELAY = 180;
+    orb.animate(
+      [
+        { opacity: 0, transform: `scale(0.3) ${toDark ? 'translateY(-14px)' : 'rotate(-90deg)'}` },
+        { opacity: 1, transform: `scale(1.35) ${toDark ? 'translateY(0)' : 'rotate(0deg)'}`, offset: 0.28, easing: 'ease-in-out' },
+        { opacity: 1, transform: `scale(1.15) ${toDark ? 'translateY(0)' : 'rotate(25deg)'}`, offset: 0.72 },
+        { opacity: 0, transform: `scale(0.55) ${toDark ? 'translateY(0)' : 'rotate(45deg)'}` },
+      ],
+      { duration: DURATION + DELAY, easing: 'cubic-bezier(0.34, 1.4, 0.64, 1)' },
+    );
+    const spread = wash.animate(
+      [
+        { opacity: 1, clipPath: `circle(0px at ${at})` },
+        { opacity: 1, clipPath: `circle(${radius}px at ${at})`, offset: 0.5 },
+        { opacity: 1, clipPath: `circle(${radius}px at ${at})`, offset: 0.6 },
+        { opacity: 0, clipPath: `circle(${radius}px at ${at})` },
+      ],
+      { duration: DURATION, delay: DELAY, easing: 'cubic-bezier(0.4, 0, 0.2, 1)', fill: 'backwards' },
+    );
+    for (const star of stars) {
+      star.animate([{ opacity: 0 }, { opacity: 1 }, { opacity: 0 }], {
+        duration: 600 + Math.random() * 400,
+        delay: DELAY + 250 + Math.random() * 450,
+        easing: 'ease-in-out',
       });
+    }
+
+    // Change the theme while the light or shadow covers the page.
+    setTimeout(() => {
+      root.classList.add('theme-fade', 'theme-switching');
+      applyTheme();
+      setTimeout(() => root.classList.remove('theme-fade', 'theme-switching'), 600);
+    }, DELAY + DURATION * 0.48);
+
+    const done = () => {
+      fx.remove();
+      switching = false;
+    };
+    spread.finished.then(done, done);
+  }
+
+  themeBtn?.addEventListener('click', () => {
+    if (switching) return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches || !document.body.animate) {
+      applyTheme();
+      return;
+    }
+    switching = true;
+    animateSwitch(themeBtn);
   });
 
   const menuBtn = document.getElementById('menu-toggle');
