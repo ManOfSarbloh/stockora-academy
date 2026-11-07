@@ -12,16 +12,16 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 
 const C = {
-  navy: '#0B132B',
-  teal: '#6A55A0',
+  navy: '#0A1F33',
+  teal: '#0077CC',
   slate: '#3A506B',
-  light: '#C8B8DB',
-  pale: '#F3EEF8',
+  light: '#99D6FF',
+  pale: '#EAF5FF',
   up: '#16834a',
   down: '#c8352f',
   amber: '#c98500',
-  text: '#0B132B',
-  muted: '#4D5470',
+  text: '#0A1F33',
+  muted: '#4A5C71',
   grid: '#e3e8ee',
   white: '#ffffff',
 };

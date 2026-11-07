@@ -5,27 +5,32 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 /*
- * Brand palette (October 2026): Prussian Blue #0B132B, Thistle #C8B8DB, Snow #F9F4F5, plus Space Cadet
- * #1C2541 (dark surfaces) and Ultra Violet #55418C (links in light mode, where Thistle is too pale).
- * The variable names --navy and --teal are historical: --navy is Prussian Blue, --teal the accent.
+ * Brand palette (November 2026): Sky Blue #0099FF, Cloudy White #FDFDFE and Amber Red #FA2406.
+ * Two quiet colours (white, blue) carry the page; the loud red is kept for calls to action and the logo.
+ * Dark mode uses the same three colours on a darker scale of the blue (#04121F background).
+ * The variable names --navy and --teal are historical: --navy is the deep blue, --teal the Sky Blue accent.
  * Contrast (WCAG AA needs 4.5:1 for text), light / dark:
- *   text on bg 16.9 / 16.9, muted on surface-2 6.2 / 6.1, link on surface-2 7.0 / 7.0, accent on bg 5.6 / 9.9.
- * Dark-mode accent is Thistle: text on it must be dark (white on Thistle is only 1.85:1).
+ *   text on bg 16.4 / 18.6, muted on surface-2 6.2 / 7.5, link on surface-2 4.7 / 6.7,
+ *   white on the red button 4.8 / 5.4. Sky Blue itself is 2.95:1 on white, so it is used for
+ *   fills and large shapes, and a darker blue (#0070C0) for link text in light mode.
  */
 :root {
-  --bg: #f9f4f5;
+  --bg: #fdfdfe;
   --surface: #ffffff;
-  --surface-2: #efe8f5;
-  --text: #0b132b;
-  --muted: #4d5470;
-  --border: #dcd2e6;
-  --navy: #0b132b;
-  --teal: #6a55a0;
-  --link: #55418c;
+  --surface-2: #eaf5ff;
+  --text: #0a1f33;
+  --muted: #4a5c71;
+  --border: #d4e5f5;
+  --navy: #003a66;
+  --teal: #0099ff;
+  --link: #0070c0;
   --on-navy: #ffffff;
+  --red: #fa2406;
+  --cta: #e0230a;
+  --on-cta: #ffffff;
   --warn-bg: #fff7e6;
   --warn-border: #f0b44c;
-  --focus: #55418c;
+  --focus: #0077cc;
   /* Chart series (categorical, fixed order; validated with the dataviz palette checker on --surface). */
   --series-1: #2a78d6;
   --series-2: #eb6834;
@@ -44,24 +49,27 @@
   --series-6-ink: #ffffff;
   --series-7-ink: #ffffff;
   --series-8-ink: #111111;
-  --chart-grid: #e1e5ea;
+  --chart-grid: #e1e9f2;
   color-scheme: light;
 }
 
 .dark {
-  --bg: #0b132b;
-  --surface: #1c2541;
-  --surface-2: #253052;
-  --text: #f9f4f5;
-  --muted: #adb0cb;
-  --border: #34405f;
-  --navy: #0b132b;
-  --teal: #c8b8db;
-  --link: #c8b8db;
+  --bg: #04121f;
+  --surface: #0a1e33;
+  --surface-2: #102a47;
+  --text: #fdfdfe;
+  --muted: #a6bdd6;
+  --border: #1d3a5a;
+  --navy: #021626;
+  --teal: #0099ff;
+  --link: #4db8ff;
   --on-navy: #ffffff;
+  --red: #fa2406;
+  --cta: #c81d04;
+  --on-cta: #ffffff;
   --warn-bg: #2b2210;
   --warn-border: #b7862e;
-  --focus: #c8b8db;
+  --focus: #4db8ff;
   color-scheme: dark;
   --series-1: #3987e5;
   --series-2: #d95926;
@@ -79,7 +87,7 @@
   --series-6-ink: #ffffff;
   --series-7-ink: #111111;
   --series-8-ink: #111111;
-  --chart-grid: #34405f;
+  --chart-grid: #1d3a5a;
 }
 
 @theme inline {
@@ -92,6 +100,9 @@
   --color-navy: var(--navy);
   --color-teal: var(--teal);
   --color-link: var(--link);
+  --color-red: var(--red);
+  --color-cta: var(--cta);
+  --color-on-cta: var(--on-cta);
   --color-on-navy: var(--on-navy);
   --color-warn-bg: var(--warn-bg);
   --color-warn-border: var(--warn-border);
@@ -164,11 +175,8 @@
     transition: background-color 0.15s, border-color 0.15s;
   }
   .btn-primary {
-    background: var(--link);
-    color: #ffffff;
-  }
-  .dark .btn-primary {
-    color: #0b132b;
+    background: var(--cta);
+    color: var(--on-cta);
   }
   .btn-primary:hover {
     filter: brightness(1.08);
@@ -207,8 +215,8 @@
   .tt-seg-ext { background: #b7d3f6; box-shadow: inset 0 0 0 1px #6da7ec; }
   .dark .tt-seg-auction { background: #9ec5f4; }
   .dark .tt-seg-ext { background: #1c5cab; box-shadow: inset 0 0 0 1px #3987e5; }
-  .tt-overlap { background: rgb(106 85 160 / 0.14); }
-  .dark .tt-overlap { background: rgb(200 184 219 / 0.16); }
+  .tt-overlap { background: rgb(0 153 255 / 0.12); }
+  .dark .tt-overlap { background: rgb(0 153 255 / 0.16); }
   .tt-now { background: #d03b3b; }
 
   /* ---- Chart Lab ---- */
@@ -216,20 +224,20 @@
     --cl-up: #16834a;
     --cl-down: #c8352f;
     --cl-grid: #e8edf2;
-    --cl-axis: #4d5470;
+    --cl-axis: #4a5c71;
     --cl-cross: #7a8899;
-    --cl-draw: #55418c;
+    --cl-draw: #0070c0;
     --cl-vol: #c9d3de;
     --cl-ha-note: #7a4f00;
   }
   .dark .cl-root {
     --cl-up: #34b36f;
     --cl-down: #ef6a5f;
-    --cl-grid: #253052;
-    --cl-axis: #adb0cb;
+    --cl-grid: #102a47;
+    --cl-axis: #a6bdd6;
     --cl-cross: #7f93ab;
-    --cl-draw: #c8b8db;
-    --cl-vol: #34405f;
+    --cl-draw: #4db8ff;
+    --cl-vol: #1d3a5a;
     --cl-ha-note: #f5c76e;
   }
 
@@ -357,6 +365,42 @@
   --tw-prose-code: var(--text);
   --tw-prose-th-borders: var(--border);
   --tw-prose-td-borders: var(--border);
+}
+
+/* ---- Light/dark switch animation (Header.astro) ----
+ * With the View Transitions API, the new theme grows as a circle from the toggle button
+ * (the clip-path animation is started from JavaScript). Browsers without it fade the colours instead.
+ * Both are skipped when the visitor prefers reduced motion.
+ */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) {
+  z-index: 1;
+}
+::view-transition-new(root) {
+  z-index: 2;
+}
+html.theme-fade,
+html.theme-fade *,
+html.theme-fade *::before,
+html.theme-fade *::after {
+  transition: background-color 0.45s ease, border-color 0.45s ease, color 0.45s ease, fill 0.45s ease, stroke 0.45s ease !important;
+}
+html.theme-switching #theme-toggle svg {
+  animation: theme-icon-in 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+@keyframes theme-icon-in {
+  from {
+    opacity: 0;
+    transform: rotate(-120deg) scale(0.4);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0) scale(1);
+  }
 }
 
 /* ---- Lesson animations (src/lib/markdown/animations.ts, AnimationScript.astro) ---- */
