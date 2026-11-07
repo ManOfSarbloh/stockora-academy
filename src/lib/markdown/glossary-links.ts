@@ -9,7 +9,8 @@
  *  - whole words only (letters/digits must not touch the match), so "ETF" does not match inside "ETFs"
  *    except as the plural, and "share" does not match inside "shareholder"
  *  - longer phrases win ("market order" before "market")
- *  - never inside headings, links, code, buttons or elements with the class "no-gloss"
+ *  - never inside headings, links, code, buttons or elements with the class "no-gloss"; in Markdown, wrap a
+ *    proper name in <span class="no-gloss">…</span> to keep it plain (e.g. "Stable Road Acquisition Company")
  */
 import type { Element, ElementContent, Root, RootContent, Text } from 'hast';
 
@@ -109,7 +110,25 @@ export function rehypeGlossaryLinks(options: { terms: GlossaryTerm[]; termsByLoc
 
     const walk = (parent: Root | Element) => {
       const next: (RootContent | ElementContent)[] = [];
+      // Inline HTML in Markdown reaches this plugin as separate raw nodes ('<span class="no-gloss">', text, '</span>'),
+      // because it is only parsed into elements later. `skip` counts the raw spans open since a no-gloss opening tag.
+      let skip = 0;
       for (const child of parent.children) {
+        const raw = (child as { type: string }).type === 'raw' ? String((child as { value?: unknown }).value ?? '') : null;
+        if (raw !== null) {
+          if (skip > 0) {
+            if (/^<span[\s>]/i.test(raw)) skip++;
+            else if (/^<\/span\s*>/i.test(raw)) skip--;
+          } else if (/^<span\b[^>]*\bclass\s*=\s*["'][^"']*\bno-gloss\b/i.test(raw)) {
+            skip = 1;
+          }
+          next.push(child);
+          continue;
+        }
+        if (skip > 0) {
+          next.push(child);
+          continue;
+        }
         if (child.type === 'text') {
           const replaced = linkText((child as Text).value, matcher, used, hrefFor);
           if (replaced) next.push(...replaced);

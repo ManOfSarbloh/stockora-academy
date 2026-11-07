@@ -5,7 +5,7 @@ summary: La SEC acusó a una SPAC, a su promotor y a la empresa con la que iba a
 translatedFrom: 2026-10-11
 ---
 
-Una **SPAC** (special purpose acquisition company, sociedad con fines especiales de adquisición) es una sociedad cotizada sin actividad que primero capta dinero y después busca una empresa privada con la que fusionarse. En **julio de 2021**, la SEC acusó a la SPAC **Stable Road Acquisition Company**, a su promotor y a su consejero delegado, a la empresa con la que planeaba fusionarse, la empresa de transporte espacial **Momentus**, y al fundador y antiguo consejero delegado de Momentus.
+Una **SPAC** (special purpose acquisition company, sociedad con fines especiales de adquisición) es una sociedad cotizada sin actividad que primero capta dinero y después busca una empresa privada con la que fusionarse. En **julio de 2021**, la SEC acusó a la SPAC **<span class="no-gloss">Stable Road Acquisition Company</span>**, a su promotor y a su consejero delegado, a la empresa con la que planeaba fusionarse, la empresa de transporte espacial **Momentus**, y al fundador y antiguo consejero delegado de Momentus.
 
 Según la resolución de la SEC que cerró el caso con un acuerdo:
 

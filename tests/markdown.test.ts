@@ -115,6 +115,20 @@ describe('rehypeGlossaryLinks', () => {
     const html = await md('- Each **share** counts');
     expect(html).toContain('<strong><a href="/glossary/#stock"');
   });
+
+  it('skips inline <span class="no-gloss"> written in Markdown, then links again after it', async () => {
+    const file = await unified()
+      .use(remarkParse)
+      .use(remarkRehype, { allowDangerousHtml: true })
+      .use(rehypeGlossaryLinks, { terms })
+      .use(rehypeStringify, { allowDangerousHtml: true })
+      .process('The **<span class="no-gloss">Market Share <span>Market</span> Trust</span>** sells a share on the market.');
+    const html = String(file);
+    expect(html).toContain('<span class="no-gloss">Market Share <span>Market</span> Trust</span>');
+    expect(html).toContain('a <a href="/glossary/#stock"');
+    expect(html).toContain('the <a href="/glossary/#market"');
+    expect(html.match(/class="gloss"/g)).toHaveLength(2);
+  });
 });
 
 describe('base path for internal links', () => {

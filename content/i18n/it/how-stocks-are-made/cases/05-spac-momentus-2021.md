@@ -5,7 +5,7 @@ summary: "La SEC accusò una SPAC, il suo promotore e la società con cui doveva
 translatedFrom: 2026-10-11
 ---
 
-Una **SPAC** (special purpose acquisition company) è una società guscio quotata che prima raccoglie denaro e poi cerca una società privata con cui fondersi. Nel **luglio 2021** la SEC formulò accuse contro la SPAC **Stable Road Acquisition Company**, il suo promotore e il suo CEO, la società con cui era prevista la fusione, l'impresa di trasporto spaziale **Momentus**, e il fondatore ed ex CEO di Momentus.
+Una **SPAC** (special purpose acquisition company) è una società guscio quotata che prima raccoglie denaro e poi cerca una società privata con cui fondersi. Nel **luglio 2021** la SEC formulò accuse contro la SPAC **<span class="no-gloss">Stable Road Acquisition Company</span>**, il suo promotore e il suo CEO, la società con cui era prevista la fusione, l'impresa di trasporto spaziale **Momentus**, e il fondatore ed ex CEO di Momentus.
 
 Secondo il provvedimento transattivo della SEC:
 

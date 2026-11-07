@@ -5,7 +5,7 @@ summary: Die SEC erhob Vorwürfe gegen einen SPAC, seinen Sponsor und sein Fusio
 translatedFrom: 2026-10-11
 ---
 
-Ein **SPAC** (Special Purpose Acquisition Company) ist eine börsennotierte Mantelgesellschaft, die zuerst Geld einsammelt und dann ein privates Unternehmen für eine Fusion sucht. Im **Juli 2021** erhob die SEC Vorwürfe gegen den SPAC **Stable Road Acquisition Company**, seinen Sponsor und CEO, sein geplantes Fusionsziel, das Raumtransportunternehmen **Momentus**, sowie den Gründer und früheren CEO von Momentus.
+Ein **SPAC** (Special Purpose Acquisition Company) ist eine börsennotierte Mantelgesellschaft, die zuerst Geld einsammelt und dann ein privates Unternehmen für eine Fusion sucht. Im **Juli 2021** erhob die SEC Vorwürfe gegen den SPAC **<span class="no-gloss">Stable Road Acquisition Company</span>**, seinen Sponsor und CEO, sein geplantes Fusionsziel, das Raumtransportunternehmen **Momentus**, sowie den Gründer und früheren CEO von Momentus.
 
 Laut der Vergleichsverfügung der SEC:
 

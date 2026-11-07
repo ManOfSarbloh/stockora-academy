@@ -12,7 +12,7 @@ sources:
     url: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins/what-you
 ---
 
-A **SPAC** (special purpose acquisition company) is a listed shell company that raises money first and then looks for a private company to merge with. In **July 2021**, the SEC charged the SPAC **Stable Road Acquisition Company**, its sponsor and CEO, its planned merger target, the space transportation company **Momentus**, and Momentus's founder and former CEO.
+A **SPAC** (special purpose acquisition company) is a listed shell company that raises money first and then looks for a private company to merge with. In **July 2021**, the SEC charged the SPAC **<span class="no-gloss">Stable Road Acquisition Company</span>**, its sponsor and CEO, its planned merger target, the space transportation company **Momentus**, and Momentus's founder and former CEO.
 
 According to the SEC's settled order:
 

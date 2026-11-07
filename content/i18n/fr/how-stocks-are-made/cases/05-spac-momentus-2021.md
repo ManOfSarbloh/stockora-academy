@@ -5,7 +5,7 @@ summary: "La SEC a poursuivi un SPAC, son sponsor et sa cible de fusion pour des
 translatedFrom: 2026-10-11
 ---
 
-Un **SPAC** (special purpose acquisition company) est une société-écran cotée qui lève d'abord de l'argent, puis cherche une société non cotée avec laquelle fusionner. En **juillet 2021**, la SEC a poursuivi le SPAC **Stable Road Acquisition Company**, son sponsor et son PDG, sa cible de fusion prévue, l'entreprise de transport spatial **Momentus**, ainsi que le fondateur et ancien PDG de Momentus.
+Un **SPAC** (special purpose acquisition company) est une société-écran cotée qui lève d'abord de l'argent, puis cherche une société non cotée avec laquelle fusionner. En **juillet 2021**, la SEC a poursuivi le SPAC **<span class="no-gloss">Stable Road Acquisition Company</span>**, son sponsor et son PDG, sa cible de fusion prévue, l'entreprise de transport spatial **Momentus**, ainsi que le fondateur et ancien PDG de Momentus.
 
 Selon la décision transactionnelle de la SEC :
 
