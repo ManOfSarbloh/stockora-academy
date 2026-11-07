@@ -1,0 +1,12 @@
+{
+  "JP-001": {"question":"In che anno è stata costituita la Tokyo Stock Exchange Co., Ltd.?","explanation":"Il 15 maggio 1878."},
+  "JP-002": {"question":"In quante azioni si negoziano le azioni ordinarie delle società quotate giapponesi (l'unità di negoziazione)?","explanation":"100 azioni dal 1° ottobre 2018."},
+  "JP-003": {"question":"Un'azione ha chiuso a 1.000 yen. In quale intervallo può essere negoziata il giorno dopo secondo i limiti di prezzo giornalieri della TSE?","explanation":"È l'esempio fornito dalla stessa JPX.","options":["700–1.300 yen","900–1.100 yen","500–1.500 yen","Nessun limite"]},
+  "JP-004": {"question":"La Borsa di Tokyo ha una pausa pranzo?","explanation":"Mattino 09:00–11:30, pomeriggio 12:30–15:30.","options":["Sì, 11:30–12:30","No","Sì, 12:00–13:30","Solo il venerdì"]},
+  "JP-005": {"question":"Quale valore base e quale data usa il TOPIX?","explanation":"Ponderato per capitalizzazione di mercato del flottante, base 100 al 4 gennaio 1968.","options":["100 punti al 4 gennaio 1968","1.000 punti al 4 gennaio 1968","100 punti nel 1989","10.000 punti nel 2000"]},
+  "JP-006": {"question":"Qual è il ciclo di regolamento delle azioni giapponesi?","explanation":"Due giorni lavorativi dopo la data dell'operazione.","options":["T+2","T+1","T+3","T+0"]},
+  "JP-007": {"question":"Qual è l'aliquota complessiva per i residenti in Giappone sui dividendi di azioni quotate (nazionale più locale), in percentuale?","explanation":"15,315% + 5% di imposta locale."},
+  "JP-008": {"question":"Qual è il limite complessivo di possesso esente nell'attuale NISA, in milioni di yen?","explanation":"18 milioni di yen (di cui fino a 12 milioni nella parte crescita)."},
+  "JP-009": {"question":"Con quale aliquota vengono trattenuti in genere i dividendi di azioni quotate pagati ai non residenti (con meno del 3%)?","explanation":"15,315%; 20,42% per chi detiene il 3% o più; le convenzioni possono ridurla.","options":["15,315%","30%","20,315%","10%"]},
+  "JP-010": {"question":"In che anno il Nikkei 225 è tornato per la prima volta a chiudere sopra il record del 1989?","explanation":"Il 22 febbraio 2024."}
+}

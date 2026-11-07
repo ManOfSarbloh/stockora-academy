@@ -1,0 +1,14 @@
+{
+  "SE-001": {"question":"In che anno la Borsa di Stoccolma ha avuto il suo primo giorno di negoziazione?","explanation":"Il 4 febbraio 1863."},
+  "SE-002": {"question":"Quante società comprende l'OMXS30?","explanation":"Le 30 azioni più grandi e più scambiate della Borsa di Stoccolma."},
+  "SE-003": {"question":"Qual è il valore base dell'OMXS30?","explanation":"Valore base 125.","options":["125","1.000","100","3.000"]},
+  "SE-004": {"question":"In quale valuta si negoziano le azioni su Nasdaq Stockholm?","explanation":"In corone svedesi, quindi chi investe in euro sostiene un rischio di cambio.","options":["Corona svedese (SEK)","Euro","Corona danese","Corona norvegese"]},
+  "SE-005": {"question":"Quando si negoziano le azioni del mercato principale su Nasdaq Stockholm?","explanation":"09:00–17:30, senza abbinamento degli ordini negli ultimi cinque minuti prima dell'asta di chiusura.","options":["09:00–17:30","10:00–18:30","09:00–17:00","08:00–16:30"]},
+  "SE-006": {"question":"Quale autorità sorveglia il mercato finanziario svedese?","explanation":"La FI è l'autorità statale incaricata di sorvegliare il mercato finanziario.","options":["Finansinspektionen (FI)","Riksbank","Skatteverket","Nasdaq"]},
+  "SE-007": {"question":"Fino a quale importo, in corone svedesi, sono tutelati i depositi per persona e per istituto dal 1° gennaio 2026?","explanation":"1.150.000 corone, il controvalore in corone di 100.000 €."},
+  "SE-008": {"question":"Qual è l'aliquota principale della ritenuta svedese (kupongskatt) sui dividendi pagati a investitori esteri, in percentuale?","explanation":"Il 30%, che può essere ridotto in base a una convenzione fiscale."},
+  "SE-009": {"question":"Vero o falso: in un conto di risparmio d'investimento svedese (ISK) dividendi e plusvalenze vengono tassati quando si realizzano.","explanation":"Falso. Il conto è invece tassato al 30% di un rendimento forfettario."},
+  "SE-010": {"question":"Quale istituzione è il depositario centrale di titoli svedese?","explanation":"Euroclear Sweden.","options":["Euroclear Sweden","Clearstream","Iberclear","KDPW"]},
+  "SE-011": {"question":"Quali di queste società facevano parte dell'OMXS30 nell'ottobre 2026? Seleziona tutte le risposte corrette.","explanation":"Nestlé è svizzera e fa parte dell'SMI.","options":["Volvo","Ericsson","H&M","Nestlé"]},
+  "SE-012": {"question":"Vero o falso: l'OMXS30 può comprendere più di una designazione di classe di azioni, come «ser. A» o «ser. B».","explanation":"Vero: per esempio Atlas Copco A e Volvo B."}
+}

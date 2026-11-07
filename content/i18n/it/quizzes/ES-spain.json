@@ -1,0 +1,14 @@
+{
+  "ES-001": {"question":"In che anno è nata la Borsa di Madrid?","explanation":"Nel 1831, il che la rende una delle istituzioni finanziarie più antiche della Spagna."},
+  "ES-002": {"question":"Quante società comprende l'IBEX 35?","explanation":"35 dei maggiori titoli negoziati in Spagna."},
+  "ES-003": {"question":"Qual era il livello base dell'IBEX 35 al 29 dicembre 1989?","explanation":"3.000 punti.","options":["3.000 punti","1.000 punti","1.500 punti","100 punti"]},
+  "ES-004": {"question":"Quale gruppo possiede dal 2020 BME, il gestore delle Borse spagnole?","explanation":"SIX, che gestisce anche la Borsa svizzera.","options":["SIX Group","Euronext","Deutsche Börse","London Stock Exchange Group"]},
+  "ES-005": {"question":"In quale orario si svolge la negoziazione continua sul sistema SIBE della Borsa spagnola?","explanation":"Asta di apertura 08:30–09:00; asta di chiusura 17:30–17:35; negoziazione all'ultimo prezzo fino alle 17:45.","options":["09:00–17:30","08:30–16:30","10:00–18:00","09:30–16:00"]},
+  "ES-006": {"question":"Fino a quale importo il FGD spagnolo garantisce i depositi per titolare e per istituto, in euro?","explanation":"100.000 €."},
+  "ES-007": {"question":"Qual è l'aliquota dell'imposta spagnola sulle transazioni finanziarie, in percentuale?","explanation":"0,2% sugli acquisti di azioni di società spagnole che valgono più di 1 miliardo di euro."},
+  "ES-008": {"question":"Con quale aliquota la Spagna tassa i dividendi pagati ai non residenti senza stabile organizzazione, prima dei limiti delle convenzioni, in percentuale?","explanation":"19%."},
+  "ES-009": {"question":"Negli scaglioni spagnoli 2025, qual è l'aliquota statale massima sui redditi da risparmio oltre 300.000 €?","explanation":"La quota statale va dal 9,5% al 15%; con la quota regionale (anch'essa fino al 15%) l'aliquota massima complessiva è del 30%.","options":["15%","9,5%","19%","30%"]},
+  "ES-010": {"question":"Quale istituzione è il depositario centrale di titoli spagnolo?","explanation":"Iberclear è una controllata di BME.","options":["Iberclear","Euroclear France","Clearstream","KDPW"]},
+  "ES-011": {"question":"Quali di queste società facevano parte dell'IBEX 35 nel dicembre 2025? Seleziona tutte le risposte corrette.","explanation":"Ferrari è italiana e fa parte del FTSE MIB.","options":["Santander","Inditex","Iberdrola","Ferrari"]},
+  "ES-012": {"question":"Vero o falso: la Spagna passa al regolamento T+1 l'11 ottobre 2027 insieme al resto dell'UE.","explanation":"Vero."}
+}

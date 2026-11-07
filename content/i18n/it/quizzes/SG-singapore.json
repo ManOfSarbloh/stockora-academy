@@ -1,0 +1,13 @@
+{
+  "SG-001": {"question":"In che anno è nata per fusione Singapore Exchange (SGX)?","explanation":"Il 1° dicembre 1999, da Stock Exchange of Singapore, SIMEX e Securities Clearing and Computer Services."},
+  "SG-002": {"question":"Quale giornale dà il nome al principale indice azionario di Singapore?","explanation":"Lo Straits Times Index è calcolato da FTSE Russell con SGX e SPH Media Trust, editore del giornale.","options":["The Straits Times","The Business Times","Lianhe Zaobao","The Edge"]},
+  "SG-003": {"question":"Dal 5 ottobre 2026, qual è il lotto per le azioni SGX con prezzo superiore a 100 S$?","explanation":"1 azione oltre 100 S$, 10 azioni oltre 10 S$ (fino a 100 S$); altrimenti 100.","options":["1 azione","10 azioni","100 azioni","1.000 azioni"]},
+  "SG-004": {"question":"Qual era il lotto standard di SGX prima del 19 gennaio 2015?","explanation":"Il 19 gennaio 2015 è stato ridotto da 1.000 a 100 unità.","options":["1.000 azioni","100 azioni","10 azioni","1 azione"]},
+  "SG-005": {"question":"Qual è il ciclo di regolamento delle azioni SGX?","explanation":"T+2 per le operazioni dal 10 dicembre 2018 (prima: T+3).","options":["T+2","T+1","T+3","T+0"]},
+  "SG-006": {"question":"Vero o falso: i dividendi delle società residenti a Singapore in genere non sono imponibili per gli azionisti.","explanation":"Vero: nel sistema one-tier l'imposta pagata dalla società è definitiva."},
+  "SG-007": {"question":"Vero o falso: Singapore in genere tassa le plusvalenze delle persone fisiche dalla compravendita di azioni.","explanation":"Falso: queste plusvalenze sono in genere considerate investimenti personali e non tassate; la negoziazione svolta come attività d'impresa può essere tassata."},
+  "SG-008": {"question":"Fino a quanto sono assicurati i depositi per depositante e per aderente a Singapore?","explanation":"100.000 S$ dalla Singapore Deposit Insurance Corporation.","options":["100.000 S$","50.000 S$","250.000 S$","1 milione di S$"]},
+  "SG-009": {"question":"Quale quota circa delle società quotate su SGX proviene da fuori Singapore?","explanation":"Circa il 40% delle società quotate e oltre l'80% delle obbligazioni quotate, secondo SGX.","options":["Circa il 40%","Circa il 5%","Circa il 90%","Nessuna"]},
+  "SG-010": {"question":"SGX ha una pausa a metà giornata?","explanation":"Negoziazione 09:00–12:00 e 13:00–17:00.","options":["Sì, 12:00–13:00","No","Sì, 11:30–13:00","Solo il venerdì"]},
+  "SG-011": {"question":"Metti questi eventi in ordine, dal più vecchio.","explanation":"1966, 1999, 2008, 2015, 2018.","orderedItems":["Primo calcolo dello Straits Times Index","Nasce SGX","Lo STI viene rilanciato con la metodologia FTSE","Il lotto scende a 100 azioni","Il regolamento si accorcia a T+2"]}
+}

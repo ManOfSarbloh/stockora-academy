@@ -1,0 +1,15 @@
+{
+  "CH-001": {"question":"Quante società comprende l'SMI?","explanation":"Le 20 azioni svizzere più grandi e più liquide."},
+  "CH-002": {"question":"A quale livello fu fissato l'SMI il 30 giugno 1988?","explanation":"1.500 punti.","options":["1.500 punti","1.000 punti","100 punti","10.000 punti"]},
+  "CH-003": {"question":"A quale peso massimo vengono limitate ogni trimestre le componenti dell'SMI, in percentuale?","explanation":"Il 18%, che rende l'SMI conforme alle regole UE sugli OICVM (UCITS)."},
+  "CH-004": {"question":"Quale autorità vigila sul mercato finanziario svizzero?","explanation":"La FINMA è l'autorità indipendente svizzera di vigilanza sui mercati finanziari.","options":["FINMA","BaFin","FCA","FMA"]},
+  "CH-005": {"question":"Fino a quale importo sono tutelati i depositi bancari per cliente in Svizzera?","explanation":"esisuisse tutela i depositi fino a 100.000 franchi per cliente e per banca.","options":["100.000 franchi","20.000 franchi","500.000 franchi","Nessuna tutela"]},
+  "CH-006": {"question":"Qual è l'aliquota dell'imposta preventiva svizzera sui dividendi, in percentuale?","explanation":"Il 35% (Verrechnungssteuer); i residenti la recuperano dichiarando il reddito."},
+  "CH-007": {"question":"Vero o falso: in Svizzera le plusvalenze dalla vendita di titoli detenuti come patrimonio privato sono esenti a livello federale e cantonale.","explanation":"Vero, secondo l'Amministrazione federale delle contribuzioni."},
+  "CH-008": {"question":"Quale tassa di bollo sulla negoziazione si applica quando un commerciante di titoli svizzero interviene nell'acquisto di titoli esteri?","explanation":"0,15% per i titoli svizzeri e 0,3% per quelli esteri.","options":["0,3%","0,15%","0,5%","Nessuna"]},
+  "CH-009": {"question":"In quale data le Borse di Basilea, Ginevra e Zurigo si fusero nella Borsa svizzera SWX?","explanation":"Il 17 maggio 1995; la negoziazione interamente elettronica seguì tra dicembre 1995 e agosto 1996.","options":["17 maggio 1995","1° luglio 1988","8 dicembre 1995","1° gennaio 2000"]},
+  "CH-010": {"question":"Vero o falso: la Borsa svizzera è stata la prima al mondo a passare interamente a sistemi elettronici per negoziazione, regolamento e custodia.","explanation":"Vero, tra l'8 dicembre 1995 e il 16 agosto 1996, secondo SIX."},
+  "CH-011": {"question":"Quali società sono entrate nell'SMI nel settembre 2026? Seleziona tutte le risposte corrette.","explanation":"Sono entrate Galderma e Sandoz; sono uscite Swisscom e Kuehne+Nagel.","options":["Galderma","Sandoz","Swisscom","Kuehne+Nagel"]},
+  "CH-012": {"question":"Quando la Svizzera passa al regolamento T+1?","explanation":"SIX coordina la transizione l'11 ottobre 2027.","options":["L'11 ottobre 2027, insieme a UE e Regno Unito","Usa già T+0","Nel 2030","Mai; resta a T+3"]},
+  "CH-013": {"question":"Fino a che ora si possono negoziare azioni al prezzo di chiusura su SIX dopo l'asta di chiusura?","explanation":"La negoziazione al prezzo di chiusura dura fino alle 17:40.","options":["17:40","17:20","18:30","22:00"]}
+}

@@ -1,0 +1,14 @@
+{
+  "IT-001": {"question":"In che anno è stata istituita per decreto la Borsa di commercio di Milano?","explanation":"Con un decreto del 16 gennaio 1808 del viceré Eugenio Napoleone."},
+  "IT-002": {"question":"Quante società comprende il FTSE MIB?","explanation":"Le 40 principali azioni di Euronext Milan ed Euronext MIV Milan."},
+  "IT-003": {"question":"In quale orario si svolge la negoziazione continua su Euronext Milan?","explanation":"Asta di apertura 07:30–09:00, negoziazione continua 09:00–17:30, asta di chiusura 17:30–17:35, negoziazione al prezzo di chiusura fino alle 17:40.","options":["09:00–17:30","08:00–16:30","09:30–17:30","10:00–18:00"]},
+  "IT-004": {"question":"Fino a quale importo il FITD garantisce i depositi per depositante e per banca, in euro?","explanation":"100.000 €."},
+  "IT-005": {"question":"Qual è l'aliquota dell'imposta italiana sulle transazioni finanziarie sui trasferimenti di azioni dal 1° gennaio 2026, prima della riduzione per i mercati regolamentati?","explanation":"0,4% (0,2% fino al 2025); dimezzata per le operazioni su mercati regolamentati e sistemi multilaterali di negoziazione.","options":["0,4%","0,2%","0,1%","1%"]},
+  "IT-006": {"question":"Quanto costa nel 2026 l'imposta italiana sulle transazioni su un acquisto in Borsa di azioni di una grande società italiana?","explanation":"L'aliquota dello 0,4% è dimezzata allo 0,2% per le operazioni su mercati regolamentati o sistemi multilaterali di negoziazione.","options":["0,2%","0,4%","0,1%","Niente"]},
+  "IT-007": {"question":"Vero o falso: le azioni di società italiane con una capitalizzazione media inferiore a 500 milioni di euro (nel novembre precedente) sono esenti dall'imposta sulle transazioni.","explanation":"Vero."},
+  "IT-008": {"question":"Con quale aliquota è tassata la maggior parte delle plusvalenze su strumenti finanziari per i residenti in Italia, in percentuale?","explanation":"Un'imposta sostitutiva del 26%; alcune categorie hanno il 20%."},
+  "IT-009": {"question":"Entro quanti mesi un non residente deve chiedere il rimborso della ritenuta italiana eccedente in base a una convenzione fiscale?","explanation":"48 mesi dalla data della ritenuta; l'aliquota della convenzione può anche essere applicata direttamente dal sostituto d'imposta.","options":["48 mesi","12 mesi","6 mesi","10 anni"]},
+  "IT-010": {"question":"Quali di queste società facevano parte del FTSE MIB nell'ottobre 2026? Seleziona tutte le risposte corrette.","explanation":"TotalEnergies è francese e fa parte del CAC 40.","options":["Ferrari","Enel","UniCredit","TotalEnergies"]},
+  "IT-011": {"question":"Quale autorità vigila sul mercato azionario italiano?","explanation":"La CONSOB: Commissione Nazionale per le Società e la Borsa.","options":["CONSOB","AMF","CNMV","FMA"]},
+  "IT-012": {"question":"Vero o falso: l'Italia passa al regolamento T+1 l'11 ottobre 2027 insieme al resto dell'UE.","explanation":"Vero."}
+}

@@ -1,0 +1,14 @@
+{
+  "NL-001": {"question":"Quante società comprende l'AEX (nel 2026)?","explanation":"Le 30 azioni più grandi e più scambiate su Euronext Amsterdam."},
+  "NL-002": {"question":"Quale società fu la prima a essere negoziata alla Borsa di Amsterdam, nel 1602?","explanation":"La VOC; Euronext definisce Amsterdam la Borsa più antica del mondo.","options":["La Compagnia olandese delle Indie orientali (VOC)","Shell","Philips","La Banca di Amsterdam"]},
+  "NL-003": {"question":"Quale società aveva il peso maggiore nell'AEX alla fine di settembre 2026?","explanation":"ASML, con circa il 16,9%.","options":["ASML","Shell","Unilever","ING Group"]},
+  "NL-004": {"question":"Quale quota circa dell'AEX rappresentavano le sue dieci maggiori società alla fine di settembre 2026, in percentuale (numero intero)?","explanation":"Il 76,61%, quindi circa il 77%."},
+  "NL-005": {"question":"Quale autorità vigila sulla condotta del settore dei mercati finanziari olandese?","explanation":"L'AFM, dal 1° marzo 2002; la DNB è la banca centrale e l'autorità di vigilanza prudenziale.","options":["AFM","DNB","BCE","BaFin"]},
+  "NL-006": {"question":"Fino a quale importo è tutelato il denaro sui conti bancari olandesi per persona e per banca, in euro?","explanation":"100.000 €; azioni e obbligazioni non sono coperte dalla garanzia dei depositi."},
+  "NL-007": {"question":"Qual è l'aliquota generale dell'imposta olandese sui dividendi, in percentuale?","explanation":"Il 15%, trattenuto dalla società che paga."},
+  "NL-008": {"question":"Vero o falso: la garanzia dei depositi olandese copre anche le azioni detenute in un conto titoli.","explanation":"Falso. Copre i depositi bancari, non i prodotti d'investimento come azioni e obbligazioni."},
+  "NL-009": {"question":"In che anno le Borse di Amsterdam, Bruxelles e Parigi si unirono per formare Euronext?","explanation":"Euronext è nata nel 2000.","options":["2000","1602","1988","2014"]},
+  "NL-010": {"question":"Quale depositario centrale di titoli regola le azioni olandesi?","explanation":"Euroclear Nederland è uno dei depositari ESES di Euroclear.","options":["Euroclear Nederland","Clearstream","Monte Titoli","Iberclear"]},
+  "NL-011": {"question":"Vero o falso: i Paesi Bassi passano al regolamento T+1 l'11 ottobre 2027 insieme al resto dell'UE.","explanation":"Vero; fino ad allora le operazioni si regolano a T+2."},
+  "NL-012": {"question":"Quali di queste società erano tra le dieci maggiori dell'AEX alla fine di settembre 2026? Seleziona tutte le risposte corrette.","explanation":"Siemens è una società tedesca del DAX.","options":["ASML","Unilever","Adyen","Siemens"]}
+}

@@ -1,0 +1,14 @@
+{
+  "FR-001": {"question":"Quante società comprende il CAC 40?","explanation":"Le 40 azioni più grandi e più scambiate su Euronext Paris."},
+  "FR-002": {"question":"Quali tre Borse si unirono nel 2000 per formare Euronext?","explanation":"Euronext nacque nel 2000 dal consolidamento di Amsterdam, Bruxelles e Parigi.","options":["Amsterdam, Bruxelles e Parigi","Parigi, Francoforte e Milano","Londra, Parigi e Madrid","Parigi, Lisbona e Oslo"]},
+  "FR-003": {"question":"Qual era il valore base del CAC 40 al 31 dicembre 1987?","explanation":"1.000 punti; l'indice fu lanciato il 15 giugno 1988.","options":["1.000 punti","1.500 punti","100 punti","500 punti"]},
+  "FR-004": {"question":"Quale autorità regola i mercati finanziari francesi?","explanation":"L'AMF è un'autorità pubblica indipendente.","options":["Autorité des marchés financiers (AMF)","BaFin","FCA","CONSOB"]},
+  "FR-005": {"question":"Fino a quale importo sono garantiti i depositi per cliente e per banca in Francia, in euro?","explanation":"100.000 € (FGDR)."},
+  "FR-006": {"question":"Fino a quale importo la garanzia francese dei titoli copre i clienti di un'impresa di investimento fallita, in euro?","explanation":"70.000 € per cliente e per impresa."},
+  "FR-007": {"question":"Qual è il prelievo forfettario complessivo sui redditi da titoli per i residenti in Francia dal 1° gennaio 2026, in percentuale?","explanation":"31,4%: 12,8% di imposta sul reddito e 18,6% di contributi sociali."},
+  "FR-008": {"question":"Qual è l'aliquota della ritenuta francese sui dividendi pagati a persone fisiche residenti all'estero (prima delle riduzioni convenzionali), in percentuale?","explanation":"12,8%, l'aliquota in vigore al 1° gennaio 2026."},
+  "FR-009": {"question":"Qual è l'aliquota dell'imposta francese sulle transazioni finanziarie sull'acquisto di azioni di grandi società francesi dal 1° aprile 2025?","explanation":"Alzata dallo 0,3% allo 0,4% dalla legge di bilancio 2025.","options":["0,4%","0,3%","0,5%","0,1%"]},
+  "FR-010": {"question":"Vero o falso: la Francia passa al regolamento T+1 l'11 ottobre 2027 insieme al resto dell'UE.","explanation":"Vero; fino ad allora le operazioni si regolano a T+2."},
+  "FR-011": {"question":"Quali società erano tra le dieci maggiori del CAC 40 alla fine di settembre 2026? Seleziona tutte le risposte corrette.","explanation":"Nestlé è svizzera ed è quotata a Zurigo.","options":["TotalEnergies","LVMH","Schneider Electric","Nestlé"]},
+  "FR-012": {"question":"Quale gruppo gestisce il depositario centrale di titoli per le azioni francesi?","explanation":"Euroclear France è uno dei depositari ESES.","options":["Euroclear (Euroclear France)","Clearstream","DTCC","SIX SIS"]}
+}

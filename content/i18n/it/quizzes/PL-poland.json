@@ -1,0 +1,15 @@
+{
+  "PL-001": {"question":"In che anno nacque la Borsa mercantile di Varsavia, inizio delle tradizioni del mercato dei capitali polacco?","explanation":"Nel 1817; l'attuale società Borsa di Varsavia è stata costituita nel 1991."},
+  "PL-002": {"question":"Quando è stata costituita l'attuale società Borsa di Varsavia?","explanation":"Dal Tesoro dello Stato il 12 aprile 1991, dopo la caduta del comunismo.","options":["12 aprile 1991","9 novembre 1989","1° maggio 2004","16 aprile 1994"]},
+  "PL-003": {"question":"Quante società comprende il WIG20?","explanation":"20 delle principali e più liquide società del listino principale della Borsa di Varsavia."},
+  "PL-004": {"question":"Da che anno viene calcolato il WIG20?","explanation":"Dal 16 aprile 1994."},
+  "PL-005": {"question":"In che anno FTSE Russell ha promosso la Polonia allo status di mercato sviluppato?","explanation":"Con effetto dal 24 settembre 2018; nel 2008 la Polonia era passata da Secondary Emerging ad Advanced Emerging.","options":["2018","2008","2004","2022"]},
+  "PL-006": {"question":"In quale valuta si negoziano le azioni alla Borsa di Varsavia?","explanation":"La Polonia fa parte dell'UE ma non usa l'euro.","options":["Złoty polacco (PLN)","Euro","Corona ceca","Dollaro statunitense"]},
+  "PL-007": {"question":"Quale autorità vigila sul mercato finanziario polacco?","explanation":"La KNF.","options":["KNF (Autorità polacca di vigilanza finanziaria)","FMA","BaFin","CNMV"]},
+  "PL-008": {"question":"Fino a quale importo il Fondo di garanzia bancaria polacco copre i depositi ammissibili per depositante e per istituto?","explanation":"100.000 € (in złoty o in valuta estera).","options":["100.000 €","100.000 PLN","20.000 €","Senza limiti"]},
+  "PL-009": {"question":"Con quale aliquota è tassato il reddito dalla vendita di azioni per i residenti in Polonia, in percentuale?","explanation":"Il 19%, da indicare nel modello PIT-38."},
+  "PL-010": {"question":"Vero o falso: in Polonia le perdite dalla vendita di azioni possono essere compensate, entro certi limiti, con redditi della stessa fonte nei cinque anni successivi.","explanation":"Vero, come spiegato nell'opuscolo sul PIT-38."},
+  "PL-011": {"question":"Quale istituzione è il depositario centrale di titoli polacco?","explanation":"KDPW, Krajowy Depozyt Papierów Wartościowych.","options":["KDPW","Euroclear Poland","Clearstream","GPW Benchmark"]},
+  "PL-012": {"question":"Quali di queste società facevano parte del WIG20 nel 2026? Seleziona tutte le risposte corrette.","explanation":"Volvo è svedese e fa parte dell'OMXS30.","options":["PKO Bank Polski","CD Projekt","KGHM","Volvo"]},
+  "PL-013": {"question":"Vero o falso: in quanto Stato membro dell'UE, la Polonia passa al regolamento T+1 l'11 ottobre 2027.","explanation":"Vero."}
+}
