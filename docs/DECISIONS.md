@@ -311,9 +311,18 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Glossary links | After each topic, the glossary links in the built French pages were listed and every everyday-word match removed by rewording or by renaming the French glossary term (for example "Liquidité de marché", "Fourchette acheteur-vendeur (spread)", "Glissement de prix (slippage)"). English terms also match on French pages, so words such as "option" (choice), "obligation" (duty), "compensation" or "résultat net" are avoided outside their glossary sense. Two matcher fixes apply to every language: an all-capital abbreviation only matches in capitals ("MAR", not "mars"), and a straight apostrophe in a term also matches the typographic one (src/lib/markdown/glossary-links.ts, with tests) |
 | Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
 
+## Italian lessons and quizzes (2026-10-30 to 2026-11-06)
+
+| Topic | Decision |
+|---|---|
+| Scope | After French, the owner asked to continue with Italian. All 196 lessons and the 1,102 topic quiz questions (topics A to W) are in Italian, in the same files and with the same checks as the other languages (content/i18n/it/lessons, content/i18n/it/quizzes). The 20 country pages, their 241 quiz questions and How Stocks Are Made still follow |
+| Style | tu-form; it-IT numbers (1.000 €, 27,5%, 2,5 milioni di euro, M€); « » quotes; takeaways heading "Punti chiave"; Italian market terms (conto titoli, ordine con limite di prezzo, prezzo denaro/lettera, OICVM, KID, utile per azione) and Austrian legal names kept as the BMF, FMA and the laws use them, with an Italian explanation the first time |
+| Glossary links | After each topic, the glossary links in the built Italian pages were listed and every everyday-word match removed by rewording or by renaming the Italian glossary term (for example "Liquidità di mercato", "Compensazione e garanzia (clearing)", "Opzione finanziaria (derivato)"). Words kept out of their everyday sense: "titolo" (only a security, never a headline or a title), "opzione" (not a choice), "obbligazione" (not a duty), "prospetto" (not a table), "asta" (not a flagpole) |
+| Publishing | Each topic was pushed on its own after npm run verify passed, as the owner asked |
+
 ## Open items
 
-- Translations: Italian lessons, quizzes, country pages and How Stocks Are Made.
+- Translations: Italian country pages, their quizzes and How Stocks Are Made.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
