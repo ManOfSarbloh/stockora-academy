@@ -1,0 +1,108 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Austria",
+  "summary": "Un mercato piccolo ma di lunga tradizione: la Wiener Börse è stata fondata nel 1771, e l'ATX segue circa 20 delle sue azioni più liquide, molte delle quali di banche, assicurazioni, società energetiche e industriali. L'Austria è l'esempio di riferimento di questo sito.",
+  "currency": {
+    "name": "Euro",
+    "note": "Per chi investe denaro in euro, le azioni austriache non comportano rischio di cambio. Molte società dell'ATX realizzano però parte dei ricavi in altre valute, soprattutto nell'Europa centrale e orientale, quindi i movimenti dei cambi possono comunque incidere sui loro utili."
+  },
+  "exchanges": [
+    {
+      "name": "Wiener Börse (Borsa di Vienna)",
+      "city": "Vienna",
+      "founded": "1771, per volontà di Maria Teresa",
+      "hours": "Negoziazione continua dalle 09:00 alle 17:30 per le azioni dell'ATX, con un'asta di apertura dalle 08:55, una breve asta di metà giornata dalle 12:00 alle 12:03 e un'asta di chiusura dalle 17:30 alle 17:35. Le azioni meno liquide possono essere negoziate solo in asta.",
+      "note": "La Borsa è aperta in diverse festività austriache, come l'Epifania, l'Ascensione, il lunedì di Pentecoste e il Corpus Domini."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "ATX (Austrian Traded Index)",
+      "constituents": "Circa 20 azioni (20 a ottobre 2026)",
+      "description": "Indice di prezzo del segmento delle blue chip, calcolato in tempo reale dalla Wiener Börse. Le azioni sono ponderate in base al loro valore di mercato. È partito il 2 gennaio 1991 a 1.000 punti."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finanzmarktaufsicht (FMA)",
+      "role": "Autorità di vigilanza integrata su banche, assicurazioni, imprese di investimento, fondi e mercati dei titoli, compresi gli abusi di mercato e l'informativa degli emittenti."
+    },
+    {
+      "name": "Übernahmekommission (Commissione per le acquisizioni)",
+      "role": "Autorità indipendente presso la Borsa di Vienna che vigila sulle offerte di acquisizione (categoria R)."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garanzia dei depositi (Einlagensicherung AUSTRIA)",
+      "text": "I depositi bancari sono tutelati fino a 100.000 € per persona e per banca."
+    },
+    {
+      "name": "Indennizzo degli investitori",
+      "text": "Se una banca, violando i propri obblighi, non può restituire i titoli che custodisce per te, l'indennizzo degli investitori copre fino a 20.000 €. I titoli in custodia restano di tua proprietà."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "OeKB CSD",
+    "note": "Come il resto dell'UE, l'Austria passa al regolamento il giorno successivo (T+1) l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Interruzioni per volatilità",
+      "text": "Se il prezzo successivo uscisse da un corridoio prestabilito, la negoziazione si ferma (per esempio per 2 minuti nella negoziazione continua) e un'asta determina il prezzo. È la versione viennese di un circuit breaker."
+    },
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette su azioni vanno comunicate all'autorità di vigilanza dallo 0,1% del capitale sociale emesso e pubblicate dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: 27,5% su dividendi e plusvalenze (KESt, trattenuta dalle banche austriache); 25% sugli interessi bancari.",
+    "items": [
+      {
+        "title": "Plusvalenze e dividendi",
+        "text": "Tassati con un'aliquota speciale del 27,5% (Kapitalertragsteuer, KESt). Una banca o un broker austriaco la trattiene, il che di solito estingue l'imposta."
+      },
+      {
+        "title": "Interessi bancari",
+        "text": "Gli interessi sui depositi bancari sono tassati al 25%."
+      },
+      {
+        "title": "Dividendi esteri",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo a scomputo della KESt austriaca."
+      },
+      {
+        "title": "Broker estero",
+        "text": "Con un conto all'estero non viene trattenuta la KESt; dichiari tu stesso i redditi nella dichiarazione dei redditi austriaca."
+      },
+      {
+        "title": "Criptovalute",
+        "text": "Rientrano nei redditi da capitale al 27,5% dal 1° marzo 2022, per le attività acquistate dopo il 28 febbraio 2021."
+      }
+    ]
+  },
+  "access": [
+    "Tramite una banca o un broker austriaco, che trattiene automaticamente l'imposta austriaca.",
+    "Tramite un broker estero, nel qual caso dichiari tu stesso i redditi (categoria Q).",
+    "Indirettamente, tramite fondi o ETF che detengono azioni austriache (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Maria Teresa fonda la Borsa di Vienna."
+    },
+    {
+      "text": "Il crollo del 9 maggio 1873 pone fine al boom della Gründerzeit; circa metà delle società quotate scompare (categoria K)."
+    },
+    {
+      "text": "Il 2 gennaio viene lanciato l'ATX a 1.000 punti."
+    },
+    {
+      "text": "La Wiener Börse festeggia i suoi 250 anni."
+    }
+  ],
+  "funFacts": [
+    "La Wiener Börse si descrive come una delle Borse più antiche del mondo.",
+    "A ottobre 2026 tutte le 20 azioni dell'ATX erano di società austriache."
+  ]
+}

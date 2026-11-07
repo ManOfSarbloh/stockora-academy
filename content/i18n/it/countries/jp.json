@@ -1,0 +1,99 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Giappone",
+  "summary": "Il più antico grande mercato dell'Asia: la Borsa di Tokyo risale al 1878 e oggi fa parte di Japan Exchange Group (JPX). Le azioni si negoziano in lotti fissi da 100, con una pausa pranzo e limiti di prezzo giornalieri. TOPIX e Nikkei 225 sono gli indici di riferimento.",
+  "currency": {
+    "name": "Yen giapponese",
+    "note": "Per chi investe in euro, le azioni giapponesi comportano un rischio di cambio: le oscillazioni dello yen rispetto all'euro cambiano il valore in euro delle posizioni (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Tokyo Stock Exchange (Japan Exchange Group)",
+      "city": "Tokyo",
+      "founded": "15 maggio 1878 (Tokyo Stock Exchange Co., Ltd.); forma attuale dal 1949",
+      "hours": "Sessione del mattino 09:00–11:30, sessione pomeridiana 12:30–15:30 (la chiusura è passata dalle 15:00 alle 15:30 nel novembre 2024).",
+      "note": "Il Giappone non adotta l'ora legale."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TOPIX (Tokyo Stock Price Index)",
+      "description": "Un indice ponderato per capitalizzazione di mercato, corretto per il flottante, che copre un'ampia parte del mercato giapponese. Base: 100 punti al 4 gennaio 1968. Calcolato da JPX."
+    },
+    {
+      "name": "Nikkei 225",
+      "constituents": "225 società",
+      "description": "Un indice di prezzo di 225 azioni del Prime Market della Borsa di Tokyo, calcolato da Nikkei Inc. Chiuse il 1989 al record di 38.915 e tornò a chiudere sopra quel livello solo il 22 febbraio 2024 (categoria K)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Services Agency (FSA)",
+      "role": "L'autorità di vigilanza finanziaria giapponese, che supervisiona anche il quadro dei conti d'investimento esenti NISA."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assicurazione dei depositi (DICJ)",
+      "text": "I depositi ordinari sono tutelati fino a 10 milioni di yen di capitale per depositante e per banca, più gli interessi; i depositi di regolamento che non pagano interessi sono tutelati per intero. I depositi in valuta estera non sono coperti."
+    },
+    {
+      "name": "Japan Investor Protection Fund (JIPF)",
+      "text": "Le società di intermediazione mobiliare devono tenere i beni dei clienti separati dai propri. Se una società fallita non riesce a restituirli, il JIPF paga fino a 10 milioni di yen per cliente. Non copre mai le perdite dovute al calo dei prezzi."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi)",
+    "csd": "JASDEC (Japan Securities Depository Center)",
+    "note": "Le operazioni del lunedì si regolano il mercoledì; quelle del venerdì il martedì successivo."
+  },
+  "rules": [
+    {
+      "title": "Unità di negoziazione di 100 azioni",
+      "text": "Dal 1° ottobre 2018 tutte le azioni ordinarie delle società nazionali quotate si negoziano in unità di 100 azioni, quindi l'acquisto minimo è 100 × il prezzo dell'azione."
+    },
+    {
+      "title": "Limiti di prezzo giornalieri",
+      "text": "Ogni azione può muoversi in un giorno solo entro un intervallo stabilito attorno alla chiusura precedente; per esempio, da una chiusura di 1.000 yen i limiti sono 700 e 1.300 yen. I limiti possono ampliarsi dopo due giorni al limite."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: 20,315% su dividendi e plusvalenze di azioni quotate (15,315% nazionale + 5% locale); conti NISA esenti. Non residenti: ritenuta del 15,315% sui dividendi di azioni quotate (20,42% per chi detiene almeno il 3%), riducibile in base alle convenzioni.",
+    "items": [
+      {
+        "title": "Residenti",
+        "text": "I dividendi di azioni quotate sono tassati al 15,315% (imposta sul reddito compresa la sovrimposta per la ricostruzione) più il 5% di imposta locale; lo stesso vale per le plusvalenze su azioni quotate."
+      },
+      {
+        "title": "NISA",
+        "text": "I residenti dai 18 anni in su possono investire senza imposte fino a 1,2 milioni di yen all'anno (tsumitate) e 2,4 milioni di yen (crescita), con un limite complessivo di 18 milioni di yen."
+      },
+      {
+        "title": "Non residenti",
+        "text": "I dividendi di azioni quotate pagati ai non residenti sono in genere soggetti a una ritenuta del 15,315%; per chi detiene il 3% o più si applica il 20,42%. Una convenzione fiscale può ridurla."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo sulla KESt austriaca (categoria Q)."
+      }
+    ]
+  },
+  "access": [
+    "Alcune banche e broker austriaci offrono la negoziazione sulla Borsa di Tokyo; tieni conto del lotto minimo di 100 azioni e del cambio in yen.",
+    "Indirettamente, tramite fondi o ETF su TOPIX, Nikkei 225 o indici asiatici (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 15 maggio viene costituita la Tokyo Stock Exchange Co., Ltd."
+    },
+    {
+      "text": "Nasce la Borsa di Tokyo nella sua forma attuale (apertura il 16 maggio)."
+    },
+    {
+      "text": "Il Nikkei 225 chiude l'anno al record di 38.915 (categoria K)."
+    },
+    {
+      "text": "Il Nikkei 225 chiude finalmente sopra il massimo del 1989 (22 febbraio); la chiusura pomeridiana della TSE passa alle 15:30 (novembre)."
+    }
+  ]
+}

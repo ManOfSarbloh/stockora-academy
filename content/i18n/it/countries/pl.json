@@ -1,0 +1,90 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Polonia",
+  "summary": "La tradizione borsistica di Varsavia risale al 1817, ma l'attuale Borsa di Varsavia (GPW) è stata rifondata nel 1991 dopo la fine del comunismo. Nel 2018 FTSE Russell ha promosso la Polonia allo status di mercato sviluppato. Il WIG20 segue 20 grandi società, guidate da banche, energia e commercio al dettaglio. Le azioni si negoziano in złoty polacchi.",
+  "currency": {
+    "name": "Złoty polacco",
+    "note": "La Polonia fa parte dell'UE ma non dell'area dell'euro, quindi chi investe in euro sostiene un rischio di cambio: le oscillazioni dello złoty rispetto all'euro cambiano il valore in euro delle azioni polacche (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Borsa di Varsavia (Giełda Papierów Wartościowych, GPW)",
+      "city": "Varsavia",
+      "founded": "1991 (società costituita il 12 aprile 1991); tradizioni di mercato dal 1817",
+      "hours": "Per le azioni in negoziazione continua: ordini per l'asta di apertura dalle 08:30, prezzo di apertura alle 09:00, negoziazione continua 09:00–16:50, asta di chiusura 16:50–17:00, poi negoziazione al prezzo di chiusura fino alle 17:05. Le azioni meno liquide si negoziano invece in aste a prezzo unico.",
+      "note": "La GPW gestisce anche NewConnect, un mercato per società più piccole, e il mercato obbligazionario Catalyst."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "WIG20",
+      "constituents": "20 società",
+      "description": "Calcolato dal 16 aprile 1994 su 20 delle principali e più liquide società del listino principale della Borsa di Varsavia. Calcolato da GPW Benchmark."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorità polacca di vigilanza finanziaria (KNF)",
+      "role": "Vigila sul mercato finanziario polacco, comprese banche, assicurazioni, imprese di investimento e mercato dei capitali."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Fondo di garanzia bancaria (BFG)",
+      "text": "I depositi ammissibili presso banche e cooperative di credito, in złoty o in valuta estera, sono coperti fino a 100.000 € per depositante e per istituto."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "KDPW (Krajowy Depozyt Papierów Wartościowych), il depositario centrale di titoli",
+    "note": "In quanto Stato membro dell'UE, la Polonia passa al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: imposta forfettaria del 19% sulle plusvalenze dalla vendita di azioni (dichiarate nel modello PIT-38) e sui dividendi. I non residenti possono applicare, a determinate condizioni, l'aliquota di una convenzione contro le doppie imposizioni.",
+    "items": [
+      {
+        "title": "Plusvalenze (residenti)",
+        "text": "Il reddito dalla vendita di azioni e altri titoli è tassato al 19% e va indicato nella dichiarazione PIT-38. Le perdite possono essere compensate, entro certi limiti, con redditi della stessa fonte nei cinque anni successivi."
+      },
+      {
+        "title": "Dividendi",
+        "text": "Dividendi e altre partecipazioni agli utili sono soggetti a un'imposta forfettaria del 19%."
+      },
+      {
+        "title": "Non residenti",
+        "text": "Chi ha un obbligo fiscale limitato in Polonia può applicare l'aliquota di una convenzione contro le doppie imposizioni, alle condizioni previste dalla legge polacca."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo sulla KESt austriaca (categoria Q)."
+      }
+    ]
+  },
+  "access": [
+    "Alcune banche e broker austriaci offrono la negoziazione sulla Borsa di Varsavia; verifica il cambio in złoty.",
+    "Indirettamente, tramite fondi o ETF su indici polacchi o dei mercati emergenti/dell'Europa orientale (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Nasce la Borsa mercantile di Varsavia."
+    },
+    {
+      "text": "Dopo la caduta del comunismo, il 12 aprile il Tesoro dello Stato costituisce la società Borsa di Varsavia."
+    },
+    {
+      "text": "Il 16 aprile l'indice WIG20 viene calcolato per la prima volta."
+    },
+    {
+      "text": "FTSE Russell promuove la Polonia allo status di mercato sviluppato (con effetto dal 24 settembre 2018)."
+    }
+  ],
+  "funFacts": [
+    "FTSE Russell ha promosso la Polonia per gradi: da Secondary Emerging ad Advanced Emerging nel 2008, e a Developed nel 2018."
+  ]
+}

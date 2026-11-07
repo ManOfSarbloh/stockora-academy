@@ -1,0 +1,88 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Italia",
+  "summary": "La Borsa di Milano nacque per decreto napoleonico nel 1808 ed è oggi Euronext Milan, gestita da Borsa Italiana all'interno del gruppo Euronext. Il FTSE MIB segue 40 delle principali società italiane, con un peso rilevante di banche, energia e marchi del lusso. L'acquisto di azioni italiane è soggetto a un'imposta sulle transazioni finanziarie.",
+  "currency": {
+    "name": "Euro",
+    "note": "Stessa valuta dell'Austria, quindi nessun rischio di cambio per chi investe in euro."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Milan (Borsa Italiana)",
+      "city": "Milano",
+      "founded": "1808 (Borsa di commercio di Milano, istituita con decreto del 16 gennaio 1808)",
+      "hours": "Asta di apertura 07:30–09:00, negoziazione continua 09:00–17:30, asta di chiusura 17:30–17:35, poi negoziazione al prezzo di chiusura fino alle 17:40.",
+      "note": "Milano chiude in alcuni giorni in cui altri mercati Euronext sono aperti, per esempio il 24 e il 31 dicembre 2026."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "FTSE MIB",
+      "constituents": "40 società",
+      "description": "Le 40 principali azioni di Euronext Milan ed Euronext MIV Milan, selezionate per liquidità e capitalizzazione di mercato. Calcolato da FTSE Russell insieme a Borsa Italiana."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CONSOB (Commissione Nazionale per le Società e la Borsa)",
+      "role": "L'autorità italiana di vigilanza sui mercati mobiliari."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FITD (Fondo Interbancario di Tutela dei Depositi)",
+      "text": "I depositi presso le banche aderenti sono garantiti fino a 100.000 € per depositante e per banca. Le banche di credito cooperativo aderiscono a un fondo di garanzia separato."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "Euronext Securities Milan (il depositario centrale di Euronext a Milano)",
+    "note": "Come il resto dell'UE, l'Italia passa al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Imposta sulle transazioni finanziarie",
+      "text": "I trasferimenti di azioni di società italiane sono tassati allo 0,4% del valore dal 1° gennaio 2026 (0,2% fino alla fine del 2025). L'aliquota è dimezzata per le operazioni su mercati regolamentati o sistemi multilaterali di negoziazione, quindi gli acquisti in Borsa costano lo 0,2%. Sono esenti le azioni di società con una capitalizzazione media inferiore a 500 milioni di euro (nel novembre precedente)."
+    },
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: imposta sostitutiva del 26% sulla maggior parte delle plusvalenze su strumenti finanziari. Non residenti: imposta italiana trattenuta sui dividendi; l'aliquota della convenzione può essere applicata direttamente dal sostituto d'imposta, oppure si chiede il rimborso entro 48 mesi. Imposta sulle transazioni dello 0,2% sugli acquisti in Borsa di società italiane più grandi (2026).",
+    "items": [
+      {
+        "title": "Plusvalenze (residenti)",
+        "text": "Le plusvalenze su strumenti finanziari sono in genere soggette a un'imposta sostitutiva del 26%; alcune categorie hanno un'aliquota del 20%."
+      },
+      {
+        "title": "Dividendi per gli investitori esteri",
+        "text": "L'Italia trattiene un'imposta sui dividendi pagati ai non residenti. Un non residente può chiedere al sostituto d'imposta italiano di applicare direttamente l'aliquota della convenzione fiscale, oppure chiedere il rimborso dell'eccedenza all'Agenzia delle Entrate (Centro Operativo di Pescara) entro 48 mesi."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo sulla KESt austriaca (categoria Q); l'eventuale ritenuta italiana più alta va chiesta a rimborso in Italia."
+      },
+      {
+        "title": "Imposta sulle transazioni",
+        "text": "Vedi le regole di mercato sopra: 0,4%, o 0,2% per le operazioni su mercati regolamentati, dal 2026."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione su Euronext Milan in euro; verifica se viene aggiunta l'imposta italiana sulle transazioni.",
+    "Indirettamente, tramite fondi o ETF sul FTSE MIB o su indici europei più ampi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Un decreto del 16 gennaio del viceré Eugenio Napoleone istituisce la Borsa di commercio di Milano; un secondo decreto del 6 febbraio ne fissa le prime regole."
+    },
+    {
+      "text": "Dal 1° gennaio l'Italia raddoppia l'imposta sulle transazioni finanziarie sulle azioni, portandola allo 0,4% (0,2% sui mercati regolamentati)."
+    }
+  ],
+  "funFacts": [
+    "Secondo Borsa Italiana, le autorità francesi volevano la Borsa di Milano anche come mercato organizzato per collocare il debito pubblico, in concorrenza con Londra."
+  ]
+}

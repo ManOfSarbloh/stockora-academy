@@ -1,0 +1,87 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Svezia",
+  "summary": "La Borsa di Stoccolma è attiva dal 4 febbraio 1863 ed è oggi Nasdaq Stockholm, parte dei mercati nordici di Nasdaq. L'OMXS30 comprende 30 grandi società svedesi, molte delle quali gruppi industriali, e molte società svedesi quotano classi di azioni A e B separate. Le azioni si negoziano in corone svedesi.",
+  "currency": {
+    "name": "Corona svedese",
+    "note": "Per chi investe in euro, le azioni svedesi comportano un rischio di cambio: le oscillazioni della corona rispetto all'euro cambiano il valore in euro delle posizioni (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Nasdaq Stockholm",
+      "city": "Stoccolma",
+      "founded": "1863 (primo giorno di negoziazione il 4 febbraio 1863)",
+      "hours": "Azioni del mercato principale 09:00–17:30. Negli ultimi cinque minuti non c'è abbinamento degli ordini; il prezzo di chiusura viene fissato in un'asta di chiusura che termina in un momento casuale negli ultimi 30 secondi.",
+      "note": "Nasdaq gestisce anche le Borse di Copenaghen, Helsinki e Islanda, con orari diversi."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "OMX Stockholm 30 (OMXS30)",
+      "constituents": "30 società",
+      "description": "Le 30 azioni più grandi e più scambiate della Borsa di Stoccolma; valore base 125. Calcolato da Nasdaq."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Finansinspektionen (FI)",
+      "role": "L'autorità statale svedese che sorveglia il mercato finanziario, comprese banche, assicurazioni e mercati mobiliari."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assicurazione dei depositi (Riksgälden, Ufficio nazionale svedese del debito)",
+      "text": "Dal 1° gennaio 2026 i depositi sono tutelati fino a 1.150.000 corone per persona e per istituto (il controvalore in corone di 100.000 €, adeguato ogni cinque anni)."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "Euroclear Sweden, il depositario centrale di titoli svedese",
+    "note": "Come il resto dell'UE, la Svezia passa al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Classi di azioni A e B",
+      "text": "Molte società svedesi hanno più di una classe di azioni, di solito con diritti di voto diversi. Lo stesso OMXS30 comprende per esempio Atlas Copco A, Volvo B e Investor B (categoria C)."
+    },
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Non residenti: ritenuta svedese del 30% (kupongskatt) sui dividendi, riducibile in base a una convenzione fiscale al pagamento o con un rimborso. Residenti: i conti di risparmio d'investimento (ISK) sono tassati al 30% di un rendimento forfettario invece che su plusvalenze e dividendi effettivi.",
+    "items": [
+      {
+        "title": "Dividendi per gli investitori esteri",
+        "text": "La regola principale è che sui dividendi viene trattenuta una ritenuta del 30% (kupongskatt). Può essere più bassa se il percettore vive in un Paese che ha una convenzione fiscale con la Svezia, direttamente al pagamento o con un rimborso successivo."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera sulla KESt austriaca solo fino al 15% del dividendo (categoria Q); l'eventuale imposta svedese più alta va ridotta o chiesta a rimborso in Svezia."
+      },
+      {
+        "title": "Residenti: conto di risparmio d'investimento (ISK)",
+        "text": "In un ISK plusvalenze, dividendi e interessi non sono tassati. Il conto è invece tassato ogni anno al 30% di un rendimento forfettario (schablonintäkt) calcolato sul suo valore."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione su Nasdaq Stockholm; verifica i costi di cambio da euro a corone.",
+    "Indirettamente, tramite fondi o ETF su indici svedesi o nordici (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 4 febbraio la Borsa di Stoccolma ha il suo primo giorno di negoziazione."
+    },
+    {
+      "text": "Nasdaq Stockholm festeggia il suo 160° anniversario."
+    },
+    {
+      "text": "Il 1° gennaio il limite dell'assicurazione dei depositi sale a 1.150.000 corone."
+    }
+  ],
+  "funFacts": [
+    "L'OMXS30 comprende anche società con sede fuori dalla Svezia, come ABB, AstraZeneca e Nordea, quotate a Stoccolma."
+  ]
+}

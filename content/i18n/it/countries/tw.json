@@ -1,0 +1,110 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Taiwan",
+  "summary": "La Taiwan Stock Exchange (TWSE) ha aperto nel 1962. Tra le sue società quotate ci sono il produttore di chip TSMC e gruppi dell'elettronica come Hon Hai (Foxconn). Il TAIEX segue tutte le azioni quotate. La seduta è breve (09:00–13:30), le azioni si negoziano in lotti da 1.000 con un limite giornaliero di ±10%, e le persone fisiche non pagano imposte sulle plusvalenze, ma solo un'imposta sulle transazioni dello 0,3% quando vendono. FTSE Russell classifica Taiwan come mercato emergente avanzato.",
+  "currency": {
+    "name": "Nuovo dollaro taiwanese",
+    "note": "Le azioni taiwanesi sono quotate in nuovi dollari taiwanesi, quindi chi investe in euro sostiene un rischio di cambio: le oscillazioni del dollaro taiwanese rispetto all'euro cambiano il valore in euro delle posizioni (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Taiwan Stock Exchange (TWSE)",
+      "city": "Taipei",
+      "founded": "23 ottobre 1961; attività avviata il 9 febbraio 1962",
+      "hours": "Asta di apertura 08:30–09:00, negoziazione continua 09:00–13:25, asta di chiusura 13:25–13:30. Negoziazione a prezzo fisso dopo la chiusura 14:00–14:30.",
+      "note": "Le società più piccole si negoziano sul Taipei Exchange (TPEx). Taiwan non adotta l'ora legale."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "TAIEX (TWSE Capitalization Weighted Stock Index)",
+      "description": "Riferimento per l'andamento complessivo delle azioni quotate sulla TWSE, ponderate per valore di mercato. Valore base 100 = media annua del 1966. Calcolato dalla TWSE."
+    },
+    {
+      "name": "FTSE TWSE Taiwan 50",
+      "constituents": "50 società",
+      "description": "Calcolato dalla TWSE insieme a FTSE. Il primo ETF di Taiwan, lanciato nel 2003, si basava su questo indice."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Financial Supervisory Commission (FSC)",
+      "role": "Regola e vigila sui settori bancario, mobiliare, dei futures e assicurativo a Taiwan."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Assicurazione dei depositi (CDIC)",
+      "text": "I depositi in nuovi dollari taiwanesi o in valuta estera sono coperti fino a 3 milioni di NT$ per depositante e per banca, interessi compresi. I conti presso le società di intermediazione mobiliare non sono coperti dall'assicurazione dei depositi."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi)",
+    "csd": "Taiwan Depository & Clearing Corporation (TDCC); la stessa TWSE è la stanza di compensazione per le operazioni di Borsa",
+    "note": "Gli investitori esteri regolano tramite la propria banca depositaria locale. Il regolamento DVP a T+2 è stato adottato nel 2009."
+  },
+  "rules": [
+    {
+      "title": "Lotti da 1.000 azioni, lotti frazionari a parte",
+      "text": "Un'unità di negoziazione è di 1.000 azioni. Gli ordini più piccoli sono ordini su lotti frazionari; dal 26 ottobre 2020 i lotti frazionari si possono negoziare anche durante la sessione regolare."
+    },
+    {
+      "title": "Limite di prezzo giornaliero di ±10%",
+      "text": "Azioni, ETF nazionali e prodotti simili possono muoversi al massimo del 10% al giorno rispetto al prezzo di riferimento (limite alzato dal 7% il 1° giugno 2015). Le azioni appena quotate ne sono esenti nei primi cinque giorni di negoziazione."
+    },
+    {
+      "title": "Registrazione per gli investitori esteri",
+      "text": "Gli investitori esteri, privati e istituzionali, devono nominare una banca depositaria locale, che li registra presso la TWSE prima che un broker possa aprire un conto di negoziazione."
+    }
+  ],
+  "taxes": {
+    "glance": "Imposta sulle transazioni in titoli dello 0,3% sulle vendite di azioni (solo a carico del venditore). Nessuna imposta sulle plusvalenze per le persone fisiche. Dividendi ai non residenti: ritenuta del 21%.",
+    "items": [
+      {
+        "title": "Imposta sulle transazioni in titoli",
+        "text": "0,3% del controvalore di una vendita di azioni, pagato dal venditore (0,15% per le compensazioni intraday fino alla fine del 2027). ETF: 0,1%."
+      },
+      {
+        "title": "Plusvalenze",
+        "text": "Esenti per le persone fisiche."
+      },
+      {
+        "title": "Dividendi",
+        "text": "Non residenti: ritenuta del 21%. I residenti scelgono tra sommare i dividendi al reddito imponibile (con un credito dell'8,5% fino a 80.000 NT$) o un'imposta separata forfettaria del 28%."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera sulla KESt austriaca solo fino al 15% del dividendo (categoria Q). Se una parte del 21% si possa chiedere a rimborso a Taiwan dipende dalle regole convenzionali; chiedi alla tua banca o a un consulente fiscale."
+      }
+    ]
+  },
+  "access": [
+    "Alcune banche e broker austriaci offrono la negoziazione sulla Taiwan Stock Exchange; il lotto da 1.000 azioni può rendere costoso un singolo lotto intero.",
+    "Alcune grandi società taiwanesi hanno anche certificati di deposito quotati negli Stati Uniti.",
+    "Indirettamente, tramite fondi o ETF su indici taiwanesi, asiatici o dei mercati emergenti (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 23 ottobre viene fondata la prima Borsa regolamentata di Taiwan, la Taiwan Stock Exchange."
+    },
+    {
+      "text": "Il 9 febbraio la TWSE avvia l'attività."
+    },
+    {
+      "text": "Il 2 agosto le azioni quotate passano al sistema di negoziazione interamente automatizzato FAST (Fully Automated Securities Trading)."
+    },
+    {
+      "text": "Nasce il primo ETF di Taiwan, basato sull'indice Taiwan 50."
+    },
+    {
+      "text": "Il 1° giugno il limite di prezzo giornaliero viene ampliato dal 7% al 10%."
+    },
+    {
+      "text": "La negoziazione continua sostituisce le aste periodiche durante la seduta (23 marzo); parte la negoziazione intraday dei lotti frazionari (26 ottobre)."
+    }
+  ],
+  "funFacts": [
+    "Prima del 23 marzo 2020 la TWSE non offriva negoziazione continua durante la seduta: gli ordini venivano abbinati in aste ripetute.",
+    "Nella prima metà del 2025 gli investitori privati rappresentavano circa metà degli scambi sulla TWSE, gli istituzionali esteri il 37%."
+  ]
+}

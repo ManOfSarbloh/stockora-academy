@@ -1,0 +1,118 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Stati Uniti",
+  "summary": "Il mercato azionario di gran lunga più grande del mondo: alla fine del 2025 le società statunitensi quotate valevano quasi 69.000 miliardi di dollari. Le azioni si negoziano soprattutto su NYSE e Nasdaq. L'S&P 500 è l'indice di riferimento seguito dalla maggior parte degli investitori, e negli Stati Uniti le operazioni si regolano già il giorno lavorativo successivo (T+1).",
+  "currency": {
+    "name": "Dollaro statunitense",
+    "note": "Per chi investe in euro, le azioni statunitensi comportano un rischio di cambio: un euro più forte riduce il valore in euro delle posizioni in dollari, un euro più debole lo aumenta (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "New York Stock Exchange (NYSE)",
+      "city": "New York",
+      "founded": "1792 (Buttonwood Agreement, firmato da 24 agenti di cambio il 17 maggio)",
+      "hours": "Sessione principale 09:30–16:00 ora di New York, con aste di apertura e di chiusura. NYSE Arca offre anche sessioni anticipate (04:00–09:30) e serali (16:00–20:00); altre sedi e broker usano orari estesi diversi.",
+      "note": "Il Nasdaq pubblica le stesse festività e chiusure anticipate per il 2026."
+    },
+    {
+      "name": "Nasdaq",
+      "city": "New York",
+      "hours": "Mercato regolare 09:30–16:00 ora di New York; pre-mercato 04:00–09:30 e dopo la chiusura 16:00–20:00."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P 500",
+      "constituents": "500 società",
+      "description": "500 grandi società statunitensi, che coprono circa l'80% della capitalizzazione di mercato disponibile. Calcolato da S&P Dow Jones Indices."
+    },
+    {
+      "name": "Dow Jones Industrial Average (il Dow)",
+      "constituents": "30 società",
+      "description": "Un indice ponderato per prezzo di 30 importanti società statunitensi: le azioni con prezzi più alti pesano di più (categoria H)."
+    },
+    {
+      "name": "Nasdaq-100",
+      "constituents": "Circa 100 società",
+      "description": "Grandi società quotate sul Nasdaq, escluse le società finanziarie, quindi dominano la tecnologia e altri settori in crescita."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Securities and Exchange Commission (SEC)",
+      "role": "Autorità federale di vigilanza sui mercati mobiliari, sull'informativa delle società quotate, sulle Borse e sui broker."
+    },
+    {
+      "name": "FINRA",
+      "role": "Organismo di autoregolamentazione dei broker-dealer aderenti, che vigila su di loro sotto la supervisione della SEC; gestisce anche BrokerCheck, dove puoi verificare la registrazione di un broker."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "SIPC",
+      "text": "Se una società di intermediazione aderente fallisce, la SIPC tutela titoli e liquidità dei clienti fino a 500.000 $, di cui 250.000 $ per la liquidità. Non copre le perdite di mercato."
+    },
+    {
+      "name": "Assicurazione dei depositi FDIC",
+      "text": "I depositi bancari sono assicurati per almeno 250.000 $ presso ciascuna banca assicurata dalla FDIC."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (un giorno lavorativo) dal 28 maggio 2024",
+    "csd": "The Depository Trust Company (DTC), parte di DTCC",
+    "note": "La SEC ha adottato il passaggio da T+2 a T+1 il 15 febbraio 2023."
+  },
+  "rules": [
+    {
+      "title": "Interruttori automatici a livello di mercato",
+      "text": "La negoziazione su tutte le Borse statunitensi può essere sospesa se l'S&P 500 scende in un giorno del 7% (livello 1), del 13% (livello 2) o del 20% (livello 3) (categoria D)."
+    },
+    {
+      "title": "Orari di negoziazione estesi",
+      "text": "Molte sedi e broker statunitensi offrono negoziazione prima delle 09:30 e dopo le 16:00 ora di New York, con liquidità più bassa e spread più ampi (categoria E)."
+    }
+  ],
+  "taxes": {
+    "glance": "Non residenti: ritenuta statunitense del 30% sui dividendi, ridotta in base a una convenzione fiscale. Residenti: plusvalenze a lungo termine (beni posseduti per più di un anno) tassate allo 0%, 15% o 20% secondo il reddito; plusvalenze a breve termine alle aliquote ordinarie dell'imposta sul reddito.",
+    "items": [
+      {
+        "title": "Dividendi pagati a investitori esteri",
+        "text": "Chi paga negli Stati Uniti trattiene in genere il 30% sui dividendi pagati a stranieri non residenti. Può applicarsi un'aliquota ridotta in base a una convenzione fiscale tra il Paese dell'investitore e gli Stati Uniti."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera solo fino al 15% del dividendo (categoria Q). Chiedi alla tua banca come applica l'aliquota della convenzione con gli Stati Uniti."
+      },
+      {
+        "title": "Plusvalenze (residenti negli Stati Uniti)",
+        "text": "I beni posseduti per più di un anno generano plusvalenze a lungo termine, tassate allo 0%, 15% o 20% secondo il reddito imponibile; quelli posseduti per un anno o meno generano plusvalenze a breve termine, tassate come reddito ordinario."
+      }
+    ]
+  },
+  "access": [
+    "La maggior parte delle banche e dei broker austriaci offre la negoziazione di azioni statunitensi, di solito con cambio in dollari.",
+    "Alcune azioni statunitensi si negoziano anche su sedi europee in euro (categoria D).",
+    "Indirettamente, tramite fondi o ETF sull'S&P 500 o su altri indici statunitensi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 17 maggio 24 agenti di cambio firmano il Buttonwood Agreement, la fondazione ufficiale del NYSE."
+    },
+    {
+      "text": "Il crollo della Borsa apre l'epoca della Grande depressione (categoria K)."
+    },
+    {
+      "text": "Lunedì nero, 19 ottobre: il più grande calo percentuale in un giorno nella storia del Dow (categoria K)."
+    },
+    {
+      "text": "Il 28 maggio gli Stati Uniti passano al regolamento T+1."
+    },
+    {
+      "text": "Alphabet viene annunciata come nuova componente del Dow Jones Industrial Average (giugno)."
+    }
+  ],
+  "funFacts": [
+    "Il NYSE ha le sue radici in un panico finanziario: il Buttonwood Agreement del 1792 fu la risposta al primo panico finanziario della giovane nazione.",
+    "Alla fine del 2025 le società quotate statunitensi valevano circa il 224% del PIL degli Stati Uniti (Banca Mondiale/WFE)."
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Canada",
+  "summary": "La principale Borsa canadese, il Toronto Stock Exchange (TSX), ha le sue radici nel 1852 e fa parte di TMX Group. Toronto ha aperto la strada alla negoziazione assistita da computer (1977) e ha lanciato il primo ETF del mondo (1990). Il Canada è passato al regolamento il giorno successivo (T+1) il 27 maggio 2024, un giorno prima degli Stati Uniti.",
+  "currency": {
+    "name": "Dollaro canadese",
+    "note": "Le azioni canadesi sono quotate in dollari canadesi, quindi chi investe in euro corre un rischio di cambio: i movimenti del dollaro canadese rispetto all'euro cambiano il valore delle posizioni in euro (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Toronto Stock Exchange (TSX, parte di TMX Group)",
+      "city": "Toronto",
+      "founded": "1852 (Association of Brokers costituita il 24 ottobre 1852); istituita formalmente nel 1861",
+      "hours": "Apertura alle 09:30 ora della costa orientale, negoziazione continua fino alle 16:00 con il meccanismo Market on Close dalle 15:50, e una sessione estesa dalle 16:15 alle 17:00 solo all'ultimo prezzo scambiato.",
+      "note": "La TSX Venture Exchange è il mercato di TMX per le società nelle prime fasi di sviluppo. Toronto segue le stesse regole sull'ora legale di New York."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/TSX Composite Index",
+      "description": "L'indice di riferimento ampio del Canada per le azioni quotate a Toronto. Lanciato nel 1977 come TSE 300 Composite Index; nel 2002 S&P Dow Jones Indices ne ha assunto la gestione ed è stato rinominato."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Commissioni provinciali per i valori mobiliari (per esempio la Ontario Securities Commission)",
+      "role": "In Canada la regolamentazione dei valori mobiliari è provinciale; le commissioni si coordinano tramite i Canadian Securities Administrators (CSA)."
+    },
+    {
+      "name": "Canadian Investment Regulatory Organization (CIRO)",
+      "role": "Organismo nazionale di autoregolamentazione per gli intermediari d'investimento e i distributori di fondi comuni, e per la negoziazione sui mercati canadesi."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Canadian Investor Protection Fund (CIPF)",
+      "text": "Se un'impresa membro del CIRO diventa insolvente, il CIPF tutela in genere i beni di un privato fino a 1 milione di dollari canadesi per tutti i conti generali insieme, più 1 milione ciascuno per i conti previdenziali e i piani di risparmio per l'istruzione."
+    },
+    {
+      "name": "Canada Deposit Insurance Corporation (CDIC)",
+      "text": "I depositi ammissibili presso gli istituti aderenti sono assicurati fino a 100.000 dollari canadesi per categoria assicurata, capitale e interessi compresi."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+1 (giorno lavorativo successivo), dal 27 maggio 2024",
+    "csd": "CDS Clearing and Depository Services (parte di TMX Group)",
+    "note": "Il Canada è passato un giorno prima degli Stati Uniti (28 maggio 2024) a causa di una festività statunitense."
+  },
+  "rules": [
+    {
+      "title": "La regolamentazione è provinciale",
+      "text": "Il Canada non ha un'unica autorità nazionale per i valori mobiliari: ogni provincia e territorio ha la propria, coordinata tramite i Canadian Securities Administrators (CSA). Gli intermediari sono vigilati dall'organismo di autoregolamentazione CIRO."
+    }
+  ],
+  "taxes": {
+    "glance": "Non residenti: imposta canadese del 25% sui dividendi (Part XIII), riducibile in base a una convenzione fiscale, di solito consegnando al pagatore il modulo NR301. Le plusvalenze su azioni quotate in genere non sono tassate in Canada per i non residenti, a meno che non siano «taxable Canadian property» (partecipazioni del 25% o più in società ricche di immobili).",
+    "items": [
+      {
+        "title": "Dividendi per i non residenti",
+        "text": "I non residenti pagano un'imposta del 25% su dividendi e altri importi tassabili secondo la Part XIII. Una convenzione fiscale può ridurre l'aliquota; per applicarla il pagatore ha di solito bisogno del modulo NR301 (dichiarazione di idoneità ai benefici della convenzione)."
+      },
+      {
+        "title": "Plusvalenze per i non residenti",
+        "text": "I non residenti sono tassati in Canada sulle plusvalenze da «taxable Canadian property». Le azioni quotate vi rientrano solo se, nei 60 mesi precedenti, l'investitore (con le persone collegate) ha detenuto il 25% o più di una categoria di azioni e oltre il 50% del valore delle azioni derivava da immobili o risorse canadesi."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo a scomputo della KESt austriaca (categoria Q); un'eventuale imposta canadese più alta va ridotta in base alla convenzione o chiesta a rimborso in Canada."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione sul Toronto Stock Exchange; verifica i costi per cambiare euro in dollari canadesi.",
+    "Alcune grandi società canadesi sono quotate anche negli Stati Uniti e si possono comprare lì in dollari statunitensi.",
+    "Indirettamente, tramite fondi o ETF su indici canadesi, nordamericani o dei mercati sviluppati (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 24 ottobre alcuni uomini d'affari di Toronto costituiscono un'«Association of Brokers», la base del Toronto Stock Exchange."
+    },
+    {
+      "text": "L'associazione istituisce formalmente il Toronto Stock Exchange; le negoziazioni si limitano a sedute giornaliere di mezz'ora su 18 titoli."
+    },
+    {
+      "text": "Toronto lancia il primo sistema di negoziazione assistita da computer al mondo (CATS) e il TSE 300 Composite Index."
+    },
+    {
+      "text": "Nasce il primo ETF del mondo, il Toronto 35 Index Participation Fund."
+    },
+    {
+      "text": "Toronto diventa la prima Borsa del Nord America a introdurre le quotazioni decimali, e la più grande del Nord America a chiudere la sala delle grida e passare a un sistema interamente elettronico."
+    },
+    {
+      "text": "Il 27 maggio il Canada passa al regolamento T+1."
+    }
+  ],
+  "funFacts": [
+    "Nei primi anni, al Toronto Stock Exchange si concludevano solo due o tre operazioni al giorno.",
+    "Allo scoppio della prima guerra mondiale, il Toronto Stock Exchange chiuse per tre mesi per timore di un panico finanziario."
+  ]
+}

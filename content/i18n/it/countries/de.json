@@ -1,0 +1,97 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Germania",
+  "summary": "La più grande economia d'Europa ha una Borsa dalle radici antiche a Francoforte, risalente al 1585, e il DAX di 40 grandi società. La maggior parte della negoziazione di azioni tedesche avviene sul sistema interamente elettronico Xetra, gestito da Deutsche Börse.",
+  "currency": {
+    "name": "Euro",
+    "note": "Stessa valuta dell'Austria, quindi nessun rischio di cambio per chi investe in euro. Molte società del DAX realizzano gran parte dei ricavi all'estero, quindi le oscillazioni valutarie possono comunque incidere sui loro utili."
+  },
+  "exchanges": [
+    {
+      "name": "Borsa di Francoforte (Xetra e Börse Frankfurt), gestita da Deutsche Börse",
+      "city": "Francoforte sul Meno",
+      "founded": "1585 (i primi cambi uniformi furono fissati il 9 settembre 1585)",
+      "hours": "Negoziazione continua su Xetra 09:00–17:30, con aste di apertura e di chiusura. La sede Börse Frankfurt negozia in genere dalle 08:00 alle 22:00.",
+      "note": "Xetra, avviato nel 1997, è il sistema di negoziazione interamente elettronico di Deutsche Börse ed è dove avviene la maggior parte degli scambi di azioni del DAX."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "DAX",
+      "constituents": "40 società",
+      "description": "Le 40 società più grandi del Mercato regolamentato della Borsa di Francoforte che soddisfano requisiti minimi di qualità e redditività, ponderate per capitalizzazione di mercato del flottante con un tetto del 15%. Valore base 1.000 al 30 dicembre 1987. Calcolato da STOXX (Gruppo Deutsche Börse)."
+    },
+    {
+      "name": "MDAX e SDAX",
+      "constituents": "50 e 70 società",
+      "description": "L'MDAX comprende le 50 società che seguono il DAX per valore di mercato; l'SDAX le 70 che seguono l'MDAX. Insieme al DAX coprono le società tedesche a grande, media e piccola capitalizzazione."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "BaFin (Autorità federale di vigilanza finanziaria)",
+      "role": "Vigila su banche, assicurazioni e mercati mobiliari, con attenzione a trasparenza, integrità del mercato e tutela dei consumatori; è anche l'autorità nazionale di risoluzione della Germania."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garanzia legale dei depositi",
+      "text": "I saldi fino a 100.000 € per cliente e per banca sono tutelati; gli importi superiori sono spesso coperti da sistemi volontari delle associazioni bancarie."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "Clearstream (Gruppo Deutsche Börse), che comprende il depositario centrale di titoli tedesco",
+    "note": "Come il resto dell'UE, la Germania passa al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: imposta forfettaria del 25% sui redditi di capitale più il 5,5% di contributo di solidarietà su tale imposta (ed eventuale imposta ecclesiastica); franchigia annua di 1.000 € per i risparmiatori. Non residenti: ritenuta del 25% più contributo sui dividendi tedeschi, in parte rimborsabile in base alle convenzioni fiscali.",
+    "items": [
+      {
+        "title": "Residenti: imposta forfettaria",
+        "text": "I redditi di capitale, compresi dividendi e plusvalenze su azioni, sono tassati al 25% (Abgeltungsteuer), più un contributo di solidarietà pari al 5,5% di tale imposta, e l'imposta ecclesiastica per chi è membro di una Chiesa. Di norma la trattengono le banche."
+      },
+      {
+        "title": "Franchigia per i risparmiatori",
+        "text": "I primi 1.000 € di redditi di capitale all'anno sono esenti (2.000 € per i coniugi con tassazione congiunta)."
+      },
+      {
+        "title": "Dividendi pagati a investitori esteri",
+        "text": "Le società tedesche trattengono sui dividendi il 25% di imposta sui redditi di capitale più il contributo, ovunque risieda l'azionista. I residenti esteri possono chiedere un'agevolazione all'Ufficio federale centrale delle imposte (BZSt) in base a una convenzione contro le doppie imposizioni; l'ufficio avverte che i rimborsi possono richiedere più di 20 mesi."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera sulla KESt austriaca solo fino al 15% del dividendo (categoria Q). L'eccedenza va chiesta a rimborso in Germania."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione su Xetra e su altre sedi tedesche.",
+    "Le azioni tedesche sono negoziate anche su altre sedi europee con lo stesso ISIN (categorie A e D).",
+    "Indirettamente, tramite fondi o ETF sul DAX o su indici più ampi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Il 9 settembre i mercanti della fiera di Francoforte fissano per la prima volta cambi uniformi per le monete; è considerata la nascita della Borsa di Francoforte."
+    },
+    {
+      "text": "La prima azione negoziata a Francoforte è un certificato di partecipazione della Banca nazionale austriaca (Oesterreichische Nationalbank)."
+    },
+    {
+      "text": "Data base del DAX: 1.000 punti al 30 dicembre 1987."
+    },
+    {
+      "text": "Deutsche Börse avvia il sistema di negoziazione interamente elettronico Xetra."
+    }
+  ],
+  "funFacts": [
+    "La prima azione mai negoziata a Francoforte veniva dall'Austria: un certificato della Oesterreichische Nationalbank, nel 1820.",
+    "Alla fine di settembre 2026 le dieci maggiori società del DAX rappresentavano circa il 65% del peso dell'indice."
+  ]
+}

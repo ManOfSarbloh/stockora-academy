@@ -1,0 +1,103 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Svizzera",
+  "summary": "Una piazza finanziaria con un mercato dominato da pochi giganti mondiali dell'alimentare, della farmaceutica e della finanza. La SIX Swiss Exchange di Zurigo è stata la prima Borsa al mondo a gestire negoziazione, regolamento e custodia in modo interamente elettronico. I prezzi sono in franchi svizzeri.",
+  "currency": {
+    "name": "Franco svizzero",
+    "note": "Per chi investe in euro, le azioni svizzere comportano un rischio di cambio: se il franco si rafforza rispetto all'euro, le posizioni valgono di più in euro, e viceversa (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "SIX Swiss Exchange",
+      "city": "Zurigo",
+      "founded": "17 maggio 1995, quando le Borse di Basilea, Ginevra e Zurigo si fusero nella Borsa svizzera SWX",
+      "hours": "Asta di apertura alle 09:00, negoziazione continua fino alle 17:20, asta di chiusura dalle 17:20 alle 17:30, poi negoziazione al prezzo di chiusura fino alle 17:40 per blue chip e società a media e piccola capitalizzazione.",
+      "note": "La negoziazione interamente elettronica è stata introdotta tra l'8 dicembre 1995 e il 16 agosto 1996."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "SMI (Swiss Market Index)",
+      "constituents": "20 società",
+      "description": "Le 20 azioni svizzere più grandi e più liquide, selezionate in base alla capitalizzazione di mercato del flottante e al controvalore scambiato. I pesi sono limitati al 18%; la composizione viene rivista ogni settembre. Fissato a 1.500 punti il 30 giugno 1988."
+    },
+    {
+      "name": "SPI (Swiss Performance Index)",
+      "description": "L'indice svizzero ampio di SIX, da cui vengono tratte le azioni più grandi e più liquide dell'SMI."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "FINMA (Autorità federale di vigilanza sui mercati finanziari)",
+      "role": "Autorità indipendente di vigilanza sul mercato finanziario svizzero: banche, società di intermediazione mobiliare, assicurazioni, gestori patrimoniali e infrastrutture dei mercati finanziari."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "esisuisse (garanzia dei depositi)",
+      "text": "Se una banca fallisce, i depositi sono tutelati fino a 100.000 franchi per cliente e per banca."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2; T+1 dall'11 ottobre 2027",
+    "csd": "SIX SIS, il depositario centrale di titoli nazionale",
+    "note": "La Svizzera passa a T+1 nella stessa data dell'UE e del Regno Unito."
+  },
+  "rules": [
+    {
+      "title": "Negoziazione al prezzo di chiusura",
+      "text": "Dopo l'asta di chiusura, SIX offre una breve fase in cui le azioni si negoziano solo al prezzo di chiusura (fino alle 17:40)."
+    },
+    {
+      "title": "Tassa di bollo sulla negoziazione di titoli",
+      "text": "Quando interviene un commerciante di titoli svizzero, si applica un'imposta federale sugli acquisti e sulle vendite: 0,15% per i titoli svizzeri e 0,3% per quelli esteri, sul prezzo pagato."
+    }
+  ],
+  "taxes": {
+    "glance": "Imposta preventiva del 35% sui dividendi svizzeri (rimborsabile ai residenti che li dichiarano; in parte recuperabile in base alle convenzioni fiscali); plusvalenze private su titoli esenti; tassa di bollo dello 0,15%/0,3% tramite commercianti svizzeri.",
+    "items": [
+      {
+        "title": "Imposta preventiva sui dividendi",
+        "text": "Le società svizzere trattengono dai dividendi un'imposta preventiva del 35% (Verrechnungssteuer). I residenti in Svizzera che dichiarano il reddito la recuperano con la dichiarazione dei redditi; gli investitori esteri possono recuperarne una parte in base a una convenzione contro le doppie imposizioni."
+      },
+      {
+        "title": "Plusvalenze per i privati",
+        "text": "Le plusvalenze dalla vendita di beni mobili privati come i titoli sono esenti sia a livello federale sia cantonale."
+      },
+      {
+        "title": "Tassa di bollo sulla negoziazione",
+        "text": "0,15% sui titoli svizzeri e 0,3% su quelli esteri quando interviene un commerciante di titoli svizzero."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera solo fino al 15% del dividendo (categoria Q); il resto del 35% va chiesto a rimborso in Svizzera in base alla convenzione fiscale, se disponibile."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione sulla SIX Swiss Exchange; verifica i costi di cambio in franchi.",
+    "Alcune blue chip svizzere sono negoziate anche su altre sedi europee.",
+    "Indirettamente, tramite fondi o ETF sull'SMI o su indici svizzeri più ampi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Viene introdotto l'SMI con una base di 1.500 punti (30 giugno)."
+    },
+    {
+      "text": "Il 17 maggio le Borse di Basilea, Ginevra e Zurigo si fondono nella Borsa svizzera SWX, oggi SIX Swiss Exchange."
+    },
+    {
+      "text": "La Svizzera diventa il primo Paese a passare interamente a sistemi elettronici per negoziazione, regolamento e custodia (dall'8 dicembre 1995 al 16 agosto 1996)."
+    },
+    {
+      "text": "Ciba-Geigy e Sandoz annunciano la fusione da cui nasce Novartis (7 marzo), uno dei titoli più pesanti dell'SMI."
+    },
+    {
+      "text": "Galderma e Sandoz entrano nell'SMI al posto di Swisscom e Kuehne+Nagel, con effetto dal 21 settembre."
+    }
+  ],
+  "funFacts": [
+    "Fino al 1995 l'SMI veniva calcolato con i prezzi di tre Borse separate: Basilea, Ginevra e Zurigo.",
+    "Nel 2026 Nestlé, Novartis, Roche e ABB erano così grandi da essere limitate al 9% ciascuna nel più ampio indice SLI di SIX."
+  ]
+}

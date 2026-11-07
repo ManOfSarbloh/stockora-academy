@@ -1,0 +1,94 @@
+{
+  "translatedFrom": "2026-10-20",
+  "name": "Paesi Bassi",
+  "summary": "Amsterdam rivendica la Borsa più antica del mondo: la Compagnia olandese delle Indie orientali (VOC) fu la prima società a esservi negoziata, nel 1602. Oggi l'AEX di Euronext Amsterdam segue 30 grandi società, guidate da pochi nomi globali dei semiconduttori, dell'energia, dei beni di consumo e della finanza.",
+  "currency": {
+    "name": "Euro",
+    "note": "Stessa valuta dell'Austria, quindi nessun rischio di cambio per chi investe in euro. Diverse società dell'AEX redigono i bilanci in altre valute o realizzano la maggior parte dei ricavi all'estero."
+  },
+  "exchanges": [
+    {
+      "name": "Euronext Amsterdam",
+      "city": "Amsterdam",
+      "founded": "1602 (Euronext la definisce la Borsa più antica del mondo); parte di Euronext dal 2000",
+      "hours": "Per le azioni dell'AEX: asta di apertura alle 09:00, negoziazione continua 09:00–17:30, asta di chiusura fino alle 17:35, poi negoziazione al prezzo di chiusura fino alle 17:40. Le azioni meno liquide si negoziano invece in due aste giornaliere (11:30 e 16:30).",
+      "note": "Amsterdam segue il calendario delle festività di Euronext; nel 2026 è aperta il giorno dell'Ascensione e il lunedì di Pentecoste."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "AEX",
+      "constituents": "30 società",
+      "description": "Le 30 azioni più grandi e più scambiate su Euronext Amsterdam, ponderate per capitalizzazione di mercato del flottante. Serie storica dal 1° marzo 1983. Alla fine di settembre 2026 le dieci maggiori società rappresentavano circa il 77% dell'indice."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Autorità olandese per i mercati finanziari (AFM)",
+      "role": "Dal 1° marzo 2002 vigila sulla condotta dell'intero settore dei mercati finanziari, compresi mercati dei capitali, imprese di investimento e informativa finanziaria."
+    },
+    {
+      "name": "De Nederlandsche Bank (DNB)",
+      "role": "Banca centrale e autorità di vigilanza prudenziale; gestisce la garanzia dei depositi olandese."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Garanzia dei depositi olandese",
+      "text": "Il denaro sui conti bancari è tutelato automaticamente fino a 100.000 € per persona e per banca. I prodotti d'investimento come azioni e obbligazioni non sono coperti."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "Euroclear Nederland (uno dei depositari ESES di Euroclear)",
+    "note": "Come il resto dell'UE, i Paesi Bassi passano al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    },
+    {
+      "title": "Alta concentrazione",
+      "text": "L'AEX è dominato da poche società: alla fine di settembre 2026 la società più grande pesava da sola circa il 17%."
+    }
+  ],
+  "taxes": {
+    "glance": "Imposta olandese sui dividendi del 15% trattenuta dalla società che paga; gli investitori esteri possono chiedere uno sgravio in base a una convenzione fiscale. I residenti nei Paesi Bassi sono tassati secondo il proprio sistema di imposta sul reddito (non trattato qui).",
+    "items": [
+      {
+        "title": "Imposta sui dividendi",
+        "text": "L'aliquota generale dell'imposta olandese sui dividendi è del 15%, trattenuta dalla società che paga il dividendo."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo sulla KESt austriaca (categoria Q), che corrisponde all'aliquota olandese."
+      },
+      {
+        "title": "Residenti",
+        "text": "I residenti nei Paesi Bassi sono tassati su risparmi e investimenti secondo il sistema olandese di imposta sul reddito, che è complesso e in fase di riforma; consulta l'Amministrazione fiscale e doganale olandese."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione su Euronext Amsterdam in euro.",
+    "Indirettamente, tramite fondi o ETF sull'AEX o su indici europei più ampi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "La Compagnia olandese delle Indie orientali (VOC) è la prima società negoziata alla Borsa di Amsterdam."
+    },
+    {
+      "text": "Inizio della serie storica dell'indice AEX (1° marzo)."
+    },
+    {
+      "text": "Le Borse di Amsterdam, Bruxelles e Parigi si uniscono e formano Euronext."
+    },
+    {
+      "text": "La Borsa di Amsterdam festeggia il suo 417° anniversario."
+    }
+  ],
+  "funFacts": [
+    "Alla fine di settembre 2026 le dieci maggiori società dell'AEX rappresentavano circa il 77% dell'indice, più che nel DAX (circa 65%) o nel CAC 40 (circa 62%)."
+  ]
+}

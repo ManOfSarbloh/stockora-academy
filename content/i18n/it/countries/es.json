@@ -1,0 +1,92 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Spagna",
+  "summary": "La principale Borsa spagnola, la Bolsa de Madrid, risale al 1831. Il suo gestore BME appartiene dal 2020 al gruppo svizzero SIX. L'IBEX 35 è dominato da banche, società di servizi pubblici e dal gruppo della moda Inditex, e gli acquisti di grandi azioni spagnole sono soggetti a un'imposta sulle transazioni dello 0,2%.",
+  "currency": {
+    "name": "Euro",
+    "note": "Stessa valuta dell'Austria, quindi nessun rischio di cambio per chi investe in euro."
+  },
+  "exchanges": [
+    {
+      "name": "Bolsa de Madrid (BME Exchange)",
+      "city": "Madrid",
+      "founded": "1831",
+      "hours": "Sul sistema di interconnessione elettronica (SIBE): asta di apertura 08:30–09:00, negoziazione continua 09:00–17:30, asta di chiusura 17:30–17:35, negoziazione all'ultimo prezzo 17:35–17:45.",
+      "note": "BME è il gestore delle Borse e dei mercati finanziari spagnoli e fa parte di SIX Group dal 2020."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "IBEX 35",
+      "constituents": "35 società",
+      "description": "Pensato per rappresentare i titoli più grandi negoziati sul mercato azionario spagnolo, ponderati per capitalizzazione di mercato del flottante. Livello base 3.000 al 29 dicembre 1989. Calcolato da BME."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "CNMV (Comisión Nacional del Mercado de Valores)",
+      "role": "La commissione nazionale spagnola per il mercato mobiliare: vigila su emittenti, imprese di investimento, fondi e infrastrutture di mercato, e pubblica avvisi sulle società non autorizzate."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "FGD (Fondo di garanzia dei depositi degli enti creditizi)",
+      "text": "I depositi sono garantiti fino a 100.000 € per titolare e per istituto."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi); T+1 dall'11 ottobre 2027",
+    "csd": "Iberclear, il depositario centrale di titoli spagnolo (parte di BME)",
+    "note": "Come il resto dell'UE, la Spagna passa al regolamento il giorno successivo l'11 ottobre 2027."
+  },
+  "rules": [
+    {
+      "title": "Imposta sulle transazioni finanziarie",
+      "text": "Gli acquisti di azioni di società spagnole con una capitalizzazione di mercato superiore a 1 miliardo di euro (misurata al 1° dicembre dell'anno precedente) sono tassati allo 0,2%."
+    },
+    {
+      "title": "Vendite allo scoperto (regole UE)",
+      "text": "Le posizioni corte nette in azioni vanno comunicate all'autorità di vigilanza a partire dallo 0,1% del capitale emesso e pubblicate a partire dallo 0,5% (categoria N)."
+    }
+  ],
+  "taxes": {
+    "glance": "Residenti: redditi da risparmio (dividendi, plusvalenze) tassati dal 19% al 30% (quota statale e regionale dal 9,5% al 15% ciascuna, scaglioni 2025). Non residenti senza stabile organizzazione: 19% sui dividendi spagnoli (o l'aliquota della convenzione). Imposta sulle transazioni dello 0,2% sulle grandi azioni spagnole.",
+    "items": [
+      {
+        "title": "Residenti: redditi da risparmio",
+        "text": "Dividendi e plusvalenze formano la base imponibile del risparmio, tassata in modo progressivo. Nel 2025 la quota statale va dal 9,5% al 15% e anche quella regionale dal 9,5% al 15%, quindi dal 19% al 30% in totale."
+      },
+      {
+        "title": "Dividendi per i non residenti",
+        "text": "I non residenti senza stabile organizzazione in Spagna pagano il 19% sui dividendi spagnoli; una convenzione fiscale può fissare un limite più basso."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo sulla KESt austriaca (categoria Q); l'eventuale ritenuta spagnola più alta va chiesta a rimborso in Spagna."
+      },
+      {
+        "title": "Imposta sulle transazioni",
+        "text": "0,2% sugli acquisti di azioni di grandi società spagnole (vedi le regole di mercato sopra)."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione sulla Borsa spagnola in euro; verifica se viene aggiunta l'imposta sulle transazioni dello 0,2%.",
+    "Indirettamente, tramite fondi o ETF sull'IBEX 35 o su indici europei più ampi (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Nasce la Borsa di Madrid."
+    },
+    {
+      "text": "Data base dell'IBEX 35: 3.000 punti al 29 dicembre."
+    },
+    {
+      "text": "Viene approvata la legge spagnola sull'imposta sulle transazioni finanziarie (Ley 5/2020) e SIX Group rileva BME (giugno)."
+    }
+  ],
+  "funFacts": [
+    "Nel dicembre 2025 le quattro maggiori società dell'IBEX 35 (Santander, Iberdrola, BBVA e Inditex) rappresentavano più di metà dell'indice.",
+    "Dal 2020 le Borse spagnola e svizzera appartengono allo stesso gruppo, SIX."
+  ]
+}

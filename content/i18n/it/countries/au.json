@@ -1,0 +1,110 @@
+{
+  "translatedFrom": "2026-10-16",
+  "name": "Australia",
+  "summary": "La Borsa nazionale australiana, l'ASX, è nata nel 1987 dalla fusione di sei Borse statali; la Borsa di Sydney risale al 1871. Tra le prime società quotate c'erano la Bank of NSW (oggi Westpac) e, dal 1885, la società mineraria BHP. Grazie al sistema del franking, molti dividendi arrivano con l'imposta già pagata dalla società, e i dividendi interamente «franked» pagati a investitori esteri non subiscono ritenuta alla fonte. Sydney adotta l'ora legale nella stagione opposta a quella europea.",
+  "currency": {
+    "name": "Dollaro australiano",
+    "note": "Le azioni australiane sono quotate in dollari australiani, quindi chi investe in euro corre un rischio di cambio: i movimenti del dollaro australiano rispetto all'euro cambiano il valore delle posizioni in euro (categoria L)."
+  },
+  "exchanges": [
+    {
+      "name": "Australian Securities Exchange (ASX)",
+      "city": "Sydney",
+      "founded": "1° aprile 1987 (fusione di sei Borse statali); Borsa di Sydney 1871",
+      "hours": "Asta di apertura intorno alle 09:59 (con orario casuale), negoziazione normale fino alle 16:00, una fase di pre-chiusura dalle 16:00 alle 16:10 e l'asta di chiusura intorno alle 16:10.",
+      "note": "Sydney adotta l'ora legale da ottobre ad aprile, la stagione opposta a quella europea, quindi la differenza di fuso con Vienna cambia due volte all'anno di importi diversi. Dal 2010 l'ASX ha la concorrenza di altre sedi di negoziazione."
+    }
+  ],
+  "indexes": [
+    {
+      "name": "S&P/ASX 200",
+      "constituents": "200 società",
+      "description": "Il riferimento investibile del mercato azionario australiano: l'S&P/ASX 100 più altri 100 titoli, ponderati per capitalizzazione di mercato corretta per il flottante. Calcolato da S&P Dow Jones Indices."
+    },
+    {
+      "name": "All Ordinaries",
+      "constituents": "500 società",
+      "description": "Le 500 maggiori società quotate sull'ASX per capitalizzazione di mercato; la liquidità non è un criterio (tranne per le società con sede all'estero)."
+    }
+  ],
+  "regulators": [
+    {
+      "name": "Australian Securities and Investments Commission (ASIC)",
+      "role": "Vigila su società, servizi finanziari e mercati; nel 2010 ha assunto dall'ASX la sorveglianza dei mercati in tempo reale."
+    },
+    {
+      "name": "Australian Prudential Regulation Authority (APRA)",
+      "role": "Vigila su banche, assicurazioni e fondi pensione (superannuation), e gestisce il Financial Claims Scheme."
+    }
+  ],
+  "investorProtection": [
+    {
+      "name": "Financial Claims Scheme",
+      "text": "I depositi sono tutelati fino a 250.000 dollari australiani per titolare presso ogni banca, building society e credit union."
+    }
+  ],
+  "settlement": {
+    "cycle": "T+2 (due giorni lavorativi)",
+    "csd": "CHESS (Clearing House Electronic Subregister System), gestito da ASX Settlement",
+    "note": "L'Australia è passata da T+3 a T+2 per le operazioni dal 7 marzo 2016. L'ASX ha studiato il passaggio a T+1 ma non ha fissato una data."
+  },
+  "rules": [
+    {
+      "title": "Dividendi «franked»",
+      "text": "Le società australiane possono allegare crediti d'imposta (franking credits) per l'imposta societaria già pagata. Per gli investitori esteri non viene trattenuta alcuna ritenuta sui dividendi interamente «franked» (né sul conduit foreign income); è soggetta a ritenuta solo la parte non «franked»."
+    },
+    {
+      "title": "Proprietà elettronica dal 1998",
+      "text": "I certificati azionari cartacei sono stati sostituiti completamente dalla registrazione elettronica il 31 dicembre 1998. Le azioni sono detenute nel sottoregistro CHESS (tramite un broker) o in un sottoregistro tenuto dall'emittente."
+    }
+  ],
+  "taxes": {
+    "glance": "Non residenti: nessuna ritenuta sui dividendi interamente «franked»; dividendi non «franked» 30%, ridotto al 15% dalla maggior parte delle convenzioni fiscali. Le plusvalenze su normali azioni di portafoglio in genere non sono tassate in Australia per i non residenti (eccezioni per partecipazioni del 10% o più in società ricche di immobili).",
+    "items": [
+      {
+        "title": "Dividendi non «franked»",
+        "text": "Ritenuta alla fonte del 30% per i Paesi senza convenzione; la maggior parte delle convenzioni fiscali la riduce al 15%. Per i non residenti è un'imposta definitiva."
+      },
+      {
+        "title": "Dividendi «franked»",
+        "text": "I dividendi interamente «franked» non subiscono ritenuta; per quelli parzialmente «franked» è tassata solo la parte non «franked». I non residenti non possono far valere i franking credits."
+      },
+      {
+        "title": "Plusvalenze",
+        "text": "I non residenti pagano l'imposta australiana sulle plusvalenze solo sulla «taxable Australian property». Le azioni vi rientrano solo in casi particolari, per esempio una partecipazione del 10% o più in una società i cui beni sono principalmente immobili australiani."
+      },
+      {
+        "title": "Per chi investe dall'Austria",
+        "text": "Una banca austriaca può accreditare la ritenuta alla fonte estera fino al 15% del dividendo a scomputo della KESt austriaca (categoria Q)."
+      }
+    ]
+  },
+  "access": [
+    "Molte banche e broker austriaci offrono la negoziazione sull'ASX; verifica il cambio in dollari australiani. Per via del fuso orario, l'ASX negozia mentre l'Europa dorme.",
+    "Indirettamente, tramite fondi o ETF sull'S&P/ASX 200, sul Pacifico o su indici dei mercati sviluppati (categoria H)."
+  ],
+  "history": [
+    {
+      "text": "Nasce la Borsa di Sydney; tra le prime società quotate ci sono AGL e la Bank of NSW (oggi Westpac)."
+    },
+    {
+      "text": "BHP (Broken Hill Proprietary) si quota."
+    },
+    {
+      "text": "Il 1° aprile nasce l'Australian Stock Exchange dalla fusione di sei Borse statali; viene introdotto il sistema di negoziazione elettronico SEATS."
+    },
+    {
+      "text": "L'ASX diventa la prima Borsa al mondo a trasformarsi in società per azioni e a quotarsi sul proprio mercato (14 ottobre)."
+    },
+    {
+      "text": "L'ASX si fonde con il Sydney Futures Exchange."
+    },
+    {
+      "text": "Il regolamento passa da T+3 a T+2 (7 marzo)."
+    }
+  ],
+  "funFacts": [
+    "Le prime regole operative della Borsa di Sydney contavano 17 norme su 6 pagine; oggi le regole operative dell'ASX occupano circa 500 pagine.",
+    "La leggenda del cricket Don Bradman divenne membro della Borsa di Adelaide nel 1943."
+  ]
+}
