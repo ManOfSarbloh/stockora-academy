@@ -23,10 +23,8 @@ Full requirements: [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) · Decisions a
 | Search | `/search` | Pagefind full-text search plus instant answers: questions like “What is a dividend?” (in any of the five languages) show the glossary definition, with quick links to tools, countries and topics, filters by page type and a `/` shortcut |
 
 The site is also available in German (`/de/`), Spanish (`/es/`), French (`/fr/`) and Italian (`/it/`): the interface,
-home page, tools, glossary, Scam Shield and information pages are translated. In German, Spanish and French, everything
-else is translated too: all 196 lessons, every quiz question, the 20 country pages and How Stocks Are Made. In Italian,
-all 196 lessons and the topic quizzes are translated; the country pages, their quizzes and How Stocks Are Made are
-still English and say so.
+home page, tools, glossary, Scam Shield and information pages are translated. In all four languages, everything else
+is translated too: all 196 lessons, every quiz question, the 20 country pages and How Stocks Are Made.
 
 Progress, bookmarks, quiz scores and settings stay in the visitor's browser (`localStorage`). There is no account, no
 analytics and no cookie.
