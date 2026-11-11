@@ -275,8 +275,8 @@ export function recordExam(state: ExamState, percent: number, today: string): Ex
   };
 }
 
-export type BadgeId = 'first-quiz' | 'perfect' | 'category-master' | 'world-traveler' | 'scam-spotter' | 'founder' | 'streak-7' | 'exam-passed';
-export const BADGES: BadgeId[] = ['first-quiz', 'perfect', 'category-master', 'world-traveler', 'scam-spotter', 'founder', 'streak-7', 'exam-passed'];
+export type BadgeId = 'first-quiz' | 'perfect' | 'category-master' | 'world-traveler' | 'scam-spotter' | 'founder' | 'paper-trader' | 'streak-7' | 'exam-passed';
+export const BADGES: BadgeId[] = ['first-quiz', 'perfect', 'category-master', 'world-traveler', 'scam-spotter', 'founder', 'paper-trader', 'streak-7', 'exam-passed'];
 
 export interface BadgeInput {
   scores: ScoreBook;
@@ -286,6 +286,8 @@ export interface BadgeInput {
   topicCategories: string[];
   /** Country codes with a quiz, for "World Traveler". */
   countryCodes: string[];
+  /** Finished paper-trading games, for "Paper Trader". */
+  paperGames?: number;
 }
 
 export interface BadgeStatus {
@@ -308,7 +310,7 @@ export const MASTER_PERCENT = 80;
 export const PERFECT_MIN_QUESTIONS = 5;
 
 export function badgeStatus(input: BadgeInput): BadgeStatus[] {
-  const { scores, daily, exam, topicCategories, countryCodes } = input;
+  const { scores, daily, exam, topicCategories, countryCodes, paperGames = 0 } = input;
   const best = (id: string) => scores[id]?.best ?? -1;
   const mastered = topicCategories.filter((c) => best(quizIds.category(c)) >= MASTER_PERCENT).length;
   const countriesDone = countryCodes.filter((c) => scores[quizIds.country(c)]).length;
@@ -322,6 +324,7 @@ export function badgeStatus(input: BadgeInput): BadgeStatus[] {
     { id: 'world-traveler', earned: countryCodes.length > 0 && countriesDone === countryCodes.length, progress: { done: countriesDone, total: countryCodes.length } },
     { id: 'scam-spotter', earned: scam },
     { id: 'founder', earned: founder },
+    { id: 'paper-trader', earned: paperGames > 0 },
     { id: 'streak-7', earned: daily.best >= 7, progress: { done: Math.min(daily.best, 7), total: 7 } },
     { id: 'exam-passed', earned: exam.passed },
   ];

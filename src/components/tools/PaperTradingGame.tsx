@@ -7,6 +7,8 @@ import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { t, type UiKey } from '@/i18n';
 import { eurCents, int, pct } from '@/lib/format';
 import { readJSON, remove, writeJSON } from '@/lib/storage';
+import { recordPaperGame } from '@/lib/quiz-store';
+import type { BadgeId } from '@/lib/quiz-engine';
 import {
   GAME_LENGTHS,
   INSTRUMENTS,
@@ -173,9 +175,18 @@ function Play({
   const value = portfolioValue(game, market);
   const invested = value - game.cash;
   const resultRef = useRef<HTMLHeadingElement>(null);
+  const [badges, setBadges] = useState<BadgeId[]>([]);
+  const wasOver = useRef(over);
 
   useEffect(() => {
-    if (over) resultRef.current?.focus();
+    if (!over) {
+      wasOver.current = false;
+      return;
+    }
+    resultRef.current?.focus();
+    // Count the game once, when it ends here (not when a finished game is shown again).
+    if (!wasOver.current) setBadges(recordPaperGame());
+    wasOver.current = true;
   }, [over]);
 
   const step = (n: number) => {
@@ -213,7 +224,7 @@ function Play({
         {announce}
       </p>
 
-      {over && <Result game={game} market={market} headingRef={resultRef} onRestart={onRestart} onNew={onNew} />}
+      {over && <Result game={game} market={market} headingRef={resultRef} badges={badges} onRestart={onRestart} onNew={onNew} />}
 
       <fieldset>
         <legend className="mb-2 text-sm font-semibold">{t('pg.pick')}</legend>
@@ -610,12 +621,14 @@ function Result({
   game,
   market,
   headingRef,
+  badges,
   onRestart,
   onNew,
 }: {
   game: GameState;
   market: ReturnType<typeof simulateMarket>;
   headingRef: React.RefObject<HTMLHeadingElement | null>;
+  badges: BadgeId[];
   onRestart: (seed: number, days: number) => void;
   onNew: () => void;
 }) {
@@ -673,6 +686,11 @@ function Result({
         {s.trades > 0 && <li>{t('pg.end.feesNote', { fees: eurCents(s.fees), pct: pct(s.fees / START_CASH) })}</li>}
         {s.drawdown < -0.05 && <li>{t('pg.end.ddNote', { pct: pct(-s.drawdown) })}</li>}
       </ul>
+      {badges.map((b) => (
+        <p key={b} className="font-semibold">
+          🏅 {t('quiz.newBadge', { name: t(`badge.${b}.name` as UiKey) })}
+        </p>
+      ))}
       <p className="text-xs text-muted">{t('pg.end.taxNote')}</p>
       <div className="flex flex-wrap gap-2">
         <button type="button" className="btn btn-primary" onClick={() => onRestart(game.seed, game.days)}>

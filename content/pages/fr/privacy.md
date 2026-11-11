@@ -28,6 +28,7 @@ Pour mémoriser vos réglages et votre progression, le site utilise le *stockage
 - `stockora-quiz-name` : le nom saisi pour votre certificat, le cas échéant.
 - `stockora-founder-game` : si vous avez terminé le jeu du fondateur de la page « Naissance d'une action », et quand.
 - `stockora-paper-game` : votre partie en cours du jeu de Bourse avec de l'argent fictif (numéro de marché, jour, liquidités, positions, ordres et historique), pour la reprendre plus tard.
+- `stockora-paper-game-stats` : combien de parties du jeu de Bourse avec de l'argent fictif vous avez terminées (pour le badge « Boursicoteur virtuel »).
 - `stockora-times-zone` : le fuseau horaire choisi sur la page des horaires.
 
 Cette liste sera tenue à jour. Vous pouvez tout effacer à tout moment en supprimant les données de ce site dans les réglages de votre navigateur. Sur la page « Mon parcours », vous pouvez tout télécharger dans un fichier de sauvegarde et le restaurer dans un autre navigateur. Le fichier est créé sur votre appareil et n’est envoyé nulle part.

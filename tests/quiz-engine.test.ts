@@ -192,6 +192,11 @@ describe('badges', () => {
     expect(status(saveScore({}, 'A:lesson', 100, 2, now)).perfect.earned).toBe(false);
     expect(status(saveScore({}, 'B', 100, 5, now)).perfect.earned).toBe(true);
   });
+  it('paper trader after finishing a paper-trading game', () => {
+    const base = { scores: {}, daily: emptyDaily(), exam: emptyExam(), topicCategories, countryCodes };
+    expect(badgeStatus(base).find((b) => b.id === 'paper-trader')?.earned).toBe(false);
+    expect(badgeStatus({ ...base, paperGames: 1 }).find((b) => b.id === 'paper-trader')?.earned).toBe(true);
+  });
   it('scam spotter from the special quiz or category T', () => {
     expect(status(saveScore({}, 'special-scam-spotter', 80, 15, now))['scam-spotter'].earned).toBe(true);
     expect(status(saveScore({}, 'T', 79, 30, now))['scam-spotter'].earned).toBe(false);

@@ -331,6 +331,7 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Rules | €10,000 play money, whole shares, no short selling or leverage (covered in topic N). Orders placed after the close execute the next day: market orders at the open plus half the spread, limit orders at the limit or better, stop-loss orders at the stop or the lower opening price after a gap. Flat €5 fee per executed order. Dividends pay out with 27.5% KESt withheld; the result shows a simplified KESt estimate on net realised gains |
 | Teaching points | The result compares the player with "buy the index fund on day 1 and hold", and shows fees, the largest drawdown and taxes; lessons on orders, costs, active vs passive, day-trading evidence, overconfidence, drawdowns and KESt are linked |
 | Code | Pure engine in src/lib/paper-game.ts (15 unit tests), interface in src/components/tools/PaperTradingGame.tsx; saved in localStorage as stockora-paper-game (listed on the privacy page) |
+| Badge | "Paper Trader" for finishing a game, counted in stockora-paper-game-stats (not as a quiz score, so it cannot affect quiz statistics or the "Perfect Score" badge); shown with the other badges on the quiz hub and cleared by the quiz reset |
 
 ## Open items
 

@@ -919,6 +919,8 @@ export const es: Dictionary = {
   'badge.scam-spotter.desc': "80 % o más en el cuestionario «Detecta el fraude».",
   'badge.founder.name': "Fundador",
   'badge.founder.desc': "Termina el cuestionario «Cómo nacen las acciones».",
+  'badge.paper-trader.name': "Inversor de juego",
+  'badge.paper-trader.desc': "Termina una partida del juego de bolsa con dinero ficticio.",
   'badge.streak-7.name': "Racha de 7",
   'badge.streak-7.desc': "Haz el cuestionario diario siete días seguidos.",
   'badge.exam-passed.name': "Examen aprobado",

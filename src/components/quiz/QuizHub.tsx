@@ -22,7 +22,7 @@ import {
   type QuizStats,
 } from '@/lib/quiz-engine';
 import { playQuery, type Kind, type Mode } from '@/lib/quiz-sets';
-import { COUNTRY_CODES, QUIZ_EVENT, TOPIC_IDS, loadDaily, loadExam, loadScores, loadStats } from '@/lib/quiz-store';
+import { COUNTRY_CODES, QUIZ_EVENT, TOPIC_IDS, badgeInput, loadDaily, loadExam, loadScores, loadStats } from '@/lib/quiz-store';
 
 interface Props {
   names: Record<string, string>;
@@ -38,6 +38,7 @@ const BADGE_ICONS: Record<string, string> = {
   'world-traveler': '🌍',
   'scam-spotter': '🛡️',
   founder: '🏗️',
+  'paper-trader': '📈',
   'streak-7': '🔥',
   'exam-passed': '🏆',
 };
@@ -95,7 +96,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
       setExam(loadExam());
       setDue(Object.values(stats).filter((s) => s.due <= d).length);
       setWeak(weakFromStats(stats));
-      setBadges(badgeStatus({ scores: loadScores(), daily: loadDaily(), exam: loadExam(), topicCategories: TOPIC_IDS, countryCodes: COUNTRY_CODES }));
+      setBadges(badgeStatus(badgeInput()));
     };
     refresh();
     window.addEventListener(QUIZ_EVENT, refresh);

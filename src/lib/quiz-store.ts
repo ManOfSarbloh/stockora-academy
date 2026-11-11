@@ -22,7 +22,7 @@ import {
   type ScoreBook,
 } from './quiz-engine';
 
-export const QUIZ_KEYS = ['quiz-scores', 'quiz-stats', 'quiz-daily', 'quiz-exam', 'quiz-name'] as const;
+export const QUIZ_KEYS = ['quiz-scores', 'quiz-stats', 'quiz-daily', 'quiz-exam', 'quiz-name', 'paper-game-stats'] as const;
 
 /** Topic categories (A–W) and country codes, for badge progress. */
 export const TOPIC_IDS: string[] = (categoriesJson as { id: string }[]).map((c) => c.id);
@@ -53,8 +53,14 @@ export const saveExam = (e: ExamState) => writeJSON('quiz-exam', e);
 export const loadName = () => readJSON<string>('quiz-name', '');
 export const saveName = (n: string) => writeJSON('quiz-name', n);
 
+/** Number of finished paper-trading games (for the "Paper Trader" badge). */
+const loadPaperGames = () => readJSON<{ finished: number }>('paper-game-stats', { finished: 0 }).finished ?? 0;
+
+/** Everything the badge rules look at, read from this browser. */
+export const badgeInput = () => ({ scores: loadScores(), daily: loadDaily(), exam: loadExam(), topicCategories: TOPIC_IDS, countryCodes: COUNTRY_CODES, paperGames: loadPaperGames() });
+
 export function earnedBadges(): BadgeId[] {
-  return badgeStatus({ scores: loadScores(), daily: loadDaily(), exam: loadExam(), topicCategories: TOPIC_IDS, countryCodes: COUNTRY_CODES })
+  return badgeStatus(badgeInput())
     .filter((b) => b.earned)
     .map((b) => b.id);
 }
@@ -82,6 +88,18 @@ export function recordQuizRun(quizId: string | null, results: { id: string; corr
     /* no window in tests */
   }
   return gained;
+}
+
+/** Counts a finished paper-trading game. Returns new badges. */
+export function recordPaperGame(): BadgeId[] {
+  const before = new Set(earnedBadges());
+  writeJSON('paper-game-stats', { finished: loadPaperGames() + 1 });
+  try {
+    window.dispatchEvent(new CustomEvent(QUIZ_EVENT));
+  } catch {
+    /* ignore */
+  }
+  return earnedBadges().filter((b) => !before.has(b));
 }
 
 /** Save only a score (for games whose rounds are not questions from the bank). Returns new badges. */

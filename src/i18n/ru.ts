@@ -919,6 +919,8 @@ export const ru: Dictionary = {
   'badge.scam-spotter.desc': "80% или больше в тесте «Распознай мошенника».",
   'badge.founder.name': "Основатель",
   'badge.founder.desc': "Пройдите тест «Как появляются акции».",
+  'badge.paper-trader.name': "Игровой трейдер",
+  'badge.paper-trader.desc': "Доиграйте партию в биржевую игру на игровые деньги.",
   'badge.streak-7.name': "Серия 7",
   'badge.streak-7.desc': "Проходите тест дня семь дней подряд.",
   'badge.exam-passed.name': "Экзамен сдан",

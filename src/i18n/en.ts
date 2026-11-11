@@ -951,6 +951,8 @@ export const en = {
   'badge.scam-spotter.desc': '80% or more in the Scam Spotter quiz.',
   'badge.founder.name': 'Founder',
   'badge.founder.desc': 'Finish the How Stocks Are Made quiz.',
+  'badge.paper-trader.name': 'Paper Trader',
+  'badge.paper-trader.desc': 'Finish a game in the paper-trading game.',
   'badge.streak-7.name': 'Streak 7',
   'badge.streak-7.desc': 'Do the daily quiz seven days in a row.',
   'badge.exam-passed.name': 'Exam Passed',

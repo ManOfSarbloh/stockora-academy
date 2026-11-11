@@ -919,6 +919,8 @@ export const de: Dictionary = {
   'badge.scam-spotter.desc': "80 % oder mehr im Quiz „Betrug erkennen“.",
   'badge.founder.name': "Gründer:in",
   'badge.founder.desc': "Schließe das Quiz „Wie Aktien entstehen“ ab.",
+  'badge.paper-trader.name': "Börsenspieler:in",
+  'badge.paper-trader.desc': "Spiele eine Partie im Börsenspiel mit Spielgeld zu Ende.",
   'badge.streak-7.name': "7er-Serie",
   'badge.streak-7.desc': "Mach das Tagesquiz sieben Tage in Folge.",
   'badge.exam-passed.name': "Prüfung bestanden",
