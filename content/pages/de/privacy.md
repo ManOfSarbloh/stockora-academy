@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 lead: "Kurz gesagt: Wir verfolgen dich nicht."
-lastUpdated: 2026-10-23
+lastUpdated: 2026-11-11
 ---
 
 Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du Stockora Academy nutzt. Diese deutsche Fassung ist eine Übersetzung; maßgeblich ist die englische Fassung.
@@ -27,6 +27,7 @@ Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite 
 - `stockora-quiz-exam`: deine Versuche bei der Abschlussprüfung, dein bestes Ergebnis und das Datum des Bestehens.
 - `stockora-quiz-name`: der Name, den du für dein Zertifikat eingegeben hast, falls vorhanden.
 - `stockora-founder-game`: ob du das Gründerspiel auf der Seite „Wie Aktien entstehen“ abgeschlossen hast, und wann.
+- `stockora-paper-game`: dein laufendes Börsenspiel mit Spielgeld (Marktnummer, Tag, Bargeld, Bestand, Orders und Verlauf), damit du es später fortsetzen kannst.
 - `stockora-times-zone`: die Zeitzone, die du auf der Seite „Handelszeiten“ gewählt hast.
 
 Diese Liste wird aktuell gehalten. Du kannst alles jederzeit löschen, indem du die Daten dieser Seite in deinen Browsereinstellungen löschst. Auf der Seite „Mein Fortschritt“ kannst du alles als Sicherungsdatei herunterladen und in einem anderen Browser wiederherstellen. Die Datei entsteht auf deinem Gerät und wird nirgendwohin hochgeladen.

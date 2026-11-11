@@ -4,6 +4,7 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import CapTableSimulator from '@/components/tools/CapTableSimulator';
 import BookbuildingSimulator from '@/components/tools/BookbuildingSimulator';
+import PaperTradingGame from '@/components/tools/PaperTradingGame';
 import {
   BreakEvenCalculator,
   CandleBuilder,
@@ -72,7 +73,12 @@ const lessons = await lessonRefs(tool.lessons);
       {slug === 'position-size' && <PositionSizeCalculator client:load />}
       {slug === 'leverage' && <LeverageCalculator client:load />}
       {slug === 'candlestick-builder' && <CandleBuilder client:load />}
-      <noscript><p class="card p-4 text-muted">{t('js.calculator')}</p></noscript>
+      {slug === 'paper-trading' && (
+        <PaperTradingGame client:only="react">
+          <div slot="fallback" class="island-fallback h-[900px]"></div>
+        </PaperTradingGame>
+      )}
+      <noscript><p class="card p-4 text-muted">{t(slug === 'paper-trading' ? 'js.game' : 'js.calculator')}</p></noscript>
     </div>
 
     <p class="text-sm text-muted">{t('tools.disclaimer')}</p>

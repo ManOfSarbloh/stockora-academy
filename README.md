@@ -17,7 +17,7 @@ Full requirements: [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) · Decisions a
 | Quizzes | `/quizzes` | 1,368 questions: topic, country and special quizzes, Mega Quiz, daily quiz, spaced repetition, weak-spot mode, Final Exam and badges |
 | Videos | `/videos` | 110 checked YouTube videos with filters; the player loads only after a click |
 | Glossary | `/glossary` | 551 terms, linked automatically from lessons |
-| Tools | `/tools` | 13 calculators and simulators (profit/loss with an Austrian tax estimate, compound growth, savings plan, leverage, …) |
+| Tools | `/tools` | 13 calculators and simulators (profit/loss with an Austrian tax estimate, compound growth, savings plan, leverage, …) and a paper-trading game with play money and simulated prices (`/tools/paper-trading`) |
 | History | `/history` | A sourced timeline of market milestones, crashes and rule changes |
 | Scam Shield | `/scams` | Red-flag checklist, checks before investing, a spot-the-scam exercise and where to get help in Austria |
 | Search | `/search` | Pagefind full-text search plus instant answers: questions like “What is a dividend?” (in any of the five languages) show the glossary definition, with quick links to tools, countries and topics, filters by page type and a `/` shortcut |

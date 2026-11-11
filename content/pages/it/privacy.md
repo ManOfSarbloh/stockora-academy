@@ -1,7 +1,7 @@
 ---
 title: "Informativa sulla privacy"
 lead: "In breve: non ti tracciamo."
-lastUpdated: 2026-10-23
+lastUpdated: 2026-11-11
 ---
 
 Questa informativa spiega cosa succede ai dati personali quando usi Stockora Academy. Questa versione italiana è una traduzione; fa fede la versione inglese.
@@ -27,6 +27,7 @@ Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazio
 - `stockora-quiz-exam`: i tuoi tentativi all'Esame finale, il punteggio migliore e la data del superamento.
 - `stockora-quiz-name`: il nome inserito per il tuo attestato, se presente.
 - `stockora-founder-game`: se hai completato il gioco del fondatore nella pagina «Come nascono le azioni», e quando.
+- `stockora-paper-game`: la tua partita in corso del gioco di Borsa con denaro finto (numero del mercato, giorno, liquidità, posizioni, ordini e cronologia), per poterla continuare più tardi.
 - `stockora-times-zone`: il fuso orario scelto nella pagina degli orari.
 
 Questo elenco sarà tenuto aggiornato. Puoi cancellare tutto in qualsiasi momento eliminando i dati di questo sito nelle impostazioni del browser. Nella pagina «Il mio percorso» puoi scaricare tutto come file di backup e ripristinarlo in un altro browser. Il file viene creato sul tuo dispositivo e non viene caricato da nessuna parte.
