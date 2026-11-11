@@ -464,14 +464,37 @@
         "date": "2026-12-31",
         "name": "New Year's Eve",
         "halfDay": true
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-03-29",
+        "name": "Easter Monday"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve",
+        "halfDay": true
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve",
+        "halfDay": true
       }
     ],
     "holidaysSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
     "holidayYears": [
-      2026
+      2026,
+      2027
     ],
-    "notes": "Times for CAC 40 shares: continuous trading 09:00–17:30 after the opening auction, closing auction until 17:35, then trading at the closing price until 17:40. Amsterdam, Brussels and Lisbon have the same 2026 closing and half days. Euronext had not yet published its 2027 calendar or the exact half-day hours for 24 and 31 December 2026.",
-    "asOf": "2026-10-11"
+    "notes": "Times for CAC 40 shares: continuous trading 09:00–17:30 after the opening auction, closing auction until 17:35, then trading at the closing price until 17:40. Amsterdam, Brussels and Lisbon have the same closing and half days in 2026 and 2027. In 2027, 1 May and 25 December fall on a Saturday. Euronext had not yet published the exact half-day hours for 24 and 31 December 2026 (checked 11 November 2026).",
+    "asOf": "2026-11-11"
   },
   {
     "id": "nyse",
@@ -678,14 +701,60 @@
       {
         "date": "2026-12-28",
         "name": "Boxing Day (in lieu)"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-02-15",
+        "name": "Family Day"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-05-24",
+        "name": "Victoria Day"
+      },
+      {
+        "date": "2027-07-01",
+        "name": "Canada Day"
+      },
+      {
+        "date": "2027-08-02",
+        "name": "Civic Holiday"
+      },
+      {
+        "date": "2027-09-06",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2027-10-11",
+        "name": "Thanksgiving Day"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "13:00"
+      },
+      {
+        "date": "2027-12-27",
+        "name": "Christmas Day (in lieu)"
+      },
+      {
+        "date": "2027-12-28",
+        "name": "Boxing Day (in lieu)"
       }
     ],
     "holidaysSource": "https://www.tsx.com/en/trading/calendars-and-trading-hours/calendar",
     "holidayYears": [
-      2026
+      2026,
+      2027
     ],
-    "notes": "Opening (Market on Open) at 9:30 a.m. ET, continuous trading until 4:00 p.m. with the Market on Close facility from 3:50 p.m., and an extended session 4:15–5:00 p.m. at the last sale price only. TSX had not yet published its 2027 holidays.",
-    "asOf": "2026-10-11"
+    "notes": "Opening (Market on Open) at 9:30 a.m. ET, continuous trading until 4:00 p.m. with the Market on Close facility from 3:50 p.m., and an extended session 4:15–5:00 p.m. at the last sale price only. In 2027 Christmas Day and Boxing Day fall on a weekend, so TSX closes on Monday 27 and Tuesday 28 December instead.",
+    "asOf": "2026-11-11"
   },
   {
     "id": "b3",
@@ -707,21 +776,15 @@
       {
         "type": "regular",
         "start": "10:00",
-        "end": "16:55"
+        "end": "17:55"
       },
       {
         "type": "auction-close",
-        "start": "16:55",
-        "end": "17:00"
-      },
-      {
-        "type": "post",
-        "start": "17:30",
-        "end": "18:00",
-        "label": "After-market"
+        "start": "17:55",
+        "end": "18:00"
       }
     ],
-    "sessionsValidUntil": "2026-10-31",
+    "sessionsValidUntil": "2027-03-12",
     "holidays": [
       {
         "date": "2026-01-01",
@@ -789,8 +852,8 @@
     "holidayYears": [
       2026
     ],
-    "notes": "Cash equities: pre-opening 9:45–10:00, trading 10:00–16:55, closing call 16:55–17:00 and an after-market session 17:30–18:00 (São Paulo time). These are the hours B3 has applied since 9 March 2026, when it adjusted its schedule for US daylight saving time; B3 changes its hours again when US daylight saving time ends, so check B3's current schedule after 31 October 2026. On Ash Wednesday trading starts at 13:00. Brazil does not use daylight saving time.",
-    "asOf": "2026-10-11"
+    "notes": "Cash equities: pre-opening 9:45–10:00, trading 10:00–17:55 and closing call 17:55–18:00 (São Paulo time), as listed on B3's trading-hours page on 11 November 2026, after US daylight saving time ended. B3 moves its hours by one hour when US daylight saving time starts and ends (from 9 March 2026 trading ran 10:00–16:55), so these hours are shown until 12 March 2027. The schedule lists no after-market trading for cash equities, only an order-cancellation phase 18:25–18:45. On Ash Wednesday trading starts at 13:00. Brazil does not use daylight saving time.",
+    "asOf": "2026-11-11"
   },
   {
     "id": "jpx",
@@ -1314,11 +1377,147 @@
         "end": "15:30"
       }
     ],
-    "holidays": [],
-    "holidaysSource": "https://global.krx.co.kr/",
-    "holidayYears": [],
-    "notes": "Regular session 09:00–15:30: continuous trading until 15:20, then a closing call auction until 15:30. KRX also runs pre-hours and after-hours sessions; check KRX for their current times. According to KRX, the market is closed on holidays including Labor Day (1 May) and the last trading day of the year. We could not retrieve an official holiday list, so holidays are not shown for Seoul. Korea does not use daylight saving time.",
-    "asOf": "2026-10-11"
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Seollal (Lunar New Year)"
+      },
+      {
+        "date": "2026-02-17",
+        "name": "Seollal (Lunar New Year)"
+      },
+      {
+        "date": "2026-02-18",
+        "name": "Seollal (Lunar New Year)"
+      },
+      {
+        "date": "2026-03-02",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labor Day"
+      },
+      {
+        "date": "2026-05-05",
+        "name": "Children's Day"
+      },
+      {
+        "date": "2026-05-25",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2026-06-03",
+        "name": "Temporary holiday"
+      },
+      {
+        "date": "2026-07-17",
+        "name": "Public holiday"
+      },
+      {
+        "date": "2026-08-17",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2026-09-24",
+        "name": "Chuseok"
+      },
+      {
+        "date": "2026-09-25",
+        "name": "Chuseok"
+      },
+      {
+        "date": "2026-10-05",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2026-10-09",
+        "name": "Hangeul Day"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "Year-end closing"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-02-08",
+        "name": "Seollal (Lunar New Year)"
+      },
+      {
+        "date": "2027-02-09",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-03-01",
+        "name": "Independence Movement Day"
+      },
+      {
+        "date": "2027-05-03",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-05-05",
+        "name": "Children's Day"
+      },
+      {
+        "date": "2027-05-13",
+        "name": "Buddha's Birthday"
+      },
+      {
+        "date": "2027-07-19",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-08-16",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-09-14",
+        "name": "Chuseok"
+      },
+      {
+        "date": "2027-09-15",
+        "name": "Chuseok"
+      },
+      {
+        "date": "2027-09-16",
+        "name": "Chuseok"
+      },
+      {
+        "date": "2027-10-04",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-10-11",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-12-27",
+        "name": "Substitute holiday"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "Year-end closing"
+      }
+    ],
+    "holidaysSource": "https://global.krx.co.kr/contents/GLB/05/0501/0501110000/GLB0501110000.jsp",
+    "holidayYears": [
+      2026,
+      2027
+    ],
+    "notes": "Regular session 09:00–15:30: continuous trading until 15:20, then a closing call auction until 15:30. KRX also runs pre-hours and after-hours sessions; check KRX for their current times. Holidays are from KRX's market-closing list (checked 11 November 2026); KRX gives no reason for the 17 July 2026 closing. The market also closes on the last trading day of the year. Korea does not use daylight saving time.",
+    "asOf": "2026-11-11"
   },
   {
     "id": "sgx",

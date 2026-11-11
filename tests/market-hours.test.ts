@@ -134,13 +134,14 @@ describe('weekends, holidays and status', () => {
     expect(statusAt(ex('nyse'), at('2026-10-13T21:00:00Z')).state).toBe('post'); // 17:00 ET
   });
   it('flags years without an official holiday list', () => {
-    expect(daySchedule(ex('euronext-paris'), '2027-03-01').holidaysUnknown).toBe(true);
+    expect(daySchedule(ex('euronext-paris'), '2028-03-01').holidaysUnknown).toBe(true);
     expect(daySchedule(ex('euronext-paris'), '2026-03-02').holidaysUnknown).toBe(false);
     expect(daySchedule(ex('sgx'), '2026-10-13').holidaysUnknown).toBe(true);
   });
   it('stops at the end of confirmed hours', () => {
-    expect(daySchedule(ex('b3'), '2026-11-03').kind).toBe('hours-unconfirmed');
-    expect(statusAt(ex('b3'), at('2026-11-03T15:00:00Z')).state).toBe('unknown');
+    expect(daySchedule(ex('b3'), '2027-03-15').kind).toBe('hours-unconfirmed');
+    expect(statusAt(ex('b3'), at('2027-03-15T15:00:00Z')).state).toBe('unknown');
+    expect(daySchedule(ex('b3'), '2026-11-12').kind).not.toBe('hours-unconfirmed');
   });
 });
 
@@ -167,7 +168,7 @@ describe('special days', () => {
     const d = daySchedule(ex('b3'), '2026-02-18');
     const fmt = d.intervals.map((i) => `${i.type} ${zonedTime(i.start, 'America/Sao_Paulo')}-${zonedTime(i.end, 'America/Sao_Paulo')}`);
     expect(fmt[0]).toBe('auction-open 12:45-13:00');
-    expect(fmt[1]).toBe('regular 13:00-16:55');
+    expect(fmt[1]).toBe('regular 13:00-17:55');
   });
   it('uses a different Friday schedule in Tel Aviv and no Sunday trading', () => {
     const fri = daySchedule(ex('tase'), '2026-10-16');
