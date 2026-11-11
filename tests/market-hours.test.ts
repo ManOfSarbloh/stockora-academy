@@ -136,7 +136,8 @@ describe('weekends, holidays and status', () => {
   it('flags years without an official holiday list', () => {
     expect(daySchedule(ex('euronext-paris'), '2028-03-01').holidaysUnknown).toBe(true);
     expect(daySchedule(ex('euronext-paris'), '2026-03-02').holidaysUnknown).toBe(false);
-    expect(daySchedule(ex('sgx'), '2026-10-13').holidaysUnknown).toBe(true);
+    expect(daySchedule(ex('sgx'), '2027-03-01').holidaysUnknown).toBe(true);
+    expect(daySchedule(ex('sgx'), '2026-10-13').holidaysUnknown).toBe(false);
   });
   it('stops at the end of confirmed hours', () => {
     expect(daySchedule(ex('b3'), '2027-03-15').kind).toBe('hours-unconfirmed');
@@ -146,6 +147,17 @@ describe('weekends, holidays and status', () => {
 });
 
 describe('special days', () => {
+  it('runs SGX half days as a morning session, closing routine and trade at close', () => {
+    const sgx = ex('sgx');
+    const d = localSessions(sgx, '2026-12-24', sgx.holidays.find((h) => h.date === '2026-12-24'));
+    expect(d.map((s) => `${s.type} ${minutesToHHMM(s.start)}-${minutesToHHMM(s.end)}`)).toEqual([
+      'auction-open 08:30-09:00',
+      'regular 09:00-12:00',
+      'auction-close 12:00-12:06',
+      'post 12:06-12:16',
+    ]);
+    expect(daySchedule(sgx, '2026-12-25').kind).toBe('holiday');
+  });
   it('applies early closes with the closing auction moved forward', () => {
     const lse = localSessions(ex('lse'), '2026-12-24', ex('lse').holidays.find((h) => h.date === '2026-12-24'));
     expect(lse.map((s) => `${s.type} ${minutesToHHMM(s.start)}-${minutesToHHMM(s.end)}`)).toEqual([

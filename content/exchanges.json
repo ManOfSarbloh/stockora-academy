@@ -1564,11 +1564,60 @@
         "label": "Trade at close"
       }
     ],
-    "holidays": [],
-    "holidaysSource": "https://www.sgx.com/",
-    "holidayYears": [],
-    "notes": "SGX rulebook: opening routine 08:30–09:00, trading 09:00–12:00, mid-day break 12:00–13:00 (with its own pre-open), trading 13:00–17:00, closing routine to 17:06 and trade at close until 17:16. On half days trading ends at 12:00 with a closing routine until 12:16. We could not retrieve SGX's official holiday calendar, so holidays are not shown for Singapore: check sgx.com.",
-    "asOf": "2026-10-11"
+    "holidays": [
+      {
+        "date": "2026-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2026-02-16",
+        "name": "Eve of Chinese New Year",
+        "earlyClose": "12:00",
+        "earlyPostClose": "12:16"
+      },
+      {
+        "date": "2026-02-17",
+        "name": "Chinese New Year"
+      },
+      {
+        "date": "2026-02-18",
+        "name": "Chinese New Year"
+      },
+      {
+        "date": "2026-04-03",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2026-05-01",
+        "name": "Labour Day"
+      },
+      {
+        "date": "2026-05-27",
+        "name": "Hari Raya Haji"
+      },
+      {
+        "date": "2026-12-24",
+        "name": "Christmas Eve",
+        "earlyClose": "12:00",
+        "earlyPostClose": "12:16"
+      },
+      {
+        "date": "2026-12-25",
+        "name": "Christmas Day"
+      },
+      {
+        "date": "2026-12-31",
+        "name": "New Year's Eve",
+        "earlyClose": "12:00",
+        "earlyPostClose": "12:16"
+      }
+    ],
+    "holidaysSource": "https://www.sgx.com/securities/trading",
+    "holidayYears": [
+      2026
+    ],
+    "notes": "SGX rulebook: opening routine 08:30–09:00, trading 09:00–12:00, mid-day break 12:00–13:00 (with its own pre-open), trading 13:00–17:00, closing routine to 17:06 and trade at close until 17:16. On half days (the eves of Chinese New Year, Christmas and New Year) trading ends at 12:00, the closing routine runs to 12:06 and trade at close to 12:16. SGX follows Singapore's public holidays as published by the Ministry of Manpower (MOM); holidays that fall on a weekend are not listed. When a holiday falls on a Sunday, MOM lists the following Monday as a holiday for people whose rest day is Sunday; check SGX for that Monday. SGX had not yet published its 2027 half days (checked 11 November 2026).",
+    "asOf": "2026-11-11"
   },
   {
     "id": "nse",
