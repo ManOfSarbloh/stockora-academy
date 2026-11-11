@@ -60,6 +60,9 @@ La catégorie T montre comment vérifier les sociétés et les offres en Autrich
 > [!WARNING] Ne remplace pas un conseil
 > Ce modèle vous aide à organiser votre propre réflexion. Il ne tient compte ni de votre situation individuelle, ni des impôts, ni de votre situation juridique. Pour cela, envisagez un conseil professionnel indépendant (la catégorie F explique comment vérifier les conseillers).
 
+> [!TIP] Le remplir en ligne
+> Le [créateur de plan d'investissement](/tools/investment-plan) vous guide à travers ce modèle, vérifie votre répartition et votre épargne de précaution, teste votre règle de rééquilibrage avec une baisse de 30 % et imprime votre plan sur une page. Il ne suggère rien : chaque choix vous appartient.
+
 ## À retenir
 
 > [!TAKEAWAYS]

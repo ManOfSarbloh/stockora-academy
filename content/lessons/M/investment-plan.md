@@ -72,6 +72,9 @@ Category T shows how to check firms and offers in Austria.
 > [!WARNING] Not a substitute for advice
 > This template helps you organise your own thinking. It does not consider your individual situation, taxes or legal circumstances. For those, consider independent professional advice (Category F explains how to check advisers).
 
+> [!TIP] Fill it in online
+> The [investment plan builder](/tools/investment-plan) walks you through this template, checks your mix and emergency fund, tests your rebalancing rule with a 30% fall, and prints your plan on one page. It suggests nothing: every choice is yours.
+
 ## Key takeaways
 
 > [!TAKEAWAYS]

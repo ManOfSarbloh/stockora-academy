@@ -37,6 +37,12 @@ export const TOOLS: Tool[] = [
   },
   { slug: 'break-even', group: 'money', icon: '⚖️', lessons: ['returns-and-costs/break-even-and-small-trades', 'returns-and-costs/investment-costs'] },
   { slug: 'compound-growth', group: 'money', icon: '📈', lessons: ['returns-and-costs/compound-growth', 'returns-and-costs/inflation-and-real-returns'] },
+  {
+    slug: 'investment-plan',
+    group: 'money',
+    icon: '📝',
+    lessons: ['investing-strategies/investment-plan', 'investing-strategies/before-you-invest', 'investing-strategies/asset-allocation', 'investing-strategies/rebalancing', 'investing-strategies/risk-tolerance', 'psychology/good-habits'],
+  },
   { slug: 'savings-plan', group: 'money', icon: '🗓️', lessons: ['investing-strategies/savings-plans-and-lump-sums', 'brokers-accounts-orders/savings-plans-and-lending', 'returns-and-costs/investment-costs'] },
   { slug: 'currency', group: 'money', icon: '💱', lessons: ['macroeconomics/currencies-and-your-investments'] },
   {

@@ -334,6 +334,16 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Badge | "Paper Trader" for finishing a game, counted in stockora-paper-game-stats (not as a quiz score, so it cannot affect quiz statistics or the "Perfect Score" badge); shown with the other badges on the quiz hub and cleared by the quiz reset |
 | Version 2 (owner's pick, 2026-11-11) | Four market types: mixed (unchanged, so old market numbers replay the same), calm year, crash year (a 25–40% fall early on, then a slow recovery) and sideways (pulled back towards the start). Optional monthly savings plan of €250/€500/€1,000 that buys the index fund on day 1 and every 21 trading days from the player's cash (€1.50 fee); the day-1 comparison then shows lump sum vs spreading out, worded like the lesson on savings plans and lump sums. A results table keeps the best result per market (number, length, type, plan) in stockora-paper-game-stats, with "Play again" |
 
+## Investment plan builder (2026-11-11)
+
+| Topic | Decision |
+|---|---|
+| Scope | Chosen by the owner after paper-trading v2. /tools/investment-plan (all languages) walks through the eight-part template of the lesson "Writing your own investment plan" (goals, safety first, risk tolerance, target mix, how I invest, rebalancing rule, crash rule, review) plus the SEC's five questions, and prints a one-page summary |
+| No advice | The learner enters every choice; the tool suggests no product, mix or amount. Defaults (6 months, 30%, 60/30/10, every 12 months, 5 points) are only starting values to overwrite, and the crash rule starts as the lesson's example sentence. Helper text quotes only what the lessons say (e.g. "planners often suggest three to six months", from the lesson "Before you invest") |
+| Checks | Emergency fund target, the acceptable fall in euros, the mix adding up to 100%, and the lesson's crash example with the learner's own mix (shares −30%: drift vs the rebalancing limit). Pure functions in src/lib/investment-plan.ts with 6 tests |
+| Storage and print | Saved as stockora-investment-plan (privacy page). "Print or save as PDF" sets html.print-plan, and print CSS hides everything except the summary. "Start over" asks for confirmation in the page (no browser dialog) |
+| Lesson link | The lesson got a short TIP pointing to the tool in all five languages; its lastReviewed and translatedFrom dates were left unchanged because the content did not change |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

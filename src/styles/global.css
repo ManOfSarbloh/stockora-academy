@@ -566,6 +566,29 @@ html.theme-switching #theme-toggle svg {
     animation: none !important;
   }
 }
+/* Investment plan builder: "Print or save as PDF" prints only the plan summary (html.print-plan is set by the tool). */
+@media print {
+  html.print-plan header,
+  html.print-plan footer,
+  html.print-plan #gloss-tip,
+  html.print-plan main *:not(:has(#plan-summary)):not(#plan-summary):not(#plan-summary *) {
+    display: none !important;
+  }
+  html.print-plan,
+  html.print-plan body,
+  html.print-plan main,
+  html.print-plan #plan-summary {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  html.print-plan #plan-summary {
+    border: 0 !important;
+    padding: 0 !important;
+  }
+  html.print-plan #plan-summary .text-muted {
+    color: #444 !important;
+  }
+}
 @media print {
   .anim svg * {
     animation: none !important;

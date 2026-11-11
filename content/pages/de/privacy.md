@@ -29,6 +29,7 @@ Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite 
 - `stockora-founder-game`: ob du das Gründerspiel auf der Seite „Wie Aktien entstehen“ abgeschlossen hast, und wann.
 - `stockora-paper-game`: dein laufendes Börsenspiel mit Spielgeld (Marktnummer, Tag, Bargeld, Bestand, Orders und Verlauf), damit du es später fortsetzen kannst.
 - `stockora-paper-game-stats`: wie viele Börsenspiele mit Spielgeld du beendet hast (für das Abzeichen „Börsenspieler:in“).
+- `stockora-investment-plan`: deine Eingaben im Anlageplan-Baukasten, damit du später weitermachen und drucken kannst.
 - `stockora-times-zone`: die Zeitzone, die du auf der Seite „Handelszeiten“ gewählt hast.
 
 Diese Liste wird aktuell gehalten. Du kannst alles jederzeit löschen, indem du die Daten dieser Seite in deinen Browsereinstellungen löschst. Auf der Seite „Mein Fortschritt“ kannst du alles als Sicherungsdatei herunterladen und in einem anderen Browser wiederherstellen. Die Datei entsteht auf deinem Gerät und wird nirgendwohin hochgeladen.

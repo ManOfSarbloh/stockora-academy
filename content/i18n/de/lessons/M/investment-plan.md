@@ -60,6 +60,9 @@ Kategorie T zeigt, wie man Firmen und Angebote in Österreich prüft.
 > [!WARNING] Kein Ersatz für Beratung
 > Diese Vorlage hilft dir, dein eigenes Denken zu ordnen. Sie berücksichtigt nicht deine individuelle Lage, Steuern oder rechtlichen Umstände. Dafür kommt unabhängige professionelle Beratung in Frage (Kategorie F erklärt, wie man Berater prüft).
 
+> [!TIP] Online ausfüllen
+> Der [Anlageplan-Baukasten](/tools/investment-plan) führt dich durch diese Vorlage, prüft deine Aufteilung und deinen Notgroschen, testet deine Rebalancing-Regel mit einem Rückgang um 30 % und druckt deinen Plan auf einer Seite. Er schlägt nichts vor: Jede Entscheidung triffst du selbst.
+
 ## Das Wichtigste in Kürze
 
 > [!TAKEAWAYS]

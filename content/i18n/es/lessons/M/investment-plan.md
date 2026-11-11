@@ -60,6 +60,9 @@ La categoría T muestra cómo comprobar empresas y ofertas en Austria.
 > [!WARNING] No sustituye al asesoramiento
 > Esta plantilla te ayuda a ordenar tus propias ideas. No tiene en cuenta tu situación personal, tus impuestos ni tus circunstancias legales. Para eso, plantéate un asesoramiento profesional independiente (la categoría F explica cómo comprobar a los asesores).
 
+> [!TIP] Rellénalo en línea
+> El [creador de plan de inversión](/tools/investment-plan) te guía por esta plantilla, comprueba tu reparto y tu fondo de emergencia, prueba tu regla de reequilibrio con una caída del 30 % e imprime tu plan en una página. No sugiere nada: todas las decisiones son tuyas.
+
 ## Ideas clave
 
 > [!TAKEAWAYS]

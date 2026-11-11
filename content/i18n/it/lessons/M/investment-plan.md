@@ -60,6 +60,9 @@ La categoria T mostra come verificare imprese e offerte in Austria.
 > [!WARNING] Non sostituisce la consulenza
 > Questo modello ti aiuta a organizzare il tuo ragionamento. Non tiene conto della tua situazione personale, delle imposte o delle circostanze giuridiche. Per questi aspetti, valuta una consulenza professionale indipendente (la categoria F spiega come verificare i consulenti).
 
+> [!TIP] Compilalo online
+> Il [costruttore del piano di investimento](/tools/investment-plan) ti guida in questo modello, controlla la tua ripartizione e il fondo di emergenza, mette alla prova la tua regola di ribilanciamento con un calo del 30% e stampa il tuo piano su una pagina. Non suggerisce nulla: ogni scelta è tua.
+
 ## Punti chiave
 
 > [!TAKEAWAYS]
