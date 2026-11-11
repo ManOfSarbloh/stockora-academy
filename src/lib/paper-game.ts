@@ -44,6 +44,13 @@ export const ORDER_FEE = 5;
 /** Austrian special tax rate on capital income (KESt), used for dividends and the tax estimate. */
 export const KEST = 0.275;
 export const GAME_LENGTHS = [60, 120, 250] as const;
+/** Market types: "mixed" is the default (usually with one slump); the others teach one market pattern each. */
+export const SCENARIOS = ['mixed', 'calm', 'crash', 'sideways'] as const;
+export type Scenario = (typeof SCENARIOS)[number];
+/** Savings plan: monthly amounts on offer, the fee per plan purchase and the days between purchases (about a month). */
+export const PLAN_AMOUNTS = [250, 500, 1000] as const;
+export const PLAN_FEE = 1.5;
+export const PLAN_EVERY = 21;
 /** Trading days of price history shown before the game starts. */
 export const HISTORY_DAYS = 60;
 
@@ -68,6 +75,7 @@ export interface NewsEvent {
 export interface Market {
   seed: number;
   days: number;
+  scenario: Scenario;
   /** Daily bars per instrument: HISTORY_DAYS of history, then one bar per game day (index HISTORY_DAYS − 1 + day). */
   bars: Record<InstrumentId, Bar[]>;
   news: NewsEvent[];
@@ -88,22 +96,47 @@ const BAD = ['miss', 'recall', 'lawsuit', 'ceo'];
 export const barIndex = (day: number) => HISTORY_DAYS - 1 + day;
 
 /** Builds the whole simulated market for a game: same seed, same market. */
-export function simulateMarket(seed: number, days: number): Market {
+export function simulateMarket(seed: number, days: number, scenario: Scenario = 'mixed'): Market {
   const rand = rng(seed);
   const total = HISTORY_DAYS + days;
-  // Daily market return: small upward drift, plus (in most games) one slump of 8–20 days and later recovery.
+  // Daily market return. "mixed": small upward drift plus (in most games) one slump of 8–20 days and a recovery.
   const market: number[] = [];
   const hasSlump = rand() < 0.7;
   const slumpStart = HISTORY_DAYS + Math.floor(days * (0.2 + rand() * 0.5));
   const slumpLen = 8 + Math.floor(rand() * 13);
-  for (let i = 0; i < total; i++) {
-    const inSlump = hasSlump && i >= slumpStart && i < slumpStart + slumpLen;
-    const afterSlump = hasSlump && i >= slumpStart + slumpLen && i < slumpStart + slumpLen * 3;
-    const drift = inSlump ? -0.009 : afterSlump ? 0.0035 : 0.0004;
-    market.push(drift + 0.008 * gauss(rand));
-  }
   const news: NewsEvent[] = [];
-  if (hasSlump && slumpStart < total) news.push({ day: slumpStart - (HISTORY_DAYS - 1), id: null, key: 'market.rates', move: 0 });
+  const gameDay = (i: number) => i - (HISTORY_DAYS - 1);
+  if (scenario === 'mixed') {
+    for (let i = 0; i < total; i++) {
+      const inSlump = hasSlump && i >= slumpStart && i < slumpStart + slumpLen;
+      const afterSlump = hasSlump && i >= slumpStart + slumpLen && i < slumpStart + slumpLen * 3;
+      const drift = inSlump ? -0.009 : afterSlump ? 0.0035 : 0.0004;
+      market.push(drift + 0.008 * gauss(rand));
+    }
+    if (hasSlump && slumpStart < total) news.push({ day: gameDay(slumpStart), id: null, key: 'market.rates', move: 0 });
+  } else if (scenario === 'calm') {
+    // A quiet year: steady small gains, low volatility, no slump.
+    for (let i = 0; i < total; i++) market.push(0.0005 + 0.0042 * gauss(rand));
+  } else if (scenario === 'crash') {
+    // A crash of roughly 25–40% over 10–20 days early in the game, then a slow, partial recovery.
+    const start = HISTORY_DAYS + Math.floor(days * (0.12 + rand() * 0.18));
+    const len = 10 + Math.floor(rand() * 11);
+    for (let i = 0; i < total; i++) {
+      const inCrash = i >= start && i < start + len;
+      const after = i >= start + len;
+      const drift = inCrash ? -0.022 : after ? 0.0018 : 0.0004;
+      market.push(drift + (inCrash ? 0.016 : 0.009) * gauss(rand));
+    }
+    news.push({ day: gameDay(start), id: null, key: 'market.crash', move: 0 });
+  } else {
+    // Sideways: no trend; the market keeps being pulled back towards its starting level.
+    let level = 0;
+    for (let i = 0; i < total; i++) {
+      const ret = -0.06 * level + 0.0085 * gauss(rand);
+      level += ret;
+      market.push(ret);
+    }
+  }
 
   const bars = {} as Record<InstrumentId, Bar[]>;
   for (const ins of INSTRUMENTS) {
@@ -137,7 +170,7 @@ export function simulateMarket(seed: number, days: number): Market {
     bars[ins.id] = out;
   }
   news.sort((a, b) => a.day - b.day);
-  return { seed, days, bars, news };
+  return { seed, days, scenario, bars, news };
 }
 
 // ---------------------------------------------------------------------------------------------------
@@ -164,7 +197,8 @@ export interface Position {
 }
 
 export type LogEntry =
-  | { day: number; kind: 'fill'; instrument: InstrumentId; side: Side; type: OrderType; qty: number; price: number; fee: number; gain?: number }
+  | { day: number; kind: 'fill'; instrument: InstrumentId; side: Side; type: OrderType; qty: number; price: number; fee: number; gain?: number; plan?: boolean }
+  | { day: number; kind: 'plan-skipped'; amount: number }
   | { day: number; kind: 'rejected'; instrument: InstrumentId; side: Side; qty: number; reason: 'cash' | 'shares' }
   | { day: number; kind: 'dividend'; instrument: InstrumentId; qty: number; gross: number; tax: number }
   | { day: number; kind: 'news'; instrument: InstrumentId | null; key: string; move: number };
@@ -173,6 +207,10 @@ export interface GameState {
   version: 1;
   seed: number;
   days: number;
+  /** Market type (missing in games saved before v2 = "mixed"). */
+  scenario?: Scenario;
+  /** Monthly savings plan into the index fund, in euros (missing or 0 = none). */
+  plan?: number;
   day: number;
   cash: number;
   positions: Partial<Record<InstrumentId, Position>>;
@@ -186,11 +224,13 @@ export interface GameState {
   values: number[];
 }
 
-export function newGame(seed: number, days: number): GameState {
+export function newGame(seed: number, days: number, opts: { scenario?: Scenario; plan?: number } = {}): GameState {
   return {
     version: 1,
     seed,
     days,
+    scenario: opts.scenario ?? 'mixed',
+    plan: opts.plan ?? 0,
     day: 0,
     cash: START_CASH,
     positions: {},
@@ -277,6 +317,23 @@ export function nextDay(g: GameState, m: Market): GameState {
   const day = g.day + 1;
   const s: GameState = { ...g, day, positions: { ...g.positions }, orders: [], log: [...g.log], values: [...g.values] };
   for (const n of m.news) if (n.day === day) s.log.push({ day, kind: 'news', instrument: n.id, key: n.key, move: n.move });
+
+  // Savings plan: on day 1 and then every PLAN_EVERY days, buy the index fund for the plan amount at the open.
+  if (g.plan && g.plan > 0 && (day - 1) % PLAN_EVERY === 0) {
+    const ins = instrument('world-etf');
+    const px = round2(priceAt(m, 'world-etf', day).o * (1 + ins.spread / 2));
+    const budget = Math.min(g.plan, s.cash) - PLAN_FEE;
+    const qty = Math.floor(budget / px);
+    if (qty < 1) s.log.push({ day, kind: 'plan-skipped', amount: g.plan });
+    else {
+      const total = round2(qty * px + PLAN_FEE);
+      const pos = s.positions['world-etf'] ?? { qty: 0, cost: 0 };
+      s.cash = round2(s.cash - total);
+      s.positions['world-etf'] = { qty: pos.qty + qty, cost: round2(pos.cost + total) };
+      s.fees = round2(s.fees + PLAN_FEE);
+      s.log.push({ day, kind: 'fill', instrument: 'world-etf', side: 'buy', type: 'market', qty, price: px, fee: PLAN_FEE, plan: true });
+    }
+  }
 
   for (const o of g.orders) {
     const ins = instrument(o.instrument);
@@ -367,6 +424,8 @@ export interface Summary {
   benchmark: number;
   benchmarkPct: number;
   trades: number;
+  /** Purchases made by the savings plan. */
+  planBuys: number;
   fees: number;
   realized: number;
   /** Simplified KESt estimate on net realised gains (only if positive). */
@@ -386,7 +445,8 @@ export function summarize(g: GameState, m: Market): Summary {
     returnPct: final / START_CASH - 1,
     benchmark,
     benchmarkPct: benchmark / START_CASH - 1,
-    trades: g.log.filter((e) => e.kind === 'fill').length,
+    trades: g.log.filter((e) => e.kind === 'fill' && !e.plan).length,
+    planBuys: g.log.filter((e) => e.kind === 'fill' && e.plan).length,
     fees: g.fees,
     realized: g.realized,
     taxEstimate: round2(Math.max(0, g.realized) * KEST),
@@ -399,3 +459,38 @@ export function summarize(g: GameState, m: Market): Summary {
 
 /** A random seed for a new game (5 digits, easy to share: "play market 48213 again"). */
 export const randomSeed = () => 10_000 + Math.floor(Math.random() * 90_000);
+
+// ---------------------------------------------------------------------------------------------------
+// Results history (kept in this browser only)
+
+export interface ResultEntry {
+  seed: number;
+  days: number;
+  scenario: Scenario;
+  plan: number;
+  returnPct: number;
+  benchmarkPct: number;
+  date: string;
+}
+
+export const MAX_RESULTS = 30;
+
+/** Adds a finished game to the history (newest first, at most MAX_RESULTS entries). */
+export const addResult = (list: ResultEntry[], e: ResultEntry): ResultEntry[] => [e, ...list].slice(0, MAX_RESULTS);
+
+export const marketKey = (e: Pick<ResultEntry, 'seed' | 'days' | 'scenario' | 'plan'>) => `${e.seed}-${e.days}-${e.scenario}-${e.plan}`;
+
+/** Best result per market (same number, length, type and plan), with how often it was played; most recently played first. */
+export function bestResults(list: ResultEntry[]): (ResultEntry & { plays: number })[] {
+  const byKey = new Map<string, ResultEntry & { plays: number; last: string }>();
+  for (const e of list) {
+    const k = marketKey(e);
+    const cur = byKey.get(k);
+    if (!cur) byKey.set(k, { ...e, plays: 1, last: e.date });
+    else {
+      const best = e.returnPct > cur.returnPct ? e : cur;
+      byKey.set(k, { ...best, plays: cur.plays + 1, last: cur.last > e.date ? cur.last : e.date });
+    }
+  }
+  return [...byKey.values()].sort((a, b) => (a.last < b.last ? 1 : -1)).map(({ last: _last, ...rest }) => rest);
+}

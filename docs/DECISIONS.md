@@ -332,6 +332,7 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Teaching points | The result compares the player with "buy the index fund on day 1 and hold", and shows fees, the largest drawdown and taxes; lessons on orders, costs, active vs passive, day-trading evidence, overconfidence, drawdowns and KESt are linked |
 | Code | Pure engine in src/lib/paper-game.ts (15 unit tests), interface in src/components/tools/PaperTradingGame.tsx; saved in localStorage as stockora-paper-game (listed on the privacy page) |
 | Badge | "Paper Trader" for finishing a game, counted in stockora-paper-game-stats (not as a quiz score, so it cannot affect quiz statistics or the "Perfect Score" badge); shown with the other badges on the quiz hub and cleared by the quiz reset |
+| Version 2 (owner's pick, 2026-11-11) | Four market types: mixed (unchanged, so old market numbers replay the same), calm year, crash year (a 25–40% fall early on, then a slow recovery) and sideways (pulled back towards the start). Optional monthly savings plan of €250/€500/€1,000 that buys the index fund on day 1 and every 21 trading days from the player's cash (€1.50 fee); the day-1 comparison then shows lump sum vs spreading out, worded like the lesson on savings plans and lump sums. A results table keeps the best result per market (number, length, type, plan) in stockora-paper-game-stats, with "Play again" |
 
 ## Open items
 

@@ -81,6 +81,7 @@ export const TOOLS: Tool[] = [
       'brokers-accounts-orders/stop-orders',
       'returns-and-costs/investment-costs',
       'investing-strategies/active-vs-passive',
+      'investing-strategies/savings-plans-and-lump-sums',
       'trading-leverage-derivatives/day-trading-evidence',
       'psychology/overconfidence',
       'risk-management/drawdowns-and-volatility-drag',

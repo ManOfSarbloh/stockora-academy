@@ -1,6 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   HISTORY_DAYS,
+  PLAN_EVERY,
+  PLAN_FEE,
+  addResult,
+  bestResults,
   INSTRUMENTS,
   KEST,
   ORDER_FEE,
@@ -151,5 +155,63 @@ describe('summary', () => {
     expect(s.benchmark).toBe(bench[120]);
     expect(s.trades).toBe(0);
     expect(s.taxEstimate).toBe(0);
+  });
+});
+
+describe('market types', () => {
+  const etfMove = (sc: 'mixed' | 'calm' | 'crash' | 'sideways', seed: number) => {
+    const mk = simulateMarket(seed, 120, sc);
+    const b = mk.bars['world-etf'];
+    let peak = 0;
+    let dd = 0;
+    for (let i = HISTORY_DAYS - 1; i < b.length; i++) {
+      peak = Math.max(peak, b[i].c);
+      dd = Math.min(dd, b[i].c / peak - 1);
+    }
+    return { end: b.at(-1)!.c / b[HISTORY_DAYS - 1].c - 1, dd };
+  };
+  it('keeps "mixed" identical to the original market for old market numbers', () => {
+    expect(simulateMarket(48213, 120, 'mixed')).toEqual(m);
+  });
+  it('crashes in a crash year and stays quieter in a calm one', () => {
+    for (const seed of [11111, 22222, 33333]) {
+      expect(etfMove('crash', seed).dd).toBeLessThan(-0.2);
+      expect(etfMove('calm', seed).dd).toBeGreaterThan(-0.1);
+      expect(Math.abs(etfMove('sideways', seed).end)).toBeLessThan(0.15);
+    }
+    expect(simulateMarket(11111, 120, 'crash').news.some((n) => n.key === 'market.crash')).toBe(true);
+  });
+});
+
+describe('savings plan', () => {
+  it('buys the index fund for the plan amount on day 1 and then every month', () => {
+    let g = newGame(48213, 120, { plan: 500 });
+    g = advance(g, m, 120);
+    const buys = g.log.filter((e) => e.kind === 'fill' && e.plan);
+    expect(buys.map((b) => b.day)).toEqual([1, 1 + PLAN_EVERY, 1 + 2 * PLAN_EVERY, 1 + 3 * PLAN_EVERY, 1 + 4 * PLAN_EVERY, 1 + 5 * PLAN_EVERY]);
+    for (const b of buys) if (b.kind === 'fill') expect(b.qty * b.price + PLAN_FEE).toBeLessThanOrEqual(500 + 1e-9);
+    expect(summarize(g, m).planBuys).toBe(6);
+    expect(summarize(g, m).trades).toBe(0);
+    expect(g.fees).toBeCloseTo(6 * PLAN_FEE);
+  });
+  it('skips a plan purchase when the cash has run out', () => {
+    const g = nextDay({ ...newGame(48213, 120, { plan: 1000 }), cash: 50 }, m);
+    expect(g.log).toContainEqual({ day: 1, kind: 'plan-skipped', amount: 1000 });
+    expect(g.cash).toBe(50);
+  });
+});
+
+describe('results history', () => {
+  const e = (seed: number, returnPct: number, date: string) => ({ seed, days: 120, scenario: 'mixed' as const, plan: 0, returnPct, benchmarkPct: 0.05, date });
+  it('keeps the best result per market and counts plays', () => {
+    let list = addResult([], e(1, 0.02, '2026-11-01'));
+    list = addResult(list, e(2, -0.1, '2026-11-02'));
+    list = addResult(list, e(1, 0.08, '2026-11-03'));
+    list = addResult(list, e(1, -0.03, '2026-11-04'));
+    const best = bestResults(list);
+    expect(best.map((b) => [b.seed, b.returnPct, b.plays])).toEqual([
+      [1, 0.08, 3],
+      [2, -0.1, 1],
+    ]);
   });
 });

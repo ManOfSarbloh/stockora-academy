@@ -8,6 +8,7 @@
  */
 import categoriesJson from '../../content/categories.json';
 import { readJSON, remove, writeJSON } from './storage';
+import { addResult, type ResultEntry } from './paper-game';
 import {
   badgeStatus,
   dayKey,
@@ -54,7 +55,14 @@ export const loadName = () => readJSON<string>('quiz-name', '');
 export const saveName = (n: string) => writeJSON('quiz-name', n);
 
 /** Number of finished paper-trading games (for the "Paper Trader" badge). */
-const loadPaperGames = () => readJSON<{ finished: number }>('paper-game-stats', { finished: 0 }).finished ?? 0;
+interface PaperStats {
+  finished: number;
+  results?: ResultEntry[];
+}
+const loadPaperStats = () => readJSON<PaperStats>('paper-game-stats', { finished: 0 });
+const loadPaperGames = () => loadPaperStats().finished ?? 0;
+/** Finished paper-trading games, newest first (for the results table). */
+export const loadPaperResults = (): ResultEntry[] => (Array.isArray(loadPaperStats().results) ? loadPaperStats().results! : []);
 
 /** Everything the badge rules look at, read from this browser. */
 export const badgeInput = () => ({ scores: loadScores(), daily: loadDaily(), exam: loadExam(), topicCategories: TOPIC_IDS, countryCodes: COUNTRY_CODES, paperGames: loadPaperGames() });
@@ -91,9 +99,10 @@ export function recordQuizRun(quizId: string | null, results: { id: string; corr
 }
 
 /** Counts a finished paper-trading game. Returns new badges. */
-export function recordPaperGame(): BadgeId[] {
+export function recordPaperGame(result?: ResultEntry): BadgeId[] {
   const before = new Set(earnedBadges());
-  writeJSON('paper-game-stats', { finished: loadPaperGames() + 1 });
+  const stats = loadPaperStats();
+  writeJSON('paper-game-stats', { finished: (stats.finished ?? 0) + 1, results: result ? addResult(loadPaperResults(), result) : loadPaperResults() });
   try {
     window.dispatchEvent(new CustomEvent(QUIZ_EVENT));
   } catch {

@@ -5,12 +5,17 @@
  */
 import { useEffect, useId, useMemo, useRef, useState } from 'react';
 import { t, type UiKey } from '@/i18n';
-import { eurCents, int, pct } from '@/lib/format';
+import { eur, eurCents, int, pct } from '@/lib/format';
 import { readJSON, remove, writeJSON } from '@/lib/storage';
-import { recordPaperGame } from '@/lib/quiz-store';
+import { loadPaperResults, recordPaperGame } from '@/lib/quiz-store';
 import type { BadgeId } from '@/lib/quiz-engine';
 import {
   GAME_LENGTHS,
+  PLAN_AMOUNTS,
+  PLAN_FEE,
+  SCENARIOS,
+  bestResults,
+  marketKey,
   INSTRUMENTS,
   ORDER_FEE,
   START_CASH,
@@ -33,6 +38,8 @@ import {
   type LogEntry,
   type OrderError,
   type OrderType,
+  type ResultEntry,
+  type Scenario,
   type Side,
 } from '@/lib/paper-game';
 
@@ -41,6 +48,9 @@ const name = (id: InstrumentId) => t(`pg.ins.${id}` as UiKey);
 const signedPct = (f: number) => (f > 0 ? '+' : '') + pct(f);
 const signedEur = (n: number) => (n > 0 ? '+' : '') + eurCents(n);
 const gainClass = (n: number) => (n > 0 ? 'text-[#0b6b2b] dark:text-[#7fe08a]' : n < 0 ? 'text-[#b42318] dark:text-[#ff8a80]' : '');
+
+type Options = { scenario: Scenario; plan: number };
+const optionsOf = (g: GameState): Options => ({ scenario: g.scenario ?? 'mixed', plan: g.plan ?? 0 });
 
 export default function PaperTradingGame() {
   const [game, setGame] = useState<GameState | null>(null);
@@ -63,18 +73,18 @@ export default function PaperTradingGame() {
       <Setup
         saved={saved}
         onResume={() => setGame(saved)}
-        onStart={(seed, days) => {
+        onStart={(seed, days, opts) => {
           remove(STORE_KEY);
-          setGame(newGame(seed, days));
+          setGame(newGame(seed, days, opts));
         }}
       />
     );
   return (
     <Play
-      key={`${game.seed}-${game.days}`}
+      key={`${game.seed}-${game.days}-${optionsOf(game).scenario}-${optionsOf(game).plan}`}
       game={game}
       setGame={setGame}
-      onRestart={(seed, days) => setGame(newGame(seed, days))}
+      onRestart={(g) => setGame(newGame(g.seed, g.days, optionsOf(g)))}
       onNew={() => {
         remove(STORE_KEY);
         setSaved(null);
@@ -88,17 +98,36 @@ function Disclaimer() {
   return <p className="on-surface rounded-xl border border-warn-border bg-warn-bg p-3 text-sm">{t('pg.disclaimer')}</p>;
 }
 
-function Setup({ saved, onResume, onStart }: { saved: GameState | null; onResume: () => void; onStart: (seed: number, days: number) => void }) {
+/** "Mixed · 120 days · savings plan €500" */
+function marketLabel(o: { days: number; scenario: Scenario; plan: number }) {
+  return [t(`pg.scn.short.${o.scenario}` as UiKey), t('pg.results.days', { n: o.days }), o.plan ? t('pg.plan.label', { amount: eur(o.plan) }) : null]
+    .filter(Boolean)
+    .join(' · ');
+}
+
+function Setup({
+  saved,
+  onResume,
+  onStart,
+}: {
+  saved: GameState | null;
+  onResume: () => void;
+  onStart: (seed: number, days: number, opts: Options) => void;
+}) {
   const [days, setDays] = useState<number>(120);
+  const [scenario, setScenario] = useState<Scenario>('mixed');
+  const [plan, setPlan] = useState<number>(0);
   const [seedText, setSeedText] = useState('');
   const [error, setError] = useState(false);
+  const [results, setResults] = useState<ReturnType<typeof bestResults>>([]);
   const id = useId();
+  useEffect(() => setResults(bestResults(loadPaperResults())), []);
   const start = () => {
     const trimmed = seedText.trim();
-    if (trimmed === '') return onStart(randomSeed(), days);
+    if (trimmed === '') return onStart(randomSeed(), days, { scenario, plan });
     const n = Number(trimmed);
     if (!Number.isInteger(n) || n < 1 || n > 99_999) return setError(true);
-    onStart(n, days);
+    onStart(n, days, { scenario, plan });
   };
   return (
     <div className="space-y-5">
@@ -108,52 +137,132 @@ function Setup({ saved, onResume, onStart }: { saved: GameState | null; onResume
           {t('pg.resume', { seed: saved.seed, day: saved.day, total: saved.days })}
         </button>
       )}
-      <section className="card space-y-4 p-5" aria-labelledby={`${id}-h`}>
+      <section className="card space-y-5 p-5" aria-labelledby={`${id}-h`}>
         <h2 id={`${id}-h`} className="text-xl font-bold">
           {t('pg.setup.title')}
         </h2>
         <p className="text-muted">{t('pg.setup.lead')}</p>
-        <fieldset>
-          <legend className="text-sm font-semibold">{t('pg.length')}</legend>
-          <div className="mt-2 space-y-1.5">
-            {GAME_LENGTHS.map((d) => (
-              <label key={d} className="flex items-center gap-2">
-                <input type="radio" name={`${id}-len`} checked={days === d} onChange={() => setDays(d)} className="accent-[var(--link)]" />
-                {t(`pg.length.${d}` as UiKey)}
-              </label>
-            ))}
-          </div>
-        </fieldset>
-        <div>
-          <label htmlFor={`${id}-seed`} className="block text-sm font-semibold">
-            {t('pg.seed')}
-          </label>
-          <input
-            id={`${id}-seed`}
-            inputMode="numeric"
-            value={seedText}
-            onChange={(e) => {
-              setSeedText(e.target.value);
-              setError(false);
-            }}
-            aria-describedby={`${id}-seed-help${error ? ` ${id}-seed-err` : ''}`}
-            aria-invalid={error || undefined}
-            className="mt-1 w-40 rounded-lg border border-border bg-surface px-3 py-1.5 tabular-nums"
-          />
-          <p id={`${id}-seed-help`} className="mt-1 text-xs text-muted">
-            {t('pg.seed.help')}
-          </p>
-          {error && (
-            <p id={`${id}-seed-err`} className="mt-1 text-sm font-semibold text-[#b42318] dark:text-[#ff8a80]">
-              {t('pg.seed.err')}
+        <div className="grid gap-5 md:grid-cols-2">
+          <fieldset>
+            <legend className="text-sm font-semibold">{t('pg.scn')}</legend>
+            <div className="mt-2 space-y-1.5">
+              {SCENARIOS.map((sc) => (
+                <label key={sc} className="flex items-start gap-2">
+                  <input type="radio" name={`${id}-scn`} checked={scenario === sc} onChange={() => setScenario(sc)} className="mt-1 accent-[var(--link)]" />
+                  <span>{t(`pg.scn.${sc}` as UiKey)}</span>
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend className="text-sm font-semibold">{t('pg.length')}</legend>
+            <div className="mt-2 space-y-1.5">
+              {GAME_LENGTHS.map((d) => (
+                <label key={d} className="flex items-center gap-2">
+                  <input type="radio" name={`${id}-len`} checked={days === d} onChange={() => setDays(d)} className="accent-[var(--link)]" />
+                  {t(`pg.length.${d}` as UiKey)}
+                </label>
+              ))}
+            </div>
+          </fieldset>
+          <div>
+            <label htmlFor={`${id}-plan`} className="block text-sm font-semibold">
+              {t('pg.plan')}
+            </label>
+            <select
+              id={`${id}-plan`}
+              value={plan}
+              onChange={(e) => setPlan(Number(e.target.value))}
+              aria-describedby={`${id}-plan-help`}
+              className="mt-1 w-full max-w-xs rounded-lg border border-border bg-surface px-2 py-1.5"
+            >
+              <option value={0}>{t('pg.plan.none')}</option>
+              {PLAN_AMOUNTS.map((a) => (
+                <option key={a} value={a}>
+                  {t('pg.plan.amount', { amount: eur(a) })}
+                </option>
+              ))}
+            </select>
+            <p id={`${id}-plan-help`} className="mt-1 text-xs text-muted">
+              {t('pg.plan.help', { fee: eurCents(PLAN_FEE) })}
             </p>
-          )}
+          </div>
+          <div>
+            <label htmlFor={`${id}-seed`} className="block text-sm font-semibold">
+              {t('pg.seed')}
+            </label>
+            <input
+              id={`${id}-seed`}
+              inputMode="numeric"
+              value={seedText}
+              onChange={(e) => {
+                setSeedText(e.target.value);
+                setError(false);
+              }}
+              aria-describedby={`${id}-seed-help${error ? ` ${id}-seed-err` : ''}`}
+              aria-invalid={error || undefined}
+              className="mt-1 w-40 rounded-lg border border-border bg-surface px-3 py-1.5 tabular-nums"
+            />
+            <p id={`${id}-seed-help`} className="mt-1 text-xs text-muted">
+              {t('pg.seed.help')}
+            </p>
+            {error && (
+              <p id={`${id}-seed-err`} className="mt-1 text-sm font-semibold text-[#b42318] dark:text-[#ff8a80]">
+                {t('pg.seed.err')}
+              </p>
+            )}
+          </div>
         </div>
         <button type="button" className="btn btn-primary" onClick={start}>
           {t('pg.start')}
         </button>
       </section>
+      {results.length > 0 && <Results results={results} onReplay={(r) => onStart(r.seed, r.days, { scenario: r.scenario, plan: r.plan })} />}
     </div>
+  );
+}
+
+function Results({ results, onReplay }: { results: ReturnType<typeof bestResults>; onReplay: (r: ResultEntry) => void }) {
+  return (
+    <section className="card p-5" aria-labelledby="pg-results">
+      <h2 id="pg-results" className="text-xl font-bold">
+        {t('pg.results')}
+      </h2>
+      <p className="mt-1 text-sm text-muted">{t('pg.results.lead')}</p>
+      <div className="mt-3 overflow-x-auto">
+        <table className="w-full text-sm">
+          <thead className="text-left text-xs text-muted">
+            <tr>
+              <th className="py-1 pr-2 font-semibold">{t('pg.results.col.market')}</th>
+              <th className="py-1 pr-2 text-right font-semibold">{t('pg.results.col.you')}</th>
+              <th className="py-1 pr-2 text-right font-semibold">{t('pg.results.col.fund')}</th>
+              <th className="hidden py-1 pr-2 text-right font-semibold sm:table-cell">{t('pg.results.col.plays')}</th>
+              <th className="py-1">
+                <span className="sr-only">{t('pg.results.replay')}</span>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            {results.slice(0, 10).map((r) => (
+              <tr key={marketKey(r)} className="border-t border-border">
+                <td className="py-1.5 pr-2">
+                  <span className="font-semibold tabular-nums">{r.seed}</span>
+                  <span className="block text-xs text-muted">{marketLabel(r)}</span>
+                </td>
+                <td className={`py-1.5 pr-2 text-right whitespace-nowrap tabular-nums ${gainClass(r.returnPct)}`}>{signedPct(r.returnPct)}</td>
+                <td className={`py-1.5 pr-2 text-right whitespace-nowrap tabular-nums ${gainClass(r.benchmarkPct)}`}>{signedPct(r.benchmarkPct)}</td>
+                <td className="hidden py-1.5 pr-2 text-right tabular-nums sm:table-cell">{int(r.plays)}</td>
+                <td className="py-1.5 text-right">
+                  <button type="button" className="text-sm font-semibold text-link underline" aria-label={t('pg.results.replay.aria', { seed: r.seed })} onClick={() => onReplay(r)}>
+                    {t('pg.results.replay')}
+                  </button>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
   );
 }
 
@@ -165,10 +274,11 @@ function Play({
 }: {
   game: GameState;
   setGame: (g: GameState) => void;
-  onRestart: (seed: number, days: number) => void;
+  onRestart: (g: GameState) => void;
   onNew: () => void;
 }) {
-  const market = useMemo(() => simulateMarket(game.seed, game.days), [game.seed, game.days]);
+  const scenario = game.scenario ?? 'mixed';
+  const market = useMemo(() => simulateMarket(game.seed, game.days, scenario), [game.seed, game.days, scenario]);
   const [selected, setSelected] = useState<InstrumentId>('world-etf');
   const [announce, setAnnounce] = useState('');
   const over = game.day >= game.days;
@@ -185,7 +295,12 @@ function Play({
     }
     resultRef.current?.focus();
     // Count the game once, when it ends here (not when a finished game is shown again).
-    if (!wasOver.current) setBadges(recordPaperGame());
+    if (!wasOver.current) {
+      const sm = summarize(game, market);
+      setBadges(
+        recordPaperGame({ seed: game.seed, days: game.days, scenario, plan: game.plan ?? 0, returnPct: sm.returnPct, benchmarkPct: sm.benchmarkPct, date: new Date().toISOString() }),
+      );
+    }
     wasOver.current = true;
   }, [over]);
 
@@ -200,7 +315,7 @@ function Play({
       <Disclaimer />
       <div className="card flex flex-wrap items-end justify-between gap-4 p-4">
         <dl className="grid grid-cols-2 gap-x-6 gap-y-2 sm:grid-cols-5">
-          <Stat label={t('pg.market', { seed: game.seed })} value={t('pg.day', { day: game.day, total: game.days })} />
+          <Stat label={`${t('pg.market', { seed: game.seed })} · ${marketLabel({ days: game.days, scenario, plan: game.plan ?? 0 })}`} value={t('pg.day', { day: game.day, total: game.days })} />
           <Stat label={t('pg.cash')} value={eurCents(game.cash)} />
           <Stat label={t('pg.invested')} value={eurCents(invested)} />
           <Stat label={t('pg.total')} value={eurCents(value)} />
@@ -580,7 +695,10 @@ function logText(e: LogEntry): string {
   switch (e.kind) {
     case 'news':
       return t(`pg.news.${e.key}` as UiKey, { name: e.instrument ? name(e.instrument) : '' });
+    case 'plan-skipped':
+      return t('pg.log.planSkipped');
     case 'fill':
+      if (e.plan) return t('pg.log.plan', { qty: int(e.qty), name: name(e.instrument), price: eurCents(e.price), fee: eurCents(e.fee) });
       return e.side === 'buy'
         ? t('pg.log.buy', { qty: int(e.qty), name: name(e.instrument), price: eurCents(e.price), fee: eurCents(e.fee) })
         : t('pg.log.sell', { qty: int(e.qty), name: name(e.instrument), price: eurCents(e.price), fee: eurCents(e.fee), gain: signedEur(e.gain ?? 0) });
@@ -629,7 +747,7 @@ function Result({
   market: ReturnType<typeof simulateMarket>;
   headingRef: React.RefObject<HTMLHeadingElement | null>;
   badges: BadgeId[];
-  onRestart: (seed: number, days: number) => void;
+  onRestart: (g: GameState) => void;
   onNew: () => void;
 }) {
   const s = summarize(game, market);
@@ -676,6 +794,7 @@ function Result({
       <dl className="grid gap-x-6 gap-y-2 text-sm sm:grid-cols-2">
         <Row label={t('pg.end.drawdown')} value={pct(s.drawdown)} />
         <Row label={t('pg.end.trades')} value={int(s.trades)} />
+        {s.planBuys > 0 && <Row label={t('pg.end.planBuys')} value={int(s.planBuys)} />}
         <Row label={t('pg.end.fees')} value={eurCents(s.fees)} />
         <Row label={t('pg.end.realized')} value={signedEur(s.realized)} />
         <Row label={t('pg.end.tax')} value={eurCents(s.taxEstimate)} />
@@ -683,7 +802,8 @@ function Result({
       </dl>
       <ul className="list-disc space-y-1 pl-5">
         <li>{t(beat ? 'pg.end.beat' : 'pg.end.lost')}</li>
-        {s.trades > 0 && <li>{t('pg.end.feesNote', { fees: eurCents(s.fees), pct: pct(s.fees / START_CASH) })}</li>}
+        {s.planBuys > 0 && <li>{t('pg.end.planNote')}</li>}
+        {s.fees > 0 && <li>{t('pg.end.feesNote', { fees: eurCents(s.fees), pct: pct(s.fees / START_CASH) })}</li>}
         {s.drawdown < -0.05 && <li>{t('pg.end.ddNote', { pct: pct(-s.drawdown) })}</li>}
       </ul>
       {badges.map((b) => (
@@ -693,7 +813,7 @@ function Result({
       ))}
       <p className="text-xs text-muted">{t('pg.end.taxNote')}</p>
       <div className="flex flex-wrap gap-2">
-        <button type="button" className="btn btn-primary" onClick={() => onRestart(game.seed, game.days)}>
+        <button type="button" className="btn btn-primary" onClick={() => onRestart(game)}>
           {t('pg.again')}
         </button>
         <button type="button" className="btn btn-ghost" onClick={onNew}>
