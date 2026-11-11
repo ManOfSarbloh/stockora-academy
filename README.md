@@ -230,6 +230,18 @@ browser; regenerate it after changing the name, tagline or colours:
 CHROME_PATH="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" npm run build:og-image
 ```
 
+## Offline reading and installing as an app
+
+The site is a progressive web app. [`src/pages/manifest.webmanifest.ts`](src/pages/manifest.webmanifest.ts) and
+[`src/pages/sw.js.ts`](src/pages/sw.js.ts) are generated at build time (so they carry the base path). The service worker
+loads pages from the network first and keeps the last copy for offline reading (about 150 pages), caches hashed build
+files once, and shows `/offline/` (in the visitor's language, `noindex`) with the saved pages when a page is not saved.
+It only registers in production builds. The app icons in `public/icons/` come from the logo:
+
+```bash
+node scripts/build-pwa-icons.mjs
+```
+
 ## Privacy
 
 No analytics, no cookies, no third-party requests on page load; fonts are self-hosted. YouTube videos load (from

@@ -1525,4 +1525,11 @@ export const es: Dictionary = {
   'calc.f.fund2': "Solo importe único: valor = importe × (1 − comisión de suscripción) × (1 + rentabilidad − TER)^años",
   'tools.t.fund-costs': "Comparador de costes de fondos",
   'tools.d.fund-costs': "Compara dos fondos con distintos costes anuales (TER) y comisiones de suscripción, y mira cuánto crece la diferencia con los años.",
+  'offline.title': "Estás sin conexión",
+  'offline.lead': "Esta página todavía no está guardada en este dispositivo. Las páginas que abriste con conexión se pueden leer sin conexión.",
+  'offline.retry': "Volver a intentarlo",
+  'offline.home': "Ir a la página de inicio",
+  'offline.saved': "Guardado en este dispositivo",
+  'offline.savedLead': "Páginas que ya has abierto, las más recientes primero.",
+  'offline.none': "Todavía no hay páginas guardadas. Las páginas que abres con conexión se guardan en este dispositivo para leerlas sin conexión.",
 };

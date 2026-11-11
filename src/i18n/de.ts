@@ -1525,4 +1525,11 @@ export const de: Dictionary = {
   'calc.f.fund2': "Nur Einmalbetrag: Wert = Betrag × (1 − Ausgabeaufschlag) × (1 + Rendite − TER)^Jahre",
   'tools.t.fund-costs': "Fondskosten-Vergleich",
   'tools.d.fund-costs': "Vergleich zwei Fonds mit unterschiedlichen laufenden Kosten (TER) und Ausgabeaufschlägen und sieh, wie stark der Unterschied über die Jahre wächst.",
+  'offline.title': "Du bist offline",
+  'offline.lead': "Diese Seite ist auf diesem Gerät noch nicht gespeichert. Seiten, die du online geöffnet hast, bleiben offline lesbar.",
+  'offline.retry': "Erneut versuchen",
+  'offline.home': "Zur Startseite",
+  'offline.saved': "Auf diesem Gerät gespeichert",
+  'offline.savedLead': "Seiten, die du schon geöffnet hast, die neuesten zuerst.",
+  'offline.none': "Noch keine gespeicherten Seiten. Seiten, die du online öffnest, werden auf diesem Gerät zum Offline-Lesen behalten.",
 };

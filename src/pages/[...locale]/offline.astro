@@ -1,0 +1,67 @@
+---
+import { localeParams } from '@/i18n/pages';
+
+export const getStaticPaths = () => localeParams();
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import PageHeader from '@/components/PageHeader.astro';
+import { t } from '@/i18n';
+import { url } from '@/lib/url';
+---
+
+<BaseLayout title={t('offline.title')} description={t('offline.lead')} searchable={false} noindex>
+  <PageHeader art="bookmark" title={t('offline.title')} lead={t('offline.lead')} />
+  <div class="container-page max-w-3xl space-y-6 py-10">
+    <div class="flex flex-wrap gap-3">
+      <button type="button" class="btn btn-primary" id="offline-retry">{t('offline.retry')}</button>
+      <a class="btn btn-ghost" href={url('/')}>{t('offline.home')}</a>
+    </div>
+    <section class="card p-5" aria-labelledby="offline-saved">
+      <h2 id="offline-saved" class="text-lg font-bold">{t('offline.saved')}</h2>
+      <p class="mt-1 text-sm text-muted">{t('offline.savedLead')}</p>
+      <ul id="offline-list" class="mt-3 list-disc space-y-1 pl-5" data-none={t('offline.none')}></ul>
+    </section>
+  </div>
+</BaseLayout>
+
+<script>
+  document.getElementById('offline-retry')?.addEventListener('click', () => location.reload());
+
+  // List the pages this browser has kept for offline reading (cache filled by the service worker).
+  async function listSaved() {
+    const list = document.getElementById('offline-list');
+    if (!list) return;
+    const none = () => {
+      const li = document.createElement('li');
+      li.className = 'list-none -ml-5 text-muted';
+      li.textContent = list.dataset.none ?? '';
+      list.append(li);
+    };
+    if (!('caches' in window)) return none();
+    try {
+      const cache = await caches.open('stockora-pages-v1');
+      const keys = await cache.keys();
+      const items: { href: string; title: string }[] = [];
+      for (const req of keys.slice(-60).reverse()) {
+        const path = new URL(req.url).pathname;
+        if (/\/offline\/$/.test(path)) continue;
+        const res = await cache.match(req);
+        const html = res ? await res.text() : '';
+        const m = html.match(/<title>([^<]*)<\/title>/);
+        const title = (m ? m[1] : path).replace(/&amp;/g, '&').replace(/&#39;|&#x27;/g, "'").replace(/&quot;/g, '"').replace(/ \| Stockora Academy$/, '');
+        items.push({ href: path, title });
+      }
+      if (items.length === 0) return none();
+      for (const it of items) {
+        const li = document.createElement('li');
+        const a = document.createElement('a');
+        a.href = it.href;
+        a.textContent = it.title;
+        li.append(a);
+        list.append(li);
+      }
+    } catch {
+      none();
+    }
+  }
+  listSaved();
+</script>

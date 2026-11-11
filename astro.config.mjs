@@ -20,7 +20,7 @@ const base = process.env.BASE_PATH || '/';
 // Pages marked noindex (BaseLayout `noindex` prop) are personal or utility pages: keep them out of the sitemap too,
 // in every language. Translated copies of English-only pages (lessons, …) point their canonical link to the
 // English page, so only the English page is listed.
-const NOINDEX = ['/brand/', '/impressum/', '/me/', '/quizzes/certificate/', '/quizzes/play/'];
+const NOINDEX = ['/brand/', '/impressum/', '/me/', '/offline/', '/quizzes/certificate/', '/quizzes/play/'];
 const basePrefix = base.replace(/\/$/, '');
 /** @param {string} page */
 function inSitemap(page) {

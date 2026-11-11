@@ -34,6 +34,8 @@ Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazio
 
 Questo elenco sarà tenuto aggiornato. Puoi cancellare tutto in qualsiasi momento eliminando i dati di questo sito nelle impostazioni del browser. Nella pagina «Il mio percorso» puoi scaricare tutto come file di backup e ripristinarlo in un altro browser. Il file viene creato sul tuo dispositivo e non viene caricato da nessuna parte.
 
+Per la lettura offline e l'installazione del sito come app, un piccolo script (un *service worker*) conserva anche copie delle pagine che apri, e dei loro file, nella cache del browser: al massimo circa 150 pagine. Restano sul tuo dispositivo, vengono aggiornate quando sei online e non viene inviato nulla. Cancellando i dati di questo sito nel browser vengono rimosse anche loro.
+
 ## Video (YouTube)
 
 Le lezioni e le pagine degli argomenti includono video educativi di YouTube. Un video **non** si carica finché non ci clicchi; prima non viene richiesto alcun dato a YouTube (nemmeno un'anteprima). Solo allora il tuo browser si collega a YouTube (usando il dominio a privacy avanzata `youtube-nocookie.com`) e si applica l'informativa privacy di YouTube. Ogni video ha anche un semplice link «Guarda su YouTube».

@@ -34,6 +34,8 @@ Pour mémoriser vos réglages et votre progression, le site utilise le *stockage
 
 Cette liste sera tenue à jour. Vous pouvez tout effacer à tout moment en supprimant les données de ce site dans les réglages de votre navigateur. Sur la page « Mon parcours », vous pouvez tout télécharger dans un fichier de sauvegarde et le restaurer dans un autre navigateur. Le fichier est créé sur votre appareil et n’est envoyé nulle part.
 
+Pour la lecture hors ligne et l'installation du site comme application, un petit script (un *service worker*) conserve aussi des copies des pages que vous ouvrez, et de leurs fichiers, dans le cache de votre navigateur : environ 150 pages au maximum. Elles restent sur votre appareil, sont mises à jour dès que vous êtes en ligne, et rien n'est envoyé nulle part. Effacer les données de ce site dans votre navigateur les supprime aussi.
+
 ## Vidéos (YouTube)
 
 Les leçons et les pages de thèmes contiennent des vidéos pédagogiques YouTube. Une vidéo ne se charge **pas** avant que vous cliquiez dessus ; auparavant, aucune donnée (pas même une image d'aperçu) n'est demandée à YouTube. Ce n'est qu'à ce moment que votre navigateur se connecte à YouTube (via le domaine à confidentialité renforcée `youtube-nocookie.com`), et la politique de confidentialité de YouTube s'applique. Chaque vidéo propose aussi un simple lien « Regarder sur YouTube ».

@@ -34,6 +34,8 @@ Para recordar tus ajustes y tu progreso, el sitio usa el *almacenamiento local* 
 
 Esta lista se mantendrá al día. Puedes borrarlo todo en cualquier momento eliminando los datos de este sitio en la configuración de tu navegador. En la página «Mi progreso» puedes descargarlo todo como archivo de copia y restaurarlo en otro navegador. El archivo se crea en tu dispositivo y no se sube a ningún sitio.
 
+Para leer sin conexión e instalar el sitio como aplicación, un pequeño script (un *service worker*) guarda además copias de las páginas que abres, y de sus archivos, en la caché de tu navegador: como máximo unas 150 páginas. Se quedan en tu dispositivo, se actualizan cuando tienes conexión y no se envía nada a ninguna parte. Si borras los datos de este sitio en tu navegador, también se eliminan.
+
 ## Vídeos (YouTube)
 
 Las lecciones y las páginas de temas incluyen vídeos educativos de YouTube. Un vídeo **no** se carga hasta que haces clic en él; antes no se solicita ningún dato a YouTube (ni siquiera una imagen de vista previa). Solo entonces tu navegador se conecta a YouTube (usando el dominio de privacidad mejorada `youtube-nocookie.com`), y se aplica la política de privacidad de YouTube. Cada vídeo tiene además un enlace sencillo «Ver en YouTube».

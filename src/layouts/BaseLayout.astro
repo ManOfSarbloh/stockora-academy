@@ -7,7 +7,7 @@ import GlossaryTooltip from '@/components/GlossaryTooltip.astro';
 import { getLocale, intlLocale, t, type Locale } from '@/i18n';
 import { ACTIVE_LOCALES } from '@/i18n/pages';
 import { isEnglishOnly, stripLocale } from '@/i18n/routes';
-import { absoluteUrl, stripBase, url } from '@/lib/url';
+import { absoluteUrl, joinBase, stripBase, url } from '@/lib/url';
 import { toScript, type JsonLd } from '@/lib/seo';
 import { pageType } from '@/lib/search';
 
@@ -74,6 +74,8 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="theme-color" content="#0096fa" />
     <link rel="icon" type="image/svg+xml" href={url('/favicon.svg')} />
+    <link rel="manifest" href={joinBase(import.meta.env.BASE_URL, '/manifest.webmanifest')} />
+    <link rel="apple-touch-icon" href={joinBase(import.meta.env.BASE_URL, '/icons/apple-touch-icon.png')} />
     <link rel="sitemap" href={url('/sitemap-index.xml')} />
     {jsonLd && <script type="application/ld+json" set:html={toScript(jsonLd)} />}
     <script is:inline>
@@ -116,5 +118,13 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
     </main>
     <Footer />
     <GlossaryTooltip />
+    {
+      import.meta.env.PROD && (
+        <script is:inline define:vars={{ sw: joinBase(import.meta.env.BASE_URL, '/sw.js'), scope: joinBase(import.meta.env.BASE_URL, '/') }}>
+          // Offline reading and "install as an app": see src/pages/sw.js.ts. Nothing is sent anywhere.
+          if ('serviceWorker' in navigator) addEventListener('load', () => navigator.serviceWorker.register(sw, { scope }).catch(() => {}));
+        </script>
+      )
+    }
   </body>
 </html>

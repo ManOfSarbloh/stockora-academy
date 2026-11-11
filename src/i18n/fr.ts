@@ -1525,4 +1525,11 @@ export const fr: Dictionary = {
   'calc.f.fund2': "Montant unique seulement : valeur = montant × (1 − droits d'entrée) × (1 + rendement − TER)^années",
   'tools.t.fund-costs': "Comparateur de frais de fonds",
   'tools.d.fund-costs': "Comparez deux fonds aux frais annuels (TER) et droits d'entrée différents, et voyez combien l'écart grandit au fil des ans.",
+  'offline.title': "Vous êtes hors ligne",
+  'offline.lead': "Cette page n'est pas encore enregistrée sur cet appareil. Les pages ouvertes en ligne restent lisibles hors ligne.",
+  'offline.retry': "Réessayer",
+  'offline.home': "Aller à la page d'accueil",
+  'offline.saved': "Enregistré sur cet appareil",
+  'offline.savedLead': "Les pages que vous avez déjà ouvertes, les plus récentes en premier.",
+  'offline.none': "Aucune page enregistrée pour l'instant. Les pages que vous ouvrez en ligne sont conservées sur cet appareil pour une lecture hors ligne.",
 };

@@ -1563,6 +1563,13 @@ export const en = {
   'ip.reset.no': 'Keep it',
   'ip.empty': '–',
   'ip.disclaimer': 'Made with Stockora Academy. Education only, not advice: this plan does not consider your individual situation, taxes or legal circumstances.',
+  'offline.title': 'You\'re offline',
+  'offline.lead': 'This page isn\'t saved on this device yet. Pages you opened while online stay readable offline.',
+  'offline.retry': 'Try again',
+  'offline.home': 'Go to the home page',
+  'offline.saved': 'Saved on this device',
+  'offline.savedLead': 'Pages you have opened before, newest first.',
+  'offline.none': 'No saved pages yet. Pages you open while online are kept on this device for offline reading.',
   'ss.quiz': 'Test yourself: Scam Spotter Quiz',
   'ss.lessons': 'Lessons on scams and safety',
 } as const;

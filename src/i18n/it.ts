@@ -1525,4 +1525,11 @@ export const it: Dictionary = {
   'calc.f.fund2': "Solo importo unico: valore = importo × (1 − commissione di ingresso) × (1 + rendimento − TER)^anni",
   'tools.t.fund-costs': "Confronto dei costi dei fondi",
   'tools.d.fund-costs': "Confronta due fondi con costi annui (TER) e commissioni di ingresso diversi, e guarda quanto cresce la differenza negli anni.",
+  'offline.title': "Sei offline",
+  'offline.lead': "Questa pagina non è ancora salvata su questo dispositivo. Le pagine che hai aperto online restano leggibili offline.",
+  'offline.retry': "Riprova",
+  'offline.home': "Vai alla pagina iniziale",
+  'offline.saved': "Salvato su questo dispositivo",
+  'offline.savedLead': "Le pagine che hai già aperto, le più recenti per prime.",
+  'offline.none': "Ancora nessuna pagina salvata. Le pagine che apri online vengono conservate su questo dispositivo per leggerle offline.",
 };

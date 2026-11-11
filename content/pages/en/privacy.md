@@ -34,6 +34,8 @@ To remember your settings and learning progress, the site uses your browser's *l
 
 This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings. On the My learning page you can download all of it as a backup file and restore it in another browser. The file is created on your device and is not uploaded anywhere.
 
+For offline reading and installing the site as an app, a small script (a *service worker*) also keeps copies of the pages you open, and of their files, in your browser's cache: at most about 150 pages. They stay on your device, are refreshed whenever you are online, and nothing is sent anywhere. Clearing this site's data in your browser removes them too.
+
 ## Videos (YouTube)
 
 Lesson and topic pages include educational YouTube videos. A video does **not** load until you click on it, and before that no data (not even a preview image) is requested from YouTube. Only then does your browser connect to YouTube (using the privacy-enhanced `youtube-nocookie.com` domain), and YouTube's own privacy policy applies. Every video also has a plain "Watch on YouTube" link instead.

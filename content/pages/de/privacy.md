@@ -34,6 +34,8 @@ Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite 
 
 Diese Liste wird aktuell gehalten. Du kannst alles jederzeit löschen, indem du die Daten dieser Seite in deinen Browsereinstellungen löschst. Auf der Seite „Mein Fortschritt“ kannst du alles als Sicherungsdatei herunterladen und in einem anderen Browser wiederherstellen. Die Datei entsteht auf deinem Gerät und wird nirgendwohin hochgeladen.
 
+Für das Offline-Lesen und die Installation als App speichert ein kleines Skript (ein *Service Worker*) außerdem Kopien der Seiten, die du öffnest, und ihrer Dateien im Cache deines Browsers: höchstens etwa 150 Seiten. Sie bleiben auf deinem Gerät, werden aktualisiert, sobald du online bist, und es wird nichts verschickt. Wenn du die Daten dieser Website im Browser löschst, werden auch sie entfernt.
+
 ## Videos (YouTube)
 
 Lektionen und Themenseiten enthalten Lernvideos von YouTube. Ein Video wird **erst** geladen, wenn du darauf klickst; vorher werden keinerlei Daten (nicht einmal ein Vorschaubild) von YouTube angefordert. Erst dann verbindet sich dein Browser mit YouTube (über die datenschutzfreundlichere Domain `youtube-nocookie.com`), und es gilt die Datenschutzerklärung von YouTube. Zu jedem Video gibt es stattdessen auch einen einfachen Link „Auf YouTube ansehen“.
