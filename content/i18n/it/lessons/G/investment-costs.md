@@ -33,6 +33,9 @@ Il **TER** indica i costi addebitati a un fondo nel suo ultimo esercizio, in per
 >
 > Una differenza di 1,3 punti percentuali all'anno costa circa **16.800 €**: quasi un terzo del risultato, perché i costi si capitalizzano proprio come i rendimenti.
 
+> [!TIP] Provalo con i tuoi numeri
+> Il [confronto dei costi dei fondi](/tools/fund-costs) parte da questo esempio. Cambia i costi, aggiungi una commissione di ingresso o un importo mensile e guarda come cresce la differenza negli anni.
+
 ## Il tuo diritto di conoscere i costi
 
 > [!NOTE]

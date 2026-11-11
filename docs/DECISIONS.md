@@ -344,6 +344,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Storage and print | Saved as stockora-investment-plan (privacy page). "Print or save as PDF" sets html.print-plan, and print CSS hides everything except the summary. "Start over" asks for confirmation in the page (no browser dialog) |
 | Lesson link | The lesson got a short TIP pointing to the tool in all five languages; its lastReviewed and translatedFrom dates were left unchanged because the content did not change |
 
+## Fund cost comparison (2026-11-11)
+
+| Topic | Decision |
+|---|---|
+| Scope | Owner's pick after the plan builder. /tools/fund-costs compares two funds with the same money and the same return before costs, differing only in yearly costs (TER) and entry fee; a one-off amount and/or a monthly amount |
+| Model | The costs lesson's model: monthly compounding of (return − TER), entry fee taken from every purchase. With a one-off amount it equals amount × (1 + return − TER)^years, so the defaults (the lesson's example) reproduce its figures exactly (€54,271 / €37,453, "about €54,300 / €37,500"); unit-tested in tests/calc.test.ts |
+| Honesty | Shows "what the costs take" against a no-cost version, notes that the TER excludes trading costs inside the fund and the broker's fees, and repeats that returns are not guaranteed. The lesson got a "try it with your own numbers" TIP in all five languages (dates unchanged) |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

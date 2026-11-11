@@ -15,6 +15,7 @@ import {
   split,
   tradeResult,
   valuation,
+  fundCost,
 } from '../src/lib/calc';
 
 const close = (a: number, b: number, d = 6) => expect(a).toBeCloseTo(b, d);
@@ -186,5 +187,26 @@ describe('candlestick builder', () => {
     const c = checkCandle(10, 9, 8, 11);
     expect(c.valid).toBe(false);
     expect(c.problems.length).toBeGreaterThan(0);
+  });
+});
+
+describe('fund cost comparison', () => {
+  it('reproduces the costs lesson: €10,000 for 30 years at 6% before costs', () => {
+    const p = { initial: 10000, monthly: 0, years: 30, rate: 0.06 };
+    expect(fundCost(p, { ter: 0.002, entry: 0 }).value).toBeCloseTo(10000 * 1.058 ** 30, 6);
+    expect(Math.round(fundCost(p, { ter: 0.002, entry: 0 }).value / 100) * 100).toBe(54300);
+    expect(Math.round(fundCost(p, { ter: 0.015, entry: 0 }).value / 100) * 100).toBe(37500);
+  });
+  it('takes the entry fee from every purchase and counts it', () => {
+    const r = fundCost({ initial: 1000, monthly: 100, years: 1, rate: 0 }, { ter: 0, entry: 0.05 });
+    expect(r.paidIn).toBe(2200);
+    expect(r.entryFees).toBeCloseTo(110);
+    expect(r.value).toBeCloseTo(2090);
+    expect(r.costImpact).toBeCloseTo(110);
+    expect(r.path).toHaveLength(2);
+  });
+  it('has no cost impact without costs', () => {
+    const r = fundCost({ initial: 5000, monthly: 200, years: 10, rate: 0.05 }, { ter: 0, entry: 0 });
+    expect(r.costImpact).toBeCloseTo(0, 6);
   });
 });

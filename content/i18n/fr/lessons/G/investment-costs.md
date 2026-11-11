@@ -33,6 +33,9 @@ Les **frais courants (TER)** indiquent les coûts prélevés sur un fonds au cou
 >
 > Une différence de 1,3 point de pourcentage par an coûte environ **16 800 €** : presque un tiers du résultat, parce que les coûts se composent exactement comme les rendements.
 
+> [!TIP] Essayez avec vos propres chiffres
+> Le [comparateur de frais de fonds](/tools/fund-costs) part de cet exemple. Modifiez les frais, ajoutez des droits d'entrée ou un versement mensuel, et voyez l'écart grandir au fil des ans.
+
 ## Votre droit de connaître les coûts
 
 > [!NOTE]

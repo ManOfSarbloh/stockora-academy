@@ -43,6 +43,12 @@ export const TOOLS: Tool[] = [
     icon: '📝',
     lessons: ['investing-strategies/investment-plan', 'investing-strategies/before-you-invest', 'investing-strategies/asset-allocation', 'investing-strategies/rebalancing', 'investing-strategies/risk-tolerance', 'psychology/good-habits'],
   },
+  {
+    slug: 'fund-costs',
+    group: 'money',
+    icon: '🧾',
+    lessons: ['returns-and-costs/investment-costs', 'indexes-etfs-funds/tracking-and-costs', 'indexes-etfs-funds/comparing-etfs', 'investing-strategies/active-vs-passive'],
+  },
   { slug: 'savings-plan', group: 'money', icon: '🗓️', lessons: ['investing-strategies/savings-plans-and-lump-sums', 'brokers-accounts-orders/savings-plans-and-lending', 'returns-and-costs/investment-costs'] },
   { slug: 'currency', group: 'money', icon: '💱', lessons: ['macroeconomics/currencies-and-your-investments'] },
   {

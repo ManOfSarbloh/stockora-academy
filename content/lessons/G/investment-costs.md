@@ -43,6 +43,9 @@ The **TER** shows the costs charged to a fund over its last financial year, as a
 >
 > A difference of 1.3 percentage points per year costs about **€16,800**: almost a third of the result, because costs compound just like returns.
 
+> [!TIP] Try it with your own numbers
+> The [fund cost comparison](/tools/fund-costs) starts with this example. Change the costs, add an entry fee or a monthly amount, and watch how the gap grows over the years.
+
 ## Your right to know the costs
 
 > [!NOTE]

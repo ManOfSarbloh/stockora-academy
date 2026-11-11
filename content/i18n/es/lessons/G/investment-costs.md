@@ -33,6 +33,9 @@ El **TER** muestra los costes cargados a un fondo durante su último ejercicio, 
 >
 > Una diferencia de 1,3 puntos porcentuales al año cuesta unos **16.800 €**: casi un tercio del resultado, porque los costes se componen igual que la rentabilidad.
 
+> [!TIP] Pruébalo con tus propias cifras
+> El [comparador de costes de fondos](/tools/fund-costs) empieza con este ejemplo. Cambia los costes, añade una comisión de suscripción o un importe mensual y mira cómo crece la diferencia con los años.
+
 ## Tu derecho a conocer los costes
 
 > [!NOTE]

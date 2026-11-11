@@ -33,6 +33,9 @@ Die **TER** zeigt die dem Fonds im letzten Geschäftsjahr belasteten Kosten in P
 >
 > Ein Unterschied von 1,3 Prozentpunkten pro Jahr kostet etwa **16.800 €**: fast ein Drittel des Ergebnisses, weil Kosten genauso mit Zinseszins wirken wie Renditen.
 
+> [!TIP] Probier es mit deinen eigenen Zahlen
+> Der [Fondskosten-Vergleich](/tools/fund-costs) startet mit diesem Beispiel. Ändere die Kosten, füge einen Ausgabeaufschlag oder einen Monatsbetrag hinzu und sieh, wie der Abstand über die Jahre wächst.
+
 ## Dein Recht, die Kosten zu kennen
 
 > [!NOTE]

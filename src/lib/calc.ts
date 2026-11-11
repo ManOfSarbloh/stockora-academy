@@ -365,3 +365,56 @@ export function checkCandle(o: number, h: number, l: number, c: number): CandleC
     bodyShare: range > 0 ? body / range : 0,
   };
 }
+
+// ---------------------------------------------------------------------------
+// Fund cost comparison (two funds, same money, same return before costs)
+// ---------------------------------------------------------------------------
+
+export interface FundCostInput {
+  /** One-off amount invested at the start. */
+  initial: number;
+  /** Amount added at the start of every month. */
+  monthly: number;
+  years: number;
+  /** Assumed yearly return before fund costs. */
+  rate: number;
+}
+export interface FundSpec {
+  /** Yearly fund costs (TER), deducted from the return as in the costs lesson. */
+  ter: number;
+  /** Entry fee (front load) on every purchase, as a fraction (0.03 = 3%). */
+  entry: number;
+}
+export interface FundCostResult {
+  paidIn: number;
+  entryFees: number;
+  value: number;
+  /** Value of the same money with no costs at all, for comparison. */
+  valueNoCosts: number;
+  costImpact: number;
+  path: number[];
+}
+
+/**
+ * One fund: entry fee taken from every purchase, monthly compounding of (rate − TER). With a one-off amount only
+ * this equals the lesson's yearly formula: value = amount × (1 + rate − TER)^years.
+ */
+export function fundCost(p: FundCostInput, f: FundSpec): FundCostResult {
+  const months = Math.round(p.years * 12);
+  const mNet = (1 + p.rate - f.ter) ** (1 / 12) - 1;
+  const mGross = (1 + p.rate) ** (1 / 12) - 1;
+  let value = p.initial * (1 - f.entry);
+  let valueNoCosts = p.initial;
+  let paidIn = p.initial;
+  let entryFees = p.initial * f.entry;
+  const path = [value];
+  // Monthly amounts are invested at the start of each month (the first together with the one-off amount).
+  for (let m = 1; m <= months; m++) {
+    value = (value + p.monthly * (1 - f.entry)) * (1 + mNet);
+    valueNoCosts = (valueNoCosts + p.monthly) * (1 + mGross);
+    paidIn += p.monthly;
+    entryFees += p.monthly * f.entry;
+    if (m % 12 === 0) path.push(value);
+  }
+  return { paidIn, entryFees, value, valueNoCosts, costImpact: valueNoCosts - value, path };
+}

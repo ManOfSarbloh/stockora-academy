@@ -15,6 +15,7 @@ import {
   compoundPath,
   currencyEffect,
   dividendYield,
+  fundCost,
   leverage,
   payoutRatio,
   positionSize,
@@ -645,6 +646,91 @@ export function CandleBuilder() {
             </p>
           </div>
         </div>
+      }
+    />
+  );
+}
+
+// ---------------------------------------------------------------------------
+// Fund cost comparison
+// ---------------------------------------------------------------------------
+export function FundCostCalculator() {
+  // Defaults: the example from the lesson "All the costs of investing".
+  const [initial, setInitial] = useState(10000);
+  const [monthly, setMonthly] = useState(0);
+  const [years, setYears] = useState(30);
+  const [rate, setRate] = useState(6);
+  const [terA, setTerA] = useState(0.2);
+  const [entryA, setEntryA] = useState(0);
+  const [terB, setTerB] = useState(1.5);
+  const [entryB, setEntryB] = useState(0);
+  const Y = Math.max(1, Math.min(50, Math.round(years)));
+  const input = { initial: Math.max(0, initial), monthly: Math.max(0, monthly), years: Y, rate: rate / 100 };
+  const a = useMemo(() => fundCost(input, { ter: terA / 100, entry: entryA / 100 }), [initial, monthly, Y, rate, terA, entryA]);
+  const b = useMemo(() => fundCost(input, { ter: terB / 100, entry: entryB / 100 }), [initial, monthly, Y, rate, terB, entryB]);
+  const diff = a.value - b.value;
+  const cheaper = diff >= 0 ? 'A' : 'B';
+  const low = Math.min(a.value, b.value);
+  return (
+    <CalcLayout
+      inputs={
+        <>
+          <NumField label={t('calc.initial')} value={initial} onChange={setInitial} unit="€" min={0} />
+          <NumField label={t('calc.monthly')} value={monthly} onChange={setMonthly} unit="€" min={0} />
+          <NumField label={t('calc.years')} value={years} onChange={setYears} step={1} min={1} max={50} />
+          <NumField label={t('calc.yearlyReturnBeforeCosts')} value={rate} onChange={setRate} unit="%" />
+          <fieldset className="space-y-3 rounded-lg border border-border p-3">
+            <legend className="px-1 text-sm font-bold">{t('calc.fundA')}</legend>
+            <NumField label={t('calc.ter')} value={terA} onChange={setTerA} unit="%" min={0} />
+            <NumField label={t('calc.entryFee')} value={entryA} onChange={setEntryA} unit="%" min={0} />
+          </fieldset>
+          <fieldset className="space-y-3 rounded-lg border border-border p-3">
+            <legend className="px-1 text-sm font-bold">{t('calc.fundB')}</legend>
+            <NumField label={t('calc.ter')} value={terB} onChange={setTerB} unit="%" min={0} />
+            <NumField label={t('calc.entryFee')} value={entryB} onChange={setEntryB} unit="%" min={0} />
+          </fieldset>
+        </>
+      }
+      results={
+        <>
+          <Results>
+            <Row label={t('calc.paidIn')} value={eur(a.paidIn)} />
+            <Row label={t('calc.fc.endA')} value={eur(a.value)} strong />
+            <Row label={t('calc.fc.endB')} value={eur(b.value)} strong />
+            <Row label={t('calc.fc.diff', { n: Y })} value={eur(Math.abs(diff))} tone={Math.abs(diff) >= 1 ? 'good' : undefined} strong />
+            <Row label={t('calc.fc.costA')} value={eur(a.costImpact)} tone="bad" />
+            <Row label={t('calc.fc.costB')} value={eur(b.costImpact)} tone="bad" />
+            {(entryA > 0 || entryB > 0) && <Row label={t('calc.entryFees')} value={`${eur(a.entryFees)} / ${eur(b.entryFees)}`} />}
+          </Results>
+          {Math.abs(diff) >= 1 && low > 0 && (
+            <p className="mt-3 text-sm">{t('calc.fc.share', { fund: cheaper, amount: eur(Math.abs(diff)), pct: pct(Math.abs(diff) / low) })}</p>
+          )}
+          <Note>{t('calc.fc.note')}</Note>
+          <Note kind="warning">{t('calc.notGuaranteed')}</Note>
+          <Formula>
+            <p>{t('calc.f.fund1')}</p>
+            <p>{t('calc.f.fund2')}</p>
+          </Formula>
+        </>
+      }
+      wide={
+        <LineChart
+          ariaLabel={t('calc.fc.chart')}
+          xTitle={t('calc.year')}
+          xLabels={a.path.map((_, i) => i)}
+          format={(v) => eur(v)}
+          series={[
+            { key: 'a', name: t('calc.fundA'), color: 'var(--series-1)', values: a.path },
+            { key: 'b', name: t('calc.fundB'), color: 'var(--series-2)', values: b.path },
+            {
+              key: 'p',
+              name: t('calc.s.paidIn'),
+              color: 'var(--muted)',
+              values: a.path.map((_, i) => input.initial + input.monthly * 12 * i),
+              dashed: true,
+            },
+          ]}
+        />
       }
     />
   );
