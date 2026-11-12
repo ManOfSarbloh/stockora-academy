@@ -30,6 +30,7 @@ To remember your settings and learning progress, the site uses your browser's *l
 - `stockora-paper-game`: your current paper-trading game (market number, day, cash, holdings, orders and what happened), so you can continue it later.
 - `stockora-paper-game-stats`: how many paper-trading games you finished (for the "Paper Trader" badge).
 - `stockora-investment-plan`: what you entered in the investment plan builder, so you can continue and print it later.
+- `stockora-study-goal`: the weekly lesson goal you chose in the study planner on My learning.
 - `stockora-times-zone`: the time zone you chose on the Trading Times page.
 
 This list will be kept up to date. You can delete all of it at any time by clearing this site's data in your browser settings. On the My learning page you can download all of it as a backup file and restore it in another browser. The file is created on your device and is not uploaded anywhere.

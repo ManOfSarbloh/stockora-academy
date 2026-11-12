@@ -30,6 +30,7 @@ Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazio
 - `stockora-paper-game`: la tua partita in corso del gioco di Borsa con denaro finto (numero del mercato, giorno, liquidità, posizioni, ordini e cronologia), per poterla continuare più tardi.
 - `stockora-paper-game-stats`: quante partite del gioco di Borsa con denaro finto hai finito (per il badge «Trader per gioco»).
 - `stockora-investment-plan`: quello che hai inserito nel costruttore del piano di investimento, per continuare e stamparlo più tardi.
+- `stockora-study-goal`: l'obiettivo settimanale di lezioni scelto nel pianificatore di studio di «Il mio percorso».
 - `stockora-times-zone`: il fuso orario scelto nella pagina degli orari.
 
 Questo elenco sarà tenuto aggiornato. Puoi cancellare tutto in qualsiasi momento eliminando i dati di questo sito nelle impostazioni del browser. Nella pagina «Il mio percorso» puoi scaricare tutto come file di backup e ripristinarlo in un altro browser. Il file viene creato sul tuo dispositivo e non viene caricato da nessuna parte.

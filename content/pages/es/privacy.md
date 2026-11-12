@@ -30,6 +30,7 @@ Para recordar tus ajustes y tu progreso, el sitio usa el *almacenamiento local* 
 - `stockora-paper-game`: tu partida actual del juego de bolsa con dinero ficticio (número de mercado, día, efectivo, posiciones, órdenes e historial), para que puedas continuarla más tarde.
 - `stockora-paper-game-stats`: cuántas partidas del juego de bolsa con dinero ficticio terminaste (para la insignia «Inversor de juego»).
 - `stockora-investment-plan`: lo que introdujiste en el creador de plan de inversión, para que puedas continuar e imprimirlo más tarde.
+- `stockora-study-goal`: el objetivo semanal de lecciones que elegiste en el planificador de estudio de «Mi progreso».
 - `stockora-times-zone`: la zona horaria que elegiste en la página de horarios.
 
 Esta lista se mantendrá al día. Puedes borrarlo todo en cualquier momento eliminando los datos de este sitio en la configuración de tu navegador. En la página «Mi progreso» puedes descargarlo todo como archivo de copia y restaurarlo en otro navegador. El archivo se crea en tu dispositivo y no se sube a ningún sitio.

@@ -362,6 +362,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Tested | Headless Brave against a temporary local server that was stopped mid-test (Chrome's offline emulation does not reach the service worker): a visited lesson opened fully styled, unvisited pages showed the offline page in English and German with the saved pages listed |
 | Privacy | The privacy page (all languages) explains the cached copies: on the device only, refreshed when online, removed with the site data |
 
+## Study planner (2026-11-12)
+
+| Topic | Decision |
+|---|---|
+| Scope | Owner's pick. On "My learning", next to the progress card: a weekly goal (1, 2, 3, 5 or 7 lessons), this week's count with a progress bar, what is still to go and the days left, a streak of weeks with the goal reached, the last 8 weeks as a bar chart with the goal line (plus a screen-reader list), and the next lesson on the learning path |
+| Data | Built only from the dates already stored when a lesson is marked done (stockora-progress); the goal is stockora-study-goal (privacy page, cleared by Reset). Weeks run Monday to Sunday in local time; an unfinished current week does not break the streak yet |
+| Code | src/lib/study-plan.ts (5 tests), src/components/StudyPlanner.tsx; counts use "Label: {n}" wording to avoid plural rules |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

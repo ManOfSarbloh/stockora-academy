@@ -8,12 +8,15 @@ import CategoryCard from '@/components/CategoryCard.astro';
 import HomeProgress from '@/components/HomeProgress.astro';
 import ProgressScript from '@/components/ProgressScript.astro';
 import { getCategories } from '@/lib/categories';
-import { getLessonKeysByCategory } from '@/lib/lessons';
+import { getLessonKeysByCategory, getLessonSequence } from '@/lib/lessons';
+import StudyPlanner from '@/components/StudyPlanner';
+import { url } from '@/lib/url';
 import { t } from '@/i18n';
 
 const categories = await getCategories();
 const keys = await getLessonKeysByCategory();
 const withLessons = categories.filter((c) => keys[c.id]?.length);
+const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.title, href: url(l.href) }));
 ---
 
 <BaseLayout title={t('me.title')} description={t('me.lead')} searchable={false} noindex>
@@ -21,7 +24,12 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
   <div class="container-page py-10">
     <p id="storage-warning" class="callout callout-warning hidden">{t('me.storageNote')}</p>
 
-    <div class="max-w-md"><HomeProgress /></div>
+    <div class="grid items-start gap-4 md:grid-cols-2">
+      <HomeProgress />
+      <StudyPlanner client:only="react" lessons={sequence}>
+        <div slot="fallback" class="island-fallback h-[420px]"></div>
+      </StudyPlanner>
+    </div>
 
     <section class="mt-12" aria-labelledby="bookmarks-title">
       <h2 id="bookmarks-title" class="text-xl font-bold">{t('me.bookmarks')}</h2>
@@ -117,6 +125,7 @@ const withLessons = categories.filter((c) => keys[c.id]?.length);
     if (!window.confirm(btn.dataset.confirm)) return;
     remove(PROGRESS_KEY);
     remove(BOOKMARKS_KEY);
+    remove('study-goal');
     resetQuizData();
     location.reload();
   });
