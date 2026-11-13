@@ -19,6 +19,7 @@ Cette politique explique ce qu’il advient des données personnelles lorsque vo
 Pour mémoriser vos réglages et votre progression, le site utilise le *stockage local* (localStorage) de votre navigateur. Ces données restent sur votre appareil ; elles ne nous sont jamais envoyées, ni à personne d'autre. Toutes les clés commencent par `stockora-`. Actuellement enregistrées :
 
 - `stockora-theme` : si vous avez choisi le mode clair ou sombre.
+- `stockora-reading` : vos réglages de lecture (taille du texte, interligne, espacement des lettres, longueur des lignes), seulement si vous les avez modifiés.
 - `stockora-progress` : les leçons que vous avez marquées comme terminées, et quand.
 - `stockora-bookmarks` : les leçons que vous avez enregistrées.
 - `stockora-quiz-scores` : votre meilleur et votre dernier score à chaque quiz.

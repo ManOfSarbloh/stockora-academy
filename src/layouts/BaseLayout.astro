@@ -86,6 +86,11 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
         var dark = pref ? pref === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.documentElement.classList.toggle('dark', dark);
         if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0a3560');
+        // Reading settings (Header.astro): text size, line and letter spacing, line length.
+        try {
+          var r = JSON.parse(localStorage.getItem('stockora-reading') || 'null');
+          if (r && typeof r === 'object') for (var k in r) if (/^(size|spacing|letters|width)$/.test(k) && typeof r[k] === 'string') document.documentElement.setAttribute('data-read-' + k, r[k]);
+        } catch (e) {}
       })();
     </script>
   </head>

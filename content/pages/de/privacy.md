@@ -19,6 +19,7 @@ Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du 
 Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite den *lokalen Speicher* (localStorage) deines Browsers. Diese Daten bleiben auf deinem Gerät; sie werden nie an uns oder an andere gesendet. Alle Schlüssel beginnen mit `stockora-`. Derzeit gespeichert:
 
 - `stockora-theme`: ob du den hellen oder dunklen Modus gewählt hast.
+- `stockora-reading`: deine Leseeinstellungen (Schriftgröße, Zeilen- und Buchstabenabstand, Zeilenlänge), nur wenn du sie geändert hast.
 - `stockora-progress`: welche Lektionen du als erledigt markiert hast, und wann.
 - `stockora-bookmarks`: Lektionen, die du dir gemerkt hast.
 - `stockora-quiz-scores`: dein bestes und dein letztes Ergebnis in jedem Quiz.

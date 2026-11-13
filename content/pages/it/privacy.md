@@ -19,6 +19,7 @@ Questa informativa spiega cosa succede ai dati personali quando usi Stockora Aca
 Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazione locale* (localStorage) del tuo browser. Questi dati restano sul tuo dispositivo; non vengono mai inviati a noi né ad altri. Tutte le chiavi iniziano con `stockora-`. Attualmente vengono salvati:
 
 - `stockora-theme`: se hai scelto il tema chiaro o scuro.
+- `stockora-reading`: le tue impostazioni di lettura (dimensione del testo, interlinea, spaziatura tra le lettere, lunghezza delle righe), solo se le hai cambiate.
 - `stockora-progress`: quali lezioni hai segnato come completate, e quando.
 - `stockora-bookmarks`: le lezioni che hai salvato.
 - `stockora-quiz-scores`: il tuo punteggio migliore e l'ultimo in ogni quiz.

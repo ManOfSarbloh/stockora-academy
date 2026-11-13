@@ -474,6 +474,38 @@
   --tw-prose-td-borders: var(--border);
 }
 
+/* ---- Reading settings (Header.astro, applied before paint in BaseLayout) ---- */
+html[data-read-size='l'] {
+  font-size: 112.5%;
+}
+html[data-read-size='xl'] {
+  font-size: 125%;
+}
+html[data-read-spacing='more'] body,
+html[data-read-spacing='more'] .prose {
+  line-height: 1.95;
+}
+html[data-read-spacing='more'] .prose :is(p, li) {
+  margin-block: 1.1em;
+}
+html[data-read-letters='more'] body {
+  letter-spacing: 0.035em;
+  word-spacing: 0.1em;
+}
+html[data-read-width='narrow'] .prose {
+  max-width: 60ch;
+}
+/* Small phones: the My learning icon moves to the menu (it is listed there), and with larger text the
+   wordmark is dropped too (the logo stays), so the header never overflows. */
+@media (max-width: 479px) {
+  .header-me {
+    display: none;
+  }
+  html:is([data-read-size='l'], [data-read-size='xl']) .header-wordmark {
+    display: none;
+  }
+}
+
 /* Lesson and page headings: the same short red bar. Selected text in the accent red. */
 .prose-stockora h2::after {
   content: '';

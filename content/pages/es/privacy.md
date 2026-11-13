@@ -19,6 +19,7 @@ Esta política explica qué ocurre con los datos personales cuando usas Stockora
 Para recordar tus ajustes y tu progreso, el sitio usa el *almacenamiento local* (localStorage) de tu navegador. Estos datos se quedan en tu dispositivo; nunca se nos envían a nosotros ni a nadie más. Todas las claves empiezan por `stockora-`. Actualmente se guardan:
 
 - `stockora-theme`: si elegiste el modo claro u oscuro.
+- `stockora-reading`: tus ajustes de lectura (tamaño del texto, interlineado, espaciado entre letras y longitud de línea), solo si los cambiaste.
 - `stockora-progress`: qué lecciones marcaste como hechas, y cuándo.
 - `stockora-bookmarks`: las lecciones que guardaste.
 - `stockora-quiz-scores`: tu mejor y tu último resultado en cada cuestionario.

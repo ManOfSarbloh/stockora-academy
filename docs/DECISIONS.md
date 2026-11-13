@@ -378,6 +378,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Scope | Lessons print cleanly or save as PDF, with a "Print or save as PDF" button in the lesson header (all languages). Site-wide print rules in global.css: black on white even from dark mode (tokens overridden for print), no header, footer, blue bands, hero art or glossary pop-ups; elements marked .print-hide (lesson buttons, videos, quiz, previous/next, table of contents, "report a mistake") are left out |
 | Content | A print-only line with the lesson's address (not indexed by search), link addresses printed after outside links (so the sources list prints with its URLs), and figures, tables, callouts and cards kept on one page where possible; @page margins 16 × 15 mm |
 
+## Reading settings (2026-11-13)
+
+| Topic | Decision |
+|---|---|
+| Scope | Owner's pick. An "Aa" menu in the header (all languages): text size (normal, large 112.5%, larger 125%, scaling the root font size so the whole site follows), line spacing, letter and word spacing (often easier with dyslexia) and a shorter line length for lessons. Saved as stockora-reading (only changed values; privacy page) and applied before paint in BaseLayout, like the theme |
+| Layout | On phones (under 480 px) the My learning icon moves to the menu, where it is already listed, and with larger text the wordmark is hidden (the logo stays), so the header never overflows; measured at 390 px for all three sizes. The panel spans the screen width under the header on phones |
+| Accessibility | Options are radio buttons inside labels, with a visible focus ring for keyboard use; "Reset to default" removes the saved settings |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

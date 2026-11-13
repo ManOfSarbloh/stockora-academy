@@ -19,6 +19,7 @@ This policy explains what happens to personal data when you use Stockora Academy
 To remember your settings and learning progress, the site uses your browser's *local storage*. This data stays on your device; it is never sent to us or anyone else. All keys start with `stockora-`. Currently stored:
 
 - `stockora-theme`: whether you chose light or dark mode.
+- `stockora-reading`: your reading settings (text size, line and letter spacing, line length), only if you changed them.
 - `stockora-progress`: which lessons you marked as done, and when.
 - `stockora-bookmarks`: lessons you bookmarked.
 - `stockora-quiz-scores`: your best and latest score for each quiz.
