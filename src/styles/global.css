@@ -43,6 +43,9 @@
   --red: #fa2406;
   --cta: #e0230a;
   --cta-ring: transparent;
+  /* Red accents (the loud colour): text that must stay readable, and decorative bars. */
+  --accent-text: #d01f08;
+  --accent: #fa2406;
   --on-cta: #ffffff;
   --warn-bg: #fff7e6;
   --warn-border: #f0b44c;
@@ -92,6 +95,8 @@
   --red: #fa2406;
   --cta: #8c1c2e;
   --cta-ring: rgb(255 150 170 / 0.35);
+  --accent-text: #ff7a7a;
+  --accent: #ff7a7a;
   --on-cta: #ffffff;
   --warn-bg: #2b2210;
   --warn-border: #b7862e;
@@ -135,6 +140,8 @@
   --color-link: var(--link);
   --color-red: var(--red);
   --color-cta: var(--cta);
+  --color-accent: var(--accent-text);
+  --color-accent-bar: var(--accent);
   --color-on-cta: var(--on-cta);
   --color-on-navy: var(--on-navy);
   --color-warn-bg: var(--warn-bg);
@@ -245,6 +252,16 @@
   }
   :is(.on-sky, .band-sky, .band-hero, .band-blend, .band-foot) :is(.card, .on-surface) :is(h1, h2) {
     color: var(--text);
+  }
+  /* Section headings with a short red bar underneath (home, Learn, tools; lesson headings via .prose-stockora). */
+  .title-accent::after {
+    content: '';
+    display: block;
+    width: 3rem;
+    height: 4px;
+    margin-top: 0.5rem;
+    border-radius: 2px;
+    background: var(--accent);
   }
   .card {
     background: var(--surface);
@@ -363,9 +380,11 @@
     letter-spacing: 0.01em;
   }
   .callout-example,
-  .callout-takeaways,
   .callout-tip {
     --callout-accent: var(--teal);
+  }
+  .callout-takeaways {
+    --callout-accent: var(--accent);
   }
   .callout-mistake,
   .callout-verify {
@@ -453,6 +472,21 @@
   --tw-prose-code: var(--text);
   --tw-prose-th-borders: var(--border);
   --tw-prose-td-borders: var(--border);
+}
+
+/* Lesson and page headings: the same short red bar. Selected text in the accent red. */
+.prose-stockora h2::after {
+  content: '';
+  display: block;
+  width: 2.5rem;
+  height: 3px;
+  margin-top: 0.4rem;
+  border-radius: 2px;
+  background: var(--accent);
+}
+::selection {
+  background: var(--cta);
+  color: var(--on-cta);
 }
 
 /* ---- Light/dark switch animation (Header.astro) ----

@@ -20,8 +20,8 @@ const keys = await getLessonKeysByCategory();
     {
       STAGES.map((stage, i) => (
         <section class="mt-10" aria-labelledby={`stage-${stage}`}>
-          <h2 id={`stage-${stage}`} class="flex items-baseline gap-3 text-xl font-bold">
-            <span class="text-sm font-semibold text-link">{i + 1}</span>
+          <h2 id={`stage-${stage}`} class="flex items-center gap-3 text-xl font-bold">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-cta text-xs font-bold text-on-cta">{i + 1}</span>
             {t(`stage.${stage}`)}
           </h2>
           <p class="mt-1 text-sm text-muted">{t(`stage.${stage}.lead`)}</p>

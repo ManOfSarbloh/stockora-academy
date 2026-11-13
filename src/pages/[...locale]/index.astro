@@ -66,7 +66,7 @@ const widgetExchanges = (await getCollection('exchanges'))
             stroke-width="1.5"></path>
           <path
             d={`M${cx + lift.dx} ${cy + lift.dy} L${cx + lift.dx} ${cy - r + lift.dy} A${r} ${r} 0 0 1 ${x + lift.dx} ${y + lift.dy} Z`}
-            fill="var(--teal)"></path>
+            fill="var(--accent)"></path>
         </svg>
         <figcaption class="mt-4 text-center">
           <p class="font-semibold">{t('home.pie.caption')}</p>
@@ -77,14 +77,14 @@ const widgetExchanges = (await getCollection('exchanges'))
   </section>
 
   <section class="container-page py-12" aria-labelledby="path-title">
-    <h2 id="path-title" class="text-2xl font-bold tracking-tight">{t('home.path.title')}</h2>
+    <h2 id="path-title" class="title-accent text-2xl font-bold tracking-tight">{t('home.path.title')}</h2>
     <p class="mt-2 max-w-2xl text-muted">{t('home.path.lead')}</p>
 
     {
       STAGES.map((stage, i) => (
         <div class="mt-10">
-          <h3 class="flex items-baseline gap-3 text-lg font-bold">
-            <span class="text-sm font-semibold text-link">{i + 1}</span>
+          <h3 class="flex items-center gap-3 text-lg font-bold">
+            <span class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-cta text-xs font-bold text-on-cta">{i + 1}</span>
             {t(`stage.${stage}`)}
           </h3>
           <p class="mt-1 text-sm text-muted">{t(`stage.${stage}.lead`)}</p>
@@ -117,7 +117,7 @@ const widgetExchanges = (await getCollection('exchanges'))
     <div class="card grid gap-6 p-6 sm:grid-cols-2">
       <h2 id="trust-title" class="text-xl font-bold sm:col-span-2">{t('home.trust.title')}</h2>
       <p class="flex gap-3">
-        <span class="font-bold text-link" aria-hidden="true">✓</span>
+        <span class="font-bold text-accent" aria-hidden="true">✓</span>
         <span>{t('home.trust.is')}</span>
       </p>
       <p class="flex gap-3">
