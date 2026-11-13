@@ -111,6 +111,7 @@ export const de: Dictionary = {
   'lesson.onThisPage': "Auf dieser Seite",
   'lesson.level': "Niveau",
   'lesson.markDone': "Als erledigt markieren",
+  'lesson.print': "Drucken oder als PDF speichern",
   'lesson.done': "Erledigt",
   'lesson.bookmark': "Merken",
   'lesson.bookmarked': "Gemerkt",

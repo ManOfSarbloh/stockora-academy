@@ -111,6 +111,7 @@ export const ru: Dictionary = {
   'lesson.onThisPage': "На этой странице",
   'lesson.level': "Уровень",
   'lesson.markDone': "Отметить как пройденный",
+  'lesson.print': "Распечатать или сохранить в PDF",
   'lesson.done': "Пройдено",
   'lesson.bookmark': "В закладки",
   'lesson.bookmarked': "В закладках",

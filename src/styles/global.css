@@ -600,6 +600,100 @@ html.theme-switching #theme-toggle svg {
     animation: none !important;
   }
 }
+/* ---- Printing (lessons and every other page): black on white, no site chrome, link addresses for outside links ---- */
+.print-only {
+  display: none;
+}
+@media print {
+  @page {
+    margin: 16mm 15mm;
+  }
+  :root,
+  .dark {
+    --bg: #fff !important;
+    --surface: #fff !important;
+    --surface-2: #f1f3f5 !important;
+    --text: #111 !important;
+    --muted: #444 !important;
+    --border: #ccc !important;
+    --link: #0b4f8a !important;
+    --c-text: #111 !important;
+    --c-muted: #444 !important;
+    --c-link: #0b4f8a !important;
+    --c-border: #ccc !important;
+    --band-heading: #111 !important;
+    --band-muted: #333 !important;
+    --band-link: #0b4f8a !important;
+    --band-border: #ccc !important;
+    --band-tint: #f1f3f5 !important;
+    --teal: #0077cc !important;
+    color-scheme: light;
+  }
+  header,
+  footer,
+  #gloss-tip,
+  .print-hide {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  html,
+  body,
+  main {
+    background: #fff !important;
+    color: #111 !important;
+  }
+  .band-hero,
+  .band-blend,
+  .band-foot,
+  .band-sky {
+    background: none !important;
+  }
+  .band-hero > .container-page {
+    padding-top: 0 !important;
+    padding-bottom: 1rem !important;
+  }
+  .hero-art {
+    display: none !important;
+  }
+  .container-page {
+    max-width: none !important;
+    padding-inline: 0 !important;
+  }
+  .prose {
+    max-width: none !important;
+  }
+  .prose a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #444;
+    word-break: break-all;
+  }
+  section a[href^='http']::after {
+    content: ' (' attr(href) ')';
+    font-size: 0.85em;
+    color: #444;
+    word-break: break-all;
+  }
+  figure,
+  table,
+  pre,
+  img,
+  svg,
+  .callout,
+  .card {
+    break-inside: avoid;
+  }
+  h2,
+  h3 {
+    break-after: avoid;
+  }
+  a.gloss {
+    text-decoration: none;
+  }
+}
 /* Investment plan builder: "Print or save as PDF" prints only the plan summary (html.print-plan is set by the tool). */
 @media print {
   html.print-plan header,

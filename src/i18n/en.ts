@@ -129,6 +129,7 @@ export const en = {
   'lesson.onThisPage': 'On this page',
   'lesson.level': 'Level',
   'lesson.markDone': 'Mark as done',
+  'lesson.print': 'Print or save as PDF',
   'lesson.done': 'Done',
   'lesson.bookmark': 'Bookmark',
   'lesson.bookmarked': 'Bookmarked',

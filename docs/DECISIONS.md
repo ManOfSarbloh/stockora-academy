@@ -371,6 +371,13 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Data | Built only from the dates already stored when a lesson is marked done (stockora-progress); the goal is stockora-study-goal (privacy page, cleared by Reset). Weeks run Monday to Sunday in local time; an unfinished current week does not break the streak yet |
 | Code | src/lib/study-plan.ts (5 tests), src/components/StudyPlanner.tsx; counts use "Label: {n}" wording to avoid plural rules |
 
+## Printable lessons (2026-11-13)
+
+| Topic | Decision |
+|---|---|
+| Scope | Lessons print cleanly or save as PDF, with a "Print or save as PDF" button in the lesson header (all languages). Site-wide print rules in global.css: black on white even from dark mode (tokens overridden for print), no header, footer, blue bands, hero art or glossary pop-ups; elements marked .print-hide (lesson buttons, videos, quiz, previous/next, table of contents, "report a mistake") are left out |
+| Content | A print-only line with the lesson's address (not indexed by search), link addresses printed after outside links (so the sources list prints with its URLs), and figures, tables, callouts and cards kept on one page where possible; @page margins 16 × 15 mm |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).
