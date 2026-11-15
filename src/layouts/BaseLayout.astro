@@ -86,6 +86,11 @@ const ogImage = new URL(url('/og-default.png'), Astro.site);
         var dark = pref ? pref === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
         document.documentElement.classList.toggle('dark', dark);
         if (dark) document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0a3560');
+        // Returning learner (at least one lesson done): the home page shows the dashboard first.
+        try {
+          var pr = JSON.parse(localStorage.getItem('stockora-progress') || 'null');
+          if (pr && pr.done && Object.keys(pr.done).length) document.documentElement.setAttribute('data-returning', '');
+        } catch (e) {}
         // Reading settings (Header.astro): text size, line and letter spacing, line length.
         try {
           var r = JSON.parse(localStorage.getItem('stockora-reading') || 'null');

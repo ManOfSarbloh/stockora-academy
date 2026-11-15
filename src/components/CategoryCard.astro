@@ -10,9 +10,11 @@ interface Props {
   step?: number;
   /** Lesson keys of this category; the progress ring is filled in by ProgressScript. */
   lessonKeys?: string[];
+  /** Home path: on phones, hide the summary and level chips (title, step and lesson count stay). */
+  compact?: boolean;
 }
 
-const { category: c, step, lessonKeys = [] } = Astro.props;
+const { category: c, step, lessonKeys = [], compact = false } = Astro.props;
 const levelKey = { beginner: 'level.beginner', intermediate: 'level.intermediate', advanced: 'level.advanced' } as const;
 const n = lessonKeys.length;
 const R = 19;
@@ -33,7 +35,7 @@ const C = +(2 * Math.PI * R).toFixed(2);
         cy="22"
         r={R}
         fill="none"
-        stroke="var(--teal)"
+        stroke="var(--accent)"
         stroke-width="3.5"
         stroke-linecap="round"
         stroke-dasharray={C}
@@ -45,16 +47,16 @@ const C = +(2 * Math.PI * R).toFixed(2);
   <span class="min-w-0">
     {step && <span class="block text-xs font-bold tracking-wide text-accent uppercase">{t('learn.pathStep')} {step}</span>}
     <span class="block font-semibold group-hover:text-link">{c.title}</span>
-    <span class="mt-1 block text-sm text-muted">{c.summary}</span>
-    <span class="mt-2 flex flex-wrap items-center gap-1.5">
+    <span class:list={['mt-1 block text-sm text-muted', compact && 'max-sm:hidden']}>{c.summary}</span>
+    <span class:list={['flex flex-wrap items-center gap-1.5', compact ? 'mt-1 sm:mt-2' : 'mt-2']}>
       {
         c.levels.map((l) => (
-          <span class="rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium text-muted">{t(levelKey[l])}</span>
+          <span class:list={['rounded-full bg-surface-2 px-2 py-0.5 text-xs font-medium text-muted', compact && 'max-sm:hidden']}>{t(levelKey[l])}</span>
         ))
       }
       {
         n > 0 && (
-          <span class="progress-text ml-1 text-xs text-muted" data-label={t('learn.progressLabel')}>
+          <span class:list={['progress-text text-xs text-muted', compact ? 'sm:ml-1' : 'ml-1']} data-label={t('learn.progressLabel')}>
             {n === 1 ? t('learn.lessonCountOne') : t('learn.lessonCount', { n })}
           </span>
         )

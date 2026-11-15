@@ -394,6 +394,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Not red | Quiz scores and per-topic score bars stay blue, because red reads as "wrong" there. Error and warning colours are unchanged |
 | Contrast | Bars and lines are decoration next to a readable label, so they need no contrast ratio; white text on the filled option uses the button red (light #e0230a, dark burgundy #8c1c2e) |
 
+## Home on phones and reading progress (2026-11-15)
+
+| Decision | Detail |
+|---|---|
+| Audit | Lighthouse (mobile, live site): home, a lesson, tools, quizzes and world score 100 in performance, accessibility, best practices and SEO; /me is noindex on purpose. No console errors on the interactive pages. The 30-minute build on 2026-11-15 was the Mac sleeping on battery (two 903 s stalls), not the code |
+| Home on phones | The learning path was 5,225 px tall at 375 px wide, with the dashboard below it. Topic cards on the home page now hide the summary and level chips on phones (title, step and lesson count stay; the Learn page keeps full cards): 3,444 px. Returning learners (at least one lesson in stockora-progress, read before paint in BaseLayout) get the dashboard right after the hero; the section is moved in the document by an inline script as it is parsed, so reading and keyboard order match what is shown and nothing jumps |
+| Reading progress | On lesson pages the red line under the header becomes a progress bar: faint red track, full red fill as the lesson text is read. Decorative (aria-hidden), updated once per animation frame on scroll, hidden in print with the header. The table of contents marks the current section with a red bar; topic progress rings are red |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

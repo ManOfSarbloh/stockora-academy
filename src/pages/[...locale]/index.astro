@@ -76,7 +76,7 @@ const widgetExchanges = (await getCollection('exchanges'))
     </div>
   </section>
 
-  <section class="container-page py-12" aria-labelledby="path-title">
+  <section id="home-path" class="container-page py-12" aria-labelledby="path-title">
     <h2 id="path-title" class="title-accent text-2xl font-bold tracking-tight">{t('home.path.title')}</h2>
     <p class="mt-2 max-w-2xl text-muted">{t('home.path.lead')}</p>
 
@@ -88,12 +88,12 @@ const widgetExchanges = (await getCollection('exchanges'))
             {t(`stage.${stage}`)}
           </h3>
           <p class="mt-1 text-sm text-muted">{t(`stage.${stage}.lead`)}</p>
-          <ul class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          <ul class="mt-4 grid gap-3 sm:grid-cols-2 sm:gap-4 lg:grid-cols-3">
             {categories
               .filter((c) => c.pathStage === stage)
               .map((c) => (
                 <li>
-                  <CategoryCard category={c} step={c.pathOrder} lessonKeys={keys[c.id]} />
+                  <CategoryCard category={c} step={c.pathOrder} lessonKeys={keys[c.id]} compact />
                 </li>
               ))}
           </ul>
@@ -102,7 +102,7 @@ const widgetExchanges = (await getCollection('exchanges'))
     }
   </section>
 
-  <section class="band-blend mt-12 py-20" aria-labelledby="widgets-title">
+  <section id="home-widgets" class="band-blend mt-12 py-20" aria-labelledby="widgets-title">
     <div class="container-page">
     <h2 id="widgets-title" class="text-2xl font-bold tracking-tight">{t('home.widgets.title')}</h2>
     <ul class="mt-5 grid gap-4 sm:grid-cols-3">
@@ -112,6 +112,18 @@ const widgetExchanges = (await getCollection('exchanges'))
     </ul>
     </div>
   </section>
+  <script is:inline>
+    // Returning learners (flag set before paint in BaseLayout) get their dashboard above the learning path.
+    // Moved in the document itself, so reading and keyboard order match what is shown.
+    if (document.documentElement.hasAttribute('data-returning')) {
+      var w = document.getElementById('home-widgets');
+      var p = document.getElementById('home-path');
+      if (w && p) {
+        p.parentNode.insertBefore(w, p);
+        w.classList.remove('mt-12');
+      }
+    }
+  </script>
 
   <section class="container-page mt-4" aria-labelledby="trust-title">
     <div class="card grid gap-6 p-6 sm:grid-cols-2">
