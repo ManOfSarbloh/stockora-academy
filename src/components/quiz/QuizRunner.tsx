@@ -363,7 +363,7 @@ export default function QuizRunner({
   const optionClass = (selected: boolean, isRight: boolean, disabled = false) => {
     const base = 'flex w-full items-start gap-3 rounded-lg border-2 px-3 py-2.5 text-left transition-colors';
     if (disabled) return `${base} border-border opacity-40 line-through`;
-    if (!locked) return `${base} cursor-pointer ${selected ? 'border-link' : 'border-border hover:border-link'}`;
+    if (!locked) return `${base} cursor-pointer ${selected ? 'border-link' : 'border-border hover:border-accent-bar'}`;
     if (isRight) return `${base} border-link bg-link/10`;
     if (selected) return `${base} ${LOST}`;
     return `${base} border-border opacity-70`;
@@ -389,7 +389,7 @@ export default function QuizRunner({
       </div>
       <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
         <div
-          className="h-full rounded-full bg-teal transition-[width]"
+          className="h-full rounded-full bg-accent-bar transition-[width]"
           style={{ width: `${((exam ? answeredCount : index) / run.length) * 100}%` }}
         />
       </div>

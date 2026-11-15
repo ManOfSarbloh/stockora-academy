@@ -90,7 +90,7 @@ export default function StudyPlanner({ lessons }: { lessons: Lesson[] }) {
         aria-valuenow={Math.min(thisWeek, goal)}
         aria-label={t('sp.week', { done: thisWeek, goal })}
       >
-        <div className="h-full rounded-full bg-teal transition-[width] duration-500" style={{ width: `${Math.min(100, (thisWeek / goal) * 100)}%` }} />
+        <div className="h-full rounded-full bg-accent-bar transition-[width] duration-500" style={{ width: `${Math.min(100, (thisWeek / goal) * 100)}%` }} />
       </div>
       <p className="mt-2 text-sm text-muted">
         {reached ? t('sp.reached') : `${t('sp.left', { n: goal - thisWeek })} · ${t('sp.daysLeft', { n: daysLeftInWeek(now) })}`}

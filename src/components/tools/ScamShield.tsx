@@ -37,7 +37,7 @@ export function RedFlagChecklist({ flags }: { flags: Flag[] }) {
           const on = ticked.includes(f.id);
           return (
             <li key={f.id}>
-              <label className={`flex h-full cursor-pointer items-start gap-3 rounded-lg border-2 p-3 ${on ? 'border-[#c2410c] bg-[#c2410c]/5 dark:border-[#fb923c]' : 'border-border hover:border-link'}`}>
+              <label className={`flex h-full cursor-pointer items-start gap-3 rounded-lg border-2 p-3 ${on ? 'border-[#c2410c] bg-[#c2410c]/5 dark:border-[#fb923c]' : 'border-border hover:border-accent-bar'}`}>
                 <input
                   type="checkbox"
                   className="mt-1 accent-[#c2410c]"

@@ -386,6 +386,14 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Layout | On phones (under 480 px) the My learning icon moves to the menu, where it is already listed, and with larger text the wordmark is hidden (the logo stays), so the header never overflows; measured at 390 px for all three sizes. The panel spans the screen width under the header on phones |
 | Accessibility | Options are radio buttons inside labels, with a visible focus ring for keyboard use; "Reset to default" removes the saved settings |
 
+## More red accents (2026-11-15)
+
+| Decision | Detail |
+|---|---|
+| Scope | Owner's pick, after "more red please". Decorative red only, so text keeps its tested colours: a 3 px red line under the header, a thick red underline under the current page in the main menu, a red bar on the left of the current item in the More, language and phone menus, red progress bars (lesson progress, study goal, quiz and founder-game steps), tool icons on a soft red tile, and red hover borders on all cards and ghost buttons. The chosen reading-setting option is filled with the call-to-action red |
+| Not red | Quiz scores and per-topic score bars stay blue, because red reads as "wrong" there. Error and warning colours are unchanged |
+| Contrast | Bars and lines are decoration next to a readable label, so they need no contrast ratio; white text on the filled option uses the button red (light #e0230a, dark burgundy #8c1c2e) |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

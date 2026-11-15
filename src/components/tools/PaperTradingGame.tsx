@@ -353,7 +353,7 @@ function Play({
             return (
               <label
                 key={ins.id}
-                className={`card flex cursor-pointer flex-col gap-1 border-2 p-3 transition-colors ${active ? 'border-link' : 'hover:border-link'}`}
+                className={`card flex cursor-pointer flex-col gap-1 border-2 p-3 transition-colors ${active ? 'border-link' : 'hover:border-accent-bar'}`}
               >
                 <input type="radio" name="pg-instrument" className="sr-only" checked={active} onChange={() => setSelected(ins.id)} />
                 <span className="flex items-baseline justify-between gap-2">
@@ -511,7 +511,7 @@ function Ticket({
         {(['buy', 'sell'] as Side[]).map((s) => (
           <label
             key={s}
-            className={`cursor-pointer rounded-lg border-2 px-3 py-2 text-center font-semibold ${side === s ? 'border-link' : 'border-border hover:border-link'}`}
+            className={`cursor-pointer rounded-lg border-2 px-3 py-2 text-center font-semibold ${side === s ? 'border-link' : 'border-border hover:border-accent-bar'}`}
           >
             <input type="radio" name={`${uid}-side`} className="sr-only" checked={side === s} onChange={() => setSide(s)} />
             {t(s === 'buy' ? 'pg.buy' : 'pg.sell')}

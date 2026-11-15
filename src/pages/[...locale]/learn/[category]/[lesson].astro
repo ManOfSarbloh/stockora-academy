@@ -92,7 +92,7 @@ const jsonLd = [
       {outdated && <p class="mt-3 max-w-2xl text-sm text-muted" data-pagefind-ignore>{t('lesson.translationOutdated')}</p>}
       <div class="print-hide mt-5 flex flex-wrap gap-2" data-pagefind-ignore>
         <LessonActions lessonKey={lesson.key} title={title} href={url(lesson.href)} />
-        <button type="button" data-print-lesson class="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-medium hover:border-link">
+        <button type="button" data-print-lesson class="inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-medium hover:border-accent-bar">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M7 9V3h10v6M7 17H5a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2M7 14h10v7H7z"></path></svg>
           <span>{t('lesson.print')}</span>
         </button>
@@ -165,7 +165,7 @@ const jsonLd = [
       <nav class="print-hide mt-8 grid max-w-3xl gap-3 text-sm sm:grid-cols-2" aria-label={t('a11y.lessonNav')} data-pagefind-ignore>
         {
           prev ? (
-            <a href={url(prev.href)} class="card block p-4 no-underline hover:border-link">
+            <a href={url(prev.href)} class="card block p-4 no-underline hover:border-accent-bar">
               <span class="block text-xs text-muted">← {t('lesson.previous')}</span>
               <span class="mt-0.5 block font-semibold text-text">{prevTitle}</span>
             </a>
@@ -175,7 +175,7 @@ const jsonLd = [
         }
         {
           next && (
-            <a href={url(next.href)} class="card block p-4 text-right no-underline hover:border-link">
+            <a href={url(next.href)} class="card block p-4 text-right no-underline hover:border-accent-bar">
               <span class="block text-xs text-muted">{t('lesson.next')} →</span>
               <span class="mt-0.5 block font-semibold text-text">{nextTitle}</span>
             </a>
@@ -192,7 +192,7 @@ const jsonLd = [
             <ul class="mt-3 space-y-2 border-l border-border text-sm">
               {toc.map((h) => (
                 <li>
-                  <a href={`#${h.slug}`} class="-ml-px block border-l-2 border-transparent pl-3 text-muted no-underline hover:border-link hover:text-link" data-toc-link>
+                  <a href={`#${h.slug}`} class="-ml-px block border-l-2 border-transparent pl-3 text-muted no-underline hover:border-accent-bar hover:text-link" data-toc-link>
                     {h.text}
                   </a>
                 </li>

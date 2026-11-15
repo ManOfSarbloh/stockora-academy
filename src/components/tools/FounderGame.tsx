@@ -32,7 +32,7 @@ const slotFor = (id: string) => ({ f1: 1, f2: 2, pool: 3, r1: 4, r2: 5, public: 
 function Choice(props: { name: string; checked: boolean; onChange: () => void; title: string; body?: string; aside?: string }) {
   return (
     <label
-      className={`flex cursor-pointer items-start gap-3 rounded-lg border-2 px-3 py-2.5 transition-colors ${props.checked ? 'border-link' : 'border-border hover:border-link'}`}
+      className={`flex cursor-pointer items-start gap-3 rounded-lg border-2 px-3 py-2.5 transition-colors ${props.checked ? 'border-link' : 'border-border hover:border-accent-bar'}`}
     >
       <input type="radio" name={props.name} className="mt-1 accent-[var(--link)]" checked={props.checked} onChange={props.onChange} />
       <span className="flex-1">
@@ -131,7 +131,7 @@ export default function FounderGame() {
         {stage === 'result' ? t('game.done') : t('game.progress', { n: step + 1, total: STAGES.length - 1 })}
       </p>
       <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-surface-2" aria-hidden="true">
-        <div className="h-full rounded-full bg-teal transition-[width]" style={{ width: `${(step / (STAGES.length - 1)) * 100}%` }} />
+        <div className="h-full rounded-full bg-accent-bar transition-[width]" style={{ width: `${(step / (STAGES.length - 1)) * 100}%` }} />
       </div>
 
       <div className="mt-5">

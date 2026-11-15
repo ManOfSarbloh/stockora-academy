@@ -76,7 +76,7 @@ const languages = lessons.length ? ACTIVE_LOCALES.filter((l) => perLesson.every(
         <ol class="mt-4 max-w-3xl space-y-3">
           {shown.map((l, i) => (
             <li>
-              <a href={url(l.href)} class="card group flex items-start gap-4 p-4 text-text no-underline hover:border-link" data-lesson-key={l.key}>
+              <a href={url(l.href)} class="card group flex items-start gap-4 p-4 text-text no-underline hover:border-accent-bar" data-lesson-key={l.key}>
                 <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-border text-sm font-semibold text-muted">
                   <span class="lesson-num">{i + 1}</span>
                   <svg class="lesson-tick hidden h-4 w-4 text-link" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12 5 5 9-10"></path></svg>

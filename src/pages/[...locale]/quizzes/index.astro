@@ -67,7 +67,7 @@ const countryQuizzes = meta.countries.map((code) => ({
         {
           specials.map((s) => (
             <li>
-              <a href={s.href} class="card group block h-full p-5 no-underline transition-colors hover:border-link">
+              <a href={s.href} class="card group block h-full p-5 no-underline transition-colors hover:border-accent-bar">
                 <span class="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface-2 text-text group-hover:text-link">
                   <Icon name={SPECIAL_ICONS[s.id] ?? 'quiz'} size={30} strokeWidth={2.6} />
                 </span>
@@ -82,7 +82,7 @@ const countryQuizzes = meta.countries.map((code) => ({
           ))
         }
         <li>
-          <a href={url('/quizzes/flashcards')} class="card group block h-full p-5 no-underline transition-colors hover:border-link">
+          <a href={url('/quizzes/flashcards')} class="card group block h-full p-5 no-underline transition-colors hover:border-accent-bar">
             <span class="mb-3 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-surface-2 text-text group-hover:text-link">
               <Icon name="cards" size={30} strokeWidth={2.6} />
             </span>
@@ -100,7 +100,7 @@ const countryQuizzes = meta.countries.map((code) => ({
         {
           topicQuizzes.map((q) => (
             <li>
-              <a href={q.href} class="card group flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-link">
+              <a href={q.href} class="card group flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-accent-bar">
                 <span class="flex items-center gap-3">
                   <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-text group-hover:text-link">
                     <Icon name={q.id === 'HSM' ? 'sprout' : topicIcon(q.id)} size={24} strokeWidth={2.8} />
@@ -127,7 +127,7 @@ const countryQuizzes = meta.countries.map((code) => ({
         {
           countryQuizzes.map((q) => (
             <li>
-              <a href={q.href} class="card flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-link">
+              <a href={q.href} class="card flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-accent-bar">
                 <span>
                   <span class="block font-semibold text-text">{q.name}</span>
                   <span class="block text-xs text-muted">{t('qh.questions', { n: q.n })}</span>

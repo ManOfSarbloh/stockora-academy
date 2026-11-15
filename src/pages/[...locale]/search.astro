@@ -108,7 +108,7 @@ const examples = [t('search.example1'), t('search.example2'), t('search.example3
       <span>{t('search.tryLabel')}</span>
       {
         examples.map((ex) => (
-          <button type="button" class="search-example rounded-full border border-border px-3 py-1 text-text hover:border-link hover:text-link">
+          <button type="button" class="search-example rounded-full border border-border px-3 py-1 text-text hover:border-accent-bar hover:text-link">
             {ex}
           </button>
         ))
@@ -219,7 +219,7 @@ const examples = [t('search.example1'), t('search.example2'), t('search.example3
         <ul class="mt-2 flex flex-wrap gap-2">
           ${links
             .map(
-              ({ entry }) => `<li><a class="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text no-underline hover:border-link hover:text-link" href="${esc(entry.href)}">
+              ({ entry }) => `<li><a class="inline-flex items-center gap-2 rounded-lg border border-border bg-surface px-3 py-2 text-sm text-text no-underline hover:border-accent-bar hover:text-link" href="${esc(entry.href)}">
                 <span class="rounded bg-surface-2 px-1.5 py-0.5 text-xs text-muted">${esc(S.kinds[entry.kind])}</span>${esc(entry.title)}</a></li>`,
             )
             .join('')}
@@ -236,7 +236,7 @@ const examples = [t('search.example1'), t('search.example2'), t('search.example3
     const total = Object.values(counts).reduce((a, b) => a + b, 0);
     const chip = (key: string, label: string, n: number) =>
       `<button type="button" data-type="${key}" aria-pressed="${filter === key}" class="rounded-full border px-3 py-1 text-sm ${
-        filter === key ? 'border-link bg-link text-bg' : 'border-border text-text hover:border-link'
+        filter === key ? 'border-link bg-link text-bg' : 'border-border text-text hover:border-accent-bar'
       }">${esc(label)} <span class="opacity-75">${n}</span></button>`;
     filtersEl.innerHTML = [chip('all', S.all, total), ...PAGE_TYPES.filter((p) => counts[p]).map((p) => chip(p, S.types[p], counts[p]))].join('');
     filtersEl.classList.toggle('hidden', total === 0);

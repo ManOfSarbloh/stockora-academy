@@ -43,7 +43,7 @@ const regions = REGION_ORDER.filter((r) => countries.some((c) => c.region === r)
                 const size = marketSize(c.code);
                 return (
                   <li>
-                    <a href={url(countryHref(c.code))} class="card block h-full p-4 no-underline hover:border-link">
+                    <a href={url(countryHref(c.code))} class="card block h-full p-4 no-underline hover:border-accent-bar">
                       <span class="flex items-baseline justify-between gap-2">
                         <span class="font-bold text-text">{c.name}</span>
                         <span class="text-xs text-muted">{c.currency.code}</span>

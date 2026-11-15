@@ -16,7 +16,7 @@ const { lessonKey, title, href, size = 'sm' } = Astro.props;
 const btn =
   size === 'lg'
     ? 'btn btn-ghost aria-pressed:border-link aria-pressed:text-link'
-    : 'inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-medium hover:border-link aria-pressed:border-link aria-pressed:text-link';
+    : 'inline-flex items-center gap-1.5 rounded-md border border-border bg-surface px-3 py-1.5 text-sm font-medium hover:border-accent-bar aria-pressed:border-link aria-pressed:text-link';
 ---
 
 <div class="flex flex-wrap gap-2" data-lesson-actions data-key={lessonKey} data-title={title} data-href={href}>

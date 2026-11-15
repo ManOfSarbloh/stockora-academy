@@ -38,7 +38,7 @@ interface TourStep {
   select?: number;
 }
 
-const btn = (on: boolean) => `rounded-lg border px-2.5 py-1 text-sm transition-colors ${on ? 'border-link bg-link/10 font-semibold text-link' : 'border-border hover:border-link'}`;
+const btn = (on: boolean) => `rounded-lg border px-2.5 py-1 text-sm transition-colors ${on ? 'border-link bg-link/10 font-semibold text-link' : 'border-border hover:border-accent-bar'}`;
 
 export default function ChartLab({ patterns }: { patterns: PatternInfo[] }) {
   // ---- data ----

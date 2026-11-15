@@ -237,6 +237,24 @@
   .header-sky {
     background: color-mix(in srgb, var(--sky) 94%, transparent);
     backdrop-filter: blur(10px);
+    box-shadow: inset 0 -3px 0 var(--accent);
+  }
+  /* The current item in a menu list: a red bar on its left edge (text keeps its readable colour). */
+  .menu-current[aria-current] {
+    box-shadow: inset 3px 0 0 var(--accent);
+    font-weight: 600;
+  }
+  /* Tool icons sit on a soft red tile. */
+  .icon-tile {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 3.25rem;
+    height: 3.25rem;
+    border-radius: 0.75rem;
+    background: color-mix(in srgb, var(--accent) 14%, var(--surface));
+    box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--accent) 30%, transparent);
   }
   :is(.on-sky, .band-sky, .band-hero, .band-blend, .band-foot) :is(h1, h2) {
     color: var(--band-heading);
@@ -292,7 +310,7 @@
     background: var(--surface);
   }
   .btn-ghost:hover {
-    border-color: var(--link);
+    border-color: var(--accent);
   }
   /* ---- Trading Times: status badges (symbol + text, never colour alone) and timeline segments ---- */
   .tt-badge {

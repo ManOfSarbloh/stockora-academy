@@ -36,7 +36,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
           <a
             href={url(item.href)}
             aria-current={isActive(item.href) ? 'page' : undefined}
-            class:list={[i >= LG_PRIMARY && 'hidden xl:inline', 'rounded-md px-2 py-2 text-sm font-medium whitespace-nowrap xl:px-2.5 text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-2 aria-[current=page]:underline-offset-[6px]']}
+            class:list={[i >= LG_PRIMARY && 'hidden xl:inline', 'rounded-md px-2 py-2 text-sm font-medium whitespace-nowrap xl:px-2.5 text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link aria-[current=page]:underline aria-[current=page]:decoration-accent-bar aria-[current=page]:decoration-[3px] aria-[current=page]:underline-offset-[6px]']}
           >
             {t(item.label)}
           </a>
@@ -59,7 +59,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
               <a
                 href={url(item.href)}
                 aria-current={isActive(item.href) ? 'page' : undefined}
-                class="block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link xl:hidden"
+                class="menu-current block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link xl:hidden"
               >
                 {t(item.label)}
               </a>
@@ -70,7 +70,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
               <a
                 href={url(item.href)}
                 aria-current={isActive(item.href) ? 'page' : undefined}
-                class="block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link"
+                class="menu-current block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=page]:font-semibold aria-[current=page]:text-link"
               >
                 {t(item.label)}
               </a>
@@ -119,7 +119,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
                     hreflang={l}
                     lang={l}
                     aria-current={l === locale ? 'true' : undefined}
-                    class="block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=true]:font-semibold aria-[current=true]:text-link"
+                    class="menu-current block rounded-md px-3 py-2 text-sm text-text no-underline hover:bg-surface-2 aria-[current=true]:font-semibold aria-[current=true]:text-link"
                   >
                     {localeNames[l]}
                   </a>
@@ -152,7 +152,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
                 <legend class="text-sm text-muted">{t(`reading.${k}` as UiKey)}</legend>
                 <div class="mt-1 flex flex-wrap gap-1.5">
                   {opts.map((o) => (
-                    <label class="cursor-pointer rounded-md border border-border px-2.5 py-1 text-sm has-[:checked]:border-link has-[:checked]:font-semibold has-[:checked]:text-link has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-[var(--focus)]">
+                    <label class="cursor-pointer rounded-md border border-border px-2.5 py-1 text-sm has-[:checked]:border-accent-bar has-[:checked]:bg-cta has-[:checked]:font-semibold has-[:checked]:text-on-cta has-[:focus-visible]:ring-2 has-[:focus-visible]:ring-[var(--focus)]">
                       <input type="radio" class="sr-only" name={`reading-${k}`} value={o} data-reading={k} checked={o === opts[0]} />
                       {t(`reading.${k}.${o}` as UiKey)}
                     </label>
@@ -197,7 +197,7 @@ const lgMoreActive = lgOverflow.some((i) => isActive(i.href));
             <a
               href={url(item.href)}
               aria-current={isActive(item.href) ? 'page' : undefined}
-              class="block rounded-md px-3 py-2.5 font-medium text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link"
+              class="menu-current block rounded-md px-3 py-2.5 font-medium text-text no-underline hover:bg-surface-2 aria-[current=page]:text-link"
             >
               {t(item.label)}
             </a>

@@ -183,7 +183,7 @@ export default function CompareWorld({ rows, base }: { rows: CompareRow[]; base:
               type="button"
               aria-pressed={table === id}
               onClick={() => setTable(id)}
-              className={`rounded-full border px-3 py-1.5 text-sm font-medium ${table === id ? 'border-link bg-link text-[var(--bg)]' : 'border-border hover:border-link'}`}
+              className={`rounded-full border px-3 py-1.5 text-sm font-medium ${table === id ? 'border-link bg-link text-[var(--bg)]' : 'border-border hover:border-accent-bar'}`}
             >
               {label}
             </button>
