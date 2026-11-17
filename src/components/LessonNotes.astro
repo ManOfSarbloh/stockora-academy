@@ -1,0 +1,113 @@
+---
+/**
+ * A private notes box for one lesson. Saved as you type (stockora-notes, src/lib/notes.ts), only in this
+ * browser. Printed with the lesson when it has text; all notes are listed on My learning.
+ */
+import { t } from '@/i18n';
+import { NOTE_MAX } from '@/lib/notes';
+
+interface Props {
+  lessonKey: string;
+  title: string;
+  href: string;
+}
+
+const { lessonKey, title, href } = Astro.props;
+---
+
+<section
+  id="notes"
+  class="card notes-empty mt-12 max-w-3xl scroll-mt-24 p-5 sm:p-6"
+  aria-labelledby="notes-title"
+  data-lesson-notes
+  data-key={lessonKey}
+  data-title={title}
+  data-href={href}
+  data-pagefind-ignore
+>
+  <h2 id="notes-title" class="text-lg font-bold">{t('notes.title')}</h2>
+  <p class="print-hide mt-1 text-sm text-muted">{t('notes.lead')}</p>
+  <label for="lesson-note" class="sr-only">{t('notes.label', { title })}</label>
+  <textarea
+    id="lesson-note"
+    rows="5"
+    maxlength={NOTE_MAX}
+    placeholder={t('notes.placeholder')}
+    class="print-hide mt-3 block w-full resize-y rounded-md border border-border bg-surface p-3 text-text focus:border-accent-bar focus:ring-2 focus:ring-[var(--focus)] focus:outline-none"
+    disabled></textarea>
+  <div class="print-hide mt-2 flex min-h-8 flex-wrap items-center justify-between gap-3 text-sm">
+    <p class="text-muted" role="status" data-notes-status data-saved={t('notes.saved')} data-blocked={t('me.storageNote')}></p>
+    <button
+      type="button"
+      class="hidden rounded-md px-2 py-1 text-muted hover:bg-surface-2 hover:text-text"
+      data-notes-delete
+      data-confirm={t('notes.deleteConfirm')}
+    >
+      {t('notes.delete')}
+    </button>
+  </div>
+  <div class="print-only mt-3 whitespace-pre-wrap" data-notes-print></div>
+</section>
+
+<script>
+  import { loadNotes, saveNotes, setNote, deleteNote, NOTES_KEY } from '@/lib/notes';
+  import { STORAGE_PREFIX } from '@/lib/storage';
+
+  const box = document.querySelector<HTMLElement>('[data-lesson-notes]');
+  if (box) {
+    const key = box.dataset.key!;
+    const area = box.querySelector<HTMLTextAreaElement>('textarea')!;
+    const status = box.querySelector<HTMLElement>('[data-notes-status]')!;
+    const del = box.querySelector<HTMLButtonElement>('[data-notes-delete]')!;
+    const printCopy = box.querySelector<HTMLElement>('[data-notes-print]')!;
+    let timer: number | undefined;
+    let dirty = false;
+
+    const paint = (text: string) => {
+      const has = text.trim() !== '';
+      box.classList.toggle('notes-empty', !has);
+      del.classList.toggle('hidden', !has);
+      printCopy.textContent = text;
+    };
+
+    const save = () => {
+      window.clearTimeout(timer);
+      if (!dirty) return;
+      dirty = false;
+      const ok = saveNotes(setNote(loadNotes(), key, { text: area.value, title: box.dataset.title!, href: box.dataset.href! }));
+      // The same text each time, so screen readers announce it once rather than after every pause.
+      status.textContent = (ok ? status.dataset.saved : status.dataset.blocked) ?? '';
+      paint(area.value);
+    };
+
+    area.value = loadNotes().notes[key]?.text ?? '';
+    area.disabled = false;
+    paint(area.value);
+
+    area.addEventListener('input', () => {
+      dirty = true;
+      window.clearTimeout(timer);
+      timer = window.setTimeout(save, 500);
+    });
+    area.addEventListener('blur', save);
+    window.addEventListener('pagehide', save);
+
+    del.addEventListener('click', () => {
+      if (!window.confirm(del.dataset.confirm)) return;
+      dirty = false;
+      window.clearTimeout(timer);
+      saveNotes(deleteNote(loadNotes(), key));
+      area.value = '';
+      status.textContent = '';
+      paint('');
+      area.focus();
+    });
+
+    // Another tab changed the notes: take the new text unless the visitor is typing here.
+    window.addEventListener('storage', (e) => {
+      if (e.key !== STORAGE_PREFIX + NOTES_KEY || document.activeElement === area) return;
+      area.value = loadNotes().notes[key]?.text ?? '';
+      paint(area.value);
+    });
+  }
+</script>

@@ -26,7 +26,7 @@ The site is also available in German (`/de/`), Spanish (`/es/`), French (`/fr/`)
 home page, tools, glossary, Scam Shield and information pages are translated. In all four languages, everything else
 is translated too: all 196 lessons, every quiz question, the 20 country pages and How Stocks Are Made.
 
-Progress, bookmarks, quiz scores and settings stay in the visitor's browser (`localStorage`). There is no account, no
+Progress, bookmarks, lesson notes, quiz scores and settings stay in the visitor's browser (`localStorage`). There is no account, no
 analytics and no cookie.
 
 ## Tech stack

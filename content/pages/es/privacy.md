@@ -22,6 +22,7 @@ Para recordar tus ajustes y tu progreso, el sitio usa el *almacenamiento local* 
 - `stockora-reading`: tus ajustes de lectura (tamaño del texto, interlineado, espaciado entre letras y longitud de línea), solo si los cambiaste.
 - `stockora-progress`: qué lecciones marcaste como hechas, y cuándo.
 - `stockora-bookmarks`: las lecciones que guardaste.
+- `stockora-notes`: las notas que escribiste debajo de las lecciones, con el título y el enlace de cada lección y la fecha del último cambio.
 - `stockora-quiz-scores`: tu mejor y tu último resultado en cada cuestionario.
 - `stockora-quiz-stats`: para cada pregunta que respondiste, cuántas veces acertaste y cuándo toca repasarla (para los modos de repaso y puntos débiles).
 - `stockora-quiz-daily`: tu racha en el cuestionario diario.

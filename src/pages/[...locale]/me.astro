@@ -17,6 +17,8 @@ const categories = await getCategories();
 const keys = await getLessonKeysByCategory();
 const withLessons = categories.filter((c) => keys[c.id]?.length);
 const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.title, href: url(l.href) }));
+/** Lesson titles and links in this language, so notes saved in another language still show here correctly. */
+const lessonIndex = Object.fromEntries(sequence.map((l) => [l.key, { title: l.title, href: l.href }]));
 ---
 
 <BaseLayout title={t('me.title')} description={t('me.lead')} searchable={false} noindex>
@@ -35,6 +37,16 @@ const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.
       <h2 id="bookmarks-title" class="text-xl font-bold">{t('me.bookmarks')}</h2>
       <p id="no-bookmarks" class="card mt-4 p-5 text-muted">{t('me.noBookmarks')}</p>
       <ul id="bookmark-list" class="mt-4 max-w-3xl space-y-2" data-remove-label={t('me.remove')}></ul>
+    </section>
+
+    <section id="notes-section" class="mt-12 max-w-3xl" aria-labelledby="notes-list-title">
+      <div class="flex flex-wrap items-center justify-between gap-3">
+        <h2 id="notes-list-title" class="text-xl font-bold">{t('notes.listTitle')}</h2>
+        <button type="button" id="notes-print" class="print-hide btn btn-ghost hidden text-sm">{t('notes.print')}</button>
+      </div>
+      <p id="no-notes" class="card mt-4 p-5 text-muted">{t('notes.none')}</p>
+      <ul id="notes-list" class="mt-4 space-y-3" data-edit={t('notes.edit')}></ul>
+      <script type="application/json" id="lesson-index" set:html={JSON.stringify(lessonIndex)} />
     </section>
 
     {
@@ -84,9 +96,10 @@ const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.
 
 <script>
   import { BOOKMARKS_KEY, PROGRESS_KEY, loadBookmarks, notifyChange, saveBookmarks, CHANGE_EVENT } from '@/lib/progress';
-  import { readAllRaw, remove, replaceAllRaw, writeJSON } from '@/lib/storage';
+  import { readAllRaw, remove, replaceAllRaw, STORAGE_PREFIX, writeJSON } from '@/lib/storage';
   import { backupFileName, makeBackup, parseBackup, pickEntries } from '@/lib/backup';
   import { resetQuizData } from '@/lib/quiz-store';
+  import { loadNotes, sortedNotes, NOTES_KEY } from '@/lib/notes';
 
   if (!writeJSON('storage-test', 1)) document.getElementById('storage-warning')?.classList.remove('hidden');
   remove('storage-test');
@@ -126,6 +139,7 @@ const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.
     remove(PROGRESS_KEY);
     remove(BOOKMARKS_KEY);
     remove('study-goal');
+    remove(NOTES_KEY);
     resetQuizData();
     location.reload();
   });
@@ -164,6 +178,56 @@ const sequence = (await getLessonSequence()).map((l) => ({ key: l.key, title: l.
     say('done', true);
     setTimeout(() => location.reload(), 900);
   });
+
+  // ---- Lesson notes (src/lib/notes.ts) ----
+  const notesList = document.getElementById('notes-list')!;
+  const noNotes = document.getElementById('no-notes')!;
+  const notesPrint = document.getElementById('notes-print')!;
+  const lessonIndex = JSON.parse(document.getElementById('lesson-index')!.textContent || '{}') as Record<string, { title: string; href: string }>;
+  const when = new Intl.DateTimeFormat(document.documentElement.lang || undefined, { dateStyle: 'medium', timeStyle: 'short' });
+
+  function renderNotes() {
+    const notes = sortedNotes(loadNotes());
+    noNotes.classList.toggle('hidden', notes.length > 0);
+    notesPrint.classList.toggle('hidden', notes.length === 0);
+    notesList.replaceChildren(
+      ...notes.map((n) => {
+        const lesson = lessonIndex[n.key] ?? { title: n.title, href: n.href };
+        const li = document.createElement('li');
+        li.className = 'card p-4 sm:p-5';
+        const head = document.createElement('div');
+        head.className = 'flex flex-wrap items-baseline justify-between gap-x-3 gap-y-1';
+        const a = document.createElement('a');
+        a.href = lesson.href;
+        a.textContent = lesson.title;
+        a.className = 'font-semibold';
+        const time = document.createElement('time');
+        time.dateTime = n.updated;
+        time.className = 'text-xs text-muted';
+        time.textContent = when.format(new Date(n.updated));
+        head.append(a, time);
+        const text = document.createElement('p');
+        text.className = 'mt-2 text-sm whitespace-pre-wrap';
+        text.textContent = n.text;
+        const edit = document.createElement('a');
+        edit.href = `${lesson.href}#notes`;
+        edit.className = 'print-hide mt-2 inline-block text-sm font-semibold';
+        edit.textContent = notesList.dataset.edit ?? 'Edit';
+        edit.setAttribute('aria-label', `${edit.textContent}: ${lesson.title}`);
+        li.append(head, text, edit);
+        return li;
+      }),
+    );
+  }
+  notesPrint.addEventListener('click', () => {
+    document.documentElement.classList.add('print-notes');
+    window.print();
+  });
+  window.addEventListener('afterprint', () => document.documentElement.classList.remove('print-notes'));
+  window.addEventListener('storage', (e) => {
+    if (e.key === STORAGE_PREFIX + NOTES_KEY) renderNotes();
+  });
+  renderNotes();
 
   renderBookmarks();
   window.addEventListener(CHANGE_EVENT, renderBookmarks);

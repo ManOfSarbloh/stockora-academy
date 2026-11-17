@@ -762,6 +762,19 @@ html.theme-switching #theme-toggle svg {
     text-decoration: none;
   }
 }
+/* Lesson notes print with the lesson only when they have text; "Print notes" on My learning prints just the list. */
+@media print {
+  [data-lesson-notes].notes-empty {
+    display: none !important;
+  }
+  html.print-notes header,
+  html.print-notes footer,
+  html.print-notes #gloss-tip,
+  html.print-notes main *:not(:has(#notes-section)):not(#notes-section):not(#notes-section *),
+  html.print-notes #notes-section .print-hide {
+    display: none !important;
+  }
+}
 /* Investment plan builder: "Print or save as PDF" prints only the plan summary (html.print-plan is set by the tool). */
 @media print {
   html.print-plan header,

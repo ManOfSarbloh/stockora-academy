@@ -22,6 +22,7 @@ Um deine Einstellungen und deinen Lernfortschritt zu speichern, nutzt die Seite 
 - `stockora-reading`: deine Leseeinstellungen (Schriftgröße, Zeilen- und Buchstabenabstand, Zeilenlänge), nur wenn du sie geändert hast.
 - `stockora-progress`: welche Lektionen du als erledigt markiert hast, und wann.
 - `stockora-bookmarks`: Lektionen, die du dir gemerkt hast.
+- `stockora-notes`: die Notizen, die du unter Lektionen geschrieben hast, mit Titel und Link der Lektion und dem Zeitpunkt der letzten Änderung.
 - `stockora-quiz-scores`: dein bestes und dein letztes Ergebnis in jedem Quiz.
 - `stockora-quiz-stats`: für jede beantwortete Quizfrage, wie oft du sie richtig hattest und wann sie wieder fällig ist (für die Wiederholung und den Schwachstellen-Modus).
 - `stockora-quiz-daily`: deine Serie beim Tagesquiz.

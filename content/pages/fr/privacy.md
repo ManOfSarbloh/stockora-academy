@@ -22,6 +22,7 @@ Pour mémoriser vos réglages et votre progression, le site utilise le *stockage
 - `stockora-reading` : vos réglages de lecture (taille du texte, interligne, espacement des lettres, longueur des lignes), seulement si vous les avez modifiés.
 - `stockora-progress` : les leçons que vous avez marquées comme terminées, et quand.
 - `stockora-bookmarks` : les leçons que vous avez enregistrées.
+- `stockora-notes` : les notes que vous avez écrites sous les leçons, avec le titre et le lien de chaque leçon et la date de la dernière modification.
 - `stockora-quiz-scores` : votre meilleur et votre dernier score à chaque quiz.
 - `stockora-quiz-stats` : pour chaque question répondue, combien de fois vous avez eu juste et quand elle revient (pour les modes révision et points faibles).
 - `stockora-quiz-daily` : votre série au quiz du jour.

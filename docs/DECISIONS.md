@@ -402,6 +402,17 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Home on phones | The learning path was 5,225 px tall at 375 px wide, with the dashboard below it. Topic cards on the home page now hide the summary and level chips on phones (title, step and lesson count stay; the Learn page keeps full cards): 3,444 px. Returning learners (at least one lesson in stockora-progress, read before paint in BaseLayout) get the dashboard right after the hero; the section is moved in the document by an inline script as it is parsed, so reading and keyboard order match what is shown and nothing jumps |
 | Reading progress | On lesson pages the red line under the header becomes a progress bar: faint red track, full red fill as the lesson text is read. Decorative (aria-hidden), updated once per animation frame on scroll, hidden in print with the header. The table of contents marks the current section with a red bar; topic progress rings are red |
 
+## Lesson notes (2026-11-17)
+
+| Decision | Detail |
+|---|---|
+| Scope | Owner's pick. A "Your notes" box under the text of every lesson (all languages), saved as you type (half a second after the last key, on leaving the box and when the page closes) in stockora-notes (privacy page, all six languages). Up to 5,000 characters per lesson. A "Delete note" button asks first |
+| Keys | Notes are stored by lesson key, so the same note shows in every language version of a lesson; My learning shows the title and link in the page's language (from the lesson list), falling back to the title saved with the note |
+| My learning | "Your notes" lists all notes, newest first, with date and time, the full text and an "Edit note" link to the lesson's notes box (#notes). "Print notes" prints only that list (html.print-notes, like the investment plan) |
+| Print | A lesson printout includes the note text under the lesson when there is one; empty note boxes are left out |
+| Privacy and reset | Notes never leave the browser. They are part of the progress backup (all stockora- keys), and "Reset" now also deletes notes; its label and warning say so |
+| Accessibility | Labelled text box ("Your notes on …"); the "Saved" message is a status message whose text stays the same, so screen readers announce it once instead of after every pause; delete returns focus to the box. Notes changed in another tab update the box unless you are typing in it |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

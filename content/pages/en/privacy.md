@@ -22,6 +22,7 @@ To remember your settings and learning progress, the site uses your browser's *l
 - `stockora-reading`: your reading settings (text size, line and letter spacing, line length), only if you changed them.
 - `stockora-progress`: which lessons you marked as done, and when.
 - `stockora-bookmarks`: lessons you bookmarked.
+- `stockora-notes`: the notes you wrote under lessons, with the lesson's title and link and when you last changed each note.
 - `stockora-quiz-scores`: your best and latest score for each quiz.
 - `stockora-quiz-stats`: for each quiz question you answered, how often you got it right and when it is due again (used by the review and weak-spot modes).
 - `stockora-quiz-daily`: your daily quiz streak.

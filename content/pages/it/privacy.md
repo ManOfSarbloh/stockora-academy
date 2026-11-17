@@ -22,6 +22,7 @@ Per ricordare le tue impostazioni e i tuoi progressi, il sito usa l'*archiviazio
 - `stockora-reading`: le tue impostazioni di lettura (dimensione del testo, interlinea, spaziatura tra le lettere, lunghezza delle righe), solo se le hai cambiate.
 - `stockora-progress`: quali lezioni hai segnato come completate, e quando.
 - `stockora-bookmarks`: le lezioni che hai salvato.
+- `stockora-notes`: gli appunti che hai scritto sotto le lezioni, con titolo e link di ogni lezione e la data dell'ultima modifica.
 - `stockora-quiz-scores`: il tuo punteggio migliore e l'ultimo in ogni quiz.
 - `stockora-quiz-stats`: per ogni domanda a cui hai risposto, quante volte hai risposto bene e quando torna (per il ripasso e la modalità punti deboli).
 - `stockora-quiz-daily`: la tua serie nel quiz del giorno.

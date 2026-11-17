@@ -3,6 +3,7 @@ import { withLocales } from '@/i18n/pages';
 import { getCollection, render } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import LessonActions from '@/components/LessonActions.astro';
+import LessonNotes from '@/components/LessonNotes.astro';
 import VideoList from '@/components/VideoList.astro';
 import QuizSection from '@/components/quiz/QuizSection.astro';
 import AnimationScript from '@/components/AnimationScript.astro';
@@ -121,6 +122,8 @@ const jsonLd = [
       <article class="prose prose-stockora max-w-3xl prose-headings:scroll-mt-24 prose-headings:tracking-tight prose-a:font-medium">
         <Content />
       </article>
+
+      <LessonNotes lessonKey={lesson.key} title={title} href={url(lesson.href)} />
 
       <div class="print-hide mt-12 max-w-3xl space-y-12">
         <VideoList lessonKey={lesson.key} />
