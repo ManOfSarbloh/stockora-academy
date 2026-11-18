@@ -8,6 +8,8 @@ export type LessonEntry = CollectionEntry<'lessons'>;
 export interface LessonRef {
   key: string;
   title: string;
+  /** One-line summary, in the current page's language where a translation exists. */
+  summary: string;
   href: string;
   category: Category;
   entry: LessonEntry;
@@ -20,7 +22,7 @@ const isPublished = (l: LessonEntry) => import.meta.env.DEV || !l.data.draft;
 
 /**
  * Every published lesson in learning-path order: by category path order, then lesson order.
- * Titles are in the current page's language where a translation exists.
+ * Titles and summaries are in the current page's language where a translation exists.
  */
 export async function getLessonSequence(): Promise<LessonRef[]> {
   const locale = getLocale();
@@ -34,6 +36,7 @@ export async function getLessonSequence(): Promise<LessonRef[]> {
         return {
           key: `${category.slug}/${slug}`,
           title: entry.data.title,
+          summary: entry.data.summary,
           href: `/learn/${category.slug}/${slug}`,
           category,
           entry,
@@ -41,7 +44,12 @@ export async function getLessonSequence(): Promise<LessonRef[]> {
       }),
   );
   if (locale === 'en') return refs;
-  return Promise.all(refs.map(async (r) => ({ ...r, title: (await lessonTranslation(r.entry, locale))?.data.title ?? r.title })));
+  return Promise.all(
+    refs.map(async (r) => {
+      const tr = await lessonTranslation(r.entry, locale);
+      return { ...r, title: tr?.data.title ?? r.title, summary: tr?.data.summary ?? r.summary };
+    }),
+  );
 }
 
 /** Lesson keys grouped by category id, for progress rings. */

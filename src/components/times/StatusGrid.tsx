@@ -45,8 +45,8 @@ export default function StatusGrid({ exchanges, now, zone }: { exchanges: Exchan
                   s.state === 'unknown' && ex.sessionsValidUntil && t('tt.warn.hoursUnconfirmed', { date: fmtDay(ex.sessionsValidUntil, true) }),
                 ].filter(Boolean) as string[];
                 return (
-                  <li key={ex.id} className="card flex flex-col gap-2 p-4">
-                    <div className="flex items-start justify-between gap-3">
+                  <li key={ex.id} className="card flex min-w-0 flex-col gap-2 p-4">
+                    <div className="flex flex-wrap items-start justify-between gap-x-3 gap-y-1.5">
                       <div className="min-w-0">
                         <p className="truncate font-semibold" title={ex.name}>
                           {ex.shortName}

@@ -413,6 +413,15 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Privacy and reset | Notes never leave the browser. They are part of the progress backup (all stockora- keys), and "Reset" now also deletes notes; its label and warning say so |
 | Accessibility | Labelled text box ("Your notes on …"); the "Saved" message is a status message whose text stays the same, so screen readers announce it once instead of after every pause; delete returns focus to the box. Notes changed in another tab update the box unless you are typing in it |
 
+## Audit round 2 (2026-11-18)
+
+| Decision | Detail |
+|---|---|
+| "English only" note | The list of English-only routes (src/i18n/routes.ts) still held the Chart School hub, the chart quiz and the quiz player, flashcards, world game and certificate from before the translations. These are translated (the quiz pages load the question bank in the page's language), so the note and the English canonical link were wrong there. Now listed: Candlestick Encyclopedia (pattern texts in English), history timeline and videos (English sources); lessons, How Stocks Are Made and World Markets use availableIn per page. The Chart School hub also showed English lesson summaries; getLessonSequence now returns translated summaries. Tests cover the list |
+| Layout | Sweep of 30 page types in five languages at 375 px (light and dark), using a scratch script: Trading Times status cards could be pushed 3 px wider than the screen by a long badge such as "Early trading (NYSE Arca)"; the badge now moves under the market name when it does not fit. German quiz hub: "Noch nicht gemacht" pushed topic cards 33 px wider; titles may now hyphenate and the status wraps. No other overflow; video titles cut at two lines are intended |
+| Contrast | No text below WCAG AA found in light or dark mode (white headings on blue bands were flagged only against the white end of their fade, which they do not sit on) |
+| External links | 780 unique links checked: 691 answered; 72 sites refuse automated requests (403, e.g. SEC, FMA, S&P) and 15 timed out or did not resolve from here (Canada Revenue Agency, Aramco, CSRC, two Taiwanese sites), which is not a sign they are dead. One was dead: the HKEX Stock Connect FAQ moved to FAQ_E.pdf (version of 31 October 2026). Every fact citing it was checked in the new version (Investor Compensation Fund now question 1.4.4; 10% dividend tax; capital gains and business tax exemption; 10%/30% foreign ownership limits; 0.05% stamp duty) and the links and titles updated |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

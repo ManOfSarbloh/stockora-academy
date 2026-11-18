@@ -32,6 +32,11 @@ describe('language paths', () => {
     expect(isEnglishOnly('/world/at/')).toBe(true);
     expect(isEnglishOnly('/tools/leverage/')).toBe(false);
     expect(isEnglishOnly('/glossary/')).toBe(false);
+    // Translated hubs and quiz pages must not show the "English only" note.
+    expect(isEnglishOnly('/charts/')).toBe(false);
+    expect(isEnglishOnly('/charts/quiz/')).toBe(false);
+    expect(isEnglishOnly('/quizzes/flashcards/')).toBe(false);
+    expect(isEnglishOnly('/charts/candles/')).toBe(true);
   });
 });
 

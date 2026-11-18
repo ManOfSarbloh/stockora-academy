@@ -44,7 +44,7 @@ const lessons = (await getLessonSequence()).filter((l) => l.category.id === 'J')
                 <span class="flex size-8 shrink-0 items-center justify-center rounded-full bg-surface-2 text-sm font-bold text-link">{i + 1}</span>
                 <span>
                   <span class="block font-semibold">{l.title}</span>
-                  <span class="mt-0.5 block text-sm text-muted">{l.entry.data.summary}</span>
+                  <span class="mt-0.5 block text-sm text-muted">{l.summary}</span>
                 </span>
               </a>
             </li>

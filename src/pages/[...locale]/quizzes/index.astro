@@ -101,16 +101,16 @@ const countryQuizzes = meta.countries.map((code) => ({
           topicQuizzes.map((q) => (
             <li>
               <a href={q.href} class="card group flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-accent-bar">
-                <span class="flex items-center gap-3">
+                <span class="flex min-w-0 items-center gap-3">
                   <span class="inline-flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-surface-2 text-text group-hover:text-link">
                     <Icon name={q.id === 'HSM' ? 'sprout' : topicIcon(q.id)} size={24} strokeWidth={2.8} />
                   </span>
-                  <span>
-                    <span class="block font-semibold text-text">{q.name}</span>
+                  <span class="min-w-0">
+                    <span class="block font-semibold text-text hyphens-auto">{q.name}</span>
                     <span class="block text-xs text-muted">{t('qh.questions', { n: q.n })}</span>
                   </span>
                 </span>
-                <span class="shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.id}>
+                <span class="max-w-24 shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.id}>
                   {t('qh.notTaken')}
                 </span>
               </a>
@@ -128,11 +128,11 @@ const countryQuizzes = meta.countries.map((code) => ({
           countryQuizzes.map((q) => (
             <li>
               <a href={q.href} class="card flex h-full items-center justify-between gap-3 p-4 no-underline transition-colors hover:border-accent-bar">
-                <span>
-                  <span class="block font-semibold text-text">{q.name}</span>
+                <span class="min-w-0">
+                  <span class="block font-semibold text-text hyphens-auto">{q.name}</span>
                   <span class="block text-xs text-muted">{t('qh.questions', { n: q.n })}</span>
                 </span>
-                <span class="shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.scoreId}>
+                <span class="max-w-24 shrink-0 text-right text-xs font-semibold text-muted" data-score-id={q.scoreId}>
                   {t('qh.notTaken')}
                 </span>
               </a>

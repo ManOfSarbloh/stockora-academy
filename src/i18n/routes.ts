@@ -32,7 +32,9 @@ export function localizePath(path: string, locale: Locale): string {
 }
 
 /**
- * Pages whose main content exists only in English (lessons, country data, quizzes, …).
+ * Pages whose main content exists only in English. Lessons, How Stocks Are Made and World Markets pass
+ * `availableIn` instead (their translations are per page); the quiz pages load the question bank in the
+ * page's language, so they are not listed.
  * In other languages they keep the translated interface, show an "English only" note,
  * point their canonical link to the English page and stay out of the sitemap.
  * `route` has no locale prefix and ends with "/".
@@ -43,7 +45,6 @@ const ENGLISH_ONLY = [
   /^\/world\//,
   /^\/history\/$/,
   /^\/videos\/$/,
-  /^\/charts\/(candles\/|quiz\/)?$/,
-  /^\/quizzes\/(play|flashcards|world-game|certificate)\/$/,
+  /^\/charts\/candles\/$/, // pattern texts are English; the Chart School hub and chart quiz are translated
 ];
 export const isEnglishOnly = (route: string) => ENGLISH_ONLY.some((re) => re.test(route));
