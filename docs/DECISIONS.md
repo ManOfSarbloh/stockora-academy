@@ -422,6 +422,16 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Contrast | No text below WCAG AA found in light or dark mode (white headings on blue bands were flagged only against the white end of their fade, which they do not sit on) |
 | External links | 780 unique links checked: 691 answered; 72 sites refuse automated requests (403, e.g. SEC, FMA, S&P) and 15 timed out or did not resolve from here (Canada Revenue Agency, Aramco, CSRC, two Taiwanese sites), which is not a sign they are dead. One was dead: the HKEX Stock Connect FAQ moved to FAQ_E.pdf (version of 31 October 2026). Every fact citing it was checked in the new version (Investor Compensation Fund now question 1.4.4; 10% dividend tax; capital gains and business tax exemption; 10%/30% foreign ownership limits; 0.05% stamp duty) and the links and titles updated |
 
+## Site check (2026-11-20)
+
+| Decision | Detail |
+|---|---|
+| Method | Scan of every built page in de/es/fr/it for English sentences; 200 live page loads (40 pages × 5 languages, phone size) recording uncaught errors, console errors, failed requests, visible notices, stuck island placeholders and visible "needs JavaScript" text; scripted runs of paper trading, quizzes, lesson buttons, theme switch, search and a calculator on the live site |
+| Video descriptions | Our own one-line video descriptions (whyGood) were English on every translated topic, lesson and video page. Translated into de/es/fr/it in content/i18n/<lang>/videos.json (VideoCard falls back to English); video titles stay as the channels wrote them. /videos/ is no longer listed as English-only. A test checks every video has a description in every language |
+| Paper trading | "Order placed" stayed visible for the rest of the game; it now clears on the next day |
+| Search | The result line repeated the query in lower case („dividende“); it now shows the words as typed |
+| No issues | No uncaught errors, console errors or failed requests (apart from the deliberate 404 test). Remaining English in translated pages: titles of official documents and studies in source lists, original video titles, company names. Still English-only: Candlestick Encyclopedia and history timeline |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

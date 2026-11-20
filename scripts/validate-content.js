@@ -378,6 +378,13 @@ if (existsSync('content/i18n')) {
         if (missing.size) errors.push(`${where}: ${missing.size} figure texts are not translated, e.g. "${[...missing][0]}"`);
         if (stale) errors.push(`${where}: ${stale} translated figures are missing or out of date (run npm run build:figure-translations)`);
         status.push(`figures ${svgs.length - stale}/${svgs.length}`);
+      } else if (f === 'videos.json') {
+        // Our own one-line video descriptions (whyGood), keyed by YouTube id; titles stay as the channels wrote them.
+        for (const [id, v] of Object.entries(data)) {
+          if (!videoIds.has(id)) errors.push(`${where}: unknown video "${id}"`);
+          if (typeof v !== 'string' || !v.trim()) errors.push(`${where} ${id}: needs a description`);
+        }
+        status.push(`videos ${Object.keys(data).filter((id) => videoIds.has(id)).length}/${videoIds.size}`);
       } else errors.push(`${where}: unknown translation file`);
     }
     translationStatus.push(`${loc}: ${status.join(', ') || 'no data files'}`);

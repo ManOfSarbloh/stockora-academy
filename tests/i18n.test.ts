@@ -37,6 +37,7 @@ describe('language paths', () => {
     expect(isEnglishOnly('/charts/quiz/')).toBe(false);
     expect(isEnglishOnly('/quizzes/flashcards/')).toBe(false);
     expect(isEnglishOnly('/charts/candles/')).toBe(true);
+    expect(isEnglishOnly('/videos/')).toBe(false);
   });
 });
 
@@ -76,4 +77,16 @@ describe('UI dictionaries', () => {
       expect(empty).toEqual([]);
     });
   }
+});
+
+describe('translated video descriptions', () => {
+  it('cover every video in every translated language', async () => {
+    const { readFileSync } = await import('node:fs');
+    const ids = (JSON.parse(readFileSync('content/videos.json', 'utf8')) as { id: string }[]).map((v) => v.id).sort();
+    for (const lang of ['de', 'es', 'fr', 'it']) {
+      const tr = JSON.parse(readFileSync(`content/i18n/${lang}/videos.json`, 'utf8')) as Record<string, string>;
+      expect(Object.keys(tr).sort(), lang).toEqual(ids);
+      for (const id of ids) expect(tr[id].trim().length, `${lang} ${id}`).toBeGreaterThan(20);
+    }
+  });
 });

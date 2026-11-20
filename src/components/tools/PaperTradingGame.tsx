@@ -481,6 +481,8 @@ function Ticket({
     setPriceText('');
     if (side === 'buy' && type === 'stop') setType('market');
   }, [id, side]);
+  // "Order placed" belongs to the day it was placed; the order is filled or listed under open orders after that.
+  useEffect(() => setDone(false), [game.day]);
 
   const qty = Number(qtyText);
   const price = Number(priceText.replace(',', '.'));
