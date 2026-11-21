@@ -1,0 +1,212 @@
+{
+  "doji": {
+    "name": "Doji",
+    "formation": "Apertura e chiusura sono (quasi) uguali, quindi il corpo è solo una linea sottile. Le ombre possono essere lunghe o corte.",
+    "reading": "Né i compratori né i venditori hanno vinto il periodo: un segnale di indecisione. Dopo un movimento lungo e forte, alcuni trader lo leggono come un avvertimento che il movimento sta perdendo energia.",
+    "confirmation": "La maggior parte dei trader aspetta la candela successiva: un movimento deciso che si allontana dal doji in una direzione dice più del doji stesso.",
+    "failure": "I doji sono molto frequenti. In un mercato tranquillo o su timeframe brevi spesso non significano nulla."
+  },
+  "long-legged-doji": {
+    "name": "Doji a gambe lunghe",
+    "formation": "Un doji con ombre lunghe da entrambi i lati: il prezzo è salito e sceso molto, ma ha chiuso dove aveva aperto.",
+    "reading": "Un forte tiro alla fune senza vincitori. Letto come un’indecisione più marcata.",
+    "confirmation": "Una rottura netta sopra il massimo o sotto il minimo del doji.",
+    "failure": "Spesso il prezzo continua semplicemente nella direzione originale una volta risolta l’indecisione.",
+    "aka": ["long-legged doji"],
+    "tested": { "theory": "Indecisione", "result": "prosecuzione rialzista nel 51% dei casi" }
+  },
+  "dragonfly-doji": {
+    "name": "Doji libellula",
+    "formation": "Apertura, chiusura e massimo sono (quasi) allo stesso livello in alto; c’è una lunga ombra inferiore e poca o nessuna ombra superiore.",
+    "reading": "I venditori hanno spinto il prezzo in basso, ma i compratori lo hanno riportato del tutto su entro la chiusura. Dopo un ribasso è tradizionalmente letto come una possibile inversione rialzista.",
+    "confirmation": "Una chiusura più alta nella candela successiva.",
+    "failure": "Se la candela successiva scende sotto il minimo del doji libellula, il rifiuto dei prezzi più bassi è fallito.",
+    "aka": ["dragonfly doji"],
+    "tested": { "theory": "Inversione rialzista durante un ribasso, altrimenti indecisione", "result": "inversione nel 50% dei casi" }
+  },
+  "gravestone-doji": {
+    "name": "Doji lapide",
+    "formation": "Apertura, chiusura e minimo sono (quasi) allo stesso livello in basso; c’è una lunga ombra superiore e poca o nessuna ombra inferiore.",
+    "reading": "I compratori hanno spinto il prezzo in alto, ma i venditori lo hanno riportato del tutto giù. Dopo un rialzo è tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Una chiusura più bassa nella candela successiva.",
+    "failure": "Se la candela successiva chiude sopra il massimo del doji lapide, il rifiuto è fallito e il trend rialzista continua.",
+    "aka": ["gravestone doji"],
+    "tested": { "theory": "Da indecisione a inversione ribassista (nei trend rialzisti)", "result": "inversione ribassista nel 51% dei casi" }
+  },
+  "spinning-top": {
+    "name": "Trottola",
+    "formation": "Un corpo piccolo al centro della candela, con ombre superiore e inferiore più lunghe del corpo.",
+    "reading": "Entrambe le parti erano attive, ma nessuna ha preso il controllo: indecisione, simile a un doji ma con un corpo un po’ più grande.",
+    "confirmation": "La direzione della prossima candela decisa.",
+    "failure": "Le trottole sono tra le candele più frequenti; da sole dicono poco.",
+    "aka": ["spinning top"],
+    "tested": { "theory": "Indecisione", "result": "inversione nel 50% dei casi" }
+  },
+  "marubozu": {
+    "name": "Marubozu",
+    "formation": "Un corpo lungo senza ombre (o quasi): un marubozu rialzista apre sul minimo e chiude sul massimo; uno ribassista apre sul massimo e chiude sul minimo.",
+    "reading": "Una delle parti ha avuto il controllo dal primo all’ultimo scambio. Tradizionalmente letto come un forte slancio nella direzione del corpo.",
+    "confirmation": "Una prosecuzione nella stessa direzione nella candela successiva.",
+    "failure": "Una candela forte può segnare la fine di un movimento (un’ultima ondata di acquisti o vendite), dopo la quale il prezzo si inverte.",
+    "aka": ["marubozu bianco", "marubozu nero"],
+    "tested": { "theory": "Prosecuzione", "result": "prosecuzione nel 56% dei casi" }
+  },
+  "hammer": {
+    "name": "Martello",
+    "formation": "Un corpo piccolo in alto nella candela, una lunga ombra inferiore (tradizionalmente almeno il doppio del corpo) e poca o nessuna ombra superiore, dopo un ribasso.",
+    "reading": "I venditori hanno spinto molto in basso il prezzo durante il periodo, ma i compratori lo hanno ricomprato fino a vicino all’apertura. Tradizionalmente letto come una possibile inversione rialzista.",
+    "confirmation": "Una chiusura più alta nella candela successiva; alcuni trader vogliono anche un volume più alto.",
+    "failure": "Se il prezzo scende sotto il minimo del martello, la difesa dei compratori è fallita.",
+    "aka": ["hammer"],
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nel 60% dei casi" }
+  },
+  "hanging-man": {
+    "name": "Impiccato",
+    "formation": "La stessa forma del martello (corpo piccolo in alto, lunga ombra inferiore), ma dopo un rialzo.",
+    "reading": "I venditori sono riusciti a spingere molto in basso il prezzo durante il periodo: un segnale che la pressione degli acquisti potrebbe indebolirsi. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Una chiusura più bassa nella candela successiva.",
+    "failure": "Questa figura fallisce spesso: il trend rialzista molte volte continua e basta.",
+    "aka": ["hanging man"],
+    "tested": { "theory": "Inversione ribassista", "result": "prosecuzione rialzista nel 59% dei casi" }
+  },
+  "inverted-hammer": {
+    "name": "Martello rovesciato",
+    "formation": "Un corpo piccolo in basso nella candela, con una lunga ombra superiore e poca o nessuna ombra inferiore, dopo un ribasso.",
+    "reading": "I compratori hanno provato a spingere in alto il prezzo, ma non sono riusciti a mantenere i guadagni. Dopo un ribasso è tradizionalmente letto come un primo segnale che i compratori stanno testando prezzi più alti.",
+    "confirmation": "Di solito si richiede una chiusura più alta nella candela successiva prima di leggerci qualcosa.",
+    "failure": "Senza conferma il ribasso spesso continua.",
+    "aka": ["inverted hammer"],
+    "tested": { "theory": "Inversione rialzista", "result": "prosecuzione ribassista nel 65% dei casi" }
+  },
+  "shooting-star": {
+    "name": "Stella cadente",
+    "formation": "Un corpo piccolo in basso nella candela, con una lunga ombra superiore e poca o nessuna ombra inferiore, dopo un rialzo.",
+    "reading": "I compratori hanno spinto in alto il prezzo, ma i venditori hanno preso il sopravvento e lo hanno riportato vicino all’apertura. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Una chiusura più bassa nella candela successiva.",
+    "failure": "Se il prezzo chiude sopra il massimo della stella cadente, il rifiuto è fallito.",
+    "aka": ["shooting star"],
+    "tested": { "theory": "Inversione ribassista", "result": "inversione ribassista nel 59% dei casi" }
+  },
+  "bullish-engulfing": {
+    "name": "Engulfing rialzista",
+    "formation": "Due candele dopo un ribasso: una candela ribassista seguita da una rialzista il cui corpo copre (avvolge) completamente il primo corpo.",
+    "reading": "Prima avevano il controllo i venditori, poi i compratori hanno preso il comando con decisione. Tradizionalmente letto come una possibile inversione rialzista.",
+    "confirmation": "Ulteriori rialzi nella candela o nelle candele successive.",
+    "failure": "Se il prezzo torna sotto il minimo della figura, l’inversione è fallita.",
+    "aka": ["avvolgente rialzista"],
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nel 63% dei casi" }
+  },
+  "bearish-engulfing": {
+    "name": "Engulfing ribassista",
+    "formation": "Due candele dopo un rialzo: una candela rialzista seguita da una ribassista il cui corpo copre completamente il primo corpo.",
+    "reading": "Prima avevano il controllo i compratori, poi i venditori hanno preso il comando con decisione. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Ulteriori ribassi nella candela o nelle candele successive.",
+    "failure": "Se il prezzo risale sopra il massimo della figura, l’inversione è fallita.",
+    "aka": ["avvolgente ribassista"],
+    "tested": { "theory": "Inversione ribassista", "result": "inversione ribassista nel 79% dei casi" }
+  },
+  "bullish-harami": {
+    "name": "Harami rialzista",
+    "formation": "Due candele dopo un ribasso: una lunga candela ribassista seguita da una piccola rialzista il cui corpo sta dentro il primo corpo. («Harami» in giapponese significa incinta.)",
+    "reading": "Le forti vendite si fermano. Tradizionalmente letto come una possibile inversione rialzista, ma più debole di un engulfing.",
+    "confirmation": "Una chiusura sopra il corpo della prima candela.",
+    "failure": "Spesso la pausa è solo una tregua prima che il ribasso continui.",
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nel 53% dei casi" }
+  },
+  "bearish-harami": {
+    "name": "Harami ribassista",
+    "formation": "Due candele dopo un rialzo: una lunga candela rialzista seguita da una piccola ribassista il cui corpo sta dentro il primo corpo.",
+    "reading": "I forti acquisti si fermano. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Una chiusura sotto il corpo della prima candela.",
+    "failure": "Spesso il trend rialzista continua semplicemente dopo la pausa.",
+    "tested": { "theory": "Inversione ribassista", "result": "prosecuzione rialzista nel 53% dei casi" }
+  },
+  "harami-cross": {
+    "name": "Croce harami",
+    "formation": "Un harami la cui seconda candela è un doji, posto dentro il corpo di una lunga prima candela. Qui è mostrato dopo un ribasso (versione rialzista); la versione ribassista compare dopo un rialzo.",
+    "reading": "A un lungo movimento segue un’indecisione totale. Tradizionalmente letto come un indizio di svolta più forte di un harami normale.",
+    "confirmation": "Un movimento deciso nella direzione opposta a quella della prima candela.",
+    "failure": "L’indecisione si risolve spesso nella direzione originale.",
+    "aka": ["harami cross"],
+    "tested": { "theory": "Inversione rialzista", "result": "prosecuzione ribassista nel 55% dei casi" }
+  },
+  "piercing-line": {
+    "name": "Piercing line",
+    "formation": "Due candele dopo un ribasso: una lunga candela ribassista, poi una rialzista che apre sotto il minimo della prima e chiude sopra la metà del primo corpo.",
+    "reading": "A un’apertura debole sono seguiti acquisti forti che hanno recuperato più di metà della perdita precedente. Tradizionalmente letto come una possibile inversione rialzista.",
+    "confirmation": "Ulteriori rialzi, idealmente una chiusura sopra l’apertura della prima candela.",
+    "failure": "Se le candele successive tornano sotto il minimo della seconda candela, la figura è fallita.",
+    "aka": ["piercing pattern", "linea penetrante"],
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nel 64% dei casi" }
+  },
+  "dark-cloud-cover": {
+    "name": "Dark cloud cover",
+    "formation": "Due candele dopo un rialzo: una lunga candela rialzista, poi una ribassista che apre sopra il massimo della prima e chiude sotto la metà del primo corpo.",
+    "reading": "A un’apertura forte sono seguite vendite pesanti che hanno cancellato più di metà del guadagno precedente. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "Ulteriori ribassi, idealmente una chiusura sotto l’apertura della prima candela.",
+    "failure": "Se il prezzo risale sopra il massimo della seconda candela, la figura è fallita.",
+    "aka": ["copertura a nube nera"],
+    "tested": { "theory": "Inversione ribassista", "result": "inversione ribassista nel 60% dei casi" }
+  },
+  "morning-star": {
+    "name": "Stella del mattino",
+    "formation": "Tre candele dopo un ribasso: una lunga candela ribassista, una piccola candela (la «stella») che scambia più in basso, poi una lunga candela rialzista che chiude ben dentro il corpo della prima.",
+    "reading": "Vendite, poi esitazione, poi acquisti forti. Tradizionalmente letto come una possibile inversione rialzista.",
+    "confirmation": "La terza candela è essa stessa la conferma; alcuni trader vogliono anche un volume più alto su di essa.",
+    "failure": "Una discesa sotto il minimo della stella annulla la lettura.",
+    "aka": ["morning star"],
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nel 78% dei casi" }
+  },
+  "evening-star": {
+    "name": "Stella della sera",
+    "formation": "Tre candele dopo un rialzo: una lunga candela rialzista, una piccola candela (la «stella») che scambia più in alto, poi una lunga candela ribassista che chiude ben dentro il corpo della prima.",
+    "reading": "Acquisti, poi esitazione, poi vendite forti. Tradizionalmente letto come una possibile inversione ribassista.",
+    "confirmation": "La terza candela è essa stessa la conferma.",
+    "failure": "Una salita sopra il massimo della stella annulla la lettura.",
+    "aka": ["evening star"],
+    "tested": { "theory": "Inversione ribassista", "result": "inversione ribassista nel 72% dei casi" }
+  },
+  "three-white-soldiers": {
+    "name": "Tre soldati bianchi",
+    "formation": "Tre lunghe candele rialziste di fila, ognuna apre dentro il corpo precedente e chiude vicino al suo massimo, dopo un ribasso o un periodo tranquillo.",
+    "reading": "Acquisti costanti e persistenti per tre periodi. Tradizionalmente letto come un forte segnale rialzista.",
+    "confirmation": "Forza che continua; una chiusura sotto il corpo della terza candela indebolisce il segnale.",
+    "failure": "Dopo tre candele forti il mercato è spesso tirato e può ritracciare.",
+    "aka": ["three white soldiers"],
+    "tested": { "theory": "Inversione rialzista", "result": "inversione rialzista nell’82% dei casi" }
+  },
+  "three-black-crows": {
+    "name": "Tre corvi neri",
+    "formation": "Tre lunghe candele ribassiste di fila, ognuna apre dentro il corpo precedente e chiude vicino al suo minimo, dopo un rialzo.",
+    "reading": "Vendite costanti e persistenti per tre periodi. Tradizionalmente letto come un forte segnale ribassista.",
+    "confirmation": "Debolezza che continua; una chiusura sopra il corpo della terza candela indebolisce il segnale.",
+    "failure": "Dopo tre forti candele ribassiste il mercato può essere ipervenduto e rimbalzare.",
+    "aka": ["three black crows"],
+    "tested": { "theory": "Inversione ribassista", "result": "inversione ribassista nel 78% dei casi" }
+  },
+  "tweezer-bottom": {
+    "name": "Tweezer bottom",
+    "formation": "Due (o più) candele dopo un ribasso con (quasi) lo stesso minimo.",
+    "reading": "I venditori hanno fallito due volte allo stesso prezzo: i trader lo leggono come un supporto difeso.",
+    "confirmation": "Una chiusura più alta in seguito.",
+    "failure": "Una rottura sotto il minimo comune trasforma il «supporto» in un livello fallito.",
+    "aka": ["minimo a pinzetta"],
+    "tested": { "theory": "Inversione rialzista", "result": "prosecuzione ribassista nel 52% dei casi" }
+  },
+  "tweezer-top": {
+    "name": "Tweezer top",
+    "formation": "Due (o più) candele dopo un rialzo con (quasi) lo stesso massimo.",
+    "reading": "I compratori hanno fallito due volte allo stesso prezzo: i trader lo leggono come una resistenza che tiene.",
+    "confirmation": "Una chiusura più bassa in seguito.",
+    "failure": "Una rottura sopra il massimo comune significa che la resistenza non ha tenuto.",
+    "aka": ["massimo a pinzetta"],
+    "tested": { "theory": "Inversione ribassista", "result": "prosecuzione rialzista nel 56% dei casi" }
+  },
+  "inside-bar": {
+    "name": "Inside bar",
+    "formation": "Una candela il cui massimo e minimo stanno entrambi dentro il range della candela precedente.",
+    "reading": "Il mercato fa una pausa e il range si restringe. I trader osservano da quale lato il range della candela più grande viene rotto per primo.",
+    "confirmation": "Una chiusura oltre il massimo o il minimo della prima candela (la più grande).",
+    "failure": "Le rotture di range stretti sono spesso false: il prezzo rompe da un lato e poi si inverte."
+  }
+}

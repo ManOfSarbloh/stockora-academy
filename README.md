@@ -162,10 +162,12 @@ placeholder is missing.
 | Country pages | `content/countries/<code>.json` | `content/i18n/<locale>/countries/<code>.json` (texts only, in the same shape: same keys, arrays in the English order; codes, dates, links and sources stay in the English file; `translatedFrom` = the English `lastReviewed`) |
 | How Stocks Are Made | `content/how-stocks-are-made/{steps,cases}/<file>.md` | `content/i18n/<locale>/how-stocks-are-made/{steps,cases}/<file>.md` (front matter `title`, `summary`, `short` for steps, `place` for cases, `translatedFrom`; same headings and callouts) |
 | Quiz questions | `content/quizzes/<file>.json` | `content/i18n/<locale>/quizzes/<file>.json` (keyed by question id: `question`, `explanation`, and `options`, `pairs` or `orderedItems` in the English order) |
+| Candlestick patterns | `content/candles.json` | `content/i18n/<locale>/candles.json` (keyed by pattern id: `name`, `formation`, `reading`, `confirmation`, `failure`, `aka` (may add aliases, e.g. the English name), `tested.theory` and `tested.result` with the same percentage). Used by the Candlestick Encyclopedia, Chart Lab and chart quiz |
+| History timeline | `content/history.json` | `content/i18n/<locale>/history.json` (keyed by event id: `date` with the same years, `title`, `what`, `why`, `lesson`, `myth` when English has one, and `links` = the link titles in the English order). Source titles stay in their original language |
 
 How it works: pages live under `src/pages/[...locale]/`; English stays at the root, the others get a `/<locale>/`
 prefix. `src/middleware.ts` sets the language per page and rewrites internal links so visitors stay in their language.
-Topic pages, country pages, history, videos, the chart lab and most quiz pages are English-only routes
+Topic pages, lessons, country pages and How Stocks Are Made are English-only routes
 (`src/i18n/routes.ts`): their translated versions show a translated interface with a notice, point their canonical URL
 to the English page and are left out of the sitemap. A lesson or country page with a translation file is the exception: it gets
 its own canonical URL, hreflang links and a sitemap entry, and so do the World Markets overview and comparison once

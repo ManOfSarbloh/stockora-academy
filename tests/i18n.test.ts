@@ -36,7 +36,8 @@ describe('language paths', () => {
     expect(isEnglishOnly('/charts/')).toBe(false);
     expect(isEnglishOnly('/charts/quiz/')).toBe(false);
     expect(isEnglishOnly('/quizzes/flashcards/')).toBe(false);
-    expect(isEnglishOnly('/charts/candles/')).toBe(true);
+    expect(isEnglishOnly('/charts/candles/')).toBe(false);
+    expect(isEnglishOnly('/history/')).toBe(false);
     expect(isEnglishOnly('/videos/')).toBe(false);
   });
 });
@@ -87,6 +88,17 @@ describe('translated video descriptions', () => {
       const tr = JSON.parse(readFileSync(`content/i18n/${lang}/videos.json`, 'utf8')) as Record<string, string>;
       expect(Object.keys(tr).sort(), lang).toEqual(ids);
       for (const id of ids) expect(tr[id].trim().length, `${lang} ${id}`).toBeGreaterThan(20);
+    }
+  });
+});
+
+describe('translated Candlestick Encyclopedia and history timeline', () => {
+  it('cover every pattern and event in every translated language', async () => {
+    const { readFileSync } = await import('node:fs');
+    const read = (f: string) => JSON.parse(readFileSync(f, 'utf8'));
+    for (const name of ['candles', 'history']) {
+      const ids = (read(`content/${name}.json`) as { id: string }[]).map((x) => x.id).sort();
+      for (const lang of ['de', 'es', 'fr', 'it']) expect(Object.keys(read(`content/i18n/${lang}/${name}.json`)).sort(), `${lang} ${name}`).toEqual(ids);
     }
   });
 });

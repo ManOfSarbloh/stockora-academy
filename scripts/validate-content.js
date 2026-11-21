@@ -385,6 +385,38 @@ if (existsSync('content/i18n')) {
           if (typeof v !== 'string' || !v.trim()) errors.push(`${where} ${id}: needs a description`);
         }
         status.push(`videos ${Object.keys(data).filter((id) => videoIds.has(id)).length}/${videoIds.size}`);
+      } else if (f === 'candles.json') {
+        // Candlestick Encyclopedia text; drawings, ids and the tested numbers' sources stay in content/candles.json.
+        const en = new Map(readJSON(join(CONTENT, 'candles.json')).map((p) => [p.id, p]));
+        for (const [id, v] of Object.entries(data)) {
+          const p = en.get(id);
+          if (!p) {
+            errors.push(`${where}: unknown pattern "${id}"`);
+            continue;
+          }
+          for (const k of ['name', 'formation', 'reading', 'confirmation', 'failure']) if (typeof v[k] !== 'string' || !v[k].trim()) errors.push(`${where} ${id}: needs ${k}`);
+          // A translation may add aliases (often the English name), but must keep every English one.
+          if (p.aka && (!v.aka || v.aka.length < p.aka.length)) errors.push(`${where} ${id}: aka must translate every English alias`);
+          if (Boolean(p.tested) !== Boolean(v.tested) || (v.tested && (!v.tested.theory || !v.tested.result))) errors.push(`${where} ${id}: tested must have theory and result exactly when English has it`);
+          if (p.tested && v.tested && (p.tested.result.match(/\d+%/) ?? [''])[0].replace('%', '') !== (v.tested.result.match(/\d+/) ?? [''])[0]) errors.push(`${where} ${id}: tested result must keep the percentage`);
+        }
+        status.push(`candles ${Object.keys(data).filter((id) => en.has(id)).length}/${en.size}`);
+      } else if (f === 'history.json') {
+        const en = new Map(readJSON(join(CONTENT, 'history.json')).map((h) => [h.id, h]));
+        for (const [id, v] of Object.entries(data)) {
+          const h = en.get(id);
+          if (!h) {
+            errors.push(`${where}: unknown event "${id}"`);
+            continue;
+          }
+          for (const k of ['date', 'title', 'what', 'why', 'lesson']) if (typeof v[k] !== 'string' || !v[k].trim()) errors.push(`${where} ${id}: needs ${k}`);
+          if (Boolean(h.myth) !== Boolean(v.myth)) errors.push(`${where} ${id}: myth must be present exactly when the English event has one`);
+          if (!Array.isArray(v.links) || v.links.length !== h.links.length) errors.push(`${where} ${id}: links must have ${h.links.length} titles, in the English order`);
+          // Years in the date must stay the same as in English.
+          const years = (s) => (s.match(/\d{3,4}/g) ?? []).join(',');
+          if (years(v.date) !== years(h.date)) errors.push(`${where} ${id}: date "${v.date}" must keep the years of "${h.date}"`);
+        }
+        status.push(`history ${Object.keys(data).filter((id) => en.has(id)).length}/${en.size}`);
       } else errors.push(`${where}: unknown translation file`);
     }
     translationStatus.push(`${loc}: ${status.join(', ') || 'no data files'}`);

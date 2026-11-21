@@ -432,6 +432,15 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Search | The result line repeated the query in lower case („dividende“); it now shows the words as typed |
 | No issues | No uncaught errors, console errors or failed requests (apart from the deliberate 404 test). Remaining English in translated pages: titles of official documents and studies in source lists, original video titles, company names. Still English-only: Candlestick Encyclopedia and history timeline |
 
+## Candlestick Encyclopedia and history timeline translated (2026-11-21)
+
+| Decision | Detail |
+|---|---|
+| Patterns | The 24 pattern texts are in content/i18n/<lang>/candles.json for de/es/fr/it. Names follow the figure translations the lessons already use; where the local name differs, the English name is shown as "also known as". The tested results keep Bulkowski's percentages. localizedPatterns() in src/lib/translations.ts feeds the encyclopedia, the Chart Lab and the chart quiz, which had shown English pattern names and descriptions on translated pages |
+| Chart Lab reasons | The "why this pattern" reasons in src/lib/chart/patterns.ts were English sentences; they are now dictionary keys (cp.*) with numbers formatted for the page's language |
+| History | The 30 events (28 past, 2 planned) are in content/i18n/<lang>/history.json; link titles are taken from the translated lesson titles, category titles and country names so they match the rest of the site. Source titles stay as published. The validator checks that every date keeps its years and every event keeps its myth and link count |
+| English-only list | /charts/candles/ and /history/ are no longer English-only: they get their own canonical URL, hreflang and sitemap entry |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

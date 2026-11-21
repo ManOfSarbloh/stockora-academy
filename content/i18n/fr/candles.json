@@ -1,0 +1,213 @@
+{
+  "doji": {
+    "name": "Doji",
+    "formation": "L’ouverture et la clôture sont (presque) identiques, donc le corps n’est qu’un trait fin. Les mèches peuvent être longues ou courtes.",
+    "reading": "Ni les acheteurs ni les vendeurs n’ont gagné la période : un signe d’indécision. Après un mouvement long et fort, certains traders y voient un avertissement que le mouvement s’essouffle.",
+    "confirmation": "La plupart des traders attendent la bougie suivante : un mouvement net qui s’éloigne du doji dans une direction en dit plus que le doji lui-même.",
+    "failure": "Les dojis sont très fréquents. Dans un marché calme ou sur de courtes unités de temps, ils ne veulent souvent rien dire."
+  },
+  "long-legged-doji": {
+    "name": "Doji à longues jambes",
+    "formation": "Un doji avec de longues mèches des deux côtés : le cours est monté et descendu loin, mais a clôturé là où il avait ouvert.",
+    "reading": "Une forte lutte sans vainqueur. Lu comme une indécision accrue.",
+    "confirmation": "Une cassure nette au-dessus du plus haut ou sous le plus bas du doji.",
+    "failure": "Souvent, le cours continue simplement dans la direction initiale une fois l’indécision levée.",
+    "aka": ["long-legged doji"],
+    "tested": { "theory": "Indécision", "result": "poursuite haussière dans 51 % des cas" }
+  },
+  "dragonfly-doji": {
+    "name": "Doji libellule",
+    "formation": "L’ouverture, la clôture et le plus haut sont (presque) au même niveau, en haut ; il y a une longue mèche basse et peu ou pas de mèche haute.",
+    "reading": "Les vendeurs ont fait baisser le cours, mais les acheteurs l’ont entièrement ramené à la clôture. Après une baisse, on y lit traditionnellement un possible retournement haussier.",
+    "confirmation": "Une clôture plus haute sur la bougie suivante.",
+    "failure": "Si la bougie suivante passe sous le plus bas du doji libellule, le rejet des cours plus bas a échoué.",
+    "aka": ["dragonfly doji"],
+    "tested": { "theory": "Retournement haussier pendant une baisse, sinon indécision", "result": "retournement dans 50 % des cas" }
+  },
+  "gravestone-doji": {
+    "name": "Doji pierre tombale",
+    "formation": "L’ouverture, la clôture et le plus bas sont (presque) au même niveau, en bas ; il y a une longue mèche haute et peu ou pas de mèche basse.",
+    "reading": "Les acheteurs ont fait monter le cours, mais les vendeurs l’ont entièrement ramené en bas. Après une hausse, on y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "Une clôture plus basse sur la bougie suivante.",
+    "failure": "Si la bougie suivante clôture au-dessus du plus haut du doji pierre tombale, le rejet a échoué et la tendance haussière continue.",
+    "aka": ["gravestone doji"],
+    "tested": { "theory": "De l’indécision au retournement baissier (en tendance haussière)", "result": "retournement baissier dans 51 % des cas" }
+  },
+  "spinning-top": {
+    "name": "Toupie",
+    "formation": "Un petit corps au milieu de la bougie, avec des mèches haute et basse plus longues que le corps.",
+    "reading": "Les deux camps étaient actifs, mais aucun n’a pris le contrôle : de l’indécision, comme un doji mais avec un corps un peu plus grand.",
+    "confirmation": "La direction de la prochaine bougie franche.",
+    "failure": "Les toupies comptent parmi les bougies les plus fréquentes ; seules, elles apportent peu d’information.",
+    "aka": ["spinning top"],
+    "tested": { "theory": "Indécision", "result": "retournement dans 50 % des cas" }
+  },
+  "marubozu": {
+    "name": "Marubozu",
+    "formation": "Un long corps sans mèches (ou presque) : un marubozu haussier ouvre au plus bas et clôture au plus haut ; un baissier ouvre au plus haut et clôture au plus bas.",
+    "reading": "Un camp a eu le contrôle de la première à la dernière transaction. On y lit traditionnellement une forte dynamique dans le sens du corps.",
+    "confirmation": "Une poursuite dans la même direction sur la bougie suivante.",
+    "failure": "Une bougie forte peut marquer la fin d’un mouvement (un dernier sursaut d’achats ou de ventes), après quoi le cours se retourne.",
+    "aka": ["marubozu blanc", "marubozu noir"],
+    "tested": { "theory": "Poursuite", "result": "poursuite dans 56 % des cas" }
+  },
+  "hammer": {
+    "name": "Marteau",
+    "formation": "Un petit corps en haut de la bougie, une longue mèche basse (traditionnellement au moins le double du corps) et peu ou pas de mèche haute, après une baisse.",
+    "reading": "Les vendeurs ont nettement fait baisser le cours pendant la période, mais les acheteurs l’ont racheté jusque près de l’ouverture. On y lit traditionnellement un possible retournement haussier.",
+    "confirmation": "Une clôture plus haute sur la bougie suivante ; certains traders veulent aussi un volume plus élevé.",
+    "failure": "Si le cours passe sous le plus bas du marteau, la défense des acheteurs a échoué.",
+    "aka": ["hammer"],
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 60 % des cas" }
+  },
+  "hanging-man": {
+    "name": "Pendu",
+    "formation": "La même forme qu’un marteau (petit corps en haut, longue mèche basse), mais après une hausse.",
+    "reading": "Les vendeurs ont réussi à faire baisser fortement le cours pendant la période : un signe que la pression acheteuse faiblit peut-être. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "Une clôture plus basse sur la bougie suivante.",
+    "failure": "Cette figure échoue souvent : la tendance haussière continue fréquemment, tout simplement.",
+    "aka": ["hanging man"],
+    "tested": { "theory": "Retournement baissier", "result": "poursuite haussière dans 59 % des cas" }
+  },
+  "inverted-hammer": {
+    "name": "Marteau inversé",
+    "formation": "Un petit corps en bas de la bougie, avec une longue mèche haute et peu ou pas de mèche basse, après une baisse.",
+    "reading": "Les acheteurs ont essayé de faire monter le cours, sans réussir à garder les gains. Après une baisse, on y lit traditionnellement un premier signe que les acheteurs testent des cours plus élevés.",
+    "confirmation": "On exige en général une clôture plus haute sur la bougie suivante avant d’en tirer quoi que ce soit.",
+    "failure": "Sans confirmation, la baisse continue souvent.",
+    "aka": ["inverted hammer"],
+    "tested": { "theory": "Retournement haussier", "result": "poursuite baissière dans 65 % des cas" }
+  },
+  "shooting-star": {
+    "name": "Étoile filante",
+    "formation": "Un petit corps en bas de la bougie, avec une longue mèche haute et peu ou pas de mèche basse, après une hausse.",
+    "reading": "Les acheteurs ont fait monter le cours, mais les vendeurs ont pris le dessus et l’ont ramené près de l’ouverture. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "Une clôture plus basse sur la bougie suivante.",
+    "failure": "Si le cours clôture au-dessus du plus haut de l’étoile filante, le rejet a échoué.",
+    "aka": ["shooting star"],
+    "tested": { "theory": "Retournement baissier", "result": "retournement baissier dans 59 % des cas" }
+  },
+  "bullish-engulfing": {
+    "name": "Avalement haussier",
+    "formation": "Deux bougies après une baisse : une bougie baissière suivie d’une bougie haussière dont le corps recouvre (avale) entièrement le premier corps.",
+    "reading": "Les vendeurs avaient le contrôle, puis les acheteurs ont pris la main de façon nette. On y lit traditionnellement un possible retournement haussier.",
+    "confirmation": "De nouveaux gains sur la ou les bougies suivantes.",
+    "failure": "Si le cours repasse sous le plus bas de la figure, le retournement a échoué.",
+    "aka": ["bullish engulfing"],
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 63 % des cas" }
+  },
+  "bearish-engulfing": {
+    "name": "Avalement baissier",
+    "formation": "Deux bougies après une hausse : une bougie haussière suivie d’une bougie baissière dont le corps recouvre entièrement le premier corps.",
+    "reading": "Les acheteurs avaient le contrôle, puis les vendeurs ont pris la main de façon nette. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "De nouvelles pertes sur la ou les bougies suivantes.",
+    "failure": "Si le cours remonte au-dessus du plus haut de la figure, le retournement a échoué.",
+    "aka": ["bearish engulfing"],
+    "tested": { "theory": "Retournement baissier", "result": "retournement baissier dans 79 % des cas" }
+  },
+  "bullish-harami": {
+    "name": "Harami haussier",
+    "formation": "Deux bougies après une baisse : une longue bougie baissière suivie d’une petite bougie haussière dont le corps se trouve à l’intérieur du premier corps. (« Harami » signifie « enceinte » en japonais.)",
+    "reading": "Les fortes ventes marquent une pause. On y lit traditionnellement un possible retournement haussier, mais plus faible qu’un avalement.",
+    "confirmation": "Une clôture au-dessus du corps de la première bougie.",
+    "failure": "Souvent, la pause n’est qu’un répit avant que la baisse ne reprenne.",
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 53 % des cas" }
+  },
+  "bearish-harami": {
+    "name": "Harami baissier",
+    "formation": "Deux bougies après une hausse : une longue bougie haussière suivie d’une petite bougie baissière dont le corps se trouve à l’intérieur du premier corps.",
+    "reading": "Les forts achats marquent une pause. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "Une clôture sous le corps de la première bougie.",
+    "failure": "Souvent, la tendance haussière continue simplement après la pause.",
+    "tested": { "theory": "Retournement baissier", "result": "poursuite haussière dans 53 % des cas" }
+  },
+  "harami-cross": {
+    "name": "Croix harami",
+    "formation": "Un harami dont la seconde bougie est un doji, situé dans le corps d’une longue première bougie. Montré ici après une baisse (version haussière) ; la version baissière apparaît après une hausse.",
+    "reading": "Un long mouvement est suivi d’une indécision totale. On y lit traditionnellement un indice de retournement plus fort qu’un harami classique.",
+    "confirmation": "Un mouvement franc dans le sens opposé à celui de la première bougie.",
+    "failure": "L’indécision se résout fréquemment dans la direction initiale.",
+    "aka": ["harami cross"],
+    "tested": { "theory": "Retournement haussier", "result": "poursuite baissière dans 55 % des cas" }
+  },
+  "piercing-line": {
+    "name": "Ligne pénétrante",
+    "formation": "Deux bougies après une baisse : une longue bougie baissière, puis une bougie haussière qui ouvre sous le plus bas de la première et clôture au-dessus du milieu du premier corps.",
+    "reading": "Une ouverture faible a été suivie d’achats vigoureux qui ont effacé plus de la moitié de la perte précédente. On y lit traditionnellement un possible retournement haussier.",
+    "confirmation": "De nouveaux gains, idéalement une clôture au-dessus de l’ouverture de la première bougie.",
+    "failure": "Si les bougies suivantes repassent sous le plus bas de la seconde, la figure a échoué.",
+    "aka": ["figure pénétrante", "piercing line"],
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 64 % des cas" }
+  },
+  "dark-cloud-cover": {
+    "name": "Couverture en nuage noir",
+    "formation": "Deux bougies après une hausse : une longue bougie haussière, puis une bougie baissière qui ouvre au-dessus du plus haut de la première et clôture sous le milieu du premier corps.",
+    "reading": "Une ouverture forte a été suivie de ventes massives qui ont effacé plus de la moitié du gain précédent. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "De nouvelles pertes, idéalement une clôture sous l’ouverture de la première bougie.",
+    "failure": "Si le cours remonte au-dessus du plus haut de la seconde bougie, la figure a échoué.",
+    "aka": ["dark cloud cover"],
+    "tested": { "theory": "Retournement baissier", "result": "retournement baissier dans 60 % des cas" }
+  },
+  "morning-star": {
+    "name": "Étoile du matin",
+    "formation": "Trois bougies après une baisse : une longue bougie baissière, une petite bougie (l’« étoile ») qui cote plus bas, puis une longue bougie haussière qui clôture bien à l’intérieur du corps de la première.",
+    "reading": "Des ventes, puis une hésitation, puis des achats vigoureux. On y lit traditionnellement un possible retournement haussier.",
+    "confirmation": "La troisième bougie est elle-même la confirmation ; certains traders veulent aussi qu’elle ait un volume plus élevé.",
+    "failure": "Une chute sous le plus bas de l’étoile annule la lecture.",
+    "aka": ["morning star"],
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 78 % des cas" }
+  },
+  "evening-star": {
+    "name": "Étoile du soir",
+    "formation": "Trois bougies après une hausse : une longue bougie haussière, une petite bougie (l’« étoile ») qui cote plus haut, puis une longue bougie baissière qui clôture bien à l’intérieur du corps de la première.",
+    "reading": "Des achats, puis une hésitation, puis des ventes vigoureuses. On y lit traditionnellement un possible retournement baissier.",
+    "confirmation": "La troisième bougie est elle-même la confirmation.",
+    "failure": "Une hausse au-dessus du plus haut de l’étoile annule la lecture.",
+    "aka": ["evening star"],
+    "tested": { "theory": "Retournement baissier", "result": "retournement baissier dans 72 % des cas" }
+  },
+  "three-white-soldiers": {
+    "name": "Trois soldats blancs",
+    "formation": "Trois longues bougies haussières d’affilée, chacune ouvrant dans le corps précédent et clôturant près de son plus haut, après une baisse ou une période calme.",
+    "reading": "Des achats réguliers et persistants sur trois périodes. On y lit traditionnellement un fort signal haussier.",
+    "confirmation": "Une force qui se maintient ; une clôture sous le corps de la troisième bougie affaiblit le signal.",
+    "failure": "Après trois bougies fortes, le marché est souvent tendu et peut reculer.",
+    "aka": ["three white soldiers"],
+    "tested": { "theory": "Retournement haussier", "result": "retournement haussier dans 82 % des cas" }
+  },
+  "three-black-crows": {
+    "name": "Trois corbeaux noirs",
+    "formation": "Trois longues bougies baissières d’affilée, chacune ouvrant dans le corps précédent et clôturant près de son plus bas, après une hausse.",
+    "reading": "Des ventes régulières et persistantes sur trois périodes. On y lit traditionnellement un fort signal baissier.",
+    "confirmation": "Une faiblesse qui se maintient ; une clôture au-dessus du corps de la troisième bougie affaiblit le signal.",
+    "failure": "Après trois fortes bougies baissières, le marché peut être survendu et rebondir.",
+    "aka": ["three black crows"],
+    "tested": { "theory": "Retournement baissier", "result": "retournement baissier dans 78 % des cas" }
+  },
+  "tweezer-bottom": {
+    "name": "Creux en pince",
+    "formation": "Deux bougies (ou plus) après une baisse, avec (presque) le même plus bas.",
+    "reading": "Les vendeurs ont échoué deux fois au même cours : les traders y voient un support défendu.",
+    "confirmation": "Une clôture plus haute ensuite.",
+    "failure": "Une cassure sous le plus bas commun transforme le « support » en niveau raté.",
+    "aka": ["tweezer bottom"],
+    "tested": { "theory": "Retournement haussier", "result": "poursuite baissière dans 52 % des cas" }
+  },
+  "tweezer-top": {
+    "name": "Sommet en pince",
+    "formation": "Deux bougies (ou plus) après une hausse, avec (presque) le même plus haut.",
+    "reading": "Les acheteurs ont échoué deux fois au même cours : les traders y voient une résistance qui tient.",
+    "confirmation": "Une clôture plus basse ensuite.",
+    "failure": "Une cassure au-dessus du plus haut commun signifie que la résistance n’a pas tenu.",
+    "aka": ["tweezer top"],
+    "tested": { "theory": "Retournement baissier", "result": "poursuite haussière dans 56 % des cas" }
+  },
+  "inside-bar": {
+    "name": "Inside bar",
+    "formation": "Une bougie dont le plus haut et le plus bas se trouvent tous deux dans l’amplitude de la bougie précédente.",
+    "reading": "Le marché fait une pause et l’amplitude se resserre. Les traders observent de quel côté l’amplitude de la plus grande bougie est cassée en premier.",
+    "confirmation": "Une clôture au-delà du plus haut ou du plus bas de la première bougie (la plus grande).",
+    "failure": "Les cassures de zones étroites sont souvent fausses : le cours sort d’un côté, puis se retourne.",
+    "aka": ["barre intérieure"]
+  }
+}

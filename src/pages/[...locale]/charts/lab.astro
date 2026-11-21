@@ -6,9 +6,11 @@ export const getStaticPaths = () => localeParams();
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import ChartLab from '@/components/chartlab/ChartLab';
-import patterns from '../../../../content/candles.json';
+import patternsData from '../../../../content/candles.json';
+import { localizedPatterns } from '@/lib/translations';
 import { t } from '@/i18n';
 import { url } from '@/lib/url';
+const patterns = localizedPatterns(patternsData);
 ---
 
 <BaseLayout title={t('cl.title')} description={t('cl.lead')}>

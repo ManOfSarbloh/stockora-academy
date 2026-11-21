@@ -1,0 +1,199 @@
+{
+  "doji": {
+    "name": "Doji",
+    "formation": "Eröffnung und Schluss liegen (fast) gleich, der Körper ist also nur ein dünner Strich. Die Dochte können lang oder kurz sein.",
+    "reading": "Weder Käufer noch Verkäufer haben die Periode gewonnen: ein Zeichen von Unentschlossenheit. Nach einer langen, starken Bewegung lesen manche Trader das als Warnung, dass der Bewegung die Kraft ausgeht.",
+    "confirmation": "Die meisten Trader warten auf die nächste Kerze: Eine kräftige Bewegung weg vom Doji in eine Richtung sagt mehr als der Doji selbst.",
+    "failure": "Dojis sind sehr häufig. In einem ruhigen Markt oder auf kurzen Zeitrahmen bedeuten sie oft gar nichts."
+  },
+  "long-legged-doji": {
+    "name": "Langbeiniger Doji",
+    "formation": "Ein Doji mit langen Dochten auf beiden Seiten: Der Kurs lief weit nach oben und weit nach unten, schloss aber dort, wo er eröffnet hatte.",
+    "reading": "Starkes Tauziehen ohne Sieger. Gelesen als besonders große Unentschlossenheit.",
+    "confirmation": "Ein klarer Ausbruch über das Hoch oder unter das Tief des Doji.",
+    "failure": "Oft läuft der Kurs einfach in die ursprüngliche Richtung weiter, sobald die Unentschlossenheit vorbei ist.",
+    "tested": { "theory": "Unentschlossenheit", "result": "in 51 % der Fälle Fortsetzung nach oben" }
+  },
+  "dragonfly-doji": {
+    "name": "Libellen-Doji",
+    "formation": "Eröffnung, Schluss und Hoch liegen oben (fast) auf derselben Höhe; es gibt einen langen unteren Docht und kaum oder keinen oberen Docht.",
+    "reading": "Verkäufer drückten den Kurs nach unten, doch Käufer holten ihn bis zum Schluss ganz zurück. Nach einem Rückgang traditionell als mögliche Aufwärtswende gelesen.",
+    "confirmation": "Ein höherer Schlusskurs bei der nächsten Kerze.",
+    "failure": "Fällt die nächste Kerze unter das Tief des Libellen-Doji, ist die Abwehr tieferer Kurse gescheitert.",
+    "tested": { "theory": "Aufwärtswende in einem Rückgang, sonst Unentschlossenheit", "result": "in 50 % der Fälle Wende" }
+  },
+  "gravestone-doji": {
+    "name": "Grabstein-Doji",
+    "formation": "Eröffnung, Schluss und Tief liegen unten (fast) auf derselben Höhe; es gibt einen langen oberen Docht und kaum oder keinen unteren Docht.",
+    "reading": "Käufer trieben den Kurs nach oben, doch Verkäufer drückten ihn ganz zurück. Nach einem Anstieg traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Ein tieferer Schlusskurs bei der nächsten Kerze.",
+    "failure": "Schließt die nächste Kerze über dem Hoch des Grabstein-Doji, ist die Abwehr gescheitert und der Aufwärtstrend läuft weiter.",
+    "tested": { "theory": "Unentschlossenheit bis Abwärtswende (in Aufwärtstrends)", "result": "in 51 % der Fälle Abwärtswende" }
+  },
+  "spinning-top": {
+    "name": "Spinning Top",
+    "formation": "Ein kleiner Körper in der Mitte der Kerze, mit oberem und unterem Docht, die beide länger sind als der Körper.",
+    "reading": "Beide Seiten waren aktiv, aber keine hat die Kontrolle übernommen: Unentschlossenheit, ähnlich wie beim Doji, nur mit etwas größerem Körper.",
+    "confirmation": "Die Richtung der nächsten entschlossenen Kerze.",
+    "failure": "Spinning Tops gehören zu den häufigsten Kerzen; für sich allein sagen sie wenig aus.",
+    "tested": { "theory": "Unentschlossenheit", "result": "in 50 % der Fälle Wende" }
+  },
+  "marubozu": {
+    "name": "Marubozu",
+    "formation": "Ein langer Körper ohne (oder fast ohne) Dochte: Ein steigender Marubozu eröffnet am Tief und schließt am Hoch, ein fallender eröffnet am Hoch und schließt am Tief.",
+    "reading": "Eine Seite hatte vom ersten bis zum letzten Geschäft die Kontrolle. Traditionell als starker Schwung in Richtung des Körpers gelesen.",
+    "confirmation": "Eine Fortsetzung in dieselbe Richtung bei der nächsten Kerze.",
+    "failure": "Eine starke Kerze kann das Ende einer Bewegung markieren (ein letzter Schub an Käufen oder Verkäufen), danach dreht der Kurs.",
+    "aka": ["weißer Marubozu", "schwarzer Marubozu"],
+    "tested": { "theory": "Fortsetzung", "result": "in 56 % der Fälle Fortsetzung" }
+  },
+  "hammer": {
+    "name": "Hammer",
+    "formation": "Ein kleiner Körper oben in der Kerze, ein langer unterer Docht (traditionell mindestens doppelt so lang wie der Körper) und kaum oder kein oberer Docht, nach einem Rückgang.",
+    "reading": "Verkäufer drückten den Kurs während der Periode deutlich nach unten, doch Käufer kauften ihn bis nahe an die Eröffnung zurück. Traditionell als mögliche Aufwärtswende gelesen.",
+    "confirmation": "Ein höherer Schlusskurs bei der nächsten Kerze; manche Trader wollen zusätzlich höheres Volumen sehen.",
+    "failure": "Fällt der Kurs unter das Tief des Hammers, ist die Verteidigung der Käufer gescheitert.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 60 % der Fälle Aufwärtswende" }
+  },
+  "hanging-man": {
+    "name": "Hanging Man",
+    "formation": "Dieselbe Form wie ein Hammer (kleiner Körper oben, langer unterer Docht), aber nach einem Anstieg.",
+    "reading": "Verkäufer konnten den Kurs während der Periode weit nach unten drücken: ein Zeichen, dass der Kaufdruck nachlassen könnte. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Ein tieferer Schlusskurs bei der nächsten Kerze.",
+    "failure": "Dieses Muster scheitert oft: Der Aufwärtstrend läuft häufig einfach weiter.",
+    "tested": { "theory": "Abwärtswende", "result": "in 59 % der Fälle Fortsetzung nach oben" }
+  },
+  "inverted-hammer": {
+    "name": "Umgekehrter Hammer",
+    "formation": "Ein kleiner Körper unten in der Kerze, mit langem oberem Docht und kaum oder keinem unteren Docht, nach einem Rückgang.",
+    "reading": "Käufer versuchten, den Kurs nach oben zu treiben, konnten die Gewinne aber nicht halten. Nach einem Rückgang traditionell als erstes Zeichen gelesen, dass Käufer höhere Kurse testen.",
+    "confirmation": "Meist wird ein höherer Schlusskurs bei der nächsten Kerze verlangt, bevor man überhaupt etwas hineinliest.",
+    "failure": "Ohne Bestätigung geht der Rückgang oft weiter.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 65 % der Fälle Fortsetzung nach unten" }
+  },
+  "shooting-star": {
+    "name": "Sternschnuppe",
+    "formation": "Ein kleiner Körper unten in der Kerze, mit langem oberem Docht und kaum oder keinem unteren Docht, nach einem Anstieg.",
+    "reading": "Käufer trieben den Kurs höher, doch Verkäufer übernahmen und drückten ihn bis nahe an die Eröffnung zurück. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Ein tieferer Schlusskurs bei der nächsten Kerze.",
+    "failure": "Schließt der Kurs über dem Hoch der Sternschnuppe, ist die Abwehr gescheitert.",
+    "aka": ["Shooting Star"],
+    "tested": { "theory": "Abwärtswende", "result": "in 59 % der Fälle Abwärtswende" }
+  },
+  "bullish-engulfing": {
+    "name": "Bullisches Engulfing",
+    "formation": "Zwei Kerzen nach einem Rückgang: eine fallende Kerze, gefolgt von einer steigenden, deren Körper den ersten Körper vollständig überdeckt (umschließt).",
+    "reading": "Erst hatten die Verkäufer die Kontrolle, dann übernahmen die Käufer entschlossen. Traditionell als mögliche Aufwärtswende gelesen.",
+    "confirmation": "Weitere Gewinne bei der oder den folgenden Kerzen.",
+    "failure": "Fällt der Kurs wieder unter das Tief des Musters, ist die Wende gescheitert.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 63 % der Fälle Aufwärtswende" }
+  },
+  "bearish-engulfing": {
+    "name": "Bärisches Engulfing",
+    "formation": "Zwei Kerzen nach einem Anstieg: eine steigende Kerze, gefolgt von einer fallenden, deren Körper den ersten Körper vollständig überdeckt.",
+    "reading": "Erst hatten die Käufer die Kontrolle, dann übernahmen die Verkäufer entschlossen. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Weitere Verluste bei der oder den folgenden Kerzen.",
+    "failure": "Steigt der Kurs wieder über das Hoch des Musters, ist die Wende gescheitert.",
+    "tested": { "theory": "Abwärtswende", "result": "in 79 % der Fälle Abwärtswende" }
+  },
+  "bullish-harami": {
+    "name": "Bullisches Harami",
+    "formation": "Zwei Kerzen nach einem Rückgang: eine lange fallende Kerze, gefolgt von einer kleinen steigenden, deren Körper innerhalb des ersten Körpers liegt. („Harami“ ist Japanisch für schwanger.)",
+    "reading": "Das starke Verkaufen macht eine Pause. Traditionell als mögliche Aufwärtswende gelesen, allerdings schwächer als ein Engulfing.",
+    "confirmation": "Ein Schlusskurs über dem Körper der ersten Kerze.",
+    "failure": "Oft ist die Pause nur ein Luftholen, bevor der Rückgang weitergeht.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 53 % der Fälle Aufwärtswende" }
+  },
+  "bearish-harami": {
+    "name": "Bärisches Harami",
+    "formation": "Zwei Kerzen nach einem Anstieg: eine lange steigende Kerze, gefolgt von einer kleinen fallenden, deren Körper innerhalb des ersten Körpers liegt.",
+    "reading": "Das starke Kaufen macht eine Pause. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Ein Schlusskurs unter dem Körper der ersten Kerze.",
+    "failure": "Oft läuft der Aufwärtstrend nach der Pause einfach weiter.",
+    "tested": { "theory": "Abwärtswende", "result": "in 53 % der Fälle Fortsetzung nach oben" }
+  },
+  "harami-cross": {
+    "name": "Harami-Kreuz",
+    "formation": "Ein Harami, dessen zweite Kerze ein Doji ist, der im Körper einer langen ersten Kerze liegt. Hier nach einem Rückgang gezeigt (bullische Variante); die bärische Variante erscheint nach einem Anstieg.",
+    "reading": "Auf eine lange Bewegung folgt völlige Unentschlossenheit. Traditionell als stärkerer Hinweis auf eine Wende gelesen als ein normales Harami.",
+    "confirmation": "Eine entschlossene Bewegung entgegen der Richtung der ersten Kerze.",
+    "failure": "Die Unentschlossenheit löst sich häufig in die ursprüngliche Richtung auf.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 55 % der Fälle Fortsetzung nach unten" }
+  },
+  "piercing-line": {
+    "name": "Piercing Line",
+    "formation": "Zwei Kerzen nach einem Rückgang: eine lange fallende Kerze, dann eine steigende, die unter dem Tief der ersten Kerze eröffnet und über der Mitte des ersten Körpers schließt.",
+    "reading": "Auf eine schwache Eröffnung folgten starke Käufe, die mehr als die Hälfte des vorherigen Verlusts aufholten. Traditionell als mögliche Aufwärtswende gelesen.",
+    "confirmation": "Weitere Gewinne, am besten ein Schlusskurs über der Eröffnung der ersten Kerze.",
+    "failure": "Fallen die nächsten Kerzen wieder unter das Tief der zweiten Kerze, ist das Muster gescheitert.",
+    "aka": ["Piercing Pattern"],
+    "tested": { "theory": "Aufwärtswende", "result": "in 64 % der Fälle Aufwärtswende" }
+  },
+  "dark-cloud-cover": {
+    "name": "Dark Cloud Cover",
+    "formation": "Zwei Kerzen nach einem Anstieg: eine lange steigende Kerze, dann eine fallende, die über dem Hoch der ersten Kerze eröffnet und unter der Mitte des ersten Körpers schließt.",
+    "reading": "Auf eine starke Eröffnung folgten kräftige Verkäufe, die mehr als die Hälfte des vorherigen Gewinns auslöschten. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Weitere Verluste, am besten ein Schlusskurs unter der Eröffnung der ersten Kerze.",
+    "failure": "Erholt sich der Kurs über das Hoch der zweiten Kerze, ist das Muster gescheitert.",
+    "tested": { "theory": "Abwärtswende", "result": "in 60 % der Fälle Abwärtswende" }
+  },
+  "morning-star": {
+    "name": "Morgenstern",
+    "formation": "Drei Kerzen nach einem Rückgang: eine lange fallende Kerze, eine kleine Kerze (der „Stern“) weiter unten, dann eine lange steigende Kerze, die weit in den Körper der ersten Kerze hinein schließt.",
+    "reading": "Verkaufen, dann Zögern, dann starkes Kaufen. Traditionell als mögliche Aufwärtswende gelesen.",
+    "confirmation": "Die dritte Kerze ist selbst die Bestätigung; manche Trader wollen bei ihr zusätzlich höheres Volumen sehen.",
+    "failure": "Ein Fall unter das Tief des Sterns hebt die Deutung auf.",
+    "aka": ["Morning Star"],
+    "tested": { "theory": "Aufwärtswende", "result": "in 78 % der Fälle Aufwärtswende" }
+  },
+  "evening-star": {
+    "name": "Abendstern",
+    "formation": "Drei Kerzen nach einem Anstieg: eine lange steigende Kerze, eine kleine Kerze (der „Stern“) weiter oben, dann eine lange fallende Kerze, die weit in den Körper der ersten Kerze hinein schließt.",
+    "reading": "Kaufen, dann Zögern, dann starkes Verkaufen. Traditionell als mögliche Abwärtswende gelesen.",
+    "confirmation": "Die dritte Kerze ist selbst die Bestätigung.",
+    "failure": "Ein Anstieg über das Hoch des Sterns hebt die Deutung auf.",
+    "aka": ["Evening Star"],
+    "tested": { "theory": "Abwärtswende", "result": "in 72 % der Fälle Abwärtswende" }
+  },
+  "three-white-soldiers": {
+    "name": "Drei weiße Soldaten",
+    "formation": "Drei lange steigende Kerzen hintereinander, jede eröffnet innerhalb des vorherigen Körpers und schließt nahe ihrem Hoch, nach einem Rückgang oder einer ruhigen Phase.",
+    "reading": "Gleichmäßiges, beharrliches Kaufen über drei Perioden. Traditionell als starkes Aufwärtssignal gelesen.",
+    "confirmation": "Anhaltende Stärke; ein Schlusskurs unter dem Körper der dritten Kerze schwächt das Signal.",
+    "failure": "Nach drei starken Kerzen ist der Markt oft überdehnt und kann zurücksetzen.",
+    "aka": ["Three White Soldiers"],
+    "tested": { "theory": "Aufwärtswende", "result": "in 82 % der Fälle Aufwärtswende" }
+  },
+  "three-black-crows": {
+    "name": "Drei schwarze Krähen",
+    "formation": "Drei lange fallende Kerzen hintereinander, jede eröffnet innerhalb des vorherigen Körpers und schließt nahe ihrem Tief, nach einem Anstieg.",
+    "reading": "Gleichmäßiges, beharrliches Verkaufen über drei Perioden. Traditionell als starkes Abwärtssignal gelesen.",
+    "confirmation": "Anhaltende Schwäche; ein Schlusskurs über dem Körper der dritten Kerze schwächt das Signal.",
+    "failure": "Nach drei starken fallenden Kerzen kann der Markt überverkauft sein und zurückprallen.",
+    "aka": ["Three Black Crows"],
+    "tested": { "theory": "Abwärtswende", "result": "in 78 % der Fälle Abwärtswende" }
+  },
+  "tweezer-bottom": {
+    "name": "Tweezer Bottom",
+    "formation": "Zwei (oder mehr) Kerzen nach einem Rückgang mit (fast) demselben Tief.",
+    "reading": "Die Verkäufer sind zweimal am selben Kurs gescheitert: Trader lesen das als Unterstützung, die verteidigt wird.",
+    "confirmation": "Danach ein höherer Schlusskurs.",
+    "failure": "Ein Bruch unter das gemeinsame Tief macht aus der „Unterstützung“ eine gescheiterte Marke.",
+    "tested": { "theory": "Aufwärtswende", "result": "in 52 % der Fälle Fortsetzung nach unten" }
+  },
+  "tweezer-top": {
+    "name": "Tweezer Top",
+    "formation": "Zwei (oder mehr) Kerzen nach einem Anstieg mit (fast) demselben Hoch.",
+    "reading": "Die Käufer sind zweimal am selben Kurs gescheitert: Trader lesen das als Widerstand, der hält.",
+    "confirmation": "Danach ein tieferer Schlusskurs.",
+    "failure": "Ein Bruch über das gemeinsame Hoch bedeutet, dass der Widerstand nicht gehalten hat.",
+    "tested": { "theory": "Abwärtswende", "result": "in 56 % der Fälle Fortsetzung nach oben" }
+  },
+  "inside-bar": {
+    "name": "Inside Bar",
+    "formation": "Eine Kerze, deren Hoch und Tief beide innerhalb der Spanne der vorherigen Kerze liegen.",
+    "reading": "Der Markt macht eine Pause, die Spanne zieht sich zusammen. Trader beobachten, auf welcher Seite die Spanne der größeren Kerze zuerst gebrochen wird.",
+    "confirmation": "Ein Schlusskurs jenseits von Hoch oder Tief der ersten (größeren) Kerze.",
+    "failure": "Ausbrüche aus engen Spannen sind oft falsch: Der Kurs bricht auf einer Seite aus und dreht dann."
+  }
+}

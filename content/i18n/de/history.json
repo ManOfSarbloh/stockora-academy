@@ -1,0 +1,312 @@
+{
+  "bruges-beurse": {
+    "date": "13.–15. Jahrhundert",
+    "title": "Kaufleute treffen sich im Gasthaus Ter Buerse in Brügge",
+    "what": "In Brügge führte die Familie Van der Buerse fünf Generationen lang das Gasthaus Ter Buerse; Robrecht Van der Buerse betrieb es schon 1285. Im Lauf des 14. Jahrhunderts wurde der Platz davor, der Beursplein, zum Handels- und Finanzzentrum der Stadt, wo sich ausländische Kaufleute täglich zu Geschäften trafen.",
+    "why": "Der Name der Familie und die drei Geldbeutel (beurzen) in ihrem Wappen gaben vielen Sprachen ihr Wort für eine Börse: beurs, bourse, Börse.",
+    "lesson": "Märkte begannen als Treffpunkte mit Gebräuchen statt schriftlicher Regeln. Regeln, Aufsicht und Transparenz kamen erst viel später.",
+    "links": [
+      "Wie eine Börse funktioniert"
+    ]
+  },
+  "voc-1602": {
+    "date": "1602",
+    "title": "Die Niederländische Ostindien-Kompanie (VOC) und die Amsterdamer Börse",
+    "what": "Die VOC wurde das erste Unternehmen, das an der Amsterdamer Börse gehandelt wurde, die Euronext als älteste Börse der Welt bezeichnet.",
+    "why": "Anteile an einem Unternehmen konnten nun von vielen Menschen auf einem regelmäßigen Markt gekauft und verkauft werden: die Grundidee heutiger Aktienmärkte.",
+    "lesson": "Dass du deinen Anteil an jemand anderen verkaufen kannst, ohne dass das Unternehmen dich auszahlen muss, ist das, was einen Aktienmarkt funktionieren lässt.",
+    "links": [
+      "Niederlande: Aktienmarkt"
+    ]
+  },
+  "tulipmania": {
+    "date": "1630er-Jahre (Höhepunkt 1637)",
+    "title": "Tulpenmanie: eine echte Blase, ein viel größerer Mythos",
+    "what": "In der Niederländischen Republik der 1630er-Jahre stiegen die Preise seltener Tulpenzwiebeln stark an und brachen 1637 ein.",
+    "why": "Die Tulpenmanie ist die berühmteste „Blasen“-Geschichte und wird oft als landesweiter Rausch erzählt, der viele Menschen ruiniert habe.",
+    "lesson": "Prüfe die Quelle einer berühmten Geschichte. Historische Mythen können die falsche Lehre vermitteln.",
+    "myth": {
+      "myth": "Die Tulpenmanie erfasste das ganze Land, und ihr Zusammenbruch ruinierte viele Familien und die niederländische Wirtschaft.",
+      "fact": "Archivforschung der Historikerin Anne Goldgar (University of Chicago Press, 2007) zeigt: Es gab eine spekulative Blase bei Tulpenpreisen, doch weder ihr Höhepunkt noch ihr Platzen war auch nur annähernd so dramatisch, wie es die populären Darstellungen behaupten."
+    },
+    "links": [
+      "Blasen und Manien: wie sie wachsen und wie sie platzen"
+    ]
+  },
+  "london-1698": {
+    "date": "1698",
+    "title": "Eine Kursliste aus einem Londoner Kaffeehaus",
+    "what": "In Jonathan's Coffee House in London begann John Castaing, eine Liste mit Aktien- und Warenpreisen herauszugeben: „The Course of the Exchange and other things“.",
+    "why": "Veröffentlichte Kurse ließen auch Menschen außerhalb des Raums sehen, was Aktien wert waren: eine frühe Form von Marktdaten.",
+    "lesson": "Transparente Preise sind ein öffentliches Gut. Ein Markt, in dem nur Insider die Preise kennen, lässt sich leicht missbrauchen.",
+    "links": [
+      "Vereinigtes Königreich: Aktienmarkt"
+    ]
+  },
+  "south-sea-1720": {
+    "date": "1720",
+    "title": "Die Südseeblase",
+    "what": "Die South Sea Company, 1711 in London gegründet, übernahm einen großen Teil der britischen Staatsschulden. Spekulanten zahlten überhöhte Preise für ihre Aktien, und 1720 brach das Unternehmen spektakulär zusammen.",
+    "why": "Einer der ersten großen Börsencrashs, gebaut auf ein Unternehmen, dessen versprochener Handel den Aktienkurs nie rechtfertigte.",
+    "lesson": "Eine gute Geschichte über künftige Gewinne ist nicht dasselbe wie Gewinne. Wenn alle kaufen, weil die Kurse steigen, kann der Fall genauso schnell kommen.",
+    "links": [
+      "Blasen und Manien: wie sie wachsen und wie sie platzen"
+    ]
+  },
+  "vienna-1771": {
+    "date": "1771",
+    "title": "Maria Theresia gründet die Wiener Börse",
+    "what": "Kaiserin Maria Theresia gründete die Wiener Börse 1771, ursprünglich um Kapital für den Staat zu beschaffen; gehandelt wurden zunächst Anleihen, Wechsel und Währungen. Die erste Aktie auf ihrem Kurszettel war 1818 die der österreichischen Notenbank.",
+    "why": "Österreichs Börse gehört zu den ältesten der Welt und ist bis heute die Heimat des ATX.",
+    "lesson": "Börsen begannen oft als Weg, Staaten zu finanzieren; Aktien kamen später.",
+    "links": [
+      "Österreich: Aktienmarkt",
+      "Wie eine Börse funktioniert"
+    ]
+  },
+  "buttonwood-1792": {
+    "date": "17. Mai 1792",
+    "title": "Das Buttonwood Agreement in New York",
+    "what": "24 Börsenmakler unterzeichneten am 17. Mai 1792 das Buttonwood Agreement. 1817 gaben sie sich eine Satzung und gründeten das New York Stock & Exchange Board, den Vorläufer der heutigen NYSE.",
+    "why": "Der Anfang dessen, was zur größten Börse der Welt wurde.",
+    "lesson": "Märkte brauchen vereinbarte Regeln: wer handeln darf, zu welchen Bedingungen und zu welchen Kosten.",
+    "links": [
+      "Vereinigte Staaten: Aktienmarkt"
+    ]
+  },
+  "ticker-1867": {
+    "date": "15. November 1867",
+    "title": "Der Börsenticker",
+    "what": "Edward Calahans Börsenticker druckte Aktienkurse auf Papierstreifen und machte aktuelle Kurse über Telegrafenleitungen verfügbar.",
+    "why": "Zum ersten Mal konnten Anleger fern vom Parkett die Kurse fast in Echtzeit verfolgen.",
+    "lesson": "Schnellere Informationen verändern Märkte und verschaffen dem einen Vorteil, der sie zuerst bekommt.",
+    "links": [
+      "Handelszeiten"
+    ]
+  },
+  "vienna-crash-1873": {
+    "date": "9. Mai 1873",
+    "title": "Der Wiener Börsenkrach",
+    "what": "Der Krach vom 9. Mai 1873 beendete den Boom der österreichischen Gründerzeit; etwa die Hälfte der börsennotierten Unternehmen verschwand. Danach folgte das Börsegesetz von 1875.",
+    "why": "Ein Krach im eigenen Land: Österreichs eigene Lektion über Spekulation und ihre Folgen.",
+    "lesson": "Eine Erholung kann Jahrzehnte dauern, und einzelne Unternehmen erholen sich vielleicht nie. Streuung ist der wichtigste Schutz.",
+    "links": [
+      "Wien 1873 und Japan 1989: wenn die Erholung Jahrzehnte dauert"
+    ]
+  },
+  "crash-1929": {
+    "date": "28.–29. Oktober 1929",
+    "title": "Der Crash von 1929 und die Große Depression",
+    "what": "Nachdem sich der Dow in den 1920er-Jahren, angetrieben von geliehenem Geld, versechsfacht hatte, begann mit dem Schwarzen Montag (28. Oktober) und dem Schwarzen Dienstag (29. Oktober) ein Fall um 89 % bis Juli 1932. Erst im November 1954 erreichte der Dow sein Kursniveau wieder.",
+    "why": "Zusammen mit Wellen von Bankpleiten wurde der Crash zu einer jahrzehntelangen wirtschaftlichen Katastrophe.",
+    "lesson": "Hebel macht aus einem fallenden Markt den Ruin. Selbst der breite Markt kann beim Kurs Jahrzehnte brauchen, um sich zu erholen.",
+    "links": [
+      "Der Crash von 1929 und die Große Depression"
+    ]
+  },
+  "sec-1934": {
+    "date": "1933–1934",
+    "title": "Wertpapiergesetze und die SEC",
+    "what": "Nach Untersuchungen des Crashs verabschiedete der US-Kongress den Securities Act von 1933 und im Jahr darauf den Securities Exchange Act von 1934, mit dem die Securities and Exchange Commission (SEC) gegründet wurde.",
+    "why": "Unternehmen, die Aktien öffentlich verkauften, mussten nun Informationen offenlegen, und die Märkte bekamen eine dauerhafte Aufsicht.",
+    "lesson": "Offenlegungsregeln und Aufsicht gibt es, weil Märkte ohne sie gescheitert sind. Nutze sie: Lies die Unterlagen und prüfe, mit wem du es zu tun hast.",
+    "links": [
+      "Regulierung, Recht & Ethik"
+    ]
+  },
+  "nasdaq-1971": {
+    "date": "8. Februar 1971",
+    "title": "Nasdaq: Kurse auf Computerbildschirmen",
+    "what": "Das System National Association of Securities Dealers Automated Quotations (NASDAQ) startete am 8. Februar 1971 und ermöglichte Market Makern in außerbörslich gehandelten Aktien, ihre Geld- und Briefkurse elektronisch zu aktualisieren.",
+    "why": "Der Beginn des Wechsels vom Parkett zum Bildschirm, über den heute fast der gesamte Handel läuft.",
+    "lesson": "Was eine Börse ausmacht, sind ihre Regeln und Systeme, nicht ein Gebäude.",
+    "links": [
+      "Wo Aktien gehandelt werden: Börsen, MTFs, Dark Pools und OTC"
+    ]
+  },
+  "index-fund-1976": {
+    "date": "1976",
+    "title": "Indexfonds für Privatanleger",
+    "what": "Vanguard brachte seinen First Index Investment Trust (heute Vanguard 500 Index Fund) auf den Markt und bot Privatanlegern günstiges, breit gestreutes Indexinvestieren an.",
+    "why": "Einen ganzen Markt günstig zu besitzen, statt einzelne Aktien auszuwählen, wurde für normale Sparer möglich.",
+    "lesson": "Kosten und Streuung kannst du steuern; Gewinner auswählen kannst du nicht.",
+    "links": [
+      "Aktiv oder passiv investieren?"
+    ]
+  },
+  "big-bang-1986": {
+    "date": "1986",
+    "title": "Londons „Big Bang“",
+    "what": "Der britische Aktienmarkt wurde im „Big Bang“ von 1986 dereguliert.",
+    "why": "Er öffnete Londons Markt für mehr Wettbewerb und modernen Handel und prägte seine Rolle als globales Finanzzentrum.",
+    "lesson": "Marktregeln ändern sich mit der Zeit, und mit ihnen, wer handeln kann und zu welchen Kosten.",
+    "links": [
+      "Vereinigtes Königreich: Aktienmarkt"
+    ]
+  },
+  "black-monday-1987": {
+    "date": "19. Oktober 1987",
+    "title": "Der Schwarze Montag",
+    "what": "Der Dow fiel an einem Tag um 22,6 %, der größte Tagesverlust seiner Geschichte. Schnelle Kursgewinne davor, schlechte Nachrichten, automatische Verkäufe (Portfolio-Insurance) und Probleme in der technischen Infrastruktur des Marktes kamen zusammen.",
+    "why": "Die Federal Reserve stellte Liquidität bereit; es gab keine Rezession, und die US-Märkte erreichten ihre Höchststände von vor dem Crash in weniger als zwei Jahren wieder. Danach wurden Handelsunterbrechungen (Circuit Breakers) eingeführt.",
+    "lesson": "Crashs können plötzlich kommen und trotzdem nicht das Ende der Welt sein. Wer am Tiefpunkt in Panik verkauft, macht den Verlust endgültig.",
+    "links": [
+      "Schwarzer Montag 1987: der größte Tagesverlust"
+    ]
+  },
+  "nikkei-1989": {
+    "date": "Ende 1989",
+    "title": "Japans Blase erreicht ihren Höhepunkt",
+    "what": "Der Nikkei 225 beendete 1989 mit dem Rekord von 38.915 Punkten. Erst am 22. Februar 2024, mehr als 34 Jahre später, schloss er wieder über diesem Stand.",
+    "why": "Der Beweis, dass ein ganzer entwickelter Markt jahrzehntelang unter seinem Höchststand bleiben kann.",
+    "lesson": "„Aktien erholen sich immer schnell“ ist kein Gesetz. Streue über Länder, nicht nur über Unternehmen.",
+    "links": [
+      "Wien 1873 und Japan 1989: wenn die Erholung Jahrzehnte dauert",
+      "Japan: Aktienmarkt"
+    ]
+  },
+  "first-etf-1990": {
+    "date": "1990",
+    "title": "Der erste ETF der Welt, in Toronto",
+    "what": "Der Toronto 35 Index Participation Fund, 1990 an der Toronto Stock Exchange aufgelegt, wird von der TMX Group als erster börsengehandelter Fonds der Welt bezeichnet.",
+    "why": "Mit ETFs können Anleger einen ganzen Index mit einem einzigen Kauf an der Börse erwerben, heute ein verbreiteter Weg zu investieren.",
+    "lesson": "Eine gute Produktidee kann das Investieren für Millionen verändern, doch jeden ETF musst du trotzdem prüfen: Index, Kosten, Aufbau.",
+    "links": [
+      "Wie ETFs funktionieren",
+      "Kanada: Aktienmarkt"
+    ]
+  },
+  "atx-1991": {
+    "date": "2. Jänner 1991",
+    "title": "Österreichs Index ATX startet",
+    "what": "Der ATX (Austrian Traded Index) startete am 2. Jänner 1991 mit 1.000 Punkten.",
+    "why": "Österreichs Leitindex, verwendet in Nachrichten, Fonds und Derivaten.",
+    "lesson": "Ein Index ist eine Zusammenfassung ausgewählter Aktien, nicht „der Markt“ selbst.",
+    "links": [
+      "Was ein Index ist und wie er gebaut wird",
+      "Österreich: Aktienmarkt"
+    ]
+  },
+  "euro-1999": {
+    "date": "1. Jänner 1999",
+    "title": "Der Euro wird eingeführt",
+    "what": "Der Euro wurde 1999 die Währung Österreichs und anderer EU-Länder; das Euro-Bargeld folgte am 1. Jänner 2002 und ersetzte nationale Banknoten und Münzen wie den österreichischen Schilling.",
+    "why": "Aktien im ganzen Euroraum werden nun in derselben Währung bewertet, österreichische Anleger tragen bei ihnen also kein Währungsrisiko.",
+    "lesson": "Die Währung zählt: Außerhalb des Euroraums können Wechselkurse deine Rendite erhöhen oder auffressen.",
+    "links": [
+      "Währungen: wie Wechselkurse deine Renditen verändern"
+    ]
+  },
+  "dot-com-2000": {
+    "date": "März 2000",
+    "title": "Die Dotcom-Blase platzt",
+    "what": "Der Internet-Optimismus der späten 1990er-Jahre trieb die Bewertungen von Technologieunternehmen auf extreme Höhen. Der Nasdaq erreichte im März 2000 seinen Höchststand und fiel bis Jahresende um 44,7 %; der S&P 500 fiel 2000, 2001 und 2002.",
+    "why": "Das Internet hat die Welt tatsächlich verändert, aber wer zu Blasenpreisen kaufte, verlor viel.",
+    "lesson": "Eine großartige Geschichte rechtfertigt nicht jeden Preis. Am meisten litten Anleger, die alles auf wenige Werte gesetzt hatten.",
+    "links": [
+      "Die Dotcom-Blase (1995–2002)"
+    ]
+  },
+  "decimals-2001": {
+    "date": "9. April 2001",
+    "title": "US-Aktienkurse wechseln von Brüchen zu Dezimalzahlen",
+    "what": "Auf Anordnung der SEC führten die US-Märkte von September 2000 bis 9. April 2001 schrittweise Dezimalkurse ein. Der kleinste Kursschritt bei Aktien sank von 1/16 Dollar auf einen Cent.",
+    "why": "Kleinere Kursschritte ermöglichen engere Spreads, das senkt die Handelskosten für Anleger.",
+    "lesson": "Marktdetails wie Tickgrößen beeinflussen, was du zahlst, auch wenn du es nie bemerkst.",
+    "links": [
+      "Tickgrößen, Mindestschlüsse und Börsengebühren"
+    ]
+  },
+  "crisis-2008": {
+    "date": "2007–2009",
+    "title": "Die globale Finanzkrise",
+    "what": "Riskante, zu Wertpapieren gebündelte Hypotheken bereiteten die Krise vor; als die US-Hauspreise fielen, breiteten sich die Verluste im ganzen Finanzsystem aus. Der S&P 500 fiel von Oktober 2007 bis März 2009 um 57 %.",
+    "why": "Die Notenbanken senkten die Zinsen fast auf null und kauften in großem Stil Anleihen; danach wurden die Bankenregeln verschärft.",
+    "lesson": "Hebel und falsch eingeschätzte „sichere“ Anlagen können aus einem Einbruch am Immobilienmarkt eine weltweite Krise machen.",
+    "links": [
+      "Die globale Finanzkrise 2007–2009"
+    ]
+  },
+  "flash-crash-2010": {
+    "date": "6. Mai 2010",
+    "title": "Der Flash Crash",
+    "what": "Die großen US-Indizes, die schon mehr als 4 % im Minus lagen, stürzten innerhalb von Minuten um weitere 5–6 % ab und erholten sich fast ebenso schnell. Über 20.000 Geschäfte in mehr als 300 Wertpapieren wurden mehr als 60 % von ihren Kursen kurz davor entfernt ausgeführt, manche zu einem Cent, andere zu bis zu 100.000 Dollar.",
+    "why": "Fachleute von SEC und CFTC führten ihn auf einen großen automatischen Verkaufsauftrag zurück, der schnell in einem Markt ausgeführt wurde, dessen Liquidität bereits dünner wurde.",
+    "lesson": "Market Orders können in einer Panik zu absurden Kursen ausgeführt werden. Eine Limit-Order legt den schlechtesten Kurs fest, den du akzeptierst.",
+    "links": [
+      "Hochfrequenzhandel",
+      "Market Orders und Limit-Orders"
+    ]
+  },
+  "stock-connect-2014": {
+    "date": "17. November 2014",
+    "title": "Stock Connect verbindet Hongkong und Shanghai",
+    "what": "Shanghai–Hong Kong Stock Connect startete und ermöglichte Anlegern in jedem der beiden Märkte, über ihre eigenen Broker Aktien zu handeln, die am jeweils anderen Markt notiert sind; Shenzhen folgte 2016.",
+    "why": "Der wichtigste Weg für internationale Anleger zu Aktien vom chinesischen Festland.",
+    "lesson": "Der Zugang zu einem Markt kann mit Sonderregeln verbunden sein: Kontingente, Beteiligungsgrenzen, eine andere Abwicklung.",
+    "links": [
+      "China (Festland): Aktienmarkt",
+      "Wie du Zugang zu ausländischen Aktienmärkten bekommst"
+    ]
+  },
+  "covid-2020": {
+    "date": "Februar–März 2020",
+    "title": "Der COVID-19-Crash",
+    "what": "US-Aktien fielen von ihrem Höchststand im Februar 2020 bis zum 23. März 2020 um 34 %; Handelsunterbrechungen stoppten den Handel dreimal. Die Fed senkte die Zinsen fast auf null und kaufte in großem Stil Anleihen.",
+    "why": "Einer der schnellsten Crashs und eine der schnellsten Erholungen überhaupt: Der S&P 500 legte 2020 einschließlich Dividenden trotzdem 18 % zu.",
+    "lesson": "Schnelle Erholungen sind möglich, aber nicht garantiert. Es kommt auf die Ursache und die Reaktion der Politik an.",
+    "links": [
+      "Der COVID-19-Crash 2020: schnellster Absturz, schnelle Erholung"
+    ]
+  },
+  "gamestop-2021": {
+    "date": "Jänner 2021",
+    "title": "GameStop und der Meme-Aktien-Boom",
+    "what": "Der Aktienkurs von GameStop stieg in etwa zwei Wochen um mehr als 1.600 % und fiel dann stark. Fachleute der SEC kamen zu dem Schluss, dass positive Stimmung und nicht das Eindecken von Leerverkäufen den Anstieg trug; einige Broker schränkten am 28. Jänner den Handel ein.",
+    "why": "Soziale Medien, App-Broker und Optionshandel zeigten, wie schnell eine Menge von Privatanlegern eine Aktie bewegen kann.",
+    "lesson": "Kursbewegungen bei Meme-Aktien sind spekulativ und können schnell kippen. Investiere in einen Hype kein Geld, dessen Verlust du dir nicht leisten kannst.",
+    "links": [
+      "GameStop 2021: die Episode der Meme-Aktie"
+    ]
+  },
+  "rates-2022": {
+    "date": "2022",
+    "title": "Die Zinsen steigen wieder",
+    "what": "Wegen der hohen Inflation erhöhten die Notenbanken die Zinsen. Am 21. Juli 2022 hob die EZB ihre Leitzinsen um 50 Basispunkte an, die erste Erhöhung seit 2011. In Damodarans US-Daten fielen 2022 sowohl Aktien als auch Anleihen.",
+    "why": "Höhere Zinsen machen Anleihen und Sparen attraktiver und drücken den Wert künftiger Gewinne, deshalb können Aktien und Anleihen gemeinsam fallen.",
+    "lesson": "Anleihen federn fallende Aktien nicht immer ab. Streuung senkt das Risiko, beseitigt es aber nicht.",
+    "links": [
+      "Warum Zinsen für Aktienkurse so wichtig sind"
+    ]
+  },
+  "t1-2024": {
+    "date": "27.–28. Mai 2024",
+    "title": "Nordamerika stellt auf Abwicklung am nächsten Tag um (T+1)",
+    "what": "Kanada stellte am 27. Mai 2024 auf T+1-Abwicklung um, die Vereinigten Staaten am 28. Mai 2024: Geschäfte werden nun einen Geschäftstag nach dem Handelstag abgewickelt.",
+    "why": "Eine kürzere Abwicklung senkt das Risiko, dass eine Seite eines Geschäfts ausfällt, bevor es abgeschlossen ist.",
+    "lesson": "Dein Geld oder deine Aktien kommen eine feste Zahl von Tagen nach dem Handel an. Kenne den Zyklus, bevor du einen Verkauf planst.",
+    "links": [
+      "Clearing und Settlement: was nach einem Geschäft passiert"
+    ]
+  },
+  "nasdaq-23-5": {
+    "date": "6. Dezember 2026 (geplant)",
+    "title": "Nasdaq plant Handel an 23 Stunden am Tag",
+    "what": "Nasdaq hat eine Nachtsitzung von 21 Uhr bis 4 Uhr US-Ostküstenzeit angesetzt, die am 6. Dezember 2026 starten soll; damit entsteht fast durchgehender Handel an fünf Tagen pro Woche.",
+    "why": "Anleger auf der ganzen Welt könnten US-Aktien zu ihrer eigenen Tageszeit handeln.",
+    "lesson": "Dass du zu jeder Stunde handeln kannst, heißt nicht, dass du es solltest: Nachtsitzungen sind meist dünn, mit größeren Spreads.",
+    "links": [
+      "Auf dem Weg zum 24-Stunden-Handel"
+    ]
+  },
+  "eu-t1-2027": {
+    "date": "11. Oktober 2027 (geplant)",
+    "title": "EU, Vereinigtes Königreich und Schweiz stellen auf T+1 um",
+    "what": "Die EU will die Abwicklung am 11. Oktober 2027 von zwei Geschäftstagen auf einen verkürzen; das Vereinigte Königreich und die Schweiz planen denselben Termin.",
+    "why": "Österreichische Aktien und die meisten europäischen Geschäfte werden dann einen Geschäftstag nach dem Handel abgewickelt.",
+    "lesson": "Regeln ändern sich laufend. Prüfe Abwicklungszeiten und andere Marktdetails in offiziellen Quellen.",
+    "links": [
+      "Clearing und Settlement: was nach einem Geschäft passiert"
+    ]
+  }
+}

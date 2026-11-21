@@ -1,0 +1,312 @@
+{
+  "bruges-beurse": {
+    "date": "XIIIe–XVe siècle",
+    "title": "Les marchands se retrouvent à l’auberge Ter Buerse, à Bruges",
+    "what": "À Bruges, la famille Van der Buerse a tenu l’auberge Ter Buerse pendant cinq générations ; Robrecht Van der Buerse l’exploitait déjà en 1285. Au cours du XIVe siècle, la place devant l’auberge, le Beursplein, est devenue le centre commercial et financier de la ville, où les marchands étrangers se retrouvaient chaque jour pour faire des affaires.",
+    "why": "Le nom de la famille, et les trois bourses (beurzen) de ses armoiries, ont donné à de nombreuses langues leur mot pour une place boursière : beurs, bourse, Börse.",
+    "lesson": "Les marchés sont nés comme des lieux de rencontre régis par des usages plutôt que par des règles écrites. Règles, supervision et transparence sont venues bien plus tard.",
+    "links": [
+      "Comment fonctionne une Bourse"
+    ]
+  },
+  "voc-1602": {
+    "date": "1602",
+    "title": "La Compagnie néerlandaise des Indes orientales (VOC) et la Bourse d’Amsterdam",
+    "what": "La VOC a été la première société négociée à la Bourse d’Amsterdam, qu’Euronext présente comme la plus ancienne bourse du monde.",
+    "why": "Les parts d’une même société pouvaient désormais être achetées et vendues par de nombreuses personnes sur un marché régulier : l’idée de base des marchés boursiers d’aujourd’hui.",
+    "lesson": "Pouvoir revendre sa part à quelqu’un d’autre, sans que la société ait à vous rembourser, c’est ce qui fait fonctionner un marché d’actions.",
+    "links": [
+      "Pays-Bas : marché boursier"
+    ]
+  },
+  "tulipmania": {
+    "date": "Années 1630 (sommet en 1637)",
+    "title": "La tulipomanie : une vraie bulle, un mythe bien plus grand",
+    "what": "Dans la République des Provinces-Unies des années 1630, les prix des bulbes de tulipes rares ont fortement monté avant de s’effondrer en 1637.",
+    "why": "La tulipomanie est l’histoire de « bulle » la plus célèbre, souvent racontée comme une frénésie nationale qui aurait ruiné beaucoup de gens.",
+    "lesson": "Vérifiez la source d’une histoire célèbre. Les mythes historiques peuvent enseigner la mauvaise leçon.",
+    "myth": {
+      "myth": "La tulipomanie a gagné tout le pays et son krach a ruiné de nombreuses familles et l’économie néerlandaise.",
+      "fact": "Les recherches d’archives de l’historienne Anne Goldgar (University of Chicago Press, 2007) montrent qu’il y a bien eu une bulle spéculative sur les prix des tulipes, mais ni son sommet ni son éclatement n’ont été aussi spectaculaires que le prétendent les récits populaires."
+    },
+    "links": [
+      "Bulles et manies : comment elles gonflent et comment elles éclatent"
+    ]
+  },
+  "london-1698": {
+    "date": "1698",
+    "title": "Une liste de cours dans un café londonien",
+    "what": "Au Jonathan's Coffee House, à Londres, John Castaing a commencé à publier une liste de cours d’actions et de marchandises, « The Course of the Exchange and other things ».",
+    "why": "Les cours publiés permettaient à ceux qui n’étaient pas dans la salle de savoir ce que valaient les actions : une forme précoce de données de marché.",
+    "lesson": "Des prix transparents sont un bien public. Un marché où seuls les initiés connaissent les prix se prête facilement aux abus.",
+    "links": [
+      "Royaume-Uni : marché boursier"
+    ]
+  },
+  "south-sea-1720": {
+    "date": "1720",
+    "title": "La bulle des mers du Sud",
+    "what": "La South Sea Company, fondée à Londres en 1711, a repris une grande partie de la dette publique britannique. Les spéculateurs ont payé ses actions à des prix gonflés, et la société s’est effondrée de façon spectaculaire en 1720.",
+    "why": "L’un des premiers grands krachs boursiers, bâti sur une société dont le commerce promis n’a jamais justifié le cours de l’action.",
+    "lesson": "Une belle histoire sur des profits futurs n’est pas la même chose que des profits. Quand tout le monde achète parce que les cours montent, la chute peut être tout aussi rapide.",
+    "links": [
+      "Bulles et manies : comment elles gonflent et comment elles éclatent"
+    ]
+  },
+  "vienna-1771": {
+    "date": "1771",
+    "title": "Marie-Thérèse fonde la Bourse de Vienne",
+    "what": "L’impératrice Marie-Thérèse a fondé la Wiener Börse en 1771, à l’origine pour aider l’État à lever des capitaux ; on y négociait d’abord des obligations, des lettres de change et des devises. La première action cotée fut celle de la banque centrale autrichienne, en 1818.",
+    "why": "La bourse autrichienne est l’une des plus anciennes du monde et reste la maison de l’ATX.",
+    "lesson": "Les bourses ont souvent commencé comme un moyen de financer les États ; les actions sont venues ensuite.",
+    "links": [
+      "Autriche : marché boursier",
+      "Comment fonctionne une Bourse"
+    ]
+  },
+  "buttonwood-1792": {
+    "date": "17 mai 1792",
+    "title": "L’accord de Buttonwood à New York",
+    "what": "24 courtiers ont signé l’accord de Buttonwood le 17 mai 1792. En 1817, ils ont adopté une constitution créant le New York Stock & Exchange Board, l’ancêtre de l’actuel NYSE.",
+    "why": "Le début de ce qui est devenu la plus grande bourse du monde.",
+    "lesson": "Les marchés ont besoin de règles convenues : qui peut négocier, à quelles conditions et à quel coût.",
+    "links": [
+      "États-Unis : marché boursier"
+    ]
+  },
+  "ticker-1867": {
+    "date": "15 novembre 1867",
+    "title": "Le téléscripteur boursier",
+    "what": "Le téléscripteur d’Edward Calahan imprimait les cours des actions sur une bande de papier et rendait les prix à la minute disponibles par les lignes télégraphiques.",
+    "why": "Pour la première fois, des investisseurs loin de la corbeille pouvaient suivre les cours presque en direct.",
+    "lesson": "Une information plus rapide change les marchés et donne un avantage à qui la reçoit en premier.",
+    "links": [
+      "Horaires"
+    ]
+  },
+  "vienna-crash-1873": {
+    "date": "9 mai 1873",
+    "title": "Le krach de Vienne",
+    "what": "Le krach du 9 mai 1873 a mis fin au boom de la Gründerzeit en Autriche ; environ la moitié des sociétés cotées ont disparu. La loi sur la Bourse de 1875 a suivi.",
+    "why": "Un krach à domicile : la propre leçon de l’Autriche sur la spéculation et ses conséquences.",
+    "lesson": "Une reprise peut prendre des décennies, et certaines sociétés ne se rétablissent jamais. La diversification est la principale protection.",
+    "links": [
+      "Vienne 1873 et le Japon 1989 : quand la reprise prend des décennies"
+    ]
+  },
+  "crash-1929": {
+    "date": "28–29 octobre 1929",
+    "title": "Le krach de 1929 et la Grande Dépression",
+    "what": "Après une multiplication par six du Dow dans les années 1920, alimentée par l’argent emprunté, le lundi noir (28 octobre) et le mardi noir (29 octobre) ont lancé une chute de 89 % jusqu’en juillet 1932. Le Dow n’a retrouvé son niveau de cours qu’en novembre 1954.",
+    "why": "Associé à des vagues de faillites bancaires, le krach est devenu une catastrophe économique longue d’une décennie.",
+    "lesson": "L’effet de levier transforme un marché en baisse en ruine. Même le marché dans son ensemble peut mettre des décennies à retrouver son cours.",
+    "links": [
+      "Le krach de 1929 et la Grande Dépression"
+    ]
+  },
+  "sec-1934": {
+    "date": "1933–1934",
+    "title": "Les lois sur les valeurs mobilières et la SEC",
+    "what": "Après avoir enquêté sur le krach, le Congrès américain a adopté le Securities Act de 1933 puis, l’année suivante, le Securities Exchange Act de 1934, qui a créé la Securities and Exchange Commission (SEC).",
+    "why": "Les sociétés vendant des actions au public devaient désormais publier des informations, et les marchés ont obtenu un régulateur permanent.",
+    "lesson": "Les règles de transparence et la supervision existent parce que les marchés sans elles ont échoué. Servez-vous-en : lisez les documents et vérifiez à qui vous avez affaire.",
+    "links": [
+      "Réglementation, droit et éthique"
+    ]
+  },
+  "nasdaq-1971": {
+    "date": "8 février 1971",
+    "title": "Le Nasdaq : des cotations sur écrans d’ordinateur",
+    "what": "Le système National Association of Securities Dealers Automated Quotations (NASDAQ) a démarré le 8 février 1971 ; il permettait aux teneurs de marché sur les actions de gré à gré de mettre à jour électroniquement leurs prix acheteur et vendeur.",
+    "why": "Le début du passage de la corbeille aux écrans, par lesquels passe aujourd’hui presque toute la négociation.",
+    "lesson": "Ce qui fait une bourse, ce sont ses règles et ses systèmes, pas un bâtiment.",
+    "links": [
+      "Où se négocient les actions : Bourses, SMN, dark pools et gré à gré"
+    ]
+  },
+  "index-fund-1976": {
+    "date": "1976",
+    "title": "Des fonds indiciels pour les particuliers",
+    "what": "Vanguard a lancé son First Index Investment Trust (aujourd’hui Vanguard 500 Index Fund), offrant aux particuliers un investissement indiciel peu coûteux et largement diversifié.",
+    "why": "Posséder tout un marché à faible coût, au lieu de choisir des actions une à une, est devenu possible pour les épargnants ordinaires.",
+    "lesson": "Les frais et la diversification, vous pouvez les maîtriser ; choisir les gagnants, non.",
+    "links": [
+      "Investir de façon active ou passive ?"
+    ]
+  },
+  "big-bang-1986": {
+    "date": "1986",
+    "title": "Le « Big Bang » de Londres",
+    "what": "Le marché boursier britannique a été déréglementé lors du « Big Bang » de 1986.",
+    "why": "Il a ouvert le marché londonien à davantage de concurrence et à la négociation moderne, façonnant son rôle de centre financier mondial.",
+    "lesson": "Les règles du marché changent avec le temps, et avec elles qui peut négocier et à quel coût.",
+    "links": [
+      "Royaume-Uni : marché boursier"
+    ]
+  },
+  "black-monday-1987": {
+    "date": "19 octobre 1987",
+    "title": "Le lundi noir",
+    "what": "Le Dow a chuté de 22,6 % en une journée, la plus forte baisse quotidienne de son histoire. Des hausses rapides, de mauvaises nouvelles, des ventes automatiques (assurance de portefeuille) et des problèmes dans l’infrastructure technique du marché se sont combinés.",
+    "why": "La Réserve fédérale a fourni des liquidités ; il n’y a pas eu de récession, et les marchés américains ont retrouvé leurs sommets d’avant le krach en moins de deux ans. Des coupe-circuits (circuit breakers) ont été introduits ensuite.",
+    "lesson": "Un krach peut être soudain sans être la fin du monde. Vendre dans la panique au plus bas rend la perte définitive.",
+    "links": [
+      "Le lundi noir de 1987 : la plus forte baisse en une journée"
+    ]
+  },
+  "nikkei-1989": {
+    "date": "Fin 1989",
+    "title": "La bulle japonaise atteint son sommet",
+    "what": "Le Nikkei 225 a terminé 1989 au record de 38 915 points. Il n’a de nouveau clôturé au-dessus de ce niveau que le 22 février 2024, plus de 34 ans plus tard.",
+    "why": "La preuve qu’un marché développé tout entier peut rester sous son sommet pendant des décennies.",
+    "lesson": "« Les actions se redressent toujours vite » n’est pas une loi. Diversifiez entre pays, pas seulement entre sociétés.",
+    "links": [
+      "Vienne 1873 et le Japon 1989 : quand la reprise prend des décennies",
+      "Japon : marché boursier"
+    ]
+  },
+  "first-etf-1990": {
+    "date": "1990",
+    "title": "Le premier ETF du monde, à Toronto",
+    "what": "Le Toronto 35 Index Participation Fund, créé à la Bourse de Toronto en 1990, est présenté par TMX Group comme le premier fonds négocié en bourse du monde.",
+    "why": "Les ETF permettent d’acheter tout un indice en une seule opération en bourse, aujourd’hui une façon courante d’investir.",
+    "lesson": "Une bonne idée de produit peut changer l’investissement pour des millions de personnes, mais chaque ETF doit tout de même être vérifié : indice, frais, structure.",
+    "links": [
+      "Comment fonctionnent les ETF",
+      "Canada : marché boursier"
+    ]
+  },
+  "atx-1991": {
+    "date": "2 janvier 1991",
+    "title": "Lancement de l’indice autrichien ATX",
+    "what": "L’ATX (Austrian Traded Index) a été lancé le 2 janvier 1991 à 1 000 points.",
+    "why": "L’indice phare de l’Autriche, utilisé dans l’actualité, les fonds et les produits dérivés.",
+    "lesson": "Un indice est un résumé d’actions sélectionnées, pas « le marché » lui-même.",
+    "links": [
+      "Ce qu'est un indice et comment il est construit",
+      "Autriche : marché boursier"
+    ]
+  },
+  "euro-1999": {
+    "date": "1er janvier 1999",
+    "title": "L’euro est introduit",
+    "what": "L’euro est devenu la monnaie de l’Autriche et d’autres pays de l’UE en 1999 ; les espèces en euros ont suivi le 1er janvier 2002, remplaçant les billets et pièces nationaux comme le schilling autrichien.",
+    "why": "Les actions de toute la zone euro sont désormais cotées dans la même monnaie, de sorte que les investisseurs autrichiens n’y supportent aucun risque de change.",
+    "lesson": "La monnaie compte : hors de la zone euro, les taux de change s’ajoutent à vos rendements ou les grignotent.",
+    "links": [
+      "Les devises : comment les taux de change modifient vos rendements"
+    ]
+  },
+  "dot-com-2000": {
+    "date": "Mars 2000",
+    "title": "La bulle internet éclate",
+    "what": "L’optimisme de la fin des années 1990 autour d’internet a porté les valorisations technologiques à des niveaux extrêmes. Le Nasdaq a culminé en mars 2000 et chuté de 44,7 % d’ici la fin de l’année ; le S&P 500 a baissé en 2000, 2001 et 2002.",
+    "why": "Internet a bel et bien changé le monde, mais ceux qui ont acheté aux prix de la bulle ont lourdement perdu.",
+    "lesson": "Une belle histoire ne justifie pas n’importe quel prix. Les investisseurs les plus concentrés ont le plus souffert.",
+    "links": [
+      "La bulle Internet (1995–2002)"
+    ]
+  },
+  "decimals-2001": {
+    "date": "9 avril 2001",
+    "title": "Les cours américains passent des fractions aux décimales",
+    "what": "Sur ordre de la SEC, les marchés américains ont introduit progressivement la cotation décimale de septembre 2000 au 9 avril 2001. Le plus petit pas de cotation des actions est passé de 1/16 de dollar à un cent.",
+    "why": "Des pas de cotation plus petits permettent des écarts plus serrés, ce qui réduit les coûts de négociation des investisseurs.",
+    "lesson": "Des détails de marché comme le pas de cotation influent sur ce que vous payez, même si vous ne le remarquez jamais.",
+    "links": [
+      "Pas de cotation, quotités et frais de Bourse"
+    ]
+  },
+  "crisis-2008": {
+    "date": "2007–2009",
+    "title": "La crise financière mondiale",
+    "what": "Des prêts hypothécaires risqués, regroupés en titres, ont préparé la crise ; quand les prix de l’immobilier américain ont baissé, les pertes se sont propagées dans tout le système financier. Le S&P 500 a chuté de 57 % entre octobre 2007 et mars 2009.",
+    "why": "Les banques centrales ont abaissé leurs taux presque à zéro et acheté massivement des obligations ; les règles bancaires ont ensuite été durcies.",
+    "lesson": "L’effet de levier et des actifs « sûrs » mal évalués peuvent transformer un recul immobilier en crise mondiale.",
+    "links": [
+      "La crise financière mondiale de 2007–2009"
+    ]
+  },
+  "flash-crash-2010": {
+    "date": "6 mai 2010",
+    "title": "Le flash crash",
+    "what": "Les grands indices américains, déjà en baisse de plus de 4 %, ont encore plongé de 5 à 6 % en quelques minutes avant de rebondir presque aussi vite. Plus de 20 000 transactions sur plus de 300 titres ont été exécutées à plus de 60 % de leurs cours d’un instant plus tôt, certaines à un cent, d’autres jusqu’à 100 000 dollars.",
+    "why": "Les services de la SEC et de la CFTC l’ont attribué à un gros ordre de vente automatisé, exécuté rapidement sur un marché dont la liquidité s’amenuisait déjà.",
+    "lesson": "Dans la panique, les ordres au marché peuvent être exécutés à des prix absurdes. Un ordre à cours limité fixe le pire prix que vous acceptez.",
+    "links": [
+      "Le trading à haute fréquence",
+      "Ordres au marché et ordres à cours limité"
+    ]
+  },
+  "stock-connect-2014": {
+    "date": "17 novembre 2014",
+    "title": "Stock Connect relie Hong Kong et Shanghai",
+    "what": "Shanghai–Hong Kong Stock Connect a démarré, permettant aux investisseurs de chaque marché de négocier, par leurs propres courtiers, des actions cotées sur l’autre ; Shenzhen a suivi en 2016.",
+    "why": "La principale voie d’accès des investisseurs internationaux aux actions de Chine continentale.",
+    "lesson": "L’accès à un marché peut s’accompagner de règles particulières : quotas, plafonds de détention, règlement différent.",
+    "links": [
+      "Chine (continentale) : marché boursier",
+      "Comment accéder aux bourses étrangères"
+    ]
+  },
+  "covid-2020": {
+    "date": "Février–mars 2020",
+    "title": "Le krach du COVID-19",
+    "what": "Les actions américaines ont chuté de 34 % entre leur sommet de février 2020 et le 23 mars 2020 ; les coupe-circuits ont interrompu la négociation trois fois. La Fed a abaissé ses taux presque à zéro et acheté massivement des obligations.",
+    "why": "L’un des krachs et des rebonds les plus rapides jamais enregistrés : le S&P 500 dividendes compris a tout de même gagné 18 % en 2020.",
+    "lesson": "Des reprises rapides sont possibles, mais pas garanties. La cause et la réponse des pouvoirs publics comptent.",
+    "links": [
+      "Le krach du COVID-19 en 2020 : la chute la plus rapide, le rebond rapide"
+    ]
+  },
+  "gamestop-2021": {
+    "date": "Janvier 2021",
+    "title": "GameStop et l’engouement pour les actions mèmes",
+    "what": "L’action GameStop a bondi de plus de 1 600 % en deux semaines environ, puis a fortement chuté. Les services de la SEC ont conclu que c’est le sentiment positif, et non le rachat de positions vendeuses, qui a soutenu la hausse ; certains courtiers ont restreint la négociation le 28 janvier.",
+    "why": "Les réseaux sociaux, les courtiers sur appli et le trading d’options ont montré à quelle vitesse une foule d’investisseurs particuliers peut faire bouger une action.",
+    "lesson": "Les mouvements des actions mèmes sont spéculatifs et peuvent s’inverser vite. N’investissez pas dans un engouement de l’argent que vous ne pouvez pas vous permettre de perdre.",
+    "links": [
+      "GameStop 2021 : l'épisode des « meme stocks »"
+    ]
+  },
+  "rates-2022": {
+    "date": "2022",
+    "title": "Les taux d’intérêt remontent",
+    "what": "Face à une forte inflation, les banques centrales ont relevé leurs taux. Le 21 juillet 2022, la BCE a relevé ses taux directeurs de 50 points de base, sa première hausse depuis 2011. Dans les données américaines de Damodaran, les actions comme les obligations ont baissé en 2022.",
+    "why": "Des taux plus élevés rendent les obligations et l’épargne plus attrayantes et réduisent la valeur des profits futurs : actions et obligations peuvent donc baisser ensemble.",
+    "lesson": "Les obligations n’amortissent pas toujours la baisse des actions. La diversification réduit le risque ; elle ne le supprime pas.",
+    "links": [
+      "Pourquoi les taux d'intérêt comptent autant pour les cours des actions"
+    ]
+  },
+  "t1-2024": {
+    "date": "27–28 mai 2024",
+    "title": "L’Amérique du Nord passe au règlement le lendemain (T+1)",
+    "what": "Le Canada est passé au règlement T+1 le 27 mai 2024 et les États-Unis le 28 mai 2024 : les transactions sont désormais réglées un jour ouvré après la date de négociation.",
+    "why": "Un règlement plus court réduit le risque qu’une des parties fasse défaut avant que la transaction ne soit achevée.",
+    "lesson": "Votre argent ou vos actions arrivent un nombre fixe de jours après la transaction. Connaissez le cycle avant de prévoir une vente.",
+    "links": [
+      "Compensation et règlement-livraison : ce qui se passe après une transaction"
+    ]
+  },
+  "nasdaq-23-5": {
+    "date": "6 décembre 2026 (prévu)",
+    "title": "Le Nasdaq prévoit une négociation 23 heures sur 24",
+    "what": "Le Nasdaq a programmé une séance de nuit de 21 h à 4 h, heure de l’Est des États-Unis, qui doit démarrer le 6 décembre 2026, créant une négociation quasi continue cinq jours par semaine.",
+    "why": "Des investisseurs du monde entier pourraient négocier des actions américaines pendant leur propre journée.",
+    "lesson": "Pouvoir négocier à toute heure ne veut pas dire qu’il faut le faire : les séances de nuit sont souvent peu liquides, avec des écarts plus larges.",
+    "links": [
+      "Vers une négociation 24 heures sur 24"
+    ]
+  },
+  "eu-t1-2027": {
+    "date": "11 octobre 2027 (prévu)",
+    "title": "L’UE, le Royaume-Uni et la Suisse passent au T+1",
+    "what": "L’UE doit raccourcir le délai de règlement de deux jours ouvrés à un le 11 octobre 2027 ; le Royaume-Uni et la Suisse prévoient la même date.",
+    "why": "Les actions autrichiennes et la plupart des transactions européennes seront alors réglées un jour ouvré après la négociation.",
+    "lesson": "Les règles continuent de changer. Vérifiez les délais de règlement et les autres détails du marché auprès de sources officielles.",
+    "links": [
+      "Compensation et règlement-livraison : ce qui se passe après une transaction"
+    ]
+  }
+}

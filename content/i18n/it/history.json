@@ -1,0 +1,312 @@
+{
+  "bruges-beurse": {
+    "date": "XIII–XV secolo",
+    "title": "I mercanti si incontrano alla locanda Ter Buerse di Bruges",
+    "what": "A Bruges la famiglia Van der Buerse gestì la locanda Ter Buerse per cinque generazioni; Robrecht Van der Buerse la conduceva già nel 1285. Nel corso del Trecento la piazza antistante, il Beursplein, divenne il centro commerciale e finanziario della città, dove i mercanti stranieri si incontravano ogni giorno per fare affari.",
+    "why": "Il nome della famiglia e le tre borse (beurzen) del suo stemma hanno dato a molte lingue la parola per indicare un mercato di borsa: beurs, bourse, Börse.",
+    "lesson": "I mercati sono nati come luoghi d’incontro regolati da consuetudini più che da norme scritte. Regole, vigilanza e trasparenza sono arrivate molto più tardi.",
+    "links": [
+      "Come funziona una Borsa"
+    ]
+  },
+  "voc-1602": {
+    "date": "1602",
+    "title": "La Compagnia olandese delle Indie orientali (VOC) e la borsa di Amsterdam",
+    "what": "La VOC fu la prima società negoziata alla borsa di Amsterdam, che Euronext descrive come la borsa più antica del mondo.",
+    "why": "Le quote di una stessa società potevano ora essere comprate e vendute da molte persone in un mercato regolare: l’idea di base delle borse di oggi.",
+    "lesson": "Poter vendere la propria quota a qualcun altro, senza che la società debba restituirti i soldi, è ciò che fa funzionare un mercato azionario.",
+    "links": [
+      "Paesi Bassi: mercato azionario"
+    ]
+  },
+  "tulipmania": {
+    "date": "Anni 1630 (picco nel 1637)",
+    "title": "La tulipomania: una bolla vera, un mito molto più grande",
+    "what": "Nella Repubblica delle Sette Province Unite degli anni 1630 i prezzi dei bulbi di tulipano rari salirono molto e crollarono nel 1637.",
+    "why": "La tulipomania è la storia di «bolla» più famosa, spesso raccontata come una frenesia nazionale che avrebbe rovinato molte persone.",
+    "lesson": "Controlla la fonte di una storia famosa. I miti storici possono insegnare la lezione sbagliata.",
+    "myth": {
+      "myth": "La tulipomania travolse tutto il paese e il suo crollo rovinò molte famiglie e l’economia olandese.",
+      "fact": "Le ricerche d’archivio della storica Anne Goldgar (University of Chicago Press, 2007) mostrano che ci fu una bolla speculativa sui prezzi dei tulipani, ma né il suo picco né il suo scoppio furono lontanamente drammatici come sostengono i racconti popolari."
+    },
+    "links": [
+      "Bolle e manie: come crescono e come scoppiano"
+    ]
+  },
+  "london-1698": {
+    "date": "1698",
+    "title": "Un listino prezzi da un caffè di Londra",
+    "what": "Al Jonathan's Coffee House di Londra, John Castaing iniziò a pubblicare un elenco di prezzi di azioni e merci, «The Course of the Exchange and other things».",
+    "why": "I prezzi pubblicati permettevano anche a chi era fuori dalla sala di vedere quanto valevano le azioni: una prima forma di dati di mercato.",
+    "lesson": "I prezzi trasparenti sono un bene pubblico. Un mercato in cui solo gli addetti ai lavori conoscono i prezzi si presta facilmente agli abusi.",
+    "links": [
+      "Regno Unito: mercato azionario"
+    ]
+  },
+  "south-sea-1720": {
+    "date": "1720",
+    "title": "La bolla dei Mari del Sud",
+    "what": "La South Sea Company, fondata a Londra nel 1711, si fece carico di gran parte del debito pubblico britannico. Gli speculatori pagarono prezzi gonfiati per le sue azioni e nel 1720 la società crollò in modo clamoroso.",
+    "why": "Uno dei primi grandi crolli di borsa, costruito su una società il cui commercio promesso non giustificò mai il prezzo delle azioni.",
+    "lesson": "Una bella storia sui profitti futuri non equivale ai profitti. Quando tutti comprano perché i prezzi salgono, la caduta può essere altrettanto rapida.",
+    "links": [
+      "Bolle e manie: come crescono e come scoppiano"
+    ]
+  },
+  "vienna-1771": {
+    "date": "1771",
+    "title": "Maria Teresa fonda la Borsa di Vienna",
+    "what": "L’imperatrice Maria Teresa fondò la Wiener Börse nel 1771, in origine per aiutare lo Stato a raccogliere capitali; all’inizio si negoziavano obbligazioni, cambiali e valute. La prima azione del suo listino fu quella della banca centrale austriaca, nel 1818.",
+    "why": "La borsa austriaca è una delle più antiche del mondo ed è ancora la casa dell’ATX.",
+    "lesson": "Le borse sono nate spesso come modo per finanziare gli Stati; le azioni sono arrivate dopo.",
+    "links": [
+      "Austria: mercato azionario",
+      "Come funziona una Borsa"
+    ]
+  },
+  "buttonwood-1792": {
+    "date": "17 maggio 1792",
+    "title": "Il Buttonwood Agreement a New York",
+    "what": "24 agenti di cambio firmarono il Buttonwood Agreement il 17 maggio 1792. Nel 1817 adottarono uno statuto che creò il New York Stock & Exchange Board, precursore dell’attuale NYSE.",
+    "why": "L’inizio di quella che sarebbe diventata la più grande borsa del mondo.",
+    "lesson": "I mercati hanno bisogno di regole concordate: chi può negoziare, a quali condizioni e a quale costo.",
+    "links": [
+      "Stati Uniti: mercato azionario"
+    ]
+  },
+  "ticker-1867": {
+    "date": "15 novembre 1867",
+    "title": "Il ticker di borsa",
+    "what": "Il ticker di Edward Calahan stampava i prezzi delle azioni su un nastro di carta e rendeva disponibili prezzi aggiornati al minuto tramite le linee telegrafiche.",
+    "why": "Per la prima volta gli investitori lontani dal parterre potevano seguire i prezzi quasi in tempo reale.",
+    "lesson": "Informazioni più veloci cambiano i mercati e danno un vantaggio a chi le riceve per primo.",
+    "links": [
+      "Orari"
+    ]
+  },
+  "vienna-crash-1873": {
+    "date": "9 maggio 1873",
+    "title": "Il crollo di Vienna",
+    "what": "Il crollo del 9 maggio 1873 pose fine al boom austriaco della Gründerzeit; scomparve circa la metà delle società quotate. Seguì la legge sulla borsa del 1875.",
+    "why": "Un crollo in casa: la lezione tutta austriaca sulla speculazione e sulle sue conseguenze.",
+    "lesson": "La ripresa può richiedere decenni, e alcune società potrebbero non riprendersi mai. La diversificazione è la difesa principale.",
+    "links": [
+      "Vienna 1873 e Giappone 1989: quando la ripresa richiede decenni"
+    ]
+  },
+  "crash-1929": {
+    "date": "28–29 ottobre 1929",
+    "title": "Il crollo del 1929 e la Grande Depressione",
+    "what": "Dopo che negli anni Venti il Dow si era moltiplicato per sei, spinto dal denaro preso a prestito, il Lunedì nero (28 ottobre) e il Martedì nero (29 ottobre) diedero il via a una discesa dell’89% fino a luglio 1932. Il Dow tornò al suo livello di prezzo solo nel novembre 1954.",
+    "why": "Insieme a ondate di fallimenti bancari, il crollo divenne una catastrofe economica durata un decennio.",
+    "lesson": "La leva trasforma un mercato in calo in rovina. Anche il mercato nel suo insieme può impiegare decenni per recuperare il prezzo.",
+    "links": [
+      "Il crollo del 1929 e la Grande depressione"
+    ]
+  },
+  "sec-1934": {
+    "date": "1933–1934",
+    "title": "Le leggi sui titoli e la SEC",
+    "what": "Dopo aver indagato sul crollo, il Congresso degli Stati Uniti approvò il Securities Act del 1933 e, l’anno seguente, il Securities Exchange Act del 1934, che istituì la Securities and Exchange Commission (SEC).",
+    "why": "Le società che vendevano azioni al pubblico dovevano ora fornire informazioni, e i mercati ebbero un’autorità di vigilanza permanente.",
+    "lesson": "Le regole di trasparenza e la vigilanza esistono perché i mercati senza di esse hanno fallito. Usale: leggi i documenti e verifica con chi hai a che fare.",
+    "links": [
+      "Regolamentazione, diritto ed etica"
+    ]
+  },
+  "nasdaq-1971": {
+    "date": "8 febbraio 1971",
+    "title": "Nasdaq: quotazioni sugli schermi dei computer",
+    "what": "Il sistema National Association of Securities Dealers Automated Quotations (NASDAQ) partì l’8 febbraio 1971 e permise ai market maker di azioni fuori borsa di aggiornare per via elettronica i loro prezzi denaro e lettera.",
+    "why": "L’inizio del passaggio dal parterre agli schermi, da cui oggi passa quasi tutta la negoziazione.",
+    "lesson": "Ciò che fa una borsa sono le sue regole e i suoi sistemi, non un edificio.",
+    "links": [
+      "Dove si negoziano le azioni: Borse, MTF, dark pool e fuori Borsa"
+    ]
+  },
+  "index-fund-1976": {
+    "date": "1976",
+    "title": "Fondi indicizzati per i risparmiatori",
+    "what": "Vanguard lanciò il suo First Index Investment Trust (oggi Vanguard 500 Index Fund), offrendo ai privati un investimento indicizzato economico e ampiamente diversificato.",
+    "why": "Possedere un intero mercato a basso costo, invece di scegliere singole azioni, divenne possibile per i risparmiatori comuni.",
+    "lesson": "Costi e diversificazione li puoi controllare; scegliere i vincitori no.",
+    "links": [
+      "Investimento attivo o passivo?"
+    ]
+  },
+  "big-bang-1986": {
+    "date": "1986",
+    "title": "Il «Big Bang» di Londra",
+    "what": "Il mercato azionario britannico fu deregolamentato con il «Big Bang» del 1986.",
+    "why": "Aprì il mercato londinese a più concorrenza e alla negoziazione moderna, plasmandone il ruolo di centro finanziario globale.",
+    "lesson": "Le regole del mercato cambiano nel tempo, e con esse chi può negoziare e a quale costo.",
+    "links": [
+      "Regno Unito: mercato azionario"
+    ]
+  },
+  "black-monday-1987": {
+    "date": "19 ottobre 1987",
+    "title": "Il Lunedì nero",
+    "what": "Il Dow perse il 22,6% in un giorno, il maggior calo giornaliero della sua storia. Si combinarono rialzi rapidi, cattive notizie, vendite automatiche (portfolio insurance) e problemi nell’infrastruttura tecnica del mercato.",
+    "why": "La Federal Reserve fornì liquidità; non ci fu recessione e i mercati statunitensi tornarono ai massimi pre-crollo in meno di due anni. In seguito furono introdotti i circuit breaker.",
+    "lesson": "I crolli possono essere improvvisi senza essere la fine del mondo. Vendere in preda al panico sul minimo rende la perdita definitiva.",
+    "links": [
+      "Il lunedì nero del 1987: il più grande crollo in un giorno"
+    ]
+  },
+  "nikkei-1989": {
+    "date": "Fine 1989",
+    "title": "La bolla giapponese tocca il picco",
+    "what": "Il Nikkei 225 chiuse il 1989 al record di 38.915 punti. Tornò a chiudere sopra quel livello solo il 22 febbraio 2024, più di 34 anni dopo.",
+    "why": "La prova che un intero mercato sviluppato può restare sotto il suo massimo per decenni.",
+    "lesson": "«Le azioni si riprendono sempre in fretta» non è una legge. Diversifica tra paesi, non solo tra società.",
+    "links": [
+      "Vienna 1873 e Giappone 1989: quando la ripresa richiede decenni",
+      "Giappone: mercato azionario"
+    ]
+  },
+  "first-etf-1990": {
+    "date": "1990",
+    "title": "Il primo ETF del mondo, a Toronto",
+    "what": "Il Toronto 35 Index Participation Fund, creato alla Borsa di Toronto nel 1990, è descritto da TMX Group come il primo fondo negoziato in borsa del mondo.",
+    "why": "Gli ETF permettono di comprare un intero indice con un’unica operazione in borsa, oggi un modo comune di investire.",
+    "lesson": "Una buona idea di prodotto può cambiare l’investimento per milioni di persone, ma ogni ETF va comunque verificato: indice, costi, struttura.",
+    "links": [
+      "Come funzionano gli ETF",
+      "Canada: mercato azionario"
+    ]
+  },
+  "atx-1991": {
+    "date": "2 gennaio 1991",
+    "title": "Nasce l’indice austriaco ATX",
+    "what": "L’ATX (Austrian Traded Index) fu lanciato il 2 gennaio 1991 a 1.000 punti.",
+    "why": "L’indice di riferimento dell’Austria, usato nelle notizie, nei fondi e nei derivati.",
+    "lesson": "Un indice è una sintesi di azioni selezionate, non «il mercato» in sé.",
+    "links": [
+      "Che cos'è un indice e come si costruisce",
+      "Austria: mercato azionario"
+    ]
+  },
+  "euro-1999": {
+    "date": "1° gennaio 1999",
+    "title": "Arriva l’euro",
+    "what": "L’euro divenne la moneta dell’Austria e di altri paesi dell’UE nel 1999; il contante in euro arrivò il 1° gennaio 2002, sostituendo banconote e monete nazionali come lo scellino austriaco.",
+    "why": "Le azioni di tutta l’area dell’euro hanno ora prezzi nella stessa moneta, quindi gli investitori austriaci non corrono rischio di cambio su di esse.",
+    "lesson": "La valuta conta: fuori dall’area dell’euro i tassi di cambio si aggiungono ai tuoi rendimenti o se li mangiano.",
+    "links": [
+      "Le valute: come i tassi di cambio modificano i tuoi rendimenti"
+    ]
+  },
+  "dot-com-2000": {
+    "date": "Marzo 2000",
+    "title": "Scoppia la bolla delle dot-com",
+    "what": "L’ottimismo di fine anni Novanta per internet portò le valutazioni tecnologiche a livelli estremi. Il Nasdaq toccò il picco nel marzo 2000 e perse il 44,7% entro fine anno; l’S&P 500 scese nel 2000, nel 2001 e nel 2002.",
+    "why": "Internet ha davvero cambiato il mondo, ma chi ha comprato a prezzi da bolla ha perso molto.",
+    "lesson": "Una grande storia non giustifica qualsiasi prezzo. Hanno sofferto di più gli investitori più concentrati.",
+    "links": [
+      "La bolla delle dot-com (1995–2002)"
+    ]
+  },
+  "decimals-2001": {
+    "date": "9 aprile 2001",
+    "title": "I prezzi delle azioni USA passano dalle frazioni ai decimali",
+    "what": "Su ordine della SEC, i mercati statunitensi introdussero gradualmente i prezzi decimali da settembre 2000 al 9 aprile 2001. Lo scatto minimo di prezzo delle azioni scese da 1/16 di dollaro a un centesimo.",
+    "why": "Scatti di prezzo più piccoli permettono spread più stretti, il che riduce i costi di negoziazione per gli investitori.",
+    "lesson": "Dettagli di mercato come il tick influiscono su quanto paghi, anche se non te ne accorgi mai.",
+    "links": [
+      "Tick size, lotti minimi e commissioni di Borsa"
+    ]
+  },
+  "crisis-2008": {
+    "date": "2007–2009",
+    "title": "La crisi finanziaria globale",
+    "what": "Mutui rischiosi, impacchettati in titoli, prepararono la crisi; quando i prezzi delle case negli Stati Uniti scesero, le perdite si propagarono in tutto il sistema finanziario. L’S&P 500 perse il 57% tra ottobre 2007 e marzo 2009.",
+    "why": "Le banche centrali portarono i tassi quasi a zero e comprarono obbligazioni su larga scala; in seguito le regole bancarie furono inasprite.",
+    "lesson": "La leva e attività «sicure» valutate male possono trasformare una crisi immobiliare in una crisi globale.",
+    "links": [
+      "La crisi finanziaria globale del 2007–2009"
+    ]
+  },
+  "flash-crash-2010": {
+    "date": "6 maggio 2010",
+    "title": "Il flash crash",
+    "what": "I principali indici statunitensi, già in calo di oltre il 4%, crollarono di un ulteriore 5–6% in pochi minuti e rimbalzarono quasi altrettanto in fretta. Oltre 20.000 operazioni su più di 300 titoli furono eseguite a più del 60% di distanza dai prezzi di pochi istanti prima, alcune a un centesimo e altre fino a 100.000 dollari.",
+    "why": "I tecnici di SEC e CFTC lo ricondussero a un grosso ordine di vendita automatico, eseguito rapidamente in un mercato in cui la liquidità si stava già assottigliando.",
+    "lesson": "Gli ordini al mercato in pieno panico possono essere eseguiti a prezzi assurdi. Un ordine con limite fissa il prezzo peggiore che accetti.",
+    "links": [
+      "Il trading ad alta frequenza",
+      "Ordini al mercato e ordini con limite di prezzo"
+    ]
+  },
+  "stock-connect-2014": {
+    "date": "17 novembre 2014",
+    "title": "Stock Connect collega Hong Kong e Shanghai",
+    "what": "Partì Shanghai–Hong Kong Stock Connect, che permette agli investitori di ciascun mercato di negoziare tramite i propri broker azioni quotate nell’altro; Shenzhen si è aggiunta nel 2016.",
+    "why": "La via principale per gli investitori internazionali verso le azioni della Cina continentale.",
+    "lesson": "L’accesso a un mercato può comportare regole speciali: quote, limiti di partecipazione, regolamento diverso.",
+    "links": [
+      "Cina (continentale): mercato azionario",
+      "Come accedere ai mercati azionari esteri"
+    ]
+  },
+  "covid-2020": {
+    "date": "Febbraio–marzo 2020",
+    "title": "Il crollo del COVID-19",
+    "what": "Le azioni statunitensi persero il 34% dal massimo di febbraio 2020 al 23 marzo 2020; i circuit breaker fermarono le negoziazioni tre volte. La Fed portò i tassi quasi a zero e comprò obbligazioni su larga scala.",
+    "why": "Uno dei crolli e delle riprese più rapidi mai registrati: l’S&P 500 dividendi inclusi guadagnò comunque il 18% nel 2020.",
+    "lesson": "Riprese rapide sono possibili ma non garantite. Contano la causa e la risposta delle autorità.",
+    "links": [
+      "Il crollo da COVID-19 del 2020: la caduta più rapida, il rimbalzo veloce"
+    ]
+  },
+  "gamestop-2021": {
+    "date": "Gennaio 2021",
+    "title": "GameStop e il boom delle meme stock",
+    "what": "Il prezzo dell’azione GameStop salì di oltre il 1.600% in circa due settimane, poi crollò. I tecnici della SEC conclusero che a sostenere il rialzo fu il sentimento positivo, non la chiusura delle posizioni corte; alcuni broker limitarono le negoziazioni il 28 gennaio.",
+    "why": "Social media, broker su app e trading di opzioni hanno mostrato quanto in fretta una folla di piccoli investitori possa muovere un’azione.",
+    "lesson": "I movimenti delle meme stock sono speculativi e possono invertirsi in fretta. Non investire in una moda soldi che non puoi permetterti di perdere.",
+    "links": [
+      "GameStop 2021: l'episodio delle meme stock"
+    ]
+  },
+  "rates-2022": {
+    "date": "2022",
+    "title": "I tassi d’interesse tornano a salire",
+    "what": "Con l’inflazione alta, le banche centrali alzarono i tassi d’interesse. Il 21 luglio 2022 la BCE alzò i tassi di riferimento di 50 punti base, il primo aumento dal 2011. Nei dati statunitensi di Damodaran, sia le azioni sia le obbligazioni scesero nel 2022.",
+    "why": "Tassi più alti rendono più attraenti obbligazioni e risparmio e riducono il valore dei profitti futuri, quindi azioni e obbligazioni possono scendere insieme.",
+    "lesson": "Le obbligazioni non sempre attutiscono il calo delle azioni. La diversificazione riduce il rischio; non lo elimina.",
+    "links": [
+      "Perché i tassi d'interesse contano così tanto per i prezzi delle azioni"
+    ]
+  },
+  "t1-2024": {
+    "date": "27–28 maggio 2024",
+    "title": "Il Nord America passa al regolamento il giorno dopo (T+1)",
+    "what": "Il Canada è passato al regolamento T+1 il 27 maggio 2024 e gli Stati Uniti il 28 maggio 2024: le operazioni ora si regolano un giorno lavorativo dopo la data di negoziazione.",
+    "why": "Un regolamento più breve riduce il rischio che una delle parti venga meno prima che l’operazione sia completata.",
+    "lesson": "Il tuo denaro o le tue azioni arrivano un numero fisso di giorni dopo l’operazione. Conosci il ciclo prima di pianificare una vendita.",
+    "links": [
+      "Compensazione e regolamento: che cosa succede dopo uno scambio"
+    ]
+  },
+  "nasdaq-23-5": {
+    "date": "6 dicembre 2026 (previsto)",
+    "title": "Il Nasdaq prevede di negoziare 23 ore al giorno",
+    "what": "Il Nasdaq ha programmato una sessione notturna dalle 21 alle 4, ora della costa orientale USA, che dovrebbe partire il 6 dicembre 2026, creando negoziazioni quasi continue cinque giorni alla settimana.",
+    "why": "Investitori di tutto il mondo potrebbero negoziare azioni statunitensi durante il proprio giorno.",
+    "lesson": "Poter negoziare a qualsiasi ora non significa doverlo fare: le sessioni notturne tendono a essere poco liquide, con spread più ampi.",
+    "links": [
+      "Verso la negoziazione 24 ore su 24"
+    ]
+  },
+  "eu-t1-2027": {
+    "date": "11 ottobre 2027 (previsto)",
+    "title": "UE, Regno Unito e Svizzera passano al T+1",
+    "what": "L’UE dovrebbe accorciare il regolamento da due giorni lavorativi a uno l’11 ottobre 2027; Regno Unito e Svizzera prevedono la stessa data.",
+    "why": "Le azioni austriache e la maggior parte delle operazioni europee saranno allora regolate un giorno lavorativo dopo l’operazione.",
+    "lesson": "Le regole continuano a cambiare. Verifica i tempi di regolamento e gli altri dettagli del mercato su fonti ufficiali.",
+    "links": [
+      "Compensazione e regolamento: che cosa succede dopo uno scambio"
+    ]
+  }
+}

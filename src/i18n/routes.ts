@@ -43,7 +43,5 @@ const ENGLISH_ONLY = [
   /^\/learn\/[^/]+\/(.+\/)?$/, // topic and lesson pages (/learn/ itself is translated)
   /^\/how-stocks-are-made\/$/,
   /^\/world\//,
-  /^\/history\/$/,
-  /^\/charts\/candles\/$/, // pattern texts are English; the Chart School hub and chart quiz are translated
 ];
 export const isEnglishOnly = (route: string) => ENGLISH_ONLY.some((re) => re.test(route));

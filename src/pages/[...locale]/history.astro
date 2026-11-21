@@ -7,9 +7,10 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import PageHeader from '@/components/PageHeader.astro';
 import { t, type UiKey } from '@/i18n';
 import { url } from '@/lib/url';
+import { localizedHistory } from '@/lib/translations';
 
 type Entry = Awaited<ReturnType<typeof getCollection<'history'>>>[number]['data'];
-const all = (await getCollection('history')).map((e) => e.data).sort((a, b) => a.year - b.year);
+const all = localizedHistory((await getCollection('history')).map((e) => e.data)).sort((a, b) => a.year - b.year);
 const past = all.filter((e) => !e.planned);
 const planned = all.filter((e) => e.planned);
 const kinds = ['crash', 'bubble', 'rule', 'technology', 'milestone'] as const;

@@ -4,6 +4,7 @@
  * in words, because patterns are probabilities, not promises.
  */
 import type { Candle } from './core';
+import { getLocale, intlLocale, t } from '@/i18n';
 
 export type TrendContext = 'up' | 'down' | 'sideways';
 
@@ -46,36 +47,37 @@ export interface Match {
   reasons: string[];
 }
 
-const pct = (x: number) => `${Math.round(x * 100)}%`;
+const pct = (x: number) => Math.round(x * 100);
+const times = (x: number) => x.toLocaleString(intlLocale[getLocale()], { minimumFractionDigits: 1, maximumFractionDigits: 1 });
 
 /** Single-candle shapes at bar `i`, most specific first. */
 export function singleCandle(candles: Candle[], i: number): Match | null {
   const c = candles[i];
   const a = anatomy(c);
   const trend = trendBefore(candles, i);
-  const trendText = trend === 'up' ? 'it appears after a rise' : trend === 'down' ? 'it appears after a fall' : 'there is no clear trend before it';
+  const trendText = trend === 'up' ? t('cp.afterRise') : trend === 'down' ? t('cp.afterFall') : t('cp.noTrend');
 
   if (a.bodyPct <= 0.1) {
     if (a.lowerPct >= 0.65 && a.upperPct <= 0.1)
-      return { id: 'dragonfly-doji', reasons: [`open and close are almost equal (body ${pct(a.bodyPct)} of the range)`, 'the long lower wick shows price was pushed back up', trendText] };
+      return { id: 'dragonfly-doji', reasons: [t('cp.dojiBody', { pct: pct(a.bodyPct) }), t('cp.lowerPushed'), trendText] };
     if (a.upperPct >= 0.65 && a.lowerPct <= 0.1)
-      return { id: 'gravestone-doji', reasons: [`open and close are almost equal (body ${pct(a.bodyPct)} of the range)`, 'the long upper wick shows price was pushed back down', trendText] };
-    return { id: 'doji', reasons: [`open and close are almost equal (body only ${pct(a.bodyPct)} of the range)`, 'neither buyers nor sellers won the period'] };
+      return { id: 'gravestone-doji', reasons: [t('cp.dojiBody', { pct: pct(a.bodyPct) }), t('cp.upperPushed'), trendText] };
+    return { id: 'doji', reasons: [t('cp.dojiBodyOnly', { pct: pct(a.bodyPct) }), t('cp.noWinner')] };
   }
   if (a.bodyPct >= 0.9)
-    return { id: 'marubozu', reasons: [`the body fills ${pct(a.bodyPct)} of the range, with almost no wicks`, a.bullish ? 'it opened near the low and closed near the high' : 'it opened near the high and closed near the low'] };
+    return { id: 'marubozu', reasons: [t('cp.maruBody', { pct: pct(a.bodyPct) }), a.bullish ? t('cp.maruUp') : t('cp.maruDown')] };
   if (a.lower >= 2 * a.body && a.upperPct <= 0.12) {
-    const why = [`the lower wick is ${(a.lower / a.body).toFixed(1)} times the body`, 'the body sits near the top with little upper wick', trendText];
+    const why = [t('cp.lowerTimes', { x: times(a.lower / a.body) }), t('cp.bodyTop'), trendText];
     if (trend === 'down') return { id: 'hammer', reasons: why };
     if (trend === 'up') return { id: 'hanging-man', reasons: why };
   }
   if (a.upper >= 2 * a.body && a.lowerPct <= 0.12) {
-    const why = [`the upper wick is ${(a.upper / a.body).toFixed(1)} times the body`, 'the body sits near the bottom with little lower wick', trendText];
+    const why = [t('cp.upperTimes', { x: times(a.upper / a.body) }), t('cp.bodyBottom'), trendText];
     if (trend === 'down') return { id: 'inverted-hammer', reasons: why };
     if (trend === 'up') return { id: 'shooting-star', reasons: why };
   }
   if (a.bodyPct <= 0.3 && a.upper > a.body && a.lower > a.body)
-    return { id: 'spinning-top', reasons: [`a small body (${pct(a.bodyPct)} of the range) in the middle`, 'wicks on both sides are longer than the body'] };
+    return { id: 'spinning-top', reasons: [t('cp.spinBody', { pct: pct(a.bodyPct) }), t('cp.spinWicks')] };
   return null;
 }
 
@@ -97,17 +99,17 @@ export function multiCandle(candles: Candle[], i: number): Match | null {
     const a0 = anatomy(c0);
     const mid0 = (c0.o + c0.c) / 2;
     if (trend !== 'up' && !a0.bullish && a0.bodyPct > 0.5 && a1.bodyPct < 0.35 && Math.max(c1.o, c1.c) < c0.c + a0.body * 0.2 && a2.bullish && c2.c > mid0)
-      return { id: 'morning-star', reasons: ['a long falling candle, then a small "star" candle lower down', 'then a rising candle that closes above the middle of the first body'] };
+      return { id: 'morning-star', reasons: [t('cp.morning1'), t('cp.morning2')] };
     if (trend !== 'down' && a0.bullish && a0.bodyPct > 0.5 && a1.bodyPct < 0.35 && Math.min(c1.o, c1.c) > c0.c - a0.body * 0.2 && !a2.bullish && c2.c < mid0)
-      return { id: 'evening-star', reasons: ['a long rising candle, then a small "star" candle higher up', 'then a falling candle that closes below the middle of the first body'] };
+      return { id: 'evening-star', reasons: [t('cp.evening1'), t('cp.evening2')] };
   }
   if (!a1.bullish && a2.bullish && bot2 <= bot1 && top2 >= top1 && a2.body > a1.body)
-    return { id: 'bullish-engulfing', reasons: ['a falling candle followed by a rising one', 'the second body completely covers the first', trend === 'down' ? 'it appears after a fall' : 'note: without a prior fall, this is not the classic setup'] };
+    return { id: 'bullish-engulfing', reasons: [t('cp.fallThenRise'), t('cp.covers'), trend === 'down' ? t('cp.afterFall') : t('cp.noPriorFall')] };
   if (a1.bullish && !a2.bullish && bot2 <= bot1 && top2 >= top1 && a2.body > a1.body)
-    return { id: 'bearish-engulfing', reasons: ['a rising candle followed by a falling one', 'the second body completely covers the first', trend === 'up' ? 'it appears after a rise' : 'note: without a prior rise, this is not the classic setup'] };
+    return { id: 'bearish-engulfing', reasons: [t('cp.riseThenFall'), t('cp.covers'), trend === 'up' ? t('cp.afterRise') : t('cp.noPriorRise')] };
   if (a1.bodyPct > 0.6 && top2 < top1 && bot2 > bot1 && a2.body < a1.body * 0.5 && a2.bullish !== a1.bullish)
-    return { id: a1.bullish ? 'bearish-harami' : 'bullish-harami', reasons: ['a long candle followed by a small one of the opposite colour', 'the second body sits inside the first body'] };
-  if (c2.h < c1.h && c2.l > c1.l) return { id: 'inside-bar', reasons: ["the candle's high and low are both inside the previous candle's range"] };
+    return { id: a1.bullish ? 'bearish-harami' : 'bullish-harami', reasons: [t('cp.harami1'), t('cp.harami2')] };
+  if (c2.h < c1.h && c2.l > c1.l) return { id: 'inside-bar', reasons: [t('cp.inside')] };
   return null;
 }
 

@@ -1,0 +1,213 @@
+{
+  "doji": {
+    "name": "Doji",
+    "formation": "La apertura y el cierre son (casi) iguales, así que el cuerpo es una línea fina. Las mechas pueden ser largas o cortas.",
+    "reading": "Ni compradores ni vendedores ganaron el periodo: una señal de indecisión. Tras un movimiento largo y fuerte, algunos traders lo leen como aviso de que el movimiento pierde fuerza.",
+    "confirmation": "La mayoría de los traders espera a la vela siguiente: un movimiento fuerte que se aleja del doji en una dirección dice más que el propio doji.",
+    "failure": "Los dojis son muy frecuentes. En un mercado tranquilo o en marcos temporales cortos a menudo no significan nada."
+  },
+  "long-legged-doji": {
+    "name": "Doji de piernas largas",
+    "formation": "Un doji con mechas largas a ambos lados: el precio subió y bajó mucho, pero cerró donde abrió.",
+    "reading": "Un fuerte tira y afloja sin ganador. Se lee como una indecisión mayor de lo normal.",
+    "confirmation": "Una ruptura clara por encima del máximo o por debajo del mínimo del doji.",
+    "failure": "Muchas veces el precio sigue en la dirección original en cuanto se resuelve la indecisión.",
+    "aka": ["long-legged doji"],
+    "tested": { "theory": "Indecisión", "result": "continuación alcista el 51 % de las veces" }
+  },
+  "dragonfly-doji": {
+    "name": "Doji libélula",
+    "formation": "Apertura, cierre y máximo están (casi) al mismo nivel arriba; hay una mecha inferior larga y poca o ninguna mecha superior.",
+    "reading": "Los vendedores empujaron el precio hacia abajo, pero los compradores lo devolvieron por completo antes del cierre. Tras una caída se lee tradicionalmente como un posible giro alcista.",
+    "confirmation": "Un cierre más alto en la vela siguiente.",
+    "failure": "Si la vela siguiente cae por debajo del mínimo del doji libélula, el rechazo de precios más bajos ha fallado.",
+    "aka": ["dragonfly doji"],
+    "tested": { "theory": "Giro alcista durante una caída; si no, indecisión", "result": "giro el 50 % de las veces" }
+  },
+  "gravestone-doji": {
+    "name": "Doji lápida",
+    "formation": "Apertura, cierre y mínimo están (casi) al mismo nivel abajo; hay una mecha superior larga y poca o ninguna mecha inferior.",
+    "reading": "Los compradores empujaron el precio hacia arriba, pero los vendedores lo devolvieron por completo. Tras una subida se lee tradicionalmente como un posible giro bajista.",
+    "confirmation": "Un cierre más bajo en la vela siguiente.",
+    "failure": "Si la vela siguiente cierra por encima del máximo del doji lápida, el rechazo ha fallado y la tendencia alcista continúa.",
+    "aka": ["gravestone doji"],
+    "tested": { "theory": "De indecisión a giro bajista (en tendencias alcistas)", "result": "giro bajista el 51 % de las veces" }
+  },
+  "spinning-top": {
+    "name": "Peonza",
+    "formation": "Un cuerpo pequeño en el centro de la vela, con mechas superior e inferior más largas que el cuerpo.",
+    "reading": "Las dos partes estuvieron activas, pero ninguna tomó el control: indecisión, parecida a un doji pero con un cuerpo algo mayor.",
+    "confirmation": "La dirección de la siguiente vela decidida.",
+    "failure": "Las peonzas están entre las velas más frecuentes; por sí solas aportan poca información.",
+    "aka": ["spinning top"],
+    "tested": { "theory": "Indecisión", "result": "giro el 50 % de las veces" }
+  },
+  "marubozu": {
+    "name": "Marubozu",
+    "formation": "Un cuerpo largo sin mechas (o casi): un marubozu alcista abre en el mínimo y cierra en el máximo; uno bajista abre en el máximo y cierra en el mínimo.",
+    "reading": "Una de las partes tuvo el control desde la primera operación hasta la última. Tradicionalmente se lee como un impulso fuerte en la dirección del cuerpo.",
+    "confirmation": "Continuación en la misma dirección en la vela siguiente.",
+    "failure": "Una vela fuerte puede marcar el final de un movimiento (un último arrebato de compras o ventas), tras el cual el precio se da la vuelta.",
+    "aka": ["marubozu blanco", "marubozu negro"],
+    "tested": { "theory": "Continuación", "result": "continuación el 56 % de las veces" }
+  },
+  "hammer": {
+    "name": "Martillo",
+    "formation": "Un cuerpo pequeño en la parte alta de la vela, una mecha inferior larga (tradicionalmente al menos el doble del cuerpo) y poca o ninguna mecha superior, tras una caída.",
+    "reading": "Los vendedores hundieron bastante el precio durante el periodo, pero los compradores lo recompraron hasta cerca de la apertura. Tradicionalmente se lee como un posible giro alcista.",
+    "confirmation": "Un cierre más alto en la vela siguiente; algunos traders también quieren más volumen.",
+    "failure": "Si el precio cae por debajo del mínimo del martillo, la defensa de los compradores ha fallado.",
+    "aka": ["hammer"],
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 60 % de las veces" }
+  },
+  "hanging-man": {
+    "name": "Hombre colgado",
+    "formation": "La misma forma que un martillo (cuerpo pequeño arriba, mecha inferior larga), pero tras una subida.",
+    "reading": "Los vendedores lograron hundir mucho el precio durante el periodo: una señal de que la presión compradora puede estar debilitándose. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "Un cierre más bajo en la vela siguiente.",
+    "failure": "Este patrón falla a menudo: la tendencia alcista muchas veces simplemente continúa.",
+    "aka": ["hanging man"],
+    "tested": { "theory": "Giro bajista", "result": "continuación alcista el 59 % de las veces" }
+  },
+  "inverted-hammer": {
+    "name": "Martillo invertido",
+    "formation": "Un cuerpo pequeño en la parte baja de la vela, con una mecha superior larga y poca o ninguna mecha inferior, tras una caída.",
+    "reading": "Los compradores intentaron subir el precio, pero no pudieron mantener las ganancias. Tras una caída se lee tradicionalmente como una primera señal de que los compradores tantean precios más altos.",
+    "confirmation": "Normalmente se exige un cierre más alto en la vela siguiente antes de interpretar nada.",
+    "failure": "Sin confirmación, la caída suele continuar.",
+    "aka": ["inverted hammer"],
+    "tested": { "theory": "Giro alcista", "result": "continuación bajista el 65 % de las veces" }
+  },
+  "shooting-star": {
+    "name": "Estrella fugaz",
+    "formation": "Un cuerpo pequeño en la parte baja de la vela, con una mecha superior larga y poca o ninguna mecha inferior, tras una subida.",
+    "reading": "Los compradores subieron el precio, pero los vendedores tomaron el relevo y lo devolvieron cerca de la apertura. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "Un cierre más bajo en la vela siguiente.",
+    "failure": "Si el precio cierra por encima del máximo de la estrella fugaz, el rechazo ha fallado.",
+    "aka": ["shooting star"],
+    "tested": { "theory": "Giro bajista", "result": "giro bajista el 59 % de las veces" }
+  },
+  "bullish-engulfing": {
+    "name": "Envolvente alcista",
+    "formation": "Dos velas tras una caída: una vela bajista seguida de una alcista cuyo cuerpo cubre (envuelve) por completo el primer cuerpo.",
+    "reading": "Los vendedores tenían el control y después los compradores tomaron el mando con decisión. Tradicionalmente se lee como un posible giro alcista.",
+    "confirmation": "Nuevas subidas en la vela o velas siguientes.",
+    "failure": "Si el precio vuelve por debajo del mínimo del patrón, el giro ha fallado.",
+    "aka": ["bullish engulfing"],
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 63 % de las veces" }
+  },
+  "bearish-engulfing": {
+    "name": "Envolvente bajista",
+    "formation": "Dos velas tras una subida: una vela alcista seguida de una bajista cuyo cuerpo cubre por completo el primer cuerpo.",
+    "reading": "Los compradores tenían el control y después los vendedores tomaron el mando con decisión. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "Nuevas caídas en la vela o velas siguientes.",
+    "failure": "Si el precio vuelve por encima del máximo del patrón, el giro ha fallado.",
+    "aka": ["bearish engulfing"],
+    "tested": { "theory": "Giro bajista", "result": "giro bajista el 79 % de las veces" }
+  },
+  "bullish-harami": {
+    "name": "Harami alcista",
+    "formation": "Dos velas tras una caída: una vela bajista larga seguida de una alcista pequeña cuyo cuerpo queda dentro del primer cuerpo. («Harami» significa embarazada en japonés).",
+    "reading": "La fuerte venta se ha detenido. Tradicionalmente se lee como un posible giro alcista, aunque más débil que una envolvente.",
+    "confirmation": "Un cierre por encima del cuerpo de la primera vela.",
+    "failure": "A menudo la pausa es solo un respiro antes de que la caída continúe.",
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 53 % de las veces" }
+  },
+  "bearish-harami": {
+    "name": "Harami bajista",
+    "formation": "Dos velas tras una subida: una vela alcista larga seguida de una bajista pequeña cuyo cuerpo queda dentro del primer cuerpo.",
+    "reading": "La fuerte compra se ha detenido. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "Un cierre por debajo del cuerpo de la primera vela.",
+    "failure": "A menudo la tendencia alcista simplemente continúa tras la pausa.",
+    "tested": { "theory": "Giro bajista", "result": "continuación alcista el 53 % de las veces" }
+  },
+  "harami-cross": {
+    "name": "Cruz harami",
+    "formation": "Un harami cuya segunda vela es un doji, situado dentro del cuerpo de una primera vela larga. Aquí se muestra tras una caída (versión alcista); la versión bajista aparece tras una subida.",
+    "reading": "A un movimiento largo le sigue una indecisión total. Tradicionalmente se lee como un indicio de giro más fuerte que un harami normal.",
+    "confirmation": "Un movimiento decidido en sentido contrario al de la primera vela.",
+    "failure": "La indecisión se resuelve con frecuencia en la dirección original.",
+    "aka": ["harami cross"],
+    "tested": { "theory": "Giro alcista", "result": "continuación bajista el 55 % de las veces" }
+  },
+  "piercing-line": {
+    "name": "Línea penetrante",
+    "formation": "Dos velas tras una caída: una vela bajista larga y luego una alcista que abre por debajo del mínimo de la primera y cierra por encima de la mitad del primer cuerpo.",
+    "reading": "A una apertura débil le siguieron compras fuertes que recuperaron más de la mitad de la pérdida anterior. Tradicionalmente se lee como un posible giro alcista.",
+    "confirmation": "Nuevas subidas, idealmente un cierre por encima de la apertura de la primera vela.",
+    "failure": "Si las velas siguientes vuelven por debajo del mínimo de la segunda vela, el patrón ha fallado.",
+    "aka": ["patrón penetrante", "piercing line"],
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 64 % de las veces" }
+  },
+  "dark-cloud-cover": {
+    "name": "Cubierta de nube oscura",
+    "formation": "Dos velas tras una subida: una vela alcista larga y luego una bajista que abre por encima del máximo de la primera y cierra por debajo de la mitad del primer cuerpo.",
+    "reading": "A una apertura fuerte le siguieron ventas intensas que borraron más de la mitad de la ganancia anterior. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "Nuevas caídas, idealmente un cierre por debajo de la apertura de la primera vela.",
+    "failure": "Si el precio se recupera por encima del máximo de la segunda vela, el patrón ha fallado.",
+    "aka": ["dark cloud cover"],
+    "tested": { "theory": "Giro bajista", "result": "giro bajista el 60 % de las veces" }
+  },
+  "morning-star": {
+    "name": "Estrella de la mañana",
+    "formation": "Tres velas tras una caída: una vela bajista larga, una vela pequeña (la «estrella») que cotiza más abajo y luego una vela alcista larga que cierra bien dentro del cuerpo de la primera.",
+    "reading": "Venta, luego duda y luego compra fuerte. Tradicionalmente se lee como un posible giro alcista.",
+    "confirmation": "La propia tercera vela es la confirmación; algunos traders también quieren más volumen en ella.",
+    "failure": "Una caída por debajo del mínimo de la estrella anula la lectura.",
+    "aka": ["morning star"],
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 78 % de las veces" }
+  },
+  "evening-star": {
+    "name": "Estrella vespertina",
+    "formation": "Tres velas tras una subida: una vela alcista larga, una vela pequeña (la «estrella») que cotiza más arriba y luego una vela bajista larga que cierra bien dentro del cuerpo de la primera.",
+    "reading": "Compra, luego duda y luego venta fuerte. Tradicionalmente se lee como un posible giro bajista.",
+    "confirmation": "La propia tercera vela es la confirmación.",
+    "failure": "Una subida por encima del máximo de la estrella anula la lectura.",
+    "aka": ["evening star"],
+    "tested": { "theory": "Giro bajista", "result": "giro bajista el 72 % de las veces" }
+  },
+  "three-white-soldiers": {
+    "name": "Tres soldados blancos",
+    "formation": "Tres velas alcistas largas seguidas, cada una abre dentro del cuerpo anterior y cierra cerca de su máximo, tras una caída o un periodo tranquilo.",
+    "reading": "Compras constantes y persistentes durante tres periodos. Tradicionalmente se lee como una señal alcista fuerte.",
+    "confirmation": "Fuerza continuada; un cierre por debajo del cuerpo de la tercera vela debilita la señal.",
+    "failure": "Tras tres velas fuertes el mercado suele estar estirado y puede retroceder.",
+    "aka": ["three white soldiers"],
+    "tested": { "theory": "Giro alcista", "result": "giro alcista el 82 % de las veces" }
+  },
+  "three-black-crows": {
+    "name": "Tres cuervos negros",
+    "formation": "Tres velas bajistas largas seguidas, cada una abre dentro del cuerpo anterior y cierra cerca de su mínimo, tras una subida.",
+    "reading": "Ventas constantes y persistentes durante tres periodos. Tradicionalmente se lee como una señal bajista fuerte.",
+    "confirmation": "Debilidad continuada; un cierre por encima del cuerpo de la tercera vela debilita la señal.",
+    "failure": "Tras tres velas bajistas fuertes el mercado puede estar sobrevendido y rebotar.",
+    "aka": ["three black crows"],
+    "tested": { "theory": "Giro bajista", "result": "giro bajista el 78 % de las veces" }
+  },
+  "tweezer-bottom": {
+    "name": "Suelo en pinza",
+    "formation": "Dos (o más) velas tras una caída con (casi) el mismo mínimo.",
+    "reading": "Los vendedores fallaron dos veces en el mismo precio: los traders lo leen como un soporte que se defiende.",
+    "confirmation": "Un cierre más alto a continuación.",
+    "failure": "Una ruptura por debajo del mínimo común convierte el «soporte» en un nivel fallido.",
+    "aka": ["tweezer bottom"],
+    "tested": { "theory": "Giro alcista", "result": "continuación bajista el 52 % de las veces" }
+  },
+  "tweezer-top": {
+    "name": "Techo en pinza",
+    "formation": "Dos (o más) velas tras una subida con (casi) el mismo máximo.",
+    "reading": "Los compradores fallaron dos veces en el mismo precio: los traders lo leen como una resistencia que aguanta.",
+    "confirmation": "Un cierre más bajo a continuación.",
+    "failure": "Una ruptura por encima del máximo común significa que la resistencia no aguantó.",
+    "aka": ["tweezer top"],
+    "tested": { "theory": "Giro bajista", "result": "continuación alcista el 56 % de las veces" }
+  },
+  "inside-bar": {
+    "name": "Inside bar",
+    "formation": "Una vela cuyo máximo y mínimo quedan ambos dentro del rango de la vela anterior.",
+    "reading": "El mercado hace una pausa y el rango se estrecha. Los traders observan por qué lado del rango de la vela mayor se rompe primero.",
+    "confirmation": "Un cierre más allá del máximo o del mínimo de la primera vela (la mayor).",
+    "failure": "Las rupturas de rangos estrechos son a menudo falsas: el precio rompe por un lado y luego se da la vuelta.",
+    "aka": ["vela interior"]
+  }
+}

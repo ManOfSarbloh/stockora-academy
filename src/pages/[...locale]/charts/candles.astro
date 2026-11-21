@@ -13,6 +13,7 @@ import patternsData from '../../../../content/candles.json';
 import { exampleSeries, type PatternDef } from '@/lib/chart/examples';
 import { patternSvg } from '@/lib/chart/svg';
 import { t } from '@/i18n';
+import { localizedPatterns } from '@/lib/translations';
 import { url } from '@/lib/url';
 
 interface Pattern extends PatternDef {
@@ -23,7 +24,7 @@ interface Pattern extends PatternDef {
   failure: string;
   tested?: { page: string; theory: string; result: string };
 }
-const patterns = patternsData as unknown as Pattern[];
+const patterns = localizedPatterns(patternsData as unknown as Pattern[]);
 const biasKey = (b: string) => (['bullish', 'bearish', 'neutral', 'continuation'].includes(b) ? b : 'neutral') as 'bullish' | 'bearish' | 'neutral' | 'continuation';
 const contextText = { 'after-downtrend': t('cc.context.down'), 'after-uptrend': t('cc.context.up'), any: t('cc.context.any') };
 const groups = [
@@ -67,7 +68,7 @@ const groups = [
               .filter((p) => p.kind === g.kind)
               .map((p) => {
                 const { candles, contextCount } = exampleSeries(p);
-                const svg = patternSvg(candles, contextCount, `${p.name}: example drawing`, { width: 300, height: 180 });
+                const svg = patternSvg(candles, contextCount, t('cc.drawingLabel', { name: p.name }), { width: 300, height: 180 });
                 const bias = biasKey(p.traditionalBias);
                 return (
                   <li id={p.id} class="cc-card card flex scroll-mt-24 flex-col p-4" data-kind={p.kind} data-bias={bias === 'continuation' ? 'neutral' : bias}>
