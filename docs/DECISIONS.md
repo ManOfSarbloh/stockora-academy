@@ -459,6 +459,7 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 
 ## Open items
 
+- After 6 December 2026: Nasdaq's 23/5 night session (9 p.m.–4 a.m. ET) was still scheduled for that date on 2026-11-21, subject to SIP readiness and SEC rule changes. Once nasdaq.com confirms the launch (or a delay), update: content/history.json event nasdaq-23-5 (drop planned, past tense) and its four translations, content/lessons/E/overnight-trading.md and its translations, the glossary entry and the quiz questions in content/quizzes/E-trading-times.json that call it planned.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.
 - When English text changes, update the four translations (README, "UI text and translations").
