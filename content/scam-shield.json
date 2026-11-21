@@ -99,7 +99,7 @@
       "id": "bank-corporate-action",
       "channel": "Letter from your bank",
       "from": "Your bank (known address)",
-      "message": "Alpenrad AG is carrying out a rights issue. You hold 400 shares and receive 400 subscription rights. Please give us your instruction in online banking by 12 November; otherwise the rights may lapse.",
+      "message": "Alpenrad AG (a made-up company) is carrying out a rights issue. You hold 400 shares and receive 400 subscription rights. Please give us your instruction in online banking by 12 November; otherwise the rights may lapse.",
       "scam": false,
       "explain": "A normal corporate action notice. It asks you to act in your own online banking, not via a link or a phone call. If in doubt, call your bank using the number on its website, not one from a message."
     },

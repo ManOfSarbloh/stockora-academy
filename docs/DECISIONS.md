@@ -457,6 +457,21 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Finding | Spaced repetition already existed (quiz-stats, boxes 1–5, intervals 1/3/7/14/30 days, fed by every quiz including the lesson and topic quizzes), but the number of questions due was only shown on the quiz page, so returning learners did not see it |
 | Change | The progress card (home page and My learning) shows "🔁 N questions due for review →" when at least one question is due, linking to a review run of up to 20 questions. Hidden when nothing is due. Same rule as the quiz page; singular wording added ("1 question due for review") and used on the quiz page too |
 
+## Legal review fixes (2026-11-21)
+
+A review of the site against Austrian and EU law found no clear violations; these seven small gaps were fixed in all languages (de, es, fr, it, ru texts included).
+
+| Decision | Detail |
+|---|---|
+| AI transparency (EU AI Act, Art. 50(4), applies since 2 August 2026) | Sources has a new section "How AI is used": texts and translations are written with the help of AI, based on the official sources on each page, links checked weekly, the publisher named in the Impressum is responsible. About links to it |
+| Cookies and YouTube (GDPR Art. 13, TKG 2021 §165) | "No cookies" now reads "no cookies set by this website"; the privacy page and the click-to-load note say that YouTube (Google) may store cookies on the device once a video is loaded. About: "no cookies of our own" |
+| Outdated self-description | About and Sources no longer say that lessons, quizzes and country pages are English only |
+| Licence notices (MIT, ISC, SIL OFL, CC BY 4.0) | scripts/build-licenses.mjs writes public/third-party-licenses.txt before every build (React, React DOM, scheduler, Astro, Tailwind CSS, Pagefind, Inter, world-atlas; plus the World Bank CC BY 4.0 note). Sources has a "Third-party licences" section linking to it. The file is generated, so it is git-ignored |
+| Investment plan builder (WAG 2018 / MiFID II) | Every decision now starts empty: no preset 60/30/10 mix, emergency-fund months, acceptable fall, rebalancing rule or crash rule. The crash rule example is a placeholder ("e.g. …"). Saved plans keep their values. Tests check the empty start |
+| Made-up company | The Scam Shield scenario now says "Alpenrad AG (a made-up company)", as the lessons already did |
+| GitHub logs (GDPR Art. 13(2)(a)) | The privacy page says GitHub decides how long it keeps its logs and points to its privacy statement |
+| Still for the owner | Check the name "Stockora" in the trademark registers (Austrian Patent Office see.ip, EUIPO TMview) and the Firmenbuch |
+
 ## Open items
 
 - After 6 December 2026: Nasdaq's 23/5 night session (9 p.m.–4 a.m. ET) was still scheduled for that date on 2026-11-21, subject to SIP readiness and SEC rule changes. Once nasdaq.com confirms the launch (or a delay), update: content/history.json event nasdaq-23-5 (drop planned, past tense) and its four translations, content/lessons/E/overnight-trading.md and its translations, the glossary entry and the quiz questions in content/quizzes/E-trading-times.json that call it planned.

@@ -2,6 +2,7 @@
  * Investment plan builder (/tools/investment-plan): a worksheet following the lesson "Writing your own
  * investment plan". The learner enters their own decisions; the tool only adds small checks (emergency fund
  * target, the acceptable fall in euros, the lesson's crash example with their mix) and a printable summary.
+ * All decisions start empty; examples appear only as placeholders, so the tool never proposes a mix or rule.
  * Saved in localStorage ("stockora-investment-plan"). Logic in src/lib/investment-plan.ts.
  */
 import { useEffect, useId, useState, type ReactNode } from 'react';
@@ -14,6 +15,7 @@ import {
   emergencyTarget,
   emptyPlan,
   fallInEuros,
+  mixEntered,
   mixTotal,
   mixValid,
   restorePlan,
@@ -92,7 +94,7 @@ export default function InvestmentPlanBuilder() {
   const id = useId();
 
   useEffect(() => {
-    setPlan(restorePlan(readJSON<unknown>(STORE_KEY, null), t('ip.crashRule.default')) ?? emptyPlan(t('ip.crashRule.default')));
+    setPlan(restorePlan(readJSON<unknown>(STORE_KEY, null)) ?? emptyPlan());
   }, []);
   useEffect(() => {
     const done = () => document.documentElement.classList.remove('print-plan');
@@ -114,7 +116,7 @@ export default function InvestmentPlanBuilder() {
   const mixOk = mixValid(plan);
   const crash = mixOk ? crashCheck(plan) : null;
   const now = new Date();
-  const pctTxt = (n: number) => `${dec(n, 1)}%`;
+  const pctTxt = (n: number | null) => (n == null ? t('ip.empty') : `${dec(n, 1)}%`);
   const or = (s: string) => (s.trim() ? s : t('ip.empty'));
 
   return (
@@ -163,7 +165,7 @@ export default function InvestmentPlanBuilder() {
               <NumInput id={`${id}-exp`} value={plan.expenses} min={0} step="50" onChange={(v) => update({ expenses: v })} />
             </Field>
             <Field id={`${id}-mon`} label={t('ip.months')} help={t('ip.months.help')}>
-              <NumInput id={`${id}-mon`} value={plan.months} min={0} max={24} step="1" help onChange={(v) => update({ months: v ?? 0 })} />
+              <NumInput id={`${id}-mon`} value={plan.months} min={0} max={24} step="1" help onChange={(v) => update({ months: v })} />
             </Field>
           </div>
           {target != null && <p className="font-semibold">{t('ip.emergencyTarget', { amount: eur(target) })}</p>}
@@ -178,7 +180,7 @@ export default function InvestmentPlanBuilder() {
         <Section title={t('ip.s3')}>
           <div className="flex flex-wrap gap-4">
             <Field id={`${id}-fall`} label={t('ip.maxFall')}>
-              <NumInput id={`${id}-fall`} value={plan.maxFall} min={0} max={100} step="5" onChange={(v) => update({ maxFall: v ?? 0 })} />
+              <NumInput id={`${id}-fall`} value={plan.maxFall} min={0} max={100} step="5" onChange={(v) => update({ maxFall: v })} />
             </Field>
             <Field id={`${id}-port`} label={t('ip.portfolio')}>
               <NumInput id={`${id}-port`} value={plan.portfolio} min={0} step="1000" onChange={(v) => update({ portfolio: v })} />
@@ -192,14 +194,16 @@ export default function InvestmentPlanBuilder() {
           <div className="flex flex-wrap gap-4">
             {(['shares', 'bonds', 'cash'] as const).map((k) => (
               <Field key={k} id={`${id}-${k}`} label={t(`ip.${k}`)}>
-                <NumInput id={`${id}-${k}`} value={plan[k]} min={0} max={100} step="5" onChange={(v) => update({ [k]: v ?? 0 })} />
+                <NumInput id={`${id}-${k}`} value={plan[k]} min={0} max={100} step="5" onChange={(v) => update({ [k]: v })} />
               </Field>
             ))}
           </div>
-          <p className={mixOk ? 'text-sm text-muted' : 'text-sm font-semibold text-[#b42318] dark:text-[#ff8a80]'} aria-live="polite">
-            {t('ip.mixTotal', { n: dec(mixTotal(plan), 1) })}
-            {!mixOk && ` ${t('ip.mixErr')}`}
-          </p>
+          {mixEntered(plan) && (
+            <p className={mixOk ? 'text-sm text-muted' : 'text-sm font-semibold text-[#b42318] dark:text-[#ff8a80]'} aria-live="polite">
+              {t('ip.mixTotal', { n: dec(mixTotal(plan), 1) })}
+              {!mixOk && ` ${t('ip.mixErr')}`}
+            </p>
+          )}
           <Field id={`${id}-glide`} label={t('ip.glide')}>
             <input id={`${id}-glide`} className={inputCls} value={plan.glide} placeholder={t('ip.glide.ph')} onChange={(e) => update({ glide: e.target.value })} />
           </Field>
@@ -228,22 +232,22 @@ export default function InvestmentPlanBuilder() {
         <Section title={t('ip.s6')}>
           <div className="flex flex-wrap gap-4">
             <Field id={`${id}-rm`} label={t('ip.rebMonths')}>
-              <NumInput id={`${id}-rm`} value={plan.rebalanceMonths} min={1} max={60} step="1" onChange={(v) => update({ rebalanceMonths: v ?? 12 })} />
+              <NumInput id={`${id}-rm`} value={plan.rebalanceMonths} min={1} max={60} step="1" onChange={(v) => update({ rebalanceMonths: v })} />
             </Field>
             <Field id={`${id}-rd`} label={t('ip.rebDrift')}>
-              <NumInput id={`${id}-rd`} value={plan.rebalanceDrift} min={0} max={50} step="1" onChange={(v) => update({ rebalanceDrift: v ?? 5 })} />
+              <NumInput id={`${id}-rd`} value={plan.rebalanceDrift} min={0} max={50} step="1" onChange={(v) => update({ rebalanceDrift: v })} />
             </Field>
           </div>
         </Section>
 
         <Section title={t('ip.s7')}>
           <Field id={`${id}-rule`} label={t('ip.crashRule')}>
-            <textarea id={`${id}-rule`} rows={3} className={inputCls} value={plan.crashRule} onChange={(e) => update({ crashRule: e.target.value })} />
+            <textarea id={`${id}-rule`} rows={3} className={inputCls} value={plan.crashRule} placeholder={t('ip.crashRule.ph')} onChange={(e) => update({ crashRule: e.target.value })} />
           </Field>
           {crash && (
             <p className="text-sm">
               {t('ip.crashCheck', { from: pctTxt(crash.from), to: pctTxt(crash.to), drift: dec(crash.drift, 1) })}{' '}
-              <strong>{t(crash.rebalance ? 'ip.crash.over' : 'ip.crash.under', { n: dec(plan.rebalanceDrift, 1) })}</strong>
+              <strong>{t(crash.rebalance ? 'ip.crash.over' : 'ip.crash.under', { n: dec(plan.rebalanceDrift ?? 0, 1) })}</strong>
             </p>
           )}
         </Section>
@@ -280,7 +284,7 @@ export default function InvestmentPlanBuilder() {
               className="btn btn-ghost"
               onClick={() => {
                 remove(STORE_KEY);
-                setPlan(emptyPlan(t('ip.crashRule.default')));
+                setPlan(emptyPlan());
                 setConfirmReset(false);
               }}
             >
@@ -296,7 +300,8 @@ export default function InvestmentPlanBuilder() {
   );
 }
 
-function Summary({ plan, target, pctTxt, or }: { plan: Plan; target: number | null; pctTxt: (n: number) => string; or: (s: string) => string }) {
+function Summary({ plan, target, pctTxt, or }: { plan: Plan; target: number | null; pctTxt: (n: number | null) => string; or: (s: string) => string }) {
+  const num = (n: number | null, digits = 1) => (n == null ? t('ip.empty') : dec(n, digits));
   const goals = plan.goals.filter((g) => g.what.trim() || g.amount != null || g.year != null);
   const row = (label: string, value: ReactNode) => (
     <div className="border-b border-border py-2 sm:grid sm:grid-cols-[14rem_minmax(0,1fr)] sm:gap-4">
@@ -325,15 +330,17 @@ function Summary({ plan, target, pctTxt, or }: { plan: Plan; target: number | nu
         {row(
           t('ip.s2'),
           <>
-            {t('ip.summary.emergency', { months: plan.months, amount: target != null ? eur(target) : t('ip.empty'), where: or(plan.emergencyWhere) })}
+            {plan.months == null && plan.expenses == null && !plan.emergencyWhere.trim()
+              ? t('ip.empty')
+              : t('ip.summary.emergency', { months: num(plan.months, 0), amount: target != null ? eur(target) : t('ip.empty'), where: or(plan.emergencyWhere) })}
             {plan.debt.trim() && <span className="block">{`${t('ip.debt')}: ${plan.debt}`}</span>}
           </>,
         )}
-        {row(t('ip.s3'), t('ip.summary.fall', { pct: pctTxt(plan.maxFall) }))}
+        {row(t('ip.s3'), plan.maxFall == null ? t('ip.empty') : t('ip.summary.fall', { pct: pctTxt(plan.maxFall) }))}
         {row(
           t('ip.s4'),
           <>
-            {t('ip.summary.mix', { shares: dec(plan.shares, 1), bonds: dec(plan.bonds, 1), cash: dec(plan.cash, 1) })}
+            {mixEntered(plan) ? t('ip.summary.mix', { shares: dec(plan.shares ?? 0, 1), bonds: dec(plan.bonds ?? 0, 1), cash: dec(plan.cash ?? 0, 1) }) : t('ip.empty')}
             {plan.glide.trim() && <span className="block">{plan.glide}</span>}
           </>,
         )}
@@ -348,7 +355,7 @@ function Summary({ plan, target, pctTxt, or }: { plan: Plan; target: number | nu
             )}
           </>,
         )}
-        {row(t('ip.s6'), t('ip.summary.rebalance', { months: plan.rebalanceMonths, drift: dec(plan.rebalanceDrift, 1) }))}
+        {row(t('ip.s6'), plan.rebalanceMonths == null && plan.rebalanceDrift == null ? t('ip.empty') : t('ip.summary.rebalance', { months: num(plan.rebalanceMonths, 0), drift: num(plan.rebalanceDrift) }))}
         {row(t('ip.s7'), or(plan.crashRule))}
         {row(t('ip.s8'), plan.review ? `${plan.review} · ${t('ip.review.help')}` : t('ip.review.help'))}
         {row(

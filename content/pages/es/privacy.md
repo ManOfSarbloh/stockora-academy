@@ -1,7 +1,7 @@
 ---
 title: "Política de privacidad"
 lead: "En resumen: no te rastreamos."
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-21
 ---
 
 Esta política explica qué ocurre con los datos personales cuando usas Stockora Academy. Esta versión en español es una traducción; prevalece la versión en inglés.
@@ -9,7 +9,7 @@ Esta política explica qué ocurre con los datos personales cuando usas Stockora
 ## Lo que no hacemos
 
 - Sin herramientas de analítica ni de estadísticas.
-- Sin cookies.
+- Sin cookies propias de este sitio. (YouTube puede instalar cookies cuando decides cargar un vídeo; consulta «Vídeos» más abajo.)
 - Sin publicidad, sin enlaces de afiliado, sin botones de redes sociales ni píxeles de seguimiento.
 - Sin cuentas ni registros. No te pedimos tu nombre ni tu correo electrónico.
 - Las fuentes tipográficas se sirven desde este mismo sitio, no desde un servicio de terceros.
@@ -41,11 +41,11 @@ Para leer sin conexión e instalar el sitio como aplicación, un pequeño script
 
 ## Vídeos (YouTube)
 
-Las lecciones y las páginas de temas incluyen vídeos educativos de YouTube. Un vídeo **no** se carga hasta que haces clic en él; antes no se solicita ningún dato a YouTube (ni siquiera una imagen de vista previa). Solo entonces tu navegador se conecta a YouTube (usando el dominio de privacidad mejorada `youtube-nocookie.com`), y se aplica la política de privacidad de YouTube. Cada vídeo tiene además un enlace sencillo «Ver en YouTube».
+Las lecciones y las páginas de temas incluyen vídeos educativos de YouTube. Un vídeo **no** se carga hasta que haces clic en él; antes no se solicita ningún dato a YouTube (ni siquiera una imagen de vista previa). Solo entonces tu navegador se conecta a YouTube (usando el dominio de privacidad mejorada `youtube-nocookie.com`), y se aplica la política de privacidad de YouTube. Cada vídeo tiene además un enlace sencillo «Ver en YouTube». A partir de ese momento, YouTube (Google) puede guardar cookies o datos similares en tu dispositivo y recibir datos como tu dirección IP y lo que ves; no tenemos ninguna influencia sobre ello. Si no quieres que ocurra, no cargues el vídeo.
 
 ## Alojamiento
 
-Este sitio web está alojado en GitHub Pages, un servicio de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Cuando abres una página, GitHub recibe los datos técnicos necesarios para entregarla, como tu dirección IP e información sobre tu navegador. Según la documentación de GitHub, la dirección IP de cada visitante de un sitio de GitHub Pages se registra y almacena por motivos de seguridad, tenga o no una cuenta de GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). No tenemos acceso a esos registros.
+Este sitio web está alojado en GitHub Pages, un servicio de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Cuando abres una página, GitHub recibe los datos técnicos necesarios para entregarla, como tu dirección IP e información sobre tu navegador. Según la documentación de GitHub, la dirección IP de cada visitante de un sitio de GitHub Pages se registra y almacena por motivos de seguridad, tenga o no una cuenta de GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). No tenemos acceso a esos registros. Cuánto tiempo conserva GitHub estos registros lo decide GitHub; su declaración de privacidad describe sus plazos de conservación.
 
 - **Finalidad:** entregar el sitio web y mantenerlo seguro.
 - **Base jurídica:** nuestro interés legítimo en ofrecer el sitio web de forma fiable y segura (art. 6.1.f del RGPD).

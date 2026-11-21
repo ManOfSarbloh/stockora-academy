@@ -1,7 +1,7 @@
 ---
 title: "Informativa sulla privacy"
 lead: "In breve: non ti tracciamo."
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-21
 ---
 
 Questa informativa spiega cosa succede ai dati personali quando usi Stockora Academy. Questa versione italiana è una traduzione; fa fede la versione inglese.
@@ -9,7 +9,7 @@ Questa informativa spiega cosa succede ai dati personali quando usi Stockora Aca
 ## Cosa non facciamo
 
 - Nessuno strumento di analisi o statistica.
-- Nessun cookie.
+- Nessun cookie di questo sito. (YouTube può impostare cookie quando scegli di caricare un video; vedi «Video» più sotto.)
 - Nessuna pubblicità, nessun link di affiliazione, nessun pulsante social o pixel di tracciamento.
 - Nessun account né registrazione. Non ti chiediamo nome né indirizzo e-mail.
 - I caratteri sono serviti da questo sito, non da un servizio di terzi.
@@ -41,11 +41,11 @@ Per la lettura offline e l'installazione del sito come app, un piccolo script (u
 
 ## Video (YouTube)
 
-Le lezioni e le pagine degli argomenti includono video educativi di YouTube. Un video **non** si carica finché non ci clicchi; prima non viene richiesto alcun dato a YouTube (nemmeno un'anteprima). Solo allora il tuo browser si collega a YouTube (usando il dominio a privacy avanzata `youtube-nocookie.com`) e si applica l'informativa privacy di YouTube. Ogni video ha anche un semplice link «Guarda su YouTube».
+Le lezioni e le pagine degli argomenti includono video educativi di YouTube. Un video **non** si carica finché non ci clicchi; prima non viene richiesto alcun dato a YouTube (nemmeno un'anteprima). Solo allora il tuo browser si collega a YouTube (usando il dominio a privacy avanzata `youtube-nocookie.com`) e si applica l'informativa privacy di YouTube. Ogni video ha anche un semplice link «Guarda su YouTube». Da quel momento YouTube (Google) può salvare cookie o dati simili sul tuo dispositivo e ricevere dati come il tuo indirizzo IP e ciò che guardi; non abbiamo alcuna influenza su questo. Se non lo desideri, non caricare il video.
 
 ## Hosting
 
-Questo sito è ospitato su GitHub Pages, un servizio di GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Quando apri una pagina, GitHub riceve i dati tecnici necessari per fornirla, come il tuo indirizzo IP e informazioni sul browser. Secondo la documentazione di GitHub, l'indirizzo IP di ogni visitatore di un sito GitHub Pages viene registrato e conservato per motivi di sicurezza, che abbia o meno un account GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Non abbiamo accesso a questi registri.
+Questo sito è ospitato su GitHub Pages, un servizio di GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Quando apri una pagina, GitHub riceve i dati tecnici necessari per fornirla, come il tuo indirizzo IP e informazioni sul browser. Secondo la documentazione di GitHub, l'indirizzo IP di ogni visitatore di un sito GitHub Pages viene registrato e conservato per motivi di sicurezza, che abbia o meno un account GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Non abbiamo accesso a questi registri. Per quanto tempo GitHub conserva questi log lo decide GitHub; la sua informativa sulla privacy descrive i tempi di conservazione.
 
 - **Finalità:** fornire il sito e mantenerlo sicuro.
 - **Base giuridica:** il nostro legittimo interesse a offrire il sito in modo affidabile e sicuro (art. 6, par. 1, lett. f del GDPR).

@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy"
 lead: "Short version: we do not track you."
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-21
 ---
 
 This policy explains what happens to personal data when you use Stockora Academy.
@@ -9,7 +9,7 @@ This policy explains what happens to personal data when you use Stockora Academy
 ## What we do not do
 
 - No analytics or statistics tools.
-- No cookies.
+- No cookies set by this website. (YouTube may set cookies once you choose to load a video; see Videos below.)
 - No advertising, no affiliate links, no social media buttons or tracking pixels.
 - No accounts or sign-ups. We do not ask for your name or email address.
 - Fonts are served from this website itself, not from a third-party font service.
@@ -41,11 +41,11 @@ For offline reading and installing the site as an app, a small script (a *servic
 
 ## Videos (YouTube)
 
-Lesson and topic pages include educational YouTube videos. A video does **not** load until you click on it, and before that no data (not even a preview image) is requested from YouTube. Only then does your browser connect to YouTube (using the privacy-enhanced `youtube-nocookie.com` domain), and YouTube's own privacy policy applies. Every video also has a plain "Watch on YouTube" link instead.
+Lesson and topic pages include educational YouTube videos. A video does **not** load until you click on it, and before that no data (not even a preview image) is requested from YouTube. Only then does your browser connect to YouTube (using the privacy-enhanced `youtube-nocookie.com` domain), and YouTube's own privacy policy applies. Every video also has a plain "Watch on YouTube" link instead. From that moment, YouTube (Google) may store cookies or similar data on your device and receive data such as your IP address and what you watch; we have no influence on this. If you do not want that, do not load the video.
 
 ## Hosting
 
-This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open a page, GitHub receives the technical data needed to deliver it, such as your IP address and information about your browser. According to GitHub's documentation, the IP address of every visitor to a GitHub Pages site is logged and stored for security purposes, whether or not the visitor has a GitHub account ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). We have no access to these logs.
+This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open a page, GitHub receives the technical data needed to deliver it, such as your IP address and information about your browser. According to GitHub's documentation, the IP address of every visitor to a GitHub Pages site is logged and stored for security purposes, whether or not the visitor has a GitHub account ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). We have no access to these logs. How long GitHub keeps these logs is decided by GitHub; its privacy statement describes its retention practices.
 
 - **Purpose:** delivering the website and keeping it secure.
 - **Legal basis:** our legitimate interest in providing the website reliably and securely (Art. 6(1)(f) GDPR).

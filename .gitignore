@@ -5,3 +5,4 @@ dist/
 *.log
 .env*
 .claude/
+public/third-party-licenses.txt

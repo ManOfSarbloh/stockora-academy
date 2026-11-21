@@ -1,7 +1,7 @@
 ---
 title: "Politique de confidentialité"
 lead: "En bref : nous ne vous pistons pas."
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-21
 ---
 
 Cette politique explique ce qu’il advient des données personnelles lorsque vous utilisez Stockora Academy. Cette version française est une traduction ; seule la version anglaise fait foi.
@@ -9,7 +9,7 @@ Cette politique explique ce qu’il advient des données personnelles lorsque vo
 ## Ce que nous ne faisons pas
 
 - Aucun outil d'analyse ou de statistiques.
-- Aucun cookie.
+- Aucun cookie déposé par ce site. (YouTube peut déposer des cookies dès que vous choisissez de charger une vidéo ; voir « Vidéos » plus bas.)
 - Aucune publicité, aucun lien d'affiliation, aucun bouton de réseau social ni pixel de suivi.
 - Aucun compte ni inscription. Nous ne vous demandons ni votre nom ni votre adresse e-mail.
 - Les polices sont servies par ce site lui-même, et non par un service tiers.
@@ -41,11 +41,11 @@ Pour la lecture hors ligne et l'installation du site comme application, un petit
 
 ## Vidéos (YouTube)
 
-Les leçons et les pages de thèmes contiennent des vidéos pédagogiques YouTube. Une vidéo ne se charge **pas** avant que vous cliquiez dessus ; auparavant, aucune donnée (pas même une image d'aperçu) n'est demandée à YouTube. Ce n'est qu'à ce moment que votre navigateur se connecte à YouTube (via le domaine à confidentialité renforcée `youtube-nocookie.com`), et la politique de confidentialité de YouTube s'applique. Chaque vidéo propose aussi un simple lien « Regarder sur YouTube ».
+Les leçons et les pages de thèmes contiennent des vidéos pédagogiques YouTube. Une vidéo ne se charge **pas** avant que vous cliquiez dessus ; auparavant, aucune donnée (pas même une image d'aperçu) n'est demandée à YouTube. Ce n'est qu'à ce moment que votre navigateur se connecte à YouTube (via le domaine à confidentialité renforcée `youtube-nocookie.com`), et la politique de confidentialité de YouTube s'applique. Chaque vidéo propose aussi un simple lien « Regarder sur YouTube ». À partir de ce moment, YouTube (Google) peut enregistrer des cookies ou des données similaires sur votre appareil et recevoir des données comme votre adresse IP et ce que vous regardez ; nous n'avons aucune influence là-dessus. Si vous ne le souhaitez pas, ne chargez pas la vidéo.
 
 ## Hébergement
 
-Ce site est hébergé sur GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Lorsque vous ouvrez une page, GitHub reçoit les données techniques nécessaires pour la fournir, comme votre adresse IP et des informations sur votre navigateur. Selon la documentation de GitHub, l’adresse IP de chaque visiteur d’un site GitHub Pages est enregistrée et conservée pour des raisons de sécurité, qu’il ait ou non un compte GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Nous n’avons pas accès à ces journaux.
+Ce site est hébergé sur GitHub Pages, un service de GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Lorsque vous ouvrez une page, GitHub reçoit les données techniques nécessaires pour la fournir, comme votre adresse IP et des informations sur votre navigateur. Selon la documentation de GitHub, l’adresse IP de chaque visiteur d’un site GitHub Pages est enregistrée et conservée pour des raisons de sécurité, qu’il ait ou non un compte GitHub ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Nous n’avons pas accès à ces journaux. La durée de conservation de ces journaux est décidée par GitHub ; sa déclaration de confidentialité décrit ses pratiques de conservation.
 
 - **Finalité :** fournir le site et en assurer la sécurité.
 - **Base juridique :** notre intérêt légitime à proposer le site de manière fiable et sécurisée (art. 6, paragraphe 1, point f du RGPD).

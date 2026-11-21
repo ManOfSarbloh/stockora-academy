@@ -1,7 +1,7 @@
 ---
 title: "Datenschutzerklärung"
 lead: "Kurz gesagt: Wir verfolgen dich nicht."
-lastUpdated: 2026-11-11
+lastUpdated: 2026-11-21
 ---
 
 Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du Stockora Academy nutzt. Diese deutsche Fassung ist eine Übersetzung; maßgeblich ist die englische Fassung.
@@ -9,7 +9,7 @@ Diese Erklärung beschreibt, was mit personenbezogenen Daten geschieht, wenn du 
 ## Was wir nicht tun
 
 - Keine Analyse- oder Statistiktools.
-- Keine Cookies.
+- Keine Cookies dieser Website. (YouTube kann Cookies setzen, sobald du ein Video lädst; siehe „Videos“ unten.)
 - Keine Werbung, keine Affiliate-Links, keine Social-Media-Buttons oder Tracking-Pixel.
 - Keine Konten oder Anmeldungen. Wir fragen nicht nach deinem Namen oder deiner E-Mail-Adresse.
 - Schriften werden von dieser Website selbst geladen, nicht von einem Schriftdienst eines Dritten.
@@ -41,11 +41,11 @@ Für das Offline-Lesen und die Installation als App speichert ein kleines Skript
 
 ## Videos (YouTube)
 
-Lektionen und Themenseiten enthalten Lernvideos von YouTube. Ein Video wird **erst** geladen, wenn du darauf klickst; vorher werden keinerlei Daten (nicht einmal ein Vorschaubild) von YouTube angefordert. Erst dann verbindet sich dein Browser mit YouTube (über die datenschutzfreundlichere Domain `youtube-nocookie.com`), und es gilt die Datenschutzerklärung von YouTube. Zu jedem Video gibt es stattdessen auch einen einfachen Link „Auf YouTube ansehen“.
+Lektionen und Themenseiten enthalten Lernvideos von YouTube. Ein Video wird **erst** geladen, wenn du darauf klickst; vorher werden keinerlei Daten (nicht einmal ein Vorschaubild) von YouTube angefordert. Erst dann verbindet sich dein Browser mit YouTube (über die datenschutzfreundlichere Domain `youtube-nocookie.com`), und es gilt die Datenschutzerklärung von YouTube. Zu jedem Video gibt es stattdessen auch einen einfachen Link „Auf YouTube ansehen“. Ab diesem Moment kann YouTube (Google) Cookies oder ähnliche Daten auf deinem Gerät speichern und Daten wie deine IP-Adresse und das, was du ansiehst, erhalten; darauf haben wir keinen Einfluss. Wenn du das nicht möchtest, lade das Video nicht.
 
 ## Hosting
 
-Diese Website wird auf GitHub Pages gehostet, einem Dienst von GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Wenn du eine Seite öffnest, erhält GitHub die technischen Daten, die für die Auslieferung nötig sind, etwa deine IP-Adresse und Angaben zu deinem Browser. Laut der Dokumentation von GitHub wird die IP-Adresse jeder Person, die eine GitHub-Pages-Seite besucht, aus Sicherheitsgründen protokolliert und gespeichert, unabhängig davon, ob sie ein GitHub-Konto hat ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Wir haben keinen Zugriff auf diese Protokolle.
+Diese Website wird auf GitHub Pages gehostet, einem Dienst von GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. Wenn du eine Seite öffnest, erhält GitHub die technischen Daten, die für die Auslieferung nötig sind, etwa deine IP-Adresse und Angaben zu deinem Browser. Laut der Dokumentation von GitHub wird die IP-Adresse jeder Person, die eine GitHub-Pages-Seite besucht, aus Sicherheitsgründen protokolliert und gespeichert, unabhängig davon, ob sie ein GitHub-Konto hat ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). Wir haben keinen Zugriff auf diese Protokolle. Wie lange GitHub diese Protokolle aufbewahrt, entscheidet GitHub; seine Datenschutzerklärung beschreibt, wie lange es Daten speichert.
 
 - **Zweck:** Auslieferung der Website und ihre Sicherheit.
 - **Rechtsgrundlage:** unser berechtigtes Interesse an einer zuverlässigen und sicheren Bereitstellung der Website (Art. 6 Abs. 1 lit. f DSGVO).
