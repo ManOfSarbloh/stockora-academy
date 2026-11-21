@@ -441,6 +441,15 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | History | The 30 events (28 past, 2 planned) are in content/i18n/<lang>/history.json; link titles are taken from the translated lesson titles, category titles and country names so they match the rest of the site. Source titles stay as published. The validator checks that every date keeps its years and every event keeps its myth and link count |
 | English-only list | /charts/candles/ and /history/ are no longer English-only: they get their own canonical URL, hreflang and sitemap entry |
 
+## Speed and accessibility check (2026-11-21)
+
+| Decision | Detail |
+|---|---|
+| Method | 15 live pages (English and German: home, lesson, glossary, Trading Times, Chart Lab, calculator, quizzes, history, candlesticks, search, country page, My learning) in a fresh browser per page, phone screen, slow 4G (150 ms, 1.6 Mbit/s) and 4x CPU slowdown; plus checks for images without alt text, buttons and links without names, unlabelled fields, duplicate ids, heading jumps, one h1, page language and tap targets under 24 px |
+| Speed | First and largest paint 0.6–1.0 s on every page, no long main-thread blocking (under 55 ms in total), layout shift at most 0.022; 76–250 KB transferred. Translated pages are about 0.15–0.25 s slower because the page's UI dictionary (/i18n/<lang>.js, about 34 KB compressed) loads before the page is shown. Kept as is: deferring it could let a React tool render its first frame in English, and the file is cached after the first page |
+| Tap targets | Text-style buttons (Select all, Clear, Reset, Undo) and checkbox rows were 20 px tall. A base CSS rule gives them at least 24 px (WCAG 2.2 target size); checked on the quiz page, Chart Lab and a lesson at 375 px |
+| No other issues | No missing alt text, names or labels, no duplicate ids or heading jumps; skip link, focus outline and reduced-motion styles were already in place |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

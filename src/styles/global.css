@@ -154,6 +154,14 @@
     -webkit-text-size-adjust: 100%;
     scroll-padding-top: 5rem;
   }
+  /* Tap targets: text-style buttons and checkbox/radio rows are at least 24px tall (WCAG 2.2 target size). */
+  button.underline {
+    min-height: 1.5rem;
+  }
+  label:has(> input[type='checkbox']),
+  label:has(> input[type='radio']:not(.sr-only)) {
+    min-height: 1.5rem;
+  }
   body {
     background: var(--bg);
     color: var(--text);
