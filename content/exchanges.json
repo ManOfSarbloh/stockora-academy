@@ -846,13 +846,73 @@
       {
         "date": "2026-12-31",
         "name": "New Year's Eve"
+      },
+      {
+        "date": "2027-01-01",
+        "name": "New Year's Day"
+      },
+      {
+        "date": "2027-02-08",
+        "name": "Carnival"
+      },
+      {
+        "date": "2027-02-09",
+        "name": "Carnival"
+      },
+      {
+        "date": "2027-02-10",
+        "name": "Ash Wednesday",
+        "lateOpen": "13:00"
+      },
+      {
+        "date": "2027-03-26",
+        "name": "Good Friday"
+      },
+      {
+        "date": "2027-04-21",
+        "name": "Tiradentes"
+      },
+      {
+        "date": "2027-05-27",
+        "name": "Corpus Christi"
+      },
+      {
+        "date": "2027-09-07",
+        "name": "Independence Day"
+      },
+      {
+        "date": "2027-10-12",
+        "name": "Our Lady of Aparecida"
+      },
+      {
+        "date": "2027-11-02",
+        "name": "All Souls' Day"
+      },
+      {
+        "date": "2027-11-15",
+        "name": "Proclamation of the Republic"
+      },
+      {
+        "date": "2027-12-24",
+        "name": "Christmas Eve"
+      },
+      {
+        "date": "2027-12-31",
+        "name": "New Year's Eve"
       }
     ],
     "holidaysSource": "https://www.b3.com.br/pt_br/noticias/calendario-de-negociacao-da-b3-confira-o-funcionamento-da-bolsa-em-2026.htm",
     "holidayYears": [
-      2026
+      2026,
+      2027
     ],
-    "notes": "Cash equities: pre-opening 9:45–10:00, trading 10:00–17:55 and closing call 17:55–18:00 (São Paulo time), as listed on B3's trading-hours page on 11 November 2026, after US daylight saving time ended. B3 moves its hours by one hour when US daylight saving time starts and ends (from 9 March 2026 trading ran 10:00–16:55), so these hours are shown until 12 March 2027. The schedule lists no after-market trading for cash equities, only an order-cancellation phase 18:25–18:45. On Ash Wednesday trading starts at 13:00. Brazil does not use daylight saving time.",
+    "extraSources": [
+      {
+        "title": "B3 Ofício Circular 057/2026-VNC: holiday calendar for 2027 and hours on Ash Wednesday, 10 February 2027 (PDF, 17 November 2026)",
+        "url": "https://www.b3.com.br/data/files/30/44/54/98/ECAE1A108E6A2C1AAC094EA8/OC%20057-2026-VNC%20CALENDARIO%20DE%20FERIADOS%20EM%202027%20E%20FUNCIONAMENTO%20DA%20B3%20EM%2010022027%20QUARTAFEIRA%20DE%20CINZAS_PT.pdf"
+      }
+    ],
+    "notes": "Cash equities: pre-opening 9:45–10:00, trading 10:00–17:55 and closing call 17:55–18:00 (São Paulo time), as listed on B3's trading-hours page on 11 November 2026, after US daylight saving time ended. B3 moves its hours by one hour when US daylight saving time starts and ends (from 9 March 2026 trading ran 10:00–16:55), so these hours are shown until 12 March 2027. The schedule lists no after-market trading for cash equities, only an order-cancellation phase 18:25–18:45. On Ash Wednesday trading starts at 13:00. B3 stays open on São Paulo city and state holidays (25 January, 9 July). In 2027, Labour Day, Black Consciousness Day and Christmas fall on a Saturday, so there are 12 weekdays without trading. Brazil does not use daylight saving time.",
     "asOf": "2026-11-11"
   },
   {
