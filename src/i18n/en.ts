@@ -927,6 +927,7 @@ export const en = {
   'qh.review.title': 'Review (spaced repetition)',
   'qh.review.lead': 'Questions you answered wrong come back the same day; correct ones return after 1, 3, 7, 14 and 30 days.',
   'qh.review.due': '{n} questions due for review',
+  'qh.review.dueOne': '1 question due for review',
   'qh.review.none': 'Nothing due right now.',
   'qh.custom.title': 'Build your own quiz',
   'qh.custom.lead': 'Pick topics, level, length and mode.',

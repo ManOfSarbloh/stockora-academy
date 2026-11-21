@@ -896,6 +896,7 @@ export const es: Dictionary = {
   'qh.review.title': "Repaso (repetición espaciada)",
   'qh.review.lead': "Las preguntas que fallaste vuelven el mismo día; las acertadas, al cabo de 1, 3, 7, 14 y 30 días.",
   'qh.review.due': "Preguntas pendientes de repaso: {n}",
+  'qh.review.dueOne': "1 pregunta pendiente de repaso",
   'qh.review.none': "No hay nada pendiente ahora mismo.",
   'qh.custom.title': "Crea tu propio cuestionario",
   'qh.custom.lead': "Elige temas, nivel, longitud y modo.",

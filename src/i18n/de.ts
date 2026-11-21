@@ -896,6 +896,7 @@ export const de: Dictionary = {
   'qh.review.title': "Wiederholung (verteiltes Lernen)",
   'qh.review.lead': "Falsch beantwortete Fragen kommen am selben Tag wieder; richtige nach 1, 3, 7, 14 und 30 Tagen.",
   'qh.review.due': "Fragen zur Wiederholung fällig: {n}",
+  'qh.review.dueOne': "1 Frage zur Wiederholung fällig",
   'qh.review.none': "Im Moment ist nichts fällig.",
   'qh.custom.title': "Stell dein eigenes Quiz zusammen",
   'qh.custom.lead': "Wähle Themen, Niveau, Länge und Modus.",

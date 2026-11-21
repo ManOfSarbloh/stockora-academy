@@ -22,6 +22,15 @@ const lessons = seq.map((l) => ({ key: l.key, title: l.title, href: url(l.href) 
         <a href={lessons[0].href} class="continue-link mt-3 inline-block text-sm font-semibold" data-label-continue={t('me.continue')}>
           {t('me.startFirst')} →
         </a>
+        <a
+          href={`${url('/quizzes/play')}?kind=review`}
+          class="review-link mt-2 block text-sm font-semibold"
+          data-one={t('qh.review.dueOne')}
+          data-many={t('qh.review.due', { n: '{n}' })}
+          hidden
+        >
+          🔁 <span></span> →
+        </a>
       </>
     )
   }
@@ -29,6 +38,19 @@ const lessons = seq.map((l) => ({ key: l.key, title: l.title, href: url(l.href) 
 
 <script>
   import { countDone, loadProgress, nextUnfinished } from '@/lib/progress';
+  import { loadStats } from '@/lib/quiz-store';
+  import { dayKey } from '@/lib/quiz-engine';
+
+  // Quiz questions due for spaced-repetition review (same rule as the review card on the quiz page).
+  const today = dayKey(new Date());
+  const due = Object.values(loadStats()).filter((s) => s && typeof s.due === 'string' && s.due <= today).length;
+  if (due > 0) {
+    for (const a of document.querySelectorAll<HTMLAnchorElement>('[data-home-progress] .review-link')) {
+      a.href += `&n=${Math.min(due, 20)}`;
+      a.querySelector('span')!.textContent = due === 1 ? (a.dataset.one ?? '') : (a.dataset.many ?? '').replace('{n}', String(due));
+      a.hidden = false;
+    }
+  }
 
   for (const box of document.querySelectorAll<HTMLElement>('[data-home-progress]')) {
     const lessons: { key: string; title: string; href: string }[] = JSON.parse(box.dataset.lessons ?? '[]');

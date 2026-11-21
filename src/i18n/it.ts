@@ -896,6 +896,7 @@ export const it: Dictionary = {
   'qh.review.title': "Ripasso (ripetizione dilazionata)",
   'qh.review.lead': "Le domande sbagliate tornano lo stesso giorno; quelle giuste dopo 1, 3, 7, 14 e 30 giorni.",
   'qh.review.due': "Domande da ripassare: {n}",
+  'qh.review.dueOne': "1 domanda da ripassare",
   'qh.review.none': "Al momento non c'è nulla da ripassare.",
   'qh.custom.title': "Crea il tuo quiz",
   'qh.custom.lead': "Scegli argomenti, livello, lunghezza e modalità.",

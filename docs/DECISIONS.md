@@ -450,6 +450,13 @@ Full requirements: [PROJECT_BRIEF.md](PROJECT_BRIEF.md).
 | Tap targets | Text-style buttons (Select all, Clear, Reset, Undo) and checkbox rows were 20 px tall. A base CSS rule gives them at least 24 px (WCAG 2.2 target size); checked on the quiz page, Chart Lab and a lesson at 375 px |
 | No other issues | No missing alt text, names or labels, no duplicate ids or heading jumps; skip link, focus outline and reduced-motion styles were already in place |
 
+## Review reminder on the dashboard (2026-11-21)
+
+| Decision | Detail |
+|---|---|
+| Finding | Spaced repetition already existed (quiz-stats, boxes 1–5, intervals 1/3/7/14/30 days, fed by every quiz including the lesson and topic quizzes), but the number of questions due was only shown on the quiz page, so returning learners did not see it |
+| Change | The progress card (home page and My learning) shows "🔁 N questions due for review →" when at least one question is due, linking to a review run of up to 20 questions. Hidden when nothing is due. Same rule as the quiz page; singular wording added ("1 question due for review") and used on the quiz page too |
+
 ## Open items
 
 - Owner to check domains, handles and trademarks (brief §0.1).

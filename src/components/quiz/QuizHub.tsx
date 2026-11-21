@@ -209,7 +209,7 @@ export default function QuizHub({ names, topics, countries }: Props) {
               🔁 {t('qh.review.title')}
             </h2>
             <p className="mt-1 text-sm text-muted">{t('qh.review.lead')}</p>
-            <p className="mt-2 text-sm font-semibold">{due > 0 ? t('qh.review.due', { n: due }) : t('qh.review.none')}</p>
+            <p className="mt-2 text-sm font-semibold">{due === 1 ? t('qh.review.dueOne') : due > 0 ? t('qh.review.due', { n: due }) : t('qh.review.none')}</p>
             {due > 0 && (
               <a className="btn btn-primary mt-3" href={link('review', { n: Math.min(due, 20) })}>
                 {t('qh.start.review')}

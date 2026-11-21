@@ -896,6 +896,7 @@ export const fr: Dictionary = {
   'qh.review.title': "Révision (répétition espacée)",
   'qh.review.lead': "Les questions ratées reviennent le jour même ; les bonnes réponses reviennent après 1, 3, 7, 14 et 30 jours.",
   'qh.review.due': "Questions à réviser : {n}",
+  'qh.review.dueOne': "1 question à réviser",
   'qh.review.none': "Rien à réviser pour le moment.",
   'qh.custom.title': "Composez votre propre quiz",
   'qh.custom.lead': "Choisissez les thèmes, le niveau, la longueur et le mode.",
