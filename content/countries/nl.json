@@ -26,7 +26,7 @@
       "timeZone": "Europe/Amsterdam",
       "hoursSource": "https://live.euronext.com/en/resources/trading-hours-holidays",
       "holidaysSource": "https://www.euronext.com/en/trading/trading-hours-holidays",
-      "note": "Amsterdam follows the Euronext holiday calendar; in 2026 it trades on Ascension Day and Whit Monday."
+      "note": "Amsterdam follows the Euronext holiday calendar; in 2026 and 2027 it trades on Ascension Day and Whit Monday."
     }
   ],
   "indexes": [

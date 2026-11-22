@@ -1,7 +1,7 @@
 ---
 title: "Jours fériés, week-ends et demi-séances"
 summary: "Les Bourses ferment le week-end et certains jours fériés, et certaines ferment plus tôt lors de journées particulières. Chaque Bourse publie son propre calendrier."
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-22
 ---
 
 Les Bourses négocient **du lundi au vendredi**. Le week-end, il n'y a pas de négociation, et chaque Bourse a aussi sa liste de **jours de fermeture**. Ces jours ne correspondent pas toujours aux jours fériés du pays.
@@ -9,16 +9,16 @@ Les Bourses négocient **du lundi au vendredi**. Le week-end, il n'y a pas de n�
 ## Vienne : tous les jours fériés ne sont pas des jours de fermeture
 
 > [!AUSTRIA]
-> En 2026, la Bourse de Vienne est **fermée** le 1er janvier, le Vendredi saint (3 avril), le lundi de Pâques (6 avril), le 1er mai, la fête nationale (26 octobre), les 24, 25 et 31 décembre.
+> En 2027, la Bourse de Vienne est **fermée** le 1er janvier, le Vendredi saint (26 mars), le lundi de Pâques (29 mars), la fête nationale (26 octobre), les 24 et 31 décembre. Le 1er mai et Noël tombent un samedi.
 >
 > Lors de plusieurs jours fériés autrichiens, elle **est ouverte**, par exemple le 6 janvier, le jeudi de l'Ascension, le lundi de Pentecôte, la Fête-Dieu et le 8 décembre.
 
 ## New York : jours de fermeture et clôtures anticipées
 
-Le NYSE publie ses jours de fermeture plusieurs années à l'avance. En 2026, il est fermé dix jours, dont le Vendredi saint, la fête de l'Indépendance (observée le vendredi 3 juillet), Thanksgiving (26 novembre) et Noël. Certains jours, il ferme plus tôt, à **13 h**, par exemple le lendemain de Thanksgiving (27 novembre 2026) et la veille de Noël (24 décembre 2026).
+Le NYSE publie ses jours de fermeture plusieurs années à l'avance. En 2027, il est fermé dix jours, dont le Vendredi saint, la fête de l'Indépendance (observée le lundi 5 juillet), Thanksgiving (25 novembre) et Noël (observé le vendredi 24 décembre). Certains jours, il ferme plus tôt, à **13 h**, par exemple le lendemain de Thanksgiving (26 novembre 2027).
 
 > [!EXAMPLE]
-> Le **vendredi 3 avril 2026** (Vendredi saint), Vienne et New York sont toutes deux fermées. Le **lundi 6 avril** (lundi de Pâques), Vienne est fermée mais New York est ouverte.
+> Le **vendredi 26 mars 2027** (Vendredi saint), Vienne et New York sont toutes deux fermées. Le **lundi 29 mars** (lundi de Pâques), Vienne est fermée mais New York est ouverte.
 >
 > Si vous détenez des actions américaines via un courtier basé à Vienne, vous pouvez donc voir leurs cours bouger des jours où la Bourse de Vienne est fermée.
 

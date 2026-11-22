@@ -6,7 +6,7 @@ level: intermediate
 summary: Most investors should use a simple cash account. Margin accounts let you borrow to invest, with much higher risk. Many countries also offer special tax-advantaged accounts.
 readingTime: 6
 tags: [cash account, margin account, ISA, IRA, 401(k), NISA, TFSA]
-lastReviewed: 2026-10-11
+lastReviewed: 2026-11-22
 sources:
   - title: "Investor Bulletin: Understanding Margin Accounts (Investor.gov)"
     url: https://www.investor.gov/introduction-investing/general-resources/news-alerts/alerts-bulletins/investor-bulletins-29
@@ -14,6 +14,8 @@ sources:
     url: https://www.gov.uk/individual-savings-accounts/how-isas-work
   - title: "401(k) limit increases to $24,500 for 2026, IRA limit increases to $7,500 (IRS)"
     url: https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500
+  - title: "401(k) limit increases to $25,500 for 2027, IRA limit remains $7,500 (IRS)"
+    url: https://www.irs.gov/newsroom/401k-limit-increases-to-25500-for-2027-ira-limit-remains-7500
   - title: "What is a TFSA (Canada Revenue Agency)"
     url: https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account/what.html
   - title: "FSA Weekly Review No. 604: Statistics of NISA Accounts (Financial Services Agency, Japan)"
@@ -48,7 +50,7 @@ Many countries encourage long-term saving with special accounts in which investm
 | Country | Account | Key feature (as of 2026) |
 |---|---|---|
 | United Kingdom | **ISA** (Individual Savings Account) | Up to **£20,000** per tax year across all ISAs; returns inside are tax-free |
-| United States | **IRA** and **401(k)** | Retirement accounts with tax advantages; 2026 contribution limits of **$7,500** (IRA) and **$24,500** (401(k)) |
+| United States | **IRA** and **401(k)** | Retirement accounts with tax advantages; 2026 contribution limits of **$7,500** (IRA) and **$24,500** (401(k)). For 2027 the 401(k) limit rises to **$25,500**; the IRA limit stays at $7,500 |
 | Japan | **NISA** (Nippon Individual Savings Account) | Tax-exempt investment account; about 24 million accounts by mid-2024, according to Japan's Financial Services Agency |
 | Canada | **TFSA** (Tax-Free Savings Account) | Income and gains are generally tax-free, even when withdrawn; contributions are not tax-deductible |
 

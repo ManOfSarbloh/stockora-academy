@@ -1,7 +1,7 @@
 ---
 title: "Types de comptes : au comptant, sur marge et comptes à avantages fiscaux"
 summary: "La plupart des investisseurs devraient utiliser un simple compte au comptant. Les comptes sur marge permettent d'emprunter pour investir, avec un risque bien plus élevé. Beaucoup de pays proposent aussi des comptes spéciaux à avantages fiscaux."
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-22
 ---
 
 ## Le compte au comptant
@@ -32,7 +32,7 @@ Beaucoup de pays encouragent l'épargne de long terme avec des comptes spéciaux
 | Pays | Compte | Caractéristique principale (en 2026) |
 |---|---|---|
 | Royaume-Uni | **ISA** (Individual Savings Account) | Jusqu'à **20 000 £** par année fiscale, tous ISA confondus ; les rendements y sont exonérés d'impôt |
-| États-Unis | **IRA** et **401(k)** | Comptes de retraite à avantages fiscaux ; plafonds de versement 2026 de **7 500 $** (IRA) et **24 500 $** (401(k)) |
+| États-Unis | **IRA** et **401(k)** | Comptes de retraite à avantages fiscaux ; plafonds de versement 2026 de **7 500 $** (IRA) et **24 500 $** (401(k)). En 2027, le plafond du 401(k) passe à **25 500 $** ; celui de l'IRA reste à 7 500 $ |
 | Japon | **NISA** (Nippon Individual Savings Account) | Compte d'investissement exonéré d'impôt ; environ 24 millions de comptes à la mi-2024, selon l'agence japonaise des services financiers |
 | Canada | **CELI** (compte d'épargne libre d'impôt, TFSA) | Revenus et gains généralement exonérés d'impôt, même lors des retraits ; les versements ne sont pas déductibles |
 

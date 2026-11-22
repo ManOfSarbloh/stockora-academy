@@ -315,9 +315,9 @@
     "explanation": "Exchanges trade Monday to Friday, except on their exchange holidays.",
     "lessonLink": "/learn/trading-times/holidays-and-half-days",
     "sources": [
-      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2027-en.pdf"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "E-017",
@@ -327,12 +327,12 @@
     "type": "true_false",
     "question": "True or false: the Vienna Stock Exchange is closed on every Austrian public holiday.",
     "answerBool": false,
-    "explanation": "False. In 2026, for example, it trades on 6 January, Ascension Day, Whit Monday, Corpus Christi and 8 December.",
+    "explanation": "False. In 2027, for example, it trades on 6 January, Ascension Day, Whit Monday, Corpus Christi, 1 November and 8 December.",
     "lessonLink": "/learn/trading-times/holidays-and-half-days",
     "sources": [
-      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2027-en.pdf"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "E-018",
@@ -340,10 +340,10 @@
     "topic": "holidays-and-half-days",
     "difficulty": "intermediate",
     "type": "multiple_select",
-    "question": "On which of these 2026 dates is the Vienna Stock Exchange closed? Select all that apply.",
+    "question": "On which of these 2027 dates is the Vienna Stock Exchange closed? Select all that apply.",
     "options": [
-      "3 April (Good Friday)",
-      "1 May",
+      "26 March (Good Friday)",
+      "29 March (Easter Monday)",
       "26 October (National Day)",
       "8 December"
     ],
@@ -352,12 +352,12 @@
       1,
       2
     ],
-    "explanation": "In 2026 Vienna is closed on Good Friday (3 April), 1 May and the National Day (26 October), but open on 8 December.",
+    "explanation": "In 2027 Vienna is closed on Good Friday (26 March), Easter Monday (29 March) and the National Day (26 October), but open on 8 December.",
     "lessonLink": "/learn/trading-times/holidays-and-half-days",
     "sources": [
-      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf"
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2027-en.pdf"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "E-019",
@@ -386,7 +386,7 @@
     "topic": "holidays-and-half-days",
     "difficulty": "advanced",
     "type": "multiple_choice",
-    "question": "Easter Monday, 6 April 2026: which statement is correct?",
+    "question": "Easter Monday, 29 March 2027: which statement is correct?",
     "options": [
       "Vienna is closed, New York is open",
       "Both are closed",
@@ -394,13 +394,13 @@
       "Vienna is open, New York is closed"
     ],
     "answerIndex": 0,
-    "explanation": "Vienna is closed on Easter Monday 2026, but Easter Monday is not a NYSE holiday, so New York trades.",
+    "explanation": "Vienna is closed on Easter Monday 2027, but Easter Monday is not a NYSE holiday, so New York trades.",
     "lessonLink": "/learn/trading-times/holidays-and-half-days",
     "sources": [
-      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2026-en.pdf",
+      "https://www.wienerborse.at/uploads/u/cms/files/trading/stock-exchange-holidays-2027-en.pdf",
       "https://www.nyse.com/trade/hours-calendars"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "E-021",
@@ -450,7 +450,7 @@
     "topic": "time-zones-and-dst",
     "difficulty": "advanced",
     "type": "multiple_choice",
-    "question": "In 2026, between 8 and 28 March, at what Vienna time does the NYSE open?",
+    "question": "In 2027, between 14 and 27 March, at what Vienna time does the NYSE open?",
     "options": [
       "14:30",
       "15:30",
@@ -458,13 +458,13 @@
       "13:30"
     ],
     "answerIndex": 0,
-    "explanation": "The US switched to DST on 8 March 2026 but the EU only on 29 March, so the gap is 5 hours and the NYSE opens at 14:30 Vienna time.",
+    "explanation": "The US switches to DST on 14 March 2027 but the EU only on 28 March, so the gap is 5 hours and the NYSE opens at 14:30 Vienna time.",
     "lessonLink": "/learn/trading-times/time-zones-and-dst",
     "sources": [
       "https://www.nist.gov/pml/time-and-frequency-division/popular-links/daylight-saving-time-dst",
       "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32000L0084"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "E-024",

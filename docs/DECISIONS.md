@@ -472,8 +472,16 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | GitHub logs (GDPR Art. 13(2)(a)) | The privacy page says GitHub decides how long it keeps its logs and points to its privacy statement |
 | Still for the owner | Check the name "Stockora" in the trademark registers (Austrian Patent Office see.ip, EUIPO TMview) and the Firmenbuch |
 
+## New-year fact check (2026-11-22)
+
+| Decision | Detail |
+|---|---|
+| Updated | US: the IRS raised the 401(k) limit to $25,500 for 2027; the IRA limit stays at $7,500 (IRS news release, 12 November 2026). Glossary, the account-types lesson and quiz F-017 now give 2026 and 2027, so they are right before and after 1 January. Holidays lesson and quizzes E-016/017/018/020/023 now use 2027 examples (Wiener Börse 2027 holiday PDF, NYSE 2027 list, US DST 14 March / EU 28 March 2027). India: the 2026 Muhurat session is now in the past tense. Amsterdam: trades on Ascension Day and Whit Monday in 2026 and 2027 (Euronext 2027 list). All in de/es/fr/it too; translatedFrom updated with lastReviewed |
+| Checked, no change | UK: the planned £12,000 cash ISA limit from April 2027 was withdrawn (GOV.UK tax-free savings newsletter, October 2026), so the £20,000 ISA allowance stays. Austria: no change to KESt for 2027 (the holding-period exemption was not passed); the Gewinnfreibetrag change for 2027 is not covered on the site. Japan: a NISA for under-18s from 2027 is planned but depends on a law change; no final official source yet |
+
 ## Open items
 
+- January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).
 - After 6 December 2026: Nasdaq's 23/5 night session (9 p.m.–4 a.m. ET) was still scheduled for that date on 2026-11-21, subject to SIP readiness and SEC rule changes. Once nasdaq.com confirms the launch (or a delay), update: content/history.json event nasdaq-23-5 (drop planned, past tense) and its four translations, content/lessons/E/overnight-trading.md and its translations, the glossary entry and the quiz questions in content/quizzes/E-trading-times.json that call it planned.
 - Owner to check domains, handles and trademarks (brief §0.1).
 - Russian: translate the glossary (551 terms) to content/i18n/ru/glossary.json, review the existing Russian files, then register `ru` in src/i18n/dictionaries.ts.

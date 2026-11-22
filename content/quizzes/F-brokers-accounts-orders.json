@@ -319,20 +319,20 @@
     "topic": "account-types",
     "difficulty": "advanced",
     "type": "multiple_choice",
-    "question": "Which US limit applies in 2026 according to the IRS?",
+    "question": "Which US limits apply in 2027 according to the IRS?",
     "options": [
-      "401(k): $24,500; IRA: $7,500",
-      "401(k): $7,500; IRA: $24,500",
+      "401(k): $25,500; IRA: $7,500",
+      "401(k): $7,500; IRA: $25,500",
       "Both: $20,000",
       "There are no limits"
     ],
     "answerIndex": 0,
-    "explanation": "For 2026, the 401(k) contribution limit is $24,500 and the IRA limit is $7,500.",
+    "explanation": "For 2027, the IRS raised the 401(k) contribution limit to $25,500 (from $24,500 in 2026); the IRA limit stays at $7,500.",
     "lessonLink": "/learn/brokers-accounts-orders/account-types",
     "sources": [
-      "https://www.irs.gov/newsroom/401k-limit-increases-to-24500-for-2026-ira-limit-increases-to-7500"
+      "https://www.irs.gov/newsroom/401k-limit-increases-to-25500-for-2027-ira-limit-remains-7500"
     ],
-    "lastReviewed": "2026-10"
+    "lastReviewed": "2026-11"
   },
   {
     "id": "F-018",

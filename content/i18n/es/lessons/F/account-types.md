@@ -1,7 +1,7 @@
 ---
 title: "Tipos de cuenta: de contado, con margen y con ventajas fiscales"
 summary: La mayoría de los inversores deberían usar una cuenta de contado sencilla. Las cuentas con margen permiten pedir prestado para invertir, con mucho más riesgo. Muchos países ofrecen además cuentas especiales con ventajas fiscales.
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-22
 ---
 
 ## Cuenta de contado
@@ -32,7 +32,7 @@ Muchos países fomentan el ahorro a largo plazo con cuentas especiales en las qu
 | País | Cuenta | Rasgo principal (a 2026) |
 |---|---|---|
 | Reino Unido | **ISA** (Individual Savings Account) | Hasta **20.000 £** por año fiscal entre todas las ISA; la rentabilidad dentro está exenta |
-| Estados Unidos | **IRA** y **401(k)** | Cuentas de jubilación con ventajas fiscales; límites de aportación en 2026 de **7.500 $** (IRA) y **24.500 $** (401(k)) |
+| Estados Unidos | **IRA** y **401(k)** | Cuentas de jubilación con ventajas fiscales; límites de aportación en 2026 de **7.500 $** (IRA) y **24.500 $** (401(k)). En 2027 el límite del 401(k) sube a **25.500 $**; el de la IRA se mantiene en 7.500 $ |
 | Japón | **NISA** (Nippon Individual Savings Account) | Cuenta de inversión exenta de impuestos; unos 24 millones de cuentas a mediados de 2024, según la Agencia de Servicios Financieros de Japón |
 | Canadá | **TFSA** (Tax-Free Savings Account) | Los ingresos y las ganancias suelen estar exentos, incluso al retirarlos; las aportaciones no desgravan |
 

@@ -1,7 +1,7 @@
 ---
 title: "Kontoarten: Cash-Konto, Margin-Konto und steuerbegünstigte Konten"
 summary: Die meisten Anleger sollten ein einfaches Cash-Konto nutzen. Mit Margin-Konten leihst du dir Geld zum Investieren, mit viel höherem Risiko. Viele Länder bieten außerdem besondere steuerbegünstigte Konten.
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-22
 ---
 
 ## Cash-Konto
@@ -32,7 +32,7 @@ Viele Länder fördern langfristiges Sparen mit besonderen Konten, in denen Anla
 | Land | Konto | Wichtigstes Merkmal (Stand 2026) |
 |---|---|---|
 | Vereinigtes Königreich | **ISA** (Individual Savings Account) | Bis zu **20.000 £** pro Steuerjahr über alle ISAs; Erträge darin sind steuerfrei |
-| USA | **IRA** und **401(k)** | Altersvorsorgekonten mit Steuervorteilen; Einzahlungsgrenzen 2026 von **7.500 $** (IRA) und **24.500 $** (401(k)) |
+| USA | **IRA** und **401(k)** | Altersvorsorgekonten mit Steuervorteilen; Einzahlungsgrenzen 2026 von **7.500 $** (IRA) und **24.500 $** (401(k)). 2027 steigt die Grenze für den 401(k) auf **25.500 $**; die IRA-Grenze bleibt bei 7.500 $ |
 | Japan | **NISA** (Nippon Individual Savings Account) | Steuerfreies Anlagekonto; laut japanischer Finanzaufsicht FSA etwa 24 Millionen Konten bis Mitte 2024 |
 | Kanada | **TFSA** (Tax-Free Savings Account) | Erträge und Gewinne sind grundsätzlich steuerfrei, auch bei Entnahme; Einzahlungen sind nicht steuerlich absetzbar |
 

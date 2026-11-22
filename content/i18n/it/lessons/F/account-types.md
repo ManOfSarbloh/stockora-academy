@@ -1,7 +1,7 @@
 ---
 title: "Tipi di conto: senza leva, a margine e a fiscalità agevolata"
 summary: "La maggior parte degli investitori dovrebbe usare un semplice conto senza leva. I conti a margine permettono di investire con denaro preso a prestito, con un rischio molto più alto. Molti Paesi offrono inoltre conti speciali a fiscalità agevolata."
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-22
 ---
 
 ## Il conto senza leva
@@ -32,7 +32,7 @@ Molti Paesi incoraggiano il risparmio di lungo periodo con conti speciali in cui
 | Paese | Conto | Caratteristica principale (nel 2026) |
 |---|---|---|
 | Regno Unito | **ISA** (Individual Savings Account) | Fino a **20.000 sterline** per anno fiscale su tutti gli ISA; i rendimenti all'interno sono esenti |
-| Stati Uniti | **IRA** e **401(k)** | Conti previdenziali con vantaggi fiscali; limiti di versamento 2026 di **7.500 $** (IRA) e **24.500 $** (401(k)) |
+| Stati Uniti | **IRA** e **401(k)** | Conti previdenziali con vantaggi fiscali; limiti di versamento 2026 di **7.500 $** (IRA) e **24.500 $** (401(k)). Nel 2027 il limite del 401(k) sale a **25.500 $**; quello dell'IRA resta a 7.500 $ |
 | Giappone | **NISA** (Nippon Individual Savings Account) | Conto d'investimento esente da imposte; circa 24 milioni di conti a metà 2024, secondo la Financial Services Agency giapponese |
 | Canada | **TFSA** (Tax-Free Savings Account) | Redditi e plusvalenze sono in genere esenti, anche al prelievo; i versamenti non sono deducibili |
 
