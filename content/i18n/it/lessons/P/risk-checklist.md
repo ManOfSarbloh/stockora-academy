@@ -1,7 +1,7 @@
 ---
 title: "Una lista di controllo pratica sui rischi"
 summary: "Riunisci la categoria in una sola pagina: dodici domande da verificare prima di comprare qualsiasi cosa, e una revisione annuale dei rischi dell'intero portafoglio."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Gestire il rischio non richiede modelli complessi. La maggior parte dei danni viene da pochi errori evitabili: troppo in un solo posto, denaro preso a prestito, prodotti non compresi e denaro che serve troppo presto.
@@ -21,6 +21,17 @@ Gestire il rischio non richiede modelli complessi. La maggior parte dei danni vi
 > 10. **Quanto pesa questa posizione nel mio portafoglio?** (lezione 6)
 > 11. **Quando potrebbe servirmi questo denaro?** (categoria M)
 > 12. **Perché lo compro proprio adesso?** Se la risposta è «ne parlano tutti», aspetta (categoria O).
+
+> [!EXAMPLE] La lista in pratica
+> Un messaggio da un numero sconosciuto: «Versa 2.000 € e guadagna l'8% al mese con il nostro bot di trading con IA, garantito». Bastano cinque delle dodici domande:
+>
+> - **1. Lo capisco?** No: nessuno spiega come il bot guadagna.
+> - **2. Il venditore è autorizzato?** Il fornitore non compare nella banca dati delle imprese della FMA.
+> - **3. Perdita massima realistica?** Tutti i 2.000 €.
+> - **10. Quanto è grande la posizione?** 2.000 € sarebbero un terzo di 6.000 € di risparmi.
+> - **12. Perché adesso?** «I posti sono limitati» è pressione, non un motivo.
+>
+> Un «no» chiaro basta per fermarsi; qui ce ne sono cinque. E l'8% al mese significherebbe più del 150% all'anno (1,08¹² ≈ 2,5), una promessa che la categoria T descrive come classico segnale di frode.
 
 ## Una volta all'anno: la revisione del portafoglio
 

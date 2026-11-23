@@ -6,7 +6,7 @@ level: beginner
 summary: 'There is no "best" broker for everyone. Here are the criteria to compare, starting with the most important one: is the firm really authorised?'
 readingTime: 6
 tags: [broker, regulation, FMA, costs, criteria]
-lastReviewed: 2026-10-11
+lastReviewed: 2026-11-23
 sources:
   - title: "FMA warns of dubious and fraudulent providers that fake regulation (FMA, in German)"
     url: https://www.fma.gv.at/fma-warnt-vor-unserioesen-und-betruegerischen-anbietern-von-finanzdienstleistungen-die-regulierung-und-aufsicht-nur-vortaeuschen/
@@ -42,6 +42,14 @@ Compare the **total** cost for the way you actually invest:
 - **currency conversion** fees for foreign shares,
 - spreads and the venues where orders are executed,
 - fees for savings plans, transfers and closing the account.
+
+> [!EXAMPLE] Same trade, two price lists
+> You plan to buy **€3,000** of a US share and hold it. Two made-up price lists:
+>
+> - **Broker A:** €1 per trade, but **0.5%** for converting euros into dollars.
+> - **Broker B:** €9 per trade, currency conversion **0.1%**.
+>
+> Buying costs €1 + 0.5% × €3,000 = **€16** at A, and €9 + 0.1% × €3,000 = **€12** at B. When you sell, the dollars are converted back, so the currency fee is charged again. For this way of investing, the broker with the cheaper commission is the more expensive one.
 
 ## 4. Product range and markets
 

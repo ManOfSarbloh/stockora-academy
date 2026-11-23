@@ -1,7 +1,7 @@
 ---
 title: "Les classes d'actifs comparées : actions, obligations, liquidités, immobilier et or"
 summary: "Comment les principales classes d'actifs se sont comportées sur près d'un siècle de données américaines, des rendements réguliers des bons à court terme aux fortes oscillations de l'or et des actions de petites entreprises. Un point de départ pour le reste de la catégorie."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Les actions ne sont qu'une façon d'investir parmi d'autres. Cette catégorie examine les autres : obligations, liquidités, immobilier, or et matières premières, devises et crypto-actifs. D'abord, un aperçu de la manière dont certaines d'entre elles se sont comportées.
@@ -32,6 +32,17 @@ Aswath Damodaran, de NYU Stern, publie les rendements annuels américains de plu
 - **Les différents actifs ont baissé à des années différentes**, ce qui est le fondement de la diversification (catégorie M).
 
 Le guide de la SEC pour débutants résume l'arbitrage principal : les actions ont historiquement présenté le risque le plus élevé et les rendements les plus élevés, les obligations sont en général moins volatiles avec des rendements plus modestes, et les liquidités sont le placement le plus sûr avec les rendements les plus faibles, la principale préoccupation étant alors l'inflation.
+
+> [!EXAMPLE] 10 000 $ dans la pire année de chaque classe d'actifs
+> Avec les pires années du tableau, 10 000 $ seraient devenus :
+>
+> - Grandes entreprises américaines (1931) : 10 000 $ × (1 − 0,438) = **5 620 $**
+> - Or (1981) : 10 000 $ × (1 − 0,326) = **6 740 $**
+> - Obligations d'État américaines à 10 ans (2022) : 10 000 $ × (1 − 0,178) = **8 220 $**
+> - Obligations d'entreprises notées Baa (1931) : 10 000 $ × (1 − 0,157) = **8 430 $**
+> - Bons du Trésor : aucune année de perte ; même la plus faible (2014) a laissé **10 003 $**
+>
+> Les pires années sont arrivées à des moments différents selon les actifs ; c'est pourquoi un mélange baisse en général moins que sa partie la plus faible.
 
 > [!WARNING] Un pays, une devise, un siècle
 > Ce sont des chiffres américains en dollars. Pour un investisseur en euros, les variations de change modifieraient les résultats, et l'histoire d'autres pays diffère. Le passé ne prédit pas l'avenir.

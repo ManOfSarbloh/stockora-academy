@@ -1,7 +1,7 @@
 ---
 title: "Eine praktische Risiko-Checkliste"
 summary: "Die Kategorie auf einer Seite zusammengefasst: zwölf Fragen, die du vor jedem Kauf prüfst, und eine jährliche Überprüfung der Risiken deines ganzen Portfolios."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Risikomanagement braucht keine komplexen Modelle. Der meiste Schaden kommt von wenigen vermeidbaren Fehlern: zu viel an einem Ort, geliehenes Geld, Produkte, die man nicht versteht, und Geld, das man zu bald braucht.
@@ -21,6 +21,17 @@ Risikomanagement braucht keine komplexen Modelle. Der meiste Schaden kommt von w
 > 10. **Wie groß ist diese Position in meinem Portfolio?** (Lektion 6)
 > 11. **Wann könnte ich dieses Geld brauchen?** (Kategorie M)
 > 12. **Warum kaufe ich es gerade jetzt?** Lautet die Antwort „alle reden darüber“, warte (Kategorie O).
+
+> [!EXAMPLE] Die Checkliste in der Praxis
+> Eine Nachricht von einer unbekannten Nummer: „Zahle 2.000 € ein und verdiene mit unserem KI-Trading-Bot 8 % im Monat, garantiert.“ Fünf der zwölf Fragen genügen:
+>
+> - **1. Verstehe ich es?** Nein: Niemand erklärt, wie der Bot Geld verdient.
+> - **2. Ist der Anbieter zugelassen?** Er steht nicht in der Unternehmensdatenbank der FMA.
+> - **3. Größter realistischer Verlust?** Die ganzen 2.000 €.
+> - **10. Wie groß ist die Position?** 2.000 € wären ein Drittel von 6.000 € Erspartem.
+> - **12. Warum jetzt?** „Die Plätze sind begrenzt“ ist Druck, kein Grund.
+>
+> Ein klares „Nein“ reicht, um aufzuhören; hier sind es fünf. Und 8 % im Monat wären mehr als 150 % im Jahr (1,08¹² ≈ 2,5), ein Versprechen, das Kategorie T als klassisches Betrugssignal beschreibt.
 
 ## Einmal im Jahr: die Portfolio-Überprüfung
 

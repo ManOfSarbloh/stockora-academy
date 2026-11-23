@@ -6,7 +6,7 @@ level: beginner
 summary: "EU regulators warn that many crypto-assets are highly risky and speculative, with a real possibility of losing all the money invested. The EU's MiCA Regulation now regulates certain tokens and service providers, but large areas such as DeFi lending, staking services and NFTs remain unregulated."
 readingTime: 7
 tags: [crypto-assets, bitcoin, stablecoins, MiCAR, DeFi, staking, NFT, FMA]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-11-23
 sources:
   - title: "Welche Krypto-Assets und -Dienstleistungen sind reguliert – und welche nicht? (FMA, in German)"
     url: https://www.fma.gv.at/geldanlage/welche-krypto-assets-sind-reguliert-und-welche-nicht/
@@ -25,6 +25,9 @@ In March 2022, the three European Supervisory Authorities (**EBA, ESMA and EIOPA
 - face the **very real possibility of losing all their invested money**;
 - should be alert to **misleading advertisements**, including via social media and influencers;
 - should be particularly wary of promised **fast or high returns** that look too good to be true.
+
+> [!EXAMPLE] What a big fall means
+> You buy **€1,000** of a crypto-asset and its price falls **60%**. Your position is now worth **€400**. To get back to €1,000, the price has to rise by **150%** (€400 × 2.5 = €1,000), not by 60%. The numbers are made up; they show why large falls are so hard to recover from.
 
 ## Three kinds of crypto-assets under MiCAR
 

@@ -479,6 +479,14 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | Updated | US: the IRS raised the 401(k) limit to $25,500 for 2027; the IRA limit stays at $7,500 (IRS news release, 12 November 2026). Glossary, the account-types lesson and quiz F-017 now give 2026 and 2027, so they are right before and after 1 January. Holidays lesson and quizzes E-016/017/018/020/023 now use 2027 examples (Wiener Börse 2027 holiday PDF, NYSE 2027 list, US DST 14 March / EU 28 March 2027). India: the 2026 Muhurat session is now in the past tense. Amsterdam: trades on Ascension Day and Whit Monday in 2026 and 2027 (Euronext 2027 list). All in de/es/fr/it too; translatedFrom updated with lastReviewed |
 | Checked, no change | UK: the planned £12,000 cash ISA limit from April 2027 was withdrawn (GOV.UK tax-free savings newsletter, October 2026), so the £20,000 ISA allowance stays. Austria: no change to KESt for 2027 (the holding-period exemption was not passed); the Gewinnfreibetrag change for 2027 is not covered on the site. Japan: a NISA for under-18s from 2027 is planned but depends on a law change; no final official source yet |
 
+## Lesson quality review (2026-11-23)
+
+| Decision | Detail |
+|---|---|
+| Measured | All 196 lessons: average sentence 17 words; every lesson has key takeaways; 123 have a "common mistake" box. Every calculation of the form "a × b = c" or "(a − b) ÷ c ≈ d%" in lessons, quizzes and the glossary was recomputed: no wrong results. All translations (lessons, countries, How Stocks Are Made) were in sync with the English versions |
+| Added | Worked examples (made-up numbers, checked by hand) in four beginner lessons that had none, in all five languages: choosing a broker (two price lists for the same €3,000 trade: €16 vs €12), risk checklist (the twelve questions applied to a "guaranteed 8% a month" offer), crypto-assets (a 60% fall needs +150% to recover), asset classes compared ($10,000 in each class's worst year from the lesson's own table) |
+| Left as is | History and overview lessons without an example (COVID crash, who regulates, major exchanges and similar), where an example would not add much |
+
 ## Open items
 
 - January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).

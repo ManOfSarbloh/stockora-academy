@@ -1,7 +1,7 @@
 ---
 title: "Les crypto-actifs : ce que MiCAR réglemente et ce qu'il ne réglemente pas"
 summary: "Les régulateurs de l'UE préviennent que de nombreux crypto-actifs sont très risqués et spéculatifs, avec une possibilité réelle de perdre tout l'argent investi. Le règlement européen MiCA encadre désormais certains jetons et prestataires de services, mais de vastes domaines comme les prêts DeFi, les services de staking et les NFT restent non réglementés."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## La mise en garde des régulateurs
@@ -11,6 +11,9 @@ En mars 2022, les trois autorités européennes de surveillance (**ABE, ESMA et 
 - s'exposent à la **possibilité bien réelle de perdre tout l'argent investi** ;
 - doivent se méfier des **publicités trompeuses**, y compris sur les réseaux sociaux et par les influenceurs ;
 - doivent être particulièrement méfiants envers les promesses de **rendements rapides ou élevés** qui semblent trop belles pour être vraies.
+
+> [!EXAMPLE] Ce que signifie une forte baisse
+> Vous achetez pour **1 000 €** d'un crypto-actif et son cours baisse de **60 %**. Votre position ne vaut plus que **400 €**. Pour revenir à 1 000 €, le cours doit monter de **150 %** (400 € × 2,5 = 1 000 €), pas de 60 %. Les chiffres sont inventés ; ils montrent pourquoi il est si difficile de se remettre de fortes baisses.
 
 ## Trois types de crypto-actifs selon MiCAR
 

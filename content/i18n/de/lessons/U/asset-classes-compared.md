@@ -1,7 +1,7 @@
 ---
 title: "Anlageklassen im Vergleich: Aktien, Anleihen, Bargeld, Immobilien und Gold"
 summary: Wie sich die wichtigsten Anlageklassen in fast einem Jahrhundert US-Daten verhalten haben, von den stetigen Renditen kurzfristiger Geldmarktpapiere bis zu den wilden Schwankungen von Gold und Aktien kleiner Unternehmen. Ein Ausgangspunkt für den Rest der Kategorie.
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Aktien sind nur eine Möglichkeit anzulegen. Diese Kategorie schaut sich die anderen an: Anleihen, Bargeld, Immobilien, Gold und Rohstoffe, Währungen und Krypto-Assets. Zuerst ein Überblick, wie sich einige davon verhalten haben.
@@ -32,6 +32,17 @@ Aswath Damodaran von der NYU Stern veröffentlicht jährliche US-Renditen für m
 - **Verschiedene Anlagen fielen in verschiedenen Jahren**, und darauf beruht die Streuung (Kategorie M).
 
 Der Einsteigerleitfaden der SEC fasst den wichtigsten Zielkonflikt zusammen: Aktien hatten historisch das größte Risiko und die höchsten Renditen, Anleihen schwanken meist weniger und bringen bescheidenere Renditen, und Bargeld ist am sichersten mit den niedrigsten Renditen, wobei die Inflation die Hauptsorge ist.
+
+> [!EXAMPLE] 10.000 $ im schlechtesten Jahr jeder Anlageklasse
+> Mit den schlechtesten Jahren aus der Tabelle wären aus 10.000 $ geworden:
+>
+> - Große US-Unternehmen (1931): 10.000 $ × (1 − 0,438) = **5.620 $**
+> - Gold (1981): 10.000 $ × (1 − 0,326) = **6.740 $**
+> - 10-jährige US-Staatsanleihen (2022): 10.000 $ × (1 − 0,178) = **8.220 $**
+> - Unternehmensanleihen mit Baa-Rating (1931): 10.000 $ × (1 − 0,157) = **8.430 $**
+> - Treasury Bills: kein Verlustjahr; selbst das schwächste (2014) ergab **10.003 $**
+>
+> Die schlechtesten Jahre lagen bei den Anlageklassen zu verschiedenen Zeiten; deshalb fällt eine Mischung meist weniger als ihr schwächster Teil.
 
 > [!WARNING] Ein Land, eine Währung, ein Jahrhundert
 > Das sind US-Zahlen in Dollar. Für einen Euro-Anleger würden Währungsschwankungen die Ergebnisse verändern, und die Geschichte anderer Länder ist anders verlaufen. Die Vergangenheit sagt die Zukunft nicht voraus.

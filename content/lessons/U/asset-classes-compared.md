@@ -6,7 +6,7 @@ level: beginner
 summary: How the main asset classes have behaved over nearly a century of US data, from the steady returns of short-term bills to the wild swings of gold and small company shares. A starting point for the rest of the category.
 readingTime: 6
 tags: [asset classes, bonds, cash, real estate, gold, risk and return, long-term data]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-11-23
 sources:
   - title: "Historical Returns on Stocks, Bonds, Bills, Real Estate and Gold, 1928–2025 (Aswath Damodaran, NYU Stern, updated January 2026)"
     url: https://pages.stern.nyu.edu/~adamodar/New_Home_Page/datafile/histretSP.html
@@ -42,6 +42,17 @@ Aswath Damodaran at NYU Stern publishes yearly US returns for several asset clas
 - **Different assets fell in different years**, which is the basis of diversification (Category M).
 
 The SEC's beginners' guide summarises the main trade-off: shares have historically had the greatest risk and highest returns, bonds are generally less volatile with more modest returns, and cash is the safest with the lowest returns, where the main concern is inflation.
+
+> [!EXAMPLE] $10,000 in each asset class's worst year
+> Using the worst years from the table, $10,000 would have become:
+>
+> - US large company shares (1931): $10,000 × (1 − 0.438) = **$5,620**
+> - Gold (1981): $10,000 × (1 − 0.326) = **$6,740**
+> - 10-year Treasury bonds (2022): $10,000 × (1 − 0.178) = **$8,220**
+> - Baa corporate bonds (1931): $10,000 × (1 − 0.157) = **$8,430**
+> - Treasury bills: no losing year; even the weakest (2014) left **$10,003**
+>
+> The worst years came at different times for different assets, which is why a mix usually falls less than its weakest part.
 
 > [!WARNING] One country, one currency, one century
 > These are US figures in dollars. For a euro investor, currency moves would change the results, and other countries' histories differ. The past does not predict the future.

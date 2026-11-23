@@ -1,7 +1,7 @@
 ---
 title: Einen Broker sicher auswählen
 summary: Den „besten“ Broker für alle gibt es nicht. Hier sind die Kriterien zum Vergleich, beginnend mit dem wichtigsten - ist die Firma wirklich zugelassen?
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-23
 ---
 
 Die Stockora Academy empfiehlt nie bestimmte Broker. Stattdessen findest du hier die **Kriterien**, auf die es ankommt, in einer sinnvollen Reihenfolge. Schreib dir deine Antworten für jeden Broker auf, den du in Betracht ziehst; eine einfache Vergleichstabelle sagt dir mehr als jede Werbung.
@@ -30,6 +30,14 @@ Vergleiche die **Gesamtkosten** für die Art, wie du tatsächlich investierst:
 - Gebühren für den **Währungstausch** bei ausländischen Aktien,
 - Spreads und die Handelsplätze, an denen Orders ausgeführt werden,
 - Gebühren für Sparpläne, Depotüberträge und die Auflösung des Kontos.
+
+> [!EXAMPLE] Gleicher Kauf, zwei Preislisten
+> Du willst um **3.000 €** eine US-Aktie kaufen und halten. Zwei erfundene Preislisten:
+>
+> - **Broker A:** 1 € pro Order, aber **0,5 %** für den Umtausch von Euro in Dollar.
+> - **Broker B:** 9 € pro Order, Währungsumtausch **0,1 %**.
+>
+> Der Kauf kostet bei A 1 € + 0,5 % × 3.000 € = **16 €** und bei B 9 € + 0,1 % × 3.000 € = **12 €**. Beim Verkauf werden die Dollar zurückgetauscht, die Umtauschgebühr fällt also noch einmal an. Für diese Art zu investieren ist der Broker mit der billigeren Ordergebühr der teurere.
 
 ## 4. Produktauswahl und Märkte
 

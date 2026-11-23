@@ -1,7 +1,7 @@
 ---
 title: "Krypto-Assets: was MiCAR regelt und was nicht"
 summary: "EU-Aufsichtsbehörden warnen, dass viele Krypto-Assets hochriskant und spekulativ sind und ein Totalverlust des eingesetzten Geldes real möglich ist. Die EU-Verordnung MiCA regelt nun bestimmte Token und Dienstleister, aber große Bereiche wie DeFi-Kredite, Staking-Dienste und NFTs bleiben unreguliert."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## Die Warnung der Aufsichtsbehörden
@@ -11,6 +11,9 @@ Im März 2022 warnten die drei Europäischen Aufsichtsbehörden (**EBA, ESMA und
 - der **sehr realen Möglichkeit gegenüberstehen, ihr gesamtes eingesetztes Geld zu verlieren**;
 - auf **irreführende Werbung** achten sollten, auch über soziale Medien und Influencer;
 - bei versprochenen **schnellen oder hohen Renditen**, die zu gut klingen, um wahr zu sein, besonders vorsichtig sein sollten.
+
+> [!EXAMPLE] Was ein großer Kursrückgang bedeutet
+> Du kaufst um **1.000 €** ein Krypto-Asset, und sein Kurs fällt um **60 %**. Deine Position ist jetzt **400 €** wert. Um wieder auf 1.000 € zu kommen, muss der Kurs um **150 %** steigen (400 € × 2,5 = 1.000 €), nicht um 60 %. Die Zahlen sind erfunden; sie zeigen, warum man sich von großen Verlusten so schwer erholt.
 
 ## Drei Arten von Krypto-Assets nach MiCAR
 

@@ -1,7 +1,7 @@
 ---
 title: "Une liste de contrôle pratique des risques"
 summary: "La catégorie rassemblée en une page : douze questions à vous poser avant tout achat, et un examen annuel des risques de l'ensemble de votre portefeuille."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 La gestion des risques n'exige pas de modèles complexes. L'essentiel des dégâts vient de quelques erreurs évitables : trop d'argent au même endroit, de l'argent emprunté, des produits mal compris et de l'argent dont on a besoin trop tôt.
@@ -21,6 +21,17 @@ La gestion des risques n'exige pas de modèles complexes. L'essentiel des dégâ
 > 10. **Quelle est la taille de cette position dans mon portefeuille ?** (leçon 6)
 > 11. **Quand pourrais-je avoir besoin de cet argent ?** (catégorie M)
 > 12. **Pourquoi est-ce que je l'achète maintenant ?** Si la réponse est « tout le monde en parle », attendez (catégorie O).
+
+> [!EXAMPLE] La liste en pratique
+> Un message d'un numéro inconnu : « Versez 2 000 € et gagnez 8 % par mois avec notre robot de trading à IA, garanti. » Cinq des douze questions suffisent :
+>
+> - **1. Est-ce que je comprends ?** Non : personne n'explique comment le robot gagne de l'argent.
+> - **2. Le vendeur est-il agréé ?** Le prestataire ne figure pas dans la base de données des entreprises de la FMA.
+> - **3. Perte maximale réaliste ?** La totalité des 2 000 €.
+> - **10. Quelle est la taille de la position ?** 2 000 € représenteraient un tiers d'une épargne de 6 000 €.
+> - **12. Pourquoi maintenant ?** « Les places sont limitées » est une pression, pas une raison.
+>
+> Un « non » clair suffit pour s'arrêter ; ici, il y en a cinq. Et 8 % par mois feraient plus de 150 % par an (1,08¹² ≈ 2,5), une promesse que la catégorie T décrit comme un signal classique de fraude.
 
 ## Une fois par an : l'examen du portefeuille
 

@@ -1,7 +1,7 @@
 ---
 title: "Comment choisir un courtier en toute sécurité"
 summary: "Il n'existe pas de « meilleur » courtier pour tout le monde. Voici les critères à comparer, en commençant par le plus important : la société est-elle vraiment agréée ?"
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-23
 ---
 
 Stockora Academy ne recommande jamais de courtier en particulier. Voici plutôt les **critères** qui comptent, dans un ordre logique. Notez vos réponses pour chaque courtier envisagé ; un simple tableau comparatif vous en apprendra plus que n'importe quelle publicité.
@@ -30,6 +30,14 @@ Comparez le coût **total** pour votre façon d'investir réelle :
 - les frais de **change** pour les actions étrangères,
 - les fourchettes et les plateformes où les ordres sont exécutés,
 - les frais des plans d'épargne, des transferts et de la clôture du compte.
+
+> [!EXAMPLE] Le même achat, deux grilles tarifaires
+> Vous voulez acheter pour **3 000 €** d'une action américaine et la conserver. Deux grilles tarifaires inventées :
+>
+> - **Courtier A :** 1 € par ordre, mais **0,5 %** pour convertir les euros en dollars.
+> - **Courtier B :** 9 € par ordre, conversion de devises à **0,1 %**.
+>
+> L'achat coûte 1 € + 0,5 % × 3 000 € = **16 €** chez A, et 9 € + 0,1 % × 3 000 € = **12 €** chez B. À la vente, les dollars sont reconvertis : les frais de change sont donc facturés une seconde fois. Pour cette façon d'investir, le courtier au courtage le moins cher est le plus coûteux.
 
 ## 4. La gamme de produits et les marchés
 

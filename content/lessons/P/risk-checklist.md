@@ -6,7 +6,7 @@ level: beginner
 summary: "Bring the category together in one page: twelve questions to check before buying anything, and a yearly review of your whole portfolio's risks."
 readingTime: 5
 tags: [risk checklist, risk management, portfolio review, KID, diversification]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-11-23
 sources:
   - title: "What is Risk? (Investor.gov, U.S. SEC)"
     url: https://www.investor.gov/introduction-investing/investing-basics/what-risk
@@ -35,6 +35,17 @@ Risk management does not require complex models. Most damage comes from a few av
 > 10. **How big is this position in my portfolio?** (lesson 6)
 > 11. **When might I need this money?** (Category M)
 > 12. **Why am I buying it now?** If the answer is "everyone is talking about it", wait (Category O).
+
+> [!EXAMPLE] The checklist in action
+> A message from an unknown number: "Pay in €2,000 and earn 8% a month with our AI trading bot, guaranteed." Five of the twelve questions are enough:
+>
+> - **1. Do I understand it?** No: nobody explains how the bot earns money.
+> - **2. Is the seller authorised?** The provider is not in the FMA's company database.
+> - **3. Worst realistic loss?** All €2,000.
+> - **10. How big is the position?** €2,000 would be a third of a €6,000 savings pot.
+> - **12. Why now?** "Spots are limited" is pressure, not a reason.
+>
+> One clear "no" is enough to stop; here there are five. And 8% a month would mean more than 150% a year (1.08¹² ≈ 2.5), a promise Category T describes as a classic fraud signal.
 
 ## Once a year: the portfolio review
 

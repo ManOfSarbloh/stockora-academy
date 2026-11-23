@@ -1,7 +1,7 @@
 ---
 title: "Criptoactivos: qué regula el MiCAR y qué no"
 summary: "Los supervisores de la UE advierten de que muchos criptoactivos son muy arriesgados y especulativos, con una posibilidad real de perder todo el dinero invertido. El Reglamento MiCA de la UE regula ya ciertos tokens y proveedores de servicios, pero grandes ámbitos, como los préstamos DeFi, los servicios de staking y los NFT, siguen sin regular."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## La advertencia de los supervisores
@@ -11,6 +11,9 @@ En marzo de 2022, las tres Autoridades Europeas de Supervisión (**ABE, ESMA y A
 - se enfrentan a la **posibilidad muy real de perder todo el dinero invertido**;
 - deben estar atentos a la **publicidad engañosa**, también en redes sociales y a través de influencers;
 - deben desconfiar especialmente de las promesas de **rentabilidades rápidas o altas** que parecen demasiado buenas para ser verdad.
+
+> [!EXAMPLE] Lo que supone una gran caída
+> Compras **1.000 €** de un criptoactivo y su precio cae un **60 %**. Tu posición vale ahora **400 €**. Para volver a 1.000 €, el precio tiene que subir un **150 %** (400 € × 2,5 = 1.000 €), no un 60 %. Las cifras son inventadas; muestran por qué cuesta tanto recuperarse de las grandes caídas.
 
 ## Tres tipos de criptoactivos según el MiCAR
 

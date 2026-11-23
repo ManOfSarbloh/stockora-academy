@@ -1,7 +1,7 @@
 ---
 title: "Una lista práctica de comprobación del riesgo"
 summary: "Toda la categoría en una página: doce preguntas que hacerse antes de comprar nada y una revisión anual de los riesgos de toda tu cartera."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Gestionar el riesgo no exige modelos complejos. La mayor parte del daño viene de unos pocos errores evitables: demasiado en un solo sitio, dinero prestado, productos que no se entienden y dinero que se necesita demasiado pronto.
@@ -21,6 +21,17 @@ Gestionar el riesgo no exige modelos complejos. La mayor parte del daño viene d
 > 10. **¿Qué tamaño tiene esta posición en mi cartera?** (Lección 6)
 > 11. **¿Cuándo podría necesitar este dinero?** (Categoría M)
 > 12. **¿Por qué lo compro ahora?** Si la respuesta es «todo el mundo habla de ello», espera (categoría O).
+
+> [!EXAMPLE] La lista en la práctica
+> Un mensaje de un número desconocido: «Ingresa 2.000 € y gana un 8 % al mes con nuestro bot de trading con IA, garantizado». Bastan cinco de las doce preguntas:
+>
+> - **1. ¿Lo entiendo?** No: nadie explica cómo gana dinero el bot.
+> - **2. ¿Está autorizado el vendedor?** El proveedor no figura en la base de datos de empresas de la FMA.
+> - **3. ¿Pérdida máxima realista?** Los 2.000 € enteros.
+> - **10. ¿Qué tamaño tiene la posición?** 2.000 € serían un tercio de unos ahorros de 6.000 €.
+> - **12. ¿Por qué ahora?** «Las plazas son limitadas» es presión, no una razón.
+>
+> Un «no» claro basta para parar; aquí hay cinco. Y un 8 % al mes supondría más de un 150 % al año (1,08¹² ≈ 2,5), una promesa que la categoría T describe como señal clásica de fraude.
 
 ## Una vez al año: la revisión de la cartera
 

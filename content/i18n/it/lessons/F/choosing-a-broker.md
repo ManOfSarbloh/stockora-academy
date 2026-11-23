@@ -1,7 +1,7 @@
 ---
 title: "Come scegliere un broker in sicurezza"
 summary: "Non esiste un broker «migliore» per tutti. Ecco i criteri da confrontare, a cominciare dal più importante: la società è davvero autorizzata?"
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-23
 ---
 
 Stockora Academy non raccomanda mai broker specifici. Ecco invece i **criteri** che contano, in un ordine sensato. Annota le tue risposte per ogni broker che prendi in considerazione: una semplice tabella di confronto ti dirà più di qualsiasi pubblicità.
@@ -30,6 +30,14 @@ Confronta il costo **totale** per il modo in cui investi davvero:
 - commissioni di **conversione valutaria** per le azioni estere,
 - spread e sedi in cui vengono eseguiti gli ordini,
 - commissioni per piani di accumulo, trasferimenti e chiusura del conto.
+
+> [!EXAMPLE] Stesso acquisto, due listini
+> Vuoi comprare **3.000 €** di un'azione statunitense e tenerla. Due listini inventati:
+>
+> - **Broker A:** 1 € per ordine, ma lo **0,5%** per cambiare euro in dollari.
+> - **Broker B:** 9 € per ordine, cambio valuta allo **0,1%**.
+>
+> L'acquisto costa 1 € + 0,5% × 3.000 € = **16 €** da A e 9 € + 0,1% × 3.000 € = **12 €** da B. Quando vendi, i dollari vengono riconvertiti, quindi la commissione di cambio si paga di nuovo. Per questo modo di investire, il broker con la commissione per ordine più bassa è il più caro.
 
 ## 4. Gamma di prodotti e mercati
 

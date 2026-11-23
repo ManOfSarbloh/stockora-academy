@@ -1,7 +1,7 @@
 ---
 title: "Las clases de activos comparadas: acciones, bonos, efectivo, inmuebles y oro"
 summary: Cómo se han comportado las principales clases de activos en casi un siglo de datos de EE. UU., de la rentabilidad estable de las letras a corto plazo a las grandes oscilaciones del oro y de las acciones de pequeñas empresas. Un punto de partida para el resto de la categoría.
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Las acciones son solo una forma de invertir. Esta categoría mira las demás: bonos, efectivo, inmuebles, oro y materias primas, divisas y criptoactivos. Primero, un resumen de cómo se han comportado algunas de ellas.
@@ -32,6 +32,17 @@ Aswath Damodaran, de NYU Stern, publica la rentabilidad anual de EE. UU. de vari
 - **Los distintos activos cayeron en años distintos**, que es la base de la diversificación (categoría M).
 
 La guía para principiantes de la SEC resume la principal disyuntiva: las acciones han tenido históricamente el mayor riesgo y la mayor rentabilidad, los bonos son en general menos volátiles y con una rentabilidad más modesta, y el efectivo es lo más seguro y lo que menos rinde, y su principal preocupación es la inflación.
+
+> [!EXAMPLE] 10.000 $ en el peor año de cada clase de activo
+> Con los peores años de la tabla, 10.000 $ se habrían convertido en:
+>
+> - Grandes empresas de EE. UU. (1931): 10.000 $ × (1 − 0,438) = **5.620 $**
+> - Oro (1981): 10.000 $ × (1 − 0,326) = **6.740 $**
+> - Bonos del Tesoro a 10 años (2022): 10.000 $ × (1 − 0,178) = **8.220 $**
+> - Bonos corporativos Baa (1931): 10.000 $ × (1 − 0,157) = **8.430 $**
+> - Letras del Tesoro: ningún año con pérdidas; incluso el más flojo (2014) dejó **10.003 $**
+>
+> Los peores años llegaron en momentos distintos para cada activo; por eso una combinación suele caer menos que su parte más débil.
 
 > [!WARNING] Un país, una divisa, un siglo
 > Son cifras de EE. UU. en dólares. Para un inversor en euros, los movimientos de la divisa cambiarían los resultados, y la historia de otros países es distinta. El pasado no predice el futuro.

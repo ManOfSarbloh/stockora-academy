@@ -1,7 +1,7 @@
 ---
 title: "Le cripto-attività: che cosa regola il MiCAR e che cosa no"
 summary: "Le autorità di vigilanza dell'UE avvertono che molte cripto-attività sono altamente rischiose e speculative, con la concreta possibilità di perdere tutto il denaro investito. Il regolamento UE MiCA ora disciplina alcuni token e fornitori di servizi, ma ampi ambiti come i prestiti DeFi, i servizi di staking e gli NFT restano non regolamentati."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## L'avvertimento delle autorità
@@ -11,6 +11,9 @@ Nel marzo 2022 le tre Autorità europee di vigilanza (**EBA, ESMA ed EIOPA**) ha
 - corrono la **concreta possibilità di perdere tutto il denaro investito**;
 - dovrebbero stare attenti alla **pubblicità ingannevole**, anche tramite social media e influencer;
 - dovrebbero diffidare in particolare dei **rendimenti rapidi o elevati** promessi che sembrano troppo belli per essere veri.
+
+> [!EXAMPLE] Che cosa significa un forte calo
+> Compri **1.000 €** di una cripto-attività e il suo prezzo scende del **60%**. La tua posizione vale ora **400 €**. Per tornare a 1.000 €, il prezzo deve salire del **150%** (400 € × 2,5 = 1.000 €), non del 60%. I numeri sono inventati; mostrano perché è così difficile recuperare da grandi cali.
 
 ## Tre tipi di cripto-attività secondo il MiCAR
 

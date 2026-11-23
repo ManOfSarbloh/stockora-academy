@@ -1,7 +1,7 @@
 ---
 title: "Le classi di attività a confronto: azioni, obbligazioni, liquidità, immobili e oro"
 summary: "Come si sono comportate le principali classi di attività in quasi un secolo di dati statunitensi, dai rendimenti stabili dei titoli di Stato a breve termine alle oscillazioni violente dell'oro e delle azioni delle piccole società. Un punto di partenza per il resto della categoria."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Le azioni sono solo uno dei modi per investire. Questa categoria guarda alle altre: obbligazioni, liquidità, immobili, oro e materie prime, valute e cripto-attività. Prima, una panoramica di come si sono comportate alcune di esse.
@@ -32,6 +32,17 @@ Aswath Damodaran della NYU Stern pubblica i rendimenti annui statunitensi di div
 - **Attività diverse sono scese in anni diversi**, il che è alla base della diversificazione (categoria M).
 
 La guida per principianti della SEC riassume il compromesso principale: storicamente le azioni hanno avuto il rischio più alto e i rendimenti più elevati, le obbligazioni sono in genere meno volatili con rendimenti più modesti, e la liquidità è la più sicura con i rendimenti più bassi, dove la preoccupazione principale è l'inflazione.
+
+> [!EXAMPLE] 10.000 $ nell'anno peggiore di ogni classe di attività
+> Con gli anni peggiori della tabella, 10.000 $ sarebbero diventati:
+>
+> - Grandi società statunitensi (1931): 10.000 $ × (1 − 0,438) = **5.620 $**
+> - Oro (1981): 10.000 $ × (1 − 0,326) = **6.740 $**
+> - Titoli di Stato USA a 10 anni (2022): 10.000 $ × (1 − 0,178) = **8.220 $**
+> - Obbligazioni societarie Baa (1931): 10.000 $ × (1 − 0,157) = **8.430 $**
+> - Treasury bill: nessun anno in perdita; anche il più debole (2014) ha lasciato **10.003 $**
+>
+> Gli anni peggiori sono arrivati in momenti diversi per ciascuna attività; per questo un mix di solito scende meno della sua parte più debole.
 
 > [!WARNING] Un Paese, una valuta, un secolo
 > Sono dati statunitensi in dollari. Per chi investe in euro, i movimenti valutari cambierebbero i risultati, e la storia di altri Paesi è diversa. Il passato non predice il futuro.

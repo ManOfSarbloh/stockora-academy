@@ -1,7 +1,7 @@
 ---
 title: Cómo elegir un bróker con seguridad
 summary: "No hay un «mejor» bróker para todos. Estos son los criterios para comparar, empezando por el más importante: ¿está la empresa realmente autorizada?"
-translatedFrom: 2026-10-11
+translatedFrom: 2026-11-23
 ---
 
 Stockora Academy nunca recomienda brókeres concretos. En su lugar, aquí tienes los **criterios** que importan, en un orden lógico. Apunta tus respuestas para cada bróker que estés considerando; una sencilla tabla comparativa te dirá más que cualquier anuncio.
@@ -30,6 +30,14 @@ Compara el coste **total** según la forma en que inviertes realmente:
 - comisiones de **cambio de divisa** para acciones extranjeras,
 - diferenciales y centros donde se ejecutan las órdenes,
 - comisiones por planes de ahorro, traspasos y cierre de la cuenta.
+
+> [!EXAMPLE] La misma compra, dos listas de precios
+> Quieres comprar **3.000 €** de una acción estadounidense y mantenerla. Dos listas de precios inventadas:
+>
+> - **Bróker A:** 1 € por orden, pero un **0,5 %** por cambiar euros a dólares.
+> - **Bróker B:** 9 € por orden, cambio de divisa al **0,1 %**.
+>
+> La compra cuesta 1 € + 0,5 % × 3.000 € = **16 €** en A, y 9 € + 0,1 % × 3.000 € = **12 €** en B. Al vender, los dólares se vuelven a cambiar, así que la comisión de cambio se cobra otra vez. Para esta forma de invertir, el bróker con la comisión por orden más barata es el más caro.
 
 ## 4. Gama de productos y mercados
 
