@@ -496,6 +496,14 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | Moved links updated | 7 links that now redirect: CFTC flash-crash report, GitHub Pages documentation ("What is GitHub Pages?", which still states that visitor IP addresses are logged), STOXX DAX factsheet, EDPB members list, LSE business days, LSE BP quote page, SIX SMI article |
 | For the owner | Close issue #1 on GitHub once the next weekly run passes (the workflow opens issues but does not close them; changing the workflow needs a token with "workflow" scope) |
 
+## Security updates (2026-11-23)
+
+| Decision | Detail |
+|---|---|
+| Fixed | npm audit found 2 high and 3 moderate advisories, all in build tools (nothing runs on the static site for visitors). undici 8.13.1, zod 4.6.7 and fast-uri 3.1.9 via npm audit fix; astro 7.3.8 → 7.4.13 with @astrojs/react 7.1.9, @astrojs/sitemap 3.7.6, @astrojs/markdown-remark 7.3.10 and @astrojs/check 0.9.12 (exact versions, as before) |
+| Left | postcss-selector-parser (moderate, CPU use while parsing CSS at build time) inside @tailwindcss/typography; the only offered fix is a breaking downgrade of the plugin. Re-check when a new typography release is out |
+| Checked | Full verify passed (274 tests, 1,422 pages); the visible text of five sample pages was identical to the live site before the update. The newer astro check flagged 7 unused variables, now removed |
+
 ## Open items
 
 - January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).

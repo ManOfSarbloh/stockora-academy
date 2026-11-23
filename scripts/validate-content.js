@@ -7,7 +7,6 @@
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse as parseYaml } from 'yaml';
-import { basename } from 'node:path';
 import { translateSvg } from './lib/figure-text.mjs';
 
 const CONTENT = 'content';

@@ -222,7 +222,6 @@ const write = (name, svg) => {
   const P = 'cg';
   const W = 760;
   const H = 360;
-  const DUR = 8;
   const years = 30;
   const x0 = 80;
   const step = 21;
@@ -473,7 +472,6 @@ const write = (name, svg) => {
   const P = 'ca';
   const W = 760;
   const H = 360;
-  const DUR = 8;
   const months = [
     [50, 2.0],
     [40, 2.5],

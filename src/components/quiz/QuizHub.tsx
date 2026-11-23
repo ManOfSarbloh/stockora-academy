@@ -22,7 +22,7 @@ import {
   type QuizStats,
 } from '@/lib/quiz-engine';
 import { playQuery, type Kind, type Mode } from '@/lib/quiz-sets';
-import { COUNTRY_CODES, QUIZ_EVENT, TOPIC_IDS, badgeInput, loadDaily, loadExam, loadScores, loadStats } from '@/lib/quiz-store';
+import { QUIZ_EVENT, badgeInput, loadDaily, loadExam, loadStats } from '@/lib/quiz-store';
 
 interface Props {
   names: Record<string, string>;

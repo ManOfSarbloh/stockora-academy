@@ -68,5 +68,5 @@ export function translateSvg(svg, loc, dict, missing) {
       if (!t) return m;
       return open + encode(translate(decode(t), loc, dict, missing)) + close;
     })
-    .replace(/aria-label="([^"]*)"/g, (m, v) => `aria-label="${encode(translate(decode(v), loc, dict, missing))}"`);
+    .replace(/aria-label="([^"]*)"/g, (_m, v) => `aria-label="${encode(translate(decode(v), loc, dict, missing))}"`);
 }
