@@ -512,6 +512,14 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | Change | BaseLayout leaves out " | Stockora Academy" when the full title would exceed 65 characters, and cuts descriptions over 160 characters at a word boundary with "…" (meta and Open Graph). Calculator pages are titled "{name}: calculator" and topic pages "{name}: lessons" in the browser title only (keys seo.toolTitle and seo.topicTitle in all languages); the visible headings are unchanged |
 | Result | 0 descriptions over 160 characters, no same-language duplicate titles; 73 titles are still over 70 characters because the lesson title itself is that long |
 
+## Broker cost comparison tool (2026-11-23)
+
+| Decision | Detail |
+|---|---|
+| What | /tools/broker-costs: the learner enters how they invest (amount per purchase, purchases per year, share in a foreign currency, portfolio value) and two price lists copied from brokers' own fee schedules (fixed and percentage fee per order, minimum fee, currency fee, custody fee, yearly account fee). It shows order, currency and custody fees per year for each list, the total and the share of the amount invested |
+| Rules | No broker names, no defaults taken from real brokers, no recommendation: the defaults are the made-up example from the lesson "Choosing a broker" (€3,000 of a US share: €16 vs €12), which now links to the tool. The tool says that only buying is counted (selling costs again), that spreads, exchange fees and taxes are not included, and that the figures must come from the official price list of an authorised firm |
+| Code | brokerCost() in src/lib/calc.ts with tests (lesson example, minimum fee, custody fee, foreign share); BrokerCostCalculator in Calculators.tsx; keys calc.bc.* and calc.f.bc1–3 in all languages |
+
 ## Open items
 
 - January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).

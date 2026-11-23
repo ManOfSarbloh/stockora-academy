@@ -16,6 +16,7 @@ import {
   tradeResult,
   valuation,
   fundCost,
+  brokerCost,
 } from '../src/lib/calc';
 
 const close = (a: number, b: number, d = 6) => expect(a).toBeCloseTo(b, d);
@@ -208,5 +209,30 @@ describe('fund cost comparison', () => {
   it('has no cost impact without costs', () => {
     const r = fundCost({ initial: 5000, monthly: 200, years: 10, rate: 0.05 }, { ter: 0, entry: 0 });
     expect(r.costImpact).toBeCloseTo(0, 6);
+  });
+});
+
+describe('broker costs', () => {
+  const none = { fixed: 0, percent: 0, minimum: 0, fx: 0, custody: 0, yearly: 0 };
+  it('reproduces the lesson example: €3,000 of a US share, €16 at A and €12 at B', () => {
+    const u = { amount: 3000, trades: 1, foreignShare: 1, portfolio: 0 };
+    expect(brokerCost(u, { ...none, fixed: 1, fx: 0.005 }).total).toBeCloseTo(16, 9);
+    expect(brokerCost(u, { ...none, fixed: 9, fx: 0.001 }).total).toBeCloseTo(12, 9);
+  });
+  it('applies the minimum fee per order and percentage fees', () => {
+    const r = brokerCost({ amount: 500, trades: 12, foreignShare: 0, portfolio: 0 }, { ...none, percent: 0.0025, minimum: 5 });
+    expect(r.perOrder).toBe(5); // 0.25% of €500 = €1.25, below the €5 minimum
+    expect(r.orderFees).toBe(60);
+    expect(r.shareOfInvested).toBeCloseTo(60 / 6000, 9);
+  });
+  it('adds custody fees on the portfolio and fixed yearly fees', () => {
+    const r = brokerCost({ amount: 0, trades: 0, foreignShare: 0, portfolio: 20000 }, { ...none, custody: 0.001, yearly: 24 });
+    expect(r.custodyFees).toBeCloseTo(44, 9);
+    expect(r.total).toBeCloseTo(44, 9);
+    expect(Number.isNaN(r.shareOfInvested)).toBe(true);
+  });
+  it('only charges currency fees on the foreign share', () => {
+    const r = brokerCost({ amount: 1000, trades: 4, foreignShare: 0.5, portfolio: 0 }, { ...none, fx: 0.01 });
+    expect(r.fxFees).toBeCloseTo(20, 9);
   });
 });

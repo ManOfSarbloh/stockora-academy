@@ -418,3 +418,61 @@ export function fundCost(p: FundCostInput, f: FundSpec): FundCostResult {
   }
   return { paidIn, entryFees, value, valueNoCosts, costImpact: valueNoCosts - value, path };
 }
+
+// ---- Broker costs ----
+
+/** How the learner invests: what they buy in a year and what they hold. */
+export interface BrokerUsage {
+  /** Amount per purchase (€). */
+  amount: number;
+  /** Purchases per year. */
+  trades: number;
+  /** Share of purchases in a foreign currency (0–1), e.g. US shares bought with euros. */
+  foreignShare: number;
+  /** Portfolio value held at the broker (€), for custody fees charged as a percentage. */
+  portfolio: number;
+}
+
+/** One broker's price list, as the learner copies it from the broker's own fee schedule. */
+export interface BrokerPrices {
+  /** Fixed fee per order (€). */
+  fixed: number;
+  /** Percentage fee per order (0.0025 = 0.25%). */
+  percent: number;
+  /** Minimum fee per order (€); 0 if none. */
+  minimum: number;
+  /** Currency conversion fee on foreign-currency purchases (0.005 = 0.5%). */
+  fx: number;
+  /** Custody fee per year as a share of the portfolio (0.001 = 0.1%). */
+  custody: number;
+  /** Fixed account or custody fee per year (€). */
+  yearly: number;
+}
+
+export interface BrokerCostResult {
+  perOrder: number;
+  orderFees: number;
+  fxFees: number;
+  custodyFees: number;
+  total: number;
+  invested: number;
+  /** Total as a share of the amount invested in the year (NaN if nothing is invested). */
+  shareOfInvested: number;
+}
+
+/**
+ * Yearly cost of buying with one broker: order fee = max(minimum, fixed + percent × amount) per purchase,
+ * currency fee on the foreign share of each purchase, custody fees on the portfolio. Selling, spreads and
+ * taxes are not included (the calculator says so).
+ */
+export function brokerCost(u: BrokerUsage, p: BrokerPrices): BrokerCostResult {
+  const trades = Math.max(0, Math.round(u.trades));
+  const amount = Math.max(0, u.amount);
+  const perOrder = trades > 0 && amount > 0 ? Math.max(p.minimum, p.fixed + p.percent * amount) : 0;
+  const orderFees = perOrder * trades;
+  const fxFees = trades * amount * Math.min(1, Math.max(0, u.foreignShare)) * p.fx;
+  const custodyFees = Math.max(0, u.portfolio) * p.custody + p.yearly;
+  const total = orderFees + fxFees + custodyFees;
+  const invested = trades * amount;
+  return { perOrder, orderFees, fxFees, custodyFees, total, invested, shareOfInvested: invested > 0 ? total / invested : NaN };
+}

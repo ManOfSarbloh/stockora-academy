@@ -37,7 +37,7 @@ Vergleiche die **Gesamtkosten** für die Art, wie du tatsächlich investierst:
 > - **Broker A:** 1 € pro Order, aber **0,5 %** für den Umtausch von Euro in Dollar.
 > - **Broker B:** 9 € pro Order, Währungsumtausch **0,1 %**.
 >
-> Der Kauf kostet bei A 1 € + 0,5 % × 3.000 € = **16 €** und bei B 9 € + 0,1 % × 3.000 € = **12 €**. Beim Verkauf werden die Dollar zurückgetauscht, die Umtauschgebühr fällt also noch einmal an. Für diese Art zu investieren ist der Broker mit der billigeren Ordergebühr der teurere.
+> Der Kauf kostet bei A 1 € + 0,5 % × 3.000 € = **16 €** und bei B 9 € + 0,1 % × 3.000 € = **12 €**. Beim Verkauf werden die Dollar zurückgetauscht, die Umtauschgebühr fällt also noch einmal an. Für diese Art zu investieren ist der Broker mit der billigeren Ordergebühr der teurere. Probiere deine eigenen Zahlen im [Brokerkosten-Vergleich](/tools/broker-costs) aus.
 
 ## 4. Produktauswahl und Märkte
 

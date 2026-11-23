@@ -37,7 +37,7 @@ Confronta il costo **totale** per il modo in cui investi davvero:
 > - **Broker A:** 1 € per ordine, ma lo **0,5%** per cambiare euro in dollari.
 > - **Broker B:** 9 € per ordine, cambio valuta allo **0,1%**.
 >
-> L'acquisto costa 1 € + 0,5% × 3.000 € = **16 €** da A e 9 € + 0,1% × 3.000 € = **12 €** da B. Quando vendi, i dollari vengono riconvertiti, quindi la commissione di cambio si paga di nuovo. Per questo modo di investire, il broker con la commissione per ordine più bassa è il più caro.
+> L'acquisto costa 1 € + 0,5% × 3.000 € = **16 €** da A e 9 € + 0,1% × 3.000 € = **12 €** da B. Quando vendi, i dollari vengono riconvertiti, quindi la commissione di cambio si paga di nuovo. Per questo modo di investire, il broker con la commissione per ordine più bassa è il più caro. Prova i tuoi numeri nel [confronto dei costi del broker](/tools/broker-costs).
 
 ## 4. Gamma di prodotti e mercati
 

@@ -37,7 +37,7 @@ Comparez le coût **total** pour votre façon d'investir réelle :
 > - **Courtier A :** 1 € par ordre, mais **0,5 %** pour convertir les euros en dollars.
 > - **Courtier B :** 9 € par ordre, conversion de devises à **0,1 %**.
 >
-> L'achat coûte 1 € + 0,5 % × 3 000 € = **16 €** chez A, et 9 € + 0,1 % × 3 000 € = **12 €** chez B. À la vente, les dollars sont reconvertis : les frais de change sont donc facturés une seconde fois. Pour cette façon d'investir, le courtier au courtage le moins cher est le plus coûteux.
+> L'achat coûte 1 € + 0,5 % × 3 000 € = **16 €** chez A, et 9 € + 0,1 % × 3 000 € = **12 €** chez B. À la vente, les dollars sont reconvertis : les frais de change sont donc facturés une seconde fois. Pour cette façon d'investir, le courtier au courtage le moins cher est le plus coûteux. Essayez vos propres chiffres dans le [comparateur de frais de courtage](/tools/broker-costs).
 
 ## 4. La gamme de produits et les marchés
 

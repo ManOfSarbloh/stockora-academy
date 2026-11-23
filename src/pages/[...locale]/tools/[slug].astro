@@ -12,6 +12,7 @@ import {
   CompoundCalculator,
   CurrencyCalculator,
   DividendCalculator,
+  BrokerCostCalculator,
   FundCostCalculator,
   LeverageCalculator,
   PositionSizeCalculator,
@@ -59,6 +60,7 @@ const lessons = await lessonRefs(tool.lessons);
       {slug === 'compound-growth' && <CompoundCalculator client:load />}
       {slug === 'savings-plan' && <SavingsPlanCalculator client:load />}
       {slug === 'fund-costs' && <FundCostCalculator client:load />}
+      {slug === 'broker-costs' && <BrokerCostCalculator client:load />}
       {slug === 'currency' && <CurrencyCalculator client:load />}
       {slug === 'dividends' && <DividendCalculator client:load />}
       {slug === 'valuation-ratios' && <ValuationCalculator client:load />}

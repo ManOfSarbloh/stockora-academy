@@ -49,6 +49,12 @@ export const TOOLS: Tool[] = [
     icon: '🧾',
     lessons: ['returns-and-costs/investment-costs', 'indexes-etfs-funds/tracking-and-costs', 'indexes-etfs-funds/comparing-etfs', 'investing-strategies/active-vs-passive'],
   },
+  {
+    slug: 'broker-costs',
+    group: 'money',
+    icon: '🏦',
+    lessons: ['brokers-accounts-orders/choosing-a-broker', 'returns-and-costs/investment-costs', 'returns-and-costs/break-even-and-small-trades', 'macroeconomics/currencies-and-your-investments'],
+  },
   { slug: 'savings-plan', group: 'money', icon: '🗓️', lessons: ['investing-strategies/savings-plans-and-lump-sums', 'brokers-accounts-orders/savings-plans-and-lending', 'returns-and-costs/investment-costs'] },
   { slug: 'currency', group: 'money', icon: '💱', lessons: ['macroeconomics/currencies-and-your-investments'] },
   {

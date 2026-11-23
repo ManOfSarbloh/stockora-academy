@@ -15,6 +15,7 @@ import {
   compoundPath,
   currencyEffect,
   dividendYield,
+  brokerCost,
   fundCost,
   leverage,
   payoutRatio,
@@ -731,6 +732,85 @@ export function FundCostCalculator() {
             },
           ]}
         />
+      }
+    />
+  );
+}
+
+interface PriceListInput {
+  fixed: number;
+  percent: number;
+  minimum: number;
+  fx: number;
+  custody: number;
+  yearly: number;
+}
+const toPrices = (x: PriceListInput) => ({ ...x, percent: x.percent / 100, fx: x.fx / 100, custody: x.custody / 100 });
+
+function PriceListFields({ legend, value, onChange }: { legend: string; value: PriceListInput; onChange: (v: PriceListInput) => void }) {
+  const set = (k: keyof PriceListInput) => (v: number) => onChange({ ...value, [k]: Math.max(0, v) });
+  return (
+    <fieldset className="space-y-3 rounded-lg border border-border p-3">
+      <legend className="px-1 text-sm font-bold">{legend}</legend>
+      <NumField label={t('calc.bc.fixed')} value={value.fixed} onChange={set('fixed')} unit="€" min={0} />
+      <NumField label={t('calc.bc.percent')} value={value.percent} onChange={set('percent')} unit="%" min={0} />
+      <NumField label={t('calc.bc.minimum')} value={value.minimum} onChange={set('minimum')} unit="€" min={0} />
+      <NumField label={t('calc.bc.fx')} value={value.fx} onChange={set('fx')} unit="%" min={0} />
+      <NumField label={t('calc.bc.custody')} value={value.custody} onChange={set('custody')} unit="%" min={0} />
+      <NumField label={t('calc.bc.yearly')} value={value.yearly} onChange={set('yearly')} unit="€" min={0} />
+    </fieldset>
+  );
+}
+
+/** Two price lists the learner copies from brokers' fee schedules, applied to their own way of investing. */
+export function BrokerCostCalculator() {
+  // Defaults: the example from the lesson "Choosing a broker" (€3,000 of a US share, €16 vs €12).
+  const [amount, setAmount] = useState(3000);
+  const [trades, setTrades] = useState(1);
+  const [foreign, setForeign] = useState(100);
+  const [portfolio, setPortfolio] = useState(0);
+  const [a, setA] = useState<PriceListInput>({ fixed: 1, percent: 0, minimum: 0, fx: 0.5, custody: 0, yearly: 0 });
+  const [b, setB] = useState<PriceListInput>({ fixed: 9, percent: 0, minimum: 0, fx: 0.1, custody: 0, yearly: 0 });
+  const usage = { amount: Math.max(0, amount), trades: Math.max(0, trades), foreignShare: Math.min(100, Math.max(0, foreign)) / 100, portfolio: Math.max(0, portfolio) };
+  const ra = brokerCost(usage, toPrices(a));
+  const rb = brokerCost(usage, toPrices(b));
+  const diff = ra.total - rb.total;
+  const pair = (x: number, y: number) => `${eurCents(x)} / ${eurCents(y)}`;
+  return (
+    <CalcLayout
+      inputs={
+        <>
+          <NumField label={t('calc.bc.amount')} value={amount} onChange={setAmount} unit="€" min={0} />
+          <NumField label={t('calc.bc.trades')} value={trades} onChange={setTrades} step={1} min={0} max={365} />
+          <NumField label={t('calc.bc.foreign')} value={foreign} onChange={setForeign} unit="%" min={0} max={100} help={t('calc.bc.foreignHelp')} />
+          <NumField label={t('calc.bc.portfolio')} value={portfolio} onChange={setPortfolio} unit="€" min={0} />
+          <PriceListFields legend={t('calc.bc.listA')} value={a} onChange={setA} />
+          <PriceListFields legend={t('calc.bc.listB')} value={b} onChange={setB} />
+        </>
+      }
+      results={
+        <>
+          <Results>
+            <Row label={t('calc.bc.invested')} value={eur(ra.invested)} />
+            <Row label={t('calc.bc.perOrder')} value={pair(ra.perOrder, rb.perOrder)} />
+            <Row label={t('calc.bc.orderFees')} value={pair(ra.orderFees, rb.orderFees)} />
+            <Row label={t('calc.bc.fxFees')} value={pair(ra.fxFees, rb.fxFees)} />
+            <Row label={t('calc.bc.custodyFees')} value={pair(ra.custodyFees, rb.custodyFees)} />
+            <Row label={t('calc.bc.totalA')} value={eurCents(ra.total)} strong />
+            <Row label={t('calc.bc.totalB')} value={eurCents(rb.total)} strong />
+            {ra.invested > 0 && <Row label={t('calc.bc.share')} value={`${pct(ra.shareOfInvested, 2)} / ${pct(rb.shareOfInvested, 2)}`} />}
+          </Results>
+          <p className="mt-3 text-sm font-semibold">
+            {Math.abs(diff) < 0.005 ? t('calc.bc.equal') : t('calc.bc.cheaper', { list: diff > 0 ? 'B' : 'A', amount: eurCents(Math.abs(diff)) })}
+          </p>
+          <Note>{t('calc.bc.note')}</Note>
+          <Note kind="warning">{t('calc.bc.check')}</Note>
+          <Formula>
+            <p>{t('calc.f.bc1')}</p>
+            <p>{t('calc.f.bc2')}</p>
+            <p>{t('calc.f.bc3')}</p>
+          </Formula>
+        </>
       }
     />
   );

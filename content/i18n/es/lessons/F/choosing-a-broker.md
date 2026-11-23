@@ -37,7 +37,7 @@ Compara el coste **total** según la forma en que inviertes realmente:
 > - **Bróker A:** 1 € por orden, pero un **0,5 %** por cambiar euros a dólares.
 > - **Bróker B:** 9 € por orden, cambio de divisa al **0,1 %**.
 >
-> La compra cuesta 1 € + 0,5 % × 3.000 € = **16 €** en A, y 9 € + 0,1 % × 3.000 € = **12 €** en B. Al vender, los dólares se vuelven a cambiar, así que la comisión de cambio se cobra otra vez. Para esta forma de invertir, el bróker con la comisión por orden más barata es el más caro.
+> La compra cuesta 1 € + 0,5 % × 3.000 € = **16 €** en A, y 9 € + 0,1 % × 3.000 € = **12 €** en B. Al vender, los dólares se vuelven a cambiar, así que la comisión de cambio se cobra otra vez. Para esta forma de invertir, el bróker con la comisión por orden más barata es el más caro. Prueba tus propias cifras en el [comparador de costes de bróker](/tools/broker-costs).
 
 ## 4. Gama de productos y mercados
 

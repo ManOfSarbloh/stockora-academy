@@ -49,7 +49,7 @@ Compare the **total** cost for the way you actually invest:
 > - **Broker A:** €1 per trade, but **0.5%** for converting euros into dollars.
 > - **Broker B:** €9 per trade, currency conversion **0.1%**.
 >
-> Buying costs €1 + 0.5% × €3,000 = **€16** at A, and €9 + 0.1% × €3,000 = **€12** at B. When you sell, the dollars are converted back, so the currency fee is charged again. For this way of investing, the broker with the cheaper commission is the more expensive one.
+> Buying costs €1 + 0.5% × €3,000 = **€16** at A, and €9 + 0.1% × €3,000 = **€12** at B. When you sell, the dollars are converted back, so the currency fee is charged again. For this way of investing, the broker with the cheaper commission is the more expensive one. Try your own figures in the [broker cost comparison](/tools/broker-costs).
 
 ## 4. Product range and markets
 
