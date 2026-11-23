@@ -64,7 +64,20 @@ const sameDoc = (a, b) => {
   }
 };
 
+// Name lookups and connections can fail briefly when many requests run at once (seen as ENOTFOUND for
+// hosts that resolve fine a moment later). Retry those before calling a link broken.
+const TRANSIENT = new Set(['ENOTFOUND', 'ECONNREFUSED', 'EAI_AGAIN', 'ECONNRESET']);
 async function check(url) {
+  let result;
+  for (let attempt = 0; attempt < 3; attempt++) {
+    if (attempt) await new Promise((r) => setTimeout(r, 2000 * attempt));
+    result = await checkOnce(url);
+    if (!(result.kind === 'broken' && TRANSIENT.has(result.note))) return result;
+  }
+  return result;
+}
+
+async function checkOnce(url) {
   for (const method of ['HEAD', 'GET']) {
     try {
       const res = await fetch(url, { method, headers: HEADERS, redirect: 'follow', signal: AbortSignal.timeout(20000) });

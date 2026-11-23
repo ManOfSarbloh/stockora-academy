@@ -487,6 +487,15 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | Added | Worked examples (made-up numbers, checked by hand) in four beginner lessons that had none, in all five languages: choosing a broker (two price lists for the same €3,000 trade: €16 vs €12), risk checklist (the twelve questions applied to a "guaranteed 8% a month" offer), crypto-assets (a 60% fall needs +150% to recover), asset classes compared ($10,000 in each class's worst year from the lesson's own table) |
 | Left as is | History and overview lessons without an example (COVID crash, who regulates, major exchanges and similar), where an example would not add much |
 
+## Weekly link check false alarms (2026-11-23)
+
+| Decision | Detail |
+|---|---|
+| Finding | The weekly link check failed on 2, 9 and 16 November (issue #1). Run locally, one pass reported 59 "broken" links, all ENOTFOUND for hosts such as wienerborse.at and xetra.com that resolved and answered 200 a moment later; the next pass reported 0 broken. Name lookups fail briefly when many requests run at once |
+| Change | scripts/check-sources.js retries ENOTFOUND, ECONNREFUSED, EAI_AGAIN and ECONNRESET twice (after 2 and 4 seconds) before calling a link broken |
+| Moved links updated | 7 links that now redirect: CFTC flash-crash report, GitHub Pages documentation ("What is GitHub Pages?", which still states that visitor IP addresses are logged), STOXX DAX factsheet, EDPB members list, LSE business days, LSE BP quote page, SIX SMI article |
+| For the owner | Close issue #1 on GitHub once the next weekly run passes (the workflow opens issues but does not close them; changing the workflow needs a token with "workflow" scope) |
+
 ## Open items
 
 - January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).

@@ -26,7 +26,7 @@
       "hours": "For SETS, the order book of the most liquid shares: opening auction 07:50–08:00, continuous trading 08:00–16:30, closing auction 16:30–16:35. On half days, continuous trading ends at 12:30.",
       "timeZone": "Europe/London",
       "hoursSource": "https://docs.londonstockexchange.com/sites/default/files/documents/20260727-mit-and-te-parameters-version-10-0.xlsx",
-      "holidaysSource": "https://www.londonstockexchange.com/equities-trading/business-days",
+      "holidaysSource": "https://www.londonstockexchange.com/en/resources/markets-products/business-days",
       "note": "The exchange also runs AIM, a market for smaller and growing companies, founded in 1995."
     }
   ],
@@ -93,7 +93,7 @@
       "text": "The London Stock Exchange quotes many shares in GBX, which means pence: a price of 2,450 GBX is £24.50. Trade values are shown in pounds.",
       "source": {
         "title": "BP plc share page, price shown in GBX (London Stock Exchange)",
-        "url": "https://www.londonstockexchange.com/stock/BP./bp-plc/company-page"
+        "url": "https://www.londonstockexchange.com/en/quote/equity/BP./bp-plc"
       }
     }
   ],

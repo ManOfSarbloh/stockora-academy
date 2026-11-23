@@ -45,7 +45,7 @@ Lesson and topic pages include educational YouTube videos. A video does **not** 
 
 ## Hosting
 
-This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open a page, GitHub receives the technical data needed to deliver it, such as your IP address and information about your browser. According to GitHub's documentation, the IP address of every visitor to a GitHub Pages site is logged and stored for security purposes, whether or not the visitor has a GitHub account ([About GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages)). We have no access to these logs. How long GitHub keeps these logs is decided by GitHub; its privacy statement describes its retention practices.
+This website is hosted on GitHub Pages, a service of GitHub, Inc., 88 Colin P. Kelly Jr. St., San Francisco, CA 94107, USA. When you open a page, GitHub receives the technical data needed to deliver it, such as your IP address and information about your browser. According to GitHub's documentation, the IP address of every visitor to a GitHub Pages site is logged and stored for security purposes, whether or not the visitor has a GitHub account ([What is GitHub Pages?](https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages)). We have no access to these logs. How long GitHub keeps these logs is decided by GitHub; its privacy statement describes its retention practices.
 
 - **Purpose:** delivering the website and keeping it secure.
 - **Legal basis:** our legitimate interest in providing the website reliably and securely (Art. 6(1)(f) GDPR).
@@ -63,4 +63,4 @@ Responsible for this website under the GDPR (controller): Gurveen Singh Khatri, 
 
 ## Your rights
 
-Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. We do not collect personal data ourselves; for the server logs described under Hosting, you can also contact GitHub directly (see its privacy statement). You also have the right to lodge a complaint with a data protection authority. In Austria this is the Datenschutzbehörde; the [European Data Protection Board lists the authorities](https://www.edpb.europa.eu/about-edpb/about-edpb/members_en) of all EU countries.
+Under the GDPR you have the right of access, rectification, erasure, restriction of processing, data portability and objection. We do not collect personal data ourselves; for the server logs described under Hosting, you can also contact GitHub directly (see its privacy statement). You also have the right to lodge a complaint with a data protection authority. In Austria this is the Datenschutzbehörde; the [European Data Protection Board lists the authorities](https://www.edpb.europa.eu/about-edpb/our-members_en) of all EU countries.
