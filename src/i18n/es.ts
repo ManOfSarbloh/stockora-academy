@@ -1222,6 +1222,8 @@ export const es: Dictionary = {
   'calc.candle.normal': "Una vela normal. Por sí sola, una vela dice poco: el contexto importa (categoría J).",
   'calc.toEncyclopedia': "Enciclopedia de velas",
   'tools.title': "Herramientas y calculadoras",
+  'seo.toolTitle': "{name}: calculadora",
+  'seo.topicTitle': "{name}: lecciones",
   'tools.lead': "Calculadoras y simuladores que muestran las matemáticas de la inversión. Cada calculadora muestra su fórmula y funciona entera en tu navegador; nada de lo que escribas se envía a ningún sitio.",
   'tools.disclaimer': "Solo para aprender. Los resultados son estimaciones simplificadas, no asesoramiento ni un cálculo fiscal.",
   'tools.open': "Abrir",

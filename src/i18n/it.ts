@@ -1222,6 +1222,8 @@ export const it: Dictionary = {
   'calc.candle.normal': "Una candela normale. Da sola, una candela dice poco: conta il contesto (categoria J).",
   'calc.toEncyclopedia': "Enciclopedia delle candele",
   'tools.title': "Strumenti e calcolatori",
+  'seo.toolTitle': "{name}: calcolatore",
+  'seo.topicTitle': "{name}: lezioni",
   'tools.lead': "Calcolatori e simulatori che mostrano la matematica dell'investimento. Ogni calcolatore mostra la sua formula e funziona interamente nel tuo browser; nulla di ciò che scrivi viene inviato altrove.",
   'tools.disclaimer': "Solo per imparare. I risultati sono stime semplificate, non consulenza né un calcolo fiscale.",
   'tools.open': "Apri",

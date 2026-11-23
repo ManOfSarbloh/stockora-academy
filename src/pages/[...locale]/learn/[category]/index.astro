@@ -52,7 +52,7 @@ const languages = lessons.length ? ACTIVE_LOCALES.filter((l) => perLesson.every(
 ---
 
 <BaseLayout
-  title={c.title}
+  title={t('seo.topicTitle', { name: c.title })}
   description={c.summary}
   availableIn={languages}
   jsonLd={seo.breadcrumbs([

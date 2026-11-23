@@ -1278,6 +1278,8 @@ export const en = {
   'calc.candle.normal': 'An ordinary candle. On its own, one candle says little: context matters (Category J).',
   'calc.toEncyclopedia': 'Candlestick Encyclopedia',
   'tools.title': 'Tools and calculators',
+  'seo.toolTitle': '{name}: calculator',
+  'seo.topicTitle': '{name}: lessons',
   'tools.lead': 'Calculators and simulators that show the maths behind investing. Every calculator shows its formula and runs entirely in your browser; nothing you type is sent anywhere.',
   'tools.disclaimer': 'For learning only. The results are simplified estimates, not advice and not a tax calculation.',
   'tools.open': 'Open',

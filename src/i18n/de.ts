@@ -1222,6 +1222,8 @@ export const de: Dictionary = {
   'calc.candle.normal': "Eine gewöhnliche Kerze. Für sich allein sagt eine Kerze wenig aus: Der Kontext zählt (Kategorie J).",
   'calc.toEncyclopedia': "Kerzen-Lexikon",
   'tools.title': "Tools und Rechner",
+  'seo.toolTitle': "{name}: Rechner",
+  'seo.topicTitle': "{name}: Lektionen",
   'tools.lead': "Rechner und Simulatoren, die die Mathematik hinter dem Investieren zeigen. Jeder Rechner zeigt seine Formel und läuft vollständig in deinem Browser; nichts, was du eingibst, wird irgendwohin gesendet.",
   'tools.disclaimer': "Nur zum Lernen. Die Ergebnisse sind vereinfachte Schätzungen, keine Beratung und keine Steuerberechnung.",
   'tools.open': "Öffnen",

@@ -1222,6 +1222,8 @@ export const fr: Dictionary = {
   'calc.candle.normal': "Un chandelier ordinaire. Seul, un chandelier dit peu de chose : le contexte compte (catégorie J).",
   'calc.toEncyclopedia': "Encyclopédie des chandeliers",
   'tools.title': "Outils et calculateurs",
+  'seo.toolTitle': "{name} : calculateur",
+  'seo.topicTitle': "{name} : leçons",
   'tools.lead': "Des calculateurs et simulateurs qui montrent les mathématiques de l'investissement. Chaque calculateur affiche sa formule et fonctionne entièrement dans votre navigateur ; rien de ce que vous saisissez n'est envoyé ailleurs.",
   'tools.disclaimer': "Pour apprendre uniquement. Les résultats sont des estimations simplifiées, ni un conseil ni un calcul fiscal.",
   'tools.open': "Ouvrir",

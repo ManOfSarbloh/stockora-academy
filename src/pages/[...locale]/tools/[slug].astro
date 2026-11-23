@@ -42,7 +42,7 @@ const lessons = await lessonRefs(tool.lessons);
 ---
 
 <BaseLayout
-  title={title}
+  title={t('seo.toolTitle', { name: title })}
   description={lead}
   jsonLd={seo.breadcrumbs([
     { name: t('tools.title'), url: absoluteUrl('/tools', Astro.site) },

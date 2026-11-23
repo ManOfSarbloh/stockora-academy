@@ -504,6 +504,14 @@ A review of the site against Austrian and EU law found no clear violations; thes
 | Left | postcss-selector-parser (moderate, CPU use while parsing CSS at build time) inside @tailwindcss/typography; the only offered fix is a breaking downgrade of the plugin. Re-check when a new typography release is out |
 | Checked | Full verify passed (274 tests, 1,422 pages); the visible text of five sample pages was identical to the live site before the update. The newer astro check flagged 7 unused variables, now removed |
 
+## Search result titles and descriptions (2026-11-23)
+
+| Decision | Detail |
+|---|---|
+| Finding | All 1,395 indexable pages had a title, description, one h1, a canonical link and hreflang. But 421 titles were over 70 characters, 912 descriptions over 170, and some pages in the same language shared a title (topic page and feature page "How Stocks Are Made", lesson and calculator "Dividend yield and payout ratio", in Spanish the World Markets topic and the world map) |
+| Change | BaseLayout leaves out " | Stockora Academy" when the full title would exceed 65 characters, and cuts descriptions over 160 characters at a word boundary with "…" (meta and Open Graph). Calculator pages are titled "{name}: calculator" and topic pages "{name}: lessons" in the browser title only (keys seo.toolTitle and seo.topicTitle in all languages); the visible headings are unchanged |
+| Result | 0 descriptions over 160 characters, no same-language duplicate titles; 73 titles are still over 70 characters because the lesson title itself is that long |
+
 ## Open items
 
 - January 2027: re-check budget-law changes that were not final on 2026-11-22 (France, Italy, Spain, Korea 2027 tax rules; Japan's NISA for minors) and NSE's 2027 Muhurat date (usually announced in October).
