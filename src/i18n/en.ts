@@ -139,7 +139,8 @@ export const en = {
   'lesson.reportMistake': 'Report a mistake on this page',
   'lesson.sourcesLead': 'Facts on this page were checked against these sources:',
   'lesson.draft': 'Draft: not published yet',
-  'lesson.finishedAll': 'This is the newest lesson so far. More are on the way.',
+  'lesson.finishedAll': 'This is the last lesson of the learning path.',
+  'lesson.finishedAllLink': 'Test yourself in the quizzes',
   'lesson.translationOutdated': 'The English original of this lesson was updated after this translation was made. If something looks different, the English version is the reference.',
 
   'anim.play': 'Play animation',

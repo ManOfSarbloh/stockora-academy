@@ -159,7 +159,9 @@ const jsonLd = [
                 {t('lesson.next')} →
               </a>
             ) : (
-              <p class="text-sm text-muted">{t('lesson.finishedAll')}</p>
+              <p class="text-sm text-muted">
+                {t('lesson.finishedAll')} <a href={url('/quizzes')}>{t('lesson.finishedAllLink')} →</a>
+              </p>
             )
           }
         </div>
