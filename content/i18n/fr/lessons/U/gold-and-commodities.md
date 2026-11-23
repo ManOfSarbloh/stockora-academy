@@ -1,7 +1,7 @@
 ---
 title: "L'or et les matières premières"
 summary: "L'or est considéré comme une « valeur refuge », mais il ne verse ni intérêts ni dividendes et son prix varie beaucoup. Comment détenir de l'or et d'autres matières premières, ce que sont les ETC, et la mise en garde de la FMA contre les offres d'or à prix réduit « payez maintenant, recevez plus tard »."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## Pourquoi les gens achètent de l'or
@@ -22,6 +22,9 @@ Dans les données en dollars américains de Damodaran (leçon 1) :
 | Pire année | −32,6 % (1981) | −32,6 % (1981) |
 
 À titre de comparaison, le S&P 500 avait une volatilité de 17,0 % sur 1972–2025. L'or a aussi connu de longues séries de pertes : dans les données, il a baissé **cinq années de suite, de 1988 à 1992**, puis de nouveau en **1996–1998**. Certaines années, il a monté quand les actions baissaient : en **2008**, le S&P 500 a perdu 36,6 % tandis que l'or gagnait 4,3 %.
+
+> [!EXAMPLE] 2008 avec et sans or
+> Avec les chiffres de 2008 ci-dessus, 10 000 $ entièrement placés dans le S&P 500 sont tombés à 10 000 $ × (1 − 0,366) = **6 340 $**. Avec 80 % dans le S&P 500 et 20 % en or, ils sont tombés à 8 000 $ × (1 − 0,366) + 2 000 $ × 1,043 = 5 072 $ + 2 086 $ = **7 158 $**. L'or a amorti la baisse cette année-là ; d'autres années, comme 1988–1992, c'est l'or qui a perdu de l'argent.
 
 > [!NOTE] Un rendement sans revenu
 > La valeur d'une action repose sur les bénéfices de l'entreprise ; celle d'une obligation sur les paiements d'intérêts. Le rendement de l'or ne vient que des variations de son prix, fixé par ce que le prochain acheteur est prêt à payer.

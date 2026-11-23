@@ -1,7 +1,7 @@
 ---
 title: "Una semplice routine di ricerca, e gli strumenti di questo sito"
 summary: "Una routine breve e ripetibile per esaminare una società o una notizia, dalla verifica del fornitore alla lettura della fonte originale. Più una guida agli strumenti gratuiti di Stockora Academy che supportano ogni passo."
-translatedFrom: 2026-10-14
+translatedFrom: 2026-11-23
 ---
 
 Le buone abitudini contano più di qualsiasi singolo strumento (categoria O). Questa lezione mette le lezioni precedenti di questa categoria in una routine che puoi ripetere.
@@ -30,6 +30,11 @@ Le buone abitudini contano più di qualsiasi singolo strumento (categoria O). Qu
 
 Scrivi **perché** hai comprato, che cosa ti aspettavi e che cosa ti farebbe vendere. In seguito, confronta il risultato con il ragionamento. Un diario delle decisioni protegge dal senno di poi («lo sapevo fin dall'inizio») e dall'attribuzione a sé stessi dei successi (categoria O), e una buona documentazione aiuta anche con le imposte (categoria Q).
 
+> [!EXAMPLE] Una voce in un diario delle decisioni
+> **12 marzo:** comprate 20 azioni di una società inventata a 48 €, circa il 5% del mio portafoglio. **Perché:** utili stabili da cinque anni, debito in calo, valutazione vicina alla propria media. **Che cosa mi aspetto:** crescita lenta e un piccolo dividendo, per almeno cinque anni. **Quando venderei:** se i motivi non valgono più (per esempio due anni di perdite o un debito molto più alto), non perché il prezzo scende per qualche settimana.
+>
+> Un anno dopo puoi verificare se i motivi hanno tenuto, invece di giudicare la decisione solo dal prezzo.
+
 ## Gli strumenti di Stockora Academy
 
 | Strumento | A che cosa serve |
@@ -40,7 +45,7 @@ Scrivi **perché** hai comprato, che cosa ti aspettavi e che cosa ti farebbe ven
 | [Cerca](/search) | Trovare qualsiasi lezione o termine |
 | [Fonti](/sources) | Le fonti ufficiali alla base delle lezioni |
 
-Si stanno aggiungendo altri strumenti, come le pagine sui mercati mondiali e lo strumento di verifica Anti-truffa.
+Ci sono anche [strumenti e calcolatori](/tools), le pagine [Borse del mondo](/world) e lo strumento di verifica [Anti-truffa](/scams).
 
 > [!NOTE] Formazione, non consulenza
 > Questo sito spiega come funzionano i mercati. Non raccomanda alcuna azione, fondo, broker o app. Per le decisioni sul tuo denaro, usa fonti ufficiali e, se necessario, un consulente autorizzato.

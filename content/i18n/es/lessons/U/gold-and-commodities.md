@@ -1,7 +1,7 @@
 ---
 title: "El oro y las materias primas"
 summary: El oro se ve como un «valor refugio», pero no paga intereses ni dividendos y su precio oscila mucho. Cómo pueden tenerse el oro y otras materias primas, qué son los ETC y la advertencia de la FMA sobre las ofertas de oro con descuento de «paga ahora, recibe después».
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## Por qué la gente compra oro
@@ -22,6 +22,9 @@ En los datos en dólares estadounidenses de Damodaran (lección 1):
 | Peor año | −32,6 % (1981) | −32,6 % (1981) |
 
 En comparación, el S&P 500 tuvo una volatilidad del 17,0 % en 1972–2025. El oro también tuvo largas rachas de pérdidas: en los datos, cayó **cinco años seguidos, de 1988 a 1992**, y de nuevo en **1996–1998**. Algunos años subió cuando caían las acciones: en **2008**, el S&P 500 perdió un 36,6 % mientras el oro ganaba un 4,3 %.
+
+> [!EXAMPLE] 2008 con y sin oro
+> Con las cifras de 2008 de arriba, 10.000 $ invertidos solo en el S&P 500 bajaron a 10.000 $ × (1 − 0,366) = **6.340 $**. Con un 80 % en el S&P 500 y un 20 % en oro, bajaron a 8.000 $ × (1 − 0,366) + 2.000 $ × 1,043 = 5.072 $ + 2.086 $ = **7.158 $**. El oro amortiguó la caída ese año; en otros años, como 1988–1992, fue el oro el que perdió dinero.
 
 > [!NOTE] Rentabilidad sin ingresos
 > El valor de una acción se basa en los beneficios de la empresa; el de un bono, en los pagos de intereses. La rentabilidad del oro procede solo de los cambios de su precio, que fija lo que esté dispuesto a pagar el siguiente comprador.

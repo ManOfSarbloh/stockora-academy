@@ -1,7 +1,7 @@
 ---
 title: "Gold und Rohstoffe"
 summary: Gold gilt als „sicherer Hafen“, zahlt aber keine Zinsen oder Dividenden, und sein Preis schwankt stark. Wie man Gold und andere Rohstoffe halten kann, was ETCs sind und die Warnung der FMA vor verbilligten Gold-Angeboten nach dem Prinzip „jetzt zahlen, später bekommen“.
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## Warum Menschen Gold kaufen
@@ -22,6 +22,9 @@ In Damodarans Daten in US-Dollar (Lektion 1):
 | Schlechtestes Jahr | −32,6 % (1981) | −32,6 % (1981) |
 
 Zum Vergleich: Der S&P 500 hatte 1972–2025 eine Volatilität von 17,0 %. Gold hatte auch lange Verlustphasen: In den Daten fiel es **fünf Jahre in Folge von 1988 bis 1992** und wieder **1996–1998**. In manchen Jahren stieg es, als Aktien fielen: **2008** verlor der S&P 500 36,6 %, während Gold 4,3 % zulegte.
+
+> [!EXAMPLE] 2008 mit und ohne Gold
+> Mit den Zahlen für 2008 von oben fielen 10.000 $ ganz im S&P 500 auf 10.000 $ × (1 − 0,366) = **6.340 $**. Mit 80 % im S&P 500 und 20 % in Gold fielen sie auf 8.000 $ × (1 − 0,366) + 2.000 $ × 1,043 = 5.072 $ + 2.086 $ = **7.158 $**. Gold hat den Rückgang in diesem Jahr abgefedert; in anderen Jahren, etwa 1988–1992, war es das Gold, das Geld verlor.
 
 > [!NOTE] Rendite ohne Ertrag
 > Der Wert einer Aktie beruht auf Unternehmensgewinnen, der einer Anleihe auf Zinszahlungen. Die Rendite von Gold kommt nur aus Preisänderungen, bestimmt dadurch, was der nächste Käufer zu zahlen bereit ist.

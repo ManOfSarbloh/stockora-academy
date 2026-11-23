@@ -1,7 +1,7 @@
 ---
 title: "Una rutina de investigación sencilla, y las herramientas de este sitio"
 summary: Una rutina breve y repetible para estudiar una empresa o una noticia, de comprobar al proveedor a leer la fuente original. Y una guía de las herramientas gratuitas de Stockora Academy que apoyan cada paso.
-translatedFrom: 2026-10-14
+translatedFrom: 2026-11-23
 ---
 
 Los buenos hábitos importan más que cualquier herramienta concreta (categoría O). Esta lección une las lecciones anteriores de esta categoría en una rutina que puedes repetir.
@@ -30,6 +30,11 @@ Los buenos hábitos importan más que cualquier herramienta concreta (categoría
 
 Apunta **por qué** compraste, qué esperabas y qué te haría vender. Más adelante, compara el resultado con tu razonamiento. Un diario de decisiones te protege del sesgo retrospectivo («ya lo sabía yo») y de la atribución interesada (categoría O), y un buen registro también ayuda con los impuestos (categoría Q).
 
+> [!EXAMPLE] Una entrada en un diario de decisiones
+> **12 de marzo:** compré 20 acciones de una empresa inventada a 48 €, alrededor del 5 % de mi cartera. **Por qué:** beneficios estables durante cinco años, deuda a la baja y una valoración cercana a su propia media. **Qué espero:** crecimiento lento y un dividendo pequeño, durante al menos cinco años. **Cuándo vendería:** si las razones dejan de cumplirse (por ejemplo, dos años de pérdidas o mucha más deuda), no porque el precio baje unas semanas.
+>
+> Un año después puedes comprobar si las razones se mantuvieron, en lugar de juzgar la decisión solo por el precio.
+
 ## Herramientas de Stockora Academy
 
 | Herramienta | Para qué usarla |
@@ -40,7 +45,7 @@ Apunta **por qué** compraste, qué esperabas y qué te haría vender. Más adel
 | [Buscar](/search) | Encontrar cualquier lección o término |
 | [Fuentes](/sources) | Las fuentes oficiales en las que se basan las lecciones |
 
-Se están añadiendo más herramientas, como las páginas de los mercados del mundo y el comprobador de Antifraude.
+También hay [herramientas y calculadoras](/tools), las páginas de [Bolsas del mundo](/world) y el comprobador [Antifraude](/scams).
 
 > [!NOTE] Educación, no asesoramiento
 > Este sitio explica cómo funcionan los mercados. No recomienda ninguna acción, fondo, bróker ni app. Para las decisiones sobre tu propio dinero, usa fuentes oficiales y, cuando haga falta, un asesor con licencia.

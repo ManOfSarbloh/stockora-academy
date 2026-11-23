@@ -1,7 +1,7 @@
 ---
 title: "Perché persone intelligenti commettono errori quando investono"
 summary: "La finanza comportamentale studia come le persone reali prendono decisioni sul denaro. Gli investitori sono razionali solo in parte e cadono in trappole prevedibili. Un'introduzione a euristiche, bias e al perché conoscerli aiuta."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 L'economia tradizionale presupponeva spesso che le persone prendessero decisioni razionali. La **finanza comportamentale** studia come le persone reali si comportano davvero con il denaro. L'Autorità austriaca per i mercati finanziari (FMA) ne riassume l'intuizione centrale: gli investitori sono **in grado di agire razionalmente solo in parte** e sono spesso soggetti a errori e distorsioni di giudizio quando prendono decisioni d'investimento.
@@ -31,6 +31,9 @@ La ricerca aggiunge l'**eccesso di fiducia**, che porta a operare troppo (lezion
 ## Perché conta per il tuo denaro
 
 I bias non sono semplici curiosità. In uno studio su 66.465 famiglie statunitensi con conti presso un grande broker discount nel 1991–1996, Brad Barber e Terrance Odean hanno rilevato che le famiglie che **operavano di più guadagnavano l'11,4% all'anno**, mentre il mercato rendeva il **17,9%**. La loro conclusione: il trading è pericoloso per il tuo patrimonio. Citano Benjamin Graham: il problema principale dell'investitore, e persino il suo peggior nemico, è probabilmente lui stesso.
+
+> [!EXAMPLE] Che cosa significa la differenza in euro
+> Proiettando per cinque anni i rendimenti annui dello studio su 10.000 €, all'11,4% annuo si arriva a circa **17.160 €**, al 17,9% annuo a circa **22.780 €**. La differenza di oltre 5.600 € è dovuta soprattutto ai costi di negoziare così spesso. (Solo un'illustrazione: lo studio riguardava il 1991–1996, e i rendimenti passati non si ripetono.)
 
 > [!NOTE] Riguarda tutti
 > I bias non sono un segno di scarsa intelligenza. Li mostrano anche esperti e professionisti. Conoscerli non ti rende immune, ma ti aiuta a costruire regole che ti proteggono da te stesso (lezione 8).

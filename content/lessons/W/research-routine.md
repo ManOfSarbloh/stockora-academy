@@ -6,7 +6,7 @@ level: beginner
 summary: A short, repeatable routine for looking at a company or a piece of news, from checking the provider to reading the original source. Plus a guide to the free tools on Stockora Academy that support each step.
 readingTime: 5
 tags: [research routine, checklist, decision diary, glossary, trading times]
-lastReviewed: 2026-10-14
+lastReviewed: 2026-11-23
 sources:
   - title: "Unternehmensdatenbank (FMA, in German)"
     url: https://www.fma.gv.at/unternehmensdatenbank-suche/
@@ -44,6 +44,11 @@ Good habits matter more than any single tool (Category O). This lesson puts the 
 
 Write down **why** you bought, what you expected and what would make you sell. Later, compare outcome with reasoning. A decision diary protects against hindsight ("I knew it all along") and self-attribution (Category O), and good records also help with taxes (Category Q).
 
+> [!EXAMPLE] One entry in a decision diary
+> **12 March:** bought 20 shares of a made-up company at €48, about 5% of my portfolio. **Why:** steady profits over five years, debt falling, valuation close to its own average. **What I expect:** slow growth and a small dividend, over at least five years. **When I would sell:** if the reasons stop being true (for example, two years of losses or much higher debt), not because the price drops for a few weeks.
+>
+> A year later you can check whether the reasons held, instead of judging the decision only by the price.
+
 ## Tools on Stockora Academy
 
 | Tool | Use it for |
@@ -54,7 +59,7 @@ Write down **why** you bought, what you expected and what would make you sell. L
 | [Search](/search) | Finding any lesson or term |
 | [Sources](/sources) | The official sources behind the lessons |
 
-More tools, such as world market pages and the Scam Shield checker, are being added.
+There are also [Tools and calculators](/tools), the [World Markets](/world) pages and the [Scam Shield](/scams) checker.
 
 > [!NOTE] Education, not advice
 > This site explains how markets work. It does not recommend any stock, fund, broker or app. For decisions about your own money, use official sources and, where needed, a licensed adviser.

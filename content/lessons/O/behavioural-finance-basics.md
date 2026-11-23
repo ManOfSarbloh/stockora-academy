@@ -6,7 +6,7 @@ level: beginner
 summary: Behavioural finance studies how real people decide about money. Investors are only partly rational and fall into predictable traps. An introduction to heuristics, biases and why knowing about them helps.
 readingTime: 6
 tags: [behavioural finance, biases, heuristics, Kahneman, Thaler, rationality]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-11-23
 sources:
   - title: "Psychologische Fallen bei Anlageentscheidungen und wie Sie diese vermeiden können (FMA, in German)"
     url: https://www.fma.gv.at/geldanlage/psychologische-fallen-bei-anlageentscheidungen-und-wie-sie-diese-vermeiden-koennen/
@@ -45,6 +45,9 @@ Research adds **overconfidence**, which leads to too much trading (lesson 3).
 ## Why it matters for your money
 
 Biases are not just curiosities. In a study of 66,465 US households with accounts at a large discount broker in 1991–1996, Brad Barber and Terrance Odean found that the households that **traded the most earned 11.4% a year**, while the market returned **17.9%**. Their conclusion: "trading is hazardous to your wealth". They quote Benjamin Graham: the investor's chief problem, and even his worst enemy, is likely to be himself.
+
+> [!EXAMPLE] What the gap means in euros
+> Carry the study's yearly returns forward for five years on €10,000: at 11.4% a year you end with about **€17,160**; at 17.9% a year, about **€22,780**. The difference of more than €5,600 came mainly from the costs of trading so often. (Illustration only: the study covered 1991–1996, and past returns do not repeat.)
 
 > [!NOTE] Everyone is affected
 > Biases are not a sign of low intelligence. Experts and professionals show them too. Knowing about them does not make you immune, but it helps you build rules that protect you from yourself (lesson 8).

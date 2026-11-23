@@ -6,7 +6,7 @@ level: beginner
 summary: Gold is seen as a "safe haven", but it pays no interest or dividends and its price swings a lot. How gold and other commodities can be held, what ETCs are, and the FMA's warning about discounted "pay now, receive later" gold offers.
 readingTime: 6
 tags: [gold, commodities, precious metals, ETC, safe haven, FMA warning]
-lastReviewed: 2026-10-12
+lastReviewed: 2026-11-23
 sources:
   - title: "Gold mit Rabatt: Günstiges Angebot oder riskantes Versprechen? (FMA, in German)"
     url: https://www.fma.gv.at/geldanlage/gold-mit-rabatt/
@@ -36,6 +36,9 @@ In Damodaran's US dollar data (lesson 1):
 | Worst year | −32.6% (1981) | −32.6% (1981) |
 
 For comparison, the S&P 500 had a volatility of 17.0% over 1972–2025. Gold also had long losing stretches: in the data, it fell in **five years in a row from 1988 to 1992**, and again in **1996–1998**. In some years it rose when shares fell: in **2008**, the S&P 500 lost 36.6% while gold gained 4.3%.
+
+> [!EXAMPLE] 2008 with and without gold
+> Using the 2008 figures above, $10,000 entirely in the S&P 500 fell to $10,000 × (1 − 0.366) = **$6,340**. With 80% in the S&P 500 and 20% in gold, it fell to $8,000 × (1 − 0.366) + $2,000 × 1.043 = $5,072 + $2,086 = **$7,158**. Gold softened the fall that year; in other years, such as 1988–1992, it was gold that lost money.
 
 > [!NOTE] Return without income
 > A share's value rests on company profits; a bond's on interest payments. Gold's return comes only from changes in its price, set by what the next buyer is willing to pay.

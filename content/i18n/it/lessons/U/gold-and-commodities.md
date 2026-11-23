@@ -1,7 +1,7 @@
 ---
 title: "Oro e materie prime"
 summary: "L'oro è considerato un «bene rifugio», ma non paga interessi né dividendi e il suo prezzo oscilla molto. Come si possono detenere oro e altre materie prime, che cosa sono gli ETC e l'avvertimento della FMA sulle offerte di oro scontato «paga ora, ricevi dopo»."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 ## Perché le persone comprano oro
@@ -22,6 +22,9 @@ Nei dati in dollari statunitensi di Damodaran (lezione 1):
 | Anno peggiore | −32,6% (1981) | −32,6% (1981) |
 
 Per confronto, l'S&P 500 ha avuto una volatilità del 17,0% nel 1972–2025. L'oro ha avuto anche lunghe serie negative: nei dati è sceso per **cinque anni di fila dal 1988 al 1992**, e di nuovo nel **1996–1998**. In alcuni anni è salito mentre le azioni scendevano: nel **2008** l'S&P 500 ha perso il 36,6% mentre l'oro ha guadagnato il 4,3%.
+
+> [!EXAMPLE] Il 2008 con e senza oro
+> Con i dati del 2008 riportati sopra, 10.000 $ tutti nell'S&P 500 sono scesi a 10.000 $ × (1 − 0,366) = **6.340 $**. Con l'80% nell'S&P 500 e il 20% in oro, sono scesi a 8.000 $ × (1 − 0,366) + 2.000 $ × 1,043 = 5.072 $ + 2.086 $ = **7.158 $**. L'oro ha attutito il calo quell'anno; in altri anni, come il 1988–1992, è stato l'oro a perdere.
 
 > [!NOTE] Rendimento senza reddito
 > Il valore di un'azione si basa sugli utili della società; quello di un'obbligazione sui pagamenti di interessi. Il rendimento dell'oro deriva solo dalle variazioni del suo prezzo, fissato da quanto il prossimo compratore è disposto a pagare.

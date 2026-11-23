@@ -1,7 +1,7 @@
 ---
 title: "Warum kluge Menschen beim Investieren Fehler machen"
 summary: Die Verhaltensökonomie untersucht, wie echte Menschen über Geld entscheiden. Anleger sind nur teilweise rational und tappen in vorhersehbare Fallen. Eine Einführung in Heuristiken, Verzerrungen und warum es hilft, sie zu kennen.
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 Die klassische Ökonomie nahm oft an, dass Menschen rationale Entscheidungen treffen. Die **Verhaltensökonomie** (Behavioral Finance) untersucht, wie sich echte Menschen mit Geld tatsächlich verhalten. Die österreichische Finanzmarktaufsicht (FMA) fasst ihre zentrale Erkenntnis zusammen: Anleger sind nur **bedingt in der Lage, rational zu handeln**, und unterliegen bei Anlageentscheidungen oft Fehlern und Urteilsverzerrungen.
@@ -31,6 +31,9 @@ Die Forschung ergänzt die **Selbstüberschätzung**, die zu zu viel Handeln fü
 ## Warum das für dein Geld wichtig ist
 
 Verzerrungen sind nicht nur Kuriositäten. In einer Studie mit 66.465 US-Haushalten mit Konten bei einem großen Discount-Broker in den Jahren 1991–1996 stellten Brad Barber und Terrance Odean fest, dass die Haushalte, die **am meisten handelten, 11,4 % pro Jahr** verdienten, während der Markt **17,9 %** brachte. Ihr Schluss: „Trading is hazardous to your wealth“ (Handeln gefährdet deinen Wohlstand). Sie zitieren Benjamin Graham: Das Hauptproblem des Anlegers, ja sogar sein schlimmster Feind, ist wahrscheinlich er selbst.
+
+> [!EXAMPLE] Was der Unterschied in Euro bedeutet
+> Schreibt man die jährlichen Renditen der Studie fünf Jahre lang auf 10.000 € fort, hat man mit 11,4 % pro Jahr am Ende etwa **17.160 €**, mit 17,9 % pro Jahr etwa **22.780 €**. Der Unterschied von mehr als 5.600 € kam vor allem von den Kosten des häufigen Handelns. (Nur zur Veranschaulichung: Die Studie umfasste 1991–1996, und vergangene Renditen wiederholen sich nicht.)
 
 > [!NOTE] Alle sind betroffen
 > Verzerrungen sind kein Zeichen geringer Intelligenz. Auch Experten und Profis zeigen sie. Sie zu kennen macht dich nicht immun, hilft dir aber, Regeln aufzustellen, die dich vor dir selbst schützen (Lektion 8).

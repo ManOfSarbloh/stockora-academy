@@ -1,7 +1,7 @@
 ---
 title: "Une routine de recherche simple, et les outils de ce site"
 summary: "Une routine courte et reproductible pour examiner une entreprise ou une information, de la vérification du prestataire à la lecture de la source d'origine. Avec un guide des outils gratuits de Stockora Academy qui accompagnent chaque étape."
-translatedFrom: 2026-10-14
+translatedFrom: 2026-11-23
 ---
 
 Les bonnes habitudes comptent plus que n'importe quel outil (catégorie O). Cette leçon réunit les leçons précédentes de cette catégorie en une routine que vous pouvez répéter.
@@ -30,6 +30,11 @@ Les bonnes habitudes comptent plus que n'importe quel outil (catégorie O). Cett
 
 Notez **pourquoi** vous avez acheté, ce que vous attendiez et ce qui vous ferait vendre. Plus tard, comparez le résultat avec votre raisonnement. Un journal de décisions protège contre le biais rétrospectif (« je le savais depuis le début ») et l'auto-attribution (catégorie O), et de bons justificatifs aident aussi pour les impôts (catégorie Q).
 
+> [!EXAMPLE] Une entrée dans un journal de décisions
+> **12 mars :** achat de 20 actions d'une entreprise inventée à 48 €, environ 5 % de mon portefeuille. **Pourquoi :** des bénéfices stables sur cinq ans, une dette en baisse, une valorisation proche de sa propre moyenne. **Ce que j'attends :** une croissance lente et un petit dividende, sur au moins cinq ans. **Quand je vendrais :** si les raisons ne tiennent plus (par exemple deux années de pertes ou une dette bien plus élevée), et non parce que le cours baisse pendant quelques semaines.
+>
+> Un an plus tard, vous pouvez vérifier si les raisons ont tenu, au lieu de juger la décision uniquement au cours.
+
 ## Les outils de Stockora Academy
 
 | Outil | À utiliser pour |
@@ -40,7 +45,7 @@ Notez **pourquoi** vous avez acheté, ce que vous attendiez et ce qui vous ferai
 | [Rechercher](/search) | Trouver n'importe quelle leçon ou n'importe quel terme |
 | [Sources](/sources) | Les sources officielles sur lesquelles reposent les leçons |
 
-D'autres outils, comme les pages sur les marchés du monde et le vérificateur Anti-arnaques, sont en cours d'ajout.
+Il existe aussi des [outils et calculateurs](/tools), les pages [Bourses du monde](/world) et le vérificateur [Anti-arnaques](/scams).
 
 > [!NOTE] De l'éducation, pas du conseil
 > Ce site explique le fonctionnement des marchés. Il ne recommande aucune action, aucun fonds, aucun courtier ni aucune application. Pour les décisions concernant votre propre argent, utilisez des sources officielles et, si nécessaire, un conseiller agréé.

@@ -1,7 +1,7 @@
 ---
 title: "Pourquoi des gens intelligents font des erreurs d'investissement"
 summary: "La finance comportementale étudie comment de vraies personnes décident en matière d'argent. Les investisseurs ne sont que partiellement rationnels et tombent dans des pièges prévisibles. Une introduction aux heuristiques, aux biais, et à l'utilité de les connaître."
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 L'économie traditionnelle a souvent supposé que les gens prennent des décisions rationnelles. La **finance comportementale** étudie comment les gens se comportent réellement avec l'argent. L'Autorité autrichienne des marchés financiers (FMA) résume son enseignement central : les investisseurs ne sont **que partiellement capables d'agir rationnellement** et sont souvent sujets à des erreurs et à des distorsions de jugement lorsqu'ils prennent des décisions d'investissement.
@@ -31,6 +31,9 @@ La recherche y ajoute l'**excès de confiance**, qui pousse à trop négocier (l
 ## Pourquoi cela compte pour votre argent
 
 Les biais ne sont pas de simples curiosités. Dans une étude portant sur 66 465 ménages américains ayant un compte chez un grand courtier à bas prix en 1991–1996, Brad Barber et Terrance Odean ont constaté que les ménages qui **négociaient le plus obtenaient 11,4 % par an**, alors que le marché rapportait **17,9 %**. Leur conclusion : le trading est dangereux pour votre patrimoine. Ils citent Benjamin Graham, pour qui le principal problème de l'investisseur, et même son pire ennemi, est probablement lui-même.
+
+> [!EXAMPLE] Ce que l'écart représente en euros
+> Si l'on prolonge sur cinq ans les rendements annuels de l'étude avec 10 000 €, on termine avec environ **17 160 €** à 11,4 % par an, et environ **22 780 €** à 17,9 % par an. L'écart de plus de 5 600 € vient surtout des coûts de transactions trop fréquentes. (Simple illustration : l'étude portait sur 1991–1996, et les rendements passés ne se répètent pas.)
 
 > [!NOTE] Tout le monde est concerné
 > Les biais ne sont pas un signe de faible intelligence. Les experts et les professionnels en montrent aussi. Les connaître ne vous en immunise pas, mais cela vous aide à vous fixer des règles qui vous protègent de vous-même (leçon 8).

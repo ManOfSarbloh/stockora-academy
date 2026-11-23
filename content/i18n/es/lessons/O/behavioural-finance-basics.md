@@ -1,7 +1,7 @@
 ---
 title: "Por qué las personas inteligentes cometen errores al invertir"
 summary: Las finanzas conductuales estudian cómo deciden las personas reales sobre el dinero. Los inversores son solo en parte racionales y caen en trampas previsibles. Una introducción a las heurísticas, los sesgos y por qué ayuda conocerlos.
-translatedFrom: 2026-10-12
+translatedFrom: 2026-11-23
 ---
 
 La economía tradicional suponía a menudo que las personas toman decisiones racionales. Las **finanzas conductuales** estudian cómo se comportan de verdad las personas con el dinero. La Autoridad austriaca de los Mercados Financieros (FMA) resume su idea central: los inversores solo son **en parte capaces de actuar racionalmente** y a menudo sufren errores y distorsiones de juicio al tomar decisiones de inversión.
@@ -31,6 +31,9 @@ La investigación añade el **exceso de confianza**, que lleva a operar demasiad
 ## Por qué importa para tu dinero
 
 Los sesgos no son simples curiosidades. En un estudio de 66.465 hogares de EE. UU. con cuentas en un gran bróker de descuento en 1991–1996, Brad Barber y Terrance Odean hallaron que los hogares que **más operaban ganaban un 11,4 % anual**, mientras que el mercado rendía un **17,9 %**. Su conclusión: «operar es peligroso para tu patrimonio». Citan a Benjamin Graham: el principal problema del inversor, e incluso su peor enemigo, probablemente sea él mismo.
+
+> [!EXAMPLE] Lo que supone la diferencia en euros
+> Si se prolongan durante cinco años las rentabilidades anuales del estudio sobre 10.000 €, con un 11,4 % anual se termina con unos **17.160 €**, y con un 17,9 % anual, con unos **22.780 €**. La diferencia de más de 5.600 € se debió sobre todo a los costes de operar tan a menudo. (Solo es una ilustración: el estudio abarcó 1991–1996, y las rentabilidades pasadas no se repiten).
 
 > [!NOTE] A todo el mundo le afecta
 > Los sesgos no son una señal de poca inteligencia. Los expertos y los profesionales también los muestran. Conocerlos no te hace inmune, pero te ayuda a crear reglas que te protejan de ti mismo (lección 8).
